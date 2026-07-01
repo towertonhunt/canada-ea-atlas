@@ -15,93 +15,50 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch federal assessment inventory (ArcGIS REST)
+      - name: Fetch federal assessment inventory (objectIds batching)
         run: |
           mkdir -p data/raw
           python3 - <<'EOF'
           import json, urllib.request
 
-          def get_raw(url):
-              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-              return urllib.request.urlopen(req, timeout=120).read()
-
           def get(url):
-              return json.loads(get_raw(url))
+              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+              return json.loads(urllib.request.urlopen(req, timeout=120).read())
 
           base = "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer"
           for lid in (0, 1, 2):
-              feats, offset = [], 0
-              while True:
-                  common = (f"{base}/{lid}/query?where=1%3D1&outFields=*&outSR=4326"
-                            f"&returnGeometry=true&resultOffset={offset}&resultRecordCount=1000")
-                  d = get(common + "&f=geojson")
-                  if 'error' in d or 'features' not in d:
-                      print(f'layer {lid} geojson error: {str(d)[:300]}')
-                      esri = get(common + "&f=json")
-                      if 'error' in esri:
-                          print(f'layer {lid} esri error: {str(esri)[:300]}')
-                          break
-                      d = {'features': [
-                          {'type': 'Feature',
-                           'geometry': ({'type': 'Point',
-                                         'coordinates': [f['geometry']['x'], f['geometry']['y']]}
-                                        if f.get('geometry') else None),
-                           'properties': f['attributes']}
-                          for f in esri.get('features', [])]}
-                  fs = d.get('features', [])
-                  feats += fs
-                  print(f'layer {lid}: +{len(fs)} (total {len(feats)})')
-                  if len(fs) < 1000:
-                      break
-                  offset += 1000
+              ids_resp = get(f"{base}/{lid}/query?where=1%3D1&returnIdsOnly=true&f=json")
+              if 'error' in ids_resp:
+                  print(f'layer {lid} ids error: {str(ids_resp)[:300]}')
+                  continue
+              oid_field = ids_resp.get('objectIdFieldName', 'OBJECTID')
+              ids = ids_resp.get('objectIds') or []
+              print(f'layer {lid}: {len(ids)} object ids (field {oid_field})')
+              feats = []
+              for i in range(0, len(ids), 100):
+                  batch = ','.join(map(str, ids[i:i+100]))
+                  q = (f"{base}/{lid}/query?objectIds={batch}&outFields=*&outSR=4326"
+                       f"&returnGeometry=true&f=json")
+                  esri = get(q)
+                  if 'error' in esri:
+                      print(f'layer {lid} batch {i} error: {str(esri)[:200]}')
+                      continue
+                  for f in esri.get('features', []):
+                      g = f.get('geometry')
+                      feats.append({'type': 'Feature',
+                                    'geometry': ({'type': 'Point',
+                                                  'coordinates': [g['x'], g['y']]} if g else None),
+                                    'properties': f['attributes']})
+              print(f'layer {lid}: fetched {len(feats)} features')
               json.dump({'type': 'FeatureCollection', 'features': feats},
                         open(f'data/raw/federal_layer{lid}.geojson', 'w'))
           EOF
 
-      - name: Fetch Ontario EAIMS dataset details
+      - name: Probe Quebec REE registry site
         run: |
-          python3 - <<'EOF'
-          import json, urllib.request
-
-          def get(url):
-              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-              return json.load(urllib.request.urlopen(req, timeout=60))
-
-          d = get("https://data.ontario.ca/api/3/action/package_show?id=environmental-assessment-information-management-system-eaims")
-          json.dump(d, open('data/raw/ontario_eaims_package.json', 'w'), indent=1)
-          for r in d['result']['resources']:
-              print(r.get('format'), '|', r.get('name'), '|', r.get('url'))
-          EOF
-
-      - name: Find Quebec EA registry via MELCCFP org listing
-        run: |
-          python3 - <<'EOF'
-          import json, urllib.request, urllib.parse
-
-          def get(url):
-              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-              return json.load(urllib.request.urlopen(req, timeout=60))
-
-          ckan = "https://www.donneesquebec.ca/recherche/api/3/action/"
-          # learn the MELCCFP org slug from a known dataset
-          d = get(ckan + "package_show?id=occurrences-especes-en-situation-precaire")
-          org = d['result']['organization']['name']
-          print('org slug:', org)
-          pkgs, start = [], 0
-          while True:
-              s = get(ckan + f"package_search?fq=organization:{urllib.parse.quote(org)}&rows=500&start={start}")
-              res = s['result']['results']
-              pkgs += res
-              print(f'quebec org datasets: +{len(res)} (total {len(pkgs)} of {s["result"]["count"]})')
-              if start + 500 >= s['result']['count'] or not res:
-                  break
-              start += 500
-          slim = [{'name': p['name'], 'title': p.get('title'),
-                   'resources': [{'format': r.get('format'), 'url': r.get('url')}
-                                 for r in p.get('resources', [])]}
-                  for p in pkgs]
-          json.dump(slim, open('data/raw/quebec_melccfp_datasets.json', 'w'), ensure_ascii=False, indent=1)
-          EOF
+          curl -sL --max-time 60 "https://www.ree.environnement.gouv.qc.ca/index.asp" -o data/raw/qc_ree_home.html || true
+          curl -sL --max-time 60 "https://www.ree.environnement.gouv.qc.ca/liste.asp" -o data/raw/qc_ree_liste.html || true
+          ls -la data/raw/qc_ree_* || true
 
       - name: Commit data to branch
         run: |
@@ -109,5 +66,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
           git add data/raw
-          git commit -m "Add phase-3 EA registry data (federal retry, EAIMS, QC org) [skip ci]" || echo "nothing to commit"
+          git commit -m "Add phase-4 EA registry data (federal objectIds, QC REE probe) [skip ci]" || echo "nothing to commit"
           git push
