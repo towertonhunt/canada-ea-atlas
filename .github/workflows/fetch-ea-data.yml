@@ -1,0 +1,84 @@
+name: Fetch EA registry data
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/fetch-ea-data.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch federal Impact Assessment Registry inventory
+        run: |
+          mkdir -p data/raw
+          curl -sL "https://open.canada.ca/data/api/3/action/package_show?id=f4c51eaa-a6ca-48b9-a1fc-b0651da20509" -o data/raw/federal_package.json
+          python3 - <<'EOF'
+          import json, urllib.request, re
+
+          pkg = json.load(open('data/raw/federal_package.json'))
+          for r in pkg['result']['resources']:
+              fmt = (r.get('format') or '').lower()
+              url = r.get('url', '')
+              lang = r.get('language') or []
+              if fmt not in ('csv', 'geojson', 'json', 'kml'):
+                  continue
+              safe = re.sub(r'[^a-z0-9]+', '_', (r.get('name') or r['id']).lower())[:60]
+              dest = f"data/raw/federal_{safe}.{fmt}"
+              try:
+                  urllib.request.urlretrieve(url, dest)
+                  print('OK  ', dest, '<-', url)
+              except Exception as e:
+                  print('FAIL', url, e)
+          EOF
+
+      - name: Fetch BC EPIC projects
+        run: |
+          python3 - <<'EOF'
+          import json, urllib.request
+
+          candidates = [
+              "https://projects.eao.gov.bc.ca/api/public/search?dataset=Project&pageSize=2000&pageNum=0",
+              "https://projects.eao.gov.bc.ca/api/v2/search?dataset=Project&pageSize=2000",
+              "https://projects.eao.gov.bc.ca/api/projects",
+          ]
+          for url in candidates:
+              try:
+                  req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                  body = urllib.request.urlopen(req, timeout=60).read()
+                  json.loads(body)  # must be valid JSON
+                  open('data/raw/bc_epic_projects.json', 'wb').write(body)
+                  print('OK  ', url, len(body), 'bytes')
+                  break
+              except Exception as e:
+                  print('FAIL', url, e)
+          EOF
+
+      - name: Probe provincial registries (report only)
+        run: |
+          for u in \
+            "https://ero.ontario.ca/" \
+            "https://www.donneesquebec.ca/recherche/api/3/action/package_search?q=evaluation+environnementale&rows=5" \
+            "https://open.alberta.ca/api/3/action/package_search?q=environmental+assessment&rows=5" \
+            ; do
+            code=$(curl -sL -o /dev/null -w "%{http_code}" --max-time 30 "$u" || echo ERR)
+            echo "$code $u"
+          done
+          curl -sL "https://www.donneesquebec.ca/recherche/api/3/action/package_search?q=registre+evaluations+environnementales&rows=10" -o data/raw/quebec_search.json || true
+          curl -sL "https://open.alberta.ca/api/3/action/package_search?q=environmental+assessment&rows=10" -o data/raw/alberta_search.json || true
+
+      - name: Commit data to branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw
+          git status --short
+          ls -la data/raw
+          git commit -m "Add raw EA registry data from fetch workflow [skip ci]" || echo "nothing to commit"
+          git push
