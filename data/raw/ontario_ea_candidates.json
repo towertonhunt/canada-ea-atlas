@@ -1,0 +1,175 @@
+{
+ "environmental-assessment-information-management-system-eaims": {
+  "title": "Environmental assessment information management system (EAIMS)",
+  "resources": []
+ },
+ "lake-st-clair-limnology-data": {
+  "title": "Lake St. Clair limnology data",
+  "resources": []
+ },
+ "lake-erie-limnology-data": {
+  "title": "Lake Erie limnology data",
+  "resources": []
+ },
+ "species-at-risk-monitoring-on-the-rt-hon-herb-gray-parkway": {
+  "title": "Species at Risk monitoring on the Rt. Hon. Herb Gray Parkway",
+  "resources": []
+ },
+ "foods-of-plant-origin-fpo-food-safety-surveillance": {
+  "title": "Foods of Plant Origin (FPO) food safety surveillance",
+  "resources": []
+ },
+ "ambient-air-quality-criteria": {
+  "title": "Ambient Air Quality Criteria",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/Ambient_Air_Quality_Criteria/List_Ambient_Air_Quality_Criteria.csv"
+   }
+  ]
+ },
+ "air-quality-stations": {
+  "title": "Air Quality Stations",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/2000-2022_Ambient_Air_Network.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/2000-2022_Ambient_Air_Network_Notes.csv"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/Air_Quality_Network/2000-2024_Ambient_Air_Network.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/Air_Quality_Network/2000-2023_Ambient_Air_Network.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/Air_Network_2022.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/Air_Network_2021.zip"
+   },
+   {
+    "format": "TXT",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/Air_Network_Readme_EN_FR.txt"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Air_Quality_Stations_metadata_EN.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Air_Quality_Stations_metadata_FR.pdf"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/Air_Quality_Network/2000-2023_Ambient_Air_Network.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/Air_Quality_Network/2000-2024_Ambient_Air_Network.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/Air_Quality_Network/2000-2024_Ambient_Air_Network_Notes.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/Air_Quality_Network/2000-2023_Ambient_Air_Network_Notes.csv"
+   }
+  ]
+ },
+ "borehole": {
+  "title": "Borehole",
+  "resources": [
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/opendata/ontario_borehole_database.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/opendata/ontario_borehole_database_0.zip"
+   }
+  ]
+ },
+ "ontario-digital-elevation-model-imagery-derived": {
+  "title": "Ontario Digital Elevation Model (Imagery-Derived)",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/mnrf::ontario-digital-elevation-model-imagery-derived"
+   },
+   {
+    "format": "WEB",
+    "url": "https://geohub-fr.lio.gov.on.ca/datasets/mnrf::mod\u00e8le-altim\u00e9trique-num\u00e9rique-de-lontario-donn\u00e9es-d\u00e9riv\u00e9es-de-limagerie"
+   }
+  ]
+ },
+ "fish-contaminants": {
+  "title": "Fish Contaminants",
+  "resources": [
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/2Water/fish_contaminant_data/Fish%20Contaminant%20Data%201967-1980.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/2Water/fish_contaminant_data/Fish%20Contaminant%20Data%201981-1985.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/2Water/fish_contaminant_data/Fish%20Contaminant%20Data%202002-2004.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/2Water/fish_contaminant_data/Fish%20Contaminant%20Data%202005-2018.xlsx"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Fish_Contaminants_metadata_EN.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Fish_Contaminants_metadata_FR.pdf"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/2Water/fish_contaminant_data/Fish%20Contaminant%20Data%201999-2001.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/2Water/fish_contaminant_data/Fish%20Contaminant%20Data%201993-1998.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/2Water/fish_contaminant_data/Fish%20Contaminant%20Data%201989-1992.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/2Water/fish_contaminant_data/Fish%20Contaminant%20Data%201986-1988.xlsx"
+   }
+  ]
+ },
+ "field-management-plan-agrisuite-tool": {
+  "title": "Field Management Plan \u2013 AgriSuite Tool",
+  "resources": []
+ },
+ "organic-amendment-calculator-agrisuite-tool": {
+  "title": "Organic Amendment Calculator - AgriSuite Tool",
+  "resources": []
+ },
+ "crop-nutrient-calculator-agrisuite-tool": {
+  "title": "Crop Nutrient Calculator - AgriSuite Tool",
+  "resources": []
+ },
+ "phosphorus-loss-plato-calculator-agrisuite-tool": {
+  "title": "Phosphorus Loss (PLATO) Calculator \u2013 AgriSuite Tool",
+  "resources": []
+ }
+}
