@@ -15,50 +15,50 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch federal assessment inventory (objectIds batching)
+      - name: Diagnose federal ArcGIS service and try alternates
         run: |
           mkdir -p data/raw
-          python3 - <<'EOF'
-          import json, urllib.request
+          BASE="https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer"
+          echo "== layer 0 metadata =="
+          curl -sL "$BASE/0?f=json" -o data/raw/federal_layer0_meta.json
+          python3 -c "import json; d=json.load(open('data/raw/federal_layer0_meta.json')); print({k: d.get(k) for k in ('name','type','geometryType','supportsAdvancedQueries','supportedQueryFormats','capabilities','maxRecordCount')}); print('fields:', [f['name'] for f in d.get('fields', [])])"
+          echo "== query variants =="
+          for v in \
+            "where=OBJECTID%3E0&outFields=OBJECTID&f=json" \
+            "where=1%3D1&outFields=OBJECTID&f=pjson" \
+            "where=1%3D1&outFields=*&f=json" \
+            "text=&where=1%3D1&outFields=*&returnGeometry=true&f=json" \
+            ; do
+            echo "--- $v"
+            curl -sL "$BASE/0/query?$v" | head -c 300
+            echo
+          done
+          echo "== POST query =="
+          curl -sL -X POST "$BASE/0/query" --data "where=1=1&outFields=*&returnGeometry=true&f=json" -o data/raw/federal_post_test.json
+          head -c 300 data/raw/federal_post_test.json; echo
 
-          def get(url):
-              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-              return json.loads(urllib.request.urlopen(req, timeout=120).read())
-
-          base = "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer"
-          for lid in (0, 1, 2):
-              ids_resp = get(f"{base}/{lid}/query?where=1%3D1&returnIdsOnly=true&f=json")
-              if 'error' in ids_resp:
-                  print(f'layer {lid} ids error: {str(ids_resp)[:300]}')
-                  continue
-              oid_field = ids_resp.get('objectIdFieldName', 'OBJECTID')
-              ids = ids_resp.get('objectIds') or []
-              print(f'layer {lid}: {len(ids)} object ids (field {oid_field})')
-              feats = []
-              for i in range(0, len(ids), 100):
-                  batch = ','.join(map(str, ids[i:i+100]))
-                  q = (f"{base}/{lid}/query?objectIds={batch}&outFields=*&outSR=4326"
-                       f"&returnGeometry=true&f=json")
-                  esri = get(q)
-                  if 'error' in esri:
-                      print(f'layer {lid} batch {i} error: {str(esri)[:200]}')
-                      continue
-                  for f in esri.get('features', []):
-                      g = f.get('geometry')
-                      feats.append({'type': 'Feature',
-                                    'geometry': ({'type': 'Point',
-                                                  'coordinates': [g['x'], g['y']]} if g else None),
-                                    'properties': f['attributes']})
-              print(f'layer {lid}: fetched {len(feats)} features')
-              json.dump({'type': 'FeatureCollection', 'features': feats},
-                        open(f'data/raw/federal_layer{lid}.geojson', 'w'))
-          EOF
-
-      - name: Probe Quebec REE registry site
+      - name: Try IAAC registry site exports
         run: |
-          curl -sL --max-time 60 "https://www.ree.environnement.gouv.qc.ca/index.asp" -o data/raw/qc_ree_home.html || true
-          curl -sL --max-time 60 "https://www.ree.environnement.gouv.qc.ca/liste.asp" -o data/raw/qc_ree_liste.html || true
-          ls -la data/raw/qc_ree_* || true
+          for u in \
+            "https://iaac-aeic.gc.ca/050/evaluations/exploration?output=csv" \
+            "https://iaac-aeic.gc.ca/050/evaluations/exploration.csv" \
+            "https://iaac-aeic.gc.ca/050/evaluations/csv" \
+            ; do
+            echo "--- $u"
+            curl -sL --max-time 60 -w "HTTP %{http_code} type %{content_type} size %{size_download}\n" -o /tmp/probe.out "$u" || true
+            head -c 200 /tmp/probe.out; echo
+          done
+          curl -sL --max-time 60 "https://iaac-aeic.gc.ca/050/evaluations" -o data/raw/iaac_registry_home.html
+          grep -oE '(api|API)[^"'"'"' ]*' data/raw/iaac_registry_home.html | sort -u | head -30 || true
+          grep -oE 'src="[^"]+\.js[^"]*"' data/raw/iaac_registry_home.html | head -20 || true
+
+      - name: Fetch Quebec REE full project list (empty keyword search)
+        run: |
+          curl -sL --max-time 120 -X POST "https://www.ree.environnement.gouv.qc.ca/resultats.asp" \
+            --data "motcle=&region_adm=&Submit1=Rechercher" \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            -o data/raw/qc_ree_resultats.html || true
+          wc -c data/raw/qc_ree_resultats.html
 
       - name: Commit data to branch
         run: |
@@ -66,5 +66,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
           git add data/raw
-          git commit -m "Add phase-4 EA registry data (federal objectIds, QC REE probe) [skip ci]" || echo "nothing to commit"
+          git commit -m "Add phase-5 diagnostics (federal service meta, IAAC exports, QC REE results) [skip ci]" || echo "nothing to commit"
           git push
