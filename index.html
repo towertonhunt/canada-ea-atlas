@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ontario Renewable Energy Approvals</title>
+  <title>Canadian Environmental Assessment Projects</title>
 
   <!-- Leaflet -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -180,19 +180,22 @@
 
 <div id="header">
   <div>
-    <h1>Ontario Renewable Energy Approvals</h1>
-    <div class="subtitle">REA Project Document Library</div>
+    <h1>Canadian Environmental Assessment Projects</h1>
+    <div class="subtitle">Federal &amp; provincial EA registries · project documents</div>
   </div>
 </div>
 
 <div id="filters">
   <div class="filter-group">
-    <label for="filter-type">Type</label>
+    <label for="filter-jurisdiction">Jurisdiction</label>
+    <select id="filter-jurisdiction">
+      <option value="">All</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <label for="filter-type">Sector</label>
     <select id="filter-type">
       <option value="">All</option>
-      <option value="wind">Wind</option>
-      <option value="solar">Solar</option>
-      <option value="biogas">Biogas</option>
     </select>
   </div>
   <div class="filter-group">
@@ -235,20 +238,27 @@
 
 <!-- Legend (inside map div so it floats over) -->
 <div id="legend">
-  <h4>Project Type</h4>
-  <div class="legend-row"><span class="legend-icon">🌬️</span> Wind (full docs)</div>
-  <div class="legend-row"><span class="legend-icon" style="opacity:0.45">🌬️</span> Wind (approval only)</div>
-  <div class="legend-row"><span class="legend-icon">☀️</span> Solar (full docs)</div>
-  <div class="legend-row"><span class="legend-icon" style="opacity:0.45">☀️</span> Solar (approval only)</div>
-  <div class="legend-row"><span class="legend-icon">🔥</span> Biogas (full docs)</div>
-  <div class="legend-row"><span class="legend-icon" style="opacity:0.45">🔥</span> Biogas (approval only)</div>
+  <h4>Sector</h4>
+  <div id="legend-rows"></div>
 </div>
+<script>
+// Legend is generated from CATEGORY_META after it is defined below.
+window.addEventListener("DOMContentLoaded", () => {
+  const el = document.getElementById("legend-rows");
+  for (const [key, meta] of Object.entries(CATEGORY_META)) {
+    const row = document.createElement("div");
+    row.className = "legend-row";
+    row.innerHTML = `<span class="legend-icon" style="display:inline-block;width:12px;height:12px;border-radius:50%;background:${meta.colour}"></span> ${meta.label}`;
+    el.appendChild(row);
+  }
+});
+</script>
 
 <script>
 // ── Map setup ──────────────────────────────────────────────────────────────
 const map = L.map("map", {
-  center: [44.5, -79.5],
-  zoom: 7,
+  center: [56.5, -96],
+  zoom: 4,
   zoomControl: true,
 });
 
@@ -323,22 +333,45 @@ const SVG_BIOGAS = (c, op) => `
     fill="white" opacity="${op * 0.35}"/>
 </svg>`;
 
-function makeIcon(feature, selected) {
-  const t   = (feature.properties.type || "other");
-  const has = feature.properties.has_tech_docs;
-  const op  = has ? 1 : 0.42;   // muted for approval-only
+const CATEGORY_META = {
+  wind:         { colour: "#2563eb", label: "Wind" },
+  solar:        { colour: "#d97706", label: "Solar" },
+  biogas:       { colour: "#16a34a", label: "Biogas / biomass" },
+  hydro:        { colour: "#0891b2", label: "Hydro / dams" },
+  mining:       { colour: "#92400e", label: "Mining" },
+  oil_gas:      { colour: "#57534e", label: "Oil & gas" },
+  nuclear:      { colour: "#ca8a04", label: "Nuclear" },
+  energy_other: { colour: "#7c3aed", label: "Other energy" },
+  transport:    { colour: "#db2777", label: "Transport" },
+  water:        { colour: "#0d9488", label: "Water / marine" },
+  industrial:   { colour: "#4b5563", label: "Industrial" },
+  waste:        { colour: "#65a30d", label: "Waste" },
+  agriculture:  { colour: "#84cc16", label: "Agriculture" },
+  tourism:      { colour: "#f472b6", label: "Tourism" },
+  other:        { colour: "#6b7280", label: "Other" },
+};
 
-  const COLOURS = { wind: "#2563eb", solar: "#d97706", biogas: "#16a34a", other: "#6b7280" };
-  const c = selected ? "#7c3aed" : (COLOURS[t] || COLOURS.other);
+function makeIcon(feature, selected) {
+  const cat = feature.properties.category || "other";
+  const has = feature.properties.has_tech_docs || feature.properties.doc_count > 0;
+  const op  = has ? 1 : 0.75;
+
+  const meta = CATEGORY_META[cat] || CATEGORY_META.other;
+  const c = selected ? "#dc2626" : meta.colour;
 
   let svgStr;
-  if (t === "wind")        svgStr = SVG_WIND(c, op);
-  else if (t === "solar")  svgStr = SVG_SOLAR(c, op);
-  else if (t === "biogas") svgStr = SVG_BIOGAS(c, op);
-  else svgStr = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38" width="38" height="38">
-    <circle cx="19" cy="19" r="18" fill="white" opacity="${op}" stroke="${c}" stroke-width="2"/>
-    <circle cx="19" cy="19" r="8" fill="${c}" opacity="${op}"/>
-  </svg>`;
+  if (cat === "wind")        svgStr = SVG_WIND(c, op);
+  else if (cat === "solar")  svgStr = SVG_SOLAR(c, op);
+  else if (cat === "biogas") svgStr = SVG_BIOGAS(c, op);
+  else {
+    // generic marker: coloured circle with first letter of category
+    const letter = meta.label.charAt(0);
+    svgStr = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38" width="38" height="38" style="filter:drop-shadow(0 1px 2px rgba(0,0,0,0.35))">
+      <circle cx="19" cy="19" r="17" fill="white" opacity="${op}" stroke="${c}" stroke-width="2"/>
+      <circle cx="19" cy="19" r="12" fill="${c}" opacity="${op}"/>
+      <text x="19" y="24" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="white">${letter}</text>
+    </svg>`;
+  }
 
   return L.divIcon({
     html: svgStr,
@@ -394,30 +427,44 @@ function openSidebar(feature, marker) {
   sidebar.classList.remove("hidden");
 
   // Meta section
-  const typeClass = `type-${p.type || "other"}`;
-  const cap = p.capacity_mw ? `${p.capacity_mw} MW` : "—";
+  const catMeta = CATEGORY_META[p.category || "other"] || CATEGORY_META.other;
+  const cap = p.capacity_mw ? `${p.capacity_mw} MW` : null;
   const turbines = p.num_turbines ? ` · ${p.num_turbines} turbines` : "";
   const panels   = p.num_panels   ? ` · ${p.num_panels} panels`   : "";
-  const location = [p.municipality, p.county].filter(Boolean).join(", ") || "—";
+  const location = [p.location, p.municipality, p.county, p.region]
+    .filter(Boolean).join(", ") || "—";
+
+  const rows = [
+    ["Jurisdiction", p.jurisdiction],
+    ["Sector", p.type],
+    ["Status", p.status],
+    ["Decision", p.decision],
+    ["Proponent", p.proponent],
+    cap ? ["Capacity", `${cap}${turbines}${panels}`] : null,
+    ["Approved", p.approval_date],
+    ["Location", location],
+    p.rea_number ? ["REA Number", p.rea_number] : null,
+    p.doc_count ? ["Documents", `${p.doc_count} total`] : null,
+    p.updated ? ["Updated", p.updated] : null,
+  ].filter(r => r && r[1]);
 
   sidebarMeta.innerHTML = `
-    <div style="margin-bottom:8px;display:flex;align-items:center;gap:8px">
-      <span class="type-badge ${typeClass}">${p.type || "—"}</span>
+    <div style="margin-bottom:8px;display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <span class="type-badge" style="background:${catMeta.colour}22;color:${catMeta.colour}">${catMeta.label}</span>
       ${p.procurement ? `<span style="font-size:0.72rem;color:#666">${p.procurement}</span>` : ""}
     </div>
     <div class="meta-grid">
-      <div class="meta-item"><label>Proponent</label><span>${p.proponent || "—"}</span></div>
-      <div class="meta-item"><label>Capacity</label><span>${cap}${turbines}${panels}</span></div>
-      <div class="meta-item"><label>Approved</label><span>${p.approval_date || "—"}</span></div>
-      <div class="meta-item"><label>Location</label><span>${location}</span></div>
-      <div class="meta-item"><label>REA Number</label><span style="font-size:0.72rem">${p.rea_number || "—"}</span></div>
-      <div class="meta-item"><label>Documents</label><span>${p.doc_count} total</span></div>
-    </div>`;
+      ${rows.map(([k, v]) => `<div class="meta-item"><label>${k}</label><span>${v}</span></div>`).join("")}
+    </div>
+    ${p.registry_url ? `<div style="margin-top:10px"><a href="${p.registry_url}" target="_blank" rel="noopener" style="font-size:0.8rem;color:#1a3a5c;font-weight:600">Open registry page ↗</a></div>` : ""}
+    ${p.description ? `<p style="margin-top:8px;font-size:0.78rem;color:#555;line-height:1.4">${p.description}</p>` : ""}`;
 
   // Document sections
   docList.innerHTML = "";
   if (!p.doc_sections || p.doc_sections.length === 0) {
-    docList.innerHTML = `<p class="no-docs">No documents found for this project.</p>`;
+    docList.innerHTML = `<p class="no-docs">${p.registry_url
+      ? "Documents are available on this project's registry page."
+      : "No documents found for this project."}</p>`;
     return;
   }
 
@@ -447,11 +494,12 @@ function openSidebar(feature, marker) {
 let allFeatures = [];
 let allMarkers  = [];  // parallel array to allFeatures
 
-fetch("projects.geojson")
-  .then(r => r.json())
+fetch("data/projects_canada.geojson")
+  .then(r => r.ok ? r.json() : fetch("projects.geojson").then(r2 => r2.json()))
   .then(data => {
     allFeatures = data.features;
     buildYearFilters();
+    buildDynamicFilters();
     applyFilters();
   })
   .catch(err => console.error("Failed to load GeoJSON:", err));
@@ -466,7 +514,20 @@ function buildYearFilters() {
   });
 }
 
+function buildDynamicFilters() {
+  const jurs = [...new Set(allFeatures.map(f => f.properties.jurisdiction).filter(Boolean))].sort();
+  const jSel = document.getElementById("filter-jurisdiction");
+  jurs.forEach(j => jSel.add(new Option(j, j)));
+
+  const cats = [...new Set(allFeatures.map(f => f.properties.category).filter(Boolean))];
+  const order = Object.keys(CATEGORY_META);
+  cats.sort((a, b) => order.indexOf(a) - order.indexOf(b));
+  const tSel = document.getElementById("filter-type");
+  cats.forEach(c => tSel.add(new Option((CATEGORY_META[c] || {}).label || c, c)));
+}
+
 function applyFilters() {
+  const jurVal    = document.getElementById("filter-jurisdiction").value;
   const typeVal   = document.getElementById("filter-type").value;
   const yearMin   = parseInt(document.getElementById("filter-year-min").value) || 0;
   const yearMax   = parseInt(document.getElementById("filter-year-max").value) || 9999;
@@ -475,13 +536,14 @@ function applyFilters() {
 
   const filtered = allFeatures.filter(f => {
     const p = f.properties;
-    if (typeVal && p.type !== typeVal) return false;
+    if (jurVal && p.jurisdiction !== jurVal) return false;
+    if (typeVal && p.category !== typeVal) return false;
     if (yearMin && (p.approval_year || 0) < yearMin) return false;
     if (yearMax < 9999 && (p.approval_year || 0) > yearMax) return false;
     if (docsVal === "tech"     && !p.has_tech_docs) return false;
     if (docsVal === "approval" &&  p.has_tech_docs) return false;
     if (search) {
-      const haystack = `${p.name} ${p.proponent} ${p.municipality} ${p.county}`.toLowerCase();
+      const haystack = `${p.name} ${p.proponent || ""} ${p.municipality || ""} ${p.county || ""} ${p.location || ""} ${p.jurisdiction || ""}`.toLowerCase();
       if (!haystack.includes(search)) return false;
     }
     return true;
@@ -490,8 +552,10 @@ function applyFilters() {
   // Rebuild cluster layer
   cluster.clearLayers();
   allMarkers = [];
+  let unmapped = 0;
 
   filtered.forEach(feature => {
+    if (!feature.geometry || !feature.geometry.coordinates) { unmapped++; return; }
     const [lng, lat] = feature.geometry.coordinates;
     const marker = L.marker([lat, lng], { icon: makeIcon(feature, false) });
     marker.feature = feature;
@@ -500,11 +564,13 @@ function applyFilters() {
     cluster.addLayer(marker);
   });
 
-  document.getElementById("count-badge").textContent = `${filtered.length} project${filtered.length !== 1 ? "s" : ""}`;
+  const badge = `${filtered.length} project${filtered.length !== 1 ? "s" : ""}` +
+    (unmapped ? ` (${unmapped} without map location)` : "");
+  document.getElementById("count-badge").textContent = badge;
 }
 
 // Wire up filter controls
-["filter-type","filter-year-min","filter-year-max","filter-docs"].forEach(id => {
+["filter-jurisdiction","filter-type","filter-year-min","filter-year-max","filter-docs"].forEach(id => {
   document.getElementById(id).addEventListener("change", applyFilters);
 });
 let searchTimeout;

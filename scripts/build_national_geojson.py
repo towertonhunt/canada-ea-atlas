@@ -20,7 +20,52 @@ features = []
 
 
 def add(feat):
+    p = feat['properties']
+    if 'category' not in p:
+        p['category'] = categorize(p.get('type') or '')
     features.append(feat)
+
+
+CATEGORY_RULES = [
+    ('wind', ['wind', 'éolien', 'eolien']),
+    ('solar', ['solar', 'solaire']),
+    ('biogas', ['biogas', 'anaerobic', 'biomass', 'bioenergy', 'biométhane',
+                'biomethane', 'biomasse']),
+    ('hydro', ['hydro', 'dam', 'water power', 'waterpower', 'barrage',
+               'digue', 'rivière', 'riviere']),
+    ('mining', ['mine', 'mining', 'quarry', 'aggregate', 'coal', 'metal',
+                'minier', 'minière', 'miniere', 'carrière', 'carriere',
+                "banc d'emprunt"]),
+    ('oil_gas', ['oil', 'gas', 'lng', 'pipeline', 'petroleum', 'refinery',
+                 'hydrocarbure', 'oléoduc', 'oleoduc', 'gazoduc',
+                 'pétrolière', 'petroliere', 'gaz naturel']),
+    ('nuclear', ['nuclear', 'uranium', 'nucléaire', 'nucleaire']),
+    ('energy_other', ['energy', 'electric', 'transmission', 'power',
+                      'énergie', 'energie', 'centrale']),
+    ('transport', ['highway', 'road', 'rail', 'bridge', 'port', 'terminal',
+                   'airport', 'ferry', 'transport', 'marine', 'routière',
+                   'routiere', 'ferroviaire', 'aéroport', 'aeroport', 'quai']),
+    ('water', ['water', 'wastewater', 'sewage', 'flood', 'irrigation',
+               'reservoir', 'dredg', 'milieux humides', 'hydrique',
+               'réservoir', 'dragage', 'eaux']),
+    ('industrial', ['industrial', 'plant', 'facility', 'manufactur', 'pulp',
+                    'mill', 'smelter', 'industrie', 'métallurgique',
+                    'metallurgique', 'chimique', 'usine']),
+    ('waste', ['waste', 'landfill', 'hazardous', 'matières résiduelles',
+               'matieres residuelles', 'déchet', 'dechet', 'sols contaminés',
+               'sols contamines']),
+    ('agriculture', ['agricult', 'production animale', 'farm', 'élevage',
+                     'elevage']),
+    ('tourism', ['tourist', 'resort', 'récréotouristique', 'recreotouristique']),
+]
+
+
+def categorize(type_str):
+    t = str(type_str).lower()
+    for cat, keys in CATEGORY_RULES:
+        if any(k in t for k in keys):
+            return cat
+    return 'other'
 
 
 # ── Ontario REA (existing map data, keep everything) ─────────────────
@@ -98,6 +143,49 @@ if os.path.exists(bc_path):
              'properties': props})
         n_bc += 1
 print(f'bc: {n_bc}')
+
+# ── Quebec REE (table + coordinates scraped from carte.asp pages) ────
+qc_path = os.path.join(RAW, 'qc_ree_resultats.html')
+n_qc = 0
+if os.path.exists(qc_path):
+    coords = {}
+    cpath = os.path.join(RAW, 'qc_coords.json')
+    if os.path.exists(cpath):
+        coords = json.load(open(cpath))
+    h = open(qc_path, encoding='utf-8', errors='replace').read()
+    rows = re.findall(r'<tr[^>]*>(.*?)</tr>', h, re.S)
+    for r in rows[1:]:
+        cells = re.findall(r'<t[dh][^>]*>(.*?)</t[dh]>', r, re.S)
+        if len(cells) < 5:
+            continue
+        strip = lambda c: re.sub(r'\s+', ' ',
+                                 htmllib.unescape(re.sub(r'<[^>]+>', ' ', c))).strip()
+        name, prop, sector, muni, updated = (strip(c) for c in cells[:5])
+        if not name or name.startswith('Nom du projet'):
+            continue
+        dm = re.search(r'no_dossier=([^"&]+)', r)
+        dossier = dm.group(1) if dm else None
+        geom = None
+        if dossier and dossier in coords:
+            lat, lon = coords[dossier]
+            # sanity: QC latitudes 44..63, longitudes -80..-57
+            if 40 < lat < 65 and -85 < lon < -50:
+                geom = {'type': 'Point', 'coordinates': [lon, lat]}
+        props = {
+            'name': name,
+            'jurisdiction': 'Quebec (MELCCFP)',
+            'source': 'qc_ree',
+            'status': None,
+            'type': sector,
+            'proponent': prop,
+            'municipality': muni,
+            'updated': updated,
+            'registry_url': ('https://www.ree.environnement.gouv.qc.ca/fiche.asp?no_dossier=' + dossier)
+                            if dossier else None,
+        }
+        add({'type': 'Feature', 'geometry': geom, 'properties': props})
+        n_qc += 1
+print(f'quebec: {n_qc}')
 
 # ── Nova Scotia (no coordinates in source; parsed for list/search) ───
 ns_path = os.path.join(RAW, 'ns_ea_projects.html')
