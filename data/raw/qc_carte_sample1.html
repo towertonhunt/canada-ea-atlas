@@ -1,0 +1,321 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Région administrative</title>
+<link rel="stylesheet" type="text/css" href="/css/banniere-PIV.css">
+<link rel="stylesheet" type="text/css" href="/css/css_general.css">
+<link rel="stylesheet" type="text/css" href="menu/menu_fr_css/css/generale.css">
+
+<style type="text/css">
+
+html { height: 100% }
+#cadre {height: 702px; width:902px;border:1px #000 solid;margin-left:25px; }
+#map_ree { height: 700px; width:900px; margin-left:auto; margin-right:auto } 
+
+.map {
+	margin-left:auto;
+	margin-right:auto;
+	height: 700px;
+	width:760px;
+}
+
+
+.fonce {
+	background-color:#C0C0C0;background-color:#C5CFBC;
+}
+.pale {
+	background-color:#FFFFFF;
+}
+
+.petit {
+	font-size:.8em;
+}
+
+.centrer {
+	text-align:center;
+}
+.style1 {
+	font-family: "Times New Roman";
+}
+</style>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<!--meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /-->
+<title>sans titre 2</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyANteoQr8KK-e2CuZRzIND0txSXNS-rh4o&sensor=false"></script>
+<script type="text/javascript">
+function init_ree() {
+  var myOptions = {
+    zoom: 12,
+    streetViewControl:false,
+    center: new google.maps.LatLng(46.558522, -72.414535),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+  var map = new google.maps.Map(document.getElementById("map_ree"),
+                                myOptions);
+
+  setMarkers(map, REGISTRE_EE);
+}
+
+var REGISTRE_EE = [
+
+['Projet :  Projet de démantèlement du barrage de Saint-Narcisse',46.558522,-72.414535,1,'pastille_b.gif','<div style=width:500px;clear:both><div style=width:150px;float:left><span style=font-size:1.15em;font-weight:bold>Nom du projet :&nbsp;</span></div><div style=width:350px;float:left>Projet de démantèlement du barrage de Saint-Narcisse</div></div><br />&nbsp;<div style=width:500px;clear:both><div style=width:150px;float:left><span style=font-size:1.15em;font-weight:bold>Initiateur du projet :&nbsp;</span></div><div style=width:350px;float:left>Hydro-Québec</div></div><br />&nbsp;<div style=width:500px;clear:both><div style=width:150px;float:left><span style=font-size:1.15em;font-weight:bold>Région :&nbsp;</span></div><div style=width:350px;float:left>Mauricie</div></div><br />&nbsp;<div style=width:500px;clear:both><div style=width:150px;float:left><span style=font-size:1.15em;font-weight:bold>Municipalité :&nbsp;</span></div><div style=width:350px;float:left>Saint-Narcisse</div></div>&nbsp;<div style=clear:both><a href=projet.asp?no_dossier=3211-01-067>Voir les documents liés au projet</a></div>'],];
+
+function setMarkers(map, locations) {
+  var infobulle = new google.maps.InfoWindow({maxWidth: 500});
+  
+for (var i = 0; i < locations.length; i++) {
+    var REG_EE = locations[i];
+   
+  	var image = new google.maps.MarkerImage('/img/'+REG_EE[4],
+      new google.maps.Size(15, 15),
+      new google.maps.Point(0,0),
+      new google.maps.Point(0, 15));
+	
+
+    var myLatLng = new google.maps.LatLng(REG_EE[1], REG_EE[2]);
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        //shadow: shadow,
+        icon: image,
+        //shape: shape,
+        title: REG_EE[0],
+        zIndex: REG_EE[3],
+        contenuInfoBulle: REG_EE[5]
+    });
+          google.maps.event.addListener(marker, "click", function() {
+
+               infobulle.setContent(this.contenuInfoBulle);
+
+               infobulle.open(map,this);
+               });
+  }
+}
+</script>
+
+</head>
+
+<body onload="init_ree()">
+
+	
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K5HMNSL');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5HMNSL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="bandeauPIV-bleu">
+
+	<div id="centre-no-txt">&nbsp;<div id="melcc" >
+		Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs</div><a href="http://www.environnement.gouv.qc.ca/recherche.htm"><img id="loupe-banniere" alt="Recherche" src="COMMUN/piv/loupe-piv.jpg" width="50" height="38" /></a>
+	<div id="piv-menu">
+	<a target="_blank" href="https://www.quebec.ca/gouv/ministere/environnement/coordonnees/">Nous joindre</a> 
+	<img alt="Cet hyperlien s'ouvrira dans une nouvelle fenêtre." src="images/lien-externe.gif" width="10" height="10" ><br>
+     <a href="http://www.environnement.gouv.qc.ca/index_en.asp">English</a><br>
+
+	</div>
+	
+	
+		<a target="_blank" href="https://www.quebec.ca/">
+     
+     <img id="quebec-ca" alt="Quebec.ca" src="COMMUN/piv/QUEBEC_blanc.png" /></a></div>
+	
+</div>
+
+
+<!-- debut du menu -->
+<div id="cache">Navigation par thématique</div>
+<div id="nav_horizon">
+<ul class="horizon">
+            <li><a class="nav" title="Accueil" href="/index.asp">Accueil</a>&nbsp;|</li>
+            <li>
+			<a class="nav" target="_blank" title="Ministre" href="https://www.quebec.ca/gouv/ministere/environnement/">Ministre</a>&nbsp;<img alt="Cet hyperlien s'ouvrira dans une nouvelle fenêtre." src="/images/lien-externe.gif" width="10" height="10" />&nbsp;|</li>
+			<li><a class="nav" href="http://www.environnement.gouv.qc.ca/ministere/inter.htm" title="Le Minist&egrave;re">Le Ministère</a>&nbsp;|</li>
+            <li><a class="nav" title="Air" href="http://www.environnement.gouv.qc.ca/air/inter.htm">Air</a>&nbsp;|</li>
+            <li><a class="nav" title="Biodiversit&eacute;" href="http://www.environnement.gouv.qc.ca/biodiversite/inter.htm">Biodiversité</a>&nbsp;|</li>
+            <li><a class="nav" title="Changements climatiques" href="http://www.environnement.gouv.qc.ca/changementsclimatiques/index.asp">Changements climatiques</a>&nbsp;|</li>
+            <li><a class="nav" title="Développement&nbsp;durable" href="http://www.environnement.gouv.qc.ca/developpement/inter.htm">Développement&nbsp;durable</a>&nbsp;|</li>
+</ul>
+<ul class="horizon">
+
+
+            
+            <li></li>
+			<li><a class="nav" title="Eau" href="http://www.environnement.gouv.qc.ca/eau/inter.htm">Eau</a></li>
+			<li><a class="nav" title="&Eacute;valuations environnementales" href="http://www.environnement.gouv.qc.ca//evaluations/inter.htm">Évaluations environnementales</a>&nbsp;|</li>
+
+
+            
+			<li>
+			<a class="nav" title="Matières résiduelles" href="http://www.environnement.gouv.qc.ca/matieres/inter.htm">Matières résiduelles</a>&nbsp;|</li>
+			<li><a class="nav" title="Milieu agricole" href="http://www.environnement.gouv.qc.ca/milieu_agri/inter.htm">Milieu agricole</a>&nbsp;|</li>
+            <li><a class="nav" title="Milieu industriel" href="http://www.environnement.gouv.qc.ca/Industriel/inter.htm">Milieu industriel</a>&nbsp;|</li>
+			<li><a class="nav" title="Pesticides" href="http://www.environnement.gouv.qc.ca/pesticides/inter.htm">Pesticides</a>&nbsp;|</li>
+            <li><a class="nav" title="Terrains contaminés" href="http://www.environnement.gouv.qc.ca/sol/inter.htm">Terrains contaminés</a></li>
+</ul>
+</div>
+<!-- fin du menu -->
+
+	
+	<h2>Registre des évaluations environnementales</h2>
+	<a name="carte"></a>
+
+
+	<div style="margin-left:auto; margin-right:auto; width:925px;padding-top:20px;">
+		<a name="onglets"></a>
+			
+		<div style="border:0px green solid; min-height:700px;">
+			<div id="info">
+				<div id="principal2">
+						<h1 class="centrer">Localisation du projet</h1>
+						
+				<h2 class="centrer">Projet de démantèlement du barrage de Saint-Narcisse</h2>	
+				<!--p><input name="Button1" type="button" value="Fermer cette fenêtre" onclick="window.close()"/></p-->
+				</div>
+				
+			</div>
+	
+			<div id="cadre" style="clear:both">
+			  	<div id="map_ree"></div>
+			</div>
+			
+		    <div class="note_limite_quebec">
+		    	
+« Le Ministère décline toute responsabilité quant à l'exactitude des fonds de carte utilisés par Google (ex. : le tracé des frontières n'est pas conforme à la position du gouvernement du Québec) et de la nomenclature qui y figure. La direction générale de l'information&#8206; territoriale du ministère de l’Énergie et des Ressources naturelles (MERN) est la source officielle des limites territoriales du Québec. 
+»
+
+
+		    </div>
+		    
+			
+<div class="pub">Notez que les localisations sont approximatives. Veuillez vous référer à la documentation du projet pour obtenir la localisation exacte.</div>
+
+
+			
+			<div id="pied">
+				<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" lang="fr-ca" content="text/html; charset=utf-8">
+
+
+<title>sans titre 1</title>
+
+<style type="text/css">
+#piv_bas_page {
+	
+}
+.nav_piv_bas_page {
+	list-style: none;
+	text-align: center;
+	min-width: 720px;
+	font-size:8pt;
+	font-family:Verdana;
+	padding-bottom:-0px;
+
+}
+.nav_piv_bas_page li {
+	display:inline;
+}
+
+.discret {
+	text-decoration: none;
+	color:#000000;
+}
+
+#PIV_hr_bdp {
+	color:#003399;
+	height:1px;
+	
+}
+
+
+
+#piv_bas_page_drap {
+		text-align: center;
+		font-size:8pt;
+	font-family:Verdana;
+
+		
+		color:#003399;
+
+</style>
+</head>
+
+<body class="discret">
+
+
+
+
+
+<div id="nav_bas_page" style="border-top:1px #C9C9C9 solid; margin-top:15px;">
+	
+	  <!--hr id="PIV_hr_bdp" /-->
+	
+		<ul class="nav_piv_bas_page">
+      <li>&nbsp;<a title="Plan du site" href="https://www.environnement.gouv.qc.ca/accessibilite/index.htm" class="discret_neutre">Accessibilité</a></li>
+           <li>&nbsp;</li>
+		<li></li>
+		<li>      |
+      <a title="Politique de confidentialité" href="https://www.environnement.gouv.qc.ca/ministere/accesprotect/index.htm" class="discret_neutre">
+		Accès à l&#39;information</a>
+      </li>
+
+      <li>| 
+		<a title="Politique de confidentialité" href="https://www.environnement.gouv.qc.ca/accueil/apropos/politique.htm" class="discret_neutre">
+		Politique de confidentialité</a>&nbsp;</li>
+		<li></li>
+    </ul>
+    
+
+    </div>
+    
+          <div  id="piv_bas_page_drap" >     
+     					<a title="Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs" target="_blank" href="https://www.environnement.gouv.qc.ca/">
+      <img border="0" alt="Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs" src="/images/MELCCFP.jpg" width="190" height="88"/></a><br />
+     <a title="Gouvernement du Québec" target="_blank" href="https://www.quebec.ca/droit-auteur">
+		<span>© Gouvernement du Québec, 2025</span></a></div> 
+
+
+
+
+
+
+</body>
+
+</html>
+			</div>
+		</div>
+	
+	
+	</div>
+
+
+</body>
+
+</html>
