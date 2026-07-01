@@ -15,70 +15,143 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch federal Impact Assessment Registry inventory
+      - name: Fetch federal assessment inventory (ArcGIS REST)
         run: |
           mkdir -p data/raw
-          curl -sL "https://open.canada.ca/data/api/3/action/package_show?id=f4c51eaa-a6ca-48b9-a1fc-b0651da20509" -o data/raw/federal_package.json
-          python3 - <<'EOF'
-          import json, urllib.request, re
-
-          pkg = json.load(open('data/raw/federal_package.json'))
-          for r in pkg['result']['resources']:
-              fmt = (r.get('format') or '').lower()
-              url = r.get('url', '')
-              lang = r.get('language') or []
-              if fmt not in ('csv', 'geojson', 'json', 'kml'):
-                  continue
-              safe = re.sub(r'[^a-z0-9]+', '_', (r.get('name') or r['id']).lower())[:60]
-              dest = f"data/raw/federal_{safe}.{fmt}"
-              try:
-                  urllib.request.urlretrieve(url, dest)
-                  print('OK  ', dest, '<-', url)
-              except Exception as e:
-                  print('FAIL', url, e)
-          EOF
-
-      - name: Fetch BC EPIC projects
-        run: |
           python3 - <<'EOF'
           import json, urllib.request
 
-          candidates = [
-              "https://projects.eao.gov.bc.ca/api/public/search?dataset=Project&pageSize=2000&pageNum=0",
-              "https://projects.eao.gov.bc.ca/api/v2/search?dataset=Project&pageSize=2000",
-              "https://projects.eao.gov.bc.ca/api/projects",
-          ]
-          for url in candidates:
-              try:
-                  req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-                  body = urllib.request.urlopen(req, timeout=60).read()
-                  json.loads(body)  # must be valid JSON
-                  open('data/raw/bc_epic_projects.json', 'wb').write(body)
-                  print('OK  ', url, len(body), 'bytes')
-                  break
-              except Exception as e:
-                  print('FAIL', url, e)
+          def get(url):
+              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+              return json.load(urllib.request.urlopen(req, timeout=120))
+
+          base = "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer"
+          info = get(base + "?f=json")
+          layers = info.get('layers', [])
+          print('layers:', [(l['id'], l['name']) for l in layers])
+          for l in layers:
+              lid = l['id']
+              feats, offset = [], 0
+              while True:
+                  q = (f"{base}/{lid}/query?where=1%3D1&outFields=*&outSR=4326"
+                       f"&f=geojson&resultOffset={offset}&resultRecordCount=1000")
+                  try:
+                      d = get(q)
+                  except Exception as e:
+                      print('geojson query failed, trying f=json:', e)
+                      q = q.replace('f=geojson', 'f=json')
+                      esri = get(q)
+                      d = {'features': [
+                          {'type': 'Feature',
+                           'geometry': {'type': 'Point',
+                                        'coordinates': [f['geometry']['x'], f['geometry']['y']]} if f.get('geometry') else None,
+                           'properties': f['attributes']}
+                          for f in esri.get('features', [])]}
+                  fs = d.get('features', [])
+                  feats += fs
+                  print(f'layer {lid}: +{len(fs)} (total {len(feats)})')
+                  if len(fs) < 1000:
+                      break
+                  offset += 1000
+              out = {'type': 'FeatureCollection', 'features': feats}
+              json.dump(out, open(f'data/raw/federal_layer{lid}.geojson', 'w'))
           EOF
 
-      - name: Probe provincial registries (report only)
+      - name: Find Quebec EA registry dataset
         run: |
-          for u in \
-            "https://ero.ontario.ca/" \
-            "https://www.donneesquebec.ca/recherche/api/3/action/package_search?q=evaluation+environnementale&rows=5" \
-            "https://open.alberta.ca/api/3/action/package_search?q=environmental+assessment&rows=5" \
-            ; do
-            code=$(curl -sL -o /dev/null -w "%{http_code}" --max-time 30 "$u" || echo ERR)
-            echo "$code $u"
-          done
-          curl -sL "https://www.donneesquebec.ca/recherche/api/3/action/package_search?q=registre+evaluations+environnementales&rows=10" -o data/raw/quebec_search.json || true
-          curl -sL "https://open.alberta.ca/api/3/action/package_search?q=environmental+assessment&rows=10" -o data/raw/alberta_search.json || true
+          python3 - <<'EOF'
+          import json, urllib.request, urllib.parse
+
+          def get(url):
+              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+              return json.load(urllib.request.urlopen(req, timeout=60))
+
+          ckan = "https://www.donneesquebec.ca/recherche/api/3/action/"
+          # Targeted searches for the provincial EA registry (REEE / PEEIE)
+          hits = {}
+          for q in ("registre des évaluations environnementales",
+                    "évaluation environnementale projets assujettis",
+                    "procédure d'évaluation et d'examen des impacts"):
+              try:
+                  d = get(ckan + "package_search?rows=20&q=" + urllib.parse.quote(q))
+                  for pkg in d['result']['results']:
+                      hits[pkg['name']] = {
+                          'title': pkg.get('title'),
+                          'org': (pkg.get('organization') or {}).get('title'),
+                          'resources': [{'format': r.get('format'), 'url': r.get('url')}
+                                        for r in pkg.get('resources', [])],
+                      }
+              except Exception as e:
+                  print('FAIL', q, e)
+          json.dump(hits, open('data/raw/quebec_ea_candidates.json', 'w'), ensure_ascii=False, indent=1)
+          print('quebec candidate datasets:', len(hits))
+          for name, h in hits.items():
+              print('-', name, '|', h['title'], '|', h['org'])
+          EOF
+
+      - name: Fetch Alberta EA dataset list
+        run: |
+          python3 - <<'EOF'
+          import json, urllib.request, urllib.parse
+
+          def get(url):
+              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+              return json.load(urllib.request.urlopen(req, timeout=60))
+
+          ckan = "https://open.alberta.ca/api/3/action/"
+          q = urllib.parse.quote('title:"Environmental Assessment"')
+          all_pkgs, start = [], 0
+          while True:
+              d = get(ckan + f"package_search?q={q}&rows=500&start={start}")
+              res = d['result']['results']
+              all_pkgs += res
+              print(f'alberta: +{len(res)} (total {len(all_pkgs)} of {d["result"]["count"]})')
+              if start + 500 >= d['result']['count'] or not res:
+                  break
+              start += 500
+          slim = [{'name': p['name'], 'title': p.get('title'),
+                   'notes': (p.get('notes') or '')[:500],
+                   'created': p.get('metadata_created'),
+                   'url': 'https://open.alberta.ca/dataset/' + p['name'],
+                   'num_resources': p.get('num_resources')}
+                  for p in all_pkgs]
+          json.dump(slim, open('data/raw/alberta_ea_datasets.json', 'w'), indent=1)
+          EOF
+
+      - name: Probe Ontario / NS / SK / MB / NL registries
+        run: |
+          python3 - <<'EOF'
+          import json, urllib.request, urllib.parse
+
+          def get(url):
+              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+              return json.load(urllib.request.urlopen(req, timeout=60))
+
+          # Ontario open data catalogue
+          try:
+              d = get("https://data.ontario.ca/api/3/action/package_search?rows=20&q=" +
+                      urllib.parse.quote("environmental assessment"))
+              slim = {p['name']: {'title': p.get('title'),
+                                  'resources': [{'format': r.get('format'), 'url': r.get('url')}
+                                                for r in p.get('resources', [])]}
+                      for p in d['result']['results']}
+              json.dump(slim, open('data/raw/ontario_ea_candidates.json', 'w'), indent=1)
+              print('ontario candidates:', list(slim.keys()))
+          except Exception as e:
+              print('FAIL ontario', e)
+          EOF
+          # HTML project lists (save raw HTML for parsing back in the sandbox)
+          curl -sL --max-time 60 "https://novascotia.ca/nse/ea/projects.asp" -o data/raw/ns_ea_projects.html || true
+          curl -sL --max-time 60 "https://www.saskatchewan.ca/business/environmental-protection-and-sustainability/environmental-assessment" -o data/raw/sk_ea_page.html || true
+          curl -sL --max-time 60 "https://www.gov.mb.ca/sd/eal/registries/index.html" -o data/raw/mb_ea_registry.html || true
+          curl -sL --max-time 60 "https://www.gov.nl.ca/ecc/projects/" -o data/raw/nl_ea_projects.html || true
+          ls -la data/raw
 
       - name: Commit data to branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
           git add data/raw
-          git status --short
-          ls -la data/raw
-          git commit -m "Add raw EA registry data from fetch workflow [skip ci]" || echo "nothing to commit"
+          git commit -m "Add phase-2 EA registry data (federal, QC, AB, ON, Atlantic) [skip ci]" || echo "nothing to commit"
           git push
