@@ -22,11 +22,22 @@ jobs:
           python3 - <<'EOF'
           import json, urllib.request, urllib.parse, http.cookiejar
 
+          import time
+
           cj = http.cookiejar.CookieJar()
           op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
           op.addheaders = [('User-Agent', 'Mozilla/5.0'), ('Accept-Language', 'en-CA,en;q=0.9')]
           page_url = 'https://iaac-aeic.gc.ca/050/evaluations/exploration?culture=en-CA'
-          op.open(page_url, timeout=60).read()
+          for attempt in range(8):
+              try:
+                  op.open(page_url, timeout=60).read()
+                  print('page loaded on attempt', attempt)
+                  break
+              except Exception as e:
+                  print('page attempt', attempt, 'FAIL', e)
+                  time.sleep(20)
+          else:
+              raise SystemExit(0)
 
           def post(url, fields):
               req = urllib.request.Request(url, data=urllib.parse.urlencode(fields).encode(),
