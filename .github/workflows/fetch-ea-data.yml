@@ -15,85 +15,56 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Federal api-map payload grid
+      - name: Fetch full federal GeoJSON (double-decoded)
         continue-on-error: true
         run: |
           mkdir -p data/raw
           python3 - <<'EOF'
-          import json, re, time, urllib.request, urllib.parse, http.cookiejar
+          import json, urllib.request, urllib.parse, http.cookiejar
 
           cj = http.cookiejar.CookieJar()
           op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
           op.addheaders = [('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'),
                            ('Accept-Language', 'en-CA,en;q=0.9')]
           page_url = 'https://iaac-aeic.gc.ca/050/evaluations/exploration?culture=en-CA'
-          page = op.open(page_url, timeout=60).read().decode('utf-8', 'replace')
-          print('page loaded, cookies:', [c.name for c in cj])
+          op.open(page_url, timeout=60).read()
 
           api = 'https://iaac-aeic.gc.ca/050/evaluations/exploration/api-map'
-          combos = [
-              {'search': '', 'source': 'IAAC-AEIC'},
-              {'search': '', 'facets': '', 'source': 'IAAC-AEIC', 'useMap': 'true',
-               'activeProjects': 'false', 'inactiveProjects': 'false',
-               'projectDocuments': 'false', 'mostRecent': 'false',
-               'dateFilter': '', 'projectID': ''},
-              {'search': '', 'facets': '', 'source': 'IAAC-AEIC', 'useMap': 'true',
-               'activeProjects': 'true', 'inactiveProjects': 'true',
-               'projectDocuments': 'false', 'mostRecent': 'false'},
-              {'search': 'a', 'source': 'IAAC-AEIC', 'useMap': 'true'},
-              {'source': 'IAAC-AEIC'},
-              {'search': '', 'facets': '', 'source': 'IAAC-AEIC',
-               'dateFilter': '{}', 'projectID': '', 'useMap': 'true',
-               'projectDocuments': 'false', 'activeProjects': 'false',
-               'inactiveProjects': 'false', 'mostRecent': 'false'},
-          ]
-          for i, fields in enumerate(combos):
-              try:
-                  req = urllib.request.Request(api, data=urllib.parse.urlencode(fields).encode(),
-                        headers={'Referer': page_url, 'X-Requested-With': 'XMLHttpRequest'})
-                  resp = op.open(req, timeout=120).read().decode('utf-8', 'replace')
-                  print(f'combo {i}: {len(resp)} bytes, head: {resp[:80]!r}')
-                  d = json.loads(resp)
-                  feats = d.get('features', [])
-                  print(f'combo {i} FEATURES: {len(feats)}')
-                  if feats:
-                      open('data/raw/federal_apimap.geojson', 'w').write(resp)
-                      print('SUCCESS with combo', i, json.dumps(fields))
-                      break
-              except Exception as e:
-                  print(f'combo {i} FAIL {e}')
-              time.sleep(2)
+          body = urllib.parse.urlencode({'search': '', 'source': 'IAAC-AEIC'}).encode()
+          req = urllib.request.Request(api, data=body, headers={
+              'Referer': page_url, 'X-Requested-With': 'XMLHttpRequest'})
+          resp = op.open(req, timeout=300).read().decode('utf-8', 'replace')
+          print('raw bytes:', len(resp))
+          d = json.loads(resp)
+          if isinstance(d, str):   # API double-encodes the GeoJSON
+              d = json.loads(d)
+          feats = d.get('features', [])
+          print('FEATURES:', len(feats))
+          if feats:
+              print('sample:', json.dumps(feats[0], ensure_ascii=False)[:600])
+              json.dump(d, open('data/raw/federal_apimap.geojson', 'w'))
           EOF
 
-      - name: Quebec fiche sample (with retries)
+      - name: Fetch Quebec projet.asp sample
         continue-on-error: true
         run: |
           python3 - <<'EOF'
           import re, time, urllib.request
           h = open('data/raw/qc_ree_resultats.html', encoding='utf-8', errors='replace').read()
-          d = sorted(set(re.findall(r'no_dossier=([^"&]+)', h)))[0]
-          url = f"https://www.ree.environnement.gouv.qc.ca/fiche.asp?no_dossier={d}"
+          d = sorted(set(re.findall(r'projet\.asp\?no_dossier=([^"&]+)', h)))[0]
+          url = f"https://www.ree.environnement.gouv.qc.ca/projet.asp?no_dossier={d}"
           for attempt in range(4):
               try:
                   req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
                   page = urllib.request.urlopen(req, timeout=60).read().decode('utf-8', 'replace')
-                  open('data/raw/qc_fiche_sample.html', 'w').write(page)
-                  print('saved fiche for', d, len(page), 'bytes')
-                  print('pdf links:', re.findall(r'href="([^"]+\.(?:pdf|PDF)[^"]*)"', page)[:5])
+                  open('data/raw/qc_projet_sample.html', 'w').write(page)
+                  print('saved projet for', d, len(page), 'bytes')
+                  print('pdf links:', re.findall(r'href="([^"]+\.(?:pdf|PDF)[^"]*)"', page)[:8])
                   break
               except Exception as e:
                   print('attempt', attempt, 'FAIL', e)
                   time.sleep(10)
           EOF
-
-      - name: Ontario EA project lists (correct URLs)
-        continue-on-error: true
-        run: |
-          curl -sL --retry 3 --max-time 60 "https://www.ontario.ca/page/environmental-assessment-projects-category" -o data/raw/on_ea_projects_category.html || true
-          curl -sL --retry 3 --max-time 60 "https://www.ontario.ca/page/class-environmental-assessments-approved-class-ea-information" -o data/raw/on_class_ea_info.html || true
-          for f in data/raw/on_ea_projects_category.html data/raw/on_class_ea_info.html; do
-            echo "$f: $(wc -c < $f) bytes, title: $(grep -oE '<title>[^<]*' $f | head -1)"
-          done
 
       - name: Commit data to branch
         run: |
@@ -102,7 +73,7 @@ jobs:
           for i in 1 2 3; do
             git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
             git add data/raw
-            git commit -m "Add phase-14 data (federal payload grid, QC fiche, ON EA lists) [skip ci]" || echo "nothing to commit"
+            git commit -m "Add phase-15 data (full federal GeoJSON, QC projet sample) [skip ci]" || echo "nothing to commit"
             git push && break
             sleep 5
           done
