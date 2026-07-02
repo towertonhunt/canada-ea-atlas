@@ -144,6 +144,69 @@ if os.path.exists(bc_path):
         n_bc += 1
 print(f'bc: {n_bc}')
 
+# ── Federal IAAC (full inventory via exploration api-map) ────────────
+apimap = os.path.join(RAW, 'federal_apimap.geojson')
+n_fed2 = 0
+if os.path.exists(apimap):
+    d = json.load(open(apimap))
+    for f in d['features']:
+        p = f.get('properties') or {}
+        geom = f.get('geometry')
+        # normalize MultiPoint -> Point (first location)
+        if geom and geom.get('type') == 'MultiPoint' and geom.get('coordinates'):
+            geom = {'type': 'Point', 'coordinates': geom['coordinates'][0]}
+        pid = p.get('project_id')
+        props = {
+            'name': p.get('project_name_en') or p.get('project_name_fr') or 'Unnamed',
+            'jurisdiction': 'Federal (IAAC)',
+            'source': 'federal_iaac',
+            'status': p.get('project_state_en'),
+            'type': p.get('project_cat_en') or 'other',
+            'proponent': p.get('proponent_en'),
+            'location': p.get('location_en'),
+            'province_codes': p.get('province_codes'),
+            'description': (p.get('description_en') or '')[:400],
+            'registry_url': f'https://iaac-aeic.gc.ca/050/evaluations/proj/{pid}'
+                            if pid else p.get('project_url_en'),
+        }
+        add({'type': 'Feature', 'geometry': geom, 'properties': props})
+        n_fed2 += 1
+print(f'federal (api-map): {n_fed2}')
+
+# ── Ontario provincial EAs (Individual/Comprehensive, by sector) ─────
+on_cat = os.path.join(RAW, 'on_ea_projects_category.html')
+n_onp = 0
+if os.path.exists(on_cat):
+    h = open(on_cat, encoding='utf-8', errors='replace').read()
+    SECTIONS = ['Electricity', 'Mining', 'Forestry', 'Municipal infrastructure',
+                'Waste management', 'Transit', 'Transportation', 'Other']
+    for part in re.split(r'<h2[^>]*>', h):
+        mt = re.match(r'\s*([^<]+)</h2>(.*)', part, re.S)
+        if not mt or mt.group(1).strip() not in SECTIONS:
+            continue
+        sector = mt.group(1).strip()
+        for u, t in re.findall(r'<a href="([^"]+)"[^>]*>(.*?)</a>', mt.group(2), re.S):
+            name = re.sub(r'\s+', ' ',
+                          htmllib.unescape(re.sub(r'<[^>]+>', ' ', t))).strip()
+            # skip guides/reference pages mixed into the lists
+            if (not name or 'back to top' in name.lower()
+                    or name.lower().startswith(('guide', 'environmental assessment requirement'))):
+                continue
+            if u.startswith('/'):
+                u = 'https://www.ontario.ca' + u
+            props = {
+                'name': name,
+                'jurisdiction': 'Ontario (Provincial EA)',
+                'source': 'on_provincial_ea',
+                'status': None,
+                'type': sector,
+                'proponent': None,
+                'registry_url': u,
+            }
+            add({'type': 'Feature', 'geometry': None, 'properties': props})
+            n_onp += 1
+print(f'ontario provincial EA (no coords yet): {n_onp}')
+
 # ── Quebec REE (table + coordinates scraped from carte.asp pages) ────
 qc_path = os.path.join(RAW, 'qc_ree_resultats.html')
 n_qc = 0
