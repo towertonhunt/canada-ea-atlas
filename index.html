@@ -462,6 +462,35 @@ function openSidebar(feature, marker) {
   // Document sections
   docList.innerHTML = "";
   if (!p.doc_sections || p.doc_sections.length === 0) {
+    if (p.docs_path) {
+      // Lazy-load the per-project document catalogue (BC etc.)
+      docList.innerHTML = `<p class="no-docs">Loading ${p.doc_count || ""} documents…</p>`;
+      fetch(p.docs_path)
+        .then(r => r.json())
+        .then(cat => {
+          if (activeMarker && activeMarker.feature.properties !== p) return; // stale click
+          docList.innerHTML = "";
+          const sec = document.createElement("div");
+          sec.className = "doc-section";
+          sec.innerHTML = `<div class="doc-section-title">Registry documents (${cat.docs.length})</div>`;
+          for (const doc of cat.docs) {
+            const a = document.createElement("a");
+            a.className = "doc-link";
+            a.href = doc.url;
+            a.target = "_blank";
+            a.rel = "noopener";
+            const title = doc.title && doc.title.length > 80
+              ? doc.title.substring(0, 78) + "…" : (doc.title || "Document");
+            a.textContent = doc.date ? `${title} (${doc.date})` : title;
+            sec.appendChild(a);
+          }
+          docList.appendChild(sec);
+        })
+        .catch(() => {
+          docList.innerHTML = `<p class="no-docs">Could not load documents — use the registry page link above.</p>`;
+        });
+      return;
+    }
     docList.innerHTML = `<p class="no-docs">${p.registry_url
       ? "Documents are available on this project's registry page."
       : "No documents found for this project."}</p>`;

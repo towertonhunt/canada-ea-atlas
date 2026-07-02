@@ -113,6 +113,10 @@ print(f'federal: {n_fed}')
 bc_path = os.path.join(RAW, 'bc_epic_projects.json')
 n_bc = 0
 if os.path.exists(bc_path):
+    bc_docs = {}
+    bc_cat = os.path.join(RAW, 'bc_doc_catalogue.json')
+    if os.path.exists(bc_cat):
+        bc_docs = {pid: len(v['docs']) for pid, v in json.load(open(bc_cat)).items()}
     bc = json.load(open(bc_path))[0]['searchResults']
     for p in bc:
         c = p.get('centroid') or []
@@ -138,6 +142,9 @@ if os.path.exists(bc_path):
                             if p.get('_id') else None,
             'description': (p.get('description') or '')[:400],
         }
+        if p.get('_id') in bc_docs:
+            props['doc_count'] = bc_docs[p['_id']]
+            props['docs_path'] = f"data/docs/bc/{p['_id']}.json"
         add({'type': 'Feature',
              'geometry': {'type': 'Point', 'coordinates': [lon, lat]},
              'properties': props})
