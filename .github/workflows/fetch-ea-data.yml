@@ -15,12 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Recon exploration/api with Chrome UA
+      - name: Harvest federal list API (browser-exact payload)
         continue-on-error: true
         run: |
           mkdir -p data/raw
           python3 - <<'EOF'
-          import json, time, urllib.request, urllib.parse, http.cookiejar
+          import json, re, time, urllib.request, urllib.parse, http.cookiejar
 
           UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
                 '(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36')
@@ -31,7 +31,6 @@ jobs:
           for attempt in range(6):
               try:
                   op.open(page_url, timeout=60).read()
-                  print('page loaded on attempt', attempt)
                   break
               except Exception as e:
                   print('page attempt', attempt, 'FAIL', e)
@@ -39,48 +38,70 @@ jobs:
           else:
               raise SystemExit(0)
 
-          def post(url, fields):
-              req = urllib.request.Request(url, data=urllib.parse.urlencode(fields).encode(),
-                    headers={'Referer': page_url, 'X-Requested-With': 'XMLHttpRequest'})
-              return op.open(req, timeout=300).read().decode('utf-8', 'replace')
+          api = 'https://iaac-aeic.gc.ca/050/evaluations/exploration/api'
 
-          # list API, page 1 — reveals Count, page size, facet names
-          try:
-              resp = post('https://iaac-aeic.gc.ca/050/evaluations/exploration/api',
-                          {'search': '*', 'facets': '', 'sort': '', 'page': '1',
-                           'dateFilter': '', 'projectID': '', 'useMap': 'false',
-                           'projectDocuments': 'false', 'activeProjects': 'false',
-                           'inactiveProjects': 'false', 'isFedLands': 'false',
-                           'usingPermitCoordination': 'false', 'dataFiles': 'false',
-                           'mostRecent': 'false'})
-              print('list api bytes:', len(resp))
-              d = json.loads(resp)
-              if isinstance(d, str):
-                  d = json.loads(d)
-              if isinstance(d, dict):
-                  print('Count:', d.get('Count'))
-                  for k in d:
-                      v = d[k]
-                      print(' -', k, type(v).__name__,
-                            len(v) if isinstance(v, (list, dict, str)) else v)
-                  open('data/raw/federal_listapi_p1.json', 'w').write(json.dumps(d)[:2000000])
-          except Exception as e:
-              print('list api FAIL', e)
+          def fetch_page(n, tries=3):
+              fields = {'search': '%2A', 'sort': 'BestMatchDesc', 'page': str(n),
+                        'useMap': 'false', 'projectDocuments': 'false',
+                        'activeProjects': 'false', 'inactiveProjects': 'false',
+                        'isFedLands': 'false', 'usingPermitCoordination': 'false',
+                        'dataFiles': 'false', 'mostRecent': 'false'}
+              body = urllib.parse.urlencode(fields).encode()
+              for t in range(tries):
+                  try:
+                      req = urllib.request.Request(api, data=body, headers={
+                          'Referer': page_url, 'X-Requested-With': 'XMLHttpRequest'})
+                      d = json.loads(op.open(req, timeout=120).read().decode('utf-8', 'replace'))
+                      return json.loads(d) if isinstance(d, str) else d
+                  except Exception as e:
+                      if t == tries - 1:
+                          raise
+                      time.sleep(8)
 
-          # map API with wildcard — may exceed the 1000 cap
-          try:
-              resp = post('https://iaac-aeic.gc.ca/050/evaluations/exploration/api-map',
-                          {'search': '*', 'source': 'IAAC-AEIC'})
-              d = json.loads(resp)
-              if isinstance(d, str):
-                  d = json.loads(d)
-              feats = d.get('features', [])
-              print('api-map wildcard FEATURES:', len(feats))
-              if len(feats) > 1000:
-                  json.dump(d, open('data/raw/federal_apimap.geojson', 'w'))
-                  print('saved larger federal set')
-          except Exception as e:
-              print('api-map wildcard FAIL', e)
+          d = fetch_page(1)
+          print('page1 keys:', list(d.keys()) if isinstance(d, dict) else type(d))
+          open('data/raw/federal_listapi_p1.json', 'w').write(json.dumps(d)[:2000000])
+          if not isinstance(d, dict):
+              raise SystemExit(0)
+          count = d.get('Count')
+          print('Count:', count)
+          results = d.get('Results')
+          print('Results type:', type(results).__name__,
+                len(results) if isinstance(results, (list, str)) else '')
+
+          # Determine page size and extract entries
+          def extract(dd):
+              r = dd.get('Results')
+              if isinstance(r, list):
+                  return r
+              if isinstance(r, str):  # HTML fragment: pull /proj/<id> links + titles
+                  out = []
+                  for m in re.finditer(r'/proj/(\d+)"[^>]*>(.*?)</a>', r, re.S):
+                      out.append({'project_id': m.group(1),
+                                  'name': re.sub(r'<[^>]+>', ' ', m.group(2)).strip()})
+                  return out
+              return []
+
+          first = extract(d)
+          psize = len(first)
+          print('page size:', psize)
+          if not psize or not count:
+              raise SystemExit(0)
+          allr = {json.dumps(e, sort_keys=True): e for e in first}
+          pages = min((int(count) + psize - 1) // psize, 3000)
+          for n in range(2, pages + 1):
+              try:
+                  es = extract(fetch_page(n))
+              except Exception as e:
+                  print('page', n, 'FAIL', e)
+                  continue
+              for e in es:
+                  allr[json.dumps(e, sort_keys=True)] = e
+              if n % 25 == 0:
+                  print(f'page {n}/{pages}: {len(allr)} entries')
+              time.sleep(0.5)
+          json.dump(list(allr.values()), open('data/raw/federal_list_all.json', 'w'))
+          print('DONE:', len(allr), 'federal entries')
           EOF
 
       - name: Commit data to branch
@@ -90,7 +111,7 @@ jobs:
           for i in 1 2 3; do
             git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
             git add data/raw
-            git commit -m "Add phase-21 federal recon with Chrome UA [skip ci]" || echo "nothing to commit"
+            git commit -m "Add phase-22 federal list API harvest [skip ci]" || echo "nothing to commit"
             git push && break
             sleep 5
           done
