@@ -15,20 +15,37 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch federal api-map with session cookies and token
+      - name: Fetch federal api-map (retries + culture fallback)
+        continue-on-error: true
         run: |
           mkdir -p data/raw
           python3 - <<'EOF'
-          import json, re, urllib.request, urllib.parse, http.cookiejar
+          import json, re, time, urllib.request, urllib.parse, http.cookiejar
 
           cj = http.cookiejar.CookieJar()
           opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
-          opener.addheaders = [('User-Agent', 'Mozilla/5.0'),
-                               ('X-Requested-With', 'XMLHttpRequest')]
+          opener.addheaders = [('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'),
+                               ('Accept-Language', 'en-CA,en;q=0.9')]
 
-          page = opener.open('https://iaac-aeic.gc.ca/050/evaluations/exploration', timeout=60).read().decode('utf-8', 'replace')
+          page, page_url = None, None
+          for u in ('https://iaac-aeic.gc.ca/050/evaluations/exploration?culture=en-CA',
+                    'https://iaac-aeic.gc.ca/050/evaluations/exploration',
+                    'https://iaac-aeic.gc.ca/050/evaluations'):
+              for attempt in range(3):
+                  try:
+                      page = opener.open(u, timeout=60).read().decode('utf-8', 'replace')
+                      page_url = u
+                      break
+                  except Exception as e:
+                      print('page fetch fail', u, attempt, e)
+                      time.sleep(5)
+              if page:
+                  break
+          if not page:
+              print('could not load any exploration page')
+              raise SystemExit(0)
+          print('loaded', page_url, len(page), 'bytes; cookies:', [c.name for c in cj])
           tok = re.search(r'name="__RequestVerificationToken"[^>]*value="([^"]+)"', page)
-          print('cookies:', [c.name for c in cj], '| token:', bool(tok))
 
           fields = {'search': '', 'facets': '', 'source': 'IAAC-AEIC',
                     'dateFilter': '', 'projectID': '', 'useMap': 'false',
@@ -37,30 +54,26 @@ jobs:
           if tok:
               fields['__RequestVerificationToken'] = tok.group(1)
 
-          for url in ('https://iaac-aeic.gc.ca/050/evaluations/exploration/api-map',
-                      'https://iaac-aeic.gc.ca/050/evaluations/exploration/api-map?culture=en-CA',
-                      'https://iaac-aeic.gc.ca/050/evaluations/api-map'):
+          for url in ('https://iaac-aeic.gc.ca/050/evaluations/exploration/api-map?culture=en-CA',
+                      'https://iaac-aeic.gc.ca/050/evaluations/exploration/api-map'):
               try:
                   body = urllib.parse.urlencode(fields).encode()
-                  req = urllib.request.Request(url, data=body,
-                        headers={'Referer': 'https://iaac-aeic.gc.ca/050/evaluations/exploration'})
+                  req = urllib.request.Request(url, data=body, headers={
+                      'Referer': page_url, 'X-Requested-With': 'XMLHttpRequest'})
                   resp = opener.open(req, timeout=180).read().decode('utf-8', 'replace')
-                  print(url, '->', len(resp), 'bytes, head:', resp[:120].replace('\n', ' '))
-                  try:
-                      d = json.loads(resp)
-                      feats = d.get('features', [])
-                      print('   FEATURES:', len(feats))
-                      if feats:
-                          open('data/raw/federal_apimap.geojson', 'w').write(resp)
-                          print('   sample:', json.dumps(feats[0])[:400])
-                          break
-                  except ValueError:
-                      pass
+                  print(url, '->', len(resp), 'bytes; head:', resp[:100].replace('\n', ' '))
+                  d = json.loads(resp)
+                  feats = d.get('features', [])
+                  print('FEATURES:', len(feats))
+                  if feats:
+                      open('data/raw/federal_apimap.geojson', 'w').write(resp)
+                      break
               except Exception as e:
                   print(url, 'FAIL', e)
           EOF
 
-      - name: Probe BC EPIC document API (Layer 1 recon)
+      - name: Probe BC EPIC document API
+        continue-on-error: true
         run: |
           python3 - <<'EOF'
           import json, urllib.request
@@ -69,7 +82,6 @@ jobs:
               req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
               return json.loads(urllib.request.urlopen(req, timeout=60).read())
 
-          # take one known project id from the committed project list
           bc = json.load(open('data/raw/bc_epic_projects.json'))[0]['searchResults']
           pid = bc[0]['_id']
           print('probe project:', pid, bc[0]['name'])
@@ -80,13 +92,15 @@ jobs:
               try:
                   d = get(url)
                   print(url[:80], '-> OK')
-                  print(json.dumps(d)[:600])
+                  print(json.dumps(d)[:800])
+                  open('data/raw/bc_doc_probe.json', 'w').write(json.dumps(d))
                   break
               except Exception as e:
                   print(url[:80], 'FAIL', e)
           EOF
 
-      - name: Fetch one Quebec fiche page (Layer 1 recon)
+      - name: Fetch one Quebec fiche page
+        continue-on-error: true
         run: |
           python3 - <<'EOF'
           import re, urllib.request
@@ -98,14 +112,28 @@ jobs:
           open('data/raw/qc_fiche_sample.html', 'w').write(page)
           print('saved fiche for', d, len(page), 'bytes')
           links = re.findall(r'href="([^"]+\.(?:pdf|PDF)[^"]*)"', page)
-          print('pdf links on fiche:', len(links), links[:5])
+          print('pdf links:', len(links), links[:5])
           EOF
+
+      - name: Ontario provincial EA recon (ERO + ontario.ca lists)
+        continue-on-error: true
+        run: |
+          curl -sL --max-time 60 "https://ero.ontario.ca/search?search=environmental+assessment" -o data/raw/on_ero_search.html || true
+          curl -sL --max-time 60 "https://www.ontario.ca/page/environmental-assessments" -o data/raw/on_ea_hub.html || true
+          curl -sL --max-time 60 "https://www.ontario.ca/page/class-environmental-assessments" -o data/raw/on_class_ea.html || true
+          curl -sL --max-time 60 "https://www.ontario.ca/page/current-and-completed-environmental-assessments" -o data/raw/on_current_ea.html || true
+          for f in data/raw/on_*.html; do
+            echo "$f: $(wc -c < $f) bytes, title: $(grep -oE '<title>[^<]*' $f | head -1)"
+          done
 
       - name: Commit data to branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
-          git add data/raw
-          git commit -m "Add phase-12 data (federal api-map with session, BC/QC doc recon) [skip ci]" || echo "nothing to commit"
-          git push
+          for i in 1 2 3; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git add data/raw
+            git commit -m "Add phase-13 data (federal retry, BC/QC doc recon, Ontario EA recon) [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 5
+          done
