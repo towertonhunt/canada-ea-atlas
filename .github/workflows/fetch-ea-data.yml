@@ -15,42 +15,45 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Harvest IAAC registry via exploration pages
+      - name: Download IAAC results JS (pagination logic)
         run: |
           mkdir -p data/raw
-          python3 - <<'EOF'
-          import json, re, urllib.request, html as H
+          curl -sL "https://iaac-aeic.gc.ca/050/evaluations/Scripts/PublicViews/Results/functions.js" -o data/raw/iaac_results_functions.js || true
+          curl -sL "https://iaac-aeic.gc.ca/050/evaluations/Scripts/PublicViews/Results/site.js" -o data/raw/iaac_results_site.js || true
+          wc -c data/raw/iaac_results_*.js
+          echo "=== pagination-related lines ==="
+          grep -nE "currentPage|GoToPage|function Search|exploration|ajax|XMLHttp|fetch\(" data/raw/iaac_results_functions.js data/raw/iaac_results_site.js | head -40 || true
 
-          def get(url):
-              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+      - name: Test pagination variants
+        run: |
+          python3 - <<'EOF'
+          import re, urllib.request
+
+          def get(url, data=None):
+              req = urllib.request.Request(url, data=data, headers={'User-Agent': 'Mozilla/5.0'})
               return urllib.request.urlopen(req, timeout=60).read().decode('utf-8', 'replace')
 
-          projects, page, empty = {}, 1, 0
-          while empty < 2 and page < 400:
+          base = "https://iaac-aeic.gc.ca/050/evaluations/exploration"
+          p1 = set()
+          try:
+              p1 = set(re.findall(r'/proj/(\d+)', get(base)))
+              print('page1 ids:', len(p1))
+          except Exception as e:
+              print('page1 FAIL', e)
+          variants = ["?page=2", "?pg=2", "?index=2", "?currentPage=2", "?p=2",
+                      "?search=&page=2", "?search=&currentPage=2"]
+          for v in variants:
               try:
-                  h = get(f"https://iaac-aeic.gc.ca/050/evaluations/exploration?page={page}")
+                  ids = set(re.findall(r'/proj/(\d+)', get(base + v)))
+                  print(f'{v}: HTTP OK, {len(ids)} ids, new vs p1: {len(ids - p1)}')
               except Exception as e:
-                  print('page', page, 'FAIL', e)
-                  empty += 1
-                  page += 1
-                  continue
-              found = 0
-              # results are anchors to /proj/<id>; capture link text as name
-              for m in re.finditer(r'href="https://iaac-aeic\.gc\.ca/050/evaluations/proj/(\d+)"[^>]*>(.*?)</a>', h, re.S):
-                  pid = m.group(1)
-                  name = re.sub(r'\s+', ' ', H.unescape(re.sub(r'<[^>]+>', ' ', m.group(2)))).strip()
-                  if pid not in projects and name:
-                      projects[pid] = {'name': name}
-                      found += 1
-              # try to grab metadata blocks near each link (status/province often in list items)
-              empty = empty + 1 if found == 0 else 0
-              if page % 10 == 0:
-                  print(f'page {page}: total {len(projects)}')
-              page += 1
-          print('TOTAL projects:', len(projects))
-          json.dump(projects, open('data/raw/federal_projects_index.json', 'w'), ensure_ascii=False)
-          # save one page for structure analysis of metadata fields
-          open('data/raw/iaac_exploration_p2.html', 'w').write(get("https://iaac-aeic.gc.ca/050/evaluations/exploration?page=2"))
+                  print(f'{v}: FAIL {e}')
+          try:
+              body = "currentPage=2".encode()
+              ids = set(re.findall(r'/proj/(\d+)', get(base, data=body)))
+              print(f'POST currentPage=2: {len(ids)} ids, new: {len(ids - p1)}')
+          except Exception as e:
+              print('POST FAIL', e)
           EOF
 
       - name: Commit data to branch
@@ -59,5 +62,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
           git add data/raw
-          git commit -m "Add phase-9 federal project index from exploration pages [skip ci]" || echo "nothing to commit"
+          git commit -m "Add phase-10 IAAC pagination diagnostics [skip ci]" || echo "nothing to commit"
           git push
