@@ -15,73 +15,96 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Recon exploration/api and wildcard api-map
+      - name: Federal WAF diagnostics
         continue-on-error: true
         run: |
           mkdir -p data/raw
+          for u in \
+            "https://iaac-aeic.gc.ca/" \
+            "https://iaac-aeic.gc.ca/050/evaluations" \
+            "https://iaac-aeic.gc.ca/050/evaluations/exploration?culture=en-CA" \
+            "https://aeic-iaac.gc.ca/050/evaluations/exploration?culture=fr-CA" \
+            ; do
+            code=$(curl -sL -o /dev/null -w "%{http_code}" --max-time 30 \
+              -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" \
+              "$u" || echo ERR)
+            echo "$code $u"
+          done
+
+      - name: Harvest full BC document catalogue
+        continue-on-error: true
+        run: |
           python3 - <<'EOF'
-          import json, urllib.request, urllib.parse, http.cookiejar
+          import json, time, urllib.request
 
-          import time
+          def get(url, tries=3):
+              for t in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                      return json.loads(urllib.request.urlopen(req, timeout=60).read())
+                  except Exception as e:
+                      if t == tries - 1:
+                          raise
+                      time.sleep(5)
 
-          cj = http.cookiejar.CookieJar()
-          op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
-          op.addheaders = [('User-Agent', 'Mozilla/5.0'), ('Accept-Language', 'en-CA,en;q=0.9')]
-          page_url = 'https://iaac-aeic.gc.ca/050/evaluations/exploration?culture=en-CA'
-          for attempt in range(8):
+          bc = json.load(open('data/raw/bc_epic_projects.json'))[0]['searchResults']
+          catalogue = {}
+          for i, p in enumerate(bc):
+              pid = p['_id']
               try:
-                  op.open(page_url, timeout=60).read()
-                  print('page loaded on attempt', attempt)
-                  break
+                  d = get(f"https://projects.eao.gov.bc.ca/api/public/search?dataset=Document&project={pid}&pageSize=1000&pageNum=0")
+                  docs = d[0]['searchResults']
+                  catalogue[pid] = {
+                      'name': p.get('name'),
+                      'docs': [{'title': x.get('displayName'),
+                                'file': x.get('documentFileName'),
+                                'date': x.get('datePosted'),
+                                'url': f"https://projects.eao.gov.bc.ca/api/public/document/{x['_id']}/download"}
+                               for x in docs],
+                  }
               except Exception as e:
-                  print('page attempt', attempt, 'FAIL', e)
-                  time.sleep(20)
-          else:
-              raise SystemExit(0)
+                  print('FAIL', pid, p.get('name'), e)
+              if i % 40 == 0:
+                  total = sum(len(v['docs']) for v in catalogue.values())
+                  print(f'{i}/{len(bc)} projects, {total} docs so far')
+          json.dump(catalogue, open('data/raw/bc_doc_catalogue.json', 'w'))
+          total = sum(len(v['docs']) for v in catalogue.values())
+          print('DONE:', len(catalogue), 'projects,', total, 'documents')
+          EOF
 
-          def post(url, fields):
-              req = urllib.request.Request(url, data=urllib.parse.urlencode(fields).encode(),
-                    headers={'Referer': page_url, 'X-Requested-With': 'XMLHttpRequest'})
-              return op.open(req, timeout=300).read().decode('utf-8', 'replace')
+      - name: Harvest ERO EA notices
+        continue-on-error: true
+        run: |
+          python3 - <<'EOF'
+          import re, json, time, urllib.request, html as H
 
-          # 1) list API, page 1
-          try:
-              resp = post('https://iaac-aeic.gc.ca/050/evaluations/exploration/api',
-                          {'search': '*', 'facets': '', 'sort': '', 'page': '1',
-                           'dateFilter': '', 'projectID': '', 'useMap': 'false',
-                           'projectDocuments': 'false', 'activeProjects': 'false',
-                           'inactiveProjects': 'false', 'isFedLands': 'false',
-                           'usingPermitCoordination': 'false', 'dataFiles': 'false',
-                           'mostRecent': 'false'})
-              print('list api bytes:', len(resp))
-              d = json.loads(resp)
-              if isinstance(d, str):
-                  d = json.loads(d)
-              print('keys:', list(d.keys()) if isinstance(d, dict) else type(d))
-              if isinstance(d, dict):
-                  print('Count:', d.get('Count'))
-                  for k in d:
-                      v = d[k]
-                      print(' -', k, type(v).__name__,
-                            len(v) if isinstance(v, (list, dict, str)) else v)
-                  open('data/raw/federal_listapi_p1.json', 'w').write(json.dumps(d)[:2000000])
-          except Exception as e:
-              print('list api FAIL', e)
+          def get(url, tries=3):
+              for t in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                      return urllib.request.urlopen(req, timeout=60).read().decode('utf-8', 'replace')
+                  except Exception:
+                      if t == tries - 1:
+                          raise
+                      time.sleep(5)
 
-          # 2) map API with wildcard
-          try:
-              resp = post('https://iaac-aeic.gc.ca/050/evaluations/exploration/api-map',
-                          {'search': '*', 'source': 'IAAC-AEIC'})
-              d = json.loads(resp)
-              if isinstance(d, str):
-                  d = json.loads(d)
-              feats = d.get('features', [])
-              print('api-map wildcard FEATURES:', len(feats))
-              if len(feats) > 1000:
-                  json.dump(d, open('data/raw/federal_apimap.geojson', 'w'))
-                  print('saved larger federal set')
-          except Exception as e:
-              print('api-map wildcard FAIL', e)
+          notices = {}
+          for page in range(0, 70):
+              try:
+                  h = get(f"https://ero.ontario.ca/search?search=environmental+assessment&page={page}")
+              except Exception as e:
+                  print('page', page, 'FAIL', e)
+                  continue
+              found = re.findall(r'href="(/notice/[^"]+)"[^>]*>(.*?)</a>', h, re.S)
+              for u, t in found:
+                  name = re.sub(r'\s+', ' ', H.unescape(re.sub(r'<[^>]+>', ' ', t))).strip()
+                  if u not in notices and name:
+                      notices[u] = name
+              if page % 10 == 0:
+                  print(f'page {page}: {len(notices)} notices')
+              time.sleep(1)
+          json.dump(notices, open('data/raw/on_ero_notices.json', 'w'), ensure_ascii=False)
+          print('DONE:', len(notices), 'ERO notices')
           EOF
 
       - name: Commit data to branch
@@ -91,7 +114,7 @@ jobs:
           for i in 1 2 3; do
             git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
             git add data/raw
-            git commit -m "Add phase-18 exploration/api recon [skip ci]" || echo "nothing to commit"
+            git commit -m "Add phase-20 data (BC doc catalogue, ERO notices, federal diagnostics) [skip ci]" || echo "nothing to commit"
             git push && break
             sleep 5
           done
