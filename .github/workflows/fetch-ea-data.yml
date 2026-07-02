@@ -15,45 +15,36 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download IAAC results JS (pagination logic)
+      - name: Fetch federal projects via exploration api-map
         run: |
           mkdir -p data/raw
-          curl -sL "https://iaac-aeic.gc.ca/050/evaluations/Scripts/PublicViews/Results/functions.js" -o data/raw/iaac_results_functions.js || true
-          curl -sL "https://iaac-aeic.gc.ca/050/evaluations/Scripts/PublicViews/Results/site.js" -o data/raw/iaac_results_site.js || true
-          wc -c data/raw/iaac_results_*.js
-          echo "=== pagination-related lines ==="
-          grep -nE "currentPage|GoToPage|function Search|exploration|ajax|XMLHttp|fetch\(" data/raw/iaac_results_functions.js data/raw/iaac_results_site.js | head -40 || true
-
-      - name: Test pagination variants
-        run: |
           python3 - <<'EOF'
-          import re, urllib.request
+          import json, urllib.request, urllib.parse
 
-          def get(url, data=None):
-              req = urllib.request.Request(url, data=data, headers={'User-Agent': 'Mozilla/5.0'})
-              return urllib.request.urlopen(req, timeout=60).read().decode('utf-8', 'replace')
-
-          base = "https://iaac-aeic.gc.ca/050/evaluations/exploration"
-          p1 = set()
+          url = "https://iaac-aeic.gc.ca/050/evaluations/exploration/api-map"
+          body = urllib.parse.urlencode({
+              'search': '', 'facets': '', 'source': 'IAAC-AEIC',
+              'dateFilter': '', 'projectID': '', 'useMap': 'false',
+              'projectDocuments': '', 'activeProjects': 'true',
+              'inactiveProjects': 'true', 'mostRecent': 'false',
+          }).encode()
+          req = urllib.request.Request(url, data=body, headers={
+              'User-Agent': 'Mozilla/5.0',
+              'X-Requested-With': 'XMLHttpRequest',
+              'Referer': 'https://iaac-aeic.gc.ca/050/evaluations/exploration',
+          })
+          resp = urllib.request.urlopen(req, timeout=180).read().decode('utf-8', 'replace')
+          print('response bytes:', len(resp))
           try:
-              p1 = set(re.findall(r'/proj/(\d+)', get(base)))
-              print('page1 ids:', len(p1))
+              d = json.loads(resp)
+              feats = d.get('features', [])
+              print('features:', len(feats))
+              if feats:
+                  print('sample:', json.dumps(feats[0])[:400])
+              open('data/raw/federal_apimap.geojson', 'w').write(resp)
           except Exception as e:
-              print('page1 FAIL', e)
-          variants = ["?page=2", "?pg=2", "?index=2", "?currentPage=2", "?p=2",
-                      "?search=&page=2", "?search=&currentPage=2"]
-          for v in variants:
-              try:
-                  ids = set(re.findall(r'/proj/(\d+)', get(base + v)))
-                  print(f'{v}: HTTP OK, {len(ids)} ids, new vs p1: {len(ids - p1)}')
-              except Exception as e:
-                  print(f'{v}: FAIL {e}')
-          try:
-              body = "currentPage=2".encode()
-              ids = set(re.findall(r'/proj/(\d+)', get(base, data=body)))
-              print(f'POST currentPage=2: {len(ids)} ids, new: {len(ids - p1)}')
-          except Exception as e:
-              print('POST FAIL', e)
+              print('not JSON:', e, resp[:300])
+              open('data/raw/federal_apimap_error.txt', 'w').write(resp[:5000])
           EOF
 
       - name: Commit data to branch
@@ -62,5 +53,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
           git add data/raw
-          git commit -m "Add phase-10 IAAC pagination diagnostics [skip ci]" || echo "nothing to commit"
+          git commit -m "Add phase-11 federal projects from exploration api-map [skip ci]" || echo "nothing to commit"
           git push
