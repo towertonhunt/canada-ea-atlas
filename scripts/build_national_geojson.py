@@ -260,6 +260,11 @@ print(f'quebec: {n_qc}')
 # ── Nova Scotia (no coordinates in source; parsed for list/search) ───
 ns_path = os.path.join(RAW, 'ns_ea_projects.html')
 n_ns = 0
+ns_docs = {}
+ns_cat_path = os.path.join(RAW, 'ns_doc_catalogue.json')
+if os.path.exists(ns_cat_path):
+    for url, docs in json.load(open(ns_cat_path)).items():
+        ns_docs[url] = len(docs)
 if os.path.exists(ns_path):
     h = open(ns_path, encoding='utf-8', errors='replace').read()
     rows = re.findall(r'<tr[^>]*>(.*?)</tr>', h, re.S)
@@ -286,10 +291,61 @@ if os.path.exists(ns_path):
             'date': date,
             'registry_url': url,
         }
+        if url in ns_docs:
+            props['doc_count'] = ns_docs[url]
+            slug = url.rstrip('/').rsplit('/', 1)[-1].replace('.asp', '') or 'index'
+            props['docs_path'] = f'data/docs/ns/{slug}.json'
         # No coordinates published; geometry null keeps them list-searchable
         add({'type': 'Feature', 'geometry': None, 'properties': props})
         n_ns += 1
 print(f'nova scotia (no coords yet): {n_ns}')
+
+# ── Newfoundland & Labrador (full registration list) ─────────────────
+nl_path = os.path.join(RAW, 'nl_ea_list.html')
+n_nl = 0
+if os.path.exists(nl_path):
+    h = open(nl_path, encoding='utf-8', errors='replace').read()
+    for r in re.findall(r'<tr[^>]*>(.*?)</tr>', h, re.S)[1:]:
+        # NL rows use unclosed <td> tags — split on the opening tag
+        cells = re.split(r'<td[^>]*>', r)[1:]
+        if len(cells) < 4:
+            continue
+        strip = lambda c: re.sub(r'\s+', ' ',
+                                 htmllib.unescape(re.sub(r'<[^>]+>', ' ', c))).strip()
+        reg, title_prop, registered, status = (strip(c) for c in cells[:4])
+        released = strip(cells[4]) if len(cells) > 4 else None
+        if not reg or not reg[0].isdigit():
+            continue
+        m = re.match(r'(.*?)\s*Proponent:\s*(.*)', title_prop)
+        name, proponent = (m.group(1), m.group(2)) if m else (title_prop, None)
+        link = re.search(r'href="([^"]+)"', cells[1] if len(cells) > 1 else '')
+        url = link.group(1) if link else None
+        if url and url.startswith('/'):
+            url = 'https://www.gov.nl.ca' + url
+        add({'type': 'Feature', 'geometry': None, 'properties': {
+            'name': name, 'jurisdiction': 'Newfoundland & Labrador (ECC)',
+            'source': 'nl_ea', 'status': status, 'type': name,
+            'proponent': proponent, 'reg_number': reg,
+            'date': registered, 'release_date': released,
+            'registry_url': url or f'https://www.gov.nl.ca/eccc/projects/projects-{reg}/',
+        }})
+        n_nl += 1
+print(f'newfoundland (no coords yet): {n_nl}')
+
+# ── Manitoba (Environment Act registry, parsed by agent) ─────────────
+mb_path = os.path.join(RAW, 'mb_ea_parsed.json')
+n_mb = 0
+if os.path.exists(mb_path):
+    for e in json.load(open(mb_path)):
+        add({'type': 'Feature', 'geometry': None, 'properties': {
+            'name': e.get('name') or f"File {e.get('number')}",
+            'jurisdiction': 'Manitoba (Environment Act)',
+            'source': 'mb_ea', 'status': None, 'type': e.get('name') or '',
+            'proponent': e.get('proponent'), 'file_number': e.get('number'),
+            'date': e.get('date'), 'registry_url': e.get('url'),
+        }})
+        n_mb += 1
+print(f'manitoba (no coords yet): {n_mb}')
 
 json.dump({'type': 'FeatureCollection', 'features': features}, open(OUT, 'w'))
 print(f'TOTAL: {len(features)} -> {OUT}')

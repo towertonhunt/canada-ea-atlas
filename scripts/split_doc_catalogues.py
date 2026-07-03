@@ -22,3 +22,18 @@ if os.path.exists(src):
                   open(os.path.join(outdir, f'{pid}.json'), 'w'), ensure_ascii=False)
         n += len(docs)
     print(f'bc: {len(cat)} files, {n} docs')
+
+# ── Nova Scotia ──────────────────────────────────────────────────────
+src = os.path.join(RAW, 'ns_doc_catalogue.json')
+if os.path.exists(src):
+    outdir = os.path.join(ROOT, 'data', 'docs', 'ns')
+    os.makedirs(outdir, exist_ok=True)
+    cat = json.load(open(src))
+    n = 0
+    for url, docs in cat.items():
+        slug = url.rstrip('/').rsplit('/', 1)[-1].replace('.asp', '') or 'index'
+        json.dump({'project': slug,
+                   'docs': [{'title': d['title'], 'url': d['url']} for d in docs]},
+                  open(os.path.join(outdir, f'{slug}.json'), 'w'), ensure_ascii=False)
+        n += len(docs)
+    print(f'ns: {len(cat)} files, {n} docs')
