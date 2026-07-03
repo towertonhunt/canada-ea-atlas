@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Harvest BAPE dossier index and sample doc pages
+      - name: Harvest all BAPE documentation pages
         continue-on-error: true
         run: |
           python3 - <<'PYEOF'
@@ -33,34 +33,25 @@ jobs:
                           raise
                       time.sleep(6)
 
-          slugs = {}
-          for page in range(1, 60):
+          slugs = json.load(open('data/raw/qc_bape_slugs.json'))
+          cat = {}
+          for i, slug in enumerate(slugs):
               try:
-                  h = get(f'https://www.bape.gouv.qc.ca/fr/dossiers/?page={page}&affichage=List')
+                  h = get(f'https://www.bape.gouv.qc.ca/fr/dossiers/{slug}/documentation/')
               except Exception as e:
-                  print('page', page, 'FAIL', e)
-                  break
-              found = re.findall(r'href="(/fr/dossiers/([a-z0-9-]+)/)"', h)
-              new = 0
-              for _, slug in found:
-                  if slug not in slugs:
-                      slugs[slug] = True
-                      new += 1
-              if new == 0 and page > 2:
-                  break
-              time.sleep(0.5)
-          print('BAPE dossiers:', len(slugs))
-          json.dump(sorted(slugs), open('data/raw/qc_bape_slugs.json', 'w'))
-          # sample 3 dossier pages to learn the documentation structure
-          for slug in sorted(slugs)[:3]:
-              try:
-                  h = get(f'https://www.bape.gouv.qc.ca/fr/dossiers/{slug}/')
-                  open(f'data/raw/qc_bape_sample_{slug[:30]}.html', 'w').write(h)
-                  pdfs = len(re.findall(r'\.pdf', h, re.I))
-                  docl = re.findall(r'href="([^"]*(?:voute|documentation|document)[^"]*)"', h)[:4]
-                  print(slug, ':', len(h), 'bytes,', pdfs, 'pdf refs, doc links:', docl)
-              except Exception as e:
-                  print(slug, 'FAIL', e)
+                  print('FAIL', slug, str(e)[:60])
+                  continue
+              docs = []
+              for m in re.finditer(r'<a[^>]+href="(https://voute\.bape\.gouv\.qc\.ca/dl/\?id=[^"]+)"[^>]*>(.*?)</a>', h, re.S):
+                  title = re.sub(r'\s+', ' ', H.unescape(re.sub(r'<[^>]+>', ' ', m.group(2)))).strip()
+                  docs.append({'title': title[:200] or 'Document', 'url': m.group(1)})
+              if docs:
+                  cat[slug] = docs
+              if i % 40 == 0:
+                  print(f'{i}/{len(slugs)}: {sum(len(v) for v in cat.values())} docs')
+              time.sleep(0.4)
+          json.dump(cat, open('data/raw/qc_bape_doc_catalogue.json', 'w'), ensure_ascii=False)
+          print('DONE:', len(cat), 'dossiers with docs,', sum(len(v) for v in cat.values()), 'documents')
           PYEOF
 
       - name: Commit
