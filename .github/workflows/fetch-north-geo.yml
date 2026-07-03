@@ -2,6 +2,9 @@ name: Fetch territories and geocoding data
 
 on:
   workflow_dispatch:
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/fetch-north-geo.yml']
 
 permissions:
   contents: write

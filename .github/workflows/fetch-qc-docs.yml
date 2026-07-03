@@ -2,6 +2,9 @@ name: Fetch Quebec document catalogue
 
 on:
   workflow_dispatch:
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/fetch-qc-docs.yml']
 
 permissions:
   contents: write

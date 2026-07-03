@@ -2,6 +2,9 @@ name: Fetch Nova Scotia document catalogue
 
 on:
   workflow_dispatch:
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/fetch-ns-docs.yml']
 
 permissions:
   contents: write
