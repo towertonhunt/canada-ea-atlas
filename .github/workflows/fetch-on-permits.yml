@@ -15,96 +15,44 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Search Ontario open data for ECA / mining datasets
+      - name: Download AMIS abandoned mines KML
         continue-on-error: true
         run: |
           mkdir -p data/raw
+          curl -sL --retry 3 --max-time 180 "https://www.geologyontario.mndm.gov.on.ca/mines/data/google/amis/AMIS.kml" -o data/raw/on_amis.kml || true
+          wc -c data/raw/on_amis.kml
+
+      - name: Download compliance and financial assurance datasets
+        continue-on-error: true
+        run: |
           python3 - <<'EOF'
-          import json, urllib.request, urllib.parse
+          import json, urllib.request, urllib.parse, re
 
           def get(url):
               req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-              return json.loads(urllib.request.urlopen(req, timeout=60).read())
+              return urllib.request.urlopen(req, timeout=120).read()
 
-          ckan = "https://data.ontario.ca/api/3/action/package_search?rows=25&q="
-          hits = {}
-          for q in ("environmental compliance approval",
-                    "abandoned mines information system",
-                    "mine closure plan",
-                    "mining lands",
-                    "access environment"):
+          ckan = "https://data.ontario.ca/api/3/action/package_show?id="
+          for pkg in ('environmental-compliance-reports',
+                      'financial-assurance-held-for-mining-companies',
+                      'abandoned-mines-information'):
               try:
-                  d = get(ckan + urllib.parse.quote(q))
-                  for p in d['result']['results']:
-                      hits[p['name']] = {
-                          'title': p.get('title'),
-                          'resources': [{'format': r.get('format'), 'url': r.get('url')}
-                                        for r in p.get('resources', [])],
-                      }
-                  print(q, '->', d['result']['count'], 'results')
+                  d = json.loads(get(ckan + pkg))
+                  for r in d['result']['resources']:
+                      fmt = (r.get('format') or '').lower()
+                      if fmt not in ('csv', 'xlsx', 'kml', 'geojson', 'json'):
+                          continue
+                      name = re.sub(r'[^a-z0-9]+', '_', (r.get('name') or r['id']).lower())[:60]
+                      dest = f'data/raw/onp_{pkg[:12]}_{name}.{fmt}'
+                      try:
+                          open(dest, 'wb').write(get(r['url']))
+                          print('OK  ', dest)
+                      except Exception as e:
+                          print('FAIL', r['url'][:90], e)
               except Exception as e:
-                  print('FAIL', q, e)
-          json.dump(hits, open('data/raw/on_permit_datasets.json', 'w'), ensure_ascii=False, indent=1)
-          print('total unique datasets:', len(hits))
-          for name, h in list(hits.items())[:40]:
-              print('-', name, '|', (h['title'] or '')[:70])
+                  print('PKG FAIL', pkg, e)
           EOF
-
-      - name: Probe Access Environment search
-        continue-on-error: true
-        run: |
-          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
-          for u in \
-            "https://www.accessenvironment.ene.gov.on.ca/AEWeb/ae/GoSearch.action" \
-            "https://www.accessenvironment.ene.gov.on.ca/" \
-            ; do
-            code=$(curl -sL -o /dev/null -w "%{http_code}" --max-time 45 -A "$UA" "$u" || echo ERR)
-            echo "$code $u"
-          done
-          curl -sL --max-time 60 -A "$UA" "https://www.accessenvironment.ene.gov.on.ca/AEWeb/ae/GoSearch.action" -o data/raw/on_accessenv_search.html || true
-          wc -c data/raw/on_accessenv_search.html || true
-
-      - name: Harvest ERO instrument notices (ECA + closure plans)
-        continue-on-error: true
-        run: |
-          python3 - <<'EOF'
-          import re, json, time, urllib.request, html as H
-
-          def get(url, tries=3):
-              for t in range(tries):
-                  try:
-                      req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-                      return urllib.request.urlopen(req, timeout=60).read().decode('utf-8', 'replace')
-                  except Exception:
-                      if t == tries - 1:
-                          raise
-                      time.sleep(6)
-
-          out = {}
-          for label, q in (('eca', 'environmental compliance approval'),
-                           ('closure', 'mine closure plan')):
-              notices = {}
-              for page in range(0, 40):
-                  try:
-                      h = get('https://ero.ontario.ca/search?search=' +
-                              urllib.request.quote(q) + f'&page={page}')
-                  except Exception as e:
-                      print(label, 'page', page, 'FAIL', e)
-                      break
-                  found = re.findall(r'href="(/notice/[^"]+)"[^>]*>(.*?)</a>', h, re.S)
-                  new = 0
-                  for u, t in found:
-                      name = re.sub(r'\s+', ' ', H.unescape(re.sub(r'<[^>]+>', ' ', t))).strip()
-                      if u not in notices and name:
-                          notices[u] = name
-                          new += 1
-                  if new == 0 and page > 2:
-                      break
-                  time.sleep(1)
-              out[label] = notices
-              print(label, ':', len(notices), 'notices')
-          json.dump(out, open('data/raw/on_permit_ero_notices.json', 'w'), ensure_ascii=False)
-          EOF
+          ls -la data/raw/onp_* 2>/dev/null | head -20
 
       - name: Commit
         run: |
@@ -113,7 +61,7 @@ jobs:
           for i in 1 2 3 4 5; do
             git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
             git add data/raw
-            git commit -m "Add Ontario permitting recon (ECA, mine closure, AMIS) [skip ci]" || echo "nothing to commit"
+            git commit -m "Add AMIS mines, compliance reports, financial assurance data [skip ci]" || echo "nothing to commit"
             git push && break
             sleep 7
           done
