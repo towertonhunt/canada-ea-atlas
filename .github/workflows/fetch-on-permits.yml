@@ -15,12 +15,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download AMIS abandoned mines KML
+      - name: Download AMIS sites and features KMZ
         continue-on-error: true
         run: |
           mkdir -p data/raw
-          curl -sL --retry 3 --max-time 180 "https://www.geologyontario.mndm.gov.on.ca/mines/data/google/amis/AMIS.kml" -o data/raw/on_amis.kml || true
-          wc -c data/raw/on_amis.kml
+          curl -sL --retry 3 --max-time 300 "http://www.geologyontario.mndm.gov.on.ca/mines/data/google/AMIS/KML/Sites/Sites2026.kmz" -o data/raw/on_amis_sites.kmz || true
+          curl -sL --retry 3 --max-time 300 "http://www.geologyontario.mndm.gov.on.ca/mines/data/google/AMIS/KML/Features/Features2026.kmz" -o data/raw/on_amis_features.kmz || true
+          ls -la data/raw/on_amis_*.kmz
 
       - name: Download compliance and financial assurance datasets
         continue-on-error: true
