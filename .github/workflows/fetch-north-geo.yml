@@ -2,6 +2,8 @@ name: Fetch territories and geocoding data
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "13 */6 * * *"
   push:
     branches: [claude/mac-mini-connection-ceehl5]
     paths: ['.github/workflows/fetch-north-geo.yml']
@@ -14,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: claude/mac-mini-connection-ceehl5
 
       - name: Probe territorial registries (YESAB, MVEIRB, NIRB)
         continue-on-error: true

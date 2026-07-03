@@ -2,6 +2,8 @@ name: Fetch Ontario permitting data (ECA, mine closure)
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "29 9 * * *"
   push:
     branches: [claude/mac-mini-connection-ceehl5]
     paths: ['.github/workflows/fetch-on-permits.yml']
@@ -14,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: claude/mac-mini-connection-ceehl5
 
       - name: Download AMIS sites and features KMZ
         continue-on-error: true

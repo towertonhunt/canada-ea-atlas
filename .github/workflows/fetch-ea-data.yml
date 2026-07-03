@@ -2,6 +2,8 @@ name: Fetch EA registry data
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "43 */2 * * *"
   push:
     branches: [claude/mac-mini-connection-ceehl5]
     paths: ['.github/workflows/fetch-ea-data.yml']
@@ -14,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: claude/mac-mini-connection-ceehl5
 
       - name: Harvest federal list API (browser-exact payload)
         continue-on-error: true
