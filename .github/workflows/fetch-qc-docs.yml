@@ -15,48 +15,42 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Harvest all Quebec projet.asp pages
+      - name: Probe how recent QC projects expose documents
         continue-on-error: true
         run: |
           python3 - <<'EOF'
-          import re, json, time, urllib.request, html as H
+          import re, urllib.request
 
-          UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
-                '(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36')
+          UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/126.0.0.0'
 
-          def get(url, tries=3):
-              for t in range(tries):
-                  try:
-                      req = urllib.request.Request(url, headers={'User-Agent': UA})
-                      return urllib.request.urlopen(req, timeout=60).read().decode('utf-8', 'replace')
-                  except Exception:
-                      if t == tries - 1:
-                          raise
-                      time.sleep(8)
+          def get(url):
+              req = urllib.request.Request(url, headers={'User-Agent': UA})
+              return urllib.request.urlopen(req, timeout=60).read().decode('utf-8', 'replace')
 
+          # Windfall mine (updated 2026-06) and two other recent dossiers
           h = open('data/raw/qc_ree_resultats.html', encoding='utf-8', errors='replace').read()
-          dossiers = sorted(set(re.findall(r'projet\.asp\?no_dossier=([^"&]+)', h)))
-          print('dossiers:', len(dossiers))
-          cat = {}
-          for i, d in enumerate(dossiers):
-              try:
-                  page = get(f"https://www.ree.environnement.gouv.qc.ca/projet.asp?no_dossier={d}")
-              except Exception as e:
-                  print('FAIL', d, e)
-                  continue
-              docs = []
-              for m in re.finditer(r'<a[^>]+href="([^"]+\.(?:pdf|PDF)[^"]*)"[^>]*>(.*?)</a>', page, re.S):
-                  u = m.group(1)
-                  if u.startswith('/'):
-                      u = 'https://www.ree.environnement.gouv.qc.ca' + u
-                  title = re.sub(r'\s+', ' ', H.unescape(re.sub(r'<[^>]+>', ' ', m.group(2)))).strip()
-                  docs.append({'title': title or u.rsplit('/', 1)[-1], 'url': u})
-              cat[d] = docs
-              if i % 50 == 0:
-                  print(i, 'done,', sum(len(v) for v in cat.values()), 'docs')
-              time.sleep(0.5)
-          json.dump(cat, open('data/raw/qc_doc_catalogue.json', 'w'), ensure_ascii=False)
-          print('DONE:', len(cat), 'projects,', sum(len(v) for v in cat.values()), 'documents')
+          rows = re.findall(r'<tr[^>]*>(.*?)</tr>', h, re.S)
+          recent = []
+          for r in rows[1:8]:  # top of list = most recently updated
+              m = re.search(r'no_dossier=([^"&]+)', r)
+              if m and m.group(1) not in recent:
+                  recent.append(m.group(1))
+          print('probing dossiers:', recent[:3])
+          base = 'https://www.ree.environnement.gouv.qc.ca/'
+          for d in recent[:3]:
+              for tpl in ('projet.asp?no_dossier={}', 'documents.asp?no_dossier={}',
+                          'doc.asp?no_dossier={}', 'fiche.asp?no_dossier={}',
+                          'liste_documents.asp?no_dossier={}'):
+                  url = base + tpl.format(d)
+                  try:
+                      page = get(url)
+                      pdfs = len(re.findall(r'\.pdf', page, re.I))
+                      links = len(re.findall(r'href=', page))
+                      print(f'{tpl.split("?")[0]} {d}: {len(page)}b, {links} links, {pdfs} pdf refs')
+                      if pdfs > 0 or 'document' in page.lower()[:3000]:
+                          open(f'data/raw/qc_probe_{tpl.split(".")[0]}_{d.replace("-","")}.html', 'w').write(page)
+                  except Exception as e:
+                      print(f'{tpl.split("?")[0]} {d}: FAIL {str(e)[:60]}')
           EOF
 
       - name: Commit
@@ -66,7 +60,7 @@ jobs:
           for i in 1 2 3 4 5; do
             git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
             git add data/raw
-            git commit -m "Add Quebec document catalogue [skip ci]" || echo "nothing to commit"
+            git commit -m "Add QC document-page structure probes [skip ci]" || echo "nothing to commit"
             git push && break
             sleep 7
           done
