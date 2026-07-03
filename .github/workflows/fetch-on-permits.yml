@@ -59,40 +59,48 @@ jobs:
           EOF
           ls -la data/raw/onp_* 2>/dev/null | head -20
 
-      - name: Discover OGSEarth KML catalogue and retry NRCan 900A
+      - name: GeologyOntario DCAT + NRCan principal mineral areas
         continue-on-error: true
         run: |
-          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/126.0.0.0"
-          rm -f data/raw/on_active_*.dat
-          for u in \
-            "https://www.geologyontario.mines.gov.on.ca/ogsearth.html" \
-            "https://www.hub.geologyontario.mines.gov.on.ca/pages/ogsearth" \
-            "https://www.mndm.gov.on.ca/en/mines-and-minerals/applications/ogsearth" \
-            ; do
-            fn="data/raw/ogsearth_$(echo "$u" | md5sum | cut -c1-6).html"
-            code=$(curl -sL -o "$fn" -w "%{http_code}" --max-time 60 -A "$UA" "$u" || echo ERR)
-            echo "$code $u -> $(wc -c < $fn) bytes"
-            grep -oiE 'href="[^"]*\.km[lz][^"]*"' "$fn" | head -20 || true
-          done
           python3 - <<'PYEOF'
           import json, time, urllib.request, urllib.parse
+
           def get(url, tries=3):
               for t in range(tries):
                   try:
                       req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-                      return urllib.request.urlopen(req, timeout=120).read()
+                      return urllib.request.urlopen(req, timeout=180).read()
                   except Exception as e:
                       if t == tries - 1:
                           raise
                       time.sleep(10)
+
+          # GeologyOntario ArcGIS Hub DCAT catalogue
+          try:
+              cat = json.loads(get('https://www.hub.geologyontario.mines.gov.on.ca/api/feed/dcat-us/1.1.json'))
+              ds = cat.get('dataset', [])
+              print('geologyontario datasets:', len(ds))
+              mines = [d for d in ds if 'mine' in (d.get('title') or '').lower()]
+              out = [{'title': d.get('title'), 'landing': d.get('landingPage'),
+                      'dist': [{'format': x.get('format'), 'url': x.get('accessURL') or x.get('downloadURL')}
+                               for x in d.get('distribution', [])][:5]}
+                     for d in mines]
+              json.dump(out, open('data/raw/on_geologyontario_mines.json', 'w'), ensure_ascii=False, indent=1)
+              for d in out[:15]:
+                  print('-', d['title'][:70])
+          except Exception as e:
+              print('DCAT FAIL', str(e)[:120])
+
+          # NRCan national producing mines
           try:
               d = json.loads(get('https://open.canada.ca/data/api/3/action/package_search?rows=10&q=' +
-                                 urllib.parse.quote('900A producing mines')))
-              hits = {p['name']: [{'format': r.get('format'), 'url': r.get('url')}
-                                  for r in p.get('resources', [])]
+                                 urllib.parse.quote('principal mineral areas producing mines')))
+              hits = {p['name']: {'title': p.get('title'),
+                                  'res': [{'format': r.get('format'), 'url': r.get('url')}
+                                          for r in p.get('resources', [])]}
                       for p in d['result']['results']}
-              json.dump(hits, open('data/raw/active_mines_datasets.json', 'w'))
-              print('datasets:', list(hits)[:6])
+              json.dump(hits, open('data/raw/active_mines_datasets.json', 'w'), ensure_ascii=False, indent=1)
+              print('NRCan hits:', [h['title'][:60] for h in hits.values()][:6])
           except Exception as e:
               print('CKAN FAIL', str(e)[:120])
           PYEOF
