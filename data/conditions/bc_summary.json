@@ -1,0 +1,44 @@
+{
+ "docs_used": 101,
+ "records": 1884,
+ "by_discipline": {
+  "other": 648,
+  "wildlife_birds": 186,
+  "vegetation_ecosystems": 161,
+  "indigenous_rights_tluse": 138,
+  "fish_fish_habitat": 126,
+  "groundwater": 106,
+  "surface_water": 100,
+  "waste_hazmat": 96,
+  "socio_economic": 65,
+  "archaeology_heritage": 65,
+  "air_quality": 48,
+  "soils_terrain": 39,
+  "wetlands": 36,
+  "accidents_malfunctions": 32,
+  "noise_vibration": 14,
+  "closure_postclosure": 11,
+  "human_health": 8,
+  "ghg_climate": 5
+ },
+ "by_measure": {
+  "other": 1162,
+  "minimization_design": 217,
+  "monitoring_followup": 201,
+  "engagement_commitment": 151,
+  "management_plan": 66,
+  "avoidance_timing": 31,
+  "financial_assurance": 31,
+  "compensation_offsetting": 25
+ },
+ "by_archetype": {
+  "mining": 489,
+  "oil_gas": 440,
+  "energy_other": 430,
+  "water": 194,
+  "waste": 127,
+  "tourism": 86,
+  "industrial": 72,
+  "transport": 46
+ }
+}
