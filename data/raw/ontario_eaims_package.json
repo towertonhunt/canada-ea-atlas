@@ -1,0 +1,81 @@
+{
+ "help": "https://data.ontario.ca/api/3/action/help_show?name=package_show",
+ "success": true,
+ "result": {
+  "access_instructions": {
+   "en": "",
+   "fr": ""
+  },
+  "access_level": "under_review",
+  "asset_type": "dataset",
+  "author": "",
+  "author_email": "",
+  "creator_user_id": "faba29e3-f7ad-4b37-ad77-3ce832d12630",
+  "current_as_of": "2017-01-31",
+  "exemption": "none",
+  "exemption_rationale": {
+   "en": "",
+   "fr": ""
+  },
+  "geographic_coverage_translated": {
+   "en": "Ontario",
+   "fr": "Ontario"
+  },
+  "geographic_granularity": "",
+  "id": "5762cfbc-ed30-4ed1-bb34-c97b3d819e06",
+  "isopen": false,
+  "keywords": {},
+  "license_id": "notspecified",
+  "license_title": "Licence Not Specified",
+  "maintainer": null,
+  "maintainer_branch": {
+   "en": "",
+   "fr": ""
+  },
+  "maintainer_email": "",
+  "maintainer_translated": {
+   "en": "",
+   "fr": ""
+  },
+  "metadata_created": "2020-01-11T09:17:00.766107",
+  "metadata_modified": "2023-06-16T11:08:13.287083",
+  "name": "environmental-assessment-information-management-system-eaims",
+  "notes": "The Environmental assessment information management system is a database\r\napplication used to monitor compliance with terms and conditions of\r\nenvironmental assessment project approvals.\r\n\r\n",
+  "notes_translated": {
+   "en": "The Environmental assessment information management system is a database\r\napplication used to monitor compliance with terms and conditions of\r\nenvironmental assessment project approvals.\r\n\r\n",
+   "fr": "elle facilite egalement la surveillance de la conformite.\r\n\r\nLe systeme de gestion de l'information sur les evaluations environnementales\r\nest une application de type base de donnees qui permet de surveiller la\r\nconformite relativement aux conditions d'approbation des projets vises par une\r\nevaluation environnementale.\r\n\r\n"
+  },
+  "num_resources": 0,
+  "num_tags": 0,
+  "opened_date": "2017-01-31",
+  "organization": {
+   "id": "0f5368c3-b553-4f82-8909-80e8756f24f4",
+   "name": "environment-conservation-and-parks",
+   "title": "Environment, Conservation and Parks",
+   "type": "organization",
+   "description": "Leading to healthier communities and economic prosperity through protecting Ontario\u2019s air, land and water.",
+   "image_url": "2020-03-19-202918.141808environment.jpg",
+   "created": "2019-12-31T09:18:30.191952",
+   "is_organization": true,
+   "approval_status": "approved",
+   "state": "active"
+  },
+  "owner_org": "0f5368c3-b553-4f82-8909-80e8756f24f4",
+  "private": false,
+  "state": "active",
+  "title": "Environmental assessment information management system (EAIMS)",
+  "title_translated": {
+   "en": "Environmental assessment information management system (EAIMS)",
+   "fr": "Syst\u00e8me de gestion de l\u2019information relative aux \u00e9valuations environnementales (SGIEE)"
+  },
+  "type": "dataset",
+  "update_frequency": "other",
+  "url": "",
+  "version": null,
+  "resources": [],
+  "tags": [],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": []
+ }
+}

@@ -1,0 +1,80 @@
+name: Extract BC condition documents (corpus pilot)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/fetch-bc-conditions.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download condition PDFs and extract text
+        continue-on-error: true
+        run: |
+          pip install --quiet pypdf
+          python3 - <<'EOF'
+          import json, gzip, os, re, time, urllib.request
+          from pypdf import PdfReader
+
+          cat = json.load(open('data/raw/bc_doc_catalogue.json'))
+          # pick condition/certificate/commitment docs
+          PAT = re.compile(r'condition|certificate|commitment|table of conditions|'
+                           r'management plan|mitigation', re.I)
+          targets = []
+          for pid, entry in cat.items():
+              for d in entry['docs']:
+                  t = (d.get('title') or '') + ' ' + (d.get('file') or '')
+                  if PAT.search(t):
+                      targets.append((pid, entry['name'], d))
+          print('candidate condition docs:', len(targets))
+          targets = targets[:400]  # pilot cap
+
+          os.makedirs('data/corpus/bc', exist_ok=True)
+          index, ok, fail = [], 0, 0
+          for pid, pname, d in targets:
+              doc_id = d['url'].rstrip('/').split('/')[-2]
+              out = f'data/corpus/bc/{doc_id}.txt.gz'
+              if os.path.exists(out):
+                  continue
+              try:
+                  req = urllib.request.Request(d['url'], headers={'User-Agent': 'Mozilla/5.0'})
+                  pdf = urllib.request.urlopen(req, timeout=120).read()
+                  open('/tmp/doc.pdf', 'wb').write(pdf)
+                  text = '\n'.join((p.extract_text() or '') for p in PdfReader('/tmp/doc.pdf').pages)
+                  if len(text.strip()) < 200:
+                      fail += 1
+                      continue  # likely scanned; skip for pilot
+                  gzip.open(out, 'wt', encoding='utf-8').write(text)
+                  index.append({'doc_id': doc_id, 'project_id': pid, 'project': pname,
+                                'title': d.get('title'), 'date': d.get('date'),
+                                'url': d['url'], 'chars': len(text)})
+                  ok += 1
+              except Exception as e:
+                  fail += 1
+                  if fail % 25 == 0:
+                      print('fails so far', fail, 'last:', str(e)[:80])
+              if (ok + fail) % 40 == 0:
+                  print(f'{ok} extracted, {fail} skipped/failed')
+              time.sleep(0.3)
+          json.dump(index, open('data/corpus/bc/index.json', 'w'), ensure_ascii=False)
+          print('DONE:', ok, 'extracted,', fail, 'skipped/failed')
+          EOF
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git add data/corpus
+            git commit -m "Add BC condition-document text corpus (pilot) [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 7
+          done

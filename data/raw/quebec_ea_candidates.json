@@ -1,0 +1,1568 @@
+{
+ "vmtl-indice-equite-milieux-vie": {
+  "title": "Indice d'équité des milieux de vie",
+  "org": "Ville de Montréal",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://ville-montreal.vercel.app/"
+   },
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/f1b00702-6d0e-4542-9561-d3d9dd2f880d/download/resultats_iemv_v2026-_vm.csv"
+   },
+   {
+    "format": "GeoJSON",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/62fef2b3-a460-45b7-af61-7ba3d64e858c/download/resultats_iemv_v2026-_vm.geojson"
+   },
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/9ea5079b-5571-4951-8339-716f5c30ed28/download/resultats_iemv_v2026_agglo.csv"
+   },
+   {
+    "format": "GeoJSON",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/35b17cd9-3a08-4f03-9700-8ee7e0d2ff41/download/resultats_iemv_v2026_agglo.geojson"
+   },
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/fa742192-e60e-4556-9b25-703a1a3c6af1/download/resultats_iemv_v2026_arro.csv"
+   },
+   {
+    "format": "GeoJSON",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/a9a2d8b8-73b4-4ce8-8194-b92595b62862/download/resultats_iemv_v2026_arro.geojson"
+   },
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/adc8c5cd-7fe7-4259-bc3a-6f0f9d184fe1/download/resultats_iemv_v2026_arro.csv"
+   },
+   {
+    "format": "GeoJSON",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/db1926f1-cd0c-474e-9709-cef16897a135/download/resultats_iemv_v2026_arro.geojson"
+   },
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/61954b72-c0f5-48dc-8d86-0b66db744170/download/resultats_iemv_v2026_agglo.csv"
+   },
+   {
+    "format": "GeoJSON",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/aa8f3693-a075-4330-b47b-3e152292cda2/download/resultats_iemv_v2026_agglo.geojson"
+   },
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/0f0f8c6a-b503-4565-9583-d4f21db9e6fe/download/indice_emv_2024.csv"
+   },
+   {
+    "format": "GeoJSON",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/dc94a7d6-fb2a-4be4-acf0-aeb968453a8a/download/indice_emv_2024.geojson"
+   },
+   {
+    "format": "SHP",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/0ac19391-1987-41ae-9454-f71fa1be090c/download/indice_emv_2024.zip"
+   },
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/78a059c5-ad40-4778-8b3d-85355cc9944d/download/indice_emv_arrond_v2024.csv"
+   },
+   {
+    "format": "PDF",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/f7708f23-9582-4e07-b213-22396b3f50b3/download/rapport-methodologique-2024.pdf"
+   },
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/5ca26973-7df6-472e-9bc0-5213a2445082/download/indice-equite-milieux-vie.csv"
+   },
+   {
+    "format": "SHP",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/56b679de-e97f-483d-9f43-1dff7eb66679/download/indice-equite-milieux-vie.zip"
+   },
+   {
+    "format": "GeoJSON",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/955ac3a9-8457-4a4e-9d2e-13432dd14f03/download/indice-equite-milieux-vie.geojson"
+   },
+   {
+    "format": "XLS",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/e9069256-eb59-439c-b3e7-04055fb28096/download/indice_emv_arrond.xlsx"
+   },
+   {
+    "format": "PDF",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/7754ac6b-2e97-4aa5-97e9-8ef7a38ddb03/download/rapport-methodologique.pdf"
+   },
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/fr/dataset/1c1a9b72-efaa-4484-9b19-2ab9a5561cfa/resource/cf0dbcaf-4734-4551-81e2-6b8a7813ca41/download/dictionnaire-donnees-indice-equite-milieux-vie.xlsx"
+   }
+  ]
+ },
+ "vmtl-immeubles-terrains-assujettis-droit-preemption": {
+  "title": "Immeubles et terrains assujettis au droit de préemption",
+  "org": "Ville de Montréal",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/dataset/ff4cfec0-34a5-474b-a53e-eb5aeffba74a/resource/dae5fa74-5ab3-4479-be6f-f4b5e29c0f6d/download/immeubles-terrains-droit-preemption.csv"
+   },
+   {
+    "format": "GeoJSON",
+    "url": "https://donnees.montreal.ca/dataset/ff4cfec0-34a5-474b-a53e-eb5aeffba74a/resource/8e43d61b-792c-45c5-8bbc-05a75ff4abfa/download/immeubles-terrains-droit-preemption.geojson"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://donnees.montreal.ca/dataset/ff4cfec0-34a5-474b-a53e-eb5aeffba74a/resource/dae9e0ac-105a-4016-bd66-4a0bec3e07ca/download/immeubles-terrains-droit-preemption.zip"
+   }
+  ]
+ },
+ "musee-de-la-cote-nord-acces-numerique": {
+  "title": "Musée de la Côte-Nord Accès numérique",
+  "org": "Musée de la Côte-Nord",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/9daca470-ceed-4a4e-85d2-54037af0c05e/resource/107999db-124b-4022-856d-94dfc18f7810/download/artefacts-musee-cote-nord-2024-csv-utf8.csv"
+   }
+  ]
+ },
+ "photographie-oblique-du-nord-quebecois": {
+  "title": "Banque de photos du Nord québécois",
+  "org": "Ministère des Ressources naturelles et des Forêts",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/DONNEES_FOR_ECO_NORD/Photos_Nord/csv/Photo_nord_quebecois.csv"
+   },
+   {
+    "format": "SHP",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/DONNEES_FOR_ECO_NORD/Photos_Nord/shp/Photos_du_Nord_quebecois.zip"
+   },
+   {
+    "format": "WMS",
+    "url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi?"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mffp.gouv.qc.ca/documents/forets/inventaire/Procedure_service_Web.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mffp.gouv.qc.ca/documents/forets/inventaire/Telechargement_rapide.pdf"
+   },
+   {
+    "format": "HTML",
+    "url": "https://www.foretouverte.gouv.qc.ca/?pos=@-71.13232,53.10773&ctx=_carte_nord&layers=123id,1v,13z;125id,0v,11z;127id,0v,9z"
+   }
+  ]
+ },
+ "etude-d-enjeux-de-mobilite-des-berges-dans-le-troncon-fluvial-du-saint-laurent": {
+  "title": "Étude d’enjeux de mobilité des berges dans le tronçon fluvial du Saint-Laurent",
+  "org": "Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs",
+  "resources": [
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/8b07111a-b70c-4d05-bc56-784368267a63/download/rapportfinal_suivimobiliteslf_ulaval_mars2024.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/d2c825ed-9a90-4e3f-828b-1981661f0b82/download/guide_fiche_portrait.pdf"
+   },
+   {
+    "format": "FGDB",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/64b6f966-5ebe-4b67-b1be-0a9cc50b30d5/download/tc_migration.zip"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/5e936bf9-5de7-4f42-9982-56f857cf9e88/download/ile_marie_20210520_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/8d82eb52-6960-4b5f-9664-c9e155e92ffa/download/ile_marie_20210520_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/5c5afb39-e8da-4d9b-a6a5-b4ebfc22c37a/download/ile_marie_20230601_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/c1d5a76b-de8b-4ba1-a93c-95170c0df13d/download/ile_marie_20230601_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/bce602f0-061c-4ba5-bed2-ebe8fce38b54/download/ile_de_grace_20210722_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/47971541-1c87-4b59-b649-8a02a95cc184/download/ile_de_grace_20210722_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/0bf3e8f5-cd54-49e4-b199-21a4028e02b1/download/ile_de_grace_20230531_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/162f0491-42a4-4c45-9066-54370b6f6f62/download/ile_de_grace_20230531_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/b5ecaf44-03b6-4c0e-a1b6-5b33c4177e89/download/ile_des_barques_20210722_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/11be1bd8-29e8-4922-b2cf-65aad501cf3f/download/ile_des_barques_20210722_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/47d9bb78-f8b4-40ae-b3e0-270ed38793c4/download/ile_des_barques_20230531_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/4e0e68e3-0e78-4a92-a13f-4c373efc1b60/download/ile_des_barques_20230531_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/a2206141-8d79-440a-a285-e48a9308540c/download/yamachiche_20210519_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/c6e13017-9036-4339-b9a8-26368080a42a/download/yamachiche_20210519_mns10cm.zip"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/935d2e93-4a5f-4098-b5c0-cc1a41ac6e27/download/yamachiche_20221005_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/0e09ddeb-a539-46b9-a40f-3d517bd66c91/download/yamachiche_20221005_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/9cbfb7e9-4688-44e2-bd52-35474b1cc411/download/mur_de_champlain_20210504_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/3c5a90ed-c266-43d8-9722-82da548e8a80/download/mur_de_champlain_20210504_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/5b69ad78-1bab-4eb6-b12d-7ba0cfe43331/download/mur_de_champlain_20230522_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/188a9481-ce9b-43ef-bf49-484cc20f78cb/download/mur_de_champlain_20230522_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/a4a34f70-65f7-471f-9946-f4a083791630/download/ste_marthe_du_cap_20210504_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/f6208769-bdb3-4ef8-ab27-44a44c82e2b7/download/ste_marthe_du_cap_20210504_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/fe3154a2-d1e3-401f-baab-8308bcdcc14d/download/ste_marthe_du_cap_20230522_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/d22308ea-854c-4fa8-83e4-26e0a9b5eca2/download/ste_marthe_du_cap_20230522_mns0cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/96879cbe-f27e-4426-9b19-eeecf8d43940/download/cap_levrard_20200914_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/c73ff08d-b9c6-4241-b52a-ca1016ee0e06/download/cap_levrard_20200914_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/15548852-7c80-496c-bc19-cd9b214087f8/download/cap_levrard_20230529_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/0dc257c7-c333-4435-95bf-9a8667dd01e5/download/cap_levrard_20230529_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/f0d07d85-8bfa-425e-8e89-ac1e39b54c77/download/portneuf_20210506_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/d6aaa7ad-8de4-47fa-a2d0-16d31c49e938/download/portneuf_20210516_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/76a0769f-5544-4d1b-a542-8efb4e873b28/download/portneuf_20220509_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/e0210584-54ee-466c-9adf-e102b70b34de/download/portneuf_20220509_mns10cm.zip"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/20b73521-25cb-4a59-a8df-c2911970395e/download/pointe_platon_20210507_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/e8974bb7-09f2-4b3d-b8cc-5e3139c6ea7e/download/pointe_platon_20210507_mns10cm.zip"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/5ed912ef-8173-4c54-b8f5-a235670f6e07/download/pointe_platon_20220511_mns10cm.zip"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/f9254ef4-9eec-4228-8d4e-3e9e056696be/download/pointe_platon_20220511_ortho5cm.ecw"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/75591ed7-6f5e-4c2d-a269-e1ac29a2a713/download/plage_jacques_cartier_20200713_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/a386a802-fe69-4930-b209-672afbf3005b/download/plage_jacques_cartier_20200713_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/f5b1f384-d57f-4c7b-88fc-d01555a4bb75/download/plage_jacques_cartier_20230529_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/2c1a3923-184a-4b52-829f-1052ff73b657/download/plage_jacques_cartier_20230529_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/93342991-e0ad-45dd-9513-e93330150b7b/download/anse_tibbits_20190604_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/e2a6ca33-510d-4765-8b22-89b34206c865/download/anse_tibbits_20190604_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/c0e3061a-55a5-4758-a8d0-62daec8c1c2e/download/anse_tibbits_20210817_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/ace889e6-e9b7-4e67-b042-c9a72823f8d2/download/anse_tibbits_20210817_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/4be091b8-f0a1-4978-89d7-dfd9c870dc6b/download/anse_tibbits_20230815_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/9c36fbd6-dc37-484b-89e7-b1b17ff116fa/download/anse_tibbits_20230815_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/1c5714af-6154-4861-a573-3d51c8a352ff/download/baie_de_beauport_20211116_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/5b16b210-6fc6-465a-9ca2-f55862fa6f80/download/baie_de_beauport_20211116_mns10cm.tif"
+   },
+   {
+    "format": "ECW",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/0cba4dc5-c206-4b38-9558-a06e34057379/download/baie_de_beauport_20230612_ortho5cm.ecw"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/5b09fe57-c760-4840-a47e-6ad8d8d34ea5/download/baie_de_beauport_20230612_mns10cm.tif"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/4b7c2e0a-c6e7-4eb5-857a-9e94a477d7d4/download/fiche_archipels_ulaval_2024.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/e9250df8-6182-4d03-9705-fc090bd665f8/download/fiche_yamachiche_ulaval_2024.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/2d5324d9-7a56-44fb-b9e4-8e08114df1ef/download/fiche_murschamplainpav_ulaval_2024.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/59687962-47b4-4fc2-a066-19cd0e5e2700/download/fiche_caplevrard_ulaval_2024.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/a9b3efdb-7151-4294-a405-ba6ad57c50e0/download/fiche_pp_pn_ulaval_2024.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a849ef4f-da7c-4ea6-9a72-a5c3a22179e7/resource/195eb439-5f23-4f1e-b3eb-7c7b9d56190c/download/fiche_plagesqc_ulaval_2024.pdf"
+   }
+  ]
+ },
+ "frr-pertes-et-gains-de-superficies-forestieres-en-monteregie-geomont-2023": {
+  "title": "FRR - Pertes et gains de superficies forestières en Montérégie - GéoMont 2023",
+  "org": "GéoMont",
+  "resources": [
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/b0f14c57-f90c-480d-ac00-d01cf81ca919/resource/8e2773c1-f94d-42b2-ae2b-43ba0edb5634/download/rapport_pgsf_2017-2020-.pdf"
+   },
+   {
+    "format": "SHP",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/b0f14c57-f90c-480d-ac00-d01cf81ca919/resource/ae200392-3675-49c2-9e17-166fd62aefd4/download/pgsf_geomont_2020.zip"
+   },
+   {
+    "format": "SHP",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/b0f14c57-f90c-480d-ac00-d01cf81ca919/resource/b3946a22-9a5d-471d-bfee-9d9edaf7ea5b/download/sf_geomont_2017.zip"
+   }
+  ]
+ },
+ "carte-couverture-terrestre-haute-resolution-du-quebec-meridional": {
+  "title": "Carte de couverture terrestre à haute résolution du Québec méridional, édition 2026",
+  "org": "Institut de la statistique du Québec",
+  "resources": [
+   {
+    "format": "GeoTIFF",
+    "url": "https://dq-prd-bucket1.s3.ca-central-1.amazonaws.com/institut-statistique/carte_couverture_terrestre_10m.zip"
+   },
+   {
+    "format": "PDF",
+    "url": "https://statistique.quebec.ca/fr/fichier/comptes-terres-quebec-metadonnees-carte-couverture-terrestre-2026.pdf"
+   },
+   {
+    "format": "HTML",
+    "url": "https://statistique.quebec.ca/cartovista/comptes_terres/index.html?z={%22a%22:%22map1%22,%22c%22:%2210m%22}"
+   }
+  ]
+ },
+ "feux-de-foret": {
+  "title": "Feux de forêt",
+  "org": "Ministère des Ressources naturelles et des Forêts",
+  "resources": [
+   {
+    "format": "HTML",
+    "url": "https://www.foretouverte.gouv.qc.ca/?context=_default&zoom=8&center=-75.19612,48.62969&invisiblelayers=*&visiblelayers=8695eb0058a885cae048ba8f533886f7,1da64ddfeaf23710b8a9ad95133fb5d8&wmsUrl=https%3A%2F%2Fgeoegl.msp.gouv.qc.ca%2Fws%2Fmffpecofor.fcgi&wmsLayers=(ca_feux:igoz17)"
+   },
+   {
+    "format": "GPKG",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/PERTURBATIONS_NATURELLES/Feux_foret/02-Donnees/PROV/FEUX_PROV_GPKG.zip"
+   },
+   {
+    "format": "FGDB",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/PERTURBATIONS_NATURELLES/Feux_foret//02-Donnees/PROV/FEUX_PROV_GDB.zip"
+   },
+   {
+    "format": "GPKG",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/PERTURBATIONS_NATURELLES/Feux_foret/02-Donnees/PROV/FEUX_ANCIENS_PROV_GPKG.zip"
+   },
+   {
+    "format": "FGDB",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/PERTURBATIONS_NATURELLES/Feux_foret/02-Donnees/PROV/FEUX_ANCIENS_PROV_GDB.zip"
+   },
+   {
+    "format": "SHP",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/PERTURBATIONS_NATURELLES/Feux_foret/02-Donnees/PROV/Feux_cont_simp_SHP.zip"
+   },
+   {
+    "format": "SHP",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/PERTURBATIONS_NATURELLES/Feux_foret/02-Donnees/PROV/Feux_pt_ori_SHP.zip"
+   },
+   {
+    "format": "FGDB",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/PERTURBATIONS_NATURELLES/Feux_foret/02-Donnees/PROV/REGIME_FEUX.zip"
+   },
+   {
+    "format": "WMS",
+    "url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi?"
+   },
+   {
+    "format": "PDF",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/PERTURBATIONS_NATURELLES/Feux_foret/01-Documentation/LISEZ-MOI_feux-foret-depuis1976.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/PERTURBATIONS_NATURELLES/Feux_foret/01-Documentation/LISEZ-MOI_feux-foret-avant1976.pdf"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/PERTURBATIONS_NATURELLES/Feux_foret/01-Documentation/DICTIONNAIRE_FEUX-FORET.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/PERTURBATIONS_NATURELLES/Feux_foret/01-Documentation/FD_Feux_foret_PT_ORI_et_CONT_SIMP.xlsx"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/inventaire/carto_5E_methodes_donnees.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/recherche/MRF189.pdf"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/PERTURBATIONS_NATURELLES/Feux_foret/05-Outils/Boite_a_outils.zip"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/inventaire/Procedure_service_Web.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/inventaire/Telechargement_rapide.pdf"
+   }
+  ]
+ },
+ "occurrences-especes-en-situation-precaire": {
+  "title": "Occurrences d'espèces en situation précaire",
+  "org": "Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs",
+  "resources": [
+   {
+    "format": "GPKG",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/d1d4ea08-a533-4447-9144-89e091f02e20/resource/31f8333b-46ad-4c22-87d1-7b1cd6984bab/download/emvs_dq.gpkg"
+   },
+   {
+    "format": "FGDB",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/d1d4ea08-a533-4447-9144-89e091f02e20/resource/dbe2953e-a745-4685-9d2b-944bb7be2f08/download/emvs_dq.gdb.zip"
+   },
+   {
+    "format": "HTML",
+    "url": "https://services-mddelcc.maps.arcgis.com/apps/webappviewer/index.html?id=2d32025cac174712a8261b7d94a45ac2"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/d1d4ea08-a533-4447-9144-89e091f02e20/resource/2291e506-4618-4e30-b110-abfd91b618ee/download/metadonnees_cdpnq.xlsx"
+   },
+   {
+    "format": "WMS",
+    "url": "https://geo.environnement.gouv.qc.ca/donnees/services/Biodiversite/EMVS_publique/MapServer/WMSServer"
+   }
+  ]
+ },
+ "vmtl-signalements-evenements-nuisibles-environnement": {
+  "title": "Signalements des événements nuisibles à l'environnement",
+  "org": "Ville de Montréal",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/fr/dataset/e7442919-3b28-4270-9c90-09ba0e0f631e/resource/2a71da48-267f-4eb6-9615-05986219c6bf/download/signalements-environnement.csv"
+   }
+  ]
+ },
+ "mqh-hibou-marais-quebec-meridional": {
+  "title": "Modèle de qualité de l’habitat (MQH) pour le hibou des marais dans le Québec méridional",
+  "org": "Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs",
+  "resources": [
+   {
+    "format": "PDF",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Faune/MQH_hibou_marais/PDF/RA_modele-qualite-habitat_hibou_marais.pdf"
+   },
+   {
+    "format": "SHP",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Faune/MQH_hibou_marais/SHP/MQH_HibouDesMarais_SHP.zip"
+   },
+   {
+    "format": "FGDB",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Faune/MQH_hibou_marais/GDB/MQH_HibouDesMarais_GDB.zip"
+   },
+   {
+    "format": "GeoJSON",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Faune/MQH_hibou_marais/GeoJSON/MQH_HibouDesMarais_s.geojson"
+   },
+   {
+    "format": "GPKG",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Faune/MQH_hibou_marais/GPKG/MQH_HibouDesMarais_s.gpkg"
+   },
+   {
+    "format": "SQLite",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Faune/MQH_hibou_marais/SQLite/MQH_HibouDesMarais_s.sqlite"
+   },
+   {
+    "format": "HTML",
+    "url": "https://www.carte-igo.donneesquebec.ca/igo2/apercu-qc/?vector=https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Faune/MQH_hibou_marais/GeoJSON/MQH_HibouDesMarais_s.geojson"
+   }
+  ]
+ },
+ "vmtl-sondage-mobilite-autonome": {
+  "title": "Sondage - Expérimentation de mobilité autonome à Montréal",
+  "org": "Ville de Montréal",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/fr/dataset/d1af59fd-4304-4434-a109-b6bfae37bbf9/resource/b3fdbfb5-4f3c-4c9e-bc1b-748b76c53ce7/download/sondage-navettes-autonomes-marche-maisonneuve.csv"
+   },
+   {
+    "format": "PDF",
+    "url": "https://laburbain.montreal.ca/sites/villeintelligente.montreal.ca/files/jalon_projet_navette_autonome_mm_juin-aout2019_rapportjalon.pdf"
+   },
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/fr/dataset/d1af59fd-4304-4434-a109-b6bfae37bbf9/resource/a8315937-4e51-4f86-aeab-6b219dd27cef/download/sondage-navettes-autonomes-parc-olympique.csv"
+   },
+   {
+    "format": "PDF",
+    "url": "https://donnees.montreal.ca/fr/dataset/d1af59fd-4304-4434-a109-b6bfae37bbf9/resource/abb7f1a4-684f-461b-99ce-577ec765ed0d/download/jalon_mtl-rapport_final_na_rio.pdf"
+   }
+  ]
+ },
+ "vmtl-mesure-harmonisee-delais-delivrance-permis": {
+  "title": "Mesure harmonisée des délais de délivrance de permis",
+  "org": "Ville de Montréal",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/dataset/b55d8446-ada2-4645-91c1-d5db8707caf3/resource/d0cde8fb-eae2-4ea5-a80c-bf954f9bbd26/download/mesure-harmonisee-delais-permis-t1-2026.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/dataset/b55d8446-ada2-4645-91c1-d5db8707caf3/resource/becd3569-a5e6-4ea7-a842-ea49937ec9fc/download/mesure-harmonisee-delais-permis-t4-2025.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/dataset/b55d8446-ada2-4645-91c1-d5db8707caf3/resource/672ccc85-aad4-4a98-9d0b-f1b32b888dbd/download/mesure-harmonisee-delais-permis-t3-2025.csv"
+   }
+  ]
+ },
+ "carte-des-depots-de-surface-du-nord-quebecois": {
+  "title": "Dépôt de surface du Nord québécois",
+  "org": "Ministère des Ressources naturelles et des Forêts",
+  "resources": [
+   {
+    "format": "HTML",
+    "url": "https://www.foretouverte.gouv.qc.ca/?context=_carte_nord&zoom=12&center=-73.94861,53.26899&invisiblelayers=*&visiblelayers=e93c0c5bbc04e8b8f11e49f6b374cdf7,1da64ddfeaf23710b8a9ad95133fb5d8"
+   },
+   {
+    "format": "FGDB",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/DONNEES_FOR_ECO_NORD/Depots_surface_Nord/02-Donnees/PROV/DEP_CN_GDB.zip"
+   },
+   {
+    "format": "SQLite",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/DONNEES_FOR_ECO_NORD/Depots_surface_Nord/02-Donnees/PROV/DEP_CN_SQL.zip"
+   },
+   {
+    "format": "WMS",
+    "url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi?"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/DONNEES_FOR_ECO_NORD/Depots_surface_Nord/01-Documentation/DICTIONNAIRE_DEPOT_SURFACE_NORD.xlsx"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/inventaire/depots-surface-nord-quebecois.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/inventaire/norme-cartographie-nord-quebecois.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/inventaire/CA_depot_surface_Nord-quebebois.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forest/ecological-mapping-vegetation-northern-quebec.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/inventaire/Procedure_service_Web.pdf"
+   }
+  ]
+ },
+ "mre-grive-bicknell-quebec": {
+  "title": "Modèle de répartition (MRE) de la grive de Bicknell au Québec",
+  "org": "Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs",
+  "resources": [
+   {
+    "format": "FGDB",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Faune/MRE_Grive_Bicknell/GDB/MRE_Grive_Bicknell_GDB.zip"
+   },
+   {
+    "format": "GeoJSON",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Faune/MRE_Grive_Bicknell/GeoJSON/MRE_Grive_Bicknell.geojson"
+   },
+   {
+    "format": "GPKG",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Faune/MRE_Grive_Bicknell/GPKG/MRE_Grive_Bicknell.gpkg"
+   },
+   {
+    "format": "SHP",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Faune/MRE_Grive_Bicknell/SHP/MRE_Grive_Bicknell_SHP.zip"
+   },
+   {
+    "format": "SQLite",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Faune/MRE_Grive_Bicknell/SQLite/MRE_Grive_Bicknell.sqlite"
+   }
+  ]
+ },
+ "vmtl-modele-numerique-de-terrain-mnt": {
+  "title": "Modèle numérique de terrain",
+  "org": "Ville de Montréal",
+  "resources": [
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/3b22f8f4-a5e3-4d12-9406-936b2e3a373f/download/mnt2015arrondissementahuntsic-cartierville.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/821302a3-1ac9-4cf4-8309-0e7bc07fb843/download/tin-2015-ahuntsic-cartierville.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/bf58c58f-5c44-4788-a021-89db151920f3/download/mnt2015arrondissementanjou.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/7857aec3-da55-418f-930f-77cfef07059c/download/tin-2015-anjou.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/b5c78919-a0bb-4032-8146-292c67f3ea72/download/mnt2015arrondissementcote-des-neigesnotre-dame-de-grace.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/a71c9a6b-abdc-4006-9b99-76d1ce7c2d91/download/tin-2015-cote-des-neiges-notre-dame-de-grace.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/a95c4054-8039-426b-ae55-73ae23bcb382/download/mnt2015arrondissementlachine.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/54cb894b-551d-47ba-9cd5-0caf2a200ab1/download/tin-2015-lachine.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/ff0fc7a0-9a29-4716-897d-48e0a7973efd/download/mnt2015arrondissementlasalle.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/47d5af84-e2c7-414f-bf17-517b7f47c423/download/tin-2015-lasalle.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/b25e7f52-b216-4667-8b6a-80abfbf0c41a/download/mnt2015arrondissementmercier.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/14ec49aa-7fad-4a9c-a3f0-3bf7322b8c1d/download/tin-2015-mercier-hochelaga-maisonneuve.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/2d49f43f-3442-4acf-abf8-e8e89c42ff78/download/mnt2015arrondissementmontreal-nord.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/07e341e3-dcd6-4ce0-9799-a45aaabc28d5/download/tin-2015-montreal-nord.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/69ba76be-2e7c-4839-9c1d-4ce22e5060e5/download/mnt2015arrondissementoutremont.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/b15dfc66-8bee-462c-b229-d0051ff3ce12/download/tin-2015-outremont.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/2a26e89f-20ba-4c74-ba05-02d9eb34189c/download/mnt2015arrondissementpierrefonds-roxboro.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/adbd7f57-0e9a-4876-9e91-9624a56edbf4/download/tin-2015-pierrefonds-roxboro.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/665d4e2f-4f45-478b-90a7-b3483905726f/download/mnt2015arrondissementplateau-mont-royal.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/8ce62b82-9703-4891-b038-029fe47a2e2e/download/tin-2015-plateau-mont-royal.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/1b287b74-a7a3-47ff-a2eb-c018d485a133/download/mnt2015arrondissementriviere-des-prairiespointe-aux-trembles.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/0a9733fd-3508-477d-9152-502523551182/download/tin-2015-riviere-des-prairies-pointe-aux-trembles.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/75c00728-b731-4137-a631-9ff839ec9b12/download/mnt2015arrondissementrosemontla-petite-patrie.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/785aff49-933c-424b-8c44-72084d2a4cde/download/vcarto_basedtmmntmnt-2015citygml-2015-lidar-mkptin-2015-rosemont-la-petite-patrie.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/2469484a-8e8e-4afb-910f-b5c5cfcf2acc/download/mnt2015arrondissementsaint-laurent.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/5c3f658c-d2d8-4c73-aa79-026ac5cfbccc/download/tin-2015-saint-laurent.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/4e2a0899-8167-40c4-8b39-9c5731ceb042/download/mnt2015arrondissementsaint-leonard.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/08b5026f-6f90-4e0e-9d80-d86ce97d665f/download/tin-2015-saint-leonard.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/4e70c452-92e3-4fdd-b1f2-127410fecc5b/download/mnt2015arrondissementsud-ouest.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/21e27ee9-d761-45d4-8721-67198aeaed36/download/tin-2015-sud-ouest.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/479ebccc-7eb5-4a2b-a1ab-69715cbe33a9/download/mnt2015arrondissementverdun.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/50acb4b5-f0f2-4170-90fc-d51f7f2274e6/download/tin-2015-verdun.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/c3bc6858-3c49-4a39-9bfc-1e1b1f8c9e03/download/mnt2015arrondissementville-marie.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/97c2118e-ce9e-4776-b236-9587953664fb/download/tin-2015-ville-marie.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/4f3bd92c-9496-473c-b3b0-27c12d31f79e/download/mnt2015arrondissementvilleraysaint-michelparc-extension.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/bc6e0a74-738e-403e-8093-bcdf0d4e9901/download/tin-2015-villeray-st-michel-parc-extension.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/c99dada0-5a78-4e10-8a8e-607ae2862464/download/mnt2015arrondissementile-bizardsainte-genevieve.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/7ff01ab1-5b81-43ff-933a-e18402c8b5e6/download/tin-2015-ile-bizard-sainte-genevieve.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/c909d36e-e8b3-4a75-8952-a162ace7c5f5/download/mnt2015villebaie-durfe.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/df491a1d-d47d-4969-9df7-e5acc15a8492/download/tin-2015-baie-durfe.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/8bb2c26c-9fb1-4bb0-8a49-382af688f109/download/mnt2015villebeaconsfield.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/7eec5023-2d25-4d22-b239-a40bb965ba27/download/tin-2015-beaconsfield.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/ac5ffdcb-57db-4019-b1e7-a9322cd70ced/download/mnt2015villecote-st-luc.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/1c4ec20a-c790-4f41-aa9e-072fe8010f35/download/tin-2015-cote-saint-luc.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/6b5767b5-666e-42a8-859c-4e80b5bed79d/download/mnt2015villedollard-des-ormeaux.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/5f2fef7d-926a-4c6a-a4c0-7889f60cbe29/download/tin-2015-dollard-des-ormeaux.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/59f0924e-7dfb-4c1e-a722-310a91218517/download/mnt2015villedorval.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/2f2d0e36-9c6d-442a-8a09-4164d2dfc735/download/tin-2015-dorval.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/7040d715-b3e9-4399-b7a4-fbe3f5ef1c34/download/mnt2015villehampstead.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/baf7090f-4289-471e-9803-de5542205b6a/download/tin-2015-hampstead.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/abb5151e-fd68-452c-a1a9-b3a56fe395be/download/mnt2015villekirkland.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/b5ddf0c6-a0b5-4213-ae6f-bdb5dfea4f25/download/tin-2015-kirkland.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/a1671b96-3da0-4043-b66b-3b4f998e1ae7/download/mnt2015villemont-royal.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/eeefde00-051e-49fc-827a-245549051ef3/download/tin-2015-mont-royal.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/6efa4741-946a-46b7-b03a-872542831326/download/mnt2015villemontreal-ouest.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/519e39f3-6827-4908-b1db-4d0de470ba3c/download/tin-2015-montreal-ouest.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/1f8fea32-4b45-4144-9df2-863ab5925fd1/download/mnt2015villemontreal-est.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/022b28e5-9d4e-458e-af1f-e2efbc89b0bf/download/tin-2015-montreal-est.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/02fc0689-c777-4802-8408-7c0b98599732/download/mnt2015villepointe-claire.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/c4f5b154-7220-472e-bed8-a462a2db73ae/download/tin-2015-pointe-claire.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/7462f880-25b3-4aa3-ace9-dc718d78ff70/download/mnt2015villesainte-anne-de-bellevue.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/df3d6007-83ba-46b3-b076-df0fede7af64/download/tin-2015-sainte-anne-de-bellevue.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/2dd10fe9-aa8a-41a7-9011-45899f20e0b6/download/mnt2015villesenneville.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/4b52ed86-fa1b-4275-ad77-40f8d46d8871/download/tin-2015-senneville.zip"
+   },
+   {
+    "format": "XML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/543b5abf-1ef5-4bcb-a1b1-45609880eb88/download/mnt2015villewestmount.zip"
+   },
+   {
+    "format": "GML",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/6e7bd1c9-6c12-4722-a4e3-bd068c9cb63e/download/tin-2015-westmount.zip"
+   },
+   {
+    "format": "DXF",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/8ac2060c-3b92-4cbc-afb1-8b85ed22db73/download/tin2009plateaumontroyal.dxf"
+   },
+   {
+    "format": "DXF",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/f2fcd91d-2169-4c8b-ab77-92510faeddcd/download/tin2009sudouest.dxf"
+   },
+   {
+    "format": "DXF",
+    "url": "https://donnees.montreal.ca/fr/dataset/08a528e3-5bff-4bd8-b28d-85e584d5cc1d/resource/1a65473e-ccbf-49e9-be88-95c7c6622856/download/villemarie2009.zip"
+   }
+  ]
+ },
+ "referentiel-de-batiment": {
+  "title": "Référentiel de bâtiment – Ville de Laval",
+  "org": "Ville de Laval",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/2750835b-95d4-406a-89e5-f2f03504511e/resource/1e295f49-f5bf-4b1d-8908-139f3578f4e1/download/referentiel-batiment.csv"
+   },
+   {
+    "format": "GeoJSON",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/2750835b-95d4-406a-89e5-f2f03504511e/resource/28bba029-dcfd-4257-b53a-f18e3260b2e6/download/referentiel-batiment.geojson"
+   },
+   {
+    "format": "KML",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/2750835b-95d4-406a-89e5-f2f03504511e/resource/3205d9eb-e2e1-48e3-8cf8-252521f7ed5b/download/referentiel-batiment.kml"
+   },
+   {
+    "format": "SHP",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/2750835b-95d4-406a-89e5-f2f03504511e/resource/aafd56b9-99ff-4e4b-96d3-7eddb5f83c00/download/referentiel-batiment.zip"
+   }
+  ]
+ },
+ "rsqaq-donnees-horaires-continues": {
+  "title": "RSQAQ - Données horaires continues",
+  "org": "Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/370a6be4-1530-4c2b-92f3-0a308224f284/download/rsqaq_continues_horaires_2025.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/135146b7-fd4a-4564-b10b-b1ae94257889/download/rsqaq_continues_horaires_2024.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/1f9fb30c-de86-43ae-87ec-1fb2559fa6ed/download/rsqaq_continues_horaires_2023.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/bbc3f46e-ec6c-4fe3-ac27-d2701ee312e2/download/rsqaq_continues_horaires_2022.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/a3738675-783c-4e84-8a34-9395f54befc2/download/rsqaq_continues_horaires_2021.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/6fb39936-28f8-432d-a2a3-2d3ca1c5c66e/download/rsqaq_continues_horaires_2020.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/8f545325-02f3-46ee-b158-cb4859f51304/download/rsqaq_continues_horaires_2019.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/823f8150-ea3c-48cf-8ce3-7c6aedbd3de5/download/rsqaq_continues_horaires_2018.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/80d4b2ef-3e3e-417f-953d-9e88baf68d12/download/rsqaq_continues_horaires_2017.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/527ccc42-548b-41cb-b901-d54d9d849a4d/download/rsqaq_continues_horaires_2016.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/6a568efc-36b9-4af9-9bd7-f0f139071ad2/download/rsqaq_continues_horaires_2015.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/2734ad91-852f-4ac1-9a7e-2d92f59d56c7/download/rsqaq_continues_horaires_2014.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/ddc75e75-4963-4ee9-9fdb-adad47e3ba8a/download/rsqaq_continues_horaires_2013.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/7b26648b-db23-4e76-8f4d-9cb380fff8b2/download/rsqaq_continues_horaires_2012.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/e8192fc3-7fb7-48c0-88ef-caf2b110f7d9/download/rsqaq_continues_horaires_2011.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/8d299013-703c-4030-95da-b6da2fd6f9df/download/rsqaq_continues_horaires_2010.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/3bdb0b85-14f0-4838-be0e-124c42a2ca25/download/rsqaq_continues_horaires_2009.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/2e582bb5-5e5f-4a7b-a011-3fff33beeccc/download/rsqaq_continues_horaires_2008.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/fae9b838-182e-48d1-b41c-3fb303e1be38/download/rsqaq_continues_horaires_2007.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/65365043-1630-4331-9489-121d9cfc14fe/download/rsqaq_continues_horaires_2006.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/c74c7b77-f4f5-4cc3-b468-2ec202dff9c0/download/rsqaq_continues_horaires_2005.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/60a11f51-e947-47f4-8a86-4f9bca4a846a/download/rsqaq_continues_horaires_2004.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/780a9c3b-bc17-43ae-8d82-074b13972a99/download/rsqaq_continues_horaires_2003.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/1dc00eba-ff15-428b-b6ad-df92585182a0/download/rsqaq_continues_horaires_2002.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/171dfd4e-4349-4b1a-b459-eacceb632e9e/download/rsqaq_continues_horaires_2001.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/97ca8fb9-382e-405c-9bd3-27bc6bf26efb/download/rsqaq_continues_horaires_2000.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/bee019ec-29aa-4e5b-b72e-3a39c8720749/download/rsqaq_continues_horaires_1999.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/eb8059d2-d7a3-49e8-9e63-a83658971570/download/rsqaq_continues_horaires_1998.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/d62caf94-5266-446f-9493-cdb28a41793b/download/rsqaq_continues_horaires_1997.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/bf302cfb-31fe-4afc-8780-9bc046b71d53/download/rsqaq_continues_horaires_1996.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/129f022b-fcc2-4c00-aa52-f03645e19283/download/rsqaq_continues_horaires_1995.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/3d60e2b5-b5a7-4164-b3df-844e201d8809/download/rsqaq_continues_horaires_1994.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/30f12b70-095c-4b4f-86eb-0c1985386188/download/rsqaq_continues_horaires_1993.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/483348a0-bbdd-4290-b8af-40c27f7a0a64/download/rsqaq_continues_horaires_1992.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/f90ee535-809b-4f2a-a5e4-dd7523a3d974/download/rsqaq_continues_horaires_1991.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/728387d0-88de-4ab3-aaf0-8e5007b40127/download/rsqaq_continues_horaires_1990.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/a437645f-4545-4d36-92c5-0dfd39c0fd50/download/rsqaq_continues_horaires_1989.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/5918e01a-08a7-41d7-be82-5e83926d5bb2/download/rsqaq_continues_horaires_1988.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/e0bc1186-88aa-4e60-b0ea-044ba6cfce97/download/rsqaq_continues_horaires_1987.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/d56b2884-0c03-4ff0-8b61-d49f09ae982b/download/rsqaq_continues_horaires_1986.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/708a48f4-4039-4a52-8a3f-7c3703fb39cd/download/rsqaq_continues_horaires_1985.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/0a19e21b-8394-40e2-8cf1-b7551c97e430/download/rsqaq_continues_horaires_1984.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/40901113-051c-4c0b-a69e-6bb7cd709a88/download/rsqaq_continues_horaires_1983.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/2df69485-04a9-41b8-a184-93424a73b07a/download/rsqaq_continues_horaires_1982.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/83e6105f-fd49-42b7-8956-b816943fd323/download/rsqaq_continues_horaires_1981.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/b25635c1-b3ca-4c39-ab25-a553298e6add/download/rsqaq_continues_horaires_1980.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/01a808cf-e93c-4c72-b826-14218fb321ef/download/rsqaq_continues_horaires_1979.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/0ed1e31b-5187-4060-bf61-004f593334f4/download/rsqaq_continues_horaires_1978.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/11dc6c9f-5d25-4b3c-bb0c-714ca14c1034/download/rsqaq_continues_horaires_1977.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/92773f9d-171b-4f56-95e0-404f93e5ff21/download/rsqaq_continues_horaires_1976.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/a80757bd-d442-4d3d-9269-11628330b727/resource/859c5363-4834-4814-88e9-5b98566e5124/download/rsqaq_continues_horaires_1975.csv"
+   }
+  ]
+ },
+ "produits-derives-de-base-du-lidar": {
+  "title": "Lidar - Modèles numériques (terrain, canopée, pente, courbe de niveau)",
+  "org": "Ministère des Ressources naturelles et des Forêts",
+  "resources": [
+   {
+    "format": "HTML",
+    "url": "https://www.foretouverte.gouv.qc.ca/?pos=@-73.21247,47.4168,10z&ctx=_default&urls=https://geoegl.msp.gouv.qc.ca/apis/ws/mffpecofor.fcgi&layers=0,[lidar_mnt]n,0t,1v,6z;0,[courbes_niveau_10m]n,0t,1v,5z"
+   },
+   {
+    "format": "CSV",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/IMAGERIE/Produits_derives_LiDAR/Produit_derive_lidar/03-Telechargement/URL_Lidar.csv"
+   },
+   {
+    "format": "GeoJSON",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/IMAGERIE/Produits_derives_LiDAR/Produit_derive_lidar/03-Telechargement/URL_Lidar.geojson"
+   },
+   {
+    "format": "SHP",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/IMAGERIE/Produits_derives_LiDAR/Metadonnees.zip"
+   },
+   {
+    "format": "WMS",
+    "url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi?"
+   },
+   {
+    "format": "PDF",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/IMAGERIE/Produits_derives_LiDAR/Produit_derive_lidar/01-Documentation/LISEZ-MOI_Courbes_niveau_1m.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/inventaire/guide-interpretation-lidar.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/inventaire/Guide_utilisation_lidar_depots.pdf"
+   },
+   {
+    "format": "MP4",
+    "url": "https://youtu.be/M4Ho26PsVo8"
+   },
+   {
+    "format": "PDF",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/IMAGERIE/Produits_derives_LiDAR/LISEZ-MOI/Produits_presentant_la_notion_de_pente.pdf"
+   },
+   {
+    "format": "QML",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/IMAGERIE/Produits_derives_LiDAR/Produit_derive_lidar/07-Symbologie/Qgis/Qgis.zip"
+   },
+   {
+    "format": "LYR",
+    "url": "https://diffusion.mffp.gouv.qc.ca/Diffusion/DonneeGratuite/Foret/IMAGERIE/Produits_derives_LiDAR/Produit_derive_lidar/07-Symbologie/ArcGIS/ArcGIS.zip"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/inventaire/Analyse_retombees_LiDAR-Finale.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/inventaire/Guide_utilisation_FugroViewer.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forest/users-guide-lidar.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forest/Guide_utilisation_lidar_ang.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forest/lidar-data-acquisition.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/forets/documents/recherche/Disponibilite_produits_derives_LiDAR.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/inventaire/Acquisition_produits_derives_LiDAR.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/inventaire/Procedure_service_Web.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://mrnf.gouv.qc.ca/documents/forets/inventaire/Telechargement_rapide.pdf"
+   }
+  ]
+ },
+ "cartographie-des-inondations-printemps-2019": {
+  "title": "Cartographie des inondations du printemps 2019",
+  "org": "Ministère de la Sécurité intérieure",
+  "resources": [
+   {
+    "format": "HTML",
+    "url": "https://geoegl.msp.gouv.qc.ca/igo2/apercu-qc/?context=inondation2019"
+   },
+   {
+    "format": "SHP",
+    "url": "https://geoegl.msp.gouv.qc.ca/partageDQ/inondations2019/msp_inondations2019_eaulibre_20190521_1148.zip"
+   },
+   {
+    "format": "SHP",
+    "url": "https://geoegl.msp.gouv.qc.ca/partageDQ/inondations2019/msp_inondations2019_zone_inondee_chaudiere.zip"
+   },
+   {
+    "format": "WMS",
+    "url": "https://geoegl.msp.gouv.qc.ca/apis/wss/complet.fcgi?request=getcapabilities&service=wms&version=1.3.0"
+   },
+   {
+    "format": "SHP",
+    "url": "https://geoegl.msp.gouv.qc.ca/apis/wss/complet.fcgi?service=wfs&version=1.1.0&request=getfeature&typename=vg_observation_v_inondation14avril2019_wmst&outputformat=shp"
+   },
+   {
+    "format": "HTML",
+    "url": "http://arcg.is/0LLzr8"
+   },
+   {
+    "format": "WMS",
+    "url": "https://servicesmatriciels.mern.gouv.qc.ca/erdas-iws/ogc/wms/Imagerie_MERN?service=WMS&request=GetCapabilities&version=1.3.0"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://geoegl.msp.gouv.qc.ca/partageDQ/inondations2019/S2_20190421T154819_LAC_ST_PIERRE.tif"
+   },
+   {
+    "format": "JPEG",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Matriciel/Satellite/Local/BDSQ/JP2/"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://geoegl.msp.gouv.qc.ca/partageDQ/inondations2019/S2_20190506T154911_Outaouais_Stlaurent.tif"
+   },
+   {
+    "format": "SHP",
+    "url": "https://geoegl.msp.gouv.qc.ca/apis/wss/complet.fcgi?service=wfs&version=1.1.0&request=getfeature&typename=vg_observation_inondation_14avril2019_mun_tout_v&outputformat=shp"
+   }
+  ]
+ },
+ "analyse-de-changement-ilots-chaleur-fraicheur-et-indice-intensite-ilots-chaleur-urbains": {
+  "title": "Analyse de changement entre la cartographie des îlots de chaleur/fraîcheur 2013-2014 et 2020-2022",
+  "org": "Institut national de santé publique du Québec (INSPQ)",
+  "resources": [
+   {
+    "format": "HTML",
+    "url": "https://cartes.inspq.qc.ca/geoportail/?context=climatadaptationchangementsclimatiques&zoom=9&center=-72.96085,46.11609&invisiblelayers=*&visiblelayers=19582ce6679ba256041d88ac7fb8dbe3,carte_gouv_qc"
+   },
+   {
+    "format": "HTML",
+    "url": "https://cartes.inspq.qc.ca/geoportail/?context=climatadaptationchangementsclimatiques&zoom=9&center=-72.96085,46.11609&invisiblelayers=*&visiblelayers=819166b3acb209205dc23fcf5be9f31a,carte_gouv_qc"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://dq-prd-bucket1.s3.ca-central-1.amazonaws.com/inspq/Changement_2013_2022_diffference_ecoumene_13_22_mean.tif"
+   },
+   {
+    "format": "SHP",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/5644a516-92f7-4d06-aff7-3dfc606f70f0/resource/dc701fb8-4988-47db-91e2-f8a93d4914e7/download/suhii_2013_2022_ilots_diffusion.zip"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/5644a516-92f7-4d06-aff7-3dfc606f70f0/resource/021c5399-a7b3-4b02-a753-39dda706ab27/download/technote_2023-05_carto_icu.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/5644a516-92f7-4d06-aff7-3dfc606f70f0/resource/ef7e3450-9347-4051-b3bb-bedcba3c0d92/download/rapport-metho-ilots-chaleur-fraicheur-2020-2022-inspq-cerfo_2023-01_21-0924.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/5644a516-92f7-4d06-aff7-3dfc606f70f0/resource/b8a33c85-cafd-4963-b545-37b039618b1c/download/statistical-analysis-of-surface-urban-heat-island-intensity-variations-a-case-study-of-babol-cit.pdf"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/5644a516-92f7-4d06-aff7-3dfc606f70f0/resource/9a9fb1ff-adac-48b7-9fa3-a370f0e6c2ce/download/symbologiesuggeree_2013-2014_2020-2022_analysechang.xlsx"
+   },
+   {
+    "format": "WEB",
+    "url": "https://www.inspq.qc.ca/changements-climatiques/actions/ilots-chaleur/cartographie-ilots-de-chaleur-urbains"
+   }
+  ]
+ },
+ "points-chauds-des-menaces-affectant-les-occurrences-du-cdpnq": {
+  "title": "Points chauds des menaces affectant les occurrences d'espèces en situation précaire",
+  "org": "Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs",
+  "resources": [
+   {
+    "format": "FGDB",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/391f148e-187f-4842-a27c-26c1ae5b259b/resource/8854d454-6997-4d51-b8f2-681d307e7504/download/grille_impacts_menaces.gdb.zip"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/391f148e-187f-4842-a27c-26c1ae5b259b/resource/db29b1fa-ac6d-46be-a871-030fb3f8ff73/download/metadonnees_menaces.xlsx"
+   }
+  ]
+ },
+ "ilots-de-chaleur-fraicheur-urbains-et-ecarts-de-temperature-relatifs-2020-2022": {
+  "title": "Îlots de chaleur/fraîcheur urbains, écarts de température et indice d’intensité d’îlots de chaleur urbains 2020-2022",
+  "org": "Institut national de santé publique du Québec (INSPQ)",
+  "resources": [
+   {
+    "format": "HTML",
+    "url": "https://cartes.inspq.qc.ca/geoportail/?context=climatadaptationchangementsclimatiques&zoom=9&center=-72.96085,46.11609&invisiblelayers=*&visiblelayers=ca28d22df8b6543e6a84a19a8a49faf3,carte_gouv_qc"
+   },
+   {
+    "format": "HTML",
+    "url": "https://cartes.inspq.qc.ca/geoportail/?context=climatadaptationchangementsclimatiques&zoom=9&center=-72.96085,46.11609&invisiblelayers=*&visiblelayers=3b66640c695cccdda3f175a89e87b94a,carte_gouv_qc"
+   },
+   {
+    "format": "HTML",
+    "url": "https://cartes.inspq.qc.ca/geoportail/?context=climatadaptationchangementsclimatiques&zoom=9&center=-72.96085,46.11609&invisiblelayers=*&visiblelayers=4e5941b4738013d3d04ea7d5f1ff2f5b,carte_gouv_qc"
+   },
+   {
+    "format": "HTML",
+    "url": "https://cartes.inspq.qc.ca/geoportail/?context=climatadaptationchangementsclimatiques&zoom=9&center=-72.96085,46.11609&invisiblelayers=*&visiblelayers=e07f54cc26f8881f337447fe797cf6d0,carte_gouv_qc"
+   },
+   {
+    "format": "HTML",
+    "url": "https://cartes.inspq.qc.ca/geoportail/?context=climatadaptationchangementsclimatiques&zoom=9&center=-72.92686,46.22879&invisiblelayers=*&visiblelayers=cc90102c1634bba266fef6ab277d5e8d,carte_gouv_qc"
+   },
+   {
+    "format": "HTML",
+    "url": "https://cartes.inspq.qc.ca/geoportail/?context=climatadaptationchangementsclimatiques&zoom=9&center=-72.44543,46.19102&invisiblelayers=*&visiblelayers=82290508da2c29b3577f0960d357e46d,carte_gouv_qc"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://dq-prd-bucket1.s3.ca-central-1.amazonaws.com/inspq/ICFU2022_CentresPopulation2021_buf2000m_9cl.tif"
+   },
+   {
+    "format": "SHP",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/533d0db2-399b-47a6-b397-0e6101e9a3a6/resource/59764569-0a58-4a66-9106-514493711e35/download/icfu2022_centrespopulation2021_buf2000m_9cl_shp.zip"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://dq-prd-bucket1.s3.ca-central-1.amazonaws.com/inspq/EcartTemperatureRelatif2022_Ecoumene2021.tif"
+   },
+   {
+    "format": "SHP",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/533d0db2-399b-47a6-b397-0e6101e9a3a6/resource/62089df3-3355-4c55-a6ff-4860715d237b/download/suhii_2013_2022_ilots_diffusion.zip"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/533d0db2-399b-47a6-b397-0e6101e9a3a6/resource/278f0802-311d-4023-a290-15e0ed1b818a/download/symbologiesuggeree_2013-2014_2020-2022_analysechang.xlsx"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/533d0db2-399b-47a6-b397-0e6101e9a3a6/resource/285927d4-125e-443a-b5fb-e7c11515b617/download/technote_2023-05_carto_icu.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/533d0db2-399b-47a6-b397-0e6101e9a3a6/resource/ef5f91cb-f6c9-48f4-ae06-bbfb3483e06e/download/rapport-metho-ilots-chaleur-fraicheur-2020-2022-inspq-cerfo_2023-01_21-0924.pdf"
+   },
+   {
+    "format": "GPKG",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/533d0db2-399b-47a6-b397-0e6101e9a3a6/resource/15e98474-c123-418f-9784-a82f49015484/download/index_centrespopulation2021_dateimages2022.zip"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/533d0db2-399b-47a6-b397-0e6101e9a3a6/resource/e8c2b33a-9ca2-4f09-a2ef-61411539e9dc/download/statistical-analysis-of-surface-urban-heat-island-intensity-variations-a-case-study-of-babol-cit.pdf"
+   },
+   {
+    "format": "WEB",
+    "url": "https://www.inspq.qc.ca/changements-climatiques/actions/ilots-chaleur/cartographie-ilots-de-chaleur-urbains"
+   },
+   {
+    "format": "PDF",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/amenagement_territoire/documentation/GUI_ilots_chaleur_urbains.pdf"
+   }
+  ]
+ },
+ "vmtl-essais-de-toxicite-des-sediments-intercepteur-sud-est-novembre-2015": {
+  "title": "Paramètres physico-chimique et toxicité des sédiments, travaux intercepteur sud-est, Nov. 2015 (archives)",
+  "org": "Ville de Montréal",
+  "resources": [
+   {
+    "format": "XLSX",
+    "url": "https://donnees.montreal.ca/fr/dataset/b3b4351f-c654-4a3a-8f26-ea882307239d/resource/7e68d127-b93d-48c2-b328-c95073242768/download/tbldeversementanalysesedimentdonneesouvertes20160614.xlsx"
+   },
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/fr/dataset/b3b4351f-c654-4a3a-8f26-ea882307239d/resource/1f1c6d2f-0a96-4a86-8020-588a0b484482/download/tbldeversementanalysesedimentdonneesouvertes20160614.csv"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://donnees.montreal.ca/fr/dataset/b3b4351f-c654-4a3a-8f26-ea882307239d/resource/f1c97750-8147-4204-ba68-e9983e491e91/download/deversementanalysesediment.xlsx"
+   },
+   {
+    "format": "CSV",
+    "url": "https://donnees.montreal.ca/fr/dataset/b3b4351f-c654-4a3a-8f26-ea882307239d/resource/85bfc123-72ed-444b-8485-4cfda797ed86/download/deversementanalysesediment.csv"
+   }
+  ]
+ },
+ "ilots-de-chaleur-fraicheur-urbains-et-ecarts-de-temperature-relatifs-2013-2014": {
+  "title": "Îlots de chaleur/fraîcheur urbains, écarts de température et indice d’intensité d’îlots de chaleur urbains 2013-2014",
+  "org": "Institut national de santé publique du Québec (INSPQ)",
+  "resources": [
+   {
+    "format": "HTML",
+    "url": "https://cartes.inspq.qc.ca/geoportail/?context=climatadaptationchangementsclimatiques&zoom=9&center=-72.61729,46.1611&invisiblelayers=*&visiblelayers=440a5976bad70340fe598b6b6fd416a8,carte_gouv_qc"
+   },
+   {
+    "format": "HTML",
+    "url": "https://cartes.inspq.qc.ca/geoportail/?context=climatadaptationchangementsclimatiques&zoom=9&center=-72.61729,46.1611&invisiblelayers=*&visiblelayers=40f20a8f01bd368f9a74e7053dd1232c,carte_gouv_qc"
+   },
+   {
+    "format": "HTML",
+    "url": "https://cartes.inspq.qc.ca/geoportail/?context=climatadaptationchangementsclimatiques&zoom=9&center=-72.61729,46.1611&invisiblelayers=*&visiblelayers=80a5f30762d4dfd3637724f1d67b74bf,carte_gouv_qc"
+   },
+   {
+    "format": "HTML",
+    "url": "https://cartes.inspq.qc.ca/geoportail/?context=climatadaptationchangementsclimatiques&zoom=9&center=-72.61729,46.1611&invisiblelayers=*&visiblelayers=bdda1369c697bf93f83f1a0b06f4dc79,carte_gouv_qc"
+   },
+   {
+    "format": "HTML",
+    "url": "https://cartes.inspq.qc.ca/geoportail/?context=climatadaptationchangementsclimatiques&zoom=9&center=-72.61729,46.1611&invisiblelayers=*&visiblelayers=5eb13f032716909371148295e9b59f02,carte_gouv_qc"
+   },
+   {
+    "format": "HTML",
+    "url": "https://cartes.inspq.qc.ca/geoportail/?context=climatadaptationchangementsclimatiques&zoom=9&center=-72.44543,46.19102&invisiblelayers=*&visiblelayers=77827a79e47e0da2732101b37faef1a5,carte_gouv_qc"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://dq-prd-bucket1.s3.ca-central-1.amazonaws.com/inspq/ICFU2013_CentresPopulation2021_buf2000m_9cl.tif"
+   },
+   {
+    "format": "SHP",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/0512ae16-1273-46e2-ae09-a87a80437079/resource/3b667e35-119d-4112-82c6-33ade4fad10b/download/icfu2013_centrespopulation2021_buf2000m_9cl_shp.zip"
+   },
+   {
+    "format": "GeoTIFF",
+    "url": "https://dq-prd-bucket1.s3.ca-central-1.amazonaws.com/inspq/EcartTemperatureRelatif2013_Ecoumene2016.tif"
+   },
+   {
+    "format": "SHP",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/0512ae16-1273-46e2-ae09-a87a80437079/resource/ff973a43-09ef-4280-ba5d-97d00edb5496/download/suhii_2013_2022_ilots_diffusion.zip"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/0512ae16-1273-46e2-ae09-a87a80437079/resource/30c5e52b-25ea-415c-8a53-e6691cfbe833/download/symbologiesuggeree_2013-2014_2020-2022_analysechang.xlsx"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/0512ae16-1273-46e2-ae09-a87a80437079/resource/0696b7d8-b02f-4fcf-9876-1a3cec0587cd/download/technote_2023-05_carto_icu.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/0512ae16-1273-46e2-ae09-a87a80437079/resource/a33969ba-143a-4524-88c3-8ec7485676b1/download/rapport-metho-ilots-chaleur-fraicheur-2013-2014-inspq-cerfo_2023-03-10-0924.pdf"
+   },
+   {
+    "format": "GPKG",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/0512ae16-1273-46e2-ae09-a87a80437079/resource/c2741d3d-0f23-4a1e-8c67-bdda11eff297/download/index_centrespopulation2021_dateimages.zip"
+   },
+   {
+    "format": "PDF",
+    "url": "https://www.donneesquebec.ca/recherche/dataset/0512ae16-1273-46e2-ae09-a87a80437079/resource/d01821c6-4866-45a1-9def-41fdfca39992/download/statistical-analysis-of-surface-urban-heat-island-intensity-variations-a-case-study-of-babol-cit.pdf"
+   },
+   {
+    "format": "WEB",
+    "url": "https://www.inspq.qc.ca/changements-climatiques/actions/ilots-chaleur/cartographie-ilots-de-chaleur-urbains"
+   }
+  ]
+ }
+}

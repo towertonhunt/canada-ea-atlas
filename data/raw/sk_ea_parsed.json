@@ -1,0 +1,33 @@
+{
+  "projects": [],
+  "followup_urls": [
+    {
+      "url": "https://www.saskatchewan.ca/business/environmental-protection-and-sustainability/environmental-assessment/environmental-assessment-projects",
+      "label": "Review all projects"
+    },
+    {
+      "url": "https://gisappl.saskatchewan.ca/Html5Ext/?viewer=saskinteractive&layerTheme=1&Runworkflow=EAStartup",
+      "label": null
+    },
+    {
+      "url": "https://publications.saskatchewan.ca:443/api/v1/products/109105/formats/122636/download",
+      "label": null
+    },
+    {
+      "url": "https://www.saskatchewan.ca/business/environmental-protection-and-sustainability/environmental-assessment/does-my-project-need-an-environmental-assessment",
+      "label": "Guidelines for an Environmental Assessment"
+    },
+    {
+      "url": "https://www.saskatchewan.ca/business/environmental-protection-and-sustainability/environmental-assessment/environmental-assessment-process",
+      "label": "Environmental Assessment Process"
+    },
+    {
+      "url": "https://www.saskatchewan.ca/business/environmental-protection-and-sustainability/environmental-assessment/how-the-public-can-participate",
+      "label": "Public Participation"
+    },
+    {
+      "url": "https://www.saskatchewan.ca/business/environmental-protection-and-sustainability/environmental-assessment/submit-an-environmental-assessment-application",
+      "label": "Start your application"
+    }
+  ]
+}

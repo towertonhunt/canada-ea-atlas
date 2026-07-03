@@ -1,0 +1,33 @@
+name: Spatial baseline engine demo
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/baseline-demo.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run baseline query for a demo site (Adelaide Wind Energy Centre area)
+        continue-on-error: true
+        run: |
+          python3 scripts/baseline_query.py 42.958521 -81.63773 1000 2>&1 | tee /tmp/baseline.log; grep -cE "ERR|resolve fail" /tmp/baseline.log || true
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git add data/raw
+            git commit -m "Add baseline engine demo report [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 7
+          done

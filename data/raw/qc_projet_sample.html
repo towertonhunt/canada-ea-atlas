@@ -1,0 +1,604 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="fr-ca">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Projet</title>
+<link rel="stylesheet" type="text/css" href="/css/banniere-PIV.css">
+<link rel="stylesheet" type="text/css" href="/css/impression.css">
+<link rel="stylesheet" type="text/css" href="/css/css_general.css">
+<link rel="stylesheet" type="text/css" href="/css/generale.css">
+
+<link rel="stylesheet" type="text/css" href="/CSS/ae.css" media="all">
+<link rel="stylesheet" type="text/css" href="/CSS/topic.css" media="all">
+
+<script type="text/javascript" language="JavaScript"><!--
+	function ReverseDisplay(d) {
+	if(document.getElementById(d).style.display == "none") {
+		//alert("passe par none");
+		document.getElementById(d).style.display = "block";
+		document.getElementById("click_"+d).style.backgroundImage="url('/images/moin.png')";
+		}
+	else { 
+		document.getElementById(d).style.display = "none";
+		document.getElementById("click_"+d).style.backgroundImage="url('/images/plus.png')"; 
+		}
+	}
+
+	function etat_avancement(d){
+		alert (d + " etat");
+		document.getElementById(d).style.color='Green';
+		//document.getElementById(d).style.textDecoration="underline"
+	}
+
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block') {
+          e.style.display = 'none';
+          document.getElementById('champ').value= "Afficher détails";
+          
+
+			}
+       else{
+          e.style.display = 'block';
+		  document.getElementById('champ').value= "Masquer détails";
+
+          }
+    }
+    
+    function toggle_plus_moins(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block') {
+          e.style.display = 'none';
+          document.getElementById('click_'+id).value= "+";
+          
+
+			}
+       else{
+          e.style.display = 'block';
+		  document.getElementById('click_'+id).value= "-";
+
+          }
+    }
+	function ouvrirPop(no_dossier) {
+			{
+				width = 800;
+				height = 425;
+				if(window.innerWidth)
+				{
+					var left = (window.innerWidth-width)/2;
+					var top = (window.innerHeight-height)/2;
+				}
+				else
+				{
+					var left = (document.body.clientWidth-width)/2;
+					var top = (document.body.clientHeight-height)/2;
+				}
+				window.open('pop_insc_form.asp?no_dossier='+no_dossier,'nom_de_ma_popup','menubar=no, scrollbars=no, top='+top+', left='+left+', width='+width+', height='+height+'');
+			}
+	}
+	
+	function myFunction() {
+	    var popup = document.getElementById("myPopup");
+	    popup.classList.toggle("show");
+	}
+
+//-->
+</script>
+
+<style type="text/css">
+.decal40 {
+	margin-left:40px;
+}
+.decal80 {
+	margin-left:80px;
+}
+
+.mini {
+	font-size:xx-small;
+}
+.style1 {
+	font-size:1.2em;text-decoration:none;
+	/*border:1px lime solid;*/
+}
+.un {float:left;}
+.deux {float:left;}
+.trois {float:left;}
+.quatre {float:right;}
+
+</style>
+</head>
+
+<body>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K5HMNSL');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5HMNSL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="bandeauPIV-bleu">
+
+	<div id="centre-no-txt">&nbsp;<div id="melcc" >
+		Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs</div><a href="http://www.environnement.gouv.qc.ca/recherche.htm"><img id="loupe-banniere" alt="Recherche" src="COMMUN/piv/loupe-piv.jpg" width="50" height="38" /></a>
+	<div id="piv-menu">
+	<a target="_blank" href="https://www.quebec.ca/gouv/ministere/environnement/coordonnees/">Nous joindre</a> 
+	<img alt="Cet hyperlien s'ouvrira dans une nouvelle fenêtre." src="images/lien-externe.gif" width="10" height="10" ><br>
+     <a href="http://www.environnement.gouv.qc.ca/index_en.asp">English</a><br>
+
+	</div>
+	
+	
+		<a target="_blank" href="https://www.quebec.ca/">
+     
+     <img id="quebec-ca" alt="Quebec.ca" src="COMMUN/piv/QUEBEC_blanc.png" /></a></div>
+	
+</div>
+
+
+<!-- debut du menu -->
+<div id="cache">Navigation par thématique</div>
+<div id="nav_horizon">
+<ul class="horizon">
+            <li><a class="nav" title="Accueil" href="/index.asp">Accueil</a>&nbsp;|</li>
+            <li>
+			<a class="nav" target="_blank" title="Ministre" href="https://www.quebec.ca/gouv/ministere/environnement/">Ministre</a>&nbsp;<img alt="Cet hyperlien s'ouvrira dans une nouvelle fenêtre." src="/images/lien-externe.gif" width="10" height="10" />&nbsp;|</li>
+			<li><a class="nav" href="http://www.environnement.gouv.qc.ca/ministere/inter.htm" title="Le Minist&egrave;re">Le Ministère</a>&nbsp;|</li>
+            <li><a class="nav" title="Air" href="http://www.environnement.gouv.qc.ca/air/inter.htm">Air</a>&nbsp;|</li>
+            <li><a class="nav" title="Biodiversit&eacute;" href="http://www.environnement.gouv.qc.ca/biodiversite/inter.htm">Biodiversité</a>&nbsp;|</li>
+            <li><a class="nav" title="Changements climatiques" href="http://www.environnement.gouv.qc.ca/changementsclimatiques/index.asp">Changements climatiques</a>&nbsp;|</li>
+            <li><a class="nav" title="Développement&nbsp;durable" href="http://www.environnement.gouv.qc.ca/developpement/inter.htm">Développement&nbsp;durable</a>&nbsp;|</li>
+</ul>
+<ul class="horizon">
+
+
+            
+            <li></li>
+			<li><a class="nav" title="Eau" href="http://www.environnement.gouv.qc.ca/eau/inter.htm">Eau</a></li>
+			<li><a class="nav" title="&Eacute;valuations environnementales" href="http://www.environnement.gouv.qc.ca//evaluations/inter.htm">Évaluations environnementales</a>&nbsp;|</li>
+
+
+            
+			<li>
+			<a class="nav" title="Matières résiduelles" href="http://www.environnement.gouv.qc.ca/matieres/inter.htm">Matières résiduelles</a>&nbsp;|</li>
+			<li><a class="nav" title="Milieu agricole" href="http://www.environnement.gouv.qc.ca/milieu_agri/inter.htm">Milieu agricole</a>&nbsp;|</li>
+            <li><a class="nav" title="Milieu industriel" href="http://www.environnement.gouv.qc.ca/Industriel/inter.htm">Milieu industriel</a>&nbsp;|</li>
+			<li><a class="nav" title="Pesticides" href="http://www.environnement.gouv.qc.ca/pesticides/inter.htm">Pesticides</a>&nbsp;|</li>
+            <li><a class="nav" title="Terrains contaminés" href="http://www.environnement.gouv.qc.ca/sol/inter.htm">Terrains contaminés</a></li>
+</ul>
+</div>
+<!-- fin du menu -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>sans titre 2</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<!--meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /-->
+<title>sans titre 2</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+
+
+<div id="info">
+	<h1>Registre des évaluations environnementales</h1>
+	<div class="cadre-droit">
+		<div class="boite-verte">
+			<div id="documentation">
+			<p><strong>Alerte courriel</strong></p>
+			<p>Inscrivez-vous à l’alerte courriel pour être informé du dépôt de nouveaux documents pour ce projet.</p>
+			<ul>
+				<!--li><a href="/insc_form.asp?no_dossier=3211-01-065" target="_blank">Inscription</a></li-->
+				<li><a href="javascript:void(0)" onclick="ouvrirPop('3211-01-065')">Inscription</a></li>
+			</ul>
+			</div>
+		</div>
+	</div>
+	<div class="cadre-gauche">
+
+
+<h2>Aménagement du bassin de la chute Montmorency à des fins de navigation touristique</h2>
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>sans titre 1</title>
+
+<style type="text/css">
+.region {width:30%;float:left}
+.muncp {width:70%;float:right}
+</style>
+</head>
+
+
+<style type="text/css">
+	.gauche {float:left;width:30%;padding-left:15px;clear:both}
+	.centre {float:left;width:30%;}
+	.droite {float:left;width:30%;}
+	.ex_droite {float:right;}
+	.inter_titre { width:100%;line-height:30px;clear:both; margin-bottom:10px;background-color:#C0C0C0; padding-left:30px;
+</style>
+
+<body>
+
+<div>
+	<div class="bouton2">
+		<input class="myButton2" id="champ" type="button" value="Afficher d&eacute;tails" onclick="toggle_visibility('details');"/>
+	</div>
+</div>
+
+<div id="details" style="display:none">
+	<div class="inter_titre"><strong>R&eacute;f&eacute;rences</strong></div>
+	<div class="item">
+		<div class="etiquette"><label for="no_dossier">No. de dossier : </label></div>
+		<div class="information">3211-01-065</div>
+	</div>
+	
+	<div class="item">
+		<div class="etiquette"><label for="datecreation">Date d'ouverture du dossier : </label></div>
+		<div class="information">2017-02-03</div>
+	</div>
+
+	<div class="item">
+		<div class="etiquette">Derni&egrave;re modification au registre : </div>
+		<div class="information">2018-05-29</div>
+	</div>
+	<div class="item">&nbsp;</div>
+	<p></p>
+	<div class="inter_titre">
+		<table style="width:100%;font-weight:bold">
+			<tr>
+				<td style="width:50%">Localisation</td>
+				<td style="width:50%; text-align:right;padding-right:20px">
+					<a href="/carte.asp?no_dossier=3211-01-065" target="_blank">
+					<img title="Localisation du projet" src="/images/boussole.png" width="15" height="16" style="vertical-align:top" /></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<div class='item'><div class='etiquette'><strong>Capitale-Nationale : </strong></div><div class='information'>Boischatel</div></div>
+	
+	<p></p>
+	
+	
+
+	<div class="inter_titre"><strong>Proc&eacute;dure</strong></div>
+	<div class="item">
+		<div class="etiquette"><label for="nom_projet">Proc&eacute;dure : </label></div>
+		<div class="information">Québec méridional</div>
+	</div>
+	<p></p>
+	<div class="inter_titre"><strong>Description du projet</strong></div>
+	<div class="item">
+		<div class="etiquette"><label for="nom_projet">Nom du projet : </label></div>
+		<div class="information">Aménagement du bassin de la chute Montmorency à des fins de navigation touristique</div>
+	</div>
+	
+	<div class="item">
+		<div class="etiquette"><label for="promoteur">Initiateur du projet : </label></div>
+		<div class="information">Croisière AML inc., SÉPAQ</div>
+	</div>
+	<div class="item">
+		<div class="etiquette"><label for="descrition">Secteur d'activit&eacute; : </label></div>
+		<div class="information">Barrage et digue</div>
+	</div>
+	
+	<div class="item">
+		<div class="etiquette"><label for="descrition">Commentaires sp&eacute;ciaux : </label></div>
+		<div class="information">Le ministre a mis fin à l'évaluation environnementale de ce projet à la demande de son initiateur.</div>
+	</div>
+	
+	<div class="item">&nbsp;</div>
+
+</div>
+</body>
+<div id="info">
+	<p></p>
+		
+			<div style="clear:both;/*width:100%;*/line-height:25px;border:0px fuchsia solid">
+				<a href="javascript:void(0)" style="text-decoration:xnone;" onclick="ReverseDisplay('prav')">
+					<div id="click_prav" style="float:left; line-height:25px;/* width:60%;*/display:inline-block;background-image:url('/images/plus.png');background-repeat:no-repeat;padding-left:30px">
+					<span class="style1">Avis de projet</span>
+					
+					</div></a>
+					&nbsp;
+					&nbsp;
+
+					&nbsp; 
+				&nbsp;
+
+					
+				
+
+			</div>
+			<div id='prav' style='display:none;clear:both;'>
+					<span class="decal40 inactif">Avis de projet</span><br />
+					</div>
+			<div style="clear:both;/*width:100%;*/line-height:25px;border:0px fuchsia solid">
+				<a href="javascript:void(0)" style="text-decoration:xnone;" onclick="ReverseDisplay('prdm')">
+					<div id="click_prdm" style="float:left; line-height:25px;/* width:60%;*/display:inline-block;background-image:url('/images/plus.png');background-repeat:no-repeat;padding-left:30px">
+					<span class="style1">Directive ministérielle</span>
+					
+					</div></a>
+					&nbsp;
+					&nbsp;
+
+					&nbsp; 
+				&nbsp;
+
+					
+				
+
+			</div>
+			<div id='prdm' style='display:none;clear:both;'>
+					<span class="decal40 inactif">Directive</span><br />
+					
+					<span class="decal40 inactif">Avis d'évaluation environnementale</span><br />
+					
+					<span class="decal40 inactif">Résultats des consultations publiques sur les enjeux</span><br />
+					</div>
+			<div style="clear:both;/*width:100%;*/line-height:25px;border:0px fuchsia solid">
+				<a href="javascript:void(0)" style="text-decoration:xnone;" onclick="ReverseDisplay('prei')">
+					<div id="click_prei" style="float:left; line-height:25px;/* width:60%;*/display:inline-block;background-image:url('/images/plus.png');background-repeat:no-repeat;padding-left:30px">
+					<span class="style1">Recevabilité de l’étude d’impact</span>
+					
+					</div></a>
+					&nbsp;
+					&nbsp;
+
+					&nbsp; 
+				&nbsp;
+
+					
+				
+
+			</div>
+			<div id='prei' style='display:none;clear:both;'>
+					<span class="decal40 inactif">Étude d'impact (volumes, annexes et études afférentes)</span><br />
+					
+					<span class="decal40 inactif">Avis (ministères et organismes)</span><br />
+					
+					<span class="decal40 inactif">Questions et commentaires</span><br />
+					
+					<span class="decal40 inactif">Résumé</span><br />
+					
+					<span class="decal40 inactif">Avis de recevabilité ou de non recevabilité</span><br />
+					</div>
+			<div style="clear:both;/*width:100%;*/line-height:25px;border:0px fuchsia solid">
+				<a href="javascript:void(0)" style="text-decoration:xnone;" onclick="ReverseDisplay('prpp')">
+					<div id="click_prpp" style="float:left; line-height:25px;/* width:60%;*/display:inline-block;background-image:url('/images/plus.png');background-repeat:no-repeat;padding-left:30px">
+					<span class="style1">Participation publique</span>
+					
+					</div></a>
+					&nbsp;
+					&nbsp;
+
+					&nbsp; 
+				&nbsp;
+
+					
+				
+
+			</div>
+			<div id='prpp' style='display:none;clear:both;'>
+					<span class="decal40 inactif">Période d'information publique</span><br />
+					
+					<span class="decal40 inactif">Avis d'information publique</span><br />
+					
+					<span class="decal40 inactif">Lettre mandat d'audience / de médiation / de consultation ciblée</span><br />
+					
+					<span class="decal40 inactif">Demande de consultation publique ou de médiation</span><br />
+					
+					<span class="decal40 inactif">Recommandation du BAPE sur le type de mandat</span><br />
+					
+					<span class="decal40 inactif">Hyperlien vers le site du BAPE (rapport du BAPE, communiqués, etc.)</span><br />
+					</div>
+			<div style="clear:both;/*width:100%;*/line-height:25px;border:0px fuchsia solid">
+				<a href="javascript:void(0)" style="text-decoration:xnone;" onclick="ReverseDisplay('prae')">
+					<div id="click_prae" style="float:left; line-height:25px;/* width:60%;*/display:inline-block;background-image:url('/images/plus.png');background-repeat:no-repeat;padding-left:30px">
+					<span class="style1">Analyse environnementale</span>
+					
+					</div></a>
+					&nbsp;
+					&nbsp;
+
+					&nbsp; 
+				&nbsp;
+
+					
+				
+
+			</div>
+			<div id='prae' style='display:none;clear:both;'>
+					<span class="decal40 inactif">Avis (ministères et organismes)</span><br />
+					
+					<span class="decal40 inactif">Engagements et compléments d'information</span><br />
+					
+					<span class="decal40 inactif">Rapport d'analyse environnementale</span><br />
+					</div>
+			<div style="clear:both;/*width:100%;*/line-height:25px;border:0px fuchsia solid">
+				<a href="javascript:void(0)" style="text-decoration:xnone;" onclick="ReverseDisplay('prde')">
+					<div id="click_prde" style="float:left; line-height:25px;/* width:60%;*/display:inline-block;background-image:url('/images/plus.png');background-repeat:no-repeat;padding-left:30px">
+					<span class="style1">Décision</span>
+					
+					</div></a>
+					&nbsp;
+					&nbsp;
+
+					&nbsp; 
+				&nbsp;
+
+					
+				
+
+			</div>
+			<div id='prde' style='display:none;clear:both;'>
+					<span class="decal40 inactif">Décret</span><br />
+					</div>
+			<div style="clear:both;/*width:100%;*/line-height:25px;border:0px fuchsia solid">
+				<a href="javascript:void(0)" style="text-decoration:xnone;" onclick="ReverseDisplay('prsc')">
+					<div id="click_prsc" style="float:left; line-height:25px;/* width:60%;*/display:inline-block;background-image:url('/images/plus.png');background-repeat:no-repeat;padding-left:30px">
+					<span class="style1">Suivi</span>
+					
+					</div></a>
+					&nbsp;
+					&nbsp;
+
+					&nbsp; 
+				&nbsp;
+
+					
+				
+
+			</div>
+			<div id='prsc' style='display:none;clear:both;'>
+					<span class="decal40 inactif">Programmes de suivi environnemental</span><br />
+					
+					<span class="decal40 inactif">Rapports de suivi environnemental</span><br />
+					</div><p></p>
+</div>
+
+<div style="height:25px;clear:both"></div>
+
+</div>
+<div style="clear:both;border:1px #C5CFBC solid;padding:5px">
+<p><strong>Droits de propriété intellectuelle et avis de non-responsabilité</strong><br />
+Certains documents, renseignements et éléments graphiques figurant dans ce registre sont fournis par des tiers et sont soumis à 
+des droits d&#39;auteur dont le gouvernement du Québec n’est pas titulaire. Par conséquent, certaines interdictions ou restrictions 
+quant à la reproduction de ces documents, renseignements ou éléments graphiques peuvent s&#39;appliquer, et il peut être nécessaire 
+d&#39;obtenir l&#39;autorisation directement du titulaire des droits d&#39;auteur avant de pouvoir les reproduire ou autrement les diffuser.</p>
+
+<p>De plus, il est à noter que les documents et renseignements fournis par des tiers n’engagent que leurs auteurs. Ils ne peuvent 
+être considérés comme constituant une prise de position du Ministère ou du gouvernement du Québec.</p>
+<p>Par ailleurs, en cas de divergence entre un texte officiel et le contenu de ce registre, le texte officiel a préséance.</p>
+
+</div>
+
+	<p><input class='myButton2' name="Button1" type="button" value="Page précédente" onclick="history.go(-1)"/>&nbsp;<input class='myButton2' name="Button1" type="button" value="Accueil" onclick="window.location='index.asp'" /></p>
+	
+</div>
+<p>&nbsp;</p>
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" lang="fr-ca" content="text/html; charset=utf-8">
+
+
+<title>sans titre 1</title>
+
+<style type="text/css">
+#piv_bas_page {
+	
+}
+.nav_piv_bas_page {
+	list-style: none;
+	text-align: center;
+	min-width: 720px;
+	font-size:8pt;
+	font-family:Verdana;
+	padding-bottom:-0px;
+
+}
+.nav_piv_bas_page li {
+	display:inline;
+}
+
+.discret {
+	text-decoration: none;
+	color:#000000;
+}
+
+#PIV_hr_bdp {
+	color:#003399;
+	height:1px;
+	
+}
+
+
+
+#piv_bas_page_drap {
+		text-align: center;
+		font-size:8pt;
+	font-family:Verdana;
+
+		
+		color:#003399;
+
+</style>
+</head>
+
+<body class="discret">
+
+
+
+
+
+<div id="nav_bas_page" style="border-top:1px #C9C9C9 solid; margin-top:15px;">
+	
+	  <!--hr id="PIV_hr_bdp" /-->
+	
+		<ul class="nav_piv_bas_page">
+      <li>&nbsp;<a title="Plan du site" href="https://www.environnement.gouv.qc.ca/accessibilite/index.htm" class="discret_neutre">Accessibilité</a></li>
+           <li>&nbsp;</li>
+		<li></li>
+		<li>      |
+      <a title="Politique de confidentialité" href="https://www.environnement.gouv.qc.ca/ministere/accesprotect/index.htm" class="discret_neutre">
+		Accès à l&#39;information</a>
+      </li>
+
+      <li>| 
+		<a title="Politique de confidentialité" href="https://www.environnement.gouv.qc.ca/accueil/apropos/politique.htm" class="discret_neutre">
+		Politique de confidentialité</a>&nbsp;</li>
+		<li></li>
+    </ul>
+    
+
+    </div>
+    
+          <div  id="piv_bas_page_drap" >     
+     					<a title="Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs" target="_blank" href="https://www.environnement.gouv.qc.ca/">
+      <img border="0" alt="Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs" src="/images/MELCCFP.jpg" width="190" height="88"/></a><br />
+     <a title="Gouvernement du Québec" target="_blank" href="https://www.quebec.ca/droit-auteur">
+		<span>© Gouvernement du Québec, 2025</span></a></div> 
+
+
+
+
+
+
+</body>
+
+</html>
+</body>
+
+</html>

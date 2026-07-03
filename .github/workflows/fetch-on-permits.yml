@@ -1,0 +1,118 @@
+name: Fetch Ontario permitting data (ECA, mine closure)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "29 9 * * *"
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/fetch-on-permits.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/mac-mini-connection-ceehl5
+
+      - name: Download AMIS sites and features KMZ
+        continue-on-error: true
+        run: |
+          mkdir -p data/raw
+          curl -sL --retry 3 --max-time 300 "http://www.geologyontario.mndm.gov.on.ca/mines/data/google/AMIS/KML/Sites/Sites2026.kmz" -o data/raw/on_amis_sites.kmz || true
+          curl -sL --retry 3 --max-time 300 "http://www.geologyontario.mndm.gov.on.ca/mines/data/google/AMIS/KML/Features/Features2026.kmz" -o data/raw/on_amis_features.kmz || true
+          ls -la data/raw/on_amis_*.kmz
+
+      - name: Download compliance and financial assurance datasets
+        continue-on-error: true
+        run: |
+          python3 - <<'EOF'
+          import json, urllib.request, urllib.parse, re
+
+          def get(url):
+              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+              return urllib.request.urlopen(req, timeout=120).read()
+
+          ckan = "https://data.ontario.ca/api/3/action/package_show?id="
+          for pkg in ('environmental-compliance-reports',
+                      'financial-assurance-held-for-mining-companies',
+                      'abandoned-mines-information'):
+              try:
+                  d = json.loads(get(ckan + pkg))
+                  for r in d['result']['resources']:
+                      fmt = (r.get('format') or '').lower()
+                      if fmt not in ('csv', 'xlsx', 'kml', 'geojson', 'json'):
+                          continue
+                      name = re.sub(r'[^a-z0-9]+', '_', (r.get('name') or r['id']).lower())[:60]
+                      dest = f'data/raw/onp_{pkg[:12]}_{name}.{fmt}'
+                      try:
+                          open(dest, 'wb').write(get(r['url']))
+                          print('OK  ', dest)
+                      except Exception as e:
+                          print('FAIL', r['url'][:90], e)
+              except Exception as e:
+                  print('PKG FAIL', pkg, e)
+          EOF
+          ls -la data/raw/onp_* 2>/dev/null | head -20
+
+      - name: GeologyOntario DCAT + NRCan principal mineral areas
+        continue-on-error: true
+        run: |
+          python3 - <<'PYEOF'
+          import json, time, urllib.request, urllib.parse
+
+          def get(url, tries=3):
+              for t in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                      return urllib.request.urlopen(req, timeout=180).read()
+                  except Exception as e:
+                      if t == tries - 1:
+                          raise
+                      time.sleep(10)
+
+          # GeologyOntario ArcGIS Hub DCAT catalogue
+          try:
+              cat = json.loads(get('https://www.hub.geologyontario.mines.gov.on.ca/api/feed/dcat-us/1.1.json'))
+              ds = cat.get('dataset', [])
+              print('geologyontario datasets:', len(ds))
+              mines = [d for d in ds if 'mine' in (d.get('title') or '').lower()]
+              out = [{'title': d.get('title'), 'landing': d.get('landingPage'),
+                      'dist': [{'format': x.get('format'), 'url': x.get('accessURL') or x.get('downloadURL')}
+                               for x in d.get('distribution', [])][:5]}
+                     for d in mines]
+              json.dump(out, open('data/raw/on_geologyontario_mines.json', 'w'), ensure_ascii=False, indent=1)
+              for d in out[:15]:
+                  print('-', d['title'][:70])
+          except Exception as e:
+              print('DCAT FAIL', str(e)[:120])
+
+          # NRCan national producing mines
+          try:
+              d = json.loads(get('https://open.canada.ca/data/api/3/action/package_search?rows=10&q=' +
+                                 urllib.parse.quote('principal mineral areas producing mines')))
+              hits = {p['name']: {'title': p.get('title'),
+                                  'res': [{'format': r.get('format'), 'url': r.get('url')}
+                                          for r in p.get('resources', [])]}
+                      for p in d['result']['results']}
+              json.dump(hits, open('data/raw/active_mines_datasets.json', 'w'), ensure_ascii=False, indent=1)
+              print('NRCan hits:', [h['title'][:60] for h in hits.values()][:6])
+          except Exception as e:
+              print('CKAN FAIL', str(e)[:120])
+          PYEOF
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git add data/raw
+            git commit -m "Add AMIS mines, compliance reports, financial assurance data [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 7
+          done

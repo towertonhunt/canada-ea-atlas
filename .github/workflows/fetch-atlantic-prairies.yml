@@ -1,0 +1,48 @@
+name: Fetch NL, SK, NB, PE registries
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/fetch-atlantic-prairies.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch corrected NL and SK list pages, probe NB and PE
+        continue-on-error: true
+        run: |
+          mkdir -p data/raw
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+          curl -sL --retry 3 --max-time 90 -A "$UA" "https://www.gov.nl.ca/eccc/env-assessment/projects-list/" -o data/raw/nl_ea_list.html || true
+          curl -sL --retry 3 --max-time 90 -A "$UA" "https://www.saskatchewan.ca/business/environmental-protection-and-sustainability/environmental-assessment/environmental-assessment-projects" -o data/raw/sk_ea_list.html || true
+          for u in \
+            "https://www2.gnb.ca/content/gnb/en/environment/eia.html" \
+            "https://www2.gnb.ca/content/gnb/en/departments/elg/environment/content/environmental_impact_assessment.html" \
+            "https://www.princeedwardisland.ca/en/topic/environmental-assessment" \
+            "https://www.princeedwardisland.ca/en/information/environment-energy-and-climate-action/environmental-impact-assessments" \
+            ; do
+            fn="data/raw/probe_$(echo "$u" | md5sum | cut -c1-8).html"
+            code=$(curl -sL -o "$fn" -w "%{http_code}" --max-time 60 -A "$UA" "$u" || echo ERR)
+            title=$(grep -oE '<title>[^<]*' "$fn" | head -1)
+            echo "$code $u :: $title"
+          done
+          ls -la data/raw/nl_ea_list.html data/raw/sk_ea_list.html data/raw/probe_*.html 2>/dev/null || true
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git add data/raw
+            git commit -m "Add NL/SK list pages, NB/PE probes [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 7
+          done

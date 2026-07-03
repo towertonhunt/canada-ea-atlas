@@ -1,0 +1,1483 @@
+{
+ "environmental-compliance-reports": {
+  "title": "Environmental Compliance Reports",
+  "resources": [
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Environmental_Compliance_Report_metadata_EN.pdf"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2020_Air_Emissions_All_Regions.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2020_Air_Emissions_All_Regions_FR.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2020_Industrial_Sewage_All_Regions.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2020_Industrial_Sewage_All_Regions_FR.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2020_Municipal_Private_Sewage_All_Regions.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2020_Municipal_Private_Sewage_All_Regions_FR.csv"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2020_Air_Emissions_All_Regions.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2020_Air_Emissions_All_Regions_FR.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2020_Industrial_Sewage_All_Regions.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2020_Industrial_Sewage_All_Regions_FR.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2020_Municipal_Private_Sewage_All_Regions.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2020_Municipal_Private_Sewage_All_Regions_FR.xlsx"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Environmental_Compliance_Report_metadata_FR.pdf"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2021_Air_Emissions_All_Regions.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2021_Air_Emissions_All_Regions_FR.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2021_Industrial_Sewage_All_Regions.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2021_Industrial_Sewage_All_Regions_FR.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2021_Municipal_Private_Sewage_All_Regions.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2021_Municipal_Private_Sewage_All_Regions_FR.csv"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2021_Air_Emissions_All_Regions_FR.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2021_Air_Emissions_All_Regions.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2021_Industrial_Sewage_All_Regions.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2021_Industrial_Sewage_All_Regions_FR.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2021_Municipal_Private_Sewage_All_Regions.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2021_Municipal_Private_Sewage_All_Regions_FR.xlsx"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2019-Environmental_Compliance_Reports_FR.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2019-Environmental_Compliance_Reports_EN.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2018-Environmental_Compliance_Reports_FR.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2018-Environmental_Compliance_Reports_EN.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2017-Environmental_Compliance_Reports_FR.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2017-Environmental_Compliance_Reports_EN.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2016-Environmental_Compliance_Reports_FR.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2016-Environmental_Compliance_Reports_EN.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2015-Environmental_Compliance_Reports_FR.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2015-Environmental_Compliance_Reports_EN.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2014-Environmental_Compliance_Reports_FR.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2014-Environmental_Compliance_Reports_EN.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2013-Environmental_Compliance_Reports_FR.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2013-Environmental_Compliance_Reports_EN.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2012-Environmental_Compliance_Reports.zip"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2022_Air_Emissions_All_Regions.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2022_Air_Emissions_All_Regions_FR.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2022_Industrial_Sewage_All_Regions.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2022_Industrial_Sewage_All_Regions_FR.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2022_Municipal_Private_Sewage_All_Regions.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2022_Municipal_Private_Sewage_All_Regions_FR.csv"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2022_Air_Emissions_All_Regions.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2022_Air_Emissions_All_Regions_FR.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2022_Industrial_Sewage_All_Regions.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2022_Industrial_Sewage_All_Regions_FR.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2022_Municipal_Private_Sewage_All_Regions.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2022_Municipal_Private_Sewage_All_Regions_FR.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2023_ECR_AIR_Emissions_All_Regions1.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2023_ECR_AIR_Emissions_All_Regions_FR1.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2023_ECR_Industrial_Sewage_All_Regions1.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2023_ECR_Industrial_Sewage_All_Regions_FR1.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2023_ECR_Municipal_Private_Sewage_All_Regions1.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2023_ECR_Municipal_Private_Sewage_All_Regions_FR1.xlsx"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2023_ECR_AIR_Emissions_All_Regions1.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2023_ECR_AIR_Emissions_All_Regions_FR1.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2023_ECR_Industrial_Sewage_All_Regions1.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2023_ECR_Industrial_Sewage_All_Regions_FR1.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2023_ECR_Municipal_Private_Sewage_All_Regions7.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2023_ECR_Municipal_Private_Sewage_All_Regions_FR1.csv"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2024_ECR_AIR_Emissions_AllRegions.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2024_ECR_AIR_Emissions_All_Regions_FR.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2024_ECR_Industrial%20Sewage_Emissions_All_Regions.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2024_ECR_Industrial%20Sewage_Emissions_All_Regions_FR.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2024_ECR_Municipal_Private_Sewage_Emissions_All_Regions.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2024_ECR_Municipal_Private_Sewage_Emissions_All_Regions_FR.xlsx"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2024_ECR_AIR_Emissions_AllRegions.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2024_ECR_AIR_Emissions_All_Regions_FR.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2024_ECR_Industrial%20Sewage_Emissions_All_Regions.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2024_ECR_Industrial%20Sewage_Emissions_All_Regions_FR.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2024_ECR_Municipal_Private_Sewage_Emissions_All_Regions.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/ECR/2024_ECR_Municipal_Private_Sewage_Emissions_All_Regions_FR.csv"
+   }
+  ]
+ },
+ "ministry-procurement-approval-compliance-and-tracking-pact": {
+  "title": "Ministry procurement approval, compliance and tracking (PACT)",
+  "resources": []
+ },
+ "children-and-youth-services-procurement-approval-compliance-and-tracking": {
+  "title": "Children and Youth Services procurement approval, compliance and tracking",
+  "resources": []
+ },
+ "report-on-forest-management-annual-summary-of-ontario-s-forest-management-activities": {
+  "title": "Report on forest management: annual summary of Ontario’s forest management activities",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/f94ebc3e-71ce-4706-9603-abe1ac340448/download/fri_area.csv"
+   },
+   {
+    "format": "WEB",
+    "url": "https://public.tableau.com/profile/larlo#!/vizhome/OntariosForestFacts/AtaGlance"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/a4a2027c-4505-4d7b-86aa-1db9d453ccb3/download/fmudetails.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/df5a8a80-60ee-45f8-9190-eb42a6072a65/download/foip.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/8d29cc02-1939-462b-9c30-3ae9274137a1/download/roads.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/2e2df793-3a7a-4096-a001-d1366ef1bc47/download/renewal_ar4.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/aa68761e-1abd-423e-8ad2-875e5a6f47e6/download/ftg_area.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/7501f840-b983-4132-85d2-ab3a39422de0/download/aha_ahv.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/38e86a6b-ba64-40b7-940c-93418f7b80de/download/trees_planted.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/e15a8cae-e6bb-422f-aa3d-09c83f55b170/download/trees_seeded.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/89b157e4-7fb0-4416-8dab-b5ea73693421/download/harvest_volume.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/de52ae8f-707d-419a-9200-f7b2c196216f/download/harvest_vol_undersize.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/09a0c6f6-0cbc-46d4-9f1c-2b342488770a/download/harvest_values.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/d83045e8-f435-4b20-aacc-b31fd72ae885/download/renewal_area.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/9e23e979-f00d-489a-9e8f-b3eddcbab732/download/harvest_area.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/1825ae8b-433b-478e-b4b3-a28c2bb6816a/download/natdist_area.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/ab614625-f9fa-47b2-93b9-db95ce8d024d/download/natdist_volume.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/6889a142-7a14-4998-9095-5332bac40703/resource/0b721d76-9838-4786-8fb8-2305ad0fe919/download/natdist_area_full.csv"
+   }
+  ]
+ },
+ "permissions-enterprise-platform-environmental-compliance-approval-system-eecas": {
+  "title": "Permissions enterprise platform - environmental compliance approval system (eECAS)",
+  "resources": []
+ },
+ "list-of-approved-nutrient-management-strategies-and-non-agricultural-source-material-plan-nasm": {
+  "title": "List of approved nutrient management strategies and Non-Agricultural Source Material Plan (NASM)",
+  "resources": []
+ },
+ "environmental-assessment-information-management-system-eaims": {
+  "title": "Environmental assessment information management system (EAIMS)",
+  "resources": []
+ },
+ "municipal-wastewater-effluent-criteria-database": {
+  "title": "Municipal wastewater effluent criteria database",
+  "resources": []
+ },
+ "ontario-wastewater-inventory-owi": {
+  "title": "Ontario Wastewater Inventory (OWI)",
+  "resources": []
+ },
+ "greenhouse-compliance-and-inspection-database": {
+  "title": "Greenhouse compliance and inspection database",
+  "resources": []
+ },
+ "ontario-landfills": {
+  "title": "Ontario Landfills",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/Landfills/Ontario_Landfills.csv"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/Landfills/Ontario_Landfills.xlsx"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Ontario_Landfills_metadata_EN4.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Ontario_Landfills_metadata_FR4.pdf"
+   }
+  ]
+ },
+ "permissions-enterprise-platform-environmental-approvals-and-sector-registryeasr": {
+  "title": "Permissions enterprise platform - environmental approvals and sector registry (EASR)",
+  "resources": []
+ },
+ "landfill-gas-collection-use-and-destruction": {
+  "title": "Landfill Gas Collection, Use and Destruction",
+  "resources": [
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/Landfill_Gas_2010-2022.xlsx"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Landfill_Gas_metadata__EN.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Landfill_Gas_metadata__FR.pdf"
+   }
+  ]
+ },
+ "list-of-licensed-laboratories": {
+  "title": "List of Licensed Laboratories",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/2Water/Licensed_Labs/List_of_Licensed_Laboratories-2025_EN.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/2Water/Licensed_Labs/List_of_Licensed_Laboratories-2025_FR.csv"
+   }
+  ]
+ },
+ "foods-of-plant-origin-fpo-food-safety-surveillance": {
+  "title": "Foods of Plant Origin (FPO) food safety surveillance",
+  "resources": []
+ },
+ "waterpower-legacy-applicant-of-record": {
+  "title": "Waterpower Legacy Applicant of Record",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/e849df7244cc47949af012d7c1fe64a0/about"
+   },
+   {
+    "format": "WEB",
+    "url": "https://geohub-fr.lio.gov.on.ca/datasets/c42887e4c570454c966029bbb448dffa/about"
+   }
+  ]
+ },
+ "directors-orders-issued-prior-to-2013": {
+  "title": "Director’s orders issued prior to 2013",
+  "resources": []
+ },
+ "permissions-enterprise-platform-sites": {
+  "title": "Permissions enterprise platform - sites ",
+  "resources": []
+ },
+ "renewable-energy-approval-projects": {
+  "title": "Renewable Energy Approval Projects",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/rea.csv"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/rea_metadata.pdf"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/REA/Renewable_Energy_Projects_2025_FR.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/REA/Renewable_Energy_Projects_2025_EN.csv"
+   }
+  ]
+ },
+ "integrated-divisional-system": {
+  "title": "Integrated divisional system ",
+  "resources": []
+ },
+ "directors-orders-and-directions-issued-by-the-minister-2013-to-present": {
+  "title": "Director’s orders and directions issued by the minister (2013 to present)",
+  "resources": []
+ },
+ "ontario-s-emissions-trading-program-data": {
+  "title": "Ontario’s Emissions Trading Program Data",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/OETR-Emissions_Trading_Registry/Facility_Information_Ontario_Emissions_Trading_Program.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/OETR-Emissions_Trading_Registry/Issued_Emission_Allowances_Ontario_Emissions_Trading_Program.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/OETR-Emissions_Trading_Registry/Retirements_Ontario_Emissions_Trading_Program.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/OETR-Emissions_Trading_Registry/Issued_Set_Aside_Allowances_Ontario_Emissions_Trading_Program.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/1Air/OETR-Emissions_Trading_Registry/Issued_Emission_Reduction_Credits_Ontario_Emissions_Trading_Program.csv"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Emissions_Trading_metadata_EN.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Emissions_Trading_metadata_FR.pdf"
+   }
+  ]
+ },
+ "abandoned-mines-information": {
+  "title": "Abandoned Mines information",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://www.hub.geologyontario.mines.gov.on.ca/pages/abandoned-mines"
+   },
+   {
+    "format": "KML",
+    "url": "https://www.geologyontario.mndm.gov.on.ca/mines/data/google/amis/AMIS.kml"
+   },
+   {
+    "format": "WEB",
+    "url": "https://www.platforme.geologyontario.mines.gov.on.ca/pages/mines-abandonnees"
+   }
+  ]
+ },
+ "mining-claims-information-database": {
+  "title": "Mining Claims Information database",
+  "resources": []
+ },
+ "crown-lands-automated-information-management-system": {
+  "title": "Crown Lands Automated Information Management System",
+  "resources": []
+ },
+ "ontario-geological-survey-laboratory-information-management-system": {
+  "title": "Ontario Geological Survey Laboratory Information Management System",
+  "resources": []
+ },
+ "electronic-assessment-system": {
+  "title": "Electronic Assessment System",
+  "resources": []
+ },
+ "provincial-recording-office-tracking-database": {
+  "title": "Provincial Recording Office tracking database",
+  "resources": []
+ },
+ "withdrawal-and-re-opening-orders": {
+  "title": "Withdrawal and re-opening orders",
+  "resources": []
+ },
+ "ministry-of-natural-resources-road-barrier": {
+  "title": "Ministry of Natural Resources Road Barrier",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/mnr-road-barrier"
+   }
+  ]
+ },
+ "online-learning-course-enrolment-totals-by-course": {
+  "title": "Online Learning Course Enrolment Totals by Course",
+  "resources": [
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/04084397-b8a3-4f42-af04-f062a62b0d6c/resource/df4278d2-4c00-42af-b58b-cfed40d6f6a3/download/onlinelearnenrolbycrs_1415-2425_en.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/04084397-b8a3-4f42-af04-f062a62b0d6c/resource/6709729d-2411-45f2-9c4e-8b1c0e7b496a/download/onlinelearnenrolbycrs_1415-2425_fr.xlsx"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/04084397-b8a3-4f42-af04-f062a62b0d6c/resource/8a0e38ee-ba4d-42d0-be20-f5877732ff0e/download/elearningcourseenrol_1415-2425_en.txt"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/04084397-b8a3-4f42-af04-f062a62b0d6c/resource/8ec110d3-dcc8-4a78-a06b-e24818689ac6/download/elearningcourseenrol_1415-2425_fr.txt"
+   }
+  ]
+ },
+ "1250-000-scale-bedrock-geology-of-ontario": {
+  "title": "1:250 000 scale bedrock geology of Ontario",
+  "resources": [
+   {
+    "format": "KML",
+    "url": "https://www.geologyontario.mndm.gov.on.ca/mines/data/google/mrd126/doc.kml"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://www.geologyontario.mines.gov.on.ca/persistent-linking?publication=MRD126-REV1"
+   }
+  ]
+ },
+ "crown-land-mnr-non-freehold-dispositions": {
+  "title": "Crown land: MNR non-freehold dispositions",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/4253b4c8f26e40b98a123f684d971ba8_33/about"
+   },
+   {
+    "format": "WEB",
+    "url": "https://geohub-fr.lio.gov.on.ca/datasets/lio::terres-de-la-couronne-exploitations-non-franches-du-minist%C3%A8re-des-ressources-naturelles/about"
+   }
+  ]
+ },
+ "forest-insect-damage-event": {
+  "title": "Forest Insect Damage Event",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/forest-insect-damage-event"
+   },
+   {
+    "format": "WEB",
+    "url": "https://geohub-fr.lio.gov.on.ca/datasets/dommages-caus%C3%A9s-par-des-insectes-forestiers"
+   },
+   {
+    "format": "DOCX",
+    "url": "https://data.ontario.ca/dataset/57ea9ca7-ca04-4ad5-923c-dae250dc316f/resource/12274a36-f9e5-44af-83f9-fc51e04d7d8f/download/forest_insect_damage_event_-_documentation.docx"
+   },
+   {
+    "format": "PDF",
+    "url": "https://data.ontario.ca/dataset/57ea9ca7-ca04-4ad5-923c-dae250dc316f/resource/a2908cbe-e0ea-42b0-859e-a71129e9fc9a/download/forest_insect_damage_event_-_data_description.pdf"
+   }
+  ]
+ },
+ "course-enrolment-in-grade-9-math-by-course-type": {
+  "title": "Course Enrolment in Grade 9 Math by Course Type",
+  "resources": [
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/574e619b-06ee-4f44-8220-c67af14bf02d/download/grade9_crsenrol_17-18_en.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/e5f927ed-674f-404b-bda0-636f3ec6be5f/download/grade9_crsenrol_17-18_fr.xlsx"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/cbd1adb7-b588-4f77-b3da-cbe0008bae7c/download/grade9_crsenrol_17-18_en.txt"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/954dd7c2-dbe7-4431-8f4f-fb5fae1eac83/download/grade9_crsenrol_17-18_fr.txt"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/4b6e77df-c57c-4aad-8e4f-db4f30304141/download/grade9_crsenrol_18-19_en.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/6934d698-29af-45a1-be3c-348dc4fcc6f0/download/grade9_crsenrol_18-19_fr.xlsx"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/df00f639-72c1-4689-928b-19a8f70c6679/download/grade9_crsenrol_18-19_en.txt"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/df0cf12e-83e3-4763-abdb-5822f22265df/download/grade9_crsenrol_18-19_fr.txt"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/52e33dd2-2b42-459f-af3a-61f11c036ef2/download/grade9_crsenrol_19-20_en.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/adcec879-be18-444f-aa01-9120bf0b311c/download/grade9_crsenrol_19-20_fr.xlsx"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/238e74e2-408f-4d0c-a55d-65fc1c4b84ea/download/grade9_crsenrol_19-20_en.txt"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/2a81115a-0ec4-4bc5-94d0-96ec1293b644/download/grade9_crsenrol_19-20_fr.txt"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/ed4ae461-3221-4c18-b583-6033613521f7/download/grade9_crsenrol_20-21_en.txt"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/651d648d-7889-482d-b07b-afbbc6cdab02/download/grade9_crsenrol_20-21_fr.txt"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/ce2babc9-09fc-45d2-8e29-4f1cab301a49/download/grade9_crsenrol_20-21_en.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/7dc7df96-0c4b-43b6-b1fc-40945e3739e2/download/grade9_crsenrol_20-21_fr.xlsx"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/02cc7a82-36fd-4bd3-a3e4-8a7039e1fdd2/download/grade9_crsenrol_21_22_en.txt"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/0b2af757-2ece-4567-9d45-fdf6d165155f/download/grade9_crsenrol_21_22_fr.txt"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/92536c33-c990-43a5-9ff5-c53d48fc2296/download/grade9_crsenrol_21-22_en.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/6a1028aa-f09a-4b5b-b545-87b8dfc3753f/download/grade9_crsenrol_21-22_fr.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/8bafac79-cc50-4fc3-8ab8-78522f8a211a/download/grade9_crsenrol_22-23_en.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/09e761b6-7c7d-4e61-b047-6c704f9d15b9/download/grade9_crsenrol_22-23_fr.xlsx"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/0a0315e1-1292-4b91-947a-6ebf160c56da/download/grade9_crsenrol_22_23_en.txt"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/d4c5c480-0396-41f5-ae7d-b995d10da374/download/grade9_crsenrol_22_23_fr.txt"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/ac51648f-649b-4216-9fe7-58a04177038c/download/grade9_crsenrol_23-24_en.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/408427ac-fcbc-4045-b3fd-1659581dcb67/download/grade9_crsenrol_23-24_fr.xlsx"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/deb31db2-5b41-4a1b-9d21-f55e2d604236/download/grade9_math_crs_en.txt"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/0bff4de7-2012-462e-9d69-a7bf1a721459/download/grade9_math_crs_fr.txt"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/57db8322-0f9b-47a9-a565-cc488930f678/download/grade9_crsenrol_24-25_en.txt"
+   },
+   {
+    "format": "TXT",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/77f29aec-c1ed-430c-be0d-1ad0a7816e90/download/grade9_crsenrol_24-25_fr.txt"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/38839f71-750b-4bef-b90e-65e5a1873121/download/grade9_crsenrol_24-25_en.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/508eb408-d00a-45af-bae4-07326b84e642/resource/d41c06e2-ea6a-42c6-b01f-8b9d3b9bf227/download/grade9_crsenrol_24-25_fr.xlsx"
+   }
+  ]
+ },
+ "financial-assurance-held-for-mining-companies": {
+  "title": "Financial assurance held for mining companies",
+  "resources": []
+ },
+ "road-closure-data": {
+  "title": "Road closure data",
+  "resources": []
+ },
+ "mining-act-awareness-program": {
+  "title": "Mining Act Awareness Program",
+  "resources": []
+ },
+ "planned-roadwork": {
+  "title": "Planned roadwork",
+  "resources": [
+   {
+    "format": "KML",
+    "url": "https://511on.ca/?SelectedLayers=FutureRoadwork"
+   }
+  ]
+ },
+ "plans-and-permits-inspections-tracking": {
+  "title": "Plans and permits inspections tracking",
+  "resources": []
+ },
+ "exploration-plans-and-permits-distributed-to-indigenous-groups": {
+  "title": "Exploration plans and permits distributed to Indigenous groups",
+  "resources": []
+ },
+ "1991-enhanced-forest-resource-inventories": {
+  "title": "1991 Enhanced Forest Resource Inventories for Lanark County and the United Counties of Stormont, Dundas & Glengarry",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/documents/lio::1991-enhanced-forest-resource-inventories-for-lanark-county-and-the-united-counties-of-stormont-dundas-glengarry/about"
+   },
+   {
+    "format": "WEB",
+    "url": "https://geohub-fr.lio.gov.on.ca/documents/lio::inventaires-am%C3%A9lior%C3%A9s-des-ressources-foresti%C3%A8res-de-1991-pour-le-comt%C3%A9-de-lanark-et-les-comt%C3%A9s-unis-de-stormont-de-dundas-et-de-glengarry/about"
+   }
+  ]
+ },
+ "cadastral-location": {
+  "title": "Cadastral Location",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/cadastral-location"
+   }
+  ]
+ },
+ "exploration-plans-and-permits-currently-active": {
+  "title": "Exploration plans and permits currently active",
+  "resources": []
+ },
+ "niagara-escarpment-outliers": {
+  "title": "Niagara Escarpment outliers",
+  "resources": []
+ },
+ "1978-forest-resource-inventory-mnrf-kemptville-district": {
+  "title": "1978 Forest Resource Inventory, Ministry of Natural Resources & Forestry, Kemptville District",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/documents/lio::1978-forest-resource-inventory-ministry-of-natural-resources-forestry-kemptville-district/about"
+   },
+   {
+    "format": "WEB",
+    "url": "https://geohub-fr.lio.gov.on.ca/documents/lio::inventaire-des-ressources-foresti%C3%A8res-de-1978-minist%C3%A8re-des-richesses-naturelles-et-des-for%C3%AAts-district-kemptville/about"
+   }
+  ]
+ },
+ "forest-resource-inventory-term-2-t2-2018-2028": {
+  "title": "Forest Resource Inventory Term 2 (T2) 2018-2028",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/maps/lio::forest-resource-inventory-term-2-t2-2018-2028/explore"
+   },
+   {
+    "format": "WEB",
+    "url": "https://geohub-fr.lio.gov.on.ca/maps/lio::inventaire-des-ressources-foresti%C3%A8res-p%C3%A9riode-2-p2-2018-2028/explore"
+   }
+  ]
+ },
+ "ontario-growth-and-yield-data": {
+  "title": "Ontario Growth and Yield data",
+  "resources": []
+ },
+ "patent-land-external": {
+  "title": "Patent land external",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/lio::patent-land-external/about"
+   },
+   {
+    "format": "WEB",
+    "url": "https://geohub-fr.lio.gov.on.ca/datasets/lio::terres-patent%C3%A9es-et-ali%C3%A9n%C3%A9es/about"
+   }
+  ]
+ },
+ "energy-use-and-greenhouse-gas-emissions-for-the-broader-public-sector": {
+  "title": "Energy use and greenhouse gas emissions for the Broader Public Sector",
+  "resources": [
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/06606169-81ff-4d7f-8694-32348c50567c/download/les_donnees_de_2020_relatives.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/af9bef69-01de-4979-a62e-78ecbd215a01/download/2020_final_data_set_1.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/34bd4894-991d-43dc-ba90-130f6490a2c1/download/normalized_bps_data_2011-2020_municipality_and_municipal_service_board.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/opendata/bps_2011_report_english.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/opendata/bps_2012_report_english.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/opendata/bps_2013_report_english.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/opendata/bps_2014_report_english.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/opendata/bps_2015_report_english.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/opendata/bps_2016_report_english.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/1fc33020-694b-4bb5-b76b-6b420af6ee46/download/bps_non-reporters_2013-2020_english.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/8cc08b0c-9c6b-4aa9-971b-52289ca5b4da/download/bps_2011_report_french_0.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/opendata/bps_2012_report_french_0.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/opendata/bps_2013_report_french_0.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/opendata/bps_2014_report_french_0.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/opendata/bps_2015_report_french_1.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://files.ontario.ca/opendata/bps_2016_report_french_0.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/52f70988-0a4c-4319-8c2f-8b1e8c6b849d/download/rapports_de_2013_a_2020_non_presentes.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/611104eb-0806-4c42-971c-c36c43584c4e/download/2017_energy_consumption.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/e747d87c-12d4-44b4-b52c-5be5c774f1bc/download/les_donnees_de_2017_relatives.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/fba17e12-eb8b-48c6-a637-882de2b7a56e/download/normalized_bps_data_2011-2020_post_secondary_educational_institution.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/4a253958-ec5e-4b1a-bb34-4258548ba18d/download/normalized_bps_data_2011-2020_public_hospital.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/96e10d29-9c62-4ffe-801a-1b3a528b6c53/download/normalized_bps_data_2011-2020_school_board_english.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/b79ef5c0-51ed-4384-ab78-6f2359576901/download/les_donnees_de_2011_a_2020_normalisees_conseil_scolaire.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/45576a19-69f1-43d1-af6d-9535af383a7d/download/les_donnees_de_2011_a_2020_normalisees_municipalites_et_commission_de_services_municipaux.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/cd3993fc-7fc3-4e69-b76e-09965bf62bf7/download/les_donnees_de_2011_a_2020_normalisees_hopital_public.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/2b833e37-eb5a-4dcf-983b-60f1defac1d0/download/les_donnees_de_2011_a_2020_normalisees_municipalites_et_commission_de_services_municipaux.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/0b13546d-f2d7-4f4c-bf80-9dce8a112494/download/2018_final_data_set.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/89c115b4-ea37-4270-9c9f-206cb4e7f301/download/les_donnees_de_2018_relatives.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/054263bd-9d22-4fd5-9057-333b0bf97df1/download/2019_final_data_set.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/927037b5-5d04-4174-bbc9-6f865e036776/download/les_donnees_de_2019_relatives.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/4727e0fb-d020-4ea8-b27a-20f383d05199/download/2021_final_bps_dataset.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/2f5c2cdd-f024-4b8e-9970-fae024ec9563/download/2021_final_bps_dataset_french.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/88c3efde-5bd5-4645-811d-ef1ffe3d05cc/download/2022_final_data_set.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/be4ac31f-8781-48b1-b593-ca0379044c6a/download/les_donnees_de_2022_relatives.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/a2fdbdb2-3cc9-4d30-a60f-58c70f6e3f5a/download/2023_final_data_set.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/b5c4e34e-60b9-4afa-9ac7-d9400fa8a857/download/les_donnees_de_2023_relatives.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/b6b569cf-5d3a-4b96-9972-ea428c316278/download/2024_final_data_set.xlsx"
+   },
+   {
+    "format": "XLSX",
+    "url": "https://data.ontario.ca/dataset/5e976319-9769-4f77-aab9-d170e0131efe/resource/44a8f111-d030-4afa-ab1c-3fcc9c7d2b9f/download/les_donnees_de_2024_relatives.xlsx"
+   }
+  ]
+ },
+ "mining-land-tax-exemption-tracking-log": {
+  "title": "Mining land tax exemption tracking log",
+  "resources": []
+ },
+ "ministry-of-northern-development-and-mines-mining-claims": {
+  "title": "Ministry of Northern Development and Mines mining claims",
+  "resources": []
+ },
+ "ministry-of-northern-development-and-mines-reconciled-mining-claims": {
+  "title": "Ministry of Northern Development and Mines reconciled mining claims",
+  "resources": []
+ },
+ "ministry-of-northern-development-and-mines-alienations": {
+  "title": "Ministry of Northern Development and Mines alienations",
+  "resources": []
+ },
+ "land-tenure-and-assessment-unit-revenue-log": {
+  "title": "Land tenure and assessment unit revenue log",
+  "resources": []
+ },
+ "surface-right-notification": {
+  "title": "Surface right notification",
+  "resources": []
+ },
+ "northwest-greater-toronto-area-transmission-corridor-study-area": {
+  "title": "Northwest Greater Toronto Area transmission corridor study area",
+  "resources": [
+   {
+    "format": "KML",
+    "url": "https://data.ontario.ca/dataset/5ba2da6f-5636-4e59-b65a-799904ba4a47/resource/909d01a5-eddf-42d6-b716-a4665942f2a7/download/current_transmission_corridor_study_area.kml"
+   },
+   {
+    "format": "KML",
+    "url": "https://data.ontario.ca/dataset/5ba2da6f-5636-4e59-b65a-799904ba4a47/resource/bf3daca2-176f-4ef2-98ba-bb29be7cf20e/download/narrowed_area_of_interest.kml"
+   },
+   {
+    "format": "KML",
+    "url": "https://data.ontario.ca/dataset/5ba2da6f-5636-4e59-b65a-799904ba4a47/resource/05f22451-657d-444e-b768-dfd80d09fd06/download/2020_narrowed_area_of_interest.kml"
+   },
+   {
+    "format": "KML",
+    "url": "https://data.ontario.ca/dataset/5ba2da6f-5636-4e59-b65a-799904ba4a47/resource/55d0e9f3-784a-44d1-a897-22e3a976ec16/download/2024proposednarrowedareaofinterest.kml"
+   },
+   {
+    "format": "KML",
+    "url": "https://data.ontario.ca/dataset/5ba2da6f-5636-4e59-b65a-799904ba4a47/resource/324f3552-1304-4877-ab2b-e436edf83b0d/download/may_2025_nai.kml"
+   },
+   {
+    "format": "KML",
+    "url": "https://data.ontario.ca/dataset/5ba2da6f-5636-4e59-b65a-799904ba4a47/resource/d6c22c19-f5de-4eb2-a5d8-ef6ce7bf1a1b/download/october2025proposednai.kml"
+   },
+   {
+    "format": "KML",
+    "url": "https://data.ontario.ca/dataset/5ba2da6f-5636-4e59-b65a-799904ba4a47/resource/b2914fde-b7a9-404e-9987-0a04eaaf550d/download/december2025naikml.kml"
+   },
+   {
+    "format": "SHP",
+    "url": "https://data.ontario.ca/dataset/5ba2da6f-5636-4e59-b65a-799904ba4a47/resource/e2bd14c3-b484-4a9c-a138-e457ea837a7d/download/mar13nai.zip"
+   },
+   {
+    "format": "KML",
+    "url": "https://data.ontario.ca/dataset/5ba2da6f-5636-4e59-b65a-799904ba4a47/resource/aa859bb4-5c44-47ea-902d-c6b502924f39/download/april_2026_nai.kml"
+   }
+  ]
+ },
+ "assessment-file-research-image-database": {
+  "title": "Assessment File Research Image database",
+  "resources": []
+ },
+ "ontario-geological-survey-publications-database": {
+  "title": "Ontario Geological Survey Publications Database",
+  "resources": []
+ },
+ "fishing-access-points": {
+  "title": "Fishing access points",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/fishing-access-point"
+   }
+  ]
+ },
+ "enhancing-access-to-spaces-for-everyone-ease-grant-project-recipients": {
+  "title": "Enhancing Access to Spaces for Everyone (EASE) Grant project recipients",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/78f25625-7ca5-4f1b-8627-c8ab68b5bb44/resource/1bf4e440-359a-4a02-8363-ddc74292e90e/download/ease_recipient_opendata_en.csv"
+   },
+   {
+    "format": "CSV",
+    "url": "https://data.ontario.ca/dataset/78f25625-7ca5-4f1b-8627-c8ab68b5bb44/resource/4b188b5a-9a38-415e-8090-a6654d8d7e6b/download/2025-18404_ease_recipient_opendata_en_final_fr.csv"
+   }
+  ]
+ },
+ "accessibility-for-ontarians-with-disabilities-act-aoda-compliance-assurance-tracking-system-acats": {
+  "title": "Accessibility for Ontarians with Disabilities Act (AODA) Compliance Assurance Tracking System (ACATS)",
+  "resources": []
+ },
+ "hazardous-waste-public-information": {
+  "title": "Hazardous Waste Public Information",
+  "resources": [
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2002.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2003.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2004.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2005.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2006.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2007.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2008.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2009.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2010.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2011.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2012.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2013.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2014.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2015.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2016.zip"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Hazardous_Waste_Public_HWIN_metadata_EN2.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Hazardous_Waste_Public_HWIN_metadata_FR2.pdf"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2017.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2018.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2019.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2020.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2021.zip"
+   },
+   {
+    "format": "ZIP",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/3Land/HWIN_by_year/PIDS2022.zip"
+   }
+  ]
+ },
+ "renewable-energy-on-crown-land-policy-area": {
+  "title": "Renewable energy on Crown land policy area",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/renewable-energy-on-crown-land-policy-area"
+   }
+  ]
+ },
+ "trail-segments": {
+  "title": "Trail segments",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/trail-segment"
+   }
+  ]
+ },
+ "wooded-areas": {
+  "title": "Wooded areas",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/wooded-area"
+   },
+   {
+    "format": "WEB",
+    "url": "https://geohub-fr.lio.gov.on.ca/datasets/zones-bois%C3%A9es"
+   }
+  ]
+ },
+ "conservation-authority-administrative-area": {
+  "title": "Conservation Authority Administrative Area",
+  "resources": [
+   {
+    "format": "",
+    "url": "https://geohub.lio.gov.on.ca/datasets/conservation-authority-administrative-area"
+   },
+   {
+    "format": "",
+    "url": "https://geohub-fr.lio.gov.on.ca/datasets/secteurs-administratifs-de-loffice-de-protection-de-la-nature"
+   }
+  ]
+ },
+ "ontario-trail-network": {
+  "title": "Ontario Trail Network",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/mnrf::ontario-trail-network-otn-segment/explore"
+   },
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/mnrf::ontario-trail-network-otn-access-point/explore"
+   },
+   {
+    "format": "WEB",
+    "url": "https://geohub-fr.lio.gov.on.ca/datasets/mnrf::segments-tir%C3%A9s-du-r%C3%A9seau-des-pistes-et-des-sentiers-de-lontario"
+   },
+   {
+    "format": "WEB",
+    "url": "https://geohub-fr.lio.gov.on.ca/datasets/mnrf::points-dacc%C3%A8s-dans-le-r%C3%A9seau-des-pistes-et-des-sentiers-de-lontario"
+   }
+  ]
+ },
+ "great-lakes-guardian-community-fund-recipients": {
+  "title": "Great Lakes Guardian Community Fund Recipients",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/2Water/GLGCF/GLGCF_EN.csv"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Great_Lakes_Guardian_Fund_metadata_EN.pdf"
+   },
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/2Water/GLGCF/GLGCF_FR.csv"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Great_Lakes_Guardian_Fund_metadata_FR.pdf"
+   }
+  ]
+ },
+ "nature-preserve-properties": {
+  "title": "Nature preserve properties",
+  "resources": []
+ },
+ "waste-management-site": {
+  "title": "Waste Management Site",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/waste-management-site"
+   },
+   {
+    "format": "WEB",
+    "url": "https://geohub-fr.lio.gov.on.ca/datasets/sites-de-gestion-des-d%C3%A9chets"
+   }
+  ]
+ },
+ "lake-simcoe-protection-act-watershed-boundary": {
+  "title": "Lake Simcoe Protection Act Watershed Boundary",
+  "resources": [
+   {
+    "format": "",
+    "url": "https://geohub.lio.gov.on.ca/datasets/lake-simcoe-protection-act-watershed-boundary"
+   },
+   {
+    "format": "",
+    "url": "https://geohub-fr.lio.gov.on.ca/datasets/limites-du-bassin-versant-telles-que-d%C3%A9finies-par-la-loi-de-2008-sur-la-protection-du-lac-simcoe"
+   }
+  ]
+ },
+ "forest-resources-inventory-status": {
+  "title": "Forest resources inventory status",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/lio::fri-status/about"
+   }
+  ]
+ },
+ "fish-habitat-type-parry-sound-district": {
+  "title": "Fish Habitat Type – Parry Sound district",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/fisheries-habitat-management-database-parry-sound-district"
+   }
+  ]
+ },
+ "pollen-monitoring-network-study": {
+  "title": "Pollen Monitoring Network Study",
+  "resources": [
+   {
+    "format": "CSV",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/4Other/PHAP/Pollen_Monitoring_Network_Data_2015_2019.csv"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Pollen_Monitoring_Network_Study_metadata_EN.pdf"
+   },
+   {
+    "format": "PDF",
+    "url": "https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Pollen_Monitoring_Network_Study_metadata_FR.pdf"
+   }
+  ]
+ },
+ "provincial-park-regulated": {
+  "title": "Provincial Park Regulated",
+  "resources": [
+   {
+    "format": "SHP",
+    "url": "https://geohub.lio.gov.on.ca/datasets/provincial-park-regulated"
+   },
+   {
+    "format": "SHP",
+    "url": "https://geohub-fr.lio.gov.on.ca/datasets/parcs-provinciaux-r%C3%A9glement%C3%A9s"
+   }
+  ]
+ },
+ "ministry-of-natural-resources-road-segments": {
+  "title": "Ministry of Natural Resources road segments",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/lio::mnr-road-segments/explore"
+   },
+   {
+    "format": "WEB",
+    "url": "https://geohub-fr.lio.gov.on.ca/datasets/dfecc4970b9f425f99a0526250d5b6ec_18/explore"
+   }
+  ]
+ },
+ "fire-archive-improvement-project-ontario-living-legacy": {
+  "title": "Fire Archive Improvement Project - Ontario Living Legacy",
+  "resources": []
+ },
+ "designated-gas-storage-area": {
+  "title": "Designated Gas Storage Area",
+  "resources": [
+   {
+    "format": "WEB",
+    "url": "https://geohub.lio.gov.on.ca/datasets/designated-gas-storage-area"
+   }
+  ]
+ },
+ "oak-ridges-moraine-planning-area": {
+  "title": "Oak Ridges Moraine: planning area",
+  "resources": [
+   {
+    "format": "",
+    "url": "https://geohub.lio.gov.on.ca/datasets/oak-ridges-moraine-orm-planning-area"
+   },
+   {
+    "format": "",
+    "url": "https://geohub-fr.lio.gov.on.ca/datasets/moraine-doak-ridges-zone-de-planification"
+   },
+   {
+    "format": "DOCX",
+    "url": "https://data.ontario.ca/dataset/1a9122f4-64f2-458b-bf73-732fa8f6a45e/resource/fa115ca7-8c90-4533-8b11-aa26e3e537d1/download/orm_planning_area_-_documentation.docx"
+   },
+   {
+    "format": "PDF",
+    "url": "https://data.ontario.ca/dataset/1a9122f4-64f2-458b-bf73-732fa8f6a45e/resource/db1cc2f2-9874-4d2c-8e1e-40e804259865/download/orm_planning_area_-_data_description.pdf"
+   }
+  ]
+ }
+}

@@ -1,0 +1,782 @@
+{
+ "Electricity": [
+  {
+   "name": "Bruce to Milton Transmission Reinforcement Project",
+   "url": "https://www.ontario.ca/page/bruce-milton-transmission-reinforcement-project"
+  },
+  {
+   "name": "Detour Lake Contingency Power Project",
+   "url": "https://www.ontario.ca/page/detour-lake-contingency-power-project"
+  },
+  {
+   "name": "Detour Lake Power Project",
+   "url": "https://www.ontario.ca/page/detour-lake-power-project"
+  },
+  {
+   "name": "East-West Tie Transmission Project",
+   "url": "https://www.ontario.ca/page/east-west-tie-transmission-project"
+  },
+  {
+   "name": "Goldcorp Musselwhite Mine Main Power Supply Project",
+   "url": "https://www.ontario.ca/page/goldcorp-musselwhite-mine-main-power-supply-project"
+  },
+  {
+   "name": "Lake Superior link transmission project",
+   "url": "https://www.ontario.ca/page/lake-superior-link-transmission-project"
+  },
+  {
+   "name": "New Transmission Line to Pickle Lake",
+   "url": "https://www.ontario.ca/page/new-transmission-line-pickle-lake"
+  },
+  {
+   "name": "Northeast power line project",
+   "url": "https://www.ontario.ca/page/northeast-power-line-project"
+  },
+  {
+   "name": "Sagatay Pickle Lake transmission project",
+   "url": "https://www.ontario.ca/page/sagatay-pickle-lake-transmission-project"
+  },
+  {
+   "name": "SynFuel Technologies: New Energy Source for Atikokan Ontario",
+   "url": "https://www.ontario.ca/page/synfuel-technologies-new-energy-source-atikokan-ontario"
+  },
+  {
+   "name": "SynFuel Technologies: New Energy Source for Cascades Fine Paper Group",
+   "url": "https://www.ontario.ca/page/synfuel-technologies-new-energy-source-cascades-fine-paper-group"
+  },
+  {
+   "name": "SynFuel Technologies: New Energy Source for Red Rock Ontario",
+   "url": "https://www.ontario.ca/page/synfuel-technologies-new-energy-source-red-rock-ontario"
+  },
+  {
+   "name": "Victor Diamond Mine Power Supply Project",
+   "url": "https://www.ontario.ca/page/victor-diamond-mine-power-supply-project"
+  },
+  {
+   "name": "Waasigan transmission line project",
+   "url": "https://www.ontario.ca/page/waasigan-transmission-line-project"
+  }
+ ],
+ "Mining": [
+  {
+   "name": "Bending Lake Iron Mine",
+   "url": "https://www.ontario.ca/page/bending-lake-iron-mine"
+  },
+  {
+   "name": "Cliffs Chromite Project",
+   "url": "https://www.ontario.ca/page/cliffs-chromite-project"
+  },
+  {
+   "name": "C\u00f4t\u00e9 Gold Project",
+   "url": "https://www.ontario.ca/page/cote-gold-project"
+  },
+  {
+   "name": "Hammond Reef gold mine",
+   "url": "https://www.ontario.ca/page/hammond-reef-gold-mine"
+  },
+  {
+   "name": "Hardrock Gold Mine",
+   "url": "https://www.ontario.ca/page/hardrock-gold-mine"
+  },
+  {
+   "name": "Marathon Platinum Group Metals and Copper Mine Project",
+   "url": "https://www.ontario.ca/page/marathon-platinum-group-metals-and-copper-mine-project"
+  },
+  {
+   "name": "Eagle's Nest Multi-metal Mine",
+   "url": "https://www.ontario.ca/page/eagles-nest-multi-metal-mine"
+  },
+  {
+   "name": "Rainy River Gold Mine",
+   "url": "https://www.ontario.ca/page/rainy-river-gold-mine"
+  },
+  {
+   "name": "Springpole gold project",
+   "url": "https://www.ontario.ca/page/springpole-gold-project"
+  }
+ ],
+ "Forestry": [
+  {
+   "name": "Environmental Assessment Requirements for Forest Management on Crown Lands in Ontario (MNR-75)",
+   "url": "https://www.ontario.ca/page/environmental-assessment-requirements-forest-management-crown-lands-ontario-mnr-75"
+  }
+ ],
+ "Municipal infrastructure": [
+  {
+   "name": "Ashbridges Bay Treatment Plant",
+   "url": "https://www.ontario.ca/page/ashbridges-bay-treatment-plant"
+  },
+  {
+   "name": "Upper York Sewage Solutions",
+   "url": "https://www.ontario.ca/page/upper-york-sewage-solutions"
+  },
+  {
+   "name": "York Water Supply",
+   "url": "https://www.ontario.ca/page/york-water-supply"
+  },
+  {
+   "name": "York-Durham Sewage System (Southeast Collector)",
+   "url": "https://www.ontario.ca/page/york-durham-sewage-system-southeast-collector"
+  }
+ ],
+ "Waste management": [
+  {
+   "name": "Guide to environmental assessment requirements for waste management projects",
+   "url": "https://www.ontario.ca/page/guide-environmental-assessment-requirements-waste-management-projects"
+  },
+  {
+   "name": "Algonquin Highlands Waste Management Plan \u2013 Maple Lake Landfill Expansion",
+   "url": "https://www.ontario.ca/page/algonquin-highlands-waste-management-plan-maple-lake-landfill-expansion"
+  },
+  {
+   "name": "Alice and Fraser (Laurentian Valley) Landfill Expansion (ALIC-TP-2)",
+   "url": "https://www.ontario.ca/page/alice-and-fraser-laurentian-valley-landfill-expansion-alic-tp-2"
+  },
+  {
+   "name": "Atikokan Landfill",
+   "url": "https://www.ontario.ca/page/atikokan-landfill"
+  },
+  {
+   "name": "Beechwood Road Environmental Centre New Landfill Footprint",
+   "url": "https://www.ontario.ca/page/beechwood-road-environmental-centre-new-landfill-footprint"
+  },
+  {
+   "name": "Bennett Environmental Hazardous Waste Disposal",
+   "url": "https://www.ontario.ca/page/bennett-environmental-hazardous-waste-disposal"
+  },
+  {
+   "name": "BFI Ridge Landfill",
+   "url": "https://www.ontario.ca/page/bfi-ridge-landfill"
+  },
+  {
+   "name": "Biggars Lane Landfill expansion project",
+   "url": "https://www.ontario.ca/page/biggars-lane-landfill-expansion-project"
+  },
+  {
+   "name": "Blind River Municipal Waste Management Plan",
+   "url": "https://www.ontario.ca/page/blind-river-municipal-waste-management-plan"
+  },
+  {
+   "name": "Brighton Landfill Expansion",
+   "url": "https://www.ontario.ca/page/brighton-landfill-expansion"
+  },
+  {
+   "name": "Brooks Road Landfill Site Vertical Capacity Expansion",
+   "url": "https://www.ontario.ca/page/brooks-road-landfill-site-vertical-capacity-expansion"
+  },
+  {
+   "name": "Capital Region Resource Recovery Centre",
+   "url": "https://www.ontario.ca/page/capital-region-resource-recovery-centre"
+  },
+  {
+   "name": "City of Temiskaming Shores New Waste Management Capacity",
+   "url": "https://www.ontario.ca/page/city-temiskaming-shores-new-waste-management-capacity"
+  },
+  {
+   "name": "Clarence-Rockland Landfill Expansion",
+   "url": "https://www.ontario.ca/page/clarence-rockland-landfill-expansion"
+  },
+  {
+   "name": "Clarington Waste Processing Centre Ltd. Landfill",
+   "url": "https://www.ontario.ca/page/clarington-waste-processing-centre-ltd-landfill"
+  },
+  {
+   "name": "Clean Harbors Lambton Landfill Expansion",
+   "url": "https://www.ontario.ca/page/clean-harbors-lambton-landfill-expansion"
+  },
+  {
+   "name": "Cochrane Landfill",
+   "url": "https://www.ontario.ca/page/cochrane-landfill"
+  },
+  {
+   "name": "Cochrane Solid Waste Disposal Capacity Study",
+   "url": "https://www.ontario.ca/page/cochrane-solid-waste-disposal-capacity-study"
+  },
+  {
+   "name": "Detour Lake Mine Long-term Waste Management Strategy",
+   "url": "https://www.ontario.ca/page/detour-lake-mine-long-term-waste-management-strategy"
+  },
+  {
+   "name": "Dryden Long Term Waste Disposal Capacity",
+   "url": "https://www.ontario.ca/page/dryden-long-term-waste-disposal-capacity"
+  },
+  {
+   "name": "Durham/York Residual Waste Study",
+   "url": "https://www.ontario.ca/page/durhamyork-residual-waste-study"
+  },
+  {
+   "name": "Eastern Ontario Waste Handling Facility Capacity Expansion",
+   "url": "https://www.ontario.ca/page/eastern-ontario-waste-handling-facility-capacity-expansion"
+  },
+  {
+   "name": "Eastern Ontario Waste Handling Facility future development project",
+   "url": "https://www.ontario.ca/page/eastern-ontario-waste-handling-facility-future-development-project"
+  },
+  {
+   "name": "Elliot Lake Waste Management Plan",
+   "url": "https://www.ontario.ca/page/elliot-lake-waste-management-plan"
+  },
+  {
+   "name": "Ellsin Environmental Ltd. Sault Ste. Marie tire waste thermal treatment facility",
+   "url": "https://www.ontario.ca/page/ellsin-environmental-ltd-sault-ste-marie-tire-waste-thermal-treatment-facility"
+  },
+  {
+   "name": "Essex-Windsor Landfill Service Area Expansion",
+   "url": "https://www.ontario.ca/page/essex-windsor-landfill-service-area-expansion"
+  },
+  {
+   "name": "Faraday Landfill Waste Management Plan",
+   "url": "https://www.ontario.ca/page/faraday-landfill-waste-management-plan"
+  },
+  {
+   "name": "French River Waste Disposal Project",
+   "url": "https://www.ontario.ca/page/french-river-waste-disposal-project"
+  },
+  {
+   "name": "Georgian Triangle Waste Management Master Plan",
+   "url": "https://www.ontario.ca/page/georgian-triangle-waste-management-master-plan"
+  },
+  {
+   "name": "Gerdau Ameristeel Recycling",
+   "url": "https://www.ontario.ca/page/gerdau-ameristeel-recycling"
+  },
+  {
+   "name": "Green Lane Landfill",
+   "url": "https://www.ontario.ca/page/green-lane-landfill"
+  },
+  {
+   "name": "Green Lane Landfill Optimization",
+   "url": "https://www.ontario.ca/page/green-lane-landfill-optimization"
+  },
+  {
+   "name": "Grey-Owen Sound Long-Term Landfill",
+   "url": "https://www.ontario.ca/page/grey-owen-sound-long-term-landfill"
+  },
+  {
+   "name": "Guelph Waste Disposal",
+   "url": "https://www.ontario.ca/page/guelph-waste-disposal"
+  },
+  {
+   "name": "H. Dodge Haulage Landfill Expansion",
+   "url": "https://www.ontario.ca/page/h-dodge-haulage-landfill-expansion"
+  },
+  {
+   "name": "Halton Waste Management Site",
+   "url": "https://www.ontario.ca/page/halton-waste-management-site"
+  },
+  {
+   "name": "Hanover/Walkerton Landfill Expansion",
+   "url": "https://www.ontario.ca/page/hanoverwalkerton-landfill-expansion"
+  },
+  {
+   "name": "Humberstone Landfill",
+   "url": "https://www.ontario.ca/page/humberstone-landfill"
+  },
+  {
+   "name": "Iroquois Falls Landfill",
+   "url": "https://www.ontario.ca/page/iroquois-falls-landfill"
+  },
+  {
+   "name": "Island Wide Waste Management Plan",
+   "url": "https://www.ontario.ca/page/island-wide-waste-management-plan"
+  },
+  {
+   "name": "Kapuskasing-Moonbeam Landfill",
+   "url": "https://www.ontario.ca/page/kapuskasing-moonbeam-landfill"
+  },
+  {
+   "name": "Kearney/Perry Landfill Site",
+   "url": "https://www.ontario.ca/page/kearneyperry-landfill-site"
+  },
+  {
+   "name": "Kenora Area Landfill",
+   "url": "https://www.ontario.ca/page/kenora-area-landfill"
+  },
+  {
+   "name": "KMS Peel Inc. Energy From Waste Facility",
+   "url": "https://www.ontario.ca/page/kms-peel-inc-energy-waste-facility"
+  },
+  {
+   "name": "Laidlaw Hazardous Waste Landfill Continuation",
+   "url": "https://www.ontario.ca/page/laidlaw-hazardous-waste-landfill-continuation"
+  },
+  {
+   "name": "Lanark County Landfill",
+   "url": "https://www.ontario.ca/page/lanark-county-landfill"
+  },
+  {
+   "name": "Leeds and Grenville Landfill",
+   "url": "https://www.ontario.ca/page/leeds-and-grenville-landfill"
+  },
+  {
+   "name": "Longlac Waste Management Plan",
+   "url": "https://www.ontario.ca/page/longlac-waste-management-plan"
+  },
+  {
+   "name": "Madawaska Valley Waste Management Strategic Plan",
+   "url": "https://www.ontario.ca/page/madawaska-valley-waste-management-strategic-plan"
+  },
+  {
+   "name": "Mayer Waste Disposal Site capacity expansion",
+   "url": "https://www.ontario.ca/page/mayer-waste-disposal-site-capacity-expansion"
+  },
+  {
+   "name": "McDougall Waste Disposal Solution",
+   "url": "https://www.ontario.ca/page/mcdougall-waste-disposal-solution"
+  },
+  {
+   "name": "Moosonee Landfill Expansion",
+   "url": "https://www.ontario.ca/page/moosonee-landfill-expansion"
+  },
+  {
+   "name": "Mountain Road Landfill Road Service Area Expansion",
+   "url": "https://www.ontario.ca/page/mountain-road-landfill-road-service-area-expansion"
+  },
+  {
+   "name": "Municipality of Greenstone Landfill",
+   "url": "https://www.ontario.ca/page/municipality-greenstone-landfill"
+  },
+  {
+   "name": "Muskoka Long Term Waste Management Plan",
+   "url": "https://www.ontario.ca/page/muskoka-long-term-waste-management-plan"
+  },
+  {
+   "name": "Navan Landfill Expansion",
+   "url": "https://www.ontario.ca/page/navan-landfill-expansion"
+  },
+  {
+   "name": "New Ash Disposal Site at Calstock Power Plant",
+   "url": "https://www.ontario.ca/page/new-ash-disposal-site-calstock-power-plant"
+  },
+  {
+   "name": "Niagara Glenridge Quarry Landfill Service Area",
+   "url": "https://www.ontario.ca/page/niagara-glenridge-quarry-landfill-service-area"
+  },
+  {
+   "name": "Niagara Interim Landfills",
+   "url": "https://www.ontario.ca/page/niagara-interim-landfills"
+  },
+  {
+   "name": "Niagara-Hamilton Joint Study on Waste Disposal",
+   "url": "https://www.ontario.ca/page/niagara-hamilton-joint-study-waste-disposal"
+  },
+  {
+   "name": "North Dundas waste management plan",
+   "url": "https://www.ontario.ca/page/north-dundas-waste-management-plan"
+  },
+  {
+   "name": "North Renfrew Landfill",
+   "url": "https://www.ontario.ca/page/north-renfrew-landfill"
+  },
+  {
+   "name": "Ottawa Waste Management Facility (Carp Landfill)",
+   "url": "https://www.ontario.ca/page/ottawa-waste-management-facility-carp-landfill"
+  },
+  {
+   "name": "Peterborough Landfill Site Expansion",
+   "url": "https://www.ontario.ca/page/peterborough-landfill-site-expansion"
+  },
+  {
+   "name": "Pickle Lake Municipal Waste Management Plan",
+   "url": "https://www.ontario.ca/page/pickle-lake-municipal-waste-management-plan"
+  },
+  {
+   "name": "Plasco Energy Group Proposed Gasification Facility",
+   "url": "https://www.ontario.ca/page/plasco-energy-group-proposed-gasification-facility"
+  },
+  {
+   "name": "Rawdon Landfill",
+   "url": "https://www.ontario.ca/page/rawdon-landfill"
+  },
+  {
+   "name": "Ridge Landfill expansion",
+   "url": "https://www.ontario.ca/page/ridge-landfill-expansion"
+  },
+  {
+   "name": "Saugeen Shores waste management plan",
+   "url": "https://www.ontario.ca/page/saugeen-shores-waste-management-plan"
+  },
+  {
+   "name": "Sault Ste. Marie Solid Waste Management Plan",
+   "url": "https://www.ontario.ca/page/sault-ste-marie-solid-waste-management-plan"
+  },
+  {
+   "name": "Sioux Lookout and Area Planning Area Landfill Site",
+   "url": "https://www.ontario.ca/page/sioux-lookout-and-area-planning-area-landfill-site"
+  },
+  {
+   "name": "South Glengarry Landfill Expansions",
+   "url": "https://www.ontario.ca/page/south-glengarry-landfill-expansions"
+  },
+  {
+   "name": "South Simcoe Waste Management Master Plan",
+   "url": "https://www.ontario.ca/page/south-simcoe-waste-management-master-plan"
+  },
+  {
+   "name": "Southwestern Landfill",
+   "url": "https://www.ontario.ca/page/southwestern-landfill"
+  },
+  {
+   "name": "St. Marys future solid waste disposal needs project",
+   "url": "https://www.ontario.ca/page/st-marys-future-solid-waste-disposal-needs-project"
+  },
+  {
+   "name": "Stelco Lake Erie Works Quarry Landfill expansion",
+   "url": "https://www.ontario.ca/page/stelco-lake-erie-works-quarry-landfill-expansion"
+  },
+  {
+   "name": "Stoney Creek Regional Facility landfill expansion",
+   "url": "https://www.ontario.ca/page/stoney-creek-regional-facility-landfill-expansion"
+  },
+  {
+   "name": "Sudbury Regional Landfill",
+   "url": "https://www.ontario.ca/page/sudbury-regional-landfill"
+  },
+  {
+   "name": "Town of Hearst waste management system",
+   "url": "https://www.ontario.ca/page/town-hearst-waste-management-system"
+  },
+  {
+   "name": "Trail Waste Facility Landfill Optimization Project",
+   "url": "https://www.ontario.ca/page/trail-waste-facility-landfill-optimization-project"
+  },
+  {
+   "name": "Tri-Neighbours Landfill",
+   "url": "https://www.ontario.ca/page/tri-neighbours-landfill"
+  },
+  {
+   "name": "TRI-R Committee Long-Term Waste Management System",
+   "url": "https://www.ontario.ca/page/tri-r-committee-long-term-waste-management-system"
+  },
+  {
+   "name": "Twin Creeks Environmental Centre landfill expansion project",
+   "url": "https://www.ontario.ca/page/twin-creeks-environmental-centre-landfill-expansion-project"
+  },
+  {
+   "name": "Victoria County Landfill",
+   "url": "https://www.ontario.ca/page/victoria-county-landfill"
+  },
+  {
+   "name": "W12A landfill expansion project",
+   "url": "https://www.ontario.ca/page/w12a-landfill-expansion-project"
+  },
+  {
+   "name": "Walker South Landfill Phase 2",
+   "url": "https://www.ontario.ca/page/walker-south-landfill-phase-2"
+  },
+  {
+   "name": "Walker Waste Disposal",
+   "url": "https://www.ontario.ca/page/walker-waste-disposal"
+  },
+  {
+   "name": "Wawa Waste Disposal Site Capacity Expansion",
+   "url": "https://www.ontario.ca/page/wawa-waste-disposal-site-capacity-expansion"
+  },
+  {
+   "name": "West Carleton Environmental Centre",
+   "url": "https://www.ontario.ca/page/west-carleton-environmental-centre"
+  },
+  {
+   "name": "West Nipissing and Area Waste Management Master Plan",
+   "url": "https://www.ontario.ca/page/west-nipissing-and-area-waste-management-master-plan"
+  }
+ ],
+ "Transit": [
+  {
+   "name": "East Bayfront Transit Project",
+   "url": "https://www.ontario.ca/page/east-bayfront-transit-project"
+  },
+  {
+   "name": "Georgetown South Corridor Service Expansion and Airport Transportation Link",
+   "url": "https://www.ontario.ca/page/georgetown-south-corridor-service-expansion-and-airport-transportation-link"
+  },
+  {
+   "name": "Highway 7 Corridor and Vaughan North-South Link Public Transit Improvements",
+   "url": "https://www.ontario.ca/page/highway-7-corridor-and-vaughan-north-south-link-public-transit-improvements"
+  },
+  {
+   "name": "Kingston Road Transit Improvements",
+   "url": "https://www.ontario.ca/page/kingston-road-transit-improvements"
+  },
+  {
+   "name": "Markham North-South Corridor Public Transit Improvements",
+   "url": "https://www.ontario.ca/page/markham-north-south-corridor-public-transit-improvements"
+  },
+  {
+   "name": "Mississauga Bus Rapid Transit",
+   "url": "https://www.ontario.ca/page/mississauga-bus-rapid-transit"
+  },
+  {
+   "name": "Niagara People Mover Transit System",
+   "url": "https://www.ontario.ca/page/niagara-people-mover-transit-system"
+  },
+  {
+   "name": "North Yonge Street Corridor Public Transit Improvements",
+   "url": "https://www.ontario.ca/page/north-yonge-street-corridor-public-transit-improvements"
+  },
+  {
+   "name": "Ottawa East-West Corridor LRT Project",
+   "url": "https://www.ontario.ca/page/ottawa-east-west-corridor-lrt-project"
+  },
+  {
+   "name": "Ottawa North-South Corridor LRT Project",
+   "url": "https://www.ontario.ca/page/ottawa-north-south-corridor-lrt-project"
+  },
+  {
+   "name": "Ottawa Southwest Transitway Extension",
+   "url": "https://www.ontario.ca/page/ottawa-southwest-transitway-extension"
+  },
+  {
+   "name": "Ottawa-Carleton Cumberland Transitway",
+   "url": "https://www.ontario.ca/page/ottawa-carleton-cumberland-transitway"
+  },
+  {
+   "name": "Ottawa-Carleton Light Rail Pilot Project",
+   "url": "https://www.ontario.ca/page/ottawa-carleton-light-rail-pilot-project"
+  },
+  {
+   "name": "Ottawa-Carleton Southwest Transitway Extension",
+   "url": "https://www.ontario.ca/page/ottawa-carleton-southwest-transitway-extension"
+  },
+  {
+   "name": "Port Lands Transit Project",
+   "url": "https://www.ontario.ca/page/port-lands-transit-project"
+  },
+  {
+   "name": "Toronto Waterfront West Streetcar Extension",
+   "url": "https://www.ontario.ca/page/toronto-waterfront-west-streetcar-extension"
+  },
+  {
+   "name": "TTC Spadina Subway Extension",
+   "url": "https://www.ontario.ca/page/ttc-spadina-subway-extension"
+  },
+  {
+   "name": "West Donlands Transit Project",
+   "url": "https://www.ontario.ca/page/west-donlands-transit-project"
+  },
+  {
+   "name": "West Urban Community Transit Study",
+   "url": "https://www.ontario.ca/page/west-urban-community-transit-study"
+  },
+  {
+   "name": "Yonge Street Corridor Public Transit Improvements",
+   "url": "https://www.ontario.ca/page/yonge-street-corridor-public-transit-improvements"
+  }
+ ],
+ "Transportation": [
+  {
+   "name": "Allen Road",
+   "url": "https://www.ontario.ca/page/allen-road"
+  },
+  {
+   "name": "Bayview Avenue Extension",
+   "url": "https://www.ontario.ca/page/bayview-avenue-extension"
+  },
+  {
+   "name": "Bolton Arterial Roads Plan",
+   "url": "https://www.ontario.ca/page/bolton-arterial-roads-plan"
+  },
+  {
+   "name": "Brantford to Cambridge Transportation Corridor",
+   "url": "https://www.ontario.ca/page/brantford-cambridge-transportation-corridor"
+  },
+  {
+   "name": "Detroit River International Crossing",
+   "url": "https://www.ontario.ca/page/detroit-river-international-crossing"
+  },
+  {
+   "name": "Don Mills Road Transit Improvements",
+   "url": "https://www.ontario.ca/page/don-mills-road-transit-improvements"
+  },
+  {
+   "name": "East Bayfront Transit Project",
+   "url": "https://www.ontario.ca/page/east-bayfront-transit-project"
+  },
+  {
+   "name": "Gardiner Expressway and Lake Shore Boulevard Reconfiguration",
+   "url": "https://www.ontario.ca/page/gardiner-expressway-and-lake-shore-boulevard-reconfiguration"
+  },
+  {
+   "name": "GTA West Transportation Corridor",
+   "url": "https://www.ontario.ca/page/gta-west-transportation-corridor"
+  },
+  {
+   "name": "Highway 17 Haley Station to Meath Hill",
+   "url": "https://www.ontario.ca/page/highway-17-haley-station-meath-hill"
+  },
+  {
+   "name": "Highway 400 - Highway 404 Extension Link (Bradford Bypass)",
+   "url": "https://www.ontario.ca/page/highway-400-highway-404-extension-link-bradford-bypass"
+  },
+  {
+   "name": "Highway 404 Extension Davis Drive (York Regional Rd. 31) to Highway 12",
+   "url": "https://www.ontario.ca/page/highway-404-extension-davis-drive-york-regional-rd-31-highway-12"
+  },
+  {
+   "name": "Highway 407 East",
+   "url": "https://www.ontario.ca/page/highway-407-east"
+  },
+  {
+   "name": "Highway 407 Easterly from Markham Road to Highway 7 East of Brock Road",
+   "url": "https://www.ontario.ca/page/highway-407-easterly-markham-road-highway-7-east-brock-road"
+  },
+  {
+   "name": "Highway 410 (Brampton to Caledon)",
+   "url": "https://www.ontario.ca/page/highway-410-brampton-caledon"
+  },
+  {
+   "name": "Highway 427 Transportation Corridor",
+   "url": "https://www.ontario.ca/page/highway-427-transportation-corridor"
+  },
+  {
+   "name": "Highway 6 (Freelton to Guelph)",
+   "url": "https://www.ontario.ca/page/highway-6-freelton-guelph"
+  },
+  {
+   "name": "Highway 69 (Tower Road to Highway 141)",
+   "url": "https://www.ontario.ca/page/highway-69-tower-road-highway-141"
+  },
+  {
+   "name": "Highway 7 Kitchener to Guelph",
+   "url": "https://www.ontario.ca/page/highway-7-kitchener-guelph"
+  },
+  {
+   "name": "Marten Falls community access road project",
+   "url": "https://www.ontario.ca/page/marten-falls-community-access-road-project"
+  },
+  {
+   "name": "Niagara Escarpment crossing",
+   "url": "https://www.ontario.ca/page/niagara-escarpment-crossing"
+  },
+  {
+   "name": "Niagara to Greater Toronto Area Corridor",
+   "url": "https://www.ontario.ca/page/niagara-greater-toronto-area-corridor"
+  },
+  {
+   "name": "Northern road link project",
+   "url": "https://www.ontario.ca/page/northern-road-link-project"
+  },
+  {
+   "name": "Teston Road area transportation improvements project",
+   "url": "https://www.ontario.ca/page/teston-road-transportation-network-project"
+  },
+  {
+   "name": "Transportation Improvements, Donald Cousens Parkway to Morningside Avenue Link Amended Environmental Assessment",
+   "url": "https://www.ontario.ca/page/transportation-improvements-donald-cousens-parkway-morningside-avenue-link-amended-environmental"
+  },
+  {
+   "name": "Webequie supply road project",
+   "url": "https://www.ontario.ca/page/webequie-supply-road-project"
+  },
+  {
+   "name": "Western Vaughan Transportation Improvements",
+   "url": "https://www.ontario.ca/page/western-vaughan-transportation-improvements"
+  },
+  {
+   "name": "Wonderland Road",
+   "url": "https://www.ontario.ca/page/wonderland-road"
+  }
+ ],
+ "Other": [
+  {
+   "name": "1 Port Street East proposed marina project",
+   "url": "https://www.ontario.ca/page/1-port-street-east-proposed-marina-project"
+  },
+  {
+   "name": "Algonquin Land Claim Declaration Order",
+   "url": "https://www.ontario.ca/page/algonquin-land-claim-declaration-order"
+  },
+  {
+   "name": "Bell Boulevard road widening project",
+   "url": "https://www.ontario.ca/page/bell-boulevard-road-widening-project"
+  },
+  {
+   "name": "Caledonia\u2014Acquisition of the property at 445 Argyle Street South, Township of Oneida",
+   "url": "https://www.ontario.ca/page/caledonia-acquisition-property-445-argyle-street-south-township-oneida"
+  },
+  {
+   "name": "Caledonia Acquisition and Land Transfer Declaration",
+   "url": "https://www.ontario.ca/page/caledonia-acquisition-and-land-transfer-declaration"
+  },
+  {
+   "name": "Canadore College Building \u2013 Parry Sound",
+   "url": "https://www.ontario.ca/page/canadore-college-building-parry-sound"
+  },
+  {
+   "name": "City of Quinte West Municipal Marina",
+   "url": "https://www.ontario.ca/page/city-quinte-west-municipal-marina"
+  },
+  {
+   "name": "Don Mouth Naturalization and Port Lands Flood Protection Project",
+   "url": "https://www.ontario.ca/page/don-mouth-naturalization-and-port-lands-flood-protection-project"
+  },
+  {
+   "name": "Durham Consolidated Courthouse Declaration (PIR-3)",
+   "url": "https://www.ontario.ca/page/durham-consolidated-courthouse-declaration-pir-3"
+  },
+  {
+   "name": "Exemption for projects or activities related to land claim settlements and other agreements with Indigenous communities",
+   "url": "https://www.ontario.ca/page/exemption-projects-or-activities-related-land-claim-settlements-and-other-agreements-indigenous"
+  },
+  {
+   "name": "Goderich Harbour Wharf Expansion",
+   "url": "https://www.ontario.ca/page/goderich-harbour-wharf-expansion"
+  },
+  {
+   "name": "Highland Companies Proposed Quarry in Dufferin County",
+   "url": "https://www.ontario.ca/page/highland-companies-proposed-quarry-dufferin-county"
+  },
+  {
+   "name": "Lakeview Waterfront Connection",
+   "url": "https://www.ontario.ca/page/lakeview-waterfront-connection"
+  },
+  {
+   "name": "Mimico Waterfront Linear Park",
+   "url": "https://www.ontario.ca/page/mimico-waterfront-linear-park"
+  },
+  {
+   "name": "Mississauga Gardens",
+   "url": "https://www.ontario.ca/page/mississauga-gardens"
+  },
+  {
+   "name": "Peat Extraction and Processing Operation and Bog Rehabilitation",
+   "url": "https://www.ontario.ca/page/peat-extraction-and-processing-operation-and-bog-rehabilitation"
+  },
+  {
+   "name": "Port Union Waterfront Improvement Project",
+   "url": "https://www.ontario.ca/page/port-union-waterfront-improvement-project"
+  },
+  {
+   "name": "Reid Road Reservoir Quarry Project",
+   "url": "https://www.ontario.ca/page/reid-road-reservoir-quarry-project"
+  },
+  {
+   "name": "Scarborough Bluffs West Project",
+   "url": "https://www.ontario.ca/page/scarborough-bluffs-west-project"
+  },
+  {
+   "name": "Scarborough Waterfront Project",
+   "url": "https://www.ontario.ca/page/scarborough-waterfront-project"
+  },
+  {
+   "name": "Seaton Land Transfer (PIR-1)",
+   "url": "https://www.ontario.ca/page/seaton-land-transfer-pir-1"
+  },
+  {
+   "name": "Shell Canada Proposed Oil Refinery in the Township of St. Clair",
+   "url": "https://www.ontario.ca/page/shell-canada-proposed-oil-refinery-township-st-clair"
+  },
+  {
+   "name": "Thunder Bay\u2019s New Marina and Pool 6 Lands",
+   "url": "https://www.ontario.ca/page/thunder-bays-new-marina-and-pool-6-lands"
+  },
+  {
+   "name": "Toronto Waterfront Revitalization Corporation\u2019s Toronto Waterfront Parks (TWRC)",
+   "url": "https://www.ontario.ca/page/toronto-waterfront-revitalization-corporations-toronto-waterfront-parks-twrc"
+  },
+  {
+   "name": "Windsor Marina",
+   "url": "https://www.ontario.ca/page/windsor-marina"
+  }
+ ]
+}
