@@ -1,0 +1,70 @@
+name: Discover Ontario GeoHub spatial layers
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/fetch-geohub-catalog.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch DCAT catalogues and locate baseline layers
+        continue-on-error: true
+        run: |
+          mkdir -p data/raw
+          python3 - <<'EOF'
+          import json, urllib.request
+
+          def get(url):
+              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+              return json.loads(urllib.request.urlopen(req, timeout=300).read())
+
+          TARGETS = ['ecological land classification', 'forest resources inventory',
+                     'forest resource inventory', 'wetland', 'areas of natural and scientific',
+                     'species at risk', 'natural heritage', 'conservation reserve',
+                     'woodland', 'watercourse', 'waterbody', 'flood', 'treaty',
+                     'first nation', 'aggregate site', 'endangered']
+          hits = []
+          for cat_url in ('https://geohub.lio.gov.on.ca/api/feed/dcat-us/1.1.json',
+                          'https://data.ontario.ca/api/feed/dcat-us/1.1.json'):
+              try:
+                  cat = get(cat_url)
+                  ds = cat.get('dataset', [])
+                  print(cat_url, '->', len(ds), 'datasets')
+                  for d in ds:
+                      title = (d.get('title') or '').lower()
+                      if any(t in title for t in TARGETS):
+                          rest = [x.get('accessURL') or x.get('downloadURL')
+                                  for x in d.get('distribution', [])
+                                  if 'arcgis' in ((x.get('accessURL') or x.get('downloadURL') or '')).lower()
+                                  or (x.get('format') or '').lower() in ('arcgis geoservices rest api', 'esri rest')]
+                          hits.append({'title': d.get('title'),
+                                       'landing': d.get('landingPage'),
+                                       'rest': rest[:2],
+                                       'catalog': cat_url.split('/')[2]})
+              except Exception as e:
+                  print('FAIL', cat_url, str(e)[:150])
+          json.dump(hits, open('data/raw/on_geohub_layers.json', 'w'), ensure_ascii=False, indent=1)
+          print('matched layers:', len(hits))
+          for h in hits[:30]:
+              print('-', h['title'][:70], '|', (h['rest'][0] if h['rest'] else 'no-rest')[:70])
+          EOF
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git add data/raw
+            git commit -m "Add Ontario GeoHub baseline layer discovery [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 7
+          done
