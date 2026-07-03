@@ -18,7 +18,7 @@ jobs:
       - name: Run baseline query for a demo site (Adelaide Wind Energy Centre area)
         continue-on-error: true
         run: |
-          python3 scripts/baseline_query.py 42.958521 -81.63773 1000
+          python3 scripts/baseline_query.py 42.958521 -81.63773 1000 2>&1 | tee /tmp/baseline.log; grep -cE "ERR|resolve fail" /tmp/baseline.log || true
 
       - name: Commit
         run: |
