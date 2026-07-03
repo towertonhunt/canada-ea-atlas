@@ -220,6 +220,9 @@
     <label for="filter-search">Search</label>
     <input type="text" id="filter-search" placeholder="Project or proponent…" style="width:170px" />
   </div>
+  <div class="filter-group">
+    <label for="filter-amis" style="cursor:pointer"><input type="checkbox" id="filter-amis" style="vertical-align:-1px" /> Abandoned mines</label>
+  </div>
   <span id="count-badge">– projects</span>
 </div>
 
@@ -563,8 +566,12 @@ function applyFilters() {
   const docsVal   = document.getElementById("filter-docs").value;
   const search    = document.getElementById("filter-search").value.trim().toLowerCase();
 
+  const showAmis = document.getElementById("filter-amis").checked;
   const filtered = allFeatures.filter(f => {
     const p = f.properties;
+    // Abandoned mines are a reference layer: hidden unless toggled on or
+    // explicitly selected in the jurisdiction filter
+    if (p.source === "on_amis" && !showAmis && jurVal !== p.jurisdiction) return false;
     if (jurVal && p.jurisdiction !== jurVal) return false;
     if (typeVal && p.category !== typeVal) return false;
     if (yearMin && (p.approval_year || 0) < yearMin) return false;
@@ -599,7 +606,7 @@ function applyFilters() {
 }
 
 // Wire up filter controls
-["filter-jurisdiction","filter-type","filter-year-min","filter-year-max","filter-docs"].forEach(id => {
+["filter-jurisdiction","filter-type","filter-year-min","filter-year-max","filter-docs","filter-amis"].forEach(id => {
   document.getElementById(id).addEventListener("change", applyFilters);
 });
 let searchTimeout;
