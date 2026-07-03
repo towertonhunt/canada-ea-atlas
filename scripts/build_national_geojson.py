@@ -332,6 +332,30 @@ if os.path.exists(nl_path):
         n_nl += 1
 print(f'newfoundland (no coords yet): {n_nl}')
 
+# ── Ontario abandoned mines (AMIS) ───────────────────────────────────
+amis_path = os.path.join(RAW, 'on_amis_parsed.json')
+n_amis = 0
+if os.path.exists(amis_path):
+    for e in json.load(open(amis_path)):
+        add({'type': 'Feature',
+             'geometry': {'type': 'Point', 'coordinates': [e['lon'], e['lat']]},
+             'properties': {
+                 'name': (e.get('name') or f"AMIS {e.get('amis_id')}").title(),
+                 'jurisdiction': 'Ontario (Abandoned Mines)',
+                 'source': 'on_amis', 'category': 'mining',
+                 'status': (e.get('status') or '').title() or None,
+                 'type': e.get('commodity') or 'mining',
+                 'commodity': e.get('commodity'),
+                 'closure_plan': e.get('closure_plan'),
+                 'classification': e.get('classification'),
+                 'municipality': (e.get('township') or '').title() or None,
+                 'registry_url': ('https://www.geologyontario.mines.gov.on.ca/'
+                                  f"persistent-linking?abandoned-mine={e['amis_id']}")
+                                 if e.get('amis_id') else None,
+             }})
+        n_amis += 1
+print(f'ontario abandoned mines: {n_amis}')
+
 # ── Manitoba (Environment Act registry, parsed by agent) ─────────────
 mb_path = os.path.join(RAW, 'mb_ea_parsed.json')
 n_mb = 0
