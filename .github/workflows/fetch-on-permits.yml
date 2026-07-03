@@ -59,56 +59,43 @@ jobs:
           EOF
           ls -la data/raw/onp_* 2>/dev/null | head -20
 
-      - name: Find and fetch active/producing mines datasets
+      - name: Discover OGSEarth KML catalogue and retry NRCan 900A
         continue-on-error: true
         run: |
-          python3 - <<'PYEOF'
-          import json, re, urllib.request, urllib.parse
-
-          def get(url):
-              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-              return urllib.request.urlopen(req, timeout=180).read()
-
-          # NRCan 900A: principal mineral areas + producing mines (national)
-          hits = {}
-          for q in ('producing mines 900A', 'principal mineral areas producing mines'):
-              try:
-                  d = json.loads(get('https://open.canada.ca/data/api/3/action/package_search?rows=10&q=' +
-                                     urllib.parse.quote(q)))
-                  for pkg in d['result']['results']:
-                      hits[pkg['name']] = [{'format': r.get('format'), 'url': r.get('url')}
-                                           for r in pkg.get('resources', [])]
-              except Exception as e:
-                  print('search FAIL', q, e)
-          json.dump(hits, open('data/raw/active_mines_datasets.json', 'w'))
-          print('datasets:', list(hits))
-          # grab first csv/geojson/kml resource we can find
-          got = 0
-          for name, res in hits.items():
-              for r in res:
-                  fmt = (r.get('format') or '').lower()
-                  if fmt in ('csv', 'geojson', 'kml', 'json', 'shp', 'zip') and got < 4:
-                      safe = re.sub(r'[^a-z0-9]+', '_', name)[:30]
-                      dest = f'data/raw/mines900a_{safe}_{got}.{fmt}'
-                      try:
-                          data = get(r['url'])
-                          open(dest, 'wb').write(data)
-                          print('OK', dest, len(data), 'bytes <-', r['url'][:90])
-                          got += 1
-                      except Exception as e:
-                          print('FAIL', r['url'][:90], str(e)[:60])
-          PYEOF
-          # Ontario OGSEarth active mines KML (same family as AMIS)
-          UA="Mozilla/5.0"
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/126.0.0.0"
+          rm -f data/raw/on_active_*.dat
           for u in \
-            "http://www.geologyontario.mndm.gov.on.ca/mines/data/google/MinesActive/KML/Sites/Sites.kmz" \
-            "http://www.geologyontario.mndm.gov.on.ca/mines/data/google/ogsearth2/files/ActiveMines.kml" \
-            "https://www.geologyontario.mndm.gov.on.ca/mines/data/google/mines/Mines.kml" \
+            "https://www.geologyontario.mines.gov.on.ca/ogsearth.html" \
+            "https://www.hub.geologyontario.mines.gov.on.ca/pages/ogsearth" \
+            "https://www.mndm.gov.on.ca/en/mines-and-minerals/applications/ogsearth" \
             ; do
-            fn="data/raw/on_active_$(echo "$u" | md5sum | cut -c1-6).dat"
+            fn="data/raw/ogsearth_$(echo "$u" | md5sum | cut -c1-6).html"
             code=$(curl -sL -o "$fn" -w "%{http_code}" --max-time 60 -A "$UA" "$u" || echo ERR)
             echo "$code $u -> $(wc -c < $fn) bytes"
+            grep -oiE 'href="[^"]*\.km[lz][^"]*"' "$fn" | head -20 || true
           done
+          python3 - <<'PYEOF'
+          import json, time, urllib.request, urllib.parse
+          def get(url, tries=3):
+              for t in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                      return urllib.request.urlopen(req, timeout=120).read()
+                  except Exception as e:
+                      if t == tries - 1:
+                          raise
+                      time.sleep(10)
+          try:
+              d = json.loads(get('https://open.canada.ca/data/api/3/action/package_search?rows=10&q=' +
+                                 urllib.parse.quote('900A producing mines')))
+              hits = {p['name']: [{'format': r.get('format'), 'url': r.get('url')}
+                                  for r in p.get('resources', [])]
+                      for p in d['result']['results']}
+              json.dump(hits, open('data/raw/active_mines_datasets.json', 'w'))
+              print('datasets:', list(hits)[:6])
+          except Exception as e:
+              print('CKAN FAIL', str(e)[:120])
+          PYEOF
 
       - name: Commit
         run: |
