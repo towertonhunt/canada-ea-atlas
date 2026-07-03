@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Abandoned Mines Information System (AMIS)</name>
+	<Snippet maxLines="2"><![CDATA[<b><i>Product Information</b>]]></Snippet>
+				<description><![CDATA[<h1 style="color:#3D84C0;">Abandoned Mines Information System (AMIS) Database</h1>
+<h2 style="color:#3D84C0;">Introduction</h2>
+<p>This database is current to <strong>June 6<sup>th</sup>, 2026</strong></p>
+<p>The Abandoned Mines information system (AMIS) is a database containing information on known abandoned mine sites and mine hazard features located on both Crown and privately held lands within the province of Ontario. This includes sites that are abandoned, may possibly be in production or may be covered by a closure plan. It also includes sites under Mining Act, Aggregate Resources Act and Federal jurisdictions.</p>
+<p>There are currently 6181 known abandoned mine sites under <i>Mining Act</i> jurisdiction scattered throughout the Province, which contain approximately 19,626 mine features.</p>
+<p>The original AMIS database compiled in the late 1980s and early 1990s contained basic information on abandoned mine sites and mine hazard features. The Abandoned Mines Program undertook site inspections to assess more than 5000 abandoned mine sites within the province. These site assessments were carried out in 1993 and in 2000 providing further information on the location, access and feature conditions of all mine hazards found on the site. Abandoned Mines Rehabilitation Program staff maintains and updates the AMIS database.</p>
+<h2 style="color:#3D84C0;">Methods To View Data</h2>
+<p>The <a href=https://www.hub.geologyontario.mines.gov.on.ca>GeologyOntario</a> web page provides access to AMIS database through a quick and effective search engine. Searches can be done by using simple keywords or by using focused searches using Boolean operators. Keywords can include the abandoned mine id, mine name, jurisdiction, and geographic area (township). An overview and description of the search types including Boolean can be found in the <a href=https://www.geologyontario.mndm.gov.on.ca/help.html>Help</a> reference.</p>
+<p>The AMIS database can be downloaded from the <a href=https://www.hub.geologyontario.mines.gov.on.ca>GeologyOntario</a> web page. It is available as a packaged product provided in 2 formats: 1) a tabular spreadsheet (Microsoft® xls) format and 2) a geospatial GIS (ESRI® Geodatabase) format.</p>
+<p>The <a href=https://www.geologyontario.mndm.gov.on.ca/ogsearth.html#abandoned-mines>AMIS</a>  sites and features data found on our <a href=https://www.geologyontario.mndm.gov.on.ca/ogsearth.html>OGSEarth</a> web page can also be viewed in Keyhole Markup Language (KML) format using <a href=https://www.google.com/earth/download/gep/agree.html>Google Earth</a> or other applications compatible with KML. Further database information and metadata is found within the download package.</a>
+<p>AMIS <a href=https://mndm.maps.arcgis.com/apps/dashboards/30331f80b2c64163a4129fe71e2402d0>sites</a> and <a href=https://mndm.maps.arcgis.com/apps/dashboards/577ea5fd9e73444eb9a7abdf4fda8c25>features</a> can also be viewed using ArcGIS online.</p>
+<p><strong>Please be aware of the following regarding the AMIS data:</strong></p>
+<p>The information herein is provided by ENDM free of charge and for information purposes only. All information is provided ?as is? without warranties or conditions of any kind either expressed or implied. In providing the AMIS database information, ENDM and the Government of Ontario accept no liability and make no warranty or any representation regarding the use, accuracy, applicability, completeness, performance, availability, security or reliability of the information, through field measurements or otherwise. It is the sole responsibility of the person choosing to receive and use this information to verify the accuracy of any information obtained from this data package.</p>
+<p>The reader is warned to undertake his or her own independent investigation to validate this information. Reports provided within are not compliant with CSA standards.</p>
+<p>The maps and/or coordinates provided are not intended for navigational, survey, or land title determination purposes. Maps included may not show unregistered land tenure and interests in land including certain patents, leases, easements, rights of way, flooding rights, licences, or other forms of disposition of rights and interest from the Crown. Land tenure and land uses that restrict or prohibit free entry to stake mining claims may not be illustrated.</p>
+<h2 style="color:#3D84C0;">Ministry Contact Information</h2>
+<p>Mine Rehabilitation Group<br>Email: <a class="info" href=mailto:Minerehab@ontario.ca>Mine Rehabilitation Group</a></p>
+<h2>Further Information</h2>
+<p>Further database information and metadata are found within the download package.</p>
+<p>Abandoned Mines ? <a href=https://www.geologyontario.mndm.gov.on.ca/mines/data/abandoned_mines/SOSA_Bulletin.pdf>Stay Out! Stay Alive! Bulletin</a></p>
+<p>We are committed to providing <a href=https://www.ontario.ca/page/accessible-customer-service-policy target="_blank">accessible customer service.</a>
+If you need accessible formats or communications supports, please <a class="info" href=mailto:webmaster.ndm@ontario.ca?Accessibility Issues>contact us</a>.
+</p>
+ ]]></description>
+	<open>1</open>
+	<LookAt>
+		<longitude>-85.17218150000001</longitude>
+				<latitude>48.912601</latitude>
+				<altitude>0</altitude>
+				<range>2000000</range>
+				<tilt>0</tilt>
+		<heading>0</heading>
+	</LookAt>
+	
+	<NetworkLink>
+		<name>Logo</name>
+		
+		<Style>
+			<ListStyle>
+				<listItemType>checkHideChildren</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Url>
+			<href>http://www.geologyontario.mndm.gov.on.ca/mines/data/google/ogsearth2/files/Logo/doc.kml</href>
+		</Url>
+	</NetworkLink>		
+	<NetworkLink>
+		<name>AMIS Sites</name>
+			
+			<visibility>1</visibility>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+				</ListStyle>
+			</Style>
+			<Url>
+				<href>http://www.geologyontario.mndm.gov.on.ca/mines/data/google/AMIS/KML/Sites/Sites2026.kmz</href>
+				<refreshMode>onExpire</refreshMode>
+			</Url>
+	</NetworkLink>
+	
+	<NetworkLink>
+			<name>AMIS Features</name>
+				
+				<visibility>1</visibility>
+				<Style>
+					<ListStyle>
+						<listItemType>checkHideChildren</listItemType>
+						<bgColor>00ffffff</bgColor>
+					</ListStyle>
+				</Style>
+				<Url>
+					<href>http://www.geologyontario.mndm.gov.on.ca/mines/data/google/AMIS/KML/Features/Features2026.kmz</href>
+					<refreshMode>onExpire</refreshMode>
+				</Url>
+	</NetworkLink>
+	</Folder>
+</kml>
+
