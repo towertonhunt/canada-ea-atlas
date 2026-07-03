@@ -1,0 +1,68 @@
+name: Fetch territories and geocoding data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Probe territorial registries (YESAB, MVEIRB, NIRB)
+        continue-on-error: true
+        run: |
+          for u in \
+            "https://yesabregistry.ca/" \
+            "https://registry.mvlwb.ca/" \
+            "https://reviewboard.ca/registry" \
+            "https://www.nirb.ca/project-search" \
+            "https://www.nunavutimpactreviewboard.ca/" \
+            ; do
+            code=$(curl -sL -o /dev/null -w "%{http_code}" --max-time 30 \
+              -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "$u" || echo ERR)
+            echo "$code $u"
+          done
+          curl -sL --max-time 60 -A "Mozilla/5.0" "https://yesabregistry.ca/" -o data/raw/yt_yesab_home.html || true
+          curl -sL --max-time 60 -A "Mozilla/5.0" "https://reviewboard.ca/registry" -o data/raw/nt_mveirb_registry.html || true
+          ls -la data/raw/yt_* data/raw/nt_* 2>/dev/null || true
+
+      - name: Build Canada place-name gazetteer (for geocoding QC/NS/ON)
+        continue-on-error: true
+        run: |
+          curl -sL --retry 3 --max-time 300 "https://download.geonames.org/export/dump/CA.zip" -o /tmp/CA.zip
+          cd /tmp && unzip -o CA.zip
+          python3 - <<'EOF'
+          import csv, json
+          # geonames CA.txt: name(1), asciiname(2), alternatenames(3), lat(4), lon(5),
+          # feature class(6)=P for populated place / A for admin, admin1 code(10)
+          out = {}
+          with open('/tmp/CA.txt', encoding='utf-8') as f:
+              for row in csv.reader(f, delimiter='\t'):
+                  if row[6] not in ('P', 'A'):
+                      continue
+                  name, lat, lon, admin1 = row[1], row[4], row[5], row[10]
+                  key = name.lower()
+                  # keep first (most relevant ordering) per (name, province)
+                  out.setdefault(f'{key}|{admin1}', [float(lat), float(lon)])
+          import os
+          os.makedirs('data/geo', exist_ok=True)
+          json.dump(out, open('data/geo/ca_places.json', 'w'))
+          print('gazetteer entries:', len(out))
+          EOF
+        working-directory: ${{ github.workspace }}
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git add data/raw data/geo
+            git commit -m "Add territorial registry probes and CA gazetteer [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 7
+          done
