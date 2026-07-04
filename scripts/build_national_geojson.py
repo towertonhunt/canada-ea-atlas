@@ -156,6 +156,7 @@ import gzip as _gzip
 listgz = os.path.join(RAW, 'federal_list_all.json.gz')
 fed_seen = set()
 n_fedlist = 0
+fed_docdir = os.path.join(ROOT, 'data', 'docs', 'federal')
 if os.path.exists(listgz):
     for e in json.load(_gzip.open(listgz, 'rt')):
         if e.get('document_type') not in ('project', 'archive-project'):
@@ -186,6 +187,11 @@ if os.path.exists(listgz):
             'description': e.get('description'),
             'registry_url': f'https://iaac-aeic.gc.ca/050/evaluations/proj/{pid}',
         }})
+        dp = os.path.join(fed_docdir, f'{pid}.json')
+        if os.path.exists(dp):
+            props = features[-1]['properties']
+            props['doc_count'] = len(json.load(open(dp))['docs'])
+            props['docs_path'] = f'data/docs/federal/{pid}.json'
         n_fedlist += 1
 print(f'federal (list index): {n_fedlist}')
 
