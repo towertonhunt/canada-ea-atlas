@@ -62,20 +62,23 @@ jobs:
                           raise
                       time.sleep(8)
 
-          import os
+          import os, gzip
           START = time.time()
           BUDGET = 40 * 60  # leave margin before runner eviction
           done_pages = set()
           allr = {}
-          if os.path.exists('data/raw/federal_list_all.json'):
-              for e in json.load(open('data/raw/federal_list_all.json')):
+          if os.path.exists('data/raw/federal_list_all.json.gz'):
+              for e in json.load(gzip.open('data/raw/federal_list_all.json.gz', 'rt')):
                   allr[json.dumps(e, sort_keys=True)] = e
+          if os.path.exists('data/raw/federal_list_all.json'):
+              os.remove('data/raw/federal_list_all.json')
           if os.path.exists('data/raw/federal_progress.json'):
               done_pages = set(json.load(open('data/raw/federal_progress.json')))
           print('resuming with', len(allr), 'entries,', len(done_pages), 'pages done', flush=True)
 
           def checkpoint():
-              json.dump(list(allr.values()), open('data/raw/federal_list_all.json', 'w'))
+              json.dump(list(allr.values()),
+                        gzip.open('data/raw/federal_list_all.json.gz', 'wt', encoding='utf-8'))
               json.dump(sorted(done_pages), open('data/raw/federal_progress.json', 'w'))
 
           d = fetch_page(1)
@@ -90,10 +93,22 @@ jobs:
                 len(results) if isinstance(results, (list, str)) else '')
 
           # Determine page size and extract entries
+          KEEP = ('id', 'name', 'title', 'province', 'state', 'status',
+                  'type', 'lat', 'long', 'proponent', 'number', 'date')
+
+          def slim(e):
+              if not isinstance(e, dict):
+                  return None
+              out = {}
+              for k, v in e.items():
+                  if isinstance(v, (str, int, float)) and any(t in k.lower() for t in KEEP):
+                      out[k] = v[:300] if isinstance(v, str) else v
+              return out or None
+
           def extract(dd):
               r = dd.get('Results')
               if isinstance(r, list):
-                  return r
+                  return [x for x in (slim(e) for e in r) if x]
               if isinstance(r, str):  # HTML fragment: pull /proj/<id> links + titles
                   out = []
                   for m in re.finditer(r'/proj/(\d+)"[^>]*>(.*?)</a>', r, re.S):
