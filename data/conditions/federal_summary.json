@@ -1,17 +1,17 @@
 {
- "docs_used": 3,
- "records": 101,
+ "docs_used": 4,
+ "records": 120,
  "by_discipline": {
-  "other": 27,
-  "indigenous_rights_tluse": 20,
+  "other": 31,
+  "indigenous_rights_tluse": 21,
+  "socio_economic": 18,
   "wetlands": 8,
   "noise_vibration": 7,
-  "socio_economic": 6,
+  "groundwater": 5,
   "wildlife_birds": 5,
-  "archaeology_heritage": 5,
-  "groundwater": 4
+  "air_quality": 5
  },
  "by_archetype": {
-  "other": 101
+  "other": 120
  }
 }
