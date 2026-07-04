@@ -158,7 +158,7 @@ fed_seen = set()
 n_fedlist = 0
 if os.path.exists(listgz):
     for e in json.load(_gzip.open(listgz, 'rt')):
-        if e.get('document_type') != 'project':
+        if e.get('document_type') not in ('project', 'archive-project'):
             continue
         pid = e.get('project_id')
         if not pid or pid in fed_seen:
