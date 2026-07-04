@@ -1,0 +1,57 @@
+{
+ "archetype": "wind",
+ "constraints": [
+  "wetland"
+ ],
+ "disciplines": [
+  "indigenous_rights_tluse",
+  "noise_vibration",
+  "surface_water",
+  "wetlands",
+  "wildlife_birds"
+ ],
+ "strong_precedents": [
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "minimization_design",
+   "plan_required": null,
+   "precedent_projects": 3,
+   "frequency": "3/1 comparable projects",
+   "examples": [
+    "Adelaide Wind Energy Centre",
+    "Amherst Island Wind Farm Project",
+    "Armow Wind Project"
+   ],
+   "sample_condition": "6. Condition C1 is included to provide the minimum performance requirement considered necessary to\nprevent an Adverse Effect resulting from the operation of the Equipment and to ensure that the noise\nemissions from the Equipment will be in compliance with applicable limits set in the Noise Guideline",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6465-8XGLQT-14.pdf"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "other",
+   "plan_required": null,
+   "precedent_projects": 3,
+   "frequency": "3/1 comparable projects",
+   "examples": [
+    "Adelaide Wind Energy Centre",
+    "Amherst Island Wind Farm Project",
+    "Armow Wind Project"
+   ],
+   "sample_condition": "8. Conditions D, E and F are included to require the Company to gather accurate information so that\nthe environmental noise impact and subsequent compliance with the Act, O. Reg. 359/09, the Noise\nGuidelines for Wind Farms and this Approval can be verified.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6465-8XGLQT-14.pdf"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "other",
+   "plan_required": null,
+   "precedent_projects": 2,
+   "frequency": "2/1 comparable projects",
+   "examples": [
+    "Adelaide Wind Energy Centre",
+    "Armow Wind Project"
+   ],
+   "sample_condition": "17. Condition S is included to ensure continued communication between the Company and interested\nAboriginal communities. \n \n \nNOTICE REGARDING HEARINGS  \n \nIn accordance with Section 139 of the Environmental Protection Act , within 15 days after the service\nof this notice, you may by further written",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6465-8XGLQT-14.pdf"
+  }
+ ],
+ "weak_pool_size": 74
+}
