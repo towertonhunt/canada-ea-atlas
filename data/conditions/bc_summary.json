@@ -9,27 +9,7 @@
   "fish_fish_habitat": 126,
   "groundwater": 106,
   "surface_water": 100,
-  "waste_hazmat": 96,
-  "socio_economic": 65,
-  "archaeology_heritage": 65,
-  "air_quality": 48,
-  "soils_terrain": 39,
-  "wetlands": 36,
-  "accidents_malfunctions": 32,
-  "noise_vibration": 14,
-  "closure_postclosure": 11,
-  "human_health": 8,
-  "ghg_climate": 5
- },
- "by_measure": {
-  "other": 1162,
-  "minimization_design": 217,
-  "monitoring_followup": 201,
-  "engagement_commitment": 151,
-  "management_plan": 66,
-  "avoidance_timing": 31,
-  "financial_assurance": 31,
-  "compensation_offsetting": 25
+  "waste_hazmat": 96
  },
  "by_archetype": {
   "mining": 489,

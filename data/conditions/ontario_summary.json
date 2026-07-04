@@ -1,0 +1,19 @@
+{
+ "docs_used": 27,
+ "records": 615,
+ "by_discipline": {
+  "other": 379,
+  "waste_hazmat": 59,
+  "closure_postclosure": 29,
+  "surface_water": 28,
+  "noise_vibration": 23,
+  "wildlife_birds": 22,
+  "air_quality": 22,
+  "groundwater": 11
+ },
+ "by_archetype": {
+  "biogas": 288,
+  "solar": 254,
+  "wind": 73
+ }
+}

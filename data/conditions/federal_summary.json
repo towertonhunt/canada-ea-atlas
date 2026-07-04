@@ -1,0 +1,17 @@
+{
+ "docs_used": 3,
+ "records": 101,
+ "by_discipline": {
+  "other": 27,
+  "indigenous_rights_tluse": 20,
+  "wetlands": 8,
+  "noise_vibration": 7,
+  "socio_economic": 6,
+  "wildlife_birds": 5,
+  "archaeology_heritage": 5,
+  "groundwater": 4
+ },
+ "by_archetype": {
+  "other": 101
+ }
+}
