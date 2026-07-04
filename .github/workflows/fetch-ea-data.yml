@@ -93,16 +93,30 @@ jobs:
                 len(results) if isinstance(results, (list, str)) else '')
 
           # Determine page size and extract entries
-          KEEP = ('id', 'name', 'title', 'province', 'state', 'status',
-                  'type', 'lat', 'long', 'proponent', 'number', 'date')
+          FIELDS = ('indexid', 'document_type', 'project_id', 'project_name_en',
+                    'proponent_en', 'province_en', 'status_en', 'ea_type_en',
+                    'ea_phase_en', 'document_title_en', 'document_category_en',
+                    'relative_path', 'file_name', 'location_en')
 
           def slim(e):
-              if not isinstance(e, dict):
+              d = e.get('Document') if isinstance(e, dict) else None
+              if not isinstance(d, dict):
                   return None
               out = {}
-              for k, v in e.items():
-                  if isinstance(v, (str, int, float)) and any(t in k.lower() for t in KEEP):
+              for k in FIELDS:
+                  v = d.get(k)
+                  if v not in (None, 'None', '', 'N/A'):
                       out[k] = v[:300] if isinstance(v, str) else v
+              pts = d.get('points')
+              if isinstance(pts, list) and pts:
+                  try:
+                      out['lat'] = pts[0]['Latitude']
+                      out['lon'] = pts[0]['Longitude']
+                  except (KeyError, TypeError):
+                      pass
+              desc = d.get('description_en')
+              if isinstance(desc, str) and desc not in ('None', ''):
+                  out['description'] = desc[:300]
               return out or None
 
           def extract(dd):
