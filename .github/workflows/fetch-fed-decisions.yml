@@ -63,20 +63,26 @@ jobs:
                   text = re.sub(r'<script.*?</script>|<style.*?</style>', ' ', page, flags=re.S)
                   text = re.sub(r'<[^>]+>', ' ', text)
                   text = re.sub(r'\s+', ' ', text)
-                  # always prefer the linked PDF when it yields more real text
-                  pdf = re.search(r'href="([^"]+\.pdf[^"]*)"', page, re.I)
-                  if pdf:
-                      pu = pdf.group(1)
+                  # prefer linked file text: try .pdf hrefs, then download-style hrefs
+                  from pypdf import PdfReader
+                  cands = re.findall(r'href="([^"]+\.pdf[^"]*)"', page, re.I)
+                  cands += re.findall(r'href="([^"]*(?:download|documents/)[^"]*)"', page, re.I)
+                  for pu in cands[:4]:
                       if pu.startswith('/'):
                           pu = 'https://iaac-aeic.gc.ca' + pu
+                      if not pu.startswith('http'):
+                          continue
                       try:
-                          from pypdf import PdfReader
-                          ptext = '\n'.join((p.extract_text() or '')
-                                            for p in PdfReader(io.BytesIO(get(pu))).pages)
-                          if len(ptext.strip()) > len(text) * 0.5:
+                          blob = get(pu)
+                          if not blob[:5].startswith(b'%PDF'):
+                              continue
+                          ptext = '\n'.join((pg.extract_text() or '')
+                                            for pg in PdfReader(io.BytesIO(blob)).pages)
+                          if len(ptext.strip()) > max(1000, len(text) * 0.5):
                               text = ptext
-                      except Exception as e:
-                          print('pdf fail', doc_id, str(e)[:50], flush=True)
+                              break
+                      except Exception:
+                          continue
                   if len(text.strip()) < 500:
                       continue
                   buf = io.BytesIO()
