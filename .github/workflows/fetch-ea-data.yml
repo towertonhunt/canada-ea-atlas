@@ -23,7 +23,7 @@ jobs:
         continue-on-error: true
         run: |
           mkdir -p data/raw
-          python3 - <<'EOF'
+          python3 -u - <<'EOF'
           import json, re, time, urllib.request, urllib.parse, http.cookiejar
 
           UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
@@ -62,6 +62,25 @@ jobs:
                           raise
                       time.sleep(8)
 
+          import os, gzip
+          START = time.time()
+          BUDGET = 40 * 60  # leave margin before runner eviction
+          done_pages = set()
+          allr = {}
+          if os.path.exists('data/raw/federal_list_all.json.gz'):
+              for e in json.load(gzip.open('data/raw/federal_list_all.json.gz', 'rt')):
+                  allr[json.dumps(e, sort_keys=True)] = e
+          if os.path.exists('data/raw/federal_list_all.json'):
+              os.remove('data/raw/federal_list_all.json')
+          if os.path.exists('data/raw/federal_progress.json'):
+              done_pages = set(json.load(open('data/raw/federal_progress.json')))
+          print('resuming with', len(allr), 'entries,', len(done_pages), 'pages done', flush=True)
+
+          def checkpoint():
+              json.dump(list(allr.values()),
+                        gzip.open('data/raw/federal_list_all.json.gz', 'wt', encoding='utf-8'))
+              json.dump(sorted(done_pages), open('data/raw/federal_progress.json', 'w'))
+
           d = fetch_page(1)
           print('page1 keys:', list(d.keys()) if isinstance(d, dict) else type(d))
           open('data/raw/federal_listapi_p1.json', 'w').write(json.dumps(d)[:2000000])
@@ -74,10 +93,36 @@ jobs:
                 len(results) if isinstance(results, (list, str)) else '')
 
           # Determine page size and extract entries
+          FIELDS = ('indexid', 'document_type', 'project_id', 'project_name_en',
+                    'proponent_en', 'province_en', 'status_en', 'ea_type_en',
+                    'ea_phase_en', 'document_title_en', 'document_category_en',
+                    'relative_path', 'file_name', 'location_en')
+
+          def slim(e):
+              d = e.get('Document') if isinstance(e, dict) else None
+              if not isinstance(d, dict):
+                  return None
+              out = {}
+              for k in FIELDS:
+                  v = d.get(k)
+                  if v not in (None, 'None', '', 'N/A'):
+                      out[k] = v[:300] if isinstance(v, str) else v
+              pts = d.get('points')
+              if isinstance(pts, list) and pts:
+                  try:
+                      out['lat'] = pts[0]['Latitude']
+                      out['lon'] = pts[0]['Longitude']
+                  except (KeyError, TypeError):
+                      pass
+              desc = d.get('description_en')
+              if isinstance(desc, str) and desc not in ('None', ''):
+                  out['description'] = desc[:300]
+              return out or None
+
           def extract(dd):
               r = dd.get('Results')
               if isinstance(r, list):
-                  return r
+                  return [x for x in (slim(e) for e in r) if x]
               if isinstance(r, str):  # HTML fragment: pull /proj/<id> links + titles
                   out = []
                   for m in re.finditer(r'/proj/(\d+)"[^>]*>(.*?)</a>', r, re.S):
@@ -91,21 +136,32 @@ jobs:
           print('page size:', psize)
           if not psize or not count:
               raise SystemExit(0)
-          allr = {json.dumps(e, sort_keys=True): e for e in first}
+          for e in first:
+              allr[json.dumps(e, sort_keys=True)] = e
+          done_pages.add(1)
           pages = min((int(count) + psize - 1) // psize, 3000)
           for n in range(2, pages + 1):
+              if n in done_pages:
+                  continue
+              if time.time() - START > BUDGET:
+                  print(f'time budget reached at page {n}; checkpointing', flush=True)
+                  break
               try:
                   es = extract(fetch_page(n))
               except Exception as e:
-                  print('page', n, 'FAIL', e)
+                  print('page', n, 'FAIL', e, flush=True)
                   continue
               for e in es:
                   allr[json.dumps(e, sort_keys=True)] = e
+              done_pages.add(n)
               if n % 25 == 0:
-                  print(f'page {n}/{pages}: {len(allr)} entries')
+                  print(f'page {n}/{pages}: {len(allr)} entries', flush=True)
+                  checkpoint()
               time.sleep(0.5)
-          json.dump(list(allr.values()), open('data/raw/federal_list_all.json', 'w'))
-          print('DONE:', len(allr), 'federal entries')
+          checkpoint()
+          remaining = pages - len(done_pages)
+          print('CHECKPOINT:', len(allr), 'entries,', len(done_pages), 'pages done,',
+                remaining, 'remaining', flush=True)
           EOF
 
       - name: Commit data to branch
