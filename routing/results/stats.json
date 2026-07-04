@@ -1,0 +1,27 @@
+{
+ "grid": [
+  1077,
+  490
+ ],
+ "cell_m": 300.0,
+ "routes": [
+  {
+   "route": "V1",
+   "length_km": 322.6,
+   "mean_resistance": 88.2,
+   "cells": 937
+  },
+  {
+   "route": "V2",
+   "length_km": 391.7,
+   "mean_resistance": 125.4,
+   "cells": 1156
+  },
+  {
+   "route": "V3",
+   "length_km": 319.2,
+   "mean_resistance": 214.1,
+   "cells": 942
+  }
+ ]
+}
