@@ -1,13 +1,10 @@
 {
  "archetype": "mining",
  "constraints": [
-  "wetland",
-  "watercourse",
-  "reserve"
+  "wetland"
  ],
  "disciplines": [
   "closure_postclosure",
-  "fish_fish_habitat",
   "groundwater",
   "indigenous_rights_tluse",
   "surface_water",
@@ -76,21 +73,6 @@
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
-   "discipline": "fish_fish_habitat",
-   "measure_type": "other",
-   "plan_required": null,
-   "precedent_projects": 4,
-   "frequency": "4/11 comparable projects",
-   "examples": [
-    "Huckleberry Copper and Gold Mine",
-    "McGillivray Coal",
-    "Tulsequah Chief Mine",
-    "Willow Creek"
-   ],
-   "sample_condition": "6.  Use only settling aids shown to be non-toxic to adults, juveniles and eggs of a representative fish \nspecies, such as rainbow trout, and to representative aquatic invertebrate species, such as Daphnia \nspp. or Chironomus spp., and approved by MELP and DFO;",
-   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
-  },
-  {
    "discipline": "surface_water",
    "measure_type": "other",
    "plan_required": null,
@@ -146,19 +128,6 @@
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
-   "discipline": "fish_fish_habitat",
-   "measure_type": "monitoring_followup",
-   "plan_required": null,
-   "precedent_projects": 2,
-   "frequency": "2/11 comparable projects",
-   "examples": [
-    "Tulsequah Chief Mine",
-    "Willow Creek"
-   ],
-   "sample_condition": "27.  Submit, prior to clearing, construction or surface disturbance, an acceptable background and \nmonitoring program for fish tissue and liver metal levels using sentinel species consistent with that \nproposed by NDM in the December 2, 1997 report;",
-   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
-  },
-  {
    "discipline": "indigenous_rights_tluse",
    "measure_type": "engagement_commitment",
    "plan_required": null,
@@ -172,19 +141,6 @@
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
-   "discipline": "fish_fish_habitat",
-   "measure_type": "minimization_design",
-   "plan_required": null,
-   "precedent_projects": 2,
-   "frequency": "2/11 comparable projects",
-   "examples": [
-    "Huckleberry Copper and Gold Mine",
-    "Tulsequah Chief Mine"
-   ],
-   "sample_condition": "7. Grizzly bears make little use of the coniferous slopes on which most mine facilities are located, but do travel through and \nforage on vegetation in Shazah Slough and on salmon in Chasm Creek. The salmon spawning reach of Chasm Creek closely \nparallels the mine access road, therefore grizzly bear",
-   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b5c6eed3c0016f8564c9/download"
-  },
-  {
    "discipline": "waste_hazmat",
    "measure_type": "management_plan",
    "plan_required": null,
@@ -194,18 +150,6 @@
     "Willow Creek"
    ],
    "sample_condition": "1.  Provide, prior to construction and surface disturbance, a dust mitigation plan acceptable to MEM(1) \nand MELP. This plan should include measures to effectively minimize and control dust to the \nextent practical from tailings, mine roads, coal piles, waste dumps and to ensure that MELP \nAmbient A",
-   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
-  },
-  {
-   "discipline": "fish_fish_habitat",
-   "measure_type": "engagement_commitment",
-   "plan_required": null,
-   "precedent_projects": 1,
-   "frequency": "1/11 comparable projects",
-   "examples": [
-    "Willow Creek"
-   ],
-   "sample_condition": "2.  Implement a no hunting/firearms policy for the mine, plant site and infrastructure satisfactory to the \nRegional Manager, Fish and Wildlife, MELP and District Inspector, MEI in consultation with First \nNations;",
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
@@ -305,5 +249,5 @@
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b5c6eed3c0016f8564c9/download"
   }
  ],
- "weak_pool_size": 482
+ "weak_pool_size": 380
 }

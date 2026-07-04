@@ -1,0 +1,107 @@
+name: Extract federal decision statements (corpus)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/fetch-fed-decisions.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/mac-mini-connection-ceehl5
+
+      - name: Fetch decision-statement pages and extract text
+        continue-on-error: true
+        run: |
+          pip install --quiet pypdf
+          python3 -u - <<'PYEOF'
+          import gzip, io, json, os, re, time, urllib.request
+
+          UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/126.0.0.0'
+
+          def get(url, tries=3):
+              for t in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent': UA})
+                      return urllib.request.urlopen(req, timeout=120).read()
+                  except Exception:
+                      if t == tries - 1:
+                          raise
+                      time.sleep(10)
+
+          d = json.load(gzip.open('data/raw/federal_list_all.json.gz', 'rt'))
+          targets = [x for x in d if x.get('document_type') in ('document', 'archive-document')
+                     and any(k in ((x.get('document_title_en') or '') + ' ' +
+                                   (x.get('document_category_en') or '')).lower()
+                             for k in ('decision statement', 'condition', 'follow-up program'))]
+          print('targets:', len(targets))
+          os.makedirs('data/corpus/federal', exist_ok=True)
+          idx_path = 'data/corpus/federal/index.json'
+          index = json.load(open(idx_path)) if os.path.exists(idx_path) else []
+          done = {e['doc_id'] for e in index}
+          START, BUDGET, ok = time.time(), 38 * 60, 0
+
+          for x in targets:
+              m = re.search(r'DOC-(\d+)', x.get('indexid') or '')
+              if not m or m.group(1) in done:
+                  continue
+              if time.time() - START > BUDGET:
+                  print('budget reached')
+                  break
+              doc_id = m.group(1)
+              url = f'https://iaac-aeic.gc.ca/050/evaluations/document/{doc_id}'
+              try:
+                  page = get(url).decode('utf-8', 'replace')
+                  text = re.sub(r'<script.*?</script>|<style.*?</style>', ' ', page, flags=re.S)
+                  text = re.sub(r'<[^>]+>', ' ', text)
+                  text = re.sub(r'\s+', ' ', text)
+                  if len(text) < 3000:  # thin page: try first linked PDF
+                      pdf = re.search(r'href="([^"]+\.pdf[^"]*)"', page, re.I)
+                      if pdf:
+                          pu = pdf.group(1)
+                          if pu.startswith('/'):
+                              pu = 'https://iaac-aeic.gc.ca' + pu
+                          from pypdf import PdfReader
+                          text = '\n'.join((p.extract_text() or '')
+                                           for p in PdfReader(io.BytesIO(get(pu))).pages)
+                  if len(text.strip()) < 500:
+                      continue
+                  buf = io.BytesIO()
+                  with gzip.GzipFile(fileobj=buf, mode='wb', mtime=0) as gz:
+                      gz.write(text.encode())
+                  open(f'data/corpus/federal/{doc_id}.txt.gz', 'wb').write(buf.getvalue())
+                  index.append({'doc_id': doc_id, 'project_id': x.get('project_id'),
+                                'project': x.get('project_name_en'),
+                                'title': x.get('document_title_en'),
+                                'category': x.get('document_category_en'),
+                                'url': url, 'chars': len(text)})
+                  done.add(doc_id)
+                  ok += 1
+                  if ok % 25 == 0:
+                      print(ok, 'extracted', flush=True)
+                      json.dump(index, open(idx_path, 'w'), ensure_ascii=False)
+              except Exception as e:
+                  print('FAIL', doc_id, str(e)[:80], flush=True)
+              time.sleep(0.4)
+          json.dump(index, open(idx_path, 'w'), ensure_ascii=False)
+          print('DONE:', ok, 'new,', len(index), 'total federal condition docs')
+          PYEOF
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git add data/corpus
+            git commit -m "Add federal decision-statement corpus batch [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 7
+          done

@@ -46,7 +46,9 @@ ARCHETYPE_FLOOR = {
 
 def main():
     archetype = sys.argv[1] if len(sys.argv) > 1 else 'mining'
-    constraints = sys.argv[2:]
+    args = sys.argv[2:]
+    juris = [a.split('=')[1] for a in args if a.startswith('jur=')]
+    constraints = [a for a in args if not a.startswith('jur=')]
 
     disciplines = set(FLOOR) | set(ARCHETYPE_FLOOR.get(archetype, []))
     for c in constraints:
@@ -54,8 +56,14 @@ def main():
     print(f'archetype: {archetype} | constraints: {constraints or "none"}')
     print(f'disciplines fired: {sorted(disciplines)}\n')
 
-    recs = json.load(gzip.open(os.path.join(ROOT, 'data', 'conditions',
-                                            'bc_conditions.json.gz'), 'rt'))
+    import glob
+    recs = []
+    for path in glob.glob(os.path.join(ROOT, 'data', 'conditions', '*_conditions.json.gz')):
+        recs += json.load(gzip.open(path, 'rt'))
+    if juris:
+        recs = [r for r in recs if r.get('jurisdiction') in juris]
+    print(f'precedent pool: {len(recs)} conditions from jurisdictions: '
+          f'{sorted({r.get("jurisdiction") for r in recs})}')
     # candidate pool: same archetype (strong precedent) or same discipline
     # from any archetype (weak precedent)
     strong = [r for r in recs if r['project_archetype'] == archetype
