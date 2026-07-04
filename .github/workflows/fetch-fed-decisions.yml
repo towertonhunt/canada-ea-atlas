@@ -38,9 +38,10 @@ jobs:
 
           d = json.load(gzip.open('data/raw/federal_list_all.json.gz', 'rt'))
           targets = [x for x in d if x.get('document_type') in ('document', 'archive-document')
-                     and any(k in ((x.get('document_title_en') or '') + ' ' +
-                                   (x.get('document_category_en') or '')).lower()
-                             for k in ('decision statement', 'condition', 'follow-up program'))]
+                     and any(k in (x.get('document_title_en') or '').lower()
+                             for k in ('decision statement', 'table of conditions',
+                                       'potential conditions', 'follow-up program',
+                                       'environmental assessment conditions'))]
           print('targets:', len(targets))
           os.makedirs('data/corpus/federal', exist_ok=True)
           idx_path = 'data/corpus/federal/index.json'
