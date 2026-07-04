@@ -1,19 +1,19 @@
 {
- "docs_used": 75,
- "records": 1429,
+ "docs_used": 134,
+ "records": 2319,
  "by_discipline": {
-  "other": 907,
-  "waste_hazmat": 100,
-  "surface_water": 78,
-  "noise_vibration": 72,
-  "closure_postclosure": 55,
-  "air_quality": 42,
-  "groundwater": 36,
-  "wildlife_birds": 35
+  "other": 1477,
+  "waste_hazmat": 193,
+  "noise_vibration": 115,
+  "surface_water": 109,
+  "closure_postclosure": 73,
+  "air_quality": 71,
+  "groundwater": 54,
+  "archaeology_heritage": 54
  },
  "by_archetype": {
-  "solar": 775,
-  "biogas": 413,
-  "wind": 241
+  "solar": 1218,
+  "biogas": 616,
+  "wind": 485
  }
 }
