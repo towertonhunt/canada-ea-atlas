@@ -151,6 +151,44 @@ if os.path.exists(bc_path):
         n_bc += 1
 print(f'bc: {n_bc}')
 
+# ── Federal IAAC (item index via exploration list API) ───────────────
+import gzip as _gzip
+listgz = os.path.join(RAW, 'federal_list_all.json.gz')
+fed_seen = set()
+n_fedlist = 0
+if os.path.exists(listgz):
+    for e in json.load(_gzip.open(listgz, 'rt')):
+        if e.get('document_type') != 'project':
+            continue
+        pid = e.get('project_id')
+        if not pid or pid in fed_seen:
+            continue
+        fed_seen.add(pid)
+        geom = None
+        if 'lat' in e and 'lon' in e:
+            try:
+                lat, lon = float(e['lat']), float(e['lon'])
+                if 40 < lat < 84 and -142 < lon < -50:
+                    geom = {'type': 'Point', 'coordinates': [lon, lat]}
+            except (TypeError, ValueError):
+                pass
+        add({'type': 'Feature', 'geometry': geom, 'properties': {
+            'name': e.get('project_name_en') or f'Federal project {pid}',
+            'jurisdiction': 'Federal (IAAC)',
+            'source': 'federal_iaac',
+            'status': e.get('status_en'),
+            'type': e.get('ea_type_en') or 'other',
+            'ea_type': e.get('ea_type_en'),
+            'ea_phase': e.get('ea_phase_en'),
+            'proponent': e.get('proponent_en'),
+            'province_codes': e.get('province_en'),
+            'location': e.get('location_en'),
+            'description': e.get('description'),
+            'registry_url': f'https://iaac-aeic.gc.ca/050/evaluations/proj/{pid}',
+        }})
+        n_fedlist += 1
+print(f'federal (list index): {n_fedlist}')
+
 # ── Federal IAAC (full inventory via exploration api-map) ────────────
 apimap = os.path.join(RAW, 'federal_apimap.geojson')
 n_fed2 = 0
@@ -163,6 +201,8 @@ if os.path.exists(apimap):
         if geom and geom.get('type') == 'MultiPoint' and geom.get('coordinates'):
             geom = {'type': 'Point', 'coordinates': geom['coordinates'][0]}
         pid = p.get('project_id')
+        if pid and pid in fed_seen:
+            continue  # already added from the richer list index
         props = {
             'name': p.get('project_name_en') or p.get('project_name_fr') or 'Unnamed',
             'jurisdiction': 'Federal (IAAC)',
