@@ -1,0 +1,309 @@
+{
+ "archetype": "mining",
+ "constraints": [
+  "wetland",
+  "watercourse",
+  "reserve"
+ ],
+ "disciplines": [
+  "closure_postclosure",
+  "fish_fish_habitat",
+  "groundwater",
+  "indigenous_rights_tluse",
+  "surface_water",
+  "waste_hazmat",
+  "wetlands"
+ ],
+ "strong_precedents": [
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "other",
+   "plan_required": null,
+   "precedent_projects": 9,
+   "frequency": "9/11 comparable projects",
+   "examples": [
+    "Bodie Waste Dump",
+    "Cougar South/Main Pits and West Spoil Coal",
+    "Elkhorn Quarry Extension",
+    "Huckleberry Copper and Gold Mine"
+   ],
+   "sample_condition": "7. This Certificate does not constitute a permit, licence, approval or any other authority required under \nany other act or regulation including, but not limited to, the Mines Act, S.B.C. 1989, c. 56, the Waste \nManagement Act, S.B.C. 1982, c. 41 and the Water Act, R.S.B.C. 1979, c. 429.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886940deed3c0016f85525f/download"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "other",
+   "plan_required": null,
+   "precedent_projects": 7,
+   "frequency": "7/11 comparable projects",
+   "examples": [
+    "Cougar South/Main Pits and West Spoil Coal",
+    "Huckleberry Copper and Gold Mine",
+    "Line Creek Coal",
+    "McGillivray Coal"
+   ],
+   "sample_condition": "2. Establish an overview of cumulative effects by the project on resources traditionally \nutilized by First Nations within the project area;",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "financial_assurance",
+   "plan_required": null,
+   "precedent_projects": 4,
+   "frequency": "4/11 comparable projects",
+   "examples": [
+    "Bodie Waste Dump",
+    "Cougar South/Main Pits and West Spoil Coal",
+    "McGillivray Coal",
+    "Nazko Lava Quarry Extension"
+   ],
+   "sample_condition": "1. This Certificate may be subject to cancellation, suspension in whole or in part, amendment, or the \nattachment of new conditions, for any of the following reasons:\na) the Project is not, in the reasonable opinion of the Minister, substantially started within \n5 years of the issue date of this Cer",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886940deed3c0016f85525f/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "monitoring_followup",
+   "plan_required": null,
+   "precedent_projects": 4,
+   "frequency": "4/11 comparable projects",
+   "examples": [
+    "McGillivray Coal",
+    "Silvertip Silver/Lead/Zinc Mine",
+    "Tulsequah Chief Mine",
+    "Willow Creek"
+   ],
+   "sample_condition": "1.  Control sediment release from areas disturbed during clearing, construction, operation and post-\nclosure of the mine including, but not limited to, roads, waste dumps, pits and plant site such that \nsite-specific water quality objectives are met at designated monitoring locations;",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "other",
+   "plan_required": null,
+   "precedent_projects": 4,
+   "frequency": "4/11 comparable projects",
+   "examples": [
+    "Huckleberry Copper and Gold Mine",
+    "McGillivray Coal",
+    "Tulsequah Chief Mine",
+    "Willow Creek"
+   ],
+   "sample_condition": "6.  Use only settling aids shown to be non-toxic to adults, juveniles and eggs of a representative fish \nspecies, such as rainbow trout, and to representative aquatic invertebrate species, such as Daphnia \nspp. or Chironomus spp., and approved by MELP and DFO;",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "other",
+   "plan_required": null,
+   "precedent_projects": 3,
+   "frequency": "3/11 comparable projects",
+   "examples": [
+    "Silvertip Silver/Lead/Zinc Mine",
+    "Tulsequah Chief Mine",
+    "Willow Creek"
+   ],
+   "sample_condition": "2.  Minimize erosion of soils by diverting uncontaminated runoff water away from disturbed areas, or \nother sources of contamination, to meet water quality objectives;",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "minimization_design",
+   "plan_required": null,
+   "precedent_projects": 3,
+   "frequency": "3/11 comparable projects",
+   "examples": [
+    "Eskay Creek Mine",
+    "Huckleberry Copper and Gold Mine",
+    "Willow Creek"
+   ],
+   "sample_condition": "17.  If necessary, after further engineering assessment and approval by MELP, include seepage \ncollection ditches in the design of the tailings impoundment and ensure that sufficient area is \nreserved for their construction;",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "other",
+   "plan_required": null,
+   "precedent_projects": 3,
+   "frequency": "3/11 comparable projects",
+   "examples": [
+    "Silvertip Silver/Lead/Zinc Mine",
+    "Tulsequah Chief Mine",
+    "Willow Creek"
+   ],
+   "sample_condition": "35. Provide water balance estimates for tailings impoundment including input from precipitation and run \noff, ground water inputs, and losses due to evaporation and exfiltration.\n5.5 GROUNDWATER\n5.5.1 Background\nShallow groundwater is evident on the property from both artesian drill holes and from t",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "monitoring_followup",
+   "plan_required": null,
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "examples": [
+    "Huckleberry Copper and Gold Mine",
+    "Willow Creek"
+   ],
+   "sample_condition": "15.  Monitor supernatant quality in the tailings pond, and collect and treat if the sampling in the \nreceiving environment indicates that this is necessary;",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "monitoring_followup",
+   "plan_required": null,
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "examples": [
+    "Tulsequah Chief Mine",
+    "Willow Creek"
+   ],
+   "sample_condition": "27.  Submit, prior to clearing, construction or surface disturbance, an acceptable background and \nmonitoring program for fish tissue and liver metal levels using sentinel species consistent with that \nproposed by NDM in the December 2, 1997 report;",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "engagement_commitment",
+   "plan_required": null,
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "examples": [
+    "Tulsequah Chief Mine",
+    "Willow Creek"
+   ],
+   "sample_condition": "2.  Implement a no hunting/firearms policy for the mine, plant site and infrastructure satisfactory to the \nRegional Manager, Fish and Wildlife, MELP and District Inspector, MEM in consultation with \nFirst Nations;",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "minimization_design",
+   "plan_required": null,
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "examples": [
+    "Huckleberry Copper and Gold Mine",
+    "Tulsequah Chief Mine"
+   ],
+   "sample_condition": "7. Grizzly bears make little use of the coniferous slopes on which most mine facilities are located, but do travel through and \nforage on vegetation in Shazah Slough and on salmon in Chasm Creek. The salmon spawning reach of Chasm Creek closely \nparallels the mine access road, therefore grizzly bear",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b5c6eed3c0016f8564c9/download"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "management_plan",
+   "plan_required": null,
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "examples": [
+    "Willow Creek"
+   ],
+   "sample_condition": "1.  Provide, prior to construction and surface disturbance, a dust mitigation plan acceptable to MEM(1) \nand MELP. This plan should include measures to effectively minimize and control dust to the \nextent practical from tailings, mine roads, coal piles, waste dumps and to ensure that MELP \nAmbient A",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "engagement_commitment",
+   "plan_required": null,
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "examples": [
+    "Willow Creek"
+   ],
+   "sample_condition": "2.  Implement a no hunting/firearms policy for the mine, plant site and infrastructure satisfactory to the \nRegional Manager, Fish and Wildlife, MELP and District Inspector, MEI in consultation with First \nNations;",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "management_plan",
+   "plan_required": null,
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "examples": [
+    "Willow Creek"
+   ],
+   "sample_condition": "5.  Develop a wildlife management plan satisfactory to the Regional Manager, Fish and Wildlife, \nMELP in consultation with First Nations.\nFirst Nations:",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "other",
+   "plan_required": null,
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "examples": [
+    "Willow Creek"
+   ],
+   "sample_condition": "3. September 24, 1997: EAO letter to PVC, specifying supplementary information required for the review \nof the Project Report. 12 pages enclosure.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "engagement_commitment",
+   "plan_required": null,
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "examples": [
+    "Willow Creek"
+   ],
+   "sample_condition": "8. November 26, 1997: Conceptual Sediment Control Plan. Submitted by PVC with input from their \nconsultants Piteau Associates.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "minimization_design",
+   "plan_required": null,
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "examples": [
+    "Willow Creek"
+   ],
+   "sample_condition": "24. January 28, 1998: PVC submission to EAO/DFO/MELP/MEI on sediment control design measures, as \ndocumentation from stakeholder meeting in Vancouver on January 19, 1998.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "other",
+   "plan_required": null,
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "examples": [
+    "Elkhorn Quarry Extension"
+   ],
+   "sample_condition": "3. Westroc has been convicted of an offence under the Act.\nDated this _____19th_____ day of _____September_____, 1995.\n______________________________ ______________________________\nHonourable Anne Edwards \nMinister of Energy, Mines and \nPetroleum Resources\nHonourable Moe Sihota \nMinister of Environm",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869454eed3c0016f8552f4/download"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "monitoring_followup",
+   "plan_required": null,
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "examples": [
+    "Tulsequah Chief Mine"
+   ],
+   "sample_condition": "3.  Identify \ncontingency \nmitigation and \nMELP, \nDFO,EC,EPA\nMELP RESOLVED FOR \nMELP/DFO/EC\nThe proponent has \ndeveloped a groundwater \npumping contingency which \nincludes new groundwater \nmonitoring wells and \nadditional baseline work on \nShazah Slough outlined in \nthe EEM proposal as \nproposed in ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b5c6eed3c0016f8564c9/download"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "financial_assurance",
+   "plan_required": null,
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "examples": [
+    "Tulsequah Chief Mine"
+   ],
+   "sample_condition": "1.  A thorough review of research undertaken in ecologically similar areas with respect to grizzly bear seasonal food habits, \nfeeding habitat requirements, security cover requirements and movement patterns, as well as, denning habitat \nrequirements.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b5c6eed3c0016f8564c9/download"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "monitoring_followup",
+   "plan_required": null,
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "examples": [
+    "Tulsequah Chief Mine"
+   ],
+   "sample_condition": "1.  Maintain a co-operative arrangement between Redfern Resources Ltd., the B.C. government, the Taku River Tlingit First Nation, \nand other local residents in the monitoring of grizzly bear populations;",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b5c6eed3c0016f8564c9/download"
+  }
+ ],
+ "weak_pool_size": 482
+}
