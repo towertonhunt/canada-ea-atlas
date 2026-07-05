@@ -84,7 +84,7 @@ jobs:
                               break
                       except Exception:
                           continue
-                  if len(text.strip()) < 8000 and samples_saved < 2:
+                  if samples_saved < 2:
                       open(f'data/raw/iaac_docpage_sample{samples_saved}.html', 'w').write(page)
                       print('saved raw sample for', doc_id, flush=True)
                       samples_saved += 1
@@ -107,6 +107,14 @@ jobs:
               except Exception as e:
                   print('FAIL', doc_id, str(e)[:80], flush=True)
               time.sleep(0.4)
+          # merge with any index committed by concurrent runs
+          try:
+              disk = {e['doc_id']: e for e in json.load(open(idx_path))}
+          except Exception:
+              disk = {}
+          for e in index:
+              disk[e['doc_id']] = e
+          index = list(disk.values())
           json.dump(index, open(idx_path, 'w'), ensure_ascii=False)
           print('DONE:', ok, 'new,', len(index), 'total federal condition docs')
           PYEOF
