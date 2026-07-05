@@ -53,9 +53,14 @@ and merge PRs via GitHub MCP — pattern established PR #1, #2).
    docs/mitigation-taxonomy.md (controlled vocab, split multi-measure,
    deterministic ids). Keep jurisdictions SEPARATE: one conditions file per
    jurisdiction, `jurisdiction` field on every record; predictor must filter.
-2. Baseline engine bug: scripts/baseline_query.py resolves LIO layer URLs but
-   demo returned 0 constraints — check "Spatial baseline engine demo" logs.
-3. Gazetteer (pins for MB/NL/NS/ON-prov): fix fetch-north-geo.
+   IN PROGRESS 2026-07-05: BC done via parallel subagents ->
+   data/conditions/bc_conditions_v2.json.gz (validate enum coverage on load).
+2. Baseline engine: FIXED 2026-07-05 — LIO ignores distance/units params;
+   now buffers client-side with a 4326 envelope. Re-validate via
+   baseline-demo workflow (expect HITs at Adelaide site).
+3. Gazetteer: FIXED 2026-07-05 (cd /tmp bug) — data/geo/ca_places.json
+   committed; build script geocodes MB/NL/NS/ON-prov by municipality field
+   then name n-grams (1,871 pins, flagged geocode=approximate).
 4. Routing v1: add DEM terrain (12% weight), CLUPA/mining claims/railways
    (DCAT title mismatches), finer grid, corridor export; demo overlay page.
 5. Demo UI: map page -> click point + pick archetype -> mitigation register.
