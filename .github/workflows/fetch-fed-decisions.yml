@@ -117,7 +117,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           for i in 1 2 3 4 5; do
             git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
-            git add data/corpus
+            git add data/corpus data/raw
             git commit -m "Add federal decision-statement corpus batch [skip ci]" || echo "nothing to commit"
             git push && break
             sleep 7
