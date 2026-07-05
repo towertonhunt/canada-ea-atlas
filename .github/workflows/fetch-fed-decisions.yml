@@ -48,6 +48,7 @@ jobs:
           index = json.load(open(idx_path)) if os.path.exists(idx_path) else []
           done = {e['doc_id'] for e in index}
           START, BUDGET, ok = time.time(), 38 * 60, 0
+          samples_saved = 0
 
           for x in targets:
               m = re.search(r'DOC-(\d+)', x.get('indexid') or '')
@@ -83,6 +84,10 @@ jobs:
                               break
                       except Exception:
                           continue
+                  if len(text.strip()) < 8000 and samples_saved < 2:
+                      open(f'data/raw/iaac_docpage_sample{samples_saved}.html', 'w').write(page)
+                      print('saved raw sample for', doc_id, flush=True)
+                      samples_saved += 1
                   if len(text.strip()) < 500:
                       continue
                   buf = io.BytesIO()
