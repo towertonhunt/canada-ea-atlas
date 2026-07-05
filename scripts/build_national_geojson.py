@@ -417,5 +417,62 @@ if os.path.exists(mb_path):
         n_mb += 1
 print(f'manitoba (no coords yet): {n_mb}')
 
+# ── Gazetteer geocode pass for sources without coordinates ───────────
+# GeoNames admin1 codes; match municipality field first, then place names
+# embedded in the project name (n-grams, longest first). Conservative on
+# single words to avoid false pins; every geocoded feature is flagged so
+# the UI can render it as approximate.
+GAZ = os.path.join(ROOT, 'data', 'geo', 'ca_places.json')
+ADMIN1 = {
+    'Manitoba (Environment Act)': '03',
+    'Newfoundland & Labrador (ECC)': '05',
+    'Nova Scotia (NSECC)': '07',
+    'Ontario (Provincial EA)': '08',
+    'Quebec (MELCCFP)': '10',
+}
+STOP = {'project', 'projet', 'wind', 'solar', 'farm', 'energy', 'power',
+        'mine', 'mining', 'quarry', 'centre', 'center', 'development',
+        'expansion', 'extension', 'plant', 'facility', 'station', 'system',
+        'road', 'highway', 'bridge', 'trail', 'phase', 'limited', 'company',
+        'waste', 'water', 'sewage', 'treatment', 'landfill', 'lagoon',
+        'transmission', 'pipeline', 'terminal', 'operation', 'operations',
+        'aggregate', 'gravel', 'peat', 'forest', 'forestry', 'hydro',
+        'control', 'management', 'upgrade', 'replacement', 'removal',
+        'construction', 'municipal', 'regional', 'provincial', 'national'}
+if os.path.exists(GAZ):
+    gaz = json.load(open(GAZ))
+    n_geo = 0
+    for f in features:
+        if f.get('geometry') is not None:
+            continue
+        p = f['properties']
+        a1 = ADMIN1.get(p.get('jurisdiction'))
+        if not a1:
+            continue
+        hit = None
+        muni = (p.get('municipality') or '').lower().strip()
+        if muni and f'{muni}|{a1}' in gaz:
+            hit = (gaz[f'{muni}|{a1}'], 'municipality')
+        if not hit:
+            words = [w for w in re.findall(r"[a-zà-ÿ'’-]+",
+                                           (p.get('name') or '').lower())]
+            grams = []
+            for n in (4, 3, 2):
+                grams += [' '.join(words[i:i+n])
+                          for i in range(len(words) - n + 1)]
+            grams += [w for w in words if len(w) >= 6 and w not in STOP]
+            for g in grams:
+                if f'{g}|{a1}' in gaz:
+                    hit = (gaz[f'{g}|{a1}'], f'name:{g}')
+                    break
+        if hit:
+            (lat, lon), how = hit
+            f['geometry'] = {'type': 'Point', 'coordinates': [lon, lat]}
+            p['geocode'] = 'approximate'
+            p['geocode_match'] = how
+            n_geo += 1
+    print(f'gazetteer geocoded: {n_geo}')
+
 json.dump({'type': 'FeatureCollection', 'features': features}, open(OUT, 'w'))
-print(f'TOTAL: {len(features)} -> {OUT}')
+n_geom = sum(1 for f in features if f.get('geometry'))
+print(f'TOTAL: {len(features)} ({n_geom} mappable) -> {OUT}')
