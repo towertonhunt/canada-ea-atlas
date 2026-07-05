@@ -41,9 +41,10 @@ jobs:
         continue-on-error: true
         run: |
           curl -sL --retry 3 --max-time 300 "https://download.geonames.org/export/dump/CA.zip" -o /tmp/CA.zip
-          cd /tmp && unzip -o CA.zip
+          unzip -o /tmp/CA.zip -d /tmp
           python3 - <<'EOF'
           import csv, json
+          csv.field_size_limit(1 << 22)  # alternatenames column exceeds default limit
           # geonames CA.txt: name(1), asciiname(2), alternatenames(3), lat(4), lon(5),
           # feature class(6)=P for populated place / A for admin, admin1 code(10)
           out = {}
