@@ -67,6 +67,7 @@ jobs:
                   # prefer linked file text: try .pdf hrefs, then download-style hrefs
                   from pypdf import PdfReader
                   cands = re.findall(r'href="([^"]+\.pdf[^"]*)"', page, re.I)
+                  cands += re.findall(r'href="([^"]*document-(?:eng|fra)\.cfm\?document=\d+[^"]*)"', page, re.I)
                   cands += re.findall(r'href="([^"]*(?:download|documents/)[^"]*)"', page, re.I)
                   for pu in cands[:4]:
                       if pu.startswith('/'):
