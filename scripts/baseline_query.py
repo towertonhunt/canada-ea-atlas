@@ -66,15 +66,20 @@ def resolve_layer_urls(catalog_path='data/raw/on_geohub_layers.json'):
 
 
 def query_layer(layer_url, lat, lon, buffer_m):
+    # Buffer client-side as an envelope: many LIO MapServer layers silently
+    # ignore the distance/units params, which made every query degenerate to
+    # a point-in-polygon test and return 0 features.
+    import math
+    dlat = buffer_m / 111320.0
+    dlon = buffer_m / (111320.0 * max(0.1, math.cos(math.radians(lat))))
     params = {
         'f': 'json',
-        'geometry': json.dumps({'x': lon, 'y': lat,
+        'geometry': json.dumps({'xmin': lon - dlon, 'ymin': lat - dlat,
+                                'xmax': lon + dlon, 'ymax': lat + dlat,
                                 'spatialReference': {'wkid': 4326}}),
-        'geometryType': 'esriGeometryPoint',
+        'geometryType': 'esriGeometryEnvelope',
         'inSR': 4326,
         'spatialRel': 'esriSpatialRelIntersects',
-        'distance': buffer_m,
-        'units': 'esriSRUnit_Meter',
         'outFields': '*',
         'returnGeometry': 'false',
         'resultRecordCount': 5,
