@@ -362,6 +362,10 @@ function makeIcon(feature, selected) {
   const meta = CATEGORY_META[cat] || CATEGORY_META.other;
   const c = selected ? "#dc2626" : meta.colour;
 
+  // approximate (gazetteer-geocoded) locations render with a dashed ring
+  const approx = feature.properties.geocode === "approximate";
+  const dash = approx ? ' stroke-dasharray="4 3"' : "";
+
   let svgStr;
   if (cat === "wind")        svgStr = SVG_WIND(c, op);
   else if (cat === "solar")  svgStr = SVG_SOLAR(c, op);
@@ -370,8 +374,8 @@ function makeIcon(feature, selected) {
     // generic marker: coloured circle with first letter of category
     const letter = meta.label.charAt(0);
     svgStr = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38" width="38" height="38" style="filter:drop-shadow(0 1px 2px rgba(0,0,0,0.35))">
-      <circle cx="19" cy="19" r="17" fill="white" opacity="${op}" stroke="${c}" stroke-width="2"/>
-      <circle cx="19" cy="19" r="12" fill="${c}" opacity="${op}"/>
+      <circle cx="19" cy="19" r="17" fill="white" opacity="${op}" stroke="${c}" stroke-width="2"${dash}/>
+      <circle cx="19" cy="19" r="12" fill="${c}" opacity="${op * (approx ? 0.8 : 1)}"/>
       <text x="19" y="24" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="white">${letter}</text>
     </svg>`;
   }
@@ -460,6 +464,7 @@ function openSidebar(feature, marker) {
       ${rows.map(([k, v]) => `<div class="meta-item"><label>${k}</label><span>${v}</span></div>`).join("")}
     </div>
     ${p.registry_url ? `<div style="margin-top:10px"><a href="${p.registry_url}" target="_blank" rel="noopener" style="font-size:0.8rem;color:#1a3a5c;font-weight:600">Open registry page ↗</a></div>` : ""}
+    ${p.geocode === "approximate" ? `<p style="margin-top:8px;font-size:0.72rem;color:#a16207">⚠ Approximate location — pinned to the nearest named place (${(p.geocode_match || "").replace("name:", "")}). The registry does not publish coordinates for this project.</p>` : ""}
     ${p.description ? `<p style="margin-top:8px;font-size:0.78rem;color:#555;line-height:1.4">${p.description}</p>` : ""}`;
 
   // Document sections
