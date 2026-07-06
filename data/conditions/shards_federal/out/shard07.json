@@ -476,7 +476,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-3.12",
+  "condition_id": "federal-163208-10.15",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "mitigation",
@@ -484,7 +484,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-3.13",
+  "condition_id": "federal-163208-11.1",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "minimization",
@@ -492,7 +492,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-3.14",
+  "condition_id": "federal-163208-11.2",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "mitigation",
@@ -500,7 +500,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-3.15",
+  "condition_id": "federal-163208-11.3",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water",
@@ -511,7 +511,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-3.16",
+  "condition_id": "federal-163208-12.1",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "waste_hazmat"
@@ -521,7 +521,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-3.17",
+  "condition_id": "federal-163208-12.2",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water",
@@ -532,7 +532,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-3.18",
+  "condition_id": "federal-163208-12.3",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -542,7 +542,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-4.1",
+  "condition_id": "federal-163036-2.1",
   "discipline": "wildlife_birds",
   "discipline_secondary": [],
   "measure_type": "avoidance",
@@ -550,7 +550,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-4.2",
+  "condition_id": "federal-163036-2.2",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "vegetation_ecosystems"
@@ -560,7 +560,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-4.3",
+  "condition_id": "federal-163036-2.1",
   "discipline": "wildlife_birds",
   "discipline_secondary": [],
   "measure_type": "minimization",
@@ -568,7 +568,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-4.4",
+  "condition_id": "federal-163036-2.3",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "noise_vibration"
@@ -578,7 +578,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-4.5",
+  "condition_id": "federal-163036-2.4",
   "discipline": "wildlife_birds",
   "discipline_secondary": [],
   "measure_type": "minimization",
@@ -586,7 +586,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-4.6",
+  "condition_id": "federal-163036-2.5",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "light",
@@ -597,7 +597,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-4.7",
+  "condition_id": "federal-163036-2.6",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "species_at_risk"
@@ -607,7 +607,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-4.8",
+  "condition_id": "federal-163036-2.7",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "species_at_risk",
@@ -618,7 +618,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-4.9",
+  "condition_id": "federal-163036-2.8",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "species_at_risk"
@@ -628,7 +628,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-6.1",
+  "condition_id": "federal-163036-2.9",
   "discipline": "human_health",
   "discipline_secondary": [
    "air_quality",
@@ -640,7 +640,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-7.1",
+  "condition_id": "federal-163036-2.10",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [],
   "measure_type": "management_plan",
@@ -648,7 +648,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-7.2",
+  "condition_id": "federal-163036-2.11",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [],
   "measure_type": "management_plan",
@@ -656,7 +656,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-7.3",
+  "condition_id": "federal-163036-2.12",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [],
   "measure_type": "management_plan",
@@ -664,7 +664,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-8.1",
+  "condition_id": "federal-163036-2.13",
   "discipline": "archaeology_heritage",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -674,7 +674,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-8.2",
+  "condition_id": "federal-163036-2.14",
   "discipline": "archaeology_heritage",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -684,7 +684,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-9.1",
+  "condition_id": "federal-163036-2.15",
   "discipline": "species_at_risk",
   "discipline_secondary": [],
   "measure_type": "avoidance",
@@ -692,7 +692,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-9.2",
+  "condition_id": "federal-163036-2.16",
   "discipline": "species_at_risk",
   "discipline_secondary": [],
   "measure_type": "avoidance",
@@ -700,7 +700,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-9.3",
+  "condition_id": "federal-163036-2.17",
   "discipline": "species_at_risk",
   "discipline_secondary": [],
   "measure_type": "mitigation",
@@ -708,7 +708,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-9.4",
+  "condition_id": "federal-163036-3.1",
   "discipline": "species_at_risk",
   "discipline_secondary": [],
   "measure_type": "mitigation",
@@ -716,7 +716,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-10.1",
+  "condition_id": "federal-163036-3.2",
   "discipline": "accidents_malfunctions",
   "discipline_secondary": [],
   "measure_type": "mitigation",
@@ -724,7 +724,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-10.2",
+  "condition_id": "federal-163036-4.1",
   "discipline": "accidents_malfunctions",
   "discipline_secondary": [],
   "measure_type": "engagement",
@@ -732,7 +732,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-10.3",
+  "condition_id": "federal-163036-4.2",
   "discipline": "accidents_malfunctions",
   "discipline_secondary": [
    "fish_fish_habitat",
@@ -743,7 +743,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-10.4",
+  "condition_id": "federal-163036-2.1",
   "discipline": "accidents_malfunctions",
   "discipline_secondary": [],
   "measure_type": "management_plan",
@@ -751,7 +751,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-10.5",
+  "condition_id": "federal-163036-2.2",
   "discipline": "accidents_malfunctions",
   "discipline_secondary": [],
   "measure_type": "mitigation",
@@ -759,7 +759,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-10.6",
+  "condition_id": "federal-163036-4.3",
   "discipline": "accidents_malfunctions",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -769,7 +769,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-11.1",
+  "condition_id": "federal-163036-4.4",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -777,7 +777,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-11.2",
+  "condition_id": "federal-163036-4.5",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -785,7 +785,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-11.3",
+  "condition_id": "federal-163036-4.6",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -793,7 +793,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-12.1",
+  "condition_id": "federal-163036-4.7",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -801,7 +801,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-12.2",
+  "condition_id": "federal-163036-4.8",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -809,7 +809,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158290-12.3",
+  "condition_id": "federal-163036-4.9",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -817,7 +817,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.1",
+  "condition_id": "federal-163036-4.10",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -825,7 +825,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.2",
+  "condition_id": "federal-163036-4.11",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -833,7 +833,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.3",
+  "condition_id": "federal-163036-4.12",
   "discipline": "other",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -843,7 +843,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.4",
+  "condition_id": "federal-163036-4.13",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -851,7 +851,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.5",
+  "condition_id": "federal-163036-4.14",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -859,7 +859,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.6",
+  "condition_id": "federal-163036-4.15",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -867,7 +867,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.7",
+  "condition_id": "federal-163036-4.16",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -875,7 +875,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.8",
+  "condition_id": "federal-163036-4.17",
   "discipline": "other",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -885,7 +885,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.9",
+  "condition_id": "federal-163036-17.1",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -893,7 +893,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.10",
+  "condition_id": "federal-163036-4.18",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -901,7 +901,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.11",
+  "condition_id": "federal-163036-4.19",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -909,7 +909,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.12",
+  "condition_id": "federal-163036-4.20",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -917,7 +917,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.13",
+  "condition_id": "federal-163036-20.1",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -925,7 +925,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.14",
+  "condition_id": "federal-163036-4.21",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -933,7 +933,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-2.15",
+  "condition_id": "federal-163036-5.1",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -941,7 +941,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.1",
+  "condition_id": "federal-163036-5.2",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -951,7 +951,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.2",
+  "condition_id": "federal-163036-5.3",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -961,7 +961,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.3",
+  "condition_id": "federal-163036-5.4",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -971,7 +971,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.4",
+  "condition_id": "federal-163036-5.5",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -981,7 +981,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.5",
+  "condition_id": "federal-163036-5.6",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -991,7 +991,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.6",
+  "condition_id": "federal-163036-5.7",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -1001,7 +1001,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.7",
+  "condition_id": "federal-163036-5.8",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "groundwater"
@@ -1011,7 +1011,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.8",
+  "condition_id": "federal-163036-5.9",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -1021,7 +1021,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.9",
+  "condition_id": "federal-163036-5.10",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -1031,7 +1031,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.10",
+  "condition_id": "federal-163036-5.11",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "mitigation",
@@ -1039,7 +1039,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.11",
+  "condition_id": "federal-163036-5.12",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "avoidance",
@@ -1047,7 +1047,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.12",
+  "condition_id": "federal-163036-5.13",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "minimization",
@@ -1055,7 +1055,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.13",
+  "condition_id": "federal-163036-6.1",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "minimization",
@@ -1063,7 +1063,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.14",
+  "condition_id": "federal-163036-1.1",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "compensation_offset",
@@ -1071,7 +1071,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.15",
+  "condition_id": "federal-163036-6.2",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "mitigation",
@@ -1079,7 +1079,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.16",
+  "condition_id": "federal-163036-6.3",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -1087,7 +1087,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.17",
+  "condition_id": "federal-163036-6.4",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -1095,7 +1095,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.18",
+  "condition_id": "federal-163036-6.5",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -1105,7 +1105,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-3.19",
+  "condition_id": "federal-163036-6.6",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "groundwater"
@@ -1115,7 +1115,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-4.1",
+  "condition_id": "federal-163036-6.7",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "species_at_risk"
@@ -1125,7 +1125,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-4.2",
+  "condition_id": "federal-163036-6.8",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "light"
@@ -1135,7 +1135,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-4.3",
+  "condition_id": "federal-163036-6.9",
   "discipline": "closure_postclosure",
   "discipline_secondary": [
    "vegetation_ecosystems",
@@ -1146,7 +1146,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-4.4",
+  "condition_id": "federal-163036-6.10",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "surface_water"
@@ -1156,7 +1156,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-4.5",
+  "condition_id": "federal-163036-7.1",
   "discipline": "wildlife_birds",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -1164,7 +1164,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-5.1",
+  "condition_id": "federal-163036-7.2",
   "discipline": "air_quality",
   "discipline_secondary": [
    "human_health"
@@ -1174,7 +1174,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-5.2",
+  "condition_id": "federal-163036-7.3",
   "discipline": "air_quality",
   "discipline_secondary": [
    "human_health"
@@ -1184,7 +1184,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-5.3",
+  "condition_id": "federal-163036-7.4",
   "discipline": "human_health",
   "discipline_secondary": [
    "air_quality"
@@ -1194,7 +1194,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-5.4",
+  "condition_id": "federal-163036-4.1",
   "discipline": "human_health",
   "discipline_secondary": [
    "surface_water",
@@ -1205,7 +1205,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-6.1",
+  "condition_id": "federal-163036-7.5",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [],
   "measure_type": "management_plan",
@@ -1213,7 +1213,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-6.2",
+  "condition_id": "federal-163036-7.6",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [],
   "measure_type": "management_plan",
@@ -1221,7 +1221,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-6.3",
+  "condition_id": "federal-163036-7.7",
   "discipline": "archaeology_heritage",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -1231,7 +1231,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-6.4",
+  "condition_id": "federal-163036-7.8",
   "discipline": "vegetation_ecosystems",
   "discipline_secondary": [
    "closure_postclosure",
@@ -1242,7 +1242,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-6.5",
+  "condition_id": "federal-163036-7.9",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -1252,7 +1252,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-6.6",
+  "condition_id": "federal-163036-7.10",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -1260,7 +1260,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-7.1",
+  "condition_id": "federal-163036-7.11",
   "discipline": "wetlands",
   "discipline_secondary": [],
   "measure_type": "compensation_offset",
@@ -1268,7 +1268,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-7.2",
+  "condition_id": "federal-163036-7.12",
   "discipline": "wetlands",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -1276,7 +1276,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-7.3",
+  "condition_id": "federal-163036-8.1",
   "discipline": "species_at_risk",
   "discipline_secondary": [
    "wetlands"
@@ -1286,7 +1286,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-8.1",
+  "condition_id": "federal-163036-8.2",
   "discipline": "accidents_malfunctions",
   "discipline_secondary": [],
   "measure_type": "mitigation",
@@ -1294,7 +1294,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-8.2",
+  "condition_id": "federal-163036-8.3",
   "discipline": "accidents_malfunctions",
   "discipline_secondary": [],
   "measure_type": "engagement",
@@ -1302,7 +1302,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-8.3",
+  "condition_id": "federal-163036-8.4",
   "discipline": "accidents_malfunctions",
   "discipline_secondary": [],
   "measure_type": "management_plan",
@@ -1310,7 +1310,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-8.4",
+  "condition_id": "federal-163036-8.5",
   "discipline": "accidents_malfunctions",
   "discipline_secondary": [],
   "measure_type": "mitigation",
@@ -1318,7 +1318,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-8.5",
+  "condition_id": "federal-163036-8.6",
   "discipline": "accidents_malfunctions",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -1328,7 +1328,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-9.1",
+  "condition_id": "federal-163036-8.7",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1336,7 +1336,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-9.2",
+  "condition_id": "federal-163036-8.8",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1344,7 +1344,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-9.3",
+  "condition_id": "federal-163036-8.9",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1352,7 +1352,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-9.4",
+  "condition_id": "federal-163036-8.10",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1360,7 +1360,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-9.5",
+  "condition_id": "federal-163036-8.11",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1368,7 +1368,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-10.1",
+  "condition_id": "federal-163036-8.12",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1376,7 +1376,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-10.2",
+  "condition_id": "federal-163036-8.13",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1384,7 +1384,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158274-10.3",
+  "condition_id": "federal-163036-8.14",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1392,7 +1392,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.1",
+  "condition_id": "federal-163036-8.15",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1400,7 +1400,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.2",
+  "condition_id": "federal-163036-8.16",
   "discipline": "species_at_risk",
   "discipline_secondary": [],
   "measure_type": "mitigation",
@@ -1408,7 +1408,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.3",
+  "condition_id": "federal-163036-8.17",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1416,7 +1416,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.4",
+  "condition_id": "federal-163036-8.18",
   "discipline": "other",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -1426,7 +1426,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.5",
+  "condition_id": "federal-163036-8.19",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -1434,7 +1434,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.6",
+  "condition_id": "federal-163036-8.20",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -1442,7 +1442,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.7",
+  "condition_id": "federal-163036-8.21",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -1450,7 +1450,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.8",
+  "condition_id": "federal-163036-8.22",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -1458,7 +1458,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.9",
+  "condition_id": "federal-163036-8.23",
   "discipline": "other",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -1468,7 +1468,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.10",
+  "condition_id": "federal-163036-8.24",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1476,7 +1476,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.11",
+  "condition_id": "federal-163036-24.1",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1484,7 +1484,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.12",
+  "condition_id": "federal-163036-8.25",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1492,7 +1492,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.13",
+  "condition_id": "federal-163036-8.26",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1500,7 +1500,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.14",
+  "condition_id": "federal-163036-8.27",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1508,7 +1508,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.15",
+  "condition_id": "federal-163036-8.28",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1516,7 +1516,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.16",
+  "condition_id": "federal-163036-8.29",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1524,7 +1524,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-2.17",
+  "condition_id": "federal-163036-8.30",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",
@@ -1532,7 +1532,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.1",
+  "condition_id": "federal-163036-8.31",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "compensation_offset",
@@ -1540,7 +1540,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.2",
+  "condition_id": "federal-163036-8.32",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "mitigation",
@@ -1548,7 +1548,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.3",
+  "condition_id": "federal-163036-8.33",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -1558,7 +1558,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.4",
+  "condition_id": "federal-163036-9.1",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water",
@@ -1569,7 +1569,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.5",
+  "condition_id": "federal-163036-9.2",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "groundwater",
@@ -1580,7 +1580,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.6",
+  "condition_id": "federal-163036-9.3",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "vegetation_ecosystems"
@@ -1590,7 +1590,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.7",
+  "condition_id": "federal-163036-10.1",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "avoidance",
@@ -1598,7 +1598,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.8",
+  "condition_id": "federal-163036-11.1",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "minimization",
@@ -1606,7 +1606,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.9",
+  "condition_id": "federal-163036-11.2",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water",
@@ -1617,7 +1617,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.10",
+  "condition_id": "federal-163036-11.3",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "soils_terrain",
@@ -1628,7 +1628,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.11",
+  "condition_id": "federal-163036-11.4",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "avoidance",
@@ -1636,7 +1636,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.12",
+  "condition_id": "federal-163036-11.5",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "minimization",
@@ -1644,7 +1644,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.13",
+  "condition_id": "federal-163036-11.6",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -1654,7 +1654,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.14",
+  "condition_id": "federal-163036-6.1",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "minimization",
@@ -1662,7 +1662,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.15",
+  "condition_id": "federal-163036-11.7",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [],
   "measure_type": "mitigation",
@@ -1670,7 +1670,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.16",
+  "condition_id": "federal-163036-11.8",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "waste_hazmat"
@@ -1680,7 +1680,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.17",
+  "condition_id": "federal-163036-11.9",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -1690,7 +1690,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.18",
+  "condition_id": "federal-163036-11.10",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "groundwater"
@@ -1700,7 +1700,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.19",
+  "condition_id": "federal-163036-11.11",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -1710,7 +1710,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.20",
+  "condition_id": "federal-163036-12.1",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water",
@@ -1721,7 +1721,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-3.21",
+  "condition_id": "federal-163036-13.1",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "surface_water"
@@ -1731,7 +1731,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-4.1",
+  "condition_id": "federal-163036-13.2",
   "discipline": "wildlife_birds",
   "discipline_secondary": [],
   "measure_type": "avoidance",
@@ -1739,7 +1739,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-4.2",
+  "condition_id": "federal-163036-13.3",
   "discipline": "wildlife_birds",
   "discipline_secondary": [],
   "measure_type": "avoidance",
@@ -1747,7 +1747,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-4.3",
+  "condition_id": "federal-163036-13.4",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "vegetation_ecosystems"
@@ -1757,7 +1757,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-4.4",
+  "condition_id": "federal-163036-14.1",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "light",
@@ -1768,7 +1768,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-4.5",
+  "condition_id": "federal-163036-14.2",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "species_at_risk"
@@ -1778,7 +1778,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-4.6",
+  "condition_id": "federal-163036-14.3",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "species_at_risk"
@@ -1788,7 +1788,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-4.7",
+  "condition_id": "federal-163036-14.4",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "species_at_risk"
@@ -1798,7 +1798,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-4.8",
+  "condition_id": "federal-163036-14.5",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "species_at_risk"
@@ -1808,7 +1808,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-5.1",
+  "condition_id": "federal-163036-14.6",
   "discipline": "species_at_risk",
   "discipline_secondary": [],
   "measure_type": "management_plan",
@@ -1816,7 +1816,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-5.2",
+  "condition_id": "federal-163036-15.1",
   "discipline": "species_at_risk",
   "discipline_secondary": [
    "waste_hazmat"
@@ -1826,7 +1826,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-5.3",
+  "condition_id": "federal-163036-15.2",
   "discipline": "species_at_risk",
   "discipline_secondary": [
    "waste_hazmat"
@@ -1836,7 +1836,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-5.4",
+  "condition_id": "federal-163036-15.3",
   "discipline": "species_at_risk",
   "discipline_secondary": [],
   "measure_type": "mitigation",
@@ -1844,7 +1844,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-5.5",
+  "condition_id": "federal-163036-15.4",
   "discipline": "species_at_risk",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -1854,7 +1854,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-5.6",
+  "condition_id": "federal-163036-16.1",
   "discipline": "species_at_risk",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -1862,7 +1862,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-5.7",
+  "condition_id": "federal-163036-16.2",
   "discipline": "species_at_risk",
   "discipline_secondary": [],
   "measure_type": "monitoring_followup",
@@ -1870,7 +1870,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-6.1",
+  "condition_id": "federal-163036-16.3",
   "discipline": "wetlands",
   "discipline_secondary": [],
   "measure_type": "avoidance",
@@ -1878,7 +1878,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-6.2",
+  "condition_id": "federal-155607-2.1",
   "discipline": "wetlands",
   "discipline_secondary": [],
   "measure_type": "compensation_offset",
@@ -1886,7 +1886,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-6.3",
+  "condition_id": "federal-155607-2.2",
   "discipline": "wetlands",
   "discipline_secondary": [],
   "measure_type": "minimization",
@@ -1894,7 +1894,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-6.4",
+  "condition_id": "federal-155607-2.3",
   "discipline": "vegetation_ecosystems",
   "discipline_secondary": [
    "wetlands"
@@ -1904,7 +1904,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-6.5",
+  "condition_id": "federal-155607-2.4",
   "discipline": "wetlands",
   "discipline_secondary": [
    "vegetation_ecosystems"
@@ -1914,7 +1914,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.1",
+  "condition_id": "federal-155607-2.5",
   "discipline": "air_quality",
   "discipline_secondary": [
    "human_health"
@@ -1924,7 +1924,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.2",
+  "condition_id": "federal-155607-2.6",
   "discipline": "air_quality",
   "discipline_secondary": [
    "human_health"
@@ -1934,7 +1934,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.3",
+  "condition_id": "federal-155607-2.7",
   "discipline": "air_quality",
   "discipline_secondary": [
    "human_health"
@@ -1944,7 +1944,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.4",
+  "condition_id": "federal-155607-2.8",
   "discipline": "air_quality",
   "discipline_secondary": [
    "human_health"
@@ -1954,7 +1954,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.5",
+  "condition_id": "federal-155607-2.9",
   "discipline": "air_quality",
   "discipline_secondary": [
    "human_health",
@@ -1965,7 +1965,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.6",
+  "condition_id": "federal-155607-2.10",
   "discipline": "air_quality",
   "discipline_secondary": [
    "human_health"
@@ -1975,7 +1975,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.7",
+  "condition_id": "federal-155607-2.11",
   "discipline": "air_quality",
   "discipline_secondary": [
    "noise_vibration",
@@ -1986,7 +1986,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.8",
+  "condition_id": "federal-155607-2.12",
   "discipline": "waste_hazmat",
   "discipline_secondary": [
    "vegetation_ecosystems"
@@ -1996,7 +1996,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.9",
+  "condition_id": "federal-155607-2.13",
   "discipline": "noise_vibration",
   "discipline_secondary": [
    "human_health"
@@ -2006,7 +2006,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.10",
+  "condition_id": "federal-155607-2.14",
   "discipline": "noise_vibration",
   "discipline_secondary": [
    "human_health",
@@ -2017,7 +2017,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.11",
+  "condition_id": "federal-155607-2.15",
   "discipline": "noise_vibration",
   "discipline_secondary": [
    "human_health"
@@ -2027,7 +2027,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.12",
+  "condition_id": "federal-155607-2.16",
   "discipline": "noise_vibration",
   "discipline_secondary": [
    "human_health"
@@ -2037,7 +2037,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.13",
+  "condition_id": "federal-155607-2.17",
   "discipline": "human_health",
   "discipline_secondary": [
    "air_quality"
@@ -2047,7 +2047,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.14",
+  "condition_id": "federal-155607-3.1",
   "discipline": "human_health",
   "discipline_secondary": [
    "noise_vibration"
@@ -2057,7 +2057,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.15",
+  "condition_id": "federal-155607-3.2",
   "discipline": "human_health",
   "discipline_secondary": [
    "groundwater"
@@ -2067,7 +2067,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.16",
+  "condition_id": "federal-155607-3.3",
   "discipline": "human_health",
   "discipline_secondary": [
    "vegetation_ecosystems",
@@ -2078,7 +2078,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-7.17",
+  "condition_id": "federal-155607-3.4",
   "discipline": "air_quality",
   "discipline_secondary": [
    "climate_ghg",
@@ -2089,7 +2089,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.1",
+  "condition_id": "federal-155607-3.5",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [
    "human_health"
@@ -2099,7 +2099,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.2",
+  "condition_id": "federal-155607-3.6",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [],
   "measure_type": "engagement",
@@ -2107,7 +2107,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.3",
+  "condition_id": "federal-155607-3.7",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [
    "noise_vibration",
@@ -2118,7 +2118,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.4",
+  "condition_id": "federal-155607-3.8",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [
    "noise_vibration"
@@ -2128,7 +2128,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.5",
+  "condition_id": "federal-155607-3.9",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [],
   "measure_type": "avoidance",
@@ -2136,7 +2136,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.6",
+  "condition_id": "federal-155607-3.10",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [
    "socio_economic"
@@ -2146,7 +2146,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.7",
+  "condition_id": "federal-155607-3.11",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [
    "human_health"
@@ -2156,7 +2156,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.8",
+  "condition_id": "federal-155607-3.12",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [
    "accidents_malfunctions",
@@ -2167,7 +2167,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.9",
+  "condition_id": "federal-155607-3.13",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [
    "socio_economic"
@@ -2177,7 +2177,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.10",
+  "condition_id": "federal-155607-3.14",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [],
   "measure_type": "avoidance",
@@ -2185,7 +2185,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.11",
+  "condition_id": "federal-155607-3.15",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [],
   "measure_type": "management_plan",
@@ -2193,7 +2193,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.12",
+  "condition_id": "federal-155607-3.16",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [
    "socio_economic"
@@ -2203,7 +2203,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.13",
+  "condition_id": "federal-155607-3.17",
   "discipline": "fish_fish_habitat",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -2213,7 +2213,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.14",
+  "condition_id": "federal-155607-3.18",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "surface_water",
@@ -2224,7 +2224,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.15",
+  "condition_id": "federal-155607-4.1",
   "discipline": "wildlife_birds",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -2234,7 +2234,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.16",
+  "condition_id": "federal-155607-4.2",
   "discipline": "closure_postclosure",
   "discipline_secondary": [
    "vegetation_ecosystems",
@@ -2246,7 +2246,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.17",
+  "condition_id": "federal-155607-4.3",
   "discipline": "indigenous_rights_tluse",
   "discipline_secondary": [
    "cumulative_effects"
@@ -2256,7 +2256,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-8.18",
+  "condition_id": "federal-155607-4.4",
   "discipline": "closure_postclosure",
   "discipline_secondary": [
    "vegetation_ecosystems"
@@ -2266,7 +2266,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-10.1",
+  "condition_id": "federal-155607-4.5",
   "discipline": "archaeology_heritage",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -2276,7 +2276,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-10.2",
+  "condition_id": "federal-155607-4.6",
   "discipline": "archaeology_heritage",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -2286,7 +2286,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-10.3",
+  "condition_id": "federal-155607-4.7",
   "discipline": "archaeology_heritage",
   "discipline_secondary": [
    "indigenous_rights_tluse"
@@ -2296,7 +2296,7 @@
   "discard": false
  },
  {
-  "condition_id": "federal-158271-11.1",
+  "condition_id": "federal-155607-4.8",
   "discipline": "other",
   "discipline_secondary": [],
   "measure_type": "other",

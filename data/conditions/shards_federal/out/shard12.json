@@ -1,0 +1,448 @@
+[
+ {
+  "condition_id": "federal-151893-6.3",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-6.4",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-6.5",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-6.6",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.7",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [
+   "socio_economic"
+  ],
+  "measure_type": "management_plan",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-7.1",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-7.2",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-7.3",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.8",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "avoidance",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.9",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [
+   "socio_economic"
+  ],
+  "measure_type": "management_plan",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.10",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-10.1",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-10.2",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-10.3",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-10.4",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.11",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-11.1",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-11.2",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "avoidance",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-11.3",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-11.4",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-11.5",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.12",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.13",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-13.1",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "minimization",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-13.2",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "minimization",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-2.1",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "minimization",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-2.2",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "minimization",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-13.3",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-13.4",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-13.5",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.14",
+  "discipline": "climate_ghg",
+  "discipline_secondary": [
+   "air_quality"
+  ],
+  "measure_type": "other",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-14.1",
+  "discipline": "climate_ghg",
+  "discipline_secondary": [
+   "air_quality"
+  ],
+  "measure_type": "other",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-14.2",
+  "discipline": "climate_ghg",
+  "discipline_secondary": [
+   "air_quality"
+  ],
+  "measure_type": "other",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.15",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "other",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.16",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "management_plan",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-16.1",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-16.2",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-16.3",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "monitoring_followup",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-16.4",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "other",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.17",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "management_plan",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-17.1",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "other",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.18",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "management_plan",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.19",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "noise_vibration"
+  ],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.20",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "climate_ghg"
+  ],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-20.1",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.21",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-21.1",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-21.2",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-21.3",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-21.4",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "all_phases",
+  "discard": false
+ }
+]
