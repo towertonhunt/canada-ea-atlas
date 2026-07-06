@@ -29,7 +29,11 @@ LAYERS = [
 
 def http_json(url):
     req = urllib.request.Request(url, headers={'User-Agent': UA})
-    return json.loads(urllib.request.urlopen(req, timeout=90).read())
+    body = urllib.request.urlopen(req, timeout=90).read()
+    try:
+        return json.loads(body)
+    except json.JSONDecodeError:
+        raise RuntimeError(f'non-JSON response: {body[:150]!r}')
 
 
 def resolve_layer_urls(catalog_path='data/raw/on_geohub_layers.json'):
@@ -74,9 +78,9 @@ def query_layer(layer_url, lat, lon, buffer_m):
     dlon = buffer_m / (111320.0 * max(0.1, math.cos(math.radians(lat))))
     params = {
         'f': 'json',
-        'geometry': json.dumps({'xmin': lon - dlon, 'ymin': lat - dlat,
-                                'xmax': lon + dlon, 'ymax': lat + dlat,
-                                'spatialReference': {'wkid': 4326}}),
+        # simple comma syntax — the JSON-object form drew HTML error pages
+        # from the LIO servers
+        'geometry': f'{lon - dlon},{lat - dlat},{lon + dlon},{lat + dlat}',
         'geometryType': 'esriGeometryEnvelope',
         'inSR': 4326,
         'spatialRel': 'esriSpatialRelIntersects',
