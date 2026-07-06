@@ -53,15 +53,18 @@ and merge PRs via GitHub MCP — pattern established PR #1, #2).
    (741 real measures kept of 1,884 v1 records; 1,242 were OCR/boilerplate
    noise — v1 was inflated. discipline 'other' 35% -> 18.8%; 0 enum
    violations; multi-measure splits use -a/-b ids). Merge tool:
-   scripts/merge_reclassified_conditions.py. FEDERAL IN PROGRESS 2026-07-06:
-   scripts/extract_federal_conditions.py parses numbered conditions from
-   decision statements (8,272 conditions from 110/126 corpus docs; section
-   titles pre-seed disciplines, definitions dropped) ->
-   data/conditions/federal_conditions_extracted.json.gz. LM shard
-   classification underway: 34 shards of 250 in
-   data/conditions/shards_federal/in/, agent outputs to out/ (wave 1 =
-   shards 00-05 launched). When all done: adapt merge_reclassified_conditions
-   paths -> federal_conditions_v2.json.gz.
+   scripts/merge_reclassified_conditions.py. FEDERAL DONE 2026-07-06 ->
+   federal_conditions_v2.json.gz: 4,946 clean conditions from 110 decision
+   statements (8,272 extracted; 216 non-obligation discards; 3,110 dupes
+   from repeated/annual-report text removed by (project_id, normalized
+   text) dedup). Pipeline: scripts/extract_federal_conditions.py ->
+   34 shards in data/conditions/shards_federal/ -> LM agents classify
+   (prompts carry hint-override rules: health-section dust/noise ->
+   air_quality/noise_vibration, SAR species list, ARD/tailings ->
+   waste_hazmat, etc.) -> scripts/merge_federal_conditions.py (positional
+   join; condition_ids repeat in source, never join on them). NEXT:
+   Ontario REA conditions same pass (ontario_conditions.json.gz is v1),
+   then wire both v2 sets into scripts/mitigation_predict.py.
 2. Baseline engine: VALIDATED 2026-07-06 — Adelaide demo returns 4
    constraint HITs (wetland, waterbody, watercourse, aggregate). Root
    causes were (a) LIO ignoring distance/units -> client-side envelope;
