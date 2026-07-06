@@ -1,0 +1,200 @@
+[
+ {
+  "condition_id": "federal-104036-6.6",
+  "discipline": "vegetation_ecosystems",
+  "discipline_secondary": [
+   "indigenous_rights_tluse"
+  ],
+  "measure_type": "mitigation",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-6.7",
+  "discipline": "closure_postclosure",
+  "discipline_secondary": [
+   "vegetation_ecosystems"
+  ],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-6.8",
+  "discipline": "wetlands",
+  "discipline_secondary": [
+   "vegetation_ecosystems"
+  ],
+  "measure_type": "monitoring_followup",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-7.1",
+  "discipline": "indigenous_rights_tluse",
+  "discipline_secondary": [
+   "socio_economic"
+  ],
+  "measure_type": "management_plan",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-7.2",
+  "discipline": "human_health",
+  "discipline_secondary": [
+   "socio_economic"
+  ],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-7.3",
+  "discipline": "human_health",
+  "discipline_secondary": [
+   "socio_economic"
+  ],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-7.4",
+  "discipline": "indigenous_rights_tluse",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-7.5",
+  "discipline": "indigenous_rights_tluse",
+  "discipline_secondary": [],
+  "measure_type": "avoidance",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-7.6",
+  "discipline": "indigenous_rights_tluse",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-7.7",
+  "discipline": "indigenous_rights_tluse",
+  "discipline_secondary": [
+   "socio_economic"
+  ],
+  "measure_type": "management_plan",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-7.8",
+  "discipline": "indigenous_rights_tluse",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-8.1",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [
+   "indigenous_rights_tluse"
+  ],
+  "measure_type": "avoidance",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-8.2",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [
+   "indigenous_rights_tluse"
+  ],
+  "measure_type": "management_plan",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-9.1",
+  "discipline": "accidents_malfunctions",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-9.2",
+  "discipline": "accidents_malfunctions",
+  "discipline_secondary": [
+   "indigenous_rights_tluse"
+  ],
+  "measure_type": "engagement",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-9.3",
+  "discipline": "accidents_malfunctions",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-9.4",
+  "discipline": "accidents_malfunctions",
+  "discipline_secondary": [
+   "indigenous_rights_tluse"
+  ],
+  "measure_type": "management_plan",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-10.1",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-10.2",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-10.3",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-11.1",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-104036-11.2",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "all_phases",
+  "discard": false
+ }
+]
