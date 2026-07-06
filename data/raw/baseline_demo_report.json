@@ -4,5 +4,73 @@
   -81.63773
  ],
  "buffer_m": 1000,
- "constraints": []
+ "constraints": [
+  {
+   "layer": "Wetland",
+   "count": 5,
+   "disciplines": [
+    "wetlands",
+    "surface_water"
+   ],
+   "sample": {
+    "OGF_ID": 72711105,
+    "WETLAND_TYPE": "Swamp",
+    "EVALUATED_WETLAND_IND": "Yes",
+    "EVALUATED_WETLAND_ID": 651330271,
+    "COASTAL_IND": "No",
+    "WETLAND_UNIT_NUMBER": null
+   },
+   "source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/15"
+  },
+  {
+   "layer": "OHN Waterbody",
+   "count": 5,
+   "disciplines": [
+    "fish_habitat",
+    "surface_water"
+   ],
+   "sample": {
+    "OGF_ID": 127708194,
+    "WATERBODY_TYPE": "Pond",
+    "OFFICIAL_NAME_LABEL": null,
+    "GEL_NAME_IDENT": null,
+    "PERMANENCY": "Permanent",
+    "LOCATION_ACCURACY": "Within 5 metres"
+   },
+   "source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/25"
+  },
+  {
+   "layer": "OHN Watercourse",
+   "count": 5,
+   "disciplines": [
+    "fish_habitat",
+    "surface_water"
+   ],
+   "sample": {
+    "OGF_ID": 127715922,
+    "WATERCOURSE_TYPE": "Stream",
+    "OFFICIAL_NAME_LABEL": null,
+    "GEL_NAME_IDENT": null,
+    "FLOW_DIRECTION_VERIFIED_IND": "Yes",
+    "PERMANENCY": "Permanent"
+   },
+   "source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/26"
+  },
+  {
+   "layer": "Aggregate site (active)",
+   "count": 1,
+   "disciplines": [
+    "cumulative_effects"
+   ],
+   "sample": {
+    "OGF_ID": 67496169,
+    "GEOMETRY_UPDATE_DATETIME": null,
+    "EFFECTIVE_DATETIME": 1167992392000,
+    "SYSTEM_DATETIME": 1169809834000,
+    "OBJECTID": 174,
+    "SHAPE.AREA": 0
+   },
+   "source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/19"
+  }
+ ]
 }
