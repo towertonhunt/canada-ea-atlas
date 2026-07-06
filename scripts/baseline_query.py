@@ -40,15 +40,29 @@ def resolve_layer_urls(catalog_path='data/raw/on_geohub_layers.json'):
     """Map our layer labels to concrete .../MapServer/<id> query URLs."""
     cat = json.load(open(catalog_path))
     resolved = {}
+
+    def to_rest(url):
+        # Normalize ArcGIS OGC endpoints (…/services/X/MapServer/WMSServer)
+        # to their REST twins (…/rest/services/X/MapServer); non-ArcGIS URLs
+        # (download ZIPs, geocortex, …) return None.
+        import re as _re
+        u = url.split('?')[0].rstrip('/')
+        u = _re.sub(r'/(WMS|WFS)Server$', '', u, flags=_re.I)
+        if '/rest/services' not in u and '/services/' in u:
+            u = u.replace('/services/', '/rest/services/', 1)
+        if '/rest/services' not in u:
+            return None
+        return u
+
     for label, match, triggers in LAYERS:
         for entry in cat:
             if (entry['title'] or '').strip().lower() != match and \
                match not in (entry['title'] or '').lower():
                 continue
             for rest in entry.get('rest') or []:
-                if not rest or 'arcgis' not in rest.lower():
+                base = to_rest(rest) if rest else None
+                if not base:
                     continue
-                base = rest.split('?')[0].rstrip('/')
                 try:
                     if base.endswith(('MapServer', 'FeatureServer')):
                         meta = http_json(base + '?f=json')
