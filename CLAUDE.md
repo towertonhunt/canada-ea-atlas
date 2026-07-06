@@ -49,15 +49,18 @@ lane on the branch, sync to main via PR (user authorized Claude to create
 and merge PRs via GitHub MCP — pattern established PR #1, #2).
 
 ## Known open threads (priority order)
-1. Corpus quality: LM reclassification of conditions per
-   docs/mitigation-taxonomy.md (controlled vocab, split multi-measure,
-   deterministic ids). Keep jurisdictions SEPARATE: one conditions file per
-   jurisdiction, `jurisdiction` field on every record; predictor must filter.
-   IN PROGRESS 2026-07-05: BC done via parallel subagents ->
-   data/conditions/bc_conditions_v2.json.gz (validate enum coverage on load).
-2. Baseline engine: FIXED 2026-07-05 — LIO ignores distance/units params;
-   now buffers client-side with a 4326 envelope. Re-validate via
-   baseline-demo workflow (expect HITs at Adelaide site).
+1. Corpus quality: BC DONE 2026-07-06 -> bc_conditions_v2.json.gz
+   (741 real measures kept of 1,884 v1 records; 1,242 were OCR/boilerplate
+   noise — v1 was inflated. discipline 'other' 35% -> 18.8%; 0 enum
+   violations; multi-measure splits use -a/-b ids). Merge tool:
+   scripts/merge_reclassified_conditions.py. NEXT: same pass over the
+   federal decision-statement conditions (data/corpus/federal/, 576 docs),
+   one file per jurisdiction as before.
+2. Baseline engine: VALIDATED 2026-07-06 — Adelaide demo returns 4
+   constraint HITs (wetland, waterbody, watercourse, aggregate). Root
+   causes were (a) LIO ignoring distance/units -> client-side envelope;
+   (b) GeoHub catalogue mixing WMS endpoints into `rest` -> normalize
+   /services/ to /rest/services/ and strip WMSServer suffix.
 3. Gazetteer: FIXED 2026-07-05 (cd /tmp bug) — data/geo/ca_places.json
    committed; build script geocodes MB/NL/NS/ON-prov by municipality field
    then name n-grams (1,871 pins, flagged geocode=approximate).
