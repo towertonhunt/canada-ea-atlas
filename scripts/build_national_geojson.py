@@ -454,6 +454,24 @@ if os.path.exists(GAZ):
         if muni and f'{muni}|{a1}' in gaz:
             hit = (gaz[f'{muni}|{a1}'], 'municipality')
         if not hit:
+            # "RM of X" / "Town of X" in proponent or name is a municipality
+            blob = f"{p.get('proponent') or ''} | {p.get('name') or ''}"
+            for m in re.finditer(
+                    r"\b(?:R\.?M\.?|Rural Municipality|Town|City|Village|LGD|"
+                    r"Local Government District|Municipality) of "
+                    r"([A-Z][A-Za-z.'’ -]+)", blob):
+                # try full match, then progressively shorter pieces
+                # ("Glenboro-South Cypress" -> "Glenboro")
+                cand = m.group(1).strip().lower()
+                parts = re.split(r'[-–]| and ', cand)
+                for c in [cand] + [q.strip() for q in parts if q.strip()]:
+                    c = re.sub(r'\s+(no\.?|#)\s*\d+$', '', c).strip(" .'’-")
+                    if f'{c}|{a1}' in gaz:
+                        hit = (gaz[f'{c}|{a1}'], f'municipal_pattern:{c}')
+                        break
+                if hit:
+                    break
+        if not hit:
             words = [w for w in re.findall(r"[a-zà-ÿ'’-]+",
                                            (p.get('name') or '').lower())]
             grams = []
