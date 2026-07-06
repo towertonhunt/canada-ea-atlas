@@ -1729,5 +1729,452 @@
   "measure_type": "monitoring_followup",
   "timing": "all_phases",
   "discard": false
+ },
+ {
+  "condition_id": "federal-151893-28.2",
+  "discipline": "species_at_risk",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-28.3",
+  "discipline": "species_at_risk",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-8.29",
+  "discipline": "species_at_risk",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-8.30",
+  "discipline": "wildlife_birds",
+  "discipline_secondary": [
+   "species_at_risk"
+  ],
+  "measure_type": "mitigation",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-8.31",
+  "discipline": "wildlife_birds",
+  "discipline_secondary": [
+   "species_at_risk",
+   "fish_fish_habitat"
+  ],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-8.32",
+  "discipline": "wildlife_birds",
+  "discipline_secondary": [
+   "species_at_risk"
+  ],
+  "measure_type": "monitoring_followup",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-32.1",
+  "discipline": "wildlife_birds",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-32.2",
+  "discipline": "wildlife_birds",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-8.33",
+  "discipline": "wildlife_birds",
+  "discipline_secondary": [
+   "species_at_risk"
+  ],
+  "measure_type": "management_plan",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-33.1",
+  "discipline": "wildlife_birds",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-33.3",
+  "discipline": "wildlife_birds",
+  "discipline_secondary": [
+   "fish_fish_habitat"
+  ],
+  "measure_type": "management_plan",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-33.4",
+  "discipline": "wildlife_birds",
+  "discipline_secondary": [
+   "vegetation_ecosystems"
+  ],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-33.5",
+  "discipline": "wildlife_birds",
+  "discipline_secondary": [
+   "species_at_risk"
+  ],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-33.6",
+  "discipline": "wildlife_birds",
+  "discipline_secondary": [
+   "species_at_risk"
+  ],
+  "measure_type": "monitoring_followup",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-9.1",
+  "discipline": "human_health",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-9.2",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [
+   "human_health"
+  ],
+  "measure_type": "monitoring_followup",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-9.3",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [
+   "human_health"
+  ],
+  "measure_type": "monitoring_followup",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-3.3",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [
+   "human_health"
+  ],
+  "measure_type": "monitoring_followup",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-3.4",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [
+   "human_health"
+  ],
+  "measure_type": "monitoring_followup",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-10.1",
+  "discipline": "socio_economic",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-11.1",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-11.2",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-2.1",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-2.2",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-11.3",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "avoidance",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-3.1",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [
+   "noise_vibration"
+  ],
+  "measure_type": "minimization",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-3.2",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [
+   "noise_vibration"
+  ],
+  "measure_type": "monitoring_followup",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-3.3",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [
+   "noise_vibration"
+  ],
+  "measure_type": "mitigation",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-11.4",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.1",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.2",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-4.3",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-11.5",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-5.1",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-5.2",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-5.3",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-11.6",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-6.1",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-11.7",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [
+   "indigenous_rights_tluse"
+  ],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-11.8",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [
+   "indigenous_rights_tluse"
+  ],
+  "measure_type": "management_plan",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-8.1",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [
+   "indigenous_rights_tluse"
+  ],
+  "measure_type": "engagement",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-8.2",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [
+   "indigenous_rights_tluse"
+  ],
+  "measure_type": "engagement",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-8.3",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [
+   "indigenous_rights_tluse"
+  ],
+  "measure_type": "management_plan",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-3.1",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-3.2",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "avoidance",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-3.3",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [
+   "indigenous_rights_tluse"
+  ],
+  "measure_type": "engagement",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-3.4",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-3.5",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [
+   "indigenous_rights_tluse"
+  ],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-11.9",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [
+   "indigenous_rights_tluse"
+  ],
+  "measure_type": "management_plan",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "federal-151893-9.1",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
  }
 ]
