@@ -1,0 +1,2253 @@
+[
+{
+"condition_id": "federal-137602-2.6",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-2.7",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-2.8",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-2.9",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-2.10",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-2.11",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137602-2.12",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-2.13",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-2.14",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-3.1",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"waste_hazmat"
+],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-3.2",
+"discipline": "waste_hazmat",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-3.3",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"waste_hazmat"
+],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-3.4",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"waste_hazmat"
+],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-3.5",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [],
+"measure_type": "avoidance",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137602-3.6",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137602-3.7",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [],
+"measure_type": "avoidance",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137602-3.8",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-3.9",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"noise_vibration"
+],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-3.10",
+"discipline": "species_at_risk",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "management_plan",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-3.11",
+"discipline": "species_at_risk",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-3.12",
+"discipline": "species_at_risk",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-3.13",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-3.14",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-4.1",
+"discipline": "wildlife_birds",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "avoidance",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-4.2",
+"discipline": "wildlife_birds",
+"discipline_secondary": [
+"light"
+],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-4.3",
+"discipline": "wildlife_birds",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-4.4",
+"discipline": "wildlife_birds",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-4.5",
+"discipline": "wildlife_birds",
+"discipline_secondary": [
+"light"
+],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-5.1",
+"discipline": "socio_economic",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "management_plan",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-5.2",
+"discipline": "socio_economic",
+"discipline_secondary": [
+"closure_postclosure"
+],
+"measure_type": "management_plan",
+"timing": "closure",
+"discard": false
+},
+{
+"condition_id": "federal-137602-5.3",
+"discipline": "socio_economic",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-5.4",
+"discipline": "socio_economic",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.1",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.2",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.3",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.4",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.5",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.6",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.7",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.8",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.9",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.10",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"human_health",
+"fish_fish_habitat"
+],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.11",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.12",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "engagement",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.13",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.14",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.15",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "financial_assurance",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-6.16",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137602-7.1",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137602-7.2",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137602-7.3",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-7.4",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-8.1",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-8.2",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137602-8.3",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.1",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.2",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.3",
+"discipline": "species_at_risk",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.4",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.5",
+"discipline": "other",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.6",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.7",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.8",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.9",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.10",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.11",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.12",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.13",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.14",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-2.13",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-3.1",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"waste_hazmat"
+],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-3.2",
+"discipline": "waste_hazmat",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-3.3",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"waste_hazmat"
+],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-3.4",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"waste_hazmat"
+],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-3.5",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [],
+"measure_type": "avoidance",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137601-3.6",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137601-3.7",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [],
+"measure_type": "avoidance",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137601-3.8",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-3.9",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"noise_vibration"
+],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-3.10",
+"discipline": "species_at_risk",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "management_plan",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-3.11",
+"discipline": "species_at_risk",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-3.12",
+"discipline": "species_at_risk",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-3.13",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-3.14",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-4.1",
+"discipline": "wildlife_birds",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "avoidance",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-4.2",
+"discipline": "wildlife_birds",
+"discipline_secondary": [
+"light"
+],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-4.3",
+"discipline": "wildlife_birds",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-4.4",
+"discipline": "wildlife_birds",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-4.5",
+"discipline": "wildlife_birds",
+"discipline_secondary": [
+"light"
+],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-5.1",
+"discipline": "socio_economic",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "management_plan",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-5.2",
+"discipline": "socio_economic",
+"discipline_secondary": [
+"closure_postclosure"
+],
+"measure_type": "management_plan",
+"timing": "closure",
+"discard": false
+},
+{
+"condition_id": "federal-137601-5.3",
+"discipline": "socio_economic",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-5.4",
+"discipline": "socio_economic",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.1",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.2",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.3",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.4",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.5",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.6",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.7",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.8",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.9",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.10",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"human_health",
+"fish_fish_habitat"
+],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.11",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.12",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "engagement",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.13",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.14",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.15",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "financial_assurance",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-6.16",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-137601-7.1",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137601-7.2",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-137601-7.3",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-7.4",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-8.1",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-8.2",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-137601-8.3",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-2.1",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-2.2",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-2.3",
+"discipline": "other",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-2.4",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-2.5",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-2.6",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-2.7",
+"discipline": "other",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-2.8",
+"discipline": "other",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-2.9",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-2.10",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-2.11",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-2.12",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-2.13",
+"discipline": "other",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-2.14",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-3.1",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"surface_water",
+"soils_terrain"
+],
+"measure_type": "minimization",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-3.2",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "avoidance",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-3.3",
+"discipline": "waste_hazmat",
+"discipline_secondary": [
+"surface_water",
+"fish_fish_habitat"
+],
+"measure_type": "minimization",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-3.4",
+"discipline": "groundwater",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "mitigation",
+"timing": "closure",
+"discard": false
+},
+{
+"condition_id": "federal-135733-3.5",
+"discipline": "surface_water",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "minimization",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-135733-3.6",
+"discipline": "surface_water",
+"discipline_secondary": [
+"waste_hazmat"
+],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-135733-3.7",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"surface_water",
+"groundwater"
+],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-4.1",
+"discipline": "wildlife_birds",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "avoidance",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-4.2",
+"discipline": "wildlife_birds",
+"discipline_secondary": [
+"waste_hazmat"
+],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-135733-4.3",
+"discipline": "wildlife_birds",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-5.1",
+"discipline": "human_health",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-135733-6.1",
+"discipline": "wildlife_birds",
+"discipline_secondary": [
+"species_at_risk",
+"indigenous_rights_tluse"
+],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-135733-6.2",
+"discipline": "wildlife_birds",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-135733-6.3",
+"discipline": "wildlife_birds",
+"discipline_secondary": [],
+"measure_type": "minimization",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-6.4",
+"discipline": "indigenous_rights_tluse",
+"discipline_secondary": [
+"wildlife_birds",
+"fish_fish_habitat"
+],
+"measure_type": "avoidance",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-6.5",
+"discipline": "species_at_risk",
+"discipline_secondary": [
+"wetlands"
+],
+"measure_type": "mitigation",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-135733-6.6",
+"discipline": "species_at_risk",
+"discipline_secondary": [],
+"measure_type": "avoidance",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-135733-6.7",
+"discipline": "species_at_risk",
+"discipline_secondary": [],
+"measure_type": "compensation_offset",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-135733-6.8",
+"discipline": "species_at_risk",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-135733-6.9",
+"discipline": "closure_postclosure",
+"discipline_secondary": [
+"vegetation_ecosystems",
+"indigenous_rights_tluse"
+],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-135733-6.10",
+"discipline": "wildlife_birds",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-135733-6.11",
+"discipline": "species_at_risk",
+"discipline_secondary": [
+"wildlife_birds",
+"indigenous_rights_tluse"
+],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-6.12",
+"discipline": "other",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-7.1",
+"discipline": "archaeology_heritage",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "mitigation",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-7.2",
+"discipline": "archaeology_heritage",
+"discipline_secondary": [],
+"measure_type": "avoidance",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-135733-8.1",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-135733-8.2",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-8.3",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-8.4",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-9.1",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-9.2",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "engagement",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-135733-9.3",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-135733-9.4",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-9.5",
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "management_plan",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-10.1",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-135733-10.2",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-10.3",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-11.1",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-135733-11.2",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.1",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.2",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.3",
+"discipline": "species_at_risk",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.4",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.5",
+"discipline": "other",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.6",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.7",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.8",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.9",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.10",
+"discipline": "other",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.11",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.12",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.13",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.14",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.15",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.16",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-2.17",
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.1",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "avoidance",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.2",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "minimization",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.3",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [],
+"measure_type": "avoidance",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.4",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [],
+"measure_type": "avoidance",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.5",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"noise_vibration"
+],
+"measure_type": "minimization",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.6",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"human_health",
+"waste_hazmat"
+],
+"measure_type": "minimization",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.7",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "minimization",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.8",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"waste_hazmat",
+"surface_water"
+],
+"measure_type": "minimization",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.9",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"surface_water",
+"soils_terrain"
+],
+"measure_type": "minimization",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.10",
+"discipline": "vegetation_ecosystems",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "minimization",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.11",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"waste_hazmat"
+],
+"measure_type": "avoidance",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.12",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "avoidance",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.13",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"vegetation_ecosystems"
+],
+"measure_type": "minimization",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.14",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"waste_hazmat"
+],
+"measure_type": "minimization",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.15",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"soils_terrain"
+],
+"measure_type": "mitigation",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.16",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"soils_terrain",
+"surface_water"
+],
+"measure_type": "minimization",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.17",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"surface_water",
+"waste_hazmat"
+],
+"measure_type": "minimization",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.18",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "mitigation",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.19",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"noise_vibration",
+"waste_hazmat"
+],
+"measure_type": "minimization",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.20",
+"discipline": "species_at_risk",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "management_plan",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.21",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "compensation_offset",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-21.1",
+"discipline": "indigenous_rights_tluse",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "engagement",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.22",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [],
+"measure_type": "compensation_offset",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-22.1",
+"discipline": "indigenous_rights_tluse",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "engagement",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.23",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"indigenous_rights_tluse"
+],
+"measure_type": "mitigation",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.24",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"wildlife_birds"
+],
+"measure_type": "mitigation",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.25",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.26",
+"discipline": "closure_postclosure",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.27",
+"discipline": "waste_hazmat",
+"discipline_secondary": [
+"fish_fish_habitat",
+"surface_water"
+],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.28",
+"discipline": "waste_hazmat",
+"discipline_secondary": [
+"fish_fish_habitat",
+"surface_water"
+],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.29",
+"discipline": "waste_hazmat",
+"discipline_secondary": [
+"soils_terrain",
+"fish_fish_habitat"
+],
+"measure_type": "mitigation",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.30",
+"discipline": "waste_hazmat",
+"discipline_secondary": [
+"soils_terrain"
+],
+"measure_type": "management_plan",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.31",
+"discipline": "waste_hazmat",
+"discipline_secondary": [
+"soils_terrain"
+],
+"measure_type": "minimization",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.32",
+"discipline": "waste_hazmat",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "management_plan",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.33",
+"discipline": "waste_hazmat",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.34",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "monitoring_followup",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.35",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.36",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.37",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.38",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.39",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"species_at_risk",
+"surface_water"
+],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.40",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"surface_water",
+"species_at_risk"
+],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.41",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.42",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [
+"accidents_malfunctions"
+],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.43",
+"discipline": "cumulative_effects",
+"discipline_secondary": [
+"species_at_risk",
+"fish_fish_habitat"
+],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-43.1",
+"discipline": "cumulative_effects",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "mitigation",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.44",
+"discipline": "cumulative_effects",
+"discipline_secondary": [
+"fish_fish_habitat",
+"species_at_risk"
+],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-44.1",
+"discipline": "cumulative_effects",
+"discipline_secondary": [
+"fish_fish_habitat"
+],
+"measure_type": "mitigation",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-3.45",
+"discipline": "fish_fish_habitat",
+"discipline_secondary": [],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-4.1",
+"discipline": "wildlife_birds",
+"discipline_secondary": [
+"species_at_risk"
+],
+"measure_type": "avoidance",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-4.2",
+"discipline": "wildlife_birds",
+"discipline_secondary": [],
+"measure_type": "avoidance",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-4.3",
+"discipline": "species_at_risk",
+"discipline_secondary": [
+"wildlife_birds"
+],
+"measure_type": "compensation_offset",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-4.4",
+"discipline": "wildlife_birds",
+"discipline_secondary": [],
+"measure_type": "compensation_offset",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-4.5",
+"discipline": "wildlife_birds",
+"discipline_secondary": [
+"vegetation_ecosystems"
+],
+"measure_type": "compensation_offset",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-4.6",
+"discipline": "wildlife_birds",
+"discipline_secondary": [
+"noise_vibration",
+"species_at_risk"
+],
+"measure_type": "monitoring_followup",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-5.1",
+"discipline": "wetlands",
+"discipline_secondary": [],
+"measure_type": "avoidance",
+"timing": "all_phases",
+"discard": false
+},
+{
+"condition_id": "federal-163896-5.2",
+"discipline": "wetlands",
+"discipline_secondary": [],
+"measure_type": "compensation_offset",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-5.3",
+"discipline": "indigenous_rights_tluse",
+"discipline_secondary": [
+"wetlands"
+],
+"measure_type": "engagement",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-5.4",
+"discipline": "wetlands",
+"discipline_secondary": [],
+"measure_type": "avoidance",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-5.5",
+"discipline": "wetlands",
+"discipline_secondary": [],
+"measure_type": "minimization",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-5.6",
+"discipline": "wetlands",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "minimization",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-5.7",
+"discipline": "wetlands",
+"discipline_secondary": [],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"condition_id": "federal-163896-5.8",
+"discipline": "wetlands",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "construction",
+"discard": false
+},
+{
+"condition_id": "federal-163896-5.9",
+"discipline": "wetlands",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+}
+]
