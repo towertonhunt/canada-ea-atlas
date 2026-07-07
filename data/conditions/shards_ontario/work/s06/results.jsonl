@@ -98,3 +98,53 @@
 {"discipline": "surface_water", "discipline_secondary": [], "measure_type": "monitoring_followup", "timing": "operation", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-024"}
 {"discipline": "surface_water", "discipline_secondary": [], "measure_type": "monitoring_followup", "timing": "operation", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-025"}
 {"discipline": "groundwater", "discipline_secondary": ["surface_water"], "measure_type": "minimization", "timing": "all_phases", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-026"}
+{"discipline": "wildlife_birds", "discipline_secondary": [], "measure_type": "monitoring_followup", "timing": "operation", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-027"}
+{"discipline": "wildlife_birds", "discipline_secondary": [], "measure_type": "monitoring_followup", "timing": "operation", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-028"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "management_plan", "timing": "pre_construction", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-029"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "engagement", "timing": "pre_construction", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-030"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "other", "timing": "pre_construction", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-031"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "engagement", "timing": "pre_construction", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-032"}
+{"discipline": "archaeology_heritage", "discipline_secondary": [], "measure_type": "mitigation", "timing": "pre_construction", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-033"}
+{"discipline": "archaeology_heritage", "discipline_secondary": [], "measure_type": "mitigation", "timing": "construction", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-034"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "engagement", "timing": "pre_construction", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-035"}
+{"discipline": "socio_economic", "discipline_secondary": ["indigenous_rights_tluse"], "measure_type": "engagement", "timing": "all_phases", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-036"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "engagement", "timing": "all_phases", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-037"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "engagement", "timing": "all_phases", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-038"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "engagement", "timing": "all_phases", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-039"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "engagement", "timing": "all_phases", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-040"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "engagement", "timing": "operation", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-041"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "engagement", "timing": "pre_construction", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-042"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "management_plan", "timing": "pre_construction", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-043"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "management_plan", "timing": "all_phases", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-044"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "management_plan", "timing": "operation", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-045"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": "all_phases", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-046"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "engagement", "timing": "all_phases", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-047"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": "all_phases", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-048"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "engagement", "timing": "all_phases", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-049"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "engagement", "timing": "all_phases", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-050"}
+{"discipline": "groundwater", "discipline_secondary": ["socio_economic"], "measure_type": "engagement", "timing": "all_phases", "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-051"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-052"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-053"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-054"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-055"}
+{"discipline": "closure_postclosure", "discipline_secondary": ["visual_landscape", "human_health"], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-056"}
+{"discipline": "noise_vibration", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-057"}
+{"discipline": "noise_vibration", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-058"}
+{"discipline": "noise_vibration", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-059"}
+{"discipline": "human_health", "discipline_secondary": ["accidents_malfunctions"], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-060"}
+{"discipline": "accidents_malfunctions", "discipline_secondary": ["surface_water"], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-061"}
+{"discipline": "accidents_malfunctions", "discipline_secondary": ["surface_water"], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-062"}
+{"discipline": "surface_water", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-063"}
+{"discipline": "surface_water", "discipline_secondary": ["accidents_malfunctions"], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-064"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-065"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-066"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-067"}
+{"discipline": "socio_economic", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-068"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-069"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": false, "condition_id": "ontario-rea-65098CBJ9Q14pdf-070"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": true, "discard_reason": "ERT hearing-notice boilerplate", "condition_id": "ontario-rea-65098CBJ9Q14pdf-071"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": true, "discard_reason": "ERT hearing-notice boilerplate", "condition_id": "ontario-rea-65098CBJ9Q14pdf-072"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": true, "discard_reason": "ERT hearing-notice service-address boilerplate", "condition_id": "ontario-rea-65098CBJ9Q14pdf-073"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": true, "discard_reason": "ERT hearing-notice boilerplate", "condition_id": "ontario-rea-5392992JBA14pdf-000"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": true, "discard_reason": "ERT hearing-notice boilerplate", "condition_id": "ontario-rea-5392992JBA14pdf-001"}
+{"discipline": "other", "discipline_secondary": [], "measure_type": "other", "timing": null, "discard": true, "discard_reason": "ERT hearing-notice service-address boilerplate", "condition_id": "ontario-rea-5392992JBA14pdf-002"}
