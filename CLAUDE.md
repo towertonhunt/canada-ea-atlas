@@ -68,9 +68,11 @@ and merge PRs via GitHub MCP — pattern established PR #1, #2).
    ontario_conditions_v2.json.gz: 1,037 clean REA conditions of 2,319 v1
    records (508 ERT hearing-notice/header/definition discards, 774
    template dupes). Same shard pipeline: shards_ontario/ + 
-   scripts/merge_ontario_conditions.py. NEXT: wire all three v2 sets
-   (BC 741, federal 4,946, Ontario 1,037) into
-   scripts/mitigation_predict.py.
+   scripts/merge_ontario_conditions.py. DONE 2026-07-07: all three v2
+   sets wired into scripts/mitigation_predict.py (Ontario re-merged with
+   project-name keying -> 1,627; pool 7,314). Predictor matches
+   primary+secondary disciplines, reports timing + jurisdiction mix;
+   --full pre-generates data/predictions/<archetype>_register.json.
 2. Baseline engine: VALIDATED 2026-07-06 — Adelaide demo returns 4
    constraint HITs (wetland, waterbody, watercourse, aggregate). Root
    causes were (a) LIO ignoring distance/units -> client-side envelope;
@@ -81,7 +83,9 @@ and merge PRs via GitHub MCP — pattern established PR #1, #2).
    then name n-grams (1,871 pins, flagged geocode=approximate).
 4. Routing v1: add DEM terrain (12% weight), CLUPA/mining claims/railways
    (DCAT title mismatches), finer grid, corridor export; demo overlay page.
-5. Demo UI: map page -> click point + pick archetype -> mitigation register.
+5. Demo UI: DONE 2026-07-07 -> predict.html (archetype + constraint
+   checkboxes -> filtered register from data/predictions/; linked from
+   map header). Map-click -> live baseline_query constraints still open.
 6. Wiki: SQLite FTS5 over corpus + sql.js-httpvfs static search.
 7. Active mines layer: NRCan 900A / OGSEarth (recon files in data/raw).
 8. SK/NB/PE parsing (list pages fetched, thin registries).
