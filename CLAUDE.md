@@ -88,7 +88,12 @@ and merge PRs via GitHub MCP — pattern established PR #1, #2).
    map header). Map-click -> live baseline_query constraints still open.
 6. Wiki: SQLite FTS5 over corpus + sql.js-httpvfs static search.
 7. Active mines layer: NRCan 900A / OGSEarth (recon files in data/raw).
-8. SK/NB/PE parsing (list pages fetched, thin registries).
+8. SK/NB/PE parsing — probes analyzed 2026-07-07, all need refetch:
+   PEI pei_ea_list.html is a JS-rendered shell (0 links; find the ajax
+   endpoint in page source); NB registrations URL 404s (find current EIA
+   registrations path on www2.gnb.ca); SK envrbrportal is a Dynamics
+   portal — data loads client-side, try the portal's OData/API endpoints
+   (Dynamics portals expose /_odata or /_api) before scraping.
 
 ## Hard-won environment lessons
 - Government sites 404/500 GitHub runners with generic UAs: ALWAYS use a full
