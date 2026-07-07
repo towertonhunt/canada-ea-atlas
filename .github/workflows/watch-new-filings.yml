@@ -1,0 +1,173 @@
+name: Watch new filings
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "31 9 * * *"   # daily
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/mac-mini-connection-ceehl5
+
+      - name: Detect new federal filings
+        continue-on-error: true
+        run: |
+          python3 -u - <<'EOF'
+          import gzip, io, json, time, urllib.request, urllib.parse, http.cookiejar, os
+
+          UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
+                '(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36')
+          cj = http.cookiejar.CookieJar()
+          op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
+          op.addheaders = [('User-Agent', UA)]
+          page_url = 'https://iaac-aeic.gc.ca/050/evaluations/exploration?culture=en-CA'
+          op.open(page_url, timeout=60).read()
+          api = 'https://iaac-aeic.gc.ca/050/evaluations/exploration/api'
+
+          def fetch(n):
+              body = urllib.parse.urlencode({
+                  'search': '%2A', 'sort': 'PostedDateDesc', 'page': str(n),
+                  'useMap': 'false', 'projectDocuments': 'false',
+                  'activeProjects': 'false', 'inactiveProjects': 'false',
+                  'isFedLands': 'false', 'usingPermitCoordination': 'false',
+                  'dataFiles': 'false', 'mostRecent': 'true'}).encode()
+              req = urllib.request.Request(api, data=body, headers={
+                  'Referer': page_url, 'X-Requested-With': 'XMLHttpRequest'})
+              d = json.loads(op.open(req, timeout=120).read().decode('utf-8', 'replace'))
+              return json.loads(d) if isinstance(d, str) else d
+
+          FIELDS = ('indexid', 'document_type', 'project_id', 'project_name_en',
+                    'proponent_en', 'province_en', 'status_en', 'ea_type_en',
+                    'document_title_en', 'document_category_en',
+                    'relative_path', 'file_name', 'location_en')
+
+          def slim(e):
+              d = e.get('Document') if isinstance(e, dict) else None
+              if not isinstance(d, dict):
+                  return None
+              out = {k: (d[k][:300] if isinstance(d.get(k), str) else d.get(k))
+                     for k in FIELDS if d.get(k) not in (None, 'None', '', 'N/A')}
+              pts = d.get('points')
+              if isinstance(pts, list) and pts:
+                  try:
+                      out['lat'], out['lon'] = pts[0]['Latitude'], pts[0]['Longitude']
+                  except (KeyError, TypeError):
+                      pass
+              return out or None
+
+          MASTER = 'data/raw/federal_list_all.json.gz'
+          allr = {json.dumps(e, sort_keys=True): e
+                  for e in json.load(gzip.open(MASTER, 'rt'))}
+          known_ids = {e.get('indexid') for e in allr.values() if e.get('indexid')}
+
+          new = []
+          for n in range(1, 8):           # newest ~300 items is ample per day
+              try:
+                  entries = [x for x in map(slim, fetch(n).get('Results') or [])
+                             if x]
+              except Exception as ex:
+                  print('page', n, 'FAIL', ex, flush=True)
+                  break
+              fresh = [e for e in entries if e.get('indexid') not in known_ids]
+              new += fresh
+              if len(fresh) < len(entries):   # reached already-known territory
+                  break
+              time.sleep(1)
+
+          print(f'{len(new)} new filings', flush=True)
+          for e in new:
+              allr[json.dumps(e, sort_keys=True)] = e
+          buf = io.BytesIO()
+          with gzip.GzipFile(fileobj=buf, mode='wb', mtime=0) as gz:
+              gz.write(json.dumps(list(allr.values())).encode())
+          open(MASTER, 'wb').write(buf.getvalue())
+
+          # queue for mirroring + wayback; document page URL is durable entry
+          Q = 'data/raw/new_filings_queue.json'
+          queue = json.load(open(Q)) if os.path.exists(Q) else []
+          have = {q.get('indexid') for q in queue}
+          for e in new:
+              if e.get('indexid') in have:
+                  continue
+              e['doc_url'] = ('https://iaac-aeic.gc.ca/050/evaluations/document/'
+                              + str(e['indexid'])) if e.get('indexid') else None
+              e['mirrored'] = False
+              e['waybacked'] = False
+              queue.append(e)
+          # wayback the newest immediately (cheap, no auth)
+          for q in queue:
+              if q.get('waybacked') or not q.get('doc_url'):
+                  continue
+              try:
+                  urllib.request.urlopen(urllib.request.Request(
+                      'https://web.archive.org/save/' + q['doc_url'],
+                      headers={'User-Agent': UA}), timeout=90).read(100)
+                  q['waybacked'] = True
+              except Exception:
+                  pass
+              time.sleep(9)
+          json.dump(queue, open(Q, 'w'))
+          print('queue size:', len(queue),
+                'unmirrored:', sum(1 for q in queue if not q['mirrored']), flush=True)
+          EOF
+
+      - name: Mirror new documents to Google Drive
+        continue-on-error: true
+        env:
+          RCLONE_TOKEN: ${{ secrets.RCLONE_DRIVE_TOKEN }}
+        run: |
+          if [ -z "$RCLONE_TOKEN" ]; then
+            echo "RCLONE_DRIVE_TOKEN secret not set - skipping Drive mirror (queue keeps accumulating; add the secret to activate)"
+            exit 0
+          fi
+          curl -s https://rclone.org/install.sh | sudo bash > /dev/null 2>&1
+          mkdir -p ~/.config/rclone
+          printf '[gdrive]\ntype = drive\nscope = drive.file\ntoken = %s\n' "$RCLONE_TOKEN" > ~/.config/rclone/rclone.conf
+          python3 -u - <<'EOF'
+          import json, subprocess, time, urllib.request
+
+          Q = 'data/raw/new_filings_queue.json'
+          queue = json.load(open(Q))
+          START = time.time()
+          done = 0
+          for q in queue:
+              if q['mirrored'] or not q.get('doc_url'):
+                  continue
+              if time.time() - START > 30 * 60 or done >= 200:
+                  break
+              name = (q.get('file_name') or f"{q['indexid']}.pdf").replace('/', '_')
+              dest = f"gdrive:Canada-EA-Archive/federal/{q.get('project_id','unknown')}/"
+              try:
+                  req = urllib.request.Request(q['doc_url'],
+                        headers={'User-Agent': 'Mozilla/5.0'})
+                  data = urllib.request.urlopen(req, timeout=180).read()
+                  open('/tmp/' + name, 'wb').write(data)
+                  subprocess.run(['rclone', 'copyto', '/tmp/' + name, dest + name],
+                                 check=True, timeout=300)
+                  q['mirrored'] = True
+                  done += 1
+              except Exception as e:
+                  print('mirror FAIL', q['indexid'], e, flush=True)
+              time.sleep(2)
+          json.dump(queue, open(Q, 'w'))
+          print(f'mirrored {done} documents to Drive', flush=True)
+          EOF
+
+      - name: Commit state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git add data/raw/federal_list_all.json.gz data/raw/new_filings_queue.json
+            git commit -m "New-filings watch: index + queue update [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 5
+          done

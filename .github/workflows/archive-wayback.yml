@@ -1,0 +1,95 @@
+name: Wayback archive lane
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"   # 4x daily; ~250 URLs per run -> full sweep in ~2.5 months, then freshness
+
+permissions:
+  contents: write
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/mac-mini-connection-ceehl5
+
+      - name: Submit document URLs to Wayback Machine
+        continue-on-error: true
+        run: |
+          python3 -u - <<'EOF'
+          import glob, gzip, json, os, time, urllib.request
+
+          START = time.time()
+          BUDGET = 45 * 60
+
+          # collect every document URL we know about
+          urls = set()
+          for path in glob.glob('data/docs/*/*.json'):
+              try:
+                  d = json.load(open(path))
+              except Exception:
+                  continue
+              docs = d.get('docs', d) if isinstance(d, dict) else d
+              for doc in docs if isinstance(docs, list) else []:
+                  u = doc.get('url')
+                  if u and u.startswith('http'):
+                      urls.add(u)
+          pg = json.load(open('projects.geojson'))
+          for f in pg['features']:
+              for sec in f['properties'].get('doc_sections') or []:
+                  for doc in sec.get('docs', []):
+                      if doc.get('url', '').startswith('http'):
+                          urls.add(doc['url'])
+
+          done = set()
+          PROG = 'data/raw/wayback_done.json.gz'
+          if os.path.exists(PROG):
+              done = set(json.load(gzip.open(PROG, 'rt')))
+          todo = sorted(urls - done)
+          print(f'{len(urls)} known urls, {len(done)} archived, {len(todo)} to go', flush=True)
+
+          ok = fail = 0
+          for u in todo:
+              if time.time() - START > BUDGET:
+                  break
+              try:
+                  req = urllib.request.Request(
+                      'https://web.archive.org/save/' + u,
+                      headers={'User-Agent': 'canada-ea-map archive lane '
+                               '(github.com/towertonhunt/ontario-rea-map)'})
+                  urllib.request.urlopen(req, timeout=90).read(200)
+                  done.add(u)
+                  ok += 1
+              except Exception as e:
+                  # 429/5xx: back off; 404 at source: mark done, nothing to save
+                  code = getattr(e, 'code', None)
+                  if code in (404, 410):
+                      done.add(u)
+                  elif code == 429:
+                      time.sleep(120)
+                  fail += 1
+              time.sleep(9)   # stay well inside SPN rate limits
+              if (ok + fail) % 50 == 0:
+                  print(f'{ok} archived, {fail} errors', flush=True)
+                  buf = gzip.compress(json.dumps(sorted(done)).encode(), mtime=0)
+                  open(PROG, 'wb').write(buf)
+          buf = gzip.compress(json.dumps(sorted(done)).encode(), mtime=0)
+          open(PROG, 'wb').write(buf)
+          print(f'RUN DONE: {ok} archived, {fail} errors, '
+                f'{len(urls) - len(done)} remaining', flush=True)
+          EOF
+
+      - name: Commit progress
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git add data/raw/wayback_done.json.gz
+            git commit -m "Wayback lane progress [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 5
+          done
