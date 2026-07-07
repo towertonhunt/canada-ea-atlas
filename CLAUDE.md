@@ -43,6 +43,16 @@ sidebars (`docs_path` property -> `data/docs/<jur>/<id>.json`).
   Crawl capped by Azure search 100k-skip: comments tail unreachable, accepted.
 - fetch-north-geo.yml: every 6h — territories probes + GeoNames gazetteer
   (BROKEN: never commits data/geo/ca_places.json — debug unzip/csv step).
+- archive-wayback.yml: 4x daily — submits all known document URLs to
+  web.archive.org/save (progress: data/raw/wayback_done.json.gz; full
+  sweep of ~73k URLs takes ~2.5 months at SPN-safe pace, then freshness).
+- watch-new-filings.yml: daily — diffs newest federal registry entries
+  (sort=PostedDateDesc) vs federal_list_all.json.gz, appends new ones,
+  waybacks new doc pages immediately, queues them in
+  data/raw/new_filings_queue.json, and mirrors files to Drive
+  (gdrive:Canada-EA-Archive/) IF the repo secret RCLONE_DRIVE_TOKEN is
+  set — until then the queue just accumulates, nothing is lost. Extend
+  with BC EPIC dataset=Document diffing and proponent-site adapters.
 - fetch-on-permits.yml: daily — AMIS/compliance/assurance + active-mines recon.
 NOTE: scheduled runs execute the workflow version on MAIN. After fixing a
 lane on the branch, sync to main via PR (user authorized Claude to create
