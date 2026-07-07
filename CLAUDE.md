@@ -64,7 +64,13 @@ and merge PRs via GitHub MCP — pattern established PR #1, #2).
    waste_hazmat, etc.) -> scripts/merge_federal_conditions.py (positional
    join; condition_ids repeat in source, never join on them). NEXT:
    Ontario REA conditions same pass (ontario_conditions.json.gz is v1),
-   then wire both v2 sets into scripts/mitigation_predict.py.
+   ONTARIO DONE 2026-07-07 ->
+   ontario_conditions_v2.json.gz: 1,037 clean REA conditions of 2,319 v1
+   records (508 ERT hearing-notice/header/definition discards, 774
+   template dupes). Same shard pipeline: shards_ontario/ + 
+   scripts/merge_ontario_conditions.py. NEXT: wire all three v2 sets
+   (BC 741, federal 4,946, Ontario 1,037) into
+   scripts/mitigation_predict.py.
 2. Baseline engine: VALIDATED 2026-07-06 — Adelaide demo returns 4
    constraint HITs (wetland, waterbody, watercourse, aggregate). Root
    causes were (a) LIO ignoring distance/units -> client-side envelope;
