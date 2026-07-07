@@ -1,0 +1,2074 @@
+[
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-001",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-002",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-003",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-004",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-005",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-006",
+  "discipline": "surface_water",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-007",
+  "discipline": "fish_fish_habitat",
+  "discipline_secondary": [
+   "surface_water"
+  ],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-008",
+  "discipline": "surface_water",
+  "discipline_secondary": [],
+  "measure_type": "avoidance",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-009",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-010",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-011",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-012",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-013",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-014",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-015",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-016",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-017",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-018",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-019",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-020",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-021",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-022",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-023",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-024",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-025",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-026",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-127196VNH314pdf-027",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice service-address boilerplate, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-001",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-002",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-003",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-004",
+  "discipline": "closure_postclosure",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "closure",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-005",
+  "discipline": "closure_postclosure",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "closure",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-006",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-007",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-008",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-009",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-010",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-011",
+  "discipline": "surface_water",
+  "discipline_secondary": [
+   "soils_terrain"
+  ],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-012",
+  "discipline": "surface_water",
+  "discipline_secondary": [
+   "groundwater"
+  ],
+  "measure_type": "minimization",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-013",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-014",
+  "discipline": "socio_economic",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-015",
+  "discipline": "socio_economic",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-016",
+  "discipline": "socio_economic",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-017",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-018",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-019",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-020",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-021",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-022",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-023",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-024",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-025",
+  "discipline": "groundwater",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-026",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-027",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-028",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-029",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-030",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-031",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-032",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-033",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-034",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-035",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-036",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-037",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-038",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-22598HNM2J14pdf-039",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-13779AXRBK14pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Document header/address block, not a condition"
+ },
+ {
+  "condition_id": "ontario-rea-13779AXRBK14pdf-001",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-13779AXRBK14pdf-002",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-13779AXRBK14pdf-003",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-08928WPQ3C14pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Document header/address block, not a condition"
+ },
+ {
+  "condition_id": "ontario-rea-08928WPQ3C14pdf-001",
+  "discipline": "surface_water",
+  "discipline_secondary": [
+   "soils_terrain"
+  ],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-08928WPQ3C14pdf-002",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-08928WPQ3C14pdf-003",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-08928WPQ3C14pdf-004",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-86419XLKFH14pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-86419XLKFH14pdf-001",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-86419XLKFH14pdf-002",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-000",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-001",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-002",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-003",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-004",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-005",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-006",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-007",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-008",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-009",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-010",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-011",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-012",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-013",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-014",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-015",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-016",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-64448XWSCU14pdf-017",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Document header/address block, not a condition"
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-001",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-002",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-003",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-004",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-005",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-006",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-007",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-008",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-009",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-010",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-011",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-012",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-013",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-014",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-015",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-201092MS5M14pdf-016",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-5860A5GHVU14pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Document header/address block, not a condition"
+ },
+ {
+  "condition_id": "ontario-rea-5860A5GHVU14pdf-001",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5860A5GHVU14pdf-002",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5860A5GHVU14pdf-003",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5860A5GHVU14pdf-004",
+  "discipline": "accidents_malfunctions",
+  "discipline_secondary": [
+   "surface_water"
+  ],
+  "measure_type": "mitigation",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5860A5GHVU14pdf-005",
+  "discipline": "surface_water",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5860A5GHVU14pdf-006",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5860A5GHVU14pdf-007",
+  "discipline": "vegetation_ecosystems",
+  "discipline_secondary": [
+   "surface_water"
+  ],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5860A5GHVU14pdf-008",
+  "discipline": "vegetation_ecosystems",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5860A5GHVU14pdf-009",
+  "discipline": "species_at_risk",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5860A5GHVU14pdf-010",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-5860A5GHVU14pdf-011",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-5860A5GHVU14pdf-012",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Document header/address block, not a condition"
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-001",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-002",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-003",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-004",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-005",
+  "discipline": "closure_postclosure",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "closure",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-006",
+  "discipline": "closure_postclosure",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "closure",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-007",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-008",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-009",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-010",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-011",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-012",
+  "discipline": "surface_water",
+  "discipline_secondary": [
+   "soils_terrain"
+  ],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-013",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-014",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "noise_vibration"
+  ],
+  "measure_type": "management_plan",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-015",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "noise_vibration"
+  ],
+  "measure_type": "management_plan",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-016",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "noise_vibration"
+  ],
+  "measure_type": "management_plan",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-017",
+  "discipline": "accidents_malfunctions",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-018",
+  "discipline": "air_quality",
+  "discipline_secondary": [
+   "noise_vibration"
+  ],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-019",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-020",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-021",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-022",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-023",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-024",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-025",
+  "discipline": "air_quality",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-026",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-027",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-028",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-029",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-030",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-031",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-032",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-033",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-034",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-035",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-036",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-037",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-038",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-039",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-040",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-424988MR3514pdf-041",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-001",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-002",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-003",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-004",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-005",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-006",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-007",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-008",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-009",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-010",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-011",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-012",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-013",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-014",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-015",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-016",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-017",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-731892RJE914pdf-018",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-82359R2K9214pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Document header/address block, not a condition"
+ },
+ {
+  "condition_id": "ontario-rea-82359R2K9214pdf-001",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-82359R2K9214pdf-002",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-82359R2K9214pdf-003",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-001",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-002",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-003",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-004",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-005",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-006",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-007",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-008",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-009",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-010",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-011",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-012",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-013",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-014",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-5261ANRNUD14pdf-015",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-7273BFNJJN14pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Document header/address block, not a condition"
+ },
+ {
+  "condition_id": "ontario-rea-7273BFNJJN14pdf-001",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-7273BFNJJN14pdf-002",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-7273BFNJJN14pdf-003",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-72729WFPQF14pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-72729WFPQF14pdf-001",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-72729WFPQF14pdf-002",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-001",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-002",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-003",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-004",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-005",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-006",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-007",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-008",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-009",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-010",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-011",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-012",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-013",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-014",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-015",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-016",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-017",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-97288XWS5614pdf-018",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": true,
+  "discard_reason": "Hearing-notice appeal boilerplate fragment, not an obligation"
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-000",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-001",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-002",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-003",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "engagement",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-004",
+  "discipline": "closure_postclosure",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "closure",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-005",
+  "discipline": "closure_postclosure",
+  "discipline_secondary": [],
+  "measure_type": "management_plan",
+  "timing": "closure",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-006",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-007",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-008",
+  "discipline": "other",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": null,
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-009",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "minimization",
+  "timing": "operation",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-010",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "other",
+  "timing": "pre_construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-011",
+  "discipline": "noise_vibration",
+  "discipline_secondary": [],
+  "measure_type": "monitoring_followup",
+  "timing": "construction",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-012",
+  "discipline": "surface_water",
+  "discipline_secondary": [
+   "soils_terrain"
+  ],
+  "measure_type": "mitigation",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-013",
+  "discipline": "surface_water",
+  "discipline_secondary": [
+   "groundwater"
+  ],
+  "measure_type": "minimization",
+  "timing": "all_phases",
+  "discard": false
+ },
+ {
+  "condition_id": "ontario-rea-02488K8H9B14pdf-014",
+  "discipline": "archaeology_heritage",
+  "discipline_secondary": [],
+  "measure_type": "mitigation",
+  "timing": "pre_construction",
+  "discard": false
+ }
+]

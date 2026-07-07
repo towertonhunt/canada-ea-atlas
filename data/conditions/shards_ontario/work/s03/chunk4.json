@@ -1,0 +1,432 @@
+[
+{
+"i": 150,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 151,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 152,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 153,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 154,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 155,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "hearing notice service-address boilerplate bleed, not an obligation"
+},
+{
+"i": 156,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "document header / amendment preamble (definition or name change), not an obligation"
+},
+{
+"i": 157,
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"waste_hazmat"
+],
+"measure_type": "mitigation",
+"timing": "all_phases",
+"discard": false
+},
+{
+"i": 158,
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 159,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 160,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 161,
+"discipline": "closure_postclosure",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 162,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 163,
+"discipline": "noise_vibration",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 164,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 165,
+"discipline": "noise_vibration",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 166,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 167,
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 168,
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 169,
+"discipline": "surface_water",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 170,
+"discipline": "surface_water",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 171,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 172,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 173,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 174,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 175,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 176,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 177,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "hearing notice service-address boilerplate bleed, not an obligation"
+},
+{
+"i": 178,
+"discipline": "surface_water",
+"discipline_secondary": [
+"soils_terrain"
+],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 179,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 180,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 181,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "hearing notice service-address boilerplate bleed, not an obligation"
+},
+{
+"i": 182,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "document header / amendment preamble (definition or name change), not an obligation"
+},
+{
+"i": 183,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 184,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 185,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "hearing notice service-address boilerplate bleed, not an obligation"
+},
+{
+"i": 186,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "document header / amendment preamble (definition or name change), not an obligation"
+},
+{
+"i": 187,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "construction",
+"discard": false
+},
+{
+"i": 188,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 189,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 190,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "hearing notice service-address boilerplate bleed, not an obligation"
+},
+{
+"i": 191,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "document header / amendment preamble (definition or name change), not an obligation"
+},
+{
+"i": 192,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "construction",
+"discard": false
+},
+{
+"i": 193,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 194,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 195,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "hearing notice service-address boilerplate bleed, not an obligation"
+},
+{
+"i": 196,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "minimization",
+"timing": "all_phases",
+"discard": false
+},
+{
+"i": 197,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 198,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"i": 199,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "engagement",
+"timing": "pre_construction",
+"discard": false
+}
+]
