@@ -97,7 +97,8 @@ def main():
         if errs:
             bad.append(f"{r['condition_id']}: {'; '.join(errs)}")
             continue
-        key = (r.get('project_id'), norm_text(r.get('measure_text')))
+        key = (r.get('project_id') or r.get('project'),
+               norm_text(r.get('measure_text')))
         if key in seen:
             dupes += 1
             continue

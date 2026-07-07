@@ -32,15 +32,22 @@ TRIGGER_MAP = {
     'abandoned_mine': ['soils_terrain', 'waste_hazmat'],
 }
 # non-suppressible floors: fire for every project regardless of constraints
-FLOOR = ['indigenous_rights_tluse']
+FLOOR = ['indigenous_rights_tluse', 'accidents_malfunctions',
+         'archaeology_heritage']
 # archetype-rule disciplines
 ARCHETYPE_FLOOR = {
-    'mining': ['closure_postclosure', 'waste_hazmat', 'groundwater'],
-    'oil_gas': ['accidents_malfunctions', 'ghg_climate'],
-    'waste': ['groundwater', 'waste_hazmat'],
+    'mining': ['closure_postclosure', 'waste_hazmat', 'groundwater',
+               'surface_water'],
+    'oil_gas': ['accidents_malfunctions', 'climate_ghg', 'waste_hazmat'],
+    'waste': ['groundwater', 'waste_hazmat', 'air_quality'],
     'hydro': ['fish_fish_habitat', 'surface_water'],
-    'wind': ['wildlife_birds', 'noise_vibration'],
-    'solar': ['vegetation_ecosystems'],
+    'wind': ['wildlife_birds', 'noise_vibration', 'closure_postclosure'],
+    'solar': ['vegetation_ecosystems', 'noise_vibration',
+              'closure_postclosure'],
+    'biogas': ['air_quality', 'waste_hazmat', 'surface_water'],
+    'transport': ['noise_vibration', 'surface_water', 'socio_economic'],
+    'nuclear': ['human_health', 'waste_hazmat', 'accidents_malfunctions'],
+    'industrial': ['air_quality', 'surface_water'],
 }
 
 
@@ -58,35 +65,49 @@ def main():
 
     import glob
     recs = []
-    for path in glob.glob(os.path.join(ROOT, 'data', 'conditions', '*_conditions.json.gz')):
+    for path in sorted(glob.glob(os.path.join(ROOT, 'data', 'conditions',
+                                              '*_conditions_v2.json.gz'))):
         recs += json.load(gzip.open(path, 'rt'))
     if juris:
         recs = [r for r in recs if r.get('jurisdiction') in juris]
-    print(f'precedent pool: {len(recs)} conditions from jurisdictions: '
+    print(f'precedent pool: {len(recs)} v2 conditions from jurisdictions: '
           f'{sorted({r.get("jurisdiction") for r in recs})}')
+
+    def hits(r):
+        # a condition counts for a fired discipline via primary OR secondary
+        return (r['discipline'] in disciplines or
+                any(s in disciplines for s in r.get('discipline_secondary') or []))
+
     # candidate pool: same archetype (strong precedent) or same discipline
-    # from any archetype (weak precedent)
-    strong = [r for r in recs if r['project_archetype'] == archetype
-              and r['discipline'] in disciplines]
-    weak = [r for r in recs if r['project_archetype'] != archetype
-            and r['discipline'] in disciplines]
+    # from any archetype (weak precedent). Admin 'other' never fires.
+    strong = [r for r in recs if r['project_archetype'] == archetype and hits(r)]
+    weak = [r for r in recs if r['project_archetype'] != archetype and hits(r)]
+    # denominator: all projects of this archetype in the pool, whether or
+    # not they triggered the fired disciplines
+    arch_projects = {r['project_id'] or r['project'] for r in recs
+                     if r['project_archetype'] == archetype}
 
     def register(pool):
-        # group by (discipline, measure_type, plan) and rank by distinct projects
+        # group by (discipline, measure_type) and rank by distinct projects
         groups = defaultdict(list)
         for r in pool:
-            key = (r['discipline'], r['measure_type'], r.get('plan_required'))
-            groups[key].append(r)
+            groups[(r['discipline'], r['measure_type'])].append(r)
         rows = []
-        n_projects = len({r['project_id'] for r in pool}) or 1
-        for (disc, mt, plan), rs in groups.items():
+        n_projects = len(arch_projects) or 1
+        for (disc, mt), rs in groups.items():
+            if disc == 'other' and mt == 'other':
+                continue                     # pure admin machinery
             projs = sorted({r['project'] for r in rs})
+            timings = Counter(r.get('timing') for r in rs if r.get('timing'))
+            juris_mix = Counter(r['jurisdiction'] for r in rs)
             rows.append({
                 'discipline': disc,
                 'measure_type': mt,
-                'plan_required': plan,
                 'precedent_projects': len(projs),
                 'frequency': f'{len(projs)}/{n_projects} comparable projects',
+                'typical_timing': (timings.most_common(1)[0][0]
+                                   if timings else None),
+                'jurisdictions': dict(juris_mix),
                 'examples': projs[:4],
                 'sample_condition': rs[0]['measure_text'][:300],
                 'sample_source': rs[0]['source_doc'],
@@ -103,11 +124,11 @@ def main():
     json.dump(out, open(path, 'w'), ensure_ascii=False, indent=1)
 
     print(f'{len(reg)} mitigation families from {len(strong)} conditions '
-          f'across {len({r["project_id"] for r in strong})} {archetype} projects\n')
+          f'across {len({r["project_id"] or r["project"] for r in strong})} {archetype} projects\n')
     for row in reg[:12]:
-        plan = f' -> {row["plan_required"]}' if row['plan_required'] else ''
+        timing = f' @ {row["typical_timing"]}' if row['typical_timing'] else ''
         print(f'[{row["precedent_projects"]:>2} projects] {row["discipline"]} / '
-              f'{row["measure_type"]}{plan}')
+              f'{row["measure_type"]}{timing}')
         print(f'    e.g. {row["examples"][0]}: "{row["sample_condition"][:110]}..."')
     print(f'\nfull register -> {path}')
 
