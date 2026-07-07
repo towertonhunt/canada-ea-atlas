@@ -1,0 +1,1762 @@
+{
+ "archetype": "other",
+ "constraints": [],
+ "disciplines": [
+  "accidents_malfunctions",
+  "air_quality",
+  "archaeology_heritage",
+  "climate_ghg",
+  "closure_postclosure",
+  "cumulative_effects",
+  "fish_fish_habitat",
+  "groundwater",
+  "human_health",
+  "indigenous_rights_tluse",
+  "light",
+  "noise_vibration",
+  "socio_economic",
+  "soils_terrain",
+  "species_at_risk",
+  "surface_water",
+  "vegetation_ecosystems",
+  "visual_landscape",
+  "waste_hazmat",
+  "wetlands",
+  "wildlife_birds"
+ ],
+ "strong_precedents": [
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "mitigation",
+   "precedent_projects": 10,
+   "frequency": "10/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 68
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Boat Harbour Remediation Project",
+    "Eskay Creek Revitalization Project",
+    "Kemess Underground Project"
+   ],
+   "sample_condition": "The Proponent shall collect contact water, including groundwater seepage, that discharges into the environment from quarry and borrow areas used for the Designated Project during all phases of the Designated Project, and monitor and treat contact water, as necessary, prior to release into the receiv",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 10,
+   "frequency": "10/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 29
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Boat Harbour Remediation Project",
+    "Eskay Creek Revitalization Project",
+    "Kemess Underground Project"
+   ],
+   "sample_condition": "The Proponent shall develop, in consultation with Indigenous groups and relevant authorities, and implement, during construction and for at least the first three years of operation, a follow-up program to verify the accuracy of the environmental assessment and to determine the effectiveness of mitig",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "avoidance",
+   "precedent_projects": 10,
+   "frequency": "10/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 31
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Boat Harbour Remediation Project",
+    "Eskay Creek Revitalization Project",
+    "Kemess Underground Project"
+   ],
+   "sample_condition": "The Proponent shall carry out the Designated Project in a manner that protects migratory birds and avoids capturing, killing, taking, injuring or harassing migratory birds or destroying, taking or disturbing their eggs, or damaging, destroying, removing or disturbing nests protected under the Migrat",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "management_plan",
+   "precedent_projects": 10,
+   "frequency": "10/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 55
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Boat Harbour Remediation Project",
+    "Eskay Creek Revitalization Project",
+    "Hardrock Deposit Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups and relevant authorities, and implement an accidents and malfunctions response plan in relation to construction and operation of the Designated Project. The accidents and malfunctions response plan shall in",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "engagement",
+   "precedent_projects": 9,
+   "frequency": "9/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 17
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Boat Harbour Remediation Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Marathon Palladium Project"
+   ],
+   "sample_condition": "Where consultation with Indigenous groups is a requirement of a follow-up program, the Proponent shall discuss the follow-up program with each group and shall determine, in consultation with each group, opportunities for participation and resources required to support their participation in the impl",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "minimization",
+   "precedent_projects": 9,
+   "frequency": "9/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 30
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Eskay Creek Revitalization Project",
+    "Kemess Underground Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project"
+   ],
+   "sample_condition": "The Proponent shall implement and maintain, at a minimum, the following mitigation measures to control sedimentation, runoff and erosion in the Designated Project area, as appropriate, during construction and operation while taking into account Canadian Council of Ministers of the Environment&apos;s",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 9,
+   "frequency": "9/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 21
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Boat Harbour Remediation Project",
+    "Kemess Underground Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups and relevant authorities, a follow-up program to verify the accuracy of the environmental assessment and to determine the effectiveness of mitigation measures to avoid harm to migratory birds, including mig",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "mitigation",
+   "precedent_projects": 8,
+   "frequency": "8/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 25
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Boat Harbour Remediation Project",
+    "Kemess Underground Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project"
+   ],
+   "sample_condition": "The Proponent shall determine, as determined by and under the direction of a Qualified Individual and using non-intrusive methods, the presence, or likely presence of migratory bird nest(s) protected under the Migratory Birds Convention Act, 1994 and its regulations and residences protected under th",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 8,
+   "frequency": "8/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 28
+   },
+   "examples": [
+    "Boat Harbour Remediation Project",
+    "Eskay Creek Revitalization Project",
+    "Kemess Underground Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups and relevant authorities, a follow-up program to verify the accuracy of the environmental assessment and to determine the effectiveness of mitigation measures with respect to effects to health of Indigenous",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "mitigation",
+   "precedent_projects": 8,
+   "frequency": "8/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 19
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Boat Harbour Remediation Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Marathon Palladium Project"
+   ],
+   "sample_condition": "In the event of an accident or malfunction with the potential to cause adverse environmental effects, including an accident or a malfunction referred to in condition 10.1.1, the Proponent shall immediately implement the measures appropriate to remedy the accident or malfunction, including any measur",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "avoidance",
+   "precedent_projects": 7,
+   "frequency": "7/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 18
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Kemess Underground Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Marathon Palladium Project"
+   ],
+   "sample_condition": "The Proponent shall identify, prior to construction and in consultation with Indigenous groups, Fisheries and Oceans Canada, and other relevant authorities, restricted activity timing windows during which in-water work should be avoided, if possible, to reduce the risk of harm to fish and fish habit",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "mitigation",
+   "precedent_projects": 7,
+   "frequency": "7/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 23
+   },
+   "examples": [
+    "Boat Harbour Remediation Project",
+    "Kemess Underground Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Marathon Palladium Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups, and implement during construction, mitigation measures for physical and cultural heritage resources and sites of significance within the Designated Project area that could be affected by the Designated Pro",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "minimization",
+   "precedent_projects": 7,
+   "frequency": "7/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 16
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Boat Harbour Remediation Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Marathon Palladium Project"
+   ],
+   "sample_condition": "The Proponent shall implement, during all phases of the Designated Project, measures to mitigate adverse effects from lighting associated with the Designated Project on migratory birds while meeting operation and safety requirements. As part of these measures, the Proponent shall: 4.4.1 use directio",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/160592"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "mitigation",
+   "precedent_projects": 7,
+   "frequency": "7/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 44
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Kemess Underground Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Marathon Palladium Project"
+   ],
+   "sample_condition": "The Proponent shall develop and implement measures, in consultation with relevant authorities, to reduce mortality risks to the northern leopard frog ( Lithobates pipiens ) and snapping turtle ( Chelydra serpentina ) caused by the Designated Project in terrestrial and aquatic habitats. As part of th",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/157119"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "minimization",
+   "precedent_projects": 6,
+   "frequency": "6/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 35
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project",
+    "Project 4 - All-Season Road Connecting Berens River to Poplar River First Nation"
+   ],
+   "sample_condition": "The Proponent shall implement measures to mitigate fugitive dust emissions attributable to the Designated Project, including by applying non-chemical dust suppressants, including water, on Designated Project roads during construction and operation when dust is expected or is occurring, such as perio",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "engagement",
+   "precedent_projects": 6,
+   "frequency": "6/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 13
+   },
+   "examples": [
+    "Boat Harbour Remediation Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Marathon Palladium Project",
+    "Project 4 - All-Season Road Connecting Berens River to Poplar River First Nation"
+   ],
+   "sample_condition": "The Proponent shall retain, prior to construction, the services of Indigenous monitor(s) to participate in the implementation of follow-up programs. Prior to retaining the services of Indigenous monitor(s), the Proponent shall undertake a collaborative process to determine, in consultation with Indi",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 6,
+   "frequency": "6/12 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 16
+   },
+   "examples": [
+    "Boat Harbour Remediation Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to remediation and to the satisfaction of Fisheries and Oceans Canada and implement any offsetting plan(s) to offset effects from the harmful alteration, disruption, or destruction of fish and fish habitat, and the death of fish associated with the carrying out of ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/160592"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "mitigation",
+   "precedent_projects": 5,
+   "frequency": "5/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 19
+   },
+   "examples": [
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Marathon Palladium Project",
+    "Project 4 - All-Season Road Connecting Berens River to Poplar River First Nation",
+    "Project 6 - All-Season Road Linking Manto Sipi Cree Nation,  Bunibonibee Cree Nation and God's Lake First Nation"
+   ],
+   "sample_condition": "The Proponent shall conduct, in consultation with Indigenous groups, progressive reclamation of areas disturbed by the Designated Project. In doing so, the Proponent shall: 6.1.1 identify in consultation with Indigenous groups plant species native to the region and plant species used for traditional",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 5,
+   "frequency": "5/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 8
+   },
+   "examples": [
+    "Kemess Underground Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Marathon Palladium Project",
+    "Project 4 - All-Season Road Connecting Berens River to Poplar River First Nation"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction in consultation with Indigenous groups and relevant authorities, and implement during construction, a follow-up program to verify the accuracy of the environmental assessment and determine the effectiveness of mitigation measures as it pertains to t",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "management_plan",
+   "precedent_projects": 5,
+   "frequency": "5/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 23
+   },
+   "examples": [
+    "Boat Harbour Remediation Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to site preparation and in consultation with the Mi&apos;kmaq of Nova Scotia, Nova Scotia Communities, Culture, Tourism and Heritage and any other relevant authorities, and implement, during all phases of the Designated Project, a cultural resource management plan ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/160592"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "engagement",
+   "precedent_projects": 5,
+   "frequency": "5/12 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 8
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Boat Harbour Remediation Project",
+    "Kemess Underground Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall consult, prior to site preparation, the Mi&apos;kmaq of Nova Scotia and relevant authorities about the measures to be implemented to prevent accidents and malfunctions.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/159329"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 5,
+   "frequency": "5/12 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 51
+   },
+   "examples": [
+    "Kemess Underground Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall, in consultation with Indigenous groups, conduct pre-construction surveys to identify active nests for short-eared owl ( Asio flammeus ), and active roosts for little brown myotis ( Myotis lucifugus ) and northern myotis ( Myotis septentrionalis ) within the Designated Project ar",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/157119"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "mitigation",
+   "precedent_projects": 5,
+   "frequency": "5/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 9
+   },
+   "examples": [
+    "Kemess Underground Project",
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project",
+    "Project 4 - All-Season Road Connecting Berens River to Poplar River First Nation"
+   ],
+   "sample_condition": "The Proponent shall conduct progressive reclamation of areas disturbed by the Designated Project. The Proponent shall use native Ontario groundcover species and nurse crops when conducting progressive reclamation.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "management_plan",
+   "precedent_projects": 4,
+   "frequency": "4/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Eskay Creek Revitalization Project",
+    "Marathon Palladium Project",
+    "Project 4 - All-Season Road Connecting Berens River to Poplar River First Nation",
+    "Project 6 - All-Season Road Linking Manto Sipi Cree Nation,  Bunibonibee Cree Nation and God's Lake First Nation"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups, a communication plan for the purpose of sharing information with Indigenous groups about activities that may affect the current use of lands and resources by Indigenous Peoples. The Proponent shall impleme",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "mitigation",
+   "precedent_projects": 4,
+   "frequency": "4/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Boat Harbour Remediation Project",
+    "Marathon Palladium Project",
+    "Rainy River Project"
+   ],
+   "sample_condition": "The Proponent shall design and construct the containment cell in a manner such that the waste can be removed and the containment cell can be decommissioned. 10 Accidents and malfunctions",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/160592"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "avoidance",
+   "precedent_projects": 4,
+   "frequency": "4/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 30
+   },
+   "examples": [
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project",
+    "Project 4 - All-Season Road Connecting Berens River to Poplar River First Nation"
+   ],
+   "sample_condition": "If active nests or roosts are identified pursuant to condition 5.1, the Proponent shall: 5.2.1 establish 500 metre buffer zones around little brown myotis ( Myotis lucifugus ) and northern myotis ( Myotis septentrionalis ) active roosts until the roosts are no longer active; and 5.2.2 establish buff",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/157119"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 4,
+   "frequency": "4/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 11
+   },
+   "examples": [
+    "Kemess Underground Project",
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project",
+    "Rainy River Project"
+   ],
+   "sample_condition": "If any hibernating site (residence) for western chorus frog ( Pseudacris triseriata ) identified through the surveys conducted pursuant to condition 8.5 will be temporarily or permanently affected by any activity associated with the Designated Project, the Proponent shall replace the affected site (",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "avoidance",
+   "precedent_projects": 3,
+   "frequency": "3/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Milton Logistics Hub Project",
+    "Project 6 - All-Season Road Linking Manto Sipi Cree Nation,  Bunibonibee Cree Nation and God's Lake First Nation",
+    "Rainy River Project"
+   ],
+   "sample_condition": "The Proponent shall develop, in consultation with Indigenous groups, and implement, during construction and operation, measures to avoid the introduction or propagation of invasive alien terrestrial and aquatic species in the Designated Project area. At a minimum, the Proponent shall clean Designate",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "avoidance",
+   "precedent_projects": 3,
+   "frequency": "3/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Project 4 - All-Season Road Connecting Berens River to Poplar River First Nation",
+    "Project 6 - All-Season Road Linking Manto Sipi Cree Nation,  Bunibonibee Cree Nation and God's Lake First Nation"
+   ],
+   "sample_condition": "The Proponent shall prohibit Designated Project employees and contractors from fishing, hunting, trapping, plant gathering and using off-road vehicles for recreation purposes within the Designated Project area or using the Designated Project area to access surrounding areas for these purposes unless",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "mitigation",
+   "precedent_projects": 3,
+   "frequency": "3/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Boat Harbour Remediation Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall implement, from site preparation and continuing through closure, measures to mitigate fugitive dust and particulate emissions within the Site Study Area. In doing so, the Proponent shall: 5.1.1 apply water, or any alternative dust suppressant determined in consultation with Healt",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/160592"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "engagement",
+   "precedent_projects": 3,
+   "frequency": "3/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 12
+   },
+   "examples": [
+    "Boat Harbour Remediation Project",
+    "Milton Logistics Hub Project",
+    "Rainy River Project"
+   ],
+   "sample_condition": "The Proponent shall identify, prior to site preparation and in consultation with the Mi&apos;kmaq of Nova Scotia, opportunities for the Mi&apos;kmaq of Nova Scotia to take part in monitoring Designated Project activities that may result in the discovery of any previously unidentified structures, sit",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/160592"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "minimization",
+   "precedent_projects": 3,
+   "frequency": "3/12 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Project 4 - All-Season Road Connecting Berens River to Poplar River First Nation",
+    "Project 6 - All-Season Road Linking Manto Sipi Cree Nation,  Bunibonibee Cree Nation and God's Lake First Nation"
+   ],
+   "sample_condition": "The Proponent shall, during operation, establish no stopping zones for vehicles, along the Designated Project and adjacent to all watercourses, to limit access to fish-bearing watercourses.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163679"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 3,
+   "frequency": "3/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Project 4 - All-Season Road Connecting Berens River to Poplar River First Nation",
+    "Rainy River Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups, and relevant authorities, a follow-up program to verify the accuracy of the environmental assessment and determine the effectiveness of the progressive revegetation of areas disturbed by the Designated Pro",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/157119"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 3,
+   "frequency": "3/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 15
+   },
+   "examples": [
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall have a qualified individual conduct, prior to construction and in consultation with Indigenous groups, an archaeological assessment in accordance with Manitoba&apos;s Heritage Resources Act at Snake Island, Lake St. Martin Narrows, burial sites on Indigenous lands along Lake St. ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/157119"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "avoidance",
+   "precedent_projects": 3,
+   "frequency": "3/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 10
+   },
+   "examples": [
+    "Kemess Underground Project",
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall select, in consultation with Indigenous groups and relevant authorities, the final locations for work camps, quarries and laydown areas. In doing so, the Proponent shall: 8.6.1 consider the preferred sites identified in Appendix IAAC -R2-12-1 and Appendix IAAC -R2-12-2 of the Fin",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/157119"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 3,
+   "frequency": "3/12 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 11
+   },
+   "examples": [
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project",
+    "Rainy River Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Environment and Climate Change Canada, Health Canada, the Ontario Ministry of the Environment, Conservation and Parks, Halton Region, the Town of Milton, the Mississaugas of the Credit First Nation and the Six Nations of the",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "engagement",
+   "precedent_projects": 3,
+   "frequency": "3/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall advise the Mississaugas of the Credit First Nation, the Six Nations of the Grand River and Conservation Halton on how the views and information they provided to the Proponent as part of the development of the offsetting plan referred to in condition 7.5 have been considered by th",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "minimization",
+   "precedent_projects": 3,
+   "frequency": "3/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 8
+   },
+   "examples": [
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project",
+    "Rainy River Project"
+   ],
+   "sample_condition": "The Proponent shall install and maintain, during all phases of the Designated Project, signs to notify drivers of the risk of turtle collisions along any temporary and permanent road located within the Designated Project Development Area. The Proponent shall take into account Ontario&apos;s Best Man",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 7
+   },
+   "examples": [
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Project 6 - All-Season Road Linking Manto Sipi Cree Nation,  Bunibonibee Cree Nation and God's Lake First Nation"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups and Fisheries and Oceans Canada, and implement during construction and operation, an explosive and blasting management plan when using explosives in or around fish-bearing waters. In doing so, the Proponent",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Boat Harbour Remediation Project",
+    "Project 6 - All-Season Road Linking Manto Sipi Cree Nation,  Bunibonibee Cree Nation and God's Lake First Nation"
+   ],
+   "sample_condition": "The Proponent shall establish, prior to construction, and implement, during construction, a process for receiving and addressing complaints related to noise and vibration. As part of the process, the Proponent shall address complaints within 48 hours of the complaint being received and implement cor",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 9
+   },
+   "examples": [
+    "Milton Logistics Hub Project",
+    "Project 6 - All-Season Road Linking Manto Sipi Cree Nation,  Bunibonibee Cree Nation and God's Lake First Nation"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups and relevant authorities, a follow-up program to verify the accuracy of the environmental assessment and to determine the effectiveness of mitigation measures with respect to effects to wetlands and plant s",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164727"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "other",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Eskay Creek Revitalization Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "In the event of an accident or malfunction with the potential to cause adverse federal effects, the Proponent shall submit a written report to the Agency no later than 60 days after the day on which the accident or malfunction occurred. The written report shall include: 7.1.1 a detailed description ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/165151"
+  },
+  {
+   "discipline": "climate_ghg",
+   "measure_type": "other",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Eskay Creek Revitalization Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "Extent to Which the Likely Effects of the Designated Project Contribute to the Government of Canada&apos;s Ability to Meet Its Environmental Obligations and Its Commitments in Respect of Climate Change In considering whether the adverse effects within federal jurisdiction are justified in the public",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164703"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups and relevant authorities, a wetland compensation plan to offset the residual effects of the Designated Project on wetlands, including class 2 wetlands, resulting from project-related changes in surface and ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/157119"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "engagement",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 8
+   },
+   "examples": [
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall identify, prior to construction, parties that may be potentially affected by the Designated Project or by any environmental effect of the Designated Project, which shall include representatives of local and municipal governments, nearby residents, community organizations and busi",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 8
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with potentially affected parties, a community liaison communication process. The Proponent shall implement the community liaison communication process throughout all phases of the Designated Project. The Proponent shall include,",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "light",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 12
+   },
+   "examples": [
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall manage, during all phases of the Designated Project, lighting within the Designated Project Development Area such that light trespass and glare from the Designated Project meet or surpass: 4.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 11
+   },
+   "examples": [
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall manage noise throughout all phases of the Designated Project so that the Designated Project causes the acoustic environment at any receptor location identified by the Proponent on figure 3 of the document entitled Technical Data Report Noise Effects Assessment (Appendix E.10) (Ca",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 7
+   },
+   "examples": [
+    "Milton Logistics Hub Project",
+    "Project 4 - All-Season Road Connecting Berens River to Poplar River First Nation"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with potentially affected parties and the Town of Milton, a communication protocol to share information related to noise attributed to construction of the Designated Project. The Proponent shall implement the protocol during cons",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 21
+   },
+   "examples": [
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall design, in consultation with Conservation Halton, the Town of Milton, Environment and Climate Change Canada, Fisheries and Oceans Canada, other relevant authorities, the Mississaugas of the Credit First Nation and the Six Nations of the Grand River, and implement the Designated P",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 12
+   },
+   "examples": [
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Environment and Climate Change Canada, Fisheries and Oceans Canada, the Town of Milton, Conservation Halton and other relevant authorities, and implement a follow-up program to verify the accuracy of the environmental assess",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Natural Resources Canada, Conservation Halton and other relevant authorities, and implement a follow-up program to verify the accuracy of the environmental assessment and determine the effectiveness of mitigation measures as",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 11
+   },
+   "examples": [
+    "Milton Logistics Hub Project",
+    "Project 4 - All-Season Road Connecting Berens River to Poplar River First Nation"
+   ],
+   "sample_condition": "The Proponent shall design, in consultation with Conservation Halton, and maintain, throughout operation, drainage features around Designated Project components, including culverts beneath the mainline, to maintain baseline drainage and inflows and outflows to and from any pre-existing wetland that ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall minimize soil disturbance and shall retain vegetation, including wildlife trees, within and around the Designated Project Development Area, to the extent that it is technically feasible or unless required to meet engineering requirements for safe railway and facility operation.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "climate_ghg",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "As part of the annual report referred to in condition 2.11, \nthe Proponent shall report its progress in meeting the \nfive-year targets established during the development of \nthe plan (air pollutant and greenhouse gas emissions \nreduction plan for locomotives). \nSection 7.3.2, and Appendix 1 \n4.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Marathon Palladium Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "Implement any mitigation measure and/or follow-up program requirement that the Proponent determined is required to \naddress feedback received (including any modified or additional mitigation measure and/or modified or additional follow-up \nprogram requirement); and \nActivities Undertaken to Comply w",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "avoidance",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "Not handling non-enclosed granular materials during sustained high wind conditions; \nActivities Undertaken to Comply with Condition: \nAs part of the contractor agreement, the handling of granular materials during sustained high wind conditions is restricted. Dust \nmonitoring and dust suppressant mit",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Milton Logistics Hub Project",
+    "Project 4 - All-Season Road Connecting Berens River to Poplar River First Nation"
+   ],
+   "sample_condition": "The Proponent shall implement measures, during construction, to avoid the introduction or spread of invasive vegetation \nwithin the Designated Project Development Area, including from equipment brought on-site from other worksites and \nfrom imported fill. In doing so, the Proponent shall take into a",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall provide regular awareness training about actions to \ntake to protect wildlife to all employees and contractors associated with \nthe Designated Project who may encounter wildlife within the \nDesignated Project Development Area. \nPrior to \nconstruction \nOngoing \nActivities Planned ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "climate_ghg",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Marathon Palladium Project"
+   ],
+   "sample_condition": "The Proponent shall implement mitigation measures to reduce Designated Project-related greenhouse gas emissions during all phases of the Designated Project. As part of these mitigation measures, the Proponent shall: 5.1.1 develop and implement an anti-idling policy for all vehicles and motorized equ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/145680"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Marathon Palladium Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to operation, and in consultation with Biigtigong Nishnaabeg, other Indigenous groups, Environment and Climate Change Canada, Ontario Ministry of Mines, and other relevant authorities, a final reclamation plan for the Designated Project, taking into account Ontario",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/145680"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Bay du Nord Development Project",
+    "Marathon Palladium Project"
+   ],
+   "sample_condition": "The Proponent shall conduct, prior to construction, a quantitative risk assessment of the likelihood and severity of potential hazards associated with a release of mill process chemicals during transport using a risk matrix system or other equivalent approach, and assign risk ratings.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/145680"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Eskay Creek Revitalization Project"
+   ],
+   "sample_condition": "Impacts of the Likely Effects of the Designated Project on Indigenous Groups and the Adverse Impacts that those Effects May Have on the Rights of Indigenous peoples In considering whether the Designated Project&apos;s significant adverse effects within federal jurisdiction are justified in the publi",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164703"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Boat Harbour Remediation Project"
+   ],
+   "sample_condition": "The Proponent shall establish, prior to site preparation and in consultation with Pictou Landing First Nation, an Advisory Committee for the purpose of identifying any technically and economically feasible alternative location(s) for the long-term storage of the waste. The Proponent shall invite Pic",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/160592"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Project 6 - All-Season Road Linking Manto Sipi Cree Nation,  Bunibonibee Cree Nation and God's Lake First Nation"
+   ],
+   "sample_condition": "The Proponent shall perform blasting activities only on weekdays between 9:00 a.m. and 4:00 p.m. and avoid blasting on statutory holidays and days of cultural importance as identified in consultation with Indigenous groups.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163679"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project"
+   ],
+   "sample_condition": "The Proponent shall, when developing and operating quarry sites for the Designated Project, do so in such a way that the water table is not intersected when extracting quarry materials in locations where depressurization drawdown overlaps with the depressurization zone for the Lake Manitoba Outlet C",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/157119"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups and relevant authorities, and implement a progressive revegetation plan for areas disturbed by the Designated Project for the purpose of controlling erosion and invasive species and encouraging the establis",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/157119"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Lake Manitoba and Lake St. Martin Outlet Channels Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction, and implement during construction and operation, a tree planting program to replace the trees lost during the construction of the designated project. The Proponent shall develop and implement the program in consultation with Indigenous groups. In d",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/157119"
+  },
+  {
+   "discipline": "light",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 9
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall measure, prior to construction, baseline light trespass and glare at the eight sites identified by the Proponent in table 4.5 of the document entitled Technical Data Report Light (Appendix E.8) (Canadian Impact Assessment Registry Reference Number 80100, Document Number 57).",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "light",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction, mitigation measures to control the direction, timing and intensity of lighting within the Designated Project Development Area to mitigate adverse environmental effects of the Designated Project (including on migratory birds), while meeting engineer",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall conduct construction activities during daytime, unless not technically feasible. If the Proponent must conduct any construction activity that produces noise during nighttime, the Proponent shall notify the local community prior to undertaking the activity according to the communi",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 10
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with the Mississaugas of the Credit First Nation, the Six Nations of the Grand River, Health Canada, the Canadian Transportation Agency and other relevant authorities, and implement a follow-up program to verify the accuracy of t",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to operation and in consultation with Environment and Climate Change Canada, Transport Canada and other relevant authorities, an air pollutant and greenhouse gas emissions reduction plan to encourage continual improvements in the reduction of air pollutant and gree",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "As part of the annual report referred to in condition 2.11, the Proponent shall report its progress in meeting the five-year targets established during the development of the plan.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall not use salt for de-icing or traction control purposes within the Designated Project Development Area during any phase of the Designated Project, unless other technically and economically feasible methods for de-icing or traction control purposes may result in unsafe construction",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall implement measures to prevent wet concrete or cement-laden water, including high pH run-off occurring during concrete work, from entering any wetland or waterbody during construction.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall develop, in consultation with Conservation Halton and other relevant authorities, and implement measures to maintain baseline groundwater flow and prevent the preferential movement of groundwater along servicing alignments.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall establish and maintain, during all phases of the Designated Project, a buffer of undisturbed vegetation around all retained and constructed wetlands and along riparian areas located within the Designated Project Development Area. In doing so, the Proponent shall: 6.4.1 determine ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall handle and store soils during construction in a manner that protects soil quality for re-use. In the event that the Proponent encounters contaminated soils during construction, the Proponent shall determine the suitability of re-using that soil before re-using it. The Proponent s",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Conservation Halton and other relevant authorities, and implement a follow-up program to verify the accuracy of the environmental assessment and determine the effectiveness of the mitigation measures as it pertains to progre",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall provide regular awareness training about actions to take to protect wildlife to all employees and contractors associated with the Designated Project who may encounter wildlife within the Designated Project Development Area.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall provide additional agricultural lease opportunities or rehabilitate or improve agricultural lands under the care and control of the Proponent within properties adjacent to the Designated Project Development Area in consultation with Halton Region, the Town of Milton and represent",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall consider, as part of the Heritage Impact Assessment, removal or demolition of any cultural heritage resource under the care and control of the Proponent only if no other options for re-use are technically and economically feasible.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163036"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "As part of the annual report referred to in condition 2.11, \nthe Proponent shall report the number of container \ntrucks entering and exiting the Designated Project \nDevelopment Area, including the number of container \ntrucks entering the Designated Project Development \nArea with a container or witho",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The quarterly reports related to noise complaints referred to in condition 4.9.3;  \nActivities Undertaken to Comply with Condition: \nCondition Fulfilled. See 2022 Annual Report for details. Any noise complaints were communicated to the CCC in the quarterly \nreports available on the Project website. ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "light",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "Provide the results of the evaluation to the Agency and relevant authorities prior to construction, including the sources of \ninformation and methodology used for the evaluation; and  \nActivities Undertaken to Comply with Condition: \nCondition fulfilled. See 2021 Annual Report for details.  \n4.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "Construct, prior to operation, and maintain, throughout operation, noise barriers and/or vegetated berms within the Designated \nProject Development Area. The Proponent shall determine the locations and heights of the noise barriers and/or vegetated \nberms prior to construction and shall provide that",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall implement, during all phases of the Designated Project, measures to mitigate fugitive dust emissions \nattributed to the Designated Project, including by: \nActivities Undertaken to Comply with Condition: \nIn 2022, measures to mitigate fugitive dust emissions attributed to the Proj",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "Submit to the Agency, prior to construction, the results of the feature-based water balance analysis conducted pursuant \nto condition 6.2.1 and how the Proponent took into account these results pursuant to conditions 6.2.2 and 6.2.3. \nActivities Undertaken to Comply with Condition: \nCondition fulfil",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "Conduct work or activity within the buffer only to the extent necessary to meet engineering requirements for safe \nrailway and facility operation, to install and maintain erosion or sediment control measures and to conduct channel \nrealignment, restoration and naturalization work. \nActivities Undert",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall handle and store soils during construction in a manner that protects soil quality for re-use. In the \nevent that the Proponent encounters contaminated soils during construction, the Proponent shall determine the \nsuitability of re-using that soil before re-using it. The Proponent",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "Submit a report containing the land use history, construction details and photographic record made pursuant to condition \n11.2.1 to the Agency and potentially affected parties. The Proponent shall also make the information available to a local \nlibrary or museum. \nActivities Undertaken to Comply wit",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall carry out the Designated Project such that no more \nthan 450,000 containers are handled by the Designated Project per \ncalendar year. \n - -  \nActivities Planned to Fulfill Condition: \nThe Project has been designed to handle no more than 450,000 containers per calendar year. CN wi",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Milton Logistics Hub Project"
+   ],
+   "sample_condition": "The Proponent shall estimate, prior to construction, the dewatering \nrequirements of the Designated Project and shall provide that \ninformation to the Agency prior to construction. In the event that the \nProponent determines that construction of the Designated Project \nJune 2020 End of construction ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/151893"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Marathon Palladium Project"
+   ],
+   "sample_condition": "The Proponent shall conduct field-scale geochemical testing of waste rock and process solids to verify the magnitude and onset of potential metal leaching, including platinum group metals and mercury, and acid rock drainage in waste rock and tailings during construction and operation.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/145680"
+  },
+  {
+   "discipline": "climate_ghg",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Marathon Palladium Project"
+   ],
+   "sample_condition": "The Proponent shall develop, within 270 days of the issuance of the Decision Statement and in consultation with Environment and Climate Change Canada, Biigtigong Nishnaabeg and other Indigenous groups, and implement, during all phases of the Designated Project, a greenhouse gas management plan to re",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/145680"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Marathon Palladium Project"
+   ],
+   "sample_condition": "Proponent shall develop, prior to construction and in consultation with Biigtigong Nishnaabeg, and implement during all phases of the Designated Project, a follow-up program to verify the accuracy of the environmental assessment and determine the effectiveness of the mitigation measures described in",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/145680"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Marathon Palladium Project"
+   ],
+   "sample_condition": "The Proponent shall establish, prior to construction and in consultation with Indigenous groups and relevant authorities, and implement, during all phases of the Designated Project, an Independent Tailings Review Board ( ITRB ) to review and advise on the design, construction (including dam raises) ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/145680"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Kemess Underground Project"
+   ],
+   "sample_condition": "The Proponent shall take all reasonable measures to prevent accidents and malfunctions that may result in adverse environmental effects.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/137914"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Bay du Nord Development Project"
+   ],
+   "sample_condition": "The Proponent shall treat all discharges from Designated Project activities prior to discharging into the marine environment, in order to, at a minimum, meet the volumes and concentration limits identified in the Offshore Waste Treatment Guidelines , issued jointly by the National Energy Board, the ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/143500"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Bay du Nord Development Project"
+   ],
+   "sample_condition": "The Proponent shall report any collisions of a Designated Project vessel with marine mammals or sea turtles to the Board, the Canadian Coast Guard Regional Operations Centre, and any other relevant authorities as soon as reasonably practicable but no later than 24 hours following the collision, and ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/143500"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Bay du Nord Development Project"
+   ],
+   "sample_condition": "The Proponent shall participate in research and monitoring programs pertaining to the effects of light attraction on migratory birds in offshore areas and mitigation measures to reduce the attraction of migratory birds to lighting, where available and agreed upon by the party(ies) responsible for th",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/143500"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Bay du Nord Development Project"
+   ],
+   "sample_condition": "The Proponent shall provide the details of its operation, including the safety exclusion zones and anti-collision zones for the duration of the Designated Project, and the location information of any decommissioned subsea infrastructure if left on the seafloor, to Fisheries and Oceans Canada, the Ma",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/143500"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "financial_assurance",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Bay du Nord Development Project"
+   ],
+   "sample_condition": "In the event of an accident or malfunction, the Proponent shall comply with the requirements of the Accord Acts and the Canada-Newfoundland and Labrador Offshore Financial Requirement Regulations and the requirements described in the Compensation Guidelines Respecting Damages Relating to Offshore Pe",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/143500"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Project 4 - All-Season Road Connecting Berens River to Poplar River First Nation"
+   ],
+   "sample_condition": "The Proponent shall assess, prior to construction, acid generation potential and metal leaching potential along the all-season road right-of-way and temporary access routes and at proposed quarry sites and borrow areas using validated assessment methods and quality assurances and quality control pro",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/119345"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Rainy River Project"
+   ],
+   "sample_condition": "The Proponent shall alert the Aboriginal groups in cases of exceedances of the Canadian Ambient Air Quality Standards and air quality requirements established by Ontario at the nearest human receptor.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/100888"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/12 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Rainy River Project"
+   ],
+   "sample_condition": "The Proponent shall alert Aboriginal groups who use wells located within the open pit dewatering zone of influence for drinking water in cases of exceedance of water quality standards established by Ontario. The Proponent shall alert these Aboriginal groups as soon as possible once any exceedance is",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/100888"
+  }
+ ],
+ "weak_pool_size": 4034
+}

@@ -1,0 +1,1570 @@
+{
+ "archetype": "transport",
+ "constraints": [],
+ "disciplines": [
+  "accidents_malfunctions",
+  "air_quality",
+  "archaeology_heritage",
+  "climate_ghg",
+  "closure_postclosure",
+  "cumulative_effects",
+  "fish_fish_habitat",
+  "groundwater",
+  "human_health",
+  "indigenous_rights_tluse",
+  "light",
+  "noise_vibration",
+  "socio_economic",
+  "soils_terrain",
+  "species_at_risk",
+  "surface_water",
+  "vegetation_ecosystems",
+  "visual_landscape",
+  "waste_hazmat",
+  "wetlands",
+  "wildlife_birds"
+ ],
+ "strong_precedents": [
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "avoidance",
+   "precedent_projects": 7,
+   "frequency": "7/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 6,
+    "federal": 10
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Contrecoeur Port Terminal Expansion Project",
+    "Greenville to Kincolith Road",
+    "Marine Terminal Project on the North Shore of the Saguenay"
+   ],
+   "sample_condition": "The Owner must ensure that vegetation clearing will be done outside the general bird breeding season from April 1 to July 31 unless otherwise approved by the CWS and MWLAP.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "management_plan",
+   "precedent_projects": 6,
+   "frequency": "6/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 19
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "RAVCO will review the Concessionaire's Spill Prevention and Emergency Response Plan, currently being developed, and commits to ensuring the Concessionaire responds rapidly and effectively to any emergency events or spill incidents. The Owner will enforce spill reporting protocols. The EAC Applicatio",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 6,
+   "frequency": "6/7 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 10
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Owner will finalize a Habitat Mitigation and Compensation Plan or ensure that such a Plan is finalized, to accompany a sect. 35(2) Fisheries Act Authorization. The overriding objective of this Plan in its final form is to demonstrate that the guiding principle of \"no net loss\" in DFO's Policy fo",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "mitigation",
+   "precedent_projects": 6,
+   "frequency": "6/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 19
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Owner will ensure that the operation activities of the Project complies with DFO sect. 35(2) Fisheries Act Authorization terms and conditions, as well as terms and conditions of other Permits, Approvals and Authorizations.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "mitigation",
+   "precedent_projects": 6,
+   "frequency": "6/7 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 11
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Owner is responsible for addressing the inadvertent exposure of archaeological remains during Project development. The Owner must ensure that the pending Section 14 Inspection Permit application pursuant to the BC Heritage Conservation Act include adequate provision for both monitoring and mitig",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "engagement",
+   "precedent_projects": 5,
+   "frequency": "5/7 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 3,
+    "federal": 11
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Contrecoeur Port Terminal Expansion Project",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The report referred to in 5.5 shall also include a discussion on aboriginal fishery issues defined in sect. 8 of this Table.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "minimization",
+   "precedent_projects": 5,
+   "frequency": "5/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 10
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Owner will incorporate BMP and mitigation measures into the contract documentation for construction contractors, through the Concessionaire, including the requesting of low emission equipment. BMP and mitigation measures applicable to this commitment are further defined in GVRD's letter to RAVCo",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "minimization",
+   "precedent_projects": 5,
+   "frequency": "5/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 30
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall implement and maintain, during construction, measures to control sedimentation, runoff and erosion when carrying out activities in or near fish-bearing waterbodies, while taking into account the Canadian Water Quality Guidelines: Protection of Aquatic Life &ndash; Total Particula",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "avoidance",
+   "precedent_projects": 5,
+   "frequency": "5/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 13
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall conduct any activity that may result in the harmful alteration, disruption or destruction of fish habitat, or the death of fish, within the Ottawa River, including installation of a cofferdam, only after at least 30 consecutive days have passed since the water temperature first r",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 5,
+   "frequency": "5/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 32
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to the start of construction and in consultation with Indigenous groups and Fisheries and Oceans Canada, and implement, a follow-up program to evaluate the effectiveness of the offsetting measures carried out under the offsetting plan referred to in condition 3.7, ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 5,
+   "frequency": "5/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 14
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall develop, in consultation with Indigenous groups, Environment and Climate Change Canada and any other relevant authority, and implement, during construction, a follow-up program to verify the accuracy of the environmental assessment and to evaluate the effectiveness of the measure",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "mitigation",
+   "precedent_projects": 5,
+   "frequency": "5/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 20
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall develop, in consultation with Environment and Climate Change Canada and any other relevant authority, and implement, measures to mitigate adverse effects of the Designated Project on the little brown myotis ( Myotis lucifugus ), the northern myotis ( Myotis septentrionalis ) and ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 5,
+   "frequency": "5/7 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "Identify contaminants of potential concern to be monitored in the air, including PM 2.5 ; 6.5.2 identify the locations where these contaminants are to be monitored; 6.5.3 monitor contaminants of potential concern in the air at the locations identified in accordance with conditions 6.5.1 and 6.5.2; a",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "management_plan",
+   "precedent_projects": 5,
+   "frequency": "5/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 7
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to the start of construction and in consultation with Indigenous groups, a communication plan to inform them of the schedule for construction, operation and maintenance activities of the dam-bridge. The Proponent shall implement and maintain the communication plan ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "management_plan",
+   "precedent_projects": 5,
+   "frequency": "5/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 8
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall implement the following mitigation measures to protect and manage chance finds for any structure, site, or thing of historical, archaeological, paleontological or architectural significance discovered within the Designated Project area. In doing so, the Proponent shall: 8.5.1 imm",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "mitigation",
+   "precedent_projects": 5,
+   "frequency": "5/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 8
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall take all reasonable measures to prevent accidents and malfunctions that may result in adverse environmental effects and mitigate any adverse environmental effects from accidents and malfunctions that occur. In doing so the Proponent shall: 11.1.1 implement fire and spill preventi",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "mitigation",
+   "precedent_projects": 4,
+   "frequency": "4/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 5
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Timiskaming Dam-Bridge of Quebec Replacement Project"
+   ],
+   "sample_condition": "The Owner will ensure that it is in compliance with the Migratory Birds Convention Act (MBCA), the Species At Risk Act (SARA), and the Migratory Birds Regulations (MBR) for the life-cycle of the Project.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "mitigation",
+   "precedent_projects": 4,
+   "frequency": "4/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 6
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Contrecoeur Port Terminal Expansion Project",
+    "Roberts Bank Terminal 2 Project",
+    "Timiskaming Dam-Bridge of Quebec Replacement Project"
+   ],
+   "sample_condition": "The Owner will ensure that the Concessionaire designs, constructs and operates the Project with care and attention provided to emergency services. The Owner will resolve issues (e.g., changes to Emergency Services) in consultation with COV, COR and VIAA as the Project design is finalized.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "minimization",
+   "precedent_projects": 4,
+   "frequency": "4/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 8
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Contrecoeur Port Terminal Expansion Project",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Owner will ensure that instructions are provided to the Concessionaire and its contractors throughout the pre-construction and construction phases to minimize possible effects related to air quality, noise, dust and vibration. (Noise must comply with COR Public Health Protection Bylaw #6989 and ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 4,
+   "frequency": "4/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 11
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Contrecoeur Port Terminal Expansion Project",
+    "Roberts Bank Terminal 2 Project",
+    "Timiskaming Dam-Bridge of Quebec Replacement Project"
+   ],
+   "sample_condition": "The Owner will ensure that the design, construction, operation and maintenance of the Project attempts to minimize any public health concerns associated with the Project. Noise/vibration/dust/emission effects will be monitored by the Concessionaire or their contractors, based on a program developed ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "management_plan",
+   "precedent_projects": 4,
+   "frequency": "4/7 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 10
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project",
+    "Timiskaming Dam-Bridge of Quebec Replacement Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to the start of construction and in consultation with Indigenous groups, relevant authorities, and to the satisfaction of Fisheries and Oceans Canada, and implement, during construction, a protocol for the capture and relocation of fish and freshwater mussels trapp",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 4,
+   "frequency": "4/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 7
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Timiskaming Dam-Bridge of Quebec Replacement Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to the start of construction and in consultation with Indigenous groups, and implement, during operation, a follow-up program to verify the accuracy of the environmental assessment and to evaluate the effectiveness of mitigation measures with respect to adverse eff",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 4,
+   "frequency": "4/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 7
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "In the case of the adverse environmental effects of the Designated Project on wetlands and their functions located in the Designated Project area that cannot be avoided or mitigated pursuant to condition 5.1, the Proponent shall develop, prior to construction and in consultation with Environment and",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "mitigation",
+   "precedent_projects": 4,
+   "frequency": "4/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 9
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall transplant, at the beginning of construction, colonies of ostrich fern ( Matteuccia struthiopteris ) and bloodroot ( Sanguinaria canadensis ) found in Montreal Port Authority territory to an area not affected by the Designated Project located outside of the critical habitat of th",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 4,
+   "frequency": "4/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 9
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction, a follow-up program to verify the accuracy of the environmental assessment and determine the effectiveness of the mitigation measures related to the progressive reclamation carried out pursuant to condition 6.4. The Proponent shall implement the fo",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "light",
+   "measure_type": "minimization",
+   "precedent_projects": 4,
+   "frequency": "4/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction, and implement, during construction and operation, mitigation measures that take into account the Bureau de Normalisation du Qu&eacute;bec standard 4930-100/2016 entitled &Eacute;clairage ext&eacute;rieur&thinsp;&ndash;&thinsp;contr&ocirc;le de la p",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "engagement",
+   "precedent_projects": 4,
+   "frequency": "4/7 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall consult, prior to construction, the Mohawks of Kahnaw&agrave;:ke First Nation, the Indigenous Community of Odanak and W&ocirc;linak, the Huron-Wendat Nation and relevant authorities on the measures to be implemented to prevent accidents and malfunctions, including the measures re",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "engagement",
+   "precedent_projects": 3,
+   "frequency": "3/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 4
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Contrecoeur Port Terminal Expansion Project",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Owner will involve the local community, other stakeholders and First Nations within an open and interactive consultation process. RAVCO will continue to conduct public and First Nations consultations as defined by Item 5.1, continues to issue information bulletins and fact sheets to media and th",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "management_plan",
+   "precedent_projects": 3,
+   "frequency": "3/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 2
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "In reflection of the relatively long predicted noise environment during construction and as part of the Construction EMP, the Owner must develop a Noise Management Plan in cooperation with the \"approving and advisory agencies\". The Noise Management Plan should describe the criteria and standards tha",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "management_plan",
+   "precedent_projects": 3,
+   "frequency": "3/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 4
+   },
+   "examples": [
+    "Greenville to Kincolith Road",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "Prepare a Bald Eagle management plan to address, for example, the timing of construction activities and the impacts of construction on nesting habitat, for all nesting sites near the chosen route.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a838eed3c0016f855cf6/download"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "engagement",
+   "precedent_projects": 3,
+   "frequency": "3/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 9
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Timiskaming Dam-Bridge of Quebec Replacement Project"
+   ],
+   "sample_condition": "Where consultation with Indigenous groups is a requirement of a follow-up program, the Proponent shall discuss the follow-up program with each group and shall determine, in consultation with each group, opportunities for participation and resources required to support their participation in the impl",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "management_plan",
+   "precedent_projects": 3,
+   "frequency": "3/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Timiskaming Dam-Bridge of Quebec Replacement Project"
+   ],
+   "sample_condition": "The Proponent shall establish, prior to the start of construction, and implement, during construction, a process for receiving and addressing complaints related to the effects of Designated Project activities on noise, dust, air quality and water quality. As part of the process, the Proponent shall:",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "mitigation",
+   "precedent_projects": 3,
+   "frequency": "3/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project",
+    "Timiskaming Dam-Bridge of Quebec Replacement Project"
+   ],
+   "sample_condition": "The Proponent shall develop, in consultation with Indigenous groups, and implement, measures to mitigate adverse effects of the Designated Project on the current use of fish species of importance identified by Indigenous groups as well as current uses associated with them, including the stocking of ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "cumulative_effects",
+   "measure_type": "engagement",
+   "precedent_projects": 3,
+   "frequency": "3/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall participate, at the request of a relevant authority, in any regional initiative pertaining to the contribution of the Designated Project to the cumulative environment effects on the copper redhorse ( Moxostoma hubbsi ) that the implementation of the Designated Project, combined w",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "management_plan",
+   "precedent_projects": 3,
+   "frequency": "3/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 7
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall offer, at least annually, to all employees and contractors associated with the Designated Project during construction and operation of the Designated Project, awareness training on the measures to be taken to protect the northern map turtle ( Graptemys geographica ), midland pain",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "minimization",
+   "precedent_projects": 3,
+   "frequency": "3/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall control the lighting required for the Designated Project activities, including its direction, duration of use, intensity, spectrum colour and glare, so as to mitigate the adverse environmental effects on the northern myotis ( Myotis septentrionalis ), little brown myotis ( Myotis",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 3,
+   "frequency": "3/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with the Mohawks of Kahnaw&agrave;:ke First Nation, the Indigenous Community of Odanak and W&ocirc;linak, the Huron-Wendat Nation and relevant authorities, a follow-up program to verify the accuracy of the environmental assessmen",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "management_plan",
+   "precedent_projects": 3,
+   "frequency": "3/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 7
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with the Mohawks of Kahnaw&agrave;:ke First Nation, the Indigenous Community of Odanak and W&ocirc;linak, the Huron-Wendat Nation and the potentially affected parties, a communications plan to share information related to the Des",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 1
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Marine Terminal Project on the North Shore of the Saguenay"
+   ],
+   "sample_condition": "The Owner will ensure that the construction works and operations for the Project are conducted in compliance with environmental requirements and BMPs, with particular attention to construction practices that minimize the introduction of deleterious substances, pursuant to sect. 36(3) of the federal ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 3
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Contrecoeur Port Terminal Expansion Project"
+   ],
+   "sample_condition": "The Owner will minimize impacts to foreshore marshes by adhering to the following mitigation measures: a) Where possible, minimize construction access across foreshore marshes and limit damage to riparian zone habitats. b) Avoid dredging and/or filling in marsh areas. c) All dredging activities are ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 1
+   },
+   "examples": [
+    "Canada Line Rapid Transit",
+    "Contrecoeur Port Terminal Expansion Project"
+   ],
+   "sample_condition": "The Owner will ensure that construction contractors will be properly trained and equipped, regarding the handling and use of any hazardous materials that they may be using during construction (e.g., uncured concrete).",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "avoidance",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 1
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Greenville to Kincolith Road"
+   ],
+   "sample_condition": "Route development will disrupt and reduce the size of stands of old-growth trees that are important wildlife habitats. Some 'Red-Listed' species will likely be affected. Where possible at the eastern end (near Greenville), a route that travels through habitats that have been recently disturbed (e.g.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a838eed3c0016f855cf6/download"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Timiskaming Dam-Bridge of Quebec Replacement Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to the start of construction and in consultation with Wolf Lake First Nation, and implement, during construction, measures to mitigate potential adverse effects of the Designated Project on the acoustic environment of the Algonquin Canoe Company, including proactiv",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project",
+    "Timiskaming Dam-Bridge of Quebec Replacement Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to the start of construction and in consultation with Wolf Lake First Nation, and implement, during construction, a follow-up program to verify the accuracy of the environmental assessment and to evaluate the effectiveness of mitigation measures with respect to adv",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "engagement",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project",
+    "Timiskaming Dam-Bridge of Quebec Replacement Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to the start of construction and in consultation with Indigenous groups, an intergenerational knowledge-transfer activity to mitigate adverse effects of the Designated Project on Indigenous cultural heritage. The Proponent shall implement the activity and provide a",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall undertake the progressive reclamation of the areas disturbed by the Designated Project in the aquatic environment, including the areas disturbed by the deployment of the pipes and culverts associated with the Designated Project.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "cumulative_effects",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay"
+   ],
+   "sample_condition": "The Proponent shall implement any mitigation measure that is technically and economically feasible or follow-up program identified through any regional initiative referred to in condition 3.43 and which is under its responsibility.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 9
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall install, prior to construction and in consultation with Environment and Climate Change Canada and the Quebec&apos;s Minist&egrave;re des For&ecirc;ts, de la Faune et des Parcs , artificial nest boxes in Montreal Port Authority territory to offset the loss of nesting sites for ban",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "avoidance",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay"
+   ],
+   "sample_condition": "The Proponent shall implement the Designated Project in a manner that avoids adverse environmental effects of the Designated Project on wetlands and wetland functions. To avoid adverse effects, the Proponent shall maintain wetlands and their functions over minimizing adverse effects on wetlands and ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall maintain, during construction and operation, the baseline drainage upstream (in terms of inflow) and downstream (in terms of effluent) of residual wetlands located in the plant community study area identified in Figure 8 of the environmental assessment report, in order to maintai",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Environment and Climate Change Canada, the Quebec&apos;s Minist&egrave;re de l&apos;Environnement et de la Lutte contre les changements climatiques , the Mohawks of Kahnaw&agrave;:ke First Nation, the Indigenous Community of",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "avoidance",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay"
+   ],
+   "sample_condition": "The Proponent shall carry out the construction work associated with the addition of rail access to the Designated Project outside the breeding season for the western chorus frog ( Pseudacris triseriata ).",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction, and implement a follow-up program to verify the accuracy of the environmental assessment and determine the effectiveness of the mitigation measures as it pertains to the adverse environmental effects on the ostrich fern ( Matteuccia struthiopteris ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "avoidance",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay"
+   ],
+   "sample_condition": "The Proponent shall not exceed the noise limits set out in the Lignes directrices relativement aux niveaux sonores provenant d&apos;un chantier de construction industriel guidelines for noise levels from an industrial construction site and the Note d&apos;instructions 98‐ 01 sur le bruit noise instr",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "climate_ghg",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall develop, in consultation with Environment and Climate Change Canada, Transport Canada and other relevant authorities, a follow-up program to verify the accuracy of the environmental assessment and determine the effectiveness of the mitigation measures as it pertains to the advers",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "visual_landscape",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Marine Terminal Project on the North Shore of the Saguenay"
+   ],
+   "sample_condition": "The Proponent shall paint the dock cranes associated with the Designated Project in colours that harmonize with the adjacent environment of the Designated Project.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "other",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "Before the beginning of the surveys referred to in conditions 10.5 and 10.6, the Proponent shall submit to the Agency a letter confirming the Proponent&apos;s commitments to provide third-party bodies with all archaeological documentation or collections of Indigenous and non-Indigenous origin genera",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction, and implement, during all phases of the Designated Project, a no-idling policy for all mobile equipment and vehicles within the Designated Project area. The Proponent shall require that all persons abide by this policy, unless not technically feasi",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/147356"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to each phase of the Designated Project and in consultation with the City of Delta, Health Canada, and Indigenous groups (Roberts Bank), a follow-up program as described in Table C22 of Appendix G in the Federal Review Panel Report to verify the accuracy of the env",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/147356"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "engagement",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall sign on, as a party to the Species at Risk Act Section 11 Conservation Agreement to Support the recovery of the Southern Resident Killer Whale, to an additional five year term of the agreement, or equivalent, if the other parties of the agreement also agree.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/147356"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project",
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to each phase of the Designated Project, in consultation with Environment and Climate Change Canada and Metro Vancouver and to the satisfaction of a qualified professional, waste management measures to minimize waste generation and to avoid harm to birds. The Propo",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/147356"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "engagement",
+   "precedent_projects": 2,
+   "frequency": "2/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Marine Terminal Project on the North Shore of the Saguenay",
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall develop prior to construction and in consultation with Indigenous groups and relevant authorities, procedures to share the results of monitoring and any modified or additional mitigation measures implemented pursuant to condition 3.4 and 3.5 with Indigenous groups and relevant au",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/157936"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Canada Line Rapid Transit"
+   ],
+   "sample_condition": "The Owner will endeavour to meet COR's ESA guidelines and strive to achieve \"no-net-loss\" in accordance with COR's OCP. The Owner must reach agreement with DFO on the re-vegetation or compensation for any loss of riparian vegetation along the Fraser River.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Canada Line Rapid Transit"
+   ],
+   "sample_condition": "The Owner will ensure that there will be no net loss of COR landscape infrastructure and that the detailed tree preservation and protection plan, and landscape plan, as they pertain to Richmond, be reviewed and approved by the City, as applicable.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Canada Line Rapid Transit"
+   ],
+   "sample_condition": "The Owner will ensure that the Concessionaire prepares a Soil Sampling Plan as part of the Construction EMP. The Concessionaire has prepared a Contaminated Soils Management Plan.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Canada Line Rapid Transit"
+   ],
+   "sample_condition": "The Owner must ensure that there is no contamination of surface drainages. The Owner must develop or have developed a Drainage Plan, as part of EMP, to the satisfaction of the approving agencies. The Plan must include treatment where necessary and must reflect on the use of de-icing chemicals, such ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Canada Line Rapid Transit"
+   ],
+   "sample_condition": "The Owner must address new and more stringent GVRD documentation that may apply to the Project. The Owner and/or the Concessionaire must comply with the GVRD's proposed new ambient air quality objectives as outlined in \"Greater Vancouver's Clean Air Strategy\" dated February 4, 2005 and any subsequen",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Canada Line Rapid Transit"
+   ],
+   "sample_condition": "Based on information available in the EAC Application and in the EAC Application Supplement, it is assumed that ocean disposal of excavated material will be required. The Owner will be responsible for all required regulatory approvals.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Canada Line Rapid Transit"
+   ],
+   "sample_condition": "The Concessionaire must provide the results of chemical analysis to the Program; the Program will then consult with the Regional Disposal Advisory Committee and if the results are acceptable, the Concessionaire may apply for a Disposal at Sea Permit under the direction of the Owner, for any surplus ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Canada Line Rapid Transit"
+   ],
+   "sample_condition": "The Owner must ensure that an application for an approval under the Canadian Navigable Waters Protection Act is submitted to TC based on the submission of site-specific, detailed bridge design and construction plans. The Owner and the Concessionaire must adhere to all terms and conditions set out in",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Canada Line Rapid Transit"
+   ],
+   "sample_condition": "If required, the Owner must seek a section 9 Water Act permit, to be discussed with LWBC.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869169a4acd4014b81ea03/download"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Timiskaming Dam-Bridge of Quebec Replacement Project"
+   ],
+   "sample_condition": "The Proponent shall stop construction work in the area around the Algonquin Canoe Company and keep that area clear on National Indigenous Peoples Day (June 21) and on the National Day for Truth and Reconciliation (September 30), unless this is not technically or economically feasible. If the Propone",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/164951"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project"
+   ],
+   "sample_condition": "The Proponent shall delineate, prior to construction, the areas colonized by invasive alien plant species.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Environment and Climate Change Canada and the Quebec&apos;s Minist&egrave;re des For&ecirc;ts, de la Faune et des Parcs , measures to offset potential habitat losses for the northern myotis ( Myotis septentrionalis ), little",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "visual_landscape",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Contrecoeur Port Terminal Expansion Project"
+   ],
+   "sample_condition": "The Proponent shall develop, from the start of construction, and maintain, during operation, a vegetated slope on the northern edge of Route 132 within the boundaries of the Montreal Port Authority territory, and on the eastern edge of Stream 4, between Route 132 and the St. Lawrence River, except f",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163138"
+  },
+  {
+   "discipline": "climate_ghg",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall develop, in consultation with Indigenous groups (Roberts Bank), Environment and Climate Change Canada, British Columbia&apos;s Ministry of Environment and Climate Change Strategy and Metro Vancouver, greenhouse gas management plans for construction and operation of the marine ter",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/147356"
+  },
+  {
+   "discipline": "light",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Environment and Climate Change Canada, Fisheries and Oceans Canada, the City of Delta, Transport Canada, Tsawwassen First Nation, and other Indigenous groups (Roberts Bank), a follow-up program as described in Table C20 of A",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/147356"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to the relevant phase of the Designated Project, in consultation with Indigenous groups (Roberts Bank) and to the satisfaction of a qualified professional, measures to control erosion and sedimentation in the Designated Project area, taking into account future clim",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/147356"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall not use material dredged from the upper 0.5 metres of the existing tug basin and the tug basin expansion area as fill for land development for the Designated Project, nor for offsetting plans unless the Proponent: 6.9.1 prevents the discharge of supernatant containing material dr",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/147356"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to the relevant phase of the Designated Project and in consultation with Fisheries and Oceans Canada, Natural Resources Canada, British Columbia&apos;s Ministry of Land, Water, and Resource Stewardship, British Columbia&apos;s Ministry of Environment and Climate Ch",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/147356"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall investigate the technical and economic feasibility of a causeway breach to allow fish passage. The Proponent shall develop the feasibility report in consultation with the British Columbia&apos;s Ministry of Transportation and Infrastructure, the British Columbia Railway Company a",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/147356"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall participate, at the request of a relevant federal authority, in regional initiatives aimed at managing underwater noise due to commercial vessel traffic.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/147356"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall cap all hollow steel pipes following their installation in the Designated Project area, and shall maintain capping throughout construction and operation.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/147356"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall participate, at the request of a relevant federal authority, in any regional initiative related to improving the understanding of shellfish quality at Roberts Bank.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/147356"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Roberts Bank Terminal 2 Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with the Area I Crab Fisherman Association, Indigenous groups that hold commercial licenses to harvest crab within the local assessment area indicated on Figure 21-3 of the environmental impact statement, the Lower Fraser Sport F",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/147356"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Tilbury Marine Jetty Project"
+   ],
+   "sample_condition": "The Proponent shall ensure that its actions in meeting the conditions set out in this Decision Statement are taken in a way that is consistent with any applicable recovery strategy and action plans for listed species at risk. Consultation",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/157936"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Marine Terminal Project on the North Shore of the Saguenay"
+   ],
+   "sample_condition": "The Proponent shall take measures to avoid the input of total suspended solids into watercourses, including by capturing runoff water.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/125803"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Marine Terminal Project on the North Shore of the Saguenay"
+   ],
+   "sample_condition": "The Proponent shall discuss, prior to the implementation of the wetland function compensation plan, with each First Nation opportunities for their participation in the implementation of the wetland function compensation plan and shall allow First Nations to participate in that implementation.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/125803"
+  },
+  {
+   "discipline": "visual_landscape",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Marine Terminal Project on the North Shore of the Saguenay"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to operation and in consultation with First Nations, relevant authorities and potentially affected parties, a follow-up program to verify the accuracy of the environmental assessment and to determine the effectiveness of mitigation measures as it pertains to the ad",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/125803"
+  },
+  {
+   "discipline": "cumulative_effects",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Marine Terminal Project on the North Shore of the Saguenay"
+   ],
+   "sample_condition": "The Proponent shall inform the Agency, Fisheries and Oceans Canada and First Nations annually, no later than December 31 starting with the first reporting year during which this Decision Statement is issued, of progress made in the implementation of the mitigation measures proposed by the Proponent ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/125803"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Marine Terminal Project on the North Shore of the Saguenay"
+   ],
+   "sample_condition": "Prior to the end of operation by a Designated Project user, the Proponent shall develop, in consultation with First Nations and relevant authorities, a decommissioning plan. The Proponent shall submit the decommissioning plan to the Agency at least six months prior to the end of these activities. Th",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/125803"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "post_closure",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Marine Terminal Project on the North Shore of the Saguenay"
+   ],
+   "sample_condition": "The Proponent shall submit a written report to the Agency no later than 90 days after the end of decommissioning activities included in the decommissioning plan referred to in condition 12.1. The report shall include a description of: 12.3.1 the decommissioning activities carried out and the compone",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/125803"
+  },
+  {
+   "discipline": "cumulative_effects",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/7 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Marine Terminal Project on the North Shore of the Saguenay"
+   ],
+   "sample_condition": "Le Proponent shall inform the Agency, Fisheries and Oceans Canada and First Nations annually of progress made in the implementation of the mitigation measures proposed by the Proponent in section 3 of the response to the 4 th Information Request (June 2018) to prevent or reduce cumulative environmen",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/123603"
+  }
+ ],
+ "weak_pool_size": 4540
+}

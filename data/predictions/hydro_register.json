@@ -1,0 +1,845 @@
+{
+ "archetype": "hydro",
+ "constraints": [],
+ "disciplines": [
+  "accidents_malfunctions",
+  "air_quality",
+  "archaeology_heritage",
+  "climate_ghg",
+  "closure_postclosure",
+  "cumulative_effects",
+  "fish_fish_habitat",
+  "groundwater",
+  "human_health",
+  "indigenous_rights_tluse",
+  "light",
+  "noise_vibration",
+  "socio_economic",
+  "soils_terrain",
+  "species_at_risk",
+  "surface_water",
+  "vegetation_ecosystems",
+  "visual_landscape",
+  "waste_hazmat",
+  "wetlands",
+  "wildlife_birds"
+ ],
+ "strong_precedents": [
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 11
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction, and implement and maintain during all phases of the Designated Project, measures to control erosion and sedimentation within the project development area in a manner consistent with the Fisheries Act and its regulations. The Proponent shall submit ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall finalise, prior to construction, in consultation with Indigenous groups and to the satisfaction of Fisheries and Oceans, an offsetting plan related to the bull trout ( Salvenlinus confluentus ) and the fish population of the Elbow River. When finalising the plan, the Proponent sh",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 15
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall, for any fish habitat offsetting measure(s) proposed in any offsetting plan(s) referred to in condition 3.9 that may cause adverse environmental effects not considered in the environmental assessment, develop and implement, following consultation with Indigenous groups and releva",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "avoidance",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall conduct in-water project activities, including debris removal from the water diversion system, outside of the Government of Alberta restricted activity periods, unless required for safety or emergency reasons. If in-water project activities are required during of the Government o",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall develop and implement, in consultation with Indigenous groups, Fisheries and Oceans Canada and other relevant authorities, a follow-up program to verify the accuracy of the environmental assessment and the effectiveness of the mitigation measures as it pertains to fish passage in",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "avoidance",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall carry out the Designated Project in a manner that protects migratory birds and avoids harming, killing or disturbing migratory birds or destroying, disturbing or taking their nests or eggs. In this regard, the Proponent shall take into account Environment and Climate Change Canad",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 7
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall control the lighting required for Designated Project activities throughout all phases of the Designated Project, including its direction, duration of use, intensity, spectrum colour and brightness, to mitigate the adverse effects of the Designated Project on migratory birds and s",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall identify, in consultation with Indigenous groups and relevant authorities, dates of breeding season for migratory birds and notify the Agency of these dates prior to construction.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall conduct, in consultation with Indigenous groups, inventories of potential migratory bird habitat, including the collection of information on breeding bird densities and the presence of ground nesting birds, as well as mapping of important habitat features, shrub lands, wetlands a",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall conduct, prior to construction and in consultation with Indigenous groups and relevant authorities, breeding habitat surveys for the northern leopard frog ( Lithobates pipiens ), western toad ( Anaxyrus boreas ), and western tiger salamander ( Ambystoma mavoritium ) within the pr",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "avoidance",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall implement the Designated Project in a manner that avoids adverse environmental effects of the Designated Project on wetlands and wetland functions. To avoid adverse effects, the Proponent shall maintain wetlands and their functions over minimizing adverse effects on wetlands and ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "In the case of the adverse environmental effects of the Designated Project on wetlands and their functions located in the project development area that cannot be avoided or mitigated pursuant to condition 5.6, the Proponent shall develop, in consultation with Indigenous groups, Environment and Clima",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall undertake, in consultation with Indigenous groups and relevant authorities, progressive reclamation of areas disturbed by the Designated Project, including bank and riparian areas. In doing so, the Proponent shall: 8.1.1 identify agronomic plant species and plant species native t",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall maintain navigation on the Elbow River during all phases of the Designated Project. In doing so, the Proponent shall establish and maintain, in consultation with Indigenous groups and Transport Canada, a portage route around the diversion system gate and the service spillway loca",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "engagement",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall provide the Agency and Indigenous groups with the final project design within seven days of its finalization and shall consult with Indigenous groups at least 60 days in advance of construction activities to understand locations and timing needed to allow Indigenous groups to cat",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall start developing, prior to construction and complete at the latest 1 year prior to start of operation, in consultation with Indigenous groups, a Land Use Plan to support Indigenous groups&#39; use of the project development area, and implement the plan during all phases of the De",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 8
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall establish, in consultation with First Nations, a staging area for traditional use activities in close proximity to the land use areas identified in condition 8.8. The Proponent shall allow and provide sufficient space within the staging area for the construction of semi-permanent",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "avoidance",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall provide the Agency and Indigenous groups with a map of the final construction site within seven days of its finalization and shall not undertake any construction activity outside of the final construction site, to the extent that it is technically feasible or unless required to m",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "engagement",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall consult, prior to construction, Indigenous groups on the measures to be implemented to prevent accidents and malfunctions.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 7
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project",
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall develop in consultation with Indigenous groups and relevant authorities, an accident and malfunction response plan in relation to, and for the construction of the Designated Project and an accident and malfunction response plan in relation to, and for the operation of the Designa",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall ensure that its actions in meeting the conditions set out in this Decision Statement are taken in a way that is consistent with any applicable recovery strategy and action plans for listed species at risk. Consultation",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall, where consultation with Indigenous groups is a requirement of a condition set out in this Decision Statement, communicate with each group with respect to the manner to satisfy the consultation requirements referred to in condition 2.4, including methods of notification, the type",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall inspect all vehicles machinery and construction equipment before it enters the project development area for the presence of invasive alien species and noxious weeds, taking into account Alberta&#39;s Decontamination protocol for work in or near water: quick reference guide . The ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall remove, during construction, the topsoil from the diversion channel and store it for later use in the restoration of the diversion channel prior to operation.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall develop and implement, in consultation with Indigenous groups, Fisheries and Oceans Canada and other relevant authorities, a protocol to rescue juvenile and adult fish during post-flood operation. The Proponent shall develop the protocol prior to operation. As part of the develop",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall develop and implement, in consultation with Indigenous groups, Fisheries and Oceans Canada, Environment and Climate Change Canada and other relevant authorities, a follow-up program to verify the accuracy of the environmental assessment and the effectiveness of the mitigation mea",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall develop and implement, in consultation with Indigenous groups and relevant authorities, a protocol to prevent harm to migratory birds, including migratory birds species at risk identified in Table 3 of the environmental assessment report, within the project development area. The ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall conduct pre-construction surveys to determine the presence of little brown myotis ( myotis lucifugus ) roosting sites in the project development area. The Proponent shall establish, in consultation with Indigenous groups and relevant authorities, buffer zones around little brown ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall develop and implement, in consultation with Indigenous groups and relevant authorities, a protocol to prevent the mortality of amphibians, including northern leopard frog ( Lithobates pipiens), western toad ( Anaxyrus boreas), and western tiger salamander ( Ambystoma mavoritium) ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall maintain a distance of 100 metres from any water body and wetland when undertaking vehicle, machinery, and equipment cleaning, fueling, and maintenance, when storing substances with the potential to cause harmful effects to the receiving environment, including fuel and lubricant ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall ensure that all vehicles required for construction of the Designated Project meet or exceed emission standards applicable at time of introduction, and are operated, inspected and maintained in accordance with any applicable engine instructions provided by the manufacturer to meet",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction, and implement, during construction, a no-idling policy for all vehicles within the project development area. The Proponent shall require that all persons abide by this policy, unless not technically feasible or not feasible for health or safety rea",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Environment and Climate Change Canada and Health Canada, and implement during all phases of the Designated Project, a follow-up program to verify the accuracy of the environmental assessment and determine the effectiveness o",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall provide Indigenous groups with the results of the follow-up program referred to in condition 6.4 in plain language at a minimum twice annually, at a time determined in consultation with Indigenous groups. 7&nbsp;Human health",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall not exceed the noise limits set out in the U.S. Environmental Protection Agency Office of Noise Abatement and Control document titled Information on levels of environmental noise requisite to protect public health and welfare with an adequate margin of safety for short-term noise",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "For any blasting activities required for the Designated Project, the Proponent shall take into account Environment and Climate Change Canada&#39;s Environment Code of Practice for Metal Mines for the control of noise and vibration from blasting and thresholds and mitigation measures for blasting noi",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups, a protocol for receiving complaints related to exposure to noise attributable to the Designated Project. The Proponent shall provide the protocol to the Agency prior to construction and shall implement it ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall decommission and plug off water wells located within the project development area that are not used to monitor groundwater quality pursuant to condition 7.9.1, prior to the start of operation.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall develop, in consultation with Indigenous groups and relevant authorities, a follow-up program to verify the accuracy of the environmental assessment and the effectiveness of the mitigation measures as it pertains to contamination of country food. As part of the follow-up program,",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall develop prior to operation, and implement, in consultation with Indigenous groups and relevant authorities, a follow-up program to verify the accuracy of the environmental assessment and the effectiveness of the mitigation measures as it pertains to drinking water quality. As par",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to operation, and in consultation with Indigenous groups, a follow-up program to verify the accuracy of the environmental assessment as it pertains to natural re-vegetation of the drained reservoir during post-flood operation. As part of the development of the foll",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups, a follow-up program to verify the accuracy of the environmental assessment and to determine the effectiveness of mitigation measures as it pertains to the adverse environmental effects of the Designated Pr",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall have a qualified individual conduct paleontological monitoring during construction when: 9.7.1 excavating bedrock for the diversion system; 9.7.2 excavating 4 metres of bedrock or greater, including for the emergency spillway; 9.7.3 excavating bedrock for new road alignments incl",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Springbank Off-Stream Reservoir Project"
+   ],
+   "sample_condition": "The Proponent shall take all reasonable measures to prevent accidents and malfunctions that may result in adverse environmental effects and to mitigate any adverse environmental effect from accidents and malfunctions that do occur. As part of these measures, the Proponent shall: 11.1.1 store hazardo",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/139551"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall apply, for receiving water quality, the Canadian Council of Ministers of the Environment&#39;s Water Quality Guidelines for the protection of aquatic life and the Saskatchewan&#39;s Surface Water Quality Objectives for the protection of aquatic life at a location between 100 and ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/102078"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall implement mitigation measures including: 3.7.1 collecting and treating wastewater prior to discharge, including by designing and constructing settling ponds or water treatment areas; 3.7.2 undertaking sampling and testing of construction generated waste rock for acid rock drainag",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/102078"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall mitigate the adverse environmental effects of the Designated Project on wetland functions with a preference for avoiding the loss of wetlands over minimizing the effects on wetlands and for minimizing the effects on wetlands over compensating for lost or affected wetlands.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/102078"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall conduct a pre-construction survey for provincially listed plant species under the Saskatchewan Wildlife Act, 1998 and implement mitigation measures to reduce effects to these species following consultation with the Saskatchewan Ministry of Environment.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/102078"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall develop and implement a follow-up program to monitor wetlands and wetland functions, as well as vegetation, to verify the accuracy of the environmental assessment and to determine the effectiveness of the mitigation measures. The follow-up program shall include: 6.8.1 conducting ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/102078"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall, following consultation with Black Lake Denesuline First Nation prior to construction, choose an access road route to avoid sensory disturbance to any known Aboriginal cultural camps.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/102078"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "In the event that archaeological remains or artefacts are discovered by the Proponent in the project area, the Proponent shall: 8.2.1 halt work at the location of the discovery; 8.2.2 have a qualified individual conduct an assessment at the location of the discovery; 8.2.3 consult with Aboriginal gr",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/102078"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall take all reasonable measures to prevent accidents and malfunctions that may result in adverse environmental effects and shall implement emergency response procedures and contingencies developed in relation to the Designated Project.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/102078"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Tazi Twé Hydroelectric Project"
+   ],
+   "sample_condition": "The Proponent shall implement mitigation measures including: 3.6.1 designing and constructing settling ponds to collect and treat wastewater prior to discharge; 3.6.2 testing all construction generated waste rock for acid rock drainage potential and metal leaching potential, and uranium mineralizati",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/101643"
+  }
+ ],
+ "weak_pool_size": 4880
+}

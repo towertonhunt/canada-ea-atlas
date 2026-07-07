@@ -1,19 +1,28 @@
 {
  "archetype": "mining",
- "constraints": [
-  "wetland",
-  "watercourse"
- ],
+ "constraints": [],
  "disciplines": [
   "accidents_malfunctions",
+  "air_quality",
   "archaeology_heritage",
+  "climate_ghg",
   "closure_postclosure",
+  "cumulative_effects",
   "fish_fish_habitat",
   "groundwater",
+  "human_health",
   "indigenous_rights_tluse",
+  "light",
+  "noise_vibration",
+  "socio_economic",
+  "soils_terrain",
+  "species_at_risk",
   "surface_water",
+  "vegetation_ecosystems",
+  "visual_landscape",
   "waste_hazmat",
-  "wetlands"
+  "wetlands",
+  "wildlife_birds"
  ],
  "strong_precedents": [
   {
@@ -34,6 +43,44 @@
    ],
    "sample_condition": "Submit, prior to clearing, construction or surface disturbance, an acceptable background and monitoring program for fish tissue and liver metal levels using sentinel species consistent with that proposed by NDM in the December 2, 1997 report.",
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "avoidance",
+   "precedent_projects": 21,
+   "frequency": "21/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 3,
+    "federal": 53
+   },
+   "examples": [
+    "Black Point Quarry Project",
+    "Blackwater Gold Project",
+    "Brucejack Gold Mine Project",
+    "Crawford Nickel Project"
+   ],
+   "sample_condition": "Implement a no hunting/firearms policy for the mine, plant site and infrastructure satisfactory to the Regional Manager, Fish and Wildlife, MELP and District Inspector, MEM in consultation with First Nations.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 21,
+   "frequency": "21/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 21,
+    "federal": 45
+   },
+   "examples": [
+    "Akasaba West Copper-Gold Mine Project",
+    "Black Point Quarry Project",
+    "Blackwater Gold Project",
+    "Bodie Waste Dump"
+   ],
+   "sample_condition": "Commitment to undertake detailed habitat inspection as part of the Follow-up and Monitoring Program beginning in May 1998. The proponent has further agreed that this detailed assessment would provide the basis for assessment of off-site habitat compensation, should it be required. The identification",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b5c6eed3c0016f8564c9/download"
   },
   {
    "discipline": "accidents_malfunctions",
@@ -92,6 +139,62 @@
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
+   "discipline": "human_health",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 18,
+   "frequency": "18/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 44
+   },
+   "examples": [
+    "Akasaba West Copper-Gold Mine Project",
+    "Blackwater Gold Project",
+    "Crawford Nickel Project",
+    "Côté Gold Mine Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups, Health Canada, and relevant authorities, and implement during construction and operation, a follow-up program to verify the accuracy of the impact assessment predictions and to determine the effectiveness ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/166441"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "minimization",
+   "precedent_projects": 17,
+   "frequency": "17/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 37
+   },
+   "examples": [
+    "Akasaba West Copper-Gold Mine Project",
+    "Black Point Quarry Project",
+    "Blackwater Gold Project",
+    "Brucejack Gold Mine Project"
+   ],
+   "sample_condition": "Install dust control systems, acceptable to MEM and MELP, on any coal transfer facilities (truck unloading and rail car loading) and at breaker stations which are dust sources and at any processing operations generating dust which could include dust suppression and treatment.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "minimization",
+   "precedent_projects": 17,
+   "frequency": "17/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 39
+   },
+   "examples": [
+    "Black Point Quarry Project",
+    "Brucejack Gold Mine Project",
+    "Crawford Nickel Project",
+    "Côté Gold Mine Project"
+   ],
+   "sample_condition": "Commitment to a manned access gate at the O'Donnel River north of Mt. McMaster. This commitment, coupled with specifying that the Tulsequah Chief Road is a private industrial road and the associated prohibition of all non-legitimate land or resource tenure holder use, should mitigate impacts of incr",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b5c6eed3c0016f8564c9/download"
+  },
+  {
    "discipline": "archaeology_heritage",
    "measure_type": "management_plan",
    "precedent_projects": 16,
@@ -109,24 +212,6 @@
    ],
    "sample_condition": "Implement, to the satisfaction of the Ministry of Small Business, Tourism and Culture - Archaeology Branch, a \"post-harvesting\" assessment and mitigation plan for project areas with identified archaeological potential which had poor visibility during the archaeological fieldwork completed by FMA in ",
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
-  },
-  {
-   "discipline": "human_health",
-   "measure_type": "monitoring_followup",
-   "precedent_projects": 16,
-   "frequency": "16/27 comparable projects",
-   "typical_timing": "all_phases",
-   "jurisdictions": {
-    "federal": 30
-   },
-   "examples": [
-    "Akasaba West Copper-Gold Mine Project",
-    "Blackwater Gold Project",
-    "Crawford Nickel Project",
-    "Côté Gold Mine Project"
-   ],
-   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups, Health Canada, and relevant authorities, and implement during construction and operation, a follow-up program to verify the accuracy of the impact assessment predictions and to determine the effectiveness ",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/166441"
   },
   {
    "discipline": "indigenous_rights_tluse",
@@ -240,25 +325,6 @@
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
-   "discipline": "wildlife_birds",
-   "measure_type": "monitoring_followup",
-   "precedent_projects": 14,
-   "frequency": "14/27 comparable projects",
-   "typical_timing": "all_phases",
-   "jurisdictions": {
-    "bc": 2,
-    "federal": 17
-   },
-   "examples": [
-    "Black Point Quarry Project",
-    "Blackwater Gold Project",
-    "Bodie Waste Dump",
-    "Brucejack Gold Mine Project"
-   ],
-   "sample_condition": "1.  Maintain a co-operative arrangement between Redfern Resources Ltd., the B.C. government, the Taku River Tlingit First Nation, \nand other local residents in the monitoring of grizzly bear populations;",
-   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b5c6eed3c0016f8564c9/download"
-  },
-  {
    "discipline": "other",
    "measure_type": "engagement",
    "precedent_projects": 14,
@@ -295,6 +361,25 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161998"
   },
   {
+   "discipline": "wildlife_birds",
+   "measure_type": "mitigation",
+   "precedent_projects": 13,
+   "frequency": "13/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 28
+   },
+   "examples": [
+    "Black Point Quarry Project",
+    "Blackwater Gold Project",
+    "Brucejack Gold Mine Project",
+    "Crawford Nickel Project"
+   ],
+   "sample_condition": "Commitment to implement a no-firearms and no-hunting policy for all mine employees and contractors during all phases of construction and operation.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b5c6eed3c0016f8564c9/download"
+  },
+  {
    "discipline": "indigenous_rights_tluse",
    "measure_type": "management_plan",
    "precedent_projects": 13,
@@ -311,6 +396,43 @@
    ],
    "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups and relevant authorities, a communication plan to share information with Indigenous groups on adverse federal effects of Designated Project activities as they relate to impacts on the health conditions and ",
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/166441"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 13,
+   "frequency": "13/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 28
+   },
+   "examples": [
+    "Akasaba West Copper-Gold Mine Project",
+    "Blackwater Gold Project",
+    "Brucejack Gold Mine Project",
+    "Frontier Oil Sands Mine Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups, Environment and Climate Change Canada, and the Ontario Ministry of Natural Resources, and implement, during all phases of the Designated Project, a follow-up program to verify the accuracy of the environme",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/165196"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "management_plan",
+   "precedent_projects": 12,
+   "frequency": "12/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 18
+   },
+   "examples": [
+    "Akasaba West Copper-Gold Mine Project",
+    "Blackwater Gold Project",
+    "Crawford Nickel Project",
+    "Côté Gold Mine Project"
+   ],
+   "sample_condition": "Present a plan to MEM and MOH describing the facilities and personal services that will be available to workers. Additionally, there should be an estimate of the total daily volume of effluent discharge from toilets, showers, eating area, laundry (if applicable), etc. This information will indicate ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
    "discipline": "indigenous_rights_tluse",
@@ -331,22 +453,22 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/166441"
   },
   {
-   "discipline": "human_health",
-   "measure_type": "management_plan",
+   "discipline": "noise_vibration",
+   "measure_type": "minimization",
    "precedent_projects": 11,
    "frequency": "11/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 2,
-    "federal": 14
+    "bc": 6,
+    "federal": 12
    },
    "examples": [
     "Akasaba West Copper-Gold Mine Project",
+    "Black Point Quarry Project",
     "Blackwater Gold Project",
-    "Crawford Nickel Project",
-    "Côté Gold Mine Project"
+    "Brucejack Gold Mine Project"
    ],
-   "sample_condition": "Present a plan to MEM and MOH describing the facilities and personal services that will be available to workers. Additionally, there should be an estimate of the total daily volume of effluent discharge from toilets, showers, eating area, laundry (if applicable), etc. This information will indicate ",
+   "sample_condition": "If determined to be beneficial, construction and vegetation of a berm along the clean coal storage area to improve noise dissipation, to be constructed prior to plant operation.",
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
@@ -387,6 +509,43 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/166441"
   },
   {
+   "discipline": "species_at_risk",
+   "measure_type": "mitigation",
+   "precedent_projects": 10,
+   "frequency": "10/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 25
+   },
+   "examples": [
+    "Akasaba West Copper-Gold Mine Project",
+    "Blackwater Gold Project",
+    "Brucejack Gold Mine Project",
+    "Frontier Oil Sands Mine Project"
+   ],
+   "sample_condition": "The Proponent shall manage, in consultation with Indigenous groups, Environment and Climate Change Canada, and the Ontario Ministry of Natural Resources, woody vegetation along the new transmission line right-of-way to achieve visual barriers for predators in areas of woodland caribou ( Rangifer tar",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/165196"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 9,
+   "frequency": "9/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 12
+   },
+   "examples": [
+    "Akasaba West Copper-Gold Mine Project",
+    "Black Point Quarry Project",
+    "Blackwater Gold Project",
+    "Brucejack Gold Mine Project"
+   ],
+   "sample_condition": "To produce, to the satisfaction of MELP, an Ambient Air Quality Monitoring and Impact Assessment Plan: to control the emission of fine and coarse particles from project construction and operations to meet the 24 hour Level B fine particulate (PM10) ambient air quality objective of 50 ug/m3 and the l",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
    "discipline": "archaeology_heritage",
    "measure_type": "mitigation",
    "precedent_projects": 9,
@@ -424,6 +583,24 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/132190"
   },
   {
+   "discipline": "species_at_risk",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 8,
+   "frequency": "8/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 11
+   },
+   "examples": [
+    "Akasaba West Copper-Gold Mine Project",
+    "Blackwater Gold Project",
+    "Brucejack Gold Mine Project",
+    "Frontier Oil Sands Mine Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction, and in consultation with Indigenous groups, Environment and Climate Change Canada, and the Ontario Ministry of Natural Resources, and implement during all phases of the Designated Project, habitat offsetting measures to mitigate adverse effects fro",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/165196"
+  },
+  {
    "discipline": "surface_water",
    "measure_type": "minimization",
    "precedent_projects": 7,
@@ -443,22 +620,40 @@
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
-   "discipline": "wildlife_birds",
-   "measure_type": "mitigation",
+   "discipline": "species_at_risk",
+   "measure_type": "avoidance",
+   "precedent_projects": 7,
+   "frequency": "7/27 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 13
+   },
+   "examples": [
+    "Blackwater Gold Project",
+    "Brucejack Gold Mine Project",
+    "Howse Property Iron Mine Project",
+    "Red Mountain Underground Gold Project"
+   ],
+   "sample_condition": "The Proponent shall undertake construction activities, including vegetation clearing, outside the woodland caribou ( Rangifer tarandus caribou ) calving and nursery period (May 1 to June 30), in calving and nursery areas identified in figure 6.13-7 of the Environmental Impact Statement, unless other",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/165196"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "management_plan",
    "precedent_projects": 7,
    "frequency": "7/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
-    "federal": 9
+    "federal": 12
    },
    "examples": [
+    "Akasaba West Copper-Gold Mine Project",
     "Blackwater Gold Project",
-    "Crawford Nickel Project",
-    "Goliath Gold Project",
-    "Greenstone Mine Project"
+    "Brucejack Gold Mine Project",
+    "Hardrock Gold Mine Project"
    ],
-   "sample_condition": "The Proponent shall take all reasonable measures to prevent migratory birds from accessing sources of water that exceed the Canadian Council of Ministers of the Environment&#39;s Canadian Water Quality Guidelines for the Protection of Aquatic Life . Should migratory birds attempt to access these sou",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/166441"
+   "sample_condition": "The Proponent shall develop and implement a plan for communicating the results of the follow-up program in condition 7.4 to the Cree Nation of Nemaska and shall consult the Cree Nation of Nemaska concerning implementation of any corrective measures. 8 Listed Species at Risk",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/153020"
   },
   {
    "discipline": "waste_hazmat",
@@ -480,6 +675,25 @@
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
+   "discipline": "wildlife_birds",
+   "measure_type": "management_plan",
+   "precedent_projects": 6,
+   "frequency": "6/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 3,
+    "federal": 8
+   },
+   "examples": [
+    "Akasaba West Copper-Gold Mine Project",
+    "Frontier Oil Sands Mine Project",
+    "Greenstone Mine Project",
+    "Hardrock Gold Mine Project"
+   ],
+   "sample_condition": "Develop a wildlife-human interaction program to minimize impact to ungulates and bears satisfactory to the Regional Manager, Fish and Wildlife, MELP in consultation with First Nations.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
    "discipline": "wetlands",
    "measure_type": "monitoring_followup",
    "precedent_projects": 6,
@@ -498,6 +712,44 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161998"
   },
   {
+   "discipline": "air_quality",
+   "measure_type": "mitigation",
+   "precedent_projects": 5,
+   "frequency": "5/27 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 4,
+    "federal": 4
+   },
+   "examples": [
+    "Blackwater Gold Project",
+    "Côté Gold Mine Project",
+    "Hardrock Gold Mine Project",
+    "Magino Gold Project"
+   ],
+   "sample_condition": "Surface amendments or other appropriate measures to control dusting from tailings ponds will be used when required. These mitigations could include inundation, surface sprays and a windbreak/dust barrier along the berm.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "visual_landscape",
+   "measure_type": "mitigation",
+   "precedent_projects": 5,
+   "frequency": "5/27 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 3,
+    "federal": 5
+   },
+   "examples": [
+    "Blackwater Gold Project",
+    "Frontier Oil Sands Mine Project",
+    "Murray River Coal Project",
+    "Whabouchi Mining Project"
+   ],
+   "sample_condition": "In discussion with MOTH, attempt to develop an interim management program, which includes provision for a highway lookout point with signs illustrating proposed reclamation plans and providing examples of reclamation for viewing as the project progresses.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
    "discipline": "surface_water",
    "measure_type": "mitigation",
    "precedent_projects": 5,
@@ -514,25 +766,6 @@
     "Lynn Lake Gold Project"
    ],
    "sample_condition": "Control sediment release from areas disturbed during clearing, construction, operation and post-closure of the mine including, but not limited to, roads, waste dumps, pits and plant site such that site-specific water quality objectives are met at designated monitoring locations.",
-   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
-  },
-  {
-   "discipline": "wildlife_birds",
-   "measure_type": "avoidance",
-   "precedent_projects": 5,
-   "frequency": "5/27 comparable projects",
-   "typical_timing": "all_phases",
-   "jurisdictions": {
-    "bc": 2,
-    "federal": 8
-   },
-   "examples": [
-    "Blackwater Gold Project",
-    "Côté Gold Mine Project",
-    "Murray River Coal Project",
-    "Red Mountain Underground Gold Project"
-   ],
-   "sample_condition": "Implement a no hunting/firearms policy for the mine, plant site and infrastructure satisfactory to the Regional Manager, Fish and Wildlife, MELP and District Inspector, MEM in consultation with First Nations.",
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
@@ -555,41 +788,97 @@
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b5c6eed3c0016f8564c9/download"
   },
   {
-   "discipline": "species_at_risk",
-   "measure_type": "monitoring_followup",
+   "discipline": "human_health",
+   "measure_type": "mitigation",
+   "precedent_projects": 5,
+   "frequency": "5/27 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 8
+   },
+   "examples": [
+    "Blackwater Gold Project",
+    "Crawford Nickel Project",
+    "Galaxy Lithium Project",
+    "Greenstone Mine Project"
+   ],
+   "sample_condition": "The Proponent shall provide personal protective equipment and associated safety training and information on where personal protective equipment should be worn within the Designated Project area to Indigenous groups and their members accessing areas within the Designated Project area for traditional ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/166441"
+  },
+  {
+   "discipline": "climate_ghg",
+   "measure_type": "management_plan",
    "precedent_projects": 5,
    "frequency": "5/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
-    "federal": 10
+    "federal": 7
    },
    "examples": [
-    "Goliath Gold Project",
-    "Howse Property Iron Mine Project",
-    "Magino Gold Project",
-    "Murray River Coal Project"
+    "Frontier Oil Sands Mine Project",
+    "James Bay Lithium Mine Project",
+    "Lynn Lake Gold Project",
+    "Magino Gold Project"
    ],
-   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups, Environment and Climate Change Canada, and the Ontario Ministry of Natural Resources, and implement, during all phases of the Designated Project, a follow-up program to verify the accuracy of the environme",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/165196"
+   "sample_condition": "The Proponent shall develop in consultation with Environment and Climate Change Canada and any other relevant authorities, and implement within six months of the commencement of operations and until the end of decommissioning, a greenhouse gas management plan to reduce the Designated Project&apos;s ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/152839"
   },
   {
-   "discipline": "visual_landscape",
-   "measure_type": "mitigation",
+   "discipline": "air_quality",
+   "measure_type": "management_plan",
+   "precedent_projects": 4,
+   "frequency": "4/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 4
+   },
+   "examples": [
+    "Frontier Oil Sands Mine Project",
+    "Howse Property Iron Mine Project",
+    "James Bay Lithium Mine Project",
+    "Willow Creek"
+   ],
+   "sample_condition": "Provide, prior to construction and surface disturbance, a dust mitigation plan acceptable to MEM and MELP. This plan should include measures to effectively minimize and control dust to the extent practical from tailings, mine roads, coal piles, waste dumps and to ensure that MELP Ambient Air Guideli",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "engagement",
+   "precedent_projects": 4,
+   "frequency": "4/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 2
+   },
+   "examples": [
+    "Black Point Quarry Project",
+    "Blackwater Gold Project",
+    "Huckleberry Copper and Gold Mine",
+    "Willow Creek"
+   ],
+   "sample_condition": "The proponent shall assist in the organization of a local Environmental Monitoring and Liaison Committee, and meet on an agreed basis to keep the Committee members and the general public appraised on the project development.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "minimization",
    "precedent_projects": 4,
    "frequency": "4/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
     "bc": 1,
-    "federal": 4
+    "federal": 5
    },
    "examples": [
-    "Blackwater Gold Project",
-    "Murray River Coal Project",
-    "Whabouchi Mining Project",
-    "Willow Creek"
+    "Côté Gold Mine Project",
+    "Frontier Oil Sands Mine Project",
+    "Goliath Gold Project",
+    "Huckleberry Copper and Gold Mine"
    ],
-   "sample_condition": "Adhere to a progressive reclamation plan to minimize the time between initial disturbance and reclamation in order to reduce the visual quality impact.",
-   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+   "sample_condition": "The currently approved powerline corridor for the project will originate from the B.C. Hydro power grid \nin Houston and follow an existing Forest Service Road corridor out to the minesite (see attached map). \nThe access route to the mine consists of the following Forest Service Roads:\nRoad Km.\nMoric",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b9a9eed3c0016f85673e/download"
   },
   {
    "discipline": "socio_economic",
@@ -629,58 +918,22 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/166441"
   },
   {
-   "discipline": "human_health",
-   "measure_type": "mitigation",
-   "precedent_projects": 4,
-   "frequency": "4/27 comparable projects",
-   "typical_timing": "all_phases",
-   "jurisdictions": {
-    "federal": 4
-   },
-   "examples": [
-    "Blackwater Gold Project",
-    "Crawford Nickel Project",
-    "Greenstone Mine Project",
-    "Murray River Coal Project"
-   ],
-   "sample_condition": "The Proponent shall provide personal protective equipment and associated safety training and information on where personal protective equipment should be worn within the Designated Project area to Indigenous groups and their members accessing areas within the Designated Project area for traditional ",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/166441"
-  },
-  {
    "discipline": "species_at_risk",
-   "measure_type": "compensation_offset",
+   "measure_type": "minimization",
    "precedent_projects": 4,
    "frequency": "4/27 comparable projects",
-   "typical_timing": "all_phases",
+   "typical_timing": "construction",
    "jurisdictions": {
     "federal": 5
    },
    "examples": [
-    "Akasaba West Copper-Gold Mine Project",
-    "Frontier Oil Sands Mine Project",
-    "Murray River Coal Project",
-    "Springpole Gold Project"
-   ],
-   "sample_condition": "The Proponent shall develop, prior to construction, and in consultation with Indigenous groups, Environment and Climate Change Canada, and the Ontario Ministry of Natural Resources, and implement during all phases of the Designated Project, habitat offsetting measures to mitigate adverse effects fro",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/165196"
-  },
-  {
-   "discipline": "species_at_risk",
-   "measure_type": "mitigation",
-   "precedent_projects": 4,
-   "frequency": "4/27 comparable projects",
-   "typical_timing": "operation",
-   "jurisdictions": {
-    "federal": 6
-   },
-   "examples": [
-    "Akasaba West Copper-Gold Mine Project",
+    "Black Point Quarry Project",
+    "Blackwater Gold Project",
     "Galaxy Lithium Project",
-    "Murray River Coal Project",
-    "Springpole Gold Project"
+    "Greenstone Mine Project"
    ],
-   "sample_condition": "The Proponent shall manage, in consultation with Indigenous groups, Environment and Climate Change Canada, and the Ontario Ministry of Natural Resources, woody vegetation along the new transmission line right-of-way to achieve visual barriers for predators in areas of woodland caribou ( Rangifer tar",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/165196"
+   "sample_condition": "The Proponent shall educate employees and contractors associated with the Designated Project not to feed animals in the Designated Project area and to dispose of food and waste properly so as not to attract animals near the work areas.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161998"
   },
   {
    "discipline": "wetlands",
@@ -737,40 +990,22 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161998"
   },
   {
-   "discipline": "wildlife_birds",
+   "discipline": "climate_ghg",
    "measure_type": "minimization",
-   "precedent_projects": 4,
-   "frequency": "4/27 comparable projects",
-   "typical_timing": "operation",
-   "jurisdictions": {
-    "federal": 5
-   },
-   "examples": [
-    "Brucejack Gold Mine Project",
-    "Côté Gold Mine Project",
-    "Lynn Lake Gold Project",
-    "Red Mountain Underground Gold Project"
-   ],
-   "sample_condition": "The Proponent shall develop, in consultation with Indigenous groups and relevant authorities and taking into account Environment and Climate Change Canada&apos;s Guide for Developing Beneficial Management Practices for Migratory Bird Conservation, and implement, from the beginning of operation, meas",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161143"
-  },
-  {
-   "discipline": "noise_vibration",
-   "measure_type": "management_plan",
    "precedent_projects": 4,
    "frequency": "4/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
-    "federal": 8
+    "federal": 9
    },
    "examples": [
-    "Hardrock Gold Mine Project",
-    "Howse Property Iron Mine Project",
+    "Frontier Oil Sands Mine Project",
+    "James Bay Lithium Mine Project",
     "Murray River Coal Project",
-    "Whabouchi Mining Project"
+    "Valentine Gold Project"
    ],
-   "sample_condition": "The Proponent shall develop and implement a plan for communicating the results of the follow-up program in condition 7.4 to the Cree Nation of Nemaska and shall consult the Cree Nation of Nemaska concerning implementation of any corrective measures. 8 Listed Species at Risk",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/153020"
+   "sample_condition": "The Proponent shall develop the Designated Project area and optimize activities associated with the operation of the Designated Project so as to minimize transportation and distances required to travel within the Designated Project area.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/155607"
   },
   {
    "discipline": "surface_water",
@@ -809,6 +1044,24 @@
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
+   "discipline": "cumulative_effects",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 3,
+   "frequency": "3/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 4
+   },
+   "examples": [
+    "Frontier Oil Sands Mine Project",
+    "Murray River Coal Project",
+    "Willow Creek"
+   ],
+   "sample_condition": "Establish an overview of cumulative effects by the project on resources traditionally utilized by First Nations within the project area.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
    "discipline": "groundwater",
    "measure_type": "monitoring_followup",
    "precedent_projects": 3,
@@ -827,6 +1080,24 @@
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
+   "discipline": "wildlife_birds",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 3,
+   "frequency": "3/27 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 2
+   },
+   "examples": [
+    "Frontier Oil Sands Mine Project",
+    "Greenstone Mine Project",
+    "Tulsequah Chief Mine"
+   ],
+   "sample_condition": "Commitment to provide off-site compensation for direct loss of wildlife habitats during operation of the mine, and any residual loss of habitat resulting from ineffectiveness of reclamation measures, that are identified as project development procedures in consultation with MELP.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b5c6eed3c0016f8564c9/download"
+  },
+  {
    "discipline": "socio_economic",
    "measure_type": "mitigation",
    "precedent_projects": 3,
@@ -843,6 +1114,23 @@
    ],
    "sample_condition": "7. Huckleberry must, in good faith, for the life of the Project:\n(c) adhere to its First Nations recruitment and placement policy entitled “First Nations \nRecruitment and Placement Policy, Huckleberry Mines Ltd., Huckleberry Project”, dated \nNovember 10, 1995;",
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b9b2eed3c0016f856740/download"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "minimization",
+   "precedent_projects": 3,
+   "frequency": "3/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 9
+   },
+   "examples": [
+    "Côté Gold Mine Project",
+    "Galaxy Lithium Project",
+    "James Bay Lithium Mine Project"
+   ],
+   "sample_condition": "The Proponent shall use electric vehicles for the transport of employees during all phases of the Designated Project unless not technically or economically feasible, and shall prioritize the use of electric equipment during operation, or equipment that meets the United States Environmental Protectio",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161998"
   },
   {
    "discipline": "closure_postclosure",
@@ -879,6 +1167,74 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161143"
   },
   {
+   "discipline": "noise_vibration",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 3,
+   "frequency": "3/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Black Point Quarry Project",
+    "Howse Property Iron Mine Project",
+    "Whabouchi Mining Project"
+   ],
+   "sample_condition": "The Proponent shall, during all phases of the Designated Project, develop and implement a noise-level follow-up program at the Bible Camp and the hunting camp most likely to be affected to verify that the noise levels originating from the Designated Project respect the noise levels set out in the No",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/153020"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "avoidance",
+   "precedent_projects": 3,
+   "frequency": "3/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "James Bay Lithium Mine Project",
+    "Lynn Lake Gold Project",
+    "Red Mountain Underground Gold Project"
+   ],
+   "sample_condition": "The Proponent shall implement measures, during all phases of the Designated Project, to avoid exceedances of the thresholds for noise and vibration, identified in Health Canada&#39;s Guidance for Evaluating Human Health Impacts in Environmental Assessment: Noise at sensitive receptors identified in ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/146835"
+  },
+  {
+   "discipline": "climate_ghg",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 3,
+   "frequency": "3/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Frontier Oil Sands Mine Project",
+    "Lynn Lake Gold Project",
+    "Murray River Coal Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups, Environment and Climate Change Canada and any other relevant authorities, and implement during all phases of the Designated Project, a follow-up program to verify the accuracy of the environmental assessme",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/146835"
+  },
+  {
+   "discipline": "light",
+   "measure_type": "minimization",
+   "precedent_projects": 3,
+   "frequency": "3/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Akasaba West Copper-Gold Mine Project",
+    "Blackwater Gold Project",
+    "James Bay Lithium Mine Project"
+   ],
+   "sample_condition": "The Proponent shall control the lighting necessary for Designated Project activities during all phases of the Designated Project, including its orientation, duration of use and intensity, in order to prevent injuring, killing or harassing migratory birds migratory birds and birds that are listed spe",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/145074"
+  },
+  {
    "discipline": "archaeology_heritage",
    "measure_type": "avoidance",
    "precedent_projects": 3,
@@ -896,7 +1252,7 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/126842"
   },
   {
-   "discipline": "noise_vibration",
+   "discipline": "visual_landscape",
    "measure_type": "minimization",
    "precedent_projects": 3,
    "frequency": "3/27 comparable projects",
@@ -909,41 +1265,41 @@
     "Howse Property Iron Mine Project",
     "Murray River Coal Project"
    ],
-   "sample_condition": "During the months of June, July, August and September, the Proponent shall not blast more than twice in a week and more than five times per month.",
+   "sample_condition": "Using a qualified individual, the Proponent shall design overburden stockpiles and waste rock piles, in consultation with Indigenous groups and relevant authorities, and in consideration of reducing effects to viewscapes. The Proponent shall implement the design throughout all phases of the Designat",
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/123324"
   },
   {
-   "discipline": "wildlife_birds",
-   "measure_type": "management_plan",
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "avoidance",
    "precedent_projects": 2,
    "frequency": "2/27 comparable projects",
-   "typical_timing": "operation",
+   "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 2,
-    "federal": 2
+    "bc": 1,
+    "federal": 1
    },
    "examples": [
-    "Frontier Oil Sands Mine Project",
-    "Willow Creek"
+    "Goliath Gold Project",
+    "Nazko Lava Quarry Extension"
    ],
-   "sample_condition": "Develop a wildlife-human interaction program to minimize impact to ungulates and bears satisfactory to the Regional Manager, Fish and Wildlife, MELP in consultation with First Nations.",
-   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+   "sample_condition": "Canada Pumice must set aside, as outlined in the development plan for the Project in Map 5, those areas indicated by the legend marked \"reserve\" and coloured yellow, in which no mining, mining related activities, or logging shall take place: along Lava Lake: the area south of Michelle Creek Forestry",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886940deed3c0016f85525f/download"
   },
   {
-   "discipline": "cumulative_effects",
-   "measure_type": "monitoring_followup",
+   "discipline": "socio_economic",
+   "measure_type": "management_plan",
    "precedent_projects": 2,
    "frequency": "2/27 comparable projects",
    "typical_timing": "pre_construction",
    "jurisdictions": {
     "bc": 2,
-    "federal": 3
+    "federal": 2
    },
    "examples": [
-    "Frontier Oil Sands Mine Project",
+    "Crawford Nickel Project",
     "Willow Creek"
    ],
-   "sample_condition": "Establish an overview of cumulative effects by the project on resources traditionally utilized by First Nations within the project area.",
+   "sample_condition": "Provide a Traffic Impact Study to MOTH to address potential safety issues associated with traffic patterns on access roads.",
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
@@ -981,51 +1337,35 @@
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b9b2eed3c0016f856740/download"
   },
   {
-   "discipline": "air_quality",
-   "measure_type": "minimization",
+   "discipline": "species_at_risk",
+   "measure_type": "management_plan",
    "precedent_projects": 2,
    "frequency": "2/27 comparable projects",
    "typical_timing": "all_phases",
-   "jurisdictions": {
-    "federal": 2
-   },
-   "examples": [
-    "Hardrock Gold Mine Project",
-    "Springpole Gold Project"
-   ],
-   "sample_condition": "The Proponent shall implement, during all phases of the Designated Project, measures to mitigate fugitive dust emissions attributable to the Designated Project, including dust associated with vehicles and the handling and storage of granular materials while taking into account Environment and Climat",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/165196"
-  },
-  {
-   "discipline": "species_at_risk",
-   "measure_type": "minimization",
-   "precedent_projects": 2,
-   "frequency": "2/27 comparable projects",
-   "typical_timing": "operation",
    "jurisdictions": {
     "federal": 3
    },
    "examples": [
-    "Black Point Quarry Project",
+    "Akasaba West Copper-Gold Mine Project",
     "Galaxy Lithium Project"
    ],
-   "sample_condition": "The Proponent shall educate employees and contractors associated with the Designated Project not to feed animals in the Designated Project area and to dispose of food and waste properly so as not to attract animals near the work areas.",
+   "sample_condition": "The Proponent shall prepare, prior to construction and in consultation with the Cree Nation Government, the Cree Nation of Eastmain, the tallyman of trapline RE02, Environment and Climate Change Canada, and other relevant authorities, and implement during all phases of the Designated Project, an act",
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161998"
   },
   {
    "discipline": "human_health",
-   "measure_type": "minimization",
+   "measure_type": "avoidance",
    "precedent_projects": 2,
    "frequency": "2/27 comparable projects",
-   "typical_timing": "all_phases",
+   "typical_timing": "operation",
    "jurisdictions": {
     "federal": 2
    },
    "examples": [
-    "Côté Gold Mine Project",
-    "Galaxy Lithium Project"
+    "Galaxy Lithium Project",
+    "James Bay Lithium Mine Project"
    ],
-   "sample_condition": "The Proponent shall favour chipping and spreading of ligneous waste and debris in the Designated Project area or any other use of ligneous debris that allows its reclamation, reuse or recycling, unless not possible for safety reasons.",
+   "sample_condition": "The Proponent shall prohibit blasting, not handle any granular material and implement measures to avoid raising dust in the stockpiles during operation when there are strong wind conditions as defined in Environment and Climate Change Canada&#39;s Weather and meteorology glossary in the direction of",
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161998"
   },
   {
@@ -1042,6 +1382,22 @@
     "Lynn Lake Gold Project"
    ],
    "sample_condition": "The Proponent shall identify in consultation with Indigenous groups, prior to conducting the salvage and relocation of fish referred to in condition 3.8.1, opportunities for Indigenous groups to take part in, and determine their interest to take part in, the salvage and relocation of fish.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161143"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "engagement",
+   "precedent_projects": 2,
+   "frequency": "2/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Howse Property Iron Mine Project",
+    "Lynn Lake Gold Project"
+   ],
+   "sample_condition": "The Proponent shall participate, during construction and operation and at the request of Manitoba Environment, Climate and Parks or any other relevant authorities responsible for these initiatives, in regional initiatives related to the management of adverse effects on woodland caribou ( Rangifer ta",
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161143"
   },
   {
@@ -1075,54 +1431,6 @@
    ],
    "sample_condition": "The Proponent shall develop and implement, during all phases of the Designated Project, measures to avoid any potential effects to surface water and groundwater quality from the Designated Project. In doing so, the Proponent shall: 6.2.1 extract materials from the borrow pits at least one metre abov",
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/153020"
-  },
-  {
-   "discipline": "air_quality",
-   "measure_type": "monitoring_followup",
-   "precedent_projects": 2,
-   "frequency": "2/27 comparable projects",
-   "typical_timing": "all_phases",
-   "jurisdictions": {
-    "federal": 2
-   },
-   "examples": [
-    "Hardrock Gold Mine Project",
-    "Whabouchi Mining Project"
-   ],
-   "sample_condition": "In order to verify the accuracy of the environmental assessment of the Designated Project and to determine the effectiveness of the mitigation measures identified in condition 6.1, the Proponent shall develop and implement a follow-up program on health and socio-economic conditions that shall includ",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/153020"
-  },
-  {
-   "discipline": "noise_vibration",
-   "measure_type": "monitoring_followup",
-   "precedent_projects": 2,
-   "frequency": "2/27 comparable projects",
-   "typical_timing": "all_phases",
-   "jurisdictions": {
-    "federal": 3
-   },
-   "examples": [
-    "Howse Property Iron Mine Project",
-    "Whabouchi Mining Project"
-   ],
-   "sample_condition": "The Proponent shall, during all phases of the Designated Project, develop and implement a noise-level follow-up program at the Bible Camp and the hunting camp most likely to be affected to verify that the noise levels originating from the Designated Project respect the noise levels set out in the No",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/153020"
-  },
-  {
-   "discipline": "vegetation_ecosystems",
-   "measure_type": "minimization",
-   "precedent_projects": 2,
-   "frequency": "2/27 comparable projects",
-   "typical_timing": "all_phases",
-   "jurisdictions": {
-    "federal": 3
-   },
-   "examples": [
-    "Côté Gold Mine Project",
-    "Goliath Gold Project"
-   ],
-   "sample_condition": "The Proponent shall use measures other than broadcast spraying when applying herbicides to control invasive plant species, unless not technically and economically feasible.",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/132190"
   },
   {
    "discipline": "accidents_malfunctions",
@@ -1189,22 +1497,6 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/123014"
   },
   {
-   "discipline": "visual_landscape",
-   "measure_type": "minimization",
-   "precedent_projects": 2,
-   "frequency": "2/27 comparable projects",
-   "typical_timing": "all_phases",
-   "jurisdictions": {
-    "federal": 2
-   },
-   "examples": [
-    "Akasaba West Copper-Gold Mine Project",
-    "Murray River Coal Project"
-   ],
-   "sample_condition": "The Proponent shall maintain tree buffers around the pit, the waste rock and overburden piles, the ore storage area, the water management infrastructures and along the access road.",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/121713"
-  },
-  {
    "discipline": "air_quality",
    "measure_type": "engagement",
    "precedent_projects": 2,
@@ -1219,6 +1511,36 @@
    ],
    "sample_condition": "The Proponent shall inform the Nis g a&#39;a Nation and Tsetsaut/Skii km Lax Ha in cases of exceedances at the Tsetsaut/Skii km Lax Ha Lodge of the Canadian Ambient Air Quality Standards of the Canadian Council of Ministers of the Environment parameters specified in condition 5.2. 6 Current use of l",
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/102018"
+  },
+  {
+   "discipline": "visual_landscape",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/27 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Willow Creek"
+   ],
+   "sample_condition": "If required, follow-up on the Visual Quality Impact Assessment, in co-operation with MEM and MOF (with respect to the Forestry Practices Code).",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/27 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 4
+   },
+   "examples": [
+    "Willow Creek"
+   ],
+   "sample_condition": "During construction minimize the surface area of un-reclaimed land disturbance by planning construction activities so as to enable surface stabilization and reclamation. This applies particularly to construction of the Willow Creek road.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
    "discipline": "groundwater",
@@ -1252,17 +1574,17 @@
   },
   {
    "discipline": "soils_terrain",
-   "measure_type": "minimization",
+   "measure_type": "management_plan",
    "precedent_projects": 1,
    "frequency": "1/27 comparable projects",
    "typical_timing": "pre_construction",
    "jurisdictions": {
-    "bc": 2
+    "bc": 3
    },
    "examples": [
     "Willow Creek"
    ],
-   "sample_condition": "Submit, prior to clearing, construction or surface disturbance, on an area by area basis, construction plans designed to minimize erosion and soil loss, and avoid, where possible, unstable and readily-erodible soils in the alignment of roads and other structures.",
+   "sample_condition": "Submit a soil survey, and a soil salvage, handling and storage plan as described in Appendix I of the Application Requirements for a Mine Act Permit Approving the Mine Plan and Reclamation Program: MEI 1998.",
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
@@ -1278,6 +1600,36 @@
     "Willow Creek"
    ],
    "sample_condition": "Obtain all necessary Heritage Conservation Act permits to complete the above-noted archaeological work.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/27 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 3
+   },
+   "examples": [
+    "Willow Creek"
+   ],
+   "sample_condition": "Provide to MOTH all design details, if required, for a \"controlled access highway\" as per Section 57 of the Highway Act. Additional conditions may be included on the access permit under the Highway (Industrial) Act.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 1,
+   "frequency": "1/27 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Willow Creek"
+   ],
+   "sample_condition": "Before the start of mine operation, the proponent shall complete negotiations and appropriately compensate the affected trapper using the BC Hydro model.",
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869417eed3c0016f855273/download"
   },
   {
@@ -1326,36 +1678,6 @@
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b9b2eed3c0016f856740/download"
   },
   {
-   "discipline": "socio_economic",
-   "measure_type": "management_plan",
-   "precedent_projects": 1,
-   "frequency": "1/27 comparable projects",
-   "typical_timing": "all_phases",
-   "jurisdictions": {
-    "federal": 2
-   },
-   "examples": [
-    "Crawford Nickel Project"
-   ],
-   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups, Indigenous Services Canada and other relevant authorities, and implement, during construction and operation, a Training and Employment Plan to increase opportunities for Indigenous Peoples, including Indig",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/166441"
-  },
-  {
-   "discipline": "species_at_risk",
-   "measure_type": "avoidance",
-   "precedent_projects": 1,
-   "frequency": "1/27 comparable projects",
-   "typical_timing": "construction",
-   "jurisdictions": {
-    "federal": 1
-   },
-   "examples": [
-    "Springpole Gold Project"
-   ],
-   "sample_condition": "The Proponent shall undertake construction activities, including vegetation clearing, outside the woodland caribou ( Rangifer tarandus caribou ) calving and nursery period (May 1 to June 30), in calving and nursery areas identified in figure 6.13-7 of the Environmental Impact Statement, unless other",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/165196"
-  },
-  {
    "discipline": "wetlands",
    "measure_type": "minimization",
    "precedent_projects": 1,
@@ -1371,6 +1693,21 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161998"
   },
   {
+   "discipline": "species_at_risk",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "James Bay Lithium Mine Project"
+   ],
+   "sample_condition": "The Proponent shall ensure that its actions in meeting the conditions set out in this document are taken in a way that is consistent with any applicable recovery strategy and action plans for listed species at risk. Consultation",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/145074"
+  },
+  {
    "discipline": "soils_terrain",
    "measure_type": "mitigation",
    "precedent_projects": 1,
@@ -1383,6 +1720,21 @@
     "James Bay Lithium Mine Project"
    ],
    "sample_condition": "The Proponent shall develop, prior to construction, and implement measures to manage soil excavated as part of the Designated Project to mitigate the adverse environmental effects on fish and fish habitat, including by applying the principle of non-degradation of soil to all reused soils and by mana",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/145074"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/27 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "James Bay Lithium Mine Project"
+   ],
+   "sample_condition": "The Proponent shall prohibit blasting, not handle any granular material and implement measures to avoid raising dust in the stockpiles during operation when there are strong wind conditions as defined in Environment and Climate Change Canada&apos;s Weather and meteorology glossary.",
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/145074"
   },
   {
@@ -1416,49 +1768,34 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/126512"
   },
   {
-   "discipline": "species_at_risk",
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/27 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Blackwater Gold Project"
+   ],
+   "sample_condition": "The Proponent shall develop and implement measures in consultation with Indigenous groups to manage invasive species within the Designated Project area.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/126001"
+  },
+  {
+   "discipline": "cumulative_effects",
    "measure_type": "engagement",
    "precedent_projects": 1,
    "frequency": "1/27 comparable projects",
-   "typical_timing": "operation",
+   "typical_timing": "all_phases",
    "jurisdictions": {
     "federal": 1
    },
    "examples": [
     "Howse Property Iron Mine Project"
    ],
-   "sample_condition": "If the Proponent is made aware of or observes caribou within a 20-kilometre radius of the active pit or of the Howse mini-plant, the Proponent shall consult the Newfoundland and Labrador Department of Fisheries and Land Resources to determine the appropriate course of action.",
+   "sample_condition": "The Proponent shall participate in regional initiative(s), if requested by a relevant authority or the Town of Schefferville, relating to the monitoring, assessment and management of cumulative environmental effects, including cumulative health effects related to dust likely to result from the Desig",
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/123324"
-  },
-  {
-   "discipline": "light",
-   "measure_type": "minimization",
-   "precedent_projects": 1,
-   "frequency": "1/27 comparable projects",
-   "typical_timing": "all_phases",
-   "jurisdictions": {
-    "federal": 1
-   },
-   "examples": [
-    "Akasaba West Copper-Gold Mine Project"
-   ],
-   "sample_condition": "The Proponent shall control lighting required for the activities associated with the Designated Project during all phases of the Designated Project, including its direction, timing, intensity and glare, while meeting operational health and safety requirements.",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/123014"
-  },
-  {
-   "discipline": "species_at_risk",
-   "measure_type": "management_plan",
-   "precedent_projects": 1,
-   "frequency": "1/27 comparable projects",
-   "typical_timing": "all_phases",
-   "jurisdictions": {
-    "federal": 1
-   },
-   "examples": [
-    "Akasaba West Copper-Gold Mine Project"
-   ],
-   "sample_condition": "The Proponent shall develop, prior to construction, and implement, during all phases of the Designated Project, a communication protocol to notify employees and contractors associated with the Designated Project, including ore transport truck drivers, of the presence of caribou in the Designated Pro",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/123014"
   },
   {
    "discipline": "groundwater",
@@ -1477,21 +1814,6 @@
   },
   {
    "discipline": "wildlife_birds",
-   "measure_type": "compensation_offset",
-   "precedent_projects": 1,
-   "frequency": "1/27 comparable projects",
-   "typical_timing": "construction",
-   "jurisdictions": {
-    "federal": 1
-   },
-   "examples": [
-    "Frontier Oil Sands Mine Project"
-   ],
-   "sample_condition": "The Proponent shall identify, prior to construction and in consultation with Indigenous groups, Environment and Climate Change Canada, other relevant authorities, and other proponents as necessary, measures to offset effects of the Designated Project on the habitat of migratory birds which are liste",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/132957"
-  },
-  {
-   "discipline": "wildlife_birds",
    "measure_type": "engagement",
    "precedent_projects": 1,
    "frequency": "1/27 comparable projects",
@@ -1504,21 +1826,6 @@
    ],
    "sample_condition": "The Proponent shall update and obtain feedback from Indigenous groups on studies conducted by the Proponent through the Oil Sands Bird Technical Team, for those studies that relate to concerns expressed by Indigenous groups.",
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/132957"
-  },
-  {
-   "discipline": "socio_economic",
-   "measure_type": "engagement",
-   "precedent_projects": 1,
-   "frequency": "1/27 comparable projects",
-   "typical_timing": "construction",
-   "jurisdictions": {
-    "federal": 1
-   },
-   "examples": [
-    "Black Point Quarry Project"
-   ],
-   "sample_condition": "The Proponent shall notify Indigenous groups and local commercial fishers at least 30 days in advance of in-water construction activities.",
-   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/114133"
   },
   {
    "discipline": "socio_economic",
@@ -1551,5 +1858,5 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/112942"
   }
  ],
- "weak_pool_size": 2207
+ "weak_pool_size": 3636
 }

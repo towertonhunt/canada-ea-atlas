@@ -1,16 +1,27 @@
 {
  "archetype": "wind",
- "constraints": [
-  "species_at_risk"
- ],
+ "constraints": [],
  "disciplines": [
   "accidents_malfunctions",
+  "air_quality",
   "archaeology_heritage",
+  "climate_ghg",
   "closure_postclosure",
+  "cumulative_effects",
+  "fish_fish_habitat",
+  "groundwater",
+  "human_health",
   "indigenous_rights_tluse",
+  "light",
   "noise_vibration",
+  "socio_economic",
+  "soils_terrain",
   "species_at_risk",
+  "surface_water",
   "vegetation_ecosystems",
+  "visual_landscape",
+  "waste_hazmat",
+  "wetlands",
   "wildlife_birds"
  ],
  "strong_precedents": [
@@ -49,6 +60,42 @@
    ],
    "sample_condition": "6. Condition C1 is included to provide the minimum performance requirement considered necessary to\nprevent an Adverse Effect resulting from the operation of the Equipment and to ensure that the noise\nemissions from the Equipment will be in compliance with applicable limits set in the Noise Guideline",
    "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6465-8XGLQT-14.pdf"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "other",
+   "precedent_projects": 8,
+   "frequency": "8/16 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "ontario": 16
+   },
+   "examples": [
+    "Bow Lake Wind Farm",
+    "Clarington Wind Farm",
+    "Conestogo Wind Energy Centre",
+    "Dufferin Wind Farm"
+   ],
+   "sample_condition": "14. Condition N is included to ensure that Environment Canada’s Montreal River Weather Radar\nStation can continue to be used to provide accurate and reliable forecasts and weather warnings\nconsistent with Environment Canada’s mandate.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/5268-94GPYR-14.pdf"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "other",
+   "precedent_projects": 5,
+   "frequency": "5/16 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "ontario": 9
+   },
+   "examples": [
+    "Belle River Wind Project",
+    "Bluewater Wind Project",
+    "Conestogo Wind Energy Centre",
+    "Dufferin Wind Farm"
+   ],
+   "sample_condition": "12. Condition J3 is included to establish non-enforceable effluent quality objectives which the\nCompany is required to strive towards on an ongoing basis. These objectives are to be used as a\nmechanism to trigger corrective action proactively and voluntarily before environmental impairment\noccurs.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/3012-9X6J33-14.pdf"
   },
   {
    "discipline": "indigenous_rights_tluse",
@@ -106,18 +153,51 @@
   {
    "discipline": "human_health",
    "measure_type": "other",
+   "precedent_projects": 3,
+   "frequency": "3/16 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "ontario": 3
+   },
+   "examples": [
+    "Clarington Wind Farm",
+    "Conestogo Wind Energy Centre",
+    "Dufferin Wind Farm"
+   ],
+   "sample_condition": "9. Conditions A9, G, H, I, J, K, L and M are included to ensure that the Facility is constructed, installed,\nused, operated, maintained and retired in a way that does not result in an Adverse Effect or hazard to\nthe natural environment or any persons.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/1838-96MGXC-14.pdf"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "minimization",
    "precedent_projects": 2,
    "frequency": "2/16 comparable projects",
-   "typical_timing": null,
+   "typical_timing": "operation",
    "jurisdictions": {
     "ontario": 2
    },
    "examples": [
-    "Clarington Wind Farm",
+    "Amherst Island Wind Farm Project",
     "Conestogo Wind Energy Centre"
    ],
-   "sample_condition": "9. Conditions A9, G, H, I, J, K, L and M are included to ensure that the Facility is constructed, installed,\nused, operated, maintained and retired in a way that does not result in an Adverse Effect or hazard to\nthe natural environment or any persons.",
-   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/1838-96MGXC-14.pdf"
+   "sample_condition": "7. The Company is authorized to take a maximum of 120,000 litres of water from Lake Ontario per day\nfor use in the Facility (Concrete Plant).",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/1271-96VNH3-14.pdf"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "engagement",
+   "precedent_projects": 2,
+   "frequency": "2/16 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "ontario": 16
+   },
+   "examples": [
+    "Conestogo Wind Energy Centre",
+    "Elgin Grovlea Farms Inc's Wind Farm"
+   ],
+   "sample_condition": "3. The Company shall ensure a copy of this Approval is:\n(1) accessible, at all times, by Company staff operating the Facility and;\n(2) submitted to the clerk of each local municipality and upper-tier municipality in which the Facility is situated along\nwith the Application.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6509-8CBJ9Q-14.pdf"
   },
   {
    "discipline": "closure_postclosure",
@@ -152,6 +232,22 @@
    "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6509-8CBJ9Q-14.pdf"
   },
   {
+   "discipline": "surface_water",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/16 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "ontario": 2
+   },
+   "examples": [
+    "Conestogo Wind Energy Centre",
+    "Elgin Grovlea Farms Inc's Wind Farm"
+   ],
+   "sample_condition": "18. The Company shall employ best management practices for stormwater management and sediment and erosion control\nduring construction, installation, use, operation, maintenance and retiring of the Facility, as outlined in the Application.\nSEWAGE WORKS OF THE TRANSFORMER SPILL CONTAINMENT FACILITY",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6509-8CBJ9Q-14.pdf"
+  },
+  {
    "discipline": "archaeology_heritage",
    "measure_type": "mitigation",
    "precedent_projects": 2,
@@ -168,22 +264,6 @@
    "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6509-8CBJ9Q-14.pdf"
   },
   {
-   "discipline": "surface_water",
-   "measure_type": "other",
-   "precedent_projects": 2,
-   "frequency": "2/16 comparable projects",
-   "typical_timing": null,
-   "jurisdictions": {
-    "ontario": 2
-   },
-   "examples": [
-    "Conestogo Wind Energy Centre",
-    "Dufferin Wind Farm"
-   ],
-   "sample_condition": "12. Condition Nos. 22 and 23 are included to require the Company to demonstrate that the performance of the sewage\nworks of the transformer spill containment facility is at a level consistent with the design and effluent objectives specified\nin the Approval and is not causing any impairment to the e",
-   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6509-8CBJ9Q-14.pdf"
-  },
-  {
    "discipline": "noise_vibration",
    "measure_type": "mitigation",
    "precedent_projects": 1,
@@ -196,6 +276,66 @@
     "Amherst Island Wind Farm Project"
    ],
    "sample_condition": "2. The Company shall:\n(1) implement prior to the commencement of operation of the Facility (Concrete Plant), the Noise\nControl Measures (Concrete Plant) as outlined in the Acoustic Assessment Report (Concrete Plant);\n(2) following the implementation of the Noise Control Measures (Concrete Plant), co",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/1271-96VNH3-14.pdf"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/16 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "Amherst Island Wind Farm Project"
+   ],
+   "sample_condition": "4. The Company shall:\n(1) review, evaluate, and update on a monthly basis, the Best Management Practices Plan for\ncontrolling fugitive dust emissions; and\n(2) implement, at all times, the most recently updated version of the Best Management Practices Plan.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/1271-96VNH3-14.pdf"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/16 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "Amherst Island Wind Farm Project"
+   ],
+   "sample_condition": "5. The Company shall record, in a log book, each time a specific preventative and control measure\ndescribed in the Best Management Practices Plan is implemented. The Company shall record, as a\nminimum:\n(1) the date when each emission control measure is installed, including a description of the contr",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/1271-96VNH3-14.pdf"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/16 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "Amherst Island Wind Farm Project"
+   ],
+   "sample_condition": "8. The taking of water shall be carried out in such a manner as to prevent the disruption or removal of\nany fish, invertebrates, or sediment from the watercourse.\nWASTEWATER",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/1271-96VNH3-14.pdf"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/16 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "Amherst Island Wind Farm Project"
+   ],
+   "sample_condition": "9. The Company shall ensure that no wastewater is discharged into the natural environment from the\nFacility (Concrete Plant) or its associated Equipment (Concrete Plant) and Truck(s).\nDECOMMISSIONING",
    "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/1271-96VNH3-14.pdf"
   },
   {
@@ -290,17 +430,32 @@
   },
   {
    "discipline": "surface_water",
-   "measure_type": "minimization",
+   "measure_type": "monitoring_followup",
    "precedent_projects": 1,
    "frequency": "1/16 comparable projects",
    "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 2
+   },
+   "examples": [
+    "Conestogo Wind Energy Centre"
+   ],
+   "sample_condition": "22. Upon commencement of the operation of the Facility, the Company shall establish and carry out the following\nmonitoring program for the sewage works:\n(1) the Company shall collect and analyse the required set of samples at the sampling points listed in the table below\nin accordance with the measu",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6509-8CBJ9Q-14.pdf"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/16 comparable projects",
+   "typical_timing": "all_phases",
    "jurisdictions": {
     "ontario": 1
    },
    "examples": [
     "Conestogo Wind Energy Centre"
    ],
-   "sample_condition": "21. The Company shall design, construct and operate the sewage works such that the concentration of the effluent\nparameter named in the table below does not exceed the maximum concentration objective shown for that parameter in the\neffluent, and shall comply with the following requirements:\nEffluent",
+   "sample_condition": "24. The Company shall not take more than 50,000 litres of water on any day by any means during the construction,\ninstallation, use, operation, maintenance and retiring of the Facility.\nBIRD AND BAT MONITORING",
    "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6509-8CBJ9Q-14.pdf"
   },
   {
@@ -320,6 +475,21 @@
   },
   {
    "discipline": "socio_economic",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/16 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "Conestogo Wind Energy Centre"
+   ],
+   "sample_condition": "28. Within three (3) months of receiving this Approval, the Company shall prepare a Traffic Management Plan and provide\nit to the Township of Mapleton and the County of Wellington.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6509-8CBJ9Q-14.pdf"
+  },
+  {
+   "discipline": "groundwater",
    "measure_type": "engagement",
    "precedent_projects": 1,
    "frequency": "1/16 comparable projects",
@@ -330,7 +500,7 @@
    "examples": [
     "Conestogo Wind Energy Centre"
    ],
-   "sample_condition": "35. The Company may invite other members of stakeholders to participate in the Community Liaison Committee, including,\nbut not limited to, local municipalities, local conservation authorities, Aboriginal communities, federal or provincial\nagencies, and local community groups.",
+   "sample_condition": "52. If the Company receives a complaint related to groundwater, the Company shall contact the District Manager within\none (1) business day of the receipt of the complaint, to discuss appropriate measures to manage any potential groundwater\nissues.\nCHANGE OF OWNERSHIP",
    "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6509-8CBJ9Q-14.pdf"
   },
   {
@@ -349,5 +519,5 @@
    "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/3251-87TQWN-13.pdf"
   }
  ],
- "weak_pool_size": 3134
+ "weak_pool_size": 4897
 }

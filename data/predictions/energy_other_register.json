@@ -1,0 +1,1044 @@
+{
+ "archetype": "energy_other",
+ "constraints": [],
+ "disciplines": [
+  "accidents_malfunctions",
+  "air_quality",
+  "archaeology_heritage",
+  "climate_ghg",
+  "closure_postclosure",
+  "cumulative_effects",
+  "fish_fish_habitat",
+  "groundwater",
+  "human_health",
+  "indigenous_rights_tluse",
+  "light",
+  "noise_vibration",
+  "socio_economic",
+  "soils_terrain",
+  "species_at_risk",
+  "surface_water",
+  "vegetation_ecosystems",
+  "visual_landscape",
+  "waste_hazmat",
+  "wetlands",
+  "wildlife_birds"
+ ],
+ "strong_precedents": [
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "engagement",
+   "precedent_projects": 7,
+   "frequency": "7/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 17
+   },
+   "examples": [
+    "Coursier Dam Decommissioning",
+    "Forrest Kerr Hydroelectric",
+    "Highway Gas and Liquids Plant and Pipeline",
+    "Keenleyside Powerplant"
+   ],
+   "sample_condition": "CPC must to the reasonable satisfaction of the Responsible Minister, negotiate in good faith with Columbia Basin First Nations to achieve and implement First Nations employment agreements consistent with the terms of the agreement between the Columbia Hydro Constructors and the Allied Hydro Council,",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "minimization",
+   "precedent_projects": 5,
+   "frequency": "5/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 10
+   },
+   "examples": [
+    "Coursier Dam Decommissioning",
+    "Forrest Kerr Hydroelectric",
+    "Highway Gas and Liquids Plant and Pipeline",
+    "Keenleyside Powerplant"
+   ],
+   "sample_condition": "The use of Ammonium Nitrate Fuel Oil (ANFO) as an explosive will be prohibited and only low nitrate explosives will be permitted, provided however ANFO may be used under the following conditions: i. in dry holes above the water table; ii. in accordance with DFO Guidelines for use of explosives in Ca",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691f0eed3c0016f854d32/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "mitigation",
+   "precedent_projects": 4,
+   "frequency": "4/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 7
+   },
+   "examples": [
+    "Forrest Kerr Hydroelectric",
+    "Highway Gas and Liquids Plant and Pipeline",
+    "Keenleyside Powerplant",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "CPC must enter into an agreement with the British Columbia Hydro and Power Authority (\"BC Hydro\") that will provide details to the CWR of the operation of the Project with the storage releases from the Arrow Reservoir, and that operating agreement must provide to the reasonable satisfaction of the C",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "minimization",
+   "precedent_projects": 4,
+   "frequency": "4/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 7
+   },
+   "examples": [
+    "Coursier Dam Decommissioning",
+    "Highway Gas and Liquids Plant and Pipeline",
+    "Keenleyside Powerplant",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "CPC must to the reasonable satisfaction of the CWR: (a) design the tailrace orientation from the Project at a 135 degree angle from true North to mitigate the adverse effects of powerplant discharges on eddy habitats.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 4,
+   "frequency": "4/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 7
+   },
+   "examples": [
+    "Coursier Dam Decommissioning",
+    "Keenleyside Powerplant",
+    "Revelstoke Generating Station Unit 5",
+    "Waneta Generating Station Upgrade"
+   ],
+   "sample_condition": "CPC must to the reasonable satisfaction of the CWR: (b) monitor the physical and biological effects of the Project on eddy habitats in accordance with the KPP150 Powerplant Project Downstream Flow Patterns Proposed Monitoring of Eddy Habitats, submitted February 16, 1998; and (c) develop mitigation ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 4,
+   "frequency": "4/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 7
+   },
+   "examples": [
+    "Forrest Kerr Hydroelectric",
+    "Keenleyside Powerplant",
+    "Revelstoke Generating Station Unit 5",
+    "Seven Mile Generating Station Unit 4"
+   ],
+   "sample_condition": "CPC must: (a) prepare and circulate for comment to DFO and Columbia Basin First Nations, and submit prior to start of Powerplant construction, a detailed fish habitat mitigation plan in accordance with the conceptual Fish Habitat Mitigation Plan, submitted December 19, 1997, for habitat lost to spoi",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "engagement",
+   "precedent_projects": 4,
+   "frequency": "4/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 5
+   },
+   "examples": [
+    "Forrest Kerr Hydroelectric",
+    "Keenleyside Powerplant",
+    "Revelstoke Generating Station Unit 5",
+    "Waneta Generating Station Upgrade"
+   ],
+   "sample_condition": "CPC must establish prior to start of Powerplant construction, a Community Impact Management Committee consisting of one or more representatives from CPC, the City of Castlegar, the Regional District of Central Kootenay, the Regional District of Kootenay Boundary and any other agencies as agreed by t",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "mitigation",
+   "precedent_projects": 4,
+   "frequency": "4/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 4
+   },
+   "examples": [
+    "Forrest Kerr Hydroelectric",
+    "Keenleyside Powerplant",
+    "Revelstoke Generating Station Unit 5",
+    "Seven Mile Generating Station Unit 4"
+   ],
+   "sample_condition": "CPC must to the reasonable satisfaction of the Manager, Planning and Assessment, Archaeology Branch, Ministry of Small Business, Tourism and Culture: (a) undertake and submit a detailed archaeological impact assessment of the proposed Transmission Line final alignment prepared by a qualified archaeo",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "minimization",
+   "precedent_projects": 3,
+   "frequency": "3/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 3
+   },
+   "examples": [
+    "Coursier Dam Decommissioning",
+    "Keenleyside Powerplant",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "CPC must to the reasonable satisfaction of the District Highways Manager prior to commencement of the relocation of Broadwater Road: (a) submit plans for the relocation of the Broadwater Road for written approval; (b) commit to pay all construction costs for the relocation of the Broadwater Road; (c",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 3,
+   "frequency": "3/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 4
+   },
+   "examples": [
+    "Cascade Heritage Power",
+    "Forrest Kerr Hydroelectric",
+    "Keenleyside Powerplant"
+   ],
+   "sample_condition": "CPC must to the reasonable satisfaction of the CWR: (a) implement the KPP150 Temperature Management Approach, submitted January 26, 1998, as described in Tab 7, Supplemental Volume, Project Report; (b) commence temperature monitoring in the first thermally stratified season following issuance of thi",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "management_plan",
+   "precedent_projects": 3,
+   "frequency": "3/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 5
+   },
+   "examples": [
+    "Forrest Kerr Hydroelectric",
+    "Revelstoke Generating Station Unit 5",
+    "Seven Mile Generating Station Unit 4"
+   ],
+   "sample_condition": "B.C. Hydro shall: a) prepare, in consultation with the Regional Director, Kootenay Region, MELP, the Department of Fisheries and Oceans (DFO) and CCRIFC, an environmental Management Plan (EMP) that addresses monitoring and control of construction impacts for the duration of the construction period, ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691f2eed3c0016f854d3d/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "mitigation",
+   "precedent_projects": 3,
+   "frequency": "3/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 7
+   },
+   "examples": [
+    "Forrest Kerr Hydroelectric",
+    "Revelstoke Generating Station Unit 5",
+    "Seven Mile Generating Station Unit 4"
+   ],
+   "sample_condition": "B.C. Hydro shall impose, as a condition of employment during the construction period, a ban on the use of the campground at the B.C. Hydro Buckley Recreation site as semipermanent or permanent accommodation by construction workers. If, in the reasonable opinion of the Regional District of Kootenay B",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691f2eed3c0016f854d3d/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "mitigation",
+   "precedent_projects": 3,
+   "frequency": "3/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 7
+   },
+   "examples": [
+    "Forrest Kerr Hydroelectric",
+    "Highway Gas and Liquids Plant and Pipeline",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "If deemed necessary by BC MOE, BC Hydro will restrict angling activities of non-local workforce to mitigate potential increased angling pressure and harvest effects on sport fish populations.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "avoidance",
+   "precedent_projects": 3,
+   "frequency": "3/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 6
+   },
+   "examples": [
+    "Coursier Dam Decommissioning",
+    "Forrest Kerr Hydroelectric",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "BC Hydro will, when possible, schedule vegetation clearing for the temporary materials storage, parking areas and spoil disposal sites outside of the breeding bird season (01 April to 31 July).",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "minimization",
+   "precedent_projects": 3,
+   "frequency": "3/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 4
+   },
+   "examples": [
+    "Coursier Dam Decommissioning",
+    "Highway Gas and Liquids Plant and Pipeline",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "BC Hydro will, when possible, restrict construction machinery to a flagged clearing area.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Keenleyside Powerplant",
+    "Seven Mile Generating Station Unit 4"
+   ],
+   "sample_condition": "CPC must to the reasonable satisfaction of the District Highways Manager, develop a Traffic Management Plan in accordance with the Terms of Reference, Traffic Management Plan, Project Report, Volume 1, Appendix C, Tab 3, and in so doing, must: (a) make the Traffic Management Plan available for comme",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 3
+   },
+   "examples": [
+    "Keenleyside Powerplant",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "CPC must to the reasonable satisfaction of the District Highways Manager, develop a Public Safety Management Plan in accordance with the Terms of Reference, Public Safety Management Plan, Project Report, Volume 1, Appendix C, Tab 4, and in so doing, must: (a) make the Public Safety Management Plan a",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 4
+   },
+   "examples": [
+    "Keenleyside Powerplant",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "CPC must submit a spill contingency plan to the Regional Manager, Environmental Protection, for review and written approval, such approval not to be unreasonably withheld or delayed, prior to start of Powerplant construction, and adhere to the approved spill contingency plan.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Keenleyside Powerplant",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "CPC must: (a) prepare, and circulate for comment to the Regional Manager, Fish, Wildlife and Habitat, DFO, Canadian Wildlife Service, Columbia Basin First Nations and Regional District of Central Kootenay, a final Development and Reclamation Plan; (b) submit the final Development and Reclamation Pla",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Keenleyside Powerplant",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "CPC must provide, prior to start of Powerplant construction, $75,000 in funding to the Castlegar and District Recreation Commission for facilities at Pass Creek Regional Park to compensate for increased demands on local parks and the loss of Driftwood Beach due to the Project, and $75,000 to the Min",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Forrest Kerr Hydroelectric",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "BC Hydro will retain a qualified environmental monitor to inspect, evaluate and report on the performance of construction activities, and the effectiveness of environmental control strategies and mitigation measures, with respect to regulatory permits, approvals, and authorizations, environmental le",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 7
+   },
+   "examples": [
+    "Coursier Dam Decommissioning",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "BC Hydro will re-establish vegetation following completion of the Revelstoke Unit 5 Project construction phase. Establishment of native plant species will be accomplished through seeding with a succession mix matched to the site characteristics.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "post_closure",
+   "jurisdictions": {
+    "bc": 3
+   },
+   "examples": [
+    "Coursier Dam Decommissioning",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "BC Hydro will conduct follow-up monitoring of revegetation efforts on the construction site to ensure that noxious weeds do not become prevalent and that full restoration of the site is achieved.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Forrest Kerr Hydroelectric",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "BC Hydro will develop and implement a detailed list of replacement habitat features and specifications to mitigate impacts on wildlife habitat at the Project site.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 4
+   },
+   "examples": [
+    "Forrest Kerr Hydroelectric",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "BC Hydro will conduct surveys prior to construction to confirm that no eagle or osprey nests are located within 500 m of the construction site.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 4
+   },
+   "examples": [
+    "Forrest Kerr Hydroelectric",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "BC Hydro will discourage nesting of Barn Swallow in areas of scheduled construction activities (e.g., netting). If active nests are found within the Unit 5 bulkhead area, construction activities that require removal of the nest would not occur during the time when the nest is occupied by a bird or e",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Coursier Dam Decommissioning",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "BC Hydro will review and adapt the Columbia River WUP archaeological site protection program for Arrow Lakes Reservoir to incorporate the potential effects of a fifth unit at Revelstoke Dam.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Fort Nelson Electrical Generation",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "35. BC Hydro will adhere to City of Revelstoke noise bylaw, and encourage car pooling of the construction workforce",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "other",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 3
+   },
+   "examples": [
+    "Cascade Heritage Power",
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "48. Detailed engineering drawings for the Project will be prepared and sealed by Registered Professional Engineers, licensed and authorized to practice in British Columbia",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "other",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Coursier Dam Decommissioning",
+    "Forrest Kerr Hydroelectric"
+   ],
+   "sample_condition": "9. Local Hiring \n \nCoast Mountain is committed to maximizing the use of local people when developing \nthe Forrest Kerr Project.  To achieve this Coast Mountain Hydro would: \n \n• Include clauses in Construction contracts requiring local advertising for positions. \n• Include clauses in construction co",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886d060eed3c0016f856ce3/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Coursier Dam Decommissioning",
+    "Forrest Kerr Hydroelectric"
+   ],
+   "sample_condition": "CMHC commits to undertake an Effects Assessment of Ramping Associated with a Major Unscheduled Outage, as described in the Work Plan submitted to Agencies on February 17th, 2010. The information from this study will be combined with the information in the report “Potential effects of ramping on over",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886d236eed3c0016f856d20/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Keenleyside Powerplant"
+   ],
+   "sample_condition": "The Project must not be operated for daily load flow shaping without the prior written approval of the Comptroller of Water Rights (\"CWR\").",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 4
+   },
+   "examples": [
+    "Keenleyside Powerplant"
+   ],
+   "sample_condition": "CPC must to the reasonable satisfaction of the District Highways Manager: (a) conduct, in co-operation with the District Highways Manager, a pre-construction survey of the road structure and pavement condition of Robson Road and Broadwater Road prior to the start of Powerplant construction, and a po",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Keenleyside Powerplant"
+   ],
+   "sample_condition": "CPC must to the reasonable satisfaction of the CWR: (a) develop and identify the final alignment of the Transmission Line, within the Transmission Line corridor identified in the Supplemental Volume, Project Report, Tab 10, prior to Transmission Line clearing and after providing reasonable opportuni",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Keenleyside Powerplant"
+   ],
+   "sample_condition": "CPC must to the reasonable satisfaction of the CWR, as part of detailed alignment, design and mitigation planning for the Transmission Line: (a) undertake a detailed assessment of potential Transmission Line impacts on First Nations traditional uses; (b) identify mitigation and/or compensation measu",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/588691efeed3c0016f854d2f/download"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "BC Hydro will develop and implement a bank erosion protection monitoring and mitigation program to identify and address current and future shoreline erosion concerns downstream of Revelstoke Dam (Revelstoke Golf Course, and mid Columbia River between Trans Canada Highway bridge and Begbie Creek).",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "BC Hydro will commit to entering into discussions with Regulatory Agencies and First Nations to develop possible mitigation and compensation options in the event that Revelstoke Unit 5 Project specific or WUP related monitoring programs indicate a negative effect of the Revelstoke Unit 5 Project on ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "BC Hydro will, when possible, restrict use of Westside Road during the night when ungulates and carnivores are active and vehicle-wildlife collisions are more likely to occur.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "BC Hydro will conduct an archaeological impact assessment prior to any bank stabilization project that involves the disturbance of intact terrace sediments.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "36. BC Hydro will review public information signage for the mid Columbia River Drawdown Zone to incorporate any changes necessary as a result of the installation of the fifth unit at Revelstoke Dam",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "40. BC Hydro will require all contractors working on site to adhere to Worker Compensation Board regulations, and adhere to all applicable standards and codes, including those of the Canadian Standards Association.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "41. All equipment used on the project site will be fitted with standard emission control devices appropriate to the equipment and in compliance with federal, provincial and municipal regulations and standards",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "42. Dust from on-site construction activities will be controlled in compliance with the Worker's Compensation Board Industrial Health and Safety Regulations. Chemical dust suppressants such as calcium lignosulphate, sodium lignosulphate or magnesium chloride will not be employed",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 3
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "44. First aid attendants will be stationed at the work site and emergency evacuation vehicles will be stationed within close proximity",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "45. The power house and work yard will have security fencing around the perimeters",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "47. All structures and facilities constructed for the Revelstoke Unit 5 Project will be designed to meet the requirements of the National Building Code of Canada",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "49. During construction, all works will be inspected to confirm compliance with engineering specifications",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "53. Generation staff will continue to be provided with environmental training including Oil Spill Prevention and Response, Transportation of Dangerous Goods, Hazardous Waste Management, Working in and Around Water and a variety of other training related to the Environmental Management System",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "56. Hazardous materials will be stored off site and only small amounts will be brought to site as required",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "57. Equipment storage areas will be flood proof and located away areas that could be potentially flooded.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "58. First Nations employment training program has been implemented in advance of project construction",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "61. Traffic safety management plan will mitigate wildlife mortalities and potential impacts on subsistence harvesting. (Refer to 2 above)",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Revelstoke Generating Station Unit 5"
+   ],
+   "sample_condition": "66. BC Hydro will conduct an archaeological impact assessment prior to any bank stabilization project that involves the disturbance of intact terrace sediments (Refer to 26 above)",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a6c9eed3c0016f855c87/download"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Cascade Heritage Power"
+   ],
+   "sample_condition": "The proponent should document baseline water quality in domestic wells that may be affected by the development, since aquifers receiving greater recharge from the river, particularly in summer months, may impact water quality in wells drawing from these aquifers.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ad99eed3c0016f856020/download"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Cascade Heritage Power"
+   ],
+   "sample_condition": "The report's geological characterization relies on unreliable/limited sources; NRCan notes extensive relevant Geological Survey of Canada literature (~100 publications for the Kettle River area) and research on the Kettle River Fault, and recommends the geological interpretation supporting the Acid ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ad99eed3c0016f856020/download"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Cascade Heritage Power"
+   ],
+   "sample_condition": "The ARD report concludes the rock surfaces exposed by blasting will not be acid generating, but notes this is preliminary being based on only four samples and that more intensive sampling and testing will be required at a later stage to confirm. NRCan concurs the investigation is preliminary and sug",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ad99eed3c0016f856020/download"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Highway Gas and Liquids Plant and Pipeline"
+   ],
+   "sample_condition": "5. Approach Slope Stability\nAll of the creek crossings are characterized by low lying floodplain areas and there are no approach slopes to contend with. There is no \npotential for slumping adjacent to the creek beds. Provisions for drainage across the ROW and re-seeding the disturbed areas will \nall",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b97aeed3c0016f85671e/download"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Forrest Kerr Hydroelectric"
+   ],
+   "sample_condition": "8. Rock Chemistry \n \nAlthough, all studies to date indicate that th ere is very little potential for acid rock \ndrainage with the excavated tunnel spoil,  Coast Mountain recognizes the concern and \nneed for an appropriate mitigation plan s hould potential acid generating material be \nexposed.  In ad",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886d060eed3c0016f856ce3/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Forrest Kerr Hydroelectric"
+   ],
+   "sample_condition": "2.5  Surface \nWater \n(Quality) \n \nA Waste Rock Management Plan (WRMP) , which \nincludes a monitoring program for waste rock and \ndrainage, has been prepared by SRK Consulting, and \nwill be implemented in consultation with MOE during  \nconstruction. The purpose of the WRMP is to classify the \ncharact",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886d236eed3c0016f856d20/download"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "post_closure",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Coursier Dam Decommissioning"
+   ],
+   "sample_condition": "BC Hydro will develop a post-decommissioning works monitoring and reporting program; submit the program to the Comptroller of Water Rights (CWR) for review and approval; implement the monitoring and reporting program to the satisfaction of the CWR; and where instructed by the CWR, remediate any futu",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5887c66e7a386e12281d4630/download"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "post_closure",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Coursier Dam Decommissioning"
+   ],
+   "sample_condition": "Grass seed in general will only be used when erosion is considered to be a problem. Erosion will not be a problem if prompt development of indigenous vegetative communities occurs. If this development does not occur, then grass seeding will be done as prescribed.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5887c66e7a386e12281d4630/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Coursier Dam Decommissioning"
+   ],
+   "sample_condition": "BC Hydro and its contractors will inspect and clean all equipment and vehicles before entry to the project area. The revegetation program will include monitoring for project site weed infestations and BC Hydro will recommend and implement management control options where necessary.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5887c66e7a386e12281d4630/download"
+  },
+  {
+   "discipline": "cumulative_effects",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "post_closure",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Coursier Dam Decommissioning"
+   ],
+   "sample_condition": "Should the AES hydroelectric project proposal proceed on Lower Cranberry Creek, BCH will be referred to in the review process as a permit holder in the vicinity of the project. BC Hydro will review the materials provided and discuss appropriate directions (e.g. environmental management planning) wit",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5887c66e7a386e12281d4630/download"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/11 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Fort Nelson Electrical Generation"
+   ],
+   "sample_condition": "4.  Work between 2200h and 0700h which generates appreciable noise as determined by parties having jurisdiction will be kept to a minimum.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5888e545817b85ae43cf79d0/download"
+  }
+ ],
+ "weak_pool_size": 4856
+}

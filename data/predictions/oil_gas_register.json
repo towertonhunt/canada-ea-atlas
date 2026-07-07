@@ -1,0 +1,1605 @@
+{
+ "archetype": "oil_gas",
+ "constraints": [],
+ "disciplines": [
+  "accidents_malfunctions",
+  "air_quality",
+  "archaeology_heritage",
+  "climate_ghg",
+  "closure_postclosure",
+  "cumulative_effects",
+  "fish_fish_habitat",
+  "groundwater",
+  "human_health",
+  "indigenous_rights_tluse",
+  "light",
+  "noise_vibration",
+  "socio_economic",
+  "soils_terrain",
+  "species_at_risk",
+  "surface_water",
+  "vegetation_ecosystems",
+  "visual_landscape",
+  "waste_hazmat",
+  "wetlands",
+  "wildlife_birds"
+ ],
+ "strong_precedents": [
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "minimization",
+   "precedent_projects": 15,
+   "frequency": "15/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 4,
+    "federal": 46
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Cedar LNG Project",
+    "Central Ridge Exploration Drilling Project"
+   ],
+   "sample_condition": "3.  Of the remaining 7 crossings; \n●     three are S6 streams with no fish potential, \n●     two are new crossing sites on the Kootenay River (main and old channel), but both will be \ndirectionally drilled, \n●     one is a very minor downstream realignment on the Kettle River that is proposed to all",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ab80eed3c0016f855efb/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "mitigation",
+   "precedent_projects": 15,
+   "frequency": "15/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 30
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Cedar LNG Project",
+    "Central Ridge Exploration Drilling Project"
+   ],
+   "sample_condition": "BC Gas and the contractors will adhere to the requirements of the Forest Practices Code and all other applicable regional and municipal fire regulations. BC Gas will ensure that fire protection equipment and trained personnel are available on-site and will inform the respective fire authorities befo",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ab80eed3c0016f855efb/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "management_plan",
+   "precedent_projects": 15,
+   "frequency": "15/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 9,
+    "federal": 111
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Cedar LNG Project",
+    "Central Ridge Exploration Drilling Project"
+   ],
+   "sample_condition": "8. Prior to logging of the Pipeline right-of-way, BC Gas must complete a Forest Fire Prevention Plan to the reasonable satisfaction of the Forest Protection Officer, Southeast Fire Centre, Rock Creek.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1aeed3c0016f855f5a/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "avoidance",
+   "precedent_projects": 14,
+   "frequency": "14/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 30
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Cedar LNG Project",
+    "Central Ridge Exploration Drilling Project"
+   ],
+   "sample_condition": "Prior to Pipeline Construction: BC Gas is committed to continue to work with MELP Regional staff to define time exclusion intervals that can be practically met and which could reduce disturbance during sensitive times to wildlife such as nesting red and blue listed bird species, and snakes of specia",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1beed3c0016f855f5c/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "minimization",
+   "precedent_projects": 13,
+   "frequency": "13/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 3,
+    "federal": 17
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Central Ridge Exploration Drilling Project",
+    "Eastern Newfoundland Offshore Exploration Drilling Project"
+   ],
+   "sample_condition": "Prior to Right-of-Way Logging: BC Gas will mark wildlife trees in the field that have been selected for exclusion from felling before tree removal is undertaken, in compliance with Workers' Compensation Board safety standards. All field work will be done by qualified wildlife tree evaluators.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1beed3c0016f855f5c/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "avoidance",
+   "precedent_projects": 13,
+   "frequency": "13/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 24
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Central Ridge Exploration Drilling Project",
+    "Eastern Newfoundland Offshore Exploration Drilling Project"
+   ],
+   "sample_condition": "Prior to Pipeline Construction: BC Gas is committed to consulting with both DFO and MELP staff to fine-tune fisheries work windows on a crossing-by-crossing basis to meet project scheduling requirements while mitigating impacts to acceptable levels.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1beed3c0016f855f5c/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 13,
+   "frequency": "13/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 63
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Cedar LNG Project",
+    "Central Ridge Exploration Drilling Project"
+   ],
+   "sample_condition": "The Proponent shall require operators of Designated Project-related LNG carriers to report to the Proponent contact(s) with marine mammal(s) along the Marine Shipping Route (Figure 3 of Schedule 1 of the Decision Statement) as soon as feasible after the operator completes the reporting of such conta",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 13,
+   "frequency": "13/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 26
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Cedar LNG Project",
+    "Central Ridge Exploration Drilling Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups, Environment and Climate Change Canada and British Columbia Coast Pilots Limited, and implement, during all phases of the Designated Project, a follow-up program with respect to migratory birds and their ha",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "engagement",
+   "precedent_projects": 12,
+   "frequency": "12/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 15
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Cedar LNG Project",
+    "Central Ridge Exploration Drilling Project"
+   ],
+   "sample_condition": "The Proponent shall consult, prior to construction, Indigenous groups and relevant authorities about the measures to be implemented to prevent accidents and malfunctions.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "mitigation",
+   "precedent_projects": 11,
+   "frequency": "11/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 13
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Central Ridge Exploration Drilling Project",
+    "Eastern Newfoundland Offshore Exploration Drilling Project"
+   ],
+   "sample_condition": "1. General Drains will be piped to tanks \nLoading/unloading of fluids Temporary containment will be \nRepair/cleaning of equipment installed, if not normally contained \nSumps used as per regulations",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b984eed3c0016f856727/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "management_plan",
+   "precedent_projects": 10,
+   "frequency": "10/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 24
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Cedar LNG Project",
+    "Eastern Newfoundland Offshore Exploration Drilling Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to operation and in consultation with Indigenous groups, and implement a Training Plan to increase opportunities for Indigenous peoples to obtain skills and training required to be employed by the Designated Project during operation. The Proponent shall provide the",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "mitigation",
+   "precedent_projects": 9,
+   "frequency": "9/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 28
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "Cedar LNG Project",
+    "Central Ridge Exploration Drilling Project",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project"
+   ],
+   "sample_condition": "The Proponent shall develop and implement erosion and sedimentation control measures during construction and decommissioning to prevent the release of sediments into the receiving environment. In doing so, the Proponent shall: 3.1.1 provide a description of all erosion and sedimentation control meas",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "engagement",
+   "precedent_projects": 9,
+   "frequency": "9/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 17
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Central Ridge Exploration Drilling Project",
+    "Jeanne D'Arc Basin Exploration Drilling Project"
+   ],
+   "sample_condition": "Where consultation with Aboriginal groups is a requirement of a follow-up program, the Proponent shall discuss with each Aboriginal group opportunities for the participation of that Aboriginal group in the implementation of the follow-up program as set out in condition 2.4.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163710"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 9,
+   "frequency": "9/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 24
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Central Ridge Exploration Drilling Project",
+    "Eastern Newfoundland Offshore Exploration Drilling Project"
+   ],
+   "sample_condition": "The Proponent shall develop, in consultation with the Board and Environment and Climate Change Canada, and implement for the duration of the drilling program, a physical environment monitoring program, in accordance with the Newfoundland Offshore Petroleum Drilling and Production Regulations that me",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/137600"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "other",
+   "precedent_projects": 8,
+   "frequency": "8/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 11
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "Cedar LNG Project",
+    "Eastern Newfoundland Offshore Exploration Drilling Project",
+    "Flemish Pass Exploration Drilling Project"
+   ],
+   "sample_condition": "Crossing details will be provided in crossing approval applications as required by the Coast Guard for crossings of navigable waters, after the Project Approval Certificate has been granted.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1beed3c0016f855f5c/download"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "minimization",
+   "precedent_projects": 8,
+   "frequency": "8/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 8
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "Central Ridge Exploration Drilling Project",
+    "Eastern Newfoundland Offshore Exploration Drilling Project",
+    "Jeanne D'Arc Basin Exploration Drilling Project"
+   ],
+   "sample_condition": "The Proponent shall implement measures to prevent or reduce the risks of collisions between supply vessels and marine mammals and sea turtles, including: 3.10.1 requiring supply vessels to use established shipping lanes, where they exist; and 3.10.2 requiring supply vessels to reduce speed to a maxi",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/137600"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "financial_assurance",
+   "precedent_projects": 8,
+   "frequency": "8/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 8
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Central Ridge Exploration Drilling Project",
+    "Eastern Newfoundland Offshore Exploration Drilling Project"
+   ],
+   "sample_condition": "In the event of an accident or malfunction, the Proponent shall comply with the requirements of the Accord Acts and the Canada-Newfoundland and Labrador Offshore Financial Requirement Regulations and the requirements described in the Compensation Guidelines Respecting Damages Relating to Offshore Pe",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/137600"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "minimization",
+   "precedent_projects": 7,
+   "frequency": "7/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 4,
+    "federal": 15
+   },
+   "examples": [
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Eastern Newfoundland Offshore Exploration Drilling Project",
+    "Flemish Pass Exploration Drilling Project",
+    "Island Cogeneration"
+   ],
+   "sample_condition": "Cooling Water Blowdown: A continuous or periodic purge of cooling water will be required in order to prevent the build up of contaminants. This blowdown stream will be connected into the Mill wastewater collection and treatment system.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ab58eed3c0016f855ed8/download"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "engagement",
+   "precedent_projects": 6,
+   "frequency": "6/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 7,
+    "federal": 10
+   },
+   "examples": [
+    "Jedney Gas Processing Plant and Pipeline Facilities",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project",
+    "Scotian Basin Exploration Drilling Project",
+    "Southern Crossing Pipeline"
+   ],
+   "sample_condition": "11. At the same time drafts of the plans and programs identified in Conditions 7-10 inclusive are provided to the respective agencies, BC Gas must provide copies to the Upper Similkameen Indian Band, the Lower Similkameen Indian Band, the Osoyoos Indian Band and the Lower Kootenay Band, for review a",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1aeed3c0016f855f5a/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "engagement",
+   "precedent_projects": 6,
+   "frequency": "6/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 5
+   },
+   "examples": [
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Cedar LNG Project",
+    "Central Ridge Exploration Drilling Project",
+    "Jeanne D'Arc Basin Exploration Drilling Project"
+   ],
+   "sample_condition": "Prior to Pipeline Construction: Notification of property owners directly affected by construction.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1beed3c0016f855f5c/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 6,
+   "frequency": "6/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 6
+   },
+   "examples": [
+    "Bulrush Natural Gas Production and Processing Facility",
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Cedar LNG Project",
+    "Central Ridge Exploration Drilling Project"
+   ],
+   "sample_condition": "7. Morrison must:\n(a) prepare and submit written reports, to the satisfaction of the Director, Policy \nDevelopment Branch, Ministry of Employment and Investment, on the progress of \ncommitments made by Morrison in letters dated August 30, and November 2, 1995 to the \nMinistry of Employment and Inves",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b901eed3c0016f8566d5/download"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "management_plan",
+   "precedent_projects": 6,
+   "frequency": "6/23 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "federal": 8
+   },
+   "examples": [
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Central Ridge Exploration Drilling Project",
+    "Eastern Newfoundland Offshore Exploration Drilling Project",
+    "Jeanne D'Arc Basin Exploration Drilling Project"
+   ],
+   "sample_condition": "At least one year prior to the end of operation, the Proponent shall develop, in consultation with Aboriginal groups and relevant government authorities, and submit to the Agency a decommissioning plan. The decommissioning plan shall include a description of: 10.1.1 any consultation undertaken by th",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163710"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "management_plan",
+   "precedent_projects": 6,
+   "frequency": "6/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "Central Ridge Exploration Drilling Project",
+    "Eastern Newfoundland Offshore Exploration Drilling Project",
+    "Jeanne D'Arc Basin Exploration Drilling Project"
+   ],
+   "sample_condition": "The Proponent shall develop, in consultation with Fisheries and Oceans Canada and the Board, a Marine Mammal and Sea Turtle Monitoring Plan that shall be submitted to the Board at least 30 days prior to the commencement of any vertical seismic survey. The Proponent shall implement the plan during th",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/137600"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "minimization",
+   "precedent_projects": 5,
+   "frequency": "5/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 3,
+    "federal": 4
+   },
+   "examples": [
+    "Island Cogeneration",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project",
+    "LNG Canada Export Terminal Project",
+    "West Stoddart Gas Processing Facility"
+   ],
+   "sample_condition": "The Island Cogeneration Project will control NOx emissions through the use of dry low NOx combustion technology which will control emissions to 25 ppm while burning natural gas. During the times of liquid fuel firing, water injection will be utilized to control NOx, which is currently the best techn",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ab58eed3c0016f855ed8/download"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "management_plan",
+   "precedent_projects": 5,
+   "frequency": "5/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 4,
+    "federal": 7
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project",
+    "LNG Canada Export Terminal Project",
+    "Southern Crossing Pipeline"
+   ],
+   "sample_condition": "7. Prior to upgrading or creating new access roads for the Pipeline right-of-way logging, BC Gas must complete to the reasonable satisfaction of the Director, Archaeology Branch, any archaeological impact assessment studies that may be required for new or upgraded access roads in areas not previousl",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1aeed3c0016f855f5a/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "mitigation",
+   "precedent_projects": 5,
+   "frequency": "5/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 7
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Central Ridge Exploration Drilling Project",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project",
+    "Scotian Basin Exploration Drilling Project"
+   ],
+   "sample_condition": "Where the Proponent must undertake any activity required for the Designated Project that may adversely affect western toad ( Anaxyrus boreas ) within the spatial and temporal restrictions referred to in condition 10.6, the Proponent shall have a Qualified Professional develop additional species-spec",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 5,
+   "frequency": "5/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 10
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "Central Ridge Exploration Drilling Project",
+    "Shelburne Basin Venture Exploration Drilling Project",
+    "West Flemish Pass Exploration Drilling Project"
+   ],
+   "sample_condition": "The Proponent shall develop and implement a follow-up program to monitor the little brown myotis ( Myotis lucifugus ) usage of buffer zones and roosting structures to determine the effectiveness of the mitigation measures throughout all phases of the Designated Project and to verify the accuracy of ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163710"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "mitigation",
+   "precedent_projects": 5,
+   "frequency": "5/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "Central Ridge Exploration Drilling Project",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project",
+    "LNG Canada Export Terminal Project"
+   ],
+   "sample_condition": "The Proponent shall ensure that its actions in meeting the conditions set out in this Decision Statement are taken in a way that is consistent with any applicable management plan, recovery strategy and action plan for listed aquatic species at risk and migratory birds that is prepared or established",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163208"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "other",
+   "precedent_projects": 4,
+   "frequency": "4/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 3
+   },
+   "examples": [
+    "Bulrush Natural Gas Production and Processing Facility",
+    "Central Ridge Exploration Drilling Project",
+    "Flemish Pass Exploration Drilling Project",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project"
+   ],
+   "sample_condition": "11. Morrison must comply with the requirements of the Fisheries Act (Canada) R.S.C. 1985, c. F-14, and \nobtain any and all authorizations deemed necessary by the Minister of Fisheries and Oceans.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b901eed3c0016f8566d5/download"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "management_plan",
+   "precedent_projects": 4,
+   "frequency": "4/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 9
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Central Ridge Exploration Drilling Project",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project",
+    "LNG Canada Export Terminal Project"
+   ],
+   "sample_condition": "The Proponent shall develop, in consultation with Indigenous groups and relevant authorities, and implement a Marine Transportation Management Plan to mitigate federal adverse effects on the current use of lands and resources for traditional purposes by Indigenous Peoples caused by construction-rela",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 4,
+   "frequency": "4/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project",
+    "LNG Canada Export Terminal Project",
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to operation and in consultation with Indigenous groups and relevant authorities, and implement a follow-up program with respect to adverse federal effects on the current use of lands and resources for traditional purposes from wakes generated by the Designated Pro",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "mitigation",
+   "precedent_projects": 4,
+   "frequency": "4/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Eastern Newfoundland Offshore Exploration Drilling Project",
+    "Scotian Basin Exploration Drilling Project",
+    "Shelburne Basin Venture Exploration Drilling Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups, and implement, during all phases of the Designated Project, measures to increase opportunities for local businesses that are, and remain for the duration of the contract, at least 51 percent owned and cont",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "minimization",
+   "precedent_projects": 3,
+   "frequency": "3/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 3
+   },
+   "examples": [
+    "Island Cogeneration",
+    "Jedney Gas Plant & Pipeline Expansion",
+    "Southern Crossing Pipeline"
+   ],
+   "sample_condition": "Stormwater: Open drains will be used to collect stormwater from the developed area of the site, including runoff from truck unloading, equipment, roofs and other process areas. Sediment and grease traps will be used as appropriate, and curbs will be provided around pumps, oil tanks and other relevan",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ab58eed3c0016f855ed8/download"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "minimization",
+   "precedent_projects": 3,
+   "frequency": "3/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 5,
+    "federal": 2
+   },
+   "examples": [
+    "Island Cogeneration",
+    "LNG Canada Export Terminal Project",
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "Noise Control: All applicable noise regulations will be met, including relevant parts of the Workers' Compensation Act of British Columbia and the Industrial Health and Safety Regulations. In addition to meeting the above regulations, the ICP facility will not exceed noise levels as set out in Table",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ab58eed3c0016f855ed8/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "management_plan",
+   "precedent_projects": 3,
+   "frequency": "3/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 3,
+    "federal": 2
+   },
+   "examples": [
+    "BHP Canada Exploration Drilling Project",
+    "Southern Crossing Pipeline",
+    "West Flemish Pass Exploration Drilling Project"
+   ],
+   "sample_condition": "7. Prior to upgrading or creating new access roads for the Pipeline right-of-way logging, BC Gas must complete an Access Management Plan to the reasonable satisfaction of the Senior Habitat Biologist, MELP; the respective District Managers, MoF; and the Regional Director, MoTH.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1aeed3c0016f855f5a/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "management_plan",
+   "precedent_projects": 3,
+   "frequency": "3/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 2
+   },
+   "examples": [
+    "Flemish Pass Exploration Drilling Project",
+    "Scotian Basin Exploration Drilling Project",
+    "Southern Crossing Pipeline"
+   ],
+   "sample_condition": "12. In the event the use of directional drilling is not found to be technically feasible at the crossing of the Columbia River, the main channel of the Kootenay River, or the channel of the Old Kootenay River, BC Gas must submit to DFO and MELP detailed plans regarding the contingency method to be u",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1aeed3c0016f855f5a/download"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 3,
+   "frequency": "3/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 1
+   },
+   "examples": [
+    "Jedney Gas Processing Plant and Pipeline Facilities",
+    "Southern Crossing Pipeline",
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "Prior to Pipeline Construction: Complete archaeological investigation (monitoring of construction) of the Marshall property near Midway.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1beed3c0016f855f5c/download"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "engagement",
+   "precedent_projects": 3,
+   "frequency": "3/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 2
+   },
+   "examples": [
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project",
+    "Southern Crossing Pipeline",
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "Notification to the Ministry of Health prior to construction in community watersheds.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1beed3c0016f855f5c/download"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "mitigation",
+   "precedent_projects": 3,
+   "frequency": "3/23 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 1
+   },
+   "examples": [
+    "Jedney Gas Plant & Pipeline Expansion",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project",
+    "West Stoddart Gas Processing Facility"
+   ],
+   "sample_condition": "1. Any wellsite location that is abandoned must meet the following requirements: \nAll excavations and cut and fill slopes are to be returned as closely as possible to original contour, unless \notherwise authorized by the appropriate agencies. \nSurface Drainage should be diverted around disturbed are",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b984eed3c0016f856727/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "minimization",
+   "precedent_projects": 3,
+   "frequency": "3/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 3
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project",
+    "West Stoddart Gas Processing Facility"
+   ],
+   "sample_condition": "The locations of the two access roads were selected to follow existing cutlines in order to minimize new land disturbance in the area. Due to the route selection process undertaken, there will be approximately 1 hectare of additional land disturbance due to the upgrading of the access roads for the ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5d2e27bd340b690021fc08bd/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "other",
+   "precedent_projects": 3,
+   "frequency": "3/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project",
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "Additional Considerations from the Assessment Report Accidents and malfunctions were assessed in the Assessment Report and associated effects on valued components determined to be unlikely. Accidents and malfunctions related to marine shipping were a key issue raised by Indigenous groups during the ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 3,
+   "frequency": "3/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 7
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "LNG Canada Export Terminal Project",
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Haisla Nation and relevant authorities (including Health Canada and Northern Health Authority), and implement a follow-up program with respect to adverse federal effects on the health, social and economic conditions of Indig",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 3,
+   "frequency": "3/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 6
+   },
+   "examples": [
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project",
+    "LNG Canada Export Terminal Project",
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "The Proponent shall, in consultation with Fisheries and Oceans Canada and Aboriginal groups, develop and implement any plan(s) required to offset the loss of fish and fish habitat associated with the carrying out of the Designated Project.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163710"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "avoidance",
+   "precedent_projects": 3,
+   "frequency": "3/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "CNOOC International Flemish Pass Exploration Drilling Project",
+    "Central Ridge Exploration Drilling Project",
+    "Jeanne D'Arc Basin Exploration Drilling Project"
+   ],
+   "sample_condition": "The Proponent shall conduct a pre-drill survey with qualified individual(s) at each well site to confirm the presence or absence of any unexploded ordnance or other seabed hazards. If any such ordnance or seabed hazard is detected, it shall not be disturbed and the Proponent shall contact the Canadi",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/137600"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 3
+   },
+   "examples": [
+    "Island Cogeneration",
+    "West Stoddart Gas Processing Facility"
+   ],
+   "sample_condition": "Waste generated by ICP will be managed to ensure all applicable regulations are met. In conformance with the Comox-Strathcona Regional District waste management plan, waste will be minimized at source and will be recycled to the extent practical.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ab58eed3c0016f855ed8/download"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Southern Crossing Pipeline",
+    "West Stoddart Gas Processing Facility"
+   ],
+   "sample_condition": "NCL must return all disturbed lands to their original condition or as agreed upon with authorities having jurisdiction in respect to said lands, if NCL begins construction of any component of the Project but does not complete construction and obtain 'Leave to Open' for the gas processing facility.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ab6ceed3c0016f855eee/download"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "avoidance",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 3
+   },
+   "examples": [
+    "Jedney Gas Processing Plant and Pipeline Facilities",
+    "Southern Crossing Pipeline"
+   ],
+   "sample_condition": "1. A possible historical cairn was noted in the vicinity of KP 51.3 on the Creston Mountain Divergence. Although it appears to be \nsufficiently distant that impact will not likely occur, it should be identified on all development and environmental management plans \nas an area to be avoided. Dependin",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886aba5eed3c0016f855f16/download"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 6
+   },
+   "examples": [
+    "Southern Crossing Pipeline",
+    "West Stoddart Gas Processing Facility"
+   ],
+   "sample_condition": "2. An abandoned and potentially historical railway bed may be used as a construction staging area for a portion of the \nWarfield/Rossland divergence. If this railway bed is utilised, it will be restored upon completion of construction.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886aba5eed3c0016f855f16/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 5
+   },
+   "examples": [
+    "Southern Crossing Pipeline",
+    "West Stoddart Gas Processing Facility"
+   ],
+   "sample_condition": "9. Prior to construction, BC Gas must complete a Water Quality Monitoring Program to the reasonable satisfaction of the Regional Manager, Pollution Prevention, MELP, and in consultation with DFO.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1aeed3c0016f855f5a/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "avoidance",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 2,
+    "federal": 1
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Maxhamish Pipeline"
+   ],
+   "sample_condition": "The proposed pipeline route follows existing or proposed corridors for more than 95% of its length, thereby reducing potential environmental, social, economic, cultural, and heritage effects.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b502eed3c0016f856419/download"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "other",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Jedney Gas Plant & Pipeline Expansion",
+    "Jedney Gas Processing Plant and Pipeline Facilities"
+   ],
+   "sample_condition": "4.  WGSI must ensure, prior to discharge of any acid gas from the gas processing plant, that Petro-Canada obtain approval from the Ministry \nof Employment and Investment under the Petroleum and natural Gas Act for the proposed acid gas disposal scheme at either of the acid \ngas disposal wells at a-7",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b97beed3c0016f856722/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1,
+    "federal": 1
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Jedney Gas Plant & Pipeline Expansion"
+   ],
+   "sample_condition": "3. Do not seed any area on private land unless the surface rights landowner consents to the type of seed \nand seeding requirements. Seeding should be done in early spring (after the thaw) or in late fall.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b984eed3c0016f856727/download"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "other",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project"
+   ],
+   "sample_condition": "Impacts of the Designated Project on Indigenous Groups and the Adverse Impacts of the Designated Project on the Rights of the Indigenous Peoples of Canada The issuance of a decision statement under the Impact Assessment Act gives rise to the common law duty to consult and accommodate, where necessar",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "engagement",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Eastern Newfoundland Offshore Exploration Drilling Project"
+   ],
+   "sample_condition": "The Proponent shall provide Indigenous groups with the information on contact(s) with marine mammal(s) reported to the Proponent in accordance with condition 3.6, within 24 hours of receiving the information.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "climate_ghg",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 5
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "Commencing on January 1, 2050, the Proponent shall ensure that the marine shipping component of the Designated Project, including LNG carriers calling on the marine terminal and their associated tugs, does not emit greater than net 0 kilotonnes of carbon dioxide equivalents per year (kt CO2 eq/year)",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project"
+   ],
+   "sample_condition": "The Proponent shall implement any technically and economically feasible mitigation measure(s) and/or follow-up program(s) under its care and control identified through regional initiative(s) referred to in condition 7.2.5.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project"
+   ],
+   "sample_condition": "The Proponent shall require Designated Project-related LNG carriers to only commence pilotage if a berth at the Designated Project, or a designated anchorage site, is available, as the Proponent shall not allow planned anchoring other than at a designated anchorage site.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "The Proponent shall implement a policy to restrict idling of all vehicles and mobile equipment required for the Designated Project. The Proponent shall require and ensure that all persons operating such vehicles and mobile equipment abide by this policy, unless idling is required for health or safet",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "Ksi Lisims LNG - Natural Gas Liquefaction and Marine Terminal Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Indigenous groups and relevant authorities (including Northern Health Authority), and implement, during construction, a Health and Medical Services Plan to mitigate the impacts of the Designated Project on local health and m",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Cedar LNG Project",
+    "LNG Canada Export Terminal Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction and in consultation with Haisla Nation and relevant authorities (including Environment and Climate Change Canada), and implement a follow-up program with respect to adverse federal effects on wetlands and their functions. In doing so, the Proponent ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 4
+   },
+   "examples": [
+    "LNG Canada Export Terminal Project",
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "The Proponent shall, prior to construction and throughout all phases of the Designated Project, install and maintain roosting structures to offset any loss of little brown myotis ( Myotis lucifugus ) roosting habitat.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163710"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "other",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "LNG Canada Export Terminal Project",
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "The Proponent shall, from the reporting year in which decommissioning begins until the end of the decommissioning phase or for a maximum of 25 years, submit to the Agency a written annual report no later than March 31 of the following reporting year. The written annual report shall include a descrip",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163710"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "LNG Canada Export Terminal Project",
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "The Proponent shall, in consultation with Aboriginal groups and other parties who may be adversely affected by the noise caused by the Designated \nProject, develop, prior to construction, and implement, during all phases of the Designated Project, a mechani sm for receiving noise complaints \nassocia",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163418"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "other",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Eastern Newfoundland Offshore Exploration Drilling Project",
+    "Jeanne D'Arc Basin Exploration Drilling Project"
+   ],
+   "sample_condition": "The Proponent shall report any collisions of a supply vessel with marine mammals or sea turtles to the Board, Fisheries and Oceans Canada&apos;s Canadian Coast Guard Regional Operations Centre, and any other relevant authorities as soon as reasonably practicable but no later than 24 hours following ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/129201"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "financial_assurance",
+   "precedent_projects": 2,
+   "frequency": "2/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Scotian Basin Exploration Drilling Project",
+    "Shelburne Basin Venture Exploration Drilling Project"
+   ],
+   "sample_condition": "In the event of accidents and malfunctions, the Proponent shall comply with the Compensation Guidelines with Respect to Damages Relating to Offshore Petroleum Activity . 7 Implementation schedule",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/101107"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Taylor Straddle Plant"
+   ],
+   "sample_condition": "NCL must construct and maintain a buffer zone to serve as public open space to the north and west of the proposed plant (the 'applicable land'), consisting of a natural area landscaped with trees and berms. NCL must register a covenant under section 219 of the Land Title Act against the title to the",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a869eed3c0016f855d0d/download"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Ring Border Gas Plant Expansion"
+   ],
+   "sample_condition": "CanHunter must fulfil their commitment of working towards entering into a Memorandum of Understanding (MOU) with the Ministry of Environment, Lands and Parks in respect to wood bison in the area of the Ring Border operations. CanHunter is to develop with the Ministry of Environment, Lands and Parks,",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a87aeed3c0016f855d1a/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Island Cogeneration"
+   ],
+   "sample_condition": "Process Area Drains: For areas where potentially hazardous materials are stored or used (such as transformer bays and oil storage tanks), oil interception facilities and other mechanisms will be designed and installed to ensure that all spills are contained. Provisions will also be included to segre",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ab58eed3c0016f855ed8/download"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Island Cogeneration"
+   ],
+   "sample_condition": "Pile driving hours shall be maintained between the hours of 0800h and 1900h during the normal work week of Monday through Friday.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ab58eed3c0016f855ed8/download"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "West Stoddart Gas Processing Facility"
+   ],
+   "sample_condition": "NCL must notify the Executive Director of any plans to abandon the Project prior to operation.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ab6ceed3c0016f855eee/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Southern Crossing Pipeline"
+   ],
+   "sample_condition": "1.  The pipeline will follow existing BC Gas RoW for approximately 75% of the route, and 109 of the \ntotal 137 water crossings will be on or immediately adjacent to existing BC Gas RoW;",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ab80eed3c0016f855efb/download"
+  },
+  {
+   "discipline": "climate_ghg",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Southern Crossing Pipeline"
+   ],
+   "sample_condition": "Updating the estimate of BC Gas greenhouse gas emissions based on data for 1997 (the estimate in the January 1998 Application was based on 1996 data).",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886aba5eed3c0016f855f16/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 7
+   },
+   "examples": [
+    "Southern Crossing Pipeline"
+   ],
+   "sample_condition": "7. Prior to upgrading or creating new access roads for the Pipeline right-of-way logging, BC Gas must complete a Noxious Weed and Weeds of Management Concern, Prevention and Control Plan to the reasonable satisfaction of the respective District Managers, Ministry of Forests; the Senior Habitat Biolo",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1aeed3c0016f855f5a/download"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Southern Crossing Pipeline"
+   ],
+   "sample_condition": "9. Prior to construction, BC Gas must complete a Restoration Plan to the reasonable satisfaction of the Senior Habitat Biologist, MELP; the District Agrologist, MAF; and the respective District Managers, MoF.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1aeed3c0016f855f5a/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Southern Crossing Pipeline"
+   ],
+   "sample_condition": "10. Prior to any clearing activities for the Project, BC Gas must complete a Terrestrial Wildlife Habitat Mitigation and Compensation Program to the reasonable satisfaction of the Senior Habitat Biologist, MELP, in consultation with MoF, the Canadian Wildlife Service, and the Creston Valley Wildlife",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1aeed3c0016f855f5a/download"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Southern Crossing Pipeline"
+   ],
+   "sample_condition": "13. BC Gas must, in the reasonable opinion of the Minister: \na) have substantially started the Project, commencing its construction within five years of the issue date \nof this Certificate; and\nb) have submitted to the EAO, within:\ni.  two months of receiving \"Leave to Open\" the Pipeline, a report o",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1aeed3c0016f855f5a/download"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Southern Crossing Pipeline"
+   ],
+   "sample_condition": "Prior to Issuance of Project Approval Certificate: File permit applications with the Archaeology Branch for heritage investigation and site alteration.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1beed3c0016f855f5c/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Southern Crossing Pipeline"
+   ],
+   "sample_condition": "Prior to Right-of-Way Logging: BC Gas will provide a notification to downstream water licencees, irrigation districts and/or placer miners for July Creek and Kettle River in accordance with the EAO's notification requirements.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1beed3c0016f855f5c/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Southern Crossing Pipeline"
+   ],
+   "sample_condition": "Prior to Right-of-Way Logging: BC Gas will conduct a noxious weed inventory at a 1:20 000 scale in accordance with weed mapping procedures to be outlined by the MoF.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac1beed3c0016f855f5c/download"
+  },
+  {
+   "discipline": "climate_ghg",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Cedar LNG Project"
+   ],
+   "sample_condition": "Extent to Which the Effects of the Designated Project Hinders or Contributes to Canada&apos;s Ability to Meet its Environmental Obligations and Its Commitments in Respect of Climate Change Canada can improve its environmental outcomes through tools such as its use of environmental obligations and co",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Cedar LNG Project"
+   ],
+   "sample_condition": "The Proponent shall inform the Agency and Haisla Nation within 24 hours of any discovery subject to the requirements of the Chance Find Procedure referred to in condition 6.1. 7 Current Use of Lands and Resources for Traditional Purposes (Including Marine Use)",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Cedar LNG Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction, and implement, during construction, procedures for restricting non-local contractor personnel from engaging in recreational hunting, fishing or ATV or snowmobile use during off-work hours.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Cedar LNG Project"
+   ],
+   "sample_condition": "The Proponent shall develop, prior to construction, and implement, during construction, a procedure for notifying occupants of residential dwellings located within the local assessment area for acoustics shown on Figure 7.3.1 of the Application of planned high-disturbance noise-causing activities re",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Cedar LNG Project"
+   ],
+   "sample_condition": "The Proponent shall implement, during all phases of the Designated Project, a regular inspection and maintenance program for all mobile vehicles and equipment required for the Designated Project to ensure the vehicles and equipment are maintained in a state of good repair and in accordance with the ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Cedar LNG Project"
+   ],
+   "sample_condition": "The Proponent shall not remove emission control technologies from mobile vehicles and equipment, unless removal is required for repair or maintenance activities, in which case the Proponent shall reinstall or replace the technologies before the Proponent returns the mobile vehicles and equipment to ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/161747"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "federal": 3
+   },
+   "examples": [
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "The Proponent shall conduct pre-clearing surveys to determine the distribution of little brown myotis ( Myotis lucifugus ), and establish, in consultation with relevant government authorities, buffer zones around active hibernacula and active roosts.",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163710"
+  },
+  {
+   "discipline": "light",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "The Proponent shall install and manage exterior lighting from all components of the Designated Project and during all phases of the Designated \nProject to prevent excessive emanation of light, by following the International Commission on Illumination's CIE 150:2003 Guide on the limitation \nof the Ef",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163418"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "Woodfibre LNG Project"
+   ],
+   "sample_condition": "The Proponent shall monitor, during construction and operation, water quality and sediment, using as a benchmark the Canadian Council of Ministers \nof the Environment’s Water Quality Guidelines for the Protection of Aquatic Life and Interim Sediment Quality Guidelines for the Protection of \nAquatic ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/163418"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "Central Ridge Exploration Drilling Project"
+   ],
+   "sample_condition": "The Proponent shall submit to the Board a letter, prior to the start of the drilling program, confirming its intent to contribute to research programs pertaining to the mitigation measures to reduce the attraction of migratory birds to lighting in offshore area including a summary of potential resea",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/137600"
+  },
+  {
+   "discipline": "cumulative_effects",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "LNG Canada Export Terminal Project"
+   ],
+   "sample_condition": "The Proponent shall participate in regional initiatives relating to cumulative effects monitoring and the management of marine shipping, should there be any such initiatives during the construction and operation phases of the Designated Project. 4 Wetlands",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/138517"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "LNG Canada Export Terminal Project"
+   ],
+   "sample_condition": "The Proponent shall mitigate the adverse environmental effects of the Designated Project on wetland functions that support migratory birds, species at risk or the current use of lands and resources for traditional purposes by Aboriginal people. The Proponent shall give preference to avoiding the los",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/138517"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "LNG Canada Export Terminal Project"
+   ],
+   "sample_condition": "To avoid loss of wetlands or to manage adverse effects on wetlands impacted by the Designated Project footprint and adverse effects on wetland function on and for those wetlands adjacent to the Designated Project footprint, the Proponent shall: 4.2.1 delineate clearing boundaries prior to the commen",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/138517"
+  },
+  {
+   "discipline": "wetlands",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "federal": 2
+   },
+   "examples": [
+    "LNG Canada Export Terminal Project"
+   ],
+   "sample_condition": "For effects on ecologically important wetlands that cannot be avoided or minimized, mitigation measures shall be set out in a Wetland Compensation Plan that shall be prepared by the Proponent in consultation with Aboriginal groups. The mitigation measures to be set out in the Wetland Compensation Pl",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/138517"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/23 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "federal": 1
+   },
+   "examples": [
+    "LNG Canada Export Terminal Project"
+   ],
+   "sample_condition": "The Proponent shall, during operation, treat any effluent discharge from the facility marine outfall pipe to meet subsection 36(3) of the Fisheries Act and British Columbia&apos;s Water Quality Guidelines for the protection of marine life measured at the edge of the initial dilution zone. 7 Current ",
+   "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/138517"
+  }
+ ],
+ "weak_pool_size": 4239
+}

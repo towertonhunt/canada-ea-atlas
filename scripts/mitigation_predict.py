@@ -57,9 +57,24 @@ def main():
     juris = [a.split('=')[1] for a in args if a.startswith('jur=')]
     constraints = [a for a in args if not a.startswith('jur=')]
 
-    disciplines = set(FLOOR) | set(ARCHETYPE_FLOOR.get(archetype, []))
-    for c in constraints:
-        disciplines.update(TRIGGER_MAP.get(c, []))
+    full = '--full' in constraints
+    constraints = [c for c in constraints if c != '--full']
+    if full:
+        # every taxonomy discipline: page-side filtering picks the fired set
+        disciplines = {d for ds in TRIGGER_MAP.values() for d in ds}
+        disciplines |= {d for ds in ARCHETYPE_FLOOR.values() for d in ds}
+        disciplines |= set(FLOOR) | {
+            'air_quality', 'noise_vibration', 'light', 'soils_terrain',
+            'human_health', 'socio_economic', 'visual_landscape',
+            'climate_ghg', 'cumulative_effects', 'wetlands', 'groundwater',
+            'vegetation_ecosystems', 'wildlife_birds', 'species_at_risk',
+            'fish_fish_habitat', 'surface_water', 'waste_hazmat',
+            'accidents_malfunctions', 'archaeology_heritage',
+            'closure_postclosure', 'indigenous_rights_tluse'}
+    else:
+        disciplines = set(FLOOR) | set(ARCHETYPE_FLOOR.get(archetype, []))
+        for c in constraints:
+            disciplines.update(TRIGGER_MAP.get(c, []))
     print(f'archetype: {archetype} | constraints: {constraints or "none"}')
     print(f'disciplines fired: {sorted(disciplines)}\n')
 

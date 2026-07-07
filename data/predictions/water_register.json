@@ -1,0 +1,431 @@
+{
+ "archetype": "water",
+ "constraints": [],
+ "disciplines": [
+  "accidents_malfunctions",
+  "air_quality",
+  "archaeology_heritage",
+  "climate_ghg",
+  "closure_postclosure",
+  "cumulative_effects",
+  "fish_fish_habitat",
+  "groundwater",
+  "human_health",
+  "indigenous_rights_tluse",
+  "light",
+  "noise_vibration",
+  "socio_economic",
+  "soils_terrain",
+  "species_at_risk",
+  "surface_water",
+  "vegetation_ecosystems",
+  "visual_landscape",
+  "waste_hazmat",
+  "wetlands",
+  "wildlife_birds"
+ ],
+ "strong_precedents": [
+  {
+   "discipline": "socio_economic",
+   "measure_type": "engagement",
+   "precedent_projects": 3,
+   "frequency": "3/6 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 3
+   },
+   "examples": [
+    "Kamloops Groundwater",
+    "Squamish Groundwater Well",
+    "Tom MacKay Lake Waste Rock & Tailings"
+   ],
+   "sample_condition": "The District would be pleased to cooperate with all adjacent property and tenure holders regarding this project.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886aca1eed3c0016f855fb3/download"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "engagement",
+   "precedent_projects": 3,
+   "frequency": "3/6 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 3
+   },
+   "examples": [
+    "Kamloops Groundwater",
+    "Squamish Groundwater Well",
+    "Tom MacKay Lake Waste Rock & Tailings"
+   ],
+   "sample_condition": "The District of Squamish recognizes the importance of the views of the Squamish Nation regarding the proposed works and is willing to provide additional data that may be required, to answer any questions that result and to take all reasonable steps necessary to address issues identified by this Firs",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886aca1eed3c0016f855fb3/download"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "District of Chilliwack Groundwater Well",
+    "Kamloops Groundwater"
+   ],
+   "sample_condition": "4.(b) The District must return all disturbed surface lands to their original condition, or as agreed upon with authorities having jurisdiction or ownership, if the District begins construction but does not complete the Project.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac98eed3c0016f855fad/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "avoidance",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Kamloops Groundwater",
+    "Squamish Groundwater Well"
+   ],
+   "sample_condition": "At both sites, no clearing between April 15th and July 31st (nesting period) unless approved by an environmental monitor after nest survey.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886aca1eed3c0016f855fb3/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Kamloops Groundwater",
+    "Squamish Groundwater Well"
+   ],
+   "sample_condition": "The proposed well site is adjacent to the Alava Spring Water Company's pipeline right of way. The District will ensure that development of the well site does not have any impact on the existing pipeline.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886aca1eed3c0016f855fb3/download"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Kamloops Groundwater",
+    "Squamish Groundwater Well"
+   ],
+   "sample_condition": "MOELP have asked for a Well Protection Plan to be prepared. The District agrees the plan is required and it will be undertaken during the detailed design stage of the project. The plan is required in order to ensure that water quality and thus public health are protected.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886aca1eed3c0016f855fb3/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Basal Aquifer Dewatering",
+    "Tom MacKay Lake Waste Rock & Tailings"
+   ],
+   "sample_condition": "Prior to deposition, propose and subsequently complete, as a part of the Mines Act permit, to the satisfaction of the Ministry of Environment, Lands and Parks (MELP), the Ministry of Energy and Mines (MEM) and the Tahltan Joint Councils, a study of the lake conditions including physical dynamics of ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b540eed3c0016f85644e/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 4
+   },
+   "examples": [
+    "Kamloops Groundwater",
+    "Tom MacKay Lake Waste Rock & Tailings"
+   ],
+   "sample_condition": "Regularly inspect, service and maintain all machinery that is required to work in or near the high-water mark to prevent leaks of fuel, lubricants and hydraulic fluids. Refuelling of vehicles and equipment must take place at least 100 m from any fish bearing watercourse or wetland.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b540eed3c0016f85644e/download"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Cranbrook Deep Wells",
+    "Kamloops Groundwater"
+   ],
+   "sample_condition": "The City will monitor, report and evaluate e ffectiveness of the Wellhead Protection Plan \non an annual basis by measuring water quality a nd water levels in a series of monitoring \nwells and/or piezometers installed as se ntinel wells to intercept any migrating \ncontamination in sufficient time tha",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5888e545817b85ae43cf79cf/download"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "District of Chilliwack Groundwater Well"
+   ],
+   "sample_condition": "4.(c) The District must notify the Executive Director of any plans to abandon the Project prior to operation.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ac98eed3c0016f855fad/download"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Squamish Groundwater Well"
+   ],
+   "sample_condition": "As a minimum the access road will be designed, constructed, and maintained to the standards of the Forest Practices Code's Guidebook for Road Engineering.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886aca1eed3c0016f855fb3/download"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Squamish Groundwater Well"
+   ],
+   "sample_condition": "MOELP have asked that land use in the vicinity of the Mamquam site be addressed and an inventory of potential contamination sources be prepared.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886aca1eed3c0016f855fb3/download"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Tom MacKay Lake Waste Rock & Tailings"
+   ],
+   "sample_condition": "An annual evaluation of the waste deposition, water quality trends and physical aspects of Albino Lake will be completed and included in the annual report required by the Waste Management Act effluent permit. This evaluation will include an assessment of the continuing use of Albino Lake for waste r",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b540eed3c0016f85644e/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Tom MacKay Lake Waste Rock & Tailings"
+   ],
+   "sample_condition": "Comply with conditions in the designation under Section 5.2 of the Metal Mining Liquid Effluent Regulations (MMLER).",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b540eed3c0016f85644e/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Tom MacKay Lake Waste Rock & Tailings"
+   ],
+   "sample_condition": "Create an inventory baseline of anadromous fish populations in the Unuk River. The terms of reference for this study will be developed in consultation with the Tahltan Joint Councils and DFO.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b540eed3c0016f85644e/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Tom MacKay Lake Waste Rock & Tailings"
+   ],
+   "sample_condition": "Implement Best Management Practices (BMP), including the implementation of a sediment control plan in construction and reclamation of the access and tote roads and tailings slurry pipeline. This also requires that Homestake adequately characterizes the alignments prior to any disturbance activities ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886b540eed3c0016f85644e/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Basal Aquifer Dewatering"
+   ],
+   "sample_condition": "6. Wildlife\n6.1 Issues:\nMoose habitat has been marginalized by the mine operations and the Shulla Flats area has \nbeen identified as critical moose winter range. Ensuring that this habitat remains viable will be \nimportant to maintain the moose population in this area. Since there are high densities",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ccdeeed3c0016f856c61/download"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Cranbrook Deep Wells"
+   ],
+   "sample_condition": "Based on the March 17-20, 2004 yield test on PW#5 Kala provides the following conclusions:\na) Based on a review of all identified domestic water wells within the cone of depression of PW#5 during half day pumping cycles there are three existing local water wells which may experience problems due to ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886e6cbeed3c0016f856f1c/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Kamloops Groundwater"
+   ],
+   "sample_condition": "1. Prepare Site .  Site clearing and preparation for well construction, with \ninstallation of run-off control and excav ation material containment measures \nto protect riparian zone and adjacent watercourses.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5888e545817b85ae43cf79cf/download"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 3
+   },
+   "examples": [
+    "Kamloops Groundwater"
+   ],
+   "sample_condition": "1. That water quality as measured at user taps be less than one (1) NTU at least \n95% of the time and less than five (5) NTU 100% of the time, subject to",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5888e545817b85ae43cf79cf/download"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Kamloops Groundwater"
+   ],
+   "sample_condition": "4. A conceptual plan detailing the mechanisms by which these conditions will be \naddressed is to be submitted by the Utili ty to the Medical Health Officer by \nApril 1st, 20005.  All works to achieve compliance with the Conditions 1, 2 \nand 3 shall be installed by April 1st, 2003 by the Utility.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5888e545817b85ae43cf79cf/download"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Kamloops Groundwater"
+   ],
+   "sample_condition": "5. That by April 1 st, 1999 the water Utility’s water quality advisory shall be \namended and issued by the Utility advi sing the public of in creased risks and \nshall contain appropriate public health advice jointly developed by the \nMedical Health Officer and the Utility  in accordance with the fol",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5888e545817b85ae43cf79cf/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Kamloops Groundwater"
+   ],
+   "sample_condition": "Chemicals are stored in a limited access \nportion of the building accessible by authorized, trained personnel only.   \n \nIn treatment systems involving chlorine gas, there is an automatic alarm system which \nprovides immediate notification of a chlori ne gas leak.  A blown safety plug in a \npressuri",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5888e545817b85ae43cf79cf/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Kamloops Groundwater"
+   ],
+   "sample_condition": "5. Development of a contingency plan to address contamination incidents. \n \nIt will also take into consideration the methods and protocols recommended in BC MELP \n(2000).",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5888e545817b85ae43cf79cf/download"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Kamloops Groundwater"
+   ],
+   "sample_condition": "An Archaeological Impact Assessment was recently completed for the \nMcArthur Island wellsite (Coates, 2000), with negative results .  No cultural \nmaterial was observed on the ground surface in the area, or detected in shovel \ntests or deep test pits.  The stud y concluded that it is unlikely that \n",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5888e545817b85ae43cf79cf/download"
+  },
+  {
+   "discipline": "fish_fish_habitat",
+   "measure_type": "compensation_offset",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Kamloops Groundwater"
+   ],
+   "sample_condition": "5. Harmful Alteration, Disruption, or Dest ruction of Habitat (HADD) Associated \nwith Construction of Ancillary Facilities across McArthur Island Slough \n \nDepending on construction method, it is possible that crossing of \nMcArthur Island Slough for installation of water main and power supply line \n",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5888e545817b85ae43cf79cf/download"
+  }
+ ],
+ "weak_pool_size": 5005
+}
