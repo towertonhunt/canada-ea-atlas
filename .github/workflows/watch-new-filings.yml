@@ -118,6 +118,129 @@ jobs:
                 'unmirrored:', sum(1 for q in queue if not q['mirrored']), flush=True)
           EOF
 
+      - name: Detect new provincial filings
+        continue-on-error: true
+        run: |
+          python3 -u - <<'EOF'
+          import json, os, re, time, urllib.request, urllib.parse
+          import html as H
+
+          UA = {'User-Agent': ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+                'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36')}
+
+          STATE = 'data/raw/watch_state.json'
+          state = json.load(open(STATE)) if os.path.exists(STATE) else {}
+          Q = 'data/raw/new_filings_prov_queue.json'
+          queue = json.load(open(Q)) if os.path.exists(Q) else []
+          qkeys = {q['key'] for q in queue}
+
+          def wayback(url):
+              try:
+                  urllib.request.urlopen(urllib.request.Request(
+                      'https://web.archive.org/save/' + url, headers=UA),
+                      timeout=90).read(100)
+                  return True
+              except Exception:
+                  return False
+
+          def add(source, key, name, page_url, file_url=None):
+              if key in qkeys:
+                  return
+              queue.append({'source': source, 'key': key, 'name': name[:150],
+                            'page_url': page_url, 'file_url': file_url,
+                            'waybacked': wayback(file_url or page_url),
+                            'mirrored': False})
+              qkeys.add(key)
+              time.sleep(9)
+
+          def get(url, data=None):
+              req = urllib.request.Request(url, data=data, headers=UA)
+              return urllib.request.urlopen(req, timeout=120).read()
+
+          # ── BC EPIC: newest documents via public search API ─────────
+          try:
+              raw = json.loads(get('https://projects.eao.gov.bc.ca/api/public/'
+                    'search?dataset=Document&pageSize=100&pageNum=0&sortBy=-datePosted'))
+              docs = raw[0]['searchResults'] if isinstance(raw, list) else []
+              known = set(state.get('bc_docs', []))
+              fresh = [d for d in docs if d.get('_id') not in known]
+              for d in fresh:
+                  add('bc', 'bc-' + d['_id'],
+                      d.get('displayName') or d.get('documentFileName') or 'doc',
+                      'https://projects.eao.gov.bc.ca/api/public/document/'
+                      + d['_id'] + '/download',
+                      'https://projects.eao.gov.bc.ca/api/public/document/'
+                      + d['_id'] + '/download')
+              state['bc_docs'] = list(known | {d['_id'] for d in docs})[-5000:]
+              print(f'bc: {len(fresh)} new documents', flush=True)
+          except Exception as e:
+              print('bc FAIL', e, flush=True)
+
+          # ── Quebec REE: project list diff (docs live at BAPE) ───────
+          try:
+              body = 'motcle=&region_adm=&Submit1=Rechercher'.encode()
+              h = get('https://www.ree.environnement.gouv.qc.ca/resultats.asp',
+                      body).decode('utf-8', 'replace')
+              rows = re.findall(r'<tr[^>]*>(.*?)</tr>', h, re.S)
+              known = set(state.get('qc', []))
+              seen, fresh = set(), 0
+              for r in rows[1:]:
+                  dm = re.search(r'no_dossier=([^"&]+)', r)
+                  du = re.search(r'(\d{4}-\d{2}-\d{2})', r)
+                  if not dm:
+                      continue
+                  key = dm.group(1) + '@' + (du.group(1) if du else '')
+                  seen.add(key)
+                  if key not in known:
+                      fresh += 1
+                      nm = re.sub(r'<[^>]+>', ' ', r)
+                      add('qc', 'qc-' + key,
+                          re.sub(r'\s+', ' ', H.unescape(nm)).strip()[:100],
+                          'https://www.ree.environnement.gouv.qc.ca/fiche.asp?no_dossier='
+                          + dm.group(1))
+              state['qc'] = sorted(seen)
+              print(f'qc: {fresh} new/updated dossiers', flush=True)
+          except Exception as e:
+              print('qc FAIL', e, flush=True)
+
+          # ── HTML-table registries: NS, MB, NL ────────────────────────
+          TABLES = [
+              ('ns', 'https://novascotia.ca/nse/ea/projects.asp',
+               r'href="(/nse/ea/[^"]+)"[^>]*>([^<]{4,120})</a>',
+               'https://novascotia.ca'),
+              ('mb', 'https://www.gov.mb.ca/sd/eal/registries/index.html',
+               r'href="([^"]+\.html)"[^>]*>([^<]{4,120})</a>',
+               'https://www.gov.mb.ca/sd/eal/registries/'),
+              ('nl', 'https://www.gov.nl.ca/ecc/projects/',
+               r'href="(https://www\.gov\.nl\.ca/ecc/projects/project-[^"]+)"[^>]*>([^<]{2,120})</a>',
+               ''),
+          ]
+          for src, url, pat, base in TABLES:
+              try:
+                  h = get(url).decode('utf-8', 'replace')
+                  known = set(state.get(src, []))
+                  found, fresh = set(), 0
+                  for m in re.finditer(pat, h):
+                      link = m.group(1)
+                      if link.startswith('/'):
+                          link = base.rstrip('/') + link
+                      elif not link.startswith('http'):
+                          link = base + link
+                      found.add(link)
+                      if link not in known:
+                          fresh += 1
+                          add(src, f'{src}-' + link,
+                              H.unescape(m.group(2)).strip(), link)
+                  state[src] = sorted(known | found)
+                  print(f'{src}: {fresh} new project pages', flush=True)
+              except Exception as e:
+                  print(src, 'FAIL', e, flush=True)
+
+          json.dump(state, open(STATE, 'w'))
+          json.dump(queue, open(Q, 'w'))
+          print('provincial queue:', len(queue), flush=True)
+          EOF
+
       - name: Mirror new documents to Google Drive
         continue-on-error: true
         env:
@@ -131,7 +254,7 @@ jobs:
           mkdir -p ~/.config/rclone
           printf '[gdrive]\ntype = drive\nscope = drive.file\ntoken = %s\n' "$RCLONE_TOKEN" > ~/.config/rclone/rclone.conf
           python3 -u - <<'EOF'
-          import json, subprocess, time, urllib.request
+          import json, os, re, subprocess, time, urllib.request
 
           Q = 'data/raw/new_filings_queue.json'
           queue = json.load(open(Q))
@@ -157,6 +280,32 @@ jobs:
                   print('mirror FAIL', q['indexid'], e, flush=True)
               time.sleep(2)
           json.dump(queue, open(Q, 'w'))
+
+          # provincial queue: mirror entries with a direct file URL (BC)
+          PQ = 'data/raw/new_filings_prov_queue.json'
+          if os.path.exists(PQ):
+              import os
+              pq = json.load(open(PQ))
+              for q in pq:
+                  if q['mirrored'] or not q.get('file_url'):
+                      continue
+                  if time.time() - START > 40 * 60 or done >= 300:
+                      break
+                  name = re.sub(r'[^A-Za-z0-9._-]', '_', q['name'])[:120] or q['key']
+                  dest = f"gdrive:Canada-EA-Archive/{q['source']}/"
+                  try:
+                      req = urllib.request.Request(q['file_url'],
+                            headers={'User-Agent': 'Mozilla/5.0'})
+                      data = urllib.request.urlopen(req, timeout=180).read()
+                      open('/tmp/' + name, 'wb').write(data)
+                      subprocess.run(['rclone', 'copyto', '/tmp/' + name,
+                                      dest + name], check=True, timeout=300)
+                      q['mirrored'] = True
+                      done += 1
+                  except Exception as e:
+                      print('prov mirror FAIL', q['key'], e, flush=True)
+                  time.sleep(2)
+              json.dump(pq, open(PQ, 'w'))
           print(f'mirrored {done} documents to Drive', flush=True)
           EOF
 
