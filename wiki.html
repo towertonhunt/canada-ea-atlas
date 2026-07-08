@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Corpus Search — Canada Project Map</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:#f5f6f8; color:#222; }
+  header { background:#1a3a5c; color:#fff; padding:14px 20px; display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; }
+  header h1 { font-size:1.15rem; }
+  header a { color:#9fc3e8; font-size:.85rem; text-decoration:none; }
+  header .sub { font-size:.8rem; opacity:.8; }
+  #searchbar { background:#fff; border-bottom:1px solid #ddd; padding:14px 20px; display:flex; gap:10px; flex-wrap:wrap; align-items:center; position:sticky; top:0; z-index:5; }
+  #q { flex:1; min-width:220px; padding:9px 12px; font-size:1rem; border:1px solid #ccc; border-radius:5px; }
+  #q:disabled { background:#f0f0f0; }
+  select { padding:9px 8px; font-size:.9rem; border:1px solid #ccc; border-radius:5px; }
+  .hint { font-size:.75rem; color:#888; padding:2px 20px 0; }
+  #status { padding:10px 20px; font-size:.85rem; color:#555; }
+  #results { padding:4px 20px 50px; display:grid; gap:11px; max-width:960px; }
+  .doc { background:#fff; border:1px solid #e2e4e8; border-radius:6px; padding:12px 14px; }
+  .doc-head { display:flex; gap:9px; align-items:baseline; flex-wrap:wrap; }
+  .jur { font-size:.68rem; text-transform:uppercase; letter-spacing:.04em; font-weight:700; padding:2px 7px; border-radius:9px; }
+  .jur-bc { background:#dbeafe; color:#1e40af; }
+  .jur-fed { background:#fee2e2; color:#991b1b; }
+  .jur-on { background:#dcfce7; color:#166534; }
+  .proj { font-weight:600; font-size:.95rem; }
+  .title { color:#555; font-size:.85rem; }
+  .snip { font-size:.85rem; color:#333; line-height:1.5; margin-top:7px; }
+  .snip mark { background:#fef08a; color:#000; padding:0 1px; border-radius:2px; }
+  .src { font-size:.75rem; margin-top:7px; }
+  .src a { color:#2563eb; text-decoration:none; }
+  .src a:hover { text-decoration:underline; }
+  .spinner { display:inline-block; width:13px; height:13px; border:2px solid #ccc; border-top-color:#1a3a5c; border-radius:50%; animation:spin .8s linear infinite; vertical-align:-2px; margin-right:6px; }
+  @keyframes spin { to { transform:rotate(360deg); } }
+  .bar { height:5px; background:#e2e4e8; border-radius:3px; overflow:hidden; max-width:300px; margin-top:6px; }
+  .bar > div { height:100%; background:#1a3a5c; width:0; transition:width .2s; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Corpus Search</h1>
+  <span class="sub">full-text search over 594 EA documents · BC · Federal · Ontario</span>
+  <a href="index.html" style="margin-left:auto">← map</a>
+  <a href="predict.html">mitigation predictor →</a>
+</header>
+
+<div id="searchbar">
+  <input id="q" type="search" placeholder="Loading search index…" disabled
+         autocomplete="off" spellcheck="false">
+  <select id="jur" disabled>
+    <option value="">All jurisdictions</option>
+    <option value="British Columbia">British Columbia</option>
+    <option value="Federal">Federal</option>
+    <option value="Ontario">Ontario</option>
+  </select>
+</div>
+<div class="hint">Try: <code>caribou monitoring</code> · <code>"acid rock drainage"</code> (exact phrase) · <code>noise NEAR/5 receptor</code> · <code>wetland OR marsh</code></div>
+
+<div id="status"></div>
+<div id="results"></div>
+
+<script type="module">
+import sqlite3InitModule from './vendor/sqlite3.mjs';
+
+const $ = id => document.getElementById(id);
+const status = $('status'), results = $('results');
+let db = null, sqlite3 = null, timer = null;
+
+const JUR_CLASS = {'British Columbia':'jur-bc', 'Federal':'jur-fed', 'Ontario':'jur-on'};
+const esc = s => (s||'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+async function boot() {
+  try {
+    status.innerHTML = '<span class="spinner"></span>Loading search index (one-time ~15&nbsp;MB, then cached)…<div class="bar"><div id="pbar"></div></div>';
+    // fetch the gzipped DB with a progress bar
+    const resp = await fetch('data/corpus_search.sqlite3.gz');
+    if (!resp.ok) throw new Error('index fetch failed: ' + resp.status);
+    const total = +resp.headers.get('content-length') || 15.2e6;
+    const reader = resp.body.getReader();
+    const chunks = []; let got = 0;
+    for (;;) {
+      const {done, value} = await reader.read();
+      if (done) break;
+      chunks.push(value); got += value.length;
+      const pb = $('pbar'); if (pb) pb.style.width = Math.min(100, got/total*100) + '%';
+    }
+    const gzBuf = new Blob(chunks);
+    // inflate: DecompressionStream is supported in all current browsers
+    const inflated = gzBuf.stream().pipeThrough(new DecompressionStream('gzip'));
+    const bytes = new Uint8Array(await new Response(inflated).arrayBuffer());
+
+    status.innerHTML = '<span class="spinner"></span>Starting database…';
+    // official SQLite WASM build (FTS5 enabled); load the DB image via deserialize
+    sqlite3 = await sqlite3InitModule({ locateFile: () => 'vendor/sqlite3.wasm' });
+    db = new sqlite3.oo1.DB();
+    const p = sqlite3.wasm.allocFromTypedArray(bytes);
+    const rc = sqlite3.capi.sqlite3_deserialize(
+      db.pointer, 'main', p, bytes.length, bytes.length,
+      sqlite3.capi.SQLITE_DESERIALIZE_FREEONCLOSE |
+      sqlite3.capi.SQLITE_DESERIALIZE_RESIZEABLE);
+    db.checkRc(rc);
+
+    $('q').disabled = false; $('jur').disabled = false;
+    $('q').placeholder = 'Search the corpus…';
+    $('q').focus();
+    const n = db.selectValue('SELECT count(*) FROM docs');
+    status.textContent = `${n} documents ready. Type to search.`;
+  } catch (e) {
+    status.innerHTML = '<b style="color:#b91c1c">Could not load the search index.</b> ' + esc(e.message);
+  }
+}
+
+// build a safe FTS5 MATCH expression: try the raw query (supports "phrases",
+// NEAR, OR, AND, *); if FTS5 rejects the syntax, fall back to bare tokens.
+function runSearch() {
+  if (!db) return;
+  const raw = $('q').value.trim();
+  const jur = $('jur').value;
+  results.innerHTML = '';
+  if (!raw) { status.textContent = ''; return; }
+
+  const jurClause = jur ? ' AND jurisdiction = $jur' : '';
+  const sql = `SELECT jurisdiction, project, title, url,
+      snippet(docs, 6, '⟦', '⟧', ' … ', 14) AS snip, bm25(docs) AS rank
+    FROM docs WHERE docs MATCH $m${jurClause} ORDER BY rank LIMIT 60`;
+
+  let rows = null;
+  for (const m of [raw, tokenize(raw)]) {
+    try {
+      rows = [];
+      const bind = jur ? {$m:m, $jur:jur} : {$m:m};
+      db.exec({ sql, bind, rowMode:'object', callback: r => rows.push(r) });
+      break;
+    } catch (e) { rows = null; }  // invalid FTS syntax -> try tokenized form
+  }
+  if (rows === null) { status.textContent = 'Could not parse that query.'; return; }
+  render(rows, raw);
+}
+
+// quote each word so punctuation/operators can't break the MATCH parse
+function tokenize(s) {
+  const t = s.match(/[\p{L}\p{N}]+/gu) || [];
+  return t.map(w => '"' + w + '"').join(' ');
+}
+
+function render(rows, raw) {
+  status.textContent = `${rows.length}${rows.length === 60 ? '+' : ''} document${rows.length!==1?'s':''} for “${raw}”`;
+  if (!rows.length) { results.innerHTML = '<p style="color:#888;font-size:.9rem">No matches. Try broader terms, OR between synonyms, or remove quotes.</p>'; return; }
+  const frag = document.createDocumentFragment();
+  for (const r of rows) {
+    const snip = esc(r.snip).replace(/⟦/g, '<mark>').replace(/⟧/g, '</mark>');
+    const d = document.createElement('div');
+    d.className = 'doc';
+    d.innerHTML = `
+      <div class="doc-head">
+        <span class="jur ${JUR_CLASS[r.jurisdiction]||''}">${esc(r.jurisdiction)}</span>
+        <span class="proj">${esc(r.project) || '—'}</span>
+      </div>
+      <div class="title">${esc(r.title)}</div>
+      <div class="snip">…${snip}…</div>
+      ${r.url ? `<div class="src"><a href="${esc(r.url)}" target="_blank" rel="noopener">source document ↗</a></div>` : ''}`;
+    frag.appendChild(d);
+  }
+  results.appendChild(frag);
+}
+
+$('q').addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(runSearch, 200); });
+$('jur').addEventListener('change', runSearch);
+boot();
+</script>
+</body>
+</html>

@@ -20,6 +20,7 @@ sidebars (`docs_path` property -> `data/docs/<jur>/<id>.json`).
 ## Key commands
 - Rebuild map: `python3 scripts/build_national_geojson.py`
 - Split doc catalogues: `python3 scripts/split_doc_catalogues.py`
+- Build corpus search index: `python3 scripts/build_corpus_search.py` (FTS5 -> data/corpus_search.sqlite3.gz for wiki.html)
 - Extract conditions: `python3 scripts/extract_conditions.py` (BC; extend per source)
 - Predict mitigations: `python3 scripts/mitigation_predict.py <archetype> [constraints...]`
 - Baseline constraints (needs internet -> run in Actions): `scripts/baseline_query.py lat lon buffer_m`
@@ -103,7 +104,13 @@ and merge PRs via GitHub MCP — pattern established PR #1, #2).
 5. Demo UI: DONE 2026-07-07 -> predict.html (archetype + constraint
    checkboxes -> filtered register from data/predictions/; linked from
    map header). Map-click -> live baseline_query constraints still open.
-6. Wiki: SQLite FTS5 over corpus + sql.js-httpvfs static search.
+6. Wiki: DONE 2026-07-08 -> wiki.html. FTS5 index (594 docs) built by
+   scripts/build_corpus_search.py -> data/corpus_search.sqlite3.gz
+   (15MB gz), loaded in-browser via OFFICIAL @sqlite.org/sqlite-wasm
+   (vendor/sqlite3.mjs+wasm) using sqlite3_deserialize. NOTE: stock
+   sql.js has NO fts5 - must use the sqlite.org build. Ranked bm25 +
+   snippet(); raw-query-then-tokenized fallback for bad FTS syntax.
+   Future: sql.js-httpvfs range requests to avoid the 15MB upfront load.
 7. Active mines layer: NRCan 900A / OGSEarth (recon files in data/raw).
 8. SK/NB/PE parsing — probes analyzed 2026-07-07, all need refetch:
    PEI pei_ea_list.html is a JS-rendered shell (0 links; find the ajax
