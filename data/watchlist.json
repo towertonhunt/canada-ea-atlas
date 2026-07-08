@@ -1,0 +1,17 @@
+{
+  "_readme": "Proponent-site watchlist for watch-new-filings.yml. Each entry: a page the lane fetches on schedule; any NEW link ending .pdf (or matching link_pattern) is waybacked and queued. Generic differ - no per-site scrapers. Add entries as new Ontario EAs appear on ERO; the notice usually names the proponent project page. Failures are reported in the lane log, not silently skipped.",
+  "watch": [
+    {"name": "OPG - current projects", "jurisdiction": "ontario",
+     "url": "https://www.opg.com/projects-services/projects/"},
+    {"name": "Hydro One - major projects", "jurisdiction": "ontario",
+     "url": "https://www.hydroone.com/about/corporate-information/major-projects"},
+    {"name": "NextEra Canada - projects", "jurisdiction": "ontario",
+     "url": "https://www.nexteraenergycanada.com/projects"},
+    {"name": "Pattern Energy - projects", "jurisdiction": "ontario",
+     "url": "https://patternenergy.com/projects/"},
+    {"name": "Cordelio Power - projects", "jurisdiction": "ontario",
+     "url": "https://cordeliopower.com/projects/"},
+    {"name": "Boralex Canada - projects", "jurisdiction": "ontario",
+     "url": "https://ca.boralex.com/projects/"}
+  ]
+}

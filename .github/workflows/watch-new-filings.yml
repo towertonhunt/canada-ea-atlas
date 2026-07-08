@@ -236,6 +236,35 @@ jobs:
               except Exception as e:
                   print(src, 'FAIL', e, flush=True)
 
+          # ── Proponent watchlist: generic new-PDF-link differ ─────────
+          try:
+              wl = json.load(open('data/watchlist.json'))['watch']
+          except Exception:
+              wl = []
+          failures = []
+          for w in wl:
+              try:
+                  h = get(w['url']).decode('utf-8', 'replace')
+                  pat = w.get('link_pattern', r'href="([^"]+\.pdf[^"]*)"')
+                  known = set(state.get('wl:' + w['url'], []))
+                  found, fresh = set(), 0
+                  for m in re.finditer(pat, h, re.I):
+                      link = urllib.parse.urljoin(w['url'], H.unescape(m.group(1)))
+                      found.add(link)
+                      if link not in known:
+                          fresh += 1
+                          add('proponent', 'pp-' + link,
+                              w['name'] + ': ' + link.rsplit('/', 1)[-1][:80],
+                              w['url'], link)   # direct file -> Drive-mirrorable
+                  state['wl:' + w['url']] = sorted(known | found)
+                  print(f"watchlist {w['name']}: {fresh} new documents", flush=True)
+              except Exception as e:
+                  failures.append(f"{w['name']}: {e}")
+                  print(f"watchlist FAIL {w['name']}: {e}", flush=True)
+          if failures:
+              print('!!! WATCHLIST FAILURES (page moved/renamed?) — fix data/watchlist.json:',
+                    *failures, sep='\n  ', flush=True)
+
           json.dump(state, open(STATE, 'w'))
           json.dump(queue, open(Q, 'w'))
           print('provincial queue:', len(queue), flush=True)
