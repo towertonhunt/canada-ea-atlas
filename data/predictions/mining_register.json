@@ -32,7 +32,7 @@
    "frequency": "21/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 5,
+    "bc": 3,
     "federal": 55
    },
    "examples": [
@@ -89,7 +89,7 @@
    "frequency": "20/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 3,
+    "bc": 2,
     "federal": 75
    },
    "examples": [
@@ -126,7 +126,7 @@
    "frequency": "18/27 comparable projects",
    "typical_timing": "operation",
    "jurisdictions": {
-    "bc": 3,
+    "bc": 2,
     "federal": 56
    },
    "examples": [
@@ -163,7 +163,7 @@
    "frequency": "17/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 2,
+    "bc": 1,
     "federal": 37
    },
    "examples": [
@@ -201,7 +201,7 @@
    "frequency": "16/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 2,
+    "bc": 1,
     "federal": 26
    },
    "examples": [
@@ -274,7 +274,7 @@
    "frequency": "15/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 5,
+    "bc": 3,
     "federal": 19
    },
    "examples": [
@@ -312,7 +312,7 @@
    "frequency": "14/27 comparable projects",
    "typical_timing": "construction",
    "jurisdictions": {
-    "bc": 2,
+    "bc": 1,
     "federal": 32
    },
    "examples": [
@@ -422,7 +422,7 @@
    "frequency": "12/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 2,
+    "bc": 1,
     "federal": 18
    },
    "examples": [
@@ -459,7 +459,7 @@
    "frequency": "11/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 6,
+    "bc": 3,
     "federal": 12
    },
    "examples": [
@@ -476,9 +476,9 @@
    "measure_type": "monitoring_followup",
    "precedent_projects": 10,
    "frequency": "10/27 comparable projects",
-   "typical_timing": "pre_construction",
+   "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 16,
+    "bc": 11,
     "federal": 12
    },
    "examples": [
@@ -607,7 +607,7 @@
    "frequency": "7/27 comparable projects",
    "typical_timing": "pre_construction",
    "jurisdictions": {
-    "bc": 7,
+    "bc": 4,
     "federal": 9
    },
    "examples": [
@@ -662,7 +662,7 @@
    "frequency": "6/27 comparable projects",
    "typical_timing": "pre_construction",
    "jurisdictions": {
-    "bc": 4,
+    "bc": 2,
     "federal": 7
    },
    "examples": [
@@ -681,7 +681,7 @@
    "frequency": "6/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 3,
+    "bc": 2,
     "federal": 8
    },
    "examples": [
@@ -716,9 +716,9 @@
    "measure_type": "mitigation",
    "precedent_projects": 5,
    "frequency": "5/27 comparable projects",
-   "typical_timing": "operation",
+   "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 4,
+    "bc": 2,
     "federal": 4
    },
    "examples": [
@@ -737,7 +737,7 @@
    "frequency": "5/27 comparable projects",
    "typical_timing": "operation",
    "jurisdictions": {
-    "bc": 3,
+    "bc": 2,
     "federal": 5
    },
    "examples": [
@@ -756,7 +756,7 @@
    "frequency": "5/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 11,
+    "bc": 6,
     "federal": 5
    },
    "examples": [
@@ -1014,7 +1014,7 @@
    "frequency": "3/27 comparable projects",
    "typical_timing": "pre_construction",
    "jurisdictions": {
-    "bc": 2,
+    "bc": 1,
     "federal": 3
    },
    "examples": [
@@ -1030,9 +1030,9 @@
    "measure_type": "management_plan",
    "precedent_projects": 3,
    "frequency": "3/27 comparable projects",
-   "typical_timing": "pre_construction",
+   "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 2,
+    "bc": 1,
     "federal": 2
    },
    "examples": [
@@ -1050,7 +1050,7 @@
    "frequency": "3/27 comparable projects",
    "typical_timing": "all_phases",
    "jurisdictions": {
-    "bc": 2,
+    "bc": 1,
     "federal": 4
    },
    "examples": [
@@ -1292,7 +1292,7 @@
    "frequency": "2/27 comparable projects",
    "typical_timing": "pre_construction",
    "jurisdictions": {
-    "bc": 2,
+    "bc": 1,
     "federal": 2
    },
    "examples": [
@@ -1519,7 +1519,7 @@
    "frequency": "1/27 comparable projects",
    "typical_timing": "operation",
    "jurisdictions": {
-    "bc": 2
+    "bc": 1
    },
    "examples": [
     "Willow Creek"
@@ -1534,7 +1534,7 @@
    "frequency": "1/27 comparable projects",
    "typical_timing": "construction",
    "jurisdictions": {
-    "bc": 4
+    "bc": 2
    },
    "examples": [
     "Willow Creek"
@@ -1549,7 +1549,7 @@
    "frequency": "1/27 comparable projects",
    "typical_timing": "pre_construction",
    "jurisdictions": {
-    "bc": 2
+    "bc": 1
    },
    "examples": [
     "Willow Creek"
@@ -1564,7 +1564,7 @@
    "frequency": "1/27 comparable projects",
    "typical_timing": "operation",
    "jurisdictions": {
-    "bc": 2
+    "bc": 1
    },
    "examples": [
     "Willow Creek"
@@ -1579,7 +1579,7 @@
    "frequency": "1/27 comparable projects",
    "typical_timing": "pre_construction",
    "jurisdictions": {
-    "bc": 3
+    "bc": 2
    },
    "examples": [
     "Willow Creek"
@@ -1609,7 +1609,7 @@
    "frequency": "1/27 comparable projects",
    "typical_timing": "pre_construction",
    "jurisdictions": {
-    "bc": 3
+    "bc": 2
    },
    "examples": [
     "Willow Creek"
@@ -1858,5 +1858,5 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/112942"
   }
  ],
- "weak_pool_size": 3636
+ "weak_pool_size": 3631
 }

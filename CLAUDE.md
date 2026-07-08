@@ -23,6 +23,8 @@ sidebars (`docs_path` property -> `data/docs/<jur>/<id>.json`).
 - Build corpus search index: `python3 scripts/build_corpus_search.py` (FTS5 -> data/corpus_search.sqlite3.gz for wiki.html)
 - Extract conditions: `python3 scripts/extract_conditions.py` (BC; extend per source)
 - Predict mitigations: `python3 scripts/mitigation_predict.py <archetype> [constraints...]`
+- Validate all data: `python3 scripts/validate_data.py` (enums, geojson bbox, FTS DB, registers)
+- Dedupe conditions: `python3 scripts/dedupe_conditions.py` (exact (project,text) dupes; idempotent)
 - Baseline constraints (needs internet -> run in Actions): `scripts/baseline_query.py lat lon buffer_m`
 - Routing engine: `scripts/routing/build_routes.py` per `routing/framework.json`
 
@@ -88,9 +90,14 @@ and merge PRs via GitHub MCP — pattern established PR #1, #2).
    template dupes). Same shard pipeline: shards_ontario/ + 
    scripts/merge_ontario_conditions.py. DONE 2026-07-07: all three v2
    sets wired into scripts/mitigation_predict.py (Ontario re-merged with
-   project-name keying -> 1,627; pool 7,314). Predictor matches
+   project-name keying -> 1,627; pool 7,265). Predictor matches
    primary+secondary disciplines, reports timing + jurisdiction mix;
    --full pre-generates data/predictions/<archetype>_register.json.
+   INTEGRITY 2026-07-08: scripts/validate_data.py added; found + fixed
+   49 exact-duplicate BC conditions (741->692; BC merge never text-
+   deduped, unlike fed/on) via scripts/dedupe_conditions.py, and one
+   US-geocoded federal point (Salt Lake City, lat 40.83) that slipped
+   the map bbox (lower bound 40 -> 41.5 in build_national_geojson.py).
 2. Baseline engine: VALIDATED 2026-07-06 — Adelaide demo returns 4
    constraint HITs (wetland, waterbody, watercourse, aggregate). Root
    causes were (a) LIO ignoring distance/units -> client-side envelope;

@@ -32,7 +32,7 @@
    "frequency": "15/23 comparable projects",
    "typical_timing": "operation",
    "jurisdictions": {
-    "bc": 4,
+    "bc": 3,
     "federal": 46
    },
    "examples": [
@@ -108,7 +108,7 @@
    "frequency": "13/23 comparable projects",
    "typical_timing": "operation",
    "jurisdictions": {
-    "bc": 3,
+    "bc": 2,
     "federal": 17
    },
    "examples": [
@@ -914,7 +914,7 @@
    "frequency": "2/23 comparable projects",
    "typical_timing": "pre_construction",
    "jurisdictions": {
-    "bc": 2,
+    "bc": 1,
     "federal": 1
    },
    "examples": [
@@ -1601,5 +1601,5 @@
    "sample_source": "https://iaac-aeic.gc.ca/050/evaluations/document/138517"
   }
  ],
- "weak_pool_size": 4239
+ "weak_pool_size": 4194
 }

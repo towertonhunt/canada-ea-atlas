@@ -32,7 +32,7 @@
    "frequency": "7/11 comparable projects",
    "typical_timing": "pre_construction",
    "jurisdictions": {
-    "bc": 17
+    "bc": 16
    },
    "examples": [
     "Coursier Dam Decommissioning",
@@ -104,7 +104,7 @@
    "frequency": "4/11 comparable projects",
    "typical_timing": "operation",
    "jurisdictions": {
-    "bc": 7
+    "bc": 6
    },
    "examples": [
     "Coursier Dam Decommissioning",
@@ -1040,5 +1040,5 @@
    "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5888e545817b85ae43cf79d0/download"
   }
  ],
- "weak_pool_size": 4856
+ "weak_pool_size": 4810
 }

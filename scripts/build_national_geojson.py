@@ -169,7 +169,9 @@ if os.path.exists(listgz):
         if 'lat' in e and 'lon' in e:
             try:
                 lat, lon = float(e['lat']), float(e['lon'])
-                if 40 < lat < 84 and -142 < lon < -50:
+                # Canada bbox: southern tip (Middle Island) is ~41.7 N, so
+                # 40 let US facilities through (e.g. a Salt Lake City plant).
+                if 41.5 < lat < 84 and -141.5 < lon < -52:
                     geom = {'type': 'Point', 'coordinates': [lon, lat]}
             except (TypeError, ValueError):
                 pass
