@@ -1,0 +1,37 @@
+name: Validate data
+
+# Integrity guardrail for a project that grows unattended via cron lanes.
+# Runs scripts/validate_data.py — enum checks on the conditions sets, the
+# map GeoJSON schema + Canada bbox, the FTS search DB, and the prediction
+# registers. Fast, no network needed.
+#
+# Triggers: manual, on PRs into main (validates a lane's output before it
+# goes live), and daily (catches drift from cron [skip ci] data commits,
+# which skip push-triggered CI). Fully active once this file is on main.
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths:
+      - 'data/conditions/**'
+      - 'data/projects_canada.geojson'
+      - 'data/corpus_search.sqlite3.gz'
+      - 'data/predictions/**'
+      - 'scripts/validate_data.py'
+      - '.github/workflows/validate.yml'
+  schedule:
+    - cron: "23 5 * * *"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run integrity checks
+        run: python3 scripts/validate_data.py
