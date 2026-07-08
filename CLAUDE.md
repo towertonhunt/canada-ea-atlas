@@ -1,4 +1,6 @@
-# Canada EA Map + Mitigation Prediction Tool
+# Canada Project Map + Mitigation Prediction Tool
+
+Public name: "Canada Project Map" (renamed from the REA map 2026-07-08).
 
 National environmental-assessment map, document corpus, and an early-stage
 mitigation prediction tool ("reverse-engineer an EA from a project description
