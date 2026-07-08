@@ -51,8 +51,13 @@ sidebars (`docs_path` property -> `data/docs/<jur>/<id>.json`).
   waybacks new doc pages immediately, queues them in
   data/raw/new_filings_queue.json, and mirrors files to Drive
   (gdrive:Canada-EA-Archive/) IF the repo secret RCLONE_DRIVE_TOKEN is
-  set — until then the queue just accumulates, nothing is lost. Extend
-  with BC EPIC dataset=Document diffing and proponent-site adapters.
+  set — until then the queue just accumulates, nothing is lost.
+  PROVINCIAL pass added 2026-07-08 (PR #4): BC EPIC newest documents
+  (direct download URLs -> Drive-mirrorable), QC REE dossier diff by
+  update date, NS/MB/NL project-page diff; state in
+  data/raw/watch_state.json, queue in new_filings_prov_queue.json.
+  Still open: proponent-site adapters (wayback-on-discovery is the
+  fallback), ERO/Ontario notice diffing, BAPE per-project doc diffing.
 - fetch-on-permits.yml: daily — AMIS/compliance/assurance + active-mines recon.
 NOTE: scheduled runs execute the workflow version on MAIN. After fixing a
 lane on the branch, sync to main via PR (user authorized Claude to create
