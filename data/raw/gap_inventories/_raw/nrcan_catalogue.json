@@ -1,0 +1,696 @@
+[
+ {
+  "id": "f5f2db55-31e4-42fb-8c73-23e1c44de9b2",
+  "title": "Major Projects Inventory",
+  "org": "nrcan-rncan",
+  "score": 10,
+  "formats": [
+   "ESRI REST",
+   "FGDB/GDB",
+   "KMZ",
+   "SHP",
+   "TAB",
+   "WMS",
+   "XLSX"
+  ]
+ },
+ {
+  "id": "8f387c74-a5d9-46ec-9aff-32bc8e0ff3b1",
+  "title": "Projects and Transformative Strategies Referred to the Major Projects Office",
+  "org": "nrcan-rncan",
+  "score": 8,
+  "formats": [
+   "CSV",
+   "ESRI REST",
+   "FGDB/GDB",
+   "HTML",
+   "WMS"
+  ]
+ },
+ {
+  "id": "ea4c0bdb-a63f-49a4-b14a-09c1560aad0b",
+  "title": "Major Projects Inventory (Economic) - Points",
+  "org": "bc-cb",
+  "score": 8,
+  "formats": [
+   "CSV",
+   "HTML",
+   "KML",
+   "WMS",
+   "XLS"
+  ]
+ },
+ {
+  "id": "b3db5c7f-37bb-4c32-a3ab-c2ef535fe17f",
+  "title": "Major projects by municipality",
+  "org": "ab",
+  "score": 6,
+  "formats": [
+   "CSV",
+   "HTML",
+   "JSON",
+   "OTHER",
+   "XLSX",
+   "XML"
+  ]
+ },
+ {
+  "id": "a9f0b1c5-df3d-4aa4-8b03-2d9c860823da",
+  "title": "Northern Major Projects",
+  "org": "cannor",
+  "score": 5,
+  "formats": [
+   "ESRI REST",
+   "FGDB/GDB",
+   "KMZ",
+   "MXD",
+   "WMS"
+  ]
+ },
+ {
+  "id": "706a6d1a-df8e-40e3-8e0c-94211025c528",
+  "title": "Projects funded by the EVAFIDI, ZEVIP, and CHRI infrastructure programs",
+  "org": "nrcan-rncan",
+  "score": 4,
+  "formats": [
+   "ESRI REST",
+   "WMS",
+   "XLSX"
+  ]
+ },
+ {
+  "id": "3e4efd44-7a00-46d1-9c7c-171028a01066",
+  "title": "Inventory of Major Alberta Projects",
+  "org": "ab",
+  "score": 4,
+  "formats": [
+   "CSV",
+   "HTML",
+   "JSON",
+   "XLS",
+   "XML"
+  ]
+ },
+ {
+  "id": "c1d860a2-e451-4df9-86d0-70c8699600e0",
+  "title": "Household Appliances",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSX"
+  ]
+ },
+ {
+  "id": "d9c4d93f-2388-4158-b3cf-49a9ecea6b2c",
+  "title": "FunRoots: Root and leaf traits of tree seedlings of seven species in Eastern Canadian Forests",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "PDF"
+  ]
+ },
+ {
+  "id": "fc60c829-506f-42c5-bd4e-9b72a0aac687",
+  "title": "Industrial/Commercial Equipment",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSX"
+  ]
+ },
+ {
+  "id": "675d7095-4ceb-44f1-85f1-bf99bcb67950",
+  "title": "Plumbing Products",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSX"
+  ]
+ },
+ {
+  "id": "4382d531-04ed-46b7-a10b-35df6fe36d56",
+  "title": "Electronic Products",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSX"
+  ]
+ },
+ {
+  "id": "98f1a129-f628-4ce4-b24d-6f16bf24dd64",
+  "title": "Fuel consumption ratings",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "XLSX"
+  ]
+ },
+ {
+  "id": "0fe65119-e96e-4a57-8bfe-9d9245fba06b",
+  "title": "High Resolution Digital Elevation Model Mosaic (HRDEM Mosaic) - CanElevation Series",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "FGDB/GDB",
+   "HTML",
+   "JSON",
+   "PDF",
+   "WCS",
+   "WMS"
+  ]
+ },
+ {
+  "id": "957782bf-847c-4644-a757-e383c0057995",
+  "title": "High Resolution Digital Elevation Model (HRDEM) - CanElevation Series",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "ESRI REST",
+   "GEOTIF",
+   "HTML",
+   "JSON",
+   "KMZ",
+   "PDF",
+   "SHP"
+  ]
+ },
+ {
+  "id": "02e85d01-ee78-4c4b-9d8f-56b61b8142ce",
+  "title": "Heating and Air-Conditioning Equipment",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSX"
+  ]
+ },
+ {
+  "id": "67593b9c-022b-1aea-e330-47d188b6407d",
+  "title": "Strong Motion Data from the 2012 M7.8 Haida Gwaii Earthquake",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "ESRI REST",
+   "GPKG",
+   "HTML",
+   "PDF",
+   "WMS"
+  ]
+ },
+ {
+  "id": "1ed7fdec-9a50-4fe9-aa16-78f9ee3f05bc",
+  "title": "Annual 30 m snow dynamics (2018-2019 to 2023-2024) \u2013 Canada",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "GEOTIF",
+   "JSON",
+   "PDF",
+   "WMS"
+  ]
+ },
+ {
+  "id": "3202e0a0-0afb-4120-b102-b0c41f0fb9eb",
+  "title": "Trends and Extremes - Flood Susceptibility Mapping",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "COG",
+   "HTML",
+   "JSON",
+   "WMS"
+  ]
+ },
+ {
+  "id": "9326c193-879b-49fa-80a7-d2c5da37b44b",
+  "title": "Environmental and Social Sensitivity (ESG) Index Map for Natural Resources Development in Canada",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "COG",
+   "ESRI REST",
+   "FGDB/GDB",
+   "JSON",
+   "OTHER",
+   "WMS"
+  ]
+ },
+ {
+  "id": "5523d154-efb2-41ce-b53e-53a3f0c53d1a",
+  "title": "Environmental Studies Research Fund Prescribed Regions",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "ESRI REST",
+   "PDF"
+  ]
+ },
+ {
+  "id": "ae59f8ee-42f8-4946-9622-058d1e789113",
+  "title": "Compilation of selected publications on permafrost research by the Geological Survey of Canada",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "PDF"
+  ]
+ },
+ {
+  "id": "79fdad93-9025-49ad-ba16-c26d718cc070",
+  "title": "Canadian Wind Turbine Database",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "ESRI REST",
+   "FGDB/GDB",
+   "MXD",
+   "WMS",
+   "XLSX"
+  ]
+ },
+ {
+  "id": "c00f95a3-7bab-4d28-b9cc-b30f06b5afd2",
+  "title": "Future - Flood Susceptibility Mapping",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "HTML",
+   "JSON",
+   "WMS"
+  ]
+ },
+ {
+  "id": "ea1384df-bf4a-4743-97bb-870dc43f8d77",
+  "title": "Historic - Flood Susceptibility Mapping",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "HTML",
+   "JSON",
+   "WMS"
+  ]
+ },
+ {
+  "id": "aa698863-f689-4dd6-be12-1a9fa513f04b",
+  "title": "Airborne Radionuclide Concentrations Dataset",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "ESRI REST",
+   "TXT",
+   "WMS",
+   "XML"
+  ]
+ },
+ {
+  "id": "b1f61b7e-4ba6-4244-bc79-c1174f2f92cd",
+  "title": "Canada Landsat Burned Severity product 1985-2015 (CanLaBS)",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "PDF",
+   "TIFF"
+  ]
+ },
+ {
+  "id": "2d7f9165-e752-4b16-b64b-a64583af8475",
+  "title": "The Free Trade and Labour Mobility in Canada Act - Forms",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "PDF",
+   "XLSX"
+  ]
+ },
+ {
+  "id": "8b83fd58-5953-4b80-8009-94d44ff89844",
+  "title": "Pan-Arctic Wetland Inventory Dataset Version 1 (baseline)",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "GEOTIF",
+   "JSON",
+   "PDF",
+   "WMS"
+  ]
+ },
+ {
+  "id": "685257af-5592-49de-8726-90090c6c3061",
+  "title": "The Canadian Radiological Monitoring Network \u2013 Gross Alpha / Beta in Drinking Water",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "ESRI REST",
+   "HTML",
+   "PPT",
+   "TXT",
+   "WMS"
+  ]
+ },
+ {
+  "id": "67bedee8-beb0-4b3a-a1c6-24a4cda08afe",
+  "title": "The Canadian Radiological Monitoring Network \u2013 Environmental Dosimetry",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "ESRI REST",
+   "HTML",
+   "PPT",
+   "WMS"
+  ]
+ },
+ {
+  "id": "12acd145-626a-49eb-b850-0a59c9bc7506",
+  "title": "The Canadian Radiological Monitoring Network \u2013 Strontium-90 in Milk",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "ESRI REST",
+   "HTML",
+   "PPT",
+   "TXT",
+   "WMS"
+  ]
+ },
+ {
+  "id": "21b821cf-0f1c-40ee-8925-eab12d357668",
+  "title": "The Canadian Radiological Monitoring Network \u2013 Airborne Radioactivity",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "ESRI REST",
+   "HTML",
+   "PPT",
+   "TXT",
+   "WMS"
+  ]
+ },
+ {
+  "id": "16348a20-02f4-4557-b68c-d1754e3026a4",
+  "title": "The Canadian Radiological Monitoring Network \u2013 Tritium in Atmospheric Water Vapour",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "ESRI REST",
+   "HTML",
+   "PPT",
+   "TXT",
+   "WMS"
+  ]
+ },
+ {
+  "id": "0a7619fd-2ffe-44b5-9027-3dfcec0866fd",
+  "title": "EnerGuide Rating System Open Data",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "HTML",
+   "XLSX"
+  ]
+ },
+ {
+  "id": "73244bd4-048b-4a6b-9b9d-aeaa8228d6b2",
+  "title": "Canadian Mining Assets (CMAs), by Country and Region, 2023 and 2024 (p)",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSX"
+  ]
+ },
+ {
+  "id": "2d0b4927-38e4-451b-9e7f-cb586a1ac01b",
+  "title": "Projected Burn Probability (2020-2100)",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "HTML",
+   "PDF",
+   "WMS",
+   "ZIP"
+  ]
+ },
+ {
+  "id": "b64179f3-ea0f-4abb-9cc5-85432fc958a0",
+  "title": "Top 100 Exploration Projects",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "ESRI REST",
+   "HTML",
+   "PDF",
+   "WMS"
+  ]
+ },
+ {
+  "id": "22b2db8a-dc12-47f2-9737-99d3da921751",
+  "title": "Critical minerals advanced projects, mines and processing facilities in Canada",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "ESRI REST",
+   "FGDB/GDB",
+   "HTML",
+   "MXD",
+   "SHP",
+   "WMS"
+  ]
+ },
+ {
+  "id": "565f4058-88c7-40d7-92ce-89f67cb393fc",
+  "title": "Time Series of Leaf Area Index for Reclamation Sites in Alberta 2016-2025",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "ESRI REST",
+   "OTHER",
+   "SHP"
+  ]
+ },
+ {
+  "id": "e2c1e3d2-b4de-4134-88b3-5aca0ff310a5",
+  "title": "Mining Sector Performance Report",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "PDF",
+   "XLSX"
+  ]
+ },
+ {
+  "id": "b8c6fcfb-f13f-45c1-84fe-039da0e238a8",
+  "title": "Longevity and fecundity of females from six Trichogramma species depending on the access to hosts and food",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV"
+  ]
+ },
+ {
+  "id": "cab4826f-4a19-41f8-9041-3f02a1f6d966",
+  "title": "Lighting Products",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSX"
+  ]
+ },
+ {
+  "id": "e287b0dd-8b07-435b-8a76-0c7ec84ac228",
+  "title": "Peat Profile Database",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV"
+  ]
+ },
+ {
+  "id": "ac2096a6-7b4a-464e-9e08-eca7873dd88c",
+  "title": "Labour Force Distribution (LFD) for Natural Resource Sectors in Canada",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "GEOTIF",
+   "HTML",
+   "JSON",
+   "TIFF",
+   "WMS"
+  ]
+ },
+ {
+  "id": "38ef4d26-b838-447b-b874-9233a0884cf0",
+  "title": "Commercial Refrigeration Equipment",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSX"
+  ]
+ },
+ {
+  "id": "808b84a1-6356-4103-a8e9-db46d5c20fcf",
+  "title": "Probability of the annual minimum snow and ice (MSI) presence over Canada",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "FLAT RASTER BINARY",
+   "GEOTIF",
+   "HTML",
+   "JSON",
+   "PDF",
+   "WMS"
+  ]
+ },
+ {
+  "id": "e27c6eba-3c5d-4051-9db2-082dc6411c2c",
+  "title": "Canadian Geographical Names - CGN",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "ESRI REST",
+   "KML",
+   "PDF",
+   "SHP",
+   "WMS"
+  ]
+ },
+ {
+  "id": "5f0e4a20-f6b5-4549-b34a-46cf72c103fd",
+  "title": "TOPIC Sudbury - Leaf traits",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV"
+  ]
+ },
+ {
+  "id": "6c1f77a5-117b-49bf-82d7-c2c0fc020819",
+  "title": "TOPIC CoVitas - Aboveground and belowground plant traits",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV"
+  ]
+ },
+ {
+  "id": "1effc7fc-301b-46d1-9fe0-e629f1106631",
+  "title": "TOPIC Alberta - Traits of understory vegetation in Alberta - Specific Leaf Area",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV"
+  ]
+ },
+ {
+  "id": "6231ec26-b922-491c-828b-3fd485d6d9d7",
+  "title": "Spruce budworm female laboratory flight performance in response to temperature and morphology",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSM",
+   "XLSX"
+  ]
+ },
+ {
+  "id": "d8fa9a38-c4df-442a-8319-9bbcbdc29060",
+  "title": "Map of Forest Management in Canada",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "FGDB/GDB",
+   "HTML",
+   "TIFF",
+   "WFS",
+   "WMS",
+   "XLSX"
+  ]
+ },
+ {
+  "id": "1da588c1-0dc6-45e4-9e63-9acf2fdc353a",
+  "title": "Pilot national scale maps of active deformation processes in Canada",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "GEOTIF",
+   "JSON",
+   "WMS"
+  ]
+ },
+ {
+  "id": "a9409f3b-e00e-4b95-bc33-510ad8eb25d2",
+  "title": "Sub-process fossil fuel distribution for heavy industry",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSX"
+  ]
+ },
+ {
+  "id": "6278d435-fdd6-4889-a3fb-7f31134cf8eb",
+  "title": "Canada-Nova Scotia Offshore Energy Regulator - Oil and Gas Activity",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "ESRI REST",
+   "PDF",
+   "SHP"
+  ]
+ },
+ {
+  "id": "18752265-bda3-498c-a4ba-9dfe68cb98da",
+  "title": "Medium Resolution Digital Elevation Model (MRDEM) - CanElevation Series",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "JSON",
+   "OTHER",
+   "PDF",
+   "WMS"
+  ]
+ },
+ {
+  "id": "d5f554f0-8893-11e0-a4df-6cf049291510",
+  "title": "Projected Market Share of Small Vans - 2010 Model (Human Activities Leading to Emissions)",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "JP2",
+   "OTHER",
+   "ZIP"
+  ]
+ },
+ {
+  "id": "d08a4ecf-8893-11e0-a4e7-6cf049291510",
+  "title": "Projected Market Share of Compact Cars - 2010 Model (Human Activities Leading to Emissions)",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "JP2",
+   "OTHER",
+   "ZIP"
+  ]
+ },
+ {
+  "id": "d2e57ce1-8893-11e0-a444-6cf049291510",
+  "title": "Projected Market Share of Midsize Cars - 2010 Model (Human Activities Leading to Emissions)",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "JP2",
+   "OTHER",
+   "ZIP"
+  ]
+ }
+]

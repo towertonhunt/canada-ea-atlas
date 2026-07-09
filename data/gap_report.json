@@ -1,5 +1,504 @@
 {
-  "inventories": [],
-  "summary": {},
-  "results": []
+  "inventories": [
+    {
+      "source": "nrcan_mpi",
+      "label": "NRCan Major Projects Inventory",
+      "fetched": "2026-07-09",
+      "count": 23
+    }
+  ],
+  "summary": {
+    "gap": 7,
+    "weak": 10,
+    "matched": 6
+  },
+  "thresholds": {
+    "strong": 0.72,
+    "floor": 0.4
+  },
+  "results": [
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Iqaluit Nukkiksautiit Hydro Project",
+        "proponent": "Nunavut Nukkiksautiit Corporation",
+        "province": null,
+        "sector": "Electricity",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "gap",
+      "score": 0.244,
+      "match": {
+        "id": null,
+        "name": "Narrows Inlet Hydro",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Nouveau Monde Graphite’s Matawinie Mine",
+        "proponent": "Nouveau Monde Graphite",
+        "province": null,
+        "sector": "Mining, Critical Minerals",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "gap",
+      "score": 0.381,
+      "match": {
+        "id": null,
+        "name": "Mine de graphite du lac Knife",
+        "jurisdiction": "Quebec (MELCCFP)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Critical Minerals Strategy",
+        "proponent": null,
+        "province": null,
+        "sector": "Mining",
+        "value_cad": null,
+        "status": "Transformative projects",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "gap",
+      "score": 0.326,
+      "match": {
+        "id": null,
+        "name": "Pacific Salmon Strategy Initiative (PSSI): Community Economic Development Program (CEDP) Kitwanga Conservation Hatchery, Gitanyow BC",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Northwest Critical Conservation Corridor",
+        "proponent": null,
+        "province": null,
+        "sector": "Electricity, Mining",
+        "value_cad": null,
+        "status": "Transformative projects",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "gap",
+      "score": 0.303,
+      "match": {
+        "id": null,
+        "name": "Sea Island Conservation Area Dike Upgrade Project",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Arctic Economic and Security Corridor",
+        "proponent": "Tłı̨chǫ Government, Dene First Nation, and the Government of the Northwest Territories",
+        "province": null,
+        "sector": "Transport",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "gap",
+      "score": 0.29,
+      "match": {
+        "id": null,
+        "name": "Mozambican Rural Women's and Girls' Economic Empowerment (PAEF)",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Taltson Hydro Expansion",
+        "proponent": "Government of the Northwest Territories",
+        "province": null,
+        "sector": "Electricity",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "gap",
+      "score": 0.392,
+      "match": {
+        "id": null,
+        "name": "Narrows Inlet Hydro",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Grays Bay Road and Port (GBRP)",
+        "proponent": "West Kitikmeot Resources Corporation",
+        "province": null,
+        "sector": "Transport",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "gap",
+      "score": 0.288,
+      "match": {
+        "id": null,
+        "name": "Dock Rehabilitation – Keefer Terminal, Port of Thunder Bay",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "North Coast Transmission Line (NCTL) (Phase 1)",
+        "proponent": "B.C. Hydro",
+        "province": null,
+        "sector": "Electricity",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "score": 0.601,
+      "match": {
+        "id": null,
+        "name": "Northwest Transmission Line",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "North Coast Transmission Line (NCTL) (Phase 2)",
+        "proponent": "B.C. Hydro",
+        "province": null,
+        "sector": "Electricity",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "score": 0.601,
+      "match": {
+        "id": null,
+        "name": "Northwest Transmission Line",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "North Coast Transmission Line (NCTL) (Phase 3)",
+        "proponent": "B.C. Hydro",
+        "province": null,
+        "sector": "Electricity",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "score": 0.601,
+      "match": {
+        "id": null,
+        "name": "Northwest Transmission Line",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Northcliff Resources’ Sisson Mine",
+        "proponent": "Northcliff Resources Ltd.",
+        "province": null,
+        "sector": "Mining, Critical Minerals",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "score": 0.465,
+      "match": {
+        "id": null,
+        "name": "Sisson Project (Tungsten and Molybdenum Mine)",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "McIlvenna Bay Foran Copper Mine Project",
+        "proponent": "Foran Mining ",
+        "province": null,
+        "sector": "Mining ",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "score": 0.531,
+      "match": {
+        "id": null,
+        "name": "McIlvenna Bay Mine Project",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Alto High-Speed Rail",
+        "proponent": null,
+        "province": null,
+        "sector": "Transport",
+        "value_cad": null,
+        "status": "Transformative projects",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "score": 0.491,
+      "match": {
+        "id": null,
+        "name": "High Speed Refueling Compound Petroleum Pipeline, Phase 1 - 19 Wing Comox",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Port of Churchill Plus",
+        "proponent": null,
+        "province": null,
+        "sector": "Transport",
+        "value_cad": null,
+        "status": "Transformative projects",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "score": 0.578,
+      "match": {
+        "id": null,
+        "name": "Construction, Upgrading and Operation of the Port of Churchill",
+        "jurisdiction": "Manitoba (Environment Act)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Wind West Atlantic Energy",
+        "proponent": null,
+        "province": null,
+        "sector": "Energy ",
+        "value_cad": null,
+        "status": "Transformative projects",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "score": 0.558,
+      "match": {
+        "id": null,
+        "name": "Avalon Isthmus North Atlantic Refining Corp. Green Energy Project",
+        "jurisdiction": "Newfoundland & Labrador (ECC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Pathways Plus",
+        "proponent": null,
+        "province": null,
+        "sector": "Energy ",
+        "value_cad": null,
+        "status": "Transformative projects",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "score": 0.5,
+      "match": {
+        "id": null,
+        "name": "Pathways Alliance CO2 Transportation Network and Storage Hub Project",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Mackenzie Valley Highway",
+        "proponent": "Government of the Northwest Territories",
+        "province": null,
+        "sector": "Transport",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "score": 0.598,
+      "match": {
+        "id": null,
+        "name": "Cartwright Junction to Happy Valley-Goose Bay Trans Lab Highway Department of Transportation and Works",
+        "jurisdiction": "Newfoundland & Labrador (ECC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "LNG Canada Phase 2",
+        "proponent": "LNG Canada ",
+        "province": null,
+        "sector": "Energy ",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "matched",
+      "score": 1.25,
+      "match": {
+        "id": null,
+        "name": "Kitimat LNG Terminal",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Ksi Lisims LNG",
+        "proponent": "Western LNG, Nisg̱a’a Nation, and Rockies LNG Partners",
+        "province": null,
+        "sector": "Energy ",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "matched",
+      "score": 1.143,
+      "match": {
+        "id": null,
+        "name": "Ksi Lisims LNG",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Red Chris Mine Expansion",
+        "proponent": "Newmont Mining and Imperial Metals ",
+        "province": null,
+        "sector": "Mining ",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "matched",
+      "score": 1.048,
+      "match": {
+        "id": null,
+        "name": "Red Chris Porphyry Copper-Gold Mine",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Darlington New Nuclear Project",
+        "proponent": "Ontario Power Generation ",
+        "province": null,
+        "sector": "Energy ",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "matched",
+      "score": 1.25,
+      "match": {
+        "id": null,
+        "name": "Refurbishment and Continued Operation of the Darlington Nuclear Generating Station",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Contrecoeur Terminal Container Project",
+        "proponent": "Montréal Port Authority ",
+        "province": null,
+        "sector": "Industrial ",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "matched",
+      "score": 0.76,
+      "match": {
+        "id": null,
+        "name": "Contrecoeur Port Terminal Expansion Project",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Canada Nickel’s Crawford Project",
+        "proponent": "Canada Nickel Company",
+        "province": null,
+        "sector": "Mining, Critical Minerals",
+        "value_cad": null,
+        "status": "Referred to MPO for consideration ",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "matched",
+      "score": 1.25,
+      "match": {
+        "id": null,
+        "name": "Crawford Nickel Project",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    }
+  ]
 }

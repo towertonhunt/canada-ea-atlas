@@ -1,0 +1,260 @@
+{
+ "source": "nrcan_mpi",
+ "source_label": "NRCan Major Projects Inventory",
+ "fetched": "2026-07-09",
+ "projects": [
+  {
+   "ext_id": null,
+   "name": "LNG Canada Phase 2",
+   "proponent": "LNG Canada ",
+   "province": null,
+   "sector": "Energy ",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "North Coast Transmission Line (NCTL) (Phase 1)",
+   "proponent": "B.C. Hydro",
+   "province": null,
+   "sector": "Electricity",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "North Coast Transmission Line (NCTL) (Phase 2)",
+   "proponent": "B.C. Hydro",
+   "province": null,
+   "sector": "Electricity",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "North Coast Transmission Line (NCTL) (Phase 3)",
+   "proponent": "B.C. Hydro",
+   "province": null,
+   "sector": "Electricity",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Ksi Lisims LNG",
+   "proponent": "Western LNG, Nisg̱a’a Nation, and Rockies LNG Partners",
+   "province": null,
+   "sector": "Energy ",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Red Chris Mine Expansion",
+   "proponent": "Newmont Mining and Imperial Metals ",
+   "province": null,
+   "sector": "Mining ",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Iqaluit Nukkiksautiit Hydro Project",
+   "proponent": "Nunavut Nukkiksautiit Corporation",
+   "province": null,
+   "sector": "Electricity",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Nouveau Monde Graphite’s Matawinie Mine",
+   "proponent": "Nouveau Monde Graphite",
+   "province": null,
+   "sector": "Mining, Critical Minerals",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Darlington New Nuclear Project",
+   "proponent": "Ontario Power Generation ",
+   "province": null,
+   "sector": "Energy ",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Contrecoeur Terminal Container Project",
+   "proponent": "Montréal Port Authority ",
+   "province": null,
+   "sector": "Industrial ",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Canada Nickel’s Crawford Project",
+   "proponent": "Canada Nickel Company",
+   "province": null,
+   "sector": "Mining, Critical Minerals",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Northcliff Resources’ Sisson Mine",
+   "proponent": "Northcliff Resources Ltd.",
+   "province": null,
+   "sector": "Mining, Critical Minerals",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "McIlvenna Bay Foran Copper Mine Project",
+   "proponent": "Foran Mining ",
+   "province": null,
+   "sector": "Mining ",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Alto High-Speed Rail",
+   "proponent": null,
+   "province": null,
+   "sector": "Transport",
+   "value_cad": null,
+   "status": "Transformative projects",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Port of Churchill Plus",
+   "proponent": null,
+   "province": null,
+   "sector": "Transport",
+   "value_cad": null,
+   "status": "Transformative projects",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Critical Minerals Strategy",
+   "proponent": null,
+   "province": null,
+   "sector": "Mining",
+   "value_cad": null,
+   "status": "Transformative projects",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Wind West Atlantic Energy",
+   "proponent": null,
+   "province": null,
+   "sector": "Energy ",
+   "value_cad": null,
+   "status": "Transformative projects",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Pathways Plus",
+   "proponent": null,
+   "province": null,
+   "sector": "Energy ",
+   "value_cad": null,
+   "status": "Transformative projects",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Northwest Critical Conservation Corridor",
+   "proponent": null,
+   "province": null,
+   "sector": "Electricity, Mining",
+   "value_cad": null,
+   "status": "Transformative projects",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Arctic Economic and Security Corridor",
+   "proponent": "Tłı̨chǫ Government, Dene First Nation, and the Government of the Northwest Territories",
+   "province": null,
+   "sector": "Transport",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Taltson Hydro Expansion",
+   "proponent": "Government of the Northwest Territories",
+   "province": null,
+   "sector": "Electricity",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Mackenzie Valley Highway",
+   "proponent": "Government of the Northwest Territories",
+   "province": null,
+   "sector": "Transport",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  },
+  {
+   "ext_id": null,
+   "name": "Grays Bay Road and Port (GBRP)",
+   "proponent": "West Kitikmeot Resources Corporation",
+   "province": null,
+   "sector": "Transport",
+   "value_cad": null,
+   "status": "Referred to MPO for consideration ",
+   "coords": null,
+   "url": null
+  }
+ ]
+}
