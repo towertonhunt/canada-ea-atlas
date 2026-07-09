@@ -37,6 +37,7 @@ jobs:
       - name: Harvest NRCan Major Projects Inventory -> common schema
         continue-on-error: true
         run: |
+          pip install --quiet openpyxl
           python3 -u - <<'PYEOF'
           import csv, io, json, os, re, time, urllib.request, urllib.parse
 
@@ -131,9 +132,61 @@ jobs:
                     'what NRCan publishes; pin the dataset id and refine.')
               raise SystemExit(0)
 
-          rows = []
-          picked = None
-          for s, fmt, r in resources[:6]:
+          # a row is a project row if it has a recognizable name header
+          NAME_HINTS = ('nom du projet', 'project name', 'project', 'nom')
+
+          def looks_like_header(cells):
+              low = [str(c).strip().lower() for c in cells]
+              return any(any(h in c for h in NAME_HINTS) for c in low if c)
+
+          def rows_from_xlsx(blob):
+              """The NRCan inventory XLSX is FR-first with a multi-row
+              preamble and the data on a later sheet. Scan every sheet for
+              the header row, then read dict rows below it."""
+              import openpyxl
+              wb = openpyxl.load_workbook(io.BytesIO(blob), read_only=True,
+                                          data_only=True)
+              best = []
+              for ws in wb.worksheets:
+                  hdr, hrow = None, None
+                  for i, row in enumerate(ws.iter_rows(min_row=1, max_row=25,
+                                                       values_only=True)):
+                      cells = [('' if c is None else c) for c in row]
+                      if looks_like_header(cells) and sum(1 for c in cells if c) >= 4:
+                          hdr = [str(c).strip() for c in cells]
+                          hrow = i + 1
+                          break
+                  if not hdr:
+                      continue
+                  out = []
+                  for row in ws.iter_rows(min_row=hrow + 1, values_only=True):
+                      vals = list(row)
+                      if not any(v not in (None, '') for v in vals):
+                          continue
+                      rec = {}
+                      for k, v in zip(hdr, vals):
+                          if k:
+                              rec[k] = '' if v is None else v
+                      if rec:
+                          out.append(rec)
+                  if len(out) > len(best):
+                      best = out
+              return best
+
+          def rows_from_csv(blob):
+              txt = blob.decode('utf-8-sig', 'replace')
+              return list(csv.DictReader(io.StringIO(txt)))
+
+          def rows_from_json(blob):
+              j = json.loads(blob.decode('utf-8', 'replace'))
+              recs = j.get('features') if isinstance(j, dict) and 'features' in j else j
+              if isinstance(recs, dict):
+                  recs = recs.get('records') or recs.get('data') or []
+              return [(x.get('properties') if isinstance(x, dict) and 'properties' in x else x)
+                      for x in (recs or []) if isinstance(x, dict)]
+
+          rows, picked = [], None
+          for s, fmt, r in resources[:8]:
               url = r['url']
               try:
                   blob = get(url)
@@ -142,86 +195,108 @@ jobs:
               base = re.sub(r'[^a-z0-9]+', '_', (r.get('name') or fmt).lower())[:40]
               open(f'{RAW}/{base}.{fmt.lower()}', 'wb').write(blob[:5_000_000])
               try:
-                  if fmt in ('JSON', 'GEOJSON'):
-                      j = json.loads(blob.decode('utf-8', 'replace'))
-                      recs = j.get('features') if isinstance(j, dict) and 'features' in j else j
-                      if isinstance(recs, dict):
-                          recs = recs.get('records') or recs.get('data') or []
-                      rows = [(x.get('properties') if isinstance(x, dict) and 'properties' in x else x)
-                              for x in (recs or []) if isinstance(x, (dict,))]
+                  if fmt == 'XLSX':
+                      rows = rows_from_xlsx(blob)
+                  elif fmt in ('JSON', 'GEOJSON'):
+                      rows = rows_from_json(blob)
                   else:  # CSV
-                      txt = blob.decode('utf-8-sig', 'replace')
-                      rows = list(csv.DictReader(io.StringIO(txt)))
+                      rows = rows_from_csv(blob)
               except Exception as e:
-                  print('  parse fail', str(e)[:80]); continue
+                  print('  parse fail', fmt, str(e)[:80]); continue
               if rows:
                   picked = (fmt, url, len(rows))
-                  print('  parsed', len(rows), 'rows from', fmt)
+                  print('  parsed', len(rows), 'rows from', fmt, '-', base)
                   break
 
           if not rows:
               print('NO ROWS PARSED — raw samples saved under', RAW, 'for refinement')
               raise SystemExit(0)
 
-          # 2) fuzzy header mapping -> common schema
+          # 2) fuzzy header mapping -> common schema (EN + FR headers)
           def pick(keys, *wants):
               for w in wants:
                   for k in keys:
-                      if w in k.lower().replace('_', ' ').replace('-', ' '):
+                      norm = k.lower().replace('_', ' ').replace('-', ' ')
+                      if w in norm:
                           return k
               return None
 
           keys = list(rows[0].keys())
-          k_name = pick(keys, 'project name', 'project', 'name', 'title')
-          k_prop = pick(keys, 'proponent', 'company', 'owner', 'developer', 'lead')
-          k_prov = pick(keys, 'province', 'territory', 'jurisdiction', 'region')
-          k_sect = pick(keys, 'sector', 'category', 'type', 'industry')
-          k_val  = pick(keys, 'value', 'cost', 'capital', 'investment')
-          k_stat = pick(keys, 'status', 'stage', 'phase')
-          k_lat  = pick(keys, 'latitude', 'lat')
-          k_lon  = pick(keys, 'longitude', 'long', 'lon')
+          k_name = pick(keys, 'project name', 'nom du projet', 'project', 'nom', 'name', 'title')
+          k_prop = pick(keys, 'proponent', "nom de l'entreprise", 'entreprise',
+                        'company', 'owner', 'developer', 'lead')
+          k_prov = pick(keys, 'province', 'territory', 'p/t', 'jurisdiction', 'region')
+          k_loc  = pick(keys, 'location', 'lieu', 'place', 'municipality')
+          k_sect = pick(keys, 'sector', 'secteur', 'category', 'type', 'industry')
+          k_val  = pick(keys, 'value', 'valeur', 'cost', 'capital', 'investment')
+          k_stat = pick(keys, 'status', 'statut', 'stage', 'phase')
+          k_lat  = pick(keys, 'latitude 1', 'latitude', 'lat')
+          k_lon  = pick(keys, 'longitude 1', 'longitude', 'long', 'lon')
+          k_xy   = pick(keys, 'coordinates', 'coordonnees', 'lat/long', 'latlong')
           print('mapped:', dict(name=k_name, proponent=k_prop, province=k_prov,
-                                 sector=k_sect, value=k_val, status=k_stat))
+                                 location=k_loc, sector=k_sect, value=k_val,
+                                 lat=k_lat, lon=k_lon, coords=k_xy))
+
+          PROV = {'british columbia': 'BC', 'alberta': 'AB', 'saskatchewan': 'SK',
+                  'manitoba': 'MB', 'ontario': 'ON', 'quebec': 'QC', 'québec': 'QC',
+                  'new brunswick': 'NB', 'nova scotia': 'NS',
+                  'prince edward island': 'PE', 'newfoundland': 'NL',
+                  'yukon': 'YT', 'northwest territories': 'NT', 'nunavut': 'NU'}
 
           def num(v):
-              if v is None: return None
+              if v in (None, ''): return None
               m = re.findall(r'[\d.]+', str(v).replace(',', ''))
               if not m: return None
               try:
-                  x = float(''.join(m[:1]))
+                  x = float(m[0])
               except Exception:
                   return None
-              # values often given in $millions
               lv = str(v).lower()
-              if 'million' in lv or 'm$' in lv or (x < 100000 and 'billion' not in lv):
-                  x *= 1e6
-              elif 'billion' in lv or 'b$' in lv:
+              if 'billion' in lv or 'b$' in lv:
                   x *= 1e9
+              elif 'million' in lv or 'm$' in lv or (0 < x < 100000):
+                  x *= 1e6
               return x
 
+          def province(row):
+              if k_prov and row.get(k_prov):
+                  return str(row[k_prov]).strip()
+              if k_loc and row.get(k_loc):  # "Kitimat, British Columbia"
+                  low = str(row[k_loc]).lower()
+                  for name, code in PROV.items():
+                      if name in low:
+                          return code
+              return None
+
           def coords(row):
-              if not (k_lat and k_lon): return None
-              try:
-                  la, lo = float(row[k_lat]), float(row[k_lon])
-                  if -90 <= la <= 90 and -180 <= lo <= 180 and (la or lo):
-                      return [lo, la]
-              except Exception:
-                  return None
+              if k_lat and k_lon:
+                  try:
+                      la, lo = float(row[k_lat]), float(row[k_lon])
+                      if -90 <= la <= 90 and -180 <= lo <= 180 and (la or lo):
+                          return [lo, la]
+                  except Exception:
+                      pass
+              if k_xy and row.get(k_xy):  # "54.006686, -128.594996"
+                  m = re.findall(r'-?\d+\.\d+', str(row[k_xy]))
+                  if len(m) >= 2:
+                      la, lo = float(m[0]), float(m[1])
+                      if -90 <= la <= 90 and -180 <= lo <= 180:
+                          return [lo, la]
               return None
 
           projects = []
           for row in rows:
-              nm = (row.get(k_name) or '').strip() if k_name else ''
-              if not nm:
+              nm = (str(row.get(k_name)) or '').strip() if k_name else ''
+              if not nm or nm.lower() in ('none', ''):
                   continue
               projects.append({
                   'ext_id': None,
                   'name': nm,
-                  'proponent': (row.get(k_prop) or None) if k_prop else None,
-                  'province': (row.get(k_prov) or None) if k_prov else None,
-                  'sector': (row.get(k_sect) or None) if k_sect else None,
+                  'proponent': (str(row.get(k_prop)).strip() or None) if k_prop and row.get(k_prop) else None,
+                  'province': province(row),
+                  'sector': (str(row.get(k_sect)).strip() or None) if k_sect and row.get(k_sect) else None,
                   'value_cad': num(row.get(k_val)) if k_val else None,
-                  'status': (row.get(k_stat) or None) if k_stat else None,
+                  'status': (str(row.get(k_stat)).strip() or None) if k_stat and row.get(k_stat) else None,
                   'coords': coords(row),
                   'url': None,
               })
@@ -234,7 +309,9 @@ jobs:
           }
           json.dump(out, open(f'{OUTDIR}/nrcan_mpi.json', 'w'),
                     ensure_ascii=False, indent=1)
-          print('WROTE', len(projects), 'projects to nrcan_mpi.json')
+          with_coords = sum(1 for p in projects if p['coords'])
+          print('WROTE', len(projects), 'projects to nrcan_mpi.json',
+                f'({with_coords} geocoded)')
           PYEOF
 
       - name: Reconcile against our dataset
@@ -254,10 +331,10 @@ jobs:
           PY
             python3 scripts/gap_reconcile.py || true
           fi
+          git add data/raw/gap_inventories data/gap_report.json
+          git commit -m "Gap reconciliation refresh [skip ci]" || echo "nothing to commit"
           for i in 1 2 3 4 5; do
             git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
-            git add data/raw/gap_inventories data/gap_report.json
-            git commit -m "Gap reconciliation refresh [skip ci]" || echo "nothing to commit"
             git push && break
             sleep 7
           done
