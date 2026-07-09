@@ -161,12 +161,37 @@ def check_predictions():
     print(f'  ok  predictions: {len(files)} registers')
 
 
+def check_gap_report():
+    """Soft surface of gap reconciliation output. Not an invariant — the
+    report is advisory — but a high-value likely-missing major is worth a
+    daily nudge. Absent report is fine (lane may not have run yet)."""
+    path = os.path.join(ROOT, 'data', 'gap_report.json')
+    if not os.path.exists(path):
+        return
+    try:
+        rep = json.load(open(path))
+    except Exception as e:
+        return warn(f'gap_report.json unreadable: {e}')
+    gaps = [x for x in rep.get('results', []) if x.get('verdict') == 'gap']
+    if not gaps:
+        print('  ok  gap report: no unmatched majors')
+        return
+    majors = [x for x in gaps
+              if isinstance(x['ext'].get('value_cad'), (int, float))
+              and x['ext']['value_cad'] >= 1e9]
+    print(f'  ok  gap report: {len(gaps)} unmatched, {len(majors)} >= $1B')
+    for x in majors[:5]:
+        warn(f'likely-missing major: {x["ext"].get("name")} '
+             f'(${x["ext"]["value_cad"]/1e9:.1f}B, {x["ext"].get("province")})')
+
+
 def main():
     print('Validating data artifacts...\n')
     for name, fn in (('conditions', check_conditions),
                      ('geojson', check_geojson),
                      ('corpus search', check_corpus_search),
-                     ('predictions', check_predictions)):
+                     ('predictions', check_predictions),
+                     ('gap report', check_gap_report)):
         print(f'[{name}]')
         try:
             fn()

@@ -20,6 +20,7 @@ on:
       - 'data/projects_canada.geojson'
       - 'data/corpus_search.sqlite3.gz'
       - 'data/predictions/**'
+      - 'data/gap_report.json'
       - 'scripts/validate_data.py'
       - '.github/workflows/validate.yml'
   schedule:

@@ -1,0 +1,226 @@
+name: Gap reconciliation (find missing majors)
+
+# Reconciles our map against authoritative external inventories of major
+# projects and emits data/gap_report.json (projects the inventories list
+# that we have no match for -> likely coverage gaps).
+#
+# First source: NRCan Major Projects Inventory, harvested via the stable
+# open.canada.ca CKAN API. The normalizer maps columns fuzzily and saves
+# the raw resource under data/raw/gap_inventories/_raw/ so the mapping can
+# be refined against real data (probe-then-refine, per this repo).
+#
+# Needs internet -> runs on Actions, not the dev sandbox.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/fetch-gap-reconcile.yml']
+  schedule:
+    - cron: "41 7 * * 1"   # weekly, Mondays
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/mac-mini-connection-ceehl5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Harvest NRCan Major Projects Inventory -> common schema
+        continue-on-error: true
+        run: |
+          python3 -u - <<'PYEOF'
+          import csv, io, json, os, re, time, urllib.request, urllib.parse
+
+          UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/126.0.0.0'
+          RAW = 'data/raw/gap_inventories/_raw'
+          OUTDIR = 'data/raw/gap_inventories'
+          os.makedirs(RAW, exist_ok=True)
+          os.makedirs(OUTDIR, exist_ok=True)
+
+          def get(url, tries=4):
+              for t in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent': UA})
+                      return urllib.request.urlopen(req, timeout=120).read()
+                  except Exception as e:
+                      print('  retry', t, str(e)[:80], flush=True)
+                      if t == tries - 1:
+                          raise
+                      time.sleep(2 ** (t + 1))
+
+          # 1) discover the dataset + its resources via CKAN
+          CKAN = 'https://open.canada.ca/data/api/3/action'
+          q = urllib.parse.quote('major projects inventory')
+          search = f'{CKAN}/package_search?q={q}&rows=20'
+          data = json.loads(get(search).decode('utf-8', 'replace'))
+          open(f'{RAW}/ckan_search.json', 'wb').write(json.dumps(data)[:200000].encode())
+          pkgs = (data.get('result') or {}).get('results') or []
+          print('CKAN packages:', len(pkgs))
+
+          def score_pkg(p):
+              title = (p.get('title') or '').lower()
+              org = ((p.get('organization') or {}).get('title') or '').lower()
+              s = 0
+              if 'major project' in title: s += 3
+              if 'inventory' in title: s += 1
+              if 'natural resources' in org or 'nrcan' in org: s += 2
+              return s
+
+          pkgs.sort(key=score_pkg, reverse=True)
+          resources = []
+          for p in pkgs[:3]:
+              print(' pkg:', (p.get('title') or '')[:70], '| score', score_pkg(p))
+              for r in (p.get('resources') or []):
+                  fmt = (r.get('format') or '').upper()
+                  if fmt in ('CSV', 'JSON', 'XLSX', 'GEOJSON') and r.get('url'):
+                      resources.append((score_pkg(p), fmt, r))
+
+          # prefer CSV/JSON, English resources
+          def rscore(item):
+              s, fmt, r = item
+              lang = (r.get('language') or [''])
+              lang = lang[0] if isinstance(lang, list) and lang else str(lang)
+              return (s, {'CSV': 3, 'JSON': 3, 'GEOJSON': 2, 'XLSX': 1}.get(fmt, 0),
+                      1 if 'en' in str(lang).lower() or not lang else 0)
+          resources.sort(key=rscore, reverse=True)
+          print('candidate resources:', len(resources))
+
+          rows = []
+          picked = None
+          for s, fmt, r in resources[:6]:
+              url = r['url']
+              try:
+                  blob = get(url)
+              except Exception as e:
+                  print('  dl fail', str(e)[:80]); continue
+              base = re.sub(r'[^a-z0-9]+', '_', (r.get('name') or fmt).lower())[:40]
+              open(f'{RAW}/{base}.{fmt.lower()}', 'wb').write(blob[:5_000_000])
+              try:
+                  if fmt in ('JSON', 'GEOJSON'):
+                      j = json.loads(blob.decode('utf-8', 'replace'))
+                      recs = j.get('features') if isinstance(j, dict) and 'features' in j else j
+                      if isinstance(recs, dict):
+                          recs = recs.get('records') or recs.get('data') or []
+                      rows = [(x.get('properties') if isinstance(x, dict) and 'properties' in x else x)
+                              for x in (recs or []) if isinstance(x, (dict,))]
+                  else:  # CSV
+                      txt = blob.decode('utf-8-sig', 'replace')
+                      rows = list(csv.DictReader(io.StringIO(txt)))
+              except Exception as e:
+                  print('  parse fail', str(e)[:80]); continue
+              if rows:
+                  picked = (fmt, url, len(rows))
+                  print('  parsed', len(rows), 'rows from', fmt)
+                  break
+
+          if not rows:
+              print('NO ROWS PARSED — raw samples saved under', RAW, 'for refinement')
+              raise SystemExit(0)
+
+          # 2) fuzzy header mapping -> common schema
+          def pick(keys, *wants):
+              for w in wants:
+                  for k in keys:
+                      if w in k.lower().replace('_', ' ').replace('-', ' '):
+                          return k
+              return None
+
+          keys = list(rows[0].keys())
+          k_name = pick(keys, 'project name', 'project', 'name', 'title')
+          k_prop = pick(keys, 'proponent', 'company', 'owner', 'developer', 'lead')
+          k_prov = pick(keys, 'province', 'territory', 'jurisdiction', 'region')
+          k_sect = pick(keys, 'sector', 'category', 'type', 'industry')
+          k_val  = pick(keys, 'value', 'cost', 'capital', 'investment')
+          k_stat = pick(keys, 'status', 'stage', 'phase')
+          k_lat  = pick(keys, 'latitude', 'lat')
+          k_lon  = pick(keys, 'longitude', 'long', 'lon')
+          print('mapped:', dict(name=k_name, proponent=k_prop, province=k_prov,
+                                 sector=k_sect, value=k_val, status=k_stat))
+
+          def num(v):
+              if v is None: return None
+              m = re.findall(r'[\d.]+', str(v).replace(',', ''))
+              if not m: return None
+              try:
+                  x = float(''.join(m[:1]))
+              except Exception:
+                  return None
+              # values often given in $millions
+              lv = str(v).lower()
+              if 'million' in lv or 'm$' in lv or (x < 100000 and 'billion' not in lv):
+                  x *= 1e6
+              elif 'billion' in lv or 'b$' in lv:
+                  x *= 1e9
+              return x
+
+          def coords(row):
+              if not (k_lat and k_lon): return None
+              try:
+                  la, lo = float(row[k_lat]), float(row[k_lon])
+                  if -90 <= la <= 90 and -180 <= lo <= 180 and (la or lo):
+                      return [lo, la]
+              except Exception:
+                  return None
+              return None
+
+          projects = []
+          for row in rows:
+              nm = (row.get(k_name) or '').strip() if k_name else ''
+              if not nm:
+                  continue
+              projects.append({
+                  'ext_id': None,
+                  'name': nm,
+                  'proponent': (row.get(k_prop) or None) if k_prop else None,
+                  'province': (row.get(k_prov) or None) if k_prov else None,
+                  'sector': (row.get(k_sect) or None) if k_sect else None,
+                  'value_cad': num(row.get(k_val)) if k_val else None,
+                  'status': (row.get(k_stat) or None) if k_stat else None,
+                  'coords': coords(row),
+                  'url': None,
+              })
+
+          out = {
+              'source': 'nrcan_mpi',
+              'source_label': 'NRCan Major Projects Inventory',
+              'fetched': '',   # stamped by the commit step's date
+              'projects': projects,
+          }
+          json.dump(out, open(f'{OUTDIR}/nrcan_mpi.json', 'w'),
+                    ensure_ascii=False, indent=1)
+          print('WROTE', len(projects), 'projects to nrcan_mpi.json')
+          PYEOF
+
+      - name: Reconcile against our dataset
+        run: python3 scripts/gap_reconcile.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # stamp fetch date into the inventory file if present
+          if [ -f data/raw/gap_inventories/nrcan_mpi.json ]; then
+            python3 - <<'PY'
+          import json, datetime
+          p='data/raw/gap_inventories/nrcan_mpi.json'
+          d=json.load(open(p)); d['fetched']=datetime.date.today().isoformat()
+          json.dump(d, open(p,'w'), ensure_ascii=False, indent=1)
+          PY
+            python3 scripts/gap_reconcile.py || true
+          fi
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git add data/raw/gap_inventories data/gap_report.json
+            git commit -m "Gap reconciliation refresh [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 7
+          done
