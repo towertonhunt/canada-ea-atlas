@@ -65,14 +65,20 @@ sidebars (`docs_path` property -> `data/docs/<jur>/<id>.json`).
   fallback), ERO/Ontario notice diffing, BAPE per-project doc diffing.
 - fetch-on-permits.yml: daily — AMIS/compliance/assurance + active-mines recon.
 - fetch-gap-reconcile.yml: weekly (Mon) — harvests NRCan Major Projects
-  Inventory via open.canada.ca CKAN API, normalizes to the common
-  inventory schema (data/raw/gap_inventories/*.json), and runs
-  scripts/gap_reconcile.py to emit data/gap_report.json — external majors
-  we have NO match for = likely coverage gaps. IDF-weighted name coverage +
-  proponent + geo proximity; verdicts matched/weak/gap. First run's raw
-  resource lands in data/raw/gap_inventories/_raw/ for header-mapping
-  refinement (probe-then-refine). Add more inventories (provincial major-
-  projects/mining lists, CER) as extra *.json files in gap_inventories/.
+  Inventory (score-10 CKAN dataset; table is XLSX, FR-first, data on a
+  later sheet -> rows_from_xlsx scans sheets for the Nom du projet header),
+  normalizes to the common inventory schema (data/raw/gap_inventories/
+  *.json), runs scripts/gap_reconcile.py -> data/gap_report.json. WORKING
+  2026-07-09: 474 majors, 318 geocoded -> 124 gap / 175 weak / 175 matched.
+  IDF-weighted name coverage (distinctive tokens drive matches, common ones
+  don't) + proponent + geo proximity; verdicts matched/weak/gap, gaps
+  sorted by value. Top gaps to triage: Jansen (BHP potash), Syncrude
+  Mildred Lake Ext., NICO, Ekati Misery Deep, plus new-type AI data-centre
+  parks. Some 'gaps' are findability (in our federal data under other
+  names) -> that's the review queue. _raw/nrcan_catalogue.json lists other
+  NRCan datasets (Economic Points CSV w/ coords, by-municipality, Northern
+  Major Projects, Inventory of Major Alberta Projects) to add as extra
+  *.json inventories. validate_data.py WARNs high-value (>=$1B) gaps daily.
 NOTE: scheduled runs execute the workflow version on MAIN. After fixing a
 lane on the branch, sync to main via PR (user authorized Claude to create
 and merge PRs via GitHub MCP — pattern established PR #1, #2).
