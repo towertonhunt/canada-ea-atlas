@@ -445,8 +445,10 @@ function openSidebar(feature, marker) {
 
   const rows = [
     ["Jurisdiction", p.jurisdiction],
-    ["Sector", p.type],
+    ["Sector", catMeta.label],
     ["Status", p.status],
+    ["EA type", p.ea_type],
+    ["EA phase", p.ea_phase],
     ["Decision", p.decision],
     ["Proponent", p.proponent],
     cap ? ["Capacity", `${cap}${turbines}${panels}`] : null,

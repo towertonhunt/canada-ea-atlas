@@ -22,7 +22,14 @@ features = []
 def add(feat):
     p = feat['properties']
     if 'category' not in p:
-        p['category'] = categorize(p.get('type') or '')
+        # Federal records put the EA *process* type ("Comprehensive study
+        # under CEAA 1992", "Project on federal lands") in `type`, so a
+        # type-only classify buckets every federal project as 'other'.
+        # Fall back to the project name + description, which name the sector.
+        cat = categorize(p.get('type') or '')
+        if cat == 'other':
+            cat = categorize(f"{p.get('name') or ''} {p.get('description') or ''}")
+        p['category'] = cat
     features.append(feat)
 
 
@@ -60,10 +67,27 @@ CATEGORY_RULES = [
 ]
 
 
+# Keywords match at a word boundary (prefix), so stems still work
+# ("manufactur"->manufacturing) but substrings don't ("port" no longer hits
+# "report"/"important", "rail" no longer hits "trail"). A few short English
+# words that are prefixes of unrelated words must match as whole words.
+_WHOLE_WORD = {'dam', 'mill', 'port', 'oil', 'gas', 'rail', 'road', 'metal',
+               'coal', 'mine', 'plant', 'mill', 'power', 'water', 'waste'}
+
+
+def _kw_pattern(kw):
+    # whole-word for ambiguous short words, else word-start (prefix) match
+    return r'\b' + re.escape(kw) + (r'\b' if kw in _WHOLE_WORD else '')
+
+
+_COMPILED = [(cat, re.compile('|'.join(_kw_pattern(k) for k in keys)))
+             for cat, keys in CATEGORY_RULES]
+
+
 def categorize(type_str):
     t = str(type_str).lower()
-    for cat, keys in CATEGORY_RULES:
-        if any(k in t for k in keys):
+    for cat, pat in _COMPILED:
+        if pat.search(t):
             return cat
     return 'other'
 
