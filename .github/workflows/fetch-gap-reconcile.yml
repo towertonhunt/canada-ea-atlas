@@ -57,28 +57,56 @@ jobs:
                           raise
                       time.sleep(2 ** (t + 1))
 
-          # 1) discover the dataset + its resources via CKAN
+          # 1) discover the dataset + its resources via CKAN. The generic
+          # query alone returns look-alikes ('...Inventory' datasets), so we
+          # also enumerate NRCan's org catalogue and several query variants,
+          # then log every candidate + its resource formats. The enumeration
+          # is committed (nrcan_catalogue.json) so the source can be pinned.
           CKAN = 'https://open.canada.ca/data/api/3/action'
-          q = urllib.parse.quote('major projects inventory')
-          search = f'{CKAN}/package_search?q={q}&rows=20'
-          data = json.loads(get(search).decode('utf-8', 'replace'))
-          open(f'{RAW}/ckan_search.json', 'wb').write(json.dumps(data)[:200000].encode())
-          pkgs = (data.get('result') or {}).get('results') or []
-          print('CKAN packages:', len(pkgs))
+          seen_pkg, pkgs = {}, []
+          probes = [
+              'fq=' + urllib.parse.quote('organization:nrcan-rncan') + '&rows=200',
+              'q=' + urllib.parse.quote('major projects') + '&rows=50',
+              'q=' + urllib.parse.quote('major project inventory') + '&rows=50',
+              'q=' + urllib.parse.quote('energy projects under construction') + '&rows=30',
+          ]
+          for pr in probes:
+              try:
+                  data = json.loads(get(f'{CKAN}/package_search?{pr}').decode('utf-8', 'replace'))
+              except Exception as e:
+                  print('  probe fail', pr[:40], str(e)[:60]); continue
+              for p in (data.get('result') or {}).get('results') or []:
+                  if p.get('id') not in seen_pkg:
+                      seen_pkg[p['id']] = p
+                      pkgs.append(p)
+          print('CKAN packages discovered:', len(pkgs))
 
           def score_pkg(p):
               title = (p.get('title') or '').lower()
               org = ((p.get('organization') or {}).get('title') or '').lower()
+              fmts = {(r.get('format') or '').upper() for r in (p.get('resources') or [])}
               s = 0
-              if 'major project' in title: s += 3
-              if 'inventory' in title: s += 1
+              if 'major project' in title: s += 4
+              if 'project' in title: s += 1
+              if 'inventory' in title and 'major' in title: s += 2
               if 'natural resources' in org or 'nrcan' in org: s += 2
+              if fmts & {'CSV', 'JSON', 'XLSX', 'GEOJSON'}: s += 1  # actually harvestable
               return s
 
           pkgs.sort(key=score_pkg, reverse=True)
+          # commit a compact catalogue of what NRCan/CKAN actually offers
+          catalogue = [{'id': p.get('id'), 'title': p.get('title'),
+                        'org': (p.get('organization') or {}).get('name'),
+                        'score': score_pkg(p),
+                        'formats': sorted({(r.get('format') or '').upper()
+                                           for r in (p.get('resources') or [])})}
+                       for p in pkgs[:60]]
+          json.dump(catalogue, open(f'{RAW}/nrcan_catalogue.json', 'w'), indent=1)
           resources = []
-          for p in pkgs[:3]:
-              print(' pkg:', (p.get('title') or '')[:70], '| score', score_pkg(p))
+          for p in pkgs[:6]:
+              print(' pkg:', (p.get('title') or '')[:66], '| score', score_pkg(p),
+                    '| fmts', sorted({(r.get('format') or '').upper()
+                                      for r in (p.get('resources') or [])}))
               for r in (p.get('resources') or []):
                   fmt = (r.get('format') or '').upper()
                   if fmt in ('CSV', 'JSON', 'XLSX', 'GEOJSON') and r.get('url'):
@@ -92,7 +120,16 @@ jobs:
               return (s, {'CSV': 3, 'JSON': 3, 'GEOJSON': 2, 'XLSX': 1}.get(fmt, 0),
                       1 if 'en' in str(lang).lower() or not lang else 0)
           resources.sort(key=rscore, reverse=True)
-          print('candidate resources:', len(resources))
+          # only adopt resources from a package that actually reads as a
+          # major-projects inventory (score >= 5: 'major project' in title +
+          # harvestable). Keeps us from reconciling a random NRCan dataset.
+          resources = [x for x in resources if x[0] >= 5]
+          print('candidate resources (score-gated):', len(resources))
+          if not resources:
+              print('No major-projects inventory resource found on CKAN.')
+              print('See data/raw/gap_inventories/_raw/nrcan_catalogue.json for '
+                    'what NRCan publishes; pin the dataset id and refine.')
+              raise SystemExit(0)
 
           rows = []
           picked = None
