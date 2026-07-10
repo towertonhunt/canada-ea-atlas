@@ -233,6 +233,34 @@ def check_known_projects():
     print(f'  ok  known projects: {n_ok}/{len(checks)} at or above expectation')
 
 
+def check_api():
+    """Static API (data/api/) integrity: index parses, row count matches
+    the geojson, ids unique, deep-tier detail files exist and parse."""
+    idx_p = os.path.join(ROOT, 'data', 'api', 'projects.json')
+    if not os.path.exists(idx_p):
+        return warn('no data/api yet (run scripts/build_api.py)')
+    idx = json.load(open(idx_p))
+    gj = json.load(open(os.path.join(ROOT, 'data', 'projects_canada.geojson')))
+    if len(idx) != len(gj['features']):
+        fail(f'api index {len(idx)} rows != geojson {len(gj["features"])} '
+             '(rerun build_api.py after build_national_geojson.py)')
+    ids = [r['i'] for r in idx]
+    if len(set(ids)) != len(ids):
+        fail('api index ids not unique')
+    meta = json.load(open(os.path.join(ROOT, 'data', 'api', 'meta.json')))
+    missing = 0
+    for pid in meta.get('deep_tier_ids', []):
+        p = os.path.join(ROOT, 'data', 'api', 'project', f'{pid}.json')
+        if not os.path.exists(p):
+            missing += 1
+        else:
+            json.load(open(p))
+    if missing:
+        fail(f'{missing} deep-tier detail files missing')
+    print(f'  ok  api: {len(idx)} rows, {len(meta.get("deep_tier_ids", []))} '
+          'detail files')
+
+
 def main():
     print('Validating data artifacts...\n')
     for name, fn in (('conditions', check_conditions),
@@ -240,7 +268,8 @@ def main():
                      ('corpus search', check_corpus_search),
                      ('predictions', check_predictions),
                      ('gap report', check_gap_report),
-                     ('known projects', check_known_projects)):
+                     ('known projects', check_known_projects),
+                     ('api', check_api)):
         print(f'[{name}]')
         try:
             fn()
