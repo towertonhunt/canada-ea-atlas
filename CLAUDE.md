@@ -83,6 +83,15 @@ NOTE: scheduled runs execute the workflow version on MAIN. After fixing a
 lane on the branch, sync to main via PR (user authorized Claude to create
 and merge PRs via GitHub MCP — pattern established PR #1, #2).
 
+## App build (website + iPhone)
+docs/APP_PLAN.md is the plan. Fable design tasks F1-F4 DONE 2026-07-10 ->
+docs/design/ (IA, process model + data/process_frameworks.json, design
+system + tokens + mockup.html, commitments UX). Next: Opus build order at
+the end of each F-doc (static API -> S2/S3 -> process rail -> commitments).
+Data fix en route: inventory enrichment (scripts/enrich_from_inventories.py,
+strict bidirectional matching; Waasigan/Hydro One case) + 'Unmatched majors'
+opt-in map layer from gap_report.
+
 ## Known open threads (priority order)
 1. Corpus quality: BC DONE 2026-07-06 -> bc_conditions_v2.json.gz
    (741 real measures kept of 1,884 v1 records; 1,242 were OCR/boilerplate
