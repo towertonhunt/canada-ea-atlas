@@ -63,52 +63,45 @@ jobs:
                           print('  FAIL', url[:90], str(e)[:70]); return None
                       time.sleep(5 * (t + 1))
 
-          # 1) probe the search page to discover notice-type facet ids
-          probe = get(f'{BASE}/search?search=')
-          if not probe:
-              print('search page unreachable'); raise SystemExit(0)
-          open(f'{RAW}/search_page.html', 'w').write(probe[:400000])
-          # Drupal facet links look like ?f%5B0%5D=<facet>%3A<value>
-          facets = sorted(set(re.findall(r'f%5B0%5D=([a-z_]+%3A[^"&]+)', probe)))
-          print('facets discovered:', len(facets))
-          for f in facets[:40]:
-              print('  ', urllib.parse.unquote(f))
-          # keep facets whose visible label mentions environmental assessment
-          # fall back to any 'notice_type'/'type' facet mentioning 'assessment'
-          ea_facets = [f for f in facets
-                       if 'assessment' in urllib.parse.unquote(f).lower()
-                       or 'class' in urllib.parse.unquote(f).lower()]
-          if not ea_facets:
-              # try act facet: Environmental Assessment Act
-              ea_facets = [f for f in facets if 'environmental' in urllib.parse.unquote(f).lower()]
-          print('EA-ish facets:', [urllib.parse.unquote(f) for f in ea_facets])
-
-          # 2) crawl result pages for each EA facet (bounded)
-          START, BUDGET = time.time(), 40 * 60
+          # ERO structure (probed 2026-07-10, see _raw/search_page.html):
+          # notice types are a GET-form checkbox param, not facet links —
+          # ero_notice_type[a..e] = Policy/Regulation/Act/Instrument/Bulletin.
+          # Project-tied entries (LRIA waterpower approvals, ECAs for gas
+          # plants, closure plans) are INSTRUMENTS; Class-EA notices also
+          # surface via keyword search. Crawl = targeted keyword queries +
+          # an instrument-type sweep, resumable via state across daily runs.
+          START, BUDGET = time.time(), 42 * 60
           notice_ids = set()
           list_pat = re.compile(r'href="(/notice/(\d{3}-\d{4,5}))"')
-          queries = ea_facets or ['']   # worst case: unfacetted first pages
-          for f in queries:
-              for page in range(0, 60):
-                  if time.time() - START > BUDGET * 0.4:
-                      break
-                  q = f'{BASE}/search?search=&f%5B0%5D={f}&page={page}' if f \
-                      else f'{BASE}/search?search=&page={page}'
-                  h = get(q)
+
+          def crawl(qs, tag, max_pages):
+              got_any = False
+              for page in range(0, max_pages):
+                  if time.time() - START > BUDGET * 0.45:
+                      return
+                  h = get(f'{BASE}/search?{qs}&page={page}')
                   if not h:
-                      break
-                  ids = list_pat.findall(h)
+                      return
+                  ids = [i for _, i in list_pat.findall(h)]
                   if not ids:
-                      break
-                  new = [i for _, i in ids if i not in notice_ids]
-                  notice_ids.update(i for _, i in ids)
-                  if page == 0 and f == queries[0]:
-                      open(f'{RAW}/results_sample.html', 'w').write(h[:400000])
-                  print(f'facet {urllib.parse.unquote(f)[:40] or "(none)"} page {page}: '
-                        f'{len(ids)} links, {len(new)} new', flush=True)
-                  if not new:
-                      break
-                  time.sleep(0.4)
+                      return
+                  if not got_any:
+                      open(f'{RAW}/results_{tag}.html', 'w').write(h[:300000])
+                      got_any = True
+                  new = [i for i in ids if i not in notice_ids]
+                  notice_ids.update(ids)
+                  print(f'{tag} p{page}: {len(ids)} links, {len(new)} new', flush=True)
+                  if not new and page > 2:
+                      return
+                  time.sleep(0.35)
+
+          for kw in ('class environmental assessment', 'notice of completion',
+                     'waterpower', 'generating station', 'transmission line',
+                     'environmental assessment act', 'redevelopment',
+                     'hydrogen', 'battery storage'):
+              crawl('search=' + urllib.parse.quote(kw), 'kw_' + kw.split()[0], 25)
+          # instrument sweep (site-specific approvals; deep tail resumes daily)
+          crawl('search=&ero_notice_type%5Bd%5D=d', 'instruments', 120)
           print('notice ids collected:', len(notice_ids))
 
           # 3) fetch new notice pages, parse fields
@@ -147,10 +140,18 @@ jobs:
                   'posted': field(h, 'Notice posted') or field(h, 'Date posted') or field(h, 'Posted'),
                   'url': f'{BASE}/notice/{nid}',
               }
-              # keep EA-related notices; everything is logged to state either way
+              # keep EA-related notices + project-scale instruments;
+              # everything is logged to state either way
               blob = ' '.join(str(v) for v in rec.values() if v).lower()
+              tl = (title or '').lower()
+              is_instr = 'instrument' in (rec.get('notice_type') or '').lower()
+              PROJECT_KW = ('generating station', 'transmission', 'mine',
+                            'wind', 'solar', 'hydro', 'hydrogen', 'battery',
+                            'pipeline', 'landfill', 'redevelopment', 'dam',
+                            'quarry', 'terminal', 'refinery', 'smelter')
               keep = ('environmental assessment' in blob or 'class ea' in blob
-                      or 'environmental assessment act' in blob)
+                      or 'lakes and rivers improvement' in blob
+                      or (is_instr and any(k in tl for k in PROJECT_KW)))
               state['seen'][nid] = 1 if keep else 0
               if keep and title:
                   out.append(rec)
