@@ -100,11 +100,42 @@ and merge PRs via GitHub MCP — pattern established PR #1, #2).
 ## App build (website + iPhone)
 docs/APP_PLAN.md is the plan. Fable design tasks F1-F4 DONE 2026-07-10 ->
 docs/design/ (IA, process model + data/process_frameworks.json, design
-system + tokens + mockup.html, commitments UX). Next: Opus build order at
-the end of each F-doc (static API -> S2/S3 -> process rail -> commitments).
-Data fix en route: inventory enrichment (scripts/enrich_from_inventories.py,
+system + tokens + mockup.html, commitments UX).
+BUILT 2026-07-10: scripts/build_api.py -> data/api/ (18.8k-row index w/
+per-project process state per F3 mappings; 156 deep-tier detail files) +
+search.html (S2) + project.html (S3 w/ process rail, docs, commitments,
+predictor bridge) — verified headless-Chromium, linked from map header,
+api check in validate_data.py. REBUILD ORDER: build_national_geojson ->
+gap_reconcile -> build_api (api row count must match geojson).
+Data fixes live: inventory enrichment (scripts/enrich_from_inventories.py,
 strict bidirectional matching; Waasigan/Hydro One case) + 'Unmatched majors'
 opt-in map layer from gap_report.
+
+## Content pipeline (substack -> YouTube)
+Owner's substack = 'Unceded Futures' (towerton.substack.com): settler
+EA-veteran, one project/month, arc = scene -> history -> legal turning
+point (Calder->Yahey) -> Bill C-5/Bill 5 bridge. 7 posts mirrored at
+data/raw/substack/posts/ (owner-provided export; Substack Cloudflare
+403s ALL datacenter fetches incl. runners — don't retry scraping).
+docs/CONTENT_PIPELINE.md = strategy: every announced post subject
+verified present in our DB (Prosperity x3 records, Site C deep-tier,
+Ring of Fire regional assessment, Grassy Narrows Mercury Care Home
+record). Formats: companion dossier / promise audit / invisible
+projects / filings watch. NEXT: subjects.json post->project-id links;
+indigenous_rights_tluse pre-filtered commitments view; Mackenzie Gas
+Project geocode. PENDING FROM OWNER: Rod Northey EA-book digitization
+(on his mac mini) -> project list as gap inventory (verification) +
+excerpts to corpus/project pages (keep full text PRIVATE — published
+work; facts/quotes only in public repo).
+
+## Newest lanes (2026-07-10)
+- fetch-ero-notices.yml: daily — ERO (ero.ontario.ca) EA/project-notice
+  crawl; keyword queries + Instrument-type sweep (ero_notice_type[d]),
+  resumable state data/raw/ero/ero_state.json; keeps -> gap inventory
+  ero_on.json. Run #2: 56 EA notices; instrument sweep deepens daily —
+  watch for Kakabeka/Matabitchuan/Atura appearing (checklist WARNs flip).
+- fetch-substack.yml: weekly mirror attempt (blocked; owner export is
+  the real source — lane kept for wayback-mediated retries only).
 
 ## Known open threads (priority order)
 1. Corpus quality: BC DONE 2026-07-06 -> bc_conditions_v2.json.gz
