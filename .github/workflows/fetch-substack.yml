@@ -98,6 +98,42 @@ jobs:
               offset += 50
               time.sleep(1)
 
+          # 3) Substack 403s ALL datacenter IPs (probed: feed+API). Fallback:
+          # the Wayback Machine — archive.org's own crawler is allowed by
+          # Substack, so SPN-save the pages, then read the snapshots.
+          if not posts and not rss_posts:
+              import urllib.parse as up
+              for target in (f'{BASE}/archive?sort=new', f'{BASE}/feed', BASE):
+                  get(f'https://web.archive.org/save/{target}')   # fire SPN
+                  time.sleep(20)
+                  snap = get('https://web.archive.org/web/2id_/' + target)
+                  if not snap:
+                      continue
+                  name = re.sub(r'[^a-z0-9]+', '_', target.split('/')[-1] or 'home')
+                  open(f'{OUT}/wayback_{name}.html', 'wb').write(snap[:3_000_000])
+                  print('wayback snapshot saved for', target, len(snap), 'bytes')
+                  if target.endswith('/feed'):
+                      try:
+                          root = ET.fromstring(snap)
+                          for item in root.iter('item'):
+                              def g2(tag, item=item):
+                                  e = item.find(tag)
+                                  return e.text if e is not None else None
+                              body = None
+                              for tag in ('{http://purl.org/rss/1.0/modules/content/}encoded', 'description'):
+                                  e = item.find(tag)
+                                  if e is not None and e.text:
+                                      body = e.text; break
+                              text = re.sub(r'<[^>]+>', ' ', body or '')
+                              text = re.sub(r'\s+', ' ', text).strip()
+                              rss_posts.append({'title': g2('title'), 'date': g2('pubDate'),
+                                                'link': g2('link'),
+                                                'word_count': len(text.split()),
+                                                'text': text[:40000]})
+                          print('wayback RSS items:', len(rss_posts))
+                      except Exception as e:
+                          print('wayback RSS parse fail:', str(e)[:100])
+
           json.dump(posts, open(f'{OUT}/archive.json', 'w'), ensure_ascii=False, indent=1)
           json.dump(rss_posts, open(f'{OUT}/rss_posts.json', 'w'), ensure_ascii=False, indent=1)
           print('archive entries:', len(posts), '| rss items:', len(rss_posts))
