@@ -254,8 +254,21 @@ jobs:
               k_sect = pick(keys, 'sector', 'secteur', 'category', 'type', 'industry')
               k_val  = pick(keys, 'value', 'valeur', 'cost', 'capital', 'investment')
               k_stat = pick(keys, 'status', 'statut', 'stage', 'phase')
-              k_lat  = pick(keys, 'latitude 1', 'latitude', 'lat')
-              k_lon  = pick(keys, 'longitude 1', 'longitude', 'long', 'lon')
+
+              def pick_word(keys, *wants):
+                  # exact-token match: 'lat' must be a whole word in the
+                  # header, not a substring ('Related Links' contains 'lat')
+                  for w in wants:
+                      for k in keys:
+                          toks = re.split(r'[^a-z0-9]+', k.lower())
+                          if w in toks:
+                              return k
+                  return None
+
+              k_lat  = pick_word(keys, 'latitude', 'lat')
+              k_lon  = pick_word(keys, 'longitude', 'long', 'lon')
+              if k_lat and not k_lon:
+                  k_lat = None  # never accept half a coordinate pair
               k_xy   = pick(keys, 'coordinates', 'coordonnees', 'lat/long', 'latlong')
               print('  mapped:', dict(name=k_name, proponent=k_prop, province=k_prov,
                                       location=k_loc, sector=k_sect, value=k_val,
@@ -318,16 +331,30 @@ jobs:
           write_inventory('nrcan_mpi.json', 'nrcan_mpi',
                           'NRCan Major Projects Inventory', normalize(rows))
 
-          # 3) extra inventories from the same discovered catalogue —
-          # municipal granularity is the best shot at provincial Class-EA
-          # projects (OPG waterpower, Atura gas plants) that no EA registry
-          # we harvest will ever list.
+          # 3) extra inventories from the same discovered catalogue.
+          # NOTE 2026-07-10: 'Major projects by municipality' probed and
+          # REJECTED — it is aggregate $/municipality/year statistics, no
+          # project names. The Economic Points set is a real georeferenced
+          # project list (best extra shot at provincial-tier projects).
           EXTRAS = [
-              ('major projects by municipality', 'nrcan_by_municipality',
-               'NRCan Major projects by municipality'),
+              ('major projects inventory (economic) - points', 'nrcan_mpi_points',
+               'NRCan Major Projects Inventory (Economic) - Points'),
               ('inventory of major alberta projects', 'ab_majors',
                'Inventory of Major Alberta Projects'),
           ]
+          # Alberta's list includes every $5M+ building (stores, lofts,
+          # libraries) — keep only EA-plausible sectors, or blockbusters.
+          AB_SECTORS = ('oil', 'gas', 'pipeline', 'power', 'mining', 'mine',
+                        'forestry', 'agriculture', 'chemical', 'industrial')
+
+          def ea_relevant(p, src):
+              if src != 'ab_majors':
+                  return True
+              sect = (p.get('sector') or '').lower()
+              v = p.get('value_cad')
+              return any(s in sect for s in AB_SECTORS) or \
+                  (isinstance(v, (int, float)) and v >= 5e8)
+
           for want, src, label in EXTRAS:
               pkg = next((p for p in pkgs if want in (p.get('title') or '').lower()), None)
               if not pkg:
@@ -351,7 +378,7 @@ jobs:
                       print(f'extra "{want}": parsed {len(got)} rows from {fmt}')
                       break
               if got:
-                  projects = normalize(got)
+                  projects = [p for p in normalize(got) if ea_relevant(p, src)]
                   if projects:
                       write_inventory(f'{src}.json', src, label, projects)
                   else:
