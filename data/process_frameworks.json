@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "spec": "docs/design/F3_process_model.md",
+  "macro_stages": [
+    {"key": "intake", "label": "Intake & screening", "question": "Does this project require assessment?"},
+    {"key": "scoping", "label": "Scoping & planning", "question": "What must be studied, and how?"},
+    {"key": "study", "label": "Studies & application", "question": "Proponent prepares the evidence"},
+    {"key": "review", "label": "Review & hearings", "question": "Regulator and public test the evidence"},
+    {"key": "decision", "label": "Decision", "question": "Approve, refuse, and set conditions"},
+    {"key": "post_decision", "label": "Post-decision", "question": "Build, operate, comply, monitor"}
+  ],
+  "post_decision_subphases": [
+    {"key": "pre_construction", "label": "Pre-construction"},
+    {"key": "construction", "label": "Construction"},
+    {"key": "operation", "label": "Operation"},
+    {"key": "care_maintenance", "label": "Care & maintenance"},
+    {"key": "closure", "label": "Closure / complete"}
+  ],
+  "outcome_states": ["approved", "refused", "terminated", "suspended", "withdrawn", "expired", "not_required"],
+  "frameworks": {
+    "iaa_2019": {
+      "label": "Impact Assessment Act (2019)",
+      "jurisdiction": "Federal (IAAC)",
+      "stages": [
+        {"key": "planning", "label": "Planning", "macro": "scoping", "actor": "regulator", "typical_duration_days": 180},
+        {"key": "impact_statement", "label": "Impact Statement", "macro": "study", "actor": "proponent", "typical_duration_days": 1095},
+        {"key": "impact_assessment", "label": "Impact Assessment", "macro": "review", "actor": "regulator", "typical_duration_days": 600},
+        {"key": "decision", "label": "Decision making", "macro": "decision", "actor": "minister"},
+        {"key": "post_decision", "label": "Post Decision", "macro": "post_decision", "actor": "proponent"}
+      ]
+    },
+    "ceaa_2012": {
+      "label": "CEAA 2012 environmental assessment",
+      "jurisdiction": "Federal (IAAC)",
+      "stages": [
+        {"key": "screening", "label": "Screening", "macro": "intake", "actor": "regulator"},
+        {"key": "ea", "label": "Environmental assessment", "macro_range": ["study", "review"], "actor": "both", "note": "registry does not split proponent studies from agency review"},
+        {"key": "decision_statement", "label": "Decision statement", "macro": "decision", "actor": "minister"},
+        {"key": "followup", "label": "Follow-up program", "macro": "post_decision", "actor": "proponent"}
+      ]
+    },
+    "ceaa_1992": {
+      "label": "CEAA 1992 (screening / comprehensive study / panel)",
+      "jurisdiction": "Federal (IAAC)",
+      "stages": [
+        {"key": "track", "label": "Assessment track set", "macro": "intake", "actor": "regulator"},
+        {"key": "assessment", "label": "Assessment (screening / comprehensive study / panel)", "macro_range": ["study", "review"], "actor": "both"},
+        {"key": "decision", "label": "Course-of-action decision", "macro": "decision", "actor": "minister"},
+        {"key": "followup", "label": "Follow-up", "macro": "post_decision", "actor": "proponent"}
+      ]
+    },
+    "federal_lands": {
+      "label": "Determination on federal lands (IAA s.82 / CEAA 2012 s.67)",
+      "jurisdiction": "Federal (IAAC)",
+      "stages": [
+        {"key": "notice", "label": "Notice of intent posted", "macro": "intake", "actor": "authority"},
+        {"key": "comment", "label": "Public comment period", "macro": "review", "actor": "public"},
+        {"key": "determination", "label": "Determination", "macro": "decision", "actor": "authority"}
+      ]
+    },
+    "bc_2018": {
+      "label": "BC Environmental Assessment Act (2018)",
+      "jurisdiction": "British Columbia (EAO)",
+      "stages": [
+        {"key": "designation", "label": "Project Designation", "macro": "intake", "actor": "regulator"},
+        {"key": "early_engagement", "label": "Early Engagement", "macro": "scoping", "actor": "both"},
+        {"key": "readiness", "label": "Readiness Decision", "macro": "scoping", "actor": "regulator"},
+        {"key": "process_planning", "label": "Process Planning", "macro": "scoping", "actor": "regulator"},
+        {"key": "application", "label": "Application Development & Review", "macro": "study", "actor": "proponent"},
+        {"key": "effects_assessment", "label": "Effects Assessment & Recommendation", "macro": "review", "actor": "regulator"},
+        {"key": "decision", "label": "Decision", "macro": "decision", "actor": "minister"},
+        {"key": "post_certificate", "label": "Post-Certificate", "macro": "post_decision", "actor": "proponent"}
+      ]
+    },
+    "bc_2002": {
+      "label": "BC Environmental Assessment Act (2002)",
+      "jurisdiction": "British Columbia (EAO)",
+      "stages": [
+        {"key": "pre_application", "label": "Pre-Application", "macro": "study", "actor": "proponent"},
+        {"key": "evaluation", "label": "Evaluation", "macro": "review", "actor": "regulator"},
+        {"key": "application_review", "label": "Application Review", "macro": "review", "actor": "regulator"},
+        {"key": "referred", "label": "Referred to Ministers", "macro": "decision", "actor": "minister"},
+        {"key": "decision", "label": "Decision", "macro": "decision", "actor": "minister"},
+        {"key": "post_decision", "label": "Post Decision", "macro": "post_decision", "actor": "proponent"}
+      ]
+    },
+    "on_rea": {
+      "label": "Ontario Renewable Energy Approval",
+      "jurisdiction": "Ontario (REA)",
+      "stages": [
+        {"key": "application", "label": "Application submitted", "macro": "intake", "actor": "proponent"},
+        {"key": "technical_review", "label": "Technical review & posting", "macro": "review", "actor": "regulator"},
+        {"key": "decision", "label": "Decision (incl. ERT appeal window)", "macro": "decision", "actor": "regulator"},
+        {"key": "operation", "label": "Operation & compliance", "macro": "post_decision", "actor": "proponent"}
+      ]
+    },
+    "on_ea": {
+      "label": "Ontario EA Act (individual / Class EA)",
+      "jurisdiction": "Ontario (Provincial EA)",
+      "stages": [
+        {"key": "tor", "label": "Terms of Reference / screening", "macro": "scoping", "actor": "proponent"},
+        {"key": "ea_preparation", "label": "EA preparation", "macro": "study", "actor": "proponent"},
+        {"key": "ministry_review", "label": "Ministry & public review", "macro": "review", "actor": "regulator"},
+        {"key": "decision", "label": "Decision", "macro": "decision", "actor": "minister"},
+        {"key": "implementation", "label": "Implementation", "macro": "post_decision", "actor": "proponent"}
+      ]
+    }
+  },
+  "source_mappings": {
+    "federal": {
+      "id_field": "project_id",
+      "framework_by_ea_type": {
+        "Project on federal lands": "federal_lands",
+        "Project outside of Canada": "federal_lands",
+        "Environmental assessment under CEAA 2012": "ceaa_2012",
+        "Comprehensive study under CEAA 1992": "ceaa_1992",
+        "Environmental assessment by Review Panel under CEAA 1992": "ceaa_1992",
+        "Screening-type assessment under CEAA 1992": "ceaa_1992",
+        "Planning Phase for Impact Assessment": "iaa_2019",
+        "Impact assessment under IAA": "iaa_2019",
+        "_default": "federal_lands"
+      },
+      "stage_by_ea_phase": {
+        "Planning": {"framework": "iaa_2019", "stage": "planning", "confidence": "exact"},
+        "Impact Statement": {"framework": "iaa_2019", "stage": "impact_statement", "confidence": "exact"},
+        "Impact Assessment": {"framework": "iaa_2019", "stage": "impact_assessment", "confidence": "exact"},
+        "Decision making": {"framework": "iaa_2019", "stage": "decision", "confidence": "exact"},
+        "Post Decision": {"framework": "iaa_2019", "stage": "post_decision", "confidence": "exact"},
+        "Substitution": {"framework": "iaa_2019", "stage": "impact_assessment", "confidence": "exact", "annotation": "Assessment substituted to a provincial process"}
+      },
+      "stage_by_status": {
+        "Completed": {"macro_stage": "decision", "confidence": "inferred", "outcome": "approved_or_determined", "note": "registry lifecycle only; decision content on Overview"},
+        "In progress": {"macro_range": ["scoping", "review"], "confidence": "inferred"},
+        "Terminated": {"outcome": "terminated", "confidence": "inferred"},
+        "Suspended": {"outcome": "suspended", "confidence": "inferred"}
+      }
+    },
+    "bc_epic": {
+      "framework_by_legislation": {"2002": "bc_2002", "2018": "bc_2018", "1994": "bc_2002"},
+      "phase_map": {
+        "Project Designation": {"stage": "designation", "confidence": "exact"},
+        "Early Engagement": {"stage": "early_engagement", "confidence": "exact"},
+        "Readiness Decision": {"stage": "readiness", "confidence": "exact"},
+        "Process Planning": {"stage": "process_planning", "confidence": "exact"},
+        "Application Development & Review": {"stage": "application", "confidence": "exact"},
+        "Effects Assessment & Review": {"stage": "effects_assessment", "confidence": "exact"},
+        "Effects Assessment & Recommendation": {"stage": "effects_assessment", "confidence": "exact"},
+        "Recommendation": {"stage": "effects_assessment", "confidence": "exact"},
+        "Decision": {"stage": "decision", "confidence": "exact"},
+        "Pre-Application": {"stage": "pre_application", "confidence": "exact"},
+        "Evaluation": {"stage": "evaluation", "confidence": "exact"},
+        "Application Review": {"stage": "application_review", "confidence": "exact"},
+        "Referred": {"stage": "referred", "confidence": "exact"},
+        "Post Decision - Pre-Construction": {"stage": "post_decision", "subphase": "pre_construction", "confidence": "exact"},
+        "Post Decision - Construction": {"stage": "post_decision", "subphase": "construction", "confidence": "exact"},
+        "Post Decision - Operation": {"stage": "post_decision", "subphase": "operation", "confidence": "exact"},
+        "Post Decision - Care & Maintenance": {"stage": "post_decision", "subphase": "care_maintenance", "confidence": "exact"},
+        "Post Decision - Complete": {"stage": "post_decision", "subphase": "closure", "confidence": "exact"},
+        "Complete": {"stage": "post_decision", "subphase": "closure", "confidence": "exact"},
+        "Withdrawal": {"outcome": "withdrawn", "confidence": "exact"},
+        "Termination": {"outcome": "terminated", "confidence": "exact"},
+        "Other": {"confidence": "unknown"}
+      },
+      "ea_status_gate": {
+        "Does not require EAC": {"outcome": "not_required", "rail": "intake_only"},
+        "No Determination": {"macro_stage": "intake", "confidence": "inferred"}
+      }
+    },
+    "on_rea": {
+      "all_records": {"framework": "on_rea", "stage": "operation", "macro_stage": "post_decision", "confidence": "inferred", "decision_date_field": "approval_date", "decision_date_confidence": "exact"}
+    },
+    "on_ea": {
+      "all_records": {"framework": "on_ea", "confidence": "unknown"}
+    },
+    "_unmodelled": {
+      "jurisdictions": ["Quebec (MELCCFP)", "Nova Scotia (NSECC)", "Newfoundland & Labrador (ECC)", "Manitoba (Environment Act)", "Ontario (Abandoned Mines)", "Major projects inventory (unmatched)"],
+      "behaviour": {"confidence": "unknown", "caption": "Process position not published by this registry"}
+    }
+  }
+}

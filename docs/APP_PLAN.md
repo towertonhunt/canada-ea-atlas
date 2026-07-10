@@ -174,7 +174,15 @@ Each is discrete, has a concrete deliverable, and is scoped to run efficiently.
   *Deliverable:* the commitments detail-view design + summary spec.
   *~1 session.*
 
-Sequencing: **F1 → F3 (in parallel with F2) → F4**, then Opus builds. F1+F3 are
+Sequencing: **F1 → F3 (in parallel with F2) → F4**, then Opus builds.
+
+> **DELIVERED 2026-07-10 (Fable 5):** F1 -> `docs/design/F1_information_architecture.md`;
+> F3 -> `docs/design/F3_process_model.md` + `data/process_frameworks.json` (machine-readable
+> frameworks + per-source mapping tables, grounded in actual registry field values);
+> F2 -> `docs/design/F2_design_system.md` + `docs/design/tokens.json` + `docs/design/mockup.html`
+> (hi-fi hero screens, light+dark, desktop+phone);
+> F4 -> `docs/design/F4_commitments_ux.md` (card anatomy, bridge module, plain-language
+> generation contract). Opus build order is listed at the end of each doc. F1+F3 are
 the unblockers; F2+F4 make it great. Total Fable footprint is deliberately small
 (~4–6 focused sessions) because everything downstream is Opus-executable.
 
