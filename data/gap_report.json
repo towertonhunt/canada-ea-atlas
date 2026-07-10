@@ -8,9 +8,9 @@
     }
   ],
   "summary": {
-    "gap": 124,
-    "weak": 175,
-    "matched": 175
+    "gap": 127,
+    "weak": 173,
+    "matched": 174
   },
   "thresholds": {
     "strong": 0.72,
@@ -276,7 +276,7 @@
         "url": null
       },
       "verdict": "gap",
-      "score": 0.247,
+      "score": 0.245,
       "match": {
         "id": null,
         "name": "Tracadie Rivers Link Channel Project",
@@ -422,11 +422,32 @@
         "url": null
       },
       "verdict": "gap",
-      "score": 0.219,
+      "score": 0.227,
       "match": {
         "id": null,
         "name": "Request for a Strategic Assessment on In Situ Decommissioning of Nuclear Facilities in Canada",
         "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Usine de production d'hydrogène pour usage chimique",
+        "proponent": "Hy2Gen",
+        "province": "QC",
+        "sector": "Energy",
+        "value_cad": 2000000000.0,
+        "status": "In Review",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "gap",
+      "score": 0.385,
+      "match": {
+        "id": null,
+        "name": "Projet de construction d'une usine d'hydrogène vert et de gaz naturel renouvelable à Shawinigan",
+        "jurisdiction": "Quebec (MELCCFP)"
       }
     },
     {
@@ -559,31 +580,10 @@
         "url": null
       },
       "verdict": "gap",
-      "score": 0.377,
+      "score": 0.376,
       "match": {
         "id": null,
         "name": "Terminal d'approvisionnement de carburant aéroportuaire",
-        "jurisdiction": "Quebec (MELCCFP)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "BlackRock - Usine de pyrométallurgie",
-        "proponent": "Strategic Resources Inc.",
-        "province": "QC",
-        "sector": "Mining",
-        "value_cad": 1471000000.0,
-        "status": "Approved",
-        "coords": null,
-        "url": null
-      },
-      "verdict": "gap",
-      "score": 0.329,
-      "match": {
-        "id": null,
-        "name": "Exploitation d'un gisement de fer-vanadium par Métaux Blackrock inc",
         "jurisdiction": "Quebec (MELCCFP)"
       }
     },
@@ -715,30 +715,6 @@
         "id": null,
         "name": "Backflow Preventer Wastewater Capture Tank",
         "jurisdiction": "Federal (IAAC)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "New England Clean Energy Connect (NECEC) project",
-        "proponent": "Hydro-Québec",
-        "province": "QC",
-        "sector": "Energy",
-        "value_cad": 950000000.0,
-        "status": "Under Construction",
-        "coords": [
-          -70.984282,
-          45.72302
-        ],
-        "url": null
-      },
-      "verdict": "gap",
-      "score": 0.239,
-      "match": {
-        "id": null,
-        "name": "Site C Clean Energy",
-        "jurisdiction": "British Columbia (EAO)"
       }
     },
     {
@@ -953,6 +929,27 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
+        "name": "Réhabilitation de l’aménagement de Rapide-Blanc",
+        "proponent": "Hydro-Québec",
+        "province": "QC",
+        "sector": "Energy",
+        "value_cad": 613000000.0,
+        "status": "Under Construction",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "gap",
+      "score": 0.384,
+      "match": {
+        "id": null,
+        "name": "Grand Falls Main Dam Rehabilitation",
+        "jurisdiction": "Newfoundland & Labrador (ECC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
         "name": "Aries",
         "proponent": "Ram River Coal",
         "province": "AB",
@@ -1102,7 +1099,7 @@
         "url": null
       },
       "verdict": "gap",
-      "score": 0.253,
+      "score": 0.255,
       "match": {
         "id": null,
         "name": "Peat Extraction and Processing Operation and Bog Rehabilitation",
@@ -1352,7 +1349,7 @@
         "url": null
       },
       "verdict": "gap",
-      "score": 0.392,
+      "score": 0.397,
       "match": {
         "id": null,
         "name": "Wuskwatim Hydro Generation Station",
@@ -1514,7 +1511,7 @@
         "url": null
       },
       "verdict": "gap",
-      "score": 0.349,
+      "score": 0.351,
       "match": {
         "id": null,
         "name": "Labrador – L1301 Transmission Line Decommissioning",
@@ -1673,7 +1670,7 @@
         "url": null
       },
       "verdict": "gap",
-      "score": 0.252,
+      "score": 0.255,
       "match": {
         "id": null,
         "name": "Trent Rapids Power Corporation (TRPC), Peterborough Utilities Inc (PUI) Hydro Intake Excavation",
@@ -1741,7 +1738,7 @@
         "url": null
       },
       "verdict": "gap",
-      "score": 0.305,
+      "score": 0.309,
       "match": {
         "id": null,
         "name": "Hydro-vac Dewatering Station",
@@ -2254,10 +2251,10 @@
         "url": null
       },
       "verdict": "gap",
-      "score": 0.323,
+      "score": 0.303,
       "match": {
         "id": null,
-        "name": "Soustraction des projets requis pour réparer les dommages causés par les inondations du printemps 2019",
+        "name": "Projet de cogénération à la biomasse sur le territoire de la ville de Thurso et du canton de Lochaber-Partie-Ouest \">Projet de cogénération à la biomasse sur le territoire de la ville de Thurso et du canton de Lochaber-Partie-Ouest",
         "jurisdiction": "Quebec (MELCCFP)"
       }
     },
@@ -2278,10 +2275,10 @@
         "url": null
       },
       "verdict": "gap",
-      "score": 0.351,
+      "score": 0.335,
       "match": {
         "id": null,
-        "name": "Projet d'agrandissement de l'usine de fabrication de matériaux énergétiques à Salaberry-de-Valleyfield",
+        "name": "Construction et exploitation de deux réservoirs de stockage de bitume liquide au port de Salaberry-de-Valleyfield",
         "jurisdiction": "Quebec (MELCCFP)"
       }
     },
@@ -2379,6 +2376,30 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
+        "name": "Amélioration de la compétitivité de l'usine",
+        "proponent": "Domtar",
+        "province": "QC",
+        "sector": "Forest",
+        "value_cad": 56400000.0,
+        "status": "Under Construction",
+        "coords": [
+          -71.978617,
+          45.564345
+        ],
+        "url": null
+      },
+      "verdict": "gap",
+      "score": 0.365,
+      "match": {
+        "id": null,
+        "name": "Réaménagement de la route 112 dans les municipalités d'Ascot Corner et du Canton de Westbury",
+        "jurisdiction": "Quebec (MELCCFP)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
         "name": "Beauval to Île-à-la-Crosse Power Line Rebuild",
         "proponent": "SaskPower",
         "province": "SK",
@@ -2389,7 +2410,7 @@
         "url": null
       },
       "verdict": "gap",
-      "score": 0.392,
+      "score": 0.388,
       "match": {
         "id": null,
         "name": "SaskPower - 2E-33 Mullingar Rural Rebuild",
@@ -2434,7 +2455,7 @@
         "url": null
       },
       "verdict": "gap",
-      "score": 0.249,
+      "score": 0.25,
       "match": {
         "id": null,
         "name": "Enoch Cree Nation Medical Treatment Centre Project",
@@ -2625,6 +2646,30 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
+        "name": "Sādę Solar Watson Lake",
+        "proponent": "First Kaska, (Liard First Nation Economic Development Corporation)",
+        "province": "YK",
+        "sector": "Energy",
+        "value_cad": 30000000.0,
+        "status": "Under Construction",
+        "coords": [
+          -128.7016,
+          60.064
+        ],
+        "url": null
+      },
+      "verdict": "gap",
+      "score": 0.288,
+      "match": {
+        "id": null,
+        "name": "Watson Lake",
+        "jurisdiction": "Ontario (Abandoned Mines)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
         "name": "Alberta Newsprint Company Paper Mill Energy Efficiency Upgrades",
         "proponent": "The Stern Group (Whitecourt Newsprint Company Limited Partnership) and West Fraser Timber Co. Ltd",
         "province": "AB",
@@ -2709,6 +2754,30 @@
         "id": null,
         "name": "The National Printing Bureau Lateral Connection to ESAP District Energy System",
         "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Saa Sè Solar Beaver Creek",
+        "proponent": "Copper Niisüü LP (White River First Nation Corporation)",
+        "province": "YK",
+        "sector": "Energy",
+        "value_cad": 19000000.0,
+        "status": "Under Construction",
+        "coords": [
+          -140.8919,
+          62.3839
+        ],
+        "url": null
+      },
+      "verdict": "gap",
+      "score": 0.319,
+      "match": {
+        "id": 28,
+        "name": "Beaver Creek Solar Farm",
+        "jurisdiction": "Ontario (REA)"
       }
     },
     {
@@ -2845,7 +2914,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.61,
+      "score": 0.609,
       "match": {
         "id": null,
         "name": "Site C Clean Energy",
@@ -2911,7 +2980,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.487,
+      "score": 0.494,
       "match": {
         "id": null,
         "name": "Parc éolien du Mont-Rothery sur les territoires non organisés Collines-du-Basque et Mont-Albert",
@@ -2956,7 +3025,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.474,
+      "score": 0.479,
       "match": {
         "id": null,
         "name": "Projet de construction d'une usine d'hydrogène vert et de gaz naturel renouvelable à Shawinigan",
@@ -3076,7 +3145,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.594,
+      "score": 0.592,
       "match": {
         "id": null,
         "name": "Lac Doré Vanadium Mine Project",
@@ -3108,27 +3177,6 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
-        "name": "Usine de production d'hydrogène pour usage chimique",
-        "proponent": "Hy2Gen",
-        "province": "QC",
-        "sector": "Energy",
-        "value_cad": 2000000000.0,
-        "status": "In Review",
-        "coords": null,
-        "url": null
-      },
-      "verdict": "weak",
-      "score": 0.458,
-      "match": {
-        "id": null,
-        "name": "Projet de construction d'une usine d'hydrogène vert et de gaz naturel renouvelable à Shawinigan",
-        "jurisdiction": "Quebec (MELCCFP)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
         "name": "Complexe Canadian Malartic - Odyssey Nord et Sud",
         "proponent": "Mines Agnico Eagle ltée",
         "province": "QC",
@@ -3147,30 +3195,6 @@
         "id": null,
         "name": "Projet de construction des centrales Onimiki Nord et Sud par Énergie Renouvelable Onimiki S.E.C.",
         "jurisdiction": "Quebec (MELCCFP)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Rénovation de groupes à la centrale électrique Beauharnois",
-        "proponent": "Hydro-Québec",
-        "province": "QC",
-        "sector": "Energy",
-        "value_cad": 1600000000.0,
-        "status": "Under Construction",
-        "coords": [
-          -73.875504,
-          45.328979
-        ],
-        "url": null
-      },
-      "verdict": "weak",
-      "score": 0.696,
-      "match": {
-        "id": null,
-        "name": "Modification to the ice booms in the Canal de Beauharnois",
-        "jurisdiction": "Federal (IAAC)"
       }
     },
     {
@@ -3201,24 +3225,21 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
-        "name": "Jonquiere Refinery",
-        "proponent": "Rio Tinto Group",
+        "name": "BlackRock - Usine de pyrométallurgie",
+        "proponent": "Strategic Resources Inc.",
         "province": "QC",
         "sector": "Mining",
-        "value_cad": 1400000000.0,
+        "value_cad": 1471000000.0,
         "status": "Approved",
-        "coords": [
-          -71.162,
-          48.429
-        ],
+        "coords": null,
         "url": null
       },
       "verdict": "weak",
-      "score": 0.414,
+      "score": 0.435,
       "match": {
         "id": null,
-        "name": "Shell Canada Proposed Oil Refinery in the Township of St. Clair",
-        "jurisdiction": "Ontario (Provincial EA)"
+        "name": "Exploitation d'un gisement de fer-vanadium par Métaux Blackrock inc",
+        "jurisdiction": "Quebec (MELCCFP)"
       }
     },
     {
@@ -3283,7 +3304,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.427,
+      "score": 0.425,
       "match": {
         "id": null,
         "name": "Refurbishment and Continued Operation of the Darlington Nuclear Generating Station",
@@ -3336,6 +3357,30 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
+        "name": "New England Clean Energy Connect (NECEC) project",
+        "proponent": "Hydro-Québec",
+        "province": "QC",
+        "sector": "Energy",
+        "value_cad": 950000000.0,
+        "status": "Under Construction",
+        "coords": [
+          -70.984282,
+          45.72302
+        ],
+        "url": null
+      },
+      "verdict": "weak",
+      "score": 0.408,
+      "match": {
+        "id": null,
+        "name": "Site C Clean Energy",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
         "name": "John Hart Dam Seismic Upgrade Project",
         "proponent": "BC Hydro",
         "province": "BC",
@@ -3346,7 +3391,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.433,
+      "score": 0.432,
       "match": {
         "id": null,
         "name": "Coursier Dam Decommissioning",
@@ -3412,7 +3457,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.591,
+      "score": 0.586,
       "match": {
         "id": null,
         "name": "Projet du poste Duchesnay à 315-25 kV et de la ligne d’alimentation à 315 kV sur le territoire de la municipalité de Sainte-Catherine-de-la-Jacques-Cartier",
@@ -3540,6 +3585,27 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
+        "name": "Réhabilitation de l’aménagement hydroélectrique de Carillon",
+        "proponent": "Hydro-Québec",
+        "province": "QC",
+        "sector": "Energy",
+        "value_cad": 750000000.0,
+        "status": "Announced & Planning",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "score": 0.594,
+      "match": {
+        "id": null,
+        "name": "Aménagement du complexe hydroélectrique de la rivière Romaine",
+        "jurisdiction": "Quebec (MELCCFP)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
         "name": "eStruxture CAL-3 Data Center",
         "proponent": "eStruxture",
         "province": "AB",
@@ -3627,27 +3693,6 @@
         "id": null,
         "name": "Fitzroy Station",
         "jurisdiction": "Ontario (Abandoned Mines)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Réhabilitation de l’aménagement de Rapide-Blanc",
-        "proponent": "Hydro-Québec",
-        "province": "QC",
-        "sector": "Energy",
-        "value_cad": 613000000.0,
-        "status": "Under Construction",
-        "coords": null,
-        "url": null
-      },
-      "verdict": "weak",
-      "score": 0.647,
-      "match": {
-        "id": null,
-        "name": "Aménagement du complexe hydroélectrique de la rivière Romaine",
-        "jurisdiction": "Quebec (MELCCFP)"
       }
     },
     {
@@ -3874,7 +3919,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.409,
+      "score": 0.414,
       "match": {
         "id": null,
         "name": "Prince George Wood Residue Fired Cogeneration",
@@ -4014,6 +4059,27 @@
         "id": null,
         "name": "Mount Clifford Wind Energy",
         "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Aménagement hydroélectrique Onimiki",
+        "proponent": "Énergie Renouvelable Onimiki",
+        "province": "QC",
+        "sector": "Energy",
+        "value_cad": 475000000.0,
+        "status": "Announced & Planning",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "score": 0.638,
+      "match": {
+        "id": null,
+        "name": "Aménagement du complexe hydroélectrique de la rivière Romaine",
+        "jurisdiction": "Quebec (MELCCFP)"
       }
     },
     {
@@ -4387,7 +4453,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.412,
+      "score": 0.415,
       "match": {
         "id": null,
         "name": "GM Shrum Units 1 to 5 TRP",
@@ -4491,6 +4557,30 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
+        "name": "Usine de production d'éthanol cellulosique",
+        "proponent": "Résolve Énergie",
+        "province": "QC",
+        "sector": "Energy",
+        "value_cad": 300000000.0,
+        "status": "Announced & Planning",
+        "coords": [
+          -70.6166642,
+          46.4833314
+        ],
+        "url": null
+      },
+      "verdict": "weak",
+      "score": 0.489,
+      "match": {
+        "id": null,
+        "name": "Construction d'une usine intégrée de production d'engrais et de méthanol",
+        "jurisdiction": "Quebec (MELCCFP)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
         "name": "Heartland Waste to Power Project",
         "proponent": "Gibson Energy & Varme Energy JV",
         "province": "AB",
@@ -4549,7 +4639,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.608,
+      "score": 0.606,
       "match": {
         "id": null,
         "name": "SaskPower Rural Rebuild - 2D-41 Birmingham Southwest",
@@ -4591,7 +4681,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.523,
+      "score": 0.51,
       "match": {
         "id": null,
         "name": "Réfection de la digue de la centrale des Cèdres",
@@ -4657,7 +4747,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.642,
+      "score": 0.652,
       "match": {
         "id": null,
         "name": "Projet de parc éolien Mesgi'g Ugju's'n 2",
@@ -4702,7 +4792,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.514,
+      "score": 0.515,
       "match": {
         "id": null,
         "name": "Upper Toba Valley Hydroelectric",
@@ -4723,7 +4813,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.68,
+      "score": 0.681,
       "match": {
         "id": null,
         "name": "Grand Falls-Windsor – Glenwood Transmission Line Decommissioning",
@@ -4789,7 +4879,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.573,
+      "score": 0.598,
       "match": {
         "id": null,
         "name": "\">Réfection du mur de soutènement en amont du barrage Simon-Sicard - Phase 2",
@@ -5167,10 +5257,10 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.511,
+      "score": 0.487,
       "match": {
         "id": null,
-        "name": "Construction d'une usine intégrée de production d'engrais et de méthanol",
+        "name": "Stabilisation de la berge du fleuve face au parc de la Commune à Varennes",
         "jurisdiction": "Quebec (MELCCFP)"
       }
     },
@@ -5275,7 +5365,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.645,
+      "score": 0.686,
       "match": {
         "id": null,
         "name": "Construction d'une nouvelle centrale thermique sur le territoire du village nordique de Puvirnituq",
@@ -5545,7 +5635,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.6,
+      "score": 0.629,
       "match": {
         "id": null,
         "name": "Projet du poste Duchesnay à 315-25 kV et de la ligne d’alimentation à 315 kV sur le territoire de la municipalité de Sainte-Catherine-de-la-Jacques-Cartier",
@@ -5743,10 +5833,10 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.484,
+      "score": 0.686,
       "match": {
         "id": null,
-        "name": "Projet de construction du parc éolien Citadelle",
+        "name": "Projet éolien de Grosse-Île",
         "jurisdiction": "Quebec (MELCCFP)"
       }
     },
@@ -5809,7 +5899,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.438,
+      "score": 0.435,
       "match": {
         "id": null,
         "name": "Bear Head Energy Green Hydrogen and Ammonia Production, Storage and Loading Facility",
@@ -5851,7 +5941,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.685,
+      "score": 0.616,
       "match": {
         "id": null,
         "name": "Projet de cogénération à la biomasse sur le territoire de la ville de Thurso et du canton de Lochaber-Partie-Ouest \">Projet de cogénération à la biomasse sur le territoire de la ville de Thurso et du canton de Lochaber-Partie-Ouest",
@@ -5907,30 +5997,6 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
-        "name": "Amélioration de la compétitivité de l'usine",
-        "proponent": "Domtar",
-        "province": "QC",
-        "sector": "Forest",
-        "value_cad": 56400000.0,
-        "status": "Under Construction",
-        "coords": [
-          -71.978617,
-          45.564345
-        ],
-        "url": null
-      },
-      "verdict": "weak",
-      "score": 0.407,
-      "match": {
-        "id": null,
-        "name": "Réaménagement de la route 112 dans les municipalités d'Ascot Corner et du Canton de Westbury",
-        "jurisdiction": "Quebec (MELCCFP)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
         "name": "Mica Modernize Controls (Digital) Project",
         "proponent": "BC Hydro",
         "province": "BC",
@@ -5965,7 +6031,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.423,
+      "score": 0.432,
       "match": {
         "id": null,
         "name": "Projet de ligne à 315 kV entre la centrale Manic-3 et le poste aux Outardes sur le territoire de la MRC de Manicouagan",
@@ -6079,7 +6145,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.439,
+      "score": 0.451,
       "match": {
         "id": null,
         "name": "Construction de l'usine AP50 du Complexe Jonquière",
@@ -6103,7 +6169,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.71,
+      "score": 0.625,
       "match": {
         "id": null,
         "name": "Construction d'un tramway sur le territoire de la ville de Québec",
@@ -6199,7 +6265,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.417,
+      "score": 0.414,
       "match": {
         "id": null,
         "name": "138 KV transmission line between kettle generating station and Limestone Generating station",
@@ -6399,30 +6465,6 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
-        "name": "Sādę Solar Watson Lake",
-        "proponent": "First Kaska, (Liard First Nation Economic Development Corporation)",
-        "province": "YK",
-        "sector": "Energy",
-        "value_cad": 30000000.0,
-        "status": "Under Construction",
-        "coords": [
-          -128.7016,
-          60.064
-        ],
-        "url": null
-      },
-      "verdict": "weak",
-      "score": 0.537,
-      "match": {
-        "id": null,
-        "name": "Watson Lake",
-        "jurisdiction": "Ontario (Abandoned Mines)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
         "name": "Almonte BESS 2",
         "proponent": "Wahgoshig Solar FIT5 LP",
         "province": "ON",
@@ -6523,7 +6565,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.459,
+      "score": 0.458,
       "match": {
         "id": null,
         "name": "138 KV transmission line between kettle generating station and Limestone Generating station",
@@ -6637,35 +6679,11 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.611,
+      "score": 0.61,
       "match": {
         "id": null,
         "name": "230-25 kV station known as the Grand Rapids Station",
         "jurisdiction": "Manitoba (Environment Act)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Saa Sè Solar Beaver Creek",
-        "proponent": "Copper Niisüü LP (White River First Nation Corporation)",
-        "province": "YK",
-        "sector": "Energy",
-        "value_cad": 19000000.0,
-        "status": "Under Construction",
-        "coords": [
-          -140.8919,
-          62.3839
-        ],
-        "url": null
-      },
-      "verdict": "weak",
-      "score": 0.473,
-      "match": {
-        "id": 28,
-        "name": "Beaver Creek Solar Farm",
-        "jurisdiction": "Ontario (REA)"
       }
     },
     {
@@ -6685,7 +6703,7 @@
         "url": null
       },
       "verdict": "weak",
-      "score": 0.457,
+      "score": 0.452,
       "match": {
         "id": null,
         "name": "Victoria Beach Harbour Manitoba - Routine Maintenance Dredging of Lake Winnipeg at Victoria Beach - Winter 2019",
@@ -7621,11 +7639,35 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 0.979,
+      "score": 0.973,
       "match": {
         "id": null,
         "name": "Strange Lake Rare Earth Mining Project",
         "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Rénovation de groupes à la centrale électrique Beauharnois",
+        "proponent": "Hydro-Québec",
+        "province": "QC",
+        "sector": "Energy",
+        "value_cad": 1600000000.0,
+        "status": "Under Construction",
+        "coords": [
+          -73.875504,
+          45.328979
+        ],
+        "url": null
+      },
+      "verdict": "matched",
+      "score": 0.752,
+      "match": {
+        "id": null,
+        "name": "Construction d’une centrale thermique pour l’alimentation électrique des Îles-de-la-Madeleine sur le territoire de la municipalité des Îles-de-la-Madeleine",
+        "jurisdiction": "Quebec (MELCCFP)"
       }
     },
     {
@@ -7650,6 +7692,30 @@
         "id": null,
         "name": "Star-Orion South Diamond Mine Project",
         "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Jonquiere Refinery",
+        "proponent": "Rio Tinto Group",
+        "province": "QC",
+        "sector": "Mining",
+        "value_cad": 1400000000.0,
+        "status": "Approved",
+        "coords": [
+          -71.162,
+          48.429
+        ],
+        "url": null
+      },
+      "verdict": "matched",
+      "score": 0.949,
+      "match": {
+        "id": null,
+        "name": "Construction de l'usine AP50 du Complexe Jonquière",
+        "jurisdiction": "Quebec (MELCCFP)"
       }
     },
     {
@@ -7957,7 +8023,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 0.84,
+      "score": 0.844,
       "match": {
         "id": null,
         "name": "East Saint John Terminal Slope Stabilization Project",
@@ -8185,7 +8251,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 0.874,
+      "score": 0.842,
       "match": {
         "id": null,
         "name": "Pohénégamook-Picard-Saint-Antonin-Wolastokuk Wind Farm Project",
@@ -8454,27 +8520,6 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
-        "name": "Réhabilitation de l’aménagement hydroélectrique de Carillon",
-        "proponent": "Hydro-Québec",
-        "province": "QC",
-        "sector": "Energy",
-        "value_cad": 750000000.0,
-        "status": "Announced & Planning",
-        "coords": null,
-        "url": null
-      },
-      "verdict": "matched",
-      "score": 0.89,
-      "match": {
-        "id": null,
-        "name": "Aménagement du complexe hydroélectrique de la rivière Romaine",
-        "jurisdiction": "Quebec (MELCCFP)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
         "name": "Wheeler River - Gryphon",
         "proponent": "Denison Mines Corp.",
         "province": "SK",
@@ -8584,7 +8629,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 1.178,
+      "score": 1.174,
       "match": {
         "id": null,
         "name": "Projet minier Rose Lithium-Tantale",
@@ -8836,7 +8881,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 1.384,
+      "score": 1.373,
       "match": {
         "id": null,
         "name": "Projet minier aurifère Wasamac",
@@ -8967,27 +9012,6 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
-        "name": "Aménagement hydroélectrique Onimiki",
-        "proponent": "Énergie Renouvelable Onimiki",
-        "province": "QC",
-        "sector": "Energy",
-        "value_cad": 475000000.0,
-        "status": "Announced & Planning",
-        "coords": null,
-        "url": null
-      },
-      "verdict": "matched",
-      "score": 0.754,
-      "match": {
-        "id": null,
-        "name": "Aménagement du complexe hydroélectrique de la rivière Romaine",
-        "jurisdiction": "Quebec (MELCCFP)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
         "name": "St.Clair Transmission Line",
         "proponent": "Hydro One",
         "province": "ON",
@@ -9001,7 +9025,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 0.78,
+      "score": 0.782,
       "match": {
         "id": null,
         "name": "St. Vital - TransCanada Pipelines Limited (Ile des Chenes) - 115 kV Transmission Line",
@@ -9049,7 +9073,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 0.857,
+      "score": 0.853,
       "match": {
         "id": null,
         "name": "Goose Harbour Lake Wind Farm Project",
@@ -9382,7 +9406,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 0.867,
+      "score": 0.87,
       "match": {
         "id": null,
         "name": "Baie Verte Tailings Managment Facility Expansion, Ming Copper-Gold Mine",
@@ -9435,30 +9459,6 @@
         "id": null,
         "name": "Kinskuch Hydroelectric",
         "jurisdiction": "British Columbia (EAO)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Usine de production d'éthanol cellulosique",
-        "proponent": "Résolve Énergie",
-        "province": "QC",
-        "sector": "Energy",
-        "value_cad": 300000000.0,
-        "status": "Announced & Planning",
-        "coords": [
-          -70.6166642,
-          46.4833314
-        ],
-        "url": null
-      },
-      "verdict": "matched",
-      "score": 0.733,
-      "match": {
-        "id": null,
-        "name": "Construction d'une usine intégrée de production d'engrais et de méthanol",
-        "jurisdiction": "Quebec (MELCCFP)"
       }
     },
     {
@@ -9760,7 +9760,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 0.823,
+      "score": 0.88,
       "match": {
         "id": null,
         "name": "Raccordement du complexe de WM de Sainte-Sophie par Énergir",
@@ -9781,7 +9781,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 0.842,
+      "score": 0.846,
       "match": {
         "id": null,
         "name": "Projet de poste au nord de Blainville à 315 25 kV et sa ligne d’alimentation à 315 kV",
@@ -9898,7 +9898,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 0.949,
+      "score": 0.952,
       "match": {
         "id": null,
         "name": "Projet de poste au nord de Blainville à 315 25 kV et sa ligne d’alimentation à 315 kV",
@@ -10270,7 +10270,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 0.937,
+      "score": 0.889,
       "match": {
         "id": null,
         "name": "Aménagement hydroélectrique Manouane Sipi",
@@ -10411,7 +10411,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 0.805,
+      "score": 0.788,
       "match": {
         "id": null,
         "name": "Private Road, Between Pointe du Bois and Slave Falls Generating Station",
@@ -10432,7 +10432,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 0.898,
+      "score": 0.901,
       "match": {
         "id": null,
         "name": "Projet de poste au nord de Blainville à 315 25 kV et sa ligne d’alimentation à 315 kV",
@@ -10525,7 +10525,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 1.25,
+      "score": 0.87,
       "match": {
         "id": null,
         "name": "Voisey’s Bay Wind Energy Project",
@@ -10549,7 +10549,7 @@
         "url": null
       },
       "verdict": "matched",
-      "score": 0.83,
+      "score": 0.831,
       "match": {
         "id": null,
         "name": "Ice Chute Rehabilitation at Healey Falls Generating Station, Trent River, Campbellford, ON",
@@ -10624,7 +10624,7 @@
       "score": 1.45,
       "match": {
         "id": null,
-        "name": "Projet Authier",
+        "name": "Projet minier Authier",
         "jurisdiction": "Quebec (MELCCFP)"
       }
     },

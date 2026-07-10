@@ -225,6 +225,9 @@
   <div class="filter-group">
     <label for="filter-amis" style="cursor:pointer"><input type="checkbox" id="filter-amis" style="vertical-align:-1px" /> Abandoned mines</label>
   </div>
+  <div class="filter-group">
+    <label for="filter-gaps" style="cursor:pointer" title="Major projects listed in external inventories (NRCan) with no matching record in the EA registries this map harvests"><input type="checkbox" id="filter-gaps" style="vertical-align:-1px" /> Unmatched majors</label>
+  </div>
   <span id="count-badge">– projects</span>
 </div>
 
@@ -457,6 +460,7 @@ function openSidebar(feature, marker) {
     p.rea_number ? ["REA Number", p.rea_number] : null,
     p.doc_count ? ["Documents", `${p.doc_count} total`] : null,
     p.updated ? ["Updated", p.updated] : null,
+    p.note ? ["Note", p.note] : null,
   ].filter(r => r && r[1]);
 
   sidebarMeta.innerHTML = `
@@ -576,11 +580,14 @@ function applyFilters() {
   const search    = document.getElementById("filter-search").value.trim().toLowerCase();
 
   const showAmis = document.getElementById("filter-amis").checked;
+  const showGaps = document.getElementById("filter-gaps").checked;
   const filtered = allFeatures.filter(f => {
     const p = f.properties;
     // Abandoned mines are a reference layer: hidden unless toggled on or
     // explicitly selected in the jurisdiction filter
     if (p.source === "on_amis" && !showAmis && jurVal !== p.jurisdiction) return false;
+    // Unmatched inventory majors (gap overlay): same opt-in treatment
+    if (p.source === "nrcan_gap" && !showGaps && jurVal !== p.jurisdiction) return false;
     if (jurVal && p.jurisdiction !== jurVal) return false;
     if (typeVal && p.category !== typeVal) return false;
     if (yearMin && (p.approval_year || 0) < yearMin) return false;
@@ -615,7 +622,7 @@ function applyFilters() {
 }
 
 // Wire up filter controls
-["filter-jurisdiction","filter-type","filter-year-min","filter-year-max","filter-docs","filter-amis"].forEach(id => {
+["filter-jurisdiction","filter-type","filter-year-min","filter-year-max","filter-docs","filter-amis","filter-gaps"].forEach(id => {
   document.getElementById(id).addEventListener("change", applyFilters);
 });
 let searchTimeout;

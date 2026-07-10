@@ -1,0 +1,138 @@
+{
+ "Federal (IAAC)||Bay du Nord Development Project": {
+  "coords": [
+   -46.7,
+   47.9
+  ],
+  "ext_name": "Bay du Nord Offshore Oil Project",
+  "score": 0.788,
+  "source": "nrcan_mpi"
+ },
+ "Federal (IAAC)||Darlington New Nuclear Power Plant Project": {
+  "ext_name": "New Nuclear Power Plant - Darlington Small Modular Reactor Project",
+  "proponent": "Ontario Power Generation",
+  "score": 0.773,
+  "source": "nrcan_mpi"
+ },
+ "Federal (IAAC)||Lac Doré Vanadium Mine Project": {
+  "coords": [
+   -74.023701,
+   49.835624
+  ],
+  "ext_name": "Lac Doré Vanadium",
+  "proponent": "VanadiumCorp Resource Inc.",
+  "score": 0.923,
+  "source": "nrcan_mpi"
+ },
+ "Federal (IAAC)||White Rose Extension Project": {
+  "coords": [
+   -48.713379,
+   47.100045
+  ],
+  "ext_name": "White Rose Expansion",
+  "score": 1.0,
+  "source": "nrcan_mpi"
+ },
+ "Newfoundland & Labrador (ECC)||Green Bay Ming Mine": {
+  "coords": [
+   -56.0797,
+   49.9237
+  ],
+  "ext_name": "Green Bay Copper-Gold Project (formerly Ming Mine)",
+  "score": 0.784,
+  "source": "nrcan_mpi"
+ },
+ "Newfoundland & Labrador (ECC)||Howse Property Direct Shipping Ore Mine": {
+  "coords": [
+   -67.169373,
+   54.94981
+  ],
+  "ext_name": "Howse Property Direct Shipping Ore Mine",
+  "score": 1.0,
+  "source": "nrcan_mpi"
+ },
+ "Newfoundland & Labrador (ECC)||St. George’s – Great Atlantic Salt Project": {
+  "coords": [
+   -58.529,
+   48.402
+  ],
+  "ext_name": "Great Atlantic Salt Project",
+  "score": 0.82,
+  "source": "nrcan_mpi"
+ },
+ "Newfoundland & Labrador (ECC)||St. Lawrence Fluorspar Mine Reactivation": {
+  "coords": [
+   -55.4682,
+   46.90798
+  ],
+  "ext_name": "St. Lawrence Fluorspar Mine",
+  "score": 0.87,
+  "source": "nrcan_mpi"
+ },
+ "Newfoundland & Labrador (ECC)||Valentine Gold Project": {
+  "coords": [
+   -57.0736,
+   48.4182
+  ],
+  "ext_name": "Valentine Gold Mine",
+  "score": 0.879,
+  "source": "nrcan_mpi"
+ },
+ "Nova Scotia (NSECC)||Goose Harbour Lake Wind Farm Project": {
+  "coords": [
+   -61.3709266,
+   45.6056941
+  ],
+  "ext_name": "Goose Harbour Lake Wind Farm (formerly Pirate Harbour)",
+  "score": 0.801,
+  "source": "nrcan_mpi"
+ },
+ "Nova Scotia (NSECC)||Higgins Mountain Wind Farm Project": {
+  "coords": [
+   -63.607833,
+   45.551195
+  ],
+  "ext_name": "Higgins Mountain Wind Farm",
+  "score": 1.0,
+  "source": "nrcan_mpi"
+ },
+ "Nova Scotia (NSECC)||Weavers Mountain Wind Energy Project": {
+  "coords": [
+   -62.178495,
+   45.526433
+  ],
+  "ext_name": "Weavers Mountain Wind Farm",
+  "score": 0.794,
+  "source": "nrcan_mpi"
+ },
+ "Ontario (Provincial EA)||Hammond Reef gold mine": {
+  "coords": [
+   -91.458,
+   48.938
+  ],
+  "ext_name": "Hammond Reef",
+  "proponent": "Agnico Eagle Mines Limited",
+  "score": 0.815,
+  "source": "nrcan_mpi"
+ },
+ "Ontario (Provincial EA)||Springpole gold project": {
+  "coords": [
+   -92.293,
+   51.3961
+  ],
+  "ext_name": "Springpole Lake Gold Project",
+  "proponent": "First Mining Gold Corp.",
+  "score": 0.901,
+  "source": "nrcan_mpi"
+ },
+ "Ontario (Provincial EA)||Waasigan transmission line project": {
+  "coords": [
+   -89.24195,
+   48.58398
+  ],
+  "ext_name": "Northwest Bulk Transmission Line Waasigan Transmission Line",
+  "proponent": "Hydro One",
+  "score": 0.894,
+  "source": "nrcan_mpi"
+ }
+}

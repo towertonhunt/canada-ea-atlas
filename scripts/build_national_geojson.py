@@ -517,6 +517,66 @@ if os.path.exists(GAZ):
             n_geo += 1
     print(f'gazetteer geocoded: {n_geo}')
 
+# ── Inventory enrichment ────────────────────────────────────────────
+# Backfill proponent/coords from external major-project inventories for
+# features whose registry publishes neither (e.g. Ontario provincial EA
+# is name+url only, which left Waasigan unpinned and Hydro One
+# unsearchable). File produced by scripts/enrich_from_inventories.py;
+# strict bidirectional matching, so fills are trusted but flagged.
+enr_path = os.path.join(RAW, 'inventory_enrichment.json')
+if os.path.exists(enr_path):
+    enr = json.load(open(enr_path))
+    n_p = n_c = 0
+    for f in features:
+        p = f['properties']
+        rec = enr.get(f"{p.get('jurisdiction')}||{p.get('name')}")
+        if not rec:
+            continue
+        if rec.get('proponent') and not p.get('proponent'):
+            p['proponent'] = rec['proponent']
+            p['proponent_source'] = rec['source']
+            n_p += 1
+        if rec.get('coords') and not f.get('geometry'):
+            lon, lat = rec['coords']
+            if 41.5 < lat < 84 and -141.5 < lon < -52:
+                f['geometry'] = {'type': 'Point', 'coordinates': [lon, lat]}
+                p['geocode'] = 'inventory'
+                n_c += 1
+    print(f'inventory enrichment: {n_p} proponents, {n_c} coordinates')
+
+# ── Gap overlay (opt-in layer, like AMIS) ───────────────────────────
+# Majors that external inventories list but no registry we harvest has —
+# pinned so gaps are visible on the map, not buried in gap_report.json.
+gap_path = os.path.join(ROOT, 'data', 'gap_report.json')
+if os.path.exists(gap_path):
+    seen_gap = set()
+    n_gap = 0
+    for x in json.load(open(gap_path)).get('results', []):
+        ext = x.get('ext') or {}
+        c = ext.get('coords')
+        key = (ext.get('name') or '').strip().lower()
+        if x.get('verdict') != 'gap' or not c or not key or key in seen_gap:
+            continue
+        lon, lat = c
+        if not (41.5 < lat < 84 and -141.5 < lon < -52):
+            continue
+        seen_gap.add(key)
+        n_gap += 1
+        add({'type': 'Feature',
+             'geometry': {'type': 'Point', 'coordinates': [lon, lat]},
+             'properties': {
+                 'id': f'nrcangap-{n_gap}',
+                 'name': ext.get('name'),
+                 'type': ext.get('sector') or 'Major project (inventory)',
+                 'proponent': ext.get('proponent'),
+                 'status': ext.get('status'),
+                 'jurisdiction': 'Major projects inventory (unmatched)',
+                 'source': 'nrcan_gap', 'geocode': 'inventory',
+                 'note': ('Listed in an external major-projects inventory; '
+                          'no matching record found in the EA registries '
+                          'this map harvests.')}})
+    print(f'gap overlay: {n_gap} unmatched inventory majors pinned')
+
 json.dump({'type': 'FeatureCollection', 'features': features}, open(OUT, 'w'))
 n_geom = sum(1 for f in features if f.get('geometry'))
 print(f'TOTAL: {len(features)} ({n_geom} mappable) -> {OUT}')

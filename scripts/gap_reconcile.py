@@ -63,10 +63,16 @@ _WS = re.compile(r'[^a-z0-9]+')
 
 
 def tokens(s):
-    """Normalize a name to a set of identifying tokens."""
+    """Normalize a name to a set of identifying tokens. Accents are folded
+    to ASCII first (Côté -> cote, Doré -> dore) — otherwise the ASCII
+    splitter shreds accented words into droppable single letters and
+    French/Indigenous names lose their most distinctive tokens."""
     if not s:
         return set()
-    raw = _WS.split(str(s).lower())
+    import unicodedata
+    s = unicodedata.normalize('NFKD', str(s))
+    s = s.encode('ascii', 'ignore').decode('ascii')
+    raw = _WS.split(s.lower())
     return {t for t in raw if t and t not in STOP and len(t) > 1}
 
 
