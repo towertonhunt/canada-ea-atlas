@@ -79,6 +79,20 @@ sidebars (`docs_path` property -> `data/docs/<jur>/<id>.json`).
   NRCan datasets (Economic Points CSV w/ coords, by-municipality, Northern
   Major Projects, Inventory of Major Alberta Projects) to add as extra
   *.json inventories. validate_data.py WARNs high-value (>=$1B) gaps daily.
+  UPDATE 2026-07-10: 3 inventories live (MPI 474 + Economic Points 998 +
+  AB majors 138 after EA-relevance filter; by-municipality REJECTED —
+  aggregate stats, no names). 'matched' now requires name-only score >=
+  0.5 (NAME_FLOOR; boosts corroborate, don't establish — Ranney/Healey
+  bug); load_ours() excludes nrcan_gap pins (feedback loop);
+  data/gap_overrides.json = human-confirmed verdicts (review-queue
+  output). Overlay 374 pins. REGRESSION GUARD:
+  data/known_projects_checklist.json (13 named majors incl. user-reported
+  OPG/Atura set) checked daily by validate_data.py with expectation
+  ladder present>visible>tracked. STILL-OPEN structural gap: Ontario
+  Class-EA-tier projects (Kakabeka, Matabitchuan GS redevs; Atura Halton
+  Hills GS, Niagara Hydrogen) are in NO harvested source -> durable fix
+  is an ERO notices lane (ero.ontario.ca project notices under EAA) +
+  proponent aliasing (Napanee GS listed under builder TransCanada).
 NOTE: scheduled runs execute the workflow version on MAIN. After fixing a
 lane on the branch, sync to main via PR (user authorized Claude to create
 and merge PRs via GitHub MCP — pattern established PR #1, #2).
