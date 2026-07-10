@@ -212,31 +212,8 @@ jobs:
               print('NO ROWS PARSED — raw samples saved under', RAW, 'for refinement')
               raise SystemExit(0)
 
-          # 2) fuzzy header mapping -> common schema (EN + FR headers)
-          def pick(keys, *wants):
-              for w in wants:
-                  for k in keys:
-                      norm = k.lower().replace('_', ' ').replace('-', ' ')
-                      if w in norm:
-                          return k
-              return None
-
-          keys = list(rows[0].keys())
-          k_name = pick(keys, 'project name', 'nom du projet', 'project', 'nom', 'name', 'title')
-          k_prop = pick(keys, 'proponent', "nom de l'entreprise", 'entreprise',
-                        'company', 'owner', 'developer', 'lead')
-          k_prov = pick(keys, 'province', 'territory', 'p/t', 'jurisdiction', 'region')
-          k_loc  = pick(keys, 'location', 'lieu', 'place', 'municipality')
-          k_sect = pick(keys, 'sector', 'secteur', 'category', 'type', 'industry')
-          k_val  = pick(keys, 'value', 'valeur', 'cost', 'capital', 'investment')
-          k_stat = pick(keys, 'status', 'statut', 'stage', 'phase')
-          k_lat  = pick(keys, 'latitude 1', 'latitude', 'lat')
-          k_lon  = pick(keys, 'longitude 1', 'longitude', 'long', 'lon')
-          k_xy   = pick(keys, 'coordinates', 'coordonnees', 'lat/long', 'latlong')
-          print('mapped:', dict(name=k_name, proponent=k_prop, province=k_prov,
-                                 location=k_loc, sector=k_sect, value=k_val,
-                                 lat=k_lat, lon=k_lon, coords=k_xy))
-
+          # 2) fuzzy header mapping -> common schema (EN + FR headers),
+          # reusable across datasets
           PROV = {'british columbia': 'BC', 'alberta': 'AB', 'saskatchewan': 'SK',
                   'manitoba': 'MB', 'ontario': 'ON', 'quebec': 'QC', 'québec': 'QC',
                   'new brunswick': 'NB', 'nova scotia': 'NS',
@@ -258,60 +235,127 @@ jobs:
                   x *= 1e6
               return x
 
-          def province(row):
-              if k_prov and row.get(k_prov):
-                  return str(row[k_prov]).strip()
-              if k_loc and row.get(k_loc):  # "Kitimat, British Columbia"
-                  low = str(row[k_loc]).lower()
-                  for name, code in PROV.items():
-                      if name in low:
-                          return code
-              return None
+          def normalize(rows):
+              """Fuzzy-map arbitrary EN/FR inventory headers to the schema."""
+              def pick(keys, *wants):
+                  for w in wants:
+                      for k in keys:
+                          norm = k.lower().replace('_', ' ').replace('-', ' ')
+                          if w in norm:
+                              return k
+                  return None
 
-          def coords(row):
-              if k_lat and k_lon:
+              keys = list(rows[0].keys())
+              k_name = pick(keys, 'project name', 'nom du projet', 'project', 'nom', 'name', 'title')
+              k_prop = pick(keys, 'proponent', "nom de l'entreprise", 'entreprise',
+                            'company', 'owner', 'developer', 'lead')
+              k_prov = pick(keys, 'province', 'territory', 'p/t', 'jurisdiction', 'region')
+              k_loc  = pick(keys, 'location', 'lieu', 'place', 'municipality', 'city')
+              k_sect = pick(keys, 'sector', 'secteur', 'category', 'type', 'industry')
+              k_val  = pick(keys, 'value', 'valeur', 'cost', 'capital', 'investment')
+              k_stat = pick(keys, 'status', 'statut', 'stage', 'phase')
+              k_lat  = pick(keys, 'latitude 1', 'latitude', 'lat')
+              k_lon  = pick(keys, 'longitude 1', 'longitude', 'long', 'lon')
+              k_xy   = pick(keys, 'coordinates', 'coordonnees', 'lat/long', 'latlong')
+              print('  mapped:', dict(name=k_name, proponent=k_prop, province=k_prov,
+                                      location=k_loc, sector=k_sect, value=k_val,
+                                      lat=k_lat, lon=k_lon, coords=k_xy))
+
+              def province(row):
+                  if k_prov and row.get(k_prov):
+                      return str(row[k_prov]).strip()
+                  if k_loc and row.get(k_loc):  # "Kitimat, British Columbia"
+                      low = str(row[k_loc]).lower()
+                      for name, code in PROV.items():
+                          if name in low:
+                              return code
+                  return None
+
+              def coords(row):
+                  if k_lat and k_lon:
+                      try:
+                          la, lo = float(row[k_lat]), float(row[k_lon])
+                          if -90 <= la <= 90 and -180 <= lo <= 180 and (la or lo):
+                              return [lo, la]
+                      except Exception:
+                          pass
+                  if k_xy and row.get(k_xy):  # "54.006686, -128.594996"
+                      m = re.findall(r'-?\d+\.\d+', str(row[k_xy]))
+                      if len(m) >= 2:
+                          la, lo = float(m[0]), float(m[1])
+                          if -90 <= la <= 90 and -180 <= lo <= 180:
+                              return [lo, la]
+                  return None
+
+              projects = []
+              if not k_name:
+                  return projects
+              for row in rows:
+                  nm = (str(row.get(k_name)) or '').strip()
+                  if not nm or nm.lower() in ('none', ''):
+                      continue
+                  projects.append({
+                      'ext_id': None,
+                      'name': nm,
+                      'proponent': (str(row.get(k_prop)).strip() or None) if k_prop and row.get(k_prop) else None,
+                      'province': province(row),
+                      'sector': (str(row.get(k_sect)).strip() or None) if k_sect and row.get(k_sect) else None,
+                      'value_cad': num(row.get(k_val)) if k_val else None,
+                      'status': (str(row.get(k_stat)).strip() or None) if k_stat and row.get(k_stat) else None,
+                      'coords': coords(row),
+                      'url': None,
+                  })
+              return projects
+
+          def write_inventory(fname, source, label, projects):
+              json.dump({'source': source, 'source_label': label,
+                         'fetched': '',  # stamped by the commit step
+                         'projects': projects},
+                        open(f'{OUTDIR}/{fname}', 'w'), ensure_ascii=False, indent=1)
+              geo = sum(1 for p in projects if p['coords'])
+              print(f'WROTE {len(projects)} projects to {fname} ({geo} geocoded)')
+
+          write_inventory('nrcan_mpi.json', 'nrcan_mpi',
+                          'NRCan Major Projects Inventory', normalize(rows))
+
+          # 3) extra inventories from the same discovered catalogue —
+          # municipal granularity is the best shot at provincial Class-EA
+          # projects (OPG waterpower, Atura gas plants) that no EA registry
+          # we harvest will ever list.
+          EXTRAS = [
+              ('major projects by municipality', 'nrcan_by_municipality',
+               'NRCan Major projects by municipality'),
+              ('inventory of major alberta projects', 'ab_majors',
+               'Inventory of Major Alberta Projects'),
+          ]
+          for want, src, label in EXTRAS:
+              pkg = next((p for p in pkgs if want in (p.get('title') or '').lower()), None)
+              if not pkg:
+                  print(f'extra "{want}": not in catalogue'); continue
+              res = [( {'JSON': 3, 'CSV': 2, 'XLSX': 1}.get((r.get('format') or '').upper(), 0), r)
+                     for r in (pkg.get('resources') or []) if r.get('url')]
+              res = [x for x in sorted(res, reverse=True, key=lambda t: t[0]) if x[0] > 0]
+              got = []
+              for _, r in res[:4]:
+                  fmt = (r.get('format') or '').upper()
                   try:
-                      la, lo = float(row[k_lat]), float(row[k_lon])
-                      if -90 <= la <= 90 and -180 <= lo <= 180 and (la or lo):
-                          return [lo, la]
-                  except Exception:
-                      pass
-              if k_xy and row.get(k_xy):  # "54.006686, -128.594996"
-                  m = re.findall(r'-?\d+\.\d+', str(row[k_xy]))
-                  if len(m) >= 2:
-                      la, lo = float(m[0]), float(m[1])
-                      if -90 <= la <= 90 and -180 <= lo <= 180:
-                          return [lo, la]
-              return None
-
-          projects = []
-          for row in rows:
-              nm = (str(row.get(k_name)) or '').strip() if k_name else ''
-              if not nm or nm.lower() in ('none', ''):
-                  continue
-              projects.append({
-                  'ext_id': None,
-                  'name': nm,
-                  'proponent': (str(row.get(k_prop)).strip() or None) if k_prop and row.get(k_prop) else None,
-                  'province': province(row),
-                  'sector': (str(row.get(k_sect)).strip() or None) if k_sect and row.get(k_sect) else None,
-                  'value_cad': num(row.get(k_val)) if k_val else None,
-                  'status': (str(row.get(k_stat)).strip() or None) if k_stat and row.get(k_stat) else None,
-                  'coords': coords(row),
-                  'url': None,
-              })
-
-          out = {
-              'source': 'nrcan_mpi',
-              'source_label': 'NRCan Major Projects Inventory',
-              'fetched': '',   # stamped by the commit step's date
-              'projects': projects,
-          }
-          json.dump(out, open(f'{OUTDIR}/nrcan_mpi.json', 'w'),
-                    ensure_ascii=False, indent=1)
-          with_coords = sum(1 for p in projects if p['coords'])
-          print('WROTE', len(projects), 'projects to nrcan_mpi.json',
-                f'({with_coords} geocoded)')
+                      blob = get(r['url'])
+                      base = re.sub(r'[^a-z0-9]+', '_', (r.get('name') or src).lower())[:40]
+                      open(f'{RAW}/{base}.{fmt.lower()}', 'wb').write(blob[:5_000_000])
+                      got = (rows_from_xlsx(blob) if fmt == 'XLSX'
+                             else rows_from_json(blob) if fmt == 'JSON'
+                             else rows_from_csv(blob))
+                  except Exception as e:
+                      print(f'  extra {src} {fmt} fail:', str(e)[:80]); continue
+                  if got:
+                      print(f'extra "{want}": parsed {len(got)} rows from {fmt}')
+                      break
+              if got:
+                  projects = normalize(got)
+                  if projects:
+                      write_inventory(f'{src}.json', src, label, projects)
+                  else:
+                      print(f'extra {src}: no name column found — raw saved for refinement')
           PYEOF
 
       - name: Reconcile against our dataset
@@ -321,16 +365,20 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # stamp fetch date into the inventory file if present
-          if [ -f data/raw/gap_inventories/nrcan_mpi.json ]; then
-            python3 - <<'PY'
-          import json, datetime
-          p='data/raw/gap_inventories/nrcan_mpi.json'
-          d=json.load(open(p)); d['fetched']=datetime.date.today().isoformat()
-          json.dump(d, open(p,'w'), ensure_ascii=False, indent=1)
+          # stamp fetch date into any inventory written this run
+          python3 - <<'PY'
+          import json, glob, datetime
+          for p in glob.glob('data/raw/gap_inventories/*.json'):
+              try:
+                  d = json.load(open(p))
+              except Exception:
+                  continue
+              if isinstance(d, dict) and d.get('fetched') == '':
+                  d['fetched'] = datetime.date.today().isoformat()
+                  json.dump(d, open(p, 'w'), ensure_ascii=False, indent=1)
+                  print('stamped', p)
           PY
-            python3 scripts/gap_reconcile.py || true
-          fi
+          python3 scripts/gap_reconcile.py || true
           git add data/raw/gap_inventories data/gap_report.json
           git commit -m "Gap reconciliation refresh [skip ci]" || echo "nothing to commit"
           for i in 1 2 3 4 5; do

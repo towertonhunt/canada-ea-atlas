@@ -185,13 +185,62 @@ def check_gap_report():
              f'(${x["ext"]["value_cad"]/1e9:.1f}B, {x["ext"].get("province")})')
 
 
+def check_known_projects():
+    """Regression guard: named majors that must stay findable (see the
+    checklist's _doc). Levels: present (map feature) > visible (feature or
+    gap pin) > tracked (feature, pin, or weak/review row in gap_report).
+    Below-expectation = WARN — the signal a major is hiding again."""
+    path = os.path.join(ROOT, 'data', 'known_projects_checklist.json')
+    if not os.path.exists(path):
+        return
+    import unicodedata
+
+    def fold(s):
+        s = unicodedata.normalize('NFKD', str(s or ''))
+        return s.encode('ascii', 'ignore').decode('ascii').lower()
+
+    checks = json.load(open(path))['checks']
+    gj = json.load(open(os.path.join(ROOT, 'data', 'projects_canada.geojson')))
+    feat_names, pin_names = [], []
+    for f in gj['features']:
+        p = f['properties']
+        (pin_names if p.get('source') == 'nrcan_gap' else feat_names).append(
+            fold(p.get('name')))
+    review_names = []
+    gr_path = os.path.join(ROOT, 'data', 'gap_report.json')
+    if os.path.exists(gr_path):
+        for x in json.load(open(gr_path)).get('results', []):
+            if x.get('verdict') in ('weak', 'gap'):
+                review_names.append(fold((x.get('ext') or {}).get('name')))
+
+    LEVELS = {'present': 3, 'visible': 2, 'tracked': 1}
+    n_ok = 0
+    for c in checks:
+        variants = [fold(v) for v in c['variants']]
+        if any(v in n for v in variants for n in feat_names):
+            got, got_lvl = 'present', 3
+        elif any(v in n for v in variants for n in pin_names):
+            got, got_lvl = 'gap-pinned', 2
+        elif any(v in n for v in variants for n in review_names):
+            got, got_lvl = 'review-row', 1
+        else:
+            got, got_lvl = 'ABSENT', 0
+        if got_lvl >= LEVELS[c['expect']]:
+            n_ok += 1
+        else:
+            warn(f'known project below expectation: {c["name"]} — '
+                 f'{got} (expected >= {c["expect"]}) · {c["why"]}')
+    print(f'  ok  known projects: {n_ok}/{len(checks)} at or above expectation')
+
+
 def main():
     print('Validating data artifacts...\n')
     for name, fn in (('conditions', check_conditions),
                      ('geojson', check_geojson),
                      ('corpus search', check_corpus_search),
                      ('predictions', check_predictions),
-                     ('gap report', check_gap_report)):
+                     ('gap report', check_gap_report),
+                     ('known projects', check_known_projects)):
         print(f'[{name}]')
         try:
             fn()

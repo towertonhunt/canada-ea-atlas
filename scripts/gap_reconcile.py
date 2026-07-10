@@ -131,6 +131,10 @@ def load_ours():
     rows = []
     for f in d['features']:
         p = f['properties']
+        if p.get('source') == 'nrcan_gap':
+            # overlay pins are BUILT from the gap report — matching against
+            # them would make every inventory project "matched" next run
+            continue
         g = f.get('geometry')
         coords = None
         if g and g.get('type') == 'Point' and g.get('coordinates'):
@@ -149,17 +153,22 @@ def load_ours():
 
 
 def best_match(ext, ours, idf):
-    """Return (best_score, best_row) for one external project. Score is
-    IDF-weighted name coverage in [0,1], plus small proponent/geo boosts."""
+    """Return (best_score, best_name_score, best_row) for one external
+    project. Score is IDF-weighted name coverage in [0,1] plus small
+    proponent/geo boosts; the name-only component is returned separately
+    because a 'matched' verdict must rest on the NAME, not on boosts —
+    a same-proponent facility 5 km away is a different project (the
+    Ranney Falls / Healey Falls case)."""
     et = tokens(ext.get('name'))
     ep = tokens(ext.get('proponent'))
     ec = ext.get('coords')
     ec = tuple(ec) if isinstance(ec, list) and len(ec) == 2 else None
-    best_s, best_r = 0.0, None
+    best_s, best_ns, best_r = 0.0, 0.0, None
     for r in ours:
-        s = name_score(et, r['name_tok'], idf)
-        if s == 0:
+        ns = name_score(et, r['name_tok'], idf)
+        if ns == 0:
             continue  # need at least one shared distinctive token to anchor
+        s = ns
         # proponent agreement is a strong corroborator
         if ep and r['prop_tok']:
             s += 0.25 * prop_score(ep, r['prop_tok'], idf)
@@ -174,12 +183,41 @@ def best_match(ext, ours, idf):
             elif dkm > 150 and s < STRONG:
                 s -= 0.15  # name looked similar but far away -> distrust
         if s > best_s:
-            best_s, best_r = s, r
-    return best_s, best_r
+            best_s, best_ns, best_r = s, ns, r
+    return best_s, best_ns, best_r
 
 
-def classify(score):
-    if score >= STRONG:
+# a 'matched' verdict needs the name itself to carry at least this much;
+# proponent+proximity boosts corroborate identity, they don't establish it
+NAME_FLOOR = 0.50
+
+
+def _fold(s):
+    import unicodedata
+    s = unicodedata.normalize('NFKD', str(s or ''))
+    return s.encode('ascii', 'ignore').decode('ascii').lower().strip()
+
+
+def _load_overrides():
+    """Human-confirmed verdicts (data/gap_overrides.json) — the review
+    queue's output. Keyed by folded external name."""
+    path = os.path.join(HERE, 'data', 'gap_overrides.json')
+    if not os.path.exists(path):
+        return {}
+    d = json.load(open(path))
+    out = {}
+    for nm in d.get('force_gap') or []:
+        out[_fold(nm)] = 'gap'
+    for nm in d.get('force_matched') or []:
+        out[_fold(nm)] = 'matched'
+    return out
+
+
+OVERRIDES = _load_overrides()
+
+
+def classify(score, name_only):
+    if score >= STRONG and name_only >= NAME_FLOOR:
         return 'matched'
     if score >= FLOOR:
         return 'weak'
@@ -227,12 +265,18 @@ def main():
             'count': len(projs),
         })
         for ext in projs:
-            score, r = best_match(ext, ours, idf)
+            score, name_only, r = best_match(ext, ours, idf)
+            verdict = classify(score, name_only)
+            forced = OVERRIDES.get(_fold(ext.get('name')))
+            if forced and forced != verdict:
+                verdict = forced
             results.append({
                 'source': inv.get('source') or os.path.basename(path),
                 'ext': ext,
-                'verdict': classify(score),
+                'verdict': verdict,
+                'overridden': bool(forced),
                 'score': round(score, 3),
+                'name_score': round(name_only, 3),
                 'match': None if r is None else {
                     'id': r['id'], 'name': r['name'],
                     'jurisdiction': r['jurisdiction'],
