@@ -1,0 +1,51 @@
+{
+ "source": "ero_on",
+ "source_label": "Environmental Registry of Ontario (EA notices)",
+ "fetched": "2026-07-10",
+ "projects": [
+  {
+   "ext_id": "019-2557",
+   "name": "Technical Guidance for Soil Vapour Intrusion Assessment",
+   "proponent": null,
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Policy",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/019-2557"
+  },
+  {
+   "ext_id": "026-0399",
+   "name": "Hunt-Cornelius Rehabilitation Project",
+   "proponent": null,
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Bulletin",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0399"
+  },
+  {
+   "ext_id": "026-0414",
+   "name": "Streamlining requirements for waste disposal site service area and fill rate changes",
+   "proponent": "This proposal would simplify requirements by relying on the",
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Regulation",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0414"
+  },
+  {
+   "ext_id": "026-0415",
+   "name": "Proposed Environmental Assessment Act amendments to improve the comprehensive environmental assessment process",
+   "proponent": "providing discretion for the Minister to change the deadline for deciding an application or referring an application to Cabinet or the Tribunal for a decision",
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Act",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0415"
+  }
+ ]
+}

@@ -7,6 +7,12 @@
       "count": 138
     },
     {
+      "source": "ero_on",
+      "label": "Environmental Registry of Ontario (EA notices)",
+      "fetched": "2026-07-10",
+      "count": 4
+    },
+    {
       "source": "nrcan_mpi",
       "label": "NRCan Major Projects Inventory",
       "fetched": "2026-07-10",
@@ -20,9 +26,9 @@
     }
   ],
   "summary": {
-    "gap": 602,
+    "gap": 605,
     "weak": 665,
-    "matched": 343
+    "matched": 344
   },
   "thresholds": {
     "strong": 0.72,
@@ -13954,6 +13960,75 @@
         "id": null,
         "name": "Atikameksheng Anishnawbek First Nation Business Park",
         "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-2557",
+        "name": "Technical Guidance for Soil Vapour Intrusion Assessment",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Policy",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-2557"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.161,
+      "name_score": 0.161,
+      "match": {
+        "id": null,
+        "name": "Technical and Protective Operations Facility (TPOF) Training Compounds",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0414",
+        "name": "Streamlining requirements for waste disposal site service area and fill rate changes",
+        "proponent": "This proposal would simplify requirements by relying on the",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Regulation",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0414"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.211,
+      "name_score": 0.211,
+      "match": {
+        "id": null,
+        "name": "Modification and Expansion of Waste Disposal Site in Natuashish, NL",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0415",
+        "name": "Proposed Environmental Assessment Act amendments to improve the comprehensive environmental assessment process",
+        "proponent": "providing discretion for the Minister to change the deadline for deciding an application or referring an application to Cabinet or the Tribunal for a decision",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Act",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0415"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.245,
+      "name_score": 0.245,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
       }
     },
     {
@@ -39006,6 +39081,29 @@
         "id": null,
         "name": "Fuel Facility Oil Water Separator Replacement – 5th Canadian Division Support Base Gagetown",
         "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0399",
+        "name": "Hunt-Cornelius Rehabilitation Project",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0399"
+      },
+      "verdict": "matched",
+      "overridden": false,
+      "score": 0.778,
+      "name_score": 0.778,
+      "match": {
+        "id": null,
+        "name": "Hunt, Cornelius",
+        "jurisdiction": "Ontario (Abandoned Mines)"
       }
     },
     {
