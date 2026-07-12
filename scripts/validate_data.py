@@ -257,8 +257,26 @@ def check_api():
             json.load(open(p))
     if missing:
         fail(f'{missing} deep-tier detail files missing')
+
+    # Northey landmark cases: every crosswalk map id must be a real feature,
+    # carry a detail file with a northey block, and set the index nth flag.
+    id_set = set(ids)
+    nth_ids = meta.get('northey_ids', [])
+    nth_missing = 0
+    for pid in nth_ids:
+        if pid not in id_set:
+            fail(f'northey id {pid} not in api index')
+        p = os.path.join(ROOT, 'data', 'api', 'project', f'{pid}.json')
+        if not os.path.exists(p) or 'northey' not in json.load(open(p)):
+            nth_missing += 1
+    if nth_missing:
+        fail(f'{nth_missing} northey detail files missing or lack northey block')
+    flagged = sum(1 for r in idx if r.get('nth'))
+    if flagged != len(nth_ids):
+        fail(f'index nth flags ({flagged}) != northey_ids ({len(nth_ids)})')
+
     print(f'  ok  api: {len(idx)} rows, {len(meta.get("deep_tier_ids", []))} '
-          'detail files')
+          f'detail files, {len(nth_ids)} Northey landmark cases')
 
 
 def main():

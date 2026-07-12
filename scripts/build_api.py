@@ -30,6 +30,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API = os.path.join(ROOT, 'data', 'api')
 GEOJSON = os.path.join(ROOT, 'data', 'projects_canada.geojson')
 FRAMEWORKS = os.path.join(ROOT, 'data', 'process_frameworks.json')
+NORTHEY = os.path.join(ROOT, 'data', 'northey_subjects.json')
 
 JUR_PREFIX = {
     'Federal (IAAC)': 'fed', 'British Columbia (EAO)': 'bc',
@@ -168,12 +169,53 @@ def load_commitments():
     return by_project
 
 
+# ── Northey landmark cases (crosswalk) ──────────────────────────────
+NORTHEY_SOURCE = ("Rodney Northey, A Guide to Canada's Impact Assessment "
+                  "Act (2023)")
+
+
+def load_northey():
+    """map_id -> {source, citations:[...]} for Northey-cited landmark projects.
+
+    Published facts only: the citation reference (year, EA regime, panel type,
+    registry source) — not book excerpt text, which stays in private storage.
+    Groups by pid because one project can carry more than one citation (e.g.
+    the 2016 TMX report and the 2019 reconsideration).
+    """
+    if not os.path.exists(NORTHEY):
+        return {}
+    doc = json.load(open(NORTHEY))
+    by_pid = {}
+    for s in doc.get('subjects', []):
+        pid = s.get('map_id')
+        if not pid:
+            continue
+        by_pid.setdefault(pid, {'source': NORTHEY_SOURCE, 'citations': []})
+        by_pid[pid]['citations'].append({
+            'shorthand': s['shorthand'],
+            'report_year': s['report_year'],
+            'ea_regime': s['ea_regime'],
+            'assessment_type': s['assessment_type'],
+            'registry_source': s['registry_source'],
+            'confidence': s['confidence'],
+            'note': s.get('note'),
+        })
+    for blk in by_pid.values():
+        blk['citations'].sort(key=lambda c: c['report_year'])
+        blk['year'] = blk['citations'][0]['report_year']
+    return by_pid
+
+
 def main():
     os.makedirs(os.path.join(API, 'project'), exist_ok=True)
     gj = json.load(open(GEOJSON))
     commitments = load_commitments()
+    northey = load_northey()
+    northey_seen = set()
 
     index, details, seen_ids = [], [], set()
+    deep_ids = []
+    northey_map = []  # sidecar for the map: matched by (jurisdiction, name)
     depth_counts = {1: 0, 2: 0, 3: 0}
     for f in gj['features']:
         p = f['properties']
@@ -184,6 +226,11 @@ def main():
         seen_ids.add(pid)
 
         cs = commitments.get(fold(name))
+        nth = northey.get(pid)
+        if nth:
+            northey_seen.add(pid)
+            northey_map.append({'j': jur, 'n': name, 'y': nth['year'],
+                                'regime': nth['citations'][0]['ea_regime']})
         has_docs = bool(p.get('docs_path') or (p.get('doc_count') or 0) > 0
                         or p.get('has_tech_docs'))
         depth = 3 if cs else (2 if has_docs else 1)
@@ -197,11 +244,17 @@ def main():
                'c': coords, 'd': depth, 'y': p.get('approval_year'),
                'dp': p.get('docs_path'), 'g': p.get('geocode'),
                'src': p.get('source'),
+               'nth': nth['year'] if nth else None,  # landmark-case flag/year
                'proc': {k: v for k, v in proc.items() if v is not None}}
         index.append({k: v for k, v in row.items() if v is not None})
 
+        # A detail file is emitted for any project with commitments OR a Northey
+        # citation, so every landmark case has a project page even with no
+        # analysed commitments.
         if cs:
-            details.append((pid, {
+            deep_ids.append(pid)
+        if cs or nth:
+            det = {
                 'id': pid, 'name': name, 'jurisdiction': jur,
                 'sector': p.get('category'), 'status': p.get('status'),
                 'proponent': p.get('proponent'), 'coords': coords,
@@ -209,8 +262,11 @@ def main():
                 'type': p.get('type'), 'docs_path': p.get('docs_path'),
                 'geocode': p.get('geocode'), 'process': proc,
                 'note': p.get('note'),
-                'commitments': cs,
-            }))
+                'commitments': cs or [],
+            }
+            if nth:
+                det['northey'] = nth
+            details.append((pid, det))
 
     json.dump(index, open(os.path.join(API, 'projects.json'), 'w'),
               ensure_ascii=False, separators=(',', ':'))
@@ -223,7 +279,8 @@ def main():
         sectors[row['s']] = sectors.get(row['s'], 0) + 1
     meta = {
         'total': len(index), 'depth': depth_counts,
-        'deep_tier_ids': [pid for pid, _ in details],
+        'deep_tier_ids': deep_ids,
+        'northey_ids': sorted(northey_seen),
         'sectors': sectors,
         'jurisdictions': sorted({r['j'] for r in index if r['j']}),
         'frameworks': 'data/process_frameworks.json',
@@ -231,11 +288,24 @@ def main():
     json.dump(meta, open(os.path.join(API, 'meta.json'), 'w'),
               ensure_ascii=False, indent=1)
 
+    # Sidecar the legacy map cross-references by (jurisdiction, name) — the same
+    # identity the stable id is hashed from — to badge Northey landmark cases.
+    json.dump({'source': NORTHEY_SOURCE,
+               'projects': sorted(northey_map, key=lambda x: x['y'])},
+              open(os.path.join(API, 'northey.json'), 'w'), ensure_ascii=False,
+              indent=1)
+
     sz = os.path.getsize(os.path.join(API, 'projects.json')) / 1e6
     print(f'index: {len(index)} rows, {sz:.1f} MB '
           f'(deep {depth_counts[3]} / documented {depth_counts[2]} / '
           f'mapped {depth_counts[1]})')
-    print(f'detail files: {len(details)} deep-tier projects')
+    print(f'detail files: {len(details)} '
+          f'({len(deep_ids)} deep-tier + {len(northey_seen)} Northey-matched)')
+    n_expected = len({s['map_id'] for s in
+                      json.load(open(NORTHEY)).get('subjects', [])
+                      if s.get('map_id')}) if os.path.exists(NORTHEY) else 0
+    print(f'northey: {len(northey_seen)}/{n_expected} crosswalk map ids '
+          f'matched features')
     exact = sum(1 for r in index if r['proc'].get('conf') == 'e')
     inf = sum(1 for r in index if r['proc'].get('conf') == 'i')
     print(f'process: {exact} exact, {inf} inferred, '
