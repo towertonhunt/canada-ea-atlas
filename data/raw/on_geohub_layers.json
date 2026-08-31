@@ -1,31 +1,5 @@
 [
  {
-  "title": "Flood Flow Statistics",
-  "landing": "https://geohub.lio.gov.on.ca/documents/mnrf::flood-flow-statistics",
-  "rest": [
-   "https://ws.gisetl.lrc.gov.on.ca/fmedatadownload/Packages/Flood-Flow-Stats.zip"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Natural Heritage System Area",
-  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::natural-heritage-system-area",
-  "rest": [
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open06/MapServer/22",
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open06/MapServer/WMSServer?request=GetCapabilities&service=WMS"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Areas of Natural and Scientific Interest (ANSI)",
-  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::areas-of-natural-and-scientific-interest-ansi",
-  "rest": [
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/3",
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open05/MapServer/WMSServer?request=GetCapabilities&service=WMS"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
   "title": "Aggregate site unrehabilitated",
   "landing": "https://geohub.lio.gov.on.ca/datasets/lio::aggregate-site-unrehabilitated",
   "rest": [
@@ -55,101 +29,6 @@
   "landing": "https://geohub.lio.gov.on.ca/documents/lio::ecological-land-classification",
   "rest": [
    "https://ws.gisetl.lrc.gov.on.ca/fmedatadownload/Packages/ELC.zip"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Wetland",
-  "landing": "https://geohub.lio.gov.on.ca/datasets/mnrf::wetland",
-  "rest": [
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/15",
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open01/MapServer/WMSServer?request=GetCapabilities&service=WMS"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Ontario Hydro Network (OHN) - Waterbody",
-  "landing": "https://geohub.lio.gov.on.ca/datasets/mnrf::ontario-hydro-network-ohn-waterbody",
-  "rest": [
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/25",
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open01/MapServer/WMSServer?request=GetCapabilities&service=WMS"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "First Nation Reserve",
-  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::first-nation-reserve",
-  "rest": [
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open03/MapServer/12",
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open03/MapServer/WMSServer?request=GetCapabilities&service=WMS"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Aggregate site authorized - partial surrender",
-  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::aggregate-site-authorized-partial-surrender",
-  "rest": [
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/23",
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open05/MapServer/WMSServer?request=GetCapabilities&service=WMS"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Aggregate site authorized - active",
-  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::aggregate-site-authorized-active",
-  "rest": [
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/17",
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open05/MapServer/WMSServer?request=GetCapabilities&service=WMS"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Make a Map: Natural Heritage Areas",
-  "landing": "https://geohub.lio.gov.on.ca/apps/lio::make-a-map-natural-heritage-areas",
-  "rest": [
-   "https://www.lioapplications.lrc.gov.on.ca/Natural_Heritage/index.html?viewer=Natural_Heritage.Natural_Heritage&locale=en-CA"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Ontario Hydro Network (OHN) - Watercourse",
-  "landing": "https://geohub.lio.gov.on.ca/datasets/mnrf::ontario-hydro-network-ohn-watercourse",
-  "rest": [
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/26",
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open01/MapServer/WMSServer?request=GetCapabilities&service=WMS"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Conservation reserve regulated",
-  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::conservation-reserve-regulated",
-  "rest": [
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open03/MapServer/2",
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open03/MapServer/WMSServer?request=GetCapabilities&service=WMS"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Forest Resources Inventory",
-  "landing": "https://geohub.lio.gov.on.ca/pages/lio::forest-resources-inventory",
-  "rest": [],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Ontario waterbody location identifier",
-  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::ontario-waterbody-location-identifier",
-  "rest": [
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open08/MapServer/17",
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open08/MapServer/WMSServer?request=GetCapabilities&service=WMS"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Aggregate site authorized - inactive",
-  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::aggregate-site-authorized-inactive",
-  "rest": [
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/16",
-   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open05/MapServer/WMSServer?request=GetCapabilities&service=WMS"
   ],
   "catalog": "geohub.lio.gov.on.ca"
  },
@@ -186,47 +65,73 @@
   "catalog": "geohub.lio.gov.on.ca"
  },
  {
+  "title": "Wetland",
+  "landing": "https://geohub.lio.gov.on.ca/datasets/mnrf::wetland",
+  "rest": [
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/15",
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open01/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Ontario Hydro Network (OHN) - Waterbody",
+  "landing": "https://geohub.lio.gov.on.ca/datasets/mnrf::ontario-hydro-network-ohn-waterbody",
+  "rest": [
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/25",
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open01/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Aggregate site authorized - partial surrender",
+  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::aggregate-site-authorized-partial-surrender",
+  "rest": [
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/23",
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open05/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Aggregate site authorized - active",
+  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::aggregate-site-authorized-active",
+  "rest": [
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/17",
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open05/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Areas of Natural and Scientific Interest (ANSI)",
+  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::areas-of-natural-and-scientific-interest-ansi",
+  "rest": [
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/3",
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open05/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Ontario Hydro Network (OHN) - Watercourse",
+  "landing": "https://geohub.lio.gov.on.ca/datasets/mnrf::ontario-hydro-network-ohn-watercourse",
+  "rest": [
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/26",
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open01/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Ontario waterbody location identifier",
+  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::ontario-waterbody-location-identifier",
+  "rest": [
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open08/MapServer/17",
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open08/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
   "title": "Ministry of Transportation Aggregate sites",
   "landing": "https://geohub.lio.gov.on.ca/documents/lio::ministry-of-transportation-aggregate-sites",
   "rest": [
    "https://ws.gisetl.lrc.gov.on.ca/fmedatadownload/Packages/AggregateSitesMTO.zip"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Forest Resources Inventory leaf-on LiDAR",
-  "landing": "https://geohub.lio.gov.on.ca/maps/lio::forest-resources-inventory-leaf-on-lidar",
-  "rest": [
-   "https://services1.arcgis.com/TJH5KDher0W13Kgo/arcgis/rest/services/FRI_Data_Access/FeatureServer/0",
-   "https://ws.geoservices.lrc.gov.on.ca/arcgis5/rest/services/Elevation/FRI_CHM_SPL/ImageServer"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Forest Resources Inventory Packaged Products - Version 2",
-  "landing": "https://geohub.lio.gov.on.ca/maps/lio::forest-resources-inventory-packaged-products-version-2",
-  "rest": [],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Forest Resource Inventory Term 2 (T2) 2018-2028",
-  "landing": "https://geohub.lio.gov.on.ca/maps/lio::forest-resource-inventory-term-2-t2-2018-2028",
-  "rest": [],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Forest Resources Inventory Packaged Products - Version 1",
-  "landing": "https://geohub.lio.gov.on.ca/documents/lio::forest-resources-inventory-packaged-products-version-1",
-  "rest": [
-   "https://lio.maps.arcgis.com/sharing/rest/content/items/557dad4ba2574db085c6e0a3d3a32e30/data"
-  ],
-  "catalog": "geohub.lio.gov.on.ca"
- },
- {
-  "title": "Forest Resource Inventory (FRI) 2007-2011 Orthophotography",
-  "landing": "https://geohub.lio.gov.on.ca/documents/lio::forest-resource-inventory-fri-2007-2011-orthophotography",
-  "rest": [
-   "https://www.sdc.gov.on.ca/sites/MNRF-PublicDocs/EN/CMID/FRI_CutTile_Index_Complete.zip"
   ],
   "catalog": "geohub.lio.gov.on.ca"
  },
@@ -249,6 +154,101 @@
   "landing": "https://geohub.lio.gov.on.ca/documents/lio::natural-heritage-values-areas",
   "rest": [
    "https://forms.office.com/Pages/ResponsePage.aspx?id=KRLczSqsl0u3ig5crLWGXNa0411DWIhEm5hXfTKiiaZUOFEyUVBaRzdLU1ZTTEZYMzFXQzIzNEhHRCQlQCN0PWcu"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "First Nation Reserve",
+  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::first-nation-reserve",
+  "rest": [
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open03/MapServer/12",
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open03/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Make a Map: Natural Heritage Areas",
+  "landing": "https://geohub.lio.gov.on.ca/apps/lio::make-a-map-natural-heritage-areas",
+  "rest": [
+   "https://www.lioapplications.lrc.gov.on.ca/Natural_Heritage/index.html?viewer=Natural_Heritage.Natural_Heritage&locale=en-CA"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Forest Resources Inventory leaf-on LiDAR",
+  "landing": "https://geohub.lio.gov.on.ca/maps/lio::forest-resources-inventory-leaf-on-lidar",
+  "rest": [
+   "https://services1.arcgis.com/TJH5KDher0W13Kgo/arcgis/rest/services/FRI_Data_Access/FeatureServer/0",
+   "https://ws.geoservices.lrc.gov.on.ca/arcgis5/rest/services/Elevation/FRI_CHM_SPL/ImageServer"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Forest Resource Inventory Term 2 (T2) 2018-2028",
+  "landing": "https://geohub.lio.gov.on.ca/maps/lio::forest-resource-inventory-term-2-t2-2018-2028",
+  "rest": [],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Forest Resources Inventory Packaged Products - Version 1",
+  "landing": "https://geohub.lio.gov.on.ca/documents/lio::forest-resources-inventory-packaged-products-version-1",
+  "rest": [
+   "https://lio.maps.arcgis.com/sharing/rest/content/items/557dad4ba2574db085c6e0a3d3a32e30/data"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Flood Flow Statistics",
+  "landing": "https://geohub.lio.gov.on.ca/documents/mnrf::flood-flow-statistics",
+  "rest": [
+   "https://ws.gisetl.lrc.gov.on.ca/fmedatadownload/Packages/Flood-Flow-Stats.zip"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Forest Resources Inventory",
+  "landing": "https://geohub.lio.gov.on.ca/pages/lio::forest-resources-inventory",
+  "rest": [],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Forest Resources Inventory Packaged Products - Version 2",
+  "landing": "https://geohub.lio.gov.on.ca/maps/lio::forest-resources-inventory-packaged-products-version-2",
+  "rest": [],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Natural Heritage System Area",
+  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::natural-heritage-system-area",
+  "rest": [
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open06/MapServer/22",
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open06/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Aggregate site authorized - inactive",
+  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::aggregate-site-authorized-inactive",
+  "rest": [
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/16",
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open05/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Conservation reserve regulated",
+  "landing": "https://geohub.lio.gov.on.ca/datasets/lio::conservation-reserve-regulated",
+  "rest": [
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open03/MapServer/2",
+   "https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/LIO_OPEN_DATA/LIO_Open03/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+  ],
+  "catalog": "geohub.lio.gov.on.ca"
+ },
+ {
+  "title": "Forest Resource Inventory (FRI) 2007-2011 Orthophotography",
+  "landing": "https://geohub.lio.gov.on.ca/documents/lio::forest-resource-inventory-fri-2007-2011-orthophotography",
+  "rest": [
+   "https://www.sdc.gov.on.ca/sites/MNRF-PublicDocs/EN/CMID/FRI_CutTile_Index_Complete.zip"
   ],
   "catalog": "geohub.lio.gov.on.ca"
  }
