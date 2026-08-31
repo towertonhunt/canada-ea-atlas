@@ -9,8 +9,8 @@
     {
       "source": "ero_on",
       "label": "Environmental Registry of Ontario (EA notices)",
-      "fetched": "2026-07-10",
-      "count": 56
+      "fetched": "2026-08-31",
+      "count": 106
     },
     {
       "source": "nrcan_mpi",
@@ -26,9 +26,9 @@
     }
   ],
   "summary": {
-    "gap": 644,
-    "weak": 676,
-    "matched": 346
+    "gap": 675,
+    "weak": 693,
+    "matched": 348
   },
   "thresholds": {
     "strong": 0.72,
@@ -14880,6 +14880,715 @@
         "id": null,
         "name": "Ellsin Environmental Ltd. Sault Ste. Marie tire waste thermal treatment facility",
         "jurisdiction": "Ontario (Provincial EA)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-3937",
+        "name": "Aligning Ontario’s environmental assessment thresholds for transmission lines with federal requirements",
+        "proponent": "As part of our efforts to modernize the environmental assessment program, we also plan to update our Code of Practice for Consultation in Ontario’s Environmental Assessment Process and will be engagin",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Regulation",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-3937"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.197,
+      "name_score": 0.176,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-4189",
+        "name": "Clarifying the authority to change the classes of projects to which a class environmental assessment process applies",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Act",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-4189"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.166,
+      "name_score": 0.166,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-4219",
+        "name": "Moving to a project list approach under the Environmental Assessment Act",
+        "proponent": "These may include but are not limited to providing proponents with earlier, more detailed information on consultation requirements at the start of the",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Regulation",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-4219"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.236,
+      "name_score": 0.236,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-4300",
+        "name": "Exempting five Lakes and Rivers Improvement Act orders from certain requirements of Part II of the Environmental Bill of Rights, 1993 through proposed amendments to Ontario Regulation 73/94",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Regulation",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-4300"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.102,
+      "name_score": 0.102,
+      "match": {
+        "id": null,
+        "name": "Public Consultation - Water Protection Act, Watershed Management Plan Regulation",
+        "jurisdiction": "Manitoba (Environment Act)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-4428",
+        "name": "Extending the expiry date for Environmental Assessment Act approvals for certain projects",
+        "proponent": "The following is a summary of the comments received on this initiative and how we considered and responded to them.",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-4428"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.212,
+      "name_score": 0.212,
+      "match": {
+        "id": null,
+        "name": "Westshore Terminals Berth 2 Mooring Dolphin Upgrades - Second Extension to Expiry Date",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-4867",
+        "name": "Environmental assessment requirements for advanced recycling facilities under the Environmental Assessment Act (EAA)",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Regulation",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-4867"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.197,
+      "name_score": 0.197,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-4907",
+        "name": "Roundhouse Centre Windsor Inc. & Roundhouse Centre Windsor II Inc.",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-4907"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.248,
+      "name_score": 0.248,
+      "match": {
+        "id": 221,
+        "name": "Windsor Solar Project",
+        "jurisdiction": "Ontario (REA)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-5069",
+        "name": "Notice of amendment: Municipal Class Environmental Assessment",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-5069"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.334,
+      "name_score": 0.334,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-5083",
+        "name": "Notice of amendment: Ontario Waterpower Association Class Environmental Assessment",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-5083"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.276,
+      "name_score": 0.276,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-5216",
+        "name": "Notice of Commencement for the Category C Class Environmental Assessment under the Public Work Class Environmental Assessment for the Ontario Place Redevelopment",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-5216"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.181,
+      "name_score": 0.181,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-5314",
+        "name": "Greenstone Gold Mines GP Inc.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-5314"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.381,
+      "name_score": 0.381,
+      "match": {
+        "id": null,
+        "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
+        "jurisdiction": "Nova Scotia (NSECC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-5346",
+        "name": "Notice of Amendment: Class Environmental Assessment for Minor Transmission Facilities",
+        "proponent": "Following consultation with Indigenous communities, stakeholders, general public and government agencies, changes were proposed to improve the environmental assessment program, as it applies to minor",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-5346"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.276,
+      "name_score": 0.254,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-5820",
+        "name": "Environmental Assessment Act Exemption to Support Bombardier’s New  Manufacturing Facility",
+        "proponent": "We heard from the proponents that waiting an additional 30 days, until late-September 2022, to begin implementing the project would cause critical delays to the planned phased construction for the roa",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-5820"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.246,
+      "name_score": 0.246,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-6516",
+        "name": "Providing Authority to Waive or Alter the 30-day Waiting Period for Class Environmental Assessment Projects",
+        "proponent": "The purpose of this proposal is to provide the Minister with authority to waive or alter the 30-day waiting period following the comment period.",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-6516"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.153,
+      "name_score": 0.153,
+      "match": {
+        "id": null,
+        "name": "To Discharge Wastes Or Contaminants Into The Air From The Operation Of A Class 2A Incinerator",
+        "jurisdiction": "Manitoba (Environment Act)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-6594",
+        "name": "Sukhwinder Singh Bhatti",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-6594"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.0,
+      "name_score": 0.0,
+      "match": null
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-6693",
+        "name": "Evaluating municipal class environmental assessment requirements for infrastructure projects",
+        "proponent": "Ontario is proposing sensible, practical changes that would continue to provide strong environmental oversight while reducing delays to getting shovels in the ground on projects that matter most to On",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Policy",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-6693"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.27,
+      "name_score": 0.26,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-6705",
+        "name": "Improving timelines for comprehensive environmental assessments",
+        "proponent": "Ontario is proposing sensible, practical changes that would continue to provide strong environmental oversight while reducing delays to getting shovels in the ground on projects that matter most to On",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-6705"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.19,
+      "name_score": 0.19,
+      "match": {
+        "id": null,
+        "name": "Improving the reliability of Obedjiwan's stand-alone power grid by adding the equipment and infrastructure needed to integrate renewable energy from the future forest biomass power plant.",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-7311",
+        "name": "Ontario Place Redevelopment under the Class Environmental Assessment for Public Works",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Act",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-7311"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.279,
+      "name_score": 0.279,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-7678",
+        "name": "Notice of amendment: Class Environmental Assessment for Provincial Transportation Facilities",
+        "proponent": "Note: the amended Class",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-7678"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.387,
+      "name_score": 0.387,
+      "match": {
+        "id": null,
+        "name": "Transportation Improvements, Donald Cousens Parkway to Morningside Avenue Link Amended Environmental Assessment",
+        "jurisdiction": "Ontario (Provincial EA)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-7797",
+        "name": "Atura Hydrogen Inc., as general partner for and on behalf of Atura H2 L.P.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-7797"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.128,
+      "name_score": 0.128,
+      "match": {
+        "id": null,
+        "name": "Window Replacement Implementation - Major-General G.R. Pearkes",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-7877",
+        "name": "Notice of Amendment: Public Work (Now Government Property) Class Environmental Assessment",
+        "proponent": "The amendments to the existing Class",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-7877"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.252,
+      "name_score": 0.252,
+      "match": {
+        "id": null,
+        "name": "WWTP Outfall Project Habitat Offsetting amendment for construction activities outside regular work hours - Public comments invited",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-7891",
+        "name": "New regulation to focus municipal environmental assessment requirements",
+        "proponent": "Other steps taken to support the new streamlined regulation",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Regulation",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-7891"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.287,
+      "name_score": 0.287,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-8081",
+        "name": "Notice of amendment: Amendments to Seven Class Environmental Assessments",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-8081"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.156,
+      "name_score": 0.156,
+      "match": {
+        "id": null,
+        "name": "Seaspan Ship Load-out Gravel Bed and Shoreline Protection - Amendments",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-8158",
+        "name": "Atura Hydrogen Inc., as general partner for and on behalf of Atura H2 L.P.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-8158"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.128,
+      "name_score": 0.128,
+      "match": {
+        "id": null,
+        "name": "Window Replacement Implementation - Major-General G.R. Pearkes",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-8258",
+        "name": "Atura Hydrogen Inc., as general partner for and on behalf of Atura H2 L.P.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-8258"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.128,
+      "name_score": 0.128,
+      "match": {
+        "id": null,
+        "name": "Window Replacement Implementation - Major-General G.R. Pearkes",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-8335",
+        "name": "Greenstone Gold Mines GP Inc.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-8335"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.381,
+      "name_score": 0.381,
+      "match": {
+        "id": null,
+        "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
+        "jurisdiction": "Nova Scotia (NSECC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-8417",
+        "name": "Proposed designation under the Environmental Assessment Act of the landfill site and waste transfer and processing expansion, located in the Municipality of Chatham-Kent",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Regulation",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-8417"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.178,
+      "name_score": 0.178,
+      "match": {
+        "id": null,
+        "name": "(Operating as WRS Environmental formerly WRS Waste & Recycling Services)) - Used Oil and Solvent Collection/Processing Facility, R.M. of Springfield",
+        "jurisdiction": "Manitoba (Environment Act)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-8605",
+        "name": "Lockerby Mine - Disposition of Crown-owned chattels",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-8605"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.2,
+      "name_score": 0.2,
+      "match": {
+        "id": null,
+        "name": "Snook’s Arm Area, Nugget Pond Gold Mine, Crown Pillar",
+        "jurisdiction": "Newfoundland & Labrador (ECC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-8681",
+        "name": "Atura Hydrogen Inc., as general partner for and on behalf of Atura H2 L.P.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-8681"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.128,
+      "name_score": 0.128,
+      "match": {
+        "id": null,
+        "name": "Window Replacement Implementation - Major-General G.R. Pearkes",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-8945",
+        "name": "LCP Quarry Limited",
+        "proponent": "Details of the application process can be found in",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-8945"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.277,
+      "name_score": 0.277,
+      "match": {
+        "id": null,
+        "name": "Nazko Lava Quarry Extension",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-9331",
+        "name": "Agnico Eagle Mines Limited – Exploratory Licence of Occupation for the former Toburn Property",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-9331"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.23,
+      "name_score": 0.23,
+      "match": {
+        "id": null,
+        "name": "Agnico Eagle",
+        "jurisdiction": "Ontario (Abandoned Mines)"
       }
     },
     {
@@ -30991,6 +31700,397 @@
       }
     },
     {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-3585",
+        "name": "K+S Windsor Salt Ltd.",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-3585"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.501,
+      "name_score": 0.501,
+      "match": {
+        "id": 221,
+        "name": "Windsor Solar Project",
+        "jurisdiction": "Ontario (REA)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-4033",
+        "name": "Cobalt Camp Refinery Ltd.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-4033"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.696,
+      "name_score": 0.696,
+      "match": {
+        "id": null,
+        "name": "Cobalt Chemicals Refinery",
+        "jurisdiction": "Ontario (Abandoned Mines)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-4611",
+        "name": "Water Management Plan for the Montreal River",
+        "proponent": "Final Water Management Plan",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-4611"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.638,
+      "name_score": 0.592,
+      "match": {
+        "id": null,
+        "name": "Public Consultation - Water Protection Act, Watershed Management Plan Regulation",
+        "jurisdiction": "Manitoba (Environment Act)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-4980",
+        "name": "Administrative amendments to the 2011 harmonization order for the Marathon platinum group metals and copper mine project environmental assessment",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Regulation",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-4980"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.429,
+      "name_score": 0.429,
+      "match": {
+        "id": null,
+        "name": "Marathon Platinum Group Metals and Copper Mine Project",
+        "jurisdiction": "Ontario (Provincial EA)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-5815",
+        "name": "Hydro One Networks Inc.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-5815"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.4,
+      "name_score": 0.4,
+      "match": {
+        "id": null,
+        "name": "Sienna Networks Ltd, New Telecommunications Tower on Lax Kw'alaams No. 1 Reserve, Lax Kw'alaams, BC",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-5909",
+        "name": "South Windsor Development Company Ltd.",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-5909"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.59,
+      "name_score": 0.59,
+      "match": {
+        "id": 221,
+        "name": "Windsor Solar Project",
+        "jurisdiction": "Ontario (REA)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-6382",
+        "name": "Bluesky Hydroponics Inc.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-6382"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.483,
+      "name_score": 0.483,
+      "match": {
+        "id": null,
+        "name": "Grey Trout-Bluesky",
+        "jurisdiction": "Ontario (Abandoned Mines)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-6449",
+        "name": "Hydro One Networks Inc.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-6449"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.4,
+      "name_score": 0.4,
+      "match": {
+        "id": null,
+        "name": "Sienna Networks Ltd, New Telecommunications Tower on Lax Kw'alaams No. 1 Reserve, Lax Kw'alaams, BC",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-7744",
+        "name": "Toronto Hydro-Electric System Limited",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-7744"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.548,
+      "name_score": 0.548,
+      "match": {
+        "id": null,
+        "name": "Grand-Mère Hydro-electric Facility",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-7750",
+        "name": "Notice of Completion for the Gould Copper Mine Rehabilitation Project",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-7750"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.467,
+      "name_score": 0.467,
+      "match": {
+        "id": null,
+        "name": "Gould Copper Mine",
+        "jurisdiction": "Ontario (Abandoned Mines)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-7847",
+        "name": "Cando Rail & Terminals Ltd.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-7847"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.677,
+      "name_score": 0.677,
+      "match": {
+        "id": null,
+        "name": "Cando Sturgeon Rail Terminal West Expansion Project",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-7887",
+        "name": "Compass Minerals Canada Corp.",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-7887"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.433,
+      "name_score": 0.433,
+      "match": {
+        "id": null,
+        "name": "Dismantling of Midatlantic Minerals Inc. facilities",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-7902",
+        "name": "Prace Mine Rehabilitation Project",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-7902"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.504,
+      "name_score": 0.504,
+      "match": {
+        "id": null,
+        "name": "Prace",
+        "jurisdiction": "Ontario (Abandoned Mines)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-8115",
+        "name": "Notice of Completion for the Long Lake Gold Mine Rehabilitation Project",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-8115"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.471,
+      "name_score": 0.471,
+      "match": {
+        "id": null,
+        "name": "Long Lake Gold Mine",
+        "jurisdiction": "Ontario (Abandoned Mines)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-8206",
+        "name": "Griffith Quarry Project – bulk sampling",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-8206"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.527,
+      "name_score": 0.527,
+      "match": {
+        "id": null,
+        "name": "Labrador, Hutton Garnet Beaches – South Beach Bulk Sampling",
+        "jurisdiction": "Newfoundland & Labrador (ECC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-8220",
+        "name": "Tribag Mine Rehabilitation Project",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-8220"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.706,
+      "name_score": 0.706,
+      "match": {
+        "id": null,
+        "name": "Tribag Mine-Breton B",
+        "jurisdiction": "Ontario (Abandoned Mines)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "025-0069",
+        "name": "Rock Lake Mine North Rehabilitation Project",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/025-0069"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.609,
+      "name_score": 0.609,
+      "match": {
+        "id": null,
+        "name": "North Eagle Rock Lake",
+        "jurisdiction": "Ontario (Abandoned Mines)"
+      }
+    },
+    {
       "source": "nrcan_mpi_points",
       "ext": {
         "ext_id": null,
@@ -40277,6 +41377,52 @@
         "id": null,
         "name": "Lac Des Iles",
         "jurisdiction": "Ontario (Abandoned Mines)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-4431",
+        "name": "Enbridge Pipelines Inc.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-4431"
+      },
+      "verdict": "matched",
+      "overridden": false,
+      "score": 1.0,
+      "name_score": 1.0,
+      "match": {
+        "id": null,
+        "name": "Enbridge Pipelines Inc. - Line 3 Replacement Program",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "019-7528",
+        "name": "M-J-J-J Developments Inc.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/019-7528"
+      },
+      "verdict": "matched",
+      "overridden": false,
+      "score": 1.0,
+      "name_score": 1.0,
+      "match": {
+        "id": null,
+        "name": "Broken Hills and Valley of 1000 Devils Trail System Developments",
+        "jurisdiction": "Federal (IAAC)"
       }
     },
     {
