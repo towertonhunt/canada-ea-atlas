@@ -92,8 +92,20 @@
   ]
  },
  {
-  "id": "c1d860a2-e451-4df9-86d0-70c8699600e0",
-  "title": "Household Appliances",
+  "id": "1ed7fdec-9a50-4fe9-aa16-78f9ee3f05bc",
+  "title": "Annual 30 m snow dynamics (2018-2019 to 2023-2024) \u2013 Canada",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "GEOTIF",
+   "JSON",
+   "PDF",
+   "WMS"
+  ]
+ },
+ {
+  "id": "cab4826f-4a19-41f8-9041-3f02a1f6d966",
+  "title": "Lighting Products",
   "org": "nrcan-rncan",
   "score": 3,
   "formats": [
@@ -101,18 +113,8 @@
   ]
  },
  {
-  "id": "d9c4d93f-2388-4158-b3cf-49a9ecea6b2c",
-  "title": "FunRoots: Root and leaf traits of tree seedlings of seven species in Eastern Canadian Forests",
-  "org": "nrcan-rncan",
-  "score": 3,
-  "formats": [
-   "CSV",
-   "PDF"
-  ]
- },
- {
-  "id": "fc60c829-506f-42c5-bd4e-9b72a0aac687",
-  "title": "Industrial/Commercial Equipment",
+  "id": "78dc45c6-a4ad-4914-b51a-b4fc1e0b296d",
+  "title": "Water Heaters",
   "org": "nrcan-rncan",
   "score": 3,
   "formats": [
@@ -120,8 +122,17 @@
   ]
  },
  {
-  "id": "675d7095-4ceb-44f1-85f1-bf99bcb67950",
-  "title": "Plumbing Products",
+  "id": "38ef4d26-b838-447b-b874-9233a0884cf0",
+  "title": "Commercial Refrigeration Equipment",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSX"
+  ]
+ },
+ {
+  "id": "02e85d01-ee78-4c4b-9d8f-56b61b8142ce",
+  "title": "Heating and Air-Conditioning Equipment",
   "org": "nrcan-rncan",
   "score": 3,
   "formats": [
@@ -138,6 +149,42 @@
   ]
  },
  {
+  "id": "fc60c829-506f-42c5-bd4e-9b72a0aac687",
+  "title": "Industrial/Commercial Equipment",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSX"
+  ]
+ },
+ {
+  "id": "c1d860a2-e451-4df9-86d0-70c8699600e0",
+  "title": "Household Appliances",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSX"
+  ]
+ },
+ {
+  "id": "675d7095-4ceb-44f1-85f1-bf99bcb67950",
+  "title": "Plumbing Products",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSX"
+  ]
+ },
+ {
+  "id": "8b2642c8-a925-45a9-8a99-2157e84db6ae",
+  "title": "TaNDM 2021 Building Energy and Emissions Method and Inventory for Kelowna, B.C.",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "XLSX"
+  ]
+ },
+ {
   "id": "98f1a129-f628-4ce4-b24d-6f16bf24dd64",
   "title": "Fuel consumption ratings",
   "org": "nrcan-rncan",
@@ -145,6 +192,50 @@
   "formats": [
    "CSV",
    "XLSX"
+  ]
+ },
+ {
+  "id": "18752265-bda3-498c-a4ba-9dfe68cb98da",
+  "title": "Medium Resolution Digital Elevation Model (MRDEM) - CanElevation Series",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "JSON",
+   "OTHER",
+   "PDF",
+   "WMS"
+  ]
+ },
+ {
+  "id": "78a497c4-cc30-4ca6-8178-6b2b8c73fe2d",
+  "title": "Butternut tree release experiment",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "TXT",
+   "XLSX"
+  ]
+ },
+ {
+  "id": "2c34b3ad-c760-49a7-a30d-f5b4927f098d",
+  "title": "Butternut Inventory 2006-2012",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "TXT",
+   "XLSX"
+  ]
+ },
+ {
+  "id": "d9c4d93f-2388-4158-b3cf-49a9ecea6b2c",
+  "title": "FunRoots: Root and leaf traits of tree seedlings of seven species in Eastern Canadian Forests",
+  "org": "nrcan-rncan",
+  "score": 3,
+  "formats": [
+   "CSV",
+   "PDF"
   ]
  },
  {
@@ -177,15 +268,6 @@
   ]
  },
  {
-  "id": "02e85d01-ee78-4c4b-9d8f-56b61b8142ce",
-  "title": "Heating and Air-Conditioning Equipment",
-  "org": "nrcan-rncan",
-  "score": 3,
-  "formats": [
-   "XLSX"
-  ]
- },
- {
   "id": "67593b9c-022b-1aea-e330-47d188b6407d",
   "title": "Strong Motion Data from the 2012 M7.8 Haida Gwaii Earthquake",
   "org": "nrcan-rncan",
@@ -195,18 +277,6 @@
    "ESRI REST",
    "GPKG",
    "HTML",
-   "PDF",
-   "WMS"
-  ]
- },
- {
-  "id": "1ed7fdec-9a50-4fe9-aa16-78f9ee3f05bc",
-  "title": "Annual 30 m snow dynamics (2018-2019 to 2023-2024) \u2013 Canada",
-  "org": "nrcan-rncan",
-  "score": 3,
-  "formats": [
-   "GEOTIF",
-   "JSON",
    "PDF",
    "WMS"
   ]
@@ -409,17 +479,6 @@
   ]
  },
  {
-  "id": "0a7619fd-2ffe-44b5-9027-3dfcec0866fd",
-  "title": "EnerGuide Rating System Open Data",
-  "org": "nrcan-rncan",
-  "score": 3,
-  "formats": [
-   "CSV",
-   "HTML",
-   "XLSX"
-  ]
- },
- {
   "id": "73244bd4-048b-4a6b-9b9d-aeaa8228d6b2",
   "title": "Canadian Mining Assets (CMAs), by Country and Region, 2023 and 2024 (p)",
   "org": "nrcan-rncan",
@@ -498,15 +557,6 @@
   ]
  },
  {
-  "id": "cab4826f-4a19-41f8-9041-3f02a1f6d966",
-  "title": "Lighting Products",
-  "org": "nrcan-rncan",
-  "score": 3,
-  "formats": [
-   "XLSX"
-  ]
- },
- {
   "id": "e287b0dd-8b07-435b-8a76-0c7ec84ac228",
   "title": "Peat Profile Database",
   "org": "nrcan-rncan",
@@ -526,15 +576,6 @@
    "JSON",
    "TIFF",
    "WMS"
-  ]
- },
- {
-  "id": "38ef4d26-b838-447b-b874-9233a0884cf0",
-  "title": "Commercial Refrigeration Equipment",
-  "org": "nrcan-rncan",
-  "score": 3,
-  "formats": [
-   "XLSX"
   ]
  },
  {
@@ -628,39 +669,6 @@
   ]
  },
  {
-  "id": "a9409f3b-e00e-4b95-bc33-510ad8eb25d2",
-  "title": "Sub-process fossil fuel distribution for heavy industry",
-  "org": "nrcan-rncan",
-  "score": 3,
-  "formats": [
-   "XLSX"
-  ]
- },
- {
-  "id": "6278d435-fdd6-4889-a3fb-7f31134cf8eb",
-  "title": "Canada-Nova Scotia Offshore Energy Regulator - Oil and Gas Activity",
-  "org": "nrcan-rncan",
-  "score": 3,
-  "formats": [
-   "CSV",
-   "ESRI REST",
-   "PDF",
-   "SHP"
-  ]
- },
- {
-  "id": "18752265-bda3-498c-a4ba-9dfe68cb98da",
-  "title": "Medium Resolution Digital Elevation Model (MRDEM) - CanElevation Series",
-  "org": "nrcan-rncan",
-  "score": 3,
-  "formats": [
-   "JSON",
-   "OTHER",
-   "PDF",
-   "WMS"
-  ]
- },
- {
   "id": "d5f554f0-8893-11e0-a4df-6cf049291510",
   "title": "Projected Market Share of Small Vans - 2010 Model (Human Activities Leading to Emissions)",
   "org": "nrcan-rncan",
@@ -674,17 +682,6 @@
  {
   "id": "d08a4ecf-8893-11e0-a4e7-6cf049291510",
   "title": "Projected Market Share of Compact Cars - 2010 Model (Human Activities Leading to Emissions)",
-  "org": "nrcan-rncan",
-  "score": 3,
-  "formats": [
-   "JP2",
-   "OTHER",
-   "ZIP"
-  ]
- },
- {
-  "id": "d2e57ce1-8893-11e0-a444-6cf049291510",
-  "title": "Projected Market Share of Midsize Cars - 2010 Model (Human Activities Leading to Emissions)",
   "org": "nrcan-rncan",
   "score": 3,
   "formats": [
