@@ -78,23 +78,17 @@ def classify(rules, text, default):
     return best if score else default
 
 
-def main():
-    idx = {e['doc_id']: e for e in json.load(open(os.path.join(CORPUS, 'index.json')))}
-    # project archetypes from the map
-    geo = json.load(open(os.path.join(ROOT, 'data', 'projects_canada.geojson')))
-    arch = {}
-    for f in geo['features']:
-        p = f['properties']
-        if p.get('source') == 'bc_epic' and p.get('registry_url'):
-            arch[p['registry_url'].rsplit('/', 1)[-1]] = p.get('category', 'other')
-
+def run_jurisdiction(jur, corpus_dir, arch, title_filter):
+    idx_path = os.path.join(corpus_dir, 'index.json')
+    if not os.path.exists(idx_path):
+        return [], 0
+    idx = {e['doc_id']: e for e in json.load(open(idx_path))}
     records, docs_used = [], 0
     for doc_id, meta in idx.items():
         title = (meta.get('title') or '').lower()
-        if not any(k in title for k in ('condition', 'certificate', 'schedule',
-                                        'commitment', 'management plan')):
+        if title_filter and not any(k in title for k in title_filter):
             continue
-        path = os.path.join(CORPUS, f'{doc_id}.txt.gz')
+        path = os.path.join(corpus_dir, f'{doc_id}.txt.gz')
         if not os.path.exists(path):
             continue
         text = gzip.open(path, 'rt', encoding='utf-8').read()
@@ -106,32 +100,73 @@ def main():
             head = seg[:1200]
             plan = PLAN_NAME.search(head)
             records.append({
-                'condition_id': f'bc-{doc_id}-{n:03d}',
+                'condition_id': f'{jur}-{doc_id}-{n:03d}',
                 'source_doc': meta.get('url'),
                 'source_title': meta.get('title'),
-                'jurisdiction': 'bc',
+                'jurisdiction': jur,
                 'project_id': meta.get('project_id'),
                 'project': meta.get('project'),
-                'project_archetype': arch.get(meta.get('project_id'), 'other'),
+                'project_archetype': arch(meta),
                 'discipline': classify(DISCIPLINE_RULES, head, 'other'),
                 'measure_type': classify(MEASURE_RULES, head, 'other'),
                 'plan_required': plan.group(1) if plan else None,
                 'measure_text': seg[:2500],
             })
-    os.makedirs(OUT_DIR, exist_ok=True)
-    json.dump(records, gzip.open(os.path.join(OUT_DIR, 'bc_conditions.json.gz'),
-                                 'wt', encoding='utf-8'), ensure_ascii=False)
-    # summary for quick inspection
+    return records, docs_used
+
+
+def main():
     from collections import Counter
-    summary = {
-        'docs_used': docs_used,
-        'records': len(records),
-        'by_discipline': dict(Counter(r['discipline'] for r in records).most_common()),
-        'by_measure': dict(Counter(r['measure_type'] for r in records).most_common()),
-        'by_archetype': dict(Counter(r['project_archetype'] for r in records).most_common()),
-    }
-    json.dump(summary, open(os.path.join(OUT_DIR, 'bc_summary.json'), 'w'), indent=1)
-    print(json.dumps(summary, indent=1)[:1200])
+    geo = json.load(open(os.path.join(ROOT, 'data', 'projects_canada.geojson')))
+    bc_arch, fed_arch, rea_arch = {}, {}, {}
+    for f in geo['features']:
+        p = f['properties']
+        if p.get('source') == 'bc_epic' and p.get('registry_url'):
+            bc_arch[p['registry_url'].rsplit('/', 1)[-1]] = p.get('category', 'other')
+        elif p.get('source') == 'federal_iaac' and p.get('registry_url'):
+            fed_arch[p['registry_url'].rsplit('/', 1)[-1]] = p.get('category', 'other')
+        elif p.get('source') == 'ontario_rea':
+            rea_arch[(p.get('name') or '').lower()[:40]] = p.get('category', 'other')
+
+    JURS = [
+        ('bc', os.path.join(ROOT, 'data', 'corpus', 'bc'),
+         lambda m: bc_arch.get(m.get('project_id'), 'other'),
+         ('condition', 'certificate', 'schedule', 'commitment', 'management plan')),
+        ('federal', os.path.join(ROOT, 'data', 'corpus', 'federal'),
+         lambda m: fed_arch.get(m.get('project_id'), 'other'),
+         None),  # all federal corpus docs are condition-targeted already
+        ('ontario', os.path.join(ROOT, 'data', 'corpus', 'ontario'),
+         lambda m: rea_arch.get((m.get('project') or '').lower()[:40],
+                                categorize(m.get('title') or '')),
+         None),
+    ]
+    os.makedirs(OUT_DIR, exist_ok=True)
+    for jur, cdir, arch, tf in JURS:
+        records, docs_used = run_jurisdiction(jur, cdir, arch, tf)
+        if not records:
+            print(f'{jur}: no records')
+            continue
+        json.dump(records, gzip.open(os.path.join(OUT_DIR, f'{jur}_conditions.json.gz'),
+                                     'wt', encoding='utf-8'), ensure_ascii=False)
+        summary = {
+            'docs_used': docs_used, 'records': len(records),
+            'by_discipline': dict(Counter(r['discipline'] for r in records).most_common(8)),
+            'by_archetype': dict(Counter(r['project_archetype'] for r in records).most_common(8)),
+        }
+        json.dump(summary, open(os.path.join(OUT_DIR, f'{jur}_summary.json'), 'w'), indent=1)
+        print(f'{jur}: {len(records)} records from {docs_used} docs; top disciplines:',
+              list(summary['by_discipline'])[:5])
+
+
+def categorize(t):
+    t = t.lower()
+    for cat, keys in (('wind', ('wind',)), ('solar', ('solar',)),
+                      ('mining', ('mine', 'mining', 'quarry')),
+                      ('waste', ('waste', 'landfill')),
+                      ('water', ('water', 'sewage'))):
+        if any(k in t for k in keys):
+            return cat
+    return 'other'
 
 
 if __name__ == '__main__':

@@ -77,13 +77,17 @@ jobs:
           print('resuming with', len(allr), 'entries,', len(done_pages), 'pages done', flush=True)
 
           def checkpoint():
-              json.dump(list(allr.values()),
-                        gzip.open('data/raw/federal_list_all.json.gz', 'wt', encoding='utf-8'))
+              import io
+              buf = io.BytesIO()
+              with gzip.GzipFile(fileobj=buf, mode='wb', mtime=0) as gz:
+                  gz.write(json.dumps(list(allr.values())).encode())
+              open('data/raw/federal_list_all.json.gz', 'wb').write(buf.getvalue())
               json.dump(sorted(done_pages), open('data/raw/federal_progress.json', 'w'))
 
           d = fetch_page(1)
           print('page1 keys:', list(d.keys()) if isinstance(d, dict) else type(d))
-          open('data/raw/federal_listapi_p1.json', 'w').write(json.dumps(d)[:2000000])
+          if not os.path.exists('data/raw/federal_listapi_p1.json'):
+              open('data/raw/federal_listapi_p1.json', 'w').write(json.dumps(d)[:2000000])
           if not isinstance(d, dict):
               raise SystemExit(0)
           count = d.get('Count')

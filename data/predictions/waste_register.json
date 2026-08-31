@@ -1,0 +1,375 @@
+{
+ "archetype": "waste",
+ "constraints": [],
+ "disciplines": [
+  "accidents_malfunctions",
+  "air_quality",
+  "archaeology_heritage",
+  "climate_ghg",
+  "closure_postclosure",
+  "cumulative_effects",
+  "fish_fish_habitat",
+  "groundwater",
+  "human_health",
+  "indigenous_rights_tluse",
+  "light",
+  "noise_vibration",
+  "socio_economic",
+  "soils_terrain",
+  "species_at_risk",
+  "surface_water",
+  "vegetation_ecosystems",
+  "visual_landscape",
+  "waste_hazmat",
+  "wetlands",
+  "wildlife_birds"
+ ],
+ "strong_precedents": [
+  {
+   "discipline": "groundwater",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 4
+   },
+   "examples": [
+    "Babkirk Special Waste Treatment Facility"
+   ],
+   "sample_condition": "One up-gradient well will be installed at the site and the sample analysis from this well will be used as an indicator of the quality of the groundwater in the area.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886ab75eed3c0016f855ef3/download"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "3. Bioremediation of wastes until soils are clean.  The client would then take the\nclean soils back.\nThe waste generators will have the option to choose between these three disposal\noptions when bringing their waste to the site.  There will be limitations placed on the\ntypes of waste that can be bio",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "EMERGENCY CRITERIA\nA LEVEL (1) EMERGENCY  AT THE SILVERBERRY SITE IS A STATE THAT WOULD\nFORCE NORMAL OPERATIONS TO BE TEMPORARILY SUSPENDED\nOR SHUT DOWN.\nA LEVEL (1) EMERGENCY WOULD PRESENT NO DANGER TO C.C.S.\nPERSONNEL OR TO THE PUBLIC AROUND OR NEAR THE SILVERBERRY\nSITE.\nC.C.S. PERSONNEL AND EQUIP",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "CCS will designate an environmental inspector to ensure that this C&R plan and any\nother applicable environmental requirements are adhered to.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "soils_terrain",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 4
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "1) To mitigate the potential impacts, topsoil will be salvaged from all areas that will\nbe disturbed by landfill construction.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "1) All construction activities will be restricted to the designated surveyed project site.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "All construction traffic will adhere to safety and traffic regulations.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "2) To prevent introduction of weedy species to the area, all equipment will be\nwashed with high pressure water or steam to remove any remnant mud and\nvegetative debris prior to entering the project site.  Equipment will not be allowed\non the project site if has not been properly cleaned.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 4
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "4) Adequate fire fighting equipment will be available on site.  In the event of a fire,\nthe Contractor will immediately use resources required to contain the fire.  The\nEmergency Response Plan will be activated if any fire cannot be immediately\ncontrolled.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "5) If a previously unidentified archaeological and/or heritage site is encountered\nduring construction, no further construction will be undertaken in the immediate\nvicinity until the site has been examined by a qualified archaeologist.\nConstruction activity will not re-commence without consultation ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "7) If conditions become such that significant erosion is occurring during construction,\nerosion control measures such as silt fences, straw bales, or other suitable means\nwill be used to control the erosion.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "1) The servicing and fueling of equipment or storage of fuel will be not be allowed\nwithin 50 metres of the on-site runoff pond.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "3) Prior to commencement of the activity, all equipment (e.g., generators, pumps) or\nservicing activities with the potential for accidental spills (e.g., oil changes,\nhydraulic repair, coolants, etc.) must have appropriate containment methods in\nplace (i.e., storage containers, impervious tarps, ber",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 4
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "4) Used oil, filter and grease cartridges, lubrication containers, and other products of\nequipment maintenance and/or repair will be collected and disposed of at an\nappropriate facility.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "1) CCS Silverberry will keep all appropriate regulatory personnel and adjacent\nlandowners informed of project developments throughout all phases of\nconstruction.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "1) Project related wildlife deaths and nuisance animals will be reported immediately\nto the appropriate British Columbia Ministry of Water, Land and Air Protection,\nWildlife Branch representative.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "2) The feeding or harassment of livestock or wildlife will be prohibited.  Construction\npersonnel will not be permitted to have firearms or pets on the project site.  All\nfood and wastes will be stored and secured in vehicles or appropriate facilities.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "1) CCS Silverberry will use Certified Canada No. 1 seed in its seed mixes.\nCertificates of seed analysis will be requested for all seed mixes and allotments\npurchased by CCS.  This limits the introduction of prohibited or noxious weeds.\nThe actual seed mixes used will be developed following discussi",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "2) CCS will evaluate the success of re-vegetation and efforts after one full growing\nseason and conduct any remedial work as required.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "5.3.2 Operations Manual\nThe following is an example of the contents of a typical Operations Manual for a CCS\nfacility.  A similar plan will be developed for the CCS Silverberry facility, including both\nthe landfarm and landfill .",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5e18ac895f6fe400218fa20c/download"
+  },
+  {
+   "discipline": "indigenous_rights_tluse",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "6. Consultation\n6.1 Where a condition of this Amendment requires the Holder to consult a particular party\nor parties regarding the content of a Document, the Holder must, to the satisfaction of\nthe EAO:\na) provide written notice to each such party that:\ni. includes a copy of the Document;\nii. invite",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5f4821ba2d7ed20021f6bb33/download"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "7. Construction Environmental Management Plan\n7.1 The Holder must retain one or more Qualified Professionals to develop a Construction\nEnvironmental Management Plan. The plan must be developed in consultation with\nENV, NH and Indigenous Nations.\n7.2 The Construction Environmental Management Plan mus",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5f4821ba2d7ed20021f6bb33/download"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/2 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Silverberry Secure Landfill"
+   ],
+   "sample_condition": "9. Contaminants Management Plan\n9.1 The Holder must retain a Qualified Professional to develop a plan for contaminants\nmanagement and monitoring. The plan must be developed in consultation with ENV,\nNH, and Indigenous Nations.\n9.2 The plan must include at least the following:\na) the name, organizati",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5f4821ba2d7ed20021f6bb33/download"
+  }
+ ],
+ "weak_pool_size": 4959
+}

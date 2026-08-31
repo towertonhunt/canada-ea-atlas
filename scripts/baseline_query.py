@@ -29,22 +29,40 @@ LAYERS = [
 
 def http_json(url):
     req = urllib.request.Request(url, headers={'User-Agent': UA})
-    return json.loads(urllib.request.urlopen(req, timeout=90).read())
+    body = urllib.request.urlopen(req, timeout=90).read()
+    try:
+        return json.loads(body)
+    except json.JSONDecodeError:
+        raise RuntimeError(f'non-JSON response: {body[:150]!r}')
 
 
 def resolve_layer_urls(catalog_path='data/raw/on_geohub_layers.json'):
     """Map our layer labels to concrete .../MapServer/<id> query URLs."""
     cat = json.load(open(catalog_path))
     resolved = {}
+
+    def to_rest(url):
+        # Normalize ArcGIS OGC endpoints (…/services/X/MapServer/WMSServer)
+        # to their REST twins (…/rest/services/X/MapServer); non-ArcGIS URLs
+        # (download ZIPs, geocortex, …) return None.
+        import re as _re
+        u = url.split('?')[0].rstrip('/')
+        u = _re.sub(r'/(WMS|WFS)Server$', '', u, flags=_re.I)
+        if '/rest/services' not in u and '/services/' in u:
+            u = u.replace('/services/', '/rest/services/', 1)
+        if '/rest/services' not in u:
+            return None
+        return u
+
     for label, match, triggers in LAYERS:
         for entry in cat:
             if (entry['title'] or '').strip().lower() != match and \
                match not in (entry['title'] or '').lower():
                 continue
             for rest in entry.get('rest') or []:
-                if not rest or 'arcgis' not in rest.lower():
+                base = to_rest(rest) if rest else None
+                if not base:
                     continue
-                base = rest.split('?')[0].rstrip('/')
                 try:
                     if base.endswith(('MapServer', 'FeatureServer')):
                         meta = http_json(base + '?f=json')
@@ -66,15 +84,20 @@ def resolve_layer_urls(catalog_path='data/raw/on_geohub_layers.json'):
 
 
 def query_layer(layer_url, lat, lon, buffer_m):
+    # Buffer client-side as an envelope: many LIO MapServer layers silently
+    # ignore the distance/units params, which made every query degenerate to
+    # a point-in-polygon test and return 0 features.
+    import math
+    dlat = buffer_m / 111320.0
+    dlon = buffer_m / (111320.0 * max(0.1, math.cos(math.radians(lat))))
     params = {
         'f': 'json',
-        'geometry': json.dumps({'x': lon, 'y': lat,
-                                'spatialReference': {'wkid': 4326}}),
-        'geometryType': 'esriGeometryPoint',
+        # simple comma syntax — the JSON-object form drew HTML error pages
+        # from the LIO servers
+        'geometry': f'{lon - dlon},{lat - dlat},{lon + dlon},{lat + dlat}',
+        'geometryType': 'esriGeometryEnvelope',
         'inSR': 4326,
         'spatialRel': 'esriSpatialRelIntersects',
-        'distance': buffer_m,
-        'units': 'esriSRUnit_Meter',
         'outFields': '*',
         'returnGeometry': 'false',
         'resultRecordCount': 5,

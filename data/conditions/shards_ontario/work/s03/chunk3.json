@@ -1,0 +1,413 @@
+[
+{
+"i": 100,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 101,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 102,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "hearing notice service-address boilerplate bleed, not an obligation"
+},
+{
+"i": 103,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "minimization",
+"timing": "all_phases",
+"discard": false
+},
+{
+"i": 104,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 105,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"i": 106,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "engagement",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 107,
+"discipline": "closure_postclosure",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "closure",
+"discard": false
+},
+{
+"i": 108,
+"discipline": "closure_postclosure",
+"discipline_secondary": [],
+"measure_type": "minimization",
+"timing": "closure",
+"discard": false
+},
+{
+"i": 109,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 110,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "construction",
+"discard": false
+},
+{
+"i": 111,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 112,
+"discipline": "noise_vibration",
+"discipline_secondary": [],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 113,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 114,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "construction",
+"discard": false
+},
+{
+"i": 115,
+"discipline": "noise_vibration",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 116,
+"discipline": "surface_water",
+"discipline_secondary": [
+"soils_terrain"
+],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 117,
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 118,
+"discipline": "surface_water",
+"discipline_secondary": [],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 119,
+"discipline": "groundwater",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "minimization",
+"timing": "all_phases",
+"discard": false
+},
+{
+"i": 120,
+"discipline": "groundwater",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 121,
+"discipline": "groundwater",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "construction",
+"discard": false
+},
+{
+"i": 122,
+"discipline": "groundwater",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "construction",
+"discard": false
+},
+{
+"i": 123,
+"discipline": "socio_economic",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 124,
+"discipline": "socio_economic",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 125,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 126,
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 127,
+"discipline": "archaeology_heritage",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 128,
+"discipline": "archaeology_heritage",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "construction",
+"discard": false
+},
+{
+"i": 129,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 130,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 131,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 132,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 133,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 134,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 135,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 136,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 137,
+"discipline": "groundwater",
+"discipline_secondary": [],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"i": 138,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 139,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 140,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 141,
+"discipline": "closure_postclosure",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 142,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 143,
+"discipline": "noise_vibration",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 144,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 145,
+"discipline": "noise_vibration",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 146,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 147,
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 148,
+"discipline": "surface_water",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 149,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+}
+]

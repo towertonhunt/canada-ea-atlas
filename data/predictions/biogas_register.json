@@ -1,0 +1,697 @@
+{
+ "archetype": "biogas",
+ "constraints": [],
+ "disciplines": [
+  "accidents_malfunctions",
+  "air_quality",
+  "archaeology_heritage",
+  "climate_ghg",
+  "closure_postclosure",
+  "cumulative_effects",
+  "fish_fish_habitat",
+  "groundwater",
+  "human_health",
+  "indigenous_rights_tluse",
+  "light",
+  "noise_vibration",
+  "socio_economic",
+  "soils_terrain",
+  "species_at_risk",
+  "surface_water",
+  "vegetation_ecosystems",
+  "visual_landscape",
+  "waste_hazmat",
+  "wetlands",
+  "wildlife_birds"
+ ],
+ "strong_precedents": [
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "management_plan",
+   "precedent_projects": 5,
+   "frequency": "5/6 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "ontario": 9
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "Ashbridges Bay Biogas Cogeneration Plant",
+    "Bensfort Road Landfill Gas Generation Project",
+    "De Bruin Farms Anaerobic Digester"
+   ],
+   "sample_condition": "20. The Company shall, at least six (6) months prior to the anticipated retirement date \nof the entire Facility, or part of the Facility, review its Decommissioning Plan Report to \nensure that it is still accurate.  If the Company determines that the Facility cannot be \ndecommissioned in accordance ",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8916-CD7NX6-13.pdf"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "other",
+   "precedent_projects": 5,
+   "frequency": "5/6 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "ontario": 9
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "Bensfort Road Landfill Gas Generation Project",
+    "De Bruin Farms Anaerobic Digester",
+    "Disco Road Biogas Utilization Project"
+   ],
+   "sample_condition": "22. Within ten (10) days after closure of the Facility, the Company shall notify the \nDirector and District Manager, in writing, that the Facility is closed and that the Facility \nDecommissioning Plan Report has been implemented.\nEXPIRY OF APPROVAL\n23.       (1) Prior to receiving the waste quantity",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8916-CD7NX6-13.pdf"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "mitigation",
+   "precedent_projects": 5,
+   "frequency": "5/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 11
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "Ashbridges Bay Biogas Cogeneration Plant",
+    "Bensfort Road Landfill Gas Generation Project",
+    "De Bruin Farms Anaerobic Digester"
+   ],
+   "sample_condition": "52. The Company shall design and construct a transformer substation oil spill \ncontainment facility which meets the following requirements:\n(1) the spill containment facility serving the transformer \nsubstation shall have a minimum volume equal to the volume of \ntransformer oil and lubricants plus t",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8916-CD7NX6-13.pdf"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "mitigation",
+   "precedent_projects": 5,
+   "frequency": "5/6 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "ontario": 5
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "Ashbridges Bay Biogas Cogeneration Plant",
+    "Bensfort Road Landfill Gas Generation Project",
+    "De Bruin Farms Anaerobic Digester"
+   ],
+   "sample_condition": "26. If archaeological resources are discovered, the Company shall immediately contact any authorities\nit is legally obligated to contact, and shall notify the Director as soon as reasonably possible. \n \nAIR AND NOISE CONDITIONS \n \nODOUR CONTROL MEASURES",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/5976-95GKQS-14.pdf"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "other",
+   "precedent_projects": 4,
+   "frequency": "4/6 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "ontario": 10
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "Bensfort Road Landfill Gas Generation Project",
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "53. The Company shall:\n(1) within six (6) months after the completion of the construction \nof the transformer substation spill containment facility, provide to \nthe District Manager an engineering report and as-built design \ndrawings of the sewage works for the spill containment facility \nand any st",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8916-CD7NX6-13.pdf"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "other",
+   "precedent_projects": 4,
+   "frequency": "4/6 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "ontario": 8
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "Bensfort Road Landfill Gas Generation Project",
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "31. Condition 57(1) is included as the temporary sediment and erosion control \nmeasures are required to mitigate the impact on the downstream receiving watercourse \nduring construction until they are no longer required.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8916-CD7NX6-13.pdf"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "mitigation",
+   "precedent_projects": 4,
+   "frequency": "4/6 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "ontario": 4
+   },
+   "examples": [
+    "Ashbridges Bay Biogas Cogeneration Plant",
+    "Bensfort Road Landfill Gas Generation Project",
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "12. The Company shall employ best management practices for stormwater management and sediment and erosion control\nduring construction, installation, use, operation, maintenance and retiring of the Facility.\nARCHEOLOGICAL RESOURCES",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/4249-88MR35-14.pdf"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "mitigation",
+   "precedent_projects": 3,
+   "frequency": "3/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 7
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "12. If at any time odour, pests, litter, dust, noise or other such negative effects are \ngenerated at the Facility and cause an Adverse Effect, the Company shall take \nimmediate appropriate remedial action that may be necessary to alleviate the Adverse \nEffect, including suspension of all waste mana",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8916-CD7NX6-13.pdf"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "mitigation",
+   "precedent_projects": 3,
+   "frequency": "3/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 9
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "Condition 41(34)(a.)) meets the minimum \nstorage volume requirement in column 2 \nof Schedule C prior to exceeding the \nOrganic Waste receipt rate threshold in \ncolumn 1 of Schedule C.\nWastewater Management\n(35) The Company shall ensure that all wastewater, including:\n(a.) spills/stormwater collected",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8916-CD7NX6-13.pdf"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 3,
+   "frequency": "3/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 13
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "Condition 43(8)(b.) can be reduced to once per month.\n(10) Despite Conditions 43(8)(b.) and 43(9), if any of the results \nrequired by Conditions 43(8)(b.) and 43(9) exceed the maximum \nacceptable levels of organisms listed in Table 5 of \"Trade \nMemorandum T-4-93 - Safety standards for fertilizers an",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8916-CD7NX6-13.pdf"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 3,
+   "frequency": "3/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 8
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "Ashbridges Bay Biogas Cogeneration Plant",
+    "Bensfort Road Landfill Gas Generation Project"
+   ],
+   "sample_condition": "55. Upon commencement of the operation of the Facility, the Company shall establish \nand carry out the following monitoring program for the sewage works:\n(1) the Company shall collect and analyze the required set of \nsamples at the sampling points listed in the table below in \naccordance with the me",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8916-CD7NX6-13.pdf"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "other",
+   "precedent_projects": 3,
+   "frequency": "3/6 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "ontario": 35
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "15. Condition 38 is included to specify the approved Organic Waste receipt rate, \nservice area from where Organic Waste may be accepted and the approved Organic \nWaste types.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8916-CD7NX6-13.pdf"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "management_plan",
+   "precedent_projects": 3,
+   "frequency": "3/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 7
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "Ashbridges Bay Biogas Cogeneration Plant",
+    "Bensfort Road Landfill Gas Generation Project"
+   ],
+   "sample_condition": "28. The Company shall prepare, prior to receipt of any waste at the Facility, implement and update as\nnecessary, an Odour Management Plan identifying fugitive odour emission sources from the operation\nof the Facility and outlining the physical and procedural controls such as policies and standard\nop",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/5976-95GKQS-14.pdf"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "minimization",
+   "precedent_projects": 3,
+   "frequency": "3/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 4
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "Ashbridges Bay Biogas Cogeneration Plant",
+    "Bensfort Road Landfill Gas Generation Project"
+   ],
+   "sample_condition": "33. The Company shall: \n(1) implement prior to the commencement of operation of the Equipment, the Noise Control\nMeasures detailed in  phase 1 of Schedule B of this Approval; \n \n(2) implement not later than 12 months after the issuance of an above grade building permit under\nthe Building Code Act, 1",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/5976-95GKQS-14.pdf"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "minimization",
+   "precedent_projects": 3,
+   "frequency": "3/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 13
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "3. One (1) pasteurizer receiving tank with the maximum capacity of 85 cubic metres;\n(d) Biomass approved to be stored at the Facility is subject to the following limitations:\n \nNo more than: \ni. 125 cubic metres of swine manure; \nii. 285 cubic metres of mature poultry manure; \niii. 476 cubic metres ",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/5976-95GKQS-14.pdf"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "minimization",
+   "precedent_projects": 3,
+   "frequency": "3/6 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "ontario": 3
+   },
+   "examples": [
+    "Bensfort Road Landfill Gas Generation Project",
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "15. The Company shall not take more than 50,000 litres of water on any day by any means during the\nconstruction, installation, use, operation, maintenance, and retiring of the Facility.  \n \nARCHAEOLOGICAL RESOURCES",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7751-8JJGDX-14.pdf"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "other",
+   "precedent_projects": 3,
+   "frequency": "3/6 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "ontario": 6
+   },
+   "examples": [
+    "De Bruin Farms Anaerobic Digester",
+    "Disco Road Biogas Utilization Project",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "17. Condition No. 30 is included to ensure that the Facility’s users, operators and the public are fully\naware of important information and restrictions related to the operation of the Facility. \n \nFACILITY SECURITY",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7321-8JQRQN-14.pdf"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 6
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "Bensfort Road Landfill Gas Generation Project"
+   ],
+   "sample_condition": "54. The Company shall design, construct and operate the sewage works such that the \nconcentration of the effluent parameter named in the table below does not exceed the \nmaximum Concentration Objective shown for that parameter in the effluent, and shall \ncomply with the following requirements:\nEfflu",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8916-CD7NX6-13.pdf"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 13
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "Ashbridges Bay Biogas Cogeneration Plant"
+   ],
+   "sample_condition": "2. Convert and record each of the one-hour average concentrations \npredicted over the five (5) years of hourly local meteorological data at the \nPoint of Impingement and at the most impacted Sensitive Receptor to 10-\nminute average concentrations using the One-hour Average to 10-Minute \nAverage Conv",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8916-CD7NX6-13.pdf"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 3
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements",
+    "Ashbridges Bay Biogas Cogeneration Plant"
+   ],
+   "sample_condition": "27. The Company shall take measures to minimize odorous emissions from all potential sources at the\nFacility.  \n \nODOUR MANAGEMENT PLAN",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/5976-95GKQS-14.pdf"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "other",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "ontario": 5
+   },
+   "examples": [
+    "Bensfort Road Landfill Gas Generation Project",
+    "Disco Road Biogas Utilization Project"
+   ],
+   "sample_condition": "10. Condition No. 17 is included to provide the minimum performance requirement considered\nnecessary to prevent an Adverse Effect resulting from the operation of the Facility and to ensure that\nthe noise emissions from the Facility will be in compliance with the applicable Sound Level Limits set\nin ",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7751-8JJGDX-14.pdf"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "mitigation",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "ontario": 2
+   },
+   "examples": [
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "9. The Facility shall be constructed, installed, used, operated, maintained and retired in a manner\nwhich ensures the health and safety of all persons and prevents Adverse Effects on the natural\nenvironment or on any persons.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7321-8JQRQN-14.pdf"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "financial_assurance",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "ontario": 2
+   },
+   "examples": [
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "20. Within ten (10) days after closure of the Facility, the Company shall notify the Director and District\nManager, in writing, that the Facility is closed and that the Facility Decommissioning Plan Report has\nbeen implemented. \n \nFinancial Assurance \n \n 21. (1) Within thirty (30) days of the date o",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7321-8JQRQN-14.pdf"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "avoidance",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 2
+   },
+   "examples": [
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "24. The Company shall not accept at the Facility any waste that is classified as hazardous waste in\naccordance with Reg. 347 and any waste that is classified as SRM.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7321-8JQRQN-14.pdf"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "engagement",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 7
+   },
+   "examples": [
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "30. The Company shall ensure that a sign is posted at the entrance to the Facility, readable from the\nnearest public roadway bordering the Facility.  The following information shall be included on the sign: \n \n(1)   name of the Company and this Approval number; \n(2) normal hours of operation; \n(3) a",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7321-8JQRQN-14.pdf"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 9
+   },
+   "examples": [
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "33. The Company shall receive Organic Waste at the Facility and ship Residual Waste and/or\nRejected Waste from the Facility between the hours of 7 a.m. to 7 p.m. Monday through Saturday. \n \n34. (1) The Company shall inspect all incoming Organic Waste loads and the accompanying waste\ncharacterization",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7321-8JQRQN-14.pdf"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "other",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "ontario": 2
+   },
+   "examples": [
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "10. Condition Nos. 22 and 23 are included to ensure that the Facility is constructed, installed, used,\noperated, maintained and retired in a way that does not result in an Adverse Effect or hazard to the\nnatural environment or any persons. \n \nSERVICE AREA, APPROVED WASTE TYPES, RATES & STORAGE",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7321-8JQRQN-14.pdf"
+  },
+  {
+   "discipline": "air_quality",
+   "measure_type": "other",
+   "precedent_projects": 2,
+   "frequency": "2/6 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "ontario": 2
+   },
+   "examples": [
+    "De Bruin Farms Anaerobic Digester",
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "27. Condition Nos. 44 and 45 are included to ensure that the Facility is operated and maintained in an\nenvironmentally acceptable manner which does not result in a negative impact on the natural\nenvironment or any person. \n \nCOMPLAINT RESPONSE PROCEDURE",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7321-8JQRQN-14.pdf"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "ontario": 3
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements"
+   ],
+   "sample_condition": "1. The Company shall construct, install, use, operate, maintain and retire the Facility in \naccordance with the terms and conditions of this Approval and the Application in \naccordance with the following schedules attached hereto:\nSchedule A - Facility Description;\nSchedule B - Digestate Storage Vol",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8916-CD7NX6-13.pdf"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements"
+   ],
+   "sample_condition": "21. The Facility shall be retired in accordance with the Decommissioning Plan Report \nand any directions provided by the Director or District Manager.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8916-CD7NX6-13.pdf"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "Amendment to REA No. 8541-9HSGG3 - site expansion and site improvements"
+   ],
+   "sample_condition": "58. The Company shall implement the groundwater level monitoring program as outlined in the\nHydrogeologic Report prepared by Landtek Limited Consulting Engineers dated July 7, 2014.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/5976-95GKQS-14.pdf"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 5
+   },
+   "examples": [
+    "Ashbridges Bay Biogas Cogeneration Plant"
+   ],
+   "sample_condition": "10. If applicable the Company shall fully implement the Noise Control Measures prior to the\ncommencement of the operations of the Facility. \n \n10.1 The Company shall generate at least 95% of the electricity from a renewable energy source. \n \n \nH. Condition 12 has been deleted and replaced by the fol",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/5860-A5GHVU-14.pdf"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "Ashbridges Bay Biogas Cogeneration Plant"
+   ],
+   "sample_condition": "26. The Company shall implement the natural heritage recommendations for the Ashbridges Bay\nBiogas Cogeneration Project, found in the Natural Heritage and Water Assessment, Ashbridges Bay\nBiogas Co-generation Plant , dated June 2010, and prepared by SENES Consultants Limited.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/5860-A5GHVU-14.pdf"
+  },
+  {
+   "discipline": "vegetation_ecosystems",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "Ashbridges Bay Biogas Cogeneration Plant"
+   ],
+   "sample_condition": "Condition 26 above, the Company shall contact the Ministry of Natural Resources and Forestry and\nthe Director, prior to making any changes and follow any directions provided. \n \n \nK. Condition 28 has been added to the Approval under ENDANGERED SPECIES ACT\nREQUIREMENTS:",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/5860-A5GHVU-14.pdf"
+  },
+  {
+   "discipline": "species_at_risk",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "Ashbridges Bay Biogas Cogeneration Plant"
+   ],
+   "sample_condition": "28. The Company shall ensure that activities requiring authorization under the Endangered Species\nAct, 2007 will not commence until necessary authorizations are in place. \n \n \nL. SCHEDULE \"B\" in the Approval is deleted and replaced with the following: \nSCHEDULE \"B\" \n \nNoise Control Measures\n \nIf sev",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/5860-A5GHVU-14.pdf"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "Ashbridges Bay Biogas Cogeneration Plant"
+   ],
+   "sample_condition": "13. If archaeological resources are discovered, the Company shall immediately contact any authorities it is legally obligated\nto contact, and shall notify the Director as soon as reasonably possible.\nOPERATION AND MAINTENANCE",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/4249-88MR35-14.pdf"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "ontario": 4
+   },
+   "examples": [
+    "Bensfort Road Landfill Gas Generation Project"
+   ],
+   "sample_condition": "1. The Company shall have a qualified technician on-site during construction to ensure that the\ncontainment system is installed in accordance with the approved design and specifications.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8523-8ZTTHZ-14.pdf"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "Bensfort Road Landfill Gas Generation Project"
+   ],
+   "sample_condition": "2. The Company shall prepare an operations manual prior to the commencement of operation of\nthe sewage works, that includes, but not necessarily limited to, the following information:\n(a) operating procedures for routine operation of the Works; \n(b) inspection programs, including frequency of inspec",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8523-8ZTTHZ-14.pdf"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "De Bruin Farms Anaerobic Digester"
+   ],
+   "sample_condition": "32. The Company shall ensure that access to the Facility is regulated by installing a gate at entrances\nto the Facility to restrict access only to authorized personnel.  \n \nFACILITY OPERATIONS",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7321-8JQRQN-14.pdf"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "Disco Road Biogas Utilization Project"
+   ],
+   "sample_condition": "10. Conditions D and E are included to ensure that the Facility is constructed, installed, used,\noperated, maintained and retired in a way that does not result in an Adverse Effect or hazard to the\nnatural environment or any persons.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/2831-9UGS7A-14.pdf"
+  },
+  {
+   "discipline": "waste_hazmat",
+   "measure_type": "financial_assurance",
+   "precedent_projects": 1,
+   "frequency": "1/6 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 2
+   },
+   "examples": [
+    "ENS Poultry Inc."
+   ],
+   "sample_condition": "Condition 21 of the Approval is hereby deleted and replaced with the following:  \n21. (1) Within thirty (30) days of the date of this Approval the Company shall submit to \nthe Director, a Financial Assurance, as defined in Section 131 of the Act, a total amount \nof $56,400.00 . The Financial Assuran",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/1134-BLHM7Z-14.pdf"
+  }
+ ],
+ "weak_pool_size": 4762
+}

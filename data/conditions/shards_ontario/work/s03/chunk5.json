@@ -1,0 +1,418 @@
+[
+{
+"i": 200,
+"discipline": "closure_postclosure",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "closure",
+"discard": false
+},
+{
+"i": 201,
+"discipline": "closure_postclosure",
+"discipline_secondary": [],
+"measure_type": "minimization",
+"timing": "closure",
+"discard": false
+},
+{
+"i": 202,
+"discipline": "closure_postclosure",
+"discipline_secondary": [
+"soils_terrain"
+],
+"measure_type": "engagement",
+"timing": "closure",
+"discard": false
+},
+{
+"i": 203,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 204,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "construction",
+"discard": false
+},
+{
+"i": 205,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 206,
+"discipline": "noise_vibration",
+"discipline_secondary": [],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 207,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 208,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "construction",
+"discard": false
+},
+{
+"i": 209,
+"discipline": "noise_vibration",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "construction",
+"discard": false
+},
+{
+"i": 210,
+"discipline": "noise_vibration",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 211,
+"discipline": "surface_water",
+"discipline_secondary": [
+"soils_terrain"
+],
+"measure_type": "mitigation",
+"timing": "all_phases",
+"discard": false
+},
+{
+"i": 212,
+"discipline": "groundwater",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "minimization",
+"timing": "all_phases",
+"discard": false
+},
+{
+"i": 213,
+"discipline": "socio_economic",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 214,
+"discipline": "socio_economic",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 215,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 216,
+"discipline": "archaeology_heritage",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "construction",
+"discard": false
+},
+{
+"i": 217,
+"discipline": "noise_vibration",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 218,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 219,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "minimization",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 220,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 221,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 222,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 223,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 224,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 225,
+"discipline": "groundwater",
+"discipline_secondary": [],
+"measure_type": "engagement",
+"timing": "all_phases",
+"discard": false
+},
+{
+"i": 226,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 227,
+"discipline": "noise_vibration",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "construction",
+"discard": false
+},
+{
+"i": 228,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 229,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 230,
+"discipline": "closure_postclosure",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 231,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 232,
+"discipline": "noise_vibration",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 233,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 234,
+"discipline": "noise_vibration",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 235,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 236,
+"discipline": "archaeology_heritage",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 237,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 238,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 239,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": false
+},
+{
+"i": 240,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 241,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "truncated fragment of appeal/hearing notice boilerplate, not an obligation"
+},
+{
+"i": 242,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "hearing notice service-address boilerplate bleed, not an obligation"
+},
+{
+"i": 243,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "other",
+"timing": null,
+"discard": true,
+"discard_reason": "document header / amendment preamble (definition or name change), not an obligation"
+},
+{
+"i": 244,
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "monitoring_followup",
+"timing": "construction",
+"discard": false
+},
+{
+"i": 245,
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "management_plan",
+"timing": "pre_construction",
+"discard": false
+},
+{
+"i": 246,
+"discipline": "other",
+"discipline_secondary": [],
+"measure_type": "management_plan",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 247,
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "monitoring_followup",
+"timing": "construction",
+"discard": false
+},
+{
+"i": 248,
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [
+"surface_water"
+],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+},
+{
+"i": 249,
+"discipline": "accidents_malfunctions",
+"discipline_secondary": [],
+"measure_type": "mitigation",
+"timing": "operation",
+"discard": false
+}
+]

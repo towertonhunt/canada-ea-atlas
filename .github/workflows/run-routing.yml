@@ -1,0 +1,36 @@
+name: Run Wawa-Timmins routing engine
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/run-routing.yml', 'scripts/routing/build_routes.py', 'routing/framework.json']
+
+permissions:
+  contents: write
+
+jobs:
+  route:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/mac-mini-connection-ceehl5
+
+      - name: Build cost surface and routes
+        continue-on-error: true
+        run: |
+          pip install --quiet numpy "shapely>=2.0" scikit-image pyproj
+          python3 -u scripts/routing/build_routes.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git add routing/results
+            git commit -m "Add Wawa-Timmins routing engine v0 results [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 7
+          done

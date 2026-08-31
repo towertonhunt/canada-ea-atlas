@@ -22,7 +22,14 @@ features = []
 def add(feat):
     p = feat['properties']
     if 'category' not in p:
-        p['category'] = categorize(p.get('type') or '')
+        # Federal records put the EA *process* type ("Comprehensive study
+        # under CEAA 1992", "Project on federal lands") in `type`, so a
+        # type-only classify buckets every federal project as 'other'.
+        # Fall back to the project name + description, which name the sector.
+        cat = categorize(p.get('type') or '')
+        if cat == 'other':
+            cat = categorize(f"{p.get('name') or ''} {p.get('description') or ''}")
+        p['category'] = cat
     features.append(feat)
 
 
@@ -60,10 +67,27 @@ CATEGORY_RULES = [
 ]
 
 
+# Keywords match at a word boundary (prefix), so stems still work
+# ("manufactur"->manufacturing) but substrings don't ("port" no longer hits
+# "report"/"important", "rail" no longer hits "trail"). A few short English
+# words that are prefixes of unrelated words must match as whole words.
+_WHOLE_WORD = {'dam', 'mill', 'port', 'oil', 'gas', 'rail', 'road', 'metal',
+               'coal', 'mine', 'plant', 'mill', 'power', 'water', 'waste'}
+
+
+def _kw_pattern(kw):
+    # whole-word for ambiguous short words, else word-start (prefix) match
+    return r'\b' + re.escape(kw) + (r'\b' if kw in _WHOLE_WORD else '')
+
+
+_COMPILED = [(cat, re.compile('|'.join(_kw_pattern(k) for k in keys)))
+             for cat, keys in CATEGORY_RULES]
+
+
 def categorize(type_str):
     t = str(type_str).lower()
-    for cat, keys in CATEGORY_RULES:
-        if any(k in t for k in keys):
+    for cat, pat in _COMPILED:
+        if pat.search(t):
             return cat
     return 'other'
 
@@ -156,9 +180,10 @@ import gzip as _gzip
 listgz = os.path.join(RAW, 'federal_list_all.json.gz')
 fed_seen = set()
 n_fedlist = 0
+fed_docdir = os.path.join(ROOT, 'data', 'docs', 'federal')
 if os.path.exists(listgz):
     for e in json.load(_gzip.open(listgz, 'rt')):
-        if e.get('document_type') != 'project':
+        if e.get('document_type') not in ('project', 'archive-project'):
             continue
         pid = e.get('project_id')
         if not pid or pid in fed_seen:
@@ -168,7 +193,9 @@ if os.path.exists(listgz):
         if 'lat' in e and 'lon' in e:
             try:
                 lat, lon = float(e['lat']), float(e['lon'])
-                if 40 < lat < 84 and -142 < lon < -50:
+                # Canada bbox: southern tip (Middle Island) is ~41.7 N, so
+                # 40 let US facilities through (e.g. a Salt Lake City plant).
+                if 41.5 < lat < 84 and -141.5 < lon < -52:
                     geom = {'type': 'Point', 'coordinates': [lon, lat]}
             except (TypeError, ValueError):
                 pass
@@ -186,6 +213,11 @@ if os.path.exists(listgz):
             'description': e.get('description'),
             'registry_url': f'https://iaac-aeic.gc.ca/050/evaluations/proj/{pid}',
         }})
+        dp = os.path.join(fed_docdir, f'{pid}.json')
+        if os.path.exists(dp):
+            props = features[-1]['properties']
+            props['doc_count'] = len(json.load(open(dp))['docs'])
+            props['docs_path'] = f'data/docs/federal/{pid}.json'
         n_fedlist += 1
 print(f'federal (list index): {n_fedlist}')
 
@@ -411,5 +443,140 @@ if os.path.exists(mb_path):
         n_mb += 1
 print(f'manitoba (no coords yet): {n_mb}')
 
+# ── Gazetteer geocode pass for sources without coordinates ───────────
+# GeoNames admin1 codes; match municipality field first, then place names
+# embedded in the project name (n-grams, longest first). Conservative on
+# single words to avoid false pins; every geocoded feature is flagged so
+# the UI can render it as approximate.
+GAZ = os.path.join(ROOT, 'data', 'geo', 'ca_places.json')
+ADMIN1 = {
+    'Manitoba (Environment Act)': '03',
+    'Newfoundland & Labrador (ECC)': '05',
+    'Nova Scotia (NSECC)': '07',
+    'Ontario (Provincial EA)': '08',
+    'Quebec (MELCCFP)': '10',
+}
+STOP = {'project', 'projet', 'wind', 'solar', 'farm', 'energy', 'power',
+        'mine', 'mining', 'quarry', 'centre', 'center', 'development',
+        'expansion', 'extension', 'plant', 'facility', 'station', 'system',
+        'road', 'highway', 'bridge', 'trail', 'phase', 'limited', 'company',
+        'waste', 'water', 'sewage', 'treatment', 'landfill', 'lagoon',
+        'transmission', 'pipeline', 'terminal', 'operation', 'operations',
+        'aggregate', 'gravel', 'peat', 'forest', 'forestry', 'hydro',
+        'control', 'management', 'upgrade', 'replacement', 'removal',
+        'construction', 'municipal', 'regional', 'provincial', 'national'}
+if os.path.exists(GAZ):
+    gaz = json.load(open(GAZ))
+    n_geo = 0
+    for f in features:
+        if f.get('geometry') is not None:
+            continue
+        p = f['properties']
+        a1 = ADMIN1.get(p.get('jurisdiction'))
+        if not a1:
+            continue
+        hit = None
+        muni = (p.get('municipality') or '').lower().strip()
+        if muni and f'{muni}|{a1}' in gaz:
+            hit = (gaz[f'{muni}|{a1}'], 'municipality')
+        if not hit:
+            # "RM of X" / "Town of X" in proponent or name is a municipality
+            blob = f"{p.get('proponent') or ''} | {p.get('name') or ''}"
+            for m in re.finditer(
+                    r"\b(?:R\.?M\.?|Rural Municipality|Town|City|Village|LGD|"
+                    r"Local Government District|Municipality) of "
+                    r"([A-Z][A-Za-z.'’ -]+)", blob):
+                # try full match, then progressively shorter pieces
+                # ("Glenboro-South Cypress" -> "Glenboro")
+                cand = m.group(1).strip().lower()
+                parts = re.split(r'[-–]| and ', cand)
+                for c in [cand] + [q.strip() for q in parts if q.strip()]:
+                    c = re.sub(r'\s+(no\.?|#)\s*\d+$', '', c).strip(" .'’-")
+                    if f'{c}|{a1}' in gaz:
+                        hit = (gaz[f'{c}|{a1}'], f'municipal_pattern:{c}')
+                        break
+                if hit:
+                    break
+        if not hit:
+            words = [w for w in re.findall(r"[a-zà-ÿ'’-]+",
+                                           (p.get('name') or '').lower())]
+            grams = []
+            for n in (4, 3, 2):
+                grams += [' '.join(words[i:i+n])
+                          for i in range(len(words) - n + 1)]
+            grams += [w for w in words if len(w) >= 6 and w not in STOP]
+            for g in grams:
+                if f'{g}|{a1}' in gaz:
+                    hit = (gaz[f'{g}|{a1}'], f'name:{g}')
+                    break
+        if hit:
+            (lat, lon), how = hit
+            f['geometry'] = {'type': 'Point', 'coordinates': [lon, lat]}
+            p['geocode'] = 'approximate'
+            p['geocode_match'] = how
+            n_geo += 1
+    print(f'gazetteer geocoded: {n_geo}')
+
+# ── Inventory enrichment ────────────────────────────────────────────
+# Backfill proponent/coords from external major-project inventories for
+# features whose registry publishes neither (e.g. Ontario provincial EA
+# is name+url only, which left Waasigan unpinned and Hydro One
+# unsearchable). File produced by scripts/enrich_from_inventories.py;
+# strict bidirectional matching, so fills are trusted but flagged.
+enr_path = os.path.join(RAW, 'inventory_enrichment.json')
+if os.path.exists(enr_path):
+    enr = json.load(open(enr_path))
+    n_p = n_c = 0
+    for f in features:
+        p = f['properties']
+        rec = enr.get(f"{p.get('jurisdiction')}||{p.get('name')}")
+        if not rec:
+            continue
+        if rec.get('proponent') and not p.get('proponent'):
+            p['proponent'] = rec['proponent']
+            p['proponent_source'] = rec['source']
+            n_p += 1
+        if rec.get('coords') and not f.get('geometry'):
+            lon, lat = rec['coords']
+            if 41.5 < lat < 84 and -141.5 < lon < -52:
+                f['geometry'] = {'type': 'Point', 'coordinates': [lon, lat]}
+                p['geocode'] = 'inventory'
+                n_c += 1
+    print(f'inventory enrichment: {n_p} proponents, {n_c} coordinates')
+
+# ── Gap overlay (opt-in layer, like AMIS) ───────────────────────────
+# Majors that external inventories list but no registry we harvest has —
+# pinned so gaps are visible on the map, not buried in gap_report.json.
+gap_path = os.path.join(ROOT, 'data', 'gap_report.json')
+if os.path.exists(gap_path):
+    seen_gap = set()
+    n_gap = 0
+    for x in json.load(open(gap_path)).get('results', []):
+        ext = x.get('ext') or {}
+        c = ext.get('coords')
+        key = (ext.get('name') or '').strip().lower()
+        if x.get('verdict') != 'gap' or not c or not key or key in seen_gap:
+            continue
+        lon, lat = c
+        if not (41.5 < lat < 84 and -141.5 < lon < -52):
+            continue
+        seen_gap.add(key)
+        n_gap += 1
+        add({'type': 'Feature',
+             'geometry': {'type': 'Point', 'coordinates': [lon, lat]},
+             'properties': {
+                 'id': f'nrcangap-{n_gap}',
+                 'name': ext.get('name'),
+                 'type': ext.get('sector') or 'Major project (inventory)',
+                 'proponent': ext.get('proponent'),
+                 'status': ext.get('status'),
+                 'jurisdiction': 'Major projects inventory (unmatched)',
+                 'source': 'nrcan_gap', 'geocode': 'inventory',
+                 'note': ('Listed in an external major-projects inventory; '
+                          'no matching record found in the EA registries '
+                          'this map harvests.')}})
+    print(f'gap overlay: {n_gap} unmatched inventory majors pinned')
+
 json.dump({'type': 'FeatureCollection', 'features': features}, open(OUT, 'w'))
-print(f'TOTAL: {len(features)} -> {OUT}')
+n_geom = sum(1 for f in features if f.get('geometry'))
+print(f'TOTAL: {len(features)} ({n_geom} mappable) -> {OUT}')

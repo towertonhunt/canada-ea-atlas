@@ -1,0 +1,17 @@
+{
+  "_doc": [
+    "Human-confirmed verdict overrides for gap_reconcile.py, applied by",
+    "exact (accent-folded, case-insensitive) external-name match AFTER",
+    "automatic classification. This is the output of reviewing the 'weak'",
+    "tier: when a person confirms an inventory project truly has no",
+    "record in our registries, list it under force_gap so it pins on the",
+    "map as an unmatched major instead of sitting invisible in the review",
+    "queue. force_matched suppresses a known-duplicate the matcher can't",
+    "resolve (none yet)."
+  ],
+  "force_gap": [
+    "Ranney Falls Expansion",
+    "Greater Toronto Area East Line Durham Kawartha Power Line"
+  ],
+  "force_matched": []
+}

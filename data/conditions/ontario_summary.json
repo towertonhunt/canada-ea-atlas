@@ -1,0 +1,19 @@
+{
+ "docs_used": 134,
+ "records": 2319,
+ "by_discipline": {
+  "other": 1477,
+  "waste_hazmat": 193,
+  "noise_vibration": 115,
+  "surface_water": 109,
+  "closure_postclosure": 73,
+  "air_quality": 71,
+  "groundwater": 54,
+  "archaeology_heritage": 54
+ },
+ "by_archetype": {
+  "solar": 1218,
+  "biogas": 616,
+  "wind": 485
+ }
+}

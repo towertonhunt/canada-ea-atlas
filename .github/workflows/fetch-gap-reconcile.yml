@@ -1,0 +1,415 @@
+name: Gap reconciliation (find missing majors)
+
+# Reconciles our map against authoritative external inventories of major
+# projects and emits data/gap_report.json (projects the inventories list
+# that we have no match for -> likely coverage gaps).
+#
+# First source: NRCan Major Projects Inventory, harvested via the stable
+# open.canada.ca CKAN API. The normalizer maps columns fuzzily and saves
+# the raw resource under data/raw/gap_inventories/_raw/ so the mapping can
+# be refined against real data (probe-then-refine, per this repo).
+#
+# Needs internet -> runs on Actions, not the dev sandbox.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/fetch-gap-reconcile.yml']
+  schedule:
+    - cron: "41 7 * * 1"   # weekly, Mondays
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/mac-mini-connection-ceehl5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Harvest NRCan Major Projects Inventory -> common schema
+        continue-on-error: true
+        run: |
+          pip install --quiet openpyxl
+          python3 -u - <<'PYEOF'
+          import csv, io, json, os, re, time, urllib.request, urllib.parse
+
+          UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/126.0.0.0'
+          RAW = 'data/raw/gap_inventories/_raw'
+          OUTDIR = 'data/raw/gap_inventories'
+          os.makedirs(RAW, exist_ok=True)
+          os.makedirs(OUTDIR, exist_ok=True)
+
+          def get(url, tries=4):
+              for t in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent': UA})
+                      return urllib.request.urlopen(req, timeout=120).read()
+                  except Exception as e:
+                      print('  retry', t, str(e)[:80], flush=True)
+                      if t == tries - 1:
+                          raise
+                      time.sleep(2 ** (t + 1))
+
+          # 1) discover the dataset + its resources via CKAN. The generic
+          # query alone returns look-alikes ('...Inventory' datasets), so we
+          # also enumerate NRCan's org catalogue and several query variants,
+          # then log every candidate + its resource formats. The enumeration
+          # is committed (nrcan_catalogue.json) so the source can be pinned.
+          CKAN = 'https://open.canada.ca/data/api/3/action'
+          seen_pkg, pkgs = {}, []
+          probes = [
+              'fq=' + urllib.parse.quote('organization:nrcan-rncan') + '&rows=200',
+              'q=' + urllib.parse.quote('major projects') + '&rows=50',
+              'q=' + urllib.parse.quote('major project inventory') + '&rows=50',
+              'q=' + urllib.parse.quote('energy projects under construction') + '&rows=30',
+          ]
+          for pr in probes:
+              try:
+                  data = json.loads(get(f'{CKAN}/package_search?{pr}').decode('utf-8', 'replace'))
+              except Exception as e:
+                  print('  probe fail', pr[:40], str(e)[:60]); continue
+              for p in (data.get('result') or {}).get('results') or []:
+                  if p.get('id') not in seen_pkg:
+                      seen_pkg[p['id']] = p
+                      pkgs.append(p)
+          print('CKAN packages discovered:', len(pkgs))
+
+          def score_pkg(p):
+              title = (p.get('title') or '').lower()
+              org = ((p.get('organization') or {}).get('title') or '').lower()
+              fmts = {(r.get('format') or '').upper() for r in (p.get('resources') or [])}
+              s = 0
+              if 'major project' in title: s += 4
+              if 'project' in title: s += 1
+              if 'inventory' in title and 'major' in title: s += 2
+              if 'natural resources' in org or 'nrcan' in org: s += 2
+              if fmts & {'CSV', 'JSON', 'XLSX', 'GEOJSON'}: s += 1  # actually harvestable
+              return s
+
+          pkgs.sort(key=score_pkg, reverse=True)
+          # commit a compact catalogue of what NRCan/CKAN actually offers
+          catalogue = [{'id': p.get('id'), 'title': p.get('title'),
+                        'org': (p.get('organization') or {}).get('name'),
+                        'score': score_pkg(p),
+                        'formats': sorted({(r.get('format') or '').upper()
+                                           for r in (p.get('resources') or [])})}
+                       for p in pkgs[:60]]
+          json.dump(catalogue, open(f'{RAW}/nrcan_catalogue.json', 'w'), indent=1)
+          resources = []
+          for p in pkgs[:6]:
+              print(' pkg:', (p.get('title') or '')[:66], '| score', score_pkg(p),
+                    '| fmts', sorted({(r.get('format') or '').upper()
+                                      for r in (p.get('resources') or [])}))
+              for r in (p.get('resources') or []):
+                  fmt = (r.get('format') or '').upper()
+                  if fmt in ('CSV', 'JSON', 'XLSX', 'GEOJSON') and r.get('url'):
+                      resources.append((score_pkg(p), fmt, r))
+
+          # prefer CSV/JSON, English resources
+          def rscore(item):
+              s, fmt, r = item
+              lang = (r.get('language') or [''])
+              lang = lang[0] if isinstance(lang, list) and lang else str(lang)
+              return (s, {'CSV': 3, 'JSON': 3, 'GEOJSON': 2, 'XLSX': 1}.get(fmt, 0),
+                      1 if 'en' in str(lang).lower() or not lang else 0)
+          resources.sort(key=rscore, reverse=True)
+          # only adopt resources from a package that actually reads as a
+          # major-projects inventory (score >= 5: 'major project' in title +
+          # harvestable). Keeps us from reconciling a random NRCan dataset.
+          resources = [x for x in resources if x[0] >= 5]
+          print('candidate resources (score-gated):', len(resources))
+          if not resources:
+              print('No major-projects inventory resource found on CKAN.')
+              print('See data/raw/gap_inventories/_raw/nrcan_catalogue.json for '
+                    'what NRCan publishes; pin the dataset id and refine.')
+              raise SystemExit(0)
+
+          # a row is a project row if it has a recognizable name header
+          NAME_HINTS = ('nom du projet', 'project name', 'project', 'nom')
+
+          def looks_like_header(cells):
+              low = [str(c).strip().lower() for c in cells]
+              return any(any(h in c for h in NAME_HINTS) for c in low if c)
+
+          def rows_from_xlsx(blob):
+              """The NRCan inventory XLSX is FR-first with a multi-row
+              preamble and the data on a later sheet. Scan every sheet for
+              the header row, then read dict rows below it."""
+              import openpyxl
+              wb = openpyxl.load_workbook(io.BytesIO(blob), read_only=True,
+                                          data_only=True)
+              best = []
+              for ws in wb.worksheets:
+                  hdr, hrow = None, None
+                  for i, row in enumerate(ws.iter_rows(min_row=1, max_row=25,
+                                                       values_only=True)):
+                      cells = [('' if c is None else c) for c in row]
+                      if looks_like_header(cells) and sum(1 for c in cells if c) >= 4:
+                          hdr = [str(c).strip() for c in cells]
+                          hrow = i + 1
+                          break
+                  if not hdr:
+                      continue
+                  out = []
+                  for row in ws.iter_rows(min_row=hrow + 1, values_only=True):
+                      vals = list(row)
+                      if not any(v not in (None, '') for v in vals):
+                          continue
+                      rec = {}
+                      for k, v in zip(hdr, vals):
+                          if k:
+                              rec[k] = '' if v is None else v
+                      if rec:
+                          out.append(rec)
+                  if len(out) > len(best):
+                      best = out
+              return best
+
+          def rows_from_csv(blob):
+              txt = blob.decode('utf-8-sig', 'replace')
+              return list(csv.DictReader(io.StringIO(txt)))
+
+          def rows_from_json(blob):
+              j = json.loads(blob.decode('utf-8', 'replace'))
+              recs = j.get('features') if isinstance(j, dict) and 'features' in j else j
+              if isinstance(recs, dict):
+                  recs = recs.get('records') or recs.get('data') or []
+              return [(x.get('properties') if isinstance(x, dict) and 'properties' in x else x)
+                      for x in (recs or []) if isinstance(x, dict)]
+
+          rows, picked = [], None
+          for s, fmt, r in resources[:8]:
+              url = r['url']
+              try:
+                  blob = get(url)
+              except Exception as e:
+                  print('  dl fail', str(e)[:80]); continue
+              base = re.sub(r'[^a-z0-9]+', '_', (r.get('name') or fmt).lower())[:40]
+              open(f'{RAW}/{base}.{fmt.lower()}', 'wb').write(blob[:5_000_000])
+              try:
+                  if fmt == 'XLSX':
+                      rows = rows_from_xlsx(blob)
+                  elif fmt in ('JSON', 'GEOJSON'):
+                      rows = rows_from_json(blob)
+                  else:  # CSV
+                      rows = rows_from_csv(blob)
+              except Exception as e:
+                  print('  parse fail', fmt, str(e)[:80]); continue
+              if rows:
+                  picked = (fmt, url, len(rows))
+                  print('  parsed', len(rows), 'rows from', fmt, '-', base)
+                  break
+
+          if not rows:
+              print('NO ROWS PARSED — raw samples saved under', RAW, 'for refinement')
+              raise SystemExit(0)
+
+          # 2) fuzzy header mapping -> common schema (EN + FR headers),
+          # reusable across datasets
+          PROV = {'british columbia': 'BC', 'alberta': 'AB', 'saskatchewan': 'SK',
+                  'manitoba': 'MB', 'ontario': 'ON', 'quebec': 'QC', 'québec': 'QC',
+                  'new brunswick': 'NB', 'nova scotia': 'NS',
+                  'prince edward island': 'PE', 'newfoundland': 'NL',
+                  'yukon': 'YT', 'northwest territories': 'NT', 'nunavut': 'NU'}
+
+          def num(v):
+              if v in (None, ''): return None
+              m = re.findall(r'[\d.]+', str(v).replace(',', ''))
+              if not m: return None
+              try:
+                  x = float(m[0])
+              except Exception:
+                  return None
+              lv = str(v).lower()
+              if 'billion' in lv or 'b$' in lv:
+                  x *= 1e9
+              elif 'million' in lv or 'm$' in lv or (0 < x < 100000):
+                  x *= 1e6
+              return x
+
+          def normalize(rows):
+              """Fuzzy-map arbitrary EN/FR inventory headers to the schema."""
+              def pick(keys, *wants):
+                  for w in wants:
+                      for k in keys:
+                          norm = k.lower().replace('_', ' ').replace('-', ' ')
+                          if w in norm:
+                              return k
+                  return None
+
+              keys = list(rows[0].keys())
+              k_name = pick(keys, 'project name', 'nom du projet', 'project', 'nom', 'name', 'title')
+              k_prop = pick(keys, 'proponent', "nom de l'entreprise", 'entreprise',
+                            'company', 'owner', 'developer', 'lead')
+              k_prov = pick(keys, 'province', 'territory', 'p/t', 'jurisdiction', 'region')
+              k_loc  = pick(keys, 'location', 'lieu', 'place', 'municipality', 'city')
+              k_sect = pick(keys, 'sector', 'secteur', 'category', 'type', 'industry')
+              k_val  = pick(keys, 'value', 'valeur', 'cost', 'capital', 'investment')
+              k_stat = pick(keys, 'status', 'statut', 'stage', 'phase')
+
+              def pick_word(keys, *wants):
+                  # exact-token match: 'lat' must be a whole word in the
+                  # header, not a substring ('Related Links' contains 'lat')
+                  for w in wants:
+                      for k in keys:
+                          toks = re.split(r'[^a-z0-9]+', k.lower())
+                          if w in toks:
+                              return k
+                  return None
+
+              k_lat  = pick_word(keys, 'latitude', 'lat')
+              k_lon  = pick_word(keys, 'longitude', 'long', 'lon')
+              if k_lat and not k_lon:
+                  k_lat = None  # never accept half a coordinate pair
+              k_xy   = pick(keys, 'coordinates', 'coordonnees', 'lat/long', 'latlong')
+              print('  mapped:', dict(name=k_name, proponent=k_prop, province=k_prov,
+                                      location=k_loc, sector=k_sect, value=k_val,
+                                      lat=k_lat, lon=k_lon, coords=k_xy))
+
+              def province(row):
+                  if k_prov and row.get(k_prov):
+                      return str(row[k_prov]).strip()
+                  if k_loc and row.get(k_loc):  # "Kitimat, British Columbia"
+                      low = str(row[k_loc]).lower()
+                      for name, code in PROV.items():
+                          if name in low:
+                              return code
+                  return None
+
+              def coords(row):
+                  if k_lat and k_lon:
+                      try:
+                          la, lo = float(row[k_lat]), float(row[k_lon])
+                          if -90 <= la <= 90 and -180 <= lo <= 180 and (la or lo):
+                              return [lo, la]
+                      except Exception:
+                          pass
+                  if k_xy and row.get(k_xy):  # "54.006686, -128.594996"
+                      m = re.findall(r'-?\d+\.\d+', str(row[k_xy]))
+                      if len(m) >= 2:
+                          la, lo = float(m[0]), float(m[1])
+                          if -90 <= la <= 90 and -180 <= lo <= 180:
+                              return [lo, la]
+                  return None
+
+              projects = []
+              if not k_name:
+                  return projects
+              for row in rows:
+                  nm = (str(row.get(k_name)) or '').strip()
+                  if not nm or nm.lower() in ('none', ''):
+                      continue
+                  projects.append({
+                      'ext_id': None,
+                      'name': nm,
+                      'proponent': (str(row.get(k_prop)).strip() or None) if k_prop and row.get(k_prop) else None,
+                      'province': province(row),
+                      'sector': (str(row.get(k_sect)).strip() or None) if k_sect and row.get(k_sect) else None,
+                      'value_cad': num(row.get(k_val)) if k_val else None,
+                      'status': (str(row.get(k_stat)).strip() or None) if k_stat and row.get(k_stat) else None,
+                      'coords': coords(row),
+                      'url': None,
+                  })
+              return projects
+
+          def write_inventory(fname, source, label, projects):
+              json.dump({'source': source, 'source_label': label,
+                         'fetched': '',  # stamped by the commit step
+                         'projects': projects},
+                        open(f'{OUTDIR}/{fname}', 'w'), ensure_ascii=False, indent=1)
+              geo = sum(1 for p in projects if p['coords'])
+              print(f'WROTE {len(projects)} projects to {fname} ({geo} geocoded)')
+
+          write_inventory('nrcan_mpi.json', 'nrcan_mpi',
+                          'NRCan Major Projects Inventory', normalize(rows))
+
+          # 3) extra inventories from the same discovered catalogue.
+          # NOTE 2026-07-10: 'Major projects by municipality' probed and
+          # REJECTED — it is aggregate $/municipality/year statistics, no
+          # project names. The Economic Points set is a real georeferenced
+          # project list (best extra shot at provincial-tier projects).
+          EXTRAS = [
+              ('major projects inventory (economic) - points', 'nrcan_mpi_points',
+               'NRCan Major Projects Inventory (Economic) - Points'),
+              ('inventory of major alberta projects', 'ab_majors',
+               'Inventory of Major Alberta Projects'),
+          ]
+          # Alberta's list includes every $5M+ building (stores, lofts,
+          # libraries) — keep only EA-plausible sectors, or blockbusters.
+          AB_SECTORS = ('oil', 'gas', 'pipeline', 'power', 'mining', 'mine',
+                        'forestry', 'agriculture', 'chemical', 'industrial')
+
+          def ea_relevant(p, src):
+              if src != 'ab_majors':
+                  return True
+              sect = (p.get('sector') or '').lower()
+              v = p.get('value_cad')
+              return any(s in sect for s in AB_SECTORS) or \
+                  (isinstance(v, (int, float)) and v >= 5e8)
+
+          for want, src, label in EXTRAS:
+              pkg = next((p for p in pkgs if want in (p.get('title') or '').lower()), None)
+              if not pkg:
+                  print(f'extra "{want}": not in catalogue'); continue
+              res = [( {'JSON': 3, 'CSV': 2, 'XLSX': 1}.get((r.get('format') or '').upper(), 0), r)
+                     for r in (pkg.get('resources') or []) if r.get('url')]
+              res = [x for x in sorted(res, reverse=True, key=lambda t: t[0]) if x[0] > 0]
+              got = []
+              for _, r in res[:4]:
+                  fmt = (r.get('format') or '').upper()
+                  try:
+                      blob = get(r['url'])
+                      base = re.sub(r'[^a-z0-9]+', '_', (r.get('name') or src).lower())[:40]
+                      open(f'{RAW}/{base}.{fmt.lower()}', 'wb').write(blob[:5_000_000])
+                      got = (rows_from_xlsx(blob) if fmt == 'XLSX'
+                             else rows_from_json(blob) if fmt == 'JSON'
+                             else rows_from_csv(blob))
+                  except Exception as e:
+                      print(f'  extra {src} {fmt} fail:', str(e)[:80]); continue
+                  if got:
+                      print(f'extra "{want}": parsed {len(got)} rows from {fmt}')
+                      break
+              if got:
+                  projects = [p for p in normalize(got) if ea_relevant(p, src)]
+                  if projects:
+                      write_inventory(f'{src}.json', src, label, projects)
+                  else:
+                      print(f'extra {src}: no name column found — raw saved for refinement')
+          PYEOF
+
+      - name: Reconcile against our dataset
+        run: python3 scripts/gap_reconcile.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # stamp fetch date into any inventory written this run
+          python3 - <<'PY'
+          import json, glob, datetime
+          for p in glob.glob('data/raw/gap_inventories/*.json'):
+              try:
+                  d = json.load(open(p))
+              except Exception:
+                  continue
+              if isinstance(d, dict) and d.get('fetched') == '':
+                  d['fetched'] = datetime.date.today().isoformat()
+                  json.dump(d, open(p, 'w'), ensure_ascii=False, indent=1)
+                  print('stamped', p)
+          PY
+          python3 scripts/gap_reconcile.py || true
+          git add data/raw/gap_inventories data/gap_report.json
+          git commit -m "Gap reconciliation refresh [skip ci]" || echo "nothing to commit"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git push && break
+            sleep 7
+          done

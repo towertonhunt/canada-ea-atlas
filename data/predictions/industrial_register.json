@@ -1,0 +1,195 @@
+{
+ "archetype": "industrial",
+ "constraints": [],
+ "disciplines": [
+  "accidents_malfunctions",
+  "air_quality",
+  "archaeology_heritage",
+  "climate_ghg",
+  "closure_postclosure",
+  "cumulative_effects",
+  "fish_fish_habitat",
+  "groundwater",
+  "human_health",
+  "indigenous_rights_tluse",
+  "light",
+  "noise_vibration",
+  "socio_economic",
+  "soils_terrain",
+  "species_at_risk",
+  "surface_water",
+  "vegetation_ecosystems",
+  "visual_landscape",
+  "waste_hazmat",
+  "wetlands",
+  "wildlife_birds"
+ ],
+ "strong_precedents": [
+  {
+   "discipline": "socio_economic",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/3 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Fiberco Pulp Mill Expansion"
+   ],
+   "sample_condition": "Fibreco must cause all intersection improvements as outlined in section 5.3.1 of the Delcan Engineers/Planners Traffic Impact Study for the Fibreco Pulp Mill Extension, Taylor, BC, dated September, 1995, to be undertaken, and Fibreco must bear the cost of those improvements; the intersection improve",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869412eed3c0016f85526a/download"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/3 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Fiberco Pulp Mill Expansion"
+   ],
+   "sample_condition": "Fibreco must: (a) prepare written reports to the reasonable satisfaction of the Director of the Policy Development Branch, Ministry of Employment and Investment, on the progress of commitments made by Fibreco to prevent or reduce socioeconomic impacts resulting from the Project; (b) include the foll",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/58869412eed3c0016f85526a/download"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/3 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Lafarge Cement Plant Modernization"
+   ],
+   "sample_condition": "8. Lafarge shall hire a qualified archaeologist to monitor construction of the Project, comply with permits issued under section 7 of the Heritage Conservation Act, and report the results of the monitoring to the person responsible for the Archaeology Branch, Ministry of Small Business, Tourism and ",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a795eed3c0016f855cc5/download"
+  },
+  {
+   "discipline": "climate_ghg",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/3 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Lafarge Cement Plant Modernization"
+   ],
+   "sample_condition": "9. Lafarge shall: a) prepare, in consultation with the Ministry of Environment, Lands and Parks, the Greater Vancouver Regional District, and the Ministry of Employment and Investment, a Greenhouse Gases Mitigation Plan including details of proposed offsets for greenhouse gas emissions. This plan is",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a795eed3c0016f855cc5/download"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/3 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Lafarge Cement Plant Modernization"
+   ],
+   "sample_condition": "9. Lafarge shall: b) prepare, in consultation with the Ministry of Environment, Lands and Parks, the Greater Vancouver Regional District, the City of Richmond and the Fraser River Harbour Commission, an Environmental Management Plan (EMP) that addresses monitoring and control of construction impacts",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a795eed3c0016f855cc5/download"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 1,
+   "frequency": "1/3 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Taiga Forest Products Lumber Treatment Facility"
+   ],
+   "sample_condition": "Prior to commencement of construction activities Taiga must prepare a schedule for groundwater monitoring and sampling of runoff and provide this schedule to Ministry of Environment, Lands and Parks (MELP) and Department of Fisheries and Oceans (DFO) for review and approval.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a872eed3c0016f855d12/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "management_plan",
+   "precedent_projects": 1,
+   "frequency": "1/3 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Taiga Forest Products Lumber Treatment Facility"
+   ],
+   "sample_condition": "Prior to commencement of construction activities Taiga must adhere to the sediment and erosion control measures outlined in the MELP/DFO 'Land Development Guidelines For the Protection of Aquatic Habitat' and include these measures as part of a sediment control plan submitted to DFO for review and a",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a872eed3c0016f855d12/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/3 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Taiga Forest Products Lumber Treatment Facility"
+   ],
+   "sample_condition": "Prior to commencement of construction activities Taiga must convene a pre-construction meeting between the Environmental Monitor selected by Taiga and the contractor to ensure that the conditions of the sediment control plan are understood.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a872eed3c0016f855d12/download"
+  },
+  {
+   "discipline": "wildlife_birds",
+   "measure_type": "avoidance",
+   "precedent_projects": 1,
+   "frequency": "1/3 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Taiga Forest Products Lumber Treatment Facility"
+   ],
+   "sample_condition": "Taiga must refrain from any site clearing activities between April 1 and July 31 during any of the years required for construction of the new facility.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a872eed3c0016f855d12/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "mitigation",
+   "precedent_projects": 1,
+   "frequency": "1/3 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 1
+   },
+   "examples": [
+    "Taiga Forest Products Lumber Treatment Facility"
+   ],
+   "sample_condition": "Taiga must ensure that no runoff from the treated wood storage area enters local storm sewer systems or creeks.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a872eed3c0016f855d12/download"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "minimization",
+   "precedent_projects": 1,
+   "frequency": "1/3 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "bc": 2
+   },
+   "examples": [
+    "Taiga Forest Products Lumber Treatment Facility"
+   ],
+   "sample_condition": "Taiga must ensure that the quantity of any discharge to the sanitary sewer system meets the sanitary discharge criteria established by the Township of Langley.",
+   "sample_source": "https://projects.eao.gov.bc.ca/api/public/document/5886a872eed3c0016f855d12/download"
+  }
+ ],
+ "weak_pool_size": 4987
+}

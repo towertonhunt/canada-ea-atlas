@@ -1,0 +1,555 @@
+{
+ "archetype": "solar",
+ "constraints": [],
+ "disciplines": [
+  "accidents_malfunctions",
+  "air_quality",
+  "archaeology_heritage",
+  "climate_ghg",
+  "closure_postclosure",
+  "cumulative_effects",
+  "fish_fish_habitat",
+  "groundwater",
+  "human_health",
+  "indigenous_rights_tluse",
+  "light",
+  "noise_vibration",
+  "socio_economic",
+  "soils_terrain",
+  "species_at_risk",
+  "surface_water",
+  "vegetation_ecosystems",
+  "visual_landscape",
+  "waste_hazmat",
+  "wetlands",
+  "wildlife_birds"
+ ],
+ "strong_precedents": [
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "other",
+   "precedent_projects": 31,
+   "frequency": "31/35 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "ontario": 80
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Alfred Solar Energy Project",
+    "Almonte Solar Farm"
+   ],
+   "sample_condition": "2. If the Company determines that some or all of the Equipment cannot be constructed in accordance\nwith Condition C1 (b), prior to the construction and installation of the Equipment in question, the\nCompany shall apply to the Director for an amendment to the terms and conditions of the Approval.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "other",
+   "precedent_projects": 30,
+   "frequency": "30/35 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "ontario": 32
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Alfred Solar Energy Project",
+    "Almonte Solar Farm"
+   ],
+   "sample_condition": "3. Conditions A5 and A6 are included to ensure that final retirement of the Facility is completed in an\naesthetically pleasing manner, in accordance with Ministry standards, and to ensure long-term\nprotection of the health and safety of the public and the environment.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "other",
+   "precedent_projects": 19,
+   "frequency": "19/35 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "ontario": 32
+   },
+   "examples": [
+    "Amherstburg Solar Farm",
+    "Belleville North Solar Project",
+    "Belleville South Solar Project",
+    "Belmont Solar Farm"
+   ],
+   "sample_condition": "17. If a Road Users Agreement or equivalent agreement has not been signed with the Town of\nAmherstburg   or Essex County as appropriate within three (3) months of having provided the Traffic\nManagement Plan to the Town of Amherstburg, the Company shall provide a written explanation to the\nDirector a",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/2259-8HNM2J-14.pdf"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "other",
+   "precedent_projects": 15,
+   "frequency": "15/35 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "ontario": 31
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Alfred Solar Energy Project",
+    "Belleville North Solar Project"
+   ],
+   "sample_condition": "2. The Company shall: \n \n(a) prior to the construction of the transformer substation spill containment facility, provide the District\nManager and Director with a report and drawings issued for construction signed and stamped by an\nindependent Professional Engineer licensed in Ontario and competent i",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "other",
+   "precedent_projects": 15,
+   "frequency": "15/35 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "ontario": 29
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Alfred Solar Energy Project",
+    "Belleville North Solar Project"
+   ],
+   "sample_condition": "11. Condition E3 is included to establish non-enforceable effluent quality objectives which the\nCompany is required to strive towards on an ongoing basis. These objectives are to be used as a\nmechanism to trigger corrective action proactively and voluntarily before environmental impairment\noccurs.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "management_plan",
+   "precedent_projects": 14,
+   "frequency": "14/35 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "ontario": 23
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Amherstburg Solar Farm",
+    "Beaver Creek Solar Farm"
+   ],
+   "sample_condition": "5. The Company shall, at least six (6) months prior to the anticipated retirement date of the entire\nFacility, or part of the Facility, review its Decommissioning Plan Report to ensure that it is still\naccurate.  If the Company determines that the Facility cannot be decommissioned in accordance with",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "minimization",
+   "precedent_projects": 14,
+   "frequency": "14/35 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 16
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Amherstburg Solar Farm",
+    "Beaver Creek Solar Farm"
+   ],
+   "sample_condition": "1. The Company shall ensure that: \n \n(a) the Sound Levels from the Equipment, at the Points of Reception identified in the Acoustic\nAssessment Report, comply with the Sound Level Limit of 40 dBA as described in Publication NPC-\n232, subject to adjustment for tonality as described in Publication NPC-",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "engagement",
+   "precedent_projects": 14,
+   "frequency": "14/35 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "ontario": 14
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Amherstburg Solar Farm",
+    "Beaver Creek Solar Farm"
+   ],
+   "sample_condition": "3. If the Company receives a complaint related to groundwater, the Company shall contact the District\nManager within one (1) business day of the receipt of the complaint to discuss appropriate measures\nto manage any potential groundwater issues. \n \nM - CHANGE OF OWNERSHIP",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "mitigation",
+   "precedent_projects": 13,
+   "frequency": "13/35 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "ontario": 24
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Beaver Creek Solar Farm",
+    "Belleville North Solar Project"
+   ],
+   "sample_condition": "1. The Company shall implement all of the recommendations, if any, for further archaeological\nfieldwork and for the protection of archaeological sites found in the consultant archaeologist's report\nincluded in the Application, and which the Company submitted to the Ministry of Tourism, Culture and\nS",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 12,
+   "frequency": "12/35 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "ontario": 17
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Amherstburg Solar Farm",
+    "Beaver Creek Solar Farm"
+   ],
+   "sample_condition": "3. Within three (3) months of the completion of the construction of the Facility, the Company shall\nsubmit to the Director a written confirmation signed by an individual who has the authority to bind the\nCompany that the UTM coordinates of the “as constructed” Equipment comply with the requirements\n",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "mitigation",
+   "precedent_projects": 12,
+   "frequency": "12/35 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "ontario": 14
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Amherstburg Solar Farm",
+    "Beaver Creek Solar Farm"
+   ],
+   "sample_condition": "1. The Company shall employ best management practices for stormwater management and sediment\nand erosion control during construction, installation, use, operation, maintenance and retiring of the\nFacility, as described in the reports included in the Application entitled \"Design and Operations Report",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "minimization",
+   "precedent_projects": 11,
+   "frequency": "11/35 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 16
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Amherstburg Solar Farm",
+    "Beaver Creek Solar Farm"
+   ],
+   "sample_condition": "3. The Company shall design, construct and operate the sewage works such that the concentration of\nthe effluent parameter named in the table below does not exceed the maximum concentration\nobjective shown for that parameter in the effluent, and shall comply with the following requirements: \n \nEfflue",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "mitigation",
+   "precedent_projects": 9,
+   "frequency": "9/35 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "ontario": 10
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Belleville North Solar Project",
+    "Belleville South Solar Project"
+   ],
+   "sample_condition": "1. The Company shall design and construct a transformer substation spill containment facility which\nmeets the following requirements: \n \n(a) the spill containment area serving the transformer substation shall have a minimum volume equal\nto the volume of transformer oil and lubricants plus the volume",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "human_health",
+   "measure_type": "other",
+   "precedent_projects": 9,
+   "frequency": "9/35 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "ontario": 10
+   },
+   "examples": [
+    "CityLights Solar Farm",
+    "Cochrane Solar Farm (Formerly Abitibi, Empire and Martin's Meadow)",
+    "Colborne One Solar Farm",
+    "Cornwall Solar Project"
+   ],
+   "sample_condition": "8. Conditions D, E, F, G, H and I are included to ensure that the Facility is constructed, installed, used,\noperated, maintained and retired in a way that does not result in an Adverse Effect or hazard to the\nnatural environment or any persons.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/8047-8X2RG9-14.pdf"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 7,
+   "frequency": "7/35 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 17
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Belleville North Solar Project",
+    "Belleville South Solar Project",
+    "Brockville 1 Solar Project"
+   ],
+   "sample_condition": "1. The Company shall implement the groundwater sampling and monitoring program described in the\nreport included in the Application entitled \"Proposed Groundwater Monitoring for a Proposed Solar\nFarm 2176050 Solar Energy Project, Elizabethtown-Kitley Twp, Ontario\" , dated November 10, 2011\nand prepar",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "minimization",
+   "precedent_projects": 7,
+   "frequency": "7/35 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "ontario": 7
+   },
+   "examples": [
+    "Belleville North Solar Project",
+    "Belleville South Solar Project",
+    "Belmont Solar Farm",
+    "Crosby Solar Farm"
+   ],
+   "sample_condition": "17. The Company shall not take more than 50,000 litres of water on any day by any means during the\nconstruction, installation, use, operation, maintenance and retiring of the facility. \n \nGROUNDWATER MONITORING",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6241-8JGGCT-14.pdf"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "minimization",
+   "precedent_projects": 5,
+   "frequency": "5/35 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "ontario": 5
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Belleville North Solar Project",
+    "Belleville South Solar Project"
+   ],
+   "sample_condition": "6. The Facility shall be retired in accordance with the Decommissioning Plan Report and any directions\nprovided by the Director or District Manager.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 5,
+   "frequency": "5/35 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 10
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Brockville 1 Solar Project",
+    "Brockville Solar Farm"
+   ],
+   "sample_condition": "4. Upon commencement of the operation of the Facility, the Company shall establish and carry out the\nfollowing monitoring program for the sewage works:\n(a) the Company shall collect and analyze the required set of samples at the sampling points listed in\nthe table below in accordance with the measur",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "management_plan",
+   "precedent_projects": 5,
+   "frequency": "5/35 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "ontario": 5
+   },
+   "examples": [
+    "Amherstburg Solar Farm",
+    "Belleville North Solar Project",
+    "Belleville South Solar Project",
+    "Belmont Solar Farm"
+   ],
+   "sample_condition": "15. Within three (3) months of receiving this Approval , the Company shall prepare a Traffic\nManagement Plan and provide it to the Town of Amherstburg.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/2259-8HNM2J-14.pdf"
+  },
+  {
+   "discipline": "socio_economic",
+   "measure_type": "engagement",
+   "precedent_projects": 5,
+   "frequency": "5/35 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "ontario": 14
+   },
+   "examples": [
+    "Amherstburg Solar Farm",
+    "Crosby Solar Farm",
+    "Dove Tree Solar Farm",
+    "Edwardsburgh Morrisburg Solar Project"
+   ],
+   "sample_condition": "16. Within three (3) months of having provided the Traffic Management Plan to the Town of\nAmherstburg, the Company shall make reasonable efforts to enter into a Road Users Agreement or\nequivalent agreement with the Town of Amherstburg or Essex County as appropriate.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/2259-8HNM2J-14.pdf"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "management_plan",
+   "precedent_projects": 4,
+   "frequency": "4/35 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 4
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility",
+    "Brockville 1 Solar Project",
+    "Brockville Solar Farm"
+   ],
+   "sample_condition": "1. Prior to the commencement of the operation of the Facility, the Company shall prepare a written\nmanual for use by Company staff outlining the operating procedures and a maintenance program for\nthe Equipment that includes as a minimum the following: \n \n(a) routine operating and maintenance procedu",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "mitigation",
+   "precedent_projects": 4,
+   "frequency": "4/35 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "ontario": 10
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Aria Solar",
+    "Belmont Solar Farm",
+    "Brockville 1 Solar Project"
+   ],
+   "sample_condition": "1. In accordance with Appendix B of the Acoustic Assessment Report the enclosure around the\ninverter clusters must be equipped with acoustic louvres, capable of providing the following values of\nInsertion/Transmission-Loss in 1/1 octave frequency bands:  \n \nAcoustic Louver Specifications, [dB] \n \nOc",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "management_plan",
+   "precedent_projects": 4,
+   "frequency": "4/35 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "ontario": 6
+   },
+   "examples": [
+    "Belleville North Solar Project",
+    "Belleville South Solar Project",
+    "Burk's Falls East Solar Project",
+    "Edwardsburgh Morrisburg Solar Project"
+   ],
+   "sample_condition": "15. The Company shall, prior to the commercial operation date of the Facility, retain an independent\nProfessional Engineer licensed in Ontario and familiar with electrical transformer substations and its\nassociated sewage works to prepare a design report on the spill containment facility and, obtain",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6241-8JGGCT-14.pdf"
+  },
+  {
+   "discipline": "archaeology_heritage",
+   "measure_type": "other",
+   "precedent_projects": 3,
+   "frequency": "3/35 comparable projects",
+   "typical_timing": "construction",
+   "jurisdictions": {
+    "ontario": 3
+   },
+   "examples": [
+    "Amherstburg Solar Farm",
+    "Belmont Solar Farm",
+    "Flowerburn Solar Farm"
+   ],
+   "sample_condition": "14. If archaeological resources are discovered, the Company shall immediately contact any authorities\n  it is legally obligated to contact, and shall notify the Director as soon as reasonably possible. \n \nTRAFFIC MANAGEMENT PLANNING",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/2259-8HNM2J-14.pdf"
+  },
+  {
+   "discipline": "other",
+   "measure_type": "minimization",
+   "precedent_projects": 2,
+   "frequency": "2/35 comparable projects",
+   "typical_timing": "all_phases",
+   "jurisdictions": {
+    "ontario": 2
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)",
+    "Alderville First Nation Solar Facility"
+   ],
+   "sample_condition": "1. The Company shall construct, install, use, operate, maintain and retire the Facility in accordance\nwith the terms and conditions of this Approval and the Application and in accordance with the following\nschedules attached hereto: \n \n(a) Schedule A - Facility Description \n(b) Schedule B - Coordina",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "noise_vibration",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/35 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "ontario": 2
+   },
+   "examples": [
+    "Beaver Creek Solar Farm",
+    "Belmont Solar Farm"
+   ],
+   "sample_condition": "17. Before construction and installation of the Equipment, the Company shall prepare a written manual\nfor use by Company staff outlining the operating procedures and a maintenance program for the\nEquipment that includes as a minimum the following:\n(1) routine operating and maintenance procedures in ",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/0248-8K8H9B-14.pdf"
+  },
+  {
+   "discipline": "surface_water",
+   "measure_type": "management_plan",
+   "precedent_projects": 2,
+   "frequency": "2/35 comparable projects",
+   "typical_timing": "pre_construction",
+   "jurisdictions": {
+    "ontario": 2
+   },
+   "examples": [
+    "Belleville North Solar Project",
+    "Belleville South Solar Project"
+   ],
+   "sample_condition": "14. Prior to the construction and installation of the Facility, the Company shall:\n(1) prepare a Stormwater Management Plan, as outlined in the Application, which shall include best\nmanagement practices for stormwater management during construction, installation, use, operation,\nmaintenance and reti",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/6241-8JGGCT-14.pdf"
+  },
+  {
+   "discipline": "accidents_malfunctions",
+   "measure_type": "monitoring_followup",
+   "precedent_projects": 2,
+   "frequency": "2/35 comparable projects",
+   "typical_timing": "operation",
+   "jurisdictions": {
+    "ontario": 2
+   },
+   "examples": [
+    "Brockville 1 Solar Project",
+    "Brockville Solar Farm"
+   ],
+   "sample_condition": "16. The Company shall:\n(1) as a minimum, check the oil detection system on a monthly basis and create a written record of the inspections;\n(2) ensure that the effluent is essentially free of floating and settleable solids and does not contain oil or any other\nsubstance in amounts sufficient to creat",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/1542-8KKMHX-14.pdf"
+  },
+  {
+   "discipline": "groundwater",
+   "measure_type": "other",
+   "precedent_projects": 1,
+   "frequency": "1/35 comparable projects",
+   "typical_timing": null,
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "2176050 Solar Farm (Brockville 2 Solar Project)"
+   ],
+   "sample_condition": "13. Conditions F, G, and H are included to ensure that the Facility is constructed, installed, used,\noperated, maintained and retired in a way that does not result in an Adverse Effect or hazard to the\nnatural environment or any persons.",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/7663-8NTMKQ-14.pdf"
+  },
+  {
+   "discipline": "closure_postclosure",
+   "measure_type": "engagement",
+   "precedent_projects": 1,
+   "frequency": "1/35 comparable projects",
+   "typical_timing": "closure",
+   "jurisdictions": {
+    "ontario": 1
+   },
+   "examples": [
+    "Belmont Solar Farm"
+   ],
+   "sample_condition": "7. The Company shall, at least six (6) months prior to the anticipated retirement date of the  entire\nFacility, or part of the Facility, contact the Ministry of Agriculture, Food and Rural Affairs to discuss\nplans for the decommissioning of the Facility, including the Company’s objective to restore ",
+   "sample_source": "https://www.accessenvironment.ene.gov.on.ca/instruments/0053-8GYKFN-14.pdf"
+  }
+ ],
+ "weak_pool_size": 4558
+}

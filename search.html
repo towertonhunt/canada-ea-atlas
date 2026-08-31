@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Search — Canada Project Map</title>
+<style>
+  :root {
+    --ground:#F5F7F4; --surface:#FFFFFF; --sunken:#EDF1EC;
+    --ink:#1A312B; --ink-2:#4A5F58; --ink-3:#8A9A93; --line:#D8E0DB;
+    --accent:#E8620C; --accent-ink:#FFF; --link:#3E7CA6;
+    --ok:#2E7D4F; --caution:#B7791F; --stop:#B3402E;
+    --tint:0.12; --chip-lift:0%;
+    --disp:'Archivo','Avenir Next','Seravek','Segoe UI',system-ui,sans-serif;
+    --body:'Public Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+    --data:'IBM Plex Mono',ui-monospace,'SF Mono','Cascadia Code',monospace;
+  }
+  @media (prefers-color-scheme: dark) { :root {
+    --ground:#111917; --surface:#182220; --sunken:#0C1311;
+    --ink:#E4ECE8; --ink-2:#9FB2AA; --ink-3:#5F6F68; --line:#2A3833;
+    --accent:#FF7E33; --accent-ink:#1A1208; --link:#7FB2D4;
+    --ok:#5CB585; --caution:#D9A04C; --stop:#D96C5B;
+    --tint:0.22; --chip-lift:42%; } }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+  a{color:var(--link)}
+  header{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:baseline;padding:14px 20px;border-bottom:1px solid var(--line);background:var(--surface)}
+  header h1{font-family:var(--disp);font-size:1.05rem;margin:0;letter-spacing:-0.01em}
+  header nav{display:flex;gap:14px;font-size:0.85rem}
+  .toolbar{display:flex;flex-wrap:wrap;gap:10px;padding:12px 20px;border-bottom:1px solid var(--line);background:var(--surface);position:sticky;top:0;z-index:5}
+  .toolbar input[type=text]{flex:1 1 260px;padding:8px 12px;border:1px solid var(--line);border-radius:6px;background:var(--ground);color:var(--ink);font-size:0.9rem}
+  .toolbar select{padding:7px 8px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink);font-size:0.83rem;max-width:200px}
+  #count{font-family:var(--data);font-size:0.74rem;color:var(--ink-2);align-self:center;margin-left:auto}
+  main{max-width:880px;margin:0 auto;padding:8px 0 80px}
+  .card{display:block;text-decoration:none;color:inherit;padding:13px 20px;border-bottom:1px solid var(--line);cursor:pointer}
+  .card:hover{background:var(--sunken)}
+  .card .top{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+  .card .name{font-family:var(--disp);font-weight:650;font-size:0.97rem}
+  .card .sub{color:var(--ink-2);font-size:0.82rem;margin-top:2px}
+  .card .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:7px}
+  .depth{font-size:0.8rem;letter-spacing:0.12em;white-space:nowrap;color:var(--ink)}
+  .depth .off{color:var(--ink-3);opacity:0.45}
+  .depth-word{font-size:0.72rem;color:var(--ink-2);letter-spacing:0;margin-left:4px}
+  .chip{display:inline-block;border-radius:999px;padding:2px 10px;font-size:0.74rem;font-weight:600;
+    color:color-mix(in srgb,var(--sector) calc(100% - var(--chip-lift)),white);
+    background:color-mix(in srgb,var(--sector) calc(var(--tint)*100%),transparent)}
+  .mono{font-family:var(--data);font-variant-numeric:tabular-nums}
+  .pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:1px 9px;font-size:0.72rem;font-weight:600}
+  .pill::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+  .status-note{font-size:0.72rem;color:var(--ink-3)}
+  #more{display:block;margin:20px auto;font-family:var(--disp);font-weight:600;background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:9px 18px;cursor:pointer}
+  #empty{padding:48px 20px;text-align:center;color:var(--ink-2)}
+  #loading{padding:48px;text-align:center;color:var(--ink-3);font-family:var(--data);font-size:0.8rem}
+  button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Canada Project Map</h1>
+  <nav>
+    <a href="index.html">Map</a>
+    <a href="search.html" style="color:var(--ink);font-weight:700">Search</a>
+    <a href="wiki.html">Documents</a>
+    <a href="predict.html">Predict</a>
+  </nav>
+</header>
+
+<div class="toolbar">
+  <input type="text" id="q" placeholder="Project, proponent or place…" autofocus />
+  <select id="jur"><option value="">All jurisdictions</option></select>
+  <select id="sector"><option value="">All sectors</option></select>
+  <select id="depth">
+    <option value="">Any depth</option>
+    <option value="3">◆◆◆ Deep dive (analysed commitments)</option>
+    <option value="2">◆◆◇ Documented</option>
+    <option value="1">◆◇◇ Mapped</option>
+  </select>
+  <span id="count"></span>
+</div>
+
+<main>
+  <div id="loading">loading 18,000+ projects…</div>
+  <div id="list"></div>
+  <div id="empty" hidden></div>
+  <button id="more" hidden>Show more</button>
+</main>
+
+<script>
+const SECTOR_META = {
+  wind:{colour:"#2563eb",label:"Wind"}, solar:{colour:"#d97706",label:"Solar"},
+  biogas:{colour:"#16a34a",label:"Biogas / biomass"}, hydro:{colour:"#0891b2",label:"Hydro / dams"},
+  mining:{colour:"#92400e",label:"Mining"}, oil_gas:{colour:"#57534e",label:"Oil & gas"},
+  nuclear:{colour:"#ca8a04",label:"Nuclear"}, energy_other:{colour:"#7c3aed",label:"Other energy"},
+  transport:{colour:"#db2777",label:"Transport"}, water:{colour:"#0d9488",label:"Water / marine"},
+  industrial:{colour:"#4b5563",label:"Industrial"}, waste:{colour:"#65a30d",label:"Waste"},
+  agriculture:{colour:"#84cc16",label:"Agriculture"}, tourism:{colour:"#f472b6",label:"Tourism"},
+  other:{colour:"#6b7280",label:"Other"},
+};
+const DEPTH = {3:["◆◆◆","Deep dive"], 2:["◆◆<span class=off>◆</span>","Documented"], 1:["◆<span class=off>◆◆</span>","Mapped"]};
+const PAGE = 120;
+let ALL = [], FILTERED = [], shown = 0;
+
+const $ = id => document.getElementById(id);
+const fold = s => (s||"").toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g,"");
+
+fetch("data/api/projects.json").then(r => r.json()).then(rows => {
+  ALL = rows;
+  for (const r of rows) r._f = fold(r.n + " " + (r.p||"") + " " + (r.j||""));
+  const jurs = [...new Set(rows.map(r => r.j).filter(Boolean))].sort();
+  for (const j of jurs) $("jur").insertAdjacentHTML("beforeend", `<option>${j}</option>`);
+  const secs = [...new Set(rows.map(r => r.s))].sort();
+  for (const s of secs) $("sector").insertAdjacentHTML("beforeend",
+      `<option value="${s}">${(SECTOR_META[s]||{}).label||s}</option>`);
+  $("loading").hidden = true;
+  // opt-in layers stay opt-in here too: hide AMIS + gap pins unless the
+  // jurisdiction filter selects them explicitly
+  apply();
+});
+
+function apply() {
+  const q = fold($("q").value.trim()), j = $("jur").value,
+        s = $("sector").value, d = $("depth").value;
+  FILTERED = ALL.filter(r => {
+    if ((r.src === "on_amis" || r.src === "nrcan_gap") && j !== r.j && !q) return false;
+    if (q && !r._f.includes(q)) return false;
+    if (j && r.j !== j) return false;
+    if (s && r.s !== s) return false;
+    if (d && r.d != d) return false;
+    return true;
+  });
+  $("count").textContent = FILTERED.length.toLocaleString() + " projects";
+  $("list").innerHTML = ""; shown = 0;
+  render();
+}
+
+function statusPill(r) {
+  if (!r.st) return `<span class="status-note">status not published by this registry</span>`;
+  const st = String(r.st);
+  const col = /approv|complet|operat|issued|decision/i.test(st) ? "var(--ok)"
+            : /terminat|withdraw|refus|clos/i.test(st) ? "var(--stop)" : "var(--caution)";
+  return `<span class="pill" style="color:${col};background:color-mix(in srgb,${col} calc(var(--tint)*100%),transparent)">${st}</span>`;
+}
+
+function render() {
+  const frag = [];
+  for (const r of FILTERED.slice(shown, shown + PAGE)) {
+    const m = SECTOR_META[r.s] || SECTOR_META.other;
+    const [dia, word] = DEPTH[r.d] || DEPTH[1];
+    frag.push(`<a class="card" href="project.html?id=${encodeURIComponent(r.i)}">
+      <div class="top"><span class="name">${esc(r.n)}</span>
+        <span class="depth">${dia}<span class="depth-word">${word}</span></span></div>
+      ${r.p ? `<div class="sub">${esc(r.p)}</div>` : ""}
+      <div class="row">
+        <span class="chip" style="--sector:${m.colour}">${m.label}</span>
+        ${statusPill(r)}
+        <span class="mono" style="font-size:0.68rem;color:var(--ink-3)">${esc(r.j||"")}${r.y ? " · " + r.y : ""}</span>
+      </div></a>`);
+  }
+  $("list").insertAdjacentHTML("beforeend", frag.join(""));
+  shown += PAGE;
+  $("more").hidden = shown >= FILTERED.length;
+  $("empty").hidden = FILTERED.length > 0;
+  if (!FILTERED.length) $("empty").textContent =
+      "No projects match. Try removing a filter — or search inside 594 documents on the Documents page.";
+}
+
+function esc(s){const d=document.createElement("i");d.textContent=s??"";return d.innerHTML}
+["q","jur","sector","depth"].forEach(id => $(id).addEventListener("input", apply));
+$("more").addEventListener("click", render);
+</script>
+</body>
+</html>

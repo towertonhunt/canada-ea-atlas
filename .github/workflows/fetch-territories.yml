@@ -1,0 +1,57 @@
+name: Fetch NB/PEI/SK/territories registries
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/fetch-territories.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/mac-mini-connection-ceehl5
+
+      - name: Probe remaining registries
+        continue-on-error: true
+        run: |
+          mkdir -p data/raw
+          probe() {  # url, outfile
+            code=$(curl -sL --max-time 60 -A "Mozilla/5.0" -w "%{http_code}" -o "data/raw/$2" "$1" || echo ERR)
+            size=$(wc -c < "data/raw/$2" 2>/dev/null || echo 0)
+            echo "$code $size $1 -> $2"
+          }
+          # New Brunswick EIA
+          probe "https://www2.gnb.ca/content/gnb/en/departments/elg/environment/content/environmental_impact_assessment/registrations.html" nb_eia_registrations.html
+          probe "https://www2.gnb.ca/content/gnb/en/departments/elg/environment/content/environmental_impact_assessment.html" nb_eia_home.html
+          # PEI
+          probe "https://www.princeedwardisland.ca/en/information/environment-energy-and-climate-action/environmental-assessments" pei_ea_list.html
+          probe "https://www.princeedwardisland.ca/en/topic/environmental-assessment" pei_ea_topic.html
+          # Saskatchewan EA project portal (Dynamics)
+          probe "https://envrbrportal.crm.saskatchewan.ca/eaprojects/" sk_ea_portal.html
+          # Yukon YESAB registry (SPA + API guesses)
+          probe "https://yesabregistry.ca/" yt_yesab_home.html
+          probe "https://yesabregistry.ca/api/projects" yt_yesab_api_projects.json
+          probe "https://yesabregistry.ca/api/v1/projects" yt_yesab_apiv1_projects.json
+          # NWT review board registry
+          probe "https://reviewboard.ca/registry" nwt_mveirb_registry.html
+          # Nunavut NIRB
+          probe "https://www.nirb.ca/project-search" nu_nirb_search.html
+          probe "https://www.nirb.ca/publicregistry" nu_nirb_registry.html
+
+      - name: Commit data to branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git add data/raw
+            git commit -m "Add NB/PEI/SK/YT/NWT/NU registry probes [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 5
+          done

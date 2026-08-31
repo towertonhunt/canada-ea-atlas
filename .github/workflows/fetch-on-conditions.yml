@@ -1,0 +1,120 @@
+name: Extract Ontario condition documents (corpus)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/mac-mini-connection-ceehl5]
+    paths: ['.github/workflows/fetch-on-conditions.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/mac-mini-connection-ceehl5
+
+      - name: Extract Ontario REA approvals + ERO decision notices
+        continue-on-error: true
+        run: |
+          pip install --quiet pypdf
+          python3 -u - <<'PYEOF'
+          import gzip, io, json, os, re, time, urllib.request
+
+          UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/126.0.0.0'
+
+          def get(url, tries=3):
+              for t in range(tries):
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent': UA})
+                      return urllib.request.urlopen(req, timeout=120).read()
+                  except Exception:
+                      if t == tries - 1:
+                          raise
+                      time.sleep(10)
+
+          from pypdf import PdfReader
+          os.makedirs('data/corpus/ontario', exist_ok=True)
+          idx_path = 'data/corpus/ontario/index.json'
+          index = json.load(open(idx_path)) if os.path.exists(idx_path) else []
+          done = {e['doc_id'] for e in index}
+          START, BUDGET, ok = time.time(), 38 * 60, 0
+
+          def save(doc_id, text, meta):
+              global ok
+              if len(text.strip()) < 500:
+                  return
+              buf = io.BytesIO()
+              with gzip.GzipFile(fileobj=buf, mode='wb', mtime=0) as gz:
+                  gz.write(text.encode())
+              open(f'data/corpus/ontario/{doc_id}.txt.gz', 'wb').write(buf.getvalue())
+              index.append(dict(meta, doc_id=doc_id, chars=len(text)))
+              done.add(doc_id)
+              ok += 1
+              if ok % 20 == 0:
+                  print(ok, 'extracted', flush=True)
+                  json.dump(index, open(idx_path, 'w'), ensure_ascii=False)
+
+          # 1) REA approval PDFs from the original map data (label-based match)
+          geo = json.load(open('projects.geojson'))
+          for f in geo['features']:
+              p = f['properties']
+              for s in p.get('doc_sections', []):
+                  if 'renewable energy approval' not in (s.get('label') or '').lower():
+                      continue
+                  for doc in s['docs']:
+                      u = doc.get('url') or ''
+                      doc_id = 'rea-' + re.sub(r'[^A-Za-z0-9]+', '', u.rsplit('/', 1)[-1])[:40]
+                      if doc_id in done or not u.lower().endswith('.pdf'):
+                          continue
+                      if time.time() - START > BUDGET:
+                          break
+                      try:
+                          text = '\n'.join((pg.extract_text() or '')
+                                           for pg in PdfReader(io.BytesIO(get(u))).pages)
+                          save(doc_id, text, {'jurisdiction': 'ontario_rea',
+                                              'project': p.get('name'),
+                                              'title': doc.get('title'), 'url': u})
+                      except Exception as e:
+                          print('REA FAIL', u[:80], str(e)[:60], flush=True)
+                      time.sleep(0.3)
+
+          # 2) ERO decision notices for ECAs and closure plans (notice pages)
+          ero = json.load(open('data/raw/on_permit_ero_notices.json'))
+          for label, notices in ero.items():
+              for path, name in list(notices.items()):
+                  doc_id = 'ero-' + path.rsplit('/', 1)[-1]
+                  if doc_id in done:
+                      continue
+                  if time.time() - START > BUDGET:
+                      break
+                  try:
+                      page = get('https://ero.ontario.ca' + path).decode('utf-8', 'replace')
+                      text = re.sub(r'<script.*?</script>|<style.*?</style>', ' ', page, flags=re.S)
+                      text = re.sub(r'<[^>]+>', ' ', text)
+                      text = re.sub(r'\s+', ' ', text)
+                      save(doc_id, text, {'jurisdiction': 'ontario_ero', 'kind': label,
+                                          'title': name,
+                                          'url': 'https://ero.ontario.ca' + path})
+                  except Exception as e:
+                      print('ERO FAIL', path, str(e)[:60], flush=True)
+                  time.sleep(0.5)
+
+          json.dump(index, open(idx_path, 'w'), ensure_ascii=False)
+          print('DONE:', ok, 'new,', len(index), 'total Ontario condition docs')
+          PYEOF
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git add data/corpus
+            git commit -m "Add Ontario condition corpus batch (REA + ERO) [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 7
+          done

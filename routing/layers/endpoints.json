@@ -1,0 +1,126 @@
+[
+ {
+  "title": "Ministry of Natural Resources road crossing railway",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/46"
+ },
+ {
+  "title": "Crown land use policy area (provincial)",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open06/MapServer/5"
+ },
+ {
+  "title": "Building as Symbol",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/33"
+ },
+ {
+  "title": "Provincial park regulated",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open03/MapServer/4"
+ },
+ {
+  "title": "Wetland",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/15"
+ },
+ {
+  "title": "Ontario Hydro Network (OHN) - Waterbody",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/25"
+ },
+ {
+  "title": "First Nation Reserve",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open03/MapServer/12"
+ },
+ {
+  "title": "Aggregate site authorized - partial surrender",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/23"
+ },
+ {
+  "title": "Aggregate site authorized - active",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/17"
+ },
+ {
+  "title": "Ontario Hydro Network (OHN) - Watercourse",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/26"
+ },
+ {
+  "title": "Conservation reserve regulated",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open03/MapServer/2"
+ },
+ {
+  "title": "Ontario Road Network (ORN) Road Net Element",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/0"
+ },
+ {
+  "title": "Ontario Road Network Composite Service",
+  "rest": "https://services1.arcgis.com/TJH5KDher0W13Kgo/arcgis/rest/services/Ontario_Road_Network_Composite_Service_GeoHub_View_EN/FeatureServer"
+ },
+ {
+  "title": "Ontario Road Network (ORN) Composite - Blocked Passage",
+  "rest": "https://services1.arcgis.com/TJH5KDher0W13Kgo/arcgis/rest/services/Ontario_Road_Network_Composite_Service_GeoHub_View_EN/FeatureServer/1"
+ },
+ {
+  "title": "Ontario Road Network (ORN) Composite - Underpass",
+  "rest": "https://services1.arcgis.com/TJH5KDher0W13Kgo/arcgis/rest/services/Ontario_Road_Network_Composite_Service_GeoHub_View_EN/FeatureServer/2"
+ },
+ {
+  "title": "Ontario Road Network (ORN) Composite - Toll Point",
+  "rest": "https://services1.arcgis.com/TJH5KDher0W13Kgo/arcgis/rest/services/Ontario_Road_Network_Composite_Service_GeoHub_View_EN/FeatureServer/3"
+ },
+ {
+  "title": "Ontario Road Network (ORN) Composite - Structure",
+  "rest": "https://services1.arcgis.com/TJH5KDher0W13Kgo/arcgis/rest/services/Ontario_Road_Network_Composite_Service_GeoHub_View_EN/FeatureServer/4"
+ },
+ {
+  "title": "Ontario Road Network (ORN) Composite - Segment",
+  "rest": "https://services1.arcgis.com/TJH5KDher0W13Kgo/arcgis/rest/services/Ontario_Road_Network_Composite_Service_GeoHub_View_EN/FeatureServer/5"
+ },
+ {
+  "title": "Ontario waterbody location identifier",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open08/MapServer/17"
+ },
+ {
+  "title": "Aggregate site authorized - inactive",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/16"
+ },
+ {
+  "title": "Built-Up Area",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/35"
+ },
+ {
+  "title": "Ontario Trail Network (OTN) Segment",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open04/MapServer/19"
+ },
+ {
+  "title": "Natural Heritage System Area",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open06/MapServer/22"
+ },
+ {
+  "title": "Crown Game Preserves",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/7"
+ },
+ {
+  "title": "Areas of Natural and Scientific Interest (ANSI)",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/3"
+ },
+ {
+  "title": "Aggregate site unrehabilitated",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/25"
+ },
+ {
+  "title": "Building to Scale",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open01/MapServer/34"
+ },
+ {
+  "title": "Official airports",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/0"
+ },
+ {
+  "title": "Airport Other",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/1"
+ },
+ {
+  "title": "Utility Line",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/11"
+ },
+ {
+  "title": "Ontario Trail Network (OTN) Access Point",
+  "rest": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open04/MapServer/20"
+ }
+]

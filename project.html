@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Project — Canada Project Map</title>
+<style>
+  :root {
+    --ground:#F5F7F4; --surface:#FFFFFF; --sunken:#EDF1EC;
+    --ink:#1A312B; --ink-2:#4A5F58; --ink-3:#8A9A93; --line:#D8E0DB;
+    --accent:#E8620C; --accent-ink:#FFF; --link:#3E7CA6;
+    --ok:#2E7D4F; --caution:#B7791F; --stop:#B3402E;
+    --tint:0.12; --chip-lift:0%;
+    --disp:'Archivo','Avenir Next','Seravek','Segoe UI',system-ui,sans-serif;
+    --body:'Public Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+    --data:'IBM Plex Mono',ui-monospace,'SF Mono','Cascadia Code',monospace;
+  }
+  @media (prefers-color-scheme: dark) { :root {
+    --ground:#111917; --surface:#182220; --sunken:#0C1311;
+    --ink:#E4ECE8; --ink-2:#9FB2AA; --ink-3:#5F6F68; --line:#2A3833;
+    --accent:#FF7E33; --accent-ink:#1A1208; --link:#7FB2D4;
+    --ok:#5CB585; --caution:#D9A04C; --stop:#D96C5B;
+    --tint:0.22; --chip-lift:42%; } }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
+  a{color:var(--link)}
+  header{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:baseline;padding:14px 20px;border-bottom:1px solid var(--line);background:var(--surface)}
+  header h1{font-family:var(--disp);font-size:1.05rem;margin:0}
+  header nav{display:flex;gap:14px;font-size:0.85rem}
+  main{max-width:820px;margin:0 auto;padding:26px 20px 100px;display:flex;flex-direction:column;gap:28px}
+  h2{font-family:var(--disp);margin:0;font-size:1.55rem;letter-spacing:-0.01em;text-wrap:balance}
+  h3{font-family:var(--disp);margin:0 0 10px;font-size:1.15rem}
+  .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+  .chip{display:inline-block;border-radius:999px;padding:2px 10px;font-size:0.76rem;font-weight:600;
+    color:color-mix(in srgb,var(--sector) calc(100% - var(--chip-lift)),white);
+    background:color-mix(in srgb,var(--sector) calc(var(--tint)*100%),transparent)}
+  .pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:2px 10px;font-size:0.76rem;font-weight:600}
+  .pill::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+  .depth{font-size:0.82rem;letter-spacing:0.12em;color:var(--ink)}
+  .depth .off{color:var(--ink-3);opacity:0.45}
+  .depth-word{font-size:0.76rem;color:var(--ink-2);letter-spacing:0;margin-left:4px}
+  .mono{font-family:var(--data);font-variant-numeric:tabular-nums}
+  .sub{color:var(--ink-2);font-size:0.88rem}
+  .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  .fact{background:var(--surface);padding:12px 14px}
+  .fact .k{font-family:var(--data);font-size:0.66rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-3)}
+  .fact .v{font-size:0.9rem;font-weight:600;margin-top:3px;overflow-wrap:anywhere}
+  /* process rail */
+  .rail{border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:22px 24px 16px}
+  .rail-line{display:grid;grid-template-columns:repeat(6,1fr);position:relative;margin-top:6px}
+  .rail-line::before{content:"";position:absolute;top:8px;left:calc(100%/12);right:calc(100%/12);height:2px;background:var(--line)}
+  .done-track{position:absolute;top:8px;left:calc(100%/12);height:2px;background:var(--ink)}
+  .range-shade{position:absolute;top:2px;height:14px;border-radius:7px;background:color-mix(in srgb,var(--accent) 14%,transparent)}
+  .station{position:relative;display:flex;flex-direction:column;align-items:center;gap:7px}
+  .tick{width:14px;height:14px;border-radius:50%;background:var(--surface);border:2px solid var(--ink-3);z-index:1}
+  .station.done .tick{background:var(--ink);border-color:var(--ink)}
+  .station.current .tick{width:16px;height:16px;border-radius:3px;transform:rotate(45deg);background:var(--accent);border-color:var(--accent)}
+  .station.current.inferred .tick{background:transparent}
+  .slabel{font-size:0.7rem;color:var(--ink-2);text-align:center;line-height:1.25;max-width:105px}
+  .station.current .slabel{color:var(--ink);font-weight:650}
+  .native{font-family:var(--data);font-size:0.64rem;color:var(--accent);text-align:center}
+  .flag{font-family:var(--data);font-size:0.64rem;color:var(--stop);border:1px solid var(--stop);border-radius:4px;padding:1px 6px;margin-top:2px}
+  .rail.dim .tick,.rail.dim .rail-line::before{opacity:0.4}
+  .rail.dim .slabel{opacity:0.6}
+  .subrail{display:flex;gap:4px;margin-top:12px;margin-left:auto;width:46%;min-width:280px}
+  .subrail .seg{flex:1;text-align:center;font-size:0.62rem;font-family:var(--data);color:var(--ink-3);padding-top:7px;border-top:3px solid var(--line)}
+  .subrail .seg.done{border-top-color:var(--ink);color:var(--ink-2)}
+  .subrail .seg.now{border-top-color:var(--accent);color:var(--ink);font-weight:700}
+  .rail-note{font-size:0.78rem;color:var(--ink-2);margin:14px 0 0}
+  /* commitments */
+  .ccard{border:1px solid var(--line);border-radius:10px;padding:14px 16px;background:var(--surface);margin-top:10px}
+  .ccard .plain{font-weight:650;font-size:0.94rem}
+  .ccard blockquote{border-left:3px solid var(--ink);padding:2px 0 2px 13px;margin:10px 0 0;color:var(--ink-2);font-size:0.86rem}
+  .ccard .tags{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;font-size:0.7rem}
+  .tag{font-family:var(--data);color:var(--ink-2);border:1px solid var(--line);border-radius:4px;padding:1px 7px}
+  .bridge{border:1px dashed var(--line);border-radius:10px;padding:16px 18px;background:var(--surface)}
+  .group-head{display:flex;gap:8px;align-items:baseline;margin-top:18px}
+  .group-head .n{font-family:var(--data);font-size:0.72rem;color:var(--ink-3)}
+  details.doc-sec{border:1px solid var(--line);border-radius:8px;background:var(--surface);margin-top:8px}
+  details.doc-sec summary{cursor:pointer;padding:10px 14px;font-weight:600;font-size:0.88rem}
+  details.doc-sec div{padding:0 14px 12px}
+  details.doc-sec a{display:block;font-size:0.82rem;padding:3px 0}
+  .provenance{border-top:1px solid var(--line);padding-top:14px;font-family:var(--data);font-size:0.7rem;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:6px 22px}
+  #loading{padding:60px;text-align:center;color:var(--ink-3);font-family:var(--data);font-size:0.8rem}
+  .btn{display:inline-block;font-family:var(--disp);font-weight:600;font-size:0.85rem;background:var(--accent);color:var(--accent-ink);border:none;border-radius:6px;padding:8px 14px;cursor:pointer;text-decoration:none}
+  select{padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink);font-size:0.8rem}
+  a:focus-visible,summary:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Canada Project Map</h1>
+  <nav>
+    <a href="index.html">Map</a>
+    <a href="search.html">Search</a>
+    <a href="wiki.html">Documents</a>
+    <a href="predict.html">Predict</a>
+  </nav>
+</header>
+<main id="main"><div id="loading">loading project…</div></main>
+
+<script>
+const SECTOR_META = {
+  wind:{colour:"#2563eb",label:"Wind"}, solar:{colour:"#d97706",label:"Solar"},
+  biogas:{colour:"#16a34a",label:"Biogas / biomass"}, hydro:{colour:"#0891b2",label:"Hydro / dams"},
+  mining:{colour:"#92400e",label:"Mining"}, oil_gas:{colour:"#57534e",label:"Oil & gas"},
+  nuclear:{colour:"#ca8a04",label:"Nuclear"}, energy_other:{colour:"#7c3aed",label:"Other energy"},
+  transport:{colour:"#db2777",label:"Transport"}, water:{colour:"#0d9488",label:"Water / marine"},
+  industrial:{colour:"#4b5563",label:"Industrial"}, waste:{colour:"#65a30d",label:"Waste"},
+  agriculture:{colour:"#84cc16",label:"Agriculture"}, tourism:{colour:"#f472b6",label:"Tourism"},
+  other:{colour:"#6b7280",label:"Other"},
+};
+const DEPTH = {3:["◆◆◆","Deep dive"],2:["◆◆<span class=off>◆</span>","Documented"],1:["◆<span class=off>◆◆</span>","Mapped"]};
+const DISCIPLINE_LABEL = {
+  surface_water:"Surface water", groundwater:"Groundwater", fish_fish_habitat:"Fish & fish habitat",
+  wetlands:"Wetlands", vegetation_ecosystems:"Vegetation & ecosystems", wildlife_birds:"Wildlife & birds",
+  species_at_risk:"Species at risk", air_quality:"Air quality", noise_vibration:"Noise & vibration",
+  light:"Light", soils_terrain:"Soils & terrain", waste_hazmat:"Waste & hazmat",
+  accidents_malfunctions:"Accidents & malfunctions", human_health:"Human health",
+  socio_economic:"Socio-economic", indigenous_rights_tluse:"Indigenous rights & land use",
+  archaeology_heritage:"Archaeology & heritage", visual_landscape:"Visual & landscape",
+  climate_ghg:"Climate & GHG", cumulative_effects:"Cumulative effects",
+  closure_postclosure:"Closure & post-closure", other:"General / other",
+};
+const DISC_COLOUR = {surface_water:"#2563eb", groundwater:"#0e7490", fish_fish_habitat:"#0891b2",
+  wetlands:"#0d9488", vegetation_ecosystems:"#16a34a", wildlife_birds:"#65a30d", species_at_risk:"#ca8a04",
+  air_quality:"#7c3aed", noise_vibration:"#a855f7", light:"#f472b6", soils_terrain:"#92400e",
+  waste_hazmat:"#57534e", accidents_malfunctions:"#b3402e", human_health:"#db2777",
+  socio_economic:"#4b5563", indigenous_rights_tluse:"#b7791f", archaeology_heritage:"#854d0e",
+  visual_landscape:"#6b7280", climate_ghg:"#2e7d4f", cumulative_effects:"#475569",
+  closure_postclosure:"#334155", other:"#6b7280"};
+const $ = s => document.querySelector(s);
+const esc = s => {const d=document.createElement("i");d.textContent=s??"";return d.innerHTML};
+
+const id = new URLSearchParams(location.search).get("id");
+Promise.all([
+  fetch("data/api/projects.json").then(r => r.json()),
+  fetch("data/process_frameworks.json").then(r => r.json()),
+]).then(async ([rows, fw]) => {
+  const row = rows.find(r => r.i === id);
+  if (!row) { $("#main").innerHTML = `<p>Project not found. <a href="search.html">Back to search</a></p>`; return; }
+  document.title = row.n + " — Canada Project Map";
+  let detail = null;
+  if (row.d === 3) {
+    try { detail = await fetch(`data/api/project/${encodeURIComponent(row.i)}.json`).then(r => r.json()); }
+    catch (e) {}
+  }
+  renderPage(row, detail, fw);
+});
+
+function statusPill(st) {
+  if (!st) return "";
+  const col = /approv|complet|operat|issued|decision/i.test(st) ? "var(--ok)"
+            : /terminat|withdraw|refus|clos/i.test(st) ? "var(--stop)" : "var(--caution)";
+  return `<span class="pill" style="color:${col};background:color-mix(in srgb,${col} calc(var(--tint)*100%),transparent)">${esc(st)}</span>`;
+}
+
+function railHTML(proc, fw) {
+  const MACROS = fw.macro_stages.map(m => m.key);
+  const LBL = Object.fromEntries(fw.macro_stages.map(m => [m.key, m.label]));
+  const SUBS = fw.post_decision_subphases;
+  let curIdx = proc.macro ? MACROS.indexOf(proc.macro) : -1;
+  let range = proc.range ? [MACROS.indexOf(proc.range[0]), MACROS.indexOf(proc.range[1])] : null;
+  const unknown = proc.conf === "u" && !proc.out;
+  const inferred = proc.conf === "i";
+  // outcome with no stage info: dim rail + flag caption
+  const stations = MACROS.map((k, ix) => {
+    const done = curIdx >= 0 && ix < curIdx;
+    const cur = ix === curIdx;
+    const flagged = proc.out && cur;
+    return `<div class="station ${done ? "done" : ""} ${cur ? "current" : ""} ${cur && inferred ? "inferred" : ""}">
+      <span class="tick"></span><span class="slabel">${LBL[k]}</span>
+      ${cur && proc.label ? `<span class="native">${esc(proc.label)}${proc.sub ? " · " + esc(proc.sub) : ""}</span>` : ""}
+      ${flagged ? `<span class="flag">${esc(String(proc.out).toUpperCase())}</span>` : ""}</div>`;
+  }).join("");
+  const track = curIdx > 0 ? `<div class="done-track" style="width:${(curIdx / 6) * 100 + 8}%"></div>` : "";
+  const shade = range && range[0] >= 0 ? `<div class="range-shade" style="left:${range[0]/6*100 + 4}%;width:${(range[1]-range[0]+1)/6*100 - 8}%"></div>` : "";
+  let sub = "";
+  if (proc.macro === "post_decision" && proc.sub) {
+    const si = SUBS.findIndex(s => s.key === proc.sub);
+    sub = `<div class="subrail">${SUBS.map((s, ix) =>
+      `<div class="seg ${ix < si ? "done" : ix === si ? "now" : ""}">${s.label.toLowerCase()}</div>`).join("")}</div>`;
+  }
+  const fwLabel = proc.f && fw.frameworks[proc.f] ? fw.frameworks[proc.f].label : null;
+  const note = unknown
+    ? `Process position not published by this registry.`
+    : inferred
+      ? `Position inferred from registry status${proc.range ? " — somewhere between " + LBL[proc.range[0]].toLowerCase() + " and " + LBL[proc.range[1]].toLowerCase() : ""}.`
+      : `Stage from the registry's phase field · exact.`;
+  return `<div class="rail ${unknown ? "dim" : ""}">
+    ${fwLabel ? `<div class="mono" style="font-size:0.68rem;color:var(--ink-3);margin-bottom:10px">${esc(fwLabel)}</div>` : ""}
+    <div class="rail-line">${shade}${track}${stations}</div>${sub}
+    <p class="rail-note">${note}</p></div>`;
+}
+
+function commitmentsHTML(detail) {
+  const groups = {};
+  for (const c of detail.commitments) (groups[c.discipline] = groups[c.discipline] || []).push(c);
+  const order = Object.keys(groups).sort((a, b) => groups[b].length - groups[a].length);
+  let html = `<div class="row" style="margin-bottom:4px">
+    <select id="disc-filter"><option value="">All disciplines · ${detail.commitments.length}</option>
+    ${order.map(d => `<option value="${d}">${DISCIPLINE_LABEL[d] || d} · ${groups[d].length}</option>`).join("")}</select>
+    <a class="btn" href="predict.html">Compare across projects</a></div><div id="commit-groups">`;
+  for (const d of order) {
+    html += `<div class="commit-group" data-d="${d}">
+      <div class="group-head"><span class="chip" style="--sector:${DISC_COLOUR[d] || "#6b7280"}">${DISCIPLINE_LABEL[d] || d}</span>
+      <span class="n">${groups[d].length}</span></div>`;
+    for (const c of groups[d]) {
+      html += `<div class="ccard">
+        <blockquote>${esc(c.text)}</blockquote>
+        <div class="tags"><span class="tag">${esc(c.measure_type)}</span>
+          ${c.timing ? `<span class="tag">${esc(c.timing)}</span>` : ""}
+          ${c.jurisdiction ? `<span class="tag">${esc(c.jurisdiction)}</span>` : ""}</div></div>`;
+    }
+    html += `</div>`;
+  }
+  return html + `</div>`;
+}
+
+async function docsHTML(dp) {
+  try {
+    const cat = await fetch(dp).then(r => r.json());
+    const secs = cat.sections || cat;
+    if (Array.isArray(secs)) {
+      return secs.slice(0, 400).map(d =>
+        `<a href="${esc(d.url || d.href || "#")}" rel="noopener">${esc(d.title || d.name || d.url)}</a>`).join("");
+    }
+    let html = "";
+    for (const [sec, docs] of Object.entries(secs)) {
+      if (!Array.isArray(docs)) continue;
+      html += `<details class="doc-sec"><summary>${esc(sec)} · ${docs.length}</summary><div>` +
+        docs.slice(0, 300).map(d => `<a href="${esc(d.url || d.href || "#")}" rel="noopener">${esc(d.title || d.name || d.url)}</a>`).join("") +
+        `</div></details>`;
+    }
+    return html || null;
+  } catch (e) { return null; }
+}
+
+async function renderPage(row, detail, fw) {
+  const m = SECTOR_META[row.s] || SECTOR_META.other;
+  const [dia, word] = DEPTH[row.d] || DEPTH[1];
+  const proc = row.proc || {};
+  const enriched = [];
+  if (row.g === "inventory") enriched.push("location from major-projects inventory");
+  if (row.g === "approximate") enriched.push("location approximate (gazetteer-geocoded)");
+
+  let html = `
+  <div>
+    <div class="row" style="margin-bottom:8px">
+      <span class="chip" style="--sector:${m.colour}">${m.label}</span>
+      ${statusPill(row.st)}
+      <span class="depth">${dia}<span class="depth-word">${word}</span></span>
+    </div>
+    <h2>${esc(row.n)}</h2>
+    <div class="row" style="margin-top:6px">
+      ${row.p ? `<span class="sub">${esc(row.p)}</span> <span class="sub">·</span>` : ""}
+      <span class="sub">${esc(row.j || "")}</span>
+    </div>
+  </div>
+  <div class="facts">
+    ${detail && detail.type ? `<div class="fact"><div class="k">EA / process type</div><div class="v">${esc(detail.type)}</div></div>` : ""}
+    ${detail && detail.approval_date ? `<div class="fact"><div class="k">Decision</div><div class="v mono">${esc(detail.approval_date)}</div></div>` : ""}
+    ${row.y ? `<div class="fact"><div class="k">Approval year</div><div class="v mono">${row.y}</div></div>` : ""}
+    ${detail ? `<div class="fact"><div class="k">Commitments</div><div class="v">${detail.commitments.length} analysed</div></div>` : ""}
+    ${row.c ? `<div class="fact"><div class="k">Coordinates</div><div class="v mono">${row.c[1].toFixed(3)}, ${row.c[0].toFixed(3)} <a href="index.html" style="font-size:0.74rem">map</a></div></div>` : ""}
+  </div>
+  <div><h3>Process</h3>${railHTML(proc, fw)}</div>`;
+
+  if (row.dp) html += `<div><h3>Documents</h3><div id="docs">loading document library…</div></div>`;
+
+  html += `<div><h3>Commitments</h3>`;
+  if (detail && detail.commitments && detail.commitments.length) {
+    html += commitmentsHTML(detail);
+  } else {
+    html += `<div class="bridge">
+      <p style="margin:0 0 6px;font-weight:650">Conditions for this project haven't been analysed yet.</p>
+      <p class="sub" style="margin:0 0 10px">See typical commitments for ${m.label.toLowerCase()} projects, drawn from 7,265 analysed conditions across 150+ Canadian approvals.</p>
+      <a class="btn" href="predict.html">Open the mitigation predictor</a></div>`;
+  }
+  html += `</div>
+  <div class="provenance">
+    <span>id: ${esc(row.i)}</span>
+    <span>source: ${esc(row.j || "")}${row.src ? " (" + esc(row.src) + ")" : ""}</span>
+    ${enriched.map(e => `<span>${e}</span>`).join("")}
+    ${row.src === "nrcan_gap" ? `<span>listed in an external inventory; no EA-registry record found yet</span>` : ""}
+  </div>`;
+
+  $("#main").innerHTML = html;
+
+  if (row.dp) {
+    const dh = await docsHTML(row.dp);
+    const el = $("#docs");
+    if (el) el.innerHTML = dh || `<span class="sub">Document catalogue unavailable — see the registry link on the map.</span>`;
+  }
+  const df = $("#disc-filter");
+  if (df) df.addEventListener("input", () => {
+    document.querySelectorAll(".commit-group").forEach(g =>
+      g.style.display = !df.value || g.dataset.d === df.value ? "" : "none");
+  });
+}
+</script>
+</body>
+</html>

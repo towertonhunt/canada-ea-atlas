@@ -1,0 +1,542 @@
+<title>Canada Project Map — Design System & Key Screens</title>
+<style>
+  :root {
+    --ground: #F5F7F4; --surface: #FFFFFF; --sunken: #EDF1EC;
+    --ink: #1A312B; --ink-2: #4A5F58; --ink-3: #8A9A93;
+    --line: #D8E0DB;
+    --accent: #E8620C; --accent-ink: #FFFFFF;
+    --link: #3E7CA6;
+    --ok: #2E7D4F; --caution: #B7791F; --stop: #B3402E;
+    --tint: 0.12; --chip-lift: 0%;
+    --disp: 'Archivo', 'Avenir Next', 'Seravek', 'Segoe UI', system-ui, sans-serif;
+    --body: 'Public Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --data: 'IBM Plex Mono', ui-monospace, 'SF Mono', 'Cascadia Code', monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #111917; --surface: #182220; --sunken: #0C1311;
+      --ink: #E4ECE8; --ink-2: #9FB2AA; --ink-3: #5F6F68;
+      --line: #2A3833;
+      --accent: #FF7E33; --accent-ink: #1A1208;
+      --link: #7FB2D4;
+      --ok: #5CB585; --caution: #D9A04C; --stop: #D96C5B;
+      --tint: 0.22; --chip-lift: 42%;
+    }
+  }
+  :root[data-theme="light"] {
+    --ground: #F5F7F4; --surface: #FFFFFF; --sunken: #EDF1EC;
+    --ink: #1A312B; --ink-2: #4A5F58; --ink-3: #8A9A93;
+    --line: #D8E0DB; --accent: #E8620C; --accent-ink: #FFFFFF;
+    --link: #3E7CA6; --ok: #2E7D4F; --caution: #B7791F; --stop: #B3402E;
+    --tint: 0.12; --chip-lift: 0%;
+  }
+  :root[data-theme="dark"] {
+    --ground: #111917; --surface: #182220; --sunken: #0C1311;
+    --ink: #E4ECE8; --ink-2: #9FB2AA; --ink-3: #5F6F68;
+    --line: #2A3833; --accent: #FF7E33; --accent-ink: #1A1208;
+    --link: #7FB2D4; --ok: #5CB585; --caution: #D9A04C; --stop: #D96C5B;
+    --tint: 0.22; --chip-lift: 42%;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--ground); color: var(--ink);
+    font-family: var(--body); line-height: 1.55; margin: 0;
+    font-size: 16px;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 40px 24px 96px; }
+
+  h1, h2, h3 { font-family: var(--disp); text-wrap: balance; margin: 0; }
+  h1 { font-size: 2rem; letter-spacing: -0.015em; }
+  h2 { font-size: 1.5rem; letter-spacing: -0.01em; }
+  h3 { font-size: 1.17rem; }
+  p  { max-width: 68ch; }
+  a  { color: var(--link); }
+
+  .eyebrow {
+    font-family: var(--data); font-size: 0.76rem; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--ink-2);
+  }
+  .section { margin-top: 64px; display: flex; flex-direction: column; gap: 16px; }
+  .section > .caption { color: var(--ink-2); font-size: 0.88rem; max-width: 68ch; margin: 0; }
+
+  /* ── token strips ─────────────────────────────────────── */
+  .swatches { display: flex; flex-wrap: wrap; gap: 12px; }
+  .swatch { width: 132px; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--surface); }
+  .swatch .chip { height: 52px; }
+  .swatch .meta { padding: 8px 10px; font-family: var(--data); font-size: 0.7rem; color: var(--ink-2); }
+  .swatch .meta b { display: block; color: var(--ink); font-size: 0.76rem; }
+
+  .typerow { display: grid; grid-template-columns: 110px 1fr; gap: 4px 20px; align-items: baseline; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px 24px; }
+  .typerow .lbl { font-family: var(--data); font-size: 0.7rem; color: var(--ink-3); }
+
+  /* ── shared components ────────────────────────────────── */
+  .pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    border-radius: 999px; padding: 2px 10px; font-size: 0.76rem; font-weight: 600;
+  }
+  .pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+  .pill.ok      { color: var(--ok);      background: color-mix(in srgb, var(--ok)      calc(var(--tint)*100%), transparent); }
+  .pill.caution { color: var(--caution); background: color-mix(in srgb, var(--caution) calc(var(--tint)*100%), transparent); }
+
+  .chip-sector {
+    display: inline-block; border-radius: 999px; padding: 2px 10px;
+    font-size: 0.76rem; font-weight: 600;
+    color: color-mix(in srgb, var(--sector) calc(100% - var(--chip-lift)), white); background: color-mix(in srgb, var(--sector) calc(var(--tint)*100%), transparent);
+  }
+
+  .depth { font-size: 0.82rem; letter-spacing: 0.12em; color: var(--ink); white-space: nowrap; }
+  .depth .off { color: var(--ink-3); opacity: 0.45; }
+  .depth-word { font-size: 0.76rem; color: var(--ink-2); letter-spacing: 0; margin-left: 4px; }
+
+  .mono { font-family: var(--data); font-variant-numeric: tabular-nums; }
+
+  .btn-primary {
+    font-family: var(--disp); font-weight: 600; font-size: 0.88rem;
+    background: var(--accent); color: var(--accent-ink);
+    border: none; border-radius: 6px; padding: 9px 16px; cursor: pointer;
+  }
+  .btn-quiet {
+    font-family: var(--disp); font-weight: 600; font-size: 0.88rem;
+    background: transparent; color: var(--ink); border: 1px solid var(--line);
+    border-radius: 6px; padding: 8px 14px; cursor: pointer;
+  }
+  .btn-primary:focus-visible, .btn-quiet:focus-visible, .card:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 2px;
+  }
+
+  /* ── screen frames ────────────────────────────────────── */
+  .frame {
+    border: 1px solid var(--line); border-radius: 10px; background: var(--surface);
+    overflow: hidden; box-shadow: 0 1px 2px color-mix(in srgb, var(--ink) 6%, transparent);
+  }
+  .frame-bar {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--sunken); border-bottom: 1px solid var(--line);
+    padding: 8px 14px; font-family: var(--data); font-size: 0.7rem; color: var(--ink-3);
+  }
+  .frame-bar .dots { display: flex; gap: 5px; }
+  .frame-bar .dots i { width: 9px; height: 9px; border-radius: 50%; background: var(--line); }
+
+  /* ── Screen A: results ────────────────────────────────── */
+  .toolbar {
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    padding: 14px 16px; border-bottom: 1px solid var(--line);
+  }
+  .searchbox {
+    flex: 1 1 240px; display: flex; align-items: center; gap: 8px;
+    border: 1px solid var(--line); border-radius: 6px; padding: 8px 12px;
+    background: var(--ground); color: var(--ink-3); font-size: 0.88rem;
+  }
+  .facet {
+    border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px;
+    font-size: 0.79rem; color: var(--ink-2); background: var(--surface); white-space: nowrap;
+  }
+  .facet b { color: var(--ink); }
+
+  .results { display: grid; grid-template-columns: 400px 1fr; min-height: 430px; }
+  .rlist { border-right: 1px solid var(--line); display: flex; flex-direction: column; }
+  .card {
+    padding: 14px 16px; border-bottom: 1px solid var(--line);
+    display: flex; flex-direction: column; gap: 7px; cursor: pointer;
+  }
+  .card:hover { background: var(--sunken); }
+  .card.active { box-shadow: inset 3px 0 0 var(--accent); background: var(--sunken); }
+  .card .top { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+  .card .name { font-family: var(--disp); font-weight: 650; font-size: 0.97rem; }
+  .card .sub  { color: var(--ink-2); font-size: 0.82rem; }
+  .card .row  { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+
+  .mappane { position: relative; background:
+      linear-gradient(160deg, color-mix(in srgb, var(--link) 10%, var(--sunken)) 0%, var(--sunken) 45%, color-mix(in srgb, var(--ok) 8%, var(--sunken)) 100%); }
+  .mappane .contour { position: absolute; border: 1px solid color-mix(in srgb, var(--ink) 9%, transparent); border-radius: 45% 55% 60% 40%; }
+  .pin { position: absolute; width: 13px; height: 13px; border-radius: 50%; border: 2px solid var(--surface); box-shadow: 0 1px 3px color-mix(in srgb, var(--ink) 30%, transparent); }
+  .pin.gap { border-radius: 2px; transform: rotate(45deg); background: var(--ground); border: 2px dashed var(--ink-3); }
+  .maplabel { position: absolute; font-family: var(--data); font-size: 0.68rem; color: var(--ink-2); }
+
+  /* ── Screen B: project detail ─────────────────────────── */
+  .detail { padding: 28px 32px; display: flex; flex-direction: column; gap: 28px; }
+  .dhead { display: flex; flex-direction: column; gap: 10px; }
+  .dhead .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .dhead h2 { font-size: 1.6rem; }
+  .src { font-family: var(--data); font-size: 0.76rem; color: var(--ink-2); }
+  .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  .fact { background: var(--surface); padding: 12px 14px; }
+  .fact .k { font-family: var(--data); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-3); }
+  .fact .v { font-size: 0.92rem; font-weight: 600; margin-top: 3px; }
+  .fact .v.mono { font-weight: 500; font-size: 0.85rem; }
+
+  /* the process rail — signature component */
+  .rail { display: flex; flex-direction: column; gap: 0; }
+  .rail-line { display: grid; grid-template-columns: repeat(6, 1fr); position: relative; margin-top: 8px; }
+  .rail-line::before {
+    content: ""; position: absolute; top: 8px; left: calc(100%/12); right: calc(100%/12);
+    height: 2px; background: var(--line);
+  }
+  .rail-line .done-track { position: absolute; top: 8px; left: calc(100%/12); height: 2px; background: var(--ink); }
+  .station { position: relative; display: flex; flex-direction: column; align-items: center; gap: 8px; padding-top: 1px; }
+  .tick { width: 15px; height: 15px; border-radius: 50%; background: var(--surface); border: 2px solid var(--ink-3); z-index: 1; }
+  .station.done .tick { background: var(--ink); border-color: var(--ink); }
+  .station.current .tick {
+    width: 17px; height: 17px; border-radius: 3px; transform: rotate(45deg);
+    background: var(--accent); border: 2px solid var(--accent);
+  }
+  .station.current.inferred .tick { background: transparent; }
+  .station .slabel { font-size: 0.72rem; color: var(--ink-2); text-align: center; line-height: 1.25; max-width: 110px; }
+  .station.current .slabel { color: var(--ink); font-weight: 650; }
+  .station .native { font-family: var(--data); font-size: 0.66rem; color: var(--accent); text-align: center; }
+  .rail-note { font-size: 0.79rem; color: var(--ink-2); margin-top: 14px; }
+  .rail.dim .tick, .rail.dim .rail-line::before { opacity: 0.4; }
+  .rail.dim .slabel { opacity: 0.6; }
+  .range-shade { position: absolute; top: 2px; height: 14px; border-radius: 7px; background: color-mix(in srgb, var(--accent) 14%, transparent); }
+  .flag {
+    font-family: var(--data); font-size: 0.66rem; color: var(--stop);
+    border: 1px solid var(--stop); border-radius: 4px; padding: 1px 6px; margin-top: 2px;
+  }
+
+  /* sub-rail */
+  .subrail { display: flex; gap: 4px; margin-top: 12px; margin-left: auto; width: 46%; min-width: 300px; }
+  .subrail .seg { flex: 1; text-align: center; font-size: 0.66rem; font-family: var(--data); color: var(--ink-3); padding-top: 8px; border-top: 3px solid var(--line); }
+  .subrail .seg.done { border-top-color: var(--ink); color: var(--ink-2); }
+  .subrail .seg.now { border-top-color: var(--accent); color: var(--ink); font-weight: 700; }
+
+  /* commitments */
+  .commit-tools { display: flex; flex-wrap: wrap; gap: 8px; }
+  .ccard { border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; display: flex; flex-direction: column; gap: 10px; background: var(--surface); }
+  .ccard .plain { font-weight: 650; font-size: 0.97rem; max-width: 68ch; }
+  .ccard .verbatim {
+    border-left: 3px solid var(--ink); padding: 2px 0 2px 14px; margin: 0;
+    color: var(--ink-2); font-size: 0.88rem; max-width: 68ch;
+  }
+  .ccard .tags { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 0.72rem; }
+  .tag { font-family: var(--data); color: var(--ink-2); border: 1px solid var(--line); border-radius: 4px; padding: 1px 7px; }
+
+  .provenance {
+    border-top: 1px solid var(--line); padding-top: 14px;
+    font-family: var(--data); font-size: 0.72rem; color: var(--ink-2);
+    display: flex; flex-wrap: wrap; gap: 6px 22px;
+  }
+
+  /* phone */
+  .phones { display: flex; gap: 32px; flex-wrap: wrap; align-items: flex-start; }
+  .phone {
+    width: 320px; border: 1px solid var(--line); border-radius: 28px; background: var(--surface);
+    padding: 12px 12px 0; box-shadow: 0 4px 18px color-mix(in srgb, var(--ink) 10%, transparent);
+    overflow: hidden;
+  }
+  .phone .screen { border-radius: 18px 18px 0 0; overflow: hidden; border: 1px solid var(--line); border-bottom: none; }
+  .phone .pbody { padding: 16px; display: flex; flex-direction: column; gap: 14px; font-size: 0.85rem; }
+  .ptabs { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); background: var(--sunken); }
+  .ptabs div { text-align: center; padding: 9px 0 12px; font-size: 0.64rem; font-family: var(--data); color: var(--ink-3); }
+  .ptabs div.on { color: var(--accent); font-weight: 700; }
+
+  @media (max-width: 860px) {
+    .results { grid-template-columns: 1fr; }
+    .mappane { min-height: 220px; }
+    .rail-line { grid-template-columns: repeat(3, 1fr); row-gap: 26px; }
+    .rail-line::before, .rail-line .done-track, .range-shade { display: none; }
+    .subrail { width: 100%; margin-left: 0; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .rail-line .done-track { animation: draw 900ms cubic-bezier(0.2,0,0,1) both; }
+    @keyframes draw { from { max-width: 0; } to { max-width: 100%; } }
+  }
+</style>
+
+<div class="wrap">
+  <header class="section" style="margin-top:0">
+    <span class="eyebrow">Canada Project Map · Fable task F2</span>
+    <h1>Design system &amp; key screens</h1>
+    <p class="caption">A public-record instrument: cool boreal grounds, one blaze-orange accent
+    reserved for “where the project is now” and the primary action, registry data always in
+    monospace. Sector colours carry over from the existing map. Toggle your theme — both are
+    first-class.</p>
+  </header>
+
+  <!-- ── tokens ─────────────────────────────────────────── -->
+  <section class="section">
+    <span class="eyebrow">01 · Palette</span>
+    <div class="swatches">
+      <div class="swatch"><div class="chip" style="background:var(--ink)"></div><div class="meta"><b>ink / spruce</b>#1A312B</div></div>
+      <div class="swatch"><div class="chip" style="background:var(--ground);border-bottom:1px solid var(--line)"></div><div class="meta"><b>ground / paper</b>#F5F7F4 · #111917</div></div>
+      <div class="swatch"><div class="chip" style="background:var(--accent)"></div><div class="meta"><b>accent / blaze</b>#E8620C · #FF7E33</div></div>
+      <div class="swatch"><div class="chip" style="background:var(--link)"></div><div class="meta"><b>glacial</b>#3E7CA6</div></div>
+      <div class="swatch"><div class="chip" style="background:linear-gradient(90deg,var(--ok) 33%,var(--caution) 33% 66%,var(--stop) 66%)"></div><div class="meta"><b>semantic</b>ok · caution · stop</div></div>
+      <div class="swatch"><div class="chip" style="background:linear-gradient(90deg,#2563eb 20%,#d97706 20% 40%,#92400e 40% 60%,#0891b2 60% 80%,#db2777 80%)"></div><div class="meta"><b>sector chips</b>from CATEGORY_META</div></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <span class="eyebrow">02 · Type</span>
+    <div class="typerow">
+      <span class="lbl">display</span><span style="font-family:var(--disp);font-size:1.5rem;font-weight:650;letter-spacing:-0.01em">Waasigan Transmission Line Project</span>
+      <span class="lbl">body</span><span style="max-width:68ch">The Environmental Assessment Certificate requires 73 commitments across 14 disciplines, from fisheries work windows to trail restoration.</span>
+      <span class="lbl">data</span><span class="mono" style="font-size:0.85rem">fed-80125 · 49.0301, −117.5032 · fetched 2026-07-09</span>
+    </div>
+    <p class="caption">Product faces: Archivo (display) · Public Sans (body) · IBM Plex Mono (data).
+    Monospace is semantic — if it’s mono, it is verbatim from a registry. This page renders system
+    approximations under the artifact CSP.</p>
+  </section>
+
+  <!-- ── Screen A ───────────────────────────────────────── -->
+  <section class="section">
+    <span class="eyebrow">03 · Screen — Search results (S2)</span>
+    <p class="caption">List ⇄ map, one filter state. Depth badges (◆ core-sample diamonds) tell users
+    up front how deep each record goes. Gap-overlay records pin as dashed diamonds — honesty about
+    what the registries don’t hold yet.</p>
+    <div class="frame">
+      <div class="frame-bar"><span class="dots"><i></i><i></i><i></i></span>canadaprojectmap.ca/search?q=transmission&amp;jur=on</div>
+      <div class="toolbar">
+        <div class="searchbox">⌕&nbsp; transmission</div>
+        <span class="facet">Jurisdiction <b>Ontario</b> ✕</span>
+        <span class="facet">Sector <b>Any</b></span>
+        <span class="facet">Depth <b>Any</b></span>
+        <button class="btn-quiet">Map lens</button>
+      </div>
+      <div class="results">
+        <div class="rlist">
+          <div class="card active" tabindex="0">
+            <div class="top"><span class="name">Waasigan Transmission Line Project</span>
+              <span class="depth">◆<span class="off">◆◆</span><span class="depth-word">Mapped</span></span></div>
+            <span class="sub">Hydro One · Thunder Bay → Atikokan → Dryden</span>
+            <div class="row">
+              <span class="chip-sector" style="--sector:#7c3aed">Other energy</span>
+              <span class="pill caution">In review</span>
+              <span class="mono" style="font-size:0.7rem;color:var(--ink-3)">ON (Provincial EA)</span>
+            </div>
+          </div>
+          <div class="card" tabindex="0">
+            <div class="top"><span class="name">Southern Crossing Pipeline</span>
+              <span class="depth">◆◆◆<span class="depth-word">Deep dive</span></span></div>
+            <span class="sub">BC Gas Utility Ltd. · Yahk → Oliver, BC</span>
+            <div class="row">
+              <span class="chip-sector" style="--sector:#57534e">Oil &amp; gas</span>
+              <span class="pill ok">Operating</span>
+              <span class="mono" style="font-size:0.7rem;color:var(--ink-3)">BC (EAO) · 73 commitments</span>
+            </div>
+          </div>
+          <div class="card" tabindex="0">
+            <div class="top"><span class="name">Greater Toronto Area East Line</span>
+              <span class="depth"><span class="off">◆◆◆</span><span class="depth-word">Unmatched major</span></span></div>
+            <span class="sub">Hydro One · Durham–Kawartha</span>
+            <div class="row">
+              <span class="chip-sector" style="--sector:#7c3aed">Other energy</span>
+              <span class="mono" style="font-size:0.7rem;color:var(--ink-3)">NRCan inventory — no registry record yet</span>
+            </div>
+          </div>
+        </div>
+        <div class="mappane">
+          <div class="contour" style="top:8%;left:12%;width:60%;height:70%"></div>
+          <div class="contour" style="top:20%;left:24%;width:40%;height:48%"></div>
+          <div class="contour" style="top:30%;left:33%;width:24%;height:28%"></div>
+          <span class="pin" style="top:38%;left:30%;background:#7c3aed"></span>
+          <span class="maplabel" style="top:33%;left:32%">Waasigan</span>
+          <span class="pin" style="top:62%;left:58%;background:#57534e"></span>
+          <span class="pin gap" style="top:48%;left:70%"></span>
+          <span class="maplabel" style="top:44%;left:72%">GTA East (unmatched)</span>
+          <span class="maplabel" style="bottom:10px;right:14px">◆ registry record &nbsp;·&nbsp; ◇ inventory-only</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Screen B ───────────────────────────────────────── -->
+  <section class="section">
+    <span class="eyebrow">04 · Screen — Project detail (S3), flagship tier</span>
+    <p class="caption">The process rail is the signature: six stations every jurisdiction maps onto,
+    native stage names underneath, the blaze diamond only ever marking “now”. Commitments show the
+    plain-language line first, the verbatim record beneath it — summary as a way in, never a
+    replacement.</p>
+    <div class="frame">
+      <div class="frame-bar"><span class="dots"><i></i><i></i><i></i></span>canadaprojectmap.ca/project/bc-scp-1998</div>
+      <div class="detail">
+        <div class="dhead">
+          <div class="row">
+            <span class="chip-sector" style="--sector:#57534e">Oil &amp; gas</span>
+            <span class="pill ok">Post Decision — Operation</span>
+            <span class="depth">◆◆◆<span class="depth-word">Deep dive</span></span>
+          </div>
+          <h2>Southern Crossing Pipeline</h2>
+          <div class="row">
+            <span class="sub">BC Gas Utility Ltd. · British Columbia (EAO) · EA Certificate 1998</span>
+            <span class="src"><a href="#">EAO registry ↗</a> · <a href="#">archived copy</a></span>
+          </div>
+        </div>
+
+        <div class="facts">
+          <div class="fact"><div class="k">Framework</div><div class="v">BC EA Act (2002)</div></div>
+          <div class="fact"><div class="k">Decision</div><div class="v mono">1998-11-06 · Certificate issued</div></div>
+          <div class="fact"><div class="k">Commitments</div><div class="v">73 analysed · 14 disciplines</div></div>
+          <div class="fact"><div class="k">Documents</div><div class="v">31 in library</div></div>
+        </div>
+
+        <div>
+          <h3 style="margin-bottom:4px">Process</h3>
+          <div class="rail">
+            <div class="rail-line">
+              <div class="done-track" style="width:75%"></div>
+              <div class="station done"><span class="tick"></span><span class="slabel">Intake &amp; screening</span></div>
+              <div class="station done"><span class="tick"></span><span class="slabel">Scoping &amp; planning</span></div>
+              <div class="station done"><span class="tick"></span><span class="slabel">Studies &amp; application</span><span class="native">Pre-Application</span></div>
+              <div class="station done"><span class="tick"></span><span class="slabel">Review &amp; hearings</span><span class="native">Application Review</span></div>
+              <div class="station done"><span class="tick"></span><span class="slabel">Decision</span><span class="native mono">1998-11-06</span></div>
+              <div class="station current"><span class="tick"></span><span class="slabel">Post-decision</span><span class="native">Operation</span></div>
+            </div>
+            <div class="subrail">
+              <div class="seg done">pre-con</div><div class="seg done">construction</div>
+              <div class="seg now">operation</div><div class="seg">care &amp; maint.</div><div class="seg">closure</div>
+            </div>
+            <p class="rail-note">Stage from EAO registry phase field · exact · as of <span class="mono">2026-07-09</span></p>
+          </div>
+        </div>
+
+        <div>
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+            <h3>Commitments <span style="color:var(--ink-3);font-weight:400">· 73</span></h3>
+            <div class="commit-tools">
+              <span class="facet">Discipline <b>Any</b></span>
+              <span class="facet">Phase <b>Construction</b> ✕</span>
+              <button class="btn-primary">Compare across projects</button>
+            </div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:12px;margin-top:12px">
+            <div class="ccard">
+              <span class="plain">Blasting near fish-bearing water must follow DFO’s explosives guidelines.</span>
+              <blockquote class="verbatim">“During Construction: BC Gas will ensure that blasting conducted in or about
+                fish-bearing waters will be in compliance with DFO’s 1998 document <i>Guidelines for the Use of
+                Explosives in or near Canadian Fisheries Waters</i>.”</blockquote>
+              <div class="tags">
+                <span class="chip-sector" style="--sector:#0891b2">Fish &amp; fish habitat</span>
+                <span class="tag">minimization</span><span class="tag">construction</span>
+                <a href="#" style="font-size:0.76rem">source document ↗</a>
+              </div>
+            </div>
+            <div class="ccard">
+              <span class="plain">A water-quality monitoring program must be approved before construction starts.</span>
+              <blockquote class="verbatim">“Prior to construction, BC Gas must complete a Water Quality Monitoring Program
+                to the reasonable satisfaction of the Regional Manager, Pollution Prevention, MELP, and in consultation
+                with DFO.”</blockquote>
+              <div class="tags">
+                <span class="chip-sector" style="--sector:#2563eb">Surface water</span>
+                <span class="tag">management_plan</span><span class="tag">construction</span>
+                <a href="#" style="font-size:0.76rem">source document ↗</a>
+              </div>
+            </div>
+            <div class="ccard">
+              <span class="plain">The historic Dewdney Trail must be protected and its tread replaced after construction.</span>
+              <blockquote class="verbatim">“During Restoration: The Environmental Assessment Application commits BC Gas to
+                minimizing impacts on the Dewdney Trail, and replacing the trail tread when construction is completed.”</blockquote>
+              <div class="tags">
+                <span class="chip-sector" style="--sector:#92400e">Archaeology &amp; heritage</span>
+                <span class="tag">mitigation</span><span class="tag">construction</span>
+                <a href="#" style="font-size:0.76rem">source document ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="provenance">
+          <span>source: BC EAO EPIC · fetched 2026-07-09</span>
+          <span>coordinates: registry-published</span>
+          <span>conditions: extracted &amp; classified from certificate, v2 pipeline</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── rail states ────────────────────────────────────── -->
+  <section class="section">
+    <span class="eyebrow">05 · Process rail — confidence &amp; outcome states</span>
+    <p class="caption">Confidence renders physically. A hollow blaze marker plus a shaded band is an
+    inference; a dimmed rail with a caption is the truth about registries that publish nothing.
+    Terminated projects keep their progress and take a flag — the rail never lies forward.</p>
+    <div class="frame" style="padding:24px 28px;display:flex;flex-direction:column;gap:30px">
+      <div class="rail">
+        <span class="eyebrow" style="margin-bottom:8px">inferred · federal “In progress”</span>
+        <div class="rail-line">
+          <div class="range-shade" style="left:18%;width:47%"></div>
+          <div class="station done"><span class="tick"></span><span class="slabel">Intake</span></div>
+          <div class="station current inferred"><span class="tick"></span><span class="slabel">Scoping</span></div>
+          <div class="station"><span class="tick"></span><span class="slabel">Studies</span></div>
+          <div class="station"><span class="tick"></span><span class="slabel">Review</span></div>
+          <div class="station"><span class="tick"></span><span class="slabel">Decision</span></div>
+          <div class="station"><span class="tick"></span><span class="slabel">Post-decision</span></div>
+        </div>
+        <p class="rail-note">Position inferred from registry status “In progress” — somewhere between scoping and review.</p>
+      </div>
+      <div class="rail">
+        <span class="eyebrow" style="margin-bottom:8px">outcome overlay · terminated at review</span>
+        <div class="rail-line">
+          <div class="done-track" style="width:55%"></div>
+          <div class="station done"><span class="tick"></span><span class="slabel">Intake</span></div>
+          <div class="station done"><span class="tick"></span><span class="slabel">Scoping</span></div>
+          <div class="station done"><span class="tick"></span><span class="slabel">Studies</span></div>
+          <div class="station done"><span class="tick"></span><span class="slabel">Review</span><span class="flag">TERMINATED 2014</span></div>
+          <div class="station"><span class="tick"></span><span class="slabel">Decision</span></div>
+          <div class="station"><span class="tick"></span><span class="slabel">Post-decision</span></div>
+        </div>
+      </div>
+      <div class="rail dim">
+        <span class="eyebrow" style="margin-bottom:8px">unknown · registry publishes no process state</span>
+        <div class="rail-line">
+          <div class="station"><span class="tick"></span><span class="slabel">Intake</span></div>
+          <div class="station"><span class="tick"></span><span class="slabel">Scoping</span></div>
+          <div class="station"><span class="tick"></span><span class="slabel">Studies</span></div>
+          <div class="station"><span class="tick"></span><span class="slabel">Review</span></div>
+          <div class="station"><span class="tick"></span><span class="slabel">Decision</span></div>
+          <div class="station"><span class="tick"></span><span class="slabel">Post-decision</span></div>
+        </div>
+        <p class="rail-note">Process position not published by the Quebec registry · <a href="#">view at source ↗</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── phone ──────────────────────────────────────────── -->
+  <section class="section">
+    <span class="eyebrow">06 · iPhone — project detail &amp; tabs</span>
+    <div class="phones">
+      <div class="phone">
+        <div class="screen">
+          <div class="pbody">
+            <span class="eyebrow" style="font-size:0.62rem">‹ results</span>
+            <div>
+              <div class="row" style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px">
+                <span class="chip-sector" style="--sector:#7c3aed">Other energy</span>
+                <span class="pill caution">In review</span>
+              </div>
+              <h3 style="font-size:1.15rem">Waasigan Transmission Line Project</h3>
+              <span class="sub" style="font-size:0.78rem;color:var(--ink-2)">Hydro One · Ontario (Provincial EA)</span>
+            </div>
+            <div class="rail">
+              <div class="rail-line" style="grid-template-columns:repeat(6,1fr)">
+                <div class="range-shade" style="left:18%;width:47%"></div>
+                <div class="station done"><span class="tick" style="width:11px;height:11px"></span></div>
+                <div class="station current inferred"><span class="tick" style="width:13px;height:13px"></span></div>
+                <div class="station"><span class="tick" style="width:11px;height:11px"></span></div>
+                <div class="station"><span class="tick" style="width:11px;height:11px"></span></div>
+                <div class="station"><span class="tick" style="width:11px;height:11px"></span></div>
+                <div class="station"><span class="tick" style="width:11px;height:11px"></span></div>
+              </div>
+              <p class="rail-note" style="font-size:0.7rem">In provincial review · inferred</p>
+            </div>
+            <div class="ccard" style="padding:12px 14px">
+              <span class="plain" style="font-size:0.85rem">Conditions for this project haven’t been analysed yet.</span>
+              <span style="font-size:0.78rem;color:var(--ink-2)">See typical commitments for transmission projects →</span>
+            </div>
+            <div class="provenance" style="border-top:none;padding-top:0">
+              <span>proponent &amp; location: NRCan inventory</span>
+            </div>
+          </div>
+        </div>
+        <div class="ptabs"><div>Search</div><div class="on">Map</div><div>Commitments</div><div>Saved</div></div>
+      </div>
+      <div style="max-width:380px;display:flex;flex-direction:column;gap:12px">
+        <h3>What the phone keeps</h3>
+        <p class="caption" style="margin:0">Same four tabs as the web PWA, same depth badges, same rail
+        — shrunk to ticks with one caption. The bridge module replaces an empty commitments section
+        with the sector-precedent route (F4). Provenance survives even here: this record’s proponent
+        came from the NRCan inventory, and the app says so.</p>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,133 @@
+{
+ "_doc": [
+  "Regression checklist: named major projects that must stay findable.",
+  "validate_data.py checks each against the map + gap report daily.",
+  "expect levels (ladder): 'present'  = must be a real map feature;",
+  "                        'visible'  = feature OR unmatched-major gap pin;",
+  "                        'tracked'  = feature, pin, or weak/review row in gap_report.",
+  "A WARN below expectation is the signal a coverage regression (or a",
+  "still-unfixed structural gap) is hiding a major project. Add entries",
+  "whenever a user reports a missing project — this file is the memory."
+ ],
+ "checks": [
+  {
+   "name": "Detour Lake Gold Mine",
+   "variants": [
+    "detour lake"
+   ],
+   "proponent": "Agnico Eagle",
+   "expect": "present",
+   "why": "user-reported 2026-07-09; was invisible due to federal sector bug"
+  },
+  {
+   "name": "Waasigan Transmission Line",
+   "variants": [
+    "waasigan"
+   ],
+   "proponent": "Hydro One",
+   "expect": "present",
+   "why": "user-reported 2026-07-10; ON prov EA publishes no proponent/coords — inventory-enriched"
+  },
+  {
+   "name": "Site C Clean Energy Project",
+   "variants": [
+    "site c"
+   ],
+   "proponent": "BC Hydro",
+   "expect": "present",
+   "why": "control: flagship BC EAO record"
+  },
+  {
+   "name": "Bay du Nord Development",
+   "variants": [
+    "bay du nord"
+   ],
+   "proponent": "Equinor",
+   "expect": "present",
+   "why": "control: flagship federal record"
+  },
+  {
+   "name": "Napanee Generating Station (Atura Power)",
+   "variants": [
+    "napanee generating"
+   ],
+   "proponent": "Atura",
+   "expect": "present",
+   "why": "user-reported 2026-07-10; present under builder TransCanada Energy — proponent aliasing gap"
+  },
+  {
+   "name": "Jansen Potash (BHP)",
+   "variants": [
+    "jansen"
+   ],
+   "proponent": "BHP",
+   "expect": "visible",
+   "why": "top-value NRCan gap; no registry record harvested — must stay pinned as unmatched major"
+  },
+  {
+   "name": "GTA East Line (Hydro One)",
+   "variants": [
+    "greater toronto area east",
+    "gta east"
+   ],
+   "proponent": "Hydro One",
+   "expect": "visible",
+   "why": "user-reported 2026-07-10; post-2020 priority line outside individual-EA registries"
+  },
+  {
+   "name": "Ranney Falls Expansion (OPG)",
+   "variants": [
+    "ranney falls"
+   ],
+   "proponent": "Ontario Power Generation",
+   "expect": "visible",
+   "why": "user-reported 2026-07-10 ('Rainey Falls'); Class EA for Waterpower — caught the matched-by-boosts bug; human-confirmed gap (gap_overrides.json)"
+  },
+  {
+   "name": "Kakabeka Falls GS Redevelopment (OPG)",
+   "variants": [
+    "kakabeka"
+   ],
+   "proponent": "Ontario Power Generation",
+   "expect": "tracked",
+   "why": "user-reported 2026-07-10; ON Class EA waterpower — in NO harvested source yet (structural gap)"
+  },
+  {
+   "name": "Matabitchuan GS Redevelopment (OPG)",
+   "variants": [
+    "matabitchuan"
+   ],
+   "proponent": "Ontario Power Generation",
+   "expect": "tracked",
+   "why": "user-reported 2026-07-10; same structural gap as Kakabeka"
+  },
+  {
+   "name": "Halton Hills Generating Station (Atura)",
+   "variants": [
+    "halton hills generating",
+    "halton hills gs"
+   ],
+   "proponent": "Atura",
+   "expect": "tracked",
+   "why": "user-reported 2026-07-10; gas plant permitted outside EA registries we harvest"
+  },
+  {
+   "name": "Niagara Hydrogen Centre (Atura)",
+   "variants": [
+    "niagara hydrogen"
+   ],
+   "proponent": "Atura",
+   "expect": "tracked",
+   "why": "user-reported 2026-07-10; same class as Halton Hills"
+  },
+  {
+   "name": "Springpole Gold Project",
+   "variants": [
+    "springpole"
+   ],
+   "proponent": "First Mining Gold",
+   "expect": "present",
+   "why": "control: ON prov EA record, inventory-enriched coordinates"
+  }
+ ]
+}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Canadian Environmental Assessment Projects</title>
+  <title>Canada Project Map</title>
 
   <!-- Leaflet -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -180,9 +180,12 @@
 
 <div id="header">
   <div>
-    <h1>Canadian Environmental Assessment Projects</h1>
-    <div class="subtitle">Federal &amp; provincial EA registries · project documents</div>
+    <h1>Canada Project Map</h1>
+    <div class="subtitle">Environmental assessments from federal &amp; provincial registries · project documents</div>
   </div>
+  <a href="search.html" style="margin-left:auto;color:#9fc3e8;font-size:0.85rem;text-decoration:none">Project Search →</a>
+  <a href="wiki.html" style="margin-left:16px;color:#9fc3e8;font-size:0.85rem;text-decoration:none">Corpus Search →</a>
+  <a href="predict.html" style="margin-left:16px;color:#9fc3e8;font-size:0.85rem;text-decoration:none">Mitigation Predictor →</a>
 </div>
 
 <div id="filters">
@@ -222,6 +225,9 @@
   </div>
   <div class="filter-group">
     <label for="filter-amis" style="cursor:pointer"><input type="checkbox" id="filter-amis" style="vertical-align:-1px" /> Abandoned mines</label>
+  </div>
+  <div class="filter-group">
+    <label for="filter-gaps" style="cursor:pointer" title="Major projects listed in external inventories (NRCan) with no matching record in the EA registries this map harvests"><input type="checkbox" id="filter-gaps" style="vertical-align:-1px" /> Unmatched majors</label>
   </div>
   <span id="count-badge">– projects</span>
 </div>
@@ -362,6 +368,10 @@ function makeIcon(feature, selected) {
   const meta = CATEGORY_META[cat] || CATEGORY_META.other;
   const c = selected ? "#dc2626" : meta.colour;
 
+  // approximate (gazetteer-geocoded) locations render with a dashed ring
+  const approx = feature.properties.geocode === "approximate";
+  const dash = approx ? ' stroke-dasharray="4 3"' : "";
+
   let svgStr;
   if (cat === "wind")        svgStr = SVG_WIND(c, op);
   else if (cat === "solar")  svgStr = SVG_SOLAR(c, op);
@@ -370,8 +380,8 @@ function makeIcon(feature, selected) {
     // generic marker: coloured circle with first letter of category
     const letter = meta.label.charAt(0);
     svgStr = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38" width="38" height="38" style="filter:drop-shadow(0 1px 2px rgba(0,0,0,0.35))">
-      <circle cx="19" cy="19" r="17" fill="white" opacity="${op}" stroke="${c}" stroke-width="2"/>
-      <circle cx="19" cy="19" r="12" fill="${c}" opacity="${op}"/>
+      <circle cx="19" cy="19" r="17" fill="white" opacity="${op}" stroke="${c}" stroke-width="2"${dash}/>
+      <circle cx="19" cy="19" r="12" fill="${c}" opacity="${op * (approx ? 0.8 : 1)}"/>
       <text x="19" y="24" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="white">${letter}</text>
     </svg>`;
   }
@@ -431,6 +441,7 @@ function openSidebar(feature, marker) {
 
   // Meta section
   const catMeta = CATEGORY_META[p.category || "other"] || CATEGORY_META.other;
+  const nth = northeyByKey[p.jurisdiction + "||" + p.name];
   const cap = p.capacity_mw ? `${p.capacity_mw} MW` : null;
   const turbines = p.num_turbines ? ` · ${p.num_turbines} turbines` : "";
   const panels   = p.num_panels   ? ` · ${p.num_panels} panels`   : "";
@@ -439,8 +450,10 @@ function openSidebar(feature, marker) {
 
   const rows = [
     ["Jurisdiction", p.jurisdiction],
-    ["Sector", p.type],
+    ["Sector", catMeta.label],
     ["Status", p.status],
+    ["EA type", p.ea_type],
+    ["EA phase", p.ea_phase],
     ["Decision", p.decision],
     ["Proponent", p.proponent],
     cap ? ["Capacity", `${cap}${turbines}${panels}`] : null,
@@ -449,17 +462,21 @@ function openSidebar(feature, marker) {
     p.rea_number ? ["REA Number", p.rea_number] : null,
     p.doc_count ? ["Documents", `${p.doc_count} total`] : null,
     p.updated ? ["Updated", p.updated] : null,
+    p.note ? ["Note", p.note] : null,
+    nth ? ["Northey (2023)", `Landmark ${nth.regime} case, cited as of ${nth.y}`] : null,
   ].filter(r => r && r[1]);
 
   sidebarMeta.innerHTML = `
     <div style="margin-bottom:8px;display:flex;align-items:center;gap:8px;flex-wrap:wrap">
       <span class="type-badge" style="background:${catMeta.colour}22;color:${catMeta.colour}">${catMeta.label}</span>
+      ${nth ? `<span class="type-badge" title="Cited as a landmark case in Rodney Northey, A Guide to Canada's Impact Assessment Act (2023)" style="background:#7c3aed22;color:#6d28d9">★ Landmark case · ${nth.regime}</span>` : ""}
       ${p.procurement ? `<span style="font-size:0.72rem;color:#666">${p.procurement}</span>` : ""}
     </div>
     <div class="meta-grid">
       ${rows.map(([k, v]) => `<div class="meta-item"><label>${k}</label><span>${v}</span></div>`).join("")}
     </div>
     ${p.registry_url ? `<div style="margin-top:10px"><a href="${p.registry_url}" target="_blank" rel="noopener" style="font-size:0.8rem;color:#1a3a5c;font-weight:600">Open registry page ↗</a></div>` : ""}
+    ${p.geocode === "approximate" ? `<p style="margin-top:8px;font-size:0.72rem;color:#a16207">⚠ Approximate location — pinned to the nearest named place (${(p.geocode_match || "").replace("name:", "")}). The registry does not publish coordinates for this project.</p>` : ""}
     ${p.description ? `<p style="margin-top:8px;font-size:0.78rem;color:#555;line-height:1.4">${p.description}</p>` : ""}`;
 
   // Document sections
@@ -526,6 +543,14 @@ function openSidebar(feature, marker) {
 let allFeatures = [];
 let allMarkers  = [];  // parallel array to allFeatures
 
+// Northey landmark cases (data/api/northey.json), keyed by jurisdiction||name —
+// the same identity the stable project id is hashed from.
+let northeyByKey = {};
+fetch("data/api/northey.json")
+  .then(r => r.ok ? r.json() : null)
+  .then(d => { if (d) for (const x of d.projects) northeyByKey[x.j + "||" + x.n] = x; })
+  .catch(() => {});
+
 fetch("data/projects_canada.geojson")
   .then(r => r.ok ? r.json() : fetch("projects.geojson").then(r2 => r2.json()))
   .then(data => {
@@ -567,11 +592,14 @@ function applyFilters() {
   const search    = document.getElementById("filter-search").value.trim().toLowerCase();
 
   const showAmis = document.getElementById("filter-amis").checked;
+  const showGaps = document.getElementById("filter-gaps").checked;
   const filtered = allFeatures.filter(f => {
     const p = f.properties;
     // Abandoned mines are a reference layer: hidden unless toggled on or
     // explicitly selected in the jurisdiction filter
     if (p.source === "on_amis" && !showAmis && jurVal !== p.jurisdiction) return false;
+    // Unmatched inventory majors (gap overlay): same opt-in treatment
+    if (p.source === "nrcan_gap" && !showGaps && jurVal !== p.jurisdiction) return false;
     if (jurVal && p.jurisdiction !== jurVal) return false;
     if (typeVal && p.category !== typeVal) return false;
     if (yearMin && (p.approval_year || 0) < yearMin) return false;
@@ -606,7 +634,7 @@ function applyFilters() {
 }
 
 // Wire up filter controls
-["filter-jurisdiction","filter-type","filter-year-min","filter-year-max","filter-docs","filter-amis"].forEach(id => {
+["filter-jurisdiction","filter-type","filter-year-min","filter-year-max","filter-docs","filter-amis","filter-gaps"].forEach(id => {
   document.getElementById(id).addEventListener("change", applyFilters);
 });
 let searchTimeout;
