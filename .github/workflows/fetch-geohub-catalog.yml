@@ -3,7 +3,7 @@ name: Discover Ontario GeoHub spatial layers
 on:
   workflow_dispatch:
   push:
-    branches: [claude/mac-mini-connection-ceehl5]
+    branches: [main]
     paths: ['.github/workflows/fetch-geohub-catalog.yml']
 
 permissions:
@@ -62,7 +62,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           for i in 1 2 3 4 5; do
-            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git pull --rebase origin main || true
             git add data/raw
             git commit -m "Add Ontario GeoHub baseline layer discovery [skip ci]" || echo "nothing to commit"
             git push && break

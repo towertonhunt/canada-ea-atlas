@@ -3,7 +3,7 @@ name: Extract federal decision statements (corpus)
 on:
   workflow_dispatch:
   push:
-    branches: [claude/mac-mini-connection-ceehl5]
+    branches: [main]
     paths: ['.github/workflows/fetch-fed-decisions.yml']
 
 permissions:
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: claude/mac-mini-connection-ceehl5
+          ref: main
 
       - name: Fetch decision-statement pages and extract text
         continue-on-error: true
@@ -125,7 +125,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           for i in 1 2 3 4 5; do
-            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git pull --rebase origin main || true
             git add data/corpus data/raw
             git commit -m "Add federal decision-statement corpus batch [skip ci]" || echo "nothing to commit"
             git push && break

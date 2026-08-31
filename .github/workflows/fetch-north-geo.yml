@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: "13 */6 * * *"
   push:
-    branches: [claude/mac-mini-connection-ceehl5]
+    branches: [main]
     paths: ['.github/workflows/fetch-north-geo.yml']
 
 permissions:
@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: claude/mac-mini-connection-ceehl5
+          ref: main
 
       - name: Probe territorial registries (YESAB, MVEIRB, NIRB)
         continue-on-error: true
@@ -68,7 +68,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           for i in 1 2 3 4 5; do
-            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git pull --rebase origin main || true
             git add data/raw data/geo
             git commit -m "Add territorial registry probes and CA gazetteer [skip ci]" || echo "nothing to commit"
             git push && break

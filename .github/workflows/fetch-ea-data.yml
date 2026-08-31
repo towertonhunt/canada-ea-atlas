@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: "43 */2 * * *"
   push:
-    branches: [claude/mac-mini-connection-ceehl5]
+    branches: [main]
     paths: ['.github/workflows/fetch-ea-data.yml']
 
 permissions:
@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: claude/mac-mini-connection-ceehl5
+          ref: main
 
       - name: Harvest federal list API (browser-exact payload)
         continue-on-error: true
@@ -173,7 +173,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           for i in 1 2 3; do
-            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git pull --rebase origin main || true
             git add data/raw
             git commit -m "Add phase-22 federal list API harvest [skip ci]" || echo "nothing to commit"
             git push && break

@@ -17,7 +17,7 @@ name: Harvest ERO project notices (Ontario Class EA tier)
 on:
   workflow_dispatch:
   push:
-    branches: [claude/mac-mini-connection-ceehl5]
+    branches: [main]
     paths: ['.github/workflows/fetch-ero-notices.yml']
   schedule:
     - cron: "17 9 * * *"   # daily
@@ -31,7 +31,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: claude/mac-mini-connection-ceehl5
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -219,7 +219,7 @@ jobs:
           git add data/raw/ero data/raw/gap_inventories data/gap_report.json
           git commit -m "ERO EA-notice harvest [skip ci]" || echo "nothing to commit"
           for i in 1 2 3 4 5; do
-            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git pull --rebase origin main || true
             git push && break
             sleep 7
           done

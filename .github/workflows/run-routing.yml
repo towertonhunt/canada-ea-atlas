@@ -3,7 +3,7 @@ name: Run Wawa-Timmins routing engine
 on:
   workflow_dispatch:
   push:
-    branches: [claude/mac-mini-connection-ceehl5]
+    branches: [main]
     paths: ['.github/workflows/run-routing.yml', 'scripts/routing/build_routes.py', 'routing/framework.json']
 
 permissions:
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: claude/mac-mini-connection-ceehl5
+          ref: main
 
       - name: Build cost surface and routes
         continue-on-error: true
@@ -28,7 +28,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           for i in 1 2 3 4 5; do
-            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git pull --rebase origin main || true
             git add routing/results
             git commit -m "Add Wawa-Timmins routing engine v0 results [skip ci]" || echo "nothing to commit"
             git push && break

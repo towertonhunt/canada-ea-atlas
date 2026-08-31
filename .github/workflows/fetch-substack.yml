@@ -8,7 +8,7 @@ name: Mirror the Towerton substack (content-pipeline source)
 on:
   workflow_dispatch:
   push:
-    branches: [claude/mac-mini-connection-ceehl5]
+    branches: [main]
     paths: ['.github/workflows/fetch-substack.yml']
   schedule:
     - cron: "43 6 * * 0"   # weekly, Sundays
@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: claude/mac-mini-connection-ceehl5
+          ref: main
 
       - name: Fetch archive + posts
         continue-on-error: true
@@ -172,7 +172,7 @@ jobs:
           git add data/raw/substack
           git commit -m "Mirror towerton substack [skip ci]" || echo "nothing to commit"
           for i in 1 2 3 4 5; do
-            git pull --rebase origin claude/mac-mini-connection-ceehl5 || true
+            git pull --rebase origin main || true
             git push && break
             sleep 7
           done

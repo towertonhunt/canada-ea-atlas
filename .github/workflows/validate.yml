@@ -14,7 +14,7 @@ on:
   pull_request:
     branches: [main]
   push:
-    branches: [claude/mac-mini-connection-ceehl5]
+    branches: [main]
     paths:
       - 'data/conditions/**'
       - 'data/projects_canada.geojson'
