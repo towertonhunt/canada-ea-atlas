@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Project — Canada Project Map</title>
+<title>Project — Canada EA Atlas</title>
 <style>
   :root {
     --ground:#F5F7F4; --surface:#FFFFFF; --sunken:#EDF1EC;
@@ -89,7 +89,7 @@
 </head>
 <body>
 <header>
-  <h1>Canada Project Map</h1>
+  <h1>Canada EA Atlas</h1>
   <nav>
     <a href="index.html">Map</a>
     <a href="search.html">Search</a>
@@ -139,7 +139,7 @@ Promise.all([
 ]).then(async ([rows, fw]) => {
   const row = rows.find(r => r.i === id);
   if (!row) { $("#main").innerHTML = `<p>Project not found. <a href="search.html">Back to search</a></p>`; return; }
-  document.title = row.n + " — Canada Project Map";
+  document.title = row.n + " — Canada EA Atlas";
   let detail = null;
   if (row.d === 3) {
     try { detail = await fetch(`data/api/project/${encodeURIComponent(row.i)}.json`).then(r => r.json()); }

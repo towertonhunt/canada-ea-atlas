@@ -59,7 +59,7 @@ jobs:
                   req = urllib.request.Request(
                       'https://web.archive.org/save/' + u,
                       headers={'User-Agent': 'canada-ea-map archive lane '
-                               '(github.com/towertonhunt/ontario-rea-map)'})
+                               '(github.com/towertonhunt/canada-ea-atlas)'})
                   urllib.request.urlopen(req, timeout=90).read(200)
                   done.add(u)
                   ok += 1

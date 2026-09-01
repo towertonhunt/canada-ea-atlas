@@ -28,15 +28,15 @@ python3 -m pip install --user openpyxl pypdf
 
 ```sh
 cd ~/Projects                                   # wherever you keep code
-git clone https://github.com/towertonhunt/ontario-rea-map.git
-cd ontario-rea-map
+git clone https://github.com/towertonhunt/canada-ea-atlas.git
+cd canada-ea-atlas
 git checkout claude/mac-mini-connection-ceehl5  # the active work branch
 ```
 
 First clone pulls ~320 MB (data + git history). HTTPS will prompt for your
 GitHub login; if you use 2FA, create a Personal Access Token (GitHub →
 Settings → Developer settings → Tokens) and use it as the password, or set
-up SSH and clone `git@github.com:towertonhunt/ontario-rea-map.git`.
+up SSH and clone `git@github.com:towertonhunt/canada-ea-atlas.git`.
 
 ## 3. Verify the clone
 
@@ -100,7 +100,7 @@ assistant workflow locally:
 
 ```sh
 npm install -g @anthropic-ai/claude-code   # or see claude.ai/code for installers
-cd ~/Projects/ontario-rea-map
+cd ~/Projects/canada-ea-atlas
 claude
 ```
 

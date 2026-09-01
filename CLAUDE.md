@@ -1,6 +1,6 @@
-# Canada Project Map + Mitigation Prediction Tool
+# Canada EA Atlas + Mitigation Prediction Tool
 
-Public name: "Canada Project Map" (renamed from the REA map 2026-07-08).
+Public name: "Canada EA Atlas" (REA map → "Canada Project Map" 2026-07-08 → "Canada EA Atlas" 2026-08-31; repo renamed ontario-rea-map → canada-ea-atlas).
 
 National environmental-assessment map, document corpus, and an early-stage
 mitigation prediction tool ("reverse-engineer an EA from a project description
@@ -10,8 +10,8 @@ unattended via scheduled GitHub Actions.
 ## Architecture in one paragraph
 GitHub Actions workflows ("lanes", `.github/workflows/fetch-*.yml`) harvest
 government registries — the session sandbox has NO general internet, so ALL
-fetching happens on Actions runners, committing results to the branch
-`claude/mac-mini-connection-ceehl5`. Local scripts integrate raw data into
+fetching happens on Actions runners, committing results to `main`
+(the old working branch `claude/mac-mini-connection-ceehl5` was merged and deleted 2026-08-31). Local scripts integrate raw data into
 `data/projects_canada.geojson` (the map) and `data/corpus/` (text for the
 knowledge base). `index.html` is a static Leaflet map (GitHub Pages from
 `main`, custom domain via CNAME) with per-project lazy-loaded document
@@ -93,9 +93,7 @@ sidebars (`docs_path` property -> `data/docs/<jur>/<id>.json`).
   Hills GS, Niagara Hydrogen) are in NO harvested source -> durable fix
   is an ERO notices lane (ero.ontario.ca project notices under EAA) +
   proponent aliasing (Napanee GS listed under builder TransCanada).
-NOTE: scheduled runs execute the workflow version on MAIN. After fixing a
-lane on the branch, sync to main via PR (user authorized Claude to create
-and merge PRs via GitHub MCP — pattern established PR #1, #2).
+NOTE: everything now lives on main (branch consolidation 2026-08-31); commit lane fixes directly to main.
 
 ## App build (website + iPhone)
 docs/APP_PLAN.md is the plan. Fable design tasks F1-F4 DONE 2026-07-10 ->

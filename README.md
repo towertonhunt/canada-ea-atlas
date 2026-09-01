@@ -1,4 +1,4 @@
-# Canada Project Map
+# Canada EA Atlas
 
 An interactive national map of Canadian environmental-assessment (EA) projects,
 a searchable document corpus, and an early-stage mitigation-prediction tool.
