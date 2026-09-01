@@ -9,8 +9,8 @@
     {
       "source": "ero_on",
       "label": "Environmental Registry of Ontario (EA notices)",
-      "fetched": "2026-08-31",
-      "count": 106
+      "fetched": "2026-09-01",
+      "count": 115
     },
     {
       "source": "nrcan_mpi",
@@ -26,8 +26,8 @@
     }
   ],
   "summary": {
-    "gap": 675,
-    "weak": 693,
+    "gap": 682,
+    "weak": 695,
     "matched": 348
   },
   "thresholds": {
@@ -15594,6 +15594,98 @@
     {
       "source": "ero_on",
       "ext": {
+        "ext_id": "025-0389",
+        "name": "Removing Environmental Assessment Requirements for the York1 Waste Disposal Site Project",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Act",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/025-0389"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.301,
+      "name_score": 0.301,
+      "match": {
+        "id": null,
+        "name": "Bennett Environmental Hazardous Waste Disposal",
+        "jurisdiction": "Ontario (Provincial EA)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "025-0838",
+        "name": "New proposed regulation regarding Environmental Assessment Act requirements for the Proposed Northeast Power Line Project",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Regulation",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/025-0838"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.264,
+      "name_score": 0.264,
+      "match": {
+        "id": null,
+        "name": "Northeast power line project",
+        "jurisdiction": "Ontario (Provincial EA)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0001",
+        "name": "Greenstone Gold Mines GP Inc.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0001"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.381,
+      "name_score": 0.381,
+      "match": {
+        "id": null,
+        "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
+        "jurisdiction": "Nova Scotia (NSECC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0089",
+        "name": "Proposing a Project Evaluation Policy that would replace the Class Environmental Assessment for Ministry of Natural Resources Resource Stewardship and Facility Development Projects",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Policy",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0089"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.12,
+      "name_score": 0.12,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
         "ext_id": "026-0414",
         "name": "Streamlining requirements for waste disposal site service area and fill rate changes",
         "proponent": "This proposal would simplify requirements by relying on the",
@@ -15636,6 +15728,71 @@
         "name": "Environmental Assessment Revitalization",
         "jurisdiction": "British Columbia (EAO)"
       }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0563",
+        "name": "Revoking the Class Environmental Assessment for Resource Stewardship and Facility Development Projects",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Regulation",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0563"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.266,
+      "name_score": 0.266,
+      "match": {
+        "id": null,
+        "name": "Environmental Assessment Revitalization",
+        "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0649",
+        "name": "ATURA HYDROGEN INC as general partner and on behalf of ATURA H2 LP",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0649"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.128,
+      "name_score": 0.128,
+      "match": {
+        "id": null,
+        "name": "Window Replacement Implementation - Major-General G.R. Pearkes",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0756",
+        "name": "EHC Canada, Inc.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0756"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.0,
+      "name_score": 0.0,
+      "match": null
     },
     {
       "source": "nrcan_mpi_points",
@@ -32088,6 +32245,52 @@
         "id": null,
         "name": "North Eagle Rock Lake",
         "jurisdiction": "Ontario (Abandoned Mines)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "025-0205",
+        "name": "Hagersville Battery Storage Inc.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/025-0205"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.548,
+      "name_score": 0.548,
+      "match": {
+        "id": null,
+        "name": "La Plonge Solar and Battery Energy Storage System",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "025-0754",
+        "name": "Whitehills Anorthosite Project – Bulk Sampling",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Bulletin",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/025-0754"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.416,
+      "name_score": 0.416,
+      "match": {
+        "id": null,
+        "name": "Labrador, Hutton Garnet Beaches – South Beach Bulk Sampling",
+        "jurisdiction": "Newfoundland & Labrador (ECC)"
       }
     },
     {

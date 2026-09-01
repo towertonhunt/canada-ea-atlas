@@ -1,7 +1,7 @@
 {
  "source": "ero_on",
  "source_label": "Environmental Registry of Ontario (EA notices)",
- "fetched": "2026-08-31",
+ "fetched": "2026-09-01",
  "projects": [
   {
    "ext_id": "010-3799",
@@ -1137,6 +1137,72 @@
    "url": "https://ero.ontario.ca/notice/025-0069"
   },
   {
+   "ext_id": "025-0205",
+   "name": "Hagersville Battery Storage Inc.",
+   "proponent": "",
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Instrument",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/025-0205"
+  },
+  {
+   "ext_id": "025-0389",
+   "name": "Removing Environmental Assessment Requirements for the York1 Waste Disposal Site Project",
+   "proponent": null,
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Act",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/025-0389"
+  },
+  {
+   "ext_id": "025-0754",
+   "name": "Whitehills Anorthosite Project – Bulk Sampling",
+   "proponent": null,
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Bulletin",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/025-0754"
+  },
+  {
+   "ext_id": "025-0838",
+   "name": "New proposed regulation regarding Environmental Assessment Act requirements for the Proposed Northeast Power Line Project",
+   "proponent": null,
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Regulation",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/025-0838"
+  },
+  {
+   "ext_id": "026-0001",
+   "name": "Greenstone Gold Mines GP Inc.",
+   "proponent": "",
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Instrument",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0001"
+  },
+  {
+   "ext_id": "026-0089",
+   "name": "Proposing a Project Evaluation Policy that would replace the Class Environmental Assessment for Ministry of Natural Resources Resource Stewardship and Facility Development Projects",
+   "proponent": null,
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Policy",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0089"
+  },
+  {
    "ext_id": "026-0399",
    "name": "Hunt-Cornelius Rehabilitation Project",
    "proponent": null,
@@ -1168,6 +1234,39 @@
    "status": "Act",
    "coords": null,
    "url": "https://ero.ontario.ca/notice/026-0415"
+  },
+  {
+   "ext_id": "026-0563",
+   "name": "Revoking the Class Environmental Assessment for Resource Stewardship and Facility Development Projects",
+   "proponent": null,
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Regulation",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0563"
+  },
+  {
+   "ext_id": "026-0649",
+   "name": "ATURA HYDROGEN INC as general partner and on behalf of ATURA H2 LP",
+   "proponent": "",
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Instrument",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0649"
+  },
+  {
+   "ext_id": "026-0756",
+   "name": "EHC Canada, Inc.",
+   "proponent": "",
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Instrument",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0756"
   }
  ]
 }
