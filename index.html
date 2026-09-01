@@ -271,9 +271,17 @@ const map = L.map("map", {
   zoomControl: true,
 });
 
-L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-  attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/">CARTO</a>',
+// Esri Light Gray Canvas (keyless; CARTO's free basemaps now require an API key).
+// Native tiles end at zoom 16; maxNativeZoom upscales them beyond that.
+L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+  attribution: 'Powered by <a href="https://www.esri.com/">Esri</a> — Esri, HERE, Garmin, © OpenStreetMap contributors',
   maxZoom: 19,
+  maxNativeZoom: 16,
+}).addTo(map);
+L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}", {
+  maxZoom: 19,
+  maxNativeZoom: 16,
+  pane: "shadowPane", // labels above the base tiles, below markers
 }).addTo(map);
 
 // ── SVG icon paths ─────────────────────────────────────────────────────────
