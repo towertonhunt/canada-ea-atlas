@@ -111,6 +111,6 @@ lanes so it runs unattended.
 
 ## What deploys the public site
 
-`rea.towerton.ca` is GitHub Pages served from `main`. Work happens on
+`canadaeaatlas.towerton.ca` is GitHub Pages served from `main`. Work happens on
 `claude/mac-mini-connection-ceehl5`; publishing = merging the branch to
 `main`. Local edits are not public until merged.
