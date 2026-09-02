@@ -27,6 +27,7 @@ sidebars (`docs_path` property -> `data/docs/<jur>/<id>.json`).
 - Dedupe conditions: `python3 scripts/dedupe_conditions.py` (exact (project,text) dupes; idempotent)
 - Baseline constraints (needs internet -> run in Actions): `scripts/baseline_query.py lat lon buffer_m`
 - Routing engine: `scripts/routing/build_routes.py` per `routing/framework.json`
+- Consolidate KML/KMZ layers into one KMZ: `python3 scripts/consolidate_kml.py manifest.json out.kmz --report inventory.md` (per-Document style-id namespacing, geometry dedupe, 0,0 drop, validation)
 
 ## Data inventory (as of 2026-07-05)
 - Map: 18,401 features. Federal 6,576 (complete registry incl. federal-lands
