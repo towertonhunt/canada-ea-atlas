@@ -9,8 +9,8 @@
     {
       "source": "ero_on",
       "label": "Environmental Registry of Ontario (EA notices)",
-      "fetched": "2026-09-01",
-      "count": 115
+      "fetched": "2026-09-02",
+      "count": 124
     },
     {
       "source": "nrcan_mpi",
@@ -26,8 +26,8 @@
     }
   ],
   "summary": {
-    "gap": 682,
-    "weak": 695,
+    "gap": 690,
+    "weak": 696,
     "matched": 348
   },
   "thresholds": {
@@ -15594,6 +15594,29 @@
     {
       "source": "ero_on",
       "ext": {
+        "ext_id": "025-0366",
+        "name": "Washington Mills Electro Minerals Corporation",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/025-0366"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.218,
+      "name_score": 0.218,
+      "match": {
+        "id": null,
+        "name": "Dismantling of Midatlantic Minerals Inc. facilities",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
         "ext_id": "025-0389",
         "name": "Removing Environmental Assessment Requirements for the York1 Waste Disposal Site Project",
         "proponent": null,
@@ -15778,6 +15801,48 @@
     {
       "source": "ero_on",
       "ext": {
+        "ext_id": "026-0731",
+        "name": "Recochem Inc.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0731"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.0,
+      "name_score": 0.0,
+      "match": null
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0734",
+        "name": "Greenwich Windfarm GP Inc.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0734"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.333,
+      "name_score": 0.333,
+      "match": {
+        "id": 85,
+        "name": "Gunn's Hill Windfarm",
+        "jurisdiction": "Ontario (REA)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
         "ext_id": "026-0756",
         "name": "EHC Canada, Inc.",
         "proponent": "",
@@ -15793,6 +15858,121 @@
       "score": 0.0,
       "name_score": 0.0,
       "match": null
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0762",
+        "name": "Greenstone Gold Mines GP Inc.",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0762"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.381,
+      "name_score": 0.381,
+      "match": {
+        "id": null,
+        "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
+        "jurisdiction": "Nova Scotia (NSECC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0763",
+        "name": "Greenstone Gold Mines GP Inc.",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0763"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.381,
+      "name_score": 0.381,
+      "match": {
+        "id": null,
+        "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
+        "jurisdiction": "Nova Scotia (NSECC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0797",
+        "name": "FIRST QUANTUM MINERALS LTD",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0797"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.351,
+      "name_score": 0.351,
+      "match": {
+        "id": null,
+        "name": "Dismantling of Midatlantic Minerals Inc. facilities",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0849",
+        "name": "Greenstone Gold Mines GP Inc.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0849"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.381,
+      "name_score": 0.381,
+      "match": {
+        "id": null,
+        "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
+        "jurisdiction": "Nova Scotia (NSECC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0874",
+        "name": "Greenstone Gold Mines GP Inc.",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0874"
+      },
+      "verdict": "gap",
+      "overridden": false,
+      "score": 0.381,
+      "name_score": 0.381,
+      "match": {
+        "id": null,
+        "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
+        "jurisdiction": "Nova Scotia (NSECC)"
+      }
     },
     {
       "source": "nrcan_mpi_points",
@@ -32291,6 +32471,29 @@
         "id": null,
         "name": "Labrador, Hutton Garnet Beaches – South Beach Bulk Sampling",
         "jurisdiction": "Newfoundland & Labrador (ECC)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0623",
+        "name": "HYDRO ONE NETWORKS INC",
+        "proponent": "",
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0623"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.4,
+      "name_score": 0.4,
+      "match": {
+        "id": null,
+        "name": "Sienna Networks Ltd, New Telecommunications Tower on Lax Kw'alaams No. 1 Reserve, Lax Kw'alaams, BC",
+        "jurisdiction": "Federal (IAAC)"
       }
     },
     {

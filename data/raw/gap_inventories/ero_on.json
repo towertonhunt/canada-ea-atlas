@@ -1,7 +1,7 @@
 {
  "source": "ero_on",
  "source_label": "Environmental Registry of Ontario (EA notices)",
- "fetched": "2026-09-01",
+ "fetched": "2026-09-02",
  "projects": [
   {
    "ext_id": "010-3799",
@@ -1148,6 +1148,17 @@
    "url": "https://ero.ontario.ca/notice/025-0205"
   },
   {
+   "ext_id": "025-0366",
+   "name": "Washington Mills Electro Minerals Corporation",
+   "proponent": "",
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Instrument",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/025-0366"
+  },
+  {
    "ext_id": "025-0389",
    "name": "Removing Environmental Assessment Requirements for the York1 Waste Disposal Site Project",
    "proponent": null,
@@ -1247,6 +1258,17 @@
    "url": "https://ero.ontario.ca/notice/026-0563"
   },
   {
+   "ext_id": "026-0623",
+   "name": "HYDRO ONE NETWORKS INC",
+   "proponent": "",
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Instrument",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0623"
+  },
+  {
    "ext_id": "026-0649",
    "name": "ATURA HYDROGEN INC as general partner and on behalf of ATURA H2 LP",
    "proponent": "",
@@ -1258,6 +1280,28 @@
    "url": "https://ero.ontario.ca/notice/026-0649"
   },
   {
+   "ext_id": "026-0731",
+   "name": "Recochem Inc.",
+   "proponent": "",
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Instrument",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0731"
+  },
+  {
+   "ext_id": "026-0734",
+   "name": "Greenwich Windfarm GP Inc.",
+   "proponent": "",
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Instrument",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0734"
+  },
+  {
    "ext_id": "026-0756",
    "name": "EHC Canada, Inc.",
    "proponent": "",
@@ -1267,6 +1311,61 @@
    "status": "Instrument",
    "coords": null,
    "url": "https://ero.ontario.ca/notice/026-0756"
+  },
+  {
+   "ext_id": "026-0762",
+   "name": "Greenstone Gold Mines GP Inc.",
+   "proponent": null,
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Instrument",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0762"
+  },
+  {
+   "ext_id": "026-0763",
+   "name": "Greenstone Gold Mines GP Inc.",
+   "proponent": null,
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Instrument",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0763"
+  },
+  {
+   "ext_id": "026-0797",
+   "name": "FIRST QUANTUM MINERALS LTD",
+   "proponent": "",
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Instrument",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0797"
+  },
+  {
+   "ext_id": "026-0849",
+   "name": "Greenstone Gold Mines GP Inc.",
+   "proponent": "",
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Instrument",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0849"
+  },
+  {
+   "ext_id": "026-0874",
+   "name": "Greenstone Gold Mines GP Inc.",
+   "proponent": "",
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Instrument",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0874"
   }
  ]
 }
