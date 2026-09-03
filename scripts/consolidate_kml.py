@@ -3,6 +3,7 @@
 
 Usage:
     python3 scripts/consolidate_kml.py manifest.json out.kmz [--report report.md]
+                                       [--strip-unsupported]
 
 Manifest (JSON):
 {
@@ -159,6 +160,22 @@ def fix_field_types(el):
     return n
 
 
+# Elements Google Earth Web reports as "Unsupported element". ListStyle only
+# affects the sidebar icon; colorMode=random only affects Earth Pro colouring.
+WEB_UNSUPPORTED = ("ListStyle", "colorMode")
+
+
+def strip_unsupported(el):
+    """Remove Earth-Web-unsupported elements in place; return count."""
+    n = 0
+    for parent in el.iter():
+        for child in list(parent):
+            if child.tag in {q(t) for t in WEB_UNSUPPORTED}:
+                parent.remove(child)
+                n += 1
+    return n
+
+
 def coord_set(el):
     out = set()
     for c in el.iter(q("coordinates")):
@@ -189,7 +206,7 @@ def ensure_folder(parent, path, cache):
     return node
 
 
-def build(manifest):
+def build(manifest, strip_web=False):
     src_dir = manifest.get("src_dir", ".")
     kml = ET.Element(q("kml"))
     doc = ET.SubElement(kml, q("Document"))
@@ -245,7 +262,11 @@ def build(manifest):
         n_types = fix_field_types(top)
         if n_types:
             status += f"; {n_types} SimpleField type(s) mapped to KML types"
-            rows[-1] = (layer, n_pm, len(coords), status)
+        if strip_web:
+            n_strip = strip_unsupported(top)
+            if n_strip:
+                status += f"; {n_strip} ListStyle/colorMode element(s) stripped"
+        rows[-1] = (layer, n_pm, len(coords), status)
         # give the wrapped element the display name we want
         nm = top.find("k:name", NS)
         if nm is None:
@@ -310,9 +331,13 @@ def main():
     ap.add_argument("manifest")
     ap.add_argument("out")
     ap.add_argument("--report")
+    ap.add_argument("--strip-unsupported", action="store_true",
+                    help="remove ListStyle and colorMode elements that Google "
+                         "Earth Web reports as unsupported (Earth Pro then "
+                         "uses fixed colours instead of colorMode=random)")
     a = ap.parse_args()
     manifest = json.load(open(a.manifest))
-    kml, rows = build(manifest)
+    kml, rows = build(manifest, strip_web=a.strip_unsupported)
     dup, missing, total = validate(kml)
     size = write_kmz(kml, a.out)
     print(f"wrote {a.out}: {total} placemarks, doc.kml {size/1e6:.1f} MB")
