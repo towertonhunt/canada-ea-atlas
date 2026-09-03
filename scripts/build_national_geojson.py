@@ -177,6 +177,9 @@ print(f'bc: {n_bc}')
 
 # ── Federal IAAC (item index via exploration list API) ───────────────
 import gzip as _gzip
+FED_ARCHIVE_BASE = 'https://iaac-aeic.gc.ca/archives/evaluations'
+NS_EA_BASE = 'https://novascotia.ca/nse/ea/'
+
 listgz = os.path.join(RAW, 'federal_list_all.json.gz')
 fed_seen = set()
 n_fedlist = 0
@@ -188,6 +191,8 @@ if os.path.exists(listgz):
         pid = e.get('project_id')
         if not pid or pid in fed_seen:
             continue
+        if e.get('document_type') == 'archive-project' and not e.get('relative_path'):
+            continue  # no way to build a working link into the archive
         fed_seen.add(pid)
         geom = None
         if 'lat' in e and 'lon' in e:
@@ -199,6 +204,14 @@ if os.path.exists(listgz):
                     geom = {'type': 'Point', 'coordinates': [lon, lat]}
             except (TypeError, ValueError):
                 pass
+        # Archived (pre-CEAA-2012) records are not served by the live registry
+        # under /050/evaluations/proj/<id> -- that 404s. They live as static
+        # captures under /archives/evaluations + the index's relative_path.
+        archived = e.get('document_type') == 'archive-project'
+        if archived:
+            registry_url = FED_ARCHIVE_BASE + e['relative_path'].replace('\\', '/')
+        else:
+            registry_url = f'https://iaac-aeic.gc.ca/050/evaluations/proj/{pid}'
         add({'type': 'Feature', 'geometry': geom, 'properties': {
             'name': e.get('project_name_en') or f'Federal project {pid}',
             'jurisdiction': 'Federal (IAAC)',
@@ -211,7 +224,8 @@ if os.path.exists(listgz):
             'province_codes': e.get('province_en'),
             'location': e.get('location_en'),
             'description': e.get('description'),
-            'registry_url': f'https://iaac-aeic.gc.ca/050/evaluations/proj/{pid}',
+            'archived': True if archived else None,
+            'registry_url': registry_url,
         }})
         dp = os.path.join(fed_docdir, f'{pid}.json')
         if os.path.exists(dp):
@@ -253,9 +267,38 @@ if os.path.exists(apimap):
 print(f'federal (api-map): {n_fed2}')
 
 # ── Ontario provincial EAs (Individual/Comprehensive, by sector) ─────
+# Preferred source: the per-project pages harvested by fetch_on_ea_pages.py,
+# which carry proponent, status, location and the documentation links. The
+# category listing below is the fallback when that harvest hasn't been run --
+# it yields a name and a URL and nothing else.
+on_pages = os.path.join(RAW, 'on_ea_project_pages.json')
 on_cat = os.path.join(RAW, 'on_ea_projects_category.html')
 n_onp = 0
-if os.path.exists(on_cat):
+if os.path.exists(on_pages):
+    on_docdir = os.path.join(ROOT, 'data', 'docs', 'on')
+    for rec in json.load(open(on_pages)):
+        props = {
+            'name': rec.get('name') or rec['slug'],
+            'jurisdiction': 'Ontario (Provincial EA)',
+            'source': 'on_provincial_ea',
+            'status': rec.get('status'),
+            'type': rec.get('sector') or 'Other',
+            'ea_type': rec.get('ea_sector'),
+            'proponent': rec.get('proponent'),
+            'location': rec.get('location'),
+            'municipality': rec.get('municipality'),
+            'reference_number': rec.get('reference_number'),
+            'decision_date': rec.get('decision_date'),
+            'proponent_url': rec.get('proponent_url'),
+            'registry_url': rec['url'],
+        }
+        dp = os.path.join(on_docdir, f"{rec['slug']}.json")
+        if os.path.exists(dp):
+            props['doc_count'] = len(rec['docs'])
+            props['docs_path'] = f"data/docs/on/{rec['slug']}.json"
+        add({'type': 'Feature', 'geometry': None, 'properties': props})
+        n_onp += 1
+elif os.path.exists(on_cat):
     h = open(on_cat, encoding='utf-8', errors='replace').read()
     SECTIONS = ['Electricity', 'Mining', 'Forestry', 'Municipal infrastructure',
                 'Waste management', 'Transit', 'Transportation', 'Other']
@@ -322,7 +365,7 @@ if os.path.exists(qc_path):
             'proponent': prop,
             'municipality': muni,
             'updated': updated,
-            'registry_url': ('https://www.ree.environnement.gouv.qc.ca/fiche.asp?no_dossier=' + dossier)
+            'registry_url': ('https://www.ree.environnement.gouv.qc.ca/projet.asp?no_dossier=' + dossier)
                             if dossier else None,
         }
         add({'type': 'Feature', 'geometry': geom, 'properties': props})
@@ -334,9 +377,17 @@ ns_path = os.path.join(RAW, 'ns_ea_projects.html')
 n_ns = 0
 ns_docs = {}
 ns_cat_path = os.path.join(RAW, 'ns_doc_catalogue.json')
+
+
+def _ns_key(url):
+    """The catalogue and the project list disagree on 'www.' and trailing
+    slashes; match on the slug so both spellings find their documents."""
+    return url.rstrip('/').rsplit('/', 1)[-1].replace('.asp', '').lower()
+
+
 if os.path.exists(ns_cat_path):
     for url, docs in json.load(open(ns_cat_path)).items():
-        ns_docs[url] = len(docs)
+        ns_docs[_ns_key(url)] = len(docs)
 if os.path.exists(ns_path):
     h = open(ns_path, encoding='utf-8', errors='replace').read()
     rows = re.findall(r'<tr[^>]*>(.*?)</tr>', h, re.S)
@@ -353,6 +404,10 @@ if os.path.exists(ns_path):
         url = link.group(1) if link else None
         if url and url.startswith('/'):
             url = 'https://novascotia.ca' + url
+        elif url and not url.startswith('http'):
+            # some rows link with a bare slug ('harbour-hills-wind/'),
+            # which the map rendered as a dead relative link
+            url = NS_EA_BASE + url
         props = {
             'name': name,
             'jurisdiction': 'Nova Scotia (NSECC)',
@@ -363,8 +418,8 @@ if os.path.exists(ns_path):
             'date': date,
             'registry_url': url,
         }
-        if url in ns_docs:
-            props['doc_count'] = ns_docs[url]
+        if url and _ns_key(url) in ns_docs:
+            props['doc_count'] = ns_docs[_ns_key(url)]
             slug = url.rstrip('/').rsplit('/', 1)[-1].replace('.asp', '') or 'index'
             props['docs_path'] = f'data/docs/ns/{slug}.json'
         # No coordinates published; geometry null keeps them list-searchable

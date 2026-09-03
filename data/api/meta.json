@@ -1,8 +1,8 @@
 {
- "total": 18787,
+ "total": 18912,
  "depth": {
-  "1": 12370,
-  "2": 6261,
+  "1": 12216,
+  "2": 6540,
   "3": 156
  },
  "deep_tier_ids": [
@@ -194,18 +194,18 @@
   "solar": 168,
   "wind": 252,
   "biogas": 23,
-  "energy_other": 624,
-  "mining": 6948,
-  "industrial": 1020,
+  "energy_other": 625,
+  "mining": 6952,
+  "industrial": 1024,
   "tourism": 58,
-  "oil_gas": 727,
-  "other": 4436,
-  "transport": 2100,
-  "waste": 262,
-  "water": 1677,
-  "hydro": 252,
+  "oil_gas": 732,
+  "other": 4525,
+  "transport": 2107,
+  "waste": 265,
+  "water": 1685,
+  "hydro": 255,
   "nuclear": 45,
-  "agriculture": 195
+  "agriculture": 196
  },
  "jurisdictions": [
   "British Columbia (EAO)",

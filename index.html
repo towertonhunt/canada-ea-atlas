@@ -468,6 +468,8 @@ function openSidebar(feature, marker) {
     ["Approved", p.approval_date],
     ["Location", location],
     p.rea_number ? ["REA Number", p.rea_number] : null,
+    p.reference_number ? ["EA reference #", p.reference_number] : null,
+    p.decision_date ? ["Decision date", p.decision_date] : null,
     p.doc_count ? ["Documents", `${p.doc_count} total`] : null,
     p.updated ? ["Updated", p.updated] : null,
     p.note ? ["Note", p.note] : null,
@@ -483,7 +485,9 @@ function openSidebar(feature, marker) {
     <div class="meta-grid">
       ${rows.map(([k, v]) => `<div class="meta-item"><label>${k}</label><span>${v}</span></div>`).join("")}
     </div>
-    ${p.registry_url ? `<div style="margin-top:10px"><a href="${p.registry_url}" target="_blank" rel="noopener" style="font-size:0.8rem;color:#1a3a5c;font-weight:600">Open registry page ↗</a></div>` : ""}
+    ${p.registry_url ? `<div style="margin-top:10px"><a href="${p.registry_url}" target="_blank" rel="noopener" style="font-size:0.8rem;color:#1a3a5c;font-weight:600">${p.archived ? "Open archived registry record" : "Open registry page"} ↗</a></div>` : ""}
+    ${p.proponent_url ? `<div style="margin-top:4px"><a href="${p.proponent_url}" target="_blank" rel="noopener" style="font-size:0.8rem;color:#1a3a5c;font-weight:600">Proponent's project page ↗</a></div>` : ""}
+    ${p.archived ? `<p style="margin-top:8px;font-size:0.72rem;color:#666">Archived record — assessed under CEAA 1992 and no longer served by the live registry; links point at the Agency's archive.</p>` : ""}
     ${p.geocode === "approximate" ? `<p style="margin-top:8px;font-size:0.72rem;color:#a16207">⚠ Approximate location — pinned to the nearest named place (${(p.geocode_match || "").replace("name:", "")}). The registry does not publish coordinates for this project.</p>` : ""}
     ${p.description ? `<p style="margin-top:8px;font-size:0.78rem;color:#555;line-height:1.4">${p.description}</p>` : ""}`;
 

@@ -1,0 +1,48 @@
+name: Fetch Ontario provincial EA project pages
+
+# Ontario's category listing gives a name and a URL only. The per-project
+# pages carry proponent, status, location, decision dates and the
+# "Project documentation" links (notice of approval, ministry review, ToR) --
+# the actual EA record. scripts/fetch_on_ea_pages.py harvests them into
+# data/raw/on_ea_project_pages.json; build_national_geojson.py and
+# split_doc_catalogues.py consume that on the next rebuild.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 * * 3'   # weekly, Wednesday 06:17 UTC
+  push:
+    branches: [main]
+    paths: ['.github/workflows/fetch-on-ea-pages.yml', 'scripts/fetch_on_ea_pages.py']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Harvest ontario.ca EA project pages
+        continue-on-error: true
+        run: python3 scripts/fetch_on_ea_pages.py --workers 4
+
+      - name: Rebuild catalogues and map
+        run: |
+          python3 scripts/split_doc_catalogues.py
+          python3 scripts/build_national_geojson.py
+          python3 scripts/validate_data.py || true
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main || true
+            git add data/raw/on_ea_project_pages.json data/raw/on_ea_projects_category.html \
+                    data/docs/on data/projects_canada.geojson
+            git commit -m "Refresh Ontario provincial EA project pages [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 7
+          done

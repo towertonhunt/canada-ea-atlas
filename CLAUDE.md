@@ -9,8 +9,10 @@ unattended via scheduled GitHub Actions.
 
 ## Architecture in one paragraph
 GitHub Actions workflows ("lanes", `.github/workflows/fetch-*.yml`) harvest
-government registries — the session sandbox has NO general internet, so ALL
-fetching happens on Actions runners, committing results to `main`
+government registries — Actions runners do the scheduled fetching, committing
+results to `main` (the Mac mini session DOES have internet as of 2026-09-02, so
+one-off harvests and link audits can run locally; keep the lanes as the
+durable path)
 (the old working branch `claude/mac-mini-connection-ceehl5` was merged and deleted 2026-08-31). Local scripts integrate raw data into
 `data/projects_canada.geojson` (the map) and `data/corpus/` (text for the
 knowledge base). `index.html` is a static Leaflet map (GitHub Pages from
@@ -23,10 +25,38 @@ sidebars (`docs_path` property -> `data/docs/<jur>/<id>.json`).
 - Build corpus search index: `python3 scripts/build_corpus_search.py` (FTS5 -> data/corpus_search.sqlite3.gz for wiki.html)
 - Extract conditions: `python3 scripts/extract_conditions.py` (BC; extend per source)
 - Predict mitigations: `python3 scripts/mitigation_predict.py <archetype> [constraints...]`
-- Validate all data: `python3 scripts/validate_data.py` (enums, geojson bbox, FTS DB, registers)
+- Validate all data: `python3 scripts/validate_data.py` (enums, geojson bbox, FTS DB, registers, known-dead URL shapes)
+- Audit outbound links: `python3 scripts/check_links.py [--docs] [--sample N] [--only src]` -> data/link_health.json (soft-404 aware, per-host paced, canary-guarded; see Link lessons)
+- Harvest Ontario provincial EA pages: `python3 scripts/fetch_on_ea_pages.py` -> data/raw/on_ea_project_pages.json (proponent/status/location/docs), then split_doc_catalogues + build_national_geojson
 - Dedupe conditions: `python3 scripts/dedupe_conditions.py` (exact (project,text) dupes; idempotent)
 - Baseline constraints (needs internet -> run in Actions): `scripts/baseline_query.py lat lon buffer_m`
 - Routing engine: `scripts/routing/build_routes.py` per `routing/framework.json`
+
+## Link lessons (2026-09-02 audit — user reported Detour Lake had no working EA links)
+- Archived CEAR records (dashed ids like 10-03-52262, 144 projects) 404 on
+  /050/evaluations/proj/<id>; the working URL is
+  https://iaac-aeic.gc.ca/archives/evaluations + index relative_path (backslashes
+  -> slashes). Their docs are `archive-document` rows in federal_list_all.json.gz
+  (309 docs / 105 projects) -> data/docs/federal/<dashed-id>.json.
+- iaac-aeic.gc.ca answers HTTP 200 + "We couldn't find that Web page" for
+  numeric-only archived ids (soft 404), 404s without a browser User-Agent, and
+  THROTTLES BY RETURNING 404 for the whole host (even its home page) after a
+  burst — a block lasts ~1h+. check_links.py paces it at 1.2s and canary-checks
+  the home page before trusting any 404 from it.
+- Quebec REE renamed fiche.asp -> projet.asp (every one of 402 links was dead).
+- NS list rows sometimes carry bare slugs ('harbour-hills-wind/') -> prefix
+  https://novascotia.ca/nse/ea/. Catalogue keys differ on www./trailing slash;
+  match on slug.
+- Ontario AMIS persistent-linking URLs return a byte-identical JS shell for
+  every id (incl. bogus ones): fine in a browser, unverifiable server-side ->
+  reported as `js_app`, not ok/broken.
+- ontario.ca EA project pages hold proponent, status, location, decision dates
+  and a "Project documentation" sidebar (notice of approval / ministry review /
+  ToR) — the only centrally published Ontario EA record. 481 docs / 176 projects.
+- West Detour (2017) was a provincial ESR under the MNDM Class EA with federal
+  designation declined -> in NO harvested registry. Same structural gap as
+  Kakabeka/Matabitchuan; needs a Class-EA/proponent-ESR source. Tracked in
+  known_projects_checklist.json (expect: tracked) so it keeps warning.
 
 ## Data inventory (as of 2026-07-05)
 - Map: 18,401 features. Federal 6,576 (complete registry incl. federal-lands

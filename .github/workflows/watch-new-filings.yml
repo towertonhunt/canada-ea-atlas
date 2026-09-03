@@ -196,7 +196,7 @@ jobs:
                       nm = re.sub(r'<[^>]+>', ' ', r)
                       add('qc', 'qc-' + key,
                           re.sub(r'\s+', ' ', H.unescape(nm)).strip()[:100],
-                          'https://www.ree.environnement.gouv.qc.ca/fiche.asp?no_dossier='
+                          'https://www.ree.environnement.gouv.qc.ca/projet.asp?no_dossier='
                           + dm.group(1))
               state['qc'] = sorted(seen)
               print(f'qc: {fresh} new/updated dossiers', flush=True)

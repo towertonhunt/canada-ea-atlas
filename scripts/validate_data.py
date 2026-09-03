@@ -125,6 +125,59 @@ def check_geojson():
           f'{oob} out-of-bounds')
 
 
+# URL shapes we have shipped broken before. Each entry is (regex, why) and is
+# a hard FAIL: these were live on the map and every one of them was dead.
+BAD_URL_PATTERNS = [
+    (re.compile(r'/050/evaluations/proj/[\w]+-'),
+     'archived CEAR project id on the live registry path (404s); '
+     'use https://iaac-aeic.gc.ca/archives/evaluations + relative_path'),
+    (re.compile(r'ree\.environnement\.gouv\.qc\.ca/fiche\.asp'),
+     'Quebec REE renamed fiche.asp -> projet.asp (all 402 links 404d)'),
+]
+
+
+def check_links():
+    """Structural link checks (offline) + the last sweep's result if present."""
+    path = os.path.join(ROOT, 'data', 'projects_canada.geojson')
+    if not os.path.exists(path):
+        return
+    feats = json.load(open(path))['features']
+    relative = bad = 0
+    seen_bad = {}
+    for f in feats:
+        u = (f.get('properties') or {}).get('registry_url')
+        if not u:
+            continue
+        if not u.startswith(('http://', 'https://')):
+            relative += 1
+            continue
+        for rx, why in BAD_URL_PATTERNS:
+            if rx.search(u):
+                bad += 1
+                seen_bad.setdefault(why, u)
+    if relative:
+        fail(f'{relative} features have a registry_url that is not an '
+             f'absolute URL (renders as a dead relative link)')
+    for why, example in seen_bad.items():
+        fail(f'known-dead URL shape back in the data: {why} (e.g. {example})')
+    if not relative and not bad:
+        print(f'  ok  links: no known-dead URL shapes in '
+              f'{sum(1 for f in feats if (f.get("properties") or {}).get("registry_url"))} '
+              f'registry links')
+
+    health = os.path.join(ROOT, 'data', 'link_health.json')
+    if not os.path.exists(health):
+        return warn('no data/link_health.json; run scripts/check_links.py')
+    h = json.load(open(health))
+    checked, broken = h.get('total', 0), h.get('broken', 0)
+    if checked and broken / checked > 0.02:
+        warn(f'last link sweep ({h.get("checked_utc")}): {broken}/{checked} '
+             f'links broken (>2%)')
+    else:
+        print(f'  ok  last link sweep {h.get("checked_utc")}: '
+              f'{broken}/{checked} broken')
+
+
 def check_corpus_search():
     path = os.path.join(ROOT, 'data', 'corpus_search.sqlite3.gz')
     if not os.path.exists(path):
@@ -283,6 +336,7 @@ def main():
     print('Validating data artifacts...\n')
     for name, fn in (('conditions', check_conditions),
                      ('geojson', check_geojson),
+                     ('links', check_links),
                      ('corpus search', check_corpus_search),
                      ('predictions', check_predictions),
                      ('gap report', check_gap_report),
