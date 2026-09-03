@@ -138,6 +138,27 @@ def rename_ids(el, prefix):
     return sum(len(m) for m in all_maps)
 
 
+# KML 2.2 SimpleField types. ArcGIS writes "long", which Google Earth Web
+# rejects ("invalid attribute field type") and then reports every value of
+# that field as "attribute not found".
+KML_FIELD_TYPES = {"string", "int", "uint", "short", "ushort", "float",
+                   "double", "bool"}
+FIELD_TYPE_MAP = {"long": "int", "integer": "int", "long64": "double",
+                  "date": "string", "datetime": "string", "text": "string",
+                  "real": "double", "number": "double", "boolean": "bool"}
+
+
+def fix_field_types(el):
+    """Rewrite non-KML SimpleField types in place; return count changed."""
+    n = 0
+    for f in el.iter(q("SimpleField")):
+        t = (f.get("type") or "string").strip()
+        if t not in KML_FIELD_TYPES:
+            f.set("type", FIELD_TYPE_MAP.get(t.lower(), "string"))
+            n += 1
+    return n
+
+
 def coord_set(el):
     out = set()
     for c in el.iter(q("coordinates")):
@@ -221,6 +242,10 @@ def build(manifest):
             continue
         slug = slugify(os.path.splitext(layer["file"])[0])
         n_ids = rename_ids(top, slug)
+        n_types = fix_field_types(top)
+        if n_types:
+            status += f"; {n_types} SimpleField type(s) mapped to KML types"
+            rows[-1] = (layer, n_pm, len(coords), status)
         # give the wrapped element the display name we want
         nm = top.find("k:name", NS)
         if nm is None:
@@ -253,6 +278,10 @@ def validate(kml):
     for node in kml.iter(q("styleUrl")):
         if node.text and node.text.startswith("#") and node.text[1:] not in idset:
             missing.add(node.text)
+    bad_types = {f.get("type") for f in kml.iter(q("SimpleField"))
+                 if f.get("type") not in KML_FIELD_TYPES}
+    if bad_types:
+        print("NON-KML FIELD TYPES:", sorted(bad_types), file=sys.stderr)
     return dup, missing, len(placemarks(kml))
 
 
