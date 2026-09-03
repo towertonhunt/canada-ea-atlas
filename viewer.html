@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KMZ 3D Viewer - Canada EA Atlas</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cesium@1.124.0/Build/Cesium/Widgets/widgets.css">
+<style>
+  :root { --bg:#12233a; --panel:#1b2f4b; --ink:#e8eef6; --muted:#9fc3e8; --line:#2c4666; --accent:#4fa3ff; }
+  html,body { margin:0; height:100%; font:14px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--ink); }
+  #top { display:flex; align-items:center; gap:12px; padding:8px 14px; background:var(--panel); border-bottom:1px solid var(--line); flex-wrap:wrap; }
+  #top h1 { font-size:1rem; margin:0 8px 0 0; font-weight:600; }
+  #top a { color:var(--muted); text-decoration:none; font-size:.85rem; }
+  #top label { font-size:.85rem; color:var(--muted); display:flex; align-items:center; gap:6px; }
+  #top select, #top input[type=text] { background:var(--bg); color:var(--ink); border:1px solid var(--line); border-radius:4px; padding:4px 6px; font-size:.85rem; }
+  #top button, #top .btn { background:var(--accent); color:#fff; border:0; border-radius:4px; padding:5px 10px; font-size:.85rem; cursor:pointer; }
+  #top .btn input { display:none; }
+  #status { font-size:.8rem; color:var(--muted); margin-left:auto; }
+  #main { display:flex; height:calc(100% - 46px); }
+  #side { width:300px; min-width:220px; max-width:50vw; overflow:auto; background:var(--panel); border-right:1px solid var(--line); padding:8px 10px; box-sizing:border-box; resize:horizontal; }
+  #side h2 { font-size:.8rem; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin:6px 0 8px; }
+  #side .empty { color:var(--muted); font-size:.85rem; }
+  #tree details { margin-left:0; }
+  #tree details details { margin-left:14px; }
+  #tree summary { list-style:none; display:flex; align-items:center; gap:6px; padding:3px 2px; cursor:pointer; border-radius:3px; }
+  #tree summary:hover { background:rgba(255,255,255,.06); }
+  #tree summary::before { content:"\25B8"; color:var(--muted); width:10px; font-size:.75rem; }
+  #tree details[open] > summary::before { content:"\25BE"; }
+  #tree summary.leafonly::before { content:""; }
+  #tree .name { flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  #tree .n { color:var(--muted); font-size:.75rem; }
+  #tree .fly { color:var(--muted); font-size:.75rem; text-decoration:none; padding:0 3px; }
+  #tree .fly:hover { color:#fff; }
+  #tree input[type=checkbox] { margin:0; }
+  #cesiumContainer { flex:1; position:relative; }
+  #drop { position:absolute; inset:0; display:none; align-items:center; justify-content:center; background:rgba(18,35,58,.85); font-size:1.4rem; z-index:5; pointer-events:none; }
+  #drop.on { display:flex; }
+  #hint { position:absolute; left:50%; top:40%; transform:translate(-50%,-50%); text-align:center; color:var(--muted); z-index:2; pointer-events:none; }
+  #hint b { color:var(--ink); }
+  #err { position:absolute; left:12px; bottom:40px; background:#7a1f1f; color:#fff; padding:8px 12px; border-radius:6px; display:none; z-index:6; max-width:60%; }
+  .cesium-viewer-bottom { font-size:.7rem; }
+  @media (max-width:800px) { #main { flex-direction:column; } #side { width:auto; max-width:none; max-height:35vh; resize:none; border-right:0; border-bottom:1px solid var(--line);} }
+</style>
+</head>
+<body>
+<div id="top">
+  <h1>KMZ 3D Viewer</h1>
+  <a href="index.html">&larr; Canada EA Atlas</a>
+  <label class="btn">Open KML/KMZ<input id="file" type="file" accept=".kml,.kmz" multiple></label>
+  <label>Basemap
+    <select id="basemap">
+      <option value="osm">OpenStreetMap</option>
+      <option value="esri-img">Esri World Imagery</option>
+      <option value="esri-topo">Esri Topographic</option>
+      <option value="carto-light">Carto Light</option>
+      <option value="carto-dark">Carto Dark</option>
+    </select>
+  </label>
+  <label title="Optional. A free Cesium ion token enables 3D terrain. Stored only in this browser.">Terrain token
+    <input id="ion" type="text" placeholder="Cesium ion token (optional)" size="22">
+  </label>
+  <button id="fit" type="button">Fit all</button>
+  <button id="clear" type="button">Clear</button>
+  <span id="status"></span>
+</div>
+<div id="main">
+  <div id="side">
+    <h2>Layers</h2>
+    <div id="tree"><div class="empty">No file loaded. Open a KML/KMZ or drop one on the map. Files stay in your browser; nothing is uploaded.</div></div>
+  </div>
+  <div id="cesiumContainer">
+    <div id="hint"><b>Drop a KML or KMZ here</b><br>or use Open KML/KMZ above</div>
+    <div id="drop">Drop to load</div>
+    <div id="err"></div>
+  </div>
+</div>
+
+<script>window.CESIUM_BASE_URL = "https://cdn.jsdelivr.net/npm/cesium@1.124.0/Build/Cesium/";</script>
+<script src="https://cdn.jsdelivr.net/npm/cesium@1.124.0/Build/Cesium/Cesium.js"></script>
+<script>
+(function () {
+  "use strict";
+  var $ = function (id) { return document.getElementById(id); };
+  var status = $("status"), errBox = $("err"), tree = $("tree"), hint = $("hint");
+
+  function showError(msg) {
+    errBox.textContent = msg; errBox.style.display = "block";
+    clearTimeout(showError.t); showError.t = setTimeout(function () { errBox.style.display = "none"; }, 8000);
+    console.error(msg);
+  }
+  function setStatus(msg) { status.textContent = msg; }
+
+  if (typeof Cesium === "undefined") {
+    showError("Cesium failed to load from the CDN. Check your connection and reload.");
+    return;
+  }
+
+  // ---- basemaps (none need an API key) -----------------------------------
+  var BASEMAPS = {
+    "osm": function () { return new Cesium.OpenStreetMapImageryProvider({ url: "https://tile.openstreetmap.org/" }); },
+    "esri-img": function () { return Cesium.ArcGisMapServerImageryProvider.fromUrl("https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer"); },
+    "esri-topo": function () { return Cesium.ArcGisMapServerImageryProvider.fromUrl("https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer"); },
+    "carto-light": function () { return new Cesium.UrlTemplateImageryProvider({ url: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png", subdomains: ["a", "b", "c", "d"], credit: "© OpenStreetMap contributors © CARTO" }); },
+    "carto-dark": function () { return new Cesium.UrlTemplateImageryProvider({ url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png", subdomains: ["a", "b", "c", "d"], credit: "© OpenStreetMap contributors © CARTO" }); }
+  };
+  var store = { get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+                set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
+
+  var viewer;
+  try {
+    viewer = new Cesium.Viewer("cesiumContainer", {
+      baseLayer: Cesium.ImageryLayer.fromProviderAsync(BASEMAPS.osm()),
+      baseLayerPicker: false, geocoder: false, animation: false, timeline: false,
+      navigationHelpButton: false, fullscreenButton: true, sceneModePicker: true,
+      homeButton: true, infoBox: true, selectionIndicator: true, shouldAnimate: false
+    });
+  } catch (e) {
+    showError("Could not start the 3D viewer (WebGL unavailable?): " + e.message);
+    return;
+  }
+  viewer.scene.globe.depthTestAgainstTerrain = false;
+  viewer.scene.screenSpaceCameraController.enableCollisionDetection = true;
+
+  // start over northern Ontario
+  viewer.camera.setView({ destination: Cesium.Cartesian3.fromDegrees(-80.5, 50.2, 900000) });
+
+  // ---- basemap switching --------------------------------------------------
+  var basemapSel = $("basemap");
+  var savedBase = store.get("kmzviewer.basemap");
+  if (savedBase && BASEMAPS[savedBase]) basemapSel.value = savedBase;
+  function applyBasemap(key) {
+    var layers = viewer.imageryLayers;
+    Promise.resolve(BASEMAPS[key]()).then(function (provider) {
+      layers.removeAll();
+      layers.addImageryProvider(provider);
+      store.set("kmzviewer.basemap", key);
+    }).catch(function (e) { showError("Basemap failed: " + e.message); });
+  }
+  basemapSel.addEventListener("change", function () { applyBasemap(basemapSel.value); });
+  if (basemapSel.value !== "osm") applyBasemap(basemapSel.value);
+
+  // ---- optional terrain via Cesium ion token -------------------------------
+  var ionInput = $("ion");
+  var savedToken = store.get("kmzviewer.ion");
+  function applyTerrain(token) {
+    if (!token) { viewer.scene.setTerrain(new Cesium.Terrain(Promise.resolve(new Cesium.EllipsoidTerrainProvider()))); return; }
+    Cesium.Ion.defaultAccessToken = token;
+    try {
+      viewer.scene.setTerrain(Cesium.Terrain.fromWorldTerrain({ requestVertexNormals: false }));
+      viewer.scene.globe.depthTestAgainstTerrain = true;
+      store.set("kmzviewer.ion", token);
+      setStatus("3D terrain enabled");
+    } catch (e) { showError("Terrain failed: " + e.message); }
+  }
+  if (savedToken) { ionInput.value = savedToken; applyTerrain(savedToken); }
+  ionInput.addEventListener("change", function () { applyTerrain(ionInput.value.trim()); });
+
+  // ---- loading KML / KMZ ---------------------------------------------------
+  var sources = [];   // { ds, name }
+  function hasGeometry(e) {
+    return !!(e.position || e.polyline || e.polygon || e.billboard || e.point || e.model || e.rectangle || e.ellipse || e.path || e.wall || e.corridor);
+  }
+  function loadSource(input, name) {
+    setStatus("Loading " + name + " …");
+    hint.style.display = "none";
+    var opts = { camera: viewer.scene.camera, canvas: viewer.scene.canvas, clampToGround: true };
+    return Cesium.KmlDataSource.load(input, opts).then(function (ds) {
+      ds.name = name;
+      viewer.dataSources.add(ds);
+      sources.push({ ds: ds, name: name });
+      var n = ds.entities.values.filter(hasGeometry).length;
+      setStatus(name + ": " + n + " features");
+      renderTree();
+      return viewer.flyTo(ds);
+    }).catch(function (e) {
+      setStatus("");
+      showError("Could not load " + name + ": " + (e && e.message ? e.message : e));
+    });
+  }
+  function loadFiles(fileList) {
+    Array.prototype.forEach.call(fileList, function (f) {
+      if (!/\.(kml|kmz)$/i.test(f.name)) { showError("Skipped " + f.name + " (not .kml/.kmz)"); return; }
+      loadSource(f, f.name);
+    });
+  }
+  $("file").addEventListener("change", function (ev) { loadFiles(ev.target.files); ev.target.value = ""; });
+
+  // drag and drop anywhere on the page
+  var drop = $("drop"), dragDepth = 0;
+  document.addEventListener("dragenter", function (ev) { ev.preventDefault(); dragDepth++; drop.classList.add("on"); });
+  document.addEventListener("dragover", function (ev) { ev.preventDefault(); });
+  document.addEventListener("dragleave", function () { if (--dragDepth <= 0) { dragDepth = 0; drop.classList.remove("on"); } });
+  document.addEventListener("drop", function (ev) {
+    ev.preventDefault(); dragDepth = 0; drop.classList.remove("on");
+    if (ev.dataTransfer && ev.dataTransfer.files.length) loadFiles(ev.dataTransfer.files);
+  });
+
+  // ?kmz=<url> for a file hosted somewhere that allows CORS
+  var params = new URLSearchParams(location.search);
+  if (params.get("kmz")) {
+    var u = params.get("kmz");
+    loadSource(u, u.split("/").pop() || "remote file");
+  }
+
+  // ---- layer tree -----------------------------------------------------------
+  function buildIndex(ds) {
+    var kids = {}, roots = [];
+    ds.entities.values.forEach(function (e) {
+      var pid = e.parent ? e.parent.id : null;
+      if (pid) { (kids[pid] = kids[pid] || []).push(e); } else { roots.push(e); }
+    });
+    return { kids: kids, roots: roots };
+  }
+  function descendants(e, kids, out) {
+    out = out || [];
+    (kids[e.id] || []).forEach(function (c) { out.push(c); descendants(c, kids, out); });
+    return out;
+  }
+  function makeNode(e, kids, depth) {
+    var children = kids[e.id] || [];
+    var folders = children.filter(function (c) { return (kids[c.id] || []).length || !hasGeometry(c); });
+    var leaves = children.filter(function (c) { return hasGeometry(c) && !(kids[c.id] || []).length; });
+    var all = descendants(e, kids);
+    var count = all.filter(hasGeometry).length + (hasGeometry(e) ? 1 : 0);
+
+    var det = document.createElement("details");
+    if (depth < 1) det.open = true;
+    var sum = document.createElement("summary");
+    if (!folders.length && leaves.length <= 1) sum.className = "leafonly";
+    var cb = document.createElement("input"); cb.type = "checkbox"; cb.checked = e.show !== false;
+    cb.addEventListener("click", function (ev) { ev.stopPropagation(); });
+    cb.addEventListener("change", function () {
+      e.show = cb.checked;
+      det.querySelectorAll("input[type=checkbox]").forEach(function (c) { if (c !== cb) c.checked = cb.checked; });
+    });
+    var nm = document.createElement("span"); nm.className = "name"; nm.textContent = e.name || "(unnamed)"; nm.title = e.name || "";
+    var n = document.createElement("span"); n.className = "n"; n.textContent = count;
+    var fly = document.createElement("a"); fly.className = "fly"; fly.href = "#"; fly.textContent = "◎"; fly.title = "Fly to";
+    fly.addEventListener("click", function (ev) {
+      ev.preventDefault(); ev.stopPropagation();
+      var targets = all.filter(hasGeometry); if (hasGeometry(e)) targets.push(e);
+      if (targets.length) viewer.flyTo(targets);
+    });
+    sum.appendChild(cb); sum.appendChild(nm); sum.appendChild(n); sum.appendChild(fly);
+    det.appendChild(sum);
+
+    folders.forEach(function (c) { det.appendChild(makeNode(c, kids, depth + 1)); });
+    if (leaves.length && leaves.length <= 40) {
+      leaves.forEach(function (c) { det.appendChild(makeNode(c, kids, depth + 1)); });
+    } else if (leaves.length) {
+      var more = document.createElement("div"); more.className = "n"; more.style.marginLeft = "24px";
+      more.textContent = leaves.length + " placemarks (click a feature on the map for details)";
+      det.appendChild(more);
+    }
+    return det;
+  }
+  function renderTree() {
+    tree.innerHTML = "";
+    if (!sources.length) { tree.innerHTML = '<div class="empty">No file loaded.</div>'; return; }
+    sources.forEach(function (s) {
+      var idx = buildIndex(s.ds);
+      var wrap = document.createElement("div");
+      var title = document.createElement("h2"); title.textContent = s.name; wrap.appendChild(title);
+      idx.roots.forEach(function (r) { wrap.appendChild(makeNode(r, idx.kids, 0)); });
+      tree.appendChild(wrap);
+    });
+  }
+
+  $("fit").addEventListener("click", function () {
+    if (sources.length) viewer.flyTo(sources.map(function (s) { return s.ds; }));
+  });
+  $("clear").addEventListener("click", function () {
+    viewer.dataSources.removeAll(true); sources = []; renderTree(); setStatus(""); hint.style.display = "";
+  });
+})();
+</script>
+</body>
+</html>
