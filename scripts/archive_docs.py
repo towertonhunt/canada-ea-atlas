@@ -68,7 +68,6 @@ def rclone_env():
         'RCLONE_CONFIG_R2_SECRET_ACCESS_KEY': env('R2_SECRET_ACCESS_KEY'),
         'RCLONE_CONFIG_R2_ENDPOINT':
             f"https://{env('R2_ACCOUNT_ID')}.r2.cloudflarestorage.com",
-        'RCLONE_CONFIG_R2_ACL': 'private',
         'RCLONE_CONFIG_R2_NO_CHECK_BUCKET': 'true',
     })
     return e
@@ -82,7 +81,8 @@ def upload_dir(staging, dry_run=False):
            '--transfers', '8', '--s3-no-check-bucket', '--quiet']
     r = subprocess.run(cmd, env=rclone_env(), capture_output=True, text=True)
     if r.returncode != 0:
-        print('rclone failed:', r.stderr.strip()[-500:], flush=True)
+        print('rclone failed (exit', r.returncode, '):', flush=True)
+        print(r.stderr.strip()[-2000:], flush=True)
         return False
     return True
 
