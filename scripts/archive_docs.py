@@ -207,6 +207,85 @@ def save_manifest(m, path=MANIFEST):
     os.replace(tmp, path)
 
 
+# ── bucket-side manifest checkpoint ──────────────────────────────────
+# Git commits from the lane can fail (rebase conflicts on the binary manifest);
+# the bucket copy under _meta/ is the checkpoint that survives that. Every
+# flush uploads it; every run merges it in before deciding what to fetch.
+BUCKET_MANIFEST_KEY = '_meta/archive_manifest.json.gz'
+
+
+def rclone(*args):
+    return subprocess.run(['rclone', *args], env=rclone_env(),
+                          capture_output=True, text=True)
+
+
+def push_manifest_to_bucket():
+    r = rclone('copyto', MANIFEST, f"r2:{env('R2_BUCKET')}/{BUCKET_MANIFEST_KEY}",
+               '--s3-no-check-bucket', '--quiet')
+    if r.returncode != 0:
+        print('manifest checkpoint upload failed:', r.stderr.strip()[-300:], flush=True)
+
+
+def pull_manifest_from_bucket():
+    """-> dict of records from the bucket checkpoint, or {} if none."""
+    tmp = MANIFEST + '.bucket'
+    r = rclone('copyto', f"r2:{env('R2_BUCKET')}/{BUCKET_MANIFEST_KEY}", tmp,
+               '--s3-no-check-bucket', '--quiet')
+    if r.returncode != 0 or not os.path.exists(tmp):
+        return {}
+    try:
+        return json.load(gzip.open(tmp, 'rt'))
+    except (OSError, ValueError):
+        return {}
+    finally:
+        if os.path.exists(tmp):
+            os.remove(tmp)
+
+
+def merge_manifests(base, other):
+    """Union; a record that names an uploaded object beats one that doesn't,
+    otherwise the more recently fetched record wins."""
+    for url, rec in other.items():
+        cur = base.get(url)
+        if cur is None:
+            base[url] = rec
+        elif rec.get('key') and (not cur.get('key')
+                                 or (rec.get('fetched_at', '') > cur.get('fetched_at', ''))):
+            base[url] = rec
+        elif not rec.get('key') and not cur.get('key'):
+            cur['fails'] = max(cur.get('fails', 0), rec.get('fails', 0))
+    return base
+
+
+def reconcile_from_bucket(manifest, public, only=None):
+    """Rebuild manifest records for objects that exist in the bucket but
+    are missing from the manifest (e.g. a run whose commit was lost). Keys
+    are deterministic from the catalogue, so list the bucket and match."""
+    r = rclone('lsjson', '-R', '--files-only', f"r2:{env('R2_BUCKET')}")
+    if r.returncode != 0:
+        print('bucket listing failed:', r.stderr.strip()[-300:], flush=True)
+        return 0
+    present = {e['Path']: e for e in json.loads(r.stdout)}
+    print(f'bucket holds {len(present)} objects', flush=True)
+    n = 0
+    for url, jur, project, title in targets(only):
+        if manifest.get(url, {}).get('key'):
+            continue
+        base = os.path.splitext(key_for(jur, project, url))[0]
+        for ext in ('.pdf', '.html', '.docx', '.doc', '.zip', '.xlsx', '.xls', '.bin'):
+            key = base + ext
+            if key in present:
+                manifest.setdefault(url, {'jur': jur, 'project': project}).update(
+                    key=key, archive_url=f'{public}/{key}', bytes=present[key].get('Size'),
+                    kind='html_notice' if ext == '.html' and jur == 'federal' else 'file',
+                    title=title[:200], reconciled=True,
+                    fetched_at=(present[key].get('ModTime') or '')[:19] + 'Z')
+                n += 1
+                break
+    print(f'reconciled {n} records from the bucket', flush=True)
+    return n
+
+
 # ── main ─────────────────────────────────────────────────────────────
 def main():
     ap = argparse.ArgumentParser()
@@ -215,6 +294,8 @@ def main():
     ap.add_argument('--limit', type=int)
     ap.add_argument('--dry-run', action='store_true')
     ap.add_argument('--flush-every', type=int, default=200)
+    ap.add_argument('--reconcile', action='store_true',
+                    help='rebuild manifest records from a bucket listing, then exit')
     args = ap.parse_args()
 
     public = os.environ.get('R2_PUBLIC_BASE', '').rstrip('/')
@@ -224,6 +305,21 @@ def main():
             raise SystemExit('R2_PUBLIC_BASE is not set')
 
     manifest = load_manifest(all_parts=False)       # the lane's own part
+    if not args.dry_run:
+        from_bucket = pull_manifest_from_bucket()
+        if from_bucket:
+            before = sum(1 for v in manifest.values() if v.get('key'))
+            merge_manifests(manifest, from_bucket)
+            after = sum(1 for v in manifest.values() if v.get('key'))
+            print(f'bucket checkpoint merged: {after - before} records recovered',
+                  flush=True)
+            save_manifest(manifest)
+        if args.reconcile:
+            reconcile_from_bucket(manifest, public,
+                                  set(args.only.split(',')) if args.only else None)
+            save_manifest(manifest)
+            push_manifest_to_bucket()
+            return
     known = load_manifest()                          # + seeded parts, for skipping
     todo = [t for t in targets(set(args.only.split(',')) if args.only else None)
             if not known.get(t[0], {}).get('key')
@@ -268,6 +364,7 @@ def main():
             return True
         if upload_dir(staging):
             save_manifest(manifest)
+            push_manifest_to_bucket()
             shutil.rmtree(staging)
             os.makedirs(staging)
             staged.clear()

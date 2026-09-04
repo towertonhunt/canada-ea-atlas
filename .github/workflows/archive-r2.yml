@@ -25,6 +25,10 @@ on:
       limit:
         description: 'Max documents this run (blank = budget-bound)'
         default: ''
+      reconcile:
+        description: 'Rebuild manifest from a bucket listing (recover lost runs)'
+        type: boolean
+        default: false
   schedule:
     - cron: '41 */6 * * *'
 
@@ -73,21 +77,23 @@ jobs:
           ARGS="--budget 18000"
           [ -n "${{ inputs.only }}" ] && ARGS="$ARGS --only ${{ inputs.only }}"
           [ -n "${{ inputs.limit }}" ] && ARGS="$ARGS --limit ${{ inputs.limit }}"
+          [ "${{ inputs.reconcile }}" = "true" ] && ARGS="$ARGS --reconcile"
           python3 scripts/archive_docs.py $ARGS
 
-      - name: Attach archive links to catalogues
-        if: ${{ !inputs.smoke }}
-        run: python3 scripts/split_doc_catalogues.py --archive-only
-
-      - name: Commit
+      - name: Commit (merge manifest onto current main, never rebase)
         if: ${{ !inputs.smoke }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp data/raw/archive_manifest.json.gz /tmp/run_manifest.json.gz
           for i in 1 2 3 4 5; do
-            git pull --rebase origin main || true
+            git fetch origin main
+            git reset -q --hard origin/main
+            python3 scripts/merge_archive_manifest.py /tmp/run_manifest.json.gz
+            python3 scripts/split_doc_catalogues.py --archive-only
             git add data/raw/archive_manifest.json.gz data/docs
-            git commit -m "Archive lane progress [skip ci]" || echo "nothing to commit"
+            git commit -m "Archive lane progress [skip ci]" || { echo "nothing to commit"; break; }
             git push && break
+            echo "push rejected; retrying against newer main"
             sleep 7
           done
