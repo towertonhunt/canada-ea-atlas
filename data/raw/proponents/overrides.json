@@ -14,11 +14,13 @@
   "aliases": [
    "lng canada shell canada limited petron",
    "shell canada energy petronas petrochin"
-  ]
+  ],
+  "browser_first": true
  },
  "lng canada": {
   "website": "https://www.lngcanada.ca/",
-  "name": "LNG Canada"
+  "name": "LNG Canada",
+  "browser_first": true
  },
  "nuclear waste management organization": {
   "website": "https://www.nwmo.ca/"
@@ -28,10 +30,12 @@
   "name": "FortisBC"
  },
  "atco": {
-  "website": "https://www.atco.com/"
+  "website": "https://www.atco.com/",
+  "browser_first": true
  },
  "woodfibre lng": {
-  "website": "https://www.woodfibrelng.ca/"
+  "website": "https://www.woodfibrelng.ca/",
+  "browser_first": true
  },
  "equinor canada": {
   "website": "https://www.equinor.com/"
@@ -59,7 +63,8 @@
   "website": "https://fpxnickel.com/"
  },
  "corner brook pulp and paper": {
-  "website": "https://www.cbppl.com/"
+  "skip": true,
+  "_why": "cbppl.com is a parked domain (2026-09)"
  },
  "kinder morgan canada": {
   "website": "https://www.transmountain.com/",
@@ -96,7 +101,8 @@
   "website": "https://www.aturapower.com/"
  },
  "ontario power generation": {
-  "website": "https://www.opg.com/"
+  "website": "https://www.opg.com/",
+  "browser_first": true
  },
  "hydro one": {
   "website": "https://www.hydroone.com/"
@@ -108,7 +114,8 @@
   "website": "https://www.capitalpower.com/"
  },
  "bruce power": {
-  "website": "https://www.brucepower.com/"
+  "website": "https://www.brucepower.com/",
+  "browser_first": true
  },
  "bc hydro": {
   "website": "https://www.bchydro.com/"
@@ -132,7 +139,8 @@
   "website": "https://www.agnicoeagle.com/"
  },
  "bhp": {
-  "website": "https://www.bhp.com/"
+  "website": "https://www.bhp.com/",
+  "browser_first": true
  },
  "cameco": {
   "website": "https://www.cameco.com/"
@@ -147,7 +155,8 @@
   "website": "https://www.enbridge.com/"
  },
  "suncor energy": {
-  "website": "https://www.suncor.com/"
+  "website": "https://www.suncor.com/",
+  "browser_first": true
  },
  "imperial oil": {
   "website": "https://www.imperialoil.ca/"
@@ -199,7 +208,8 @@
   "website": "https://www.seabridgegold.com/"
  },
  "pathways alliance": {
-  "website": "https://pathwaysalliance.ca/"
+  "website": "https://oilsandsalliance.ca/",
+  "name": "Pathways Alliance (oilsandsalliance.ca)"
  },
  "cedar lng export development": {
   "website": "https://www.cedarlng.com/",

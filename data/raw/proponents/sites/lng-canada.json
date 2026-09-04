@@ -2,10 +2,865 @@
  "key": "lng canada",
  "site": "https://www.lngcanada.ca/",
  "host": "www.lngcanada.ca",
- "fetched": 1,
- "pages": [],
- "docs": [],
- "doc_types": {},
- "crawled_at": "2026-09-04T13:36:52Z",
- "name": "LNG Canada"
+ "fetched": 27,
+ "errors": {},
+ "pages": [
+  {
+   "url": "https://www.lngcanada.ca/commitments/environmental-protection/",
+   "title": "Environmental Protection | LNG Canada",
+   "depth": 1,
+   "docs": 95
+  },
+  {
+   "url": "https://www.lngcanada.ca/commitments/environmental-protection/",
+   "title": "Environmental Protection | LNG Canada",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/news/completing-the-kitimat-river-side-channel-project-north-and-south/",
+   "title": "LNG Canada | Completing the Kitimat River Side Channel project - North and South",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/operations/",
+   "title": "Operations | LNG Canada",
+   "depth": 1,
+   "docs": 12
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/marine-terminal-operations/",
+   "title": "Operations | LNG Canada",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/operations/safe-start-up/",
+   "title": "Frequently Asked Questions About LNG Canada's Flaring Activities | LNG Canada",
+   "depth": 1,
+   "docs": 7
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/operations/safe-start-up/",
+   "title": "Frequently Asked Questions About LNG Canada's Flaring Activities | LNG Canada",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/marine-terminal-operations/arrival-departures/",
+   "title": "Operations | LNG Canada",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/marine-terminal-operations/terminal-information/",
+   "title": "Operations | LNG Canada",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/marine-terminal-operations/compatible-lng-carriers/",
+   "title": "Operations | LNG Canada",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.lngcanada.ca/who-we-are/about-lng-canada/",
+   "title": "About Us | LNG Canada",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/overview/",
+   "title": "What We Do | LNG Canada",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/operations/",
+   "title": "Operations | LNG Canada",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/overview/",
+   "title": "What We Do | LNG Canada",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/facility/",
+   "title": "Facility | LNG Canada",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/construction/",
+   "title": "Construction | LNG Canada",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/jgc-fluor-joint-venture-jfjv/",
+   "title": "JGC Fluor Joint Venture | LNG Canada",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/commitments/workforce-development/",
+   "title": "Workforce Development | LNG Canada",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/opportunities/sponsorships-community-investment/",
+   "title": "Sponsorships & Community Investment | LNG Canada",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/commitments/workforce-development/",
+   "title": "Workforce Development | LNG Canada",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://reporting.lngcanada.ca/dashboard",
+   "title": "LNG Canada Reporting",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/facility/",
+   "title": "Facility | LNG Canada",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/construction/",
+   "title": "Construction | LNG Canada",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/jgc-fluor-joint-venture-jfjv/",
+   "title": "JGC Fluor Joint Venture | LNG Canada",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.lngcanada.ca/what-we-do/jgc-fluor-joint-venture-jfjv/",
+   "title": "JGC Fluor Joint Venture | LNG Canada",
+   "depth": 2,
+   "docs": 0
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/EA-Summary-Report_SPg_PRESS_Final.pdf",
+   "title": "Download the summary",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/L001-00000-HE-7180-1567_Waste_Discharge_Authorization_Operations-Effluent_Permit_PE-110478_2025_Annual_Report_R0.pdf",
+   "title": "ANNUAL EFFLUENT WASTE DISCHARGE AUTHORIZATION (WDA) REPORT (2025)",
+   "type": "permit_approval",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/ANNUAL-EFFLUENT-WASTE-DISCHARGE_AUTHORIZATION_REPORT.pdf",
+   "title": "ANNUAL EFFLUENT WASTE DISCHARGE AUTHORIZATION (WDA) REPORT (2024)",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNGC-5-Year-Ambient-Air-Dashboard.pdf",
+   "title": "AIR QUALITY DATA FROM MULTIPLE LOCATIONS",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/December-2016-–-Archaeological-and-Heritage-Resources-Management-Plan.pdf",
+   "title": "Archaeological and Heritage Resources Management Plan",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/June-2015-–-Fish-Habitat-Offsetting-Plan-–-Marine.pdf",
+   "title": "Fisheries Act Authorization 15-HPAC-00585 Marine: Fish Habitat Offsetting Plan",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/November-2015-–-Fish-Habitat-Offsetting-Plan-–-Workforce-Accommodation-Centre.pdf",
+   "title": "Fisheries Act Authorization 15-HPAC-00918 Workforce Accommodation Centre (FAA1): Fish Habitat Offsetting Plan",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/FAA-16-HPAC-00220-FAA2-Fish-Habitat-Offsetting-Plan.pdf",
+   "title": "Fisheries Act Authorization 16-HPAC-00220 LNG Facility (FAA2): Fish Habitat Offsetting Plan",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/FAA-16-HPAC-01079-FAA3-Fish-Habitat-Offsetting-Plan.pdf",
+   "title": "Fisheries Act Authorization 16-HPAC-01079 Supporting Infrastructure (FAA3): Fish Habitat Offsetting Plan",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/April-2020-Wetland-Compensation-Plan.pdf",
+   "title": "Wetland Compensation Plan",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/IAAC-Annual-Report-2025-2026-Final-signed.pdf",
+   "title": "JUNE 27, 2026 – LNG CANADA 2025-2026 IAAC ANNUAL REPORT",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/IAAC-Annual-Report-2025-2026-Rev2_FR-CA.pdf",
+   "title": "JUNE 27, 2026 – LNG CANADA 2025-2026 IAAC ANNUAL REPORT, EXECUTIVE SUMMARY – FRENCH",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/LNG-Canada-2024-2025-IAAC-Annual-Report_Rev-A-English.pdf",
+   "title": "JUNE 9, 2025 – LNG CANADA 2024-2025 IAAC ANNUAL REPORT",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/LNG-Canada-2024-2025-IAAC-Annual-Report_French.pdf",
+   "title": "JUNE 9, 2025 – LNG CANADA 2024-2025 IAAC ANNUAL REPORT, EXECUTIVE SUMMARY – FRENCH",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2023-2024-IAAC-Annual-Report_Rev-0.pdf",
+   "title": "JUNE 30, 2024 – LNG CANADA 2023-2024 IAAC ANNUAL REPORT",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2023-2024-IAAC-Annual-Report-French-ES-Rev-0.pdf",
+   "title": "JUNE 30, 2024 – LNG CANADA 2023-2024 IAAC ANNUAL REPORT, EXECUTIVE SUMMARY – FRENCH",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2022-2023-IAAC-Annual-Report_Rev-0-Final-2023-06-30.pdf",
+   "title": "JUNE 30, 2023 – LNG CANADA 2022-2023 IAAC ANNUAL REPORT",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2022-2023-IAAC-Annual-Report_Rev-0-Final-2023-06-30-EXFRENCH.pdf",
+   "title": "JUNE 30, 2023 – LNG CANADA 2022-2023 IAAC ANNUAL REPORT, EXECUTIVE SUMMARY – FRENCH",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2021-2022-IAAC-Annual-Report.pdf",
+   "title": "June 30, 2022 – LNG Canada 2021-2022 IAAC Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2021-2022-IAAC-Annual-Report-Executive-Summary-English-French.pdf",
+   "title": "June 30, 2022 – LNG Canada 2021-2022 IAAC Annual Report, Executive Summary – French",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2020-2021-IAAC-Annual-Report_FINAL-2021-06-29.pdf",
+   "title": "June 30, 2021 – LNG Canada 2020-2021 IAAC Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2020-2021-IAAC-Annual-Report_FINAL-Executive-Summary-FR-version-2021-06-29.pdf",
+   "title": "June 30, 2021 – LNG Canada 2020-2021 IAAC Annual Report, Executive Summary – French",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2019-2020-IAAC-Annual-Report_R0-FINAL.pdf",
+   "title": "August 24, 2020 – LNG Canada 2019-2020 IAAC Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2019-2020-IAAC-Annual-Report_Executive-Summary-French-Canadian_R0-FINAL.pdf",
+   "title": "August 24, 2020 – LNG Canada 2019-2020 IAAC Annual Report, Executive Summary – French",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2018-2019-CEAA-Annual-Report-19-06-26-FINAL-Rev-0-IFI.pdf",
+   "title": "June 28, 2019 – LNG Canada 2018-2019 CEAA Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/June-28-2018-–-LNG-Canada-2017-2018-CEAA-Annual-Report.pdf",
+   "title": "June 28, 2018 – LNG Canada 2017-2018 CEAA Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/June-28-2018-–-LNG-Canada-2017-2018-CEAA-Annual-Report-Executive-Summary-–-French.pdf",
+   "title": "June 28, 2018 – LNG Canada 2017-2018 CEAA Annual Report, Executive Summary – French",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/June-28-2017-–-LNG-Canada-2016-2017-CEAA-Annual-Report.pdf",
+   "title": "June 28, 2017 – LNG Canada 2016-2017 CEAA Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/June-28-2016-–-LNG-Canada-2015-2016-CEAA-Annual-Report-Executive-Summary-–-French.pdf",
+   "title": "June 28, 2016 – LNG Canada 2015-2016 CEAA Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/September-15-2015-–-LNG-Canada-Letter-CEAA-30-day-Implementation-Schedule.pdf",
+   "title": "September 15, 2015 – LNG Canada Letter CEAA 30 day Implementation Schedule",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/March-23-2026-LNG-Canada-Letter-CEAA-Implementation-Schedule-Update.pdf",
+   "title": "March 23, 2026: LNG CANADA LETTER CEAA IMPLEMENTATION SCHEDULE UPDATE",
+   "type": "newsletter",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/IAAC-Implementation-Schedule-Update-2023_Rev0a_230524.pdf",
+   "title": "MAY 25, 2023: LNG CANADA LETTER CEAA IMPLEMENTATION SCHEDULE UPDATE",
+   "type": "newsletter",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/IAAC-Implementation-Schedule-Update-2021_Rev0_210614.pdf",
+   "title": "June 14, 2021: LNG Canada Letter CEAA Implementation Schedule Update",
+   "type": "newsletter",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-letter-CEAA-Implementation-Schedule-Update-19-06-28-Review-2-Year-Update-Rev-0-IFI.pdf",
+   "title": "July 12, 2019: LNG Canada Letter CEAA Implementation Schedule Update",
+   "type": "newsletter",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/July-4-2018-LNG-Canada-Letter-CEAA-Implementation-Schedule-Update.pdf",
+   "title": "July 4, 2018: LNG Canada Letter CEAA Implementation Schedule Update",
+   "type": "newsletter",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/June-26-2017-–-LNG-Canada-Letter-CEAA-Implementation-Schedule-Update.pdf",
+   "title": "June 26, 2017 – LNG Canada Letter CEAA Implementation Schedule Update",
+   "type": "newsletter",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/December-2-2016-–-LNG-Canada-Letter-CEAA-Implementation-Schedule-Update.pdf",
+   "title": "December 2, 2016 – LNG Canada Letter CEAA Implementation Schedule Update",
+   "type": "newsletter",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/April-20-2016-LNG-Canada-Letter-CEAA-Implementation-Schedule-Update.pdf",
+   "title": "April 20, 2016 – LNG Canada Letter CEAA Implementation Schedule Update",
+   "type": "newsletter",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/LNG-Canada-2025-EAO-Annual-Compliance-Self-Assessment-Report_Final.pdf",
+   "title": "LNG Canada 2025 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/2025-01-29_LNG-Canada-2024-EAO-Annual-Compliance-Self-Assessment-Report_R0-FINAL_SIGNED.pdf",
+   "title": "LNG Canada 2024 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2023-EAO-Annual-Compliance-Self-Assessment-24-02-03-Rev1-FINAL.pdf",
+   "title": "LNG Canada 2023 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2022-EAO-Annual-ReportNEW-1.pdf",
+   "title": "LNG Canada 2022 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2021-EAO-Annual-Compliance-Self-Assessment-FINAL-22-01-31.pdf",
+   "title": "LNG Canada 2021 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2020-EAO-Annual-Compliance-Self-Assessment-21-01-30-FINAL.pdf",
+   "title": "LNG Canada 2020 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2019-EAO-Annual-Compliance-Self-Assessment-20-01-30.pdf",
+   "title": "LNG Canada 2019 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2018-EAO-Annual-Compliance-Self-Assessment-19-01-31.pdf",
+   "title": "LNG Canada 2018 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/January-30-2018-–-LNG-Canada-2017-EAO-Annual-Report.pdf",
+   "title": "LNG Canada 2017 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/January-30-2017-–-LNG-Canada-2016-EAO-Annual-Report.pdf",
+   "title": "LNG Canada 2016 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/January-29-2016-–-LNG-Canada-2015-EAO-Annual-Report.pdf",
+   "title": "LNG Canada 2015 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/LNGC26-013-Publ_Notice_Ad-FIN_PRINT.pdf",
+   "title": "Environmental Protection Notice",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/LNGC_WDA-PE-108469-amendment_application_let_20251128.pdf",
+   "title": "Amendment Application",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/Att1_WDA-PE108469_amendment_Location_Map_20251008.pdf",
+   "title": "Amendment Location Map",
+   "type": "map",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/Att2_WDA-PE-108469_amendment_Site_Map_20251008.pdf",
+   "title": "Amendment Site Map",
+   "type": "map",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/Att3_epd-ema-04_amend_preliminary_application_form_20251127.pdf",
+   "title": "Preliminary Application Form",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/Att4_epd-ema-07_amend_clause_amendment_form_20251128.pdf",
+   "title": "Clause Amendment Form",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/Att5_18114047-084-R-Rev0-South-Wharf-Inv-Rpt-04NOV_21.pdf",
+   "title": "South Wharf Investigation Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/BPM268229_hr.pdf",
+   "title": "JANUARY 23, 2025 – ENVIRONMENTAL PROTECTION NOTICE – APPLICATION FOR APPROVAL",
+   "type": "permit_approval",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/epd-ema-10_env_protection_notice_28Sep2023.pdf",
+   "title": "SEPTEMBER 28, 2023 – ENVIRONMENTAL PROTECTION NOTICE – APPLICATION FOR APPROVAL",
+   "type": "permit_approval",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/epd-ema-11_env_protection_notice_AE-111346.pdf",
+   "title": "SEPTEMBER 21, 2023 – ENVIRONMENTAL PROTECTION NOTICE – PERMIT AMENDMENT",
+   "type": "permit_approval",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/epd-ema-10_env_protection_notice_PE-110478.pdf",
+   "title": "May 18, 2023 – Environmental Protection Notice – application for approval",
+   "type": "permit_approval",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/epd-ema-10_env_protection_notice_16Aug2022.pdf",
+   "title": "August 16, 2022 – Environmental Protection Notice – application for approval",
+   "type": "permit_approval",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada_EPN_20Oct2021.pdf",
+   "title": "October 20, 2021 – Environmental Protection Notice- application for approval",
+   "type": "permit_approval",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/201223_LNG-Canada-Environmental-Protection-Notice_Site-Wide-Waste-Discharge-Authorization-Amendment-Application-122320.pdf",
+   "title": "December 23, 2020 – Environmental Protection Notice – permit amendment",
+   "type": "permit_approval",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/Environmental-Protection-Notice_FINAL-0820.pdf",
+   "title": "August 14, 2020 – Environmental Protection Notice – application for approval",
+   "type": "permit_approval",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/040320-LNG-Canada-env_protection_notice_existing-permit-amendment-SIGNED-2.pdf",
+   "title": "April 3, 2020 – Environmental Protection Notice – permit amendment",
+   "type": "permit_approval",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/04-03-2020_LNG-CANADA_ENVIRONMENTAL-PROTECTION-NOTICE.pdf",
+   "title": "April 3, 2020 – Environmental Protection Notice – application for approval",
+   "type": "permit_approval",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/November-2025-SMR-Summary-Report.pdf",
+   "title": "LNG Canada November 2025 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/LNG-Canada-May-2025-SMR-Summary-Report.pdf",
+   "title": "LNG Canada May 2025 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/October-2024-SMR-Summary-Report-V2.pdf",
+   "title": "LNG Canada October 2024 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/May-2024-SMR-Summary-Report.pdf",
+   "title": "LNG Canada May 2024 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/November-SMR-Summary-Report.pdf",
+   "title": "LNG CANADA NOVEMBER 2023 SMR SUMMARY REPORT",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-August-2023-SMR-Summary-Report.pdf",
+   "title": "LNG CANADA AUGUST 2023 SMR SUMMARY REPORT",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Cananda-May-2023-SMR-Summary-Report.pdf",
+   "title": "LNG Canada May 2023 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-Q4-2022-SMR-Summary-report.pdf",
+   "title": "LNG Canada Q4 2022 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-Q3-2022-SMR-Summary-Report.pdf",
+   "title": "LNG Canada Q3 2022 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2022-Q2-SMR-Summary-Report.pdf",
+   "title": "LNG Canada Q2 2022 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-Q1-2022-SMR-Summary-Report.pdf",
+   "title": "LNG Canada Q1 2022 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/Q4_2021_SMR_Summary_Report_Final.pdf",
+   "title": "LNG Canada Q4 2021 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/2021-Q3-LNG-Canada-SMR-Summary-Report.pdf",
+   "title": "LNG Canada Q3 2021 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/Q2_2021_SMR_Summary_Report_100421_FINAL.pdf",
+   "title": "LNG Canada Q2 2021 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2021-Q1_SMR_Summary_Report_052421_FINAL.pdf",
+   "title": "LNG Canada Q1 2021 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2020-Q4_SMR_Summary_report_032621_FINAL.pdf",
+   "title": "LNG Canada Q4 2020 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2020-Q3_SMR-Summary-Report-010621-FINAL.pdf",
+   "title": "LNG Canada Q3 2020 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2020-Q2_SMR-Summary-Report-102620-FINAL.pdf",
+   "title": "LNG Canada Q2 2020 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2020-Q1_SMR_Summary_Report_FINAL.pdf",
+   "title": "LNG Canada Q1 2020 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2019-Q4_SMR_Summary_Report_041320_final.pdf",
+   "title": "LNG Canada Q4 2019 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/Q3-2019-SMR-Summary-Report-120919_FINAL.pdf",
+   "title": "LNG Canada Q3 2019 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-Q2-2019-SMR-Summary-Report-_final.pdf",
+   "title": "LNG Canada Q2 2019 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/LNG-Canada-CLISMP-2025-Annual-Report.pdf",
+   "title": "LNG Canada Community Level Infrastructure and Services Management Plan Annual Report 2025",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/LNG-Canada-2024-CLISMP-Annual-Report.pdf",
+   "title": "LNG Canada Community Level Infrastructure and Services Management Plan Annual Report 2024",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2023-CLISMP-Annual-Report.pdf",
+   "title": "LNG Canada Community Level Infrastructure and Services Management Plan Annual Report 2023",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2022-CLISMP-Annual-Report.pdf",
+   "title": "LNG Canada Community Level Infrastructure and Services Management Plan Annual Report 2022",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2021-Annual-Report.pdf",
+   "title": "LNG Canada Community Level Infrastructure and Services Management Plan Annual Report 2021",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/2020_annual_clismp_report_FINAL_072821.pdf",
+   "title": "LNG Canada Community Level Infrastructure and Services Management Plan Annual Report 2020",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/2019_annual_clismp_report_FINAL_052820.pdf",
+   "title": "LNG Canada Community Level Infrastructure and Services Management Plan Annual Report 2019",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/commitments/environmental-protection/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/September-15-2015-–-LNG-Canada-Letter-CEAA-30-day-Implementation-Schedule-1.pdf",
+   "title": "September 15, 2015 – LNG Canada Letter CEAA 30 day Implementation Schedule",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/LNG-Canada-2023-EAO-Annual-Compliance-Self-Assessment-24-02-03-Rev1-FINAL.pdf",
+   "title": "LNG Canada 2023 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2022-EAO-Annual-Report.pdf",
+   "title": "LNG Canada 2022 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2017-EAO-Annual-Report-18-01-30.pdf",
+   "title": "LNG Canada 2017 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2016-EAO-Annual-Report-17-01-30.pdf",
+   "title": "LNG Canada 2016 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNG-Canada-2015-EAO-Annual-Report-16-01-29.pdf",
+   "title": "LNG Canada 2015 EAO Annual Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/October-2024-SMR-Summary-Report-V2.pdf",
+   "title": "LNG Canada October 2024 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/May-2024-SMR-Summary-Report.pdf",
+   "title": "LNG Canada May 2024 SMR Summary Report",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/November-SMR-Summary-Report.pdf",
+   "title": "LNG CANADA NOVEMBER 2023 SMR SUMMARY REPORT",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/LNG-Canada-August-2023-SMR-Summary-Report.pdf",
+   "title": "LNG CANADA AUGUST 2023 SMR SUMMARY REPORT",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/EA-Summary-Report_SPg_PRESS_Final-1.pdf",
+   "title": "Download the summary",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/LNGC23-121-LNGCanada-TERMPOL-BOOKLET-2023-1.pdf",
+   "title": "View our Safe Shipping Brochure",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNGC24-059-2-Condensate-FactSheet-LTR-WEB.pdf",
+   "title": "Condensate Factsheet",
+   "type": "newsletter",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/safe-start-up/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNGC24-059-3-Effluent-FactSheet-LTR-FIN-WEB.pdf",
+   "title": "Effluent Factsheet",
+   "type": "newsletter",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/safe-start-up/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNGC24-073-FAQ-Effluent-FactSheet-LTR-FIN-WEB.pdf",
+   "title": "Effluent FAQs",
+   "type": "newsletter",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/safe-start-up/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/LNGC23-121-LNGCanada-TERMPOL-BOOKLET-2023.pdf",
+   "title": "Safe Shipping Brochure",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/safe-start-up/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNGC24-077-R-SafeShipping-FAQ-LTR-FIN-WEB.pdf",
+   "title": "Safe Shipping FAQs",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/safe-start-up/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNGC24-078-R-HabOffsets-Fact-Sheet-LTR-FIN-WEB.pdf",
+   "title": "Habitat Offsets FAQs",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/safe-start-up/"
+  },
+  {
+   "url": "https://lngcanada.ca/wp-content/uploads/LNGC24-071-FAQ-Feedback-FactSheet-LTR-FIN-WEB.pdf",
+   "title": "Community Feedback FAQs",
+   "type": "newsletter",
+   "page": "https://www.lngcanada.ca/what-we-do/operations/safe-start-up/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/LNGC_LMS-C000-000-OA-9020-0007_R5_TerminalInformationGuideAugust2025.pdf",
+   "title": "Terminal Information Guide",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/marine-terminal-operations/terminal-information/"
+  },
+  {
+   "url": "https://www.lngcanada.ca/wp-content/uploads/Compatibility-Confirmation-Record-May-2025.pdf",
+   "title": "Download list of compatible ships",
+   "type": "other",
+   "page": "https://www.lngcanada.ca/what-we-do/marine-terminal-operations/compatible-lng-carriers/"
+  }
+ ],
+ "doc_types": {
+  "other": 91,
+  "permit_approval": 11,
+  "newsletter": 12,
+  "map": 2
+ },
+ "crawled_at": "2026-09-04T16:02:09Z",
+ "name": "LNG Canada",
+ "via_browser": true
 }

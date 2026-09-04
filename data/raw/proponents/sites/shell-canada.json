@@ -2,359 +2,102 @@
  "key": "shell canada",
  "site": "https://www.shell.ca/",
  "host": "www.shell.ca",
- "fetched": 88,
+ "fetched": 26,
+ "errors": {},
  "pages": [
   {
-   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/quest-carbon-capture-and-storage-project/discover-more-about-ccs.html",
-   "title": "Discover More About CCS | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/quest-carbon-capture-and-storage-project/carbon-capture-and-storage.html",
-   "title": "CCS Facility Exceeding Expectations | Shell Canada",
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites.html",
+   "title": "Projects and Sites | Shell Canada",
    "depth": 1,
    "docs": 0
   },
   {
    "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/quest-carbon-capture-and-storage-project.html",
    "title": "Quest Carbon Capture and Storage | Shell Canada",
-   "depth": 1,
+   "depth": 2,
    "docs": 0
   },
   {
-   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/groundbirch/groundbirch-native-plant-reclamation.html",
-   "title": "Groundbirch native plant reclamation | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/groundbirch/about-groundbirch.html",
-   "title": "About Groundbirch | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/shell-in-the-community/indigenous-peoples.html",
-   "title": "Shell’s Commitment to Indigenous Peoples in Canada. | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites.html",
-   "title": "Projects and Sites | Shell Canada",
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/lng.html#iframe=L1dlYkFwcHMvb3VyLXN0b3JpZXMvbG5nL3Byb2Qv",
+   "title": "LNG Canada | Shell Canada",
    "depth": 1,
    "docs": 0
   },
   {
    "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/scotford.html",
    "title": "Scotford | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites.html",
-   "title": "Projects and Sites | Shell Canada",
-   "depth": 1,
+   "depth": 2,
    "docs": 0
   },
   {
    "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/groundbirch.html",
    "title": "Groundbirch | Shell Canada",
-   "depth": 1,
+   "depth": 2,
    "docs": 0
   },
   {
-   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/groundbirch/groundbirch-and-land.html",
-   "title": "Land | Shell Canada",
-   "depth": 1,
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/groundbirch/groundbirch-native-plant-reclamation.html",
+   "title": "Groundbirch native plant reclamation | Shell Canada",
+   "depth": 3,
    "docs": 0
   },
   {
-   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/groundbirch/groundbirch-and-air.html",
-   "title": "Air | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/groundbirch/groundbirch-and-water.html",
-   "title": "Water | Shell Canada",
-   "depth": 1,
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/groundbirch/about-groundbirch.html",
+   "title": "About Groundbirch | Shell Canada",
+   "depth": 3,
    "docs": 0
   },
   {
    "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/gold-creek.html",
    "title": "Gold Creek | Shell Canada",
-   "depth": 1,
+   "depth": 2,
    "docs": 0
   },
   {
    "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html",
    "title": "Sarnia Manufacturing Centre | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/lng.html",
-   "title": "LNG Canada | Shell Canada",
-   "depth": 1,
-   "docs": 0
+   "depth": 2,
+   "docs": 47
   },
   {
    "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html",
    "title": "Brockville Lubricants Plant | Shell Canada",
-   "depth": 1,
-   "docs": 0
+   "depth": 2,
+   "docs": 14
   },
   {
    "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/foothills.html",
    "title": "Foothills | Shell Canada",
-   "depth": 1,
+   "depth": 2,
    "docs": 0
   },
   {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/services-for-customers/tank-level-monitoring.html",
-   "title": "Shell Tank Level Monitoring | Shell Canada",
-   "depth": 1,
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/groundbirch/groundbirch-and-land.html",
+   "title": "Land | Shell Canada",
+   "depth": 3,
    "docs": 0
   },
   {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/construction/site-assessments.html",
-   "title": "Site Assessments for Construction | Shell Canada",
-   "depth": 1,
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/groundbirch/groundbirch-and-air.html",
+   "title": "Air | Shell Canada",
+   "depth": 3,
    "docs": 0
   },
   {
-   "url": "https://www.shell.ca/fr_ca/durabilite/indigenous-peoples.html",
-   "title": "Travailler avec les communautés autochtones | Shell Canada",
-   "depth": 1,
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/groundbirch/groundbirch-and-water.html",
+   "title": "Water | Shell Canada",
+   "depth": 3,
    "docs": 0
   },
   {
-   "url": "https://www.shell.ca/fr_ca/carrieres/travailler-chez-shell/nous-sommes-une-equipe/diversite-et-inclusion/empowering-indigenous-talent-at-shell-canada.html",
-   "title": "Encourager les talents autochtones chez Shell Canada | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/natural-gas-compression-transmission/turbine-oils-for-natural-gas-compression-transmission.html",
-   "title": "Turbine Oils for Natural Gas Compression + Transmission | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/power-generation/turbine-oils-for-power-generation.html",
-   "title": "Turbine Oils for Power Generation | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/power-generation/greases-for-power-generation.html",
-   "title": "Greases for Power Generation | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/power-generation/transformer-oils-for-power-generation.html",
-   "title": "Transformer Oils for Power Generation | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/power-generation/gear-oils-for-power-generation.html",
-   "title": "Gear Oils for Power Generation | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/power-generation/hydraulic-oils-for-power-generation.html",
-   "title": "Hydraulic Oils for Power Generation | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/power-generation/compressor-oils-for-power-generation.html",
-   "title": "Compressor Oils for Power Generation | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/power-generation/bearing-and-circulating-oils-for-power-generation.html",
-   "title": "Bearing And Circulating Oils For Natural Gas | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/about-us/what-we-do.html",
-   "title": "What we do | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/business-customers/lubrifiants-pour-les-entreprises/secteur-de-la-production-d-electricite/compression-et-transmission-du-gaz-naturel/huiles-pour-turbines-compression-et-transmission-secteur-du-gaz-naturel.html",
-   "title": "Huiles Pour Turbines – Compression Et Transmission – Secteur Du Gaz Naturel | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/drivers/shell-station-locator.html",
-   "title": "Find a Station | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/drivers/inside-our-stations.html",
-   "title": "What's In-Store | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/drivers/inside-our-stations/on-demand-delivery.html",
-   "title": "On Demand Delivery | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/drivers/inside-our-stations/shell-select.html",
-   "title": "Shell Select Products | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/shell-fuel-card/shell-account-manager.html",
-   "title": "Shell Online Portals | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/lubricants-product-range/shell-spirax-axle-and-transmission-oils.html",
-   "title": "Shell Spirax - Axle and Transmission Oils | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/lubricants-product-range/shell-mysella-stationary-gas-engine-oils.html",
-   "title": "Shell Mysella – Stationary Gas Engines Oil | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/lubricants-product-range/shell-panolin/about.html",
-   "title": "About Shell PANOLIN | Shell Lubricants Solutions | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/well-services/transmission-fluids.html",
-   "title": "Transmission Fluids for Well Services | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/construction/stationary-equipment.html",
-   "title": "Stationary Equipment | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/natural-gas-compression-transmission.html",
-   "title": "Natural Gas Compression + Transmission | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/natural-gas-compression-transmission/compressor-oils-for-natural-gas.html",
-   "title": "Compressor Oils for Natural Gas | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/natural-gas-compression-transmission/engine-oils-for-natural-gas.html",
-   "title": "Engine Oils for Natural Gas | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/natural-gas-compression-transmission/bearing-and-circulating-oils-for-natural-gas.html",
-   "title": "Bearing and Circulating Oils for Natural Gas | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/natural-gas-compression-transmission/coolants-for-natural-gas.html",
-   "title": "Coolants for Natural Gas | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/natural-gas-compression-transmission/greases-for-natural-gas.html",
-   "title": "Greases for Natural Gas | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/power-generation.html",
-   "title": "Lubricants for Power Generation | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/power-generation/shell-lubricants-southern-co.html",
-   "title": "Environmentally Acceptable Oils (EALS) For Power Generation | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/business-customers/lubricants-for-business/sector-expertise/power-industry/wind.html",
-   "title": "Free Trial of a Shell Wind Product | Shell Canada",
-   "depth": 1,
+   "url": "https://www.shell.ca/en_ca/shell-in-the-community/indigenous-peoples.html",
+   "title": "Shell’s Commitment to Indigenous Peoples in Canada. | Shell Canada",
+   "depth": 3,
    "docs": 0
   },
   {
    "url": "https://www.shell.ca/en_ca/shell-in-the-community.html",
    "title": "Shell in the Community | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/shell-in-the-community/communities.html",
-   "title": "Social Investment | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/shell-in-the-community/communities/national-partners.html",
-   "title": "National Partners | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/shell-in-the-community/communities/funding-guidelines-process.html",
-   "title": "Apply for Funding | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/shell-in-the-community/communities/powering-positivity.html",
-   "title": "Powering Positivity | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/shell-in-the-community/transparency.html",
-   "title": "Transparency | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/shell-in-the-community/contracting-locally.html",
-   "title": "Find out what it takes to become a contractor with Shell | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/shell-in-the-community/shell-canada-sponsorship.html",
-   "title": "Shell Canada Sponsorship | Shell Canada",
    "depth": 1,
    "docs": 0
   },
@@ -365,170 +108,471 @@
    "docs": 0
   },
   {
+   "url": "https://www.shell.ca/en_ca/about-us/what-we-do.html",
+   "title": "What we do | Shell Canada",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/drivers/shell-station-locator.html",
+   "title": "Find a Station | Shell Canada",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/canada-interactive-map.html#iframe=L3dlYmFwcHMvc2hlbGwtY2FuYWRhLXBvd2VyaW5nLXByb2dyZXNzLW1hcC9wcm9kLw%3D%3D",
+   "title": "Shell Canada Interactive Map | Shell Canada",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/shell-in-the-community/communities.html",
+   "title": "Social Investment | Shell Canada",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/shell-in-the-community/transparency.html",
+   "title": "Transparency | Shell Canada",
+   "depth": 2,
+   "docs": 8
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/shell-in-the-community/shell-canada-sponsorship.html",
+   "title": "Shell Canada Sponsorship | Shell Canada",
+   "depth": 2,
+   "docs": 0
+  },
+  {
    "url": "https://www.shell.ca/en_ca/about-us/leadership.html",
    "title": "Leadership | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.com/who-we-are/our-values.html",
-   "title": "Our values | Shell Global",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/en_ca/about-us/canada-interactive-map.html",
-   "title": "Shell Canada Interactive Map | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/motorists/shell-station-locator.html",
-   "title": "Trouver une station-service | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/motorists/dans-nos-stations.html",
-   "title": "Dans nos stations | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/motorists/dans-nos-stations/livraison-sur-demande.html",
-   "title": "Livraison sur demande | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/motorists/dans-nos-stations/les-produits-shell-select.html",
-   "title": "Produits Shell Select | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/business-customers/lubrifiants-pour-les-entreprises/gamme-de-lubrifiants/shell-spirax-huiles-pour-transmissions-et-essieux.html",
-   "title": "Shell Spirax - Huiles pour transmissions et essieux | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/business-customers/lubrifiants-pour-les-entreprises/construction/equipement-stationnaire.html",
-   "title": "Équipement Stationnaire | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/business-customers/lubrifiants-pour-les-entreprises/services-de-puits/liquides-pour-transmissions-services-de-puits.html",
-   "title": "Liquides Pour Transmissions – Services De Puits | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/business-customers/lubrifiants-pour-les-entreprises/secteur-de-la-production-d-electricite/compression-et-transmission-du-gaz-naturel.html",
-   "title": "Lubrifiants – Compression Et Transmission – Secteur Du Gaz Naturel | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/business-customers/lubrifiants-pour-les-entreprises/secteur-de-la-production-d-electricite/compression-et-transmission-du-gaz-naturel/graisses-secteur-du-gaz-naturel.html",
-   "title": "Graisses – Secteur Du Gaz Naturel | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/business-customers/lubrifiants-pour-les-entreprises/secteur-de-la-production-d-electricite/compression-et-transmission-du-gaz-naturel/huiles-de-circulation-et-pour-paliers-secteur-du-gaz-naturel.html",
-   "title": "Huiles De Circulation Et Pour Paliers – Secteur Du Gaz Naturel | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/business-customers/lubrifiants-pour-les-entreprises/secteur-de-la-production-d-electricite/compression-et-transmission-du-gaz-naturel/liquides-de-refroidissement-secteur-du-gaz-naturel.html",
-   "title": "Liquides De Refroidissement – Secteur Du Gaz Naturel | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/business-customers/lubrifiants-pour-les-entreprises/secteur-de-la-production-d-electricite/compression-et-transmission-du-gaz-naturel/huiles-moteurs-secteur-du-gaz-naturel.html",
-   "title": "Huiles Moteurs – Secteur Du Gaz Naturel | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/business-customers/lubrifiants-pour-les-entreprises/secteur-de-la-production-d-electricite/compression-et-transmission-du-gaz-naturel/huiles-pour-compresseurs-secteur-du-gaz-naturel.html",
-   "title": "Huiles Pour Compresseurs – Secteur Du Gaz Naturel | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/business-customers/lubrifiants-pour-les-entreprises/secteur-de-la-production-d-electricite/wind.html",
-   "title": "ESSAI GRATUIT D'UN PRODUIT SHELL POUR L’ÉNERGIE ÉOLIENNE | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/business-customers/lubrifiants-pour-les-entreprises/secteur-de-la-production-d-electricite/lubrifiants-secteur-de-la-production-delectricite/transformer-oils-for-power-generation.html",
-   "title": "Huiles Électriques – Secteur De La Production D’électricité | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/durabilite/collectivites/community-grant.html",
-   "title": "Soumettez Une Demande De Financement | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/a-propos-de-nous/projets-et-sites/projet-quest/carbon-capture-and-storage.html",
-   "title": "L’installation de CSC dépasse les attentes | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/a-propos-de-nous/projets-et-sites/groundbirch/about-groundbirch.html",
-   "title": "À propos de Groundbirch | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/a-propos-de-nous/projets-et-sites/groundbirch/nebc-community-grant-program.html",
-   "title": "Subventions communautaires nord-est de la colombie britannique | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/a-propos-de-nous/projets-et-sites/groundbirch/in-the-community.html",
-   "title": "Groundbirch dans la collectivité | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/a-propos-de-nous/projets-et-sites/rocky-mountain-house-community-grants.html",
-   "title": "Subventions communautaires Rocky mountain house | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/carrieres/centre-de-ressources-pour-les-candidats/candidature-pour-des-postes-de-professionnels-des-operations-et-de-la-maintenance.html",
-   "title": "Comment postuler pour des postes de professionnels des opérations et de la maintenance | Carrières chez Shell | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/medias/articles-vedettes/articles-vedettes-2024/shell-mobility-sites-boost-awareness-about-canadian-human-trafficking-hotlinehtml-v-power-nitro-premium-gasoline.html",
-   "title": "Les établissements de mobilité de Shell au Canada font connaître la Ligne d’urgence canadienne contre la traite des personnes | Shell Canada",
-   "depth": 1,
-   "docs": 0
-  },
-  {
-   "url": "https://www.shell.ca/fr_ca/medias/communiques-de-presse/2026/shell-annonce-une-entente-en-vue-de-lacquisition-de-la-societe-energetique-canadienne-arc-resources-ltd-arc.html",
-   "title": "Shell annonce une entente en vue de l’acquisition de la société énergétique canadienne ARC Resources Ltd (« ARC »). | Shell Canada",
-   "depth": 1,
+   "depth": 2,
    "docs": 0
   }
  ],
- "docs": [],
- "doc_types": {},
- "crawled_at": "2026-09-04T13:02:11Z",
- "name": "Shell Canada"
+ "docs": [
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/text.multi.stream/1761865539111/d4be0d8b3a59e7a6cd84360d4d05b7860841288a/shell-sarnia-newsletter-2025.pdf",
+   "title": "Read our Fall 2025 Community Newsletter here (PDF, 2 MB) #_287 path, #_287 polygon { fill: currentColor; } #_287 { }",
+   "type": "newsletter",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1779895216923/d552e007b5a9c197cee2a39fb3bae1ebcb2f1c12/shell-smc-o-reg-88-quarterly-report-q1-2026-public-posting.pdf",
+   "title": "O. Reg 88/22 Quarterly Report – Q1 2026 (PDF, 13 MB) #_242 path, #_242 polygon { fill: currentColor; } #_242 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1787589962719/826b0391a53533b78668e40ce0c74651488327ee/shell-sarnia-manufacturing-centre-oreg-88-quarterly-report-q2-2026-public-report.pdf",
+   "title": "O. Reg 88/22 Quarterly Report – Q2 2026 (PDF, 2 MB) #_243 path, #_243 polygon { fill: currentColor; } #_243 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1748453567026/70ae1130aea7e0efbbb100ef5dff44969ac257d9/shell-smc-o-reg-88-quarterly-report-q1-2025-public-posting.pdf",
+   "title": "O. Reg 88/22 Quarterly Report – Q1 2025 (PDF, 1 MB) #_244 path, #_244 polygon { fill: currentColor; } #_244 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1756060209832/fd1b96a2e32d0fb9a0591b56dd744adfb22a7f65/o-reg-eightyeight-quarterly-report-q-two-2025-public-report.pdf",
+   "title": "O. Reg 88/22 Quarterly Report – Q2 2025 (PDF, 2 MB) #_288 path, #_288 polygon { fill: currentColor; } #_288 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1764173629692/b3ee040e51dcc6c9c8fbfa6c2791d2481af219e0/o-reg-eightyeight-quarterly-report-q-three-2025-public-report.pdf",
+   "title": "O. Reg 88/22 Quarterly Report – Q3 2025 (PDF, 2 MB) #_245 path, #_245 polygon { fill: currentColor; } #_245 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1772057823408/078341b5ddd874e20b6ace26b1de142daaca1ebf/o-reg-eightyeight-quarterly-report-q-four-2025-public-report.pdf",
+   "title": "O. Reg 88/22 Quarterly Report – Q4 2025 (PDF, 9 MB) #_246 path, #_246 polygon { fill: currentColor; } #_246 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1774368415869/3bc1e6a08231bc87ba29e923b02f184b61156ff6/o-reg-88-22-annual-report-2025.pdf",
+   "title": "O. Reg 88/22 Annual Report - 2025 (PDF, 276 kB) #_247 path, #_247 polygon { fill: currentColor; } #_247 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1744214414954/7873a8187eecbf83d52f791e12d33f4541f64876/shell-smc-o-reg-88-quarterly-report-q1-2024-public-posting.pdf",
+   "title": "O. Reg 88/22 Quarterly Report – Q1 2024 (PDF, 135 kB) #_248 path, #_248 polygon { fill: currentColor; } #_248 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1744214446187/5e2ce3379e576ac5da4603d2206ef567eed47342/shell-sarnia-manufacturing-centre-o-reg-eighty-eight-quarterly-report-q2-2024-public-posting.pdf",
+   "title": "O. Reg 88/22 Quarterly Report – Q2 2024 (PDF, 205 kB) #_249 path, #_249 polygon { fill: currentColor; } #_249 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1744214497482/0ab2e7259549b954a620324512f989e1e4562d35/shell-sarnia-manufacturing-centre-o-reg-eighty-eight-quarterly-report-q3-2024-public-posting.pdf",
+   "title": "O. Reg 88/22 Quarterly Report – Q3 2024 (PDF, 2 MB) #_250 path, #_250 polygon { fill: currentColor; } #_250 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1744214678027/c85bc4720b9ea3d23dea2a8f9e9efb3b2a819fe0/shell-sarnia-manufacturing-centre-o-reg-88-quarterly-report-q4-2024.pdf",
+   "title": "O. Reg 88/22 Quarterly Report – Q4 2024 (PDF, 2 MB) #_251 path, #_251 polygon { fill: currentColor; } #_251 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1744214728219/adf0509676de44449b9cec19fcaff4c3d8fb2676/shell-sarnia-manufacturing-centre-o-reg-88-annual-report-2024ry.pdf",
+   "title": "O. Reg 88/22 Annual Report - 2024 (PDF, 216 kB) #_252 path, #_252 polygon { fill: currentColor; } #_252 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1744214762593/dd8f702352430bc7a1448be8a6ced5db7bc32639/shell-smc-o-reg-88-quarterly-report-q1-2023-public-posting.pdf",
+   "title": "O. Reg 88/22 Quarterly Report – Q1 2023 (PDF, 101 kB) #_253 path, #_253 polygon { fill: currentColor; } #_253 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1744214792832/a9f3b5deaad4842e4d1cec605e20436328d7b9fa/shell-smc-o-reg-88-quarterly-report-q2-2023-public-posting.pdf",
+   "title": "O. Reg 88/22 Quarterly Report – Q2 2023 (PDF, 101 kB) #_254 path, #_254 polygon { fill: currentColor; } #_254 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1744214823182/8beefad8bcd702f444475867b6a0b558865da9d4/shell-smc-o-reg-88-quarterly-report-q3-2023-public-posting.pdf",
+   "title": "O. Reg 88/22 Quarterly Report – Q3 2023 (PDF, 178 kB) #_255 path, #_255 polygon { fill: currentColor; } #_255 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1744214854046/ca5a3f6a4f80d9c70b4eecba7584bfbcdcc01ddb/shell-smc-o-reg-88-quarterly-report-q4-2023-public-posting.pdf",
+   "title": "O. Reg 88/22 Quarterly Report – Q4 2023 (PDF, 174 kB) #_256 path, #_256 polygon { fill: currentColor; } #_256 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1744214885314/bfd48c9a2dfa945bdb60e6a572f37dcd57ff68b5/shell-smc-o-reg-88-annual-report-2023-public-posting.pdf",
+   "title": "O. Reg 88/22 Annual Report - 2023 (PDF, 163 kB) #_257 path, #_257 polygon { fill: currentColor; } #_257 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_825212274.multi.stream/1744214914280/442c2c08ba955c1ca1fec0d3a6e272243ffb2533/sulphur-dioxide-emissions-summary-plan-summary.pdf",
+   "title": "2024 Sulphur Dioxide Emissions Minimization Plan Summary (PDF, 74 kB) #_258 path, #_258 polygon { fill: currentColor; } #_258 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1644727591.multi.stream/1740550051990/e9d0773d82fc55c83188b15c27319e1de0d60a06/2020ry-annual-ambient-monitoring-report-for-petroleum-refining-industry-standard.pdf",
+   "title": "here (PDF, 991 kB) #_289 path, #_289 polygon { fill: currentColor; } #_289 { }",
+   "type": "monitoring",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1644727591.multi.stream/1740550134176/3e32cc7a3213e2abb35cc5d9dce93466a6dd6c2d/2020ry-summary-table-p-1.pdf",
+   "title": "here (PDF, 121 kB) #_259 path, #_259 polygon { fill: currentColor; } #_259 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/2020ry-summary-table-p-8.pdf",
+   "title": "here (PDF) #_260 path, #_260 polygon { fill: currentColor; } #_260 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1644727591.multi.stream/1740550302086/6fefdff9367464384ac8d35d68fe9c7185fd333d/item-1-shell-canada-2021ry-annual-ambient-monitoring-report-for-petroleum-refining-industry-standard.pdf",
+   "title": "here (PDF, 867 kB) #_261 path, #_261 polygon { fill: currentColor; } #_261 { }",
+   "type": "monitoring",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1644727591.multi.stream/1740550383493/653375b70c26befbf360157c3751271c79206746/item-2-2021ry-implementation-summary-table.pdf",
+   "title": "here (PDF, 69 kB) #_262 path, #_262 polygon { fill: currentColor; } #_262 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1644727591.multi.stream/1740550474891/21e8d624077bdcfbc2e976815e8fd320c3cf681e/item-3-2020ry-performance-summary-table.pdf",
+   "title": "here (PDF, 27 kB) #_263 path, #_263 polygon { fill: currentColor; } #_263 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1644727591.multi.stream/1740550575863/4f39c78d968a563fc6765360da6d8c5dfe0c0d9f/item-one-2022ry-annual-plm-report-r1.pdf",
+   "title": "here (PDF, 2 MB) #_264 path, #_264 polygon { fill: currentColor; } #_264 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1644727591.multi.stream/1740550646841/a32c468e332cebbb5f00f75b21f358b5696e19f8/2022ry-implementation-summary-table.pdf",
+   "title": "here (PDF, 273 kB) #_265 path, #_265 polygon { fill: currentColor; } #_265 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1644727591.multi.stream/1740550741940/b0bc5d4bffe57be1e82e32e3a20081dc940e1e56/2020ry-performance-summary-table.pdf",
+   "title": "here (PDF, 92 kB) #_266 path, #_266 polygon { fill: currentColor; } #_266 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1644727591.multi.stream/1740550850859/087c8d23a1f132fd517d2873a30637e99001aea0/2023ry-annual-plm-report.pdf",
+   "title": "here (PDF, 1 MB) #_267 path, #_267 polygon { fill: currentColor; } #_267 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1644727591.multi.stream/1740550912600/d9995c30ae29dade3d615e896b61d1b6f4969b46/2023ry-implementation-summary-table.pdf",
+   "title": "here (PDF, 181 kB) #_268 path, #_268 polygon { fill: currentColor; } #_268 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1644727591.multi.stream/1744215134820/c99958f949993e8989ca6b63d63d4ac1abbce6e2/2023ry-performance-summary-table.pdf",
+   "title": "here (PDF, 92 kB) #_269 path, #_269 polygon { fill: currentColor; } #_269 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1644727591.multi.stream/1744215211810/0888ccf12ed71d6b5975e44fe561290756e852c1/ry-annual-summary-report-2024.pdf",
+   "title": "here (PDF, 1 MB) #_270 path, #_270 polygon { fill: currentColor; } #_270 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1644727591.multi.stream/1773644038354/ae1528c6e80eb33215d9778f8305af67f8e2f8ca/ry-annual-summary-report-2025.pdf",
+   "title": "here (PDF, 1 MB) #_271 path, #_271 polygon { fill: currentColor; } #_271 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1682200205.multi.stream/1740551144298/5417ce43ff53ecd5152597fc4e76e96a6e35fd28/view-the-smc-map-here-updated.pdf",
+   "title": "here (PDF, 443 kB) #_272 path, #_272 polygon { fill: currentColor; } #_272 { }",
+   "type": "map",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_1682200205.multi.stream/1787245970106/8ee5f1c51985862961a5289bfcf3f486fa36ff6b/plm-event-shell-web-data-summary-july.pdf",
+   "title": "here (PDF, 327 kB) #_273 path, #_273 polygon { fill: currentColor; } #_273 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_2096484714.multi.stream/1779816513969/43c6e9057367d64acfa827b79ff96fcb6b2893c4/reg-fivethirty-public-posting-seventeen-march-2026.pdf",
+   "title": "March 17, 2026 (PDF, 209 kB) #_274 path, #_274 polygon { fill: currentColor; } #_274 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_2096484714.multi.stream/1771212869463/2ec1bfd45c882288f624159c5a64435cc64f0a45/reg-five-thirty-public-posting-twenty-four-dec-2025.pdf",
+   "title": "December 24, 2025 (PDF, 115 kB) #_275 path, #_275 polygon { fill: currentColor; } #_275 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_2096484714.multi.stream/1753200441414/de977d3d5aab94770df9cc79c9a915de4a08dcb5/reg-five-thirty-public-posting-twentyfive-may-2025.pdf",
+   "title": "May 25, 2025 (PDF, 113 kB) #_276 path, #_276 polygon { fill: currentColor; } #_276 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_2096484714.multi.stream/1740551380938/3039ec8ad3046c750537733c88e1b23e2660ac4b/reg-530-public-report-submitted-third-fourth-june-2024.pdf",
+   "title": "June 3 to 4, 2024 (PDF, 80 kB) #_277 path, #_277 polygon { fill: currentColor; } #_277 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_2096484714.multi.stream/1740551458909/c35da679a3c81c20d54b37c69a447ce7e03e9883/reg-530-public-report-30july2022-to-1aug2022.pdf",
+   "title": "July 30 to Aug 1, 2022 (PDF, 122 kB) #_278 path, #_278 polygon { fill: currentColor; } #_278 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_2096484714.multi.stream/1740551539622/abe485dba9012f04b4a006bd1b451583166bb8c1/reg-530-public-report-25july2022.pdf",
+   "title": "July 25, 2022 (PDF, 101 kB) #_279 path, #_279 polygon { fill: currentColor; } #_279 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_2096484714.multi.stream/1740551618909/e614dcd00b4cdea40eda6dc466d00fddd9e0ccde/regulation-530-submitted-public-report-june-28-2022.pdf",
+   "title": "June 28, 2022 (PDF, 100 kB) #_280 path, #_280 polygon { fill: currentColor; } #_280 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_2096484714.multi.stream/1740551855617/c583a816fb4931efc08011533c98b128a7f89ea2/reg-530-public-peport-submitted-28-29nov2021.pdf",
+   "title": "November 28-29, 2021 (PDF, 100 kB) #_281 path, #_281 polygon { fill: currentColor; } #_281 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_2096484714.multi.stream/1740551940373/6cd01e181a73a00f1242d0f284595a190c9da696/reg-530-submitted-public-report-7-apr-2021.pdf",
+   "title": "April 7, 2021 (PDF, 60 kB) #_282 path, #_282 polygon { fill: currentColor; } #_282 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_2096484714.multi.stream/1740552060015/62f41a946d2d8ce7fbce56bcb4c465d546ef74dd/reg-530-submitted-public-report-27-mar-2021.pdf",
+   "title": "March 27, 2021 (PDF, 61 kB) #_283 path, #_283 polygon { fill: currentColor; } #_283 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_2096484714.multi.stream/1740553430891/dfdd0666f2f768d0a6652f6a585b577dd5775984/acid-gas-combustion-minimization-plan-summary-2020.pdf",
+   "title": "2020 Summary (PDF, 56 kB) #_284 path, #_284 polygon { fill: currentColor; } #_284 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre/_jcr_content/root/main/section/list_1724906240/list_item_copy_2096484714.multi.stream/1740553309281/2e9775573f94ebce7b845f6ac6ed59a1b1a96844/acid-gas-combustion-minimization-plan-summary-2019.pdf",
+   "title": "2019 Summary (PDF, 77 kB) #_285 path, #_285 polygon { fill: currentColor; } #_285 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant/_jcr_content/root/main/section/list_487914617/list_item_copy_315685684.multi.stream/1740992149453/742c68a4ddb5e7fae25eb27c7a7e41774dafbb34/annual-public-reporting-for-toxic-substance-zinc-and-its-compounds.pdf",
+   "title": "2020 Annual Public Reporting for Toxic Substances Zinc and its Compounds (PDF, 139 kB) #_109 path, #_109 polygon { fill: currentColor; } #_109 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant/_jcr_content/root/main/section/list_487914617/list_item_copy_315685684.multi.stream/1740992139612/3cb9b4d57b44e76a571003f25307517258e2fef1/annual-public-reporting-for-toxic-substance-phosphorus-and-its-compounds.pdf",
+   "title": "2020 Annual Public Reporting for Toxic Substances Phosphorus Total (PDF, 140 kB) #_110 path, #_110 polygon { fill: currentColor; } #_110 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant/_jcr_content/root/main/section/list_487914617/list_item_copy_315685684.multi.stream/1740992137122/f78a8b37b1740d0dd3e09ed69523b6a4f98ea3b5/2019-annual-public-repoprting-for-toxic-substance-zinc-and-its-compounds.pdf",
+   "title": "2019 Annual Public Repoprting for Toxic Substance Zinc and its Compounds (PDF, 142 kB) #_111 path, #_111 polygon { fill: currentColor; } #_111 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant/_jcr_content/root/main/section/list_487914617/list_item_copy_315685684.multi.stream/1740992124601/4262b4ded17be56819071a572be6c5d61674703a/2019-annual-public-reporting-for-toxic-substances-phosphorus.pdf",
+   "title": "2019 Annual Public Reporting for Toxic Substances Phosphorus (PDF, 142 kB) #_112 path, #_112 polygon { fill: currentColor; } #_112 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant/_jcr_content/root/main/section/list_487914617/list_item_copy_315685684.multi.stream/1740992123379/1e2c0197a78ce619f302d50240578f0cb6812850/2018-annual-public-reporting-for-toxic-substances-zinc-and-its-compounds.pdf",
+   "title": "2018 Annual Public Reporting for Toxic substances Zinc and its Compounds (PDF, 142 kB) #_113 path, #_113 polygon { fill: currentColor; } #_113 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant/_jcr_content/root/main/section/list_487914617/list_item_copy_315685684.multi.stream/1740992121717/38953a1b987ee03c74a766a62444c7cb734994be/2018-annual-reporting-for-toxic-substances-phosphorus-total.pdf",
+   "title": "2018 Annual Reporting for Toxic Substances Phosphorus Total (PDF, 142 kB) #_114 path, #_114 polygon { fill: currentColor; } #_114 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant/_jcr_content/root/main/section/list_487914617/list_item_copy_315685684.multi.stream/1740992111557/bcdd9530d1cdd03a41fda3407ac5ac0ed212404f/brockville-lubricants-plant-tra-plan-summary-report-for-phosphorus-final.pdf",
+   "title": "Brockville Lubricants Plant TRA plan Summary Report for Phosphorus (PDF, 559 kB) #_115 path, #_115 polygon { fill: currentColor; } #_115 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant/_jcr_content/root/main/section/list_487914617/list_item_copy_315685684.multi.stream/1740992109950/a2d20af64bf0f4eda632401e3d20e349074376f8/2012-toxic-reduction-plan.pdf",
+   "title": "Brockville Lubricants Plant: Toxic Substance Reduction Plan Public Summary Report for Zinc (NA-14) November 22, 2012 (PDF, 1 MB) #_116 path, #_116 polygon { fill: currentColor; } #_116 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant/_jcr_content/root/main/section/list_487914617/list_item_copy_315685684.multi.stream/1740992091256/e9f07620921e2bfbaef43b28dc5e694fe3dc5a32/2017-annual-public-reporting-toxic-substances-phosphorus.pdf",
+   "title": "2017 Annual Public Reporting for Toxic Substances Phosphorus Total (PDF, 127 kB) #_117 path, #_117 polygon { fill: currentColor; } #_117 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant/_jcr_content/root/main/section/list_487914617/list_item_copy_315685684.multi.stream/1740992107409/85b356cff11c3037de90bbebd73d1ae16972c144/2017-annual-public-reporting-toxic-substances-zinc-compounds.pdf",
+   "title": "2017 Annual Public Reporting for Toxic Substances Zinc and its Compounds (PDF, 122 kB) #_118 path, #_118 polygon { fill: currentColor; } #_118 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant/_jcr_content/root/main/section/list_487914617/list_item_copy_315685684.multi.stream/1740993658090/bceeb3a38a8b748d39149539e9c4915817b5798e/annual-public-reporting-toxic-phosphorus-2016.pdf",
+   "title": "2016 Annual Public Reporting for Toxic Substances Phosphorus (PDF, 112 kB) #_119 path, #_119 polygon { fill: currentColor; } #_119 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant/_jcr_content/root/main/section/list_487914617/list_item_copy_315685684.multi.stream/1740992092861/2041c6eb2dd990f7d50bfa267c83a710f6549d44/annual-public-reporting-toxic-zinc-2016.pdf",
+   "title": "2016 Annual Public Reporting for Toxic Substances Zinc (PDF, 112 kB) #_120 path, #_120 polygon { fill: currentColor; } #_120 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant/_jcr_content/root/main/section/list_487914617/list_item_copy_315685684.multi.stream/1740992138931/c23b0d029e19e5541c73b7021bbf3ec521f98e31/2015-annual-public-report-for-toxic-substances-phosphorus-r2.pdf",
+   "title": "2015 Annual Public Reporting for Toxic Substances – Phosphorus (PDF, 4 MB) #_121 path, #_121 polygon { fill: currentColor; } #_121 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant/_jcr_content/root/main/section/list_487914617/list_item_copy_315685684.multi.stream/1740992091826/9cfaee048918c9c6e44e7c009ddaf6e075619119/public-toxic-substances-report-zinc-2015.pdf",
+   "title": "2015 Annual Public Reporting for Toxic Substances – Zinc (PDF, 115 kB) #_122 path, #_122 polygon { fill: currentColor; } #_122 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/about-us/projects-and-sites/brockville-lubricants-plant.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/shell-in-the-community/transparency/_jcr_content/root/main/section/simple/text/links/item0.stream/1780061280828/b3fa9e51eaa1a6b6a95402c4a1a0741140f6ad56/2025-estma-shell-canada-energy.pdf",
+   "title": "2025 ESTMA Shell Canada Energy (PDF, 356 kB) #_54 path, #_54 polygon { fill: currentColor; } #_54 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/shell-in-the-community/transparency.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/shell-in-the-community/transparency/_jcr_content/root/main/section/simple/text/links/item1.stream/1781029025320/1726203d23e4a2836d709b520df6dc52c966bf3d/twenty-twentyfive-statement-under-fighting-against-forced-labour-and-child-labour-in-supply-chains-act-one.pdf",
+   "title": "Download: 2025 Statement under Fighting Against Forced Labour and Child Labour in Supply Chains Act (PDF, 651 kB) #_56 path, #_56 polygon { fill: currentColor; } #_56 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/shell-in-the-community/transparency.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/shell-in-the-community/transparency/_jcr_content/root/main/section/simple/text/links/item2.stream/1749917317087/826ca2d4e3558a0dd9ef55c4418d8d668eb2d8dd/2024-statement-under-fighting-against-forced-labour-and-child-labour-in-supply-chains-act.pdf",
+   "title": "Download: 2024 Statement under Fighting Against Forced Labour and Child Labour in Supply Chains Act (PDF, 8 MB) #_58 path, #_58 polygon { fill: currentColor; } #_58 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/shell-in-the-community/transparency.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/shell-in-the-community/transparency/_jcr_content/root/main/section/simple/text/links/item3.stream/1741668526630/2bbaee8040cfc4963a547700b190e433d5457d49/forced-labour-and-child-labour-statement-english.pdf",
+   "title": "Download: 2023 Statement under Fighting Against Forced Labour and Child Labour in Supply Chains Act (PDF, 3 MB) #_60 path, #_60 polygon { fill: currentColor; } #_60 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/shell-in-the-community/transparency.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/shell-in-the-community/transparency/_jcr_content/root/main/section/simple/text/links/item5.stream/1755747589416/8a7462c078d1891d8f239fc9c475f86b0b84cba2/estma-shell-canada-energy-2024.pdf",
+   "title": "2024 ESTMA Shell Canada Energy (PDF, 378 kB) #_62 path, #_62 polygon { fill: currentColor; } #_62 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/shell-in-the-community/transparency.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/shell-in-the-community/transparency/_jcr_content/root/main/section/simple/text/links/item6.stream/1741668523274/e435bc44700fe83274a3917db03343eb1adf9f54/2023-estma-shell-energy.pdf",
+   "title": "2023 ESTMA Shell Canada Energy (PDF, 766 kB) #_64 path, #_64 polygon { fill: currentColor; } #_64 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/shell-in-the-community/transparency.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/shell-in-the-community/transparency/_jcr_content/root/main/section/simple/text/links/item7.stream/1741668492054/9ab0a6f219724d94a958288015a851c06055ff49/2021-estma-shell-canada-energy.pdf",
+   "title": "2021 ESTMA Shell Canada Energy (PDF, 206 kB) #_66 path, #_66 polygon { fill: currentColor; } #_66 { }",
+   "type": "other",
+   "page": "https://www.shell.ca/en_ca/shell-in-the-community/transparency.html"
+  },
+  {
+   "url": "https://www.shell.ca/en_ca/shell-in-the-community/transparency/_jcr_content/root/main/section/simple/text/links/item8.stream/1741668490710/dfc146d8090424ceb6637234d99b27f67c886797/estma-shell-canada-energie-2022-updated.pdf",
+   "title": "2022 ESTMA Shell Canada Energy (PDF, 199 kB) #_68 path, #_68 polygon { fill: currentColor; } #_68 { }",
+   "type": "newsletter",
+   "page": "https://www.shell.ca/en_ca/shell-in-the-community/transparency.html"
+  }
+ ],
+ "doc_types": {
+  "newsletter": 2,
+  "other": 64,
+  "monitoring": 2,
+  "map": 1
+ },
+ "crawled_at": "2026-09-04T16:04:59Z",
+ "name": "Shell Canada",
+ "via_browser": true
 }

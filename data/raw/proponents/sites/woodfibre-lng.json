@@ -1,18 +1,1443 @@
 {
  "key": "woodfibre lng",
- "site": "https://www.woodfibrelng.ca/",
- "host": "www.woodfibrelng.ca",
- "fetched": 1,
+ "site": "https://woodfibrelng.ca/",
+ "host": "woodfibrelng.ca",
+ "fetched": 21,
+ "errors": {},
  "pages": [
   {
    "url": "https://woodfibrelng.ca/",
    "title": "Woodfibre LNG | Sustainably Produced Liquefied Natural Gas",
    "depth": 0,
    "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/indigenous-reconciliation/squamish-nation-environmental-assessment-agreement/",
+   "title": "Squamish Nation, Environmental Assessment | Woodfibre LNG",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/",
+   "title": "Regulatory Filings | Woodfibre LNG",
+   "depth": 1,
+   "docs": 210
+  },
+  {
+   "url": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/",
+   "title": "Regulatory Filings | Woodfibre LNG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/",
+   "title": "Regulatory Overview | Woodfibre LNG",
+   "depth": 1,
+   "docs": 3
+  },
+  {
+   "url": "https://woodfibrelng.ca/news/2015/10/19/squamish-nation-environmental-assessment-agreement/",
+   "title": "Squamish Nation Environmental Assessment Agreement | Woodfibre LNG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/news/2015/10/19/squamish-nation-environmental-assessment-agreement/",
+   "title": "Squamish Nation Environmental Assessment Agreement | Woodfibre LNG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/news/2016/03/18/woodfibre-lng-project-receives-environmental-approval-from-federal-government/",
+   "title": "Woodfibre LNG Project Receives Environmental Approval from Federal Government | Woodfibre LNG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/indigenous-reconciliation/",
+   "title": "Indigenous People, Squamish Nation Partnership | Woodfibre LNG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/indigenous-reconciliation/",
+   "title": "Indigenous People, Squamish Nation Partnership | Woodfibre LNG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/",
+   "title": "Regulatory Overview | Woodfibre LNG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/news/2015/10/26/woodfibre-lng-receives-environmental-approval-in-british-columbia/",
+   "title": "Woodfibre LNG Receives Environmental Approval in British Columbia | Woodfibre LNG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/about-woodfibre-lng/about-lng/",
+   "title": "About Liquified Natural Gas (LNG) | Woodfibre LNG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/sustainability/community/",
+   "title": "Community | Woodfibre LNG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/sustainability/community-partnership-program/",
+   "title": "Community Partnership Program | Woodfibre LNG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/about-woodfibre-lng/",
+   "title": "About Woodfibre LNG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/sustainability/",
+   "title": "Sustainability | Woodfibre LNG",
+   "depth": 1,
+   "docs": 3
+  },
+  {
+   "url": "https://woodfibrelng.ca/news/2015/10/19/squamish-nation-environmental-assessment-agreement/",
+   "title": "Squamish Nation Environmental Assessment Agreement | Woodfibre LNG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/sustainability/net-zero/",
+   "title": "Net Zero | Woodfibre LNG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://woodfibrelng.ca/sustainability/community-partnership-program/",
+   "title": "Community Partnership Program | Woodfibre LNG",
+   "depth": 2,
+   "docs": 0
   }
  ],
- "docs": [],
- "doc_types": {},
- "crawled_at": "2026-09-04T14:18:55Z",
- "name": "Woodfibre LNG"
+ "docs": [
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/04/WLNG-Net-Zero-Strategy-April-25-2023_.pdf",
+   "title": "Net Zero Roadmap, Pg 15",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/indigenous-reconciliation/squamish-nation-environmental-assessment-agreement/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/06/2024-Implementation-Schedule_R1.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/rpt_march2023_wlng_fds_implementationschedule.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/2021-08-05-Woodfibre-LNG-Federal-Decision-Statement-Implementation-Schedule.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/2020-03-24-Woodfibre-LNG-Federal-Decision-Statement-Implementation-Schedule.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Woodfibre-LNG-Federal-Decision-Statement-Implementation-Schedule-November-2019.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Woodfibre-LNG-Federal-Decision-Statement-Implementation-Schedule-November-2018.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Federal-Government-Revised-Decision-Statement.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Federal-Decision-Statement-March-2016.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://projects.eao.gov.bc.ca/api/public/document/654d2538e99776002250eeec/download/2023.11.01_WLNG_Amendment_3_ORDER_FINAL.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Woodfibre-LNG-BC-Environmental-Assessment-Certificate-–-Application-for-Amendment-No.-3-November-2019.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Woodfibre-LNG-BC-Environmental-Assessment-Certificate-–-Amendment-No.-2-July-2019.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Woodfibre-LNG-BC-Environmental-Assessment-Certificate-–-Application-for-Amendment-No.-2-April-2019.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Federal-Government-Amendment-Certificate-July-12-2017.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Application-for-an-Amendment-to-Environmental-Assessment-Certificate-January-2017.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/BC-Environmental-Certificate-Conditions.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://projects.eao.gov.bc.ca/api/public/document/58869290e036fb01057690bb/download/Certificate%20%2315-02.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Woodfibre-LNG-2018-Annual-Report-March-2019.pdf",
+   "title": "2019",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Woodfibre-LNG-FDS-2019-Annual-Report_17April2020-1.pdf",
+   "title": "2020",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Woodfibre-LNG-Project-Federal-Decision-Statement-Annual-Report-2021.pdf",
+   "title": "2021",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Federal-Decision-Statement-Annual-Report-2022-3.pdf",
+   "title": "2022",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/03/2023-Woodfibre-LNG-Annual-IAAC-FDS-Report.pdf",
+   "title": "2023",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/06/Annual-FDS-Report-2024.pdf",
+   "title": "2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/03/WLNG_FDS_2025_20260331_.pdf",
+   "title": "2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/09/rpt_WoodfibreLNG_Floatel-Noise-Monitoring-Final_20240917.pdf",
+   "title": "Floatel Noise Monitoring Survey – 1 (July 10 -14, 2024)",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/12/rpt_WoodfibreLNG_Floatel-Noise-Monitoring-2nd_rev1_20241112.pdf",
+   "title": "Floatel Noise Monitoring Survey – 2 (September 4-7, 2024)",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/12/rpt_WoodfibreLNG_Floatel-Noise-Monitoring-3rd_20241112.pdf",
+   "title": "Floatel Noise Monitoring Survey – 3 (October 8-11, 2024)",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/03/rpt_WoodfibreLNG_Floatel-Noise-Monitoring-4th_20250304_fin_signed-1.pdf",
+   "title": "Floatel Noise Monitoring Survey – 4 (January 31 – February 2, 2025)",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/09/WLNG-W0001-RE-RP-00232-Floatel-Noise-Monitoring-Survey-Report-May-14-17-2025.pdf",
+   "title": "Floatel Noise Monitoring Survery – 5 (May 14 – May 17, 2025)",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/09/rpt_WoodfibreLNG_Floatel-Noise-Monitoring-Report-Jul-2025.pdf",
+   "title": "Floatel Noise Monitoring Survey – 6 (July 23 – 28, 2025)",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/12/rpt_WoodfibreLNG_Floatel-Noise-Monitoring-7th_20251120_fin_jc_am.pdf",
+   "title": "Floatel Noise Monitoring Survey – 7 (October 2 – 5, 2025)",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/03/rpt_WoodfibreLNG_Floatel-1-Noise-Monitoring-8th_20260305_clean_opt.pdf",
+   "title": "Floatel #1 Noise Monitoring Survey – 8 (December 15-19, 2025)",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/03/rpt_WoodfibreLNG_Floatel-2-Noise-Monitoring-1st_20260305_fin_Opt.pdf",
+   "title": "Floatel #2 Noise Monitoring Survey – 1 (December 15-17, 2025)",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/08/WLNG-W0001-RE-RP-00351-Floatel-Noise-Monitoring-Survey-Report-Q2-2026-March-16-20-Floatel-1-and-2.pdf",
+   "title": "Floatel #1 and Floatel #2 Noise Monitoring Survey – Q2 2026 (March 16 – 20, 2026)",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/06/2025-05-30-WLNG-CSIMP-2023-2024-Annual-Report.pdf",
+   "title": "Annual Report 2023-2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/07/2026-06-WLNG-CSIMP-2025-Annual-Report-FINAL.pdf",
+   "title": "Annual Report 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/05/20327-104-250328-2024-MFFH-EEM-Annual-Report-1.pdf",
+   "title": "2024 Marine Fish and Fish Habitat Environmental Effects Monitoring Annual Report",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/04/20327-104-260421-FINAL-2025-MFFH-EEM-Annual-Report-1.pdf",
+   "title": "2025 Marine Fish and Fish Habitat Environmental Effects Monitoring Annual Report",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/06/rpt_2026_wlng_seafood_hhra_final_report.pdf",
+   "title": "2026 Human Human Health Risk Assessment for the Seafood Monitoring Program",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/11/WLNG-AQMS-Monthly-Report-September-2024-_v.1.pdf",
+   "title": "Report for September 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/12/WLNG-AQMS-Monthly-Report-October-2024-_v.1.pdf",
+   "title": "Report for October 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/02/WLNG-AQMS-Monthly-Report-November-2024-_v.1.pdf",
+   "title": "Report for November 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/02/WLNG-AQMS-Monthly-Report-December-2024-_v.1.pdf",
+   "title": "Report for December 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/03/WLNG-Air-Quality-Monitoring-Report-2024-v.2_Final.pdf",
+   "title": "Report for July – December 2024",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/03/WLNG-AQMS-Monthly-Report-2025-01-January-2025_V.2_Final.pdf",
+   "title": "Report for January 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/04/WLNG-AQMS-Monthly-Report-2025-02-February-2025.pdf",
+   "title": "Report for February 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/05/WLNG-AQMS-Monthly-Report-2025-03-March-2025_v.01-1.pdf",
+   "title": "Report for March 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/07/2025-06-20_Apr_R0.pdf",
+   "title": "Report for April 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/07/WLNG-AQMS-Monthly-Report-2025-05-May-2025_v.01.pdf",
+   "title": "Report for May 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/08/WLNG-AQMS-Monthly-Report-2025-06-June-2025_v.01.pdf",
+   "title": "Report for June 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/09/WLNG-AQMS-Monthly-Report-2025-07-July-2025.pdf",
+   "title": "Report for July 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/10/WLNG-AQMS-Monthly-Report-2025-08-August-2025.pdf",
+   "title": "Report for August 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/11/WLNG-AQMS-Monthly-Report-2025-09-September-2025.pdf",
+   "title": "Report for September 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/01/WLNG-AQMS-Monthly-Report-2025-10-October-2025_v.01.pdf",
+   "title": "Report for October 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/03/WLNG-AQMS-Monthly-Report-2025-11-November-2025_v.01.pdf",
+   "title": "Report for November 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/02/WLNG-AQMS-Monthly-Report-2025-12-December-2025_fin_v.02.pdf",
+   "title": "Report for December 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/02/WLNG-AQMS-Monthly-Report-2026-01-January-2026_v.01_Opt.pdf",
+   "title": "Report for January 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/05/WLNG-W0001-RE-RP-00319-WLNG-AQMS-Monthly-Report-2026-02-February-2026_v.01.pdf",
+   "title": "Report for February 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/05/WLNG-AQMS-Monthly-Report-2026-03-March-2026_fin_v.01-1.pdf",
+   "title": "Report for March 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/08/WLNG-AQMS-Monthly-Report-2026-04-April-2026.pdf",
+   "title": "Report for April 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/08/WLNG-AQMS-Monthly-Report-2026-05-May-2026.pdf",
+   "title": "Report for May 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/08/WLNG-AQMS-Monthly-Report-2026-06-June-2026.pdf",
+   "title": "Report for June 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/02/PE-111578-Weekly-Report-001_vS.pdf",
+   "title": "Weekly Report for February 9-15, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/03/PE-111578-Weekly-Report-002_vS.pdf",
+   "title": "Weekly Report for February 16-24, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/03/PE-111578-Weekly-Report-003_vS.pdf",
+   "title": "Weekly Report for February 25 – March 2, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/03/PE-111578-Weekly-Report-004_vS.pdf",
+   "title": "Weekly Report for March 3-9, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/03/PE-111578-Weekly-Report-005_vS.pdf",
+   "title": "Weekly Report for March 10-16, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/04/PE-111578-Weekly-Report-006_vS.pdf",
+   "title": "Weekly Report for March 17-23, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/04/PE-111578-Weekly-Report-007_vS.pdf",
+   "title": "Weekly Report for March 24-30, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/04/PE-111578-Weekly-Report-008_vS.pdf",
+   "title": "Weekly Report for March 31 – April 6, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/04/PE-111578-Weekly-Report-009_vS.pdf",
+   "title": "Weekly_Report_for_April 7 – 13, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/04/PE-111578-Weekly-Report-010_vS.pdf",
+   "title": "Weekly_Report_for_April 14-20, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/05/PE-111578-Weekly-Report-011_vS.pdf",
+   "title": "Weekly_Report_for_Apr 21 – 27, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/05/PE-111578-Weekly-Report-012_vS.pdf",
+   "title": "Weekly_Report_for_April 28 – May 4, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/05/PE-111578-Weekly-Report-013_vS.pdf",
+   "title": "Weekly_Report_for_May 5- 11, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/05/PE-111578-Weekly-Report-014_vS.pdf",
+   "title": "Weekly_Report_for_May 12 – 18, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/06/PE-111578-Weekly-Report-015_vS.pdf",
+   "title": "Weekly_Report_for_May 19 -25, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/06/PE-111578-Weekly-Report-016_vS.pdf",
+   "title": "Weekly_Report_for_May 26 – June 1, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/06/PE-111578-Weekly-Report-017_vS.pdf",
+   "title": "Weekly_Report_for_June 2 – 8, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/06/PE-111578-Weekly-Report-018_vS.pdf",
+   "title": "Weekly_Report_for_June 9- 15, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/07/PE-111578-Weekly-Report-019_vS.pdf",
+   "title": "Weekly_Report_for_June 16 – 22, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/08/PE-111578-Weekly-Report-020_vS1.pdf",
+   "title": "Weekly_Report_for_June 23 – 29, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/08/PE-111578-Weekly-Report-021_vS1.pdf",
+   "title": "Weekly_Report_for_June 30 – July 6, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/08/PE-111578-Weekly-Report-022_vS1.pdf",
+   "title": "Weekly_Report_for_July 7 – 13, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/08/PE-111578-Weekly-Report-023_vS1.pdf",
+   "title": "Weekly_Report_for_July 14 – 20, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/08/PE-111578-Weekly-Report-024_vS1.pdf",
+   "title": "Weekly_Report_for_July 21 – 27, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/08/PE-111578-Weekly-Report-025_vS1.pdf",
+   "title": "Weekly_Report_for_July 28 – August 3, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/08/PE-111578-Weekly-Report-026_vS.pdf",
+   "title": "Weekly_Report_for_August 4 – 10, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/08/PE-111578-Weekly-Report-027_vS.pdf",
+   "title": "Weekly_Report_for_August 11 – 17, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/09/PE-111578-Weekly-Report-028_vS.pdf",
+   "title": "Weekly_Report_for_August 18 – 24, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/09/PE-111578-Weekly-Report-029_vS1-1.pdf",
+   "title": "Weekly_Report_for_August 25 – 31, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/09/PE-111578-Weekly-Report-030_vS.pdf",
+   "title": "Weekly_Report_for_September 1 – 7, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/10/PE-111578-Weekly-Report-031_vS.pdf",
+   "title": "Weekly_Report_for_September 8 – 14, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/10/PE-111578-Weekly-Report-032_vS.pdf",
+   "title": "Weekly Report for September 15 – 21, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/10/PE-111578-Weekly-Report-033_vS.pdf",
+   "title": "Weekly Report for September 22 – 28, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/10/PE-111578-Weekly-Report-034_vS.pdf",
+   "title": "Weekly_Report_for_September 29 – October 5, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/10/PE-111578-Weekly-Report-035_vS.pdf",
+   "title": "Weekly_Report_for_October 6 – 12, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/10/PE-111578-Weekly-Report-036_vS.pdf",
+   "title": "Weekly_Report_for_October 13 -19, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/11/PE-111578-Weekly-Report-037_vS.pdf",
+   "title": "Weekly_Report_for_October 20 – 26, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/11/PE-111578-Weekly-Report-038_vS.pdf",
+   "title": "Weekly Report for October 27 – November 2, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/11/PE-111578-Weekly-Report-039_vS.pdf",
+   "title": "Weekly_Report_for_November 3 – 9, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/12/PE-111578-Weekly-Report-040_vS1.pdf",
+   "title": "Weekly_Report_for_November 10 – 16, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/12/PE-111578-Weekly-Report-041_vS.pdf",
+   "title": "Weekly_Report_for_November 17 – 23, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/12/PE-111578-Weekly-Report-042_vS.pdf",
+   "title": "Weekly_Report_for_November 24 – 30, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/12/PE-111578-Weekly-Report-043_vS.pdf",
+   "title": "Weekly_Report_for_December 1 – 7, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/12/PE-111578-Weekly-Report-044_vS.pdf",
+   "title": "Weekly_Report_for_December 8 – 15, 2024",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/01/PE-111578-Weekly-Report-045_vS.pdf",
+   "title": "Weekly_Report_for_December 15 – January 4, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/01/PE-111578-Weekly-Report-046_vS.pdf",
+   "title": "Weekly_Report_for_January 5 – 11, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/02/PE-111578-Weekly-Report-047_vS.pdf",
+   "title": "Weekly_Report_for_January 12 – 18, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/02/PE-111578-Weekly-Report-048_vS.pdf",
+   "title": "Weekly_Report_for_January 19 – 25, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/02/PE-111578-Weekly-Report-049_vS.pdf",
+   "title": "Weekly_Report_for_January 26 – February 1, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/02/PE-111578-Weekly-Report-050_vS.pdf",
+   "title": "Weekly_Report_for_February 2 – 8, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/02/PE-111578-Weekly-Report-051_vS.pdf",
+   "title": "Weekly_Report_for_February 9 – 15, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/03/PE-111578-Weekly-Report-052_vS.pdf",
+   "title": "Weekly Report for February 16 – 22, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/03/PE-111578-Weekly-Report-053_vS.pdf",
+   "title": "Weekly_Report_for_February 23 – March 1, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/03/PE-111578-Weekly-Report-054_vS.pdf",
+   "title": "Weekly_Report_for_March 2 – 8, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/03/PE-111578-Weekly-Report-055_vS.pdf",
+   "title": "Weekly_Report_for_March 9 – 15, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/03/PE-111578-Weekly-Report-056_vS.pdf",
+   "title": "Weekly_Report_for_March 16 – 22, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/04/PE-111578-Weekly-Report-057_vS.pdf",
+   "title": "Weekly_Report_for_March 23 – 29, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/04/PE-111578-Weekly-Report-058_vS.pdf",
+   "title": "Weekly_Report_for_March 30 – April 5, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/04/PE-111578-Weekly-Report-059_vS.pdf",
+   "title": "Weekly_Report_for_April 6 – 12, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/04/PE-111578-Weekly-Report-060_vS.pdf",
+   "title": "Weekly_Report_for_April 13 – 19, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/05/PE-111578-Weekly-Report-061_vS.pdf",
+   "title": "Weekly_Report_for_April 20 – 26, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/05/PE-111578-Weekly-Report-062_vS.pdf",
+   "title": "Weekly_Report_for_April 27 – May 3, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/05/PE-111578-Weekly-Report-063_vS.pdf",
+   "title": "Weekly_Report_for_May 4 – 10, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/03/PE-111578-Weekly-Report-064_vSS.pdf",
+   "title": "Weekly Report for May 11 – 17, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/06/PE-111578-Weekly-Report-065_vS.pdf",
+   "title": "Weekly_Report_for_May 18 – 25, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/06/PE-111578-Weekly-Report-066_vS.pdf",
+   "title": "Weekly_Report_for_May 25 – 31 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/06/PE-111578-Weekly-Report-067_vS.pdf",
+   "title": "Weekly Report_for_June 1 – 7, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/06/PE-111578-Weekly-Report-068_vS.pdf",
+   "title": "Weekly_Report_for_June 8-14, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/06/PE-111578-Weekly-Report-069_vS.pdf",
+   "title": "Weekly_Report_for_June 15 – 21, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/07/PE-111578-Weekly-Report-070_vS.pdf",
+   "title": "Weekly_Report_for_June 22 – 28, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/07/PE-111578-Weekly-Report-071_vS.pdf",
+   "title": "Weekly_Report_for_June 29 – July 5, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/07/PE-111578-Weekly-Report-072_vS.pdf",
+   "title": "Weekly_Report_for_July 6 – 12, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/07/PE-111578-Weekly-Report-073_vS.pdf",
+   "title": "Weekly Report for July 13-19, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/08/PE-111578-Weekly-Report-074_vS.pdf",
+   "title": "Weekly Report for July 20-26, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/08/PE-111578-Weekly-Report-075_vS.pdf",
+   "title": "Weekly Report for July 27 – August 2, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/08/PE-111578-Weekly-Report-076_vS.pdf",
+   "title": "Weekly Report for August 3 – 9, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/08/PE-111578-Weekly-Report-077_vS.pdf",
+   "title": "Weekly Report for August 10 – 16, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/09/PE-111578-Weekly-Report-078_vS.pdf",
+   "title": "Weekly Report for August 17 – 23, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/10/PE-111578-Weekly-Report-079_vS1.pdf",
+   "title": "Weekly Report for August 24 – 30, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/10/PE-111578-Weekly-Report-080_vS1.pdf",
+   "title": "Weekly Report for August 31 – September 6, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/09/PE-111578-Weekly-Report-081_vS.pdf",
+   "title": "Weekly Report for September 7 – 13, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/10/PE-111578-Weekly-Report-082_vS.pdf",
+   "title": "Weekly Report for September 14 – 20, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/10/PE-111578-Weekly-Report-083_vS1.pdf",
+   "title": "Weekly Report for September 21 – 27, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/10/PE-111578-Weekly-Report-084_vS.pdf",
+   "title": "Weekly Report for September 28 – October 4, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/10/PE-111578-Weekly-Report-085_vS.pdf",
+   "title": "Weekly Report for October 5 – 11, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/10/PE-111578-Weekly-Report-086_vS.pdf",
+   "title": "Weekly Report for October 12 – 18, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/11/PE-111578-Weekly-Report-087_vS.pdf",
+   "title": "Weekly Report for October 19 – 25, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/11/PE-111578-Weekly-Report-088_vS.pdf",
+   "title": "Weekly Report for October 26 – November 1, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/12/PE-111578-Weekly-Report-089_vS.pdf",
+   "title": "Weekly Report for November 2 – 8, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/12/PE-111578-Weekly-Report-090_vS.pdf",
+   "title": "Weekly Report for November 9 – 15, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/12/PE-111578-Weekly-Report-091_vS.pdf",
+   "title": "Weekly Report for November 16 – 22, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/12/PE-111578-Weekly-Report-092_vS.pdf",
+   "title": "Weekly Report for November 23 – 29, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/12/PE-111578-Weekly-Report-093_vS.pdf",
+   "title": "Weekly Report for November 30 – December 6, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/12/PE-111578-Weekly-Report-094_vS.pdf",
+   "title": "Weekly Report for December 7 – 13, 2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/01/PE-111578-Weekly-Report-095_vS.pdf",
+   "title": "Weekly Report for December 14, 2025 – January 3, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/01/PE-111578-Weekly-Report-096_vS.pdf",
+   "title": "Weekly Report for January 4 – 10, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/01/PE-111578-Weekly-Report-097_vS.pdf",
+   "title": "Weekly Report for January 11 – 17, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/02/PE-111578-Weekly-Report-098_vS.pdf",
+   "title": "Weekly Report for January 18 – 24, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/02/PE-111578-Weekly-Report-099_vS.pdf",
+   "title": "Weekly Report for January 25 – 31, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/02/PE-111578-Weekly-Report-100_vS.pdf",
+   "title": "Weekly Report for February 1 – 7, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/03/PE-111578-Weekly-Report-101_vS.pdf",
+   "title": "Weekly Report for February 8 – 14, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/03/PE-111578-Weekly-Report-102_vS.pdf",
+   "title": "Weekly Report for February 15 – 21, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/03/PE-111578-Weekly-Report-103_vS.pdf",
+   "title": "Weekly Report for February 22 – 28, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/03/PE-111578-Weekly-Report-104_vS.pdf",
+   "title": "Weekly Report for March 1 – 7, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/03/PE-111578-Weekly-Report-105_vS.pdf",
+   "title": "Weekly Report for March 8 – 14, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/03/PE-111578-Weekly-Report-106_vS.pdf",
+   "title": "Weekly Report for March 15 – 21, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/04/PE-111578-Weekly-Report-107_vS.pdf",
+   "title": "Weekly Report for March 22 – 28, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/04/PE-111578-Weekly-Report-108_vS.pdf",
+   "title": "Weekly Report for March 29 – April 4, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/04/PE-111578-Weekly-Report-109_vS.pdf",
+   "title": "Weekly Report for April 5 – 11, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/04/PE-111578-Weekly-Report-110_vS.pdf",
+   "title": "Weekly Report for April 12 – 18, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/05/PE-111578-Weekly-Report-111_vS.pdf",
+   "title": "Weekly Report for April 19 – 25, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/05/PE-111578-Weekly-Report-112_vS.pdf",
+   "title": "Weekly Report for April 26 – May 2, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/05/PE-111578-Weekly-Report-113_vS.pdf",
+   "title": "Weekly Report for May 3 – 9, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/05/PE-111578-Weekly-Report-114_vS.pdf",
+   "title": "Weekly Report for May 10 – 16, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/06/PE-111578-Weekly-Report-115_vS.pdf",
+   "title": "Weekly Report for May 17 – 23, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/06/PE-111578-Weekly-Report-116_vS.pdf",
+   "title": "Weekly Report for May 24 – 30, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/06/PE-111578-Weekly-Report-117_vS.pdf",
+   "title": "Weekly Report for May 31 – June 6, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/06/PE-111578-Weekly-Report-118_vS-1.pdf",
+   "title": "Weekly Report for June 7 – 13, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/06/PE-111578-Weekly-Report-119_vS.pdf",
+   "title": "Weekly Report for June 14 – 20, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/07/PE-111578-Weekly-Report-120_vS.pdf",
+   "title": "Weekly Report for June 21 – 27, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/07/PE-111578-Weekly-Report-121_vS.pdf",
+   "title": "Weekly Report for June 28 – July 4, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/07/PE-111578-Weekly-Report-122_vS.pdf",
+   "title": "Weekly Report for July 5 – 11, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/07/PE-111578-Weekly-Report-123_vS.pdf",
+   "title": "Weekly Report for July 12 – 18, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/08/PE-111578-Weekly-Report-124_vS.pdf",
+   "title": "Weekly Report for July 19 – 25, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/08/PE-111578-Weekly-Report-125_vS.pdf",
+   "title": "Weekly Report for July 26 – August 1, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/08/PE-111578-Weekly-Report-126_vS.pdf",
+   "title": "Weekly Report for August 2 – 8, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/08/PE-111578-Weekly-Report-127_vS.pdf",
+   "title": "Weekly Report for August 9 – 16, 2026",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/05/Woodfibre-LNG-Wake-Verification-Report_Period-1-2_Baseline-Conditions_RevA-1.pdf",
+   "title": "2024 Wake Monitoring Program Report",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/07/Woodfibre-LNG-Wake-Verification-Report_Deployment-1-3_Baseline-Conditions_RevA_opt.pdf",
+   "title": "2025 Wake Monitoring Program Report",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://projects.eao.gov.bc.ca/api/public/document/68a4eb3dd546ad0022a3b7c1/download/2025-08-18%20WLNG%20GCSP_2024-25%20Annual%20Report%20%28002%29.pdf",
+   "title": "2025",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/July-2021-Wildfire-Report.pdf",
+   "title": "Preliminary Report (August 18, 2021)",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/20211018-Woodfibre-LNG-July-2021-Wildfire-90d-Report-1.pdf",
+   "title": "90-Day Report (October 18, 2021)",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://urldefense.com/v3/__https://projects.eao.gov.bc.ca/api/public/document/6a18ace37d3179a6c0cd2243/download/2026-05-20*20Gender*20and*20Cultural*20Safety*20Plan*20Updated*20based*20on*20EAO*20review_clean*20*281*29.pdf__;JSUlJSUlJSUlJSUlJQ!!Ik9I!vCBzPiOj_WQ8ALiDDuXa15F-8sWhIeVh0jvVidQUa8sCfplinwEWe64q33A27pcCGx4ZBS5Zzb6BBWz_LMsJhTnlZQiss8K6eXCpjA$",
+   "title": "Download",
+   "type": "newsletter",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/06/2026-05-11-WLNG-Updated-CSIMP-submitted-to-EAO-CLEAN-1.pdf",
+   "title": "Download",
+   "type": "newsletter",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/05/E15-02-Construction-Environmental-Management-Plan-CEMP-Rev-2-2025-02-19.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Invasive-Plant-Management-Plan.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/06/rpt_woodfibre_wmmp_rev_2_20250916_clean-1.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/06/20327-109B-260108-MFFHMMP-Rev-9-2.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/06/rpt_woodfibre_mmmmp_20260409_rev3_clean-2.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Marine-Water-Quality-Management-Monitoring-Plan.pdf",
+   "title": "Download",
+   "type": "monitoring",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/01/Traffic-Management-Plan.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/05/E15-02-Waste-Management-Plan-Rev-E-WMP-C-2025-02-19.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/02/Construction-Water-Management-Plan-Final_v9_print.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/05/20241127-AHRMP-Rev-3.4-Clean1-.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/05/20327-250325-WLNG-Detailed-OEMP-Rev3.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/05/con_commsplanforaccidents_Clean.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2026/07/WLNG_MTMMP_20260721_REV4_revisions_opt.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/11/2023-12-11-PUP-911-0001-23-26-Woodfibre-003.pdf",
+   "title": "Pesticide Use Permit No. 911-0001-23-26",
+   "type": "permit_approval",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/11/Invasive-Plant-Field-Control-Program-Treatment-Overview-Map.pdf",
+   "title": "2025 Invasive Plant Field Control Program Treatment Overview Map",
+   "type": "map",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/regulatory-filings/"
+  },
+  {
+   "url": "https://projects.eao.gov.bc.ca/api/public/document/5f972dd9a7b5160023b7b5d1/download/Signed%20Woodfibre%20LNG%20Certficate%20Extension%20Order%20-%20Oct%2025%202020.pdf",
+   "title": "October, 2020",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2021/04/Federal-Decision-Statement-March-2016.pdf",
+   "title": "Federal Decision Statement",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2020/02/BC-Environmental-Certificate-Conditions.pdf",
+   "title": "25 conditions",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/about-woodfibre-lng/regulatory-overview/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2025/12/WLNG-Sustainability-Update-2024.pdf",
+   "title": "Read the 2024 Sustainability Update",
+   "type": "newsletter",
+   "page": "https://woodfibrelng.ca/sustainability/"
+  },
+  {
+   "url": "https://woodfibrelng.ca/wp-content/uploads/2024/08/WoodfibreLNG-2023-Sustainability-Report-Web_FINAL.pdf",
+   "title": "Read the 2023 Sustainability Update",
+   "type": "newsletter",
+   "page": "https://woodfibrelng.ca/sustainability/"
+  },
+  {
+   "url": "http://chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://woodfibrelng.ca/wp-content/uploads/2024/04/WLNG-Net-Zero-Strategy-April-25-2023_.pdf?swcfpc=1",
+   "title": "Read more about our approach in Woodfibre LNG’s Roadmap to Net Zero",
+   "type": "other",
+   "page": "https://woodfibrelng.ca/sustainability/"
+  }
+ ],
+ "doc_types": {
+  "other": 194,
+  "monitoring": 17,
+  "newsletter": 4,
+  "permit_approval": 1,
+  "map": 1
+ },
+ "crawled_at": "2026-09-04T16:06:16Z",
+ "name": "Woodfibre LNG",
+ "via_browser": true
 }

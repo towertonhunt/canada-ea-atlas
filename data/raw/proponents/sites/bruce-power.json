@@ -2,10 +2,676 @@
  "key": "bruce power",
  "site": "https://www.brucepower.com/",
  "host": "www.brucepower.com",
- "fetched": 0,
- "pages": [],
- "docs": [],
- "doc_types": {},
- "crawled_at": "2026-09-04T14:19:28Z",
- "name": "Bruce Power"
+ "fetched": 57,
+ "errors": {
+  "HTTPError: HTTP Error 404: browser": 2,
+  "HTTPError: HTTP Error 400: Bad Request": 1
+ },
+ "pages": [
+  {
+   "url": "https://www.brucepower.com/resources/publications/?_sft_publication_tag=environmental-reports",
+   "title": "Publications - Bruce Power",
+   "depth": 1,
+   "docs": 12
+  },
+  {
+   "url": "https://www.brucepower.com/resources/power-reactor-operating-licence/",
+   "title": "Power Reactor Operating Licence - Bruce Power",
+   "depth": 1,
+   "docs": 3
+  },
+  {
+   "url": "https://www.brucepower.com/life-extension-program-mcr-project/",
+   "title": "Life-Extension Program & MCR Project - Bruce Power",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/the-bruce-c-project/",
+   "title": "The Bruce C Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/2025/10/17/ontario-building-trades-council-throws-support-behind-bruce-powers-bruce-c-project-and-life-extension-program/",
+   "title": "Ontario Building Trades Council throws support behind Bruce Power’s Bruce C project and Life-Extension program - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.brucepower.com/brucec",
+   "title": "Bruce C Project | Engage Bruce Power",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://engage.brucepower.com/brucec/impact-assessment-process",
+   "title": "Impact Assessment Process | Bruce C Project | Engage Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.brucepower.com/projects",
+   "title": "Projects | Engage Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.brucepower.com/brucec/engagement",
+   "title": "Engagement | Bruce C Project | Engage Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/2024/08/12/bruce-powers-bruce-c-initial-project-description-sets-the-stage-for-the-future-of-ontarios-electricity-needs/",
+   "title": "Bruce Power’s Bruce C Initial Project Description sets the stage for the future of Ontario’s electricity needs - Bruce Power",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://engage.brucepower.com/brucec/siting-and-technology-selection",
+   "title": "Siting and Reactor Technology | Bruce C Project | Engage Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.brucepower.com/brucec/fieldwork",
+   "title": "Fieldwork and Baseline Information | Bruce C Project | Engage Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/community-programs/environment-sustainability-department/",
+   "title": "Environment and Sustainability - Bruce Power",
+   "depth": 3,
+   "docs": 1
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/community-programs/",
+   "title": "Community Programs - Bruce Power",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/community-programs/indigenous-relations/",
+   "title": "Indigenous Relations - Bruce Power",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/corporate-social-responsibility/environment-and-sustainability-fund/",
+   "title": "Environment and Sustainability Fund - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/corporate-social-responsibility/indigenous-community-investment-fund/",
+   "title": "Indigenous Community Investment Fund - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/corporate-social-responsibility/scholarships/indigenous-scholarships/",
+   "title": "Indigenous Scholarships - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/resources/reportable-events/",
+   "title": "Reportable Events - Bruce Power",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/publications/2025-bruce-power-modern-slavery-report/",
+   "title": "2025 Bruce Power Modern Slavery Report - Bruce Power",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.brucepower.com/resources/publications/",
+   "title": "Publications - Bruce Power",
+   "depth": 1,
+   "docs": 6
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/community-programs/emergency-preparedness/",
+   "title": "Emergency Preparedness at Bruce Power - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/corporate-social-responsibility/community-investment-fund/",
+   "title": "Community Investment Fund - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/resources/publications/?sf_paged=2",
+   "title": "Publications - Bruce Power",
+   "depth": 2,
+   "docs": 12
+  },
+  {
+   "url": "https://www.brucepower.com/about-us/",
+   "title": "About Us - Bruce Power",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/about-us/partners/",
+   "title": "Our Partners - Bruce Power",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/about-us/executive-team/",
+   "title": "Our Leadership Team - Bruce Power",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/about-us/board-of-directors/",
+   "title": "Board of Directors - Bruce Power",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/about-us/history/",
+   "title": "History - Bruce Power",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/about-us/guide-to-bruce-power/",
+   "title": "Guide to Bruce Power - Bruce Power",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.brucepower.com/what-we-do/",
+   "title": "What We Do - Bruce Power",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/life-extension-program-mcr-project-bak/refurbishment-agreement/",
+   "title": "Refurbishment Agreement - Bruce Power",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.brucepower.com/life-extension-program-mcr-project-bak/more-about-mcr/",
+   "title": "More about MCR - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/life-extension-program-mcr-project/estimated-mcr-nuclear-waste-volumes/",
+   "title": "Estimated MCR Nuclear Waste Volumes - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/what-we-do/a-cleaner-tomorrow/",
+   "title": "A Cleaner Tomorrow - Bruce Power",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/resources/publications/?_sft_publication_category=environment",
+   "title": "Publications - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/2024/06/10/bruce-power-releases-2024-sustainability-report-highlighting-its-commitment-to-the-environment-community-and-a-clean-energy-future/",
+   "title": "Bruce Power releases 2024 Sustainability Report, highlighting its commitment to the environment, community and a clean energy future - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/2026/06/15/bruce-power-2026-sustainability-report-highlights-commitment-to-communities-and-environment/",
+   "title": "Bruce Power 2026 Sustainability Report highlights commitment to communities and environment - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/what-we-do/a-cleaner-tomorrow/environmental-management-system-scope/",
+   "title": "Environmental Management System Scope - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/what-we-do/a-cleaner-tomorrow/environment-policy/",
+   "title": "Environment and Sustainability Policy - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/resources/publications/?_sft_publication_category=environment&sf_paged=2",
+   "title": "Publications - Bruce Power",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/",
+   "title": "In The Community - Bruce Power",
+   "depth": 1,
+   "docs": 9
+  },
+  {
+   "url": "https://www.brucepower.com/2026/08/04/bruce-power-supplier-partners-helping-to-revive-saugeen-amphitheatre-grounds-through-community-development-fund-donation/",
+   "title": "Bruce Power supplier partners helping to revive Saugeen Amphitheatre grounds through Community Development Fund donation - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/corporate-social-responsibility/",
+   "title": "Corporate Social Responsibility - Bruce Power",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/visitors-centre/",
+   "title": "Visitors' Centre - Bruce Power",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/field-trips/",
+   "title": "Tour the Bruce Power site this summer!",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/resources/",
+   "title": "Resources - Bruce Power",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/resources/periodic-safety-review/",
+   "title": "Periodic Safety Review - Bruce Power",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/become-a-supplier/clean-energy-frontier/",
+   "title": "Clean Energy Frontier - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.brucepower.com/brucec/resources",
+   "title": "Resources and File Library | Bruce C Project | Engage Bruce Power",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/corporate-social-responsibility/scholarships/",
+   "title": "Scholarships - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/commitment-to-openness-and-transparency/",
+   "title": "Commitment to Openness and Transparency - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/in-the-community/march-break/",
+   "title": "March Break Program - Bruce Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.brucepower.com/2025-annual-review/",
+   "title": "2025 Annual Review - Bruce Power",
+   "depth": 1,
+   "docs": 1
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2026/06/260218A_SustainabilityReportSummary_R000-AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?_sft_publication_tag=environmental-reports"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2026/06/2026-Main-Sustainability-Report-AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?_sft_publication_tag=environmental-reports"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2026/05/B-REP-07000-00019-R000-EPR-2025-Accessible.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?_sft_publication_tag=environmental-reports"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2025/06/250057A_SustainabilityReportSummary_R000-AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?_sft_publication_tag=environmental-reports"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2025/06/2025-Main-Sustainability-Report-JUL2025.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?_sft_publication_tag=environmental-reports"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2024/05/B-REP-07000-00017-R000-06MAY2025-AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?_sft_publication_tag=environmental-reports"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2024/06/240136A_SustainabilityReport_R000-AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?_sft_publication_tag=environmental-reports"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2025/05/B-REP-07000-00016-R000-Master.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?_sft_publication_tag=environmental-reports"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/06/230069A_SustainabilityReport_R001-AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?_sft_publication_tag=environmental-reports"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/04/EPR-Report-FINAL-24APRR2023_JM_CLF_LR.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?_sft_publication_tag=environmental-reports"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2022/10/BP-REP-03443.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?_sft_publication_tag=environmental-reports"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2020/01/190330A-Environment-Protection-Report_LR.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?_sft_publication_tag=environmental-reports"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2021/01/BP-CORR-00531-00982.pdf",
+   "title": "here",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/power-reactor-operating-licence/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2021/01/BP-CORR-00531-00719.pdf",
+   "title": "here",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/power-reactor-operating-licence/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2025/05/Public-Disclosure-PSA-Report-2024.pdf",
+   "title": "Public Disclosure PSA Report – 2024",
+   "type": "closure",
+   "page": "https://www.brucepower.com/resources/power-reactor-operating-licence/"
+  },
+  {
+   "url": "https://support.apple.com/downloads/safari",
+   "title": "Download Safari",
+   "type": "other",
+   "page": "https://engage.brucepower.com/brucec"
+  },
+  {
+   "url": "https://iaac-aeic.gc.ca/050/evaluations/document/158490",
+   "title": "public notice",
+   "type": "other",
+   "page": "https://www.brucepower.com/2024/08/12/bruce-powers-bruce-c-initial-project-description-sets-the-stage-for-the-future-of-ontarios-electricity-needs/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2026/06/260220A-Green-Bond-Report-R000-AX.pdf",
+   "title": "Download here",
+   "type": "other",
+   "page": "https://www.brucepower.com/in-the-community/community-programs/environment-sustainability-department/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2026/03/220671A_IndigenousEmploymentGuide_R004-AX.pdf",
+   "title": "Download here",
+   "type": "engagement",
+   "page": "https://www.brucepower.com/in-the-community/community-programs/indigenous-relations/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2025/05/260112A_ModernAntiSlaveryReport2025_R000-AX.pdf",
+   "title": "Download PDF",
+   "type": "other",
+   "page": "https://www.brucepower.com/publications/2025-bruce-power-modern-slavery-report/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2026/05/260173B_BruceCGlossy_Publication_R000_AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2026/04/250421A-2025-Annual-Report-AX_LowRes.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2025/07/240525-2024-Annual-Review_AX-R000.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2025/06/250255A_GreenBondReport_R000AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2024/08/240394A-IPD-Glossy_Publication_R000_Accessible_AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2024/06/240273A_GreenBondReport2023_R000-AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2024/04/230673A_TradesRecruitmentPublication_R002-AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?sf_paged=2"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2024/02/230409C-2023BrucePowerAnnualReviewEnergyReport_AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?sf_paged=2"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/11/214440A_Green-Financing-Report-2023_R001_AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?sf_paged=2"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/11/230527A_BruceCProjectPublication_R000-AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?sf_paged=2"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/06/OPG008_Ontario-Collaboration-Report-V1_FINAL-AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?sf_paged=2"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/06/230232A_GreenBondReport2022_R000-AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?sf_paged=2"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/09/230035A-CNSC-Mid-term-Report_R003_Accessible_AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?sf_paged=2"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/02/220515-ARER_Accessible_AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?sf_paged=2"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/02/220549A_IsotopePublication_R003-AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?sf_paged=2"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/06/220240A_GreenBondReport_R000-AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?sf_paged=2"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2022/06/AvoidedEmissionsIncrementalEnergyProduction.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?sf_paged=2"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2022/04/220171A_CleanElectricityStandard_R001-AX.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.brucepower.com/resources/publications/?sf_paged=2"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2020/01/160072_GuidetoBrucePowerReport_R003.pdf",
+   "title": "Download here",
+   "type": "other",
+   "page": "https://www.brucepower.com/about-us/guide-to-bruce-power/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2020/01/Amended-and-Restated-Bruce-Power-Refurbishment-Implementation-Agreement.pdf",
+   "title": "Refurbishment Implementation Agreement",
+   "type": "other",
+   "page": "https://www.brucepower.com/life-extension-program-mcr-project-bak/refurbishment-agreement/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2020/01/Amended-and-Restated-Bruce-Power-Sharing-in-Transfers-and-Refinancings-Agreement.pdf",
+   "title": "Sharing in Transfers and Financing Agreement",
+   "type": "other",
+   "page": "https://www.brucepower.com/life-extension-program-mcr-project-bak/refurbishment-agreement/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2020/01/NERA-Fairness-Opinion-Letter-2015-12-02.pdf",
+   "title": "NERA Fairness Opinion Letter",
+   "type": "other",
+   "page": "https://www.brucepower.com/life-extension-program-mcr-project-bak/refurbishment-agreement/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/08/230188-ALL-Fact-Sheets_R001_AX.pdf",
+   "title": "230188-all-fact-sheets_r001_ax.pdf",
+   "type": "other",
+   "page": "https://www.brucepower.com/in-the-community/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/07/230188A-Bruce-Power-Facts-Isotopes_R000_AX.pdf",
+   "title": "230188a-bruce-power-facts-isotopes_r000_ax.pdf",
+   "type": "other",
+   "page": "https://www.brucepower.com/in-the-community/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/07/230188F-Bruce-Power-Facts-Fighting-Cancer-Together_R000_AX.pdf",
+   "title": "230188f-bruce-power-facts-fighting-cancer-together_r000_ax.pdf",
+   "type": "other",
+   "page": "https://www.brucepower.com/in-the-community/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/07/230188E-Bruce-Power-Facts-Regulatory-Reporting-Process_R000_AX.pdf",
+   "title": "230188e-bruce-power-facts-regulatory-reporting-process_r000_ax.pdf",
+   "type": "other",
+   "page": "https://www.brucepower.com/in-the-community/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/07/230188H-Bruce-Power-Facts-Emergency-Management_R000_AX.pdf",
+   "title": "230188h-bruce-power-facts-emergency-management_r000_ax.pdf",
+   "type": "other",
+   "page": "https://www.brucepower.com/in-the-community/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/07/230188C-Bruce-Power-Facts-In-the-Community_R000_AX.pdf",
+   "title": "230188c-bruce-power-facts-in-the-community_r000_ax.pdf",
+   "type": "other",
+   "page": "https://www.brucepower.com/in-the-community/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/07/230188D-Bruce-Power-Facts-MCR_R000_AX.pdf",
+   "title": "230188d-bruce-power-facts-mcr_r000_ax.pdf",
+   "type": "other",
+   "page": "https://www.brucepower.com/in-the-community/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/08/230188G-Bruce-Power-Facts-Radiation_R001_AX.pdf",
+   "title": "230188g-bruce-power-facts-radiation_r001_ax.pdf",
+   "type": "other",
+   "page": "https://www.brucepower.com/in-the-community/"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2023/07/230188I-Bruce-Power-Facts-Waste-Management_R000_AX.pdf",
+   "title": "230188i-bruce-power-facts-waste-management_r000_ax.pdf",
+   "type": "other",
+   "page": "https://www.brucepower.com/in-the-community/"
+  },
+  {
+   "url": "https://engage.brucepower.com/download_file/view/179/628",
+   "title": "Spring Update",
+   "type": "newsletter",
+   "page": "https://engage.brucepower.com/brucec/resources"
+  },
+  {
+   "url": "https://engage.brucepower.com/download_file/view/186/628",
+   "title": "Bruce C Community Update",
+   "type": "newsletter",
+   "page": "https://engage.brucepower.com/brucec/resources"
+  },
+  {
+   "url": "https://hdp-ca-prod-app-bp-engage-files.s3.ca-central-1.amazonaws.com/5917/5519/5324/240394A_IPD_Glossy_Publication_R000_Accessible_AX.pdf",
+   "title": "Bruce C Info Booklet",
+   "type": "other",
+   "page": "https://engage.brucepower.com/brucec/resources"
+  },
+  {
+   "url": "https://s32829.pcdn.co/wp-content/uploads/2026/03/250421A-2025-Annual-Report-AX_LowRes.pdf",
+   "title": "2025 ANNUAL REVIEW",
+   "type": "other",
+   "page": "https://www.brucepower.com/2025-annual-review/"
+  }
+ ],
+ "doc_types": {
+  "other": 51,
+  "closure": 1,
+  "engagement": 1,
+  "newsletter": 2
+ },
+ "crawled_at": "2026-09-04T16:00:02Z",
+ "name": "Bruce Power",
+ "via_browser": true
 }

@@ -283,6 +283,7 @@ def main():
                                prior.get(k, {}).get('website_source')),
             'wikidata': prior.get(k, {}).get('wikidata'),
             'score': round(score(t), 1),
+            'browser_first': bool(o.get('browser_first')),
         }
         out.append(rec)
     out.sort(key=lambda x: -x['score'])

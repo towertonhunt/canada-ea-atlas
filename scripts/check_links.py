@@ -33,8 +33,10 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'data', 'link_health.json')
+# A current Chrome build string: WAFs flag stale ones (Bruce Power 403'd
+# "Chrome/120" outright while a default headless Chromium passed).
 UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
-      '(KHTML, like Gecko) Chrome/120.0 Safari/537.36')
+      '(KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36')
 
 # Bodies that are served with a 2xx but are really "gone".
 SOFT_404 = re.compile(

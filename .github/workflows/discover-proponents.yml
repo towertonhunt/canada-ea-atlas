@@ -36,9 +36,17 @@ jobs:
       - name: Rebuild target list (no lookup)
         run: python3 scripts/build_proponent_targets.py --no-lookup
 
+      # Several major proponents (OPG, Bruce Power, Suncor, LNG Canada...) sit
+      # behind bot walls or serve JS shells; the crawler falls back to a
+      # headless Chromium for those (--browser).
+      - name: Install headless Chromium
+        run: |
+          python3 -m pip install -q playwright
+          python3 -m playwright install --with-deps chromium >/dev/null
+
       - name: Crawl
         run: |
-          ARGS="--top ${{ inputs.top || '40' }} --budget 17000"
+          ARGS="--top ${{ inputs.top || '40' }} --budget 16000 --browser"
           [ "${{ inputs.refresh }}" = "true" ] && ARGS="$ARGS --refresh"
           python3 scripts/proponent_discover.py $ARGS
 
