@@ -84,6 +84,30 @@ sidebars (`docs_path` property -> `data/docs/<jur>/<id>.json`).
   (ontario-classea/transmission, 319 files, all mapped to hydroone.com URLs,
   NOT in the map) and the West Detour ESR set in ~/Work/Detour Lake Mine.
 
+## Proponent-site document discovery (started 2026-09-04)
+- Why: registries only hold what regulators file; Class EA / ESR records live
+  on proponent sites (the hand-built Hydro One harvest in ontario-classea/ was
+  the model). User asked for a comprehensive proponent list first, then docs.
+- `scripts/build_proponent_targets.py` -> data/raw/proponents/targets.json:
+  aggregates proponents across the map + gap inventories, drops government
+  bodies (GOV/LEAD_GOV regex, KEEP exceptions), merges ALIAS groups, adds a
+  SEED list, ranks (projects*3 + docs*0.05 + $value/1e8 + seed bonus), looks
+  up websites on Wikidata with a label-token check (an unchecked version
+  matched CNRL -> CN Rail). Hand fixes: data/raw/proponents/overrides.json
+  (website/name/aliases/skip). 4,784 targets; 47 of top 50 have sites.
+- `scripts/proponent_discover.py` -> data/raw/proponents/sites/<key>.json:
+  bounded polite crawl (robots, sitemap, 2s delay, 250 pages, depth 3) with a
+  PRIORITY QUEUE on EA-specific terms (STRONG/WEAK regexes) + seed URLs; a
+  plain BFS from the home page found only marketing PDFs on hydroone.com.
+  Validation: 60 pages of hydroone.com (seeded at /major-projects) -> 763
+  docs incl. 27 final ESRs, 18 draft ESRs, 46 NoCs (hand inventory had 325).
+  Big proponents often use per-project microsites: feed gap-inventory project
+  URLs as seeds (seed_urls in targets.json).
+- Lane discover-proponents.yml: weekly (Sun) + dispatch (top / refresh),
+  budget 17000s, commits data/raw/proponents/. Discovery only -- results are
+  reviewed per site before archive_docs.py / the map pick them up (next step:
+  a source adapter that turns an accepted sites/<key>.json into catalogues).
+
 ## Data inventory (as of 2026-07-05)
 - Map: 18,401 features. Federal 6,576 (complete registry incl. federal-lands
   + archived), BC 358, QC 402, NS 248, NL 1,508, MB 2,716, ON REA 197,
