@@ -314,11 +314,15 @@ def main():
             print(f'bucket checkpoint merged: {after - before} records recovered',
                   flush=True)
             save_manifest(manifest)
-        if args.reconcile:
-            reconcile_from_bucket(manifest, public,
+        # Always reconcile against the bucket before fetching: a run whose
+        # commit was lost (it happened twice) is then recovered automatically
+        # instead of being re-downloaded. Listing ~50k objects takes seconds.
+        n = reconcile_from_bucket(manifest, public,
                                   set(args.only.split(',')) if args.only else None)
+        if n:
             save_manifest(manifest)
             push_manifest_to_bucket()
+        if args.reconcile:
             return
     known = load_manifest()                          # + seeded parts, for skipping
     todo = [t for t in targets(set(args.only.split(',')) if args.only else None)
