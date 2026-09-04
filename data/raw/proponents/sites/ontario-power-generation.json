@@ -2,10 +2,1782 @@
  "key": "ontario power generation",
  "site": "https://www.opg.com/",
  "host": "www.opg.com",
- "fetched": 0,
- "pages": [],
- "docs": [],
- "doc_types": {},
- "crawled_at": "2026-09-04T12:43:05Z",
- "name": "Ontario Power Generation"
+ "fetched": 120,
+ "errors": {},
+ "pages": [
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/",
+   "title": "Nuclear projects | Darlington refurbishment project – OPG",
+   "depth": 1,
+   "docs": 4
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/",
+   "title": "Our projects | Hydroelectric development – OPG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/bingham-chute-redevelopment/",
+   "title": "Hydroelectric development | Bingham Chute redevelopment – OPG",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opgs-sir-adam-beck-i-hydro-station-gets-major-delivery-for-unit-refurbishment/",
+   "title": "Our story | OPG’s Sir Adam Beck I hydro station gets major delivery for unit refurbishment – OPG",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opgs-peter-crate-helping-execute-important-hydro-refurbishments-for-ontarios-future/",
+   "title": "Our story | OPG’s Peter Crate helping execute important hydro refurbishments for Ontario’s future – OPG",
+   "depth": 3,
+   "docs": 5
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opgs-barrett-chute-hydro-station-set-to-deliver-decades-more-clean-power-after-successful-refurbishment/",
+   "title": "Our story | OPG's Barrett Chute hydro station set to deliver decades more clean power after successful refurbishment – OPG",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/eight-opg-hydro-stations-to-undergo-life-extending-refurbishments-in-eastern-ontario/",
+   "title": "Our story | Eight OPG hydro stations to undergo life-extending refurbishments in eastern Ontario – OPG",
+   "depth": 3,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opg-advancing-refurbishment-of-r-h-saunders-gs-ontarios-second-largest-hydro-station/",
+   "title": "Our story | OPG advancing refurbishment of R.H. Saunders GS, Ontario’s second-largest hydro station – OPG",
+   "depth": 3,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/matabitchuan-redevelopment/",
+   "title": "Hydroelectric development | Matabitchuan redevelopment – OPG",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/kakabeka/",
+   "title": "Hydroelectric development | Redeveloping Kakabeka Falls Generating Station – OPG",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/bingham-chute-redevelopment//",
+   "title": "Hydroelectric development | Bingham Chute redevelopment – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/matabitchuan-redevelopment//",
+   "title": "Hydroelectric development | Matabitchuan redevelopment – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/pickering-refurbishment/",
+   "title": "Nuclear projects | Pickering refurbishment project – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/",
+   "title": "Hydroelectric development | Little Long Dam Safety – OPG",
+   "depth": 2,
+   "docs": 7
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/story/seed-collection-workshops-help-prepare-for-site-rehabilitation-at-opgs-little-long-and-smoky-falls-dam-safety-projects/",
+   "title": "Our story | Seed collection workshops help prepare for site rehabilitation at OPG’s Little Long and Smoky Falls Dam Safety projects – OPG",
+   "depth": 3,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/story/opgs-little-long-dam-safety-project-receives-industry-recognition-of-excellence/",
+   "title": "Our story | OPG’s Little Long Dam Safety Project receives industry recognition of excellence – OPG",
+   "depth": 3,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/story/important-dam-safety-project-nearing-completion-in-northeast-ontario/",
+   "title": "Our story | Important dam safety project nearing completion in northeast Ontario – OPG",
+   "depth": 3,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/high-tech-otter-vessel-maps-what-lies-beneath-at-opgs-hydro-stations/",
+   "title": "Our story | High-tech “Otter” vessel maps what lies beneath at OPG’s hydro stations – OPG",
+   "depth": 2,
+   "docs": 4
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opg-continues-preparing-for-ontarios-next-major-nuclear-refurbishment-at-pickering-nuclear/",
+   "title": "Our story | OPG continues preparing for Ontario’s next major nuclear refurbishment at Pickering Nuclear – OPG",
+   "depth": 3,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/",
+   "title": "Our projects | Hydroelectric development – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opg-provides-early-community-funding-to-support-exploration-of-new-generation-at-lambton-site/",
+   "title": "Our story | OPG provides early community funding to support exploration of new generation at Lambton site – OPG",
+   "depth": 3,
+   "docs": 1
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opg-announces-early-community-funding-to-explore-new-generation-at-nanticoke-site/",
+   "title": "Our story | OPG announces early community funding to explore new generation at Nanticoke site – OPG",
+   "depth": 3,
+   "docs": 1
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/barrett-chute-hydro-station-now-halfway-through-major-unit-overhauls/",
+   "title": "Our story | Barrett Chute hydro station now halfway through major unit overhauls – OPG",
+   "depth": 3,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/new-hydro/",
+   "title": "Hydroelectric development | New hydro opportunities – OPG",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/new-hydro/story/opgs-sir-adam-beck-i-hydro-station-gets-major-delivery-for-unit-refurbishment/",
+   "title": "Our story | OPG’s Sir Adam Beck I hydro station gets major delivery for unit refurbishment – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/new-hydro/story/opgs-barrett-chute-hydro-station-set-to-deliver-decades-more-clean-power-after-successful-refurbishment/",
+   "title": "Our story | OPG's Barrett Chute hydro station set to deliver decades more clean power after successful refurbishment – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/new-hydro/story/high-tech-otter-vessel-maps-what-lies-beneath-at-opgs-hydro-stations/",
+   "title": "Our story | High-tech “Otter” vessel maps what lies beneath at OPG’s hydro stations – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/smoky-falls/",
+   "title": "Hydroelectric development | Smoky Falls Dam Safety – OPG",
+   "depth": 2,
+   "docs": 4
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/smoky-falls/story/seed-collection-workshops-help-prepare-for-site-rehabilitation-at-opgs-little-long-and-smoky-falls-dam-safety-projects/",
+   "title": "Our story | Seed collection workshops help prepare for site rehabilitation at OPG’s Little Long and Smoky Falls Dam Safety projects – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/smoky-falls/story/opg-investing-in-safety-and-climate-change-preparation-with-smoky-falls-dam-safety-project/",
+   "title": "Our story | OPG investing in safety and climate change preparation with Smoky Falls Dam Safety Project – OPG",
+   "depth": 3,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/frederick-house-lake-dam-rehab/",
+   "title": "Hydroelectric development | Frederick House Lake Dam – OPG",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/frederick-house-lake-dam-rehab/story/local-company-keeping-environmental-monitoring-on-track-at-opgs-frederick-house-lake-dam/",
+   "title": "Our story | Local company keeping environmental monitoring on track at OPG’s Frederick House Lake Dam – OPG",
+   "depth": 3,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/kakabeka//",
+   "title": "Hydroelectric development | Redeveloping Kakabeka Falls Generating Station – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long//",
+   "title": "Hydroelectric development | Little Long Dam Safety – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/smoky-falls//",
+   "title": "Hydroelectric development | Smoky Falls Dam Safety – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/hydroelectric-development/frederick-house-lake-dam-rehab//",
+   "title": "Hydroelectric development | Frederick House Lake Dam – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/release/opg-reports-2026-second-quarter-financial-results/",
+   "title": "Media release | OPG reports 2026 second quarter financial results – OPG",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/",
+   "title": "Nuclear projects | Darlington refurbishment project – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/release/opg-reports-2026-first-quarter-financial-results/",
+   "title": "Media release | OPG reports 2026 first quarter financial results – OPG",
+   "depth": 3,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/release/opg-reports-2025-fourth-quarter-financial-results/",
+   "title": "Media release | OPG reports 2025 fourth quarter financial results – OPG",
+   "depth": 3,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/release/opg-reports-2025-third-quarter-financial-results/",
+   "title": "Media release | OPG reports 2025 third quarter financial results – OPG",
+   "depth": 3,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/whats-involved/",
+   "title": "Darlington refurbishment project | What's involved – OPG",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/mock-up-and-training/",
+   "title": "Darlington refurbishment project | Mock-up and training facility – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/mock-up-and-training/story/darlington-nuclear-unit-1-successfully-refurbished/",
+   "title": "Our story | Darlington Nuclear’s Unit 1 successfully refurbished months ahead of schedule – OPG",
+   "depth": 3,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/mock-up-and-training/story/opg-employees-excellence-in-action-helps-keep-darlington-refurbishment-on-track/",
+   "title": "Our story | OPG employee’s excellence in action helps keep Darlington Refurbishment on track – OPG",
+   "depth": 3,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/mock-up-and-training/story/darlington-refurb-construction-completed-ahead-of-schedule-under-budget/",
+   "title": "Our story | Showing the world what’s possible: Darlington Refurbishment construction completed ahead of schedule, under budget – OPG",
+   "depth": 3,
+   "docs": 1
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment//",
+   "title": "Nuclear projects | Darlington refurbishment project – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/pickering-refurbishment//",
+   "title": "Nuclear projects | Pickering refurbishment project – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/",
+   "title": "Projects & services | Our projects – OPG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/indigenous-artist-provides-an-inspiring-new-look-at-opgs-lennox-station/",
+   "title": "Our story | Indigenous artist provides an inspiring new look at OPG’s Lennox station – OPG",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/opgs-peter-crate-helping-execute-important-hydro-refurbishments-for-ontarios-future/",
+   "title": "Our story | OPG’s Peter Crate helping execute important hydro refurbishments for Ontario’s future – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/get-the-facts-on-opgs-proposed-wesleyville-nuclear-project-in-port-hope/",
+   "title": "Our story | Get the facts on OPG’s proposed Wesleyville nuclear project in Port Hope – OPG",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/opgs-sir-adam-beck-i-hydro-station-gets-major-delivery-for-unit-refurbishment/",
+   "title": "Our story | OPG’s Sir Adam Beck I hydro station gets major delivery for unit refurbishment – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/opg-continues-preparing-for-ontarios-next-major-nuclear-refurbishment-at-pickering-nuclear/",
+   "title": "Our story | OPG continues preparing for Ontario’s next major nuclear refurbishment at Pickering Nuclear – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/williams-treaties-first-nations-announce-landmark-investment-in-opgs-darlington-new-nuclear-project/",
+   "title": "Our story | Williams Treaties First Nations announce landmark investment in OPG’s Darlington New Nuclear Project – OPG",
+   "depth": 3,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/opgs-mallika-khurana-helping-support-pickering-refurbishment-and-women-in-engineering/",
+   "title": "Our story | OPG’s Mallika Khurana helping support Pickering Refurbishment and women in engineering – OPG",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/",
+   "title": "Our projects | Nuclear projects – OPG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/story/darlington-refurb-construction-completed-ahead-of-schedule-under-budget/",
+   "title": "Our story | Showing the world what’s possible: Darlington Refurbishment construction completed ahead of schedule, under budget – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/story/darlington-nuclear-unit-1-successfully-refurbished/",
+   "title": "Our story | Darlington Nuclear’s Unit 1 successfully refurbished months ahead of schedule – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/story/opg-employees-excellence-in-action-helps-keep-darlington-refurbishment-on-track/",
+   "title": "Our story | OPG employee’s excellence in action helps keep Darlington Refurbishment on track – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/story/opg-completes-major-life-extension-project-at-darlington-nuclear-generating-station/",
+   "title": "Our story | OPG completes major life-extension project at Darlington Nuclear Generating Station – OPG",
+   "depth": 3,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/story/opgs-peter-crate-helping-execute-important-hydro-refurbishments-for-ontarios-future/",
+   "title": "Our story | OPG’s Peter Crate helping execute important hydro refurbishments for Ontario’s future – OPG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/",
+   "title": "Projects & services | Our projects – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/",
+   "title": "Our projects | Nuclear projects – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/opg-provides-early-community-funding-to-support-exploration-of-new-generation-at-lambton-site/",
+   "title": "Our story | OPG provides early community funding to support exploration of new generation at Lambton site – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/powering-positive-change-opgs-community-impact-goes-far-beyond-electricity/",
+   "title": "Our story | Powering positive change: OPG’s community impact goes far beyond electricity – OPG",
+   "depth": 3,
+   "docs": 4
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/opg-announces-early-community-funding-to-explore-new-generation-at-nanticoke-site/",
+   "title": "Our story | OPG announces early community funding to explore new generation at Nanticoke site – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/opgs-environmental-stewardship-in-action/",
+   "title": "Our story | OPG’s environmental stewardship in action – OPG",
+   "depth": 3,
+   "docs": 4
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/meet-the-colossal-crane-doing-the-heavy-lifting-for-the-first-smr-in-the-g7/",
+   "title": "Our story | Meet the colossal crane doing the heavy lifting for the first SMR in the G7 – OPG",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/laying-the-foundation-for-the-g7s-first-small-modular-reactor/",
+   "title": "Our story | Laying the foundation for the G7’s first Small Modular Reactor – OPG",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/",
+   "title": "Small modular reactors | Darlington SMR – OPG",
+   "depth": 3,
+   "docs": 39
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/story/meet-the-colossal-crane-doing-the-heavy-lifting-for-the-first-smr-in-the-g7/",
+   "title": "Our story | Meet the colossal crane doing the heavy lifting for the first SMR in the G7 – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/story/williams-treaties-first-nations-announce-landmark-investment-in-opgs-darlington-new-nuclear-project/",
+   "title": "Our story | Williams Treaties First Nations announce landmark investment in OPG’s Darlington New Nuclear Project – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/story/opg-continues-preparing-for-ontarios-next-major-nuclear-refurbishment-at-pickering-nuclear/",
+   "title": "Our story | OPG continues preparing for Ontario’s next major nuclear refurbishment at Pickering Nuclear – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/story/laying-the-foundation-for-the-g7s-first-small-modular-reactor/",
+   "title": "Our story | Laying the foundation for the G7’s first Small Modular Reactor – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/a-living-legacy-opg-celebrates-supporting-more-than-10-million-trees-planted-since-2000/",
+   "title": "Our story | A living legacy: OPG celebrates supporting more than 10 million trees planted since 2000 – OPG",
+   "depth": 3,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/story/opg-announces-early-community-funding-to-explore-new-generation-at-nanticoke-site/",
+   "title": "Our story | OPG announces early community funding to explore new generation at Nanticoke site – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/new-generation-opportunities/",
+   "title": "Our projects | New generation opportunities – OPG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/new-generation-opportunities/story/opg-working-with-port-hope-indigenous-nations-to-explore-new-nuclear-generation-at-wesleyville-site/",
+   "title": "Our story | OPG set to begin working with Port Hope, First Nations to explore new nuclear generation at Wesleyville site – OPG",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/new-generation-opportunities/story/opgs-peter-crate-helping-execute-important-hydro-refurbishments-for-ontarios-future/",
+   "title": "Our story | OPG’s Peter Crate helping execute important hydro refurbishments for Ontario’s future – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/new-generation-opportunities/story/opg-provides-early-community-funding-to-support-exploration-of-new-generation-at-lambton-site/",
+   "title": "Our story | OPG provides early community funding to support exploration of new generation at Lambton site – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/new-generation-opportunities/story/opg-announces-early-community-funding-to-explore-new-generation-at-nanticoke-site/",
+   "title": "Our story | OPG announces early community funding to explore new generation at Nanticoke site – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/clean-hydrogen/",
+   "title": "Our projects | Clean hydrogen – OPG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/clean-hydrogen/story/supplier-spotlight-nuclear-promise-x-delivering-sustainability-through-digital-innovation/",
+   "title": "Our story | Supplier spotlight: Nuclear Promise X delivering sustainability through digital innovation – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/clean-hydrogen/story/williams-treaties-first-nations-announce-landmark-investment-in-opgs-darlington-new-nuclear-project/",
+   "title": "Our story | Williams Treaties First Nations announce landmark investment in OPG’s Darlington New Nuclear Project – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/clean-hydrogen/story/opg-continues-preparing-for-ontarios-next-major-nuclear-refurbishment-at-pickering-nuclear/",
+   "title": "Our story | OPG continues preparing for Ontario’s next major nuclear refurbishment at Pickering Nuclear – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/",
+   "title": "Nuclear projects | Darlington refurbishment project – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/clean-hydrogen/story/opg-announces-early-community-funding-to-explore-new-generation-at-nanticoke-site/",
+   "title": "Our story | OPG announces early community funding to explore new generation at Nanticoke site – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/energy-storage/",
+   "title": "Our projects | Energy storage – OPG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/",
+   "title": "New generation opportunities | Wesleyville – OPG",
+   "depth": 2,
+   "docs": 15
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/story/drones-divers-and-goats-help-keep-opgs-operations-running-smoothly/",
+   "title": "Our story | Drones, divers, and goats help keep OPG’s operations running smoothly – OPG",
+   "depth": 3,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/new-generation-opportunities//",
+   "title": "Our projects | New generation opportunities – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/new-generation-opportunities/",
+   "title": "Our projects | New generation opportunities – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/clean-hydrogen/",
+   "title": "Our projects | Clean hydrogen – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville//",
+   "title": "New generation opportunities | Wesleyville – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/indigenous-relations/",
+   "title": "Our commitments in action | Indigenous relations – OPG",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/indigenous-relations/story/williams-treaties-first-nations-announce-landmark-investment-in-opgs-darlington-new-nuclear-project/",
+   "title": "Our story | Williams Treaties First Nations announce landmark investment in OPG’s Darlington New Nuclear Project – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/indigenous-relations/story/opg-welcomes-future-indigenous-tradeswomen-to-r-h-saunders-station/",
+   "title": "Our story | OPG welcomes future Indigenous tradeswomen to R.H. Saunders station – OPG",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/indigenous-relations/story/opgs-peter-crate-helping-execute-important-hydro-refurbishments-for-ontarios-future/",
+   "title": "Our story | OPG’s Peter Crate helping execute important hydro refurbishments for Ontario’s future – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/indigenous-relations/indigenous-partnerships/",
+   "title": "Indigenous relations | Our Indigenous partnerships – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/indigenous-relations/indigenous-partnerships/story/williams-treaties-first-nations-announce-landmark-investment-in-opgs-darlington-new-nuclear-project/",
+   "title": "Our story | Williams Treaties First Nations announce landmark investment in OPG’s Darlington New Nuclear Project – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/indigenous-relations/indigenous-partnerships/story/opg-welcomes-future-indigenous-tradeswomen-to-r-h-saunders-station/",
+   "title": "Our story | OPG welcomes future Indigenous tradeswomen to R.H. Saunders station – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/indigenous-relations/indigenous-partnerships/story/indigenous-artist-provides-an-inspiring-new-look-at-opgs-lennox-station/",
+   "title": "Our story | Indigenous artist provides an inspiring new look at OPG’s Lennox station – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/indigenous-relations/story/opg-continues-preparing-for-ontarios-next-major-nuclear-refurbishment-at-pickering-nuclear/",
+   "title": "Our story | OPG continues preparing for Ontario’s next major nuclear refurbishment at Pickering Nuclear – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/indigenous-relations/story/opgs-mallika-khurana-helping-support-pickering-refurbishment-and-women-in-engineering/",
+   "title": "Our story | OPG’s Mallika Khurana helping support Pickering Refurbishment and women in engineering – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/indigenous-relations/story/indigenous-artist-provides-an-inspiring-new-look-at-opgs-lennox-station/",
+   "title": "Our story | Indigenous artist provides an inspiring new look at OPG’s Lennox station – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/indigenous-relations/programs-and-initiatives/indigenous-opportunities-network/",
+   "title": "Indigenous programs and initiatives | Indigenous Opportunities Network – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/indigenous-relations/programs-and-initiatives/",
+   "title": "Indigenous relations | Indigenous programs and initiatives – OPG",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/protecting-the-environment/",
+   "title": "Our commitments in action | Protecting the environment – OPG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/protecting-the-environment/story/a-critical-milestone-achieved-for-otto-holden-hydro-stations-refurbishment/",
+   "title": "Our story | A critical milestone achieved for Otto Holden hydro station’s refurbishment – OPG",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/protecting-the-environment/story/opgs-peter-crate-helping-execute-important-hydro-refurbishments-for-ontarios-future/",
+   "title": "Our story | OPG’s Peter Crate helping execute important hydro refurbishments for Ontario’s future – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/about-us/our-commitments/protecting-the-environment/story/powering-positive-change-opgs-community-impact-goes-far-beyond-electricity/",
+   "title": "Our story | Powering positive change: OPG’s community impact goes far beyond electricity – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/story/eight-opg-hydro-stations-to-undergo-life-extending-refurbishments-in-eastern-ontario/",
+   "title": "Our story | Eight OPG hydro stations to undergo life-extending refurbishments in eastern Ontario – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/electrification/",
+   "title": "Our projects | Electrification – OPG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/electrification/story/opg-announces-early-community-funding-to-explore-new-generation-at-nanticoke-site/",
+   "title": "Our story | OPG announces early community funding to explore new generation at Nanticoke site – OPG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/electrification/story/opgs-environmental-stewardship-in-action/",
+   "title": "Our story | OPG’s environmental stewardship in action – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/electrification/story/opg-provides-early-community-funding-to-support-exploration-of-new-generation-at-lambton-site/",
+   "title": "Our story | OPG provides early community funding to support exploration of new generation at Lambton site – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/electrification/story/drones-divers-and-goats-help-keep-opgs-operations-running-smoothly/",
+   "title": "Our story | Drones, divers, and goats help keep OPG’s operations running smoothly – OPG",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.opg.com/projects-services/projects/large-industry/",
+   "title": "Our projects | Large industry – OPG",
+   "depth": 1,
+   "docs": 0
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://www.opg.com/documents/darlington-refurb-graphic-economic-impact-pdf/",
+   "title": "economic benefits to Ontario",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/"
+  },
+  {
+   "url": "https://www.opg.com/documents/ontarios-nuclear-supply-chain-pdf/",
+   "title": "Ontario’s Nuclear Supply Chain companies",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/"
+  },
+  {
+   "url": "https://www.opg.com/documents/darlington-refurb-graphic-greenhouse-gas-reduction-pdf/",
+   "title": "reduction in greenhouse gas (GHG) emissions",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/"
+  },
+  {
+   "url": "https://archive.opg.com/pdf_archive/Media%20Releases/H035_20171121_FAO_NuclearRefurbishment.pdf",
+   "title": "An Assessment of the Financial Risks of the Nuclear Refurbishment Plan",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/"
+  },
+  {
+   "url": "https://www.opg.com/documents/bingham-chute-notice-of-project-screening-march-2025-pdf/",
+   "title": "Notice of Project Screening (PDF)",
+   "type": "screening",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/bingham-chute-redevelopment/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/04/20260416_145611.jpg",
+   "title": "20260416_145611.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opgs-sir-adam-beck-i-hydro-station-gets-major-delivery-for-unit-refurbishment/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/06/Beck-Tailrace-deck-1.jpg",
+   "title": "beck-tailrace-deck-1.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opgs-sir-adam-beck-i-hydro-station-gets-major-delivery-for-unit-refurbishment/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/07/20260703_032542000_iOS-1.jpg",
+   "title": "20260703_032542000_ios-1.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opgs-peter-crate-helping-execute-important-hydro-refurbishments-for-ontarios-future/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/07/20260729_201104694_iOS.jpg",
+   "title": "20260729_201104694_ios.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opgs-peter-crate-helping-execute-important-hydro-refurbishments-for-ontarios-future/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2023/07/034-Power1.svg",
+   "title": "034-power1.svg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opgs-peter-crate-helping-execute-important-hydro-refurbishments-for-ontarios-future/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/07/peter-crate-2.jpg",
+   "title": "peter-crate-2.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opgs-peter-crate-helping-execute-important-hydro-refurbishments-for-ontarios-future/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/07/20260729_201104601_iOS.jpg",
+   "title": "20260729_201104601_ios.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opgs-peter-crate-helping-execute-important-hydro-refurbishments-for-ontarios-future/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2025/06/barrett-chute-refurb.jpg",
+   "title": "barrett-chute-refurb.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opgs-barrett-chute-hydro-station-set-to-deliver-decades-more-clean-power-after-successful-refurbishment/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2025/06/barrett-chute-stator-complete.jpg",
+   "title": "barrett-chute-stator-complete.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opgs-barrett-chute-hydro-station-set-to-deliver-decades-more-clean-power-after-successful-refurbishment/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2023/07/BarrettChute_118.jpg",
+   "title": "barrettchute_118.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opgs-barrett-chute-hydro-station-set-to-deliver-decades-more-clean-power-after-successful-refurbishment/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2019/10/Des-Joachims.jpg",
+   "title": "des-joachims.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/eight-opg-hydro-stations-to-undergo-life-extending-refurbishments-in-eastern-ontario/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2019/03/Chenaux_Hydro_Station_Module_Feature.jpg",
+   "title": "chenaux_hydro_station_module_feature.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/eight-opg-hydro-stations-to-undergo-life-extending-refurbishments-in-eastern-ontario/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/05/DSC4285.jpg",
+   "title": "dsc4285.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opg-advancing-refurbishment-of-r-h-saunders-gs-ontarios-second-largest-hydro-station/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2023/03/Runner-Pull-G9-Feb-2023.jpeg",
+   "title": "runner-pull-g9-feb-2023.jpeg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opg-advancing-refurbishment-of-r-h-saunders-gs-ontarios-second-largest-hydro-station/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/05/DSC5733.jpg",
+   "title": "dsc5733.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opg-advancing-refurbishment-of-r-h-saunders-gs-ontarios-second-largest-hydro-station/"
+  },
+  {
+   "url": "https://www.opg.com/documents/neighbours-newsletter-matabitchuan-gs-spring-summer-2026-pdf/",
+   "title": "Download PDF (4MB) - English",
+   "type": "newsletter",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/matabitchuan-redevelopment/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/06/Neighbours_Newsletter_Spring_2026_Matabitchuan_GS-ua.pdf",
+   "title": "Download PDF (4MB) - English",
+   "type": "newsletter",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/matabitchuan-redevelopment/"
+  },
+  {
+   "url": "https://www.opg.com/documents/transport-canada-public-notice-kakabeka-redevelopment-project-feb-2025-pdf/",
+   "title": "Transport Canada Public Notice - Feb. 2025 (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/kakabeka/"
+  },
+  {
+   "url": "https://www.opg.com/documents/neighbours-newsletter-llds-winter-2024-pdf/",
+   "title": "Download PDF (694KB) - English",
+   "type": "newsletter",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/03/LLDS-Neighbours-Winter-R004-AODA-final.pdf",
+   "title": "Download PDF (694KB) - English",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/"
+  },
+  {
+   "url": "https://www.opg.com/documents/neighbours-newsletter-llds-spring-2023-pdf/",
+   "title": "Neighbours Newsletter – LLDS – Spring 2023 (PDF)",
+   "type": "newsletter",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/"
+  },
+  {
+   "url": "https://www.opg.com/documents/neighbours-newsletter-llds-spring-2022/",
+   "title": "Neighbours Newsletter – LLDS – Spring 2022 (PDF)",
+   "type": "newsletter",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/"
+  },
+  {
+   "url": "https://www.opg.com/documents/neighbours-newsletter-llds-summer-2021/",
+   "title": "Neighbours Newsletter – LLDS – Summer 2021 (PDF)",
+   "type": "newsletter",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/"
+  },
+  {
+   "url": "https://www.opg.com/documents/neighbours-newsletter-llds-winter-2021/",
+   "title": "Neighbours Newsletter – LLDS – Winter 2021 (PDF)",
+   "type": "newsletter",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/"
+  },
+  {
+   "url": "https://www.opg.com/documents/neighbours-newsletter-llds-winter-2020/",
+   "title": "Neighbours Newsletter – LLDS – Winter 2020 (PDF)",
+   "type": "newsletter",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/11/Seed-Collection-2.jpg",
+   "title": "seed-collection-2.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/story/seed-collection-workshops-help-prepare-for-site-rehabilitation-at-opgs-little-long-and-smoky-falls-dam-safety-projects/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/11/Image-14.jpg",
+   "title": "image-14.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/story/seed-collection-workshops-help-prepare-for-site-rehabilitation-at-opgs-little-long-and-smoky-falls-dam-safety-projects/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/11/Image-10.jpg",
+   "title": "image-10.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/story/seed-collection-workshops-help-prepare-for-site-rehabilitation-at-opgs-little-long-and-smoky-falls-dam-safety-projects/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/10/2024-05-04-Adam-Creek-30-Copy-1.jpg",
+   "title": "2024-05-04-adam-creek-30-copy-1.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/story/opgs-little-long-dam-safety-project-receives-industry-recognition-of-excellence/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/10/IMG_6334b-1.jpg",
+   "title": "img_6334b-1.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/story/opgs-little-long-dam-safety-project-receives-industry-recognition-of-excellence/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2023/12/2023-05-03-3.jpg",
+   "title": "2023-05-03-3.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/story/important-dam-safety-project-nearing-completion-in-northeast-ontario/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2023/12/20220518_150135.jpg",
+   "title": "20220518_150135.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/story/important-dam-safety-project-nearing-completion-in-northeast-ontario/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2023/12/2023-11-21-49.jpg",
+   "title": "2023-11-21-49.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/little-long/story/important-dam-safety-project-nearing-completion-in-northeast-ontario/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2025/09/Video-Project-10.gif",
+   "title": "video-project-10.gif",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/high-tech-otter-vessel-maps-what-lies-beneath-at-opgs-hydro-stations/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2025/09/57316ND1-Survey-1.jpeg",
+   "title": "57316nd1-survey-1.jpeg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/high-tech-otter-vessel-maps-what-lies-beneath-at-opgs-hydro-stations/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2025/09/28353Bathymetric-Survey-Collected-at-Calabogie-pre-processing-closeup-1.jpg",
+   "title": "28353bathymetric-survey-collected-at-calabogie-pre-processing-closeup-1.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/high-tech-otter-vessel-maps-what-lies-beneath-at-opgs-hydro-stations/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2025/09/9069-Team-Pic-1.png",
+   "title": "9069-team-pic-1.png",
+   "type": "open_house",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/high-tech-otter-vessel-maps-what-lies-beneath-at-opgs-hydro-stations/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/07/CMN-May2026-Modular-by-design_20260504_175337869_iOS.jpg",
+   "title": "cmn-may2026-modular-by-design_20260504_175337869_ios.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opg-continues-preparing-for-ontarios-next-major-nuclear-refurbishment-at-pickering-nuclear/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/07/U6-RSG1-Rounding-Ring-1.jpg",
+   "title": "u6-rsg1-rounding-ring-1.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opg-continues-preparing-for-ontarios-next-major-nuclear-refurbishment-at-pickering-nuclear/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/04/Pickering-Refurb_edit-2.jpg",
+   "title": "pickering-refurb_edit-2.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opg-continues-preparing-for-ontarios-next-major-nuclear-refurbishment-at-pickering-nuclear/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/08/Station-Photo-Hi-Res.jpg",
+   "title": "station-photo-hi-res.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opg-provides-early-community-funding-to-support-exploration-of-new-generation-at-lambton-site/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/07/Nanticoke-Img-13.jpg",
+   "title": "nanticoke-img-13.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/opg-announces-early-community-funding-to-explore-new-generation-at-nanticoke-site/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2023/07/Barrett-Chute-Unit-4-assembly.jpg",
+   "title": "barrett-chute-unit-4-assembly.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/barrett-chute-hydro-station-now-halfway-through-major-unit-overhauls/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2023/07/Barrett-Chute-completed-turbine-pit.jpg",
+   "title": "barrett-chute-completed-turbine-pit.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/story/barrett-chute-hydro-station-now-halfway-through-major-unit-overhauls/"
+  },
+  {
+   "url": "https://www.opg.com/documents/made-in-ontario-northern-hydroelectric-opportunities-pdf/",
+   "title": "Download PDF (7MB) - English",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/new-hydro/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2023/02/Northern-Hydro-Opportunities-Report-2022-FINAL-ua.pdf",
+   "title": "Download PDF (7MB) - English",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/new-hydro/"
+  },
+  {
+   "url": "https://www.opg.com/documents/neighbours-newsletter-sfds-winter-2025-pdf/",
+   "title": "Download PDF (1MB) - English",
+   "type": "newsletter",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/smoky-falls/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2025/01/Smoky_Falls_Neighbours_-_Winter_2025_Final_FINAL-ua.pdf",
+   "title": "Download PDF (1MB) - English",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/smoky-falls/"
+  },
+  {
+   "url": "https://www.opg.com/documents/neighbours-newsletter-sfds-summer-2023-pdf/",
+   "title": "Neighbours Newsletter - Summer 2023 (PDF)",
+   "type": "newsletter",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/smoky-falls/"
+  },
+  {
+   "url": "https://www.opg.com/documents/neighbours-newsletter-sfds-fall-2022-pdf/",
+   "title": "Neighbours Newsletter - Fall 2022 (PDF)",
+   "type": "newsletter",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/smoky-falls/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2022/06/05-15-2022-SFDS-Bedard1.jpg",
+   "title": "05-15-2022-sfds-bedard1.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/smoky-falls/story/opg-investing-in-safety-and-climate-change-preparation-with-smoky-falls-dam-safety-project/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2022/06/05-15-2022-SFDS-St-Louis-2.jpg",
+   "title": "05-15-2022-sfds-st-louis-2.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/smoky-falls/story/opg-investing-in-safety-and-climate-change-preparation-with-smoky-falls-dam-safety-project/"
+  },
+  {
+   "url": "https://www.opg.com/documents/neighbours-newsletter-fhld-winter-2026-pdf/",
+   "title": "Download PDF (2MB) - English",
+   "type": "newsletter",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/frederick-house-lake-dam-rehab/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/01/Frederick_House_Winter_2026_Neighbours_R005_RGB_FINAL-ua.pdf",
+   "title": "Download PDF (2MB) - English",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/frederick-house-lake-dam-rehab/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/04/Blue-Heron-Env-1.jpg",
+   "title": "blue-heron-env-1.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/frederick-house-lake-dam-rehab/story/local-company-keeping-environmental-monitoring-on-track-at-opgs-frederick-house-lake-dam/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/04/frederick-house-lake-dam-project.jpg",
+   "title": "frederick-house-lake-dam-project.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/frederick-house-lake-dam-rehab/story/local-company-keeping-environmental-monitoring-on-track-at-opgs-frederick-house-lake-dam/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/04/frederick-house-lake-dam2.jpg",
+   "title": "frederick-house-lake-dam2.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/hydroelectric-development/frederick-house-lake-dam-rehab/story/local-company-keeping-environmental-monitoring-on-track-at-opgs-frederick-house-lake-dam/"
+  },
+  {
+   "url": "https://www.opg.com/documents/2026-second-quarter-financial-results-pdf/",
+   "title": "Download PDF (4MB) - English",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/release/opg-reports-2026-second-quarter-financial-results/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/08/2026_Q2_OPG_PR_MDA__FS_-_FINAL_FINAL_secured.pdf",
+   "title": "Download PDF (4MB) - English",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/release/opg-reports-2026-second-quarter-financial-results/"
+  },
+  {
+   "url": "https://www.opg.com/documents/2026-first-quarter-financial-results-pdf/",
+   "title": "Download PDF (3MB) - English",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/release/opg-reports-2026-first-quarter-financial-results/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/05/2026_Q1_OPG_PR_MDA__FS_-_FINAL_FINAL-ua.pdf",
+   "title": "Download PDF (3MB) - English",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/release/opg-reports-2026-first-quarter-financial-results/"
+  },
+  {
+   "url": "https://www.opg.com/documents/2025-fourth-quarter-financial-results-pdf/",
+   "title": "Download PDF (4MB) - English",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/release/opg-reports-2025-fourth-quarter-financial-results/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/03/2025_Q4_OPG_PR_MDA_FS_-_FINAL_FINAL-ua.pdf",
+   "title": "Download PDF (4MB) - English",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/release/opg-reports-2025-fourth-quarter-financial-results/"
+  },
+  {
+   "url": "https://www.opg.com/documents/2025-third-quarter-financial-results-pdf/",
+   "title": "Download PDF (2MB) - English",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/release/opg-reports-2025-third-quarter-financial-results/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2025/11/Q3_2025_OPG_PR_MDA__FS_-_FINAL_FINAL-ua.pdf",
+   "title": "Download PDF (2MB) - English",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/release/opg-reports-2025-third-quarter-financial-results/"
+  },
+  {
+   "url": "https://www.opg.com/documents/dngs-refurbishment-project-executive-summary-environmental-impact-statement/",
+   "title": "Environmental Assessment (EA)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/whats-involved/"
+  },
+  {
+   "url": "https://www.opg.com/documents/synopsis-of-the-darlington-integrated-safety-review/",
+   "title": "Integrated Safety Review (ISR)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/whats-involved/"
+  },
+  {
+   "url": "https://www.opg.com/documents/darlington-ngs-global-assessment-report-gar/",
+   "title": "Global Assessment Report (GAR)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/whats-involved/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/10/190710_Rick-Radell_OPG_0560.jpg",
+   "title": "190710_rick-radell_opg_0560.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/mock-up-and-training/story/darlington-nuclear-unit-1-successfully-refurbished/"
+  },
+  {
+   "url": "https://www.conferenceboard.ca/wp-content/uploads/woocommerce_uploads/reports/8361_ContinuedOperation-Darlington_BR_ENG.pdf",
+   "title": "independent report",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/mock-up-and-training/story/darlington-nuclear-unit-1-successfully-refurbished/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2023/06/Darlington_Nuclear_Aerial_2732.jpg",
+   "title": "darlington_nuclear_aerial_2732.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/mock-up-and-training/story/darlington-nuclear-unit-1-successfully-refurbished/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/09/20240815_141202.jpg",
+   "title": "20240815_141202.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/mock-up-and-training/story/opg-employees-excellence-in-action-helps-keep-darlington-refurbishment-on-track/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2023/07/Darlington_Unit3_2732.jpg",
+   "title": "darlington_unit3_2732.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/mock-up-and-training/story/opg-employees-excellence-in-action-helps-keep-darlington-refurbishment-on-track/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/09/20240813_092832.jpg",
+   "title": "20240813_092832.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/mock-up-and-training/story/opg-employees-excellence-in-action-helps-keep-darlington-refurbishment-on-track/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2025/02/OPG_Darlington_208_3C_300-min-min.jpg",
+   "title": "opg_darlington_208_3c_300-min-min.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/darlington-refurbishment/mock-up-and-training/story/darlington-refurb-construction-completed-ahead-of-schedule-under-budget/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/04/Auditorium-art-piece.jpg",
+   "title": "auditorium-art-piece.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/indigenous-artist-provides-an-inspiring-new-look-at-opgs-lennox-station/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/02/lennox-1.jpg",
+   "title": "lennox-1.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/indigenous-artist-provides-an-inspiring-new-look-at-opgs-lennox-station/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/04/kory-parkin-photo.jpg",
+   "title": "kory-parkin-photo.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/indigenous-artist-provides-an-inspiring-new-look-at-opgs-lennox-station/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2025/04/OPG_New-nuclear-site-Wesleyville.jpg",
+   "title": "opg_new-nuclear-site-wesleyville.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/get-the-facts-on-opgs-proposed-wesleyville-nuclear-project-in-port-hope/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/04/DN-IMG_5602-MedRes_2732crop.jpg",
+   "title": "dn-img_5602-medres_2732crop.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/get-the-facts-on-opgs-proposed-wesleyville-nuclear-project-in-port-hope/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/06/IMG_1041-MedRes.jpg",
+   "title": "img_1041-medres.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/williams-treaties-first-nations-announce-landmark-investment-in-opgs-darlington-new-nuclear-project/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/04/20260422_075241.jpg",
+   "title": "20260422_075241.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/williams-treaties-first-nations-announce-landmark-investment-in-opgs-darlington-new-nuclear-project/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2025/12/15thDec25_OPG_DarlingtonSMR_Marketing_Green_2732.jpg",
+   "title": "15thdec25_opg_darlingtonsmr_marketing_green_2732.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/williams-treaties-first-nations-announce-landmark-investment-in-opgs-darlington-new-nuclear-project/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/06/mallika-cropped.jpg",
+   "title": "mallika-cropped.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/opgs-mallika-khurana-helping-support-pickering-refurbishment-and-women-in-engineering/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/06/Image-9.jpg",
+   "title": "image-9.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/opgs-mallika-khurana-helping-support-pickering-refurbishment-and-women-in-engineering/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2023/07/New-EPG2-Turbine-Sept-2020.jpg",
+   "title": "new-epg2-turbine-sept-2020.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/story/opg-completes-major-life-extension-project-at-darlington-nuclear-generating-station/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2023/07/EPG1-Team.jpg",
+   "title": "epg1-team.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/story/opg-completes-major-life-extension-project-at-darlington-nuclear-generating-station/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/12/240914-OPG-1062.jpg",
+   "title": "240914-opg-1062.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/powering-positive-change-opgs-community-impact-goes-far-beyond-electricity/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/08/trades-promoting-trades-4.jpg",
+   "title": "trades-promoting-trades-4.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/powering-positive-change-opgs-community-impact-goes-far-beyond-electricity/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/09/240914-OPG-0848.jpg",
+   "title": "240914-opg-0848.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/powering-positive-change-opgs-community-impact-goes-far-beyond-electricity/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/06/10-Million-Trees-Event-Photo_snipped.jpg",
+   "title": "10-million-trees-event-photo_snipped.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/powering-positive-change-opgs-community-impact-goes-far-beyond-electricity/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/05/SEO-Morris-Island-CA-Turtle-Nesting.jpg",
+   "title": "seo-morris-island-ca-turtle-nesting.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/opgs-environmental-stewardship-in-action/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/05/SEO-Osprey-on-Chenaux-Platform.jpg",
+   "title": "seo-osprey-on-chenaux-platform.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/opgs-environmental-stewardship-in-action/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/05/SEO-Tree-Planting-with-Ottawa-Valley-Scouts-2.jpg",
+   "title": "seo-tree-planting-with-ottawa-valley-scouts-2.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/opgs-environmental-stewardship-in-action/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/05/NSS-W-great-horne-dowls.jpg",
+   "title": "nss-w-great-horne-dowls.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/opgs-environmental-stewardship-in-action/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/05/Image-1.jpeg",
+   "title": "image-1.jpeg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/meet-the-colossal-crane-doing-the-heavy-lifting-for-the-first-smr-in-the-g7/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/05/20260422_075241_crop.jpg",
+   "title": "20260422_075241_crop.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/meet-the-colossal-crane-doing-the-heavy-lifting-for-the-first-smr-in-the-g7/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/04/20260422_075402.jpg",
+   "title": "20260422_075402.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/laying-the-foundation-for-the-g7s-first-small-modular-reactor/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/04/basemat-lift-april22.png",
+   "title": "basemat-lift-april22.png",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/laying-the-foundation-for-the-g7s-first-small-modular-reactor/"
+  },
+  {
+   "url": "https://www.opg.com/documents/feasibility-of-smr-development-and-deployment-in-canada-pdf/",
+   "title": "SMR Feasibility Study",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://collections.ola.org/mon/15000/266285.pdf",
+   "title": "Ontario Power Authority’s Integrated Power System Plan",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://laws-lois.justice.gc.ca/PDF/C-15.2.pdf",
+   "title": "Canadian Environmental Assessment Act (1992)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://archive.opg.com/pdf_archive/Nuclear%20Licencing%20Documents/Darlington%20New%20Nuclear/EIS_Report_-_28Sept09.pdf",
+   "title": "Environmental Impact Statement (EIS)",
+   "type": "EA_report",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://archive.opg.com/pdf_archive/Nuclear%20Licencing%20Documents/Darlington%20New%20Nuclear/Licence_application_2009.pdf",
+   "title": "application for Licence to Prepare Site",
+   "type": "permit_approval",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://iaac-aeic.gc.ca/050/documents/55381/55381E.pdf",
+   "title": "Environmental Assessment report",
+   "type": "EA_report",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://archive.opg.com/pdf_archive/Nuclear%20Licencing%20Documents/Darlington%20New%20Nuclear/Licence_to_Prepare_Site_2012.pdf",
+   "title": "Licence to Prepare Site",
+   "type": "permit_approval",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://files.ontario.ca/books/ltep_2013_english_web.pdf",
+   "title": "2013 Long-Term Energy Plan",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://archive.opg.com/pdf_archive/Nuclear%20Licencing%20Documents/Darlington%20New%20Nuclear/Midterm_Report.pdf",
+   "title": "Mid-Term report",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://archive.opg.com/pdf_archive/Nuclear%20Licencing%20Documents/Darlington%20New%20Nuclear/Commitments_Report.pdf",
+   "title": "commitments made by OPG",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://archive.opg.com/pdf_archive/Nuclear%20Licencing%20Documents/Darlington%20New%20Nuclear/Letter_of_Intent_to_Renew_Licence.pdf",
+   "title": "notification to the CNSC",
+   "type": "permit_approval",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://archive.opg.com/pdf_archive/Nuclear%20Licencing%20Documents/Darlington%20New%20Nuclear/Licence_Renewal_Plan.pdf",
+   "title": "Site Preparation Licence Renewal Plan",
+   "type": "permit_approval",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/document/dnn-application-for-renewal-of-site-preparation-licence/",
+   "title": "an application",
+   "type": "permit_approval",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/document/dnn-aggregate-assessment-report-in-support-of-licence-application/",
+   "title": "Aggregate Assessment Report in support of licence application",
+   "type": "permit_approval",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/dnnp-application-for-a-licence-to-operate-pdf/",
+   "title": "application for this licence",
+   "type": "permit_approval",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/opg-stakeholder-engagement-2025-what-weve-heard-report-pdf/",
+   "title": "Nuclear Stakeholder Engagement 2025: What We’ve Heard Report (PDF)",
+   "type": "engagement",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/dnnp-bwrx-300-pre-operational-safety-analysis-report-pdf/",
+   "title": "DNNP: BWRX-300 Pre-Operational Safety Analysis Report (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/dnnp-site-evaluation-update-summary-report-pdf/",
+   "title": "DNNP: Site Evaluation Update Summary Report (PDF)",
+   "type": "newsletter",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/predictive-environmental-risk-assessment-for-dnnp-pdf/",
+   "title": "Predictive Environmental Risk Assessment for DNNP (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/dnnp-ltc-stakeholder-engagement-2023-2024-what-weve-heard-report-pdf/",
+   "title": "DNNP Licence to Construct Stakeholder Engagement 2023-2024: What We’ve Heard Report (PDF)",
+   "type": "permit_approval",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/opg-commission-member-document-public-hearing-part-1-oct-2024-pdf/",
+   "title": "OPG Commission Member Document – Public Hearing Part 1 – October 2024 (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/cnsc-record-of-decision-dnnp-chosen-reactor-technology-pdf/",
+   "title": "CNSC Record of Decision on the Determination of Applicability of Darlington New Nuclear Project Environmental Assessment to OPG’s Chosen Reactor Technology (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/dnnp-supporting-document-for-comprehensive-review-of-eis-for-bwrx-300-pdf/",
+   "title": "DNNP Supporting Document for Comprehensive Review of EIS for BWRX-300 (PDF)",
+   "type": "EA_report",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/updated-use-of-plant-parameters-envelope-to-encompass-the-reactor-designs-being-considered-for-the-darlington-site-pdf/",
+   "title": "Updated: Use of Plant Parameters Envelope to Encompass the Reactor Designs being considered for the Darlington Site (PDF)",
+   "type": "newsletter",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/opg-commission-member-document-public-hearing-january-2024-pdf/",
+   "title": "OPG Commission Member Document – Public Hearing January 2024 (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/dnnp-environmental-impact-statement-review-report-for-small-modular-reactor-bwrx-300-pdf/",
+   "title": "Updated: DNNP Environmental Impact Statement Review Report for Small Modular Reactor BWRX-300 (PDF)",
+   "type": "EA_report",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/preliminary-decommissioning-plan-dnnp-end-of-life-pdf/",
+   "title": "Preliminary Decommissioning Plan – DNNP – End of Life (PDF)",
+   "type": "closure",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/preliminary-decommissioning-plan-dnnp-as-built-facility-pdf/",
+   "title": "Preliminary Decommissioning Plan – DNNP – As Built Facility (PDF)",
+   "type": "closure",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/dnnp-application-for-a-licence-to-construct-a-reactor-facility-pdf/",
+   "title": "OPG’s Application for a Licence to Construct a Reactor Facility to the CNSC (PDF)",
+   "type": "permit_approval",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/dnnp-bwrx-300-preliminary-safety-analysis-report-pdf/",
+   "title": "DNNP: BWRX-300 Preliminary Safety Analysis Report (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/dnnp-licence-to-construct-application-plan-pdf/",
+   "title": "Licence to Construct Application Plan (PDF)",
+   "type": "permit_approval",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/request-for-acceptance-of-opgs-financial-guarantee-for-dnnp-site-preparation-licensing-conditions-pdf/",
+   "title": "Request for Acceptance of OPG’s Financial Guarantee for DNNP Site Preparation Licensing Conditions (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/cnsc-record-of-decision-to-renew-opgs-site-preparation-licence-october-2021/",
+   "title": "CNSC Record of Decision for OPG’s application to renew our Site Preparation Licence (PDF)",
+   "type": "permit_approval",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/opg-commission-member-document-march-2021-pdf/",
+   "title": "OPG Commission Member Document (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/dnnp-notice-of-intent-for-submission-of-licence-to-construct-application/",
+   "title": "Notice of Intent for Submission of Licence to Construct Application (PDF)",
+   "type": "permit_approval",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://archive.opg.com/pdf_archive/Nuclear%20Licencing%20Documents/Darlington%20New%20Nuclear/Environmental_Risk_Assessment.pdf",
+   "title": "Darlington Site Environmental Risk Assessment (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/documents/darlington-probabilistic-safety-assessment-pdf/",
+   "title": "Darlington Station Probabilistic Safety Assessment Summary (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://archive.opg.com/pdf_archive/Nuclear%20Licencing%20Documents/Darlington%20New%20Nuclear/Archeological_Report.pdf",
+   "title": "Stage 4 Archaeological Mitigative Excavation of the Brady Site (ALGQ-83) – Darlington New Nuclear EA (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://iaac-aeic.gc.ca/050/documents/55382/55382E.pdf",
+   "title": "EA Report Summary",
+   "type": "EA_report",
+   "page": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/04/Ontario_Power_Generation_Inc__OPG_and_partners_celebrate_plantin.jpg",
+   "title": "ontario_power_generation_inc__opg_and_partners_celebrate_plantin.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/a-living-legacy-opg-celebrates-supporting-more-than-10-million-trees-planted-since-2000/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2025/02/Tree-Planting-PNDS-2018-5781_crop.jpg",
+   "title": "tree-planting-pnds-2018-5781_crop.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/a-living-legacy-opg-celebrates-supporting-more-than-10-million-trees-planted-since-2000/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/04/tree-planting.png",
+   "title": "tree-planting.png",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/a-living-legacy-opg-celebrates-supporting-more-than-10-million-trees-planted-since-2000/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/12/IMG-20231119-WA0000.jpg",
+   "title": "img-20231119-wa0000.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/story/opg-working-with-port-hope-indigenous-nations-to-explore-new-nuclear-generation-at-wesleyville-site/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/12/shutterstock_2374181205_2732.jpg",
+   "title": "shutterstock_2374181205_2732.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/story/opg-working-with-port-hope-indigenous-nations-to-explore-new-nuclear-generation-at-wesleyville-site/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/12/shutterstock_2211158245.jpg",
+   "title": "shutterstock_2211158245.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/story/opg-working-with-port-hope-indigenous-nations-to-explore-new-nuclear-generation-at-wesleyville-site/"
+  },
+  {
+   "url": "https://www.opg.com/documents/wesleyville-stakeholder-letter-july-2026-pdf/",
+   "title": "Wesleyville Stakeholder Letter | July 2026 (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://www.opg.com/documents/wesleyville-presentation-to-northumberland-june-2026-pdf/",
+   "title": "Wesleyville Presentation to Northumberland County Council | June 2026 (PDF)",
+   "type": "presentation",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://www.opg.com/documents/wesleyville-presentation-to-port-hope-council-april-2026-pdf/",
+   "title": "Wesleyville Presentation to Port Hope Council | April 2026 (PDF)",
+   "type": "presentation",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://www.opg.com/documents/wesleyville-community-letter-spring-2026-pdf/",
+   "title": "Wesleyville Brochure | Spring 2026 (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://www.opg.com/documents/wesleyville-stakeholder-letter-january-2026-pdf/",
+   "title": "Wesleyville Stakeholder Letter | January 2026 (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://www.opg.com/documents/wesleyville-presentation-to-northumberland-county-council-november-2025-pdf/",
+   "title": "Wesleyville Presentation to Northumberland County Council | November 2025 (PDF)",
+   "type": "presentation",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://www.opg.com/documents/wesleyville-community-letter-fall-2025-pdf/",
+   "title": "Wesleyville Community Letter | Fall 2025 (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://www.opg.com/documents/wesleyville-presentation-to-phc-sept-2025-pdf/",
+   "title": "Wesleyville Presentation to Port Hope Council | September 2025 (PDF)",
+   "type": "presentation",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://www.opg.com/documents/wesleyville-presentation-to-port-hope-council-may-2025-pdf/",
+   "title": "Wesleyville Presentation to Port Hope Council | May 2025 (PDF)",
+   "type": "presentation",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://www.opg.com/documents/wesleyville-public-information-sessions-materials-april-2025-pdf/",
+   "title": "Wesleyville Public Information Sessions Materials | April 2025 (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://www.opg.com/documents/wesleyville-mailer-spring-2025-pdf/",
+   "title": "Wesleyville Community Letter | Spring 2025 (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://www.opg.com/documents/cboc-economic-impact-of-potential-nuclear-pdf/",
+   "title": "Conference Board of Canada: Economic Impact of Potential Nuclear | January 2025 (PDF)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://iaac-aeic.gc.ca/050/evaluations/document/164907",
+   "title": "Initial Project Description for New Nuclear at Wesleyville in Port Hope and its summary",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://iaac-aeic.gc.ca/050/evaluations/document/165072",
+   "title": "Summary of Issues (SOI)",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://iaac-aeic.gc.ca/050/evaluations/document/167085",
+   "title": "Tailored Impact Statement Guidelines",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/new-generation-opportunities/wesleyville/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2024/11/drone-1.jpg",
+   "title": "drone-1.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/drones-divers-and-goats-help-keep-opgs-operations-running-smoothly/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2019/03/dive-team-in-action.jpg",
+   "title": "dive-team-in-action.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/drones-divers-and-goats-help-keep-opgs-operations-running-smoothly/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2021/07/G5.jpg",
+   "title": "g5.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/projects-services/projects/story/drones-divers-and-goats-help-keep-opgs-operations-running-smoothly/"
+  },
+  {
+   "url": "https://www.opg.com/document/indigenous-relations-policy-pdf/",
+   "title": "Indigenous Relations Policy",
+   "type": "engagement",
+   "page": "https://www.opg.com/about-us/our-commitments/indigenous-relations/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/03/Iohahiio-Women-in-Trades-Class-Group-Shot-March-4-2026.jpeg",
+   "title": "iohahiio-women-in-trades-class-group-shot-march-4-2026.jpeg",
+   "type": "other",
+   "page": "https://www.opg.com/about-us/our-commitments/indigenous-relations/story/opg-welcomes-future-indigenous-tradeswomen-to-r-h-saunders-station/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/03/Amanda-Jacobs-Brothers-Tour-of-Saunders-Powerhouse.jpeg",
+   "title": "amanda-jacobs-brothers-tour-of-saunders-powerhouse.jpeg",
+   "type": "other",
+   "page": "https://www.opg.com/about-us/our-commitments/indigenous-relations/story/opg-welcomes-future-indigenous-tradeswomen-to-r-h-saunders-station/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/03/Trent-Desaulniers-Tour-of-Saunders-Machine-Shop.png",
+   "title": "trent-desaulniers-tour-of-saunders-machine-shop.png",
+   "type": "other",
+   "page": "https://www.opg.com/about-us/our-commitments/indigenous-relations/story/opg-welcomes-future-indigenous-tradeswomen-to-r-h-saunders-station/"
+  },
+  {
+   "url": "https://www.opg.com/documents/indigenous-opportunities-network-ion-brochure/",
+   "title": "Indigenous Opportunities Network",
+   "type": "engagement",
+   "page": "https://www.opg.com/about-us/our-commitments/indigenous-relations/programs-and-initiatives/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2026/02/20260205_112726-rotated.jpg",
+   "title": "20260205_112726-rotated.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/about-us/our-commitments/protecting-the-environment/story/a-critical-milestone-achieved-for-otto-holden-hydro-stations-refurbishment/"
+  },
+  {
+   "url": "https://www.opg.com/wp-content/uploads/2022/06/Otto-Holden.jpg",
+   "title": "otto-holden.jpg",
+   "type": "other",
+   "page": "https://www.opg.com/about-us/our-commitments/protecting-the-environment/story/a-critical-milestone-achieved-for-otto-holden-hydro-stations-refurbishment/"
+  }
+ ],
+ "doc_types": {
+  "other": 131,
+  "screening": 1,
+  "newsletter": 14,
+  "open_house": 1,
+  "EA_report": 5,
+  "permit_approval": 12,
+  "engagement": 3,
+  "closure": 2,
+  "presentation": 5
+ },
+ "crawled_at": "2026-09-04T16:18:29Z",
+ "name": "Ontario Power Generation",
+ "via_browser": true
 }

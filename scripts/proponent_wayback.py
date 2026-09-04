@@ -24,6 +24,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -44,15 +45,30 @@ NOISE = re.compile(r'annual[-_ ]?report|financial|investor|quarterly|proxy|circu
                    r'/fr/|_fr\.|french|-fr\.pdf', re.I)
 
 
-def cdx(host, mime, page=0, timeout=180):
+def cdx(host, mime, timeout=600, tries=4):
+    """One query per host and MIME type. The CDX server is slow and
+    rate-limited (503/504 under load), so: a single large request, a long
+    timeout, and exponential backoff rather than many small pages."""
     q = urllib.parse.urlencode({
         'url': f'{host}/*', 'filter': f'mimetype:{mime}', 'collapse': 'urlkey',
         'fl': 'original,timestamp,length,statuscode', 'output': 'json',
-        'pageSize': 5, 'page': page})
+        'limit': 60000})
     req = urllib.request.Request(f'{CDX}?{q}', headers=UA)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        rows = json.load(r)
-    return rows[1:] if rows else []
+    for attempt in range(tries):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                rows = json.load(r)
+            return rows[1:] if rows else []
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 503, 504) and attempt < tries - 1:
+                time.sleep(20 * (attempt + 1))
+                continue
+            raise
+        except Exception:                                        # noqa: BLE001
+            if attempt < tries - 1:
+                time.sleep(20 * (attempt + 1))
+                continue
+            raise
 
 
 def apex(host):
@@ -64,15 +80,12 @@ def harvest(host):
     docs, seen = [], set()
     host = apex(host)
     for mime in MIMES:
-        page = 0
-        while True:
-            try:
-                rows = cdx(host, mime, page)
-            except Exception as e:                               # noqa: BLE001
-                print(f'  cdx {mime.split("/")[-1]} page {page}: {str(e)[:60]}', flush=True)
-                break
-            if not rows:
-                break
+        try:
+            rows = cdx(host, mime)
+        except Exception as e:                                   # noqa: BLE001
+            print(f'  cdx {mime.split("/")[-1]}: {str(e)[:60]}', flush=True)
+            rows = []
+        if True:
             for original, ts, length, status in rows:
                 if status not in ('200', '-') or original in seen:
                     continue
@@ -86,10 +99,7 @@ def harvest(host):
                     'type': classify('', original),
                     'noise': bool(NOISE.search(original)),
                 })
-            page += 1
-            time.sleep(1.0)
-            if page > 40:
-                break
+            time.sleep(3.0)
     return docs
 
 

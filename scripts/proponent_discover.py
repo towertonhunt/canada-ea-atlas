@@ -42,7 +42,9 @@ DELAY = 2.0
 MAX_PAGES = 250
 MAX_DEPTH = 3
 DOC_EXT = ('.pdf', '.doc', '.docx', '.xls', '.xlsx', '.ppt', '.pptx', '.zip', '.kmz', '.ashx')
-DOC_PATH = re.compile(r'/-/media/|/download|getfile|/getmedia/|/media/reports|/documents?/[^/]+$', re.I)
+MEDIA_EXT = re.compile(r'\.(jpe?g|png|gif|svg|webp|bmp|tiff?|mp4|mp3|m4a|mov|avi|css|js|ico|woff2?)$', re.I)
+DOC_PATH = re.compile(r'/-/media/|/download|getfile|/getmedia/|/media/reports|'
+                      r'/documents?/[^/]+/?$|/wp-content/uploads/', re.I)
 
 # Signals that a link leads toward the EA record. STRONG terms are followed
 # at any depth and ranked first; WEAK ones only near the top of the site,
@@ -319,6 +321,13 @@ def crawl(site, key, max_pages=MAX_PAGES, seeds=()):
         try:
             body, ctype, final = get(url)
         except Exception as e:                                   # noqa: BLE001
+            if 'Download is starting' in str(e):
+                if url not in doc_seen:
+                    doc_seen.add(url)
+                    docs.append({'url': url, 'title': os.path.basename(url.rstrip('/')),
+                                 'type': classify('', url), 'page': None})
+                n_fetch += 1
+                continue
             errors[type(e).__name__ + ': ' + str(e)[:80]] += 1
             if sum(errors.values()) <= 3:
                 print(f'  fetch failed {url[:80]}: {type(e).__name__}: {str(e)[:120]}', flush=True)
@@ -332,7 +341,7 @@ def crawl(site, key, max_pages=MAX_PAGES, seeds=()):
         page_docs = []
         for u, label in links(body, final):
             path = urllib.parse.urlsplit(u).path.lower()
-            if path.endswith(DOC_EXT) or DOC_PATH.search(path):
+            if (path.endswith(DOC_EXT) or DOC_PATH.search(path)) and not MEDIA_EXT.search(path):
                 if u not in doc_seen:
                     doc_seen.add(u)
                     d = {'url': u, 'title': label or os.path.basename(path),
