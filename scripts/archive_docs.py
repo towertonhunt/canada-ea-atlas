@@ -113,7 +113,18 @@ def key_for(jur, project, url, filename=None):
 
 
 # ── fetch ─────────────────────────────────────────────────────────────
+def clean_url(url):
+    """Some registries publish hrefs with spaces or line breaks inside them;
+    urllib refuses those outright. Strip stray whitespace and encode the rest."""
+    url = ''.join(url.split()) if '\n' in url or '\r' in url else url.strip()
+    parts = urllib.parse.urlsplit(url)
+    path = urllib.parse.quote(parts.path, safe='/%:@+,;=!$&\'()*')
+    return urllib.parse.urlunsplit((parts.scheme, parts.netloc, path,
+                                    parts.query.replace(' ', '%20'), ''))
+
+
 def fetch(url, limiter, timeout=120):
+    url = clean_url(url)
     host = urllib.parse.urlsplit(url).hostname or ''
     limiter.acquire(host)
     try:
