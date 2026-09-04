@@ -103,6 +103,15 @@ sidebars (`docs_path` property -> `data/docs/<jur>/<id>.json`).
   docs incl. 27 final ESRs, 18 draft ESRs, 46 NoCs (hand inventory had 325).
   Big proponents often use per-project microsites: feed gap-inventory project
   URLs as seeds (seed_urls in targets.json).
+- Bot walls (2026-09-04): OPG/Suncor/BHP = Cloudflare Bot Management -> every
+  headless variant 403s after the first page; `--headed` (real Chrome, local
+  only) passes. Bruce Power rejects a stale UA; the default HeadlessChrome UA
+  trips Cloudflare -> browser mode sends a current Chrome UA (check_links.UA).
+  `scripts/proponent_wayback.py` -> data/raw/proponents/wayback/<key>.json:
+  Internet Archive CDX index of every PDF/Office file ever seen on a host
+  (opg.com 5,135 / suncor.com 8,353 / brucepower.com 1,110), zero load on the
+  proponent, recovers removed files; one big query per host + backoff (CDX
+  503s under paging). bhp.com is global -> needs a Canada filter.
 - Lane discover-proponents.yml: weekly (Sun) + dispatch (top / refresh),
   budget 17000s, commits data/raw/proponents/. Discovery only -- results are
   reviewed per site before archive_docs.py / the map pick them up (next step:
