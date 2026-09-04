@@ -1,11 +1,48 @@
 #!/usr/bin/env python3
 """Split bulk document catalogues into per-project JSON files the map UI
 lazy-loads when a project sidebar opens (keeps projects_canada.geojson lean)."""
+import gzip
 import json
 import os
+import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(ROOT, 'data', 'raw')
+ARCHIVE_ONLY = '--archive-only' in sys.argv
+
+
+def attach_archive_urls():
+    """Add archive_url beside url in every catalogue entry the R2 archive
+    lane has mirrored (data/raw/archive_manifest.json.gz). Idempotent, and
+    run last so regenerated catalogues get their links back."""
+    src = os.path.join(RAW, 'archive_manifest.json.gz')
+    if not os.path.exists(src):
+        return
+    man = json.load(gzip.open(src, 'rt'))
+    n_files = n_docs = 0
+    import glob
+    for path in glob.glob(os.path.join(ROOT, 'data', 'docs', '*', '*.json')):
+        try:
+            cat = json.load(open(path))
+        except (ValueError, OSError):
+            continue
+        changed = False
+        for d in cat.get('docs') or []:
+            rec = man.get(d.get('url'))
+            au = rec.get('archive_url') if rec else None
+            if au and d.get('archive_url') != au:
+                d['archive_url'] = au
+                changed = True
+                n_docs += 1
+        if changed:
+            json.dump(cat, open(path, 'w'), ensure_ascii=False)
+            n_files += 1
+    print(f'archive links: {n_docs} added across {n_files} catalogues')
+
+
+if ARCHIVE_ONLY:
+    attach_archive_urls()
+    sys.exit(0)
 
 # ── BC EPIC ──────────────────────────────────────────────────────────
 src = os.path.join(RAW, 'bc_doc_catalogue.json')
@@ -93,3 +130,5 @@ if os.path.exists(src):
                   ensure_ascii=False)
         n += len(docs)
     print(f'ontario provincial EA: {len(os.listdir(outdir))} files, {n} docs')
+
+attach_archive_urls()

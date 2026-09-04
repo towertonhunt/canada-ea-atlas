@@ -1,0 +1,93 @@
+name: Archive documents to R2
+
+# Mirrors every document the atlas links to into the Cloudflare R2 bucket so
+# the copy we link to can never disappear. Resumable through
+# data/raw/archive_manifest.json.gz; each run works for ~5h then commits the
+# manifest. Federal (IAAC) is throttled hard by the host, so the full
+# backfill takes a couple of weeks of these runs; provincial sources finish
+# in days. After the backfill it just keeps up with new filings.
+#
+# Inputs (workflow_dispatch):
+#   smoke  - upload one tiny object and read it back through the public URL
+#   only   - comma-separated jurisdictions (federal,bc,qc,ns,on)
+#   limit  - stop after N documents (spot runs)
+
+on:
+  workflow_dispatch:
+    inputs:
+      smoke:
+        description: 'Smoke test only (upload + public read-back)'
+        type: boolean
+        default: false
+      only:
+        description: 'Jurisdictions, comma-separated (blank = all)'
+        default: ''
+      limit:
+        description: 'Max documents this run (blank = budget-bound)'
+        default: ''
+  schedule:
+    - cron: '41 */6 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-r2
+  cancel-in-progress: false
+
+env:
+  R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+  R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+  R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+  R2_BUCKET: ${{ secrets.R2_BUCKET }}
+  R2_PUBLIC_BASE: ${{ secrets.R2_PUBLIC_BASE }}
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install rclone
+        run: curl -fsSL https://rclone.org/install.sh | sudo bash >/dev/null
+
+      - name: Smoke test
+        if: ${{ inputs.smoke }}
+        run: |
+          set -e
+          export RCLONE_CONFIG_R2_TYPE=s3 RCLONE_CONFIG_R2_PROVIDER=Cloudflare
+          export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"
+          export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$R2_SECRET_ACCESS_KEY"
+          export RCLONE_CONFIG_R2_ENDPOINT="https://$R2_ACCOUNT_ID.r2.cloudflarestorage.com"
+          echo "canada-ea-atlas archive smoke test $(date -u +%FT%TZ)" > smoke.txt
+          rclone copyto smoke.txt "r2:$R2_BUCKET/_meta/smoke.txt" --s3-no-check-bucket
+          echo "uploaded; reading back via $R2_PUBLIC_BASE/_meta/smoke.txt"
+          sleep 3
+          curl -fsS "$R2_PUBLIC_BASE/_meta/smoke.txt"
+          echo "SMOKE OK"
+
+      - name: Archive documents
+        if: ${{ !inputs.smoke }}
+        run: |
+          ARGS="--budget 18000"
+          [ -n "${{ inputs.only }}" ] && ARGS="$ARGS --only ${{ inputs.only }}"
+          [ -n "${{ inputs.limit }}" ] && ARGS="$ARGS --limit ${{ inputs.limit }}"
+          python3 scripts/archive_docs.py $ARGS
+
+      - name: Attach archive links to catalogues
+        if: ${{ !inputs.smoke }}
+        run: python3 scripts/split_doc_catalogues.py --archive-only
+
+      - name: Commit
+        if: ${{ !inputs.smoke }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main || true
+            git add data/raw/archive_manifest.json.gz data/docs
+            git commit -m "Archive lane progress [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 7
+          done

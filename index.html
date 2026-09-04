@@ -174,7 +174,8 @@
       #sidebar { position: absolute; right: 0; top: 0; bottom: 0; z-index: 800; width: 100% !important; }
       #sidebar.hidden { width: 0 !important; }
     }
-  </style>
+    .doc-archive { font-size: 0.72rem; color: #6b7280; margin-top: -4px; padding-left: 14px; }
+</style>
 </head>
 <body>
 
@@ -515,6 +516,16 @@ function openSidebar(feature, marker) {
               ? doc.title.substring(0, 78) + "…" : (doc.title || "Document");
             a.textContent = doc.date ? `${title} (${doc.date})` : title;
             sec.appendChild(a);
+            if (doc.archive_url) {
+              const b = document.createElement("a");
+              b.className = "doc-link doc-archive";
+              b.href = doc.archive_url;
+              b.target = "_blank";
+              b.rel = "noopener";
+              b.title = "Permanent copy in the Canada EA Atlas archive";
+              b.textContent = "archived copy ↗";
+              sec.appendChild(b);
+            }
           }
           docList.appendChild(sec);
         })
