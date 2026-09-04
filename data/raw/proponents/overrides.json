@@ -1,0 +1,276 @@
+{
+ "_doc": "Hand corrections applied by build_proponent_targets.py. key = normalised name. website/name/aliases/skip.",
+ "canadian natural resources": {
+  "website": "https://www.cnrl.com/",
+  "name": "Canadian Natural Resources"
+ },
+ "teck resources": {
+  "website": "https://www.teck.com/",
+  "name": "Teck Resources"
+ },
+ "shell canada": {
+  "website": "https://www.shell.ca/",
+  "name": "Shell Canada",
+  "aliases": [
+   "lng canada shell canada limited petron",
+   "shell canada energy petronas petrochin"
+  ]
+ },
+ "lng canada": {
+  "website": "https://www.lngcanada.ca/",
+  "name": "LNG Canada"
+ },
+ "nuclear waste management organization": {
+  "website": "https://www.nwmo.ca/"
+ },
+ "fortis bc": {
+  "website": "https://www.fortisbc.com/",
+  "name": "FortisBC"
+ },
+ "atco": {
+  "website": "https://www.atco.com/"
+ },
+ "woodfibre lng": {
+  "website": "https://www.woodfibrelng.ca/"
+ },
+ "equinor canada": {
+  "website": "https://www.equinor.com/"
+ },
+ "nova scotia power": {
+  "website": "https://www.nspower.ca/",
+  "name": "Nova Scotia Power"
+ },
+ "canada nickel": {
+  "website": "https://canadanickel.com/"
+ },
+ "conocophillips canada": {
+  "website": "https://www.conocophillips.ca/"
+ },
+ "everwind fuels": {
+  "website": "https://everwindfuels.com/"
+ },
+ "north west redwater partnership": {
+  "website": "https://www.nwrpartnership.com/"
+ },
+ "energy alberta": {
+  "website": "https://energyalberta.ca/"
+ },
+ "fpx nickel": {
+  "website": "https://fpxnickel.com/"
+ },
+ "corner brook pulp and paper": {
+  "website": "https://www.cbppl.com/"
+ },
+ "kinder morgan canada": {
+  "website": "https://www.transmountain.com/",
+  "name": "Trans Mountain (ex Kinder Morgan Canada)"
+ },
+ "pacific future energy": {
+  "skip": true
+ },
+ "kogas canada lng": {
+  "skip": true
+ },
+ "petrochina": {
+  "skip": true
+ },
+ "elemental developments hub1 joint venture": {
+  "skip": true
+ },
+ "o leary ventures": {
+  "skip": true
+ },
+ "shape properties": {
+  "skip": true
+ },
+ "onni group": {
+  "skip": true
+ },
+ "polygon homes": {
+  "skip": true
+ },
+ "adm a roports de montr al": {
+  "skip": true
+ },
+ "atura power": {
+  "website": "https://www.aturapower.com/"
+ },
+ "ontario power generation": {
+  "website": "https://www.opg.com/"
+ },
+ "hydro one": {
+  "website": "https://www.hydroone.com/"
+ },
+ "tc energy": {
+  "website": "https://www.tcenergy.com/"
+ },
+ "capital power": {
+  "website": "https://www.capitalpower.com/"
+ },
+ "bruce power": {
+  "website": "https://www.brucepower.com/"
+ },
+ "bc hydro": {
+  "website": "https://www.bchydro.com/"
+ },
+ "manitoba hydro": {
+  "website": "https://www.hydro.mb.ca/"
+ },
+ "hydro qu bec": {
+  "website": "https://www.hydroquebec.com/"
+ },
+ "saskpower": {
+  "website": "https://www.saskpower.com/"
+ },
+ "nb power": {
+  "website": "https://www.nbpower.com/"
+ },
+ "newfoundland and labrador hydro": {
+  "website": "https://nlhydro.com/"
+ },
+ "agnico eagle mines": {
+  "website": "https://www.agnicoeagle.com/"
+ },
+ "bhp": {
+  "website": "https://www.bhp.com/"
+ },
+ "cameco": {
+  "website": "https://www.cameco.com/"
+ },
+ "vale": {
+  "website": "https://vale.com/"
+ },
+ "glencore": {
+  "website": "https://www.glencore.ca/"
+ },
+ "enbridge": {
+  "website": "https://www.enbridge.com/"
+ },
+ "suncor energy": {
+  "website": "https://www.suncor.com/"
+ },
+ "imperial oil": {
+  "website": "https://www.imperialoil.ca/"
+ },
+ "cenovus energy": {
+  "website": "https://www.cenovus.com/"
+ },
+ "metrolinx": {
+  "website": "https://www.metrolinx.com/"
+ },
+ "ontario northland": {
+  "website": "https://www.ontarionorthland.ca/"
+ },
+ "iron ore company of canada": {
+  "website": "https://www.ironore.ca/"
+ },
+ "champion iron": {
+  "website": "https://www.championiron.com/"
+ },
+ "nexgen energy": {
+  "website": "https://www.nexgenenergy.ca/"
+ },
+ "denison mines": {
+  "website": "https://www.denisonmines.com/"
+ },
+ "alamos gold": {
+  "website": "https://www.alamosgold.com/"
+ },
+ "kinross gold": {
+  "website": "https://www.kinross.com/"
+ },
+ "generation pgm": {
+  "website": "https://genmining.com/",
+  "name": "Generation Mining"
+ },
+ "generation mining": {
+  "website": "https://genmining.com/"
+ },
+ "rock tech lithium": {
+  "website": "https://www.rocktechlithium.com/"
+ },
+ "nemaska lithium": {
+  "website": "https://nemaskalithium.com/"
+ },
+ "taseko mines": {
+  "website": "https://www.tasekomines.com/"
+ },
+ "seabridge gold": {
+  "website": "https://www.seabridgegold.com/"
+ },
+ "pathways alliance": {
+  "website": "https://pathwaysalliance.ca/"
+ },
+ "cedar lng export development": {
+  "website": "https://www.cedarlng.com/",
+  "name": "Cedar LNG"
+ },
+ "sasol canada": {
+  "website": "https://www.sasol.com/"
+ },
+ "altalink management": {
+  "website": "https://www.altalink.ca/",
+  "name": "AltaLink"
+ },
+ "nouveau monde graphite": {
+  "website": "https://nmg.com/"
+ },
+ "arianne phosphate": {
+  "website": "https://www.arianne-inc.com/"
+ },
+ "hudson bay mining and smelting": {
+  "website": "https://hudbayminerals.com/",
+  "name": "Hudbay (Hudson Bay Mining and Smelting)"
+ },
+ "hudbay minerals": {
+  "website": "https://hudbayminerals.com/"
+ },
+ "rubellite energy": {
+  "website": "https://www.rubelliteenergy.com/"
+ },
+ "kineticor resource": {
+  "website": "https://kineticor.ca/"
+ },
+ "ipc canada": {
+  "website": "https://www.international-petroleum.com/"
+ },
+ "nisga a nation rockies lng": {
+  "skip": true
+ },
+ "nisga a nation western lng": {
+  "skip": true
+ },
+ "devon nec": {
+  "skip": true
+ },
+ "exploits valley renewable energy": {
+  "skip": true
+ },
+ "lng newfoundland and labrador": {
+  "skip": true
+ },
+ "nova sustainable fuels": {
+  "skip": true
+ },
+ "manitoba pool elevators": {
+  "skip": true
+ },
+ "anthem properties": {
+  "skip": true
+ },
+ "garibaldi at squamish": {
+  "skip": true
+ },
+ "crop production services": {
+  "skip": true
+ },
+ "city west cable telephone": {
+  "skip": true
+ },
+ "pretium resources": {
+  "skip": true
+ },
+ "kitimat clean": {
+  "skip": true
+ }
+}

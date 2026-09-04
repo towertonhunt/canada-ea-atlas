@@ -1,0 +1,55 @@
+name: Discover proponent-site documents
+
+# Crawls proponent websites (data/raw/proponents/targets.json, ranked) for
+# EA / Class EA documents that registries never receive -- the Hydro One
+# pattern generalised. Discovery only: results land in
+# data/raw/proponents/sites/<key>.json for review; archive_docs.py and the
+# map pick them up in a later step once a site's inventory is accepted.
+
+on:
+  workflow_dispatch:
+    inputs:
+      top:
+        description: 'How many ranked sites to (re)crawl'
+        default: '40'
+      refresh:
+        description: 'Recrawl sites that already have a result'
+        type: boolean
+        default: false
+  schedule:
+    - cron: '23 3 * * 0'   # weekly, Sunday 03:23 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discover-proponents
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild target list (no lookup)
+        run: python3 scripts/build_proponent_targets.py --no-lookup
+
+      - name: Crawl
+        run: |
+          ARGS="--top ${{ inputs.top || '40' }} --budget 17000"
+          [ "${{ inputs.refresh }}" = "true" ] && ARGS="$ARGS --refresh"
+          python3 scripts/proponent_discover.py $ARGS
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main || true
+            git add data/raw/proponents
+            git commit -m "Proponent discovery progress [skip ci]" || echo "nothing to commit"
+            git push && break
+            sleep 7
+          done
