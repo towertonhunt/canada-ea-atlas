@@ -329,6 +329,24 @@ elif os.path.exists(on_cat):
             n_onp += 1
 print(f'ontario provincial EA (no coords yet): {n_onp}')
 
+# ── Ontario Class EA projects (proponent-held records; seed_classea_local.py) ──
+# Hydro One transmission Class EAs and the Detour Lake / West Detour record:
+# documents that no registry ever received, mirrored to the archive.
+classea_path = os.path.join(RAW, 'classea_projects.json')
+n_classea = 0
+if os.path.exists(classea_path):
+    for rec in json.load(open(classea_path)):
+        geom = None
+        if rec.get('coords'):
+            lon, lat = rec['coords']
+            geom = {'type': 'Point', 'coordinates': [lon, lat]}
+        props = {k: v for k, v in rec.items() if k not in ('coords', 'slug')}
+        props.setdefault('category', 'energy_other' if 'ransmission' in (rec.get('type') or '')
+                         else 'mining' if rec.get('type') == 'Mining' else 'other')
+        add({'type': 'Feature', 'geometry': geom, 'properties': props})
+        n_classea += 1
+print(f'ontario class EA (proponent-held): {n_classea}')
+
 # ── Quebec REE (table + coordinates scraped from carte.asp pages) ────
 qc_path = os.path.join(RAW, 'qc_ree_resultats.html')
 n_qc = 0
@@ -509,6 +527,7 @@ ADMIN1 = {
     'Newfoundland & Labrador (ECC)': '05',
     'Nova Scotia (NSECC)': '07',
     'Ontario (Provincial EA)': '08',
+    'Ontario (Class EA)': '08',
     'Quebec (MELCCFP)': '10',
 }
 STOP = {'project', 'projet', 'wind', 'solar', 'farm', 'energy', 'power',
