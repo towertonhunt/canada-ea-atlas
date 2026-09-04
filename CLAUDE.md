@@ -58,6 +58,32 @@ sidebars (`docs_path` property -> `data/docs/<jur>/<id>.json`).
   Kakabeka/Matabitchuan; needs a Class-EA/proponent-ESR source. Tracked in
   known_projects_checklist.json (expect: tracked) so it keeps warning.
 
+## Document archive on Cloudflare R2 (live 2026-09-04)
+- Bucket `canadaeaatlas` (ENAM), public dev URL
+  https://pub-3cf90e85dbe545f68d1fe908ecf95777.r2.dev (custom domain needs
+  towerton.ca DNS on Cloudflare; it's at Infomaniak). Secrets on the repo:
+  R2_ACCOUNT_ID / R2_ACCESS_KEY_ID / R2_SECRET_ACCESS_KEY / R2_BUCKET /
+  R2_PUBLIC_BASE. Token = Account API token, Object Read & Write, this bucket.
+- Lane archive-r2.yml: every 6h, 5h budget, `scripts/archive_docs.py`.
+  Keys mirror registry ids (federal/<pid>/<docid>.pdf, bc/<pid>/<docid>.pdf,
+  qc/<dossier>/<bapeid>.pdf ...). Federal landing pages resolve to the PDF
+  behind the unquoted `href=/050/documents/...`; HTML-only notices are kept
+  as .html (kind=html_notice). rclone via RCLONE_CONFIG_R2_* env; do NOT set
+  an ACL (R2 rejects it).
+- Manifests: data/raw/archive_manifest.json.gz (lane) + archive_manifest_seed
+  .json.gz (local seeding via scripts/seed_archive_local.py) — readers merge
+  archive_manifest*.json.gz; split_doc_catalogues.py --archive-only attaches
+  `archive_url` beside `url`; index.html shows "archived copy".
+- Run 1 (2026-09-04): 10,936 objects / 24.7 GB in 5h, no IAAC throttle trip
+  (~700 federal/h -> federal backfill ~2.5 days). Seed: 588 federal PDFs from
+  archive/federal-workspace (+327 docs added to catalogues). Projection ~144 GB.
+- Known failure classes: www.downloads.ene.gov.on.ca resets every connection
+  (134 ON docs; dying host — Wayback fallback is the next idea); NS hrefs with
+  whitespace (fixed via clean_url); BAPE returns HTML for a few ids.
+- Not yet archived (need owner decision): Hydro One Class EA PDFs
+  (ontario-classea/transmission, 319 files, all mapped to hydroone.com URLs,
+  NOT in the map) and the West Detour ESR set in ~/Work/Detour Lake Mine.
+
 ## Data inventory (as of 2026-07-05)
 - Map: 18,401 features. Federal 6,576 (complete registry incl. federal-lands
   + archived), BC 358, QC 402, NS 248, NL 1,508, MB 2,716, ON REA 197,
