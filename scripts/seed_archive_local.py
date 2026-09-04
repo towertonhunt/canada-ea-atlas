@@ -29,6 +29,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from archive_docs import (MANIFEST, key_for, load_manifest, save_manifest,  # noqa: E402
                           targets, upload_dir)
 
+SEED_MANIFEST = MANIFEST.replace('.json.gz', '_seed.json.gz')
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WORKSPACE = os.path.join(os.path.dirname(ROOT), 'archive', 'federal-workspace')
 DOC_ID = re.compile(r'/050/evaluations/document/(\d+)')
@@ -75,34 +77,59 @@ def main():
         if m:
             by_docid[m.group(1)] = (url, project)
 
-    manifest = load_manifest()
+    known = load_manifest()                       # everything archived so far
+    seed = {}
+    if os.path.exists(SEED_MANIFEST):
+        import gzip
+        seed = json.load(gzip.open(SEED_MANIFEST, 'rt'))
     files = local_files()
-    matched, unmatched, already = [], [], 0
+    matched, unmatched, already, new_entries = [], [], 0, {}
     for path, pid, stem in files:
-        docs = project_docs(pid)
         hit = None
-        for d in docs:
-            if norm(d.get('title') or '') == norm(stem):
-                m = DOC_ID.search(d.get('url') or '')
-                if m and m.group(1) in by_docid:
-                    hit = by_docid[m.group(1)]
-                    break
+        for d in project_docs(pid):
+            if norm(d.get('title') or '') != norm(stem):
+                continue
+            m = DOC_ID.search(d.get('url') or '')
+            if not m:
+                continue
+            if m.group(1) in by_docid:
+                hit = by_docid[m.group(1)]
+            else:
+                # a registry document the map's catalogue doesn't list yet:
+                # archive it AND add it to the catalogue so the map links it
+                url = f'https://iaac-aeic.gc.ca/050/evaluations/document/{m.group(1)}'
+                new_entries.setdefault(pid, []).append(
+                    {'title': d.get('title') or stem, 'category': 'Additional Information',
+                     'url': url})
+                hit = (url, pid)
+            break
         if not hit:
             unmatched.append(path)
             continue
         url, project = hit
-        if manifest.get(url, {}).get('key'):
+        if known.get(url, {}).get('key'):
             already += 1
             continue
         matched.append((path, url, project))
 
-    print(f'{len(files)} local PDFs: {len(matched)} map to a catalogue link, '
-          f'{already} already archived, {len(unmatched)} unmatched')
+    n_new = sum(len(v) for v in new_entries.values())
+    print(f'{len(files)} local PDFs: {len(matched)} to upload '
+          f'({n_new} of them new to the catalogues), {already} already archived, '
+          f'{len(unmatched)} unmatched by title')
     if args.dry_run:
         for path, url, project in matched[:8]:
             print('  ', key_for('federal', project, url), '<-',
                   os.path.relpath(path, WORKSPACE)[:70])
         return
+
+    for pid, entries in new_entries.items():
+        cp = os.path.join(ROOT, 'data', 'docs', 'federal', f'{pid}.json')
+        cat = json.load(open(cp)) if os.path.exists(cp) else {'project': pid, 'docs': []}
+        have = {d.get('url') for d in cat['docs']}
+        cat['docs'] += [e for e in entries if e['url'] not in have]
+        json.dump(cat, open(cp, 'w'), ensure_ascii=False)
+    if new_entries:
+        print(f'added {n_new} catalogue entries across {len(new_entries)} projects')
 
     staging = tempfile.mkdtemp(prefix='ea-seed-')
     n_bytes = 0
@@ -113,15 +140,15 @@ def main():
         shutil.copyfile(path, dest)
         data = open(path, 'rb').read()
         n_bytes += len(data)
-        manifest.setdefault(url, {'jur': 'federal', 'project': project}).update(
+        seed.setdefault(url, {'jur': 'federal', 'project': project}).update(
             key=key, archive_url=f'{public}/{key}', bytes=len(data),
             sha256=hashlib.sha256(data).hexdigest(), content_type='application/pdf',
             kind='file', source='local:federal-workspace',
             fetched_at=time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()))
     print(f'uploading {len(matched)} files ({n_bytes / 1e9:.2f} GB)...', flush=True)
     if upload_dir(staging):
-        save_manifest(manifest)
-        print(f'done -> {MANIFEST}')
+        save_manifest(seed, SEED_MANIFEST)
+        print(f'done -> {SEED_MANIFEST}')
     else:
         print('upload failed; manifest not written')
     shutil.rmtree(staging, ignore_errors=True)

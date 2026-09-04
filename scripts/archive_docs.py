@@ -176,17 +176,24 @@ def targets(only=None):
     return out
 
 
-def load_manifest():
-    if os.path.exists(MANIFEST):
-        return json.load(gzip.open(MANIFEST, 'rt'))
-    return {}
+def load_manifest(all_parts=True):
+    """The lane writes archive_manifest.json.gz; local seeding writes
+    archive_manifest_seed.json.gz so the two never conflict in git. Readers
+    merge every part; only the lane's own part is rewritten here."""
+    merged = {}
+    parts = sorted(glob.glob(MANIFEST.replace('.json.gz', '*.json.gz'))) \
+        if all_parts else [MANIFEST]
+    for path in parts:
+        if os.path.exists(path):
+            merged.update(json.load(gzip.open(path, 'rt')))
+    return merged
 
 
-def save_manifest(m):
-    tmp = MANIFEST + '.tmp'
+def save_manifest(m, path=MANIFEST):
+    tmp = path + '.tmp'
     with gzip.open(tmp, 'wt') as f:
         json.dump(m, f, ensure_ascii=False)
-    os.replace(tmp, MANIFEST)
+    os.replace(tmp, path)
 
 
 # ── main ─────────────────────────────────────────────────────────────
@@ -205,10 +212,11 @@ def main():
         if not public:
             raise SystemExit('R2_PUBLIC_BASE is not set')
 
-    manifest = load_manifest()
+    manifest = load_manifest(all_parts=False)       # the lane's own part
+    known = load_manifest()                          # + seeded parts, for skipping
     todo = [t for t in targets(set(args.only.split(',')) if args.only else None)
-            if not manifest.get(t[0], {}).get('key')
-            and manifest.get(t[0], {}).get('fails', 0) < MAX_FAILS]
+            if not known.get(t[0], {}).get('key')
+            and known.get(t[0], {}).get('fails', 0) < MAX_FAILS]
     # round-robin across hosts so the slow one doesn't serialise the run
     by_host = collections.defaultdict(collections.deque)
     for t in todo:
@@ -219,9 +227,9 @@ def main():
             if by_host[h]:
                 order.append(by_host[h].popleft())
     todo = order[:args.limit] if args.limit else order
-    done_before = sum(1 for v in manifest.values() if v.get('key'))
+    done_before = sum(1 for v in known.values() if v.get('key'))
     print(f'{len(todo)} to fetch, {done_before} already archived, '
-          f'{len(manifest) - done_before} pending/failed', flush=True)
+          f'{len(known) - done_before} pending/failed', flush=True)
     if args.dry_run:
         for u, jur, proj, _ in todo[:15]:
             print('  ', key_for(jur, proj, u), '<-', u[:90])

@@ -15,10 +15,13 @@ def attach_archive_urls():
     """Add archive_url beside url in every catalogue entry the R2 archive
     lane has mirrored (data/raw/archive_manifest.json.gz). Idempotent, and
     run last so regenerated catalogues get their links back."""
-    src = os.path.join(RAW, 'archive_manifest.json.gz')
-    if not os.path.exists(src):
+    import glob
+    parts = sorted(glob.glob(os.path.join(RAW, 'archive_manifest*.json.gz')))
+    if not parts:
         return
-    man = json.load(gzip.open(src, 'rt'))
+    man = {}
+    for src in parts:
+        man.update(json.load(gzip.open(src, 'rt')))
     n_files = n_docs = 0
     import glob
     for path in glob.glob(os.path.join(ROOT, 'data', 'docs', '*', '*.json')):
