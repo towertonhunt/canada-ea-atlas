@@ -1,0 +1,3568 @@
+{
+ "key": "tc energy",
+ "site": "https://www.tcenergy.com/",
+ "host": "www.tcenergy.com",
+ "fetched": 250,
+ "pages": [
+  {
+   "url": "https://www.tcenergy.com/",
+   "title": "TC Energy — Home",
+   "depth": 0,
+   "docs": 2
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/indigenous/indigenous-project-participation/",
+   "title": "Indigenous Project participation",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/indigenous/",
+   "title": "TC Energy — Indigenous",
+   "depth": 1,
+   "docs": 18
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/indigenous/indigenous-people-and-contracting/",
+   "title": "Indigenous People and contracting",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/indigenous/indigenous-relations--undrip/",
+   "title": "Indigenous Relations — UNDRIP",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/indigenous/indigenous-community-legacy/",
+   "title": "Indigenous community legacy",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2011/2011-08-26final-environmental-impact-statement-re-affirms-limited-environmental-impact-from-keystone-xl-pipeline/",
+   "title": "Final Environmental Impact Statement Re-Affirms Limited Environmental Impact from Keystone XL Pipeline",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/",
+   "title": "TC Energy — Environment",
+   "depth": 1,
+   "docs": 4
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-05-16prince-rupert-gas-transmission-project-to-seek-public-comment-on-environmental-assessment-application/",
+   "title": "Prince Rupert Gas Transmission Project to Seek Public Comment on Environmental Assessment Application",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-11-26prince-rupert-gas-transmission-project-awarded-environmental-assessment-certificate-by-b.c.-eao",
+   "title": "Prince Rupert Gas Transmission Project Awarded Environmental Assessment Certificate by B.C. EAO",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/legal-notices/",
+   "title": "TC Energy — Legal notices",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/testing/indigenous/indigenous-project-participation/",
+   "title": "Indigenous Project participation",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-10-24environmental-assessment-certificate-issued-for-transcanadas-coastal-gaslink-pipeline-project/",
+   "title": "Environmental Assessment Certificate issued for TransCanada's Coastal GasLink Pipeline Project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2015/2015-06-29coastal-gaslink-pipeline-project-signs-project-agreements-with-six-british-columbia-first-nations/",
+   "title": "Coastal GasLink Pipeline Project Signs Project Agreements with Six British Columbia First Nations",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2015/2015-12-10coastal-gaslink-pipeline-project-signs-three-more-project-agreements-with-first-nations-in-northern-b.c",
+   "title": "Coastal GasLink Pipeline Project Signs Three More Project Agreements With First Nations in Northern B.C.",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/indigenous/journey-towards-reconciliation/",
+   "title": "TC Energy — Journey towards reconciliation",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/water/",
+   "title": "TC Energy — Environment — Water",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/land-and-wildlife/",
+   "title": "TC Energy — Environment — Land & Wildlife",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/indigenous/?blockId=28670&page=2",
+   "title": "TC Energy — Indigenous",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/indigenous/?blockId=28670&page=3",
+   "title": "TC Energy — Indigenous",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/indigenous/?blockId=28670&page=4",
+   "title": "TC Energy — Indigenous",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/indigenous/?blockId=28670&page=5",
+   "title": "TC Energy — Indigenous",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/indigenous/?blockId=28670&page=6",
+   "title": "TC Energy — Indigenous",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/indigenous/?blockId=28670&page=17",
+   "title": "TC Energy — Indigenous",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/?blockId=28670&page=2",
+   "title": "TC Energy — Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/?blockId=28670&page=3",
+   "title": "TC Energy — Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/?blockId=28670&page=4",
+   "title": "TC Energy — Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/?blockId=28670&page=5",
+   "title": "TC Energy — Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/?blockId=28670&page=6",
+   "title": "TC Energy — Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/?blockId=28670&page=17",
+   "title": "TC Energy — Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/water/?blockId=28670&page=2",
+   "title": "TC Energy — Environment — Water",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/water/?blockId=28670&page=3",
+   "title": "TC Energy — Environment — Water",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/water/?blockId=28670&page=4",
+   "title": "TC Energy — Environment — Water",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/water/?blockId=28670&page=5",
+   "title": "TC Energy — Environment — Water",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/water/?blockId=28670&page=6",
+   "title": "TC Energy — Environment — Water",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/water/?blockId=28670&page=17",
+   "title": "TC Energy — Environment — Water",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/land-and-wildlife/?blockId=28670&page=2",
+   "title": "TC Energy — Environment — Land & Wildlife",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/land-and-wildlife/?blockId=28670&page=3",
+   "title": "TC Energy — Environment — Land & Wildlife",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/land-and-wildlife/?blockId=28670&page=4",
+   "title": "TC Energy — Environment — Land & Wildlife",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/land-and-wildlife/?blockId=28670&page=5",
+   "title": "TC Energy — Environment — Land & Wildlife",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/land-and-wildlife/?blockId=28670&page=6",
+   "title": "TC Energy — Environment — Land & Wildlife",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/environment/land-and-wildlife/?blockId=28670&page=17",
+   "title": "TC Energy — Environment — Land & Wildlife",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/sustainability/safety/",
+   "title": "TC Energy — Safety — Overview",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/community-giving/",
+   "title": "TC Energy — Community Investment",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2024-decommissioning-program/",
+   "title": "NGTL Decommissioning Program (2024)",
+   "depth": 1,
+   "docs": 4
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/",
+   "title": "Decommissioning & Abandonment Programs",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-decommissioning-program/",
+   "title": "NGTL Decommissioning Program (2025)",
+   "depth": 3,
+   "docs": 7
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2026-decommissioning-program/",
+   "title": "NGTL GP Decommissioning Program (2026)",
+   "depth": 3,
+   "docs": 3
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2024-abandonment-program/",
+   "title": "NGTL Abandonment Program (2024)",
+   "depth": 3,
+   "docs": 7
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-abandonment-program/",
+   "title": "NGTL Abandonment Program (2025)",
+   "depth": 3,
+   "docs": 9
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2026-abandonment-program/",
+   "title": "NGTL GP Abandonment Program (2026)",
+   "depth": 3,
+   "docs": 7
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/heartland-project/heartland-project-suppliers/",
+   "title": "Heartland Project — Suppliers",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/heartland-project/",
+   "title": "Heartland Project",
+   "depth": 2,
+   "docs": 12
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/heartland-project/heartland-project-suppliers",
+   "title": "Heartland Project — Suppliers",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2020/2020-10-20-construction-set-to-start-on-the-2021-nova-gas-transmission-ltd.-ngtl-system-expansion-project",
+   "title": "Construction set to start on the 2021 NOVA Gas Transmission Ltd. (NGTL) System Expansion Project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/testing/indigenous/indigenous-community-legacy/",
+   "title": "Indigenous community legacy",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/",
+   "title": "TC Energy — North Corridor Expansion",
+   "depth": 1,
+   "docs": 28
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2018/2018-10-31transcanada-announces-$1.5-billion-ngtl-systemexpansion-to-connect-wcsb-supply-to-incremental-market-demand",
+   "title": "2018-10-31:TransCanada Announces $1.5 Billion NGTL System Expansion to Connect WCSB Supply to Incremental Market Demand",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/",
+   "title": "TC Energy — Edson Mainline Expansion Project",
+   "depth": 1,
+   "docs": 28
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2010/2010-04-16transcanada-corporation-keystone-gulf-coast-expansion-project-benefits-highlighted-in-department-of-state-report/",
+   "title": "TransCanada Corporation: Keystone Gulf Coast Expansion Project Benefits Highlighted in Department of State Report",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2013/2013-04-01portland-natural-gas-transmission-system-announces-continent-to-coast-c2c-expansion-project/",
+   "title": "Portland Natural Gas Transmission System Announces Continent to Coast (C2C) Expansion Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2015/2015-05-08prince-rupert-gas-transmission-project-receives-first-two-b.c.-oil--gas-commission-construction-permits",
+   "title": "Prince Rupert Gas Transmission Project Receives First Two B.C. Oil & Gas Commission Construction Permits",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2015/2015-09-29prince-rupert-gas-transmission-signs-project-agreement-with-metlakatla-first-nation/",
+   "title": "Prince Rupert Gas Transmission Signs Project Agreement With Metlakatla First Nation",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2015/2015-10-29prince-rupert-gas-transmission-signs-project-agreement-with-blueberry-river-first-nations/",
+   "title": "Prince Rupert Gas Transmission Signs Project Agreement with Blueberry River First Nations",
+   "depth": 1,
+   "docs": 3
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2015/2015-12-17energy-east-project-amended-to-reflect-landowner-environmental-community-and-customer-input/",
+   "title": "Energy East Project Amended to Reflect Landowner, Environmental, Community and Customer Input",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2016/2016-04-13prince-rupert-gas-transmission-signs-project-agreements-with-takla-lake-first-nation-and-mcleod-lake-indian-band/",
+   "title": "Prince Rupert Gas Transmission Signs Project Agreements with Takla Lake First Nation and McLeod Lake Indian Band",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2022/2022-03-09-tc-energy-signs-equity-option-agreements-with-indigenous-communities-across-the-coastal-gaslink-project-corridor/",
+   "title": "TC Energy signs equity option agreements with Indigenous communities across the Coastal GasLink project corridor",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/testing/indigenous/indigenous-people-and-contracting/",
+   "title": "Indigenous People and contracting",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/testing/indigenous/indigenous-relations--undrip/",
+   "title": "Indigenous Relations — UNDRIP",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2018/2018-03-19transcanada-expects-no-material-financial-impact-from-proposed-tax-actions-by-the-federal-energy-regulatory-commission/",
+   "title": "TransCanada Expects No Material Financial Impact From Proposed Tax Actions by the Federal Energy Regulatory Commission",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2010/2010-08-05special-permit-application-withdrawn-for-keystone-gulf-coast-expansion-pipeline/",
+   "title": "Special Permit Application Withdrawn for Keystone Gulf Coast Expansion Pipeline",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2012/2012-07-27transcanada-receives-final-key-gulf-coast-project-permit/",
+   "title": "TransCanada Receives Final Key Gulf Coast Project Permit",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2013/2013-03-01transcanada-keystone-xl-draft-supplemental-environmental-impact-statement-released/",
+   "title": "TransCanada: Keystone XL Draft Supplemental Environmental Impact Statement Released",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2013/2013-11-29transcanada-launches-open-season-for-possible-eastern-triangle-natural-gas-pipeline-expansion-projects/",
+   "title": "TransCanada Launches Open Season for Possible Eastern Triangle Natural Gas Pipeline Expansion Projects",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-01-31transcanada-ceo-to-comment-on-release-of-keystone-xl-final-supplemental-environmental-impact-statement/",
+   "title": "TransCanada CEO to Comment on Release of Keystone XL Final Supplemental Environmental Impact Statement",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-03-12coastal-gaslink-pipeline-ltd.-submits-application-for-environmental-assessment-certificate",
+   "title": "Coastal GasLink Pipeline Ltd. Submits Application for Environmental Assessment Certificate",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-07-23transcanada-receives-regulatory-approval-for-northern-courier-pipeline-project/",
+   "title": "TransCanada Receives Regulatory Approval for Northern Courier Pipeline Project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-10-10transcanada-receives-regulatory-approval-for-grand-rapids-pipeline-project/",
+   "title": "TransCanada Receives Regulatory Approval for Grand Rapids Pipeline Project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2015/2015-11-06transcanada-media-advisory-keystone-xl-permit-denial-compromises-environment-economy-jobs-and-public-safety-in-the-u.s.-and-canada",
+   "title": "TransCanada Media Advisory: Keystone XL Permit Denial Compromises Environment, Economy, Jobs and Public Safety in the U.S. and Canada",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2016/2016-01-20two-more-northern-b.c.-first-nations-sign-project-agreements-with-coastal-gaslink",
+   "title": "Two More Northern B.C. First Nations Sign Project Agreements With Coastal GasLink",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2016/2016-05-05coastal-gaslink-pipeline-project-receives-all-remaining-bc-oil-and-gas-commission-construction-permits/",
+   "title": "Coastal GasLink Pipeline Project Receives All Remaining BC Oil and Gas Commission Construction Permits",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2016/2016-05-2613-project-agreements-completed-with-first-nations-along-coastal-gaslink-pipeline-route/",
+   "title": "13 Project Agreements Completed with First Nations Along Coastal GasLink Pipeline Route",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2016/2016-10-31government-of-canada-approves-$1.3-billion-ngtl-system-expansion-project",
+   "title": "Government of Canada Approves $1.3 Billion NGTL System Expansion Project",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/southeast-gateway-project/sustainability/",
+   "title": "Southeast Gateway Project - Sustainability",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/southeast-gateway-project/",
+   "title": "Southeast Gateway Project",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/southeast-gateway-project/needs-and-benefits/",
+   "title": "Southeast Gateway Project - Benefits",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/community-voices/",
+   "title": "Community Voices - Virginia Reliability Project | TC Energy",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/",
+   "title": "Virginia Reliability Project - TC Energy",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/needs-and-benefits/",
+   "title": "Needs and Benefits - Virginia Reliability Project | TC Energy",
+   "depth": 2,
+   "docs": 9
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/ConfiabilidadVirginia/",
+   "title": "Confiabilidad Virginia",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/construction-updates-archive/",
+   "title": "Construction updates archive",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/southeast-virginia-energy-storage-project/",
+   "title": "Southeast Virginia Energy Storage Project",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/power/pumped-storage-project/",
+   "title": "TC Energy — OntarioPumped Storage Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/prince-rupert-gas-transmission-project/",
+   "title": "TC Energy — Prince Rupert Gas Transmission Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2013/2013-02-13transcanada-releases-2012-annual-report-to-shareholders-and-financial-disclosure-documents-available-online/",
+   "title": "TransCanada Releases 2012 Annual Report to Shareholders and Financial Disclosure Documents Available Online",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/about/explore-energy/creating-our-energy-future/indigenous-rights/",
+   "title": "Honouring the rights and interests of Indigenous groups",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/community-giving/scholarships/indigenous-legacy-scholarship-recipient-toolkit/",
+   "title": "Indigenous Legacy scholarship recipient toolkit",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/karr-north-project/",
+   "title": "Karr North Project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2026/2026-02-13-tc-energy-files-2025-annual-disclosure-documents/",
+   "title": "TC Energy files 2025 annual disclosure documents",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/northwoods-project/",
+   "title": "Northwoods Project",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/maysville-project/",
+   "title": "Maysville Project",
+   "depth": 1,
+   "docs": 3
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/pulaski-project/",
+   "title": "Pulaski Project",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2025/2025-02-14-tc-energy-files-2024-annual-disclosure-documents/",
+   "title": "TC Energy files 2024 annual disclosure documents",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/mcleod-south-project/",
+   "title": "McLeod South Project",
+   "depth": 1,
+   "docs": 4
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/nky-project/",
+   "title": "NKY Gate Enhancement Project",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2024/2024-02-16-tc-energy-files-2023-annual-disclosure-documents/",
+   "title": "TC Energy files 2023 annual disclosure documents",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2023/2023-07-27-tc-energy-reports-solid-second-quarter-2023-results-while-significantly-advancing-coastal-gaslink-and-southeast-gateway-projects-to/",
+   "title": "TC Energy reports solid second quarter 2023 results, while significantly advancing Coastal GasLink and Southeast Gateway projects to planned cost and schedule",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2023/2023-07-10-tc-energys-pumped-storage-project-moving-to-final-evaluation/",
+   "title": "TC Energy’s Pumped Storage Project moving to final evaluation",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/bison-xpress-project/",
+   "title": "Bison XPress Project",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2023/2023-02-28-ontario-pumped-storage-project-receives-support-from-meaford-council/",
+   "title": "Ontario Pumped Storage Project receives support from Meaford Council",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2023/2023-02-14-tc-energy-files-2022-annual-disclosure-documents/",
+   "title": "TC Energy files 2022 annual disclosure documents",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2022/2022-10-04-tc-energy-to-build-its-first-solar-energy-project-in-canada/",
+   "title": "TC Energy to build its first solar energy project in Canada",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2022/2022-02-15-tc-energy-files-2021-annual-disclosure-documents/",
+   "title": "TC Energy files 2021 annual disclosure documents",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2021/2021-07-28-media-advisory---tc-energy-reaches-agreement-with-national-defence-to-develop-proposed-world-class-pumped-storage-project/",
+   "title": "Media Advisory - TC Energy reaches agreement with National Defence to develop proposed world-class pumped storage project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2021/2021-02-18-tc-energy-files-2020-annual-disclosure-documents/",
+   "title": "TC Energy files 2020 annual disclosure documents",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2020/2020-02-13tc-energy-files-2019-annual-disclosure-documents/",
+   "title": "2020-02-13:TC Energy files 2019 annual disclosure documents",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2019/2019-02-14transcanada-files-2018-annual-disclosure-documents/",
+   "title": "TransCanada Files 2018 Annual Disclosure Documents",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/villa-de-reyes-pipeline-project/",
+   "title": "TC Energy — Villa de Reyes Pipeline Project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/tula-pipeline-project/",
+   "title": "TC Energy — Tula Pipeline Project",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/",
+   "title": "NGTL System Expansion Project (2021)",
+   "depth": 1,
+   "docs": 55
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/mazatlan-project/",
+   "title": "TC Energy — Mazatlán Pipeline Project",
+   "depth": 1,
+   "docs": 3
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2018/2018-02-15transcanada-files-2017-annual-disclosure-documents/",
+   "title": "TransCanada Files 2017 Annual Disclosure Documents",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2008/2008-01-15maines-land-use-regulation-commission-recommends-approval-of-transcanadas-kibby-wind-power-project/",
+   "title": "Maine's Land Use Regulation Commission Recommends Approval of TransCanada's Kibby Wind Power Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2008/2008-04-01transcanada-enters-agreement-to-acquire-ravenswood-generating-station-for-us$2.8-billion",
+   "title": "TransCanada Enters Agreement to Acquire Ravenswood Generating Station for US$2.8 Billion",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2008/2008-07-09transcanada-kibby-wind-power-project-receives-lurc-approval/",
+   "title": "TransCanada: Kibby Wind Power Project Receives LURC Approval",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2008/2008-08-26transcanada-closes-ravenswood-generating-station-acquisition/",
+   "title": "TransCanada Closes Ravenswood Generating Station Acquisition",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2009/2009-09-22media-advisory-transcanada-announces-open-seasons-for-zephyr-and-chinook-power-transmission-lines/",
+   "title": "Media Advisory: TransCanada Announces Open Seasons for Zephyr and Chinook Power Transmission Lines",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2010/2010-05-20correction-from-source-transcanada-announces-open-season-results-for-zephyr-power-transmission-project/",
+   "title": "CORRECTION FROM SOURCE: TransCanada Announces Open Season Results for Zephyr Power Transmission Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2010/2010-10-07transcanada-responds-to-oakville-generating-station-decision/",
+   "title": "TransCanada Responds to Oakville Generating Station Decision",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2010/2010-10-28transcanada-halton-hills-generating-station-delivers-power-to-ontario-grid/",
+   "title": "TransCanada: Halton Hills Generating Station Delivers Power to Ontario Grid",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2010/2010-11-01us$350-million-kibby-wind-power-project-delivers-additional-power-to-maine/",
+   "title": "US$350 Million Kibby Wind Power Project Delivers Additional Power to Maine",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2011/2011-05-03coolidge-generating-station-delivers-power-to-arizona-grid/",
+   "title": "Coolidge Generating Station Delivers Power to Arizona Grid",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2012/2012-04-27transcanada-reports-first-quarter-results-bruce-power-refurbishment-nearing-completion/",
+   "title": "TransCanada Reports First Quarter Results, Bruce Power Refurbishment Nearing Completion",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2012/2012-07-27transcanada-reports-second-quarter-results-gulf-coast-project-construction-to-begin-this-summer/",
+   "title": "TransCanada Reports Second Quarter Results, Gulf Coast Project Construction to Begin This Summer",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2012/2012-12-17transcanada-contract-signed-to-build-napanee-generating-station/",
+   "title": "TransCanada: Contract Signed to Build Napanee Generating Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2013/2013-04-26transcanada-reports-first-quarter-results-continues-to-advance-$25-billion-portfolio-of-projects/",
+   "title": "TransCanada Reports First Quarter Results, Continues to Advance $25 Billion Portfolio of Projects",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2013/2013-09-09transcanada-to-release-report-on-jobs-and-economic-benefits-of-the-energy-east-pipeline-project/",
+   "title": "TransCanada to Release Report on Jobs and Economic Benefits of the Energy East Pipeline Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2013/2013-09-10updated-new-numbers-for-transcanada-release-of-report-on-jobs-and-economic-benefits-of-the-energy-east-pipeline-project/",
+   "title": "UPDATED: New Numbers for TransCanada Release of Report on Jobs and Economic Benefits of the Energy East Pipeline Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-02-21transcanada-files-2013-annual-disclosure-documents/",
+   "title": "TransCanada Files 2013 Annual Disclosure Documents",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2015/2015-02-13transcanada-files-2014-annual-disclosure-documents/",
+   "title": "TransCanada Files 2014 Annual Disclosure Documents",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2015/2015-05-12prince-rupert-gas-transmission-announces-project-agreement-with-lake-babine-nation/",
+   "title": "Prince Rupert Gas Transmission Announces Project Agreement With Lake Babine Nation",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2015/2015-10-27prince-rupert-gas-transmission-project-receives-oil-and-gas-commission-approvals/",
+   "title": "Prince Rupert Gas Transmission Project Receives Oil and Gas Commission Approvals",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2016/2016-02-11transcanada-files-2015-annual-disclosure-documents/",
+   "title": "TransCanada Files 2015 Annual Disclosure Documents",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2016/2016-11-29prince-rupert-gas-transmission-signs-project-agreement-with-gitxsan-hereditary-chiefs/",
+   "title": "Prince Rupert Gas Transmission Signs Project Agreement with Gitxsan Hereditary Chiefs",
+   "depth": 1,
+   "docs": 4
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2017/2017-02-16transcanada-files-2016-annual-disclosure-documents/",
+   "title": "TransCanada Files 2016 Annual Disclosure Documents",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/subscription-central/pumped-storage-project-signup/",
+   "title": "TC Energy — Pumped Storage Project Updates Signup",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2025/2025-12-31-tc-energy-provides-conversion-right-and-dividend-rate-notice-for-series-5-and-6-preferred-shares/",
+   "title": "TC Energy provides conversion right and dividend rate notice for Series 5 and 6 preferred shares",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2025/2025-11-07-indigenous-veterans-day-this-is-me-scott/",
+   "title": "Indigenous Veterans Day, Remembrance Day and Veterans Day: This is me, Scott",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2024/2024-11-08-indigenous-veterans-day-remembrance-day-and-veterans-day-this-is-me-andrea/",
+   "title": "Indigenous Veterans Day, Remembrance Day and Veterans Day | This is me, Andrea",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2023/2023-11-08-this-is-me-coriann/",
+   "title": "Indigenous Veterans Day, Remembrance Day and Veterans Day | This is me, Coriann",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2025/2025-06-19-national-indigenous-peoples-day-this-is-me-amanda/",
+   "title": "National Indigenous Peoples’ Day: This is me, Amanda",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2025/2025-06-02-tc-energy-provides-conversion-right-and-dividend-rate-noticefor-series-3-and-4-preferred-shares/",
+   "title": "TC Energy provides conversion right and dividend rate notice for Series 3 and 4 preferred shares",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2024/2024-12-02-tc-energy-provides-conversion-right-and-dividend-rate-notice-for-series-1-and-2-preferred-shares-/",
+   "title": "TC Energy provides conversion right and dividend rate notice for Series 1 and 2 preferred shares",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2024/2024-07-30-tc-energy-announces-canadas-largest-indigenous-equity-ownership-agreement/",
+   "title": "TC Energy announces Canada’s largest Indigenous equity ownership agreement",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2024/2024-08-09-international-day-of-the-worlds-indigenous-peoples/",
+   "title": "International Day of the World’s Indigenous Peoples: This is me, Victor",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2024/2024-10-01-tc-energy-provides-conversion-right-and-dividend-rate-noticefor-series-9-and-10-preferred-shares/",
+   "title": "TC Energy provides conversion right and dividend rate notice for Series 9 and 10 preferred shares",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2024/2024-04-01-tc-energy-provides-conversion-right-and-dividend-rate-noticefor-series-7-and-8-preferred-shares/",
+   "title": "TC Energy provides conversion right and dividend rate notice for Series 7 and 8 preferred shares",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/testing/aarontest/project-test/",
+   "title": "Project test",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2023/2023-08-22-southeast-gateway-environmental-protection/",
+   "title": "Southeast Gateway balances sustainable economic development and environmental protection",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/testing/aarontest/projects-template/",
+   "title": "projects-template",
+   "depth": 1,
+   "docs": 4
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2023/2023-06-21-national-indigenous-peoples-day-tiara/",
+   "title": "National Indigenous Peoples Day: This is me, Tiara",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2023/2023-05-10-Alberta-BC-recent-system-expansions-benefits-include-enhancing-market-access/",
+   "title": "Alberta, B.C. recent system expansions benefits include enhancing market access",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2023/",
+   "title": "TC Energy - West Path Delivery 2023",
+   "depth": 2,
+   "docs": 4
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2022/",
+   "title": "West Path Delivery 2022 Projects",
+   "depth": 3,
+   "docs": 12
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2023/Re-imagining-the-way-we-work-with-Indigenous-groups/",
+   "title": "Re-imagining the way we work with Indigenous groups",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2023/2023-02-01-tc-energy-provides-coastal-gaslink-project-update/",
+   "title": "TC Energy provides Coastal GasLink Project update",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2022/2022-08-11-partnering-with-Indigenous-neighbours/",
+   "title": "Partnering with Indigenous neighbours on a solution to encourage safe and inclusive workforce lodges",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2021/2021-12-03-tc-energy-project-boosts-whitebark-pine-conservation-and-recovery-efforts-with-ktunaxa-owned-nupqu/",
+   "title": "TC Energy project boosts Whitebark Pine conservation and recovery efforts with Ktunaxa-owned Nupqu",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2021/2021-12-03-tc-energy-project-boosts-whitebark-pine-conservation-and-recovery-efforts-with-ktunaxa-owned-nupqu/?blockId=28670&page=2",
+   "title": "TC Energy project boosts Whitebark Pine conservation and recovery efforts with Ktunaxa-owned Nupqu",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2021/2021-12-03-tc-energy-project-boosts-whitebark-pine-conservation-and-recovery-efforts-with-ktunaxa-owned-nupqu/?blockId=28670&page=3",
+   "title": "TC Energy project boosts Whitebark Pine conservation and recovery efforts with Ktunaxa-owned Nupqu",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2021/2021-12-03-tc-energy-project-boosts-whitebark-pine-conservation-and-recovery-efforts-with-ktunaxa-owned-nupqu/?blockId=28670&page=4",
+   "title": "TC Energy project boosts Whitebark Pine conservation and recovery efforts with Ktunaxa-owned Nupqu",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2021/2021-12-03-tc-energy-project-boosts-whitebark-pine-conservation-and-recovery-efforts-with-ktunaxa-owned-nupqu/?blockId=28670&page=5",
+   "title": "TC Energy project boosts Whitebark Pine conservation and recovery efforts with Ktunaxa-owned Nupqu",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2021/2021-12-03-tc-energy-project-boosts-whitebark-pine-conservation-and-recovery-efforts-with-ktunaxa-owned-nupqu/?blockId=28670&page=6",
+   "title": "TC Energy project boosts Whitebark Pine conservation and recovery efforts with Ktunaxa-owned Nupqu",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/stories/2021/2021-12-03-tc-energy-project-boosts-whitebark-pine-conservation-and-recovery-efforts-with-ktunaxa-owned-nupqu/?blockId=28670&page=17",
+   "title": "TC Energy project boosts Whitebark Pine conservation and recovery efforts with Ktunaxa-owned Nupqu",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2021/2021-11-05-tc-energy-announces-us$0.8-billion-wr-project",
+   "title": "TC Energy announces US$0.8 billion WR Project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2021/2021-10-07-media-advisory--nikola-and-tc-energy-sign-joint-development-agreement-for-co-development-of-large-scale-clean-hydrogen-hubs/",
+   "title": "Media Advisory: Nikola and TC Energy Sign Joint Development Agreement for Co-Development of Large-Scale Clean Hydrogen Hubs",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2021/2021-07-02-tc-energy-commences-nafta-claim-following-revocation-of-keystone-xl-presidential-permit/",
+   "title": "TC Energy commences NAFTA claim following revocation of Keystone XL Presidential Permit",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2021/2021-06-09-tc-energy-confirms-termination-of-keystone-xl-pipeline-project/",
+   "title": "TC Energy confirms termination of Keystone XL Pipeline Project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2021/2021-01-20-tc-energy-disappointed-with-expected-executive-action-revoking-keystone-xl-presidential-permit/",
+   "title": "TC Energy disappointed with Expected Executive Action revoking Keystone XL Presidential Permit",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2020/2020-12-31-tc-energy-provides-conversion-right-and-dividend-rate-notice-for-series-5-and-6-preferred-shares/",
+   "title": "TC Energy provides conversion right and dividend rate notice for Series 5 and 6 preferred shares",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2020/2020-10-29-tc-energy-announces-wisconsin-access-project-on-anr-pipeline-system/",
+   "title": "TC Energy announces Wisconsin Access Project on ANR Pipeline system",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2020/2020-11-02-tc-energy-provides-conversion-right-and-dividend-rate-notice-for-series-11-and-12-preferred-shares/",
+   "title": "TC Energy provides conversion right and dividend rate notice for Series 11 and 12 preferred shares",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2020/2020-10-28-tc-energy-awards-more-than-$1.6-billion-in-american-contracts-to-build-keystone-xl-project-to-create-over-8000-union-jobs-in-2021",
+   "title": "TC Energy Awards More Than $1.6 billion in American Contracts to Build Keystone XL, Project to Create Over 8,000 Union Jobs in 2021",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2020/2020-09-29-tc-energy-and-natural-law-energy-sign-historic-mou-facilitating-one-of-the-largest-indigenous-equity-investments-of-its-kind-in-north/",
+   "title": "TC Energy and Natural Law Energy sign historic MOU facilitating one of the largest Indigenous equity investments of its kind in North American infrastructure",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2020/2020-07-30-tc-energy-announces-us$0.4-billion-elwood-poweranr-horsepower-replacement-project",
+   "title": "TC Energy announces US$0.4 billion Elwood Power/ANR Horsepower Replacement Project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2020/2020-08-05-keystone-xl-announces-project-labor-agreement-with-four-u.s.-unions",
+   "title": "Keystone XL Announces Project Labor Agreement with Four U.S. Unions",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2020/2020-05-25-tc-energy-completes-partial-monetization-and-project-financing-transactions-for-coastal-gaslink-/",
+   "title": "TC Energy completes partial monetization and project financing transactions for Coastal GasLink",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2020/2020-06-01-tc-energy-provides-conversion-right-and-dividend-rate-notice-for-series-3-and-4-preferred-shares-/",
+   "title": "TC Energy provides conversion right and dividend rate notice for Series 3 and 4 preferred shares",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2020/2020-02-13tc-energy-announces-$1.3-billion-of-system-expansions-to-connect-western-canadian-sedimentary-basin-supply-to-incremental-market-demand",
+   "title": "TC Energy announces $1.3 billion of system expansions to connect Western Canadian Sedimentary Basin supply to incremental market demand",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2019/2019-09-30tc-energy-provides-dividend-rate-notice--for-series-9-and-10-preferred-shares/",
+   "title": "2019-09-30:TC Energy provides dividend rate notice for Series 9 and 10 preferred shares",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2019/2019-12-02tc-energy-provides-dividend-rate-noticefor-series-1-and-2-preferred-shares/",
+   "title": "2019-12-02:TC Energy provides dividend rate notice for Series 1 and 2 preferred shares",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2019/2019-12-26tc-energy-announces-the-partial-monetization-of-the-coastal-gaslink-pipeline-project/",
+   "title": "TC Energy announces the partial monetization of the Coastal GasLink Pipeline Project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/power/saddlebrook-solar-and-storage/",
+   "title": "Saddlebrook Solar + Storage Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2019/2019-09-18tc-energy-provides-series-9-preferred-shares-conversion-right-and-dividend-rate-notice/",
+   "title": "2019-09-18:TC Energy provides Series 9 Preferred Shares conversion right and dividend rate notice",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2019/2019-04-01transcanada-provides-dividend-rate-notice-for-series-7-and-8-preferred-shares/",
+   "title": "TransCanada provides dividend rate notice for Series 7 and 8 preferred shares",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2019/2019-03-29president-trump-affirms-support-for-keystone-xl-project/",
+   "title": "President Trump affirms support for Keystone XL project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2019/2019-03-15transcanada-provides-series-7-preferred-shares-conversion-right-and-dividend-rate-notice/",
+   "title": "TransCanada Provides Series 7 Preferred Shares Conversion Right and Dividend Rate Notice",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2019/2019-03-01transcanadas-mountaineer-xpress-project-placed-into-service-gulf-xpress-reaches-partial-in-service/",
+   "title": "TransCanada’s Mountaineer XPress project placed into service, Gulf XPress reaches partial in-service",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2018/2018-11-15wb-xpress-projects-eastern-build-placed-into-service/",
+   "title": "2018-11-15:WB XPress Project’s Eastern Build Placed Into Service",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2018/wb-xpress-projects-western-build-placed-into-service/",
+   "title": "WB XPress Project’s Western Build Placed Into Service",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2018/2018-10-02transcanada-to-construct-coastal-gaslink-pipeline-project/",
+   "title": "TransCanada to Construct Coastal GasLink Pipeline Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2018/2018-09-13coastal-gaslink-signs-agreements-with-100-per-cent-of-b.c.-elected-indigenous-bands-along-the-pipeline-route",
+   "title": "Coastal GasLink Signs Agreements with 100 Per Cent of B.C. Elected Indigenous Bands Along the Pipeline Route",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/operations/natural-gas/columbia-gas-transmission-storage/",
+   "title": "TC Energy — Columbia Gas Transmission Storage",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2018/2018-04-09transcanada-places-sundre-crossover-project-in-service/",
+   "title": "TransCanada Places Sundre Crossover Project in Service",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2018/2018-05-24national-energy-board-recommends-approval-of-1-4-billion-north-montney-mainline-project-variance/",
+   "title": "National Energy Board Recommends Approval of $1.4 Billion North Montney Mainline Project Variance",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2018/2018-06-18transcanada-announces-export-capacity-expansion-on-the-ngtl-system/",
+   "title": "TransCanada Announces Export Capacity Expansion on the NGTL System",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2018/2018-04-02transcanada-places-final-section-of-2017-ngtl-expansion-program-into-service/",
+   "title": "TransCanada Places Final Section of 2017 NGTL Expansion Program into Service",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2018/2018-03-14transcanada-places-cameron-access-project-in-service/",
+   "title": "TransCanada Places Cameron Access Project in Service",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2018/2018-01-02leach-xpress-project-placed-into-service-mountaineer-xpress-gulf-xpress-receive-ferc-certificates/",
+   "title": "Leach XPress Project Placed into Service; Mountaineer XPress, Gulf XPress Receive FERC Certificates",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2018/2018-02-15transcanada-announces-$2.4-billion-expansion-to-increase-market-access-for-wcsb-supply",
+   "title": "TransCanada Announces $2.4 Billion Expansion to Increase Market Access for WCSB Supply",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2017/2017-10-05-transcanada-anounces-termination-of-energy-east-pipeline-and-eastern-mainline-projects/",
+   "title": "TransCanada Announces Termination of Energy East Pipeline and Eastern Mainline Projects",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2008/2008-03-14transcanada-corporation-keystone-oil-pipeline-receives-presidential-permit/",
+   "title": "TransCanada Corporation: Keystone Oil Pipeline Receives Presidential Permit",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2008/2008-04-17transcanada-provides-update-on-bruce-a-units-1-and-2-restart-project/",
+   "title": "TransCanada Provides Update on Bruce A Units 1 and 2 Restart Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2008/2008-05-12transcanada-enterprise-products-and-quicksilver-gas-services-sign-agreement-for-equity-and-pipeline-capacity-in-pathfinder-pipeline-project/",
+   "title": "TransCanada, Enterprise Products and Quicksilver Gas Services Sign Agreement for Equity and Pipeline Capacity in Pathfinder Pipeline Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2008/2008-08-01transcanada-license-for-alaska-natural-gas-pipeline-approved-by-alaska-legislature/",
+   "title": "TransCanada License for Alaska Natural Gas Pipeline Approved by Alaska Legislature",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2008/2008-09-03transcanada-advances-pathfinder-pipeline-project-with-the-acquisition-of-bison-pipeline-llc/",
+   "title": "TransCanada Advances Pathfinder Pipeline Project With the Acquisition of Bison Pipeline LLC",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2009/2009-02-26transcanada-secures-shipper-commitments-for-horn-river-pipeline-project/",
+   "title": "TransCanada Secures Shipper Commitments for Horn River Pipeline Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2009/2009-06-11transcanada-and-exxonmobil-to-work-together-on-alaska-pipeline-project/",
+   "title": "TransCanada and ExxonMobil to Work Together on Alaska Pipeline Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2009/2009-06-11transcanada-and-exxonmobil-to-host-alaska-pipeline-project-media-teleconference/",
+   "title": "TransCanada and ExxonMobil to Host Alaska Pipeline Project Media Teleconference",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2010/2010-01-27media-advisory-the-alaska-pipeline-project-to-host-media-teleconference-on-open-season-plan/",
+   "title": "Media Advisory: The Alaska Pipeline Project to Host Media Teleconference on Open Season Plan",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2010/2010-01-29the-alaska-pipeline-project-files-open-season-plan-with-ferc--first-in-the-history-of-the-north-slope/",
+   "title": "The Alaska Pipeline Project Files Open Season Plan With FERC- First in the History of the North Slope",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2010/2010-02-02media-advisory-alaska-pipeline-project-hosts-in-state-gas-demand-study-technical-conference/",
+   "title": "Media Advisory: Alaska Pipeline Project Hosts In-State Gas Demand Study Technical Conference",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2010/2010-03-12transcanada-corporation-keystone-gulf-coast-expansion-approved/",
+   "title": "TransCanada Corporation: Keystone Gulf Coast Expansion Approved",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2010/2010-04-29the-alaska-pipeline-project-begins-its-open-season/",
+   "title": "The Alaska Pipeline Project Begins Its Open Season",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2010/2010-09-07transcanada-launches-binding-open-season-for-cushing-marketlink-project/",
+   "title": "TransCanada Launches Binding Open Season for Cushing Marketlink Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2010/2010-09-13transcanada-launches-binding-open-season-for-bakken-marketlink-project/",
+   "title": "TransCanada Launches Binding Open Season for Bakken Marketlink Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2010/2010-09-14u.s.-pipeline-contractors-association-and-unions-pledge-their-support-for-keystone-xl-project",
+   "title": "U.S. Pipeline Contractors Association and Unions Pledge Their Support for Keystone XL Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2011/2011-02-04transcanada-national-energy-board-approves-horn-river-pipeline-project/",
+   "title": "TransCanada: National Energy Board Approves Horn River Pipeline Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2011/2011-02-09transcanada-responds-to-notice-seeking-termination-of-sundance-1-and-2-power-purchase-arrangement/",
+   "title": "TransCanada Responds to Notice Seeking Termination of Sundance 1 and 2 Power Purchase Arrangement",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2011/2011-02-11media-advisory-transcanada-welcomes-more-bipartisan-congressional-support-for-keystone-xl-pipeline-project/",
+   "title": "Media Advisory: TransCanada Welcomes More Bipartisan Congressional Support for Keystone XL Pipeline Project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2011/2011-03-16transcanada-pleased-that-keystone-xl-regulatory-process-continues-to-move-forward/",
+   "title": "TransCanada Pleased That Keystone XL Regulatory Process Continues to Move Forward",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2011/2011-06-02hispanic-leaders-call-on-u.s.-department-of-state-to-issue-keystone-xl-pipeline-permit",
+   "title": "Hispanic Leaders Call on U.S. Department of State to Issue Keystone XL Pipeline Permit",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2011/2011-10-19twenty-two-house-democrats-urge-president-obama-to-ensure-keystone-xl-receives-presidential-permit/",
+   "title": "Twenty Two House Democrats Urge President Obama to Ensure Keystone XL Receives Presidential Permit",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2012/2012-01-18transcanada-will-re-apply-for-a-keystone-xl-permit/",
+   "title": "TransCanada Will Re-Apply for a Keystone XL Permit",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2012/2012-02-27transcanada-set-to-re-apply-for-keystone-xl-permit/",
+   "title": "TransCanada Set to Re-Apply for Keystone XL Permit",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2012/2012-05-04transcanada-applies-for-keystone-xl-presidential-permit/",
+   "title": "TransCanada Applies for Keystone XL Presidential Permit",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2012/2012-07-30transcanada-the-alaska-pipeline-project-to-conduct-solicitation-of-interest-in-pipeline-capacity-/",
+   "title": "TransCanada: The Alaska Pipeline Project to Conduct Solicitation of Interest in Pipeline Capacity",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2013/2013-08-01transcanada-to-proceed-with-1.1-million-barrelday-energy-east-pipeline-project-to-saint-john",
+   "title": "TransCanada to Proceed with 1.1 Million Barrel/Day Energy East Pipeline Project to Saint John",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2013/2013-08-01transcanada-to-hold-news-conference-to-discuss-energy-east-pipeline-project/",
+   "title": "TransCanada to Hold News Conference to Discuss Energy East Pipeline Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2013/2013-09-10new-study-projects-energy-east-will-boost-economy-across-canada/",
+   "title": "New Study Projects Energy East Will Boost Economy Across Canada",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2013/2013-10-07alaska-lng-project-selects-lead-terminal-location/",
+   "title": "Alaska LNG Project Selects Lead Terminal Location",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-01-22transcanada-announces-start-of-crude-oil-deliveries-on-gulf-coast-project/",
+   "title": "TransCanada Announces Start of Crude Oil Deliveries on Gulf Coast Project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-01-22gulf-coast-project-begins-delivering-crude-oil-to-nederland-texas/",
+   "title": "Gulf Coast Project Begins Delivering Crude Oil to Nederland, Texas",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-01-31final-environmental-review-demonstrates-keystone-xl-should-be-approved/",
+   "title": "Final Environmental Review Demonstrates Keystone XL Should be Approved",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-05-08transcanada-files-eastern-mainline-project-description-with-national-energy-board/",
+   "title": "TransCanada Files Eastern Mainline Project Description with National Energy Board",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-06-04transcanada-to-proceed-with-$1.9-billion-merrick-mainline-pipeline-project",
+   "title": "TransCanada to Proceed With $1.9 Billion Merrick Mainline Pipeline Project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-10-29transcanada-to-file-energy-east-pipeline-project-application-with-national-energy-board-of-canada/",
+   "title": "TransCanada to File Energy East Pipeline Project Application with National Energy Board of Canada",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.tcenergy.com/announcements/2014/2014-10-30$12-billion-energy-east-pipeline-project-takes-important-step-forward-with-neb-application-filing/",
+   "title": "$12 Billion Energy East Pipeline Project Takes Important Step Forward With NEB Application Filing",
+   "depth": 1,
+   "docs": 1
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/investors/reports-and-filings/annual-and-quarterly-reports/2026/tce-2026-q2-quarterly-report.pdf",
+   "title": "Second Quarter 2026 Financial Highlights release Our diversified and irreplaceable portfolio of high-quality, long-life energy infrastructure assets continue to produce strong results.",
+   "type": "other",
+   "page": "https://www.tcenergy.com/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/investors/reports-and-filings/annual-and-quarterly-reports/2025/tce-2025-annual-report.pdf",
+   "title": "2025 letter to shareholders CEO François Poirier and Chair John Lowe share their views on the outlook for our business following a transformational year executing on 2025’s priorities.",
+   "type": "other",
+   "page": "https://www.tcenergy.com/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/about/governance/tc-indigenous-relations-policy.pdf",
+   "title": "policy",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/indigenous/tc-indigenous-relations-postcard-november-2019.pdf",
+   "title": "strategy",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/indigenous/tc-guiding-principles-indigenous-relations-postcard.pdf",
+   "title": "guiding principles",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/sustainability/indigenous/journey-towards-reconciliation/tce-energy-reconciliation-action-plan-november-2022.pdf",
+   "title": "7.25 MB Reconciliation Action Plan update",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/sustainability/indigenous/journey-towards-reconciliation/tc-energy-reconciliation-action-plan-march-2021.pdf",
+   "title": "3.43 MB Reconciliation Action Plan",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/sustainability/indigenous/journey-towards-reconciliation/tc-energia-plan-de-accion-para-la-reconciliacion-marzo-de-2021.pdf",
+   "title": "3.43 MB Plan de Acción para la Reconciliación",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/sustainability/indigenous/journey-towards-reconciliation/tce-energy-reconciliation-action-plan-november-2022-fr.pdf",
+   "title": "7.24 MB Mise à jour du plan d’action pour la reconciliation",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/sustainability/indigenous/journey-towards-reconciliation/tc-energie-plan-d-action-pour-la-reconciliation-mars-2021.pdf",
+   "title": "3.44 MB Plan d’action pour la réconciliation",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/about/governance/tc-politica-de-relaciones-con-los-pueblos-indigenas.pdf",
+   "title": "0.12 MB Política de relaciones con los Pueblos Indígenas",
+   "type": "other",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/about/governance/tc-politique-en-matiere-de-relations-avec-les-autochtones.pdf",
+   "title": "0.12 MB Politique en matière de relations avec les autochtones",
+   "type": "other",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/indigenous/tc-indigenous-relations-postcard-2019.pdf",
+   "title": "0.64 MB Indigenous Strategy Postcard",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/indigenous/tc-carte-postale-strategie-des-relations-autochtones.pdf",
+   "title": "0.28 MB Carte postale de la stratégie des relations avec les autochtones",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/indigenous/tc-postal-estrategia-de-relaciones-indigenas.pdf",
+   "title": "0.26 MB Postal de la Estrategia de Relaciones con los Pueblos Indígenas",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/indigenous/tc-principios-rectores-indigenas.pdf",
+   "title": "1.20 MB Principios Rectores Indigenas",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/indigenous/tc-principes-directeurs-autochtones.pdf",
+   "title": "1.13 MB Principes directeurs autochtones",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/indigenous/tc-indigenous-relations-brochure-2019.pdf",
+   "title": "1.83 MB Indigenous Relations Brochure",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/indigenous/tc-relaciones-con-los-pueblos-ingigenas-2020.pdf",
+   "title": "2.04 MB Relaciones con los Pueblos Indigenas - 2020",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/sustainability/indigenous/journey-towards-reconciliation/tce-relations-avec-les-autochtones.pdf",
+   "title": "2.00 MB Relations avec les Autochtones",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/sustainability/indigenous/tce-hire-buy-local.pdf",
+   "title": "Hire and Buy Local Program",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/indigenous-people-and-contracting/"
+  },
+  {
+   "url": "http://www.transcanada.com/docs/Key_Projects/keystone_washington_DC_advisory.pdf",
+   "title": "clear benefits that this pipeline will deliver to Americans",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2011/2011-08-26final-environmental-impact-statement-re-affirms-limited-environmental-impact-from-keystone-xl-pipeline/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/environment/tc-environment-principles.pdf",
+   "title": "Environment principles",
+   "type": "other",
+   "page": "https://www.tcenergy.com/sustainability/environment/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/environment/tce-safeguarding-biodiversity-our-approach.pdf",
+   "title": "1.12 MB Safeguarding Biodiversity | Our Approach",
+   "type": "other",
+   "page": "https://www.tcenergy.com/sustainability/environment/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/environment/tc-2020-reducing-our-environmental-footprint.pdf",
+   "title": "1.15 MB Reducing our environmental footprint - Fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/sustainability/environment/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/environment/tc-engaging-with-our-stakeholders-fact-sheet.pdf",
+   "title": "1.56 MB Engaging with our Stakeholders — Fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/sustainability/environment/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/51/51c45ba6-0570-4e03-892d-63ee69f28cb3.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-05-16prince-rupert-gas-transmission-project-to-seek-public-comment-on-environmental-assessment-application/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/0e/0e228f5b-37cf-4806-8bf3-4b4f4af071fb.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-11-26prince-rupert-gas-transmission-project-awarded-environmental-assessment-certificate-by-b.c.-eao"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/7f/7f82c1d6-58f9-4a00-aaca-02b59787dbbd.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-10-24environmental-assessment-certificate-issued-for-transcanadas-coastal-gaslink-pipeline-project/"
+  },
+  {
+   "url": "http://www.transcanada.com/docs/Our_Responsibility/TransCanada-2014-CSR-Report-Summary.pdf",
+   "title": "leader in the responsible development",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2015/2015-06-29coastal-gaslink-pipeline-project-signs-project-agreements-with-six-british-columbia-first-nations/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/07/07aa49af-0e85-41bf-b2f0-3b59123e8737.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2015/2015-06-29coastal-gaslink-pipeline-project-signs-project-agreements-with-six-british-columbia-first-nations/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/41/41f75c1c-b1ea-4653-bb5d-208bb458fa9f.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2015/2015-12-10coastal-gaslink-pipeline-project-signs-three-more-project-agreements-with-first-nations-in-northern-b.c"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/sustainability/indigenous/journey-towards-reconciliation/tce-indigenous-equity-framework.pdf",
+   "title": "Canadian Indigenous Equity Framework",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/sustainability/indigenous/journey-towards-reconciliation/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/environment/tc-crossing-water-safely-fact-sheet.pdf",
+   "title": "water crossing fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/sustainability/environment/water/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/tc-hydrostatic-testing.pdf",
+   "title": "0.83 MB Hydrostatic testing - Fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/sustainability/environment/water/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/sustainability/sustainability-report/2026/tce-2026-ros.pdf",
+   "title": "REPORT ON SUSTAINABILITY",
+   "type": "other",
+   "page": "https://www.tcenergy.com/sustainability/safety/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2024-decommissioning-program/tce-2024-decommissioning-fact-sheet.pdf",
+   "title": "Decommissioning fact sheet",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2024-decommissioning-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2024-decommissioning-program/tce-2024-notice-of-application-filed.pdf",
+   "title": "4.99 MB 2024 Notice of Application Filed",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2024-decommissioning-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2024-decommissioning-program/tce-c32851-1_commission_letter_to_ngtl_gp_ltd.__2024_ngtl_system_decommissioning_program.pdf",
+   "title": "0.31 MB CER Approval",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2024-decommissioning-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2024-decommissioning-program/tce-schedule-update-no-2.pdf",
+   "title": "0.53 MB Schedule Update No. 2",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2024-decommissioning-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-decommissioning-program/tce-ngtl-decommissioning-program-factsheet-2025.pdf",
+   "title": "Decommissioning fact sheet",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-decommissioning-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-decommissioning-program/tce-ngtl-decommissioning-program-map.pdf",
+   "title": "3.60 MB 2025 NGTL Decommissioning locations map",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-decommissioning-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-decommissioning-program/tce-notice-of-application-filed.pdf",
+   "title": "0.21 MB Notice of Application Filed",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-decommissioning-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-decommissioning-program/tce-2025-decommissioning-program-errata.pdf",
+   "title": "0.55 MB Program Errata",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-decommissioning-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-decommissioning-program/tce-cer-approval-order.pdf",
+   "title": "0.32 MB CER Approval Order",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-decommissioning-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-decommissioning-program/tce-program-update-no-1.pdf",
+   "title": "6.74 MB Program Update No. 1",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-decommissioning-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-decommissioning-program/tce-decommissioning-activity-schedule.pdf",
+   "title": "0.63 MB Decommissioning Activity Schedule",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-decommissioning-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2026-decommissioning-program/tce-ngtl-decommissioning-program-2026-factsheet.pdf",
+   "title": "0.31 MB NGTL 2026 Decommissioning Fact Sheet",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2026-decommissioning-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2026-decommissioning-program/tce-2026-ngtl-decommissioning-program-map.pdf",
+   "title": "1.84 MB 2026 NGTL Decommissioning locations map",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2026-decommissioning-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2026-decommissioning-program/tce-notice-of-application.pdf",
+   "title": "1.95 MB Notice of Application",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2026-decommissioning-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2024-abandonment-program/tce-2024-abandonment-factsheet.pdf",
+   "title": "Abandonment Factsheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2024-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2024-decommissioning-program/abandonment-locations-map.pdf",
+   "title": "1.25 MB Abandonment Locations Map",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2024-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2024-abandonment-program/tce-notice-of-proposed-abandonment.pdf",
+   "title": "2.17 MB Notice of Abandonment",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2024-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2024-abandonment-program/tce-2024-abandonment-program-program-update.pdf",
+   "title": "13.16 MB 2024 Abandonment Program - Program Update",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2024-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2024-abandonment-program/tce-c33601-1_letter_order_ngtl_gp_application_for_the_2024_meter_stations_and_laterals_abandonment_program.pdf",
+   "title": "0.28 MB CER Approval",
+   "type": "permit_approval",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2024-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2024-abandonment-program/tce-program-update-jul-2025.pdf",
+   "title": "2.59 MB Program Update",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2024-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2024-abandonment-program/tce-schedule-update-no-2.pdf",
+   "title": "0.96 MB Schedule Update No. 2",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2024-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-abandonment-program/tce-2025-abandonment-factsheet.pdf",
+   "title": "Abandonment fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-abandonment-program/tce-cer-amending-order.pdf",
+   "title": "0.71 MB CER Amending Order",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-abandonment-program/tce-abandonment-activity-schedule.pdf",
+   "title": "1.15 MB Abandonment Activity Schedule",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-abandonment-program/tce-ngtl-abandonment-locations-map.pdf",
+   "title": "1.88 MB Abandonment Locations Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-abandonment-program/tce-notice-of-proposed-abandonment.pdf",
+   "title": "0.95 MB Notice of Proposed Abandonment",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-abandonment-program/tce-avis-de-cessation-d-exploitation-proposee.pdf",
+   "title": "1.14 MB Avis de cessation d’exploitation proposée",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-abandonment-program/tce-2025-abandonment-program-update-number-1.pdf",
+   "title": "2.00 MB Program Update No. 1",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-abandonment-program/tce-2025-abandonment-program-update-number-2.pdf",
+   "title": "8.62 MB Program Update No. 2",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2025-abandonment-program/tce-2026-cer-approval-order.pdf",
+   "title": "0.75 MB CER Approval Order",
+   "type": "permit_approval",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2025-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2026-abandonment-program/tce-2026-msandlateral-abandonment-factsheet.pdf",
+   "title": "0.72 MB NGTL 2026 Abandonment Fact Sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2026-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2026-abandonment-program/tce-abandonment-program-a.pdf",
+   "title": "1.89 MB Abandonment Program A Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2026-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2026-abandonment-program/tce-abandonment-program-b-mackenzie-county.pdf",
+   "title": "1.87 MB Abandonment Program B (MacKenzie County) Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2026-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2026-abandonment-program/tce-notice-of-proposed-abandonment-program-a.pdf",
+   "title": "2.44 MB Notice of Proposed Abandonment — Program A",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2026-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2026-abandonment-program/tce-avis-de-cessation-dexploitation-proposee-programme-a.pdf",
+   "title": "2.98 MB Avis de cessation d’exploitation proposée — Programme A",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2026-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2026-abandonment-program/tce-notice-of-proposed-abandonment-program-b-mackenziecounty.pdf",
+   "title": "2.42 MB Notice of Proposed Abandonment — Program B (Mackenzie County)",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2026-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2026-abandonment-program/tce-avis-de-cessation-dexploitation-proposee-programme-b-mackenziecounty.pdf",
+   "title": "2.98 MB Avis de cessation d’exploitation proposée — Programme B (Mackenzie County)",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/decommissioning-abandonment-programs/2026-abandonment-program/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/heartland-project/tce-heartland-project-supplier-fact-sheet.pdf",
+   "title": "Download the fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/heartland-project/heartland-project-suppliers/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/heartland-project/tce-heartland-project-open-house-information.pdf",
+   "title": "Virtual Open House",
+   "type": "open_house",
+   "page": "https://www.tcenergy.com/operations/natural-gas/heartland-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/heartland-project/tce-heartland-project-fact-sheet.pdf",
+   "title": "View the fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/heartland-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/heartland-project/tce-heartland-project-illinois-fact-sheet.pdf",
+   "title": "0.72 MB Heartland Project — Illinois Fact Sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/heartland-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/heartland-project/tce-heartland-project-wisconsin-fact-sheet.pdf",
+   "title": "0.79 MB Heartland Project — Wisconsin Fact Sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/heartland-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/contentassets/6a0fa2a3a5384587b191aa92ea3c8d8e/tce-heartland-project-compressor-stations-fact-sheet.pdf",
+   "title": "2.18 MB Heartland Project - Compressor Stations Fact Sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/heartland-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/heartland-project/tce-heartland-project-map.pdf",
+   "title": "0.77 MB Heartland Project — Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/heartland-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/heartland-project/tce-heartland-project-illinois-map.pdf",
+   "title": "0.57 MB Heartland Project — Illinois Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/heartland-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/heartland-project/tce-heartland-project-wisconsin-map.pdf",
+   "title": "0.75 MB Heartland Project — Wisconsin Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/heartland-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/heartland-project/tce-heartland-project-all-states-fact-sheet-es.pdf",
+   "title": "1.07 MB Heartland Project — Factsheet Spanish",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/heartland-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/heartland-project/tce-heartland-project-all-states-fact-sheet-hm.pdf",
+   "title": "0.49 MB Heartland Project — Factsheet Hmong",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/heartland-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/heartland-project/tce-heartland-project-wisconsin-fact-sheet-es.pdf",
+   "title": "0.83 MB Heartland Project — Wisconsin Fact Sheet Spanish",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/heartland-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/heartland-project/tce-heartland-project-wisconsin-fact-sheet-hm.pdf",
+   "title": "0.78 MB Heartland Project — Wisconsin Fact Sheet Hmong",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/heartland-project/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/346ee7b1-c730-436c-bf7f-7b53b4c395a6",
+   "title": "http://ml.globenewswire.com/Resource/Download/346ee7b1-c730-436c-bf7f-7b53b4c395a6",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2020/2020-10-20-construction-set-to-start-on-the-2021-nova-gas-transmission-ltd.-ngtl-system-expansion-project"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tc-north-corridor-exp-map.pdf",
+   "title": "4.19 MB North Corridor Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tce-c39244-1_nce_cond_13-16_commitments_tracking_table_no_28.pdf",
+   "title": "0.51 MB Commitment Tracking Table No. 28",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tce-c37169-1_nce_cond_13-16_commitments_tracking_table_no_27.pdf",
+   "title": "0.49 MB Commitment Tracking Table No. 27",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tce-c250505_nce_cond13-16_commitment_tracking_table_no_26.pdf",
+   "title": "0.51 MB Commitment Tracking Table No. 26",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tce-c32065-1_nce_cond13-16_commitments_tracking_table_no_25_-_a9e7a9.pdf",
+   "title": "0.51 MB Commitment Tracking Table No. 25",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/c29530-1_nce_cond13-16_commitment_tracking_table_no_24_-_a8y0i1.pdf",
+   "title": "0.50 MB Commitment Tracking Table No. 24",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tce-c27068-1_nce_cond13-16_commitment_tracking_table_no_23.pdf",
+   "title": "0.48 MB Commitment Tracking Table No. 23",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tce-c23934-1_nce_cond13-16_commitment_tracking_table_no_22.pdf",
+   "title": "0.48 MB Commitment Tracking Table No. 22",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tce-c23934-1_nce_cond13-16_commitment_tracking_table_no_21.pdf",
+   "title": "0.49 MB Commitment Tracking Table No. 21",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tce-c23509-1_nce_cond13-16_commitment_tracking_table_no_20.pdf",
+   "title": "0.48 MB Commitment Tracking Table No. 20",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tce-c23162-1_nce_cond13-16_commitment_tracking_table_no_19_-_a8k2f1.pdf",
+   "title": "0.49 MB Commitment Tracking Table No. 19",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tce-c22732-1_nce_cond13-16_commitment_tracking_table_no_18_-_a8j5l0.pdf",
+   "title": "0.48 MB Commitment Tracking Table No. 18",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tce-nce-commitment-tracking-table-no17.pdf",
+   "title": "0.48 MB Commitment Tracking Table No. 17",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tce-nce-commitment-tracking-table-no16.pdf",
+   "title": "0.48 MB Commitment Tracking Table No. 16",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tc-c21228-1_nce_cond_13_16_ctt_no_15_-_a8h0t4.pdf",
+   "title": "0.48 MB Commitment Tracking Table No. 15",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tc-c20761-1_nce_cond13-16_commitment_tracking_table_14_-_a8g2s8.pdf",
+   "title": "0.47 MB Commitment Tracking Table No. 14",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tce-nce-commitment-tracking-table-no13.pdf",
+   "title": "0.47 MB Commitment Tracking Table No. 13",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tc-c19989-1_nce_cond13-16_ctt_no_12_-_a8f0y1.pdf",
+   "title": "0.47 MB Commitment Tracking Table No. 12",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tc-c19392-1_nce_cond13-16_commitments_tracking_table_no11_-_a8e3g6.pdf",
+   "title": "0.46 MB Commitment Tracking Table No. 11",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tc-c19001-1_nce_cond_13_and_16_ctt_no._10_-_a8d7r1.pdf",
+   "title": "0.72 MB Commitment Tracking Table No. 10",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tc-northcorridorexpansionproject-commitments-tracking-table-no9.pdf",
+   "title": "0.46 MB Commitment Tracking Table No. 9",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/tc-c18018-1_nce_cond13-16_commitments_tracking_table_no8-a8c3u7.pdf",
+   "title": "0.46 MB Commitment Tracking Table No. 8",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/c17571-1_nce_cond13-16_commitments_tracking_table_no7_-_a8a7h7.pdf",
+   "title": "0.47 MB Commitment Tracking Table No. 7",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/c17020-1_nce_cond-13_16-ctt_no._6_-_a7z9v4.pdf",
+   "title": "0.46 MB Commitment Tracking Table No. 6",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/c16424-1_nce_commitment_tracking_table_no-5_-_a7z1f9.pdf",
+   "title": "0.46 MB Commitment Tracking Table No. 5",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/commitment-tracking-table-no.-4.pdf",
+   "title": "0.45 MB Commitment Tracking Table No. 4",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/commitment-tracking-table-no.-3.pdf",
+   "title": "0.46 MB Commitment Tracking Table No. 3",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/north-corridor-expansion/commitment-tracking-table-no.-2.pdf",
+   "title": "0.46 MB Commitment Tracking Table No. 2",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/north-corridor-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tc-edson-mainline-expansion-fact-sheet-april-2021.pdf",
+   "title": "0.28 MB Edson Mainline Expansion - Fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/september-17-2021--certificate-condition-13-and-order-condition-12ab.pdf",
+   "title": "0.42 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 1",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/c15441-1_edml_commitment_tracking_table_no._2_october_2021_-_a7x4e2.pdf",
+   "title": "0.42 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 2",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/c16128-1_edml_commitment_tracking_table_no._3_november_2021_-_a7y6k2.pdf",
+   "title": "0.43 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 3",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/c16823-1_edml_commitment_tracking_table_no._4_december_2021_-_a7z6w8.pdf",
+   "title": "0.43 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 4",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/c17210-1_edml_commitment_tracking_table_no._5_january_2022_-_a8a2c9.pdf",
+   "title": "0.43 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 5",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/c17723-1_edml_commitment_tracking_table_no._6_february_2022_-_a8a9v5.pdf",
+   "title": "0.43 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 6",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tc-edsonmainlineexpansionproject-commitmenttrackingtable-no7.pdf",
+   "title": "0.43 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 7",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tc-edson-mainline-expansion-project-commitment-tracking-table-no-8.pdf",
+   "title": "0.44 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 8",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tc-edson-mainline-expansion-project-commitment-tracking-table-no-9.pdf",
+   "title": "0.42 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 9",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tc-edson-mainline-expansion-project-commitment-tracking-table-no-10.pdf",
+   "title": "0.44 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 10",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tc-edson-mainline-expansion-project-commitment-tracking-table-no-11.pdf",
+   "title": "0.44 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 11",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-edson-mainline-expansion-project-commitment-tracking-table-no-12.pdf",
+   "title": "0.46 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 15",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-edson-mainline-expansion-project-commitment-tracking-table-no-13.pdf",
+   "title": "0.46 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 16",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-c23649-1_edml_cond_13_ctt_no.17_-_a8l0i2.pdf",
+   "title": "0.47 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 17",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-c24938-1_edml_cond_13_ctt_no.18_-_a8q9k5.pdf",
+   "title": "0.47 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 18",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-c26202-1_edml_cond_13_ctt_no.19_-_a8s6j1.pdf",
+   "title": "0.46 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 19",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-c27699-1_edml_cond13-12_commitment_tracking_table_no20.pdf",
+   "title": "0.46 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 20",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-c28786-1_edml_cond_13_ctt_no.21_-_a8w9e0.pdf",
+   "title": "0.46 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 21",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-c30024-1_edml_cond13-12_commitment_tracking_table_no22.pdf.pdf",
+   "title": "0.46 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 22",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce_c31311-1_edml_cond13_commitment_tracking_table_no23_-_a9d3k6.pdf",
+   "title": "0.46 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 23",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-c32760-1_edml_cond13-12_commitments_tracking_table_no24.pdf",
+   "title": "0.45 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 24",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-c33785-1_edml_cond_13-12_commitments_tracking_table_no25.pdf",
+   "title": "0.74 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 25",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-c35152-1_edml_cond13-12_commitment_tracking_table_no26.pdf",
+   "title": "0.47 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 26",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-c36277-1_edml_cond13-12_ctt_27.pdf",
+   "title": "0.45 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 27",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-c37724-1_edml_commitment_tracking_table_no28.pdf",
+   "title": "0.51 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 28",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-c38564-1_edml_cond_13-12_commitment_tracking_table_no_29.pdf",
+   "title": "0.51 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 29",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/edson-mainline-expansion-project/tce-c39836-1_edml_cond13-12_ctt_no30_-_a9u9l6.pdf",
+   "title": "0.51 MB Edson Mainline Expansion Project – Commitment Tracking Table No. 30",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/edson-mainline-expansion-project/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/29/29bcbbbd-744f-402c-b60b-a9c354f83aab.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2015/2015-05-08prince-rupert-gas-transmission-project-receives-first-two-b.c.-oil--gas-commission-construction-permits"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/bc/bc949df7-7f09-4d12-ba02-ee1ca2a5b495.pdf",
+   "title": "Lake Babine Nation",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2015/2015-09-29prince-rupert-gas-transmission-signs-project-agreement-with-metlakatla-first-nation/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/a0/a067ed53-e095-454d-be77-a4c81fbca534.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2015/2015-09-29prince-rupert-gas-transmission-signs-project-agreement-with-metlakatla-first-nation/"
+  },
+  {
+   "url": "http://www.transcanada.com/docs/Key_Projects/prgt-doig-halfway-yekooche.pdf",
+   "title": "Doig River, Halfway River and Yekooche First Nations",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/announcements/2015/2015-10-29prince-rupert-gas-transmission-signs-project-agreement-with-blueberry-river-first-nations/"
+  },
+  {
+   "url": "http://www.transcanada.com/docs/Media_Centre/media-advisory-kitselas-first-nation-project-agreement-042315.pdf",
+   "title": "Kitselas First Nation",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/announcements/2015/2015-10-29prince-rupert-gas-transmission-signs-project-agreement-with-blueberry-river-first-nations/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/3e/3ec426a7-f3e6-4436-8947-2067d74d05f0.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2015/2015-10-29prince-rupert-gas-transmission-signs-project-agreement-with-blueberry-river-first-nations/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/13/13103b85-77f0-4467-8584-db5840efbe8d.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2015/2015-12-17energy-east-project-amended-to-reflect-landowner-environmental-community-and-customer-input/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/1e9429ca-fa2a-4221-8f64-2df5731e908e",
+   "title": "http://ml.globenewswire.com/Resource/Download/1e9429ca-fa2a-4221-8f64-2df5731e908e",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2022/2022-03-09-tc-energy-signs-equity-option-agreements-with-indigenous-communities-across-the-coastal-gaslink-project-corridor/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/media/announcements/2018-03-19---ferc-tax-actions/transcanada-ferc-tax-actions.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2018/2018-03-19transcanada-expects-no-material-financial-impact-from-proposed-tax-actions-by-the-federal-energy-regulatory-commission/"
+  },
+  {
+   "url": "http://www.transcanada.com/social/responsibility/2010/common/pdfs/TransCanada_2010_CRR_summary.pdf",
+   "title": "leader",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2012/2012-07-27transcanada-receives-final-key-gulf-coast-project-permit/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/56/5606eb1c-18bd-483a-8c91-d81a48d8e31e.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-01-31transcanada-ceo-to-comment-on-release-of-keystone-xl-final-supplemental-environmental-impact-statement/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/c0/c039b042-a17e-4075-9d4d-503eef538593.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-03-12coastal-gaslink-pipeline-ltd.-submits-application-for-environmental-assessment-certificate"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/ee/ee8f16c8-22f7-45dc-b165-7d9f2dbedda0.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-07-23transcanada-receives-regulatory-approval-for-northern-courier-pipeline-project/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/61/6185e769-2d21-48c4-9363-ef97118885f8.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-10-10transcanada-receives-regulatory-approval-for-grand-rapids-pipeline-project/"
+  },
+  {
+   "url": "https://docs.neb-one.gc.ca/ll-eng/llisapi.dll/fetch/2000/90464/90552/418396/550305/604643/604441/A1S1E7_-_OH-1-2009_Reasons_for_Decision.pdf?nodeid=604637&vernum=-2",
+   "title": "deemed to be in the public interest by the National Energy Board",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2015/2015-11-06transcanada-media-advisory-keystone-xl-permit-denial-compromises-environment-economy-jobs-and-public-safety-in-the-u.s.-and-canada"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/73/73b81b0f-0c36-44b3-9097-8ecac8fafedc.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2015/2015-11-06transcanada-media-advisory-keystone-xl-permit-denial-compromises-environment-economy-jobs-and-public-safety-in-the-u.s.-and-canada"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/63/6313f97c-cb67-4e15-ae87-4e654ae3691f.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2016/2016-01-20two-more-northern-b.c.-first-nations-sign-project-agreements-with-coastal-gaslink"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/17/17eff544-d42e-48f4-8230-0a76da1733b5.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2016/2016-05-05coastal-gaslink-pipeline-project-receives-all-remaining-bc-oil-and-gas-commission-construction-permits/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/2d/2d0910be-03e3-46f0-98b4-bf59e8dc4f99.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2016/2016-05-2613-project-agreements-completed-with-first-nations-along-coastal-gaslink-pipeline-route/"
+  },
+  {
+   "url": "http://www.transcanada.com/docs/Investor_Centre/TransCanada-2015-CSR-Report.pdf",
+   "title": "leader",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2016/2016-10-31government-of-canada-approves-$1.3-billion-ngtl-system-expansion-project"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/73/731e8b4a-de54-44e6-b99b-772fb644f33e.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2016/2016-10-31government-of-canada-approves-$1.3-billion-ngtl-system-expansion-project"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/virginia-reliability-project/tce-virginia-reliability-project-construction-map.pdf",
+   "title": "Download the map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/virginia-reliability-project/needs-and-benefits/chesapeake.pdf",
+   "title": "2.11 MB Chesapeake Economic Impact",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/needs-and-benefits/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/virginia-reliability-project/needs-and-benefits/greensville-county.pdf",
+   "title": "0.28 MB Greensville County Economic Impact",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/needs-and-benefits/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/virginia-reliability-project/needs-and-benefits/hampton-roads.pdf",
+   "title": "0.19 MB Hampton Roads Economic Impact",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/needs-and-benefits/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/virginia-reliability-project/needs-and-benefits/isle-of-wight-county.pdf",
+   "title": "0.28 MB Isle of Wight County Economic Impact",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/needs-and-benefits/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/virginia-reliability-project/needs-and-benefits/prince-george-county.pdf",
+   "title": "0.28 MB Prince George County Economic Impact",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/needs-and-benefits/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/virginia-reliability-project/needs-and-benefits/southampton-county.pdf",
+   "title": "0.28 MB Southampton County Economic Impact",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/needs-and-benefits/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/virginia-reliability-project/needs-and-benefits/suffolk.pdf",
+   "title": "0.28 MB Suffolk Economic Impact",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/needs-and-benefits/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/virginia-reliability-project/needs-and-benefits/surry-county.pdf",
+   "title": "0.17 MB Surry County Economic Impact",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/needs-and-benefits/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/virginia-reliability-project/needs-and-benefits/sussex-county.pdf",
+   "title": "0.28 MB Sussex County Economic Impact",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/needs-and-benefits/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/virginia-reliability-project/tc-factsheet-virginiareliabilityproject-sp.pdf",
+   "title": "Descargue la hoja informativa del proyecto",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/virginia-reliability-project/ConfiabilidadVirginia/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/southeast-virginia-energy-storage/tce-sves-factsheet.pdf",
+   "title": "View the fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/southeast-virginia-energy-storage-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/southeast-virginia-energy-storage/tce-sves-map.pdf",
+   "title": "3.67 MB Southeast Virginia Energy Storage Project Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/southeast-virginia-energy-storage-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/community-giving/scholarships/2026-scholarship-recipients-toolkit/en/tce-2026-scholarship-recipient-certificate-template-indigenous-legacy.pptx",
+   "title": "Certificate Download this editable PowerPoint (.ppt) template to personalize a certificate you can share with your network to celebrate your achievement. Download certificate",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/community-giving/scholarships/indigenous-legacy-scholarship-recipient-toolkit/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/community-giving/scholarships/2026-scholarship-recipients-toolkit/en/tce-2026-scholarship-recipient-social-media-template-indigenous-legacy.pptx",
+   "title": "Story Template Add your photo and a short reflection on what this scholarship means to you and what you're working toward, then export into a shareable image using this PowerPoint (.ppt) template. You",
+   "type": "engagement",
+   "page": "https://www.tcenergy.com/community-giving/scholarships/indigenous-legacy-scholarship-recipient-toolkit/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/karr-north-project/tce-karr-north-project-fact-sheet.pdf",
+   "title": "View the fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/karr-north-project/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/78c40658-69fa-44b2-bd51-e74a8fe3c90c",
+   "title": "http://ml.globenewswire.com/Resource/Download/78c40658-69fa-44b2-bd51-e74a8fe3c90c",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2026/2026-02-13-tc-energy-files-2025-annual-disclosure-documents/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/northwoods-project/tce-wisconsin-reliability-northwood-project-factsheet.pdf",
+   "title": "View the fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/northwoods-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/northwoods-project/tce-wisconsin-michigan-northwood-project-map.pdf",
+   "title": "2.69 MB Northwoods Project Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/northwoods-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/maysville-project/tce-maysville-project-fact-sheet.pdf",
+   "title": "View the fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/maysville-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/maysville-project/tce-maysville-communication-map.pdf",
+   "title": "1.63 MB Maysville Project Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/maysville-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/commitment/landowners/tc-land-program-guiding-principles.pdf",
+   "title": "Land Guiding Principles",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/maysville-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/pulaski-project/tce-pulaski-project-factsheet.pdf",
+   "title": "View the fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/pulaski-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/pulaski-project/tce-pulaski-project-map.pdf",
+   "title": "1.44 MB Pulaski Project Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/pulaski-project/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/6b530914-f2e2-4c16-87d3-1a082b13e600",
+   "title": "http://ml.globenewswire.com/Resource/Download/6b530914-f2e2-4c16-87d3-1a082b13e600",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2025/2025-02-14-tc-energy-files-2024-annual-disclosure-documents/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/mcleod-south/tce-mcleod-south-fact-sheet.pdf",
+   "title": "View the fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/mcleod-south-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/mcleod-south/tce-hire-buy-local.pdf",
+   "title": "Learn more about our Hire & Buy Local program",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/mcleod-south-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/mcleod-south/tce-mcleod-south-project-map.pdf",
+   "title": "1.60 MB Proposed Mcleod South Project Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/mcleod-south-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/medicine-hat-looping-project--2023/tc-contracting-and-employment.pdf",
+   "title": "vendor opportunities",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/mcleod-south-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/nky-gate-enhancement-project/tce-nky-gate-enhancement-fact-sheet.pdf",
+   "title": "0.28 MB NKY Gate Enhancement Fact Sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/nky-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/nky-gate-enhancement-project/tce-nky-gate-enhancement-project-map.pdf",
+   "title": "0.14 MB NKY Gate Enhancement Project Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/nky-project/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/3ecfbaf9-8c84-4fa3-a7ef-cfc18bf875eb",
+   "title": "http://ml.globenewswire.com/Resource/Download/3ecfbaf9-8c84-4fa3-a7ef-cfc18bf875eb",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2024/2024-02-16-tc-energy-files-2023-annual-disclosure-documents/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/investors/reports-and-filings/annual-and-quarterly-reports/2023/tc-2023-q2-quarterly-report.pdf",
+   "title": "https://www.tcenergy.com/siteassets/pdfs/investors/reports-and-filings/annual-and-quarterly-reports/2023/tc-2023-q2-quarterly-report.pdf",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2023/2023-07-27-tc-energy-reports-solid-second-quarter-2023-results-while-significantly-advancing-coastal-gaslink-and-southeast-gateway-projects-to/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/bison-xpress-project/tce-bison-xpress-project-environmental-assessment.pdf",
+   "title": "3.21 MB Bison Xpress Project - Environmental Assessment",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/bison-xpress-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/bison-xpress-project/tce-bison-xpress-factsheet.pdf",
+   "title": "1.49 MB Bison Xpress Project Factsheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/bison-xpress-project/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/c92d8a30-4479-4667-9f39-254c1a0fb382",
+   "title": "http://ml.globenewswire.com/Resource/Download/c92d8a30-4479-4667-9f39-254c1a0fb382",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2023/2023-02-14-tc-energy-files-2022-annual-disclosure-documents/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/8d762dd7-6136-42c4-8d88-a76f0b159636",
+   "title": "http://ml.globenewswire.com/Resource/Download/8d762dd7-6136-42c4-8d88-a76f0b159636",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2022/2022-10-04-tc-energy-to-build-its-first-solar-energy-project-in-canada/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/f8a52138-7db5-4a29-8cd7-310bcb4f7bf6",
+   "title": "http://ml.globenewswire.com/Resource/Download/f8a52138-7db5-4a29-8cd7-310bcb4f7bf6",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2022/2022-02-15-tc-energy-files-2021-annual-disclosure-documents/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/a546a29b-26e0-4b85-affe-3c72d052ec7c",
+   "title": "http://ml.globenewswire.com/Resource/Download/a546a29b-26e0-4b85-affe-3c72d052ec7c",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2021/2021-07-28-media-advisory---tc-energy-reaches-agreement-with-national-defence-to-develop-proposed-world-class-pumped-storage-project/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/65273e4d-fe67-4ab0-9658-1f31cb162523",
+   "title": "http://ml.globenewswire.com/Resource/Download/65273e4d-fe67-4ab0-9658-1f31cb162523",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2021/2021-02-18-tc-energy-files-2020-annual-disclosure-documents/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/6f563452-77db-4dda-b572-f787ae2e26e1",
+   "title": "http://ml.globenewswire.com/Resource/Download/6f563452-77db-4dda-b572-f787ae2e26e1",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2020/2020-02-13tc-energy-files-2019-annual-disclosure-documents/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/villa-de-reyes-pipeline-project/transcanada-villa-de-reyes-pipeline-project-map.pdf",
+   "title": "2.49 MB Villa de Reyes Pipeline Project Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/villa-de-reyes-pipeline-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/tuxpan-tula-pipeline-project/transcanada-tuxpantula-2017.pdf",
+   "title": "0.10 MB TransCanada Awarded Contract to Build US$500 Million Natural Gas Tuxpan-Tula Pipeline in Mexico",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/tula-pipeline-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/tc-proposed-2021-ngtl-system-expansion-project-fact-sheet.pdf",
+   "title": "0.92 MB 2021 NGTL System Expansion Project — Fact Sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c40586-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._54.pdf",
+   "title": "0.42 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 54",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c39450-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._53.pdf",
+   "title": "0.42 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 53",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c38306-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._52.pdf",
+   "title": "0.42 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 52",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c37388-1_2021_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._51.pdf",
+   "title": "0.62 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 51",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c36005-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._50.pdf",
+   "title": "0.62 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 50",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c34760-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._49.pdf",
+   "title": "0.62 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 49",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c33479-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._48.pdf",
+   "title": "0.62 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 48",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/ngtl-expansion/tce-c32408-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._47.pdf",
+   "title": "0.74 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 47",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/ngtl-expansion/tce-c31060-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._46_-_a9d0q8.pdf",
+   "title": "0.62 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 46",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/ngtl-expansion/tce-c29739-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._45.pdf",
+   "title": "0.62 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 45",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/ngtl-expansion/tce-c29293-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._44.pdf",
+   "title": "1.00 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 44",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/ngtl-expansion/tce-c28915-1_2021_ngtl_sxp_cond16-14_commitments_tracking_table_no._43.pdf",
+   "title": "0.36 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 43",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/ngtl-expansion/tce-c28475-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._42.pdf",
+   "title": "0.61 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 42",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/ngtl-expansion/tce-c28118-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._41.pdf",
+   "title": "0.61 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 41",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/ngtl-expansion/tce-c27380-1_2021_ngtl_system_expansion_project_condition_16_and_14_commitments_tracking_table_no._40.pdf",
+   "title": "0.36 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 40",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/ngtl-expansion/tce-c27380-1_2021_ngtl_system_expansion_project_condition_16_and_14_commitments_tracking_table_no._39.pdf",
+   "title": "0.36 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 39",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c26298-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._38.pdf",
+   "title": "0.60 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 38",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c26298-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._37.pdf",
+   "title": "0.61 MB 2021 System Expansion — Commitment Tracking Table No. 37",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c25959-1_2021_ngtl_sxp_cond16-14_commitments_tracking_table_no-36.pdf",
+   "title": "0.36 MB 2021 System Expansion — Commitment Tracking Table No. 36",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c25639-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._35.pdf",
+   "title": "0.58 MB 2021 System Expansion — Commitment Tracking Table No. 35",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c25069-1_2021_ngtltce-system_expansion_-_condition_16_and_14_commitments_tracking_table_no._34_-_a8r1d5.pdf",
+   "title": "0.60 MB 2021 System Expansion — Commitment Tracking Table No. 34",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-2021-ngtl-system-expansion-condition-16-and-14-commitments-tracking-table-no-33.pdf",
+   "title": "0.60 MB 2021 System Expansion — Commitment Tracking Table No. 33",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c24134-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._32.pdf",
+   "title": "0.57 MB 2021 System Expansion — Commitment Tracking Table No. 32",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c23743-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._31_-_a8l2a9.pdf",
+   "title": "0.57 MB 2021 System Expansion — Commitment Tracking Table No. 31",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c23361-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._30.pdf",
+   "title": "0.57 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 30",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c22932-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._29_-_a8j8j7.pdf",
+   "title": "0.56 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 29",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-c22649-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._28_-_a8j4c4.pdf",
+   "title": "0.58 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 28",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-2021-ngtl-system-expansion-condition-16-and-14-commitments-tracking-table-no-27.pdf",
+   "title": "0.59 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 27",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tce-2021-ngtl-system-expansion-condition-16-and-14-commitments-tracking-table-no-26.pdf",
+   "title": "0.60 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 26",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-condition-16-and-14-commitments-tracking-table-no-25.pdf",
+   "title": "0.58 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 25",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-condition-16-and-14-commitments-tracking-table-no-24.pdf",
+   "title": "0.58 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 24",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-condition-16-and-14-commitments-tracking-table-no-23.pdf",
+   "title": "0.60 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 23",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-condition-16-and-14-commitments-tracking-table-no-22.pdf",
+   "title": "0.58 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 22",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/c19250-1_2021_ngtl_sxp_commitments_tracking_table_no21_-_a8e0u8.pdf",
+   "title": "0.36 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 21",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-condition-16-and-14-commitments-tracking-table-no-20.pdf",
+   "title": "0.66 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 20",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/2021-ngtl-system-expansion-condition-16-and-14-commitments-tracking-table-no-19.pdf",
+   "title": "0.63 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 19",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021_ngtl_system_expansion-condition_16_and_14_commitments_tracking_table_no_18.pdf",
+   "title": "0.62 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 18",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/c17347-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._17_-_a8a3z5.pdf",
+   "title": "0.61 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 17",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/c16948-1_2021_ngtl_system_exp_condition_16_and_14_commitments_tracking_table_no._16_-_a7z8t8.pdf",
+   "title": "0.36 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 16",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-commitment-tracking-no-15.pdf",
+   "title": "0.63 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 15",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-commitment-tracking-no-14.pdf",
+   "title": "0.58 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 14",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-commitment-tracking-no-13.pdf",
+   "title": "0.57 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 13",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-commitment-tracking-no-12.pdf",
+   "title": "0.29 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 12",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/c14184-1_2021_ngtl_system_expansion_-_condition_16_and_14_commitments_tracking_table_no._11_-_a7v3t2.pdf",
+   "title": "0.46 MB 2021 System Expansion — Commitment Tracking Table No. 11",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-commitment-tracking-no-10.pdf",
+   "title": "0.46 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 10",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-commitment-tracking-no-9.pdf",
+   "title": "0.43 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 9",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-commitment-tracking-no-8.pdf",
+   "title": "0.78 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 8",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-commitment-tracking-no-7.pdf",
+   "title": "0.33 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 7",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-commitment-tracking-no-6.pdf",
+   "title": "0.42 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 6",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-commitment-tracking-no-5.pdf",
+   "title": "0.41 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 5",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-commitment-tracking-no-4.pdf",
+   "title": "0.76 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 4",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-commitment-tracking-no-3.pdf",
+   "title": "0.48 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 3",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-commitment-tracking-no-2.pdf",
+   "title": "0.69 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 2",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/2021-ngtl-system-expansion/regulatory/tc-2021-ngtl-system-expansion-commitment-tracking-no-1.pdf",
+   "title": "0.26 MB 2021 NGTL System Expansion — Commitment Tracking Table No. 1",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/2021-ngtl-system-expansion/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/mazatlan-project/transcanada-mazatlan-pipeline-map.pdf",
+   "title": "3.77 MB Mazatlan Pipeline Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/mazatlan-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/mazatlan-project/transcanada-topolobampo-pipeline-map.pdf",
+   "title": "5.05 MB Topolobampo Pipeline Map — 2017",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/mazatlan-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/mazatlan-project/transcanada-mazatlan-pipeline-system-map.pdf",
+   "title": "3.77 MB Mazatlan Pipeline Map — 2017",
+   "type": "map",
+   "page": "https://www.tcenergy.com/operations/natural-gas/mazatlan-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/media/announcements/2018-02-annual-disclosure-documents/transcanada-annual-disclosure-documents.pdf",
+   "title": "Download",
+   "type": "closure",
+   "page": "https://www.tcenergy.com/announcements/2018/2018-02-15transcanada-files-2017-annual-disclosure-documents/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/d9/d928f4da-d80e-4ad4-8b3e-beb1701f03ee.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-02-21transcanada-files-2013-annual-disclosure-documents/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/df/dfb80ac6-92ba-46b0-9cae-5369e18ae92c.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2015/2015-02-13transcanada-files-2014-annual-disclosure-documents/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/3d/3d9d6e6d-71a8-4134-bb12-7603ebbc186b.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2015/2015-10-27prince-rupert-gas-transmission-project-receives-oil-and-gas-commission-approvals/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/50/5032d224-2dec-4319-b096-a25291243e14.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2016/2016-02-11transcanada-files-2015-annual-disclosure-documents/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/33/33e08bf3-b367-441d-870d-c6f4bbcf5719.pdf",
+   "title": "Gitanyow",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2016/2016-11-29prince-rupert-gas-transmission-signs-project-agreement-with-gitxsan-hereditary-chiefs/"
+  },
+  {
+   "url": "http://princerupert.staging.wpengine.com/wp-content/uploads/2016/05/TransCanada-PRGT-Takla-pr2-revMay102016-2.pdf",
+   "title": "McLeod Lake Indian Band",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2016/2016-11-29prince-rupert-gas-transmission-signs-project-agreement-with-gitxsan-hereditary-chiefs/"
+  },
+  {
+   "url": "http://www.princerupertgas.com/wp-content/uploads/2016/11/Transcanada-prgt-tlazten-media-advisory.pdf",
+   "title": "Tl'azt'en Nation",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2016/2016-11-29prince-rupert-gas-transmission-signs-project-agreement-with-gitxsan-hereditary-chiefs/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/a7/a7000333-e17f-4b27-9ed1-6326e8024016.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2016/2016-11-29prince-rupert-gas-transmission-signs-project-agreement-with-gitxsan-hereditary-chiefs/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/d9/d9e7cccc-c62a-44cb-b284-8e6f61728455.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2017/2017-02-16transcanada-files-2016-annual-disclosure-documents/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/4f05398b-f7fd-42c1-9d90-1712f1d02304",
+   "title": "http://ml.globenewswire.com/Resource/Download/4f05398b-f7fd-42c1-9d90-1712f1d02304",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2025/2025-12-31-tc-energy-provides-conversion-right-and-dividend-rate-notice-for-series-5-and-6-preferred-shares/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/55e8d9aa-7d04-46ae-9653-a4cbb657df40",
+   "title": "http://ml.globenewswire.com/Resource/Download/55e8d9aa-7d04-46ae-9653-a4cbb657df40",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2025/2025-06-02-tc-energy-provides-conversion-right-and-dividend-rate-noticefor-series-3-and-4-preferred-shares/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/fea6dd55-b1d1-43c3-8961-355750b2e549",
+   "title": "http://ml.globenewswire.com/Resource/Download/fea6dd55-b1d1-43c3-8961-355750b2e549",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2024/2024-12-02-tc-energy-provides-conversion-right-and-dividend-rate-notice-for-series-1-and-2-preferred-shares-/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/f743bf5c-8728-4e9c-81d8-fd7b29e4a1e1",
+   "title": "http://ml.globenewswire.com/Resource/Download/f743bf5c-8728-4e9c-81d8-fd7b29e4a1e1",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2024/2024-07-30-tc-energy-announces-canadas-largest-indigenous-equity-ownership-agreement/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/feda786f-3ded-4c86-93f7-51c5cd6516d1",
+   "title": "http://ml.globenewswire.com/Resource/Download/feda786f-3ded-4c86-93f7-51c5cd6516d1",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2024/2024-10-01-tc-energy-provides-conversion-right-and-dividend-rate-noticefor-series-9-and-10-preferred-shares/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/bab54a3a-d362-405d-ade1-8b67f331e6a7",
+   "title": "http://ml.globenewswire.com/Resource/Download/bab54a3a-d362-405d-ade1-8b67f331e6a7",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2024/2024-04-01-tc-energy-provides-conversion-right-and-dividend-rate-noticefor-series-7-and-8-preferred-shares/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/anr/tc-anr-pipeline-system-map.pdf",
+   "title": "4.44 MB ANR Pipeline System Map",
+   "type": "map",
+   "page": "https://www.tcenergy.com/testing/aarontest/projects-template/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/anr/tc-anr-pipeline-system-map-northeast-section.pdf",
+   "title": "3.94 MB ANR Pipeline System Map — Northeast Section",
+   "type": "map",
+   "page": "https://www.tcenergy.com/testing/aarontest/projects-template/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/anr/tc-anr-pipeline-system-map-southern-section.pdf",
+   "title": "2.96 MB ANR Pipeline System Map — Southern Section",
+   "type": "map",
+   "page": "https://www.tcenergy.com/testing/aarontest/projects-template/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/anr/tc-anr-pipeline-system-map-western-section.pdf",
+   "title": "2.38 MB ANR Pipeline System Map — Western Section",
+   "type": "map",
+   "page": "https://www.tcenergy.com/testing/aarontest/projects-template/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-program/2023/tc-west-path-delivery-2023-amended-notice-of-public-hearing-and-registration-to-participate.pdf",
+   "title": "Notice of Public Hearing and Registration to Participate for the Project",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2023/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-program/2023/tc-west-path-delivery-2023-amended-notice-of-public-hearing-and-registration-to-participate-appendix-a.pdf",
+   "title": "Notice of Public Hearing and Registration to Participate for the Project - Appendix A",
+   "type": "technical",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2023/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-program/factsheets/tce-factsheet-ngtl-west-path-delivery.pdf",
+   "title": "View the NGTL West Path Delivery 2023 Fact Sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2023/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-program/factsheets/factsheet-foothills-zone-8-west-path-delivery-2023.pdf",
+   "title": "View the Foothills Zone 8 West Path Delivery 2023 Fact sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2023/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-program/factsheets/factsheet-ngtl-west-path-delivery-2022.pdf",
+   "title": "View the NGTL West Path Delivery 2022 Project Fact Sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2022/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-program/factsheets/factsheet-foothills-zone-8-west-path-delivery-2022.pdf",
+   "title": "View the Foothills Zone 8 West Path Delivery Project Fact Sheet",
+   "type": "newsletter",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2022/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-project/c16869-1_ngtl_west_path_delivery_2022_cond._10_commitment_tracking_table_no._1_-_a7z7l1.pdf",
+   "title": "0.34 MB NGTL West Path Delivery 2022 Commitment Tracking Table No. 1",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2022/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-project/tc-c19616-1_ngtl_west_path_delivery_2022_cond_10_ctt_no.2_-_a8e6h0.pdf",
+   "title": "0.42 MB NGTL West Path Delivery 2022 Commitment Tracking Table No. 2",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2022/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-project/tce-c22560-1_ngtl_west_path_delivery_2022_cond._10_commitments_tracking_table_no._3.pdf",
+   "title": "0.48 MB NGTL West Path Delivery 2022 Commitment Tracking Table No. 3",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2022/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-project/tce-c24939-1_ngtl_west_path_delivery_2022_cond._10_commitments_tracking_table_no._4_-_a8q9k7.pdf",
+   "title": "0.42 MB NGTL West Path Delivery 2022 Commitment Tracking Table No. 4",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2022/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-project/tce-c28007-1_ngtl_west_path_delivery_2022_condition_10_commitments_tracking_table_no._5.pdf",
+   "title": "0.42 MB NGTL West Path Delivery 2022 Commitment Tracking Table No. 5",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2022/"
+  },
+  {
+   "url": "https://www.tcenergy.com/contentassets/e251c861e7d24fc7b333562ce54ba6be/tce-c30706-1_ngtl_west_path_delivery_2022_cond._10_commitments_tracking_table_no._6_-_a9c5j4.pdf",
+   "title": "0.43 MB NGTL West Path Delivery 2022 Commitment Tracking Table No. 6",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2022/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-project/tce-c33080-1_ngtl_west_path_delivery_2022_cond._10_commitments_tracking_table_no._7.pdf",
+   "title": "0.42 MB NGTL West Path Delivery 2022 Commitment Tracking Table No. 7",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2022/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-project/tce-c35604-1_ngtl_west_path_delivery_2022_cond._10_commitments_tracking_table_no._8.pdf",
+   "title": "0.43 MB NGTL West Path Delivery 2022 Commitment Tracking Table No. 8",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2022/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-project/tce-c38677-1_ngtl_west_path_delivery_2022_cond._10_commitments_tracking_table_no._9_-_a9t2r8.pdf",
+   "title": "0.28 MB NGTL West Path Delivery 2022 Commitment Tracking Table No. 9",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2022/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/natural-gas/west-path-delivery-project/tce-c40703-1_ngtl_west_path_delivery_2022_condition_10_commitments_tracking_table_no._10_-_a9w3i1.pdf",
+   "title": "0.28 MB NGTL West Path Delivery 2022 Commitment Tracking Table No. 10",
+   "type": "other",
+   "page": "https://www.tcenergy.com/operations/natural-gas/west-path-delivery-program/2022/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/e36dfb8f-7b94-4a72-833e-b90b59d4a337",
+   "title": "http://ml.globenewswire.com/Resource/Download/e36dfb8f-7b94-4a72-833e-b90b59d4a337",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2023/2023-02-01-tc-energy-provides-coastal-gaslink-project-update/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/4517a130-2434-44e1-a464-f759c5fbee39",
+   "title": "http://ml.globenewswire.com/Resource/Download/4517a130-2434-44e1-a464-f759c5fbee39",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2021/2021-11-05-tc-energy-announces-us$0.8-billion-wr-project"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/0b1c48f4-1d89-49a8-9ed5-36ede73b59d6",
+   "title": "http://ml.globenewswire.com/Resource/Download/0b1c48f4-1d89-49a8-9ed5-36ede73b59d6",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2021/2021-10-07-media-advisory--nikola-and-tc-energy-sign-joint-development-agreement-for-co-development-of-large-scale-clean-hydrogen-hubs/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/0f9a9303-1327-470b-9ef3-8b95c41353d4",
+   "title": "http://ml.globenewswire.com/Resource/Download/0f9a9303-1327-470b-9ef3-8b95c41353d4",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2021/2021-07-02-tc-energy-commences-nafta-claim-following-revocation-of-keystone-xl-presidential-permit/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/f1a8a1a2-3b32-4853-bc20-ff143e81155c",
+   "title": "http://ml.globenewswire.com/Resource/Download/f1a8a1a2-3b32-4853-bc20-ff143e81155c",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2021/2021-06-09-tc-energy-confirms-termination-of-keystone-xl-pipeline-project/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/ca1c82cb-084d-4e3a-b608-138eae2c8567",
+   "title": "http://ml.globenewswire.com/Resource/Download/ca1c82cb-084d-4e3a-b608-138eae2c8567",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2021/2021-01-20-tc-energy-disappointed-with-expected-executive-action-revoking-keystone-xl-presidential-permit/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/b5d84146-b656-482b-9ea4-e787c0401d2e",
+   "title": "http://ml.globenewswire.com/Resource/Download/b5d84146-b656-482b-9ea4-e787c0401d2e",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2020/2020-12-31-tc-energy-provides-conversion-right-and-dividend-rate-notice-for-series-5-and-6-preferred-shares/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/74215dc5-e8eb-431f-99d2-555f8b84acf5",
+   "title": "http://ml.globenewswire.com/Resource/Download/74215dc5-e8eb-431f-99d2-555f8b84acf5",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2020/2020-10-29-tc-energy-announces-wisconsin-access-project-on-anr-pipeline-system/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/d5d928dd-445f-484c-b415-fd399d587078",
+   "title": "http://ml.globenewswire.com/Resource/Download/d5d928dd-445f-484c-b415-fd399d587078",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2020/2020-11-02-tc-energy-provides-conversion-right-and-dividend-rate-notice-for-series-11-and-12-preferred-shares/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/c87f3862-a095-42a8-89ba-d377807d52ca",
+   "title": "http://ml.globenewswire.com/Resource/Download/c87f3862-a095-42a8-89ba-d377807d52ca",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2020/2020-10-28-tc-energy-awards-more-than-$1.6-billion-in-american-contracts-to-build-keystone-xl-project-to-create-over-8000-union-jobs-in-2021"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/d4b08489-6ce4-4dff-9fb0-306519a2f3d6",
+   "title": "http://ml.globenewswire.com/Resource/Download/d4b08489-6ce4-4dff-9fb0-306519a2f3d6",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2020/2020-09-29-tc-energy-and-natural-law-energy-sign-historic-mou-facilitating-one-of-the-largest-indigenous-equity-investments-of-its-kind-in-north/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/deeebadb-6dba-4c49-bae4-2cb5eaae0b47",
+   "title": "http://ml.globenewswire.com/Resource/Download/deeebadb-6dba-4c49-bae4-2cb5eaae0b47",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2020/2020-07-30-tc-energy-announces-us$0.4-billion-elwood-poweranr-horsepower-replacement-project"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/7e2e0752-d56a-4ff0-bd84-3b37ba3d0a92",
+   "title": "http://ml.globenewswire.com/Resource/Download/7e2e0752-d56a-4ff0-bd84-3b37ba3d0a92",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2020/2020-08-05-keystone-xl-announces-project-labor-agreement-with-four-u.s.-unions"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/44048d30-1503-4cb9-897d-36b446ced1c9",
+   "title": "http://ml.globenewswire.com/Resource/Download/44048d30-1503-4cb9-897d-36b446ced1c9",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2020/2020-05-25-tc-energy-completes-partial-monetization-and-project-financing-transactions-for-coastal-gaslink-/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/c9b60a36-f2bd-4782-895f-d544f8a6e85d",
+   "title": "http://ml.globenewswire.com/Resource/Download/c9b60a36-f2bd-4782-895f-d544f8a6e85d",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2020/2020-06-01-tc-energy-provides-conversion-right-and-dividend-rate-notice-for-series-3-and-4-preferred-shares-/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/media/announcements/2020/02-13---ngtl-news/2020-02-13-1.3-billion-of-system-expansions-to-connect-western-canadian-sedimentary-basin-supply-to-incremental-market-demand.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2020/2020-02-13tc-energy-announces-$1.3-billion-of-system-expansions-to-connect-western-canadian-sedimentary-basin-supply-to-incremental-market-demand"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/f8fa5595-78fe-4a7e-bc9b-4c91dbac507e",
+   "title": "http://ml.globenewswire.com/Resource/Download/f8fa5595-78fe-4a7e-bc9b-4c91dbac507e",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2019/2019-09-30tc-energy-provides-dividend-rate-notice--for-series-9-and-10-preferred-shares/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/3721005a-a1a2-44c3-a07f-6d5b0b0a66b9",
+   "title": "http://ml.globenewswire.com/Resource/Download/3721005a-a1a2-44c3-a07f-6d5b0b0a66b9",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2019/2019-12-02tc-energy-provides-dividend-rate-noticefor-series-1-and-2-preferred-shares/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/media/announcements/2019/12-26-monetization-of-cgl/tc-cgl-monetization-of-coastal-gaslink-news-release-12-26-19.pdf",
+   "title": "https://www.tcenergy.com/siteassets/pdfs/media/announcements/2019/12-26-monetization-of-cgl/tc-cgl-monetization-of-coastal-gaslink-news-release-12-26-19.pdf",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2019/2019-12-26tc-energy-announces-the-partial-monetization-of-the-coastal-gaslink-pipeline-project/"
+  },
+  {
+   "url": "http://ml.globenewswire.com/Resource/Download/a3e64086-b760-415b-83ae-ede74b5af6d2",
+   "title": "http://ml.globenewswire.com/Resource/Download/a3e64086-b760-415b-83ae-ede74b5af6d2",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2019/2019-09-18tc-energy-provides-series-9-preferred-shares-conversion-right-and-dividend-rate-notice/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/media/announcements/2019/04-01/2019-04-01-news-release-transcanada-provides-dividend-rate-notice-for-series-7-and-8-preferred-shares.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2019/2019-04-01transcanada-provides-dividend-rate-notice-for-series-7-and-8-preferred-shares/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/media/announcements/2019/03-29/2019-03-29-news-release-president-trump-affirms-support-for-keystone-xl-project.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2019/2019-03-29president-trump-affirms-support-for-keystone-xl-project/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/media/announcements/2019/03-15/transcanada-series-7-shares-notice.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2019/2019-03-15transcanada-provides-series-7-preferred-shares-conversion-right-and-dividend-rate-notice/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/media/announcements/2019/03-01/transcanada-mxp-gxp-in-service-release.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2019/2019-03-01transcanadas-mountaineer-xpress-project-placed-into-service-gulf-xpress-reaches-partial-in-service/"
+  },
+  {
+   "url": "http://resource.globenewswire.com/Resource/Download/43bcd20e-b566-40fa-ad65-32d1d6e8a2c1",
+   "title": "here",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2018/2018-09-13coastal-gaslink-signs-agreements-with-100-per-cent-of-b.c.-elected-indigenous-bands-along-the-pipeline-route"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/media/announcements/2018-04-09-sundre-crossover-in-service/transcanada-sundre-crossover-in-service.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2018/2018-04-09transcanada-places-sundre-crossover-project-in-service/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/media/announcements/2018-04-02-ngtl-final-section-in-service/transcanada-ngtl-final-section-in-service.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2018/2018-04-02transcanada-places-final-section-of-2017-ngtl-expansion-program-into-service/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/2b/2bd02a67-2f5a-469a-a830-2675f2584861.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2018/2018-01-02leach-xpress-project-placed-into-service-mountaineer-xpress-gulf-xpress-receive-ferc-certificates/"
+  },
+  {
+   "url": "https://www.tcenergy.com/siteassets/pdfs/media/announcements/2018-02-ngtl/transcanada-2021-ngtl-expansion-program.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2018/2018-02-15transcanada-announces-$2.4-billion-expansion-to-increase-market-access-for-wcsb-supply"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/c0/c063134d-2ca0-4e2e-9a4f-2cc99ae05228.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2017/2017-10-05-transcanada-anounces-termination-of-energy-east-pipeline-and-eastern-mainline-projects/"
+  },
+  {
+   "url": "http://media3.marketwire.com/docs/AlaskaPipeline.pdf",
+   "title": "http://media3.marketwire.com/docs/AlaskaPipeline.pdf",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2010/2010-01-29the-alaska-pipeline-project-files-open-season-plan-with-ferc--first-in-the-history-of-the-north-slope/"
+  },
+  {
+   "url": "http://media3.marketwire.com/docs/OpenSeason.pdf",
+   "title": "http://media3.marketwire.com/docs/OpenSeason.pdf",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2010/2010-01-29the-alaska-pipeline-project-files-open-season-plan-with-ferc--first-in-the-history-of-the-north-slope/"
+  },
+  {
+   "url": "http://media3.marketwire.com/docs/211tcp.pdf",
+   "title": "http://media3.marketwire.com/docs/211tcp.pdf",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2011/2011-02-11media-advisory-transcanada-welcomes-more-bipartisan-congressional-support-for-keystone-xl-pipeline-project/"
+  },
+  {
+   "url": "http://www.transcanada.com/docs/Key_Projects/Bipartisan_Congressional_Support_Keystone_XL_Letter__Secretary_Clinton.pdf",
+   "title": "state and federal officials",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2011/2011-10-19twenty-two-house-democrats-urge-president-obama-to-ensure-keystone-xl-receives-presidential-permit/"
+  },
+  {
+   "url": "http://www.transcanada.com/docs/Key_Projects/democratic_support_keystone.pdf",
+   "title": "embedded link",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2011/2011-10-19twenty-two-house-democrats-urge-president-obama-to-ensure-keystone-xl-receives-presidential-permit/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/cb/cb51f136-446f-4197-9cd5-b958e8431024.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-01-22transcanada-announces-start-of-crude-oil-deliveries-on-gulf-coast-project/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/95/95a67860-e86f-428c-b13e-2adf4250d471.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-01-22gulf-coast-project-begins-delivering-crude-oil-to-nederland-texas/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/d1/d185022d-7ee1-4b12-917f-cfa6f5e59fca.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-01-31final-environmental-review-demonstrates-keystone-xl-should-be-approved/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/ce/ce8ad3ee-3bd2-4daa-9b39-5f0abc58e46d.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-05-08transcanada-files-eastern-mainline-project-description-with-national-energy-board/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/b3/b3b4a8ce-f5e9-44ca-89ce-9b65e8806425.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-06-04transcanada-to-proceed-with-$1.9-billion-merrick-mainline-pipeline-project"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/0d/0d67146b-d724-40ac-a4f1-cd37c28aa421.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-10-29transcanada-to-file-energy-east-pipeline-project-application-with-national-energy-board-of-canada/"
+  },
+  {
+   "url": "http://transcanada.mwnewsroom.com/Files/c7/c7d69ef9-abee-4b9f-9a57-ff541a876f21.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.tcenergy.com/announcements/2014/2014-10-30$12-billion-energy-east-pipeline-project-takes-important-step-forward-with-neb-application-filing/"
+  }
+ ],
+ "doc_types": {
+  "other": 243,
+  "engagement": 21,
+  "newsletter": 37,
+  "closure": 16,
+  "permit_approval": 2,
+  "map": 22,
+  "open_house": 1,
+  "technical": 1
+ },
+ "crawled_at": "2026-09-04T13:36:48Z",
+ "name": "TC Energy Corporation"
+}

@@ -1,0 +1,1428 @@
+{
+ "key": "atomic energy of canada",
+ "site": "http://www.aecl.ca/",
+ "host": "www.aecl.ca",
+ "fetched": 84,
+ "pages": [
+  {
+   "url": "https://www.aecl.ca/about-aecl/aecl-engagement/",
+   "title": "Indigenous Engagement - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/",
+   "title": "Posters - AECL",
+   "depth": 2,
+   "docs": 24
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/",
+   "title": "Project Sites - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/",
+   "title": "Project Sites - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/",
+   "title": "Posters - AECL",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/chalk-river-laboratories/",
+   "title": "Chalk River Laboratories - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/near-surface-disposal-facility/",
+   "title": "Near Surface Disposal Facility - AECL",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/port-hope-area-initiative/",
+   "title": "Port Hope Area Initiative - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/whiteshell-laboratories/",
+   "title": "Whiteshell Laboratories - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/nuclear-power-demonstration/",
+   "title": "Nuclear Power Demonstration Reactor - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/low-level-radioactive-waste-management-office/",
+   "title": "Low-level Radioactive Waste Management Office - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/northern-transportation-route/",
+   "title": "Northern Transportation Route - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/douglas-point/",
+   "title": "Douglas Point Reactor - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/gentilly-power-reactor/",
+   "title": "Gentilly-1 Power Reactor - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/repatriation-of-highly-enriched-uranium/",
+   "title": "Repatriation of Highly-Enriched Uranium - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/chalk-river-laboratories/",
+   "title": "Chalk River Laboratories - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/near-surface-disposal-facility/",
+   "title": "Near Surface Disposal Facility - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/port-hope-area-initiative/",
+   "title": "Port Hope Area Initiative - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/whiteshell-laboratories/",
+   "title": "Whiteshell Laboratories - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/nuclear-power-demonstration/",
+   "title": "Nuclear Power Demonstration Reactor - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/low-level-radioactive-waste-management-office/",
+   "title": "Low-level Radioactive Waste Management Office - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/northern-transportation-route/",
+   "title": "Northern Transportation Route - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/gentilly-power-reactor/",
+   "title": "Gentilly-1 Power Reactor - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/radioactive-waste/project-sites/repatriation-of-highly-enriched-uranium/",
+   "title": "Repatriation of Highly-Enriched Uranium - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/environment-and-responsible-waste-management/videos/",
+   "title": "Videos - AECL",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/science-technology/responsible-waste-management/",
+   "title": "Environment & Responsible Waste Management - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/an-explanation-by-atomic-energy-of-canada-limited-aecl-of-the-commissioner-for-the-environment-and-sustainable-development-cesd-report-to-parliament-on-radioactive-waste-management-low-a/",
+   "title": "An Explanation by Atomic Energy of Canada Limited (AECL) of the Commissioner for the Environment and Sustainable Development (CESD) Report to Parliament on Radioactive Waste Management – Low and Inter",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/small-modular-reactor-project-at-the-chalk-river-laboratories-moves-to-formal-licence-review-with-cnsc/",
+   "title": "Small Modular Reactor Project at the Chalk River Laboratories Moves to Formal Licence Review With CNSC - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/trilateral-commitment-to-sustainability-in-the-decommissioning-of-legacy-nuclear-sites/",
+   "title": "Trilateral commitment to sustainability in the decommissioning of legacy nuclear sites - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/the-algonquins-of-pikwakanagan-first-nation-aecl-and-cnl-sign-historic-long-term-relationship-agreement/",
+   "title": "The Algonquins of Pikwakanagan First Nation, AECL, and CNL sign historic long-term relationship agreement - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/joint-statement-from-the-leaders-from-the-united-states-department-of-energy-the-united-kingdoms-nuclear-decommissioning-authority-atomic-energy-of-canada-limited-the-french-alternative-en/",
+   "title": "Joint statement of collaboration for the cleanup of nuclear sites. - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/canada-united-states-announce-completion-of-nuclear-material-shipping-project/",
+   "title": "Canada, United States, Announce Completion of Nuclear Material Shipping Project - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/notice-of-aecls-annual-public-meeting-2020/",
+   "title": "Notice of AECL’s Annual Public Meeting 2020 - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/aecl-supports-efforts-to-mitigate-the-impacts-of-covid-19/",
+   "title": "AECL Supports Efforts to Mitigate the Impacts of COVID-19 - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/notice-of-public-meeting-3/",
+   "title": "Notice of Public Meeting - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/appointment-of-alastair-macdonald-as-vice-president-decommissioning-and-waste-management-oversight/",
+   "title": "Appointment of Alastair MacDonald as Vice-President, Decommissioning and Waste Management Oversight - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/aecl-and-the-uks-nuclear-decommissioning-authority-renew-collaboration-agreement/",
+   "title": "AECL and the UK’s Nuclear Decommissioning Authority renew collaboration agreement - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/notice-of-public-meeting-2/",
+   "title": "Notice of public meeting - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/chalk-river-open-house-on-august-12-2017/",
+   "title": "Chalk River Open House on August 12, 2017 - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/notice-of-public-meeting/",
+   "title": "Notice of Public Meeting - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/notice-of-aecls-2025-annual-public-meeting/",
+   "title": "Notice of AECL’s 2025 Annual Public Meeting - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/environment-and-responsible-waste-management/papers/",
+   "title": "Papers - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/",
+   "title": "Posters - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/reports-resources/may-2018-public-meeting/",
+   "title": "May 2018 Public Meeting - AECL",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.aecl.ca/reports-resources/",
+   "title": "Reports, publications, resources and links - AECL",
+   "depth": 2,
+   "docs": 85
+  },
+  {
+   "url": "https://www.aecl.ca/reports-resources/may-2019-public-meeting/",
+   "title": "May 2019 Public Meeting - AECL",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.aecl.ca/reports-resources/september-2020-public-meeting/",
+   "title": "September 2020 Public Meeting - AECL",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.aecl.ca/reports-resources/october-2022-public-meeting/",
+   "title": "October 2022 Public Meeting - AECL",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/aecl-and-atkinsrealis-enter-into-memorandum-of-understanding-to-collaborate-and-expand-intellectual-property-agreement-accelerating-development-of-candu-monark-reactor/",
+   "title": "AECL and AtkinsRéalis enter into Memorandum of Understanding to collaborate and expand intellectual property agreement, accelerating development of CANDU® MONARK™ reactor - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/aecl-and-cnl-to-host-annual-community-update-on-the-future-of-the-chalk-river-laboratories/",
+   "title": "AECL and CNL to host Annual Community Update on the future of the Chalk River Laboratories - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/kathleen-heppell-masys-to-assume-the-role-of-vice-president-nuclear-operations-oversight/",
+   "title": "Kathleen Heppell-Masys to assume the role of Vice-President, Nuclear Operations Oversight - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/safe-long-term-storage-of-waste-at-port-granby-site/",
+   "title": "Safe Long-Term Storage of Waste at Port Granby Site - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/about-aecl/aecls-values/",
+   "title": "AECL's Values | AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/about-aecl/doing-business-with-aecl/",
+   "title": "Doing Business with AECL Doing business with AECL - AECL",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.aecl.ca/about-aecl/board-of-directors/",
+   "title": "Board of Directors - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/about-aecl/",
+   "title": "About Atomic Energy of Canada Ltd (AECL)",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/",
+   "title": "Annual Reports on Access to Information Act and the Privacy Act - AECL",
+   "depth": 1,
+   "docs": 28
+  },
+  {
+   "url": "https://www.aecl.ca/about-aecl/goco-model/",
+   "title": "Government owned Contractor operated GoCo model - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/about-aecl/goco-contract-renewal/",
+   "title": "GoCo Contract Procurement - AECL",
+   "depth": 1,
+   "docs": 11
+  },
+  {
+   "url": "https://www.aecl.ca/about-aecl/executive-team/",
+   "title": "Executive Team - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/about-aecl/employment-with-aecl/",
+   "title": "Employment at AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.aecl.ca/research/",
+   "title": "Research - AECL",
+   "depth": 1,
+   "docs": 0
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Rowan-51400.50.18.01-sampling-FINAL-1.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Rowan-51400.50.18.01-sample-Accessible-PDF-1.pdf",
+   "title": "Accessible Text",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Rowan-51400.50.18.01-modelling-FINAL-1.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Rowan-51400.50.18.01-Accessible-PDF-1.pdf",
+   "title": "Accessible Text",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Rowan-51400.50.17.09-FINAL.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Rowan-51400.50.17.09-Accessible-PDF.pdf",
+   "title": "Accessible Text",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Olfert-51400.50.19.06-FINAL.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Olfert-51400.50.19.06-Accessible-PDF.pdf",
+   "title": "Accessible Text",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Olfert-51400.50.19.05-FINAL.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Olfert_51400.50.19.05-Accessible-PDF.pdf",
+   "title": "Accessible Text",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Olfert-_51400.50.19.03-FINAL.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Olfert_51400.50.19.03-Accessible-PDF.pdf",
+   "title": "Accessible Text",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Neal_FST-51400.50.17.13-FINAL-1.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Neal_FST-51400.50.17.13-Accessible-PDF.pdf",
+   "title": "Accessible Text",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Neal-FST-51400-50-19-07-SMR-FINAL.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Neal-FST-51400-50-19-07-SMR-Accessible-PDF.pdf",
+   "title": "Accessible Text",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Korolevych_FST-51400.50.18.03-FINAL.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Korolevych_FST-51400.50.18.03-1.pdf",
+   "title": "Accessible Text",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Huang_51400.50.19.02-FINAL.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Huang_51400.50.19.02-Accessible-PDF.pdf",
+   "title": "Accessible Text",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Brinkman_51400.50.19.04-FINAL.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Brinkman_51400.50.19.04-Accessible-PDF.pdf",
+   "title": "Accessible Text",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Barry_51400.50.19.01-FINAL.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/12/Barry_51400.50.19.01-Accessible-PDF.pdf",
+   "title": "Accessible Text",
+   "type": "other",
+   "page": "https://www.aecl.ca/research/environment-and-responsible-waste-management/posters/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/05/Final-ENG-International-Panel-Review-Report-3-23-2020.pdf",
+   "title": "The full report is available here",
+   "type": "other",
+   "page": "https://www.aecl.ca/radioactive-waste/project-sites/near-surface-disposal-facility/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/AECL-Overview-Presentation-for-Public-Meeting-May-10-2018-FINAL-EN.pdf",
+   "title": "here",
+   "type": "presentation",
+   "page": "https://www.aecl.ca/reports-resources/may-2018-public-meeting/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2026/06/AECL-2026-27-Corporate-Plan-Summary.pdf",
+   "title": "2026-27 Corporate Plan Summary (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2025/09/2025-26-Corporate-Plan-Summary.pdf",
+   "title": "2025-26 Corporate Plan Summary (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2024/08/Corporate-Plan-Summary-2024-Accessible.pdf",
+   "title": "2024-25 Corporate Plan Summary (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/FINAL%20Design%20ENG_AECL%20Corporate%20Plan%20Summary%202023-24%20%283%29.pdf?_t=1712265181",
+   "title": "2023-24 Corporate Plan Summary (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2022/11/AECL_CP_22-23_ONLINE.pdf",
+   "title": "2022-23 Corporate Plan Summary (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2021/12/AECL-2021-22-Corporate-Plan-Summary-EN.pdf",
+   "title": "AECL Corporate Plan Summary 2021-22 (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2021/12/AECL-2020-21-Corporate-Plan-Summary-EN.pdf",
+   "title": "AECL Corporate Plan Summary 2020-21 (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2019/06/AECL-Corporate-Plan_ENG_2019_ACCESS_J14.pdf",
+   "title": "AECL Corporate Plan Summary 2019-20 (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/11/AECL-Corporate-Plan-Summary-2018-19-FINAL-EN-web.pdf",
+   "title": "AECL Corporate Plan Summary 2018-19 (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/11/AECL-2017-18-Corporate-Plan-Summary-EN-Web.pdf",
+   "title": "AECL Corporate Plan Summary 2017-18 (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/11/AECL-CorpPlan-Summary-16-17-ENG-WEB.pdf",
+   "title": "AECL Corporate Plan Summary 2016-17 (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/11/AECL-CorpPlan-Summary-15-16-ENG-WEB.pdf",
+   "title": "AECL Corporate Plan Summary 2015-16 (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/11/CPS-2014-15-EN.pdf",
+   "title": "AECL Corporate Plan Summary 2014-15 (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/11/CPS-2013-14-EN.pdf",
+   "title": "AECL Corporate Plan Summary 2013-14 (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/11/CPS-2012-13-EN.pdf",
+   "title": "AECL Corporate Plan Summary 2012-13 (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2026/08/AECL-2026-2027-Q1-Financial-Report.pdf",
+   "title": "2026-27 First Quarter Financial Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2026/02/AECL-2025-2026-Q3-Financial-Report.pdf",
+   "title": "2025-26 Third Quarter Financial Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2025/11/AECL-2025-2026-Second-Quarter-Financial-Report.pdf",
+   "title": "2025-26 Second Quarter Financial Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2025/08/AECL-2025-2026-Q1-Financial-Report.pdf",
+   "title": "2025-26 First Quarter Financial Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2025/08/AECL_2025_AR_ENG_FINAL_ACCESS.pdf",
+   "title": "2024-25 Annual Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2025/02/AECL-2024-2025-Q3-Financial-Report.pdf",
+   "title": "Third Quarter Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2024/11/2024-25-Second-Quarter-Financial-Report-PDF.pdf",
+   "title": "Second Quarter Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2025/08/AECL-2024-2025-Q1-Financial-Report.pdf",
+   "title": "First Quarter Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2024/08/AECL-2023-24-Annual-Report.pdf",
+   "title": "2023-24 Annual Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2025/02/AECL-2023-2024-Q3-Financial-Report.pdf",
+   "title": "Third Quarter Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2023/11/AECL-2023-2024-Q2-Financial-Report.pdf",
+   "title": "Second Quarter Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2023/08/AECL-2023-2024-Q1-Financial-Report.pdf",
+   "title": "First Quarter Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2023/08/Atomic-Energy-of-Canada-Limited-2023-Annual-Report-Final.pdf",
+   "title": "Annual Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2023/02/AECL-2022-2023-Q3-Financial-Report.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2022/11/AECL-2022-2023-Q2-Financial-Report-EN.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2022/08/AECL-2022-2023-Q1-Financial-Report.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2022/08/AECL_2022_AR_ENG_ONLINE.pdf",
+   "title": "Annual Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2022/02/AECL-2021-2022-Q3-Financial-Report.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2021/11/AECL-2021-2022-Q2-Financial-Report.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2021/08/AECL-2021-2022-Q1-Financial-Report.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2021/12/AECL_2021_AR_ENG_ACCESS.pdf",
+   "title": "Annual Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2021/02/AECL-2020-2021-Q3-Financial-Report.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/11/AECL-2020-2021-Q2-Financial-Report-1.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/08/AECL-2020-2021-Q1-Financial-Report.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/10/FINAL-AECL-19-20-Annual-Report-.pdf",
+   "title": "Annual Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/04/Alt-text-AECL-2019-2020-Q3-Financial-Report-BOD.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2019/11/AECL-2019-2020-Q2-Financial-Report_FINAL.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2019/08/AECL-2019-20-Q1-Financial-Report-1.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/01/20182019-Annual-Report.pdf",
+   "title": "Annual Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2019/03/AECL-2018-19-Q3-Financial-Report.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/11/AECL-2018-19-Q2-Financial-Report.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/11/AECL-2018-19-Q1-Financial-Report.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/AECL-Annual-Report-2017-18-FINAL-EN.pdf",
+   "title": "Annual Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/AECL-2017-2018-Q3-Financial-Report_PSAS.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/AECL-2017-2018-Q2-Financial-Report_PSAS-FINAL.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/AECL-2017-18-Q1-Financial-Report-.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2019/02/AECL-2016-2017-ANNUAL-REPORT.pdf",
+   "title": "Annual Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/AECL-2016-2017-Q3-Financial-Report_PSAS.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/AECL-2016-2017-Q2-Financial-Report-FINAL-EN.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/AECL-2016-2017-Q1-Financial-Report-FINAL-EN.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/2016_AFR_Eng.pdf",
+   "title": "Annual Financial Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/FR_3Q_2015-2016_Eng.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/FR_2Q_2015-2016_Eng.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/FR_1Q_2015-2016_Eng.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/2015_AFR_Eng.pdf",
+   "title": "Annual Financial Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/FR_3Q_2014-2015_Eng.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/FR_2Q_2014-2015_Eng.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/FR_1Q_2014-2015_Eng.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/2014_AFR_Eng.pdf",
+   "title": "Annual Financial Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/FR_3Q_2013-2014_Eng.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/FR_2Q_2013-2014_Eng.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/FR_Q1_2013-2014_Eng.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/2013_AFR_Eng.pdf",
+   "title": "Annual Financial Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/FR_3Q_2012-2013_Eng.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/FR_2Q_2012-2013_Eng.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/FR_1Q_2012-2013_Eng.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2026/02/NEW_4761746-AECL-ESG-Report-2025_1920x1080_EN_DRAFT-10_FOR-AECL_ACCESS_FINAL.pdf",
+   "title": "2025 ESG Annual Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2025/03/AECL-2024-Environmental-Social-and-Governance-ESG-I_Access.pdf",
+   "title": "2024 ESG Annual Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/AECL%20ESG%20ACCESS%20Report%20ENG%202023.pdf?_t=1712858701",
+   "title": "2023 ESG Annual Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2022/12/4071888-AECL-ESG-Report_ENG-2022-12-16.pdf",
+   "title": "2022 ESG Annual Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2023/03/Atomic-Energy-of-Canada-Limited-2022-Climate-Resilience-Report-2-1.pdf",
+   "title": "2022 Climate Resilience Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2026/05/2025-26-Supply-Chains-Act-Report.pdf",
+   "title": "2025-26 Supply chains Act Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2025/06/AECL-2024-25-Fighting-against-forced-labour-and-child-labour-in-our-supply-chains.pdf",
+   "title": "2024-25 Supply Chains Act Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/Fighting%20against%20forced%20labour%20and%20child%20labour%20in%20our%20supply%20chains%20AECL%20%282023-24%29.pdf?_t=1717099757",
+   "title": "2023-24 Supply Chains Act Report (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2026/06/2025-Socioeconomic-Impact-Assessment.pdf",
+   "title": "2025 Socioeconomic Impact Assessment",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2019/06/AECL-and-Radioactive-Waste-Management-May-2019.pdf",
+   "title": "AECL Presentation for the public meeting in Gatineau, QC.",
+   "type": "open_house",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/AECL-and-Radioactive-Waste-Management-CMM-May-16-2018-English.pdf",
+   "title": "AECL Presentation to Quebec municipal officials attending the annual Association of Quebec Municipalities meeting in Gatineau, QC. (PDF)",
+   "type": "presentation",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.oag-bvg.gc.ca/internet/docs/parl_cesd_202210_06_e.pdf",
+   "title": "Read the Commissioner’s full report here. (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/2017_OAG_SE_AECL_En.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/AECL-report-to-public-accounts-committee-Dec-2018.pdf",
+   "title": "AECL’s report in response to the Standing Committee on Public Accounts Recommendations",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2019/05/Presentation-EN.pdf",
+   "title": "PDF.",
+   "type": "presentation",
+   "page": "https://www.aecl.ca/reports-resources/may-2019-public-meeting/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/10/Public-Meeting-2020-ENG_-edited.pdf",
+   "title": "here",
+   "type": "other",
+   "page": "https://www.aecl.ca/reports-resources/september-2020-public-meeting/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2022/12/Public-Meeting-Presentation-EN-2022-unrestricted.pdf",
+   "title": "Public Meeting Presentation",
+   "type": "open_house",
+   "page": "https://www.aecl.ca/reports-resources/october-2022-public-meeting/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2025/04/AECL-Supplier-Code-of-Conduct.v1_EN.pdf",
+   "title": "AECL Supplier Code of Conduct",
+   "type": "other",
+   "page": "https://www.aecl.ca/about-aecl/doing-business-with-aecl/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2025/10/AECL-ATIA-2024-25-Annual-Report-Eng.pdf",
+   "title": "2024-25",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2024/10/AECL-ATIA-2023-24-Annual-Report-Eng.pdf",
+   "title": "2023-24",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/en/AECL%20ATIA%202022-23%20Annual%20Report%20Final%20-%20Eng.pdf?_t=1697563480",
+   "title": "2022-23",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/en/AECL%20Final%20ATIA%202021-22%20Annual%20Report%20-%20Eng.pdf?_t=1697562978",
+   "title": "2021-22",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2021/12/ATI-2020-21-Annual-Report-Final-Eng.pdf",
+   "title": "2020-21",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/10/AECL-ATI-2019-20-Annual-Report-EN.pdf",
+   "title": "2019-20",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/01/ATI-2018-19-Annual-Report-Eng-Final-June-24.pdf",
+   "title": "2018-19",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/Final-ATI-2017-2018-Annual-Report-ENG.pdf",
+   "title": "2017-18",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/Final-ATI-2016-2017-Annual-Report-Eng.pdf",
+   "title": "2016-17",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/Final-ATI-2015-2016-Annual-Report-Eng.pdf",
+   "title": "2015-16",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/ATI-2014-2015-Annual-Report-English.pdf",
+   "title": "2014-15",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/177-511600-041-009_Eng.pdf",
+   "title": "2013-14",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/177-511600-041-007_Eng.pdf",
+   "title": "2012-13",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/177-511600-041-005_Eng.pdf",
+   "title": "2011-12",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2025/10/AECL-PA-2024-25-Annual-Report-Eng-2.pdf",
+   "title": "2024-25",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2024/10/AECL-PA-2023-24-Annual-Report-Eng.pdf",
+   "title": "2023-24",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/en/AECL%20PA%202022-23%20Annual%20Report%20Final%20-%20Eng.pdf?_t=1697641729",
+   "title": "2022-23",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2022/11/Signed-AECL-Final-PA-2021-22-Annual-Report-Eng.pdf",
+   "title": "2021-22",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2021/12/PA-2020-21-Annual-Report-Final-Eng.pdf",
+   "title": "2020-21",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/10/AECL-PA-2019-20-Annual-Report-EN.pdf",
+   "title": "2019-20",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2020/01/PA-2018-19-Annual-Report-Eng-Final-June-24.pdf",
+   "title": "2018-19",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/Final-PA-2017-2018-Annual-Report-ENG.pdf",
+   "title": "2017-18",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/Final-PA-2016-2017-Annual-Report-ENG.pdf",
+   "title": "2016-17",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/Final-PA-2015-2016-Annual-Report-Eng.pdf",
+   "title": "2015-16",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/Privacy-2014-2015-Annual-Report-English.pdf",
+   "title": "2014-15",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/177-511600-041-010_Eng.pdf",
+   "title": "2013-14",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/177-511600-041-008_Eng.pdf",
+   "title": "2012-13",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2018/12/177-511600-041-006_Eng.pdf",
+   "title": "2011-12",
+   "type": "other",
+   "page": "https://www.aecl.ca/access-to-information-and-privacy-acts/reports/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2025/06/CNL-Statement-of-Work-2025.pdf",
+   "title": "CNL Statement of Work, 2025 onwards – Posted June 12, 2025",
+   "type": "other",
+   "page": "https://www.aecl.ca/about-aecl/goco-contract-renewal/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2024/09/AECL-GoCo-Procurement-Update-for-OCNI-Suppliers-Day-September-5-2024.pdf",
+   "title": "Presentation to OCNI Suppliers Day – September 5, 2024",
+   "type": "newsletter",
+   "page": "https://www.aecl.ca/about-aecl/goco-contract-renewal/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2024/08/AECL-GoCo-Procurement-Update-for-CNL-All-Staff-July-2024.pdf",
+   "title": "Presentation to CNL All-Staff Meeting – July 25, 2024",
+   "type": "newsletter",
+   "page": "https://www.aecl.ca/about-aecl/goco-contract-renewal/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2023/12/DRAFT-CNL-Statement-of-Work-AECL-GoCo-2025-2035.pdf",
+   "title": "DRAFT CNL Statement of Work 2025-2035, December 14, 2023",
+   "type": "other",
+   "page": "https://www.aecl.ca/about-aecl/goco-contract-renewal/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2023/12/Presentation-for-CNL-All-staff-AECL-GoCo-Procurement-Dec-14-2023-.pdf",
+   "title": "Presentation to CNL All-Staff Meeting – December 14, 2023",
+   "type": "presentation",
+   "page": "https://www.aecl.ca/about-aecl/goco-contract-renewal/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2023/10/Presentation-for-ESC-AECL-GoCo-Procurement-Update-Fall-2023-Oct-12-2023.pdf",
+   "title": "Presentation to CNL’s Environmental Stewardship Council – Update on AECL’s GoCo Procurement, October 12 2023",
+   "type": "newsletter",
+   "page": "https://www.aecl.ca/about-aecl/goco-contract-renewal/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2023/03/Renewal-of-the-GoCo-Contract-for-the-Management-of-CNL-RFPQ-1.pdf",
+   "title": "Request for Pre-Qualification – March 31 2023",
+   "type": "other",
+   "page": "https://www.aecl.ca/about-aecl/goco-contract-renewal/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2023/03/Presentation-for-ESC-GoCo-Procurement-Overview-AECL-March-30-2023-1.pdf",
+   "title": "Presentation to CNL’s Environmental Stewardship Council – Overview of AECL’s GoCo Procurement – March 30 2023",
+   "type": "presentation",
+   "page": "https://www.aecl.ca/about-aecl/goco-contract-renewal/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2023/03/Presentation-GoCo-Procurement-Overview-AECL-March-23-2023.pdf",
+   "title": "Presentation – Briefing Session and Site Tour for Interested Bidders – March 23 2023",
+   "type": "presentation",
+   "page": "https://www.aecl.ca/about-aecl/goco-contract-renewal/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2023/03/AECL-GoCo-Procurement-Questions-from-March-23-2023-Briefing.pdf",
+   "title": "Questions and Answers – Briefing Session and Site Tour for Interested Bidders – March 23 2023",
+   "type": "other",
+   "page": "https://www.aecl.ca/about-aecl/goco-contract-renewal/"
+  },
+  {
+   "url": "https://www.aecl.ca/wp-content/uploads/2023/01/RFEOI-eng-FINAL-2022.pdf",
+   "title": "Request for Expression of Interest (September 26, 2022) (PDF)",
+   "type": "other",
+   "page": "https://www.aecl.ca/about-aecl/goco-contract-renewal/"
+  }
+ ],
+ "doc_types": {
+  "other": 143,
+  "presentation": 6,
+  "open_house": 2,
+  "newsletter": 3
+ },
+ "crawled_at": "2026-09-04T15:15:29Z",
+ "name": "Atomic Energy of Canada Limited"
+}

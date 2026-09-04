@@ -1,0 +1,51 @@
+{
+ "key": "denison mines",
+ "site": "https://www.denisonmines.com/",
+ "host": "www.denisonmines.com",
+ "fetched": 1,
+ "pages": [
+  {
+   "url": "https://denisonmines.com/",
+   "title": "Home | Denison Mines Corp.",
+   "depth": 0,
+   "docs": 5
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://denisonmines.com/site/assets/files/6765/25-1862-2_denison_mines_corporation_40-f_-_asfiled.pdf",
+   "title": "+2024 Annual Report on Form 40-F",
+   "type": "other",
+   "page": "https://denisonmines.com/"
+  },
+  {
+   "url": "https://denisonmines.com/site/assets/files/6747/denison-aif-f2024-vfinal.pdf",
+   "title": "+2024 Annual Information Form",
+   "type": "other",
+   "page": "https://denisonmines.com/"
+  },
+  {
+   "url": "https://denisonmines.com/site/assets/files/7380/2026-06-dmc_q2_web_report.pdf",
+   "title": "+2026 Second Quarter Report",
+   "type": "other",
+   "page": "https://denisonmines.com/"
+  },
+  {
+   "url": "https://denisonmines.com/site/assets/files/7366/2026-03-dmc-q1-combined-report.pdf",
+   "title": "+2026 First Quarter Report",
+   "type": "other",
+   "page": "https://denisonmines.com/"
+  },
+  {
+   "url": "https://denisonmines.com/site/assets/files/7313/2025-12-dmc-annual-report-web.pdf",
+   "title": "+2025 Annual Report",
+   "type": "other",
+   "page": "https://denisonmines.com/"
+  }
+ ],
+ "doc_types": {
+  "other": 5
+ },
+ "crawled_at": "2026-09-04T15:33:12Z",
+ "name": "Denison Mines Corp."
+}

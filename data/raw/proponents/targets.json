@@ -14,8 +14,8 @@
    "bc_epic": 14,
    "federal_iaac": 7,
    "nrcan_gap": 2,
-   "inv:nrcan_mpi_points": 56,
    "inv:nrcan_mpi": 20,
+   "inv:nrcan_mpi_points": 56,
    "seed": 1
   },
   "sectors": {
@@ -111,8 +111,8 @@
    "federal_iaac": 4,
    "inv:nrcan_mpi": 1,
    "seed": 1,
-   "inv:nrcan_mpi_points": 6,
-   "inv:ab_majors": 2
+   "inv:ab_majors": 2,
+   "inv:nrcan_mpi_points": 6
   },
   "sectors": {
    "mining": 14,
@@ -232,15 +232,15 @@
    "Enbridge G&P Canada Limited Partnership",
    "Northern Gateway Pipelines Inc.",
    "EEN CA Massif du Sud S.E.C. et Enbridge Projet éolien Massif du Sud S.E.C.",
-   "Enbridge"
+   "Waste Connections of Canada and Enbridge"
   ],
   "projects": 24,
   "docs": 2516,
   "value_cad": 18935900000,
   "sources": {
    "bc_epic": 2,
-   "inv:nrcan_mpi_points": 3,
    "inv:nrcan_mpi": 8,
+   "inv:nrcan_mpi_points": 3,
    "federal_iaac": 2,
    "nrcan_gap": 1,
    "inv:ab_majors": 6,
@@ -298,14 +298,14 @@
   "sources": {
    "federal_iaac": 8,
    "nrcan_gap": 1,
-   "inv:ab_majors": 2,
    "inv:nrcan_mpi": 2,
+   "inv:ab_majors": 2,
    "seed": 1
   },
   "sectors": {
    "oil_gas": 4,
    "energy_other": 4,
-   "Oil Sands": 2
+   "Energy": 2
   },
   "website": "https://www.suncor.com/",
   "seed_urls": [],
@@ -377,8 +377,8 @@
   "sources": {
    "bc_epic": 3,
    "federal_iaac": 13,
-   "inv:nrcan_mpi_points": 2,
    "inv:nrcan_mpi": 5,
+   "inv:nrcan_mpi_points": 2,
    "seed": 1,
    "qc_ree": 1,
    "nrcan_gap": 1,
@@ -476,8 +476,8 @@
    "federal_iaac": 2,
    "mb_ea": 26,
    "nrcan_gap": 1,
-   "inv:ab_majors": 1,
    "inv:nrcan_mpi": 2,
+   "inv:ab_majors": 1,
    "seed": 1
   },
   "sectors": {
@@ -508,8 +508,8 @@
   "sources": {
    "bc_epic": 4,
    "federal_iaac": 5,
-   "inv:nrcan_mpi_points": 8,
    "inv:nrcan_mpi": 2,
+   "inv:nrcan_mpi_points": 8,
    "nrcan_gap": 1,
    "seed": 1
   },
@@ -564,14 +564,14 @@
   "sources": {
    "bc_epic": 1,
    "federal_iaac": 1,
-   "inv:nrcan_mpi_points": 1,
    "inv:nrcan_mpi": 1,
-   "seed": 1
+   "seed": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "oil_gas": 2,
-   "Mining & Oil & Gas Extraction": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Mining & Oil & Gas Extraction": 1
   },
   "website": "https://www.woodfibrelng.ca/",
   "seed_urls": [],
@@ -696,8 +696,8 @@
   "sources": {
    "bc_epic": 3,
    "federal_iaac": 3,
-   "inv:nrcan_mpi_points": 2,
-   "inv:nrcan_mpi": 3
+   "inv:nrcan_mpi": 3,
+   "inv:nrcan_mpi_points": 2
   },
   "sectors": {
    "mining": 6,
@@ -752,8 +752,8 @@
   "sources": {
    "federal_iaac": 3,
    "nrcan_gap": 1,
-   "inv:ab_majors": 5,
    "inv:nrcan_mpi": 1,
+   "inv:ab_majors": 5,
    "seed": 1
   },
   "sectors": {
@@ -860,8 +860,8 @@
   "value_cad": 9569600000,
   "sources": {
    "nrcan_gap": 1,
-   "inv:nrcan_mpi_points": 2,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 2
   },
   "sectors": {
    "Mining & Oil & Gas Extraction": 2,
@@ -873,27 +873,6 @@
   "website_source": "override",
   "wikidata": null,
   "score": 107.7
- },
- {
-  "key": "nisga a nation  rockies lng   western lng",
-  "name": "Nisga�a Nation/ Rockies LNG LP/ Western LNG",
-  "variants": [
-   "Nisga�a Nation/ Rockies LNG LP/ Western LNG"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 10000000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Mining & Oil & Gas Extraction": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 103.0
  },
  {
   "key": "nisga a nation  western lng  rockies lng partners",
@@ -909,6 +888,27 @@
   },
   "sectors": {
    "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 103.0
+ },
+ {
+  "key": "nisga a nation  rockies lng   western lng",
+  "name": "Nisga�a Nation/ Rockies LNG LP/ Western LNG",
+  "variants": [
+   "Nisga�a Nation/ Rockies LNG LP/ Western LNG"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 10000000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Mining & Oil & Gas Extraction": 1
   },
   "website": null,
   "seed_urls": [],
@@ -1145,13 +1145,13 @@
   "sources": {
    "bc_epic": 1,
    "federal_iaac": 1,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "hydro": 1,
    "mining": 1,
-   "Mining & Oil & Gas Extraction": 1
+   "Mining": 1
   },
   "website": "https://fpxnickel.com/",
   "seed_urls": [],
@@ -1354,13 +1354,13 @@
   "value_cad": 5200000000,
   "sources": {
    "nrcan_gap": 1,
-   "inv:ab_majors": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:ab_majors": 1
   },
   "sectors": {
    "energy_other": 1,
-   "Oil Sands": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Oil Sands": 1
   },
   "website": "https://www.syncrude.ca/",
   "seed_urls": [],
@@ -1799,48 +1799,6 @@
   "score": 43.5
  },
  {
-  "key": "jingon international development group",
-  "name": "Jingon International Development Group",
-  "variants": [
-   "Jingon International Development Group"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 4000000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 43.0
- },
- {
-  "key": "gascana ab energy",
-  "name": "Gascana AB Energy Ltd.",
-  "variants": [
-   "Gascana AB Energy Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 4000000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Oil and Gas": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 43.0
- },
- {
   "key": "cedar lng   partnership between pembina pipeline",
   "name": "Cedar LNG  (partnership between Pembina Pipeline Corporation",
   "variants": [
@@ -1904,6 +1862,48 @@
   "score": 43.0
  },
  {
+  "key": "gascana ab energy",
+  "name": "Gascana AB Energy Ltd.",
+  "variants": [
+   "Gascana AB Energy Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 4000000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Oil and Gas": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 43.0
+ },
+ {
+  "key": "jingon international development group",
+  "name": "Jingon International Development Group",
+  "variants": [
+   "Jingon International Development Group"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 4000000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 43.0
+ },
+ {
   "key": "spanish mountain gold",
   "name": "Spanish Mountain Gold Ltd.",
   "variants": [
@@ -1915,13 +1915,13 @@
   "sources": {
    "bc_epic": 2,
    "federal_iaac": 2,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "mining": 4,
-   "Mining & Oil & Gas Extraction": 1,
-   "Mining": 1
+   "Mining": 1,
+   "Mining & Oil & Gas Extraction": 1
   },
   "website": null,
   "seed_urls": [],
@@ -2334,13 +2334,13 @@
   "docs": 0,
   "value_cad": 800000000,
   "sources": {
-   "inv:nrcan_mpi_points": 1,
    "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1,
    "seed": 1
   },
   "sectors": {
-   "Utilities (incl sewage treatment)": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -2360,13 +2360,13 @@
   "value_cad": 2600000000,
   "sources": {
    "bc_epic": 1,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "oil_gas": 1,
-   "Transportation & Warehousing": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Transportation & Warehousing": 1
   },
   "website": null,
   "seed_urls": [],
@@ -2408,13 +2408,13 @@
   "value_cad": 2400000000,
   "sources": {
    "federal_iaac": 2,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "oil_gas": 2,
-   "Transportation & Warehousing": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Transportation & Warehousing": 1
   },
   "website": null,
   "seed_urls": [],
@@ -2662,8 +2662,8 @@
   "sources": {
    "federal_iaac": 1,
    "nrcan_gap": 1,
-   "inv:nrcan_mpi_points": 3,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 3
   },
   "sectors": {
    "Manufacturing": 2,
@@ -2821,12 +2821,12 @@
   "docs": 0,
   "value_cad": 2720000000,
   "sources": {
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
-   "Mining & Oil & Gas Extraction": 1,
-   "Mining": 1
+   "Mining": 1,
+   "Mining & Oil & Gas Extraction": 1
   },
   "website": null,
   "seed_urls": [],
@@ -2905,27 +2905,6 @@
   "score": 33.0
  },
  {
-  "key": "wam development group   aimco",
-  "name": "WAM Development Group / AIMCo",
-  "variants": [
-   "WAM Development Group / AIMCo"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 3000000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Commercial / Retail": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 33.0
- },
- {
   "key": "crusoe and kalina power jv",
   "name": "Crusoe and Kalina Power JV",
   "variants": [
@@ -2939,6 +2918,27 @@
   },
   "sectors": {
    "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 33.0
+ },
+ {
+  "key": "wam development group   aimco",
+  "name": "WAM Development Group / AIMCo",
+  "variants": [
+   "WAM Development Group / AIMCo"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 3000000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Commercial / Retail": 1
   },
   "website": null,
   "seed_urls": [],
@@ -3008,13 +3008,13 @@
   "value_cad": 1426000000,
   "sources": {
    "bc_epic": 2,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "mining": 2,
-   "Mining & Oil & Gas Extraction": 1,
-   "Mining": 1
+   "Mining": 1,
+   "Mining & Oil & Gas Extraction": 1
   },
   "website": null,
   "seed_urls": [],
@@ -3686,8 +3686,8 @@
   "docs": 0,
   "value_cad": 1230000000,
   "sources": {
-   "inv:nrcan_mpi_points": 3,
-   "inv:nrcan_mpi": 2
+   "inv:nrcan_mpi": 2,
+   "inv:nrcan_mpi_points": 3
   },
   "sectors": {
    "Utilities (incl sewage treatment)": 3,
@@ -3748,27 +3748,6 @@
   "score": 27.0
  },
  {
-  "key": "nai kun wind development  abb new ventures",
-  "name": "Nai Kun Wind Development Inc./ABB New Ventures",
-  "variants": [
-   "Nai Kun Wind Development Inc./ABB New Ventures"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 2400000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Utilities (incl sewage treatment)": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 27.0
- },
- {
   "key": "northern graphite",
   "name": "Northern Graphite",
   "variants": [
@@ -3783,6 +3762,27 @@
   },
   "sectors": {
    "Mining": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 27.0
+ },
+ {
+  "key": "nai kun wind development  abb new ventures",
+  "name": "Nai Kun Wind Development Inc./ABB New Ventures",
+  "variants": [
+   "Nai Kun Wind Development Inc./ABB New Ventures"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 2400000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -4561,27 +4561,6 @@
   "score": 23.0
  },
  {
-  "key": "westhills land",
-  "name": "Westhills Land Corp.",
-  "variants": [
-   "Westhills Land Corp."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 2000000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 23.0
- },
- {
   "key": "canadian utilities",
   "name": "Canadian Utilities Limited",
   "variants": [
@@ -4637,6 +4616,27 @@
   },
   "sectors": {
    "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 23.0
+ },
+ {
+  "key": "westhills land",
+  "name": "Westhills Land Corp.",
+  "variants": [
+   "Westhills Land Corp."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 2000000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
   },
   "website": null,
   "seed_urls": [],
@@ -5094,13 +5094,13 @@
   "sources": {
    "bc_epic": 1,
    "mb_ea": 2,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "industrial": 2,
    "mining": 1,
-   "Mining & Oil & Gas Extraction": 1
+   "Mining": 1
   },
   "website": null,
   "seed_urls": [],
@@ -5908,27 +5908,6 @@
   "score": 20.0
  },
  {
-  "key": "aeolis wind power",
-  "name": "Aeolis Wind Power Corporation",
-  "variants": [
-   "Aeolis Wind Power Corporation"
-  ],
-  "projects": 2,
-  "docs": 0,
-  "value_cad": 1400000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 2
-  },
-  "sectors": {
-   "Utilities (incl sewage treatment)": 2
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 20.0
- },
- {
   "key": "two utilities",
   "name": "Two Utilities",
   "variants": [
@@ -5942,6 +5921,27 @@
   },
   "sectors": {
    "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 20.0
+ },
+ {
+  "key": "aeolis wind power",
+  "name": "Aeolis Wind Power Corporation",
+  "variants": [
+   "Aeolis Wind Power Corporation"
+  ],
+  "projects": 2,
+  "docs": 0,
+  "value_cad": 1400000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 2
+  },
+  "sectors": {
+   "Utilities (incl sewage treatment)": 2
   },
   "website": null,
   "seed_urls": [],
@@ -6191,8 +6191,8 @@
   "value_cad": 648000000,
   "sources": {
    "bc_epic": 1,
-   "inv:nrcan_mpi_points": 2,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 2
   },
   "sectors": {
    "Utilities (incl sewage treatment)": 2,
@@ -6272,6 +6272,27 @@
   "score": 19.0
  },
  {
+  "key": "port alberni harbour authority",
+  "name": "Port Alberni Harbour Authority",
+  "variants": [
+   "Port Alberni Harbour Authority"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 1600000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 19.0
+ },
+ {
   "key": "williams energy",
   "name": "Williams Energy",
   "variants": [
@@ -6307,27 +6328,6 @@
   },
   "sectors": {
    "Power": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 19.0
- },
- {
-  "key": "port alberni harbour authority",
-  "name": "Port Alberni Harbour Authority",
-  "variants": [
-   "Port Alberni Harbour Authority"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 1600000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
   },
   "website": null,
   "seed_urls": [],
@@ -6484,13 +6484,13 @@
   "value_cad": 900000000,
   "sources": {
    "bc_epic": 1,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "energy_other": 1,
-   "Utilities (incl sewage treatment)": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -6660,21 +6660,22 @@
   "score": 18.0
  },
  {
-  "key": "parkland",
-  "name": "Parkland Corp.",
+  "key": "connacher oil and gas",
+  "name": "Connacher Oil & Gas Ltd.",
   "variants": [
-   "Parkland Corp."
+   "Connacher Oil & Gas Ltd.",
+   "Connacher Oil and Gas Ltd."
   ],
   "projects": 2,
   "docs": 0,
   "value_cad": 1200000000,
   "sources": {
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:ab_majors": 1
   },
   "sectors": {
-   "Mining & Oil & Gas Extraction": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Oil Sands": 1
   },
   "website": null,
   "seed_urls": [],
@@ -6692,12 +6693,35 @@
   "docs": 0,
   "value_cad": 1200000000,
   "sources": {
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
-   "Mining & Oil & Gas Extraction": 1,
-   "Mining": 1
+   "Mining": 1,
+   "Mining & Oil & Gas Extraction": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 18.0
+ },
+ {
+  "key": "parkland",
+  "name": "Parkland Corp.",
+  "variants": [
+   "Parkland Corp."
+  ],
+  "projects": 2,
+  "docs": 0,
+  "value_cad": 1200000000,
+  "sources": {
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Energy": 1,
+   "Mining & Oil & Gas Extraction": 1
   },
   "website": null,
   "seed_urls": [],
@@ -6748,30 +6772,6 @@
   "score": 18.0
  },
  {
-  "key": "connacher oil and gas",
-  "name": "Connacher Oil and Gas Ltd.",
-  "variants": [
-   "Connacher Oil and Gas Ltd.",
-   "Connacher Oil & Gas Ltd."
-  ],
-  "projects": 2,
-  "docs": 0,
-  "value_cad": 1200000000,
-  "sources": {
-   "inv:ab_majors": 1,
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Oil Sands": 1,
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 18.0
- },
- {
   "key": "tilbury jetty",
   "name": "Tilbury Jetty LP",
   "variants": [
@@ -6782,13 +6782,13 @@
   "value_cad": 350000000,
   "sources": {
    "bc_epic": 1,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "transport": 1,
-   "Mining & Oil & Gas Extraction": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Mining & Oil & Gas Extraction": 1
   },
   "website": null,
   "seed_urls": [],
@@ -6807,8 +6807,8 @@
   "value_cad": 540000000,
   "sources": {
    "federal_iaac": 1,
-   "inv:nrcan_mpi_points": 2,
-   "inv:ab_majors": 1
+   "inv:ab_majors": 1,
+   "inv:nrcan_mpi_points": 2
   },
   "sectors": {
    "Residential/Commercial": 2,
@@ -7091,27 +7091,6 @@
   "score": 16.8
  },
  {
-  "key": "ivanhoe energy",
-  "name": "Ivanhoe Energy",
-  "variants": [
-   "Ivanhoe Energy"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 1370000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Oil Sands": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 16.7
- },
- {
   "key": "patriot battery metals",
   "name": "Patriot Battery Metals Inc.",
   "variants": [
@@ -7125,6 +7104,27 @@
   },
   "sectors": {
    "Mining": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 16.7
+ },
+ {
+  "key": "ivanhoe energy",
+  "name": "Ivanhoe Energy",
+  "variants": [
+   "Ivanhoe Energy"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 1370000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Oil Sands": 1
   },
   "website": null,
   "seed_urls": [],
@@ -7666,13 +7666,13 @@
   "value_cad": 287700000,
   "sources": {
    "bc_epic": 1,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "mining": 1,
-   "Mining & Oil & Gas Extraction": 1,
-   "Mining": 1
+   "Mining": 1,
+   "Mining & Oil & Gas Extraction": 1
   },
   "website": null,
   "seed_urls": [],
@@ -7873,12 +7873,12 @@
   "docs": 0,
   "value_cad": 960000000,
   "sources": {
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
-   "Utilities (incl sewage treatment)": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -8083,12 +8083,12 @@
   "docs": 0,
   "value_cad": 910000000,
   "sources": {
-   "inv:ab_majors": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:ab_majors": 1
   },
   "sectors": {
-   "Power": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Power": 1
   },
   "website": null,
   "seed_urls": [],
@@ -8282,13 +8282,13 @@
   "value_cad": 550000000,
   "sources": {
    "bc_epic": 1,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "energy_other": 1,
-   "Utilities (incl sewage treatment)": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -8347,21 +8347,21 @@
   "name": "Ascot Resources Limited",
   "variants": [
    "Ascot Resources Limited",
-   "Ascot Resources Ltd.",
-   "Ascot Resources Ltd"
+   "Ascot Resources Ltd",
+   "Ascot Resources Ltd."
   ],
   "projects": 3,
   "docs": 55,
   "value_cad": 300000000,
   "sources": {
    "bc_epic": 1,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "mining": 1,
-   "Mining & Oil & Gas Extraction": 1,
-   "Mining": 1
+   "Mining": 1,
+   "Mining & Oil & Gas Extraction": 1
   },
   "website": null,
   "seed_urls": [],
@@ -9029,21 +9029,21 @@
   "name": "AltaGas Ltd",
   "variants": [
    "AltaGas Ltd",
-   "Altagas Ltd.",
-   "AltaGas"
+   "AltaGas",
+   "Altagas Ltd."
   ],
   "projects": 3,
   "docs": 4,
   "value_cad": 385000000,
   "sources": {
    "federal_iaac": 1,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "transport": 1,
-   "Utilities (incl sewage treatment)": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -9090,6 +9090,132 @@
   "sectors": {
    "energy_other": 1,
    "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 13.0
+ },
+ {
+  "key": "kghm international",
+  "name": "KGHM International",
+  "variants": [
+   "KGHM International"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 1000000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Mining": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 13.0
+ },
+ {
+  "key": "wolf midstream",
+  "name": "Wolf Midstream",
+  "variants": [
+   "Wolf Midstream"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 1000000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 13.0
+ },
+ {
+  "key": "strathcona resources",
+  "name": "Strathcona Resources Ltd.",
+  "variants": [
+   "Strathcona Resources Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 1000000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 13.0
+ },
+ {
+  "key": "nova chemicals",
+  "name": "Nova Chemicals",
+  "variants": [
+   "Nova Chemicals"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 1000000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Other Sectors": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 13.0
+ },
+ {
+  "key": "brookfield properties",
+  "name": "Brookfield Properties Ltd.",
+  "variants": [
+   "Brookfield Properties Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 1000000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Commercial / Retail": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 13.0
+ },
+ {
+  "key": "ironhead first nations partnership",
+  "name": "Ironhead First Nations Partnership",
+  "variants": [
+   "Ironhead First Nations Partnership"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 1000000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Power": 1
   },
   "website": null,
   "seed_urls": [],
@@ -9237,132 +9363,6 @@
   },
   "sectors": {
    "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 13.0
- },
- {
-  "key": "nova chemicals",
-  "name": "Nova Chemicals",
-  "variants": [
-   "Nova Chemicals"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 1000000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Other Sectors": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 13.0
- },
- {
-  "key": "brookfield properties",
-  "name": "Brookfield Properties Ltd.",
-  "variants": [
-   "Brookfield Properties Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 1000000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Commercial / Retail": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 13.0
- },
- {
-  "key": "ironhead first nations partnership",
-  "name": "Ironhead First Nations Partnership",
-  "variants": [
-   "Ironhead First Nations Partnership"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 1000000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Power": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 13.0
- },
- {
-  "key": "kghm international",
-  "name": "KGHM International",
-  "variants": [
-   "KGHM International"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 1000000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Mining": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 13.0
- },
- {
-  "key": "wolf midstream",
-  "name": "Wolf Midstream",
-  "variants": [
-   "Wolf Midstream"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 1000000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 13.0
- },
- {
-  "key": "strathcona resources",
-  "name": "Strathcona Resources Ltd.",
-  "variants": [
-   "Strathcona Resources Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 1000000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
   },
   "website": null,
   "seed_urls": [],
@@ -11026,6 +11026,27 @@
   "score": 11.6
  },
  {
+  "key": "calibre mining  previously marathon gold",
+  "name": "Calibre Mining (previously Marathon Gold Corporation",
+  "variants": [
+   "Calibre Mining (previously Marathon Gold Corporation"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 854000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Mining": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 11.5
+ },
+ {
   "key": "meg energy",
   "name": "MEG Energy Corp.",
   "variants": [
@@ -11060,27 +11081,6 @@
   },
   "sectors": {
    "Commercial / Retail": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 11.5
- },
- {
-  "key": "calibre mining  previously marathon gold",
-  "name": "Calibre Mining (previously Marathon Gold Corporation",
-  "variants": [
-   "Calibre Mining (previously Marathon Gold Corporation"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 854000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Mining": 1
   },
   "website": null,
   "seed_urls": [],
@@ -11254,13 +11254,13 @@
   "value_cad": 200000000,
   "sources": {
    "federal_iaac": 1,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "energy_other": 1,
-   "Utilities (incl sewage treatment)": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -11356,27 +11356,6 @@
   "score": 11.0
  },
  {
-  "key": "peterson",
-  "name": "Peterson",
-  "variants": [
-   "Peterson"
-  ],
-  "projects": 3,
-  "docs": 0,
-  "value_cad": 203000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 3
-  },
-  "sectors": {
-   "Residential/Commercial": 3
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 11.0
- },
- {
   "key": "koch exploration canada",
   "name": "Koch Exploration Canada LP",
   "variants": [
@@ -11411,6 +11390,27 @@
   },
   "sectors": {
    "Oil Sands": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 11.0
+ },
+ {
+  "key": "peterson",
+  "name": "Peterson",
+  "variants": [
+   "Peterson"
+  ],
+  "projects": 3,
+  "docs": 0,
+  "value_cad": 203000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 3
+  },
+  "sectors": {
+   "Residential/Commercial": 3
   },
   "website": null,
   "seed_urls": [],
@@ -11636,6 +11636,27 @@
   "score": 10.7
  },
  {
+  "key": "japan canada oil sands     nexen",
+  "name": "Japan Canada Oil Sands Limited (JACOS) / Nexen Inc.",
+  "variants": [
+   "Japan Canada Oil Sands Limited (JACOS) / Nexen Inc."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 774000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Oil Sands": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 10.7
+ },
+ {
   "key": "larco investments",
   "name": "Larco Investments Ltd.",
   "variants": [
@@ -11650,27 +11671,6 @@
   },
   "sectors": {
    "Residential/Commercial": 3
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 10.7
- },
- {
-  "key": "japan canada oil sands     nexen",
-  "name": "Japan Canada Oil Sands Limited (JACOS) / Nexen Inc.",
-  "variants": [
-   "Japan Canada Oil Sands Limited (JACOS) / Nexen Inc."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 774000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Oil Sands": 1
   },
   "website": null,
   "seed_urls": [],
@@ -11793,48 +11793,6 @@
   "score": 10.5
  },
  {
-  "key": "vopak development canada   altagas",
-  "name": "Vopak Development Canada Inc./ AltaGas",
-  "variants": [
-   "Vopak Development Canada Inc./ AltaGas"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 750000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Mining & Oil & Gas Extraction": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 10.5
- },
- {
-  "key": "timberwest forest  edp renewables",
-  "name": "TimberWest Forest Corp./EDP Renewables",
-  "variants": [
-   "TimberWest Forest Corp./EDP Renewables"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 750000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Utilities (incl sewage treatment)": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 10.5
- },
- {
   "key": "altagas   vopak development canada",
   "name": "AltaGas / Vopak Development Canada Inc.",
   "variants": [
@@ -11890,6 +11848,48 @@
   },
   "sectors": {
    "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 10.5
+ },
+ {
+  "key": "vopak development canada   altagas",
+  "name": "Vopak Development Canada Inc./ AltaGas",
+  "variants": [
+   "Vopak Development Canada Inc./ AltaGas"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 750000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Mining & Oil & Gas Extraction": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 10.5
+ },
+ {
+  "key": "timberwest forest  edp renewables",
+  "name": "TimberWest Forest Corp./EDP Renewables",
+  "variants": [
+   "TimberWest Forest Corp./EDP Renewables"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 750000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -12009,27 +12009,6 @@
   "score": 10.2
  },
  {
-  "key": "belford properties",
-  "name": "Belford Properties",
-  "variants": [
-   "Belford Properties"
-  ],
-  "projects": 3,
-  "docs": 0,
-  "value_cad": 119000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 3
-  },
-  "sectors": {
-   "Residential/Commercial": 3
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 10.2
- },
- {
   "key": "bighorn mining",
   "name": "Bighorn Mining, LTD",
   "variants": [
@@ -12043,6 +12022,27 @@
   },
   "sectors": {
    "Mining": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 10.2
+ },
+ {
+  "key": "belford properties",
+  "name": "Belford Properties",
+  "variants": [
+   "Belford Properties"
+  ],
+  "projects": 3,
+  "docs": 0,
+  "value_cad": 119000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 3
+  },
+  "sectors": {
+   "Residential/Commercial": 3
   },
   "website": null,
   "seed_urls": [],
@@ -12306,13 +12306,13 @@
   "value_cad": 100000000,
   "sources": {
    "nrcan_gap": 1,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "energy_other": 1,
-   "Utilities (incl sewage treatment)": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -12330,12 +12330,12 @@
   "docs": 0,
   "value_cad": 400000000,
   "sources": {
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
-   "Utilities (incl sewage treatment)": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -13633,13 +13633,13 @@
   "value_cad": 30000000,
   "sources": {
    "nrcan_gap": 1,
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
    "energy_other": 1,
-   "Utilities (incl sewage treatment)": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -15419,6 +15419,27 @@
   "score": 9.0
  },
  {
+  "key": "enhance energy",
+  "name": "Enhance Energy Inc.",
+  "variants": [
+   "Enhance Energy Inc."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 600000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Pipelines": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 9.0
+ },
+ {
   "key": "g3 global holdings",
   "name": "G3 Global Holdings",
   "variants": [
@@ -15495,27 +15516,6 @@
   },
   "sectors": {
    "Other Services": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 9.0
- },
- {
-  "key": "enhance energy",
-  "name": "Enhance Energy Inc.",
-  "variants": [
-   "Enhance Energy Inc."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 600000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Pipelines": 1
   },
   "website": null,
   "seed_urls": [],
@@ -15871,27 +15871,6 @@
   "score": 8.4
  },
  {
-  "key": "harvest energy",
-  "name": "Harvest Energy Corp.",
-  "variants": [
-   "Harvest Energy Corp."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 540000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Oil Sands": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 8.4
- },
- {
   "key": "hagersville battery storage   boralex",
   "name": "Hagersville Battery Storage Inc. (Boralex Inc.",
   "variants": [
@@ -15905,6 +15884,27 @@
   },
   "sectors": {
    "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 8.4
+ },
+ {
+  "key": "harvest energy",
+  "name": "Harvest Energy Corp.",
+  "variants": [
+   "Harvest Energy Corp."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 540000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Oil Sands": 1
   },
   "website": null,
   "seed_urls": [],
@@ -16112,27 +16112,6 @@
   "score": 8.1
  },
  {
-  "key": "marathon oil canada",
-  "name": "Marathon Oil Canada Corp.",
-  "variants": [
-   "Marathon Oil Canada Corp."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 510000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Oil Sands": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 8.1
- },
- {
   "key": "rio tinto lithium",
   "name": "Rio Tinto Lithium",
   "variants": [
@@ -16146,6 +16125,27 @@
   },
   "sectors": {
    "Mining": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 8.1
+ },
+ {
+  "key": "marathon oil canada",
+  "name": "Marathon Oil Canada Corp.",
+  "variants": [
+   "Marathon Oil Canada Corp."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 510000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Oil Sands": 1
   },
   "website": null,
   "seed_urls": [],
@@ -17443,6 +17443,69 @@
   "score": 8.0
  },
  {
+  "key": "one sky forest products",
+  "name": "One Sky Forest Products",
+  "variants": [
+   "One Sky Forest Products"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 500000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Forest": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 8.0
+ },
+ {
+  "key": "shepard development",
+  "name": "Shepard Development Corp.",
+  "variants": [
+   "Shepard Development Corp."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 500000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Commercial / Retail": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 8.0
+ },
+ {
+  "key": "ead first street building",
+  "name": "EAD First Street Building Corp.",
+  "variants": [
+   "EAD First Street Building Corp."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 500000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Commercial / Retail and Residential": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 8.0
+ },
+ {
   "key": "reliance properties  jim pattison developments",
   "name": "Reliance Properties Ltd./Jim Pattison Developments Ltd.",
   "variants": [
@@ -17519,69 +17582,6 @@
   },
   "sectors": {
    "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 8.0
- },
- {
-  "key": "shepard development",
-  "name": "Shepard Development Corp.",
-  "variants": [
-   "Shepard Development Corp."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 500000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Commercial / Retail": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 8.0
- },
- {
-  "key": "ead first street building",
-  "name": "EAD First Street Building Corp.",
-  "variants": [
-   "EAD First Street Building Corp."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 500000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Commercial / Retail and Residential": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 8.0
- },
- {
-  "key": "one sky forest products",
-  "name": "One Sky Forest Products",
-  "variants": [
-   "One Sky Forest Products"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 500000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Forest": 1
   },
   "website": null,
   "seed_urls": [],
@@ -18011,50 +18011,6 @@
   "score": 7.5
  },
  {
-  "key": "cavalier energy",
-  "name": "Cavalier Energy Ltd.",
-  "variants": [
-   "Cavalier Energy Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 452000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Oil Sands": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 7.5
- },
- {
-  "key": "gibson energy",
-  "name": "Gibson Energy Inc.",
-  "variants": [
-   "Gibson Energy Inc."
-  ],
-  "projects": 2,
-  "docs": 0,
-  "value_cad": 150000000,
-  "sources": {
-   "inv:ab_majors": 1,
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Pipelines": 1,
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 7.5
- },
- {
   "key": "port hawkesbury paper",
   "name": "Port Hawkesbury Paper",
   "variants": [
@@ -18118,6 +18074,50 @@
   "score": 7.5
  },
  {
+  "key": "gibson energy",
+  "name": "Gibson Energy Inc.",
+  "variants": [
+   "Gibson Energy Inc."
+  ],
+  "projects": 2,
+  "docs": 0,
+  "value_cad": 150000000,
+  "sources": {
+   "inv:nrcan_mpi": 1,
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Energy": 1,
+   "Pipelines": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 7.5
+ },
+ {
+  "key": "cavalier energy",
+  "name": "Cavalier Energy Ltd.",
+  "variants": [
+   "Cavalier Energy Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 452000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Oil Sands": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 7.5
+ },
+ {
   "key": "ecotech energy group",
   "name": "ecoTECH Energy Group (Canada) Inc.",
   "variants": [
@@ -18173,12 +18173,12 @@
   "docs": 0,
   "value_cad": 140000000,
   "sources": {
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
-   "Mining & Oil & Gas Extraction": 1,
-   "Energy": 1
+   "Energy": 1,
+   "Mining & Oil & Gas Extraction": 1
   },
   "website": null,
   "seed_urls": [],
@@ -18542,6 +18542,27 @@
   "score": 7.2
  },
  {
+  "key": "pei energy",
+  "name": "PEI Energy Corporation",
+  "variants": [
+   "PEI Energy Corporation"
+  ],
+  "projects": 2,
+  "docs": 0,
+  "value_cad": 124000000,
+  "sources": {
+   "inv:nrcan_mpi": 2
+  },
+  "sectors": {
+   "Energy": 2
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 7.2
+ },
+ {
   "key": "affordable housing societies",
   "name": "Affordable Housing Societies",
   "variants": [
@@ -18576,27 +18597,6 @@
   },
   "sectors": {
    "Residential/Commercial": 2
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 7.2
- },
- {
-  "key": "pei energy",
-  "name": "PEI Energy Corporation",
-  "variants": [
-   "PEI Energy Corporation"
-  ],
-  "projects": 2,
-  "docs": 0,
-  "value_cad": 124000000,
-  "sources": {
-   "inv:nrcan_mpi": 2
-  },
-  "sectors": {
-   "Energy": 2
   },
   "website": null,
   "seed_urls": [],
@@ -19184,48 +19184,6 @@
   "score": 7.0
  },
  {
-  "key": "genstar development   madison group",
-  "name": "Genstar Development Co Limited/Madison Group",
-  "variants": [
-   "Genstar Development Co Limited/Madison Group"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 400000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 7.0
- },
- {
-  "key": "bridge power holdings",
-  "name": "Bridge Power Holdings",
-  "variants": [
-   "Bridge Power Holdings"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 400000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Utilities (incl sewage treatment)": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 7.0
- },
- {
   "key": "aeolis   boralex",
   "name": "Aeolis / Boralex",
   "variants": [
@@ -19260,6 +19218,48 @@
   },
   "sectors": {
    "Mining": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 7.0
+ },
+ {
+  "key": "genstar development   madison group",
+  "name": "Genstar Development Co Limited/Madison Group",
+  "variants": [
+   "Genstar Development Co Limited/Madison Group"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 400000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 7.0
+ },
+ {
+  "key": "bridge power holdings",
+  "name": "Bridge Power Holdings",
+  "variants": [
+   "Bridge Power Holdings"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 400000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -19356,27 +19356,6 @@
   "score": 6.9
  },
  {
-  "key": "marcon developments",
-  "name": "Marcon Developments",
-  "variants": [
-   "Marcon Developments"
-  ],
-  "projects": 2,
-  "docs": 0,
-  "value_cad": 93000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 2
-  },
-  "sectors": {
-   "Residential/Commercial": 2
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 6.9
- },
- {
   "key": "prosper petroleum",
   "name": "Prosper Petroleum Ltd.",
   "variants": [
@@ -19390,6 +19369,27 @@
   },
   "sectors": {
    "Oil Sands": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 6.9
+ },
+ {
+  "key": "marcon developments",
+  "name": "Marcon Developments",
+  "variants": [
+   "Marcon Developments"
+  ],
+  "projects": 2,
+  "docs": 0,
+  "value_cad": 93000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 2
+  },
+  "sectors": {
+   "Residential/Commercial": 2
   },
   "website": null,
   "seed_urls": [],
@@ -19666,22 +19666,43 @@
   "score": 6.8
  },
  {
-  "key": "bluearth renewables",
-  "name": "BluEarth Renewables Inc.",
+  "key": "interfor",
+  "name": "Interfor Corporation",
   "variants": [
-   "BluEarth Renewables Inc.",
-   "BluEarth Renewables"
+   "Interfor Corporation"
+  ],
+  "projects": 2,
+  "docs": 0,
+  "value_cad": 85000000,
+  "sources": {
+   "inv:nrcan_mpi": 2
+  },
+  "sectors": {
+   "Forest": 2
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 6.8
+ },
+ {
+  "key": "bluearth renewables",
+  "name": "BluEarth Renewables",
+  "variants": [
+   "BluEarth Renewables",
+   "BluEarth Renewables Inc."
   ],
   "projects": 2,
   "docs": 0,
   "value_cad": 80000000,
   "sources": {
-   "inv:nrcan_mpi_points": 1,
-   "inv:ab_majors": 1
+   "inv:ab_majors": 1,
+   "inv:nrcan_mpi_points": 1
   },
   "sectors": {
-   "Utilities (incl sewage treatment)": 1,
-   "Power": 1
+   "Power": 1,
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -19703,27 +19724,6 @@
   },
   "sectors": {
    "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 6.8
- },
- {
-  "key": "interfor",
-  "name": "Interfor Corporation",
-  "variants": [
-   "Interfor Corporation"
-  ],
-  "projects": 2,
-  "docs": 0,
-  "value_cad": 85000000,
-  "sources": {
-   "inv:nrcan_mpi": 2
-  },
-  "sectors": {
-   "Forest": 2
   },
   "website": null,
   "seed_urls": [],
@@ -20717,6 +20717,48 @@
   "score": 6.5
  },
  {
+  "key": "cenvous energy",
+  "name": "Cenvous Energy Inc.",
+  "variants": [
+   "Cenvous Energy Inc."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 350000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 6.5
+ },
+ {
+  "key": "trailroad bess  evolugen",
+  "name": "Trailroad BESS Inc. Evolugen",
+  "variants": [
+   "Trailroad BESS Inc. Evolugen"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 350000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 6.5
+ },
+ {
   "key": "northriver midstream",
   "name": "Northriver Midstream Inc.",
   "variants": [
@@ -20772,48 +20814,6 @@
   },
   "sectors": {
    "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 6.5
- },
- {
-  "key": "cenvous energy",
-  "name": "Cenvous Energy Inc.",
-  "variants": [
-   "Cenvous Energy Inc."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 350000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 6.5
- },
- {
-  "key": "trailroad bess  evolugen",
-  "name": "Trailroad BESS Inc. Evolugen",
-  "variants": [
-   "Trailroad BESS Inc. Evolugen"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 350000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
   },
   "website": null,
   "seed_urls": [],
@@ -21840,6 +21840,50 @@
   "score": 6.4
  },
  {
+  "key": "synex energy resources",
+  "name": "Synex Energy Resources Ltd.",
+  "variants": [
+   "Synex Energy Resources Ltd."
+  ],
+  "projects": 2,
+  "docs": 0,
+  "value_cad": 36000000,
+  "sources": {
+   "inv:nrcan_mpi": 1,
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Energy": 1,
+   "Utilities (incl sewage treatment)": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 6.4
+ },
+ {
+  "key": "pouce coupe pipeline",
+  "name": "Pouce Coupe Pipeline",
+  "variants": [
+   "Pouce Coupe Pipeline"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 341000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 6.4
+ },
+ {
   "key": "pennyfarthing homes",
   "name": "Pennyfarthing Homes",
   "variants": [
@@ -21874,50 +21918,6 @@
   },
   "sectors": {
    "Residential/Commercial": 2
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 6.4
- },
- {
-  "key": "synex energy resources",
-  "name": "Synex Energy Resources Ltd.",
-  "variants": [
-   "Synex Energy Resources Ltd."
-  ],
-  "projects": 2,
-  "docs": 0,
-  "value_cad": 36000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1,
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Utilities (incl sewage treatment)": 1,
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 6.4
- },
- {
-  "key": "pouce coupe pipeline",
-  "name": "Pouce Coupe Pipeline",
-  "variants": [
-   "Pouce Coupe Pipeline"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 341000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
   },
   "website": null,
   "seed_urls": [],
@@ -22705,27 +22705,6 @@
   "score": 6.3
  },
  {
-  "key": "ainsworth energy",
-  "name": "Ainsworth Energy Co. Ltd.",
-  "variants": [
-   "Ainsworth Energy Co. Ltd."
-  ],
-  "projects": 2,
-  "docs": 0,
-  "value_cad": 30000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 2
-  },
-  "sectors": {
-   "Utilities (incl sewage treatment)": 2
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 6.3
- },
- {
   "key": "nexgold mining",
   "name": "NexGold Mining Corp.",
   "variants": [
@@ -22739,6 +22718,27 @@
   },
   "sectors": {
    "Mining": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 6.3
+ },
+ {
+  "key": "ainsworth energy",
+  "name": "Ainsworth Energy Co. Ltd.",
+  "variants": [
+   "Ainsworth Energy Co. Ltd."
+  ],
+  "projects": 2,
+  "docs": 0,
+  "value_cad": 30000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 2
+  },
+  "sectors": {
+   "Utilities (incl sewage treatment)": 2
   },
   "website": null,
   "seed_urls": [],
@@ -29628,6 +29628,107 @@
   "score": 6.0
  },
  {
+  "key": "lincoln ventures   prev  prism diversifed",
+  "name": "Lincoln Ventures Ltd (prev. PRISM Diversifed Ltd.",
+  "variants": [
+   "Lincoln Ventures Ltd (prev. PRISM Diversifed Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 300000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Mining": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 6.0
+ },
+ {
+  "key": "r solve  nergie",
+  "name": "Résolve Énergie",
+  "variants": [
+   "Résolve Énergie"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 300000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 6.0
+ },
+ {
+  "key": "gibson energy and varme energy jv",
+  "name": "Gibson Energy & Varme Energy JV",
+  "variants": [
+   "Gibson Energy & Varme Energy JV"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 300000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 6.0
+ },
+ {
+  "key": "improving service standards to reduce delays",
+  "name": "improving service standards to reduce delays",
+  "variants": [
+   "improving service standards to reduce delays"
+  ],
+  "projects": 2,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:ero_on": 2
+  },
+  "sectors": {},
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 6.0
+ },
+ {
+  "key": "ontario is proposing sensible  practical changes that would continue to provide strong environmental oversight while reducing delays to getting shovels in  ground on projects that matter most to on",
+  "name": "Ontario is proposing sensible, practical changes that would continue to provide strong environmental oversight while reducing delays to getting shovels in the ground on projects that matter most to On",
+  "variants": [
+   "Ontario is proposing sensible, practical changes that would continue to provide strong environmental oversight while reducing delays to getting shovels in the ground on projects that matter most to On"
+  ],
+  "projects": 2,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:ero_on": 2
+  },
+  "sectors": {},
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 6.0
+ },
+ {
   "key": "flavelle oceanfront development",
   "name": "Flavelle Oceanfront Development",
   "variants": [
@@ -29704,107 +29805,6 @@
   },
   "sectors": {
    "Utilities (incl sewage treatment)": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 6.0
- },
- {
-  "key": "improving service standards to reduce delays",
-  "name": "improving service standards to reduce delays",
-  "variants": [
-   "improving service standards to reduce delays"
-  ],
-  "projects": 2,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:ero_on": 2
-  },
-  "sectors": {},
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 6.0
- },
- {
-  "key": "ontario is proposing sensible  practical changes that would continue to provide strong environmental oversight while reducing delays to getting shovels in  ground on projects that matter most to on",
-  "name": "Ontario is proposing sensible, practical changes that would continue to provide strong environmental oversight while reducing delays to getting shovels in the ground on projects that matter most to On",
-  "variants": [
-   "Ontario is proposing sensible, practical changes that would continue to provide strong environmental oversight while reducing delays to getting shovels in the ground on projects that matter most to On"
-  ],
-  "projects": 2,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:ero_on": 2
-  },
-  "sectors": {},
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 6.0
- },
- {
-  "key": "lincoln ventures   prev  prism diversifed",
-  "name": "Lincoln Ventures Ltd (prev. PRISM Diversifed Ltd.",
-  "variants": [
-   "Lincoln Ventures Ltd (prev. PRISM Diversifed Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 300000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Mining": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 6.0
- },
- {
-  "key": "r solve  nergie",
-  "name": "Résolve Énergie",
-  "variants": [
-   "Résolve Énergie"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 300000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 6.0
- },
- {
-  "key": "gibson energy and varme energy jv",
-  "name": "Gibson Energy & Varme Energy JV",
-  "variants": [
-   "Gibson Energy & Varme Energy JV"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 300000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
   },
   "website": null,
   "seed_urls": [],
@@ -29918,69 +29918,6 @@
   "score": 5.7
  },
  {
-  "key": "watson island lng",
-  "name": "Watson Island LNG Corp.",
-  "variants": [
-   "Watson Island LNG Corp."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 270000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Mining & Oil & Gas Extraction": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 5.7
- },
- {
-  "key": "modern green development",
-  "name": "Modern Green Development Corp.",
-  "variants": [
-   "Modern Green Development Corp."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 270000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 5.7
- },
- {
-  "key": "ryan river joint venture",
-  "name": "Ryan River Joint Venture",
-  "variants": [
-   "Ryan River Joint Venture"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 273000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Utilities (incl sewage treatment)": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 5.7
- },
- {
   "key": "nexgold mining   fmr  signal gold   fmr anaconda mining",
   "name": "NexGold Mining Corp. (fmr: Signal Gold Inc. (fmr Anaconda Mining",
   "variants": [
@@ -30036,6 +29973,69 @@
   },
   "sectors": {
    "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 5.7
+ },
+ {
+  "key": "watson island lng",
+  "name": "Watson Island LNG Corp.",
+  "variants": [
+   "Watson Island LNG Corp."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 270000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Mining & Oil & Gas Extraction": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 5.7
+ },
+ {
+  "key": "modern green development",
+  "name": "Modern Green Development Corp.",
+  "variants": [
+   "Modern Green Development Corp."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 270000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 5.7
+ },
+ {
+  "key": "ryan river joint venture",
+  "name": "Ryan River Joint Venture",
+  "variants": [
+   "Ryan River Joint Venture"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 273000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -30170,6 +30170,27 @@
   "score": 5.5
  },
  {
+  "key": "elemental and sipekne katik",
+  "name": "Elemental and Sipekne'katik",
+  "variants": [
+   "Elemental and Sipekne'katik"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 250000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 5.5
+ },
+ {
   "key": "skaha hills development",
   "name": "The Skaha Hills Development Corp.",
   "variants": [
@@ -30225,27 +30246,6 @@
   },
   "sectors": {
    "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 5.5
- },
- {
-  "key": "elemental and sipekne katik",
-  "name": "Elemental and Sipekne'katik",
-  "variants": [
-   "Elemental and Sipekne'katik"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 250000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
   },
   "website": null,
   "seed_urls": [],
@@ -30485,6 +30485,90 @@
   "score": 5.0
  },
  {
+  "key": "nergir wm qu bec",
+  "name": "Énergir/WM Québec",
+  "variants": [
+   "Énergir/WM Québec"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 200000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 5.0
+ },
+ {
+  "key": "varme energy",
+  "name": "Varme Energy",
+  "variants": [
+   "Varme Energy"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 200000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 5.0
+ },
+ {
+  "key": "vyterra   ledwidge lumber",
+  "name": "Vyterra / Ledwidge Lumber",
+  "variants": [
+   "Vyterra / Ledwidge Lumber"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 200000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 5.0
+ },
+ {
+  "key": "pteragen canada",
+  "name": "Pteragen Canada Inc.",
+  "variants": [
+   "Pteragen Canada Inc."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 200000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Power": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 5.0
+ },
+ {
   "key": "bc housing tannin developments",
   "name": "BC Housing/Tannin Developments Ltd.",
   "variants": [
@@ -30624,90 +30708,6 @@
   },
   "sectors": {
    "Other Services": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 5.0
- },
- {
-  "key": "pteragen canada",
-  "name": "Pteragen Canada Inc.",
-  "variants": [
-   "Pteragen Canada Inc."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 200000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Power": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 5.0
- },
- {
-  "key": "nergir wm qu bec",
-  "name": "Énergir/WM Québec",
-  "variants": [
-   "Énergir/WM Québec"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 200000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 5.0
- },
- {
-  "key": "varme energy",
-  "name": "Varme Energy",
-  "variants": [
-   "Varme Energy"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 200000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 5.0
- },
- {
-  "key": "vyterra   ledwidge lumber",
-  "name": "Vyterra / Ledwidge Lumber",
-  "variants": [
-   "Vyterra / Ledwidge Lumber"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 200000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
   },
   "website": null,
   "seed_urls": [],
@@ -31031,6 +31031,111 @@
   "score": 4.5
  },
  {
+  "key": "edf renewables canada",
+  "name": "EDF Renewables Canada",
+  "variants": [
+   "EDF Renewables Canada"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 155000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.5
+ },
+ {
+  "key": "galleon gold",
+  "name": "Galleon Gold Corp.",
+  "variants": [
+   "Galleon Gold Corp."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 150000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Mining": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.5
+ },
+ {
+  "key": "fortisbc hazer",
+  "name": "FortisBC/Hazer",
+  "variants": [
+   "FortisBC/Hazer"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 145000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.5
+ },
+ {
+  "key": "cardinal",
+  "name": "Cardinal",
+  "variants": [
+   "Cardinal"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 155000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.5
+ },
+ {
+  "key": "alberta wind energy    mainstream renewable power",
+  "name": "Alberta Wind Energy Corp. / Mainstream Renewable Power",
+  "variants": [
+   "Alberta Wind Energy Corp. / Mainstream Renewable Power"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 150000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Power": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.5
+ },
+ {
   "key": "jim pattison development   jpdc",
   "name": "Jim Pattison Development Corp. (JPDC",
   "variants": [
@@ -31128,111 +31233,6 @@
   },
   "sectors": {
    "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.5
- },
- {
-  "key": "alberta wind energy    mainstream renewable power",
-  "name": "Alberta Wind Energy Corp. / Mainstream Renewable Power",
-  "variants": [
-   "Alberta Wind Energy Corp. / Mainstream Renewable Power"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 150000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Power": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.5
- },
- {
-  "key": "edf renewables canada",
-  "name": "EDF Renewables Canada",
-  "variants": [
-   "EDF Renewables Canada"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 155000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.5
- },
- {
-  "key": "galleon gold",
-  "name": "Galleon Gold Corp.",
-  "variants": [
-   "Galleon Gold Corp."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 150000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Mining": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.5
- },
- {
-  "key": "fortisbc hazer",
-  "name": "FortisBC/Hazer",
-  "variants": [
-   "FortisBC/Hazer"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 145000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.5
- },
- {
-  "key": "cardinal",
-  "name": "Cardinal",
-  "variants": [
-   "Cardinal"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 155000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
   },
   "website": null,
   "seed_urls": [],
@@ -31367,27 +31367,6 @@
   "score": 4.4
  },
  {
-  "key": "dokie wind energy",
-  "name": "Dokie Wind Energy Inc.",
-  "variants": [
-   "Dokie Wind Energy Inc."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 140000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Utilities (incl sewage treatment)": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.4
- },
- {
   "key": "independent energy",
   "name": "Independent Energy Corp.",
   "variants": [
@@ -31401,6 +31380,27 @@
   },
   "sectors": {
    "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.4
+ },
+ {
+  "key": "dokie wind energy",
+  "name": "Dokie Wind Energy Inc.",
+  "variants": [
+   "Dokie Wind Energy Inc."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 140000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -31556,27 +31556,6 @@
   "score": 4.3
  },
  {
-  "key": "selkirk power",
-  "name": "Selkirk Power Company Ltd.",
-  "variants": [
-   "Selkirk Power Company Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 130000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Utilities (incl sewage treatment)": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.3
- },
- {
   "key": "vulcan materials",
   "name": "Vulcan Materials Company",
   "variants": [
@@ -31590,6 +31569,27 @@
   },
   "sectors": {
    "Mining": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.3
+ },
+ {
+  "key": "selkirk power",
+  "name": "Selkirk Power Company Ltd.",
+  "variants": [
+   "Selkirk Power Company Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 130000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Utilities (incl sewage treatment)": 1
   },
   "website": null,
   "seed_urls": [],
@@ -31745,6 +31745,69 @@
   "score": 4.2
  },
  {
+  "key": "fluorspar holdings pte",
+  "name": "Fluorspar Holdings PTE Ltd.",
+  "variants": [
+   "Fluorspar Holdings PTE Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 125000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Mining": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.2
+ },
+ {
+  "key": "greenfield global",
+  "name": "Greenfield Global",
+  "variants": [
+   "Greenfield Global"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 120000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.2
+ },
+ {
+  "key": "koch oil sands operating",
+  "name": "Koch Oil Sands Operating ULC",
+  "variants": [
+   "Koch Oil Sands Operating ULC"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 123000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Oil Sands": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.2
+ },
+ {
   "key": "borealis geopower",
   "name": "Borealis Geopower",
   "variants": [
@@ -31800,69 +31863,6 @@
   },
   "sectors": {
    "Other Services": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.2
- },
- {
-  "key": "koch oil sands operating",
-  "name": "Koch Oil Sands Operating ULC",
-  "variants": [
-   "Koch Oil Sands Operating ULC"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 123000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Oil Sands": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.2
- },
- {
-  "key": "fluorspar holdings pte",
-  "name": "Fluorspar Holdings PTE Ltd.",
-  "variants": [
-   "Fluorspar Holdings PTE Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 125000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Mining": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.2
- },
- {
-  "key": "greenfield global",
-  "name": "Greenfield Global",
-  "variants": [
-   "Greenfield Global"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 120000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
   },
   "website": null,
   "seed_urls": [],
@@ -32501,132 +32501,6 @@
   "score": 4.0
  },
  {
-  "key": "hudson pacific properties",
-  "name": "Hudson Pacific Properties",
-  "variants": [
-   "Hudson Pacific Properties"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 100000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.0
- },
- {
-  "key": "south street development group",
-  "name": "South Street Development Group",
-  "variants": [
-   "South Street Development Group"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 100000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.0
- },
- {
-  "key": "0887572 b c",
-  "name": "0887572 B.C. Ltd.",
-  "variants": [
-   "0887572 B.C. Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 105000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Utilities (incl sewage treatment)": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.0
- },
- {
-  "key": "riocan investment trust",
-  "name": "RioCan Investment Trust",
-  "variants": [
-   "RioCan Investment Trust"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 100000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.0
- },
- {
-  "key": "sun metals",
-  "name": "Sun Metals Corp.",
-  "variants": [
-   "Sun Metals Corp."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 100000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Mining & Oil & Gas Extraction": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.0
- },
- {
-  "key": "trek mining",
-  "name": "Trek Mining",
-  "variants": [
-   "Trek Mining"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 100000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Mining & Oil & Gas Extraction": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 4.0
- },
- {
   "key": "almaden minerals",
   "name": "Almaden Minerals",
   "variants": [
@@ -32787,6 +32661,132 @@
   },
   "sectors": {
    "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.0
+ },
+ {
+  "key": "hudson pacific properties",
+  "name": "Hudson Pacific Properties",
+  "variants": [
+   "Hudson Pacific Properties"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 100000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.0
+ },
+ {
+  "key": "south street development group",
+  "name": "South Street Development Group",
+  "variants": [
+   "South Street Development Group"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 100000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.0
+ },
+ {
+  "key": "0887572 b c",
+  "name": "0887572 B.C. Ltd.",
+  "variants": [
+   "0887572 B.C. Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 105000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Utilities (incl sewage treatment)": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.0
+ },
+ {
+  "key": "riocan investment trust",
+  "name": "RioCan Investment Trust",
+  "variants": [
+   "RioCan Investment Trust"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 100000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.0
+ },
+ {
+  "key": "sun metals",
+  "name": "Sun Metals Corp.",
+  "variants": [
+   "Sun Metals Corp."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 100000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Mining & Oil & Gas Extraction": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 4.0
+ },
+ {
+  "key": "trek mining",
+  "name": "Trek Mining",
+  "variants": [
+   "Trek Mining"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 100000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Mining & Oil & Gas Extraction": 1
   },
   "website": null,
   "seed_urls": [],
@@ -33089,27 +33089,6 @@
   "score": 3.9
  },
  {
-  "key": "sandhill materials",
-  "name": "Sandhill Materials Inc.",
-  "variants": [
-   "Sandhill Materials Inc."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 90000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Mining & Oil & Gas Extraction": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.9
- },
- {
   "key": "labrador iron mines holdings",
   "name": "Labrador Iron Mines Holdings Ltd.",
   "variants": [
@@ -33165,6 +33144,27 @@
   },
   "sectors": {
    "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.9
+ },
+ {
+  "key": "sandhill materials",
+  "name": "Sandhill Materials Inc.",
+  "variants": [
+   "Sandhill Materials Inc."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 90000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Mining & Oil & Gas Extraction": 1
   },
   "website": null,
   "seed_urls": [],
@@ -33488,6 +33488,69 @@
   "score": 3.8
  },
  {
+  "key": "bathurst resources  previously telkwa mining",
+  "name": "Bathurst Resources (previously Telkwa Mining Ltd.",
+  "variants": [
+   "Bathurst Resources (previously Telkwa Mining Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 82000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Mining": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.8
+ },
+ {
+  "key": "bchydro",
+  "name": "BCHydro",
+  "variants": [
+   "BCHydro"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 82000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.8
+ },
+ {
+  "key": "envest",
+  "name": "Envest",
+  "variants": [
+   "Envest"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 77600000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.8
+ },
+ {
   "key": "ledingham mcalister",
   "name": "Ledingham McAlister",
   "variants": [
@@ -33585,69 +33648,6 @@
   },
   "sectors": {
    "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.8
- },
- {
-  "key": "bathurst resources  previously telkwa mining",
-  "name": "Bathurst Resources (previously Telkwa Mining Ltd.",
-  "variants": [
-   "Bathurst Resources (previously Telkwa Mining Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 82000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Mining": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.8
- },
- {
-  "key": "bchydro",
-  "name": "BCHydro",
-  "variants": [
-   "BCHydro"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 82000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.8
- },
- {
-  "key": "envest",
-  "name": "Envest",
-  "variants": [
-   "Envest"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 77600000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
   },
   "website": null,
   "seed_urls": [],
@@ -33929,6 +33929,69 @@
   "score": 3.7
  },
  {
+  "key": "northern energy solutions  nes",
+  "name": "Northern Energy Solutions (NES",
+  "variants": [
+   "Northern Energy Solutions (NES"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 70000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Forest": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.7
+ },
+ {
+  "key": "alliance de l nergie de l est   valeco  nergie qu bec",
+  "name": "Alliance de l’énergie de l’Est / Valeco Énergie Québec",
+  "variants": [
+   "Alliance de l’énergie de l’Est / Valeco Énergie Québec"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 70000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.7
+ },
+ {
+  "key": "natural forces and wma",
+  "name": "Natural Forces and WMA",
+  "variants": [
+   "Natural Forces and WMA"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 68000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.7
+ },
+ {
   "key": "townline  canderel residential",
   "name": "Townline/ Canderel Residential",
   "variants": [
@@ -34026,69 +34089,6 @@
   },
   "sectors": {
    "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.7
- },
- {
-  "key": "northern energy solutions  nes",
-  "name": "Northern Energy Solutions (NES",
-  "variants": [
-   "Northern Energy Solutions (NES"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 70000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Forest": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.7
- },
- {
-  "key": "alliance de l nergie de l est   valeco  nergie qu bec",
-  "name": "Alliance de l’énergie de l’Est / Valeco Énergie Québec",
-  "variants": [
-   "Alliance de l’énergie de l’Est / Valeco Énergie Québec"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 70000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.7
- },
- {
-  "key": "natural forces and wma",
-  "name": "Natural Forces and WMA",
-  "variants": [
-   "Natural Forces and WMA"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 68000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
   },
   "website": null,
   "seed_urls": [],
@@ -34538,90 +34538,6 @@
   "score": 3.6
  },
  {
-  "key": "westbank projects   crombie reit",
-  "name": "Westbank Projects Corp./ Crombie REIT",
-  "variants": [
-   "Westbank Projects Corp./ Crombie REIT"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 60000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.6
- },
- {
-  "key": "schickedanz bros",
-  "name": "Schickedanz Bros. Ltd.",
-  "variants": [
-   "Schickedanz Bros. Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 60000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.6
- },
- {
-  "key": "canadian metropolitan properties",
-  "name": "Canadian Metropolitan Properties Ltd.",
-  "variants": [
-   "Canadian Metropolitan Properties Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 60000000,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.6
- },
- {
-  "key": "oak point energy",
-  "name": "Oak Point Energy Ltd.",
-  "variants": [
-   "Oak Point Energy Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 65000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Oil Sands": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.6
- },
- {
   "key": "fortis",
   "name": "Fortis",
   "variants": [
@@ -34698,6 +34614,90 @@
   },
   "sectors": {
    "Forest": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.6
+ },
+ {
+  "key": "oak point energy",
+  "name": "Oak Point Energy Ltd.",
+  "variants": [
+   "Oak Point Energy Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 65000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Oil Sands": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.6
+ },
+ {
+  "key": "westbank projects   crombie reit",
+  "name": "Westbank Projects Corp./ Crombie REIT",
+  "variants": [
+   "Westbank Projects Corp./ Crombie REIT"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 60000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.6
+ },
+ {
+  "key": "schickedanz bros",
+  "name": "Schickedanz Bros. Ltd.",
+  "variants": [
+   "Schickedanz Bros. Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 60000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.6
+ },
+ {
+  "key": "canadian metropolitan properties",
+  "name": "Canadian Metropolitan Properties Ltd.",
+  "variants": [
+   "Canadian Metropolitan Properties Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 60000000,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
   },
   "website": null,
   "seed_urls": [],
@@ -35588,6 +35588,111 @@
   "score": 3.5
  },
  {
+  "key": "gitxsan development  and airex energy",
+  "name": "Gitxsan Development Corp and Airex Energy",
+  "variants": [
+   "Gitxsan Development Corp and Airex Energy"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 50000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Forest": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.5
+ },
+ {
+  "key": "cielo waste solutions",
+  "name": "Cielo Waste Solutions Corp.",
+  "variants": [
+   "Cielo Waste Solutions Corp."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 50000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.5
+ },
+ {
+  "key": "cold lake first nations and elemental energy",
+  "name": "Cold Lake First Nations & Elemental Energy",
+  "variants": [
+   "Cold Lake First Nations & Elemental Energy"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 48100000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.5
+ },
+ {
+  "key": "inception exploration",
+  "name": "Inception Exploration Ltd.",
+  "variants": [
+   "Inception Exploration Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 50000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Oil and Gas": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.5
+ },
+ {
+  "key": "enn canada    ferus natural gas fuels",
+  "name": "ENN Canada Corp. / Ferus Natural Gas Fuels",
+  "variants": [
+   "ENN Canada Corp. / Ferus Natural Gas Fuels"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 45000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Oil and Gas": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.5
+ },
+ {
   "key": "yue hwa",
   "name": "Yue Hwa",
   "variants": [
@@ -35895,111 +36000,6 @@
   },
   "sectors": {
    "Utilities (incl sewage treatment)": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.5
- },
- {
-  "key": "inception exploration",
-  "name": "Inception Exploration Ltd.",
-  "variants": [
-   "Inception Exploration Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 50000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Oil and Gas": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.5
- },
- {
-  "key": "enn canada    ferus natural gas fuels",
-  "name": "ENN Canada Corp. / Ferus Natural Gas Fuels",
-  "variants": [
-   "ENN Canada Corp. / Ferus Natural Gas Fuels"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 45000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Oil and Gas": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.5
- },
- {
-  "key": "gitxsan development  and airex energy",
-  "name": "Gitxsan Development Corp and Airex Energy",
-  "variants": [
-   "Gitxsan Development Corp and Airex Energy"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 50000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Forest": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.5
- },
- {
-  "key": "cielo waste solutions",
-  "name": "Cielo Waste Solutions Corp.",
-  "variants": [
-   "Cielo Waste Solutions Corp."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 50000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.5
- },
- {
-  "key": "cold lake first nations and elemental energy",
-  "name": "Cold Lake First Nations & Elemental Energy",
-  "variants": [
-   "Cold Lake First Nations & Elemental Energy"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 48100000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
   },
   "website": null,
   "seed_urls": [],
@@ -36827,6 +36827,48 @@
   "score": 3.4
  },
  {
+  "key": "tolko",
+  "name": "Tolko",
+  "variants": [
+   "Tolko"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 35000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Forest": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.4
+ },
+ {
+  "key": "jd irving",
+  "name": "JD Irving",
+  "variants": [
+   "JD Irving"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 35000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Forest": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.4
+ },
+ {
   "key": "bc housing  success affordable housing society",
   "name": "BC Housing/ SUCCESS Affordable Housing Society",
   "variants": [
@@ -37113,48 +37155,6 @@
   },
   "sectors": {
    "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.4
- },
- {
-  "key": "tolko",
-  "name": "Tolko",
-  "variants": [
-   "Tolko"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 35000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Forest": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.4
- },
- {
-  "key": "jd irving",
-  "name": "JD Irving",
-  "variants": [
-   "JD Irving"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 35000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Forest": 1
   },
   "website": null,
   "seed_urls": [],
@@ -38381,6 +38381,195 @@
   "score": 3.3
  },
  {
+  "key": "peak renewables",
+  "name": "Peak Renewables",
+  "variants": [
+   "Peak Renewables"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 29000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Forest": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.3
+ },
+ {
+  "key": "ulkatcho energy",
+  "name": "Ulkatcho Energy Corporation",
+  "variants": [
+   "Ulkatcho Energy Corporation"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 30000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.3
+ },
+ {
+  "key": "wahgoshig solar fit5",
+  "name": "Wahgoshig Solar FIT5 LP",
+  "variants": [
+   "Wahgoshig Solar FIT5 LP"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 29000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.3
+ },
+ {
+  "key": "lauzon   planchers de bois exclusifs",
+  "name": "Lauzon - Planchers de bois exclusifs inc.",
+  "variants": [
+   "Lauzon - Planchers de bois exclusifs inc."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 30100000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Forest": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.3
+ },
+ {
+  "key": "kalesnikoff",
+  "name": "Kalesnikoff",
+  "variants": [
+   "Kalesnikoff"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 34000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Forest": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.3
+ },
+ {
+  "key": "stern group  whitecourt newsprint   partnership",
+  "name": "The Stern Group (Whitecourt Newsprint Company Limited Partnership",
+  "variants": [
+   "The Stern Group (Whitecourt Newsprint Company Limited Partnership"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 25800000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Forest": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.3
+ },
+ {
+  "key": "west fraser timber",
+  "name": "West Fraser Timber Co. Ltd",
+  "variants": [
+   "West Fraser Timber Co. Ltd"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 25800000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Forest": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.3
+ },
+ {
+  "key": "biorefinex canada",
+  "name": "BioRefinex Canada",
+  "variants": [
+   "BioRefinex Canada"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 31800000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Agriculture / Forestry and Related": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.3
+ },
+ {
+  "key": "md of lesser slave lake",
+  "name": "MD of Lesser Slave Lake",
+  "variants": [
+   "MD of Lesser Slave Lake"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 27000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Pipelines": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.3
+ },
+ {
   "key": "bc housing  edgar development and orion construction",
   "name": "BC Housing/ Edgar Development and Orion Construction",
   "variants": [
@@ -38646,195 +38835,6 @@
   },
   "sectors": {
    "Utilities (incl sewage treatment)": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.3
- },
- {
-  "key": "biorefinex canada",
-  "name": "BioRefinex Canada",
-  "variants": [
-   "BioRefinex Canada"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 31800000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Agriculture / Forestry and Related": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.3
- },
- {
-  "key": "md of lesser slave lake",
-  "name": "MD of Lesser Slave Lake",
-  "variants": [
-   "MD of Lesser Slave Lake"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 27000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Pipelines": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.3
- },
- {
-  "key": "peak renewables",
-  "name": "Peak Renewables",
-  "variants": [
-   "Peak Renewables"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 29000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Forest": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.3
- },
- {
-  "key": "ulkatcho energy",
-  "name": "Ulkatcho Energy Corporation",
-  "variants": [
-   "Ulkatcho Energy Corporation"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 30000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.3
- },
- {
-  "key": "wahgoshig solar fit5",
-  "name": "Wahgoshig Solar FIT5 LP",
-  "variants": [
-   "Wahgoshig Solar FIT5 LP"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 29000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.3
- },
- {
-  "key": "lauzon   planchers de bois exclusifs",
-  "name": "Lauzon - Planchers de bois exclusifs inc.",
-  "variants": [
-   "Lauzon - Planchers de bois exclusifs inc."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 30100000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Forest": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.3
- },
- {
-  "key": "kalesnikoff",
-  "name": "Kalesnikoff",
-  "variants": [
-   "Kalesnikoff"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 34000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Forest": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.3
- },
- {
-  "key": "stern group  whitecourt newsprint   partnership",
-  "name": "The Stern Group (Whitecourt Newsprint Company Limited Partnership",
-  "variants": [
-   "The Stern Group (Whitecourt Newsprint Company Limited Partnership"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 25800000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Forest": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.3
- },
- {
-  "key": "west fraser timber",
-  "name": "West Fraser Timber Co. Ltd",
-  "variants": [
-   "West Fraser Timber Co. Ltd"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 25800000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Forest": 1
   },
   "website": null,
   "seed_urls": [],
@@ -48179,6 +48179,153 @@
   "score": 3.2
  },
  {
+  "key": "highwater power  altagas",
+  "name": "Highwater Power Corporation Altagas Ltd.",
+  "variants": [
+   "Highwater Power Corporation Altagas Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 20000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.2
+ },
+ {
+  "key": "jupiter hydro",
+  "name": "Jupiter Hydro",
+  "variants": [
+   "Jupiter Hydro"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 23300000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.2
+ },
+ {
+  "key": "pace canada",
+  "name": "Pace Canada LP",
+  "variants": [
+   "Pace Canada LP"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 17200000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.2
+ },
+ {
+  "key": "epcor distribution and  transmission",
+  "name": "EPCOR Distribution &. Transmission Inc.",
+  "variants": [
+   "EPCOR Distribution &. Transmission Inc."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 20000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.2
+ },
+ {
+  "key": "richardson oilseed",
+  "name": "Richardson Oilseed Ltd.",
+  "variants": [
+   "Richardson Oilseed Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 20000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Agriculture / Forestry and Related": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.2
+ },
+ {
+  "key": "cnrl   nrc   pond biofuels",
+  "name": "CNRL / NRC / Pond Biofuels",
+  "variants": [
+   "CNRL / NRC / Pond Biofuels"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 19000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Oil Sands": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.2
+ },
+ {
+  "key": "pengrowth energy",
+  "name": "Pengrowth Energy Corp.",
+  "variants": [
+   "Pengrowth Energy Corp."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 20000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Pipelines": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.2
+ },
+ {
   "key": "nicola valley institute of technology",
   "name": "Nicola Valley Institute of Technology",
   "variants": [
@@ -48906,153 +49053,6 @@
   },
   "sectors": {
    "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.2
- },
- {
-  "key": "richardson oilseed",
-  "name": "Richardson Oilseed Ltd.",
-  "variants": [
-   "Richardson Oilseed Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 20000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Agriculture / Forestry and Related": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.2
- },
- {
-  "key": "cnrl   nrc   pond biofuels",
-  "name": "CNRL / NRC / Pond Biofuels",
-  "variants": [
-   "CNRL / NRC / Pond Biofuels"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 19000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Oil Sands": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.2
- },
- {
-  "key": "pengrowth energy",
-  "name": "Pengrowth Energy Corp.",
-  "variants": [
-   "Pengrowth Energy Corp."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 20000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Pipelines": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.2
- },
- {
-  "key": "highwater power  altagas",
-  "name": "Highwater Power Corporation Altagas Ltd.",
-  "variants": [
-   "Highwater Power Corporation Altagas Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 20000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.2
- },
- {
-  "key": "jupiter hydro",
-  "name": "Jupiter Hydro",
-  "variants": [
-   "Jupiter Hydro"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 23300000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.2
- },
- {
-  "key": "pace canada",
-  "name": "Pace Canada LP",
-  "variants": [
-   "Pace Canada LP"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 17200000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.2
- },
- {
-  "key": "epcor distribution and  transmission",
-  "name": "EPCOR Distribution &. Transmission Inc.",
-  "variants": [
-   "EPCOR Distribution &. Transmission Inc."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 20000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
   },
   "website": null,
   "seed_urls": [],
@@ -54563,6 +54563,111 @@
   "score": 3.1
  },
  {
+  "key": "northstar clean technologies",
+  "name": "Northstar Clean Technologies",
+  "variants": [
+   "Northstar Clean Technologies"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 15000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.1
+ },
+ {
+  "key": "peace energy cooperative",
+  "name": "Peace Energy Cooperative",
+  "variants": [
+   "Peace Energy Cooperative"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 11000000,
+  "sources": {
+   "inv:nrcan_mpi": 1
+  },
+  "sectors": {
+   "Energy": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.1
+ },
+ {
+  "key": "gte power",
+  "name": "GTE Power Corp.",
+  "variants": [
+   "GTE Power Corp."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 10000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Power": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.1
+ },
+ {
+  "key": "genalta power",
+  "name": "Genalta Power Inc.",
+  "variants": [
+   "Genalta Power Inc."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 14900000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Power": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.1
+ },
+ {
+  "key": "canfor",
+  "name": "Canfor",
+  "variants": [
+   "Canfor"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 15000000,
+  "sources": {
+   "inv:ab_majors": 1
+  },
+  "sectors": {
+   "Agriculture / Forestry and Related": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.1
+ },
+ {
   "key": "sakura project management",
   "name": "Sakura Project Management",
   "variants": [
@@ -54702,111 +54807,6 @@
   },
   "sectors": {
    "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.1
- },
- {
-  "key": "gte power",
-  "name": "GTE Power Corp.",
-  "variants": [
-   "GTE Power Corp."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 10000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Power": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.1
- },
- {
-  "key": "genalta power",
-  "name": "Genalta Power Inc.",
-  "variants": [
-   "Genalta Power Inc."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 14900000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Power": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.1
- },
- {
-  "key": "canfor",
-  "name": "Canfor",
-  "variants": [
-   "Canfor"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 15000000,
-  "sources": {
-   "inv:ab_majors": 1
-  },
-  "sectors": {
-   "Agriculture / Forestry and Related": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.1
- },
- {
-  "key": "northstar clean technologies",
-  "name": "Northstar Clean Technologies",
-  "variants": [
-   "Northstar Clean Technologies"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 15000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.1
- },
- {
-  "key": "peace energy cooperative",
-  "name": "Peace Energy Cooperative",
-  "variants": [
-   "Peace Energy Cooperative"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 11000000,
-  "sources": {
-   "inv:nrcan_mpi": 1
-  },
-  "sectors": {
-   "Energy": 1
   },
   "website": null,
   "seed_urls": [],
@@ -101246,384 +101246,6 @@
   "score": 3.0
  },
  {
-  "key": "coeur mining",
-  "name": "Coeur Mining",
-  "variants": [
-   "Coeur Mining"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Mining & Oil & Gas Extraction": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "centerra gold",
-  "name": "Centerra Gold",
-  "variants": [
-   "Centerra Gold"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Mining & Oil & Gas Extraction": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "elkhart wind  partnership",
-  "name": "Elkhart Wind Limited Partnership",
-  "variants": [
-   "Elkhart Wind Limited Partnership"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Utilities (incl sewage treatment)": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "nilhts i ecoener energy",
-  "name": "Nilhts�I Ecoener Energy Corp",
-  "variants": [
-   "Nilhts�I Ecoener Energy Corp"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Utilities (incl sewage treatment)": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "edgar development",
-  "name": "EDGAR Development",
-  "variants": [
-   "EDGAR Development"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "kelowna city",
-  "name": "Kelowna City",
-  "variants": [
-   "Kelowna City"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Transportation & Warehousing": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "austeville properties",
-  "name": "Austeville Properties",
-  "variants": [
-   "Austeville Properties"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "ap group",
-  "name": "AP Group",
-  "variants": [
-   "AP Group"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "imani development",
-  "name": "IMANI Development",
-  "variants": [
-   "IMANI Development"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "vanprop investments",
-  "name": "Vanprop Investments Ltd.",
-  "variants": [
-   "Vanprop Investments Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "nelson investments",
-  "name": "Nelson Investments",
-  "variants": [
-   "Nelson Investments"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "canaus coal",
-  "name": "CanAus Coal Ltd.",
-  "variants": [
-   "CanAus Coal Ltd."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Mining & Oil & Gas Extraction": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "eagle spirit energy holdings  aquilini group",
-  "name": "Eagle Spirit Energy Holdings Ltd./Aquilini Group",
-  "variants": [
-   "Eagle Spirit Energy Holdings Ltd./Aquilini Group"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Transportation & Warehousing": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "ibi group architects",
-  "name": "IBI Group Architects",
-  "variants": [
-   "IBI Group Architects"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "mk delta lands group",
-  "name": "MK Delta Lands Group Inc.",
-  "variants": [
-   "MK Delta Lands Group Inc."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "canadian dehua international mines group",
-  "name": "Canadian Dehua International Mines Group Inc.",
-  "variants": [
-   "Canadian Dehua International Mines Group Inc."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Mining & Oil & Gas Extraction": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "surge copper",
-  "name": "Surge Copper Corp.",
-  "variants": [
-   "Surge Copper Corp."
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Mining & Oil & Gas Extraction": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
-  "key": "first capital realty",
-  "name": "First Capital Realty",
-  "variants": [
-   "First Capital Realty"
-  ],
-  "projects": 1,
-  "docs": 0,
-  "value_cad": 0,
-  "sources": {
-   "inv:nrcan_mpi_points": 1
-  },
-  "sectors": {
-   "Residential/Commercial": 1
-  },
-  "website": null,
-  "seed_urls": [],
-  "website_source": null,
-  "wikidata": null,
-  "score": 3.0
- },
- {
   "key": "proponents have been directed to include a statement in",
   "name": "Proponents have been directed to include a statement in",
   "variants": [
@@ -102206,6 +101828,384 @@
    "inv:ero_on": 1
   },
   "sectors": {},
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "coeur mining",
+  "name": "Coeur Mining",
+  "variants": [
+   "Coeur Mining"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Mining & Oil & Gas Extraction": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "centerra gold",
+  "name": "Centerra Gold",
+  "variants": [
+   "Centerra Gold"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Mining & Oil & Gas Extraction": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "elkhart wind  partnership",
+  "name": "Elkhart Wind Limited Partnership",
+  "variants": [
+   "Elkhart Wind Limited Partnership"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Utilities (incl sewage treatment)": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "nilhts i ecoener energy",
+  "name": "Nilhts�I Ecoener Energy Corp",
+  "variants": [
+   "Nilhts�I Ecoener Energy Corp"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Utilities (incl sewage treatment)": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "edgar development",
+  "name": "EDGAR Development",
+  "variants": [
+   "EDGAR Development"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "kelowna city",
+  "name": "Kelowna City",
+  "variants": [
+   "Kelowna City"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Transportation & Warehousing": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "austeville properties",
+  "name": "Austeville Properties",
+  "variants": [
+   "Austeville Properties"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "ap group",
+  "name": "AP Group",
+  "variants": [
+   "AP Group"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "imani development",
+  "name": "IMANI Development",
+  "variants": [
+   "IMANI Development"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "vanprop investments",
+  "name": "Vanprop Investments Ltd.",
+  "variants": [
+   "Vanprop Investments Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "nelson investments",
+  "name": "Nelson Investments",
+  "variants": [
+   "Nelson Investments"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "canaus coal",
+  "name": "CanAus Coal Ltd.",
+  "variants": [
+   "CanAus Coal Ltd."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Mining & Oil & Gas Extraction": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "eagle spirit energy holdings  aquilini group",
+  "name": "Eagle Spirit Energy Holdings Ltd./Aquilini Group",
+  "variants": [
+   "Eagle Spirit Energy Holdings Ltd./Aquilini Group"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Transportation & Warehousing": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "ibi group architects",
+  "name": "IBI Group Architects",
+  "variants": [
+   "IBI Group Architects"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "mk delta lands group",
+  "name": "MK Delta Lands Group Inc.",
+  "variants": [
+   "MK Delta Lands Group Inc."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "canadian dehua international mines group",
+  "name": "Canadian Dehua International Mines Group Inc.",
+  "variants": [
+   "Canadian Dehua International Mines Group Inc."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Mining & Oil & Gas Extraction": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "surge copper",
+  "name": "Surge Copper Corp.",
+  "variants": [
+   "Surge Copper Corp."
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Mining & Oil & Gas Extraction": 1
+  },
+  "website": null,
+  "seed_urls": [],
+  "website_source": null,
+  "wikidata": null,
+  "score": 3.0
+ },
+ {
+  "key": "first capital realty",
+  "name": "First Capital Realty",
+  "variants": [
+   "First Capital Realty"
+  ],
+  "projects": 1,
+  "docs": 0,
+  "value_cad": 0,
+  "sources": {
+   "inv:nrcan_mpi_points": 1
+  },
+  "sectors": {
+   "Residential/Commercial": 1
+  },
   "website": null,
   "seed_urls": [],
   "website_source": null,

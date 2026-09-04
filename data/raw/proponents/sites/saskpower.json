@@ -1,0 +1,3364 @@
+{
+ "key": "saskpower",
+ "site": "https://www.saskpower.com/",
+ "host": "www.saskpower.com",
+ "fetched": 250,
+ "pages": [
+  {
+   "url": "https://www.saskpower.com/",
+   "title": "SaskPower",
+   "depth": 0,
+   "docs": 2
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2feb-campbell-hydroelectric-station-refurbishment&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects",
+   "title": "Planning and Construction Projects",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/mino-giizis-solar-project",
+   "title": "Mino Giizis Solar Project",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/southern-springs-solar-project",
+   "title": "Southern Springs Solar Project",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/rose-valley-wind-project",
+   "title": "Rose Valley Wind Project",
+   "depth": 2,
+   "docs": 4
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/seven-stars-wind-energy-project",
+   "title": "Seven Stars Wind Energy Project",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/north-south-transmission-systems-interconnection-project",
+   "title": "North-South Transmission Systems Interconnection Project",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/steel-reef-cogeneration-project",
+   "title": "Steel Reef Cogeneration Project",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/projects-map",
+   "title": "Projects Map",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/coteau-creek-life-extension-project",
+   "title": "Coteau Creek Life Extension Project",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/coal-life-extension-project",
+   "title": "Coal Life Extension Project",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/blairmore-reinforcement-project",
+   "title": "Blairmore Reinforcement Project",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/glaslyn-to-spiritwood-power-line-project",
+   "title": "Glaslyn to Spiritwood Power Line Project",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/prince-power-line-project",
+   "title": "Prince Power Line Project",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/southwest-power-pool-project",
+   "title": "Southwest Power Pool Project",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/taylor-bay-reinforcement-project",
+   "title": "Taylor Bay Reinforcement Project",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/tracey-road-to-la-ronge-power-line-rebuild-project",
+   "title": "Tracey Road to La Ronge Power Line Rebuild Project",
+   "depth": 2,
+   "docs": 5
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/kopahawakenum-flare-to-power-project",
+   "title": "Kopahawakenum Flare to Power Project",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/regina-downtown-revitalization-project",
+   "title": "Regina Downtown Revitalization Project",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/shand-greenhouse-upgrade-project",
+   "title": "Shand Greenhouse Upgrade Project",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/estevan-area-transmission-lines",
+   "title": "Estevan Area Transmission Lines",
+   "depth": 2,
+   "docs": 4
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/pelican-narrows-to-mcilvenna-bay-transmission-line",
+   "title": "Pelican Narrows to McIlvenna Bay Transmission Line",
+   "depth": 2,
+   "docs": 7
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/coal-life-extension-project/boundary-dam-power-station-life-extension",
+   "title": "Boundary Dam Power Station Life Extension",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/coal-life-extension-project/poplar-river-power-station-life-extension",
+   "title": "Poplar River Power Station Life Extension",
+   "depth": 3,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/coal-life-extension-project/shand-power-station-life-extension",
+   "title": "Shand Power Station Life Extension",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fplanning-and-construction-projects%2festevan-area-transmission-lines%2fassets%2fbody&layout=%7b00000000-0000-0000-0000-000000000000%7d&device=Default",
+   "title": "404",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/turning-sun-solar-facility",
+   "title": "Turning Sun Solar Project",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fcondie-to-evraz-transmission-line-project&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/how-we-choose-project-sites",
+   "title": "How We Choose Project Sites",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power",
+   "title": "Planning for Nuclear Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/duty-to-consult-and-accommodate",
+   "title": "Duty to Consult and Accommodate",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/planning-for-nuclear-power-resources",
+   "title": "Planning for Nuclear Power Resources",
+   "depth": 3,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/reports-and-studies",
+   "title": "Reports and Studies",
+   "depth": 3,
+   "docs": 3
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/aspen-power-station",
+   "title": "Aspen Power Station",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/aspen-power-station/protecting-our-environment",
+   "title": "Protecting Our Environment",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/meadow-lake-replacement-power-station",
+   "title": "Meadow Lake Replacement Power Station",
+   "depth": 2,
+   "docs": 4
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/technology-selection",
+   "title": "Technology Selection",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/potential-facility-location",
+   "title": "Potential Facility Location",
+   "depth": 3,
+   "docs": 4
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/our-progress-and-next-steps",
+   "title": "Our Progress and Next Steps",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/what-were-hearing",
+   "title": "What We're Hearing",
+   "depth": 3,
+   "docs": 5
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/managing-nuclear-waste",
+   "title": "Managing Nuclear Waste",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/regional-evaluation-process",
+   "title": "Regional Evaluation Process",
+   "depth": 3,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/aspen-power-station/construction-schedule-and-progress",
+   "title": "Construction Schedule and Progress",
+   "depth": 3,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/aspen-power-station/our-commitment-and-work-opportunities",
+   "title": "Our Commitment and Work Opportunities",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/beauval-to-ile-a-la-crosse-power-line-rebuild",
+   "title": "Beauval to Île-à-la-Crosse Power Line Rebuild",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/codette-to-tobin-lake-power-line-rebuild",
+   "title": "Codette to Tobin Lake Power Line Rebuild",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/joint-use-pole-upgrade-program",
+   "title": "Joint Use Pole Upgrade Program",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/north-battleford-to-landis-power-line-rebuild",
+   "title": "North Battleford to Landis Power Line Rebuild",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/uranium-city-power-line-rebuild",
+   "title": "Uranium City Power Line Rebuild",
+   "depth": 2,
+   "docs": 4
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/water-security-agency-interconnection",
+   "title": "Water Security Agency Interconnection",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/wheeler-river-power-line",
+   "title": "Wheeler River Power Line",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/wood-pole-maintenance-program",
+   "title": "Wood Pole Maintenance Program",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/k-s-potash-combined-heat-and-power",
+   "title": "K+S Potash Combined Heat and Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/led-streetlights",
+   "title": "LED Streetlights",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/moose-jaw-downtown-power-upgrade",
+   "title": "Moose Jaw Downtown Power Upgrade",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/\\",
+   "title": "Planning and Construction Projects",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fplanning-and-construction-projects%2fjoint-pole-replacement-program&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-environmental-commitment/environmental-protection",
+   "title": "Environmental Protection",
+   "depth": 3,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-environmental-commitment/environmental-protection",
+   "title": "Environmental Protection",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/carbon-capture-and-storage/boundary-dam-carbon-capture-project",
+   "title": "Boundary Dam Carbon Capture Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/coteau-creek-to-swift-current-transmission-line-project",
+   "title": "Coteau Creek to Swift Current Transmission Line Project | Engage SaskPower",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/coteau-creek-to-swift-current-transmission-line-project/widgets/224085/faqs",
+   "title": "FAQs | Coteau Creek to Swift Current Transmission Line Project | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fawasis-solar-power-project&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fblue-hill-wind-power-line-project&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2ffoxtail-grove-solar-project&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fhighfield-solar-project&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fpeskastew-solar-power-project&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2friverhurst-wind-project&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fcoteau-creek-life-extension-project&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2flogistics-warehouse-project&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fpreston-crossing-power-line-project&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fregina-head-office-refurbishment-and-other-renovations&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2funderground-cable-replacement-project&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fwolverine-to-bhp-jansen-power-line-project&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/coteau-creek-to-swift-current-transmission-line-project/places/map-coteau-creek-to-swift-current",
+   "title": "Coteau Creek to Swift Current Transmission Line Project | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/coteau-creek-to-swift-current-transmission-line-project/surveys/feedback-form",
+   "title": "Feedback Form | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/coteau-creek-to-swift-current-transmission-line-project/surveys/feedback-form",
+   "title": "Feedback Form | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/coteau-creek-to-swift-current-transmission-line-project?tool=map",
+   "title": "Coteau Creek to Swift Current Transmission Line Project | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/coteau-creek-to-swift-current-transmission-line-project?tool=qanda",
+   "title": "Coteau Creek to Swift Current Transmission Line Project | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/coteau-creek-to-swift-current-transmission-line-project?tool=survey_tool",
+   "title": "Coteau Creek to Swift Current Transmission Line Project | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/coteau-creek-to-swift-current-transmission-line-project/widgets/224069/team_members",
+   "title": "Who's Listening | Coteau Creek to Swift Current Transmission Line Project | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fsmr-planning-and-development-phase&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/independent-power-producers",
+   "title": "Independent Power Producers",
+   "depth": 1,
+   "docs": 4
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/independent-power-producers/how-land-is-used",
+   "title": "How Land is Used",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/independent-power-producers/generating-power-to-sell/planning-your-project",
+   "title": "Planning Your Project",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/independent-power-producers/generating-power-to-sell",
+   "title": "Generating Power to Sell",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/independent-power-producers/generating-power-to-sell/choosing-an-ipp",
+   "title": "Choosing an IPP",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fbattery-energy-storage-system&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fbekevar-wind-facility&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fevaluating-sites-for-new-natural-gas-power-stations&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fgolden-south-wind-energy-facility&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fgreat-plains-power-station&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/power-savings-and-programs/home/tools-to-analyze-your-power-use/online-energy-assessment-for-homes",
+   "title": "Online Energy Assessment for Homes",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/power-savings-and-programs/home/programs/indigenous-new-homes-rebate",
+   "title": "Indigenous New Homes Rebate",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/carbon-capture-and-storage/carbon-storage-research-centre",
+   "title": "Carbon Storage Research Centre",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/melfort-and-lanigan-area-reinforcement-project",
+   "title": "Melfort and Lanigan Area Reinforcement Project | Engage SaskPower",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/how-we-choose-project-sites",
+   "title": "How We Choose Project Sites",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fkopahawakenum-flare-to-power-facility&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fled-streetlights&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fmltc-bioenergy-centre&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fregina-to-moosejaw-area-system-reinforcements&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2frural-infrastructure-investments&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2furban-core-downtown-improvements-regina-city&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2finfrastructure-projects%2fconstruction-projects%2fcurrent-projects%2fwood-pole-maintenance-program&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines",
+   "title": "Using SaskPower Transmission Lines",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/open-access-transmission-tariff",
+   "title": "Open Access Transmission Tariff",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/intra-provincial-transmission-tariff",
+   "title": "Intra-Provincial Transmission Tariff",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/carbon-capture-and-storage/shand-carbon-capture-test-facility",
+   "title": "Shand Carbon Capture Test Facility",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/carbon-capture-and-storage/amine-chemical-laboratory",
+   "title": "Amine Chemical Laboratory",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/load-interconnections",
+   "title": "Load Interconnections",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/generator-interconnections",
+   "title": "Generator Interconnections",
+   "depth": 2,
+   "docs": 6
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/facility-modifications",
+   "title": "Facility Modifications",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.saskpower.com/services/report-trouble/request-tree-trimming",
+   "title": "Request Tree Trimming Assessment",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-environmental-commitment/shand-greenhouse",
+   "title": "Shand Greenhouse",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/power-savings-and-programs/home/programs/northern-first-nations-home-retrofit-program",
+   "title": "Northern First Nations Home Retrofit Program",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-environmental-commitment/fish-and-wildlife",
+   "title": "Fish and Wildlife",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/melfort-and-lanigan-area-reinforcement-project?tool=news_feed",
+   "title": "Melfort and Lanigan Area Reinforcement Project | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/melfort-and-lanigan-area-reinforcement-project?tool=qanda",
+   "title": "Melfort and Lanigan Area Reinforcement Project | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/melfort-and-lanigan-area-reinforcement-project?tool=map",
+   "title": "Melfort and Lanigan Area Reinforcement Project | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/melfort-and-lanigan-area-reinforcement-project?tool=survey_tool",
+   "title": "Melfort and Lanigan Area Reinforcement Project | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/melfort-and-lanigan-area-reinforcement-project/news_feed/feedback-on-route-options-oct-2025",
+   "title": "Feedback on Route Options - October 2025 | Melfort and Lanigan Area Reinforcement Project | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/melfort-and-lanigan-area-reinforcement-project/widgets/206176/team_members",
+   "title": "Who's Listening | Melfort and Lanigan Area Reinforcement Project | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://engage.saskpower.com/melfort-and-lanigan-area-reinforcement-project/widgets/206165/faqs",
+   "title": "Q&As | Melfort and Lanigan Area Reinforcement Project | Engage SaskPower",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/carbon-capture-and-storage/boundary-dam-carbon-capture-project",
+   "title": "Boundary Dam Carbon Capture Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/southwest-power-pool-project",
+   "title": "Southwest Power Pool Project",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/turning-sun-solar-facility",
+   "title": "Turning Sun Solar Project",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/~/link.aspx?_id=B5CD90688E444F5DBA724BEADE76034A&amp;_z=z",
+   "title": "Planning and Construction Projects",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2fabout-us%2ffor-our-suppliers%2fsupplier-resources-and-corporate-practices%2fenvironmental-resources&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/carbon-capture-and-storage/carbon-storage-research-centre",
+   "title": "Carbon Storage Research Centre",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/island-falls-hydroelectric-station",
+   "title": "Island Falls Hydroelectric Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/nipawin-hydroelectric-station",
+   "title": "Nipawin Hydroelectric Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/eb-campbell-hydroelectric-station",
+   "title": "E.B. Campbell Hydroelectric Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/coteau-creek-hydroelectric-station",
+   "title": "Coteau Creek Hydroelectric Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines",
+   "title": "Using SaskPower Transmission Lines",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/carbon-capture-and-storage/shand-carbon-capture-test-facility",
+   "title": "Shand Carbon Capture Test Facility",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/infrastructure-projects/carbon-capture-and-storage/amine-chemical-laboratory",
+   "title": "Amine Chemical Laboratory",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2fabout-us%2four-company%2ffirst-nations-power-authority&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-environmental-commitment/shand-greenhouse",
+   "title": "Shand Greenhouse",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/power-savings-and-programs/home/tools-to-analyze-your-power-use/online-energy-assessment-for-homes",
+   "title": "Online Energy Assessment for Homes",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2fefficiency-programs-and-tips%2fsaving-power-at-work%2fanalyze-your-use%2fonline-energy-efficiency-assessment-for-business&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2fefficiency-programs-and-tips%2fsaving-power-at-work%2fanalyze-your-use%2fwalk-through-energy-assessment&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-environmental-commitment/fish-and-wildlife",
+   "title": "Fish and Wildlife",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/accounts/mysaskpower/your-account/download-the-saskpower-app/end-user-license-agreement",
+   "title": "End User License Agreement",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/services/report-trouble/report-streetlight-troubles",
+   "title": "Report Streetlight Troubles",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/Profile/My-Dashboard/My-Reports/Power-Reports",
+   "title": "",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/current-reports",
+   "title": "Current Reports",
+   "depth": 1,
+   "docs": 9
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports",
+   "title": "Past Annual Reports",
+   "depth": 2,
+   "docs": 60
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports",
+   "title": "Past Quarterly Reports",
+   "depth": 2,
+   "docs": 40
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/teacher-resources",
+   "title": "Teacher Resources",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2fabout-us%2ffor-our-suppliers%2fsupplier-resources-and-corporate-practices&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/community-contributions/financial-support",
+   "title": "Financial Support",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/community-contributions/item-donations",
+   "title": "Item Donations",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2fabout-us%2fcommunity-contributions%2femployee-volunteerism&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2fabout-us%2fcommunity-contributions%2ffocus-on-a-strong-workforce&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2fabout-us%2fcommunity-contributions%2funited-way&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2fefficiency-programs-and-tips%2fsaving-power-at-work%2fsavings-programs%2fbusiness-programs%2fsolar-and-wind-powered-pump-grant&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/meridian-cogeneration-station",
+   "title": "Meridian Cogeneration Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/cory-cogeneration-station",
+   "title": "Cory Cogeneration Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/profile/my-dashboard/my-reports/advanced-power-reports/power-consumption",
+   "title": "",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/services/report-trouble/report-streetlight-troubles",
+   "title": "Report Streetlight Troubles",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/profile/my-dashboard/my-reports/power-reports",
+   "title": "",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/power-savings-and-programs/business/programs/solar-and-wind-powered-pump-grant",
+   "title": "Solar and Wind-powered Pump Grant",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/current-reports",
+   "title": "Current Reports",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/teacher-resources",
+   "title": "Teacher Resources",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources",
+   "title": "Supplier Resources",
+   "depth": 1,
+   "docs": 3
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/environmental-resources",
+   "title": "Environmental Resources",
+   "depth": 2,
+   "docs": 7
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources",
+   "title": "Health and Safety Resources",
+   "depth": 2,
+   "docs": 60
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/community-contributions/employee-giving",
+   "title": "Employee Giving",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/community-contributions/financial-support",
+   "title": "Financial Support",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/community-contributions/item-donations",
+   "title": "Item Donations",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/community-contributions/financial-support/educational-programs",
+   "title": "Educational Programs",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/community-contributions/financial-support/business-initiatives",
+   "title": "Business Initiatives",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/corporate-practices",
+   "title": "Corporate Practices",
+   "depth": 2,
+   "docs": 11
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/doing-business-with-us",
+   "title": "Doing Business with Us",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/empowering-supplier-diversity",
+   "title": "Empowering Supplier Diversity",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.saskpower.com/about-us",
+   "title": "About Us",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/Profile/My-Dashboard/My-Reports",
+   "title": "",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/forms/report-an-outage-form",
+   "title": "Report an Outage",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/services/report-trouble/request-tree-trimming",
+   "title": "Request Tree Trimming Assessment",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/services/report-trouble/damage-to-saskpower-property",
+   "title": "Damage to SaskPower Property",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2fservices%2fservice-requests%2fnew-connections%2fsubdivision-development&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2fpowering-2030%2fgenerating-power-as-a-community-or-business&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2four-electricity%2felectrical-system%2fhow-our-power-stations-work&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2four-electricity%2fconnecting-to-the-power-grid%2felectric-vehicle-charging-stations&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2fabout-us%2four-company%2fcommitment-to-diversity-and-inclusion&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/our-strategic-direction",
+   "title": "Our Strategic Direction",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/our-history",
+   "title": "Our History",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/awards",
+   "title": "Awards",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/pension-plan",
+   "title": "Pension Plan",
+   "depth": 1,
+   "docs": 5
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/northpoint-energy-solutions",
+   "title": "NorthPoint Energy Solutions",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/senior-leadership/executive-members",
+   "title": "Executive Members",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/senior-leadership/board-members",
+   "title": "Board Members",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/senior-leadership/past-presidents-and-managers",
+   "title": "Past Presidents and Managers",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/senior-leadership/board-responsibility",
+   "title": "Board Responsibility",
+   "depth": 1,
+   "docs": 11
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/senior-leadership/minister-responsible-for-saskpower",
+   "title": "Minister Responsible for SaskPower",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2fabout-us%2ffor-our-suppliers%2fdoing-business-with-saskpower&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2fabout-us%2ffor-our-suppliers%2fhelp-with-the-procurement-process&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/for-our-suppliers/innovative-proposals",
+   "title": "Innovative Proposals",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/footer/industrial-customers/transmission-customers",
+   "title": "Transmission Customers",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2ffooter%2fhow-we-do-business%2fnon-utility-generation-policy&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/footer/were-here-to-help/social-media-community-guidelines",
+   "title": "Social Media Community Guidelines",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/services/report-trouble/~/link.aspx?_id=6A36309A11C942FEB0D353BE4FEB7E12&amp;_z=z",
+   "title": "Trees and Power Line Safety",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/safety/electrical-safety/homeowner-safety/trees-and-power-line-safety/request-tree-trimming-assessment",
+   "title": "Request Tree Trimming Assessment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/services/report-trouble/~/link.aspx?_id=792691E7BEBE43FE8C3C84D261A38CFD&amp;_z=z",
+   "title": "Minimum Clearances from High-Voltage Lines",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/services/report-trouble/~/link.aspx?_id=FD8A3C79667E4BB58D9CD1A05439C49F&amp;_z=z",
+   "title": "Working Safely in Your Yard",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2fservices%2freport-trouble%2f%7e%2flink&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/forms/subdivision-development-form",
+   "title": "Subdivision Development Service Request",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2fpowering-2030%2fhelp-plan-our-power-future%2fwhat-we-consider-when-planning&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/wellington-power-station",
+   "title": "Wellington Power Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/waterloo-power-station",
+   "title": "Waterloo Power Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/charlot-river-power-station",
+   "title": "Charlot River Power Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/poplar-river-power-station",
+   "title": "Poplar River Power Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/boundary-dam-power-station",
+   "title": "Boundary Dam Power Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/shand-power-station",
+   "title": "Shand Power Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/meadow-lake-power-station",
+   "title": "Meadow Lake Power Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/north-battleford-power-station",
+   "title": "North Battleford Power Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/yellowhead-power-station",
+   "title": "Yellowhead Power Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/ermine-power-station",
+   "title": "Ermine Power Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/landis-power-station",
+   "title": "Landis Power Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/queen-elizabeth-power-station",
+   "title": "Queen Elizabeth Power Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/spy-hill-power-station",
+   "title": "Spy Hill Power Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/chinook-power-station",
+   "title": "Chinook Power Station",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/cypress-wind-power-facility",
+   "title": "Cypress Wind Power Facility",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/404?item=%2four-power-future%2four-electricity%2felectrical-system%2fsystem-map%2fsunbridge-wind-power-facility&user=extranet%5cAnonymous&site=SaskPower",
+   "title": "404",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/centennial-wind-power-facility",
+   "title": "Centennial Wind Power Facility",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/morse-wind-facility",
+   "title": "Morse Wind Facility",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/red-lily-wind-power-facility",
+   "title": "Red Lily Wind Power Facility",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/western-lily-wind-power-facility",
+   "title": "Western Lily Wind Power Facility",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/balancing-supply-options/cogeneration",
+   "title": "Cogeneration",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/balancing-supply-options/electricity-storage",
+   "title": "Electricity Storage",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/balancing-supply-options/coal-with-carbon-capture-storage",
+   "title": "Coal with Carbon Capture Storage",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/balancing-supply-options/hydro",
+   "title": "Hydro",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/balancing-supply-options/solar",
+   "title": "Solar",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/balancing-supply-options/wind",
+   "title": "Wind",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/profile/my-dashboard/my-reports",
+   "title": "",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/forms/report-an-outage-form",
+   "title": "Report an Outage",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/services/report-trouble/damage-to-saskpower-property",
+   "title": "Damage to SaskPower Property",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/power-savings-and-programs/electric-vehicles/electric-vehicle-resources",
+   "title": "Electric Vehicle Resources",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/investing-in-a-reliable-power-grid/planning-for-the-future",
+   "title": "Planning for the Future",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/our-power-future/investing-in-a-reliable-power-grid/online-learning-library",
+   "title": "Online Learning Library",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/commitment-to-a-representative-workforce",
+   "title": "Commitment to a Representative Workforce",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/our-strategic-direction",
+   "title": "Our Strategic Direction",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/our-history",
+   "title": "Our History",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/awards",
+   "title": "Awards",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/pension-plan",
+   "title": "Pension Plan",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.saskpower.com/about-us/our-company/northpoint-energy-solutions",
+   "title": "NorthPoint Energy Solutions",
+   "depth": 1,
+   "docs": 0
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://www.saskpower.com/accounts/mysaskpower/your-account/download-the-saskpower-app",
+   "title": "Download the SaskPower App",
+   "type": "other",
+   "page": "https://www.saskpower.com/"
+  },
+  {
+   "url": "https://www.saskpower.com/Profile/My-Dashboard/My-Reports/Download-Data",
+   "title": "Download Data",
+   "type": "other",
+   "page": "https://www.saskpower.com/"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/rose-valley-wind/map-construction-rose-valley-wind.pdf",
+   "title": "preferred route",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/rose-valley-wind-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/rose-valley-wind/report-construction-rose-valley-wind-what-we-heard-2.pdf",
+   "title": "what we heard",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/rose-valley-wind-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/infosheet-construction-rose-valley-wind.pdf",
+   "title": "Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/rose-valley-wind-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/rose-valley-wind/report-construction-rose-valley-wind-what-we-heard.pdf",
+   "title": "What We Heard - Initial Engagement (Routing Options)",
+   "type": "engagement",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/rose-valley-wind-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/north-south-interconnection-project/map-construction-north-south-interconnection.pdf",
+   "title": "study area map",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/north-south-transmission-systems-interconnection-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/north-south-interconnection-project/infosheet-construction-north-south-interconnection.pdf",
+   "title": "Project Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/north-south-transmission-systems-interconnection-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/north-south-interconnection-project/faq-construction-north-south-interconnection.pdf",
+   "title": "FAQs",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/north-south-transmission-systems-interconnection-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/infosheet-construction-steel-reef-coleville-interconnection.pdf",
+   "title": "information sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/steel-reef-cogeneration-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/coal-extension/info-sheet---coal-life-extension-may-2026-final.pdf",
+   "title": "Project Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/coal-life-extension-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/map-construction-blairmore-reinforcement-preferred.pdf",
+   "title": "recommended route",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/blairmore-reinforcement-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/infosheet-construction-blairmore-reinforcement.pdf",
+   "title": "Project Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/blairmore-reinforcement-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/map-construction-blairmore-reinforcement.pdf",
+   "title": "Potential Route Options Map",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/blairmore-reinforcement-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/environment-resources/manual-suppliers-environmentalbestpractices.pdf",
+   "title": "Environmental Beneficial Management Practices",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/glaslyn-to-spiritwood-power-line-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/glaslyn-to-spiritwood-powerline/map-construction-glaslynspiritwood.pdf",
+   "title": "Preferred power line route map",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/glaslyn-to-spiritwood-power-line-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/glaslyn-to-spiritwood-powerline/infosheet-construction-glaslynspiritwood.pdf",
+   "title": "Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/glaslyn-to-spiritwood-power-line-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/prince-power-line-project/infosheet-construction-prince-meota-new.pdf",
+   "title": "Prince/Meota Transmission Line Project Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/prince-power-line-project"
+  },
+  {
+   "url": "https://docs2.cer-rec.gc.ca/ll-eng/llisapi.dll/fetch/2000/90464/90548/948561/4570297/4644793/4689089/C40019-1_Commission_-_Letter_Decision_-_Saskatchewan_Power_-_Southwest_Power_Pool_to_SaskPower_Interconnection_230_kV_-_EHW-001-2025_Proceeding_-_A9V2E8.pdf?nodeid=4689527&vernum=-2",
+   "title": "CER’s approval to proceed",
+   "type": "permit_approval",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/southwest-power-pool-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/map-construction-traceyroad-laronge.pdf",
+   "title": "line route",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/tracey-road-to-la-ronge-power-line-rebuild-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/infosheet-construction-traceyroad-laronge.pdf",
+   "title": "Tracey Road to La Ronge Power Line Rebuild Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/tracey-road-to-la-ronge-power-line-rebuild-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/tracey-road-to-la-ronge/public-notice-minor-works--highway-creek.pdf",
+   "title": "Highway Creek",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/tracey-road-to-la-ronge-power-line-rebuild-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/tracey-road-to-la-ronge/public-notice-minor-works--montreal-river.pdf",
+   "title": "Montreal River",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/tracey-road-to-la-ronge-power-line-rebuild-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/tracey-road-to-la-ronge/public-notice-no-public-interference--two-fork-river.pdf",
+   "title": "Two Fork",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/tracey-road-to-la-ronge-power-line-rebuild-project"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/report-construction-estevan-transmission-lines-what-we-heard.pdf",
+   "title": "What We Heard",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/estevan-area-transmission-lines"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/map-construction-preferred-estevan-area-transmission-lines.pdf",
+   "title": "preferred routes",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/estevan-area-transmission-lines"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/infosheet-estevan-area-transmission-lines.pdf",
+   "title": "Estevan Area Transmission Lines Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/estevan-area-transmission-lines"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/map-construction-estevan-area-transmission-lines.pdf",
+   "title": "Route Options Map (May 2025)",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/estevan-area-transmission-lines"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/infosheet-construction-mcllvenna-pelican.pdf",
+   "title": "Pelican Narrows to McIlvenna Bay Transmission Line Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/pelican-narrows-to-mcilvenna-bay-transmission-line"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/map-construction-mcllvenna-pelican-final.pdf",
+   "title": "Proposed Final Line Route Map",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/pelican-narrows-to-mcilvenna-bay-transmission-line"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/map-construction-mcllvenna-pelican.pdf",
+   "title": "Initial Line Route Options Map",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/pelican-narrows-to-mcilvenna-bay-transmission-line"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/public-notice-minor-works---bertrum-bay.pdf",
+   "title": "Bertrum Bay",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/pelican-narrows-to-mcilvenna-bay-transmission-line"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/public-notice-minor-works---gillingham-lake.pdf",
+   "title": "Gillingham Lake",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/pelican-narrows-to-mcilvenna-bay-transmission-line"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/public-notice-minor-works---mirond-lake.pdf",
+   "title": "Mirond Lake",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/pelican-narrows-to-mcilvenna-bay-transmission-line"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/public-notice-minor-works---opawikusehikan-narrows.pdf",
+   "title": "Opawikusehikan Narrows",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/pelican-narrows-to-mcilvenna-bay-transmission-line"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/coal-extension/infosheet-exploration-drilling-willowbunch.pdf",
+   "title": "Coal Exploration Drilling - Willow Bunch",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/coal-life-extension-project/poplar-river-power-station-life-extension"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/smr/transcript-smr-event-2023-10-05.pdf",
+   "title": "Read the transcript",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/planning-for-nuclear-power-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/smr-planning-and-development/report-smr-feasibility.pdf",
+   "title": "Small Modular Reactor Feasibility Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/reports-and-studies"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/nuclear-studies/report-supplyoptions-nuclear-siting-2007.pdf",
+   "title": "Nuclear Power — A Report Examining Scenarios, Options, and Issues for its Implementation in Saskatchewan",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/reports-and-studies"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/nuclear-studies/presentation-supplyoptions-nuclear-exploringsasknuclear-2006.pdf",
+   "title": "Power Generation — Exploring Saskatchewan’s Nuclear Future",
+   "type": "presentation",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/reports-and-studies"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/aspen-power-station/infosheet-construction-aspen-power-station.pdf",
+   "title": "April 2026 Project Update",
+   "type": "newsletter",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/aspen-power-station"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/meadow-lake-replacement/summary-meadow-lake-replacement.pdf",
+   "title": "our summary",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/meadow-lake-replacement-power-station"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/meadow-lake-replacement/infosheet-construction-meadow-lake-replacement.pdf",
+   "title": "Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/meadow-lake-replacement-power-station"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/meadow-lake-replacement/map-construction-meadow-lake-replacement.pdf",
+   "title": "Site Map",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/meadow-lake-replacement-power-station"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/meadow-lake-replacement/map-construction-meadow-lake-replacement-detailed-siting.pdf",
+   "title": "Detailed Siting Map",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/meadow-lake-replacement-power-station"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/smr/guide-smr-siting-indicators-workbook-estevan-3.pdf",
+   "title": "Estevan Indicator Workbook",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/potential-facility-location"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/smr/guide-smr-siting-indicators-workbook-elbow-3.pdf",
+   "title": "Elbow Indicator Workbook",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/potential-facility-location"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/smr/map-smr-suitability-water-intake-elbow.pdf",
+   "title": "Elbow Suitability Map",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/potential-facility-location"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/smr/map-smr-suitability-water-intake-estevan.pdf",
+   "title": "Estevan Suitability Map",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/potential-facility-location"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/smr/what-we-have-heard-so-far/report-planningfornuclearpower-whatweheard-septtodec2022.pdf",
+   "title": "September – December 2022",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/what-were-hearing"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/smr/what-we-have-heard-so-far/report-smr-summary-early-stakeholders-engagement.pdf",
+   "title": "June 2021 - January 2022",
+   "type": "engagement",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/what-were-hearing"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/smr/what-we-have-heard-so-far/report-smr-metis-nation.pdf",
+   "title": "May 2023 - Métis Nation of Saskatchewan",
+   "type": "engagement",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/what-were-hearing"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/smr/what-we-have-heard-so-far/report-smr-metis-nation-virtual-engagement.pdf",
+   "title": "February 2022 - Métis Nation of Saskatchewan (Virtual)",
+   "type": "engagement",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/what-were-hearing"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/smr/what-we-have-heard-so-far/report-fnpa-indigenous-engagement-sessions.pdf",
+   "title": "September 2021 – First Nation Power Authority",
+   "type": "engagement",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/what-were-hearing"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/smr/report-smr-rep-final.pdf",
+   "title": "Final REP Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/planning-for-nuclear-power/regional-evaluation-process"
+  },
+  {
+   "url": "https://iaac-aeic.gc.ca/050/documents/p84525/153093E.pdf",
+   "title": "Detailed Project Description",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/aspen-power-station/construction-schedule-and-progress"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/map-construction-beauval-ile-a-la-crosse.pdf",
+   "title": "final plan",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/beauval-to-ile-a-la-crosse-power-line-rebuild"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/infosheet-construction-beauval-ile-a-la-crosse.pdf",
+   "title": "Beauval to Île-à-la-Crosse Power Line Rebuild Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/beauval-to-ile-a-la-crosse-power-line-rebuild"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/codette-to-tobin-lake/infosheet-codette-tobin-lake.pdf",
+   "title": "information sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/codette-to-tobin-lake-power-line-rebuild"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/codette-to-tobin-lake/map-codette-tobin-lake.pdf",
+   "title": "Project Map",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/codette-to-tobin-lake-power-line-rebuild"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/infosheet-construction-north-battleford-landis-rebuild.pdf",
+   "title": "Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/north-battleford-to-landis-power-line-rebuild"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/map-construction-north-battleford-landis.pdf",
+   "title": "Route Maps",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/north-battleford-to-landis-power-line-rebuild"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/uranium-city-power-line-rebuild/map-construction-uranium-city-power-line-rebuild.pdf",
+   "title": "line route",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/uranium-city-power-line-rebuild"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/uranium-city-power-line-rebuild/infosheet-construction-uranium-city-power-line-rebuild.pdf",
+   "title": "Uranium City Power Line Rebuild Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/uranium-city-power-line-rebuild"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/uranium-city-power-line-rebuild/public-notice-minor-works---boyce-lake.pdf",
+   "title": "Boyce Lake",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/uranium-city-power-line-rebuild"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/uranium-city-power-line-rebuild/public-notice-minor-works---melville-lake.pdf",
+   "title": "Melville Lake",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/uranium-city-power-line-rebuild"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/map-construction-wsa-interconnection.pdf",
+   "title": "routing corridor",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/water-security-agency-interconnection"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/infosheet-construction-wsa-interconnection.pdf",
+   "title": "Project Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/water-security-agency-interconnection"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/infosheet-construction-wheeler-river.pdf",
+   "title": "Wheeler River Power Line Project Information Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/planning-and-construction-projects/wheeler-river-power-line"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/environment/guide-faq-shand-greenhouse.pdf",
+   "title": "LEARN MORE",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-environmental-commitment/environmental-protection"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/independent-power-producer/guide-ipp-how-we-work.pdf",
+   "title": "How We Work with IPPs",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/independent-power-producers"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/independent-power-producer/guide-ipp-land-use.pdf",
+   "title": "Land Use for Wind and Solar Facilities",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/independent-power-producers"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/independent-power-producer/guide-ipp-misconceptions.pdf",
+   "title": "Misconceptions about Wind and Solar Facilities",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/independent-power-producers"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/construction-projects/independent-power-producer/guide-ipp-generation-toolkit.pdf",
+   "title": "Generation Project Toolkit",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/infrastructure-projects/construction-projects/independent-power-producers"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/efficiency-programs-and-tips/infosheet-efficiency-homeonlineenergyassessment.pdf",
+   "title": "information sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/power-savings-and-programs/home/tools-to-analyze-your-power-use/online-energy-assessment-for-homes"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/efficiency-programs-and-tips/form-indigenous-new-home-rebate.pdf",
+   "title": "form-indigenous-new-home-rebate.pdf",
+   "type": "engagement",
+   "page": "https://www.saskpower.com/power-savings-and-programs/home/programs/indigenous-new-homes-rebate"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/efficiency-programs-and-tips/tariff-transmission-oatt.pdf",
+   "title": "Open Access Transmission Tariff",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/open-access-transmission-tariff"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/efficiency-programs-and-tips/form-transmission-oatt.pdf",
+   "title": "OATT Customer Eligibility Application",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/open-access-transmission-tariff"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/transmission/diagram-iptt-process.pdf",
+   "title": "Process Diagram",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/intra-provincial-transmission-tariff"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/transmission/diagram-load-interconnection-process.pdf",
+   "title": "process diagram",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/load-interconnections"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/transmission/application-load-interconnection.pdf",
+   "title": "application form",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/load-interconnections"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/transmission/diagram-exploratory-study-process.pdf",
+   "title": "Exploratory Study process",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/generator-interconnections"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/transmission/application-exploratory-study.pdf",
+   "title": "Exploratory Study Application",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/generator-interconnections"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/transmission/diagram-sgip-process.pdf",
+   "title": "SGIP process",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/generator-interconnections"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/transmission/application-generator-interconnection-request.pdf",
+   "title": "Interconnection Request application",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/generator-interconnections"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/transmission/guide-generator-interconnection-requirements.pdf",
+   "title": "Generation Interconnection Requirements",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/generator-interconnections"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/transmission/guide-generation-interconnection-requirements-supplement.pdf",
+   "title": "Generation Interconnection Requirements Supplement",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/generator-interconnections"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/transmission/diagram-facility-modification-process.pdf",
+   "title": "process diagram",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/facility-modifications"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/transmission/application-facility-modification.pdf",
+   "title": "application form",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/connecting-to-the-power-grid/using-saskpower-transmission-lines/facility-modifications"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/environment/guide-eligibiligy-seedlings-shand.pdf",
+   "title": "Am I eligible?",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-environmental-commitment/shand-greenhouse"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/report-annualreport-2025-26.pdf",
+   "title": "SaskPower Annual Report (2025-26)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/report-northpointenergy-financials-2025-26.pdf",
+   "title": "NorthPoint Energy Solutions Inc. Financial Statements (2025-26)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/report-superannuation-2025.pdf",
+   "title": "Superannuation Plan Annual Report (2025)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/report-fighting-against-modern-slavery-2025-26.pdf",
+   "title": "Fighting Against Forced Labour and Child Labour in Supply Chains Act (2025-26)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/guidelines-csa-national-policy-58-201-2025-26.pdf",
+   "title": "Canadian Securities Administrators National Policy 58-201: Corporate Governance Guidelines (2025-26)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/report-extractivesector-transparencymeasures-2025-26.pdf",
+   "title": "Extractive Sector Transparency Measures Act Annual Report (2025-26)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/report-corporate-responsibility-sustainability-2022-23.pdf",
+   "title": "Corporate Responsibility and Sustainability Report (2022-23)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/report-crown-collaboration-2020-21.pdf",
+   "title": "Crown Corporation Collaboration (2020-21)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/report-q1-financials-2026-27.pdf",
+   "title": "First Quarter",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-annualreport-2024-25.pdf",
+   "title": "SaskPower Annual Report (2024-25)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-fighting-against-modern-slavery-2024-25.pdf",
+   "title": "Fighting Against Modern Slavery 2024-25 Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-northpointenergy-financials-2024-25.pdf",
+   "title": "NorthPoint Energy Solutions Inc. Financial Statements (2024-25)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-superannuation-2024.pdf",
+   "title": "Superannuation Plan Annual Report (2024)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/guidelines-csa-national-policy-58-201-2024-25.pdf",
+   "title": "Canadian Securities Administrators National Policy 58-201: Corporate Governance Guidelines (2024-25)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-extractivesector-transparencymeasures-2024-25.pdf",
+   "title": "Extractive Sector Transparency Measures Act Annual Report (2024-25)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-annualreport-2023-24.pdf",
+   "title": "SaskPower Annual Report (2023-24)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-northpointenergy-financials-2023-24.pdf",
+   "title": "NorthPoint Energy Solutions Inc. Financial Statements (2023-24)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-superannuation-2023.pdf",
+   "title": "Superannuation Plan Annual Report (2023)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-fighting-against-modern-slavery-2023-24.pdf",
+   "title": "Fighting Against Modern Slavery 2023-24 Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/guidelines-csa-national-policy-58-201-2023-24.pdf",
+   "title": "Canadian Securities Administrators National Policy 58-201: Corporate Governance Guidelines (2023-24)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-extractivesector-transparencymeasures-2023-24.pdf",
+   "title": "Extractive Sector Transparency Measures Act Annual Report (2023-24)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-annualreport-2022-23.pdf",
+   "title": "SaskPower Annual Report (2022-23)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/guidelines-csa-national-policy-58-201-2022-23.pdf",
+   "title": "Canadian Securities Administrators National Policy 58-201: Corporate Governance Guidelines (2022-23)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-northpointenergy-financials-2022-23.pdf",
+   "title": "NorthPoint Energy Solutions Inc. Financial Statements (2022-23)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-powercorporation-superannuationplan-2022.pdf",
+   "title": "Superannuation Plan Annual Report (2022)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-extractivesector-transparencymeasures-2022-23.pdf",
+   "title": "Extractive Sector Transparency Measures Act Annual Report (2022-23)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-annualreport-2021-22.pdf",
+   "title": "SaskPower Annual Report (2021-22)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/report-northpointenergy-financials-2021-22.pdf",
+   "title": "NorthPoint Energy Solutions Inc. Financial Statements (2021-22)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-superannuation-2021.pdf",
+   "title": "Superannuation Plan Annual Report (2021)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-extractivesector-transparencymeasures-2021-22.pdf",
+   "title": "Extractive Sector Transparency Measures Act Annual Report (2021-22)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/report-corporate-responsibility-sustainability-2021-22.pdf",
+   "title": "Corporate Responsibility and Sustainability Report (2021-22)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-annualreport-2020-21.pdf",
+   "title": "SaskPower Annual Report (2020-21)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-northpointenergy-financials-2020-21.pdf",
+   "title": "NorthPoint Energy Solutions Inc. Financial Statements (2020-21)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-superannuation-2020.pdf",
+   "title": "Superannuation Plan Annual Report (2020)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-extractivesector-transparencymeasures-2020-21.pdf",
+   "title": "Extractive Sector Transparency Measures Act Annual Report (2020-21)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-corporate-responsibility-sustainability-2020-21.pdf",
+   "title": "Corporate Responsibility and Sustainability Report (2020-21)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-annualreport-2019-20.pdf",
+   "title": "SaskPower Annual Report (2019-20)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-northpointenergy-financials-2019-20.pdf",
+   "title": "NorthPoint Energy Solutions Inc. Financial Statements (2019-20)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-superannuation-2019.pdf",
+   "title": "Superannuation Plan Annual Report (2019)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-corporate-responsibility-sustainability-2019-20.pdf",
+   "title": "Corporate Responsibility and Sustainability Report (2019-20)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-extractivesector-transparencymeasures-2019-20.pdf",
+   "title": "Extractive Sector Transparency Measures Act Annual Report (2019-20)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-annualreport-2018-19.pdf",
+   "title": "SaskPower Annual Report (2018-19)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-northpointenergy-financials-2016-17.pdf",
+   "title": "report-northpointenergy-financials-2016-17.pdf",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-northpointenergy-financials-2018-19.pdf",
+   "title": "NorthPoint Energy Solutions Inc. Financial Statements (2018-19)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-superannuation-2018.pdf",
+   "title": "Superannuation Plan Annual Report (2018)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-corporate-responsibility-sustainability-2018-19.pdf",
+   "title": "Corporate Responsibility and Sustainability Report (2018-19)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-extractivesector-transparencymeasures-2018-19.pdf",
+   "title": "Extractive Sector Transparency Measures Act Annual Report (2018-19)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-annualreport-2017-18.pdf",
+   "title": "SaskPower Annual Report (2017-18)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-northpointenergy-financials-2017-18.pdf",
+   "title": "NorthPoint Energy Solutions Inc. Financial Statements (2017-18)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-superannuation-2017.pdf",
+   "title": "Superannuation Plan Annual Report (2017)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-annualreport-2016-17.pdf",
+   "title": "SaskPower Annual Report (2016-17)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-powercorporation-superannuationplan-2016.pdf",
+   "title": "Superannuation Plan Annual Report (2016)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-annualreport-2015-16.pdf",
+   "title": "SaskPower Annual Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-northpointenergy-financials-2015-16.pdf",
+   "title": "NorthPoint Energy Solutions Inc. Financial Statements",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-powercorporation-superannuationplan-2015.pdf",
+   "title": "Superannuation Plan Annual Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-annualreport-2014.pdf",
+   "title": "SaskPower Annual Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-northpointenergy-financials-2014.pdf",
+   "title": "NorthPoint Energy Solutions Inc. Financial Statements",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-powercorporation-superannuationplan-2014.pdf",
+   "title": "Superannuation Plan Annual Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-annualreport-2013.pdf",
+   "title": "SaskPower Annual Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-northpointenergy-financials-2013.pdf",
+   "title": "NorthPoint Energy Solutions Inc. Financial Statements",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-powercorporation-superannuationplan-2013.pdf",
+   "title": "Superannuation Plan Annual Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-annualreport-2012.pdf",
+   "title": "SaskPower Annual Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-northpointenergy-financials-2012.pdf",
+   "title": "NorthPoint Energy Solutions Inc. Financial Statements",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-shandgreenhouse-financials-2012.pdf",
+   "title": "Shand Greenhouse Financial Statements",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-powercorporation-superannuationplan-2012.pdf",
+   "title": "Superannuation Plan Annual Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-annualreport-2011.pdf",
+   "title": "SaskPower Annual Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-northpointenergy-financials-2011.pdf",
+   "title": "NorthPoint Energy Solutions Inc. Financial Statements",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-shandgreenhouse-financials-2011.pdf",
+   "title": "Shand Greenhouse Financial Statements",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-powercorporation-superannuationplan-2011.pdf",
+   "title": "Superannuation Plan Annual Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-annual-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-q1-financials-2025-26.pdf",
+   "title": "First Quarter",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-q2-financials-2025-26.pdf",
+   "title": "Second Quarter",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/report-q3-financials-2025-26.pdf",
+   "title": "Third Quarter",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-firstquarter-financials-2024-25.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-secondquarter-financials-2024-25.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-thirdquarter-financials-2024-25.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-firstquarter-financials-2023-24.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-secondquarter-financials-2023-24.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-thirdquarter-financials-2023-24.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-firstquarter-financials-2022-23.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-secondquarter-financials-2022-23.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-thirdquarter-financials-2022-23.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-firstquarter-financials-2021-22.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-secondquarter-financials-2021-22.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-thirdquarter-financials-2021-22.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-firstquarter-financials-2020-21.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-secondquarter-financials-2020-21.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-thirdquarter-financials-2020-21.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-firstquarter-financials-2019-20.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-secondquarter-financials-2019-20.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-thirdquarter-financials-2019-20.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-firstquarter-financials-2018-19.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-secondquarter-financials-2018-19.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-thirdquarter-financials-2018-19.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-firstquarter-financials-2017.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-secondquarter-financials-2017.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-thirdquarter-financials-2017-18.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-firstquarter-financials-2016-17.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-secondquarter-financials-2016-17.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-thirdquarter-financials-2016-17.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-firstquarter-financials-2015.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-secondquarter-financials-2015.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-thirdquarter-financials-2015.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-fourthquarter-financials-2015.pdf",
+   "title": "Fourth Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-firstquarter-financials-2014.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-secondquarter-financials-2014.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-thirdquarter-financials-2014.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-firstquarter-financials-2013.pdf",
+   "title": "First Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-secondquarter-financials-2013.pdf",
+   "title": "Second Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/reports/past-reports/report-thirdquarter-financials-2013.pdf",
+   "title": "Third Quarter Report",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/current-reports/past-quarterly-reports"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/efficiency-programs-and-tips/guide-efficiency-waterpumpgrant.pdf",
+   "title": "Download",
+   "type": "other",
+   "page": "https://www.saskpower.com/power-savings-and-programs/business/programs/solar-and-wind-powered-pump-grant"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/efficiency-programs-and-tips/form-efficiency-waterpumpgrant.pdf",
+   "title": "APPLY NOW",
+   "type": "other",
+   "page": "https://www.saskpower.com/power-savings-and-programs/business/programs/solar-and-wind-powered-pump-grant"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/contacts-suppliers-procurement.pdf",
+   "title": "contact list",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/supplier-resources/infosheet-suppliers-indigenous.pdf",
+   "title": "Indigenous Suppliers",
+   "type": "engagement",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/supplier-resources/infosheet-suppliers-women-owned-business.pdf",
+   "title": "Women Owned Business",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/environment-resources/form-bmp-nest-search.pdf",
+   "title": "Nest Search Data Sheet",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/environmental-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/environment-resources/chart-suppliers-environmentincidentreference.pdf",
+   "title": "Environmental Incident Reference Chart",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/environmental-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/environment-resources/guide-working-in-or-near-water.pdf",
+   "title": "Working In or Near Surface Water (Transmission, Distribution and Fibre Optic)",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/environmental-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/environment-resources/form-epp-bmp-closurereport.pdf",
+   "title": "Environmental Closure Report Form",
+   "type": "closure",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/environmental-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/environment-resources/form-epp-closurereport-jobaid.pdf",
+   "title": "Environmental Closure Report Form Job Aid",
+   "type": "closure",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/environmental-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/policy-suppliers-healthsafetyenvironment.pdf",
+   "title": "SaskPower Health, Safety and Environment Policy",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/environmental-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/guide-suppliers-safetyenvironmentrulebook.pdf",
+   "title": "Safety and Environment Rulebook",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/environmental-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/guide-suppliers-contractorhandbook.pdf",
+   "title": "Contractor Handbook",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/safety/guideline-safety-emergencypersonnel.pdf",
+   "title": "Emergency Response Personnel Handbook",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/guide-suppliers-standardprotectioncode.pdf",
+   "title": "SaskPower Standard Protection Code",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/guide-suppliers-sitespecificmitigationplan.pdf",
+   "title": "Site Specific Mitigation Plan",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-publicsafety.pdf",
+   "title": "Public Safety Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/policy-suppliers-hara.pdf",
+   "title": "Hazard/Aspect and Risk Assessment Policy",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-hara.pdf",
+   "title": "Hazard/Aspect and Risk Assessment (HARA) Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/chart-suppliers-healthandsafetyhazardlist.pdf",
+   "title": "SaskPower Hazard Classifications",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-animalcontrol.pdf",
+   "title": "Animal Control Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-arcflash.pdf",
+   "title": "Arc Flash Hazard Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-asbestos.pdf",
+   "title": "Asbestos Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-aviation.pdf",
+   "title": "Aviation Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-chemical-biological-substances.pdf",
+   "title": "Chemical and Biological Substances Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-confinedspaceentry.pdf",
+   "title": "Confined Space Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-environmentandenterprisesecurity.pdf",
+   "title": "Contractor Health, Safety, Environment and Security Management Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-deviationfromsafework.pdf",
+   "title": "Deviation from Safe Work Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-emergencyresponse.pdf",
+   "title": "Emergency Response Plan Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-emergencyshowereyewash.pdf",
+   "title": "Emergency Shower and Eye Wash Station Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-ergonomics.pdf",
+   "title": "Ergonomics Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-excavationtrenching.pdf",
+   "title": "Excavation and Trenching Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-eyefaceprotection.pdf",
+   "title": "Eye and Face Protection Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-fallprotection.pdf",
+   "title": "Fall Protection Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-fatiguemanagement.pdf",
+   "title": "Fatigue Management Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-fireextinguishers.pdf",
+   "title": "Fire Extinguisher Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-first-aid-aed.pdf",
+   "title": "First Aid Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/policy-suppliers-fit-for-duty.pdf",
+   "title": "Fit for Duty Policy",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-footprotection.pdf",
+   "title": "Foot Protection Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-handarmprotection.pdf",
+   "title": "Hand and Arm Protection Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-headprotection.pdf",
+   "title": "Head Protection Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-inspectionshealthsafetyenvironment.pdf",
+   "title": "Health, Safety and Environment Inspections Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-hearingprotection.pdf",
+   "title": "Hearing Protection Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-highvisibility.pdf",
+   "title": "High Visibility Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-incidentinvestigation.pdf",
+   "title": "Incident Investigation Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-majorproject-hsemanagement.pdf",
+   "title": "Major Projects HSE Management Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-minimumapproachdistance.pdf",
+   "title": "Minimum Approach Distance Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-motorvehiclesafety.pdf",
+   "title": "Motor Vehicle Safety Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-poweredmobileequipment.pdf",
+   "title": "Operation of Powered Mobile Equipment Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-personalportablegasmonitor.pdf",
+   "title": "Personal and Portable Gas Monitor Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-portablegroundset.pdf",
+   "title": "Portable Ground Set and Portable Bond Mat Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-radiation.pdf",
+   "title": "Radiation Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-respiratoryppe.pdf",
+   "title": "Respiratory Protection Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-safeworkprocedures.pdf",
+   "title": "Safe Work Practices and Procedures Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-safetyenvironmentmeetings.pdf",
+   "title": "Safety and Environment Meeting Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/process-suppliers-safetyincidentinvestigation.pdf",
+   "title": "Safety Incident Investigation Process",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-safetysignage.pdf",
+   "title": "Safety Signage Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-workingalone.pdf",
+   "title": "Working Alone Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-hotcoldconditions.pdf",
+   "title": "Working in Hot and Cold Conditions Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-workingonice.pdf",
+   "title": "Working on Ice Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-workingwater.pdf",
+   "title": "Working on, in or Near Water Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-workobservations.pdf",
+   "title": "Work Observations Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-workplace-violence.pdf",
+   "title": "Workplace Violence Prevention Plan",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/policy-suppliers-loadhandling.pdf",
+   "title": "Load Handling (Hoisting) Policy",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/process-suppliers-writtenorverballiftplan.pdf",
+   "title": "Determination of Written or Verbal Lift Plan Process",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/guide-suppliers-liftclassification.pdf",
+   "title": "Lift Classification Reference Guide",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/template-suppliers-liftplan.pdf",
+   "title": "Lift Plan Template - Hard Copy",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-loadhandlingequipmentrecord.pdf",
+   "title": "Load Handling Equipment Record Keeping Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-supplier-personnelhoisting.pdf",
+   "title": "Personnel Hoisting Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/standard-suppliers-planningloadhandling.pdf",
+   "title": "Planning for Load Handling Standard",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/process-suppliers-planningloadhandling.pdf",
+   "title": "Planning for Load Handling Handbook - Contractor Version",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/health-safety-resources/process-suppliers-planningloadhandling-jobaid.pdf",
+   "title": "Planning for Load Handling 7 Step Process - Job Aid",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/health-and-safety-resources"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-procurement.pdf",
+   "title": "Procurement Policy",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/corporate-practices"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/form-indigenous-business-declaration.docx",
+   "title": "Indigenous Business Diversity Declaration Form",
+   "type": "engagement",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/corporate-practices"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-indigenous-procurement.pdf",
+   "title": "Indigenous Procurement Policy",
+   "type": "engagement",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/corporate-practices"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/women-owned-business/form-suppliers-women-owned-business-diversity-declaration.docx",
+   "title": "Women-Owned Business Diversity Declaration Form",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/corporate-practices"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/women-owned-business/guide-suppliers-women-owned-business-program-purpose.pdf",
+   "title": "Women-Owned Business Purpose",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/corporate-practices"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/women-owned-business/infographic-suppliers-women-owned-business.pdf",
+   "title": "Women-Owned Business Infographic",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/corporate-practices"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-codeofconduct.pdf",
+   "title": "General Code of Conduct",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/corporate-practices"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-codeofconduct-supplier.pdf",
+   "title": "Supplier Code of Conduct",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/corporate-practices"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-respectfulworkplace.pdf",
+   "title": "Respectful Workplace Policy",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/corporate-practices"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-personalinformationprivacy.pdf",
+   "title": "Privacy Policy",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/corporate-practices"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/catalogue-saskpower-its-position.pdf",
+   "title": "Information Technology and Security Position Catalogue",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/corporate-practices"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/supplier-resources/infosheet-empowering-supplier-diversity-indigenous-funding.pdf",
+   "title": "Funding Opportunities for Indigenous Businesses",
+   "type": "engagement",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/empowering-supplier-diversity"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/supplier-resources/infosheet-empowering-supplier-diversity-women-funding.pdf",
+   "title": "Funding Opportunities for Women-Owned Businesses",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/supplier-resources/empowering-supplier-diversity"
+  },
+  {
+   "url": "https://www.saskpower.com/Accounts/MySaskPower/Your-Account/Download-the-SaskPower-App",
+   "title": "SaskPower App.",
+   "type": "other",
+   "page": "https://www.saskpower.com/forms/report-an-outage-form"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/infosheet-superannuation-pensionupdate.pdf",
+   "title": "Pension Update",
+   "type": "newsletter",
+   "page": "https://www.saskpower.com/about-us/our-company/pension-plan"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-termsofreference-superannuationplan.pdf",
+   "title": "PCSP Terms of Reference – Board",
+   "type": "terms_of_reference",
+   "page": "https://www.saskpower.com/about-us/our-company/pension-plan"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/manual-superannuationplan.pdf",
+   "title": "PCSP Governance Manual",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/pension-plan"
+  },
+  {
+   "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/1160/P20.pdf",
+   "title": "The Power Corporation Superannuation Act",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/pension-plan"
+  },
+  {
+   "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/1417/S64.pdf",
+   "title": "The Superannuation (Supplementary Provisions) Act",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/pension-plan"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-termsofreference-boardofdirectors.pdf",
+   "title": "Board of Directors",
+   "type": "terms_of_reference",
+   "page": "https://www.saskpower.com/about-us/senior-leadership/board-responsibility"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-termsofreference-directors.pdf",
+   "title": "Directors",
+   "type": "terms_of_reference",
+   "page": "https://www.saskpower.com/about-us/senior-leadership/board-responsibility"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-termsofreference-boardchair.pdf",
+   "title": "Board Chair",
+   "type": "terms_of_reference",
+   "page": "https://www.saskpower.com/about-us/senior-leadership/board-responsibility"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-termsofreference-committeechair.pdf",
+   "title": "Committee Chair",
+   "type": "terms_of_reference",
+   "page": "https://www.saskpower.com/about-us/senior-leadership/board-responsibility"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-termsofreference-corporatesecretary.pdf",
+   "title": "CIC Corporate Secretary",
+   "type": "terms_of_reference",
+   "page": "https://www.saskpower.com/about-us/senior-leadership/board-responsibility"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-termsofreference-coal-modernization-committee.pdf",
+   "title": "Coal Modernization Committee",
+   "type": "terms_of_reference",
+   "page": "https://www.saskpower.com/about-us/senior-leadership/board-responsibility"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-termsofreference-auditfinancecommittee.pdf",
+   "title": "Audit & Finance Committee",
+   "type": "terms_of_reference",
+   "page": "https://www.saskpower.com/about-us/senior-leadership/board-responsibility"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-termsofreference-governancehr-committee.pdf",
+   "title": "Governance & Human Resources Committee",
+   "type": "terms_of_reference",
+   "page": "https://www.saskpower.com/about-us/senior-leadership/board-responsibility"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-termsofreference-nuclear-energy-committee.pdf",
+   "title": "Nuclear Energy Committee",
+   "type": "terms_of_reference",
+   "page": "https://www.saskpower.com/about-us/senior-leadership/board-responsibility"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-termsofreference-safetyenvironmentcorpresponsibilitycommittee.pdf",
+   "title": "Safety, Environment & Corporate Responsibility Committee",
+   "type": "terms_of_reference",
+   "page": "https://www.saskpower.com/about-us/senior-leadership/board-responsibility"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/policy-termsofreference-director-appendixa.pdf",
+   "title": "Board Correspondence and Referral Process - Appendix A",
+   "type": "terms_of_reference",
+   "page": "https://www.saskpower.com/about-us/senior-leadership/board-responsibility"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/form-suppliers-unsolicitedinnovationproposal.pdf",
+   "title": "Unsolicited Innovative Proposal Form",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/for-our-suppliers/innovative-proposals"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/accounts-and-services/service-requests/guide-electricalinspections-servicerequirements.pdf",
+   "title": "Electric Service Requirements",
+   "type": "other",
+   "page": "https://www.saskpower.com/footer/industrial-customers/transmission-customers"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/industrial-customers/process-projectdelivery.pdf",
+   "title": "Transmission Project Delivery Process (PDF)",
+   "type": "other",
+   "page": "https://www.saskpower.com/footer/industrial-customers/transmission-customers"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/safety/brochure-safety-plantsmart.pdf",
+   "title": "Plant Smart brochure",
+   "type": "other",
+   "page": "https://www.saskpower.com/services/report-trouble/~/link.aspx?_id=6A36309A11C942FEB0D353BE4FEB7E12&amp;_z=z"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/brochure-cypresswindfacility.pdf",
+   "title": "Download a brochure",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/cypress-wind-power-facility"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/our-electricity/brochure-centennialwindfacility.pdf",
+   "title": "brochure",
+   "type": "other",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/centennial-wind-power-facility"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/our-power-future/map-centennialwindfacility.pdf",
+   "title": "point of interest",
+   "type": "map",
+   "page": "https://www.saskpower.com/our-power-future/our-electricity/electrical-system/system-map/centennial-wind-power-facility"
+  },
+  {
+   "url": "https://www.saskpower.com/-/media/saskpower/about-us/diversity-and-inclusion/guide-diversity-inclusion-plt-sydney.pdf",
+   "title": "LEARN MORE",
+   "type": "other",
+   "page": "https://www.saskpower.com/about-us/our-company/commitment-to-a-representative-workforce"
+  }
+ ],
+ "doc_types": {
+  "other": 261,
+  "map": 20,
+  "engagement": 10,
+  "permit_approval": 1,
+  "presentation": 1,
+  "newsletter": 2,
+  "closure": 2,
+  "terms_of_reference": 12
+ },
+ "crawled_at": "2026-09-04T14:48:33Z",
+ "name": "SaskPower"
+}

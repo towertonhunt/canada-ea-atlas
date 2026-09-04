@@ -1,0 +1,871 @@
+{
+ "key": "glencore",
+ "site": "https://www.glencore.ca/",
+ "host": "www.glencore.ca",
+ "fetched": 105,
+ "pages": [
+  {
+   "url": "https://www.glencore.ca/en/raglan/sustainability/environment/Closure-Plan-Subcommittee",
+   "title": "Raglan Mine Closure Plan Subcommittee",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/sustainability/environment/Environment---Research-and-development",
+   "title": "Research and development",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/sustainability/environment/Environment--Renewable-energy",
+   "title": "Renewable energy",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/what-we-do/mining-research-consulting",
+   "title": "Mining research consulting",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/sustainability/water-quality/water-quality-monitoring",
+   "title": "Water quality monitoring",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/what-we-do/sivumut-project",
+   "title": "Sivumut project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/sustainability/environment",
+   "title": "Environment",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sudburyino/sustainability/environment",
+   "title": "Environment",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sustainability/environment",
+   "title": "Environment",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/cezinc/developpement-durable/engagement-envers-la-communaute",
+   "title": "Commitment to the community",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/fording-river-extension/project-design",
+   "title": "Project design",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/fording-river-extension/regulatory-process",
+   "title": "Coordinated assessment",
+   "depth": 1,
+   "docs": 7
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/fording-river-extension/environmental-and-regional-considerations",
+   "title": "Environmental and regional considerations",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/our-assets/facilities-at-port-of-quebec/our-environmental-actions-at-the-port-of-quebec",
+   "title": "Our environmental actions at the Port of Québec",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/our-assets/facilities-at-port-of-quebec/follow-up-to-the-order-issued-in-2024-by-the-ministry-of-the-environment-climate-change-wildlife-and-parks",
+   "title": "Follow-up to the order issued in 2024 by the Ministry of the Environment, Climate Change, Wildlife, and Parks",
+   "depth": 1,
+   "docs": 4
+  },
+  {
+   "url": "https://www.glencore.ca/en/horne/developpement-durable/communaute/engagement-communautaire",
+   "title": "Community engagement",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sudburyino/sustainability/environment/policies-and-reporting-at-sudbury-ino",
+   "title": "Policies and reporting",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sudburyino/innovation-and-technology/building-the-mine-of-the-future",
+   "title": "Building the mine of the future",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/matagami/matagami-monitoring-committee",
+   "title": "Matagami Monitoring Committee",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sudburyino/sustainability/environment/recycling",
+   "title": "Recycling",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sudburyino/sustainability/environment/dispersion-forecast",
+   "title": "Dispersion forecast",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan",
+   "title": "Raglan Mine",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/cezinc/developpement-durable/sshe",
+   "title": "Health, safety, hygiene, environment, community and human rights",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/fording-river-extension",
+   "title": "Fording River Extension Project",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.glencore.ca/en/horne/nos-projets-et-innovations",
+   "title": "Our projects & innovations",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/horne/nos-projets-et-innovations/Projet-de-reduction-des-emissions",
+   "title": "Emissions reduction project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/horne/nos-projets-et-innovations/projet-pilote-velox",
+   "title": "VELOX pilot project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/horne/nos-projets-et-innovations/Projets-majeurs",
+   "title": "Major projects",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/horne/nos-projets-et-innovations/Projet-de-d-mant-lement-des--quipements-inactifs",
+   "title": "Decommissioning of Inactive Infrastructure",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/horne/developpement-durable/environnement",
+   "title": "Environment",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/horne/developpement-durable/communaute/zre",
+   "title": "Environmental Regeneration Zone",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.glencore.ca/en/brenda",
+   "title": "Brenda Mine",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/matagami",
+   "title": "Matagami Mine",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/sustainability/community/community-akkivik",
+   "title": "Akkivik",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/cezinc/qui-nous-sommes/nouvelles/2022-prix-impact-dons-des-employes-de-centraide-sud-ouest",
+   "title": "2022 Impact Award from Centraide Sud-Ouest",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/sustainability/community/community-Tamatumani",
+   "title": "Tamatumani",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/sustainability/community/community-raglan-education-fund",
+   "title": "Raglan Education Fund",
+   "depth": 1,
+   "docs": 3
+  },
+  {
+   "url": "https://www.glencore.ca/en/cezinc/qui-nous-sommes/nouvelles/2021-prix-impact-dons-des-employes-de-centraide-sud-ouest",
+   "title": "2021 Impact Award from Centraide Sud-Ouest",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sustainability/community/donations-and-partnerships",
+   "title": "Donations and partnerships",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.glencore.ca/en/sudburyino/sustainability/community",
+   "title": "Community",
+   "depth": 1,
+   "docs": 3
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/sustainability/community",
+   "title": "Community",
+   "depth": 1,
+   "docs": 3
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/Publications/image-and-video-library",
+   "title": "Image and video library",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/brunswick/publications/publication-archive",
+   "title": "Publications",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sustainability/community",
+   "title": "Community",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/what-we-do/economic-contributions",
+   "title": "Economic contributions",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/brunswick/publications",
+   "title": "Publications",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/sustainability/biodiversity-management",
+   "title": "Biodiversity management",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/cezinc/ce-que-nous-faisons/nos-operations",
+   "title": "Our operations",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/what-we-do/copper",
+   "title": "Copper",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sudburyino/sustainability/safety",
+   "title": "Safety",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/operations/legacy-properties",
+   "title": "Legacy properties",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.glencore.ca/en/sudburyino/what-we-do/the-journey-of-nickel",
+   "title": "The Journey of Nickel",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/Publications/social-media",
+   "title": "Social Media",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sustainability/safety",
+   "title": "Safety",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/what-we-do/sulphuric-acid",
+   "title": "Sulphuric acid",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.glencore.ca/en/sudburyino/sustainability",
+   "title": "Sustainability",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/Publications",
+   "title": "Media",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/who-we-are/25-years-of-operations",
+   "title": "25 years of operations",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/what-we-do",
+   "title": "What we do",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/what-we-do/our-mining-activity",
+   "title": "Our mining activity",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/generalsmelting/what-we-do",
+   "title": "What we do",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/what-we-do/our-awards",
+   "title": "Our Awards",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/what-we-do/marketing",
+   "title": "Marketing",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/what-we-do/recycling",
+   "title": "Recycling",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/sustainability",
+   "title": "Sustainability",
+   "depth": 1,
+   "docs": 3
+  },
+  {
+   "url": "https://www.glencore.ca/en/sudburyino/what-we-do",
+   "title": "What we do",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sustainability",
+   "title": "Sustainability",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/sustainability",
+   "title": "Sustainability",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sustainability/health",
+   "title": "Health",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/horne/ce-que-nous-faisons/nos-operations",
+   "title": "Our operations",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/ccr/ce-que-nous-faisons/nos-operations",
+   "title": "Our operations",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/matagami/publications",
+   "title": "Publications",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sustainability/transparency",
+   "title": "Transparency",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/sustainability/transparency",
+   "title": "Transparency",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/horne/nouvelles-media/publications",
+   "title": "Publications",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/what-we-do/nickel",
+   "title": "Nickel",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/what-we-do/zinc-and-lead",
+   "title": "Zinc and Lead",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/what-we-do/Exploration",
+   "title": "Our exploration work annual planning",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/generalsmelting/sustainability",
+   "title": "Sustainability",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/sustainability/dust-management",
+   "title": "Dust management in the Elk Valley",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/sustainability/our-approach",
+   "title": "Our approach",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/what-we-do/steelmaking-coal",
+   "title": "Steelmaking coal",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sudburyino/what-we-do/mining-and-milling",
+   "title": "Mining and milling",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sudburyino/sustainability/health",
+   "title": "Health",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/brenda/what-we-do",
+   "title": "What we do",
+   "depth": 1,
+   "docs": 3
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/operations",
+   "title": "Our operations",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/sustainability/water-quality",
+   "title": "Water quality",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/what-we-do",
+   "title": "What we do",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sudburyino/what-we-do/smelting-and-recycling",
+   "title": "Smelting and recycling",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/what-we-do/steelmaking-coal",
+   "title": "steelmaking coal",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/generalsmelting/sustainability/msds",
+   "title": "Material Safety Data Sheets",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/what-we-do",
+   "title": "What we do",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/sustainability/our-approach",
+   "title": "Our approach",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/raglan/sustainability/safety",
+   "title": "Health and safety",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr/",
+   "title": "EVR - Elk Valley Resources",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/ccr/developpement-durable",
+   "title": "Sustainable development",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/ccr/developpement-durable/communaute",
+   "title": "Community",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.glencore.ca/en/cezinc/developpement-durable",
+   "title": "Sustainability",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/horne/developpement-durable",
+   "title": "Sustainable development",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.glencore.ca/en/horne/developpement-durable/communaute",
+   "title": "Community",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.glencore.ca/en/evr",
+   "title": "EVR - Elk Valley Resources",
+   "depth": 2,
+   "docs": 0
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/5ccbd2c180a4659e4989ffb7c0796477/Raglan_ClosureSubCom_2022-2023_AnnualReport_EN_FIN.pdf",
+   "title": "2022-2023 Report",
+   "type": "closure",
+   "page": "https://www.glencore.ca/en/raglan/sustainability/environment/Closure-Plan-Subcommittee"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/e5150999867b60e66641a8dbdccb37ca/AR_closure_raglan_biannual_202021_VF.pdf?download=true",
+   "title": "2020-2021 Report",
+   "type": "closure",
+   "page": "https://www.glencore.ca/en/raglan/sustainability/environment/Closure-Plan-Subcommittee"
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:d6ad420e-d42f-4394-8ecb-b83aea4fcdfa/Sivumut_EN_FINAL_2017_(court).pdf",
+   "title": "Learn more about the Sivumut Project",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/raglan/what-we-do/sivumut-project"
+  },
+  {
+   "url": "https://www.projects.eao.gov.bc.ca/api/public/document/6109b6765f5fad002270449e/download/02_Teck_FRX_Final_DPD_Version2.0.pdf",
+   "title": "Detailed Project Description",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/evr/fording-river-extension/regulatory-process"
+  },
+  {
+   "url": "https://iaac-aeic.gc.ca/050/documents/p80702/136273E.pdf",
+   "title": "federal Initial Project Description",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/evr/fording-river-extension/regulatory-process"
+  },
+  {
+   "url": "https://iaac-aeic.gc.ca/050/documents/p80702/136272E.pdf",
+   "title": "Plain Language Summary",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/evr/fording-river-extension/regulatory-process"
+  },
+  {
+   "url": "https://iaac-aeic.gc.ca/050/documents/p80702/136811E.pdf",
+   "title": "Summary of Issue",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/evr/fording-river-extension/regulatory-process"
+  },
+  {
+   "url": "https://www.projects.eao.gov.bc.ca/api/public/document/5ede866ae321f30021a8ed3c/download/CASTLE_IPD_Final.pdf",
+   "title": "Provincial Initial Project Description",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/evr/fording-river-extension/regulatory-process"
+  },
+  {
+   "url": "https://www.projects.eao.gov.bc.ca/api/public/document/5ede876be321f30021a8eda6/download/Castle%20Engagement%20Plan_Final.pdf",
+   "title": "Early Engagement Plan",
+   "type": "engagement",
+   "page": "https://www.glencore.ca/en/evr/fording-river-extension/regulatory-process"
+  },
+  {
+   "url": "https://projects.eao.gov.bc.ca/api/public/document/5f24ade7b2706c00212fd751/download/Castle%20Summary%20of%20Engagement_July%2031%202020.pdf",
+   "title": "Summary of Engagement",
+   "type": "engagement",
+   "page": "https://www.glencore.ca/en/evr/fording-river-extension/regulatory-process"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/6471aa7a9f084cd1c146cf60fb8fa18f/Third+Party+Audit+-+Performance+Report.pdf",
+   "title": "performance report for our equipment",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/our-assets/facilities-at-port-of-quebec/follow-up-to-the-order-issued-in-2024-by-the-ministry-of-the-environment-climate-change-wildlife-and-parks"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/357df07379cf282f5a1c62ed47a880d8/Nickel+Matte+Loading+Hold+Cover+-+Pre-Feasibility+Study.pdf",
+   "title": "pre-feasibility study on the installation of removable covers for ship holds during the loading of nickel matte",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/our-assets/facilities-at-port-of-quebec/follow-up-to-the-order-issued-in-2024-by-the-ministry-of-the-environment-climate-change-wildlife-and-parks"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/c15ded4c2eb7bac3fb14ac02553a7630/Ship+hold+covers+during+nickel+concentrate+unloading+%E2%80%93+Pre-Feasibility+Study.pdf",
+   "title": "pre-feasibility study on the installation of hold covers during the unloading of nickel concentrate",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/our-assets/facilities-at-port-of-quebec/follow-up-to-the-order-issued-in-2024-by-the-ministry-of-the-environment-climate-change-wildlife-and-parks"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/56ed5e2c0a46d781d6367363b56e63c8/Action+Plan+-+Performance+Report+for+Glencore%E2%80%99s+Port+of+Quebec+Facilities.pdf",
+   "title": "Action Plan - Performance Report for Glencore’s Port of Quebec Facilities",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/our-assets/facilities-at-port-of-quebec/follow-up-to-the-order-issued-in-2024-by-the-ministry-of-the-environment-climate-change-wildlife-and-parks"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ce2a9498aba40e1ef7b5834f89013788/2602_EVR_+FRX+Socioeconomic+Contribution+Report_final.pdf",
+   "title": "FRX Project Socioeconomic Contributions Report",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/evr/fording-river-extension"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/1f2f03c42c5c61fb1057016b34695742/Horne+_+Protocole+d%27acquisition-+Quartier+Notre-Dame+V2.pdf",
+   "title": "acquisition protocol",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/horne/developpement-durable/communaute/zre"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/8f9f51f0d636c3def48e0fc3fd178eab/depliantbourseRaglan2023_Web_FIN_en.pdf?download=true",
+   "title": "English brochure",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/raglan/sustainability/community/community-raglan-education-fund"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/f7ad878ee5ba707c45de9f6f35ba00e1/depliantbourseRaglan2023_Web_FIN_innu.pdf?download=true",
+   "title": "Inuktitut brochure",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/raglan/sustainability/community/community-raglan-education-fund"
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:99a39d0d-fdf4-4a70-8db4-db911d16ef07/Bourses-Raglan-Formulaire-ANG.pdf",
+   "title": "Application form",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/raglan/sustainability/community/community-raglan-education-fund"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/4e8e087c6ceb99ccd2d1f5cc481a6202/Canadian+Policy+on+Donations+and+Partnerships.pdf",
+   "title": "Canadian Policy on Donations and Partnerships",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/sustainability/community/donations-and-partnerships"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/20ac85240cb46c796ba70247d94e79d1/Community+Policy+2026.pdf",
+   "title": "Community Policy",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/sudburyino/sustainability/community"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/53aa5aaecdc33dbb87fe04b1cea143ee/2021+Glencore+Sudbury+INO+Report+to+Community+%28FINAL%29.pdf",
+   "title": "2021",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/sudburyino/sustainability/community"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/1c2912050baa004c145f13f38ba70e13/Sudbury-INO-2018-Our-Report-to-the-Community.pdf",
+   "title": "2018",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/sudburyino/sustainability/community"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/5148d87f3fece6cd84f2088e07d13105/RA_comiteRaglan2023_inuktitut_VF.pdf",
+   "title": "2023 Report - Inuktitut",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/raglan/sustainability/community"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/771751872af35ab0f1d89a6dd9d3fc2f/Raglan_Rapport_Engagement202300_EN_web.pdf",
+   "title": "2023 Report",
+   "type": "engagement",
+   "page": "https://www.glencore.ca/en/raglan/sustainability/community"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/28f13dc9d6daf660e2dc20b8c83000da/RA_comiteRaglan2022_EN_FIN_3.pdf",
+   "title": "2022 Report",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/raglan/sustainability/community"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/69b84f710140e58666cdfce2a485db8f/Sudbury+INO+Health+and+Safety+Policy.pdf",
+   "title": "Health & Safety Policy",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/sudburyino/sustainability/safety"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ae0dab2c2e327592ff1a9d8462bc5860/EVR+Cardinal+River+Access+Boundary+Maps+2025-2026.pdf",
+   "title": "Cardinal River Operations Access Boundary Maps 2025-2026",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/evr/operations/legacy-properties"
+  },
+  {
+   "url": "https://webauth.glencore.net/.rest/api/v1/documents/4470366ba984cf9855560ccc366cc00a/Cardinal+River+Operations+Boundary+Google+Earth+2017.kmz",
+   "title": "Cardinal River Operations Boundary Coordinates KMZ",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/evr/operations/legacy-properties"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/23b732c3ffbd288d5cc187299a4b91a1/Study+on+the+Economic+Importance+of+Sulphuric+Acid.pdf",
+   "title": "Study on the Economic Importance of Sulphuric Acid",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/what-we-do/sulphuric-acid"
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:016badda-2808-4336-a0c4-9d0cf0538494/Babbitt_Pb.pdf",
+   "title": "Lead-based Babbitt alloys (PDF)",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/generalsmelting/what-we-do"
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:239ec268-b8ec-4694-80de-4f4391baa454/Babbitt_Sn.pdf",
+   "title": "Tin-based Babbitt alloys (PDF)",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/generalsmelting/what-we-do"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/18d562d1002a9cacceead6bb6d3dcf47/Raglan_politique_HSEC_2025_FR.pdf?download=true",
+   "title": "French",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/raglan/sustainability"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/e82a25954dbb43b2b23aab8831a5705e/Raglan_politique_HSEC_2025_EN_web.pdf?download=true",
+   "title": "English",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/raglan/sustainability"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/b7c10b416c32d68490f01d6a9c79a2b8/Raglan_politique_HSEC_2025_inuktitut.pdf?download=true",
+   "title": "Inuktitut",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/raglan/sustainability"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/fa155763ad7eee21593fd69928a7e74f/PE263+-+December+10%2C+2021.pdf",
+   "title": "Permit 263",
+   "type": "permit_approval",
+   "page": "https://www.glencore.ca/en/brenda/what-we-do"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/cc283959c4baa7dd387fbcfd5dd54c33/Letter+re+BCUC+Application+-+Glencore.pdf",
+   "title": "Letter re British Columbia Utilities Commission Application - Glencore Canada",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/brenda/what-we-do"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/83855ec36be09fe424698c0139f2f0a1/Regulatory+Timetable.pdf",
+   "title": "Regulatory timetable",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/brenda/what-we-do"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/929e3ceb2f1d6a6bfd85693e4d413e26/CCR_Bulletin-DD-2025_VF_web.pdf",
+   "title": "bulletin de développement durable",
+   "type": "newsletter",
+   "page": "https://www.glencore.ca/en/ccr/developpement-durable/communaute"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ac08d40a36994b92ddd0ed405d821dca/Fonderie+Horne+-+Bulletin+d%C3%A9veloppement+durable+2023.pdf",
+   "title": "Sustainability Report",
+   "type": "newsletter",
+   "page": "https://www.glencore.ca/en/horne/developpement-durable"
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ec0f160d7aac7f8b1c0120fbbd11af1a/Politique+SSEC_Version+F%C3%A9vrier+2026.pdf",
+   "title": "Health, Safety, Environment and Community (HSEC) Policy",
+   "type": "other",
+   "page": "https://www.glencore.ca/en/horne/developpement-durable"
+  }
+ ],
+ "doc_types": {
+  "closure": 2,
+  "other": 33,
+  "engagement": 3,
+  "permit_approval": 1,
+  "newsletter": 2
+ },
+ "crawled_at": "2026-09-04T15:32:03Z",
+ "name": "Glencore plc"
+}

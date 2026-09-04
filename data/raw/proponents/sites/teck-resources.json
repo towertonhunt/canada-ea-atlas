@@ -1,0 +1,2160 @@
+{
+ "key": "teck resources",
+ "site": "https://www.teck.com/",
+ "host": "www.teck.com",
+ "fetched": 117,
+ "pages": [
+  {
+   "url": "https://www.teck.com/",
+   "title": "Teck Resources Limited",
+   "depth": 0,
+   "docs": 14
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/projects/hvc-mine-life-extension-project/",
+   "title": "HVC Mine Life Extension Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/sustainability-reports-archive/2025-sustainability-report",
+   "title": "2025 Sustainability Report",
+   "depth": 1,
+   "docs": 6
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/projects/galore-creek-project/",
+   "title": "Galore Creek Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/",
+   "title": "Sustainability Report and Disclosure Portal",
+   "depth": 1,
+   "docs": 4
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/sustainability-reports-archive/",
+   "title": "Sustainability Reports Archive",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/sustainability-reports-archive/",
+   "title": "Sustainability Reports Archive",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/biodiversity-and-closure/",
+   "title": "Biodiversity and Closure",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/communities-and-indigenous-peoples/",
+   "title": "Communities and Indigenous Peoples",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/",
+   "title": "Tulsequah Chief Mine",
+   "depth": 1,
+   "docs": 14
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/legacy/sullivan-mine/",
+   "title": "Sullivan Mine",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/legacy/sullivan-mine/sullivan-mine-legacy/closure-and-reclamation",
+   "title": "<span>Closure and</span>Reclamation",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/legacy/sullivan-mine/sullivan-mine-legacy/",
+   "title": "Sullivan Mine Legacy",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/legacy/sullivan-mine/sullivan-mine-legacy/transition-and-investment",
+   "title": "<span>Transition and</span> Investment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/legacy/sullivan-mine/sullivan-mine-legacy/current-activity",
+   "title": "<span>Current</span>Activity",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/peru/projects/zafranal/",
+   "title": "Zafranal Project",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/glossary/",
+   "title": "Glossary",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/ESG-ratings-and-rankings/",
+   "title": "ESG Ratings and Rankings",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/communities-and-indigenous-peoples/community-investment/",
+   "title": "Community Investment",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/glossary/",
+   "title": "Glossary",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/ESG-ratings-and-rankings",
+   "title": "ESG Ratings and Rankings",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/communities-and-indigenous-peoples/community-investment/",
+   "title": "Community Investment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/assets/legal/legal-notice",
+   "title": "Legal Notice",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/assets/legal/legal-notice",
+   "title": "Legal Notice",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/chile/projects/nuevaunion/",
+   "title": "NuevaUnion",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/",
+   "title": "Teck Resources Limited",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/legacy/sullivan-mine/sullivan-liaison-committee/",
+   "title": "Sullivan Liaison Committee",
+   "depth": 2,
+   "docs": 5
+  },
+  {
+   "url": "https://www.teck.com/operations/peru/projects/zafranal/copper-en_ca",
+   "title": "Copper",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/operations/trail-operations/",
+   "title": "Trail Operations",
+   "depth": 1,
+   "docs": 6
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/operations/trail-operations/aquatic-effects-monitoring-program/",
+   "title": "Aquatic Effects Monitoring Program",
+   "depth": 2,
+   "docs": 6
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/operations/trail-operations/upper-columbia-river-project/",
+   "title": "Upper Columbia River Project",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/operations/trail-operations/trail-facility-environment/",
+   "title": "Trail Facility Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/operations/trail-operations/aquatic-effects-monitoring-program/",
+   "title": "Aquatic Effects Monitoring Program",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-approach-and-goals/our-approach-to-business-&-sustainability/",
+   "title": "Our Approach to Business & Sustainability",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/operations/trail-operations/trailareawarp/",
+   "title": "Trail Area WARP",
+   "depth": 2,
+   "docs": 6
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/operations/trail-operations/lower-columbia-ecosystem-management-program/",
+   "title": "Lower Columbia Ecosystem Management Program",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/operations/trail-operations/trail-groundwater-remediation-plan/",
+   "title": "Trail Groundwater Remediation Plan",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/",
+   "title": "Trail News Releases",
+   "depth": 2,
+   "docs": 20
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/operations/highland-valley-copper/",
+   "title": "Highland Valley Copper",
+   "depth": 1,
+   "docs": 3
+  },
+  {
+   "url": "https://www.teck.com/operations/canada/projects/hvc-mine-life-extension-project/",
+   "title": "HVC Mine Life Extension Project",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/peru/operations/antamina/",
+   "title": "Antamina",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/chile/operations/quebrada-blanca/",
+   "title": "Quebrada Blanca",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/chile/operations/quebrada-blanca/quebrada-blanca-mine-area/",
+   "title": "Quebrada Blanca Operation Overview",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/chile/operations/carmen-de-andacollo/",
+   "title": "Carmen de Andacollo",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/united-states/operations/red-dog/",
+   "title": "Red Dog",
+   "depth": 1,
+   "docs": 4
+  },
+  {
+   "url": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-community-update/",
+   "title": "Red Dog Community Update",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-approach-and-goals/",
+   "title": "Sustainability Approach and Goals",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/circularity/",
+   "title": "Circularity",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/climate-change/",
+   "title": "Climate Change",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/health-and-safety/",
+   "title": "Health and Safety",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/human-rights/",
+   "title": "Human Rights",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/our-people/",
+   "title": "Our People",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/tailings-management/",
+   "title": "Tailings Management",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/tailings-management/global-industry-standard-on-tailings-management/",
+   "title": "Global Industry Standard on Tailings Management",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/water/",
+   "title": "Water",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/documents-and-reports/",
+   "title": "Documents and Reports",
+   "depth": 1,
+   "docs": 51
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/sustainability-reports-archive/2024-sustainability-report",
+   "title": "2024 Sustainability Report",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/sustainability-reports-archive/2023-sustainability-report",
+   "title": "2023 Sustainability Report",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/chile/operations/quebrada-blanca/qb-tailings-management-facility-construction/",
+   "title": "QB Tailings Management Facility Construction",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/",
+   "title": "Red Dog Alaska Newsletters",
+   "depth": 2,
+   "docs": 24
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/our-people/equity,-diversity-and-inclusion/",
+   "title": "Equity, Diversity and Inclusion",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/tailings-management/global-industry-standard-on-tailings-management/",
+   "title": "Global Industry Standard on Tailings Management",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations-es/",
+   "title": "Empresas mineras de Canadá",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/assets-es/aviso-legal-es/legal-notice-es",
+   "title": "Aviso legal",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations-es/peru-es/operations/antamina/",
+   "title": "Antamina",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations-es/estados-unidos-es/operations/red-dog-es/",
+   "title": "Red Dog",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/",
+   "title": "About",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/board-of-directors/",
+   "title": "Board of Directors",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/board-of-directors/arnoud-j.-balhuizen",
+   "title": "Arnoud J. Balhuizen",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/board-of-directors/james-k.-gowans",
+   "title": "James K. Gowans",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/board-of-directors/catherine-mcleod-seltzer",
+   "title": "Catherine McLeod-Seltzer",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/board-of-directors/timothy-r.-snider",
+   "title": "Timothy R. Snider",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/governance/",
+   "title": "Governance",
+   "depth": 1,
+   "docs": 20
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-approach-and-goals/",
+   "title": "Sustainability Approach and Goals",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/leadership/",
+   "title": "Leadership",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/leadership/karla-mills",
+   "title": "Karla Mills",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/awards/",
+   "title": "Awards",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/our-purpose-and-values/",
+   "title": "Our Purpose and Values",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/",
+   "title": "Operations",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations/global/exploration/exploration/",
+   "title": "Exploration",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability",
+   "title": "Sustainability",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/communities-and-indigenous-peoples/",
+   "title": "Communities and Indigenous Peoples",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/sustainability-topics/biodiversity-and-closure/",
+   "title": "Biodiversity and Closure",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/",
+   "title": "Policies and Commitments",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/policies/",
+   "title": "Policies",
+   "depth": 1,
+   "docs": 10
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/policies/sustainability-standards/",
+   "title": "Sustainability Standards",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations-es/peru-es/proyectos/zafranal-es/",
+   "title": "Proyecto Zafranal",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations-es/chile-es/operaciones-es/quebrada-blanca-es/",
+   "title": "Quebrada Blanca",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/operations-es/chile-es/operaciones-es/carmen-de-andacollo-es/",
+   "title": "Carmen de Andacollo",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.teck.com/operations-es/chile-es/proyectos-es/nuevaunion-es/",
+   "title": "NuevaUnion",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/documentos-e-informes/",
+   "title": "Informes",
+   "depth": 2,
+   "docs": 19
+  },
+  {
+   "url": "https://www.teck.com/about/our-purpose",
+   "title": "our purpose",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability",
+   "title": "Sustainability",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/board-of-directors/",
+   "title": "Board of Directors",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/leadership/",
+   "title": "Leadership",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/board-of-directors/sheila-murray",
+   "title": "Sheila A. Murray",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/board-of-directors/norman-b.-keevil-iii",
+   "title": "Norman B. Keevil III",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/board-of-directors/jonathan-price",
+   "title": "Jonathan Price",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/board-of-directors/una-m.-power",
+   "title": "Una M. Power",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/board-of-directors/paul-g.-schiodtz",
+   "title": "Paul G. Schiodtz",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/board-of-directors/sarah-a.-strunk",
+   "title": "Sarah A. Strunk",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/board-of-directors/yu-yamato",
+   "title": "Yu Yamato",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/board-of-directors/norman-b.-keevil---",
+   "title": "Norman B. Keevil",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/leadership/Sheila-Murray",
+   "title": "Sheila A. Murray",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/leadership/norman-b.-keevil-iii-1",
+   "title": "Norman B. Keevil III",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/leadership/jonathan-price-1",
+   "title": "Jonathan Price",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/leadership/ian-k.-anderson",
+   "title": "Ian K. Anderson",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/leadership/lyndon-arnall",
+   "title": "Lyndon Arnall",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/leadership/brock-gill-en_ca",
+   "title": "Brock Gill",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/leadership/jeff-hanman-en_ca",
+   "title": "Jeff Hanman",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/leadership/nicholas-hooper-1",
+   "title": "Nicholas Hooper",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/leadership/crystal-prystai",
+   "title": "Crystal Prystai",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/leadership/dale-webb",
+   "title": "Dale Webb",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/about/leadership/dean-winsor",
+   "title": "Dean Winsor",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/",
+   "title": "Policies and Commitments",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/memberships-&-partnerships/",
+   "title": "Memberships & Partnerships",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.teck.com/sustentabilidad-es/enfoque-orientado-a-la-responsabilidad/Informe-de-Sustentabilidad-y-Portal-de-Divulgacion/",
+   "title": "Reporte de Sustentabilidad y Portal de Divulgacion",
+   "depth": 2,
+   "docs": 5
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://www.teck.com/media/26-20-TR-.pdf",
+   "title": "26-20-TR-.pdf",
+   "type": "other",
+   "page": "https://www.teck.com/"
+  },
+  {
+   "url": "https://www.teck.com/media/26-19-TR.pdf",
+   "title": "26-19-TR.pdf",
+   "type": "other",
+   "page": "https://www.teck.com/"
+  },
+  {
+   "url": "https://www.teck.com/media/26-18-TR.pdf",
+   "title": "26-18-TR.pdf",
+   "type": "other",
+   "page": "https://www.teck.com/"
+  },
+  {
+   "url": "http://www.teck.com/media/Investor-Presentation-July-2026.pdf",
+   "title": "Investor Presentation",
+   "type": "presentation",
+   "page": "https://www.teck.com/"
+  },
+  {
+   "url": "https://www.teck.com/media/Investor-Presentation-July-2026.pdf",
+   "title": "Investor Presentation July 2026",
+   "type": "presentation",
+   "page": "https://www.teck.com/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Q2-2026-Unaudited-Results.pdf",
+   "title": "Q2 2026 Financial Report",
+   "type": "other",
+   "page": "https://www.teck.com/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Q2-2026-Presentation.pdf",
+   "title": "Q2 2026 Presentation",
+   "type": "presentation",
+   "page": "https://www.teck.com/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Q2-2026-Appendix.pdf",
+   "title": "Q2 2026 Presentation Appendix",
+   "type": "technical",
+   "page": "https://www.teck.com/"
+  },
+  {
+   "url": "https://www.teck.com/media/Q2-2026-Transcript.pdf",
+   "title": "Q2 2026 Transcript",
+   "type": "other",
+   "page": "https://www.teck.com/"
+  },
+  {
+   "url": "https://www.teck.com/media/Investor-Presentation.pdf",
+   "title": "Investor Presentation",
+   "type": "presentation",
+   "page": "https://www.teck.com/"
+  },
+  {
+   "url": "http://www.teck.com/media/2025-Annual-Report.pdf",
+   "title": "See More Details /",
+   "type": "other",
+   "page": "https://www.teck.com/"
+  },
+  {
+   "url": "https://www.teck.com/media/2025-Annual-Report.pdf",
+   "title": "2025-annual-report.pdf",
+   "type": "other",
+   "page": "https://www.teck.com/"
+  },
+  {
+   "url": "https://www.teck.com/media/2025-Sustainability-Report.pdf",
+   "title": "2025-sustainability-report.pdf",
+   "type": "other",
+   "page": "https://www.teck.com/"
+  },
+  {
+   "url": "http://www.teck.com/media/Multi-Year-Accessibility-Plan-2023-12-11.pdf",
+   "title": "Accessibility Plan",
+   "type": "other",
+   "page": "https://www.teck.com/"
+  },
+  {
+   "url": "https://www.teck.com/media/2024-Sustainability-Report.pdf",
+   "title": "2024-sustainability-report.pdf",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/sustainability-reports-archive/2025-sustainability-report"
+  },
+  {
+   "url": "https://www.teck.com/media/2023-Sustainability-Report.pdf",
+   "title": "2023-sustainability-report.pdf",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/sustainability-reports-archive/2025-sustainability-report"
+  },
+  {
+   "url": "https://www.teck.com/media/2022-Sustainability-Report.pdf",
+   "title": "2022-sustainability-report.pdf",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/sustainability-reports-archive/2025-sustainability-report"
+  },
+  {
+   "url": "https://www.teck.com/media/2021-Sustainability-Report.pdf",
+   "title": "2021-sustainability-report.pdf",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/sustainability-reports-archive/2025-sustainability-report"
+  },
+  {
+   "url": "https://www.teck.com/media/2020-Sustainability-Report.pdf",
+   "title": "2020-sustainability-report.pdf",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/sustainability-reports-archive/2025-sustainability-report"
+  },
+  {
+   "url": "https://www.teck.com/media/2019-Sustainability-Report.pdf",
+   "title": "2019-sustainability-report.pdf",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/sustainability-reports-archive/2025-sustainability-report"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Sustainability-Databook-2025.xlsx",
+   "title": "Download 2025 Sustainability index and Databook",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/"
+  },
+  {
+   "url": "https://www.teck.com/media/Management-Approach-to-Sustainability.pdf",
+   "title": "Management Approach to Sustainability",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/"
+  },
+  {
+   "url": "http://www.teck.com/media/Teck-ICMM-Performance-Expectations-Self-Assessment-and-Validation-Disclosure.pdf",
+   "title": "teck-icmm-performance-expectations-self-assessment-and-validation-disclosure.pdf",
+   "type": "closure",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck_Climate_Change_and_Nature_2024_Report.pdf",
+   "title": "teck_climate_change_and_nature_2024_report.pdf",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/"
+  },
+  {
+   "url": "https://www.teck.com/media/June-2024-TRTFN-Community-Meeting-Update.pdf",
+   "title": "June 2024 TRTFN Community Meeting Update",
+   "type": "newsletter",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/December-2024-Annual-Field-Season-Update.pdf",
+   "title": "December 2024 Annual Field Season Update",
+   "type": "newsletter",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/May-2025-Annual-Field-Plan-Update.pdf",
+   "title": "May 2025 Annual Field Plan Update",
+   "type": "newsletter",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/November-2025-Annual-Fall-Update.pdf",
+   "title": "November 2025 Annual Fall Update",
+   "type": "newsletter",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/December-2025-Public-Information-Webinar.pdf",
+   "title": "December 2025 Public Information Webinar",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/February-2026-Juneau-Mining-Forum-Update.pdf",
+   "title": "February 2026 Juneau Mining Forum Update",
+   "type": "newsletter",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/TUL-May-2-Community-Presentatoin.pdf",
+   "title": "May 2026 Community Presentation Atlin Residents and TRTFN Citizens",
+   "type": "presentation",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/TUL-May-6-Public-Information-Webinar.pdf",
+   "title": "May 2026 Public Information Webinar Tulsequah Chief Remediation Planning Efforts",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/2024-Project-Description-Teck.pdf",
+   "title": "2024 Project Description Teck",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/2024-Annual-Site-Activities-Summary.pdf",
+   "title": "Teck 2024 Annual Site Activities Summary",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/2025-Project-Description-Teck.pdf",
+   "title": "2025 Project Description Teck",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/2025-Annual-Site-Activities-Summary.pdf",
+   "title": "Teck 2025 Annual Site Activities Summary",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/Tulsequah-Chief-2024-Water-Quality-Monitoring-Program-and-Aquatic-Effects-Monitoring-Program-Report.pdf",
+   "title": "Tulsequah Chief 2024 Water Quality Monitoring Program and Aquatic Effects Monitoring Program Report",
+   "type": "monitoring",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/Tulsequah-Chief-Site-Surface-Water-Monitoring-Program-2025-Report.pdf",
+   "title": "Tulsequah Chief Site Surface Water Monitoring Program 2025 Report",
+   "type": "monitoring",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tulsequah-chief-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/SUL_TrespassMap_20230718.pdf",
+   "title": "See the map of restricted areas here.",
+   "type": "map",
+   "page": "https://www.teck.com/operations/canada/legacy/sullivan-mine/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Sullivan-Groundwater-Notification.pdf",
+   "title": "Groundwater Notification Summary",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/legacy/sullivan-mine/sullivan-mine-legacy/closure-and-reclamation"
+  },
+  {
+   "url": "https://www.teck.com/media/sullivan-trespass-map.pdf",
+   "title": "See a detailed map of the restricted access boundaries.",
+   "type": "map",
+   "page": "https://www.teck.com/operations/canada/legacy/sullivan-mine/sullivan-mine-legacy/closure-and-reclamation"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Sullivan-Our-Commitment-to-Water-Quality.pdf",
+   "title": "Teck Sullivan: Our Commitment to Water Quality Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/legacy/sullivan-mine/sullivan-mine-legacy/closure-and-reclamation"
+  },
+  {
+   "url": "http://ghgprotocol.org/sites/default/files/standards/ghg-protocol-revised.pdf",
+   "title": "The Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/glossary/"
+  },
+  {
+   "url": "https://www.teck.com/media/ESG-Disclaimers.pdf",
+   "title": "ESG Disclaimers",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/sustainability-report-and-disclosure-portal/ESG-ratings-and-rankings/"
+  },
+  {
+   "url": "http://www.teck.com/media/2021-09-09-TLP-SUL-SLC-TermsOfRef.FINAL.pdf",
+   "title": "SLC 2021-2022 Terms of Reference",
+   "type": "terms_of_reference",
+   "page": "https://www.teck.com/operations/canada/legacy/sullivan-mine/sullivan-liaison-committee/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck.Sullivan.SLC.NOTESforWebsite.13OCT2021.pdf",
+   "title": "Notes",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/legacy/sullivan-mine/sullivan-liaison-committee/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck.Sullivan.SLC.NOTESforWebsite.28JUN2022.FINAL.pdf",
+   "title": "Notes",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/legacy/sullivan-mine/sullivan-liaison-committee/"
+  },
+  {
+   "url": "https://www.teck.com/media/2023-06-28-TLP-SLC-Mtg5NOTESforWebsiteFINAL.pdf",
+   "title": "Notes",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/legacy/sullivan-mine/sullivan-liaison-committee/"
+  },
+  {
+   "url": "https://www.teck.com/media/2023-11-23-TLP-SLC-Mtg6NOTESforWebsiteD0001.pdf",
+   "title": "Notes",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/legacy/sullivan-mine/sullivan-liaison-committee/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-MD&A-2025.pdf",
+   "title": "Management's Discussion and Analysis",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/"
+  },
+  {
+   "url": "https://www.teck.com/media/Notice-of-Application-and-Directions-on-Procedure-Application-to-Export-Electricity-to-the-U.S.-Teck-Metals-Ltd.pdf",
+   "title": "Notice of Application and Directions on Procedure Application to Export Electricity to the U.S. Teck Metals Ltd. Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Trail-Operations-Health-Safety-Policy.pdf",
+   "title": "Trail Operations Health and Safety Policy Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/"
+  },
+  {
+   "url": "https://www.teck.com/media/Trail-Operations-Environmental-Policy.pdf",
+   "title": "Trail Operations Environmental Policy Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/"
+  },
+  {
+   "url": "https://www.teck.com/media/Trail-ISO-14001-2015.pdf",
+   "title": "Teck Metals ISO 14001:2015 Certificate Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/"
+  },
+  {
+   "url": "https://www.teck.com/media/Trail-Environmental-Emergency-E2-Information.pdf",
+   "title": "Trail Environmental Emergency (E2) Information Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/"
+  },
+  {
+   "url": "https://www.teck.com/media/2013-Operations-AREMP_Report_T1.8.3.pdf",
+   "title": "2012-13 AREMP Report",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/aquatic-effects-monitoring-program/"
+  },
+  {
+   "url": "https://www.teck.com/media/2015-16-AREMP-Report.pdf",
+   "title": "2015-16 AREMP Report",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/aquatic-effects-monitoring-program/"
+  },
+  {
+   "url": "https://www.teck.com/media/2018-19-AREMP-Report.pdf",
+   "title": "2018 AREMP Report",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/aquatic-effects-monitoring-program/"
+  },
+  {
+   "url": "https://www.teck.com/media/2021-AEMP-Report.pdf",
+   "title": "2021 AREMP Report",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/aquatic-effects-monitoring-program/"
+  },
+  {
+   "url": "https://www.teck.com/media/2011-Operations-AREMP-Summary_Aquatic_Report-T1.8.3.pdf",
+   "title": "Aquatic ERA Summary Report",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/aquatic-effects-monitoring-program/"
+  },
+  {
+   "url": "https://www.teck.com/media/Full-Aquatic-Report.pdf",
+   "title": "Aquatic ERA Full Report",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/aquatic-effects-monitoring-program/"
+  },
+  {
+   "url": "http://semspub.epa.gov/work/10/100302356.pdf",
+   "title": "human health risk assessment",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/upper-columbia-river-project/"
+  },
+  {
+   "url": "http://www.doh.wa.gov/Portals/1/Documents/Pubs/334-305.pdf",
+   "title": "fish advisories brochure",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/upper-columbia-river-project/"
+  },
+  {
+   "url": "https://www.teck.com/media/04-17-12UCRPosterHBottcher2.pdf",
+   "title": "source",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/upper-columbia-river-project/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Trail-Area-WARP-MHO-Recommendation-Discussion-Guide-WEB.pdf",
+   "title": "Read the WARP Discussion Guide",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trailareawarp/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Trail-Area-WARP-MHO-Recommendation-Display-Boards-WEB.pdf",
+   "title": "View the Open House Display Boards",
+   "type": "open_house",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trailareawarp/"
+  },
+  {
+   "url": "https://www.teck.com/media/Trail-Wide-Area-Remediation-Plan.pdf",
+   "title": "Wide Area Remediation Plan",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trailareawarp/"
+  },
+  {
+   "url": "https://www.teck.com/media/Trail-Medical-Officer-Recommendation.pdf",
+   "title": "Medical Health Officer Recommendation",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trailareawarp/"
+  },
+  {
+   "url": "https://www.teck.com/media/Trail-Draft-Human-Health-Risk-Assessment.pdf",
+   "title": "Human Health Risk Assessment for Lead (Pb)",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trailareawarp/"
+  },
+  {
+   "url": "https://www.teck.com/media/2024-11-07-Trail-Analysis-Report.pdf",
+   "title": "Variables Influencing Children’s Blood Lead Levels",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trailareawarp/"
+  },
+  {
+   "url": "https://www.teck.com/media/2011-Operations-Full_report_Terrestrial_Ecological_Risk_Assessment-T1.8.2.pdf",
+   "title": "Full Terrestrial ERA",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/lower-columbia-ecosystem-management-program/"
+  },
+  {
+   "url": "https://www.teck.com/media/2011-Operations-Summary_report_Terrestrial_Ecological_Risk_Assessment-T1.8.2.pdf",
+   "title": "Summary Terrestrial ERA",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/lower-columbia-ecosystem-management-program/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck%20Trail%20Operations%20Final%20Remediation%20Plan.pdf",
+   "title": "Download the Plan",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-groundwater-remediation-plan/"
+  },
+  {
+   "url": "https://www.teck.com/media/October-26-2021-Teck-Trail-Operations-to-Stage-Joint-Emergency-Response-Exercise.pdf",
+   "title": "October 26, 2021 Teck Trail Operations to Stage Joint Emergency Response Exercise.pdf Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/News-Release-Teck-Trail-Operations-Conducting-Roasters-Shutdown.pdf",
+   "title": "March 17, 2021- Teck Trail Operations Conducting Roasters Shutdown Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/News-Release-Increase-in-Unauthorized-Activities-in-Deerpark-Hill-Area-in-Rossland.pdf",
+   "title": "September 2, 2020 - Increase in Unauthorized Activities in Deerpark Hill Area in Rossland Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Trail-Operations-Announces-Completion-of-New-Acid-Plant.pdf",
+   "title": "September 12, 2019 - Teck Trail Operations Announces Completion of New Acid Plant Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/News-Release-Teck-Trail-Operations-COVID-19-Updated-Response-Measures.pdf",
+   "title": "March 27, 2020 - Teck Trail Operations COVID-19 Updated Response Measures Read More /",
+   "type": "newsletter",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/Team-Canada-Cross-Country-Ski-Heroes-Coming-to-Trail.pdf",
+   "title": "January 24, 2019 - Team Canada Cross-Country Ski Heroes Coming to Trail Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/IRM-Teck-Fact-Sheet-Information-Recent-Sulphuric-Acid-Spills-in-Trail-BC.pdf",
+   "title": "Updated September 10, 2018 - Information on Recent Sulphuric Acid Spills in Trail, B.C. Read More /",
+   "type": "newsletter",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Trail-Operations-Conducting-Maintenance-Shutdown.pdf",
+   "title": "September 5, 2018 - Teck Trail Operations Conducting Maintenance Shutdown Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Donation-Launches-Rossland-Museum-and-Discovery-Centres-Phase-II-Renewal-Project.pdf",
+   "title": "June 28, 2018 – Teck Donation Launches Rossland Museum and Discovery Centre’s Phase II Renewal Project Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/February-27-2018-Teck-Trail-Operations-Signs-Performance-Agreement-with-Environment-and-Climate-Change-Canada-for-Sulphur-Emissions-Capture.pdf",
+   "title": "February 27, 2018 - Teck Trail Operations Signs Performance Agreement with Environment and Climate Change Canada for Sulphur Emissions Capture Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/January-4-2018-Teck-Trail-Operations-Receives-Leadership-Award-for-Sustainability.pdf",
+   "title": "January 4, 2018 - Teck Trail Operations Receives Leadership Award for Sustainability Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Announces-Trail-Operations-Collective-Agreement.pdf",
+   "title": "July 28, 2017 - Teck Announces Trail Operations Collective Agreement Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/May-12-2017-Building-a-Strong-Future-for-Trail-Operations.pdf",
+   "title": "May 12 2017 - Building a Strong Future for Trail Operations Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/March-14-2017-Teck-Trail-Operations-Completes-Construction-of-Groundwater-Treatment-Plant.pdf",
+   "title": "March 14, 2017 - Teck Trail Operations Completes Construction of Groundwater Treatment Plant Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/December-14-2016-Teck-Trail-Operations-Completes-35-Million-Investment-to-Improve-Community-Air-Quality.pdf",
+   "title": "December 14, 2016 - Teck Trail Operations Completes $35 Million Investment to Improve Community Air Quality Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/November-28-2016-Teck-Trail-Operations-Announces-Construction-of-New-Acid-Plant.pdf",
+   "title": "November 28, 2016 - Teck Trail Operations Announces Construction of New Acid Plant Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/September-19-2016-Teck-Trail-Operations-to-Conduct-Emergency-Response-Exercise.pdf",
+   "title": "September 19, 2016 - Teck Trail Operations to Conduct Emergency Response Exercise Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Trail-Operations-News-Release-April-13.pdf",
+   "title": "April 13, 2016 - Trail Operations Reports Incident Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-News-Release-February-29.pdf",
+   "title": "February 29, 2016 - Teck Trail Operations Assessed Penalty Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/March2015_Teck_Trail_Operations_Reports_Charges.pdf",
+   "title": "March 12, 2015 - Teck Trail Operations Reports Charges Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/trail-operations/trail-news-releases/"
+  },
+  {
+   "url": "https://www.teck.com/media/Highland-Valley-Copper-Environmental-Policy.pdf",
+   "title": "Highland Valley Copper Environmental Policy Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/highland-valley-copper/"
+  },
+  {
+   "url": "https://www.teck.com/media/Highland-Valley-Copper-Community-Policy.pdf",
+   "title": "Highland Valley Copper Community Policy Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/highland-valley-copper/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Donates-to-Agencies-Supporting-Thompson-Nicola-Region-Wildfire-Relief.pdf",
+   "title": "Teck Donates to Agencies Supporting Thompson-Nicola Region Wildfire Relief Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/canada/operations/highland-valley-copper/"
+  },
+  {
+   "url": "https://www.teck.com/media/RDO-PILT-Agreement-News-Release-Jan-30-2026.pdf",
+   "title": "Northwest Arctic Borough & Red Dog Reach Renewed Tax Payment Agreement - January 30, 2026 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/"
+  },
+  {
+   "url": "https://www.teck.com/media/January-17-2021-Fatality-at-Red-Dog-Operations.pdf",
+   "title": "January 17, 2021 - Fatality at Red Dog Operations Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/"
+  },
+  {
+   "url": "https://www.teck.com/media/Facts_about_the_TRI_and_Red_Dog.pdf",
+   "title": "The Facts about the TRI and Red Dog Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog-News-Release-July-14.pdf",
+   "title": "July 14, 2016 - GCI and Teck Red Dog Operations Announce High-Speed Internet to Noatak and Red Dog Mine Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog-SO2-Facts-May26.pdf",
+   "title": "Download Fact Sheet",
+   "type": "newsletter",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-community-update/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog-SO2-FAQ-May26.pdf",
+   "title": "Download FAQs",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-community-update/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-2023-Emissions-Report.pdf",
+   "title": "here",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/climate-change/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-2024-Emissions-Report.pdf",
+   "title": "View the report",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/climate-change/"
+  },
+  {
+   "url": "https://www.teck.com/media/Code-of-Ethics.pdf",
+   "title": "Code of Ethics",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/human-rights/"
+  },
+  {
+   "url": "http://www.teck.com/media/2025-GISTM-TSF-Disclosure.pdf",
+   "title": "Download English Version",
+   "type": "closure",
+   "page": "https://www.teck.com/sustainability/sustainability-topics/tailings-management/global-industry-standard-on-tailings-management/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Q3-2025-Financial-Report.pdf",
+   "title": "Q3 2025 Financial Report",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Q2-2025-Teck-Financial-Report.pdf",
+   "title": "Q2 2025 Financial Report",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Q1-2026-Results.pdf",
+   "title": "Q1 2026 Financial Report",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Q1-2026-Presentation.pdf",
+   "title": "Q1 2026 Presentation",
+   "type": "presentation",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Q1-2026-Conference-Call-Appendix.pdf",
+   "title": "Q1 2026 Appendix",
+   "type": "technical",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Q1-2026-Transcript.pdf",
+   "title": "Q1 2026 Transcript",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-2025-Q4-Financial-Report.pdf",
+   "title": "Q4 2025 Financial Report",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Q4-2025-Conference-Call-Presentation.pdf",
+   "title": "Q4 2025 Presentation",
+   "type": "presentation",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Q4-2025-Appendix.pdf",
+   "title": "Q4 2025 Presentation Appendix",
+   "type": "technical",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Q4-2025-Conference-Transcript.pdf",
+   "title": "Q4 2025 Conference Transcript",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Q3-2025-Presentation.pdf",
+   "title": "Teck Q3 2025 Presentation",
+   "type": "presentation",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Q3-2025-Presentation-Appendix.pdf",
+   "title": "Teck Q3 2025 Presentation Appendix",
+   "type": "technical",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/TECK-Transcript_2025-10-22.pdf",
+   "title": "Q3 2025 Conference Call Transcript",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2024-Annual-Report.pdf",
+   "title": "2024 Annual Report",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2023-Annual-Report.pdf",
+   "title": "2023 Annual Report",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2022-Annual-Report.pdf",
+   "title": "2022 Annual Report",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-AIF-2025.pdf",
+   "title": "2025 Annual Information Form",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Annual-Financial-Statements-2025.pdf",
+   "title": "2025 Consolidated Financial Statements",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Form-40-F-2025.pdf",
+   "title": "2025 Form 40-F",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-2025-Modern-Slavery-Report_Final.pdf",
+   "title": "Teck 2025 Modern Slavery Report",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Management-Information-Circular(0).pdf",
+   "title": "2026 Management Information Circular",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Form-SD-2025.pdf",
+   "title": "2025 Form SD",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/AIF-2025.pdf",
+   "title": "2024 Annual Information Form",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2024-2023-Consolidated-Financial-Statements.pdf",
+   "title": "2024 Consolidated Financial Statements",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-2024-Management-Discussion-and-Analysis.pdf",
+   "title": "Teck 2024 Management Discussion and Analysis",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Management-Information-Circular-December-2025.pdf",
+   "title": "December 2025 Special Meeting - Management Information Circular",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2024-Form-40-F.pdf",
+   "title": "2024 Form 40-F",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2024-Extractive-Sector-Transparency-Measures-Act-Report.pdf",
+   "title": "2024 Extractive Sector Transparency Measures Act Report",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2024-Form-SD.pdf",
+   "title": "2024 Form SD",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2024-Pay-Transparency-Report-Teck-Resources-Limited.pdf",
+   "title": "2024 Pay Transparency Report - Teck Resources Limited",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2024-Pay-Transparency-Report-Teck-Highland-Valley-Copper-Partnership.pdf",
+   "title": "2024 Pay Transparency Report - Teck Highland Valley Copper Partnership",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2024-Pay-Transparency-Report-Teck-Metals-Ltd.pdf",
+   "title": "2024 Pay Transparency Report - Teck Metals Ltd",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2024-AIF.pdf",
+   "title": "2023 Annual Information Form",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2023-2022-Consolidated-Financial-Statements.pdf",
+   "title": "2023 Consolidated Financial Statements",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2024-Managements-Discussion-and-Analysis.pdf",
+   "title": "2023 Management's Discussion and Analysis",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2023-Modern-Slavery-Report.pdf",
+   "title": "2023 Modern Slavery Report",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2023-Extractive-Sector-Transparency-Measures-Act-Report.pdf",
+   "title": "2023 Extractive Sector Transparency Measures Act Report",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2023-Form-SD.pdf",
+   "title": "2023 Form SD",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2023-Pay-Transparency-Report-Teck-Resources-Limited.pdf",
+   "title": "2023 Pay Transparency Report - Teck Resources Limited",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2023-Pay-Transparency-Report-Teck-Highland-Valley-Copper-Partnership.pdf",
+   "title": "2023 Pay Transparency Report - Teck Highland Valley Copper Partnership",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2023-Pay-Transparency-Report-Teck-Metals-Ltd.pdf",
+   "title": "2023 Pay Transparency Report - Teck Metals Ltd",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2023-AIF.pdf",
+   "title": "2022 Annual Information Form",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2022-2021-Consolidated-Financial-Statements.pdf",
+   "title": "2022 Consolidated Financial Statements",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/Information-Circular-2023.pdf",
+   "title": "2023 Management Proxy Circular",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2022-Extractive-Sector-Transparency-Measures-Act-Report.pdf",
+   "title": "2022 Extractive Sector Transparency Measures Act Report",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2022-FormSD.pdf",
+   "title": "2022 Form SD",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/2023-Managements-Discussion-and-Analysis.pdf",
+   "title": "2022 Management's Discussion and Analysis",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "http://www.teck.com/media/Visualizing-Copper-Demand-in-a-Renewables-Powered-Future.pdf",
+   "title": "Copper in a Renewables Future",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "http://www.teck.com/media/Teck-Resources-Visualizing-Coppers-Role-in-a-Low-Carbon-Economy.pdf",
+   "title": "Copper in a Low Carbon Economy",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "http://www.teck.com/media/Understanding-Zincs-Role-in-a-Low-Carbon-Economy.pdf",
+   "title": "Zinc in a Low Carbon Economy",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "http://www.teck.com/media/Copper-the-Bacteria-Fighting-Metal.pdf",
+   "title": "Bacteria-Fighting Copper",
+   "type": "other",
+   "page": "https://www.teck.com/documents-and-reports/"
+  },
+  {
+   "url": "https://www.teck.com/media/teck-newsletter-fall25.pdf",
+   "title": "Red Dog Suvisi Vol.14, Issue 2 Read More /",
+   "type": "newsletter",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Red-Dog-Newsletter-July-2025.pdf",
+   "title": "Red Dog Suvisi Vol.14, Issue 1 Read More /",
+   "type": "newsletter",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/SUVISI_RED-DOG_INTERN_8-2022_7A-WEB.pdf",
+   "title": "Red Dog Suvisi Vol. 13, Issue 2 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/SUVISI_RED-DOG_Q2_6-2022_12-WEB.pdf",
+   "title": "Red Dog Suvisi Vol. 13, Issue 1 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/SUVISI_RED-DOG_Q3-8-2021_7-WEB.pdf",
+   "title": "Red Dog Suvisi Vol. 12, Issue 2 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/SUVISI-Q1-3-2021.pdf",
+   "title": "Red Dog Suvisi Vol. 12, Issue 1 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog-Suvisi-Vol-11-2.pdf",
+   "title": "Red Dog Suvisi Vol. 11, Issue 2 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog-Suvisi-Vol-11-1.pdf",
+   "title": "Red Dog Suvisi Vol. 11, Issue 1 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog-Suvisi-Q2-2019.pdf",
+   "title": "Red Dog Suvisi Q2 2019 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog-Suvisi-Q1-2019.pdf",
+   "title": "Red Dog Suvisi Q1 2019 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog0Suvisi-Q4-2018.pdf",
+   "title": "Red Dog Suvisi - Q4 2018 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/2018-Q3-Red-Dog-Suvisi-Newsletter.pdf",
+   "title": "Red Dog Suvisi - Q3 2018 Read More /",
+   "type": "newsletter",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/RedDog-Newsletter-Q1_02.pdf",
+   "title": "Red Dog Suvisi - Q1/Q2 2018 Read More /",
+   "type": "newsletter",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/RedDogSuvisiQ42017.pdf",
+   "title": "Red Dog Suvisi - Q4 2017 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/RedDog-Newsletter-Q2-3_2017.pdf",
+   "title": "Red Dog Suvisi - Q2 2017 Read More /",
+   "type": "newsletter",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/2017-Q1-Red-Dog-Suvisi-Newsletter.pdf",
+   "title": "Red Dog Suvisi - Q1 2017 Read More /",
+   "type": "newsletter",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog-Suvisi-Q4-2015.pdf",
+   "title": "Red Dog Suvisi - Q4 2015 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog-Suvisi-Q3-2015.pdf",
+   "title": "Red Dog Suvisi - Q3 2015 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog-Suvisi-Q2-2015.pdf",
+   "title": "Red Dog Suvisi - Q2 2015 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog-Suvisi-Q1-2015.pdf",
+   "title": "Red Dog Suvisi - Q1 2015 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/red_dog_suvisi_2014.pdf",
+   "title": "Red Dog Suvisi - 2014 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog-Suvisi-Q4-2013.pdf",
+   "title": "Red Dog Suvisi - Q4 2013 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog-Suvisi-Q2-2013.pdf",
+   "title": "Red Dog Suvisi - Q2 2013 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/Red-Dog-Suvisi-Q1-2013.pdf",
+   "title": "Red Dog Suvisi - Q1 2013 Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/operations/united-states/operations/red-dog/red-dog-alaska-newsletters/"
+  },
+  {
+   "url": "https://www.teck.com/media/Shareholder-Engagement-Policy.pdf",
+   "title": "Shareholder Engagement Policy",
+   "type": "engagement",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Articles_and_By-Laws.pdf",
+   "title": "Articles and Bylaws Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Mandate-of-the-Board-of-Directors.pdf",
+   "title": "Mandate of the Board of Directors Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Position-Description-Independent-Chair.pdf",
+   "title": "Position Description - Independent Chair Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Audit-Committee-Charter.pdf",
+   "title": "Audit Committee Charter Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Corporate-Governance-and-Nominating-Committee-Charter.pdf",
+   "title": "Corporate Governance & Nominating Committee Charter Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Compensation-Talent-Committee-Charter.pdf",
+   "title": "Compensation & Talent Committee Charter Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Sustainability-Committee-Charter.pdf",
+   "title": "Sustainability Committee Charter Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Safety-Operations-and-Projects-Committee-Charter.pdf",
+   "title": "Safety, Operations and Projects Committee Charter Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Majority_Voting_Policy.pdf",
+   "title": "Majority Voting Policy Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Anti-Bribery-and-Corruption-Compliance-Policy-and-Interpretation-Guide.pdf",
+   "title": "Anti Bribery and Corruption Compliance Policy and Interpretation Guide Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Anti-Bribery-and-Corruption-Compliance-Policy-and-Interpretation-Guide-SP.pdf",
+   "title": "Anti Bribery and Corruption Compliance Policy and Interpretation Guide - Spanish Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Anti-Bribery-and-Corruption-Compliance-Policy-and-Interpretation-Guide-Turkish.pdf",
+   "title": "Anti Bribery and Corruption Compliance Policy and Interpretation Guide - Turkish Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Anti-Bribery-and-Corruption-Compliance-Policy-and-Interpretation-Guide-Chinese.pdf",
+   "title": "Anti Bribery and Corruption Compliance Policy and Interpretation Guide - Chinese Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Political-Contributions-Policy.pdf",
+   "title": "Political Contributions Policy Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Tax-Policy.pdf",
+   "title": "Tax Policy Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/UK-Tax-Statement.pdf",
+   "title": "UK Tax Statement Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Economic-Sanctions-Compliance-Policy-Spanish.pdf",
+   "title": "Economic Sanctions Compliance Policy - Spanish Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Economic-Sanctions-Compliance-Policy-Turkish.pdf",
+   "title": "Economic Sanctions Compliance Policy - Turkish Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "https://www.teck.com/media/Economic-Sanctions-Compliance-Policy-Chinese.pdf",
+   "title": "Economic Sanctions Compliance Policy - Chinese Read More /",
+   "type": "other",
+   "page": "https://www.teck.com/about/governance/"
+  },
+  {
+   "url": "http://www.teck.com/media/2025-Sustainability-Report.pdf",
+   "title": "2025-sustainability-report.pdf",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Climate-Change-Policy.pdf",
+   "title": "Climate Change Policy",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/policies/"
+  },
+  {
+   "url": "https://www.teck.com/media/Code-of-Sustainable-Conduct.pdf",
+   "title": "Code of Sustainable Conduct",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/policies/"
+  },
+  {
+   "url": "https://www.teck.com/media/Equity-Diversity-and-Inclusion-Policy.pdf",
+   "title": "Equity, Diversity and Inclusion Policy",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/policies/"
+  },
+  {
+   "url": "https://www.teck.com/media/Health-and-Safety-Policy.pdf",
+   "title": "Health and Safety Policy",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/policies/"
+  },
+  {
+   "url": "https://www.teck.com/media/Human-Rights-Policy.pdf",
+   "title": "Human Rights Policy",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/policies/"
+  },
+  {
+   "url": "https://www.teck.com/media/Indigenous-Peoples-Policy.pdf",
+   "title": "Indigenous Peoples Policy",
+   "type": "engagement",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/policies/"
+  },
+  {
+   "url": "https://www.teck.com/media/Respectful-Workplace-Policy.pdf",
+   "title": "Respectful Workplace Policy",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/policies/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Responsible-Mineral-Sourcing-Policy.pdf",
+   "title": "Responsible Mineral Sourcing Policy",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/policies/"
+  },
+  {
+   "url": "https://www.teck.com/media/Tailings-Management-Policy.pdf",
+   "title": "Tailings Management Policy",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/policies/"
+  },
+  {
+   "url": "https://www.teck.com/media/Water-Policy.pdf",
+   "title": "Water Policy",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/policies/"
+  },
+  {
+   "url": "https://www.teck.com/media/CDA-Política-Ambiente.pdf",
+   "title": "Política Ambiental Teck CDA",
+   "type": "other",
+   "page": "https://www.teck.com/operations-es/chile-es/operaciones-es/carmen-de-andacollo-es/"
+  },
+  {
+   "url": "https://www.teck.com/media/Politica-de-Energia-y-Cambio-Climatico-Teck-CDA.pdf",
+   "title": "Política de Energía y Cambio Climático Teck CDA",
+   "type": "other",
+   "page": "https://www.teck.com/operations-es/chile-es/operaciones-es/carmen-de-andacollo-es/"
+  },
+  {
+   "url": "https://www.teck.com/media/ESG-Investor-Download.pdf",
+   "title": "Teck ESG Investor Download",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/2022-q4-report.pdf",
+   "title": "Q4 2022 Financial Report",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/Q4-2022-Earnings-Call-Slides.pdf",
+   "title": "Q4 2022 Financial Report Presentation Slides",
+   "type": "presentation",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/TECK-Q4-2022-Transcript.pdf",
+   "title": "Q4 2022 Financial Report Conference Call Transcript",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/q3-2022-quarterly.pdf",
+   "title": "Q3 2022 Financial Report",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/Q3-Earnings-Presentation.pdf",
+   "title": "Q3 2022 Financial Report Presentation Slides",
+   "type": "presentation",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/Q3-2022-Financial-Report-Call-Transcript.pdf",
+   "title": "Q3 2022 Financial Report Call Transcript",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/q2-quarterly-2022.pdf",
+   "title": "Q2 2022 Financial Report",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/Q2-2022-Conference-Call-Presentation.pdf",
+   "title": "Q2 2022 Conference Call Presentation Slides",
+   "type": "presentation",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/Q2-2022-Financial-Report-Call-Transcript.pdf",
+   "title": "Q2 2022 Financial Report Call Transcript",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/Q1-2022-Financial-Report-April.pdf",
+   "title": "Q1 2022 Financial Report",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/Q1-2022-Financial-Report-Conference-Call-Presentation.pdf",
+   "title": "Q1 2022 Financial Report Conference Call Presentation",
+   "type": "presentation",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Q1-2022-Conference-Call-Transcript.pdf",
+   "title": "Q1 2022 Conference Call Transcript",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/2021-Annual-Report.pdf",
+   "title": "2021 Annual Report",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/2020-Annual-Report.pdf",
+   "title": "2020 Annual Report",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/2019-Annual-Report.pdf",
+   "title": "2019 Annual Report",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "http://www.teck.com/media/VC_Teck_CleanEnergyTech4-ES.pdf",
+   "title": "Tecnología de Energía Limpia",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Water-Quality-Fact-Sheet.pdf",
+   "title": "Elk Valley Water Quality Plan Progress",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "http://www.teck.com/media/HVC-2040_Project-Overview-Fact-Sheet_20211124_WEB.pdf",
+   "title": "HVC 2040 Project Overview",
+   "type": "other",
+   "page": "https://www.teck.com/documentos-e-informes/"
+  },
+  {
+   "url": "https://globaltailingsreview.org/wp-content/uploads/2020/08/global-industry-standard_EN.pdf",
+   "title": "Global Industry Standard on Tailings Management (GISTM)",
+   "type": "other",
+   "page": "https://www.teck.com/sustainability/approach-to-responsibility/policies-and-commitments/memberships-&-partnerships/"
+  },
+  {
+   "url": "https://www.teck.com/media/Reporte-de-Sustentabilidad-2024.pdf",
+   "title": "Descargar Reporte de Sustentabilidad 2024",
+   "type": "other",
+   "page": "https://www.teck.com/sustentabilidad-es/enfoque-orientado-a-la-responsabilidad/Informe-de-Sustentabilidad-y-Portal-de-Divulgacion/"
+  },
+  {
+   "url": "https://www.teck.com/media/Teck-Sustainability-Databook.xlsx",
+   "title": "Descargar Datos de Desempeño en Sustentabilidad en 2024",
+   "type": "other",
+   "page": "https://www.teck.com/sustentabilidad-es/enfoque-orientado-a-la-responsabilidad/Informe-de-Sustentabilidad-y-Portal-de-Divulgacion/"
+  },
+  {
+   "url": "https://www.teck.com/media/Enfoque-de-Gestión-Para-La-Sustentabilidad.pdf",
+   "title": "Enfoque de gestión para la sustentabilidad",
+   "type": "other",
+   "page": "https://www.teck.com/sustentabilidad-es/enfoque-orientado-a-la-responsabilidad/Informe-de-Sustentabilidad-y-Portal-de-Divulgacion/"
+  },
+  {
+   "url": "http://www.teck.com/media/Perspectivas-del-Cambio-Climatico-2021.pdf",
+   "title": "perspectivas-del-cambio-climatico-2021.pdf",
+   "type": "other",
+   "page": "https://www.teck.com/sustentabilidad-es/enfoque-orientado-a-la-responsabilidad/Informe-de-Sustentabilidad-y-Portal-de-Divulgacion/"
+  },
+  {
+   "url": "http://www.teck.com/media/Reporte-de-Garantia-Independiente-March-16-2023..pdf",
+   "title": "reporte-de-garantia-independiente-march-16-2023..pdf",
+   "type": "other",
+   "page": "https://www.teck.com/sustentabilidad-es/enfoque-orientado-a-la-responsabilidad/Informe-de-Sustentabilidad-y-Portal-de-Divulgacion/"
+  }
+ ],
+ "doc_types": {
+  "other": 199,
+  "presentation": 12,
+  "technical": 4,
+  "closure": 2,
+  "newsletter": 14,
+  "monitoring": 2,
+  "map": 2,
+  "terms_of_reference": 1,
+  "open_house": 1,
+  "engagement": 2
+ },
+ "crawled_at": "2026-09-04T12:49:52Z",
+ "name": "Teck Resources"
+}

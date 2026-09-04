@@ -1,0 +1,39 @@
+{
+ "key": "taseko mines",
+ "site": "https://www.tasekomines.com/",
+ "host": "www.tasekomines.com",
+ "fetched": 1,
+ "pages": [
+  {
+   "url": "https://www.trekormetals.com/",
+   "title": "Trekor Metals",
+   "depth": 0,
+   "docs": 3
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://www.trekormetals.com/_resources/presentations/April-2026-Corporate-Presentation.pdf",
+   "title": "April 2026 Corporate Presentation",
+   "type": "presentation",
+   "page": "https://www.trekormetals.com/"
+  },
+  {
+   "url": "https://www.trekormetals.com/_resources/presentations/January-2026-Corporate-Presentation.pdf",
+   "title": "January 2026 Corporate Presentation",
+   "type": "presentation",
+   "page": "https://www.trekormetals.com/"
+  },
+  {
+   "url": "https://www.trekormetals.com/_resources/presentations/November-2025-Corporate-Presentation.pdf",
+   "title": "November 2025 Corporate Presentation",
+   "type": "presentation",
+   "page": "https://www.trekormetals.com/"
+  }
+ ],
+ "doc_types": {
+  "presentation": 3
+ },
+ "crawled_at": "2026-09-04T14:25:13Z",
+ "name": "Taseko Mines Limited"
+}

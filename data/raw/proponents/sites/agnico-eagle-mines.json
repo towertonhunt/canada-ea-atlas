@@ -1,0 +1,1498 @@
+{
+ "key": "agnico eagle mines",
+ "site": "https://www.agnicoeagle.com/",
+ "host": "www.agnicoeagle.com",
+ "fetched": 194,
+ "pages": [
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/exploration-projects/hammond-reef/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Hammond Reef",
+   "depth": 0,
+   "docs": 1
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/closure-and-reclamation/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Closure & Mine Reclamation",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Environment/Closure-and-Reclamation/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Environnement - Fermeture et réhabilitation des mines",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/global-operations-and-development-projects/laronde-complex/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Operations & Development Projects - LaRonde Complex",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/global-operations-and-development-projects/canadian-malartic-complex/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Canadian Malartic Complex",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/global-operations-and-development-projects/goldex-complex/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Operations & Development Projects - Goldex Complex",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/global-operations-and-development-projects/detour-lake/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Detour Lake Mine",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/global-operations-and-development-projects/macassa/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Macassa Mine",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/global-operations-and-development-projects/meliadine/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Meliadine Mine",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/global-operations-and-development-projects/meadowbank-complex/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Meadowbank Complex",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/global-operations-and-development-projects/fosterville/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Fosterville Mine",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/global-operations-and-development-projects/kittila/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Kittilä Mine",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/global-operations-and-development-projects/pinos-altos/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Pinos Altos Mine",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/global-operations-and-development-projects/laronde-complex/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Complexe minier LaRonde",
+   "depth": 3,
+   "docs": 1
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/global-operations-and-development-projects/canadian-malartic/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Complexe minier Canadian Malartic",
+   "depth": 3,
+   "docs": 1
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/global-operations-and-development-projects/goldex-complex/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Complexe minier Goldex",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/global-operations-and-development-projects/detour-lake/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Mine Detour Lake",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/global-operations-and-development-projects/macassa/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Mine Macassa",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/global-operations-and-development-projects/meliadine/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Mine Meliadine",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/global-operations-and-development-projects/meadowbank-complex/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Complexe minier Meadowbank",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/global-operations-and-development-projects/fosterville/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Mine Fosterville",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/global-operations-and-development-projects/kittila/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Mine Kittilä",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/global-operations-and-development-projects/pinos-altos/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Mine Pinos Altos",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/default.aspx#operations-and-development-projects",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/social/reconciliation-with-indigenous-peoples/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Reconciliation with Indigenous Peoples",
+   "depth": 1,
+   "docs": 11
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/exploration-projects/Marban/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Advanced Exploration Projects - Marban",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/exploration-projects/wasamac/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Advanced Exploration Projects - Wasamac",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/exploration-projects/hammond-reef/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Hammond Reef",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/exploration-projects/upper-beaver/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Advanced Exploration Projects - Upper Beaver",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/exploration-projects/hope-bay/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Advanced Exploration Projects - Hope Bay",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/exploration-projects/Ikkari/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Advanced Exploration Projects - Ikkari",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/exploration-projects/san-nicolas/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Advanced Exploration Projects - San Nicolás",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/reports-disclosures-and-policies/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Reports, Disclosures & Policies",
+   "depth": 1,
+   "docs": 9
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/exploration-projects/hammond-reef/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Exploitations et projets - Projets d’exploration avancée - Hammond Reef",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/exploration-projects/Marban/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Exploitations et projets - Projets d’exploration avancée - Marban",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/exploration-projects/wasamac/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Exploitations et projets - Projets d’exploration avancée - Wasamac",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/exploration-projects/upper-beaver/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Exploitations et projets - Projets d’exploration avancée - Upper Beaver",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/exploration-projects/hope-bay/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Exploitations et projets - Projets d’exploration avancée - Hope Bay",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/exploration-projects/Ikkari/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Exploitations et projets - Projets d’exploration avancée - Ikkari",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/exploration-projects/san-nicolas/default.aspx",
+   "title": "Agnico Eagle Mines Limited - San Nicolás",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/global-operations-and-development-projects/detour-lake/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Detour Lake Mine",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/global-operations-and-development-projects/macassa/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Macassa Mine",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/global-operations-and-development-projects/meliadine/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Meliadine Mine",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/global-operations-and-development-projects/fosterville/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Fosterville Mine",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/global-operations-and-development-projects/kittila/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Kittilä Mine",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/global-operations-and-development-projects/pinos-altos/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Pinos Altos Mine",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/default.aspx#operations-and-development-projects",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/global-operations-and-development-projects/laronde-complex/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Operations & Development Projects - LaRonde Complex",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/global-operations-and-development-projects/canadian-malartic-complex/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Canadian Malartic Complex",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/global-operations-and-development-projects/goldex-complex/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Operations & Development Projects - Goldex Complex",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/global-operations-and-development-projects/meadowbank-complex/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Meadowbank Complex",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/exploration-projects/Marban/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Advanced Exploration Projects - Marban",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/exploration-projects/wasamac/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Advanced Exploration Projects - Wasamac",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/exploration-projects/hammond-reef/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Hammond Reef",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/exploration-projects/upper-beaver/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Advanced Exploration Projects - Upper Beaver",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/exploration-projects/hope-bay/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Advanced Exploration Projects - Hope Bay",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/exploration-projects/Ikkari/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Advanced Exploration Projects - Ikkari",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/operations-and-projects/exploration-projects/san-nicolas/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Advanced Exploration Projects - San Nicolás",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=f443a15d-0b88-48c5-9ddb-e5a8c7d0be93",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=d4657890-83d7-42f3-a458-dfb709537132",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=3c821371-2f89-4e9f-bd1f-d8cf7ebc2d72",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=7f942dfb-0fc7-47dd-8042-04754aa5d62e",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=00190dd0-999f-4e51-a191-4de14c2abe13",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=35f52787-2cdf-4345-8e5b-7e6689ed33b3",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=a0baf16e-41e9-44c8-b993-1e34ceac46c7",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=4ea43f49-0dcb-4d6e-8f13-d11435603725",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=a9ea6d25-6e5f-48aa-ab2c-2676bd93867b",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=1f7d72c7-7abe-40b3-b600-ae50026bbc64",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=28a35f29-9b25-4027-8ded-214b762b01e4",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=158b2f18-c918-4069-8862-08866b56da74",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=a75199a8-c0b8-4ade-8f1b-1cab88ff4a67",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=6c398484-b2d2-4d54-ac3a-3c82b782f6c4",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=4bbc10be-4909-40be-bc59-76679b64291d",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=c02a9f42-9eed-42d3-a3f5-0775f1994481",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=ad6f9e17-7040-4e52-8ff9-0b4ce2a05b72",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=91f9bb8a-5945-4940-97ee-f1e8a192ac41",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=034df671-a9a8-4ff3-9d91-c51b0a507806",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=e166d417-3fa5-41ff-98dc-155769b8306d",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=c9dcaa80-2fa2-4591-a3ea-c4d629c09608",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=9cad28ce-77de-45b5-8e68-b6e82ea03e56",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=b48bb724-872a-448f-a35f-e03475cf23a7",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/reports-disclosures-and-policies/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Rapports, divulgations et politiques",
+   "depth": 3,
+   "docs": 7
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/operations-and-projects/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=bb1d76cd-7705-40ae-93f5-93a4164f6766",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/operations-and-projects/our-metals/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects - Our Metals",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=b008221b-16da-45c8-aeb0-18cb25fe9102",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/climate-change/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment - Climate Change",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=9279f6c9-955e-4b88-9358-47a835e9712c",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/water-stewardship/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment - Water Stewardship",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=eee976bd-9da9-4c9a-ba79-620a43fa04ac",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/tailings-management/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment - Tailings & Waste Management",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=f325f027-9580-42fe-a1ee-7efa84835ba9",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/nature-and-biodiversity/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment - Nature & Biodiversity",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=007ba9ef-331e-47e1-8cd8-dd7026b26756",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/operations-and-projects/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Operations & Projects",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Exploitations et projets",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/operations-and-projects/our-metals/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Exploitations et projets - Nos métaux",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Environment/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Environnement",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Environment/Climate-Change/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Environnement - Changements climatiques",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Environment/Water-Stewardship/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Environnement - Intendance de l’eau",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Environment/Tailings-Management/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Environnement - Gestion des résidus miniers et des stériles",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Environment/Nature--Biodiversity/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Environnement - Nature et biodiversité",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Social/Reconciliation-with-Indigenous-Peoples/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Travail de réconciliation avec les peuples autochtones",
+   "depth": 3,
+   "docs": 3
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/overview/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=16a8c63a-00b3-4705-bfaa-c3a787a864b0",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/our-approach/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Our Approach",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=9b2d2e91-f2ba-4c54-b942-24ac1b467cec",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/social/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Social",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=281b0a19-c1a1-4fad-b4a2-7c7bc0be4d09",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/social/health-safety-and-wellness/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Social - Health, Safety & Wellness",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=a69a1d36-caf0-417e-8bba-9f9f28214893",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/social/security-and-human-rights/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Social - Security & Human Rights",
+   "depth": 1,
+   "docs": 4
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=ef3f541f-58e2-4f48-902b-28ac8da118d2",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/social/our-workforce/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Social - Our Workforce",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=415a8f92-4907-4b60-bbd8-83a9add665d1",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/social/communities/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Social - Communities",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=d1211c5f-5124-4a3b-bac6-08cf39b99ab2",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/social/socio-economic-value/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Social - Socio-Economic Value",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=8ac14282-d73b-4730-84f3-e2386cd89b6d",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/our-approach/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Our Approach",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/reports-disclosures-and-policies/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Reports, Disclosures & Policies",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/social/reconciliation-with-indigenous-peoples/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Reconciliation with Indigenous Peoples",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=65432a69-2f74-45cf-9a51-314170595225",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/our-approach/default.aspx#sustainability-governance",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Our Approach",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=a03383a7-6cf1-46d2-b696-a7d95d12de9b",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/overview/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/environment/closure-and-reclamation/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Closure & Mine Reclamation",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/environment/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/environment/climate-change/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment - Climate Change",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/environment/water-stewardship/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment - Water Stewardship",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/environment/nature-and-biodiversity/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment - Nature & Biodiversity",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/environment/tailings-management/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment - Tailings & Waste Management",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=2f86c6b3-ca01-4693-ab59-ccfdd022eed2",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=ec83cd61-dcb3-4341-ab69-4d0708519825",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=fdc93c41-f76e-44bd-b6a9-f578eaae264b",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=684a8972-743f-4132-a153-1ba6489112ab",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=b604d2dd-00be-405c-bb12-ece91100b4e8",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=39256444-5d09-4984-932f-7b734f86e23f",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=c2fac8c8-7165-4ec7-8615-48c912f93266",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=7bbb3037-22d8-410c-80d6-8e8644f57fb9",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=8e874f22-01f7-45eb-b391-e0110f3ac357",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=96ddd150-82ae-44b6-bf03-19944c261026",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=5c513396-3b7a-4254-a125-95c837732398",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=06e7e2e6-7a8d-41fb-afc3-a4a6185a66a1",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=83e81612-8de5-486d-bfd3-a41e871ef00a",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=48408e8a-1b1e-44ee-89b7-5b21e3dd3d04",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=b4512279-1426-48a2-81d4-f3d7941955bf",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=73bf04eb-9a07-49c0-92e0-afc495db44a1",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=7cc61a78-47be-4602-a660-dbfc9932ef6d",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=80b4d055-73dd-451e-a70f-160786f726fe",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=6170b7b5-d6b0-4b8d-847b-0535a9b03c4e",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=3b564a1a-00f3-4117-a311-4679860af3c8",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=7a16b489-1df4-441c-8277-0d1f50a95eaa",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Overview/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/sustainability/reports-disclosures-and-policies/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Rapports, divulgations et politiques",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Our-Approach/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Notre approche",
+   "depth": 3,
+   "docs": 1
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Social/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Responsabilité sociale",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/sustainability/social/reconciliation-with-indigenous-peoples/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Travail de réconciliation avec les peuples autochtones",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Social/Health-Safety-and-Wellness/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Responsabilité sociale - Santé, sécurité et bien-être",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Social/Security-and-Human-Rights/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Responsabilité sociale - Sécurité et droits de la personne",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Social/Our-Workforce/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Responsabilité sociale - Notre main-d’œuvre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Social/Communities/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Responsabilité sociale - Communautés",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/Sustainability/Social/Socio-Economic-Value/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Développement durable - Responsabilité sociale - Valeur socioéconomique",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/French/document-centre/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Centre de documents",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=8c9918cb-405a-4d92-9310-a0589f52601c",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=1c05165e-a12b-48da-9332-8f61e6e4ded0",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=241af1f5-e55a-40e0-a6c7-9c5947282642",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=e66902fe-8ab8-4122-a102-df06cde834b1",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=49cea9b2-0b2e-4ebf-80b8-45e205dd766e",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=46c6facd-1e56-4e62-8cf6-68522ac89465",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=03d4987c-6350-4f56-8c2c-75b6c9a15a87",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=f708fde6-1442-48f9-b4c9-ff046928da43",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=3cd9913a-e058-4565-a68f-c2b2d705db9a",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=5e0e25b8-e58f-4a74-b7e1-f55a7c93f074",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=6115dc82-ecae-4af8-84c2-b2d4758b9545",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=876232f2-b53d-48d0-ac08-19109f01c0d1",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/donations-and-sponsorships-request-form/",
+   "title": "Agnico Eagle Mines Limited - Donations and Sponsorships Request Form",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=923133ca-18be-4e29-ae1c-63b96cb466cf",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=98a1448b-e6b0-4c99-858c-16016661daca",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=2b2f4d93-2e44-4e58-aff9-f2b96eb9fc4f",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/document-centre/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/social/communities/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Social - Communities",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=c1f44611-f6ab-47d5-858b-823e17909d38",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/document-centre/default.aspx?ItemId=c9700e4e-69e8-4245-a59b-f2d6738aeb53",
+   "title": "Agnico Eagle Mines Limited - Document Centre",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/social/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Social",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com/English/sustainability/environment/default.aspx?ItemId=dc2255a1-24aa-472a-8a22-e5ff2b0e5be7",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Environment",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/social/health-safety-and-wellness/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Social - Health, Safety & Wellness",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/social/security-and-human-rights/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Social - Security & Human Rights",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/English/sustainability/social/our-workforce/default.aspx",
+   "title": "Agnico Eagle Mines Limited - Sustainability - Social - Our Workforce",
+   "depth": 2,
+   "docs": 0
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/governance/2023/Accessibility-Policy-and-Multi-Year-Plan-Final.pdf",
+   "title": "Accessibility",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com:443/English/operations-and-projects/exploration-projects/hammond-reef/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/agnico_downloads/RnR-Tables/2025/AEM_YE_2025_MRMR_Tables_Detailed_Feb12_2026.pdf",
+   "title": "year-end 2025 Mineral Reserves and Mineral Resources statement (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/operations-and-projects/global-operations-and-development-projects/laronde-complex/default.aspx"
+  },
+  {
+   "url": "https://www.agnicoeagle.com/files/doc_financials/2026/AIF-2025.pdf",
+   "title": "Annual Information Form (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/operations-and-projects/global-operations-and-development-projects/laronde-complex/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/agnico_downloads/RnR-Tables/2025/AEM_YE_2025_MRMR_Tables_Detailed_Feb12_2026_FRENCH.pdf",
+   "title": "la déclaration sur les réserves minérales et les ressources minérales à la fin de l'année 2025 (opens in new tab) . Faits saillants Le puits Penna de la mine LaRonde, qui atteint 2,2 km de profondeur,",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/operations-and-projects/global-operations-and-development-projects/laronde-complex/default.aspx"
+  },
+  {
+   "url": "https://www.agnicoeagle.com/files/doc_financials/2026/2025-AIF-French.pdf",
+   "title": "la plus récente notice annuelle",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/operations-and-projects/global-operations-and-development-projects/canadian-malartic/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/governance/2024/2024_Indigenous-Peoples-Engagement-Policy.pdf",
+   "title": "Indigenous Peoples Engagement Policy",
+   "type": "engagement",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/reconciliation-with-indigenous-peoples/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/RAP/1553-AE-RAP-Eng_Final-Web.pdf",
+   "title": "English",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/reconciliation-with-indigenous-peoples/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/RAP/1553-AE-RAP-French_Final-Web.pdf",
+   "title": "French",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/reconciliation-with-indigenous-peoples/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/RAP/1553-AE-RAP-Inuktitut_Final-Web.pdf",
+   "title": "Inuktitut",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/reconciliation-with-indigenous-peoples/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/RAP/Quick_Guide/1553-AE-RAP-quick-guide_Spanish_FLS_v6.pdf",
+   "title": "Spanish",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/reconciliation-with-indigenous-peoples/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/RAP/Quick_Guide/1553-AE-RAP-quick-guide_Finnish_FLS_v6.pdf",
+   "title": "Finnish",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/reconciliation-with-indigenous-peoples/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/RAP/Quick_Guide/1553-AE-RAP-quick-guide_Inuinnaqtun_w-FLS_v7.pdf",
+   "title": "Inuinnaqtun",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/reconciliation-with-indigenous-peoples/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/RAP/Quick_Guide/1553-AE-RAP-quick-guide_Cree_w-FLS_v6.pdf",
+   "title": "Cree",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/reconciliation-with-indigenous-peoples/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/RAP/Quick_Guide/1553-AE-RAP-quick-guide_Anish_FLS_v7.pdf",
+   "title": "Anishinaabe",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/reconciliation-with-indigenous-peoples/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/1553-AE-RAP-Eng_Final-Web.pdf",
+   "title": "Reconciliation Action Plan (2024) (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/reconciliation-with-indigenous-peoples/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/RAP/Progress_Report/RAP-Progress-Report-2025_English_FINAL.pdf",
+   "title": "Reconciliation Action Plan Progress Report (2026) (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/reconciliation-with-indigenous-peoples/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sd_reports/2025/2025-AgnicoEagle-SustainabilityReportEN.pdf",
+   "title": "View Report (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/gri_table/Agnico-Eagle-2025-Sustainability-Performance-Data.xlsx",
+   "title": "View Data Tables (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/TM-Report/AgnicoEagle-TailingsSummaryReport_2025-Final-EN.pdf",
+   "title": "View Report (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/AgnicoEagle_2023ClimateActionReport_EN_Final.pdf",
+   "title": "View Report (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/estma/AEM-ESTMA-2025.pdf",
+   "title": "View Report (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/agnico_downloads/policies/2025/Sustainability_Policy_Eng.pdf",
+   "title": "View Policy (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/Water-stewardship/EN-Water-Management-Policy-2025-FINAL.pdf",
+   "title": "View Policy (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/TM-Report/EN-Tailings-Management-Policy-2025-FINAL.pdf",
+   "title": "View Policy (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/agnico_downloads/policies/2026/EN-2026-Inclusion-Policy-Jan-2026.pdf",
+   "title": "View Policy (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sd_reports/fr/2025/2025-AgnicoEagle-Rapport-de-développement-durable.pdf",
+   "title": "Voir le rapport (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/Climate-Action-/FR/AgnicoEagle_2023ClimateActionReport_FR_FINAL.pdf",
+   "title": "Voir le rapport (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/Sustainability-Policy_French.pdf",
+   "title": "Voir la politique (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/Water-stewardship/FR-Water-Management-Policy-2025-FINAL.pdf",
+   "title": "Voir la politique (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/TM-Report/FR-Tailings-Management-Policy-2025-FINAL.pdf",
+   "title": "Voir la politique (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/agnico_downloads/policies/2026/FR-2026-Inclusion-Policy-Jan-2026.pdf",
+   "title": "Voir la politique (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/governance/2024/FR_2024_Indigenous-Peoples-Engagement-Policy.pdf",
+   "title": "Voir la politique (opens in new tab)",
+   "type": "engagement",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/reports-disclosures-and-policies/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/EN-Tailings-Management-Policy-2025-FINAL.pdf",
+   "title": "Tailings Management Policy (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/environment/tailings-management/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/policies/FR_2024_Indigenous-Peoples-Engagement-Policy.pdf",
+   "title": "Politique d’engagement auprès des peuples autochtones",
+   "type": "engagement",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/Social/Reconciliation-with-Indigenous-Peoples/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/1553-AE-RAP-French_Final-Web.pdf",
+   "title": "Plan d'action pour la réconciliation (2024) (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/Social/Reconciliation-with-Indigenous-Peoples/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/RAP/Progress_Report/RAP-Progress-Report-2025_French_FINAL.pdf",
+   "title": "Rapport d’étape sur le Plan d’action pour la réconciliation (2026) (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/Social/Reconciliation-with-Indigenous-Peoples/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/Climate-Action-/AgnicoEagle_2023ClimateActionReport_EN_Final.pdf",
+   "title": "View Report (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/overview/default.aspx"
+  },
+  {
+   "url": "https://www.agnicoeagle.com/files/doc_downloads/sustainability/TM-Report/EN-Tailings-Management-Policy-2025-FINAL.pdf",
+   "title": "Tailings Management Policy",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/our-approach/default.aspx"
+  },
+  {
+   "url": "https://www.agnicoeagle.com/files/doc_downloads/sustainability/TM-Report/AgnicoEagle-TailingsSummaryReport_2025-Final-EN.pdf",
+   "title": "2025 Tailings Summary Report",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/our-approach/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/2025/Agnico-Eagle-2025-VPSHR-Plenary-Report-April-2026-Final.pdf",
+   "title": "Voluntary Principles on Security and Human Rights (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/AEM-Conflict-Free-Gold-Report-Aug-23.pdf",
+   "title": "Conflict-Free Gold Standard Report (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/security-and-human-rights/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/2026/AEM-Modern-Day-Slavery-Report-for-Year-ended-Dec-31-2025-Final.pdf",
+   "title": "Modern Slavery Report (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/security-and-human-rights/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/governance/Agnico_Code_of_Business_Conduct_and_Ethics_July_2023.pdf",
+   "title": "Code of Business Conduct and Ethics (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/security-and-human-rights/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/procurement_code_of_conduct/AEM-Supplier-Code-of-Conduct-English.pdf",
+   "title": "Supplier Code of Conduct (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/security-and-human-rights/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/2024/AEM-Donations-Policy-final-240501.pdf",
+   "title": "Charitable Donations and Sponsorships Policy",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/English/sustainability/social/communities/default.aspx"
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/files/doc_downloads/sustainability/TM-Report/EN-Tailings-Management-Policy-2025-FINAL.pdf",
+   "title": "Tailings Management Policy",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com:443/English/sustainability/our-approach/default.aspx"
+  },
+  {
+   "url": "https://www.agnicoeagle.com:443/files/doc_downloads/sustainability/TM-Report/AgnicoEagle-TailingsSummaryReport_2025-Final-EN.pdf",
+   "title": "2025 Tailings Summary Report",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com:443/English/sustainability/our-approach/default.aspx"
+  },
+  {
+   "url": "https://www.agnicoeagle.com/files/doc_downloads/sustainability/TM-Report/FR-Tailings-Management-Policy-2025-FINAL.pdf",
+   "title": "politique de gestion des résidus miniers",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/Our-Approach/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/2025/Agnico-Eagle-2025-VPSHR-Plenary-Report-April-2026-FR.pdf",
+   "title": "Le plus récent rapport sur les Principes volontaires sur la sécurité et les droits de la personne (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/Social/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/22-AEM-CFG-Assurance-Report-Final.pdf",
+   "title": "Rapport de certification sur l'or libre de conflits du WGC (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/Social/Security-and-Human-Rights/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/governance/French/FR_-_Agnico_Code_of_Business_Conduct_and_Ethics_-_July_2023.pdf",
+   "title": "Code de conduite professionnelle et d'éthique (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/Social/Security-and-Human-Rights/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/procurement_code_of_conduct/AEM-Supplier-Code-of-Conduct-French.pdf",
+   "title": "Code de conduite des fournisseurs (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/Social/Security-and-Human-Rights/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/sustainability/2024/FR_AEM-Donations-Policy.pdf",
+   "title": "Politique relative aux dons de bienfaisance et aux commandites pour en savoir plus sur nos lignes directrices de financement et soumettre une demande de soutien. Demander notre soutien (opens in new w",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/Social/Communities/default.aspx"
+  },
+  {
+   "url": "https://s205.q4cdn.com/243646470/files/doc_downloads/FR_AEM-Donations-Policy.pdf",
+   "title": "Politique relative aux dons et commandites de l'entreprise (opens in new tab) Protocole de relations avec les Autochtones et les collectivités de l'initiative TSM (opens in new tab)",
+   "type": "other",
+   "page": "https://www.agnicoeagle.com/French/Sustainability/Social/Communities/default.aspx"
+  }
+ ],
+ "doc_types": {
+  "other": 51,
+  "engagement": 3
+ },
+ "crawled_at": "2026-09-04T15:01:23Z",
+ "name": "Agnico Eagle Mines Limited"
+}

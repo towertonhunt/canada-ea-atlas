@@ -1,0 +1,179 @@
+{
+ "key": "fpx nickel",
+ "site": "https://fpxnickel.com/",
+ "host": "fpxnickel.com",
+ "fetched": 18,
+ "pages": [
+  {
+   "url": "https://fpxnickel.com/projects-overview/baptiste-nickel-project/",
+   "title": "Baptiste Nickel Project - FPX Nickel",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://fpxnickel.com/projects-overview/what-is-awaruite/",
+   "title": "What is Awaruite? - FPX Nickel",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://fpxnickel.com/projects-overview/baptiste-nickel-project/",
+   "title": "Baptiste Nickel Project - FPX Nickel",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://fpxnickel.com/projects-overview/technical-reports/",
+   "title": "Technical Reports - FPX Nickel",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://fpxnickel.com/projects-overview/awaruite-refinery/",
+   "title": "Awaruite Refinery - FPX Nickel",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://fpxnickel.com/projects-overview/exploration-properties/",
+   "title": "Exploration Properties - FPX Nickel",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://fpxnickel.com/projects-overview/exploration-properties/van-target/",
+   "title": "Van Target, British Columbia - FPX Nickel",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://fpxnickel.com/projects-overview/exploration-properties/mich-property-yukon/",
+   "title": "Mich Property, Yukon - FPX Nickel",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://fpxnickel.com/projects-overview/exploration-properties/orca-wale-property/",
+   "title": "Orca-Wale Property - FPX Nickel",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://fpxnickel.com/projects-overview/exploration-properties/klow-property/",
+   "title": "Klow Property - FPX Nickel",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://fpxnickel.com/projects-overview/jogmec-generative-alliance/",
+   "title": "JOGMEC Generative Alliance - FPX Nickel",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://fpxnickel.com/projects-overview/carbon-capture-and-sequestration/",
+   "title": "Carbon Capture and Sequestration - FPX Nickel",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://fpxnickel.com/community/community-office/",
+   "title": "Community Office - FPX Nickel",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://fpxnickel.com/community/newsletter/",
+   "title": "Newsletter - FPX Nickel",
+   "depth": 1,
+   "docs": 6
+  },
+  {
+   "url": "https://fpxnickel.com/community/upcoming-events/",
+   "title": "Upcoming Events - FPX Nickel",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://fpxnickel.com/community/student-bursary-program/",
+   "title": "Student Bursary Program - FPX Nickel",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://fpxnickel.com/corporate/sustainability/",
+   "title": "Sustainability - FPX Nickel",
+   "depth": 1,
+   "docs": 1
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://fpxnickel.com/wp-content/uploads/2023/11/Baptiste-Project-NI-43-101-Technical-Report_FINAL.pdf",
+   "title": "Download the 2023 PFS NI 43-101 Technical Report",
+   "type": "technical",
+   "page": "https://fpxnickel.com/projects-overview/baptiste-nickel-project/"
+  },
+  {
+   "url": "https://fpxnickel.com/wp-content/uploads/FPX-Community-Newsletter-Q4-2024-Digital.pdf",
+   "title": "Read our Community Newsletter",
+   "type": "newsletter",
+   "page": "https://fpxnickel.com/projects-overview/baptiste-nickel-project/"
+  },
+  {
+   "url": "https://fpxnickel.com/wp-content/uploads/263522_0000_BA00_RPT_0001_RA.pdf",
+   "title": "Download the Awaruite Refinery Study",
+   "type": "other",
+   "page": "https://fpxnickel.com/projects-overview/awaruite-refinery/"
+  },
+  {
+   "url": "https://fpxnickel.com/wp-content/uploads/FPX-CommunityNewsletter-Aprll2026-DIGITAL.pdf",
+   "title": "April 2026",
+   "type": "newsletter",
+   "page": "https://fpxnickel.com/community/newsletter/"
+  },
+  {
+   "url": "https://fpxnickel.com/wp-content/uploads/FPX-Community-Newsletter-February-2026-v5.pdf",
+   "title": "February 2026",
+   "type": "newsletter",
+   "page": "https://fpxnickel.com/community/newsletter/"
+  },
+  {
+   "url": "https://fpxnickel.com/wp-content/uploads/FPX-Community-Newsletter-Nov-2025-DIGITAL2.pdf",
+   "title": "November 2025",
+   "type": "newsletter",
+   "page": "https://fpxnickel.com/community/newsletter/"
+  },
+  {
+   "url": "https://fpxnickel.com/wp-content/uploads/FPX-Community-Newsletter-Aug-2025_V3-DIGITAL.pdf",
+   "title": "August 2025",
+   "type": "newsletter",
+   "page": "https://fpxnickel.com/community/newsletter/"
+  },
+  {
+   "url": "https://fpxnickel.com/wp-content/uploads/FPX-Community-Newsletter-May-2025-3.pdf",
+   "title": "May 2025",
+   "type": "newsletter",
+   "page": "https://fpxnickel.com/community/newsletter/"
+  },
+  {
+   "url": "https://fpxnickel.com/wp-content/uploads/FPX-Community-Newsletter-Feb-2025-PRESS.pdf",
+   "title": "February 2025",
+   "type": "newsletter",
+   "page": "https://fpxnickel.com/community/newsletter/"
+  },
+  {
+   "url": "https://fpxnickel.com/wp-content/uploads/FPX_Sustainability_Report.pdf",
+   "title": "Download the Sustainability Report",
+   "type": "other",
+   "page": "https://fpxnickel.com/corporate/sustainability/"
+  }
+ ],
+ "doc_types": {
+  "technical": 1,
+  "newsletter": 7,
+  "other": 2
+ },
+ "crawled_at": "2026-09-04T15:33:03Z",
+ "name": "FPX Nickel Corp."
+}

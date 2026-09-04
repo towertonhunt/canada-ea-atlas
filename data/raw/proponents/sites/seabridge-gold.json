@@ -1,0 +1,431 @@
+{
+ "key": "seabridge gold",
+ "site": "https://www.seabridgegold.com/",
+ "host": "www.seabridgegold.com",
+ "fetched": 46,
+ "pages": [
+  {
+   "url": "https://www.seabridgegold.com/",
+   "title": "Seabridge Gold",
+   "depth": 0,
+   "docs": 6
+  },
+  {
+   "url": "https://www.seabridgegold.com/projects-portfolio/portfolio",
+   "title": "Portfolio",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/projects/kerr-sulphurets-mitchell",
+   "title": "Seabridge Gold",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/ksm-social-license",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/projects/bronson-corridor",
+   "title": "Seabridge Gold",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/projects/3-aces",
+   "title": "Seabridge Gold",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/projects/snowstorm",
+   "title": "Seabridge Gold",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/projects/courageous-lake",
+   "title": "Seabridge Gold",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/ksm-the-opportunity",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/ksm-geology",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/ksm-land-location-and-climate",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/ksm-acquisition",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/ksm-current-programs",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/bronson-corridor-the-opportunity",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/bronson-corridor-geology",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/bronson-corridor-land-location-and-climate",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/bronson-corridor-acquisition",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/bronson-corridor-current-programs",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/3-aces-the-opportunity",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/3-aces-geology",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/3-aces-land-location-and-climate",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/3-aces-acquisition",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/3-aces-current-programs",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/snowstorm-the-opportunity",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/sandstorm-geology",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/snowstorm-land-location-and-climate",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/snowstorm-acquisition",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/the-courageous-lake-the-opportunity",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/courageous-lake-geology",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/courageous-lake-land-location-and-climate",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/courageous-lake-acquisition",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/courageous-lake-current-programs",
+   "title": "Seabridge Gold",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/our-projects/snowstorm-current-programs",
+   "title": "Seabridge Gold",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/sustainability",
+   "title": "Sustainability",
+   "depth": 1,
+   "docs": 9
+  },
+  {
+   "url": "https://www.seabridgegold.com/the-case-for-gold/another-stinker-jobs-report",
+   "title": "Another Stinker Jobs Report , Jul 02, 2015 | The Case for Gold",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/the-case-for-gold/basic-facts-about-gold",
+   "title": "Basic Facts About Gold, Nov 18, 2009 | The Case for Gold",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/the-case-for-gold/basic-facts-about-gold-prices-elasticity-and-uses",
+   "title": "Basic Facts About Gold: Prices, Elasticity and Uses, Sep 08, 2011 | The Case for Gold",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/the-case-for-gold/for-gold-its-all-about-the-dollar",
+   "title": "For Gold, It's All About the Dollar , Sep 10, 2018 | The Case for Gold",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/the-case-for-gold/from-the-seabridge-gold-2015-annual-report",
+   "title": "From the Seabridge Gold 2015 Annual Report , May 27, 2016 | The Case for Gold",
+   "depth": 1,
+   "docs": 3
+  },
+  {
+   "url": "https://www.seabridgegold.com/the-case-for-gold/return-to-first-principles-reaction-to-extraordinary-developments",
+   "title": "Return to First Principles: Reaction to Extraordinary Developments, Aug 07, 2017 | The Case for Gold",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/the-case-for-gold/tailwinds-driving-the-gold-market",
+   "title": "Tailwinds Driving the Gold Market, Jun 24, 2026 | The Case for Gold",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.seabridgegold.com/the-case-for-gold/the-bear-thesis-on-gold-unwinds",
+   "title": "The Bear Thesis on Gold Unwinds , Sep 18, 2015 | The Case for Gold",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/the-case-for-gold/the-gold-report",
+   "title": "The Gold report, Mar 27, 2023 | The Case for Gold",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.seabridgegold.com/the-case-for-gold/the-spring-winds-tighter-on-gold",
+   "title": "The Spring Winds Tighter on Gold, Jun 14, 2016 | The Case for Gold",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/the-case-for-gold/what-does-the-jobs-report-mean",
+   "title": "What Does The Jobs Report Mean?, Oct 02, 2015 | The Case for Gold",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.seabridgegold.com/the-case-for-gold/why-us-job-reports-make-no-sense",
+   "title": "Why US Job Reports Make No Sense , May 08, 2015 | The Case for Gold",
+   "depth": 1,
+   "docs": 0
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://cdn.prod.website-files.com/5f8f6760f825687e7c1c6508/6a63c33441f892ebccab5df5_Reserves-Resources-July%202026%20-%20FINAL.pdf",
+   "title": "Reserves / Resources",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/"
+  },
+  {
+   "url": "https://ucarecdn.com/5135ab9f-6df5-4c7a-b041-a63befec3088/202609SeabridgeInvestorPresentationFINAL.pdf",
+   "title": "Corporate Presentation",
+   "type": "presentation",
+   "page": "https://www.seabridgegold.com/"
+  },
+  {
+   "url": "https://ucarecdn.com/149b38e1-eda4-4d39-8ff7-3716091913b0/202609SeabridgeFactSheets.pdf",
+   "title": "Fact Sheet",
+   "type": "newsletter",
+   "page": "https://www.seabridgegold.com/"
+  },
+  {
+   "url": "https://cdn.prod.website-files.com/5f8f6760f82568ec1e1c6503/6a5a6c635fdcad936c5fea3b_Investor%20FAQ%20reValor%20Share%20Exchange%20-%20Post-Closing.pdf",
+   "title": "FREQUENTLY ASKED QUESTIONS",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/"
+  },
+  {
+   "url": "https://cdn.prod.website-files.com/5f8f6760f82568ec1e1c6503/6a19c9f0a7f7cb2ed7b56882_Investor%20FAQ%20re%20Valor%20Share%20Exchange.pdf",
+   "title": "SEABRIDGE GOLD / VALOR GOLD SPIN-OUT TRANSACTION CLICK HERE TO READ FAQ",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/"
+  },
+  {
+   "url": "https://cdn.prod.website-files.com/5f8f6760f825687e7c1c6508/6a98841c80a61df315ce011f_2026-09-Seabridge%20Investor%20Presentation%20-%20FINAL.pdf",
+   "title": "6a98841c80a61df315ce011f_2026-09-seabridge%20investor%20presentation%20-%20final.pdf",
+   "type": "presentation",
+   "page": "https://www.seabridgegold.com/"
+  },
+  {
+   "url": "https://ucarecdn.com/ebca9968-b874-4238-bd20-72bc9468c56d/1KSM20220808KSMPFSPEAFINALsml.pdf",
+   "title": "1ksm20220808ksmpfspeafinalsml.pdf",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/projects/kerr-sulphurets-mitchell"
+  },
+  {
+   "url": "https://ucarecdn.com/b1bd2186-9156-4895-a008-be12e6b24df2/ReservesResourcesApril2026.pdf",
+   "title": "see table",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/projects/kerr-sulphurets-mitchell"
+  },
+  {
+   "url": "https://ucarecdn.com/3d54761a-063e-48b0-b8fd-6a4350bfb7bd/2024Courageous_Lake_Technical_Reportsml.pdf",
+   "title": "2024courageous_lake_technical_reportsml.pdf",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/projects/courageous-lake"
+  },
+  {
+   "url": "https://cdn.prod.website-files.com/5f8f6760f82568ec1e1c6503/68434e306c95f376de46c689_TCFD-SEA%20March%202023.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/sustainability"
+  },
+  {
+   "url": "https://cdn.prod.website-files.com/5f8f6760f82568ec1e1c6503/68434e322699aa166aeaa9bb_2023%20SEA%20Sustainability%20report.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/sustainability"
+  },
+  {
+   "url": "https://cdn.prod.website-files.com/5f8f6760f82568ec1e1c6503/68434e2c20dfc77ba9bdb3d9_683765badd90e9cc3ade3055_2023-Seabridge%20Gold%20Data%20Index%20%20-%20ESG%20Performance%20Tables%202023%20FINAL.xlsx",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/sustainability"
+  },
+  {
+   "url": "https://cdn.prod.website-files.com/5f8f6760f82568ec1e1c6503/68434e3151914359db6d1939_2022%20SEA%20Sustainability%20Report.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/sustainability"
+  },
+  {
+   "url": "https://cdn.prod.website-files.com/5f8f6760f82568ec1e1c6503/68434e2c587a06d793305ae5_683765badd90e9cc3ade2fef_Seabridge%20Gold%20Data%20Index%20%20-%20ESG%20Performance%20Tables%202022%20FINAL1%20r1.xls",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/sustainability"
+  },
+  {
+   "url": "https://cdn.prod.website-files.com/5f8f6760f82568ec1e1c6503/68434e2ecba7e87ea0077797_Q4-2021%20Report.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/sustainability"
+  },
+  {
+   "url": "https://cdn.prod.website-files.com/5f8f6760f82568ec1e1c6503/68434e2cc5d528c84a80223b_683765badd90e9cc3ade2f72_SEA%20Data%20Index%20ESG%20Performance%20Tables%202021%20-%20FINAL.xlsx",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/sustainability"
+  },
+  {
+   "url": "https://cdn.prod.website-files.com/5f8f6760f82568ec1e1c6503/68434e2e9619be8f3326f2c3_Q3-2020%20Report.pdf",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/sustainability"
+  },
+  {
+   "url": "https://cdn.prod.website-files.com/5f8f6760f82568ec1e1c6503/68434e2cdfc489a48951ac6e_683765badd90e9cc3ade2f2c_Seabridge%20Gold%20Data%20Index%20%20-%20ESG%20Performance%20Tables%202020.xlsx",
+   "title": "PDF",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/sustainability"
+  },
+  {
+   "url": "https://seabridgegold.net/pdf/2015AR_p12-13.pdf",
+   "title": "Weights, Measures & Others Constants",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/the-case-for-gold/from-the-seabridge-gold-2015-annual-report"
+  },
+  {
+   "url": "https://seabridgegold.net/pdf/2015AR_p11.pdf",
+   "title": "Peak Gold? Bad Idea",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/the-case-for-gold/from-the-seabridge-gold-2015-annual-report"
+  },
+  {
+   "url": "https://seabridgegold.net/pdf/2015AR_p10.pdf",
+   "title": "No Way to Run a Country",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/the-case-for-gold/from-the-seabridge-gold-2015-annual-report"
+  },
+  {
+   "url": "https://ucarecdn.com/13f3fb2c-43ad-4d61-b3f5-eb36c9961c02/TheGoldMarketJune242026AGMFINAL55.pdf",
+   "title": "HERE",
+   "type": "other",
+   "page": "https://www.seabridgegold.com/the-case-for-gold/tailwinds-driving-the-gold-market"
+  },
+  {
+   "url": "https://ucarecdn.com/0d2df10a-4dcd-4048-8b58-a2da5ca2f200/20230328TheGoldMarketupdate.pdf",
+   "title": "Download our latest Case for Gold",
+   "type": "newsletter",
+   "page": "https://www.seabridgegold.com/the-case-for-gold/the-gold-report"
+  }
+ ],
+ "doc_types": {
+  "other": 19,
+  "presentation": 2,
+  "newsletter": 2
+ },
+ "crawled_at": "2026-09-04T15:03:01Z",
+ "name": "Seabridge Gold Inc."
+}

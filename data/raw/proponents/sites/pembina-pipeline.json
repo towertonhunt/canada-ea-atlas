@@ -1,0 +1,2010 @@
+{
+ "key": "pembina pipeline",
+ "site": "http://www.pembina.com/",
+ "host": "www.pembina.com",
+ "fetched": 121,
+ "pages": [
+  {
+   "url": "https://www.pembina.com/",
+   "title": "Home",
+   "depth": 0,
+   "docs": 1
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/indigenous-community-engagement/indigenous-engagement",
+   "title": "Indigenous Engagement",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/indigenous-community-engagement/community-engagement",
+   "title": "Community Engagement",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/indigenous-and-community-engagement/indigenous-engagement",
+   "title": "404",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/indigenous-community-engagement",
+   "title": "Indigenous & Community Engagement",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/indigenous-community-engagement/indigenous-engagement/",
+   "title": "Indigenous Engagement",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/indigenous-community-engagement/community-engagement/",
+   "title": "Community Engagement",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/indigenous-community-engagement/community-investment-apply-now/",
+   "title": "Community Investment - Apply Now",
+   "depth": 2,
+   "docs": 4
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/indigenous-community-engagement/community-investment-apply-now",
+   "title": "Community Investment - Apply Now",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/indigenous-engagement/community-investment-apply-now",
+   "title": "404",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/pembina-supports-a-sustainable-future-with-project-forest/",
+   "title": "Pembina supports a sustainable future with Project Forest",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/pembina-makes-stem-programs-accessible-to-indigenous-youth/",
+   "title": "Pembina makes STEM Programs accessible to Indigenous Youth",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/legal-notice",
+   "title": "Legal Notice",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/indigenous-community-engagement/",
+   "title": "Indigenous & Community Engagement",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/customers",
+   "title": "Customers",
+   "depth": 1,
+   "docs": 79
+  },
+  {
+   "url": "https://www.pembina.com/about/governance/",
+   "title": "Governance",
+   "depth": 2,
+   "docs": 31
+  },
+  {
+   "url": "https://www.pembina.com/about/governance/cynthia-carroll/",
+   "title": "Cynthia Carroll",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/inclusion-networks-creating-supportive-environments-for-diverse-perspectives/",
+   "title": "Inclusion Networks: Creating supportive environments for diverse perspectives",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/pembina-partners-with-project-forest-to-plant-thousands-of-trees/",
+   "title": "Pembina partners with Project Forest to plant thousands of trees",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/pembina-takes-a-proactive-approach-to-environmental-management/",
+   "title": "Pembina takes a proactive approach to environmental management",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/pembina-partners-with-peace-wapiti-school-division-to-support-indigenous-students/",
+   "title": "Pembina partners with Peace Wapiti School Division to support Indigenous Students",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/pembina-s-natural-revegetation-approach-helps-protect-biodiversity-of-indigenous-medicinal-plants/",
+   "title": "Pembina's natural revegetation approach helps protect biodiversity of Indigenous medicinal plants",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/june-is-national-indigenous-history-month/",
+   "title": "June is National Indigenous History Month",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/legal-notice/",
+   "title": "Legal Notice",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/stories/supporting-indigenous-youth-with-spirit-north/",
+   "title": "Supporting indigenous youth with Spirit North",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/stories/environmental-technician-program/",
+   "title": "Environmental Technician Program",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/stories/tree-canada-s-project-has-positive-results/",
+   "title": "Tree Canada's project has positive results",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/esg-data-reports/",
+   "title": "ESG Data & Reports",
+   "depth": 1,
+   "docs": 26
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/esg-data-reports",
+   "title": "ESG Data & Reports",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/",
+   "title": "About",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.pembina.com/operations/",
+   "title": "Operations",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/",
+   "title": "Sustainability",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships/",
+   "title": "Partnerships",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships/cedar-lng/",
+   "title": "Cedar LNG",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/safety/pipelines-operations/",
+   "title": "Pipelines & Operations",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.pembina.com/about/purpose/",
+   "title": "Purpose, Vision, Strategy & Values",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/energy-transition-climate/",
+   "title": "Energy Transition & Climate",
+   "depth": 1,
+   "docs": 1
+  },
+  {
+   "url": "https://www.pembina.com/about/governance",
+   "title": "Governance",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/officerteam/",
+   "title": "Officer Team",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/pipelines/",
+   "title": "Pipelines",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/employee-well-being-culture/",
+   "title": "Employee Well-Being & Culture",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/facilities/",
+   "title": "Facilities",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/health-and-safety/",
+   "title": "Health and Safety",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/history/",
+   "title": "History",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/marketing-new-ventures/",
+   "title": "Marketing & New Ventures",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/responsible-asset-management/",
+   "title": "Responsible Asset Management",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.pembina.com/operations/suppliers/",
+   "title": "Suppliers",
+   "depth": 1,
+   "docs": 6
+  },
+  {
+   "url": "https://www.pembina.com/operations/customers/",
+   "title": "Customers",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/",
+   "title": "Stories",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships/alberta-carbon-grid/",
+   "title": "Alberta Carbon Grid",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/pipelines/alliance-pipeline/",
+   "title": "Alliance Pipeline",
+   "depth": 1,
+   "docs": 8
+  },
+  {
+   "url": "https://www.pembina.com/operations/facilities/aux-sable/",
+   "title": "Aux Sable",
+   "depth": 1,
+   "docs": 5
+  },
+  {
+   "url": "https://www.pembina.com/about/governance/henry-sykes/",
+   "title": "Henry Sykes",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/facilities/prince-rupert-terminal/",
+   "title": "Prince Rupert Terminal",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.pembina.com/about/officerteam/scott-burrows/",
+   "title": "Scott Burrows",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/facilities/vancouver-wharves/",
+   "title": "Vancouver Wharves",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/governance/maureen-howe/",
+   "title": "Maureen Howe",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/",
+   "title": "Taylor to Gordondale",
+   "depth": 1,
+   "docs": 35
+  },
+  {
+   "url": "https://www.pembina.com/about/governance/david-legresley/",
+   "title": "David LeGresley",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/officerteam/jaret-sprott/",
+   "title": "Jaret Sprott",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/governance/leslie-o-donoghue/",
+   "title": "Leslie O'Donoghue",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/officerteam/cameron-goldade/",
+   "title": "Cameron Goldade",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships/greenlight-electricity-centre/",
+   "title": "Greenlight Electricity Centre",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/governance/bruce-rubin/",
+   "title": "Bruce Rubin",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/officerteam/chris-scherman/",
+   "title": "Chris Scherman",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/officerteam/sarah-schwann/",
+   "title": "Sarah Schwann",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/governance/scott-burrows/",
+   "title": "Scott Burrows",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/governance/ana-dutra/",
+   "title": "Ana Dutra",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/governance/andy-j-mah/",
+   "title": "Andy J. Mah",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/governance/alister-cowan/",
+   "title": "Alister Cowan",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/canada-s-top-100-employers-2021/",
+   "title": "Canada's Top 100 Employers 2021",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/giving-back,-together/",
+   "title": "Giving Back, Together",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/paving-the-way-pembina-and-women-building-futures-create-pathways-to-success/",
+   "title": "Paving the way: Pembina and Women Building Futures create pathways to success",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/pembina-celebrates-second-annual-black-history-month/",
+   "title": "Pembina celebrates second annual Black History Month",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/transforming-lives-our-workforce-through-the-trades/",
+   "title": "Transforming lives & our workforce through the trades",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/doing-our-part-in-communities-during-covid-19/",
+   "title": "Doing our part in communities during COVID-19",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/communities/",
+   "title": "404",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/opening-doors-to-careers-in-trades-and-technology-across-our-communities/",
+   "title": "Opening doors to careers in trades and technology across our communities",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/pembina-partners-with-skills-canada-alberta/",
+   "title": "Pembina partners with Skills Canada Alberta",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/sandy-lake-rewilding/",
+   "title": "Sandy Lake rewilding: A collaborative effort for a sustainable future",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/supporting-a-nutritious-start-to-the-day-with-breakfast-club-of-canada/",
+   "title": "Supporting a nutritious start to the day with Breakfast Club of Canada",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/advancing-gender-diversity-in-our-workplace/",
+   "title": "Advancing gender diversity in our workplace",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/energizing-communities-collective-wins-generosity-of-spirit-award/",
+   "title": "Energizing Communities Collective wins Generosity of Spirit Award",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/pembina-partners-with-inside-education/",
+   "title": "Pembina partners with Inside Education",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/protecting-wildlife-and-wild-places-(part-1)/",
+   "title": "Protecting wildlife and wild places (Part 1)",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/protecting-wildlife-and-wild-places-(part-2)/",
+   "title": "Protecting wildlife and wild places (Part 2)",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories/pembina-named-a-top-100-employer-in-canada-recognized-with-deam-employer-award/",
+   "title": "Pembina named a top 100 employer in Canada & recognized with DEAM Employer Award",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about",
+   "title": "About",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/purpose",
+   "title": "Purpose, Vision, Strategy & Values",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/officerteam",
+   "title": "Officer Team",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/about/history",
+   "title": "History",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/safety/pipelines-operations",
+   "title": "Pipelines & Operations",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations",
+   "title": "Operations",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships",
+   "title": "Partnerships",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships/alberta-carbon-grid",
+   "title": "Alberta Carbon Grid",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships/cedar-lng",
+   "title": "Cedar LNG",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships/pembina-gas-infrastructure",
+   "title": "Pembina Gas Infrastructure",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships/pembina-gas-infrastructure/about-us",
+   "title": "About Us",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships/pembina-gas-infrastructure/operations",
+   "title": "Operations",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships/pembina-gas-infrastructure/sustainability",
+   "title": "Sustainability",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships/greenlight-electricity-centre",
+   "title": "Greenlight Electricity Centre",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/pipelines",
+   "title": "Pipelines",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/pipelines/alliance-pipeline",
+   "title": "Alliance Pipeline",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale",
+   "title": "Taylor to Gordondale",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/facilities",
+   "title": "Facilities",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/facilities/aux-sable",
+   "title": "Aux Sable",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/facilities/prince-rupert-terminal",
+   "title": "Prince Rupert Terminal",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/facilities/vancouver-wharves",
+   "title": "Vancouver Wharves",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/marketing-new-ventures",
+   "title": "Marketing & New Ventures",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/suppliers",
+   "title": "Suppliers",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability",
+   "title": "Sustainability",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/energy-transition-climate",
+   "title": "Energy Transition & Climate",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/employee-well-being-culture",
+   "title": "Employee Well-Being & Culture",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/health-and-safety",
+   "title": "Health and Safety",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/responsible-asset-management",
+   "title": "Responsible Asset Management",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/sustainability/stories",
+   "title": "Stories",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/safety/",
+   "title": "Safety",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships/pembina-gas-infrastructure/our-owners",
+   "title": "Our Owners",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships/pembina-gas-infrastructure/management",
+   "title": "Management",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.pembina.com/operations/partnerships/pembina-gas-infrastructure/emergency-response",
+   "title": "Emergency Response",
+   "depth": 2,
+   "docs": 1
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://www.pembina.com/Pembina/media/Pembina/Regulatory/Legal/Pembina-Website-Privacy-Notice.pdf",
+   "title": "Privacy Notice",
+   "type": "other",
+   "page": "https://www.pembina.com/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/7dcbd5e6-5745-4841-8ac6-b1ebc1f4bbed/2025-Pembina-ESG-Report_150.pdf",
+   "title": "2025-pembina-esg-report_150.pdf",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/indigenous-community-engagement/indigenous-engagement"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/f39f2920-18cf-46de-a243-ec48a9c6c6e3/2025-Learning-from-Indigenous-Stories-and-Perspectives-Report.pdf",
+   "title": "2025-learning-from-indigenous-stories-and-perspectives-report.pdf",
+   "type": "engagement",
+   "page": "https://www.pembina.com/sustainability/indigenous-community-engagement/indigenous-engagement"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/db6149fc-6a22-4653-9f4e-3914202ba83d/Community-Investment-Vendor-Form_CAD.pdf",
+   "title": "Community Investment Vendor Onboarding Documents - Canada",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/indigenous-community-engagement/community-investment-apply-now/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/810543f7-ab7e-4c94-bdda-0820ff987f3d/Community-Investment-Vendor-Onboaring-Documents_USA.pdf",
+   "title": "Community Investment Vendor Onboarding Documents - USA",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/indigenous-community-engagement/community-investment-apply-now/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/762b9ec9-8a88-465d-b2c0-910eb9d5d563/Community_Investment_Canada-(3).pdf",
+   "title": "Canadian Engagement Map",
+   "type": "map",
+   "page": "https://www.pembina.com/sustainability/indigenous-community-engagement/community-investment-apply-now/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/d79ee34e-e1d2-4a0e-8c75-9e7114d74008/Community_Investment_USA-(3).pdf",
+   "title": "U.S Engagement Map",
+   "type": "map",
+   "page": "https://www.pembina.com/sustainability/indigenous-community-engagement/community-investment-apply-now/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/0b938377-c69b-4396-ba58-04dc27df6fe9/CVMS-Net-Account-Request-Form.pdf",
+   "title": "CVMS-Net Account Request Form",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/bb20d3a7-2ca7-4307-a930-8c653b2b1eaa/2026-03-Cochin-Open-Season-Notice.pdf",
+   "title": "Notice of Cochin Open Season",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/16ef29f1-e2e5-43c2-81b1-d5b2dce115ab/Rules-and-Regulations-2023.pdf",
+   "title": "Rules and Regulations (Effective January 1, 2023)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/83a84e5e-88ab-49da-8a43-373675aa7792/2026-06-BC-Gathering-Toll-Schedule.pdf",
+   "title": "B.C. Gathering System",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/83f42f61-949f-4640-979d-9e6b222fcb38/2026-06-Blueberry-Toll-Schedule.pdf",
+   "title": "Blueberry System",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/7a8c1fbd-eb29-481d-bde4-8697f968e2e3/2026-06-Brazeau-Toll-Schedule.pdf",
+   "title": "Brazeau",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/3bfe6021-edf0-483e-868b-48c7be906393/2026-06-Drayton-Toll-Schedule.pdf",
+   "title": "Drayton Valley",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/78c3d2de-a2b1-48a0-9e18-cb2f110d6d5e/2026-06-NEBCToll-Schedule.pdf",
+   "title": "North East British Columbia (NEBC) System",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/e88ef867-5871-4521-a9eb-a8922a08d47c/2026-06-Northern-Belloy-to-Namao-Toll-Schedule.pdf",
+   "title": "Northern System - Belloy to Namao",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/f4ed3198-eb0e-41cd-983b-437bdef93ef3/2026-06-Peace-HVP-Toll-Schedule-V1.pdf",
+   "title": "Peace - HVP",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/4bab7e5a-a7a6-4802-9193-5a70ec607110/2026-06-Peace-LVP-Toll-Schedule-V1.pdf",
+   "title": "Peace - LVP",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/0b0647a3-e6f8-4426-8c0d-ce736e9cb228/2026-06-Northern-Taylor-to-Belloy-Toll-Schedule-18-Clean.pdf",
+   "title": "Northern System – Taylor to Belloy (effective June 15, 2026)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/563fc12d-074e-4df9-8f13-705f809cbb5b/2025-01-Pouce-Toll-Schedule-CER-Clean.pdf",
+   "title": "Pouce Coupé System (effective January 1, 2025)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/71f2ee2a-7dfd-4218-a66f-bbafa843b0d6/Swan-Hills-Toll-Schedule-Feb-2025-Final-Edited.pdf",
+   "title": "Swan Hills",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/39de7a14-5f90-482a-a67c-54f62b32f92e/2023-01-Plateau-Toll-Schedule.pdf",
+   "title": "Plateau System",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/de37b70d-f7ca-4066-b56c-d79786e600ba/2025-06-Brazeau-Toll-Schedule.pdf",
+   "title": "Brazeau",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/7a27da75-4be1-43eb-99e2-71792bf93466/2025-06-Drayton-Toll-Schedule-V1.pdf",
+   "title": "Drayton Valley",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/639849aa-9716-4119-a5aa-85ba47576438/2025-06-Peace-HVP-Toll-ScheduleV3.pdf",
+   "title": "Peace - HVP",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/9aa69718-bc4d-42f6-a88b-7b81526f3bc0/2025-06-Peace-LVP-Toll-ScheduleV1.pdf",
+   "title": "Peace - LVP",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/eb64e803-3022-4dc0-bbc8-e3f3088f77b9/2025-06-Northern-Belloy-to-Namao-Toll-Schedule.pdf",
+   "title": "Northern System - Belloy to Namao",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/4908e948-262c-40c3-b890-a25230351024/2025-06-Northern-Taylor-to-Belloy-Toll-Schedule.pdf",
+   "title": "Northern System – Taylor to Belloy",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/6f5733bf-3656-4f7f-9d33-5184d2b55172/2025-06-NEBC-Toll-Schedule.pdf",
+   "title": "North East British Columbia (NEBC) System",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/99ddbe15-0dea-46a7-b2b0-eefb095c5072/2023-06-Blueberry-Toll-Schedule.pdf",
+   "title": "Blueberry",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/2288a439-1077-4f67-a4e3-c547ede0e571/2023-06-BC-Gathering-Toll-Schedule.pdf",
+   "title": "B.C. Gathering System",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/2ec38b35-3e99-4df3-8171-b70080f2a8d1/2026-06-CDH-Toll-Schedule.pdf",
+   "title": "Canadian Diluent Hub (CDH Terminal)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/54b685f9-604c-4e92-a763-225236d053fc/2025-06-CDH-Toll-ScheduleV1.pdf",
+   "title": "Canadian Diluent Hub (CDH Terminal)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/3cea6e19-3764-4015-b417-2127ff819e0f/2024-06-CDH-Toll-Schedule.pdf",
+   "title": "Canadian Diluent Hub (CDH Terminal)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/18c14371-20e1-4dd3-94f8-a1e0595a40af/2023-01-CDH-Toll-Schedule.pdf",
+   "title": "Canadian Diluent Hub (CDH Terminal)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/dd5272ad-382d-463f-ada7-0f19c9ae7cc8/CDH-2020-Tolls.pdf",
+   "title": "Canadian Diluent Hub (CDH Terminal)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/7ed64c86-a811-4623-b1c0-5034b7b26bd7/Peace-LVP-Truck-Terminals-2017-Tolls.pdf",
+   "title": "Peace LVP Truck Terminals",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/b68d1a47-403f-4437-aed6-a8bc15772312/Brazeau-Pipeline-Petroleum-Specifications.pdf",
+   "title": "Brazeau HVP",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/347134c8-c180-4471-a20a-3b4b402583a9/North-Pipeline-Petroleum-Specifications.pdf",
+   "title": "Northern Pipeline HVP",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/3e2cb6e0-7753-4200-af18-4da5de0a3a54/Peace-Pipeline-Petroleum-Specifications.pdf",
+   "title": "Peace Pipeline HVP",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/925a342d-f09e-480f-be7c-1c0b989c9e89/NEBC-BCPL-Condensate-Specification-May-2022.pdf",
+   "title": "BCPL Condensate",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/53986741-d4a3-40e6-bbb8-fc70e6660bf6/BCPL-Crude-Specification-May-2022.pdf",
+   "title": "BCPL Gathering Crude",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/171d5278-8372-4c36-af5c-5ef2b5a60767/Bonnie-Glen-Crude-Specification-May-2022.pdf",
+   "title": "Bonnie Glen",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/07b374a1-75f4-44f6-ac10-0354c842c90c/Drayton-Valley-Condensate-Specification-May-2022.pdf",
+   "title": "Drayton Valley Condensate",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/351dc287-c091-4446-a992-43cfd82b2277/Drayton-Crude-Quality-Specifications-October-1,-2023.pdf",
+   "title": "Drayton Valley Crude",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/ee1c99c1-f601-4828-b23e-2beaa7795e14/Nipisi-Heavy-Crude-Quality-Specifications-September-1,-2023.pdf",
+   "title": "Nipisi Heavy Crude",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/beb55fb7-89c8-460f-81c7-3679ee633b4c/Peace-Condensate-Specification-May-2022.pdf",
+   "title": "Peace Pipeline Condensate",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/4b8df363-00de-4718-bc9d-cf7a8ab2f56c/Peace-Crude-Quality-Specifications-October-1,-2023.pdf",
+   "title": "Peace Pipeline",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/37f5e9e0-6fbc-4f2b-a6c3-fd2d55b4bc2d/Swan-Hills-Crude-Specifications-May-2022.pdf",
+   "title": "Swan Hills",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/05125ffd-ebb7-460d-ba9f-c47bb4336177/Western-Crude-Specifications-May-2022.pdf",
+   "title": "Western System Crude",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/49c8e99b-5f2c-4756-8109-742c61175180/Condensate-PG-I,-Toxic.pdf",
+   "title": "Condensate",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/a619fc1d-9c5f-4523-9da3-613709fcc654/Low-Sulphur-Crude-Oil-PG-I,-Toxic.pdf",
+   "title": "Low Sulphur Crude Oil",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/83fac012-3396-49fc-99e6-faaf7f3b9001/High-Sulphur-Crude-Oil-PG-I,-Toxic.pdf",
+   "title": "High Sulphur Crude Oil",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/91139f33-f5ac-4fda-ac54-1be22a33da86/Butane,-UN1075,-Non-toxic-Pembina-Pipeline-Corporation.pdf",
+   "title": "Butane",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/1f5894b5-5455-462a-bacd-4c20849dd484/Iso-Butane.pdf",
+   "title": "Iso Butane",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/53f4c562-5908-450a-99bb-8a4b6df05021/Normal-Butane.pdf",
+   "title": "Normal Butane",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/46801581-626f-4c29-a71a-a2038675ba6f/Propane-Plus-Non-toxic.pdf",
+   "title": "Propane Plus",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/daa1370e-4362-420a-b129-182dea0e2a74/Propane,-Non-Odourized,-UN1978-or-UN1075,-Non-toxic-Pembina-Pipeline-Corporation.pdf",
+   "title": "Propane, Non-Odorized",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/5663cceb-93b9-4cfe-8302-c7c24de9c790/Propane,-Odourized,-UN1978-or-UN1075,-Non-toxic-Pembina-Pipeline-Corporation.pdf",
+   "title": "Propane, Odorized",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/00404a9a-5970-42ba-ae50-bd8b09a20415/Ethane-Plus-Non-toxic.pdf",
+   "title": "Ethane Plus",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/aba75c94-d6ae-4497-bfa7-3bb84a7d2d3b/Ethane-Non-toxic.pdf",
+   "title": "Ethane",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/81f6f2b8-a3ab-463d-9329-28398deb8292/Vantage-2026-CER-PUBLIC-Tariff-Clean.pdf",
+   "title": "Vantage Pipeline Tariff No. 16 (effective January 1, 2026)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/12c20b2e-261e-483e-8d81-ebbfe6842436/Alliance-Pipeline-Canadian-Tariff-Effective-2025-12-11.pdf",
+   "title": "Alliance Pipeline Canadian Tariff (effective December 11, 2025)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/f5eabef1-e9c5-4eab-9cc0-1edaa7cce60f/COCHIN-CURRENT-TARIFFS-2026-07.pdf",
+   "title": "Cochin Current Tariff Listing July 2026",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/46ec9640-de5f-4378-9f2d-63b1a7cd3c26/Cochin-FERC-77-43-CER-296-Tariff.pdf",
+   "title": "CER Tariff 296 / FERC 77.43.0 (Effective July 1, 2026)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/8d2fdaec-4af6-4648-a676-fc20c5665552/Cochin-FERC-80-20-CER-297-Tariff.pdf",
+   "title": "CER Tariff 297 / FERC 80.20.0 (Effective July 1, 2026)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/35a9b50e-21a7-4900-bd91-9f7e66f74d68/Cochin-FERC-81-21-CER-298-Tariff.pdf",
+   "title": "CER Tariff 298 / FERC 81.21.0 (Effective July 1, 2026)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/840c8365-789b-462a-b767-262a7bbbb7e3/Cochin-CER-299-Rules-Blackline.pdf",
+   "title": "CER Tariff 299 Rules (Effective July 1, 2026)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/089c6d9c-5bb3-4f7c-a7c6-eeab53ab7415/Cochin-CER-300-Local-Blackline.pdf",
+   "title": "CER Tariff 300 Local (Effective July 1, 2026)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/935ba0e8-823f-46d9-90ef-1df965a991f6/Cochin-Equalization-Practice-2023-11-11.pdf",
+   "title": "Cochin Equalization Practice, November 11, 2023",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/da6e44ab-97e4-4bb6-883b-34b84d55defa/Cochin-Retention-Stock-Policy-July-2026.pdf",
+   "title": "Cochin Retention Stock Policy (Effective July 1, 2026)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/1dbb924a-34c7-43b4-bad3-15a93989c15c/Cochin-Light-Condensate-Acceptance-Practice-Feb-1-2023-Clean.pdf",
+   "title": "Cochin Condensate Acceptance Practice (effective Feb 1, 2023)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/a8be9853-8bf4-459a-b9d1-d4dfaaa93081/Cochin-CUSMA-Practice-Feb-1-2023.pdf",
+   "title": "Cochin CUSMA Practice (effective Feb 1, 2023)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/ee91e922-e81e-4f7e-87fa-9b00dc8a40ad/PPFL-2025-CER-Abandonment-Reporting.pdf",
+   "title": "Pembina Prairie Facilities Ltd.'s LOC Annual Reporting Form",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/5778c4a1-02e4-4439-b5a9-2ec92571507c/PESI-2025-CER-Abandonment-Reporting.pdf",
+   "title": "Pembina Energy Services Inc.'s LOC Annual Reporting Form",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/db2c5036-9848-44cb-b77a-5e63843a3a40/VNGL-2025-CER-Abandonment-Reporting.pdf",
+   "title": "Veresen NGL Pipeline Inc.'s LOC Annual Reporting Form",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/8690d0c2-3f3f-4d70-b1f5-387caddd6903/PCPL-NW-2025-CER-Abandonment-Reporting.pdf",
+   "title": "Pouce Coupé Pipe Line Ltd.’s Northwest System’s LOC Annual Reporting Form",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/80a6be3c-49df-401c-845d-a0e5a4e5f814/Northern-2025-Abandonment-Reporting-Form.pdf",
+   "title": "Pouce Coupé Pipe Line Ltd.’s Northern System’s Trust Annual Reporting Form",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/8b211892-fe04-4c3e-9016-f5724f674a5a/Pouce-2025-Abandonment-Reporting-Form.pdf",
+   "title": "Pouce Coupé Pipe Line Ltd.’s Pouce Coupé System’s Trust Annual Reporting Form",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/974159e8-6668-4fbe-bd53-053c44aecbda/Cochin-2025-Abandonment-Reporting-Form.pdf",
+   "title": "PKM Cochin ULC's Cochin System's Trust Annual Reporting Form",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/8046e5cb-4150-4117-b963-76ffdb86550e/Alliance-2025-Abandonment-Reporting-Form.pdf",
+   "title": "Alliance Pipeline Limited Partnership’s Alliance Pipeline’s Trust Annual Reporting Form",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/91870a70-e182-4de7-8e2d-0e7eab5c6be6/FERC-Tariff-1-13-0.pdf",
+   "title": "FERC Tariff 1.13.0 (effective July 1, 2026)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/80d86133-6ca7-47a5-8794-9a2afcf15d1e/Cochin-FERC-Tariff-75-19-Rules.pdf",
+   "title": "FERC Tariff 75.19.0 Rules (Effective July 1, 2026)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/eec8fba6-0545-47a7-b3f0-8cd8c830d735/Cochin-FERC-Tariff-76-28-Local.pdf",
+   "title": "FERC Tariff 76.28.0 Local (Effective July 1, 2026)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/977baed0-9729-437c-81df-df93fbc8916a/Cochin-Tariff-Subscribers-Letter_1.pdf",
+   "title": "Cochin Tariff Subscribers Letter",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/bb7838bc-433a-456e-925c-a11d81300bb3/Condensate-Canada-SDS-Keyera.pdf",
+   "title": "Condensate Canada SDS Keyera",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/customers"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/c18dd6e0-752d-45d2-8a9a-28329d3da290/2026-Information-Circular-Enhanced.pdf",
+   "title": "Information Circular",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/9d6b3e3c-3ae6-4e88-8366-dea74995e18e/Shareholder-Rights-Plan-Agreement-(Conformed-Copy).pdf",
+   "title": "Shareholder Rights Plan",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/072719d3-81c2-4b9b-9815-a6223ca6e90c/Board-Charter-2026-Final.pdf",
+   "title": "Board Charter",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/3b0ef220-98e7-41cf-ac47-63497f50adaa/Audit-Committee-Charter-2026-Final.pdf",
+   "title": "Audit Committee Charter",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/0cb96e56-5a1f-4554-9c12-3eb6b352ac46/GNCSR-Committee-Charter-2026-Final.pdf",
+   "title": "Governance, Nominating & Corporate Social Responsibility Committee Charter",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/e013ba3d-7f0c-4dfa-bb1b-a9ff56dfb1dd/HRC-Committee-Charter-2026-Final.pdf",
+   "title": "Human Resources and Compensation Committee Charter",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/68b30454-b1cb-4768-8bd3-b3a047f23ae6/SEOE-Charter-2026-Final.pdf",
+   "title": "Safety, Environment & Operational Excellence Committee Charter",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/0d9adcdb-b516-4279-b761-a30e71781726/Position-Description-Board-Chair-2025-Final.pdf",
+   "title": "Position Description - Board Chair",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/e6598664-faef-4da9-879d-56a42094d9a7/Position-Description-CEO-2024-Final.pdf",
+   "title": "Position Description - CEO",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/ac037270-e0da-4eb4-925d-332bd1b156b0/Position-Description-Committee-Chair-2025-Final.pdf",
+   "title": "Position Description - Committee Chair",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/3dc53301-9b0e-412f-abd4-0760cb644323/Corporate-Governance-Guidelines-2026-Final.pdf",
+   "title": "Corporate Governance Guidelines",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/b1f2d1a9-29ce-47cf-82ac-0437d091d664/Director-Independence-Guidelines-2025-Final.pdf",
+   "title": "Director Independence Guidelines",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/f1d88374-f7f0-415b-b62d-10ea7aba672d/Board-Diversity-Policy.pdf",
+   "title": "Board Diversity Policy",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/67a552f0-98a9-45b7-b45e-f321aa542da1/Majority-Voting-Policy-(NOV-2023-FINAL).pdf",
+   "title": "Majority Voting Policy",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/4d164efc-bb2f-43fc-b127-ab45c0802fd7/Certificates-and-Articles-of-Amalgamation-and-Amendments.pdf",
+   "title": "Certificates and Articles of Amalgamation and Amendments",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/4cca4e54-4aa3-4e8b-b445-5edd584dee9c/Amended-and-Restated-By-Law-No-1.pdf",
+   "title": "Amended and Restated By-Law No. 1",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/e7a4cdc5-46bc-4d4c-86d3-9bd88b3b3858/By-Law-No-2-Advance-Notice-By-Law.pdf",
+   "title": "By-Law No. 2 (Advance Notice policy)",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/dd56d545-04ba-4234-b287-24de8e04a098/Anti-Bribery-Policy-2026_Final.pdf",
+   "title": "Anti-Bribery Policy",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/76f5a695-4287-45e5-b1ff-85c55c68d9ea/Code-of-Ethics-Policy-2026-(CA)_Final.pdf",
+   "title": "Code of Ethics Policy - Canada",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/da6d99c9-7bb5-496c-8209-fbc9e80d44be/US-Code-of-Ethics-Policy-2026_Final.pdf",
+   "title": "Code of Ethics Policy - United States",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/bd41b5f6-f445-4164-8514-34b750ad7af7/Community-Relations-Policy-2026_Final.pdf",
+   "title": "Community Relations Policy",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/56a1e0c0-593a-4910-adbb-5e254504c9db/Policy-Prohibiting-Discrimination-and-Harassment-2026_Final.pdf",
+   "title": "Discrimination and Harassment Policy",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/21fd89ae-66ab-4df9-ae74-a550bc3e8a2a/Equal-Employment-Opportunity-Policy-2026_Final.pdf",
+   "title": "Equal Employment Opportunity Policy - United States",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/e82c0538-27e6-48a6-8d28-e6ffe20b507a/FERC-Standards-of-Conduct-Policy-2026_Final.pdf",
+   "title": "FERC Standards of Conduct Policy",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/0b95fd90-4e46-4a0a-8331-a2423bf2a736/Health-Safety-and-Environment-Policy-2026_Final.pdf",
+   "title": "Health, Safety & Environment Policy",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/3f9aff9b-c3df-4e9f-b3b7-48c6c0c3a34f/Indigenous-and-Tribal-Relations-Policy-2026_Final.pdf",
+   "title": "Indigenous & Tribal Relations Policy",
+   "type": "engagement",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/8e469bfd-6d0e-4940-9315-39868761719a/Privacy-Policy-2026_Final.pdf",
+   "title": "Privacy Policy",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/5d2e1003-87c3-470b-b167-bcb8fe10a598/Respectful-Workplace-Policy-2026_Final.pdf",
+   "title": "Respectful Workplace Policy",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/188ce061-ee50-4b52-b963-afc189059bbe/Sanctions-Policy-2026_Final.pdf",
+   "title": "Sanctions Policy",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/10d003cb-0a6b-4023-9ab4-d7f4259dce50/Whistleblower-Policy-2026_Final.pdf",
+   "title": "Whistleblower Policy",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/d0833155-59de-4616-af99-a25891680fae/Statement-of-Significant-Differences-(February-2014).pdf",
+   "title": "Statement of Significant Differences",
+   "type": "other",
+   "page": "https://www.pembina.com/about/governance/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/4d961480-d4d4-4772-915b-170e55d108f2/2025-Sustainability-Report-Data-Tables-final.xlsx",
+   "title": "2025 Sustainability Report Data Tables",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/0321d8e6-89c4-47e8-aa76-7db99063c908/2025-GHG-Assurance-Statement.pdf",
+   "title": "2025 GHG Assurance Statement",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/457af80f-80c2-47fb-a779-df2ef5432061/Pembina-Pipeline-Corporation-2025-CDP-Corporate-Questionnaire.pdf",
+   "title": "2025 CDP Submission",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/6f2a7905-c25d-4eeb-89c4-3fef87a02db7/2024-Pembina-ESG-Report.pdf",
+   "title": "2024 Sustainability Report",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/e1453473-7c61-4e7f-b0c9-8299a10ffc9a/2024-Sustainability-Report-Data-Tables.xlsx",
+   "title": "2024 Sustainability Report Data Tables (.xlsx file)",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/8adc6897-f862-4788-8df9-333856545577/Pembina-ESG-Assurance-Report-FY-2024-Finalized.pdf",
+   "title": "2024 GHG Assurance Statement",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/095a7382-10f2-4472-92d6-517507a31867/Pembina-Pipeline-Corporation-2024-CDP-Report.pdf",
+   "title": "2024 CDP Submission",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/9dc4334e-2ef8-4d2e-b374-88216ab8b82d/2023-Sustainability-Report.pdf",
+   "title": "2023 Sustainability Report",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/0298dbdb-2681-4c83-b316-fdec8a3868d6/2023-Sustainability-Report-Data-Tables.xlsx",
+   "title": "2023 Sustainability Report Data Tables (.xlsx file)",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/63623f46-31e0-4c84-91c6-b213a7371d11/2023-GHG-Assurance-Statement.pdf",
+   "title": "2023 GHG Assurance Statement",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/77fea4e8-bf51-4347-aad1-0c670185dfde/2023-CDP-Climate-Submission.pdf",
+   "title": "2023 CDP Submission",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/79016e24-3bc6-4643-97dd-73c260cc2a84/2022-Pembina-Sustainability-Report.pdf",
+   "title": "2022 Sustainability Report",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/8b0a67ba-7fbe-4ded-93ff-12300ca66a4a/2022-Sustainability-Report-Data-Tables-(-xlsx-file).xlsx",
+   "title": "2022 Sustainability Report Data Tables (.xlsx file)",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/b6940e77-7902-453d-a1d4-b26e44a3d685/2022-GHG-Assurance-Statement.pdf",
+   "title": "2022 GHG Assurance Statement",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/58380dd5-1716-451f-8338-2561a6b56889/2022_CDP_PPL.pdf",
+   "title": "2022 CDP Submission",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/3476d3aa-7163-4680-bf66-023790c4cdb7/2021_Pembina_ESG_Report.pdf",
+   "title": "2021 Sustainability Report",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/7ff339ef-e8eb-4f5e-80fa-1af125da226a/2021_Pembina_Pipeline_Data_Tables.xlsx",
+   "title": "2021 Data Tables (.xlsx file)",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/4d6b512a-d3b2-4e8f-a3ae-4837ef679f82/2021_Pembina_Water_Waste_Assurance_Statement_PPL.pdf",
+   "title": "2021 Waste Water Assurance Statement",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/87355f7d-c4af-4530-8ed8-3348b9d7e28c/2021_Pembina_GHG_Assurance_Statement_PPL.pdf",
+   "title": "2021 GHG Assurance Statement",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/a3a1affb-56ae-4931-ad23-c2fa1b11c72d/Pembina-Pipeline-Corporation-Climate-Change-2021.pdf",
+   "title": "2021 CDP Climate Change Submission",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/cf4f47bd-53c8-4393-98fe-c7704c8e6802/Performance-Data-tables-for-2021-ESG-update-final-Web2.pdf",
+   "title": "2020 Data Update",
+   "type": "newsletter",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/3835c2ac-77e0-4084-a253-cfa656b38770/Pembina-2020-SustainabilityReport-Dec-3,-2020.pdf",
+   "title": "2020 Sustainability Report",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/880eeacd-e3c3-4125-bc16-4a2f9ea3b63d/2020_Pembina_GHG_Assurance_Statement_PPL.pdf",
+   "title": "2020 GHG Assurance Statement",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/fe65a789-78f3-4f9b-b254-69efd4066e80/2019_Pembina_GHG_Assurance_Statement_PPL.pdf",
+   "title": "2019 GHG Assurance Statement",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/1bef5e20-0a55-4781-903d-bf5def2fb2e1/2019-Sustainability-Data-Update.pdf",
+   "title": "2019 Data Update",
+   "type": "newsletter",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/d6aa4d39-0b9b-4401-8f84-bbb8627bb326/2018-Pembina-CSR-Report-(Final).pdf",
+   "title": "2018 Sustainability Report",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/esg-data-reports/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/38ad0bf1-235e-4e7f-8c4e-0a3edcd5c43a/Pembina-CorpOverview-August2026-Spread.pdf",
+   "title": "pembina-corpoverview-august2026-spread.pdf",
+   "type": "other",
+   "page": "https://www.pembina.com/about/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/2db4d3d2-7246-46e0-ae17-ef4a3346725d/Pembina-Corporate-Overview.pdf",
+   "title": "pembina-corporate-overview.pdf",
+   "type": "other",
+   "page": "https://www.pembina.com/about/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/d7ff1990-455e-4082-bbd0-95736ed6d073/Commitment-to-Safe-Operations_Handout-Jan-2019.pdf",
+   "title": "Commitment to Safe Operations factsheet",
+   "type": "newsletter",
+   "page": "https://www.pembina.com/safety/pipelines-operations/"
+  },
+  {
+   "url": "https://www.pembina.com/getattachment/c2ad1c87-26a9-49a3-88e9-4fd066351a86/aif-ppc-q4-2025-sedar-filing-version-.pdf",
+   "title": "2025 AIF (pages 108-109)",
+   "type": "other",
+   "page": "https://www.pembina.com/sustainability/energy-transition-climate/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/5dc1e9a5-5605-4ed6-a110-54221bb59f9a/EmergencyContinuityManagement_FactSheet_2023_FINAL-2.pdf",
+   "title": "Emergency & Continuity Management Program Factsheet",
+   "type": "newsletter",
+   "page": "https://www.pembina.com/sustainability/responsible-asset-management/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/fdaa8136-e572-4b4a-aed9-cd0fda0f33d4/Commitment-to-Enviroment_Handout-Jan-2019.pdf",
+   "title": "Commitment to Environment Factsheet",
+   "type": "newsletter",
+   "page": "https://www.pembina.com/sustainability/responsible-asset-management/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/9726460a-3827-4dab-8475-decb94f8d2cb/Supplier-Code-of-Conduct-(05-02-2024).pdf",
+   "title": "Supplier Code of Conduct",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/suppliers/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/115312cf-7cd7-4b0c-a6ef-365115f23d80/GTAC-FOR-GOODS-AND-SERVICES-CDN.pdf",
+   "title": "Purchase Order General Terms and Conditions (PO GTAC)",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/suppliers/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/6730a730-3395-4d9d-9386-5faf9eaf9512/SC-P2P-PRD-010-001-INVOICE-INSTRUCTIONS_3.pdf",
+   "title": "here",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/suppliers/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/ea711790-4b0a-44e0-aa97-983ebd43acbf/SC-P2P-PRD-010-010-VENDOR-INVOICE-INQUIRY-PORTAL.pdf",
+   "title": "here",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/suppliers/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/3d2714eb-039b-47a9-9f02-b9fe0715334e/SCS-Worker-Provisioning-Process-(external-vendor-letter).pdf",
+   "title": "SCS Worker Provisioning Process",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/suppliers/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/4ecb7ee2-b372-475a-aca0-33af1a6558d1/Bill-S-211-Statement-2025-Finals.pdf",
+   "title": "Modern Slavery Report",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/suppliers/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/e71880ea-bda5-4533-b6f9-35ee477c7eca/Alliance-Map_Expanded.pdf",
+   "title": "Enlarge map",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/alliance-pipeline/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/83ca89bf-b008-43e3-ba9f-825f83ed34ec/FERC_Map.pdf",
+   "title": "Market Delivery Map",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/alliance-pipeline/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/f827de4b-e203-4dc5-91a4-35c95e31ecc0/Alliance_Receipt_Aug_2025.pdf",
+   "title": "Receipt Point Map – Canada",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/alliance-pipeline/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/87920641-4a5d-46dd-b260-8f6add90ce6c/Alliance-Pipeline-Canadian-Tariff-Effective-2024-11-01.pdf",
+   "title": "Article 26 of CER",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/pipelines/alliance-pipeline/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/fc3a1dab-0909-4537-b8af-dfa95eb92d0d/QR-Registering-Your-CommPass-Account-v2.pdf",
+   "title": "Registering your CommPass Account",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/pipelines/alliance-pipeline/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/f958798d-9246-4431-891b-9c681b9d63ad/QR-Accessing-QPTM-CommPass.pdf",
+   "title": "Accessing QPTM myQuorum CommPass",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/pipelines/alliance-pipeline/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/b9523252-8287-4af7-a398-261012ac8075/APL-CommPass-Whats-New-Useability.pdf",
+   "title": "APL CommPass What’s New – Useability",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/pipelines/alliance-pipeline/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/3f136489-39ed-4f66-b55a-590b92e7276b/myCommPass-Training-Guide-2024_1.pdf",
+   "title": "myCommPass Training Guide 2024",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/pipelines/alliance-pipeline/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/7d587d09-2c76-486d-b343-03622c1a27f8/ASLP_Updated031014.pdf",
+   "title": "Download the NGL Extraction & Fractionation Facilities Fact Sheet",
+   "type": "newsletter",
+   "page": "https://www.pembina.com/operations/facilities/aux-sable/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/7dc79608-76fd-4a59-9f4e-890f9ee7c897/Palermo-Conditioning-Plant-FINAL_Fact-Sheet.pdf",
+   "title": "Download the Palermo Conditioning Plant Fact Sheet",
+   "type": "newsletter",
+   "page": "https://www.pembina.com/operations/facilities/aux-sable/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/d198325e-2fed-488e-b48c-56adfc78ac63/HOP-Fact-Sheet-for-Web.pdf",
+   "title": "Download the Heartland Offgas Plant Fact Sheet",
+   "type": "newsletter",
+   "page": "https://www.pembina.com/operations/facilities/aux-sable/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/1ebf01c9-c1db-4cb7-9333-e1e1fd8fff14/Directions-Channahon_2025.pdf",
+   "title": "DRIVING DIRECTIONS",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/facilities/aux-sable/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/6ac25358-3cc4-417b-bd1d-03ac4560ff98/Pipeline-Awareness-Brochure.pdf",
+   "title": "Read our Pipeline Safety Awareness Brochure",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/facilities/aux-sable/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/b7fbc45a-c046-4142-8a26-d86ae6ff0910/Pembina-PRT-Rules-and-Notice-to-Ships-Clean-16-May-2022-docx.pdf",
+   "title": "Rules & Notice to ships",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/facilities/prince-rupert-terminal/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/993e7685-2a38-49d0-af23-a683e8e98731/Pembina-Pipeline-Corporation_PRT-Map.pdf",
+   "title": "pembina-pipeline-corporation_prt-map.pdf",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/facilities/prince-rupert-terminal/"
+  },
+  {
+   "url": "https://docs2.cer-rec.gc.ca/ll-eng/llisapi.dll/fetch/2000/90464/90552/889384/4445358/4445359/4644816/4648654/C38201-3_Commission_-_Certificate_OC-068_-_Pouce_Coupé_Pipe_Line_Ltd._-_Application_for_the_Taylor_to_Gordondale_Pipeline_Project_-_OH-001-2024_-_A9S4Z6.pdf?nodeid=4648657&vernum=-2",
+   "title": "CER issued Certificate OC-068",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/08068070-a145-4125-a16d-a81a2731848e/PB000523-GS-MAP-042_00_T2G_PPBoR_Title_Page.pdf",
+   "title": "Plan and Profile Title Page",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/ea821bf0-9bc8-40de-ae27-a67a12a3c6ca/PB000523-GS-MAP-043_00_T2G_PPBoR_Key_Plan.pdf",
+   "title": "Plan and Profile Key Plan",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/d9b0c3b6-5de3-4bfc-b7d4-53cd4db46de2/PB000523-DD-MAP-779_00_T2G_PlanandProfile_Sheet1.pdf",
+   "title": "Plan and Profile Sheet 1",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/d69ef23b-20c1-4c24-8729-0292624dd2a5/PB000523-DD-MAP-780_00_T2G_PlanandProfile_Sheet2.pdf",
+   "title": "Plan and Profile Sheet 2",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/5907c464-2782-40a6-8695-78262a01ff1d/PB000523-DD-MAP-781_00_T2G_PlanandProfile_Sheet3.pdf",
+   "title": "Plan and Profile Sheet 3",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/4163aa8f-f9e4-42d8-a5be-6a9fe03ef2ac/PB000523-DD-MAP-782_00_T2G_PlanandProfile_Sheet4.pdf",
+   "title": "Plan and Profile Sheet 4",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/102647f0-651b-43a8-ad39-4c139dc824d2/PB000523-DD-MAP-783_00_T2G_PlanandProfile_Sheet5.pdf",
+   "title": "Plan and Profile Sheet 5",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/e100cc8f-1f46-4ec2-898f-df7fbedd9f73/PB000523-DD-MAP-784_00_T2G_PlanandProfile_Sheet6.pdf",
+   "title": "Plan and Profile Sheet 6",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/ab692406-bf13-4ba0-b921-86f25eece4a6/PB000523-DD-MAP-785_00_T2G_PlanandProfile_Sheet7.pdf",
+   "title": "Plan and Profile Sheet 7",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/21ad8f69-61ae-47b9-9dd3-ee4e2051a344/PB000523-DD-MAP-786_00_T2G_PlanandProfile_Sheet8.pdf",
+   "title": "Plan and Profile Sheet 8",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/6beeab62-f3a9-4438-b15d-9027c2bd8571/PB000523-DD-MAP-787_00_T2G_PlanandProfile_Sheet9.pdf",
+   "title": "Plan and Profile Sheet 9",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/9b14bb8c-c43d-4b0c-820e-91df1a5428a6/PB000523-DD-MAP-788_00_T2G_PlanandProfile_Sheet10.pdf",
+   "title": "Plan and Profile Sheet 10",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/1e2c7535-bd7b-41a7-b2ba-253db00f2cd3/PB000523-DD-MAP-789_00_T2G_PlanandProfile_Sheet11.pdf",
+   "title": "Plan and Profile Sheet 11",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/3a67c3f8-4b10-4cd7-bcc2-c152b0755d3d/PB000523-DD-MAP-790_00_T2G_PlanandProfile_Sheet12.pdf",
+   "title": "Plan and Profile Sheet 12",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/5fee9d53-c7f8-4486-b452-e322d1097a81/PB000523-DD-MAP-791_00_T2G_PlanandProfile_Sheet13.pdf",
+   "title": "Plan and Profile Sheet 13",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/48acc364-391e-4a89-8f11-afef24d86442/PB000523-DD-MAP-792_00_T2G_PlanandProfile_Sheet14.pdf",
+   "title": "Plan and Profile Sheet 14",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/6aa9de57-3d06-47c1-b785-307f1588b34c/PB000523-DD-MAP-793_00_T2G_PlanandProfile_Sheet15.pdf",
+   "title": "Plan and Profile Sheet 15",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/af3efa09-70a8-4870-9263-303019f6a356/PB000523-DD-MAP-794_00_T2G_PlanandProfile_Sheet16.pdf",
+   "title": "Plan and Profile Sheet 16",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/281cc255-bee6-441e-885d-cbcb47bbc0e0/PB000523-DD-MAP-795_00_T2G_PlanandProfile_Sheet17.pdf",
+   "title": "Plan and Profile Sheet 17",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/5511e810-3c50-49b7-8a89-0bfd2085951e/PB000523-DD-MAP-796_00_T2G_PlanandProfile_Sheet18.pdf",
+   "title": "Plan and Profile Sheet 18",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/7865c358-2331-44f2-b064-0e08dce0ae6f/PB000523-DD-MAP-797_00_T2G_PlanandProfile_Sheet19.pdf",
+   "title": "Plan and Profile Sheet 19",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/4ba9a464-fd4b-488f-a970-fd6d84d3d2ce/PB000523-DD-MAP-798_00_T2G_PlanandProfile_Sheet20.pdf",
+   "title": "Plan and Profile Sheet 20",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/140e29e5-2128-492f-b317-4a1cf8410349/PB000523-DD-MAP-799_00_T2G_PlanandProfile_Sheet21.pdf",
+   "title": "Plan and Profile Sheet 21",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/146cbc2c-d537-41e2-b99b-4bbfecfed269/PB000523-DD-MAP-800_00_T2G_PlanandProfile_Sheet22.pdf",
+   "title": "Plan and Profile Sheet 22",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/65e7fce8-aeb7-4ea8-b78b-5d36f430b06b/PB000523-DD-MAP-801_00_T2G_PlanandProfile_Sheet23.pdf",
+   "title": "Plan and Profile Sheet 23",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/1fe094dc-d7fa-4865-ab10-8ad652edb554/PB000523-DD-MAP-802_00_T2G_PlanandProfile_Sheet24.pdf",
+   "title": "Plan and Profile Sheet 24",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/1c62b150-62f1-4974-975e-5944ee5b38fb/PB000523-DD-MAP-803_00_T2G_PlanandProfile_Sheet25.pdf",
+   "title": "Plan and Profile Sheet 25",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/fbdd34bd-9d99-4c9d-b01d-15380d117c23/PB000523-DD-MAP-804_00_T2G_PlanandProfile_Sheet26.pdf",
+   "title": "Plan and Profile Sheet 26",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/ad848e99-c2a9-4ae7-b29e-c2c24966f120/PB000523-DD-MAP-805_00_T2G_PlanandProfile_Sheet27.pdf",
+   "title": "Plan and Profile Sheet 27",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/f6780cd0-f99d-4102-8800-4b19bfc21131/PB000523-DD-MAP-806_00_T2G_PlanandProfile_Sheet28.pdf",
+   "title": "Plan and Profile Sheet 28",
+   "type": "map",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/7e327658-489c-4ef8-ade2-a6ee7ca06964/BookofReference_EN.pdf",
+   "title": "English",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/d35b2a0a-7153-4b40-a7b5-dec261791d46/BookofReference_FR.pdf",
+   "title": "French",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/0664af17-a3f6-4291-abe8-f22a3ba57ef2/Pembina-Publication-Notice_-English.pdf",
+   "title": "English",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/9e475099-68c0-45d5-b919-92e79fc23098/Pembina-Publication-Notice_French.pdf",
+   "title": "French",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/pipelines/taylor-to-gordondale/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/4ecd8b08-be7b-4b9f-8364-88a14b0012b1/VEPI-2025-CER-Abandonment-Reporting.pdf",
+   "title": "Tupper Pipelines Annual Reporting Forms",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/partnerships/pembina-gas-infrastructure/operations"
+  },
+  {
+   "url": "https://www.pembina.com/CMS/Pembina/media/Pembina/pdfs/PGI/VEPI-Posted-Toll-2020.pdf",
+   "title": "Tupper Pipelines Tariffs",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/partnerships/pembina-gas-infrastructure/operations"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/a0da1b32-ee7f-42b1-afb4-7b942223c5da/2024-PGI-ESG-Report-Final.pdf",
+   "title": "2024 PGI Sustainability Highlights Report",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/partnerships/pembina-gas-infrastructure/sustainability"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/9b35aee6-8c8d-43a7-90fc-c9c41a64afde/PGI-Sustainability-Highlights-Report-2024-Final-PROOF.pdf",
+   "title": "2023 PGI Sustainability Highlights Report",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/partnerships/pembina-gas-infrastructure/sustainability"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/dea619e9-eb2d-467c-8d63-da330e929f76/PGI-2022-ESG-Report-Final.pdf",
+   "title": "2022 PGI Sustainability Highlights Report",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/partnerships/pembina-gas-infrastructure/sustainability"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/f4e5df07-8046-48c6-94b1-07bc2c04182a/Life-Saving-Rules-11x17-2025.pdf",
+   "title": "Download Life Saving Rules Poster",
+   "type": "other",
+   "page": "https://www.pembina.com/safety/"
+  },
+  {
+   "url": "https://www.pembina.com/getmedia/dceb28be-52f5-4307-877e-dc8d10af6acd/GBU-West-ERP-Redacted-for-Public-Posting.pdf",
+   "title": "Emergency Response Plan",
+   "type": "other",
+   "page": "https://www.pembina.com/operations/partnerships/pembina-gas-infrastructure/emergency-response"
+  }
+ ],
+ "doc_types": {
+  "other": 166,
+  "engagement": 2,
+  "map": 36,
+  "newsletter": 8
+ },
+ "crawled_at": "2026-09-04T15:11:45Z",
+ "name": "Pembina Pipeline Corp."
+}

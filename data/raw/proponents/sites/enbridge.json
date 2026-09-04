@@ -1,0 +1,2434 @@
+{
+ "key": "enbridge",
+ "site": "https://www.enbridge.com/",
+ "host": "www.enbridge.com",
+ "fetched": 250,
+ "pages": [
+  {
+   "url": "https://www.enbridge.com/",
+   "title": "Home - Enbridge Inc.",
+   "depth": 0,
+   "docs": 3
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project",
+   "title": "Ridgeline Expansion Project - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/project-timeline",
+   "title": "Project Timeline - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/project-map",
+   "title": "Project Map - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/open-house-series",
+   "title": "Open House Series - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project/project-timeline",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project/project-timeline",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project/project-map",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project/project-map",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project/open-house-series",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project/open-house-series",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/proposed-facilities",
+   "title": "Proposed Facilities - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/fact-sheets",
+   "title": "Fact Sheets - Enbridge Inc.",
+   "depth": 2,
+   "docs": 9
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/related-content-links",
+   "title": "Related Content Links - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project/proposed-facilities",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project/proposed-facilities",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project/fact-sheets",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project/fact-sheets",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project/related-content-links",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project/related-content-links",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/projects-and-infrastructure/projects/ridgeline-expansion-project",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Indigenous-Engagement",
+   "title": "Indigenous Engagement - Enbridge Inc.",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.enbridge.com/sustainability-reports/sustainability-report-2017/priority-areas/stakeholder-and-indigenous-engagement/indigenous-engagement",
+   "title": "Indigenous Engagement - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Indigenous-Engagement",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/sustainability-reports/sustainability-report-2017/priority-areas/stakeholder-and-indigenous-engagement/indigenous-engagement",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/sustainability-reports/sustainability-report-2017/priority-areas/stakeholder-and-indigenous-engagement/stakeholder-engagement",
+   "title": "Stakeholder Engagement - Enbridge Inc.",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.enbridge.com/sustainability-reports/sustainability-report-2017/priority-areas/stakeholder-and-indigenous-engagement/stakeholder-engagement",
+   "title": "Stakeholder Engagement - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/sustainability-reports/sustainability-report-2017/priority-areas/stakeholder-and-indigenous-engagement/stakeholder-engagement",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Indigenous-Engagement/Overview",
+   "title": "",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Indigenous-Engagement/Management-Approach",
+   "title": "",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Indigenous-Engagement/2017-Performance",
+   "title": "",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Indigenous-Engagement/Conversations",
+   "title": "",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Project-Timeline",
+   "title": "Project Timeline - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Project-Timeline",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Project-Timeline",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Project-Timeline",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Project-Timeline",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Open-House-Series",
+   "title": "Open House Series - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Open-House-Series",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Open-House-Series",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Open-House-Series",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Open-House-Series",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Project-Map",
+   "title": "Project Map - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Project-Map",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Project-Map",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Project-Map",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Project-Map",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Texas-Eastern-Line-31-Expansion-Project/Project-scope",
+   "title": "Project Scope - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/texas-eastern-line-31-expansion-project",
+   "title": "Texas Eastern Line 31 Expansion Project - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/texas-eastern-line-31-expansion-project/project-scope",
+   "title": "Project Scope - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/texas-eastern-line-31-expansion-project/project-map",
+   "title": "Project Map - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Texas-Eastern-Line-31-Expansion-Project/Project-scope",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Texas-Eastern-Line-31-Expansion-Project/Project-scope",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Texas-Eastern-Line-31-Expansion-Project/Project-scope",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Texas-Eastern-Line-31-Expansion-Project/Project-scope",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/texas-eastern-line-31-expansion-project/timeline",
+   "title": "Timeline - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/texas-eastern-line-31-expansion-project/fact-sheets",
+   "title": "Fact sheets - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/texas-eastern-line-31-expansion-project/related-content-links",
+   "title": "Related content links - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/texas-eastern-line-31-expansion-project",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/texas-eastern-line-31-expansion-project",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Texas-Eastern-Line-31-Expansion-Project/Project-map",
+   "title": "Project Map - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Texas-Eastern-Line-31-Expansion-Project/Project-map",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Texas-Eastern-Line-31-Expansion-Project/Project-map",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Texas-Eastern-Line-31-Expansion-Project/Project-map",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Texas-Eastern-Line-31-Expansion-Project/Project-map",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/courseulles-calvados-offshore-wind-project",
+   "title": "Courseulles (Calvados) Offshore Wind Project - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/courseulles-calvados-offshore-wind-project",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/courseulles-calvados-offshore-wind-project",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/projects-and-infrastructure/projects/courseulles-calvados-offshore-wind-project",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/projects-and-infrastructure/projects/courseulles-calvados-offshore-wind-project",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program",
+   "title": "Sunrise Expansion Program - Enbridge Inc.",
+   "depth": 1,
+   "docs": 2
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/project-scope",
+   "title": "Project Scope - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/engagement",
+   "title": "Engagement - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/regulatory-information",
+   "title": "Regulatory Information - Enbridge Inc.",
+   "depth": 2,
+   "docs": 2
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/sunrise-expansion-program/project-scope",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/sunrise-expansion-program/project-scope",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/sunrise-expansion-program/engagement",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/sunrise-expansion-program/engagement",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/sunrise-expansion-program/regulatory-information",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/sunrise-expansion-program/regulatory-information",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/sustainability-reports/sustainability-report-2017/priority-areas/safety-and-environmental-protection/health-and-safety",
+   "title": "Health and Safety - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/sustainability-reports/sustainability-report-2017/areas-that-enable-continuous-improvement/environmental-management-systems/environmental-management-systems",
+   "title": "Environmental Management Systems - Enbridge Inc.",
+   "depth": 2,
+   "docs": 4
+  },
+  {
+   "url": "https://www.enbridge.com/sustainability-reports/sustainability-report-2017/areas-that-enable-continuous-improvement/environmental-management-systems/environmental-management-systems",
+   "title": "Environmental Management Systems - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/sustainability-reports/sustainability-report-2017/areas-that-enable-continuous-improvement/environmental-management-systems/environmental-management-systems",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/sustainability-reports/sustainability-report-2017/areas-that-enable-continuous-improvement/environmental-management-systems/environmental-management-systems",
+   "title": "Environmental Management Systems - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/investigative-field-studies",
+   "title": "Investigative Field Studies - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/fact-sheets-and-newsletters",
+   "title": "Fact Sheets and Newsletters - Enbridge Inc.",
+   "depth": 2,
+   "docs": 10
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/sunrise-expansion-program",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/sunrise-expansion-program",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/sunrise-expansion-program/investigative-field-studies",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/sunrise-expansion-program/investigative-field-studies",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/sunrise-expansion-program/fact-sheets-and-newsletters",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/sunrise-expansion-program/fact-sheets-and-newsletters",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/projects-and-infrastructure/projects/sunrise-expansion-program",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/projects-and-infrastructure/projects/sunrise-expansion-program",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Public-Awareness/Cowboy-Solar-and-BESS-Project/Project-Engagement",
+   "title": "Project Consultation - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Public-Awareness/Cowboy-Solar-and-BESS-Project/Project-Engagement",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Public-Awareness/Cowboy-Solar-and-BESS-Project/Project-Engagement",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Public-Awareness/Cowboy-Solar-and-BESS-Project/Project-Engagement",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Public-Awareness/Cowboy-Solar-and-BESS-Project/Project-Engagement",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/cowboy-solar-and-bess-project",
+   "title": "Cowboy Solar I & II and BESS Project - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/cowboy-solar-and-bess-project/project-engagement",
+   "title": "Project Consultation - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/cowboy-solar-and-bess-project/project-updates",
+   "title": "Project Updates - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/cowboy-solar-and-bess-project/project-calendar",
+   "title": "Project Calendar - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/cowboy-solar-and-bess-project/project-meeting",
+   "title": "Project Meeting - Enbridge Inc.",
+   "depth": 3,
+   "docs": 2
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/cowboy-solar-and-bess-project/regulatory-information",
+   "title": "Regulatory Information - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Clear-Fork-Solar-Project/Project-Updates",
+   "title": "Project Updates - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Clear-Fork-Solar-Project/Project-Updates",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Clear-Fork-Solar-Project/Project-Updates",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Clear-Fork-Solar-Project/Project-Updates",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Clear-Fork-Solar-Project/Project-Updates",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/clear-fork-solar-project",
+   "title": "Clear Fork Solar Project - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/clear-fork-solar-project/project-updates",
+   "title": "Project Updates - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/clear-fork-solar-project/frequently-asked-questions",
+   "title": "Frequently Asked Questions - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/clear-fork-solar-project",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/clear-fork-solar-project",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Easter-Wind-Project/Project-Updates",
+   "title": "Project Updates - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Easter-Wind-Project/Project-Updates",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Easter-Wind-Project/Project-Updates",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Easter-Wind-Project/Project-Updates",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Easter-Wind-Project/Project-Updates",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/easter-wind-project",
+   "title": "Easter Wind Project - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/easter-wind-project/project-updates",
+   "title": "Project Updates - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/easter-wind-project/project-map",
+   "title": "Project Map - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/easter-wind-project/easter-wind-faqs",
+   "title": "Easter Wind FAQs - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/easter-wind-project",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/easter-wind-project",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Easter-Wind-Project/Project-Map",
+   "title": "Project Map - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Easter-Wind-Project/Project-Map",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Easter-Wind-Project/Project-Map",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Easter-Wind-Project/Project-Map",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Easter-Wind-Project/Project-Map",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Seven-Stars-Energy-Project/Community-Engagement",
+   "title": "Community Engagement - Enbridge Inc.",
+   "depth": 1,
+   "docs": 5
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Seven-Stars-Energy-Project/Community-Engagement",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Seven-Stars-Energy-Project/Community-Engagement",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Seven-Stars-Energy-Project/Community-Engagement",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Seven-Stars-Energy-Project/Community-Engagement",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project",
+   "title": "Seven Stars Energy Project - Enbridge Inc.",
+   "depth": 2,
+   "docs": 11
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/community-engagement",
+   "title": "Community Engagement - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/project-qa",
+   "title": "Project Q&A - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/project-area",
+   "title": "Project Area - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/project-layout",
+   "title": "Project Layout - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/project-updates",
+   "title": "Project Updates - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/project-calendar",
+   "title": "Project Calendar - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information",
+   "title": "Regulatory Information - Enbridge Inc.",
+   "depth": 3,
+   "docs": 58
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/reclamation",
+   "title": "Reclamation - Enbridge Inc.",
+   "depth": 3,
+   "docs": 2
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/seven-stars-energy-project",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/seven-stars-energy-project",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Stakeholder-Engagement",
+   "title": "Stakeholder Engagement - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Stakeholder-Engagement",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Stakeholder-Engagement/Overview",
+   "title": "",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Stakeholder-Engagement/Management-Approach",
+   "title": "",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Stakeholder-Engagement/2017-Performance",
+   "title": "",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Stakeholder-Engagement/Performance-Data",
+   "title": "",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Stakeholder-Engagement/Conversations",
+   "title": "",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects",
+   "title": "Growth projects - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/aspen-point-program",
+   "title": "Aspen Point Program - Enbridge Inc.",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/aspen-point-program/indigenous-engagement",
+   "title": "Indigenous Engagement - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/woodfibre-lng",
+   "title": "Woodfibre LNG - Enbridge Inc.",
+   "depth": 2,
+   "docs": 3
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/woodfibre-lng/indigenous-engagement",
+   "title": "Indigenous Engagement - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/woodfibre-lng/lng-and-the-environment",
+   "title": "LNG and the Environment - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/woodfibre-lng/project-timeline",
+   "title": "Project Timeline - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Public-Awareness/Seven-Stars-Energy-Project-regulatory-and-permitting-reviews",
+   "title": "Seven Stars Energy Project regulatory and permitting reviews - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Public-Awareness/Seven-Stars-Energy-Project-regulatory-and-permitting-reviews",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Public-Awareness/Seven-Stars-Energy-Project-regulatory-and-permitting-reviews",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Public-Awareness/Seven-Stars-Energy-Project-regulatory-and-permitting-reviews",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Public-Awareness/Seven-Stars-Energy-Project-regulatory-and-permitting-reviews",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Seven-Stars-Energy-Project",
+   "title": "Seven Stars Energy Project - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Seven-Stars-Energy-Project",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Seven-Stars-Energy-Project",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Public-Awareness/Indigenous/Indigenous-Lifecycle-Engagement-Framework",
+   "title": "Enbridge’s Indigenous Lifecycle Engagement Framework - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Public-Awareness/Indigenous/Indigenous-Lifecycle-Engagement-Framework",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Public-Awareness/Indigenous/Indigenous-Lifecycle-Engagement-Framework",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Public-Awareness/Indigenous/Indigenous-Lifecycle-Engagement-Framework",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Public-Awareness/Indigenous/Indigenous-Lifecycle-Engagement-Framework",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Public-Awareness/Indigenous/Indigenous-business-spending-target",
+   "title": "A billion-dollar commitment: Target set for Indigenous business spending - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/About-Us/Our-Values/Indigenous-Communities/Indigenous-Economic-Engagement",
+   "title": "Indigenous economic engagement - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Public-Awareness/Indigenous/Indigenous-business-spending-target",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Public-Awareness/Indigenous/Indigenous-business-spending-target",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous",
+   "title": "Indigenous - Enbridge Inc.",
+   "depth": 2,
+   "docs": 7
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous/indigenous-lifecycle-engagement-framework",
+   "title": "Enbridge’s Indigenous Lifecycle Engagement Framework - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/reports/2025-indigenous-reconciliation-action-plan-refresh",
+   "title": "The journey continues: Our 2025 Indigenous Reconciliation Action Plan Refresh - Enbridge Inc.",
+   "depth": 3,
+   "docs": 2
+  },
+  {
+   "url": "https://www.enbridge.com/about-us/our-values/indigenous-communities/indigenous-economic-engagement",
+   "title": "Indigenous economic engagement - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous/prairie-region-pipeline-safety-indigenous-language-translations",
+   "title": "Prairie Region pipeline safety Indigenous language translations - Enbridge Inc.",
+   "depth": 3,
+   "docs": 9
+  },
+  {
+   "url": "https://www.enbridge.com/reports/2022-indigenous-reconciliation-action-plan",
+   "title": "The journey ahead: Our Indigenous Reconciliation Action Plan - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project/Project-permit-applications-USACE",
+   "title": "Project permit applications: U.S. Army Corps of Engineers - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project/project-permit-applications-wdnr",
+   "title": "Project permit applications: Wisconsin Department of Natural Resources (DNR) - Enbridge Inc.",
+   "depth": 2,
+   "docs": 5
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project/Project-permit-applications-USACE",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project/Project-permit-applications-USACE",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project/project-permit-applications-usace",
+   "title": "Project permit applications: U.S. Army Corps of Engineers - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project/project-permit-applications-wdnr",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project/project-permit-applications-wdnr",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project/Project-permit-applications-USACE",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project/Project-permit-applications-USACE",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project",
+   "title": "Line 5 Wisconsin Segment Relocation Project - Enbridge Inc.",
+   "depth": 2,
+   "docs": 9
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project-newsroom/wetland-restoration-project-benefits-water-quality-near-ashland",
+   "title": "Wetland restoration project benefits water quality near Ashland - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project-newsroom/tankers-to-pipelines-little-known-era-oil-crossed-great-lakes-1950s",
+   "title": "From tankers to pipelines: The little-known era when oil crossed the Great Lakes - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project/Project-permit-applications-WDNR",
+   "title": "Project permit applications: Wisconsin Department of Natural Resources (DNR) - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project/Project-permit-applications-WDNR",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project/Project-permit-applications-WDNR",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project/Project-permit-applications-WDNR",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project/Project-permit-applications-WDNR",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project-Newsroom/Permits-confirmed-Line-5-Wisconsin-Segment-Relocation-Project-construction-set-to-begin",
+   "title": "With state permits confirmed, Line 5 project set to shift into high gear - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project-Newsroom/Permits-confirmed-Line-5-Wisconsin-Segment-Relocation-Project-construction-set-to-begin",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project-Newsroom/Permits-confirmed-Line-5-Wisconsin-Segment-Relocation-Project-construction-set-to-begin",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project-Newsroom/Permits-confirmed-Line-5-Wisconsin-Segment-Relocation-Project-construction-set-to-begin",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Public-Awareness/Line-5-Wisconsin-Segment-Relocation-Project-Newsroom/Permits-confirmed-Line-5-Wisconsin-Segment-Relocation-Project-construction-set-to-begin",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project-newsroom",
+   "title": "Line 5 Wisconsin Segment Relocation Project - Enbridge Inc.",
+   "depth": 2,
+   "docs": 1
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project-newsroom/work-resumes-on-line-5-wisconsin-segment-relocation-project",
+   "title": "Work resumes on Line 5 Wisconsin Segment Relocation Project - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project-newsroom/permits-confirmed-line-5-wisconsin-segment-relocation-project-construction-set-to-begin",
+   "title": "With state permits confirmed, Line 5 project set to shift into high gear - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project-newsroom/line-5-wisconsin-project-hdd-construction-drilling-clay-bentonite-water-mixture",
+   "title": "Beneath rivers and wetlands, a clay-and-water mixture helps build the future of Line 5 - Enbridge Inc.",
+   "depth": 3,
+   "docs": 1
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project-newsroom/trimedia-engineering-environmental-line-5-wisconsin-segment-replacement",
+   "title": "Native American-owned engineering firm helps steward the land - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project-newsroom/tribal-cultural-monitors-protect-heritage-line-5-wisconsin-construction",
+   "title": "Cultural monitors protect heritage on Line 5 Wisconsin construction project - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Appalachia-to-Market-III-Project/Project-Updates",
+   "title": "Project Updates - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Appalachia-to-Market-III-Project/Project-Updates",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Appalachia-to-Market-III-Project/Project-Updates",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Appalachia-to-Market-III-Project/Project-Updates",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Appalachia-to-Market-III-Project/Project-Updates",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/appalachia-to-market-iii-project",
+   "title": "Appalachia to Market III Project - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/projects-and-infrastructure/projects/appalachia-to-market-iii-project/project-updates",
+   "title": "Project Updates - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/projects-and-infrastructure/projects/appalachia-to-market-iii-project",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/projects-and-infrastructure/projects/appalachia-to-market-iii-project",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Aspen-Point-Program/Indigenous-Engagement",
+   "title": "Indigenous Engagement - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Aspen-Point-Program/Indigenous-Engagement",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Aspen-Point-Program/Indigenous-Engagement",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Aspen-Point-Program/Indigenous-Engagement",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Aspen-Point-Program/Indigenous-Engagement",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project",
+   "title": "Ridgeline Expansion Project - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Proposed-Facilities",
+   "title": "Proposed Facilities - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Proposed-Facilities",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Proposed-Facilities",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Proposed-Facilities",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Proposed-Facilities",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Fact-Sheets",
+   "title": "Fact Sheets - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Fact-Sheets",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Fact-Sheets",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Fact-Sheets",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Fact-Sheets",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Related-Content-Links",
+   "title": "Related Content Links - Enbridge Inc.",
+   "depth": 1,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Related-Content-Links",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Related-Content-Links",
+   "title": "",
+   "depth": 2,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={E8796595-5EC6-4D21-814A-AB2B919483CD}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Related-Content-Links",
+   "title": "Set your location - Enbridge Inc.",
+   "depth": 3,
+   "docs": 0
+  },
+  {
+   "url": "https://www.enbridge.com/viewer?item={{this.raw.z95xid}}&referrer=/viewer?item=%7BE8796595-5EC6-4D21-814A-AB2B919483CD%7D&referrer=/Projects-and-Infrastructure/Projects/Ridgeline-Expansion-Project/Related-Content-Links",
+   "title": "",
+   "depth": 3,
+   "docs": 0
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Reports/Sustainability-Report-2025/Enbridge_SR_2025.pdf?rev=12caefdeac3a4219be884c2318636c31&hash=56D227E5C9F3A8358E11182DC558E83B",
+   "title": "Read the report",
+   "type": "other",
+   "page": "https://www.enbridge.com/"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Investor-Relations/2025/2025_ENB_Day_Combined_Presentation.pdf?rev=e8d30c8175284e25b6c69b362a424c9d&hash=004645D9EBD9C75D2BCD9DD16BABE4C4",
+   "title": "Read more",
+   "type": "presentation",
+   "page": "https://www.enbridge.com/"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Investor-Relations/2026/2026_Q2_Earnings_Presentation_Final.pdf?rev=d43eb8ba746f4e8e92907c86f0847ddc&hash=E32C55677C975BC176B013AF872988DC",
+   "title": "Learn more",
+   "type": "presentation",
+   "page": "https://www.enbridge.com/"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/US-GTM-fact-sheets-fall-2019/20190927FSWhatisNGpipelineUSGTM.pdf?rev=0f4bb7764d834338ab8a2a61b982d369&hash=6EEE311C0238C0F2E2EBED7452A233F2",
+   "title": "What is a natural gas transmission pipeline?",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/fact-sheets"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/US-GTM-fact-sheets-fall-2019/20190927FSHowDoesNatgasGettoConsumersUSGTM.pdf?rev=0183dfb34d1a49838c4b0bffb1284817&hash=D2BB55BB778915A19C1C4D141A3E30D8",
+   "title": "How natural gas gets to consumers",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/fact-sheets"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/US-GTM-fact-sheets-fall-2019/20190927FSHowwebuildthepipeUSGTM.pdf?rev=5da81c1b3e594a44bb0bc32ff220f029&hash=A37C32F62011DAB27EC36534D7C341AB",
+   "title": "How we build the pipeline",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/fact-sheets"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/US-GTM-fact-sheets-fall-2019/20190927FSOperationalsafetyUSGTM.pdf?rev=2d3feda1e72e405aaa8934038ef433b9&hash=40327CBAFE892E610A24D5934FFFDBD1",
+   "title": "Natural gas pipelines: Operational safety",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/fact-sheets"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/US-GTM-fact-sheets-fall-2019/20190927FSPipelineSafetyPublicAwarenessUSGTM.pdf?rev=f46eae22ad704c708c8c2d873c43c712&hash=E2C25BC3D2DCCA4A3BA5FC253336B1CF",
+   "title": "Pipeline safety and public awareness",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/fact-sheets"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/US-GTM-fact-sheets-fall-2019/20190927FSROWPrimerUSGTM.pdf?rev=77f03c34056a46789d9c35b8eba88ef9&hash=1C08D198A8E80F0ECD41D08D4C1FCD2C",
+   "title": "Pipeline rights-of-way: What you need to know",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/fact-sheets"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/US-GTM-fact-sheets-fall-2019/20190927FSSmartPigsUSGTM.pdf?rev=bdb88c487b9b4a8cb0125179842632ea&hash=563CA27B966C9C91887909AAE25337B2",
+   "title": "‘Smart pig’ inspections: Keeping our pipelines healthy and fit",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/fact-sheets"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/US-GTM-fact-sheets-fall-2019/20190927FSGasControlUSGTM.pdf?rev=722f7558d01945e98315573e61477759&hash=EEB2DBE76A47C0B365B72F79F9771D22",
+   "title": "Houston Gas Control Center: Keeping a watchful eye",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/fact-sheets"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/US-GTM-fact-sheets-fall-2019/20190927FSNGPipelineSafetyUSGTM.pdf?rev=0ef818d3f676485db0364ab2c2564e5d&hash=96506DCE5E52F8E8E846C515C57BCD02",
+   "title": "Natural gas pipeline regulations: Keeping you safe",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/ridgeline-expansion-project/fact-sheets"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/CSR/Reports/Enbridge_Discussion_Paper_Indigenous_Rights_Relationships.pdf?rev=3cb869459c2a452e9bb1cc7257ecfe81&hash=0B2BA03848067BFF170A5E5FE34A3F15",
+   "title": "enbridge_discussion_paper_indigenous_rights_relationships.pdf",
+   "type": "engagement",
+   "page": "https://www.enbridge.com/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Indigenous-Engagement"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/About-Us/indigenous_peoples_policy_final.pdf?rev=839a88ff9657465aa0b039d139d98166&hash=09283580A3CAE4273D54B0B7D7BA1A51",
+   "title": "Indigenous Peoples Policy",
+   "type": "engagement",
+   "page": "https://www.enbridge.com/Sustainability-Reports/Sustainability-Report-2017/Priority-Areas/Stakeholder-and-Indigenous-Engagement/Indigenous-Engagement"
+  },
+  {
+   "url": "http://www.enbridge.com/~/media/Enb/Documents/CSR/Policies/csr-policy.pdf?la=en&hash=1D529313940EAFB75BD70A0F35D8A124",
+   "title": "Corporate Social Responsibility (CSR) Policy",
+   "type": "other",
+   "page": "https://www.enbridge.com/sustainability-reports/sustainability-report-2017/priority-areas/stakeholder-and-indigenous-engagement/stakeholder-engagement"
+  },
+  {
+   "url": "http://www.enbridge.com/~/media/Enb/Documents/Infographics/IG_Line10_WestoverSegmentReplacementProject.pdf",
+   "title": "Line 10 Westover Segment Replacement project",
+   "type": "other",
+   "page": "https://www.enbridge.com/sustainability-reports/sustainability-report-2017/priority-areas/stakeholder-and-indigenous-engagement/stakeholder-engagement"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Infographics/IG_ConstructionSafety.pdf?rev=ed65926eb72744de805bb7aa6e015e10&hash=D58CA681E74CB6D500342D20B67ABF3A",
+   "title": "Construction infographic",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Sunrise-Expansion-Program/ENB_Sunrise_SEP_Condition_Filing_Tracker.pdf?rev=e959e2a6ef144d24be7580302ef0c6d9&hash=B2DC304686A072B7685507B17A5533D9",
+   "title": "CER conditions",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program"
+  },
+  {
+   "url": "https://docs2.cer-rec.gc.ca/ll-eng/llisapi.dll/fetch/2000/130635/4460507/C30140-3_Attachment_B_-_Hyperlinked_Index_to_the_Application_and_Appendices_-_A8Z0A4.pdf?nodeid=4462023&vernum=-2",
+   "title": "Application document index",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/regulatory-information"
+  },
+  {
+   "url": "https://docs2.cer-rec.gc.ca/ll-eng/llisapi.dll/fetch/2000/130635/4460507/C30140-4_Attachment_C_-_Hyperlinked_Index_to_the_Environmental_and_Socio-Economic_Assessment_Report_-_A8Z0A5.pdf?nodeid=4462024&vernum=-2",
+   "title": "Environmental and Socio-Economic Assessment (ESA) document index",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/regulatory-information"
+  },
+  {
+   "url": "http://www.enbridge.com/~/media/Enb/Documents/Infographics/IG_Protecting%20Water.pdf?la=en&hash=350F3215100D9EFBEC5E1258486A72AC",
+   "title": "Water: Respecting Every Drop",
+   "type": "other",
+   "page": "https://www.enbridge.com/sustainability-reports/sustainability-report-2017/areas-that-enable-continuous-improvement/environmental-management-systems/environmental-management-systems"
+  },
+  {
+   "url": "http://www.enbridge.com/~/media/Enb/Documents/Factsheets/Horizontal%20Directional%20Drilling%20-%20FS%20-%20Nov%202017%20V2.pdf",
+   "title": "Horizontal Directional Drilling",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/sustainability-reports/sustainability-report-2017/areas-that-enable-continuous-improvement/environmental-management-systems/environmental-management-systems"
+  },
+  {
+   "url": "http://www.enbridge.com/~/media/Enb/Documents/Brochures/Brochure_Line5.pdf",
+   "title": "The Straits of Mackinac crossing and Line 5",
+   "type": "other",
+   "page": "https://www.enbridge.com/sustainability-reports/sustainability-report-2017/areas-that-enable-continuous-improvement/environmental-management-systems/environmental-management-systems"
+  },
+  {
+   "url": "http://www.enbridge.com/~/media/Enb/Documents/Infographics/IG_Line5_Span_management_program.pdf",
+   "title": "Line 5 span management program",
+   "type": "other",
+   "page": "https://www.enbridge.com/sustainability-reports/sustainability-report-2017/areas-that-enable-continuous-improvement/environmental-management-systems/environmental-management-systems"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Sunrise-Expansion-Program/Sunrise-Expansion-Program_Factsheet_20260528.pdf?rev=83d4231f54d0424aa34b089146933104&hash=1F4BE7CE12F0C789B3A5FDAFB6024C10",
+   "title": "Sunrise Expansion Program fact sheet",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/fact-sheets-and-newsletters"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Sunrise-Expansion-Program/Brochure_SEP_responsible_execution.pdf?rev=84e09aa567134b2bb754ebe93cff1ead&hash=2915FE17CDBC3EECD3FB2F3D2017C45F",
+   "title": "Brochure: Responsible project execution",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/fact-sheets-and-newsletters"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Sunrise-Expansion-Program/Powerlines-factsheet_Sunrise-Expansion-Program.pdf?rev=fbae04198d874435bc74bd697d31ea93&hash=6219901AACB7B4DD7E65B903F0DDB74D",
+   "title": "Powerlines fact sheet",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/fact-sheets-and-newsletters"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Sunrise-Expansion-Program/ENB_FS_Sunrise_Constructing_powerline_infra.pdf?rev=1dfa3fad8c9a429c932abd7f7f5d5cee&hash=C34D550D9D72A72EE3E4494DD15742CE",
+   "title": "Constructing powerline infrastructure",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/fact-sheets-and-newsletters"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/British-Columbia/ENB_Sunrise_In_the_Loop_-Newsletter_August2026.pdf?rev=42d2968da2924fb3809469b625a8f427&hash=FE64B1B84681715FFA5BBC851CC552F6",
+   "title": "In the Loop: Community newsletter August 2026",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/fact-sheets-and-newsletters"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/British-Columbia/ENB_Sunrise_In_the_Loop_-Newsletter_July2026.pdf?rev=95e5adf5405b407e8e4e5f4c201bc624&hash=6323ED7EF1FDB4C914CEA5588298EE5E",
+   "title": "In the Loop: Community newsletter July 2026",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/fact-sheets-and-newsletters"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/British-Columbia/ENB_Sunrise_In_the_Loop_Newsletter_May2026.pdf?rev=5ce71594fcf34722b9aeb0c36d1d68ce&hash=11A0E996B7031AED14C19234105352EE",
+   "title": "In the Loop: Community newsletter May 2026",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/fact-sheets-and-newsletters"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Sunrise-Expansion-Program/ENB_Sunrise_Expansion_Program_newsletter_March2026.pdf?rev=978acef0bf0a4eec991bc302188c9b81&hash=AC2993EE43B8EE4F2D86E20665A9A533",
+   "title": "In the Loop: Community newsletter March 2026",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/fact-sheets-and-newsletters"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/British-Columbia/ENB_Sunrise_In_the_Loop_-Newsletter_Dec2025.pdf?rev=386a4e5a0a4644e984a88ff530817b21&hash=FB3DB848965052127572D19E4EB3EB90",
+   "title": "In the Loop: Community newsletter December 2025",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/fact-sheets-and-newsletters"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Sunrise-Expansion-Program/ENB_Sunrise_newsletter_June2025.pdf?rev=d7bf071ee3384ff493f3ed0d3d40d6bd&hash=599D9ED176ED3C563EB12C3C0594F363",
+   "title": "In the Loop: Community newsletter June 2025",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/sunrise-expansion-program/fact-sheets-and-newsletters"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Cowboy-Solar/ENB_Cowboy_Solar_preliminary_site_plan.pdf?rev=9c31c9a88f40444891d2d89c63177b7b&hash=A1D481F378AAF70B89FDCE3B6E1F7B62",
+   "title": "Preliminary site plan and renderings",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/cowboy-solar-and-bess-project/project-meeting"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Cowboy-Solar/BRO_ENB_Projects_Cowboy_Solar.pdf?rev=2612da13b4804f78acbd27e5b2c154d7&hash=879BFC4189287FB81658AD3446838A8A",
+   "title": "Project handout with preliminary site details",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/cowboy-solar-and-bess-project/project-meeting"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/ENB_SevenStars_Fall2025_update_October_2025.pdf?rev=ee1b9fbdfd3042ea840c488b963a2fc7&hash=E36D599DA5657C39C21690BC3BC18D5A",
+   "title": "October 2025: Fall 2025 project update",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Seven-Stars-Energy-Project/Community-Engagement"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/ENB_SevenStars_Summer-fall-update_August2025.pdf?rev=860ec86387bb495990c731a39b404e39&hash=412C7C605F9BB52B5BE8587677FC2260",
+   "title": "August 2025: Summer/fall 2025 project update",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Seven-Stars-Energy-Project/Community-Engagement"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/Seven_Stars_Open_House-boards_Dec2024.pdf?rev=20f67ddbb9244d7cb42218ec1371219d&hash=F8E49919C42C2372DC6B07A21B0E284A",
+   "title": "December 2024: Town hall posterboards",
+   "type": "other",
+   "page": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Seven-Stars-Energy-Project/Community-Engagement"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/Aug_2024_BRO_Seven_Stars_mailout.pdf?rev=29f4468a0be646b0ae1bcc6ded61d22a&hash=9449E1A30E76C5EB81AA98677C628377",
+   "title": "August 2024: Notification package",
+   "type": "other",
+   "page": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Seven-Stars-Energy-Project/Community-Engagement"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/Seven_Stars_Energy_Open_House_Boards.pdf?rev=2f3dba188e1b4386be74742996d0e366&hash=14C545603EBF9F4B0A2C4CFC292A93BA",
+   "title": "July 2024: Open house posterboards",
+   "type": "open_house",
+   "page": "https://www.enbridge.com/Projects-and-Infrastructure/Projects/Seven-Stars-Energy-Project/Community-Engagement"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/City_of_Weyburn_7Stars_support.pdf?rev=a669c85074eb4c39be01dc7e005bdc73&hash=616E8961D9C4EEB6D5D9F0D29B1B76F1",
+   "title": "City of Weyburn",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/Weyburn_District_Planning_Commission_7Stars_support.pdf?rev=06319e9a3cf24a62bdef8311a6ab5daa&hash=9873D987DC1E91A1B04D63AEC6785FF6",
+   "title": "Weyburn District Planning Commission",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/Weyburn_Chamber_of_Commerce_7Stars_support.pdf?rev=878cb186b58f4291ae69fec22bd8c232&hash=7A234E6676A1E781EC4F7E6B58E5310B",
+   "title": "Weyburn Chamber of Commerce",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/Weyburn_Regional_Economic_Development_7Stars_support.pdf?rev=6a493f35ecf9406f9ae1a260da67cf31&hash=FD69122D0A45F0C1C6CE12D5F844B3C2",
+   "title": "Weyburn Regional Economic Development",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/Jerry_Mainil_Ltd_7Stars_support.pdf?rev=56ea19e044d74f4785cadbc0ebfe8ce8&hash=AC9C63DAE5D85724F8E8A0E44E3B61C9",
+   "title": "Jerry Mainil Limited",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/Sask_Chamber_Commerce_7Stars_support.pdf?rev=f75ad66a12f84e7b824dee756394aa9c&hash=F127D162EFB134F1D84361818C579C8F",
+   "title": "Saskatchewan Chamber of Commerce",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/ENB_Seven_Stars_resident_letter_Oct_2025.pdf?rev=2ae2d3228f6c4aa4ae5ff7fe8e11e6a1&hash=78899B23BA77A0765F20D1D3F8483C0B",
+   "title": "October 2025 letter to residents",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/ENB_Seven_Stars_RM_Weyburn_permit_approval.pdf?rev=25d9c9e5221c4dbcb76b4b8641a3dce9&hash=ACE303003EFFE3087353ECDE566F566D",
+   "title": "Development permit approval: RM of Weyburn",
+   "type": "permit_approval",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/ENB_Seven_Stars_RM_Griffin_permit_approval.pdf?rev=0e4033d7f9ad420199f8061add7a0e60&hash=DA234064C0385A96DC083B0193C9137E",
+   "title": "Development permit approval: RM of Griffin",
+   "type": "permit_approval",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/ENB_FS_Seven_Stars_Energy_Project_econ_benefits.pdf?rev=710c4a67436249c08e7d340c434983bb&hash=5DCF6C14A6E0273254903490E090E288",
+   "title": "See the fact sheet Plus Symbol A vertical and horizontal line forming a cross",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/ENB_SevenStars_Project_Letter_STARS.pdf?rev=a62f6b0580fa4ed1a63ef8d35298f86b&hash=8895CFE96A738F2D41AB14F2088D58C2",
+   "title": "Read the STARS Air Ambulance letter",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Griffin-Development-Permit-Resubmission-Application-20260501_Clean.pdf?rev=dc179df643e744389e32e48169e91969&hash=DE3630F0892AE44D19D8FD771C629A00",
+   "title": "Letter to RM of Griffin – Development Permit Resubmission Application (clean)",
+   "type": "permit_approval",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Griffin-Development-Permit-Resubmission-Application-20260501_Redline.pdf?rev=1a2e9419f6be4e159c936767a4bea8cf&hash=5285D907A6E7994E774D5CACA9D5CF51",
+   "title": "Letter to RM of Griffin – Development Permit Resubmission Application (redlined)",
+   "type": "permit_approval",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-1-1---Letter-of-Support---Province-of-Saskatchewan.pdf?rev=334a9fc7135a4090bd540750d5fc5db0&hash=27972DCC2ACD42112805B7147A51449F",
+   "title": "Letter of support: Province of Saskatchewan",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-2-1---Construction-Schedule.pdf?rev=5e6e555e91ab435e9a2fda80ee6eb0f6&hash=C5954460F40E2A9138068CD83C6A8398",
+   "title": "Construction schedule",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-22--Map-Book-Temporary-Disturbances.pdf?rev=718754b1cf0c4355bffe649beaf4eac0&hash=55AD2A26663748BE80B0D5586EFD7163",
+   "title": "Map book (temporary disturbances)",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-23--Map-Book-Permanent-Disturbances.pdf?rev=e7cba01c815f4a1f89dcf5428a808ad2&hash=AB700C5E8212697CD9C11FA9E95322BE",
+   "title": "Map book (permanent disturbances)",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-2-4---Typical-Road-Design.pdf?rev=f9048769d32747f488397047926a1b36&hash=F56507DE2549191DB61D2E0097339E29",
+   "title": "Typical road design",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-2-5---Culvert-Locations.pdf?rev=1bc8d0f184d148848f6c63555cbf556e&hash=CFFD83FB0F9B64BCB9618A4EC679B0CC",
+   "title": "Culvert locations",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-2-6---Road-Upgrade-and-Maintenance.pdf?rev=690095a1e8ca41aaab51c3d97a6f6fc8&hash=1E83528E2F2D9E9C624EB0F36707962F",
+   "title": "Road upgrade and maintenance",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-2-7---Haul-Route.pdf?rev=52b47e9b035f4fa2b20cf32aba56b15e&hash=34BDB52764CD905CB7C7910FC2B4026D",
+   "title": "Haul route",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-3-1---Foundation-Design-and-Electrical-Permit.pdf?rev=e4b4d6b7fba541d1952924ff79b92ed5&hash=0A0DB77CD49EDF1610007CE2F1C3B281",
+   "title": "Foundation design and electrical permit",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-3-2---Certificate-of-Structural-Safety.pdf?rev=a889aea4380f40bba8cb095117e67f11&hash=FF9FBAE73617646AB908CEF0B7E002F9",
+   "title": "Certificate of structural safety",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-4-1---Applicable-Legislation-Table.pdf?rev=962da4a54421474db0d1d0d49898714c&hash=DCA4BE7E27D74E113076DAC543D04804",
+   "title": "Applicable legislation table",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-4-2---Preliminary-Results---Noise-and-Shadow-Flicker.pdf?rev=2a50e90f6c9b427480f1fe15a275d044&hash=4362742AEC5FD4CAC9192DE02B5641D1",
+   "title": "Preliminary results: Noise and shadow flicker",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-4-3---Noise-Impact-Assessment.pdf?rev=1f10235fa9164b8cb3110f6e00772d87&hash=3B56D8CF27585281A904A0E150002F0C",
+   "title": "Noise impact assessment",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-4-4---Shadow-Flicker-Report.pdf?rev=dd3f2595f7284a24acf55b1d2f69c3c9&hash=15E190EC5C51B2671742D3374B6239DD",
+   "title": "Shadow flicker report",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-51--Reclamation-Commitment-RM-of-Griffin.pdf?rev=a04b4233210c49019a72fc153473f4d0&hash=C9DFAC67B7136253522E57C07443897A",
+   "title": "Reclamation commitment: RM of Griffin",
+   "type": "closure",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-5-2---Decommissioning-Report.pdf?rev=5090d0d7f84e43c3bde458a2836c9005&hash=67DC677C1A77CE8A375BFE3A05749228",
+   "title": "Decommissioning report",
+   "type": "closure",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-6-1---Hydrology-Report.pdf?rev=a36c964c455e4828a58379b0f8940d55&hash=52D45D5F820D23C482049F4B307D5F33",
+   "title": "Hydrology report",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-6-2---Preliminary-Geotechnical-Report.pdf?rev=ac0a2667a4e84e1c8a5b2c0646f6fbb9&hash=9ECE701EC8F7C87860B381F0853D3A8F",
+   "title": "Preliminary geotechnical report",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-6-3---Geotechnical-Investigation-Report.pdf?rev=5cb87342a0d04955847379ec5b018dc2&hash=559CA8B647F596CF58206BEEFE4DC416",
+   "title": "Geotechnical investigation report",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin-May-2026/Appendix-7-1---Engagement-Report.pdf?rev=26419d784bef4defa826122068b1d6e0&hash=40995C900900D283939CD6504D22A4F5",
+   "title": "Engagement report",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/ENB_Seven_Stars_Letter_to_RM_of_Griffin_re_Development_Permit.pdf?rev=e8b04dd9b1c147d99071cfe21e65ac48&hash=153D651DB8261AEAC41A3990BBAE751A",
+   "title": "Letter to RM of Griffin – Development Permit Application",
+   "type": "permit_approval",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin/RMGriffin_Appendix-1-1---Letter-of-Support---Province-of-Saskatchewan.pdf?rev=5905b23213284ebaab3fe7719b46a86b&hash=D24A171E8CC00BB25A9FCCFA7AA5B0C6",
+   "title": "Letter of support: Province of Saskatchewan",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin/RMGriffin_Appendix-2-1---Construction-Schedule.pdf?rev=8740573c0daa4c64ae02dfed8a07a22c&hash=332E6826BECB60F0BEDC2978D902AA79",
+   "title": "Construction schedule",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin/RMGriffinAppendix-22--Map-Book-Temporary-Disturbances.pdf?rev=4e6f0b788f2644aba9c8927599ca2cdc&hash=60316FD8C1B71973D3B46DA80B406C39",
+   "title": "Map book (temporary disturbances)",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin/RMGriffinAppendix-23--Map-Book-Permanent-Disturbances.pdf?rev=30eccb6d952143c183a24f2f4c644622&hash=5A754D91BAE97B512F2E5468ED1D2FF5",
+   "title": "Map book (permanent disturbances)",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin/RMGriffin_Appendix-2-4---Typical-Road-and-Culvert-Designs.pdf?rev=06bc60c7576d48bea86b881179e9da52&hash=23D031E338E053FED29990E99F67CAA2",
+   "title": "Typical road and culvert designs",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin/RMGriffin_Appendix-2-5---Culvert-Locations.pdf?rev=3425ce7b047d46eda16dccff7fb8843a&hash=3015BFD92B5B8A679AB945E6DBA73D75",
+   "title": "Culvert locations",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin/RMGriffin_Appendix-3-1---Engineering-Certification-and-Electrical-Permit.pdf?rev=07ff1d08b1364d56b434287b2f4c8a52&hash=4AA3EDF6E40510097646F3611EB179D6",
+   "title": "Engineering certification and electrical permit",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin/RMGriffin_Appendix-4-1---Applicable-Legislation-Table.pdf?rev=4724b4d5714749538c7bc48d4cc88323&hash=8C6072891CF077EA66BF5DA291A76F5A",
+   "title": "Applicable legislation table",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin/RMGriffin_Appendix-4-2---Preliminary-Results---Noise-and-Shadow-Flicker.pdf?rev=b39aa153822a40468fbd3490d3fa3ced&hash=81F7EC61C929B50660F8CB3EEA28382B",
+   "title": "Preliminary results: Noise and shadow flicker",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin/RMGriffinAppendix-51--Reclamation-Commitment-RM-of-Griffin.pdf?rev=792fefbb0cde46678bd9e339beb83e22&hash=E26A8AABDA05E828B5CF9C32E78387F4",
+   "title": "Reclamation commitment: RM of Griffin",
+   "type": "closure",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin/RMGriffin_Appendix-5-2---Decommissioning-Report.pdf?rev=ecb055bedcce4033bc479901cfb500a7&hash=2D7B769310A4039A308A082D5F9CEE65",
+   "title": "Decommissioning report",
+   "type": "closure",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin/RMGriffin_Appendix-6-1---Hydrology-Report.pdf?rev=45c50821839446c59d88e41bdb516f66&hash=75390D6ED7D83BC11707A7CF246A2FC6",
+   "title": "Hydrology report",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin/RMGriffin_Appendix-6-2---Preliminary-Geotechnical-Report.pdf?rev=b7880e85ddd8441c80bfa7cda33cc9ee&hash=21E691FEA0628F2F1A2A15151C796A7B",
+   "title": "Preliminary geotechnical report",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Griffin/RMGriffin_Appendix-7-1---Engagement-Report.pdf?rev=5570a3ad269f4aa4b1d62875961bf8a5&hash=8AB08EB94A602F372C5A8D4C5DD47FA7",
+   "title": "Engagement report",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/ENB_Seven_Stars_Letter_to_RM_of_Weyburn_re_Development_Permit.pdf?rev=a630d57a6065433080bd4a2f05c1e9d6&hash=D4841340BEDC46AB7C7255C0B41E3BF4",
+   "title": "Letter to RM of Weyburn – Development Permit Request",
+   "type": "permit_approval",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/ENB_Seven_Stars_RM_Griffin_Development_Permit_Application_Final.pdf?rev=dfff6ddcb39e481fbcd5bd82c8ea44d7&hash=B77CD441F17B60AC59B251DE1E01101B",
+   "title": "Seven Stars Development Permit Application (RM of Griffin)",
+   "type": "permit_approval",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/ENB_Seven_Stars_Appendix_1-1_-Application-Forms.pdf?rev=2a5ea960caf0444086c8c435d892766c&hash=BBA3187C5AF58620AA41C74245346263",
+   "title": "Seven Stars Development Permit Application – Appendix 1-1",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/ENB_Seven_Stars_RM_Weyburn_Development_Permit_Application_Final.pdf?rev=61097798821947bd837dea2e6e75f733&hash=84FB3A5F9F1F11F3A51D82612C61351D",
+   "title": "Seven Stars Development Permit Application (RM of Weyburn)",
+   "type": "permit_approval",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-1-4---Letter-of-Support---Government-of-Saskatchewan.pdf?rev=b6c4c7fa31ce47a7aeea970f2fbb66fd&hash=849A666FEB4FDB9B7684DDA7C0352EDC",
+   "title": "Letter of support: Province of Saskatchewan",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-2-1---Construction-Schedule.pdf?rev=9da67bed9a264e508d7674b6514b1666&hash=D79185709E2AA8A49CF195EF877B10A5",
+   "title": "Construction schedule",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-2-2---Photomontage-Journal.pdf?rev=7761ebb4613340c7812bc3045eea8e93&hash=FE2C61B6D50E64FA7276B5BD537CCBD7",
+   "title": "Photomontage journal",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-23--Map-Book--Temporary-Disturbances-Weyburn.pdf?rev=8639b0b6468c40b2b8812a4c83a452de&hash=CB69B1DBCA3686955BB49C9C3D954F85",
+   "title": "Map book (temporary disturbances)",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-24--Map-Book--Permanent-Disturbances-Weyburn.pdf?rev=6780675269274aa89bf2c1ed2871a37a&hash=1407E751D2BBFB8890BC4AE4CFFA66BF",
+   "title": "Map book (permanent disturbances)",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-2-6---Substation-and-Radar-Tower-Drawings.pdf?rev=870741be759a4b6e8f72cf74f18725e7&hash=4B99F17FECEC51D1D3C4E85E0819A6F5",
+   "title": "Substation and radar tower drawings",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-2-7---Typical-Road-and-Culvert-Designs.pdf?rev=0f02a270577b40af85a30dfb210a6d09&hash=74D768F22CF91FA15B7DBF40525FB9A1",
+   "title": "Typical road and culvert designs",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-2-8---Culvert-Locations.pdf?rev=15cbd3bd3b954891945e7a16735376e3&hash=613EBF4EA45FF2C57C0EDEF74F3CE469",
+   "title": "Culvert locations",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-2-9---Laydown-Yard-Sketch-Plan.pdf?rev=bfb3705ca54442e9b34a0986b6752639&hash=A2C1347C0664A480464B0E75A202186B",
+   "title": "Laydown yard sketch plan",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-3-1---Engineering-Certification-and-Electrical-Permit.pdf?rev=c3d0e37e0e2047749a2730b05a97d9f4&hash=81ACB02387E14BE65BB77BA791F51EFD",
+   "title": "Engineering certification and electrical permit",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-4-1---Applicable-Legislation-Table.pdf?rev=7650b0971c824714a88a1ee7a1d2fa1a&hash=C56AA79F5E02DCF2862A5885CA8A6976",
+   "title": "Applicable legislation table",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-4-2---Preliminary-Results---Noise-and-Shadow-Flicker.pdf?rev=247aaf41d2e54c7da6aac3a684d73dcf&hash=8E67D8D8D82E2E5503AA2024DE0E1D84",
+   "title": "Preliminary results: Noise and shadow flicker",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-51--Reclamation-Commitment-RM-of-Weyburn.pdf?rev=d28639fbf927434cbbfbf7f21d571ac1&hash=CC04D5BFA8E74D1B423017727B86B907",
+   "title": "Reclamation commitment: RM of Weyburn",
+   "type": "closure",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-5-2---Decommissioning-Report.pdf?rev=f8f4d7e3aa9d4f278ee474912dff2334&hash=8883EDCEFE08E326B64A3E8179A77761",
+   "title": "Decommissioning report",
+   "type": "closure",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-6-1---Hydrology-Report.pdf?rev=1ce470acaf9f470a953de5ccb3e15b9f&hash=FD1C5424164BDA7969DD689BD1FA36A9",
+   "title": "Hydrology report",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-6-2---Preliminary-Geotechnical-Report.pdf?rev=274de06c69a442139b26fcec4a3c6c1b&hash=2C68CD87469840963A7C575C4A877F53",
+   "title": "Preliminary geotechnical report",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/RM-Weyburn/Appendix-7-1---Engagement-Report.pdf?rev=864d928781e14e7b9e0337a46dd1fb25&hash=DCA181E0AB89F616F79ED84C39DFEBCB",
+   "title": "Engagement report",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/regulatory-information"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/ENB_Letter_RM_of_Griffin_Reclamation_April_2025.pdf?rev=4482db9b4d394b12a7813a62a89b52e6&hash=78CEDFEAA9CCF7DD517B0530260647C0",
+   "title": "Rural Municipality of Griffin (April 23, 2025)",
+   "type": "closure",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/reclamation"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Seven-Stars-Energy-Project/ENB_Letter_RM_of_Weyburn_Reclamation_April_2025.pdf?rev=dbb21930c3d44304836b825565a0c578&hash=FD102B6E03B9C90B09C5C29D9F460C86",
+   "title": "Rural Municipality of Weyburn (April 23, 2025)",
+   "type": "closure",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/seven-stars-energy-project/reclamation"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Aspen-Point-Program/Aspen_Point_Program_Fact_Sheet.pdf?rev=9a5a35e1bdc447fd978912a6954ca8cf&hash=4CB9B72D553FBA226AACF7389D612C74",
+   "title": "Project fact sheet",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/aspen-point-program"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Aspen-Point-Program/ENB_APP_Environmental_Protection_Notice.pdf?rev=c246e816932f484cb09c0037e0473bb8&hash=B691E38E653F41CE280898CAE5CA3C6C",
+   "title": "Environmental Protection Notice",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/aspen-point-program"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/British-Columbia/ENB_FS_Aspen_Point_jobs_contractors.pdf?rev=fc5387a756f849919cc43d5b725b8ea9&hash=144E5C0BC40C61538FABCC61332901BB",
+   "title": "Jobs fact sheet",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/aspen-point-program"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Woodfibre-LNG/Woodfibre_LNG_Investor_Deck.pdf?rev=ae958b1533d540b8aa8f288b509466cd&hash=D3E1890D247D5E13B211925890CAC62E",
+   "title": "woodfibre_lng_investor_deck.pdf",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/woodfibre-lng"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Infographics/IG_How_LNG_gets_to_you_1618x884.pdf?rev=00ce4c9dbf9341dcbea1970e93744d5c&hash=C5DFB46A31AEAF522849CF7B897A4B17",
+   "title": "See the infographic Plus Symbol A vertical and horizontal line forming a cross",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/woodfibre-lng"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Woodfibre-LNG/FS_What_is_LNG_July_2022.pdf?rev=be5c310ea6bd43cd8c760e67cbfa6ea5&hash=EFF9D6680B7A271C009704BAFE415678",
+   "title": "See the fact sheet Plus Symbol A vertical and horizontal line forming a cross",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/projects/woodfibre-lng"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Brochures/BRO_ENB_Indigenous_Recruitment.pdf?rev=31c8a13cbe874a10b903b4c9a139f31e&hash=AD2539E119EA003E59E89D67DC95BA92",
+   "title": "Join the Enbridge team",
+   "type": "engagement",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/FS_OurCommitmentToTheEnvironment.pdf?rev=5fbeaa08bdae4feba3b3d22d44f25ba5&hash=0837CF3AE716EC5605697118E923B993",
+   "title": "Learn more Plus Symbol A vertical and horizontal line forming a cross",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Newsletters/ENB_Newsletter_Prairie_Region_Summer_2025.pdf?rev=8aa690cafd7f42a88070affadabd751b&hash=1A25CD1D233F4E38F05754E205AC8460",
+   "title": "Prairie Region (Summer 2025)",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Newsletters/ENB_Newsletter_Prairie_Region_Winter_2024.pdf?rev=8cda370c7c9b48acb51523f9f3f3d313&hash=D5BBF22D67BECA86D597732A37C3DCC9",
+   "title": "Prairie Region (Winter 2024)",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Newsletters/ENB_Newsletter_NorthRegion_Fall_2024.pdf?rev=2aa24617eef54acd8f1fbd1264389dd8&hash=77F3D3E375CF88E79847A4A9B1E52105",
+   "title": "North Region (Fall 2024)",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Newsletters/Eastern_Region_Newsletter_Summer_2023.pdf?rev=64452b2ae32c4d86b54a0f400e117b78&hash=D2D1975AA3E70CB746C17867E13A9A3D",
+   "title": "Ontario and Quebec Region (Summer 2023)",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Reports/Sustainability-Report-2023/Enbridge_SR_2023.pdf",
+   "title": "see our 2023 Sustainability Report",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Reports/Enbridge_IRAP_Refresh_2025_FINAL.pdf?rev=549274d807ad4879873f2a740c11f2f0&hash=A4CAA9E10683FE5BC54994BA0E4B8C0A",
+   "title": "Full PDF Report",
+   "type": "other",
+   "page": "https://www.enbridge.com/reports/2025-indigenous-reconciliation-action-plan-refresh"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Reports/Enbridge_IRAP_September_2022.pdf?rev=396b89c0130b4adebfd5535d9ad44ca7&hash=D6B55910181CB83FDA13796ECBB2A6CF",
+   "title": "2022 IRAP PDF Report",
+   "type": "other",
+   "page": "https://www.enbridge.com/reports/2025-indigenous-reconciliation-action-plan-refresh"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/FS_Pipeline_Safety_with_Indigenous_Translation_Blackfoot.pdf?rev=d0f665a5e9e3413e8da17bb59e33e150&hash=718572F6B690949B56C0F90F540AC484",
+   "title": "fs_pipeline_safety_with_indigenous_translation_blackfoot.pdf",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous/prairie-region-pipeline-safety-indigenous-language-translations"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/FS_Pipeline_Safety_with_Indigenous_Translation_Denesuline.pdf?rev=1a3d0fcc465b42bdb16434a535cf6566&hash=0B67AE204389A1FBA46EDD7D61150E82",
+   "title": "fs_pipeline_safety_with_indigenous_translation_denesuline.pdf",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous/prairie-region-pipeline-safety-indigenous-language-translations"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/FS_Pipeline_Safety_with_Indigenous_Translation_Michif-Cree.pdf?rev=c7ed486a47d04da7b88fbc500bc23bac&hash=12E76AF36FC2EA70899BDD50946DCBA2",
+   "title": "fs_pipeline_safety_with_indigenous_translation_michif-cree.pdf",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous/prairie-region-pipeline-safety-indigenous-language-translations"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/FS_Pipeline_Safety_with_Indigenous_Translation_Plains_Cree.pdf?rev=c772903ed4dc4447a0441390007e1b83&hash=2D1618C53A6C239D211A5039D2BC4B67",
+   "title": "fs_pipeline_safety_with_indigenous_translation_plains_cree.pdf",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous/prairie-region-pipeline-safety-indigenous-language-translations"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/FS_Pipeline_Safety_with_Indigenous_Translation_Stoney.pdf?rev=21e04a726ede4b26baefa0d18e6c0cc4&hash=49F12003BD080C7A09140AA1C829C692",
+   "title": "fs_pipeline_safety_with_indigenous_translation_stoney.pdf",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous/prairie-region-pipeline-safety-indigenous-language-translations"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/FS_Pipeline_Safety_with_Indigenous_Translation_Swampy-Cree.pdf?rev=e4bc8d922fe54cb28e7f40795487143f&hash=BDC13AD678B968C74E8428BDCA34F51A",
+   "title": "fs_pipeline_safety_with_indigenous_translation_swampy-cree.pdf",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous/prairie-region-pipeline-safety-indigenous-language-translations"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/FS_Pipeline_Safety_with_Indigenous_Translation_Western_Ojibway.pdf?rev=ed66ca6b792b409fa306a30c64b1c47e&hash=E755DECF410E98A373C7F13108AE4747",
+   "title": "fs_pipeline_safety_with_indigenous_translation_western_ojibway.pdf",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous/prairie-region-pipeline-safety-indigenous-language-translations"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/FS_Pipeline_Safety_with_Indigenous_Translation_Woods_Cree.pdf?rev=919c7395fdae4082b8efe1be811541cf&hash=E69D668E21FEA8C3002ECA8482905A4E",
+   "title": "fs_pipeline_safety_with_indigenous_translation_woods_cree.pdf",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous/prairie-region-pipeline-safety-indigenous-language-translations"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/FS_Pipeline_Safety_English.pdf?rev=40a5c5553aed4ba5b7703a1b731b24d9&hash=1DD7361F92C9741A33BB21B523B804AC",
+   "title": "fs_pipeline_safety_english.pdf",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/indigenous/prairie-region-pipeline-safety-indigenous-language-translations"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/22-P-216493_RPS_LINE_5_Wisconsin_Relocate_ExecSummary_20230213.pdf?rev=a20ffc0bcffb47e4846aabe9c02a4c29&hash=449B103092B04B3A7A3561CCD699660D",
+   "title": "Executive summary",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project/project-permit-applications-wdnr"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/22-P-216493_RPS_LINE_5_Wisconsin_Relocate_Operations_AppxB_SIMAP_20230213.pdf?rev=1f8d7440db424d4f9da4b0a898f60763&hash=72482F3A3C5555AE67BB3AD5DB5E3E8F",
+   "title": "Technical Appendix B",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project/project-permit-applications-wdnr"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/22-P-216493_RPS_LINE_5_Wisconsin_Relocate_Operations_AppxC_OILMAPLand_20230213.pdf?rev=41a42e2f3af44c61b442425bec04e76d&hash=4417F4C48BC999CE91EE5568A994A620",
+   "title": "Technical Appendix C",
+   "type": "technical",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project/project-permit-applications-wdnr"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/22-P-216493_RPS_LINE_5_Wisconsin_Relocate_Operations_OilSpill_20230213.pdf?rev=341be7b7d50c4b1887158095c3131f47&hash=AC545AE316D4E437D6E601BA7ADED12A",
+   "title": "Operations assessment: Oil spill report",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project/project-permit-applications-wdnr"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/22-P-216493_RPS_LINE_5_Wisconsin_Relocate_Sediment_Report_20230213.pdf?rev=95e5ee4a049547abb91a1871030c2377&hash=CBE6DB9CA06533091C35FB395849D599",
+   "title": "Construction assessment: Sediment discharge modeling report",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project/project-permit-applications-wdnr"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/ENB_FS_Line5_WSRP.pdf?rev=c115f7173de14a3d9d2defa26ecc0591&hash=532A69945A3F0A0F53F3A297B80E1748",
+   "title": "Project handout",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/Line5_Wis_Seg_Relocation_map.pdf?rev=b19e4dfaa7f04b42a2ca341afa36abe0&hash=509269096AE3337C96D7B9104C46962E",
+   "title": "Project maps",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/L5Wis_Line_5_description.pdf?rev=9b8e182ace5646169979afdd8540e12b&hash=14913D15DBBAE43FD3B73915FEC650C4",
+   "title": "Line 5 in Wisconsin",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/L5_Wisconsin_Segment_Relocation.pdf?rev=783e80e4be3e457da9ac7b169181a98c&hash=D717415B0F341F38663E1DF834045BF2",
+   "title": "More details",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/Line_5_Wisconsin_Project_Benefits.pdf?rev=19550ca0f05b4595bfdddd3c0498830e&hash=A92F257A23BB775A8C2A3C4A3DE2B497",
+   "title": "Benefits",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/L5Wis_Typical_Pipeline_Construction_Process.pdf?rev=2225085c02e0406699eec77a31bac854&hash=AFD4439C835294B6C115960ABEB1D935",
+   "title": "Typical construction process",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/L5Wis_LandUse_and_Protection.pdf?rev=8fdac40bfe044504837b246baefba73f&hash=B9986FD73712C0B0EBB98FD8DBFF0FD1",
+   "title": "Land use and protection",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/L5Wis_Restoration.pdf?rev=909c654a529f4953bc39cdef9a28dec6&hash=3C5C8996A35BC9477BB908F03089E2CB",
+   "title": "Restoration",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/FS_EnbridgePipelinesInWisconsin.pdf?rev=1c39ce8aea714ccbb40e3a1306d34b36&hash=C04F5B338100BD18AC6C411078893376",
+   "title": "See the handout Plus Symbol A vertical and horizontal line forming a cross",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Projects/Wisconsin/Open-letters-to-the-Bad-River-Band.zip?rev=908c442b8c134b15b22bc1af567911b7&hash=A1818DE8625724280FE8F24238DACEFB",
+   "title": "Download open letters to the Bad River Band",
+   "type": "other",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project-newsroom"
+  },
+  {
+   "url": "https://www.enbridge.com/~/media/Enb/Documents/Factsheets/FS_Horizontal_Directional_Drilling.pdf?rev=6270777f972a4d1e84fb9cef1d420788&hash=046BCBC06A44E975C4D1C7B301C0753F",
+   "title": "Horizontal Directional Drilling (HDD)",
+   "type": "newsletter",
+   "page": "https://www.enbridge.com/projects-and-infrastructure/public-awareness/line-5-wisconsin-segment-relocation-project-newsroom/line-5-wisconsin-project-hdd-construction-drilling-clay-bentonite-water-mixture"
+  }
+ ],
+ "doc_types": {
+  "other": 42,
+  "presentation": 2,
+  "newsletter": 39,
+  "engagement": 3,
+  "technical": 49,
+  "open_house": 1,
+  "permit_approval": 8,
+  "closure": 8
+ },
+ "crawled_at": "2026-09-04T13:21:49Z",
+ "name": "Enbridge Inc."
+}
