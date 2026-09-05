@@ -15,19 +15,29 @@ ARCHIVE_ONLY = '--archive-only' in sys.argv
 NORMALIZE_ONLY = '--normalize-only' in sys.argv
 
 
+OUR_ID_SUFFIX = re.compile(r'\s\((doc|BAPE) \d+\)$')
+
+
 def attach_archive_urls():
     """Add archive_url beside url in every catalogue entry the R2 archive
-    lane has mirrored (data/raw/archive_manifest.json.gz). Idempotent, and
-    run last so regenerated catalogues get their links back."""
+    lane has mirrored (data/raw/archive_manifest.json.gz), and the document
+    date the lane read off the registry's landing page (doc_date). Idempotent,
+    and run before the hygiene pass so a date that has just arrived can take
+    over from the registry-number suffix the pass used in its absence."""
     import glob
     parts = sorted(glob.glob(os.path.join(RAW, 'archive_manifest*.json.gz')))
     if not parts:
         return
+    # The seed part (local uploads) and the lane part can both hold a URL;
+    # take any field either one has rather than letting the later file win.
     man = {}
     for src in parts:
-        man.update(json.load(gzip.open(src, 'rt')))
-    n_files = n_docs = 0
-    import glob
+        for url, rec in json.load(gzip.open(src, 'rt')).items():
+            cur = man.setdefault(url, {})
+            for f in ('archive_url', 'doc_date', 'doc_ref'):
+                if rec.get(f) and not cur.get(f):
+                    cur[f] = rec[f]
+    n_files = n_docs = n_dates = 0
     for path in glob.glob(os.path.join(ROOT, 'data', 'docs', '*', '*.json')):
         try:
             cat = json.load(open(path))
@@ -36,15 +46,24 @@ def attach_archive_urls():
         changed = False
         for d in cat.get('docs') or []:
             rec = man.get(d.get('url'))
-            au = rec.get('archive_url') if rec else None
+            if not rec:
+                continue
+            au = rec.get('archive_url')
             if au and d.get('archive_url') != au:
                 d['archive_url'] = au
                 changed = True
                 n_docs += 1
+            dd = rec.get('doc_date')
+            if dd and not d.get('date'):
+                d['date'] = dd
+                d['title'] = OUR_ID_SUFFIX.sub('', d.get('title') or '')
+                changed = True
+                n_dates += 1
         if changed:
             json.dump(cat, open(path, 'w'), ensure_ascii=False)
             n_files += 1
-    print(f'archive links: {n_docs} added across {n_files} catalogues')
+    print(f'archive links: {n_docs} added, {n_dates} document dates attached, '
+          f'across {n_files} catalogues')
 
 
 # ── Catalogue hygiene ─────────────────────────────────────────────────
@@ -192,12 +211,13 @@ def normalize_catalogues():
 
 
 if NORMALIZE_ONLY:
+    attach_archive_urls()
     normalize_catalogues()
     sys.exit(0)
 
 if ARCHIVE_ONLY:
-    normalize_catalogues()
     attach_archive_urls()
+    normalize_catalogues()
     sys.exit(0)
 
 # ── BC EPIC ──────────────────────────────────────────────────────────
@@ -287,5 +307,5 @@ if os.path.exists(src):
         n += len(docs)
     print(f'ontario provincial EA: {len(os.listdir(outdir))} files, {n} docs')
 
-normalize_catalogues()
 attach_archive_urls()
+normalize_catalogues()
