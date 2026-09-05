@@ -89,7 +89,10 @@ def load_existing_urls():
             continue
         try:
             for d in json.load(open(path)).get('docs', []):
-                if d.get('url'):
+                # docs this script merged into a catalogue on an earlier run
+                # must not count as "already on the map", or every re-run
+                # would demote its own previous matches to a library
+                if d.get('url') and d.get('source') not in ('proponent_site', 'wayback'):
                     seen.add(norm_url(d['url']))
         except (ValueError, OSError):
             pass
@@ -214,9 +217,9 @@ def main():
                     distinctive = [t for t in hit if fq.get(t, 0) <= 2]
                     n = len(hit)
                     ok_match = (n >= 2 and distinctive) or \
-                               (n == 1 and len(hit[0]) >= 8 and fq.get(hit[0], 0) == 1)
+                               (n == 1 and len(hit[0]) >= 8 and fq.get(hit[0], 0) <= 3)
                     if not ok_match:
-                        folder = [t for t in toks if t in segs and len(t) >= 8 and fq.get(t, 0) == 1]
+                        folder = [t for t in toks if t in segs and len(t) >= 8 and fq.get(t, 0) <= 3]
                         if folder:
                             hit, n, ok_match = folder, 1, True
                     if ok_match and n > best_n:

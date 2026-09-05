@@ -60,7 +60,7 @@
   "name": "BC Hydro: EA document library",
   "proponent": "BC Hydro",
   "website": "https://www.bchydro.com/",
-  "doc_count": 2461,
+  "doc_count": 2444,
   "docs_path": "data/docs/proponent/library-bc-hydro.json"
  },
  {
@@ -92,7 +92,7 @@
   "name": "Canadian Natural Resources: EA document library",
   "proponent": "Canadian Natural Resources",
   "website": "https://www.cnrl.com/",
-  "doc_count": 60,
+  "doc_count": 61,
   "docs_path": "data/docs/proponent/library-canadian-natural-resources.json"
  },
  {
@@ -148,7 +148,7 @@
   "name": "Enbridge Inc.: EA document library",
   "proponent": "Enbridge Inc.",
   "website": "https://www.enbridge.com/",
-  "doc_count": 1105,
+  "doc_count": 1077,
   "docs_path": "data/docs/proponent/library-enbridge.json"
  },
  {
@@ -180,7 +180,7 @@
   "name": "FPX Nickel Corp.: EA document library",
   "proponent": "FPX Nickel Corp.",
   "website": "https://fpxnickel.com/",
-  "doc_count": 4,
+  "doc_count": 3,
   "docs_path": "data/docs/proponent/library-fpx-nickel.json"
  },
  {
@@ -212,7 +212,7 @@
   "name": "Hydro One: EA document library",
   "proponent": "Hydro One",
   "website": "https://www.hydroone.com/",
-  "doc_count": 1215,
+  "doc_count": 1073,
   "docs_path": "data/docs/proponent/library-hydro-one.json"
  },
  {
@@ -220,7 +220,7 @@
   "name": "Hydro-Québec: EA document library",
   "proponent": "Hydro-Québec",
   "website": "https://www.hydroquebec.com/",
-  "doc_count": 435,
+  "doc_count": 434,
   "docs_path": "data/docs/proponent/library-hydro-qu-bec.json"
  },
  {
@@ -228,7 +228,7 @@
   "name": "Imperial Oil Limited: EA document library",
   "proponent": "Imperial Oil Limited",
   "website": "https://www.imperialoil.ca/",
-  "doc_count": 65,
+  "doc_count": 7,
   "docs_path": "data/docs/proponent/library-imperial-oil.json"
  },
  {
@@ -284,7 +284,7 @@
   "name": "Manitoba Hydro: EA document library",
   "proponent": "Manitoba Hydro",
   "website": "https://www.hydro.mb.ca/",
-  "doc_count": 2746,
+  "doc_count": 2593,
   "docs_path": "data/docs/proponent/library-manitoba-hydro.json"
  },
  {
@@ -292,7 +292,7 @@
   "name": "Nemaska Lithium inc.: EA document library",
   "proponent": "Nemaska Lithium inc.",
   "website": "https://nemaskalithium.com/",
-  "doc_count": 31,
+  "doc_count": 23,
   "docs_path": "data/docs/proponent/library-nemaska-lithium.json"
  },
  {
@@ -348,7 +348,7 @@
   "name": "Ontario Power Generation: EA document library",
   "proponent": "Ontario Power Generation",
   "website": "https://www.opg.com/",
-  "doc_count": 381,
+  "doc_count": 366,
   "docs_path": "data/docs/proponent/library-ontario-power-generation.json"
  },
  {
@@ -428,7 +428,7 @@
   "name": "TC Energy Corporation: EA document library",
   "proponent": "TC Energy Corporation",
   "website": "https://www.tcenergy.com/",
-  "doc_count": 135,
+  "doc_count": 115,
   "docs_path": "data/docs/proponent/library-tc-energy.json"
  },
  {
@@ -436,7 +436,7 @@
   "name": "Teck Resources: EA document library",
   "proponent": "Teck Resources",
   "website": "https://www.teck.com/",
-  "doc_count": 255,
+  "doc_count": 251,
   "docs_path": "data/docs/proponent/library-teck-resources.json"
  },
  {
@@ -444,7 +444,7 @@
   "name": "Woodfibre LNG: EA document library",
   "proponent": "Woodfibre LNG",
   "website": "https://www.woodfibrelng.ca/",
-  "doc_count": 49,
+  "doc_count": 38,
   "docs_path": "data/docs/proponent/library-woodfibre-lng.json"
  }
 ]
