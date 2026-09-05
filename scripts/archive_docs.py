@@ -184,7 +184,12 @@ def targets(only=None):
                 continue
             seen.add(u)
             out.append((u, jur, project, d.get('title') or ''))
+            if d.get('fallback_url'):
+                FALLBACK[u] = d['fallback_url']
     return out
+
+
+FALLBACK = {}      # original url -> Wayback capture to use if the original is gone
 
 
 def load_manifest(all_parts=True):
@@ -391,7 +396,14 @@ def main():
                 if host == IAAC and host_hits[host] % 100 == 0:
                     fetch(CANARY[IAAC], limiter)
 
-                data, ctype, disp = fetch(url, limiter)
+                try:
+                    data, ctype, disp = fetch(url, limiter)
+                except (urllib.error.HTTPError, urllib.error.URLError, OSError) as e:
+                    if url not in FALLBACK:
+                        raise
+                    # the proponent removed it; the Internet Archive still has it
+                    data, ctype, disp = fetch(FALLBACK[url], limiter)
+                    rec['fetched_from'] = 'wayback'
                 if data is None:
                     raise RuntimeError(disp)
                 file_url, kind = url, 'file'
@@ -404,7 +416,7 @@ def main():
                         data, ctype, disp, file_url = data2, ctype2, disp2, fu
                     else:
                         kind = 'html_notice'
-                if 'html' in ctype and jur != 'federal' and jur != 'on':
+                if 'html' in ctype and jur not in ('federal', 'on', 'proponent', 'classea'):
                     # a registry answering HTML where a file was expected is
                     # a soft failure (login page, error page); don't archive it
                     raise RuntimeError(f'got html from {host}')

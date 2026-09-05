@@ -441,6 +441,24 @@ if os.path.exists(classea_path):
         n_classea += 1
 print(f'ontario class EA (proponent-held): {n_classea}')
 
+# ── Proponent EA document libraries (promote_proponent_docs.py) ──────
+# Documents found on proponent sites that could not be tied to a specific
+# project become one searchable feature per proponent (no geometry).
+libs_path = os.path.join(RAW, 'proponent_libraries.json')
+n_libs = 0
+if os.path.exists(libs_path):
+    for lib in json.load(open(libs_path)):
+        add({'type': 'Feature', 'geometry': None, 'properties': {
+            'name': lib['name'], 'jurisdiction': 'Proponent website',
+            'source': 'proponent_site', 'proponent': lib['proponent'],
+            'type': 'Document library', 'status': None,
+            'registry_url': lib.get('website'), 'proponent_url': lib.get('website'),
+            'doc_count': lib['doc_count'], 'docs_path': lib['docs_path'],
+            'category': 'other',
+        }})
+        n_libs += 1
+print(f'proponent document libraries: {n_libs}')
+
 # ── Quebec REE (table + coordinates scraped from carte.asp pages) ────
 qc_path = os.path.join(RAW, 'qc_ree_resultats.html')
 n_qc = 0
@@ -684,6 +702,41 @@ if os.path.exists(GAZ):
             p['geocode_match'] = how
             n_geo += 1
     print(f'gazetteer geocoded: {n_geo}')
+
+# ── Proponent documents matched to existing projects ────────────────
+# promote_proponent_docs.py maps feature keys (source|name) to documents
+# found on the proponent's site. Merge them into the project's catalogue
+# (idempotent by url); create a catalogue when the project had none.
+pidx_path = os.path.join(RAW, 'proponent_docs_index.json')
+if os.path.exists(pidx_path):
+    pidx = json.load(open(pidx_path))
+    pdocdir = os.path.join(ROOT, 'data', 'docs', 'proponent')
+    os.makedirs(pdocdir, exist_ok=True)
+    n_merged = n_feats = 0
+    for f in features:
+        p = f['properties']
+        docs = pidx.get(f"{p.get('source')}|{p.get('name')}")
+        if not docs:
+            continue
+        if p.get('docs_path'):
+            cpath = os.path.join(ROOT, p['docs_path'])
+        else:
+            slug = re.sub(r'[^a-z0-9]+', '-', (p.get('name') or '').lower())[:80]
+            cpath = os.path.join(pdocdir, f"{p.get('source')}-{slug}.json")
+            p['docs_path'] = f"data/docs/proponent/{p.get('source')}-{slug}.json"
+        try:
+            cat = json.load(open(cpath))
+        except (OSError, ValueError):
+            cat = {'project': p.get('name'), 'docs': []}
+        have = {d.get('url') for d in cat['docs']}
+        new_docs = [d for d in docs if d['url'] not in have]
+        if new_docs:
+            cat['docs'] += new_docs
+            json.dump(cat, open(cpath, 'w'), ensure_ascii=False)
+        p['doc_count'] = len(cat['docs'])
+        n_merged += len(new_docs)
+        n_feats += 1
+    print(f'proponent docs merged into projects: {n_merged} new across {n_feats} features')
 
 # ── Inventory enrichment ────────────────────────────────────────────
 # Backfill proponent/coords from external major-project inventories for

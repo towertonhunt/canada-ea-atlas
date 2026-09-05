@@ -50,14 +50,36 @@ jobs:
           [ "${{ inputs.refresh }}" = "true" ] && ARGS="$ARGS --refresh"
           python3 scripts/proponent_discover.py $ARGS
 
+      # The Internet Archive's index of each host: recovers removed files and
+      # covers sites that block crawlers. Slow (CDX rate limits); budgeted.
+      - name: Wayback index harvest
+        continue-on-error: true
+        timeout-minutes: 90
+        run: python3 scripts/proponent_wayback.py --top 60
+
+      # Promote EA-typed documents onto the map (matched to projects where
+      # the project name appears; otherwise per-proponent libraries) and
+      # rebuild. The archive lane then mirrors them like any other catalogue.
+      - name: Promote and rebuild
+        run: |
+          python3 scripts/promote_proponent_docs.py
+          python3 scripts/split_doc_catalogues.py --archive-only
+          python3 scripts/build_national_geojson.py
+          python3 scripts/build_api.py
+          python3 scripts/validate_data.py || true
+
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           for i in 1 2 3 4 5; do
-            git pull --rebase origin main || true
-            git add data/raw/proponents
-            git commit -m "Proponent discovery progress [skip ci]" || echo "nothing to commit"
+            git fetch origin main
+            git stash -q || true
+            git reset -q --hard origin/main
+            git stash pop -q || true
+            git add data/raw/proponents data/raw/proponent_docs_index.json data/raw/proponent_libraries.json \
+                    data/docs/proponent data/projects_canada.geojson data/api
+            git commit -m "Proponent discovery + promotion [skip ci]" || { echo "nothing to commit"; break; }
             git push && break
             sleep 7
           done

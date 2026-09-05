@@ -1,0 +1,450 @@
+[
+ {
+  "key": "agnico eagle mines",
+  "name": "Agnico Eagle Mines Limited: EA document library",
+  "proponent": "Agnico Eagle Mines Limited",
+  "website": "https://www.agnicoeagle.com/",
+  "doc_count": 4,
+  "docs_path": "data/docs/proponent/library-agnico-eagle-mines.json"
+ },
+ {
+  "key": "air products",
+  "name": "Air Products: EA document library",
+  "proponent": "Air Products",
+  "website": "http://www.airproducts.be/",
+  "doc_count": 11,
+  "docs_path": "data/docs/proponent/library-air-products.json"
+ },
+ {
+  "key": "alamos gold",
+  "name": "Alamos Gold Inc.: EA document library",
+  "proponent": "Alamos Gold Inc.",
+  "website": "https://www.alamosgold.com/",
+  "doc_count": 7,
+  "docs_path": "data/docs/proponent/library-alamos-gold.json"
+ },
+ {
+  "key": "altalink management",
+  "name": "AltaLink: EA document library",
+  "proponent": "AltaLink",
+  "website": "https://www.altalink.ca/",
+  "doc_count": 205,
+  "docs_path": "data/docs/proponent/library-altalink-management.json"
+ },
+ {
+  "key": "arianne phosphate",
+  "name": "Arianne Phosphate inc.: EA document library",
+  "proponent": "Arianne Phosphate inc.",
+  "website": "https://www.arianne-inc.com/",
+  "doc_count": 20,
+  "docs_path": "data/docs/proponent/library-arianne-phosphate.json"
+ },
+ {
+  "key": "atco",
+  "name": "ATCO: EA document library",
+  "proponent": "ATCO",
+  "website": "https://www.atco.com/",
+  "doc_count": 35,
+  "docs_path": "data/docs/proponent/library-atco.json"
+ },
+ {
+  "key": "atomic energy of canada",
+  "name": "Atomic Energy of Canada Limited: EA document library",
+  "proponent": "Atomic Energy of Canada Limited",
+  "website": "http://www.aecl.ca/",
+  "doc_count": 20,
+  "docs_path": "data/docs/proponent/library-atomic-energy-of-canada.json"
+ },
+ {
+  "key": "bc hydro",
+  "name": "BC Hydro: EA document library",
+  "proponent": "BC Hydro",
+  "website": "https://www.bchydro.com/",
+  "doc_count": 2462,
+  "docs_path": "data/docs/proponent/library-bc-hydro.json"
+ },
+ {
+  "key": "bhp",
+  "name": "BHP: EA document library",
+  "proponent": "BHP",
+  "website": "https://www.bhp.com/",
+  "doc_count": 7,
+  "docs_path": "data/docs/proponent/library-bhp.json"
+ },
+ {
+  "key": "bruce power",
+  "name": "Bruce Power: EA document library",
+  "proponent": "Bruce Power",
+  "website": "https://www.brucepower.com/",
+  "doc_count": 43,
+  "docs_path": "data/docs/proponent/library-bruce-power.json"
+ },
+ {
+  "key": "canada nickel",
+  "name": "Canada Nickel Company: EA document library",
+  "proponent": "Canada Nickel Company",
+  "website": "https://canadanickel.com/",
+  "doc_count": 10,
+  "docs_path": "data/docs/proponent/library-canada-nickel.json"
+ },
+ {
+  "key": "canadian natural resources",
+  "name": "Canadian Natural Resources: EA document library",
+  "proponent": "Canadian Natural Resources",
+  "website": "https://www.cnrl.com/",
+  "doc_count": 60,
+  "docs_path": "data/docs/proponent/library-canadian-natural-resources.json"
+ },
+ {
+  "key": "capital power",
+  "name": "Capital Power Corporation: EA document library",
+  "proponent": "Capital Power Corporation",
+  "website": "https://www.capitalpower.com/",
+  "doc_count": 545,
+  "docs_path": "data/docs/proponent/library-capital-power.json"
+ },
+ {
+  "key": "cedar lng export development",
+  "name": "Cedar LNG: EA document library",
+  "proponent": "Cedar LNG",
+  "website": "https://www.cedarlng.com/",
+  "doc_count": 13,
+  "docs_path": "data/docs/proponent/library-cedar-lng-export-development.json"
+ },
+ {
+  "key": "cenovus energy",
+  "name": "Cenovus Energy Inc.: EA document library",
+  "proponent": "Cenovus Energy Inc.",
+  "website": "https://www.cenovus.com/",
+  "doc_count": 401,
+  "docs_path": "data/docs/proponent/library-cenovus-energy.json"
+ },
+ {
+  "key": "champion iron",
+  "name": "Champion Iron Mines Ltd.: EA document library",
+  "proponent": "Champion Iron Mines Ltd.",
+  "website": "https://www.championiron.com/",
+  "doc_count": 6,
+  "docs_path": "data/docs/proponent/library-champion-iron.json"
+ },
+ {
+  "key": "conocophillips canada",
+  "name": "ConocoPhillips Canada: EA document library",
+  "proponent": "ConocoPhillips Canada",
+  "website": "https://www.conocophillips.ca/",
+  "doc_count": 3,
+  "docs_path": "data/docs/proponent/library-conocophillips-canada.json"
+ },
+ {
+  "key": "denison mines",
+  "name": "Denison Mines Corp.: EA document library",
+  "proponent": "Denison Mines Corp.",
+  "website": "https://www.denisonmines.com/",
+  "doc_count": 19,
+  "docs_path": "data/docs/proponent/library-denison-mines.json"
+ },
+ {
+  "key": "enbridge",
+  "name": "Enbridge Inc.: EA document library",
+  "proponent": "Enbridge Inc.",
+  "website": "https://www.enbridge.com/",
+  "doc_count": 1113,
+  "docs_path": "data/docs/proponent/library-enbridge.json"
+ },
+ {
+  "key": "encana",
+  "name": "Encana Corporation: EA document library",
+  "proponent": "Encana Corporation",
+  "website": "http://www.encana.com/",
+  "doc_count": 35,
+  "docs_path": "data/docs/proponent/library-encana.json"
+ },
+ {
+  "key": "everwind fuels",
+  "name": "EverWind Fuels: EA document library",
+  "proponent": "EverWind Fuels",
+  "website": "https://everwindfuels.com/",
+  "doc_count": 93,
+  "docs_path": "data/docs/proponent/library-everwind-fuels.json"
+ },
+ {
+  "key": "fortis bc",
+  "name": "FortisBC: EA document library",
+  "proponent": "FortisBC",
+  "website": "https://www.fortisbc.com/",
+  "doc_count": 74,
+  "docs_path": "data/docs/proponent/library-fortis-bc.json"
+ },
+ {
+  "key": "fpx nickel",
+  "name": "FPX Nickel Corp.: EA document library",
+  "proponent": "FPX Nickel Corp.",
+  "website": "https://fpxnickel.com/",
+  "doc_count": 4,
+  "docs_path": "data/docs/proponent/library-fpx-nickel.json"
+ },
+ {
+  "key": "generation pgm",
+  "name": "Generation Mining: EA document library",
+  "proponent": "Generation Mining",
+  "website": "https://genmining.com/",
+  "doc_count": 67,
+  "docs_path": "data/docs/proponent/library-generation-pgm.json"
+ },
+ {
+  "key": "glencore",
+  "name": "Glencore plc: EA document library",
+  "proponent": "Glencore plc",
+  "website": "https://www.glencore.ca/",
+  "doc_count": 25,
+  "docs_path": "data/docs/proponent/library-glencore.json"
+ },
+ {
+  "key": "hudson bay mining and smelting",
+  "name": "Hudbay (Hudson Bay Mining and Smelting): EA document library",
+  "proponent": "Hudbay (Hudson Bay Mining and Smelting)",
+  "website": "https://hudbayminerals.com/",
+  "doc_count": 15,
+  "docs_path": "data/docs/proponent/library-hudson-bay-mining-and-smelting.json"
+ },
+ {
+  "key": "hydro one",
+  "name": "Hydro One: EA document library",
+  "proponent": "Hydro One",
+  "website": "https://www.hydroone.com/",
+  "doc_count": 1246,
+  "docs_path": "data/docs/proponent/library-hydro-one.json"
+ },
+ {
+  "key": "hydro qu bec",
+  "name": "Hydro-Québec: EA document library",
+  "proponent": "Hydro-Québec",
+  "website": "https://www.hydroquebec.com/",
+  "doc_count": 436,
+  "docs_path": "data/docs/proponent/library-hydro-qu-bec.json"
+ },
+ {
+  "key": "imperial oil",
+  "name": "Imperial Oil Limited: EA document library",
+  "proponent": "Imperial Oil Limited",
+  "website": "https://www.imperialoil.ca/",
+  "doc_count": 65,
+  "docs_path": "data/docs/proponent/library-imperial-oil.json"
+ },
+ {
+  "key": "ipc canada",
+  "name": "IPC Canada Ltd.: EA document library",
+  "proponent": "IPC Canada Ltd.",
+  "website": "https://www.international-petroleum.com/",
+  "doc_count": 119,
+  "docs_path": "data/docs/proponent/library-ipc-canada.json"
+ },
+ {
+  "key": "iron ore  of canada",
+  "name": "Iron Ore Company of Canada: EA document library",
+  "proponent": "Iron Ore Company of Canada",
+  "website": "http://www.ironore.ca/",
+  "doc_count": 11,
+  "docs_path": "data/docs/proponent/library-iron-ore-of-canada.json"
+ },
+ {
+  "key": "kinder morgan canada",
+  "name": "Trans Mountain (ex Kinder Morgan Canada): EA document library",
+  "proponent": "Trans Mountain (ex Kinder Morgan Canada)",
+  "website": "https://www.transmountain.com/",
+  "doc_count": 1,
+  "docs_path": "data/docs/proponent/library-kinder-morgan-canada.json"
+ },
+ {
+  "key": "kineticor resource",
+  "name": "Kineticor Resource Corp.: EA document library",
+  "proponent": "Kineticor Resource Corp.",
+  "website": "https://kineticor.ca/",
+  "doc_count": 1,
+  "docs_path": "data/docs/proponent/library-kineticor-resource.json"
+ },
+ {
+  "key": "kinross gold",
+  "name": "Kinross Gold Corporation: EA document library",
+  "proponent": "Kinross Gold Corporation",
+  "website": "https://www.kinross.com/",
+  "doc_count": 22,
+  "docs_path": "data/docs/proponent/library-kinross-gold.json"
+ },
+ {
+  "key": "lng canada",
+  "name": "LNG Canada: EA document library",
+  "proponent": "LNG Canada",
+  "website": "https://www.lngcanada.ca/",
+  "doc_count": 28,
+  "docs_path": "data/docs/proponent/library-lng-canada.json"
+ },
+ {
+  "key": "manitoba hydro",
+  "name": "Manitoba Hydro: EA document library",
+  "proponent": "Manitoba Hydro",
+  "website": "https://www.hydro.mb.ca/",
+  "doc_count": 2807,
+  "docs_path": "data/docs/proponent/library-manitoba-hydro.json"
+ },
+ {
+  "key": "nemaska lithium",
+  "name": "Nemaska Lithium inc.: EA document library",
+  "proponent": "Nemaska Lithium inc.",
+  "website": "https://nemaskalithium.com/",
+  "doc_count": 34,
+  "docs_path": "data/docs/proponent/library-nemaska-lithium.json"
+ },
+ {
+  "key": "newfoundland and labrador hydro",
+  "name": "Newfoundland and Labrador Hydro: EA document library",
+  "proponent": "Newfoundland and Labrador Hydro",
+  "website": "https://nlhydro.com/",
+  "doc_count": 72,
+  "docs_path": "data/docs/proponent/library-newfoundland-and-labrador-hydro.json"
+ },
+ {
+  "key": "newfoundland power",
+  "name": "Newfoundland Power Inc.: EA document library",
+  "proponent": "Newfoundland Power Inc.",
+  "website": "http://www.newfoundlandpower.com/",
+  "doc_count": 19,
+  "docs_path": "data/docs/proponent/library-newfoundland-power.json"
+ },
+ {
+  "key": "nexgen energy",
+  "name": "NexGen Energy Ltd.: EA document library",
+  "proponent": "NexGen Energy Ltd.",
+  "website": "https://www.nexgenenergy.ca/",
+  "doc_count": 4,
+  "docs_path": "data/docs/proponent/library-nexgen-energy.json"
+ },
+ {
+  "key": "north west redwater partnership",
+  "name": "North West Redwater Partnership: EA document library",
+  "proponent": "North West Redwater Partnership",
+  "website": "https://www.nwrpartnership.com/",
+  "doc_count": 2,
+  "docs_path": "data/docs/proponent/library-north-west-redwater-partnership.json"
+ },
+ {
+  "key": "nova scotia power",
+  "name": "Nova Scotia Power: EA document library",
+  "proponent": "Nova Scotia Power",
+  "website": "https://www.nspower.ca/",
+  "doc_count": 102,
+  "docs_path": "data/docs/proponent/library-nova-scotia-power.json"
+ },
+ {
+  "key": "nuclear waste management organization",
+  "name": "Nuclear Waste Management Organization: EA document library",
+  "proponent": "Nuclear Waste Management Organization",
+  "website": "https://www.nwmo.ca/",
+  "doc_count": 1124,
+  "docs_path": "data/docs/proponent/library-nuclear-waste-management-organization.json"
+ },
+ {
+  "key": "ontario power generation",
+  "name": "Ontario Power Generation: EA document library",
+  "proponent": "Ontario Power Generation",
+  "website": "https://www.opg.com/",
+  "doc_count": 386,
+  "docs_path": "data/docs/proponent/library-ontario-power-generation.json"
+ },
+ {
+  "key": "pathways alliance",
+  "name": "The Pathways Alliance: EA document library",
+  "proponent": "The Pathways Alliance",
+  "website": "https://oilsandsalliance.ca/",
+  "doc_count": 8,
+  "docs_path": "data/docs/proponent/library-pathways-alliance.json"
+ },
+ {
+  "key": "pembina pipeline",
+  "name": "Pembina Pipeline Corp.: EA document library",
+  "proponent": "Pembina Pipeline Corp.",
+  "website": "http://www.pembina.com/",
+  "doc_count": 60,
+  "docs_path": "data/docs/proponent/library-pembina-pipeline.json"
+ },
+ {
+  "key": "rock tech lithium",
+  "name": "Rock Tech Lithium Inc.: EA document library",
+  "proponent": "Rock Tech Lithium Inc.",
+  "website": "https://www.rocktechlithium.com/",
+  "doc_count": 16,
+  "docs_path": "data/docs/proponent/library-rock-tech-lithium.json"
+ },
+ {
+  "key": "rubellite energy",
+  "name": "Rubellite Energy Inc.: EA document library",
+  "proponent": "Rubellite Energy Inc.",
+  "website": "https://www.rubelliteenergy.com/",
+  "doc_count": 7,
+  "docs_path": "data/docs/proponent/library-rubellite-energy.json"
+ },
+ {
+  "key": "saskpower",
+  "name": "SaskPower: EA document library",
+  "proponent": "SaskPower",
+  "website": "https://www.saskpower.com/",
+  "doc_count": 278,
+  "docs_path": "data/docs/proponent/library-saskpower.json"
+ },
+ {
+  "key": "shell canada",
+  "name": "Shell Canada: EA document library",
+  "proponent": "Shell Canada",
+  "website": "https://www.shell.ca/",
+  "doc_count": 81,
+  "docs_path": "data/docs/proponent/library-shell-canada.json"
+ },
+ {
+  "key": "suncor energy",
+  "name": "Suncor Energy Inc.: EA document library",
+  "proponent": "Suncor Energy Inc.",
+  "website": "https://www.suncor.com/",
+  "doc_count": 446,
+  "docs_path": "data/docs/proponent/library-suncor-energy.json"
+ },
+ {
+  "key": "syncrude canada",
+  "name": "Syncrude Canada Ltd.: EA document library",
+  "proponent": "Syncrude Canada Ltd.",
+  "website": "https://www.syncrude.ca/",
+  "doc_count": 9,
+  "docs_path": "data/docs/proponent/library-syncrude-canada.json"
+ },
+ {
+  "key": "taseko mines",
+  "name": "Taseko Mines Limited: EA document library",
+  "proponent": "Taseko Mines Limited",
+  "website": "https://www.tasekomines.com/",
+  "doc_count": 13,
+  "docs_path": "data/docs/proponent/library-taseko-mines.json"
+ },
+ {
+  "key": "tc energy",
+  "name": "TC Energy Corporation: EA document library",
+  "proponent": "TC Energy Corporation",
+  "website": "https://www.tcenergy.com/",
+  "doc_count": 135,
+  "docs_path": "data/docs/proponent/library-tc-energy.json"
+ },
+ {
+  "key": "teck resources",
+  "name": "Teck Resources: EA document library",
+  "proponent": "Teck Resources",
+  "website": "https://www.teck.com/",
+  "doc_count": 259,
+  "docs_path": "data/docs/proponent/library-teck-resources.json"
+ },
+ {
+  "key": "woodfibre lng",
+  "name": "Woodfibre LNG: EA document library",
+  "proponent": "Woodfibre LNG",
+  "website": "https://www.woodfibrelng.ca/",
+  "doc_count": 49,
+  "docs_path": "data/docs/proponent/library-woodfibre-lng.json"
+ }
+]

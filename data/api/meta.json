@@ -1,8 +1,8 @@
 {
- "total": 18975,
+ "total": 19031,
  "depth": {
-  "1": 12219,
-  "2": 6600,
+  "1": 12194,
+  "2": 6681,
   "3": 156
  },
  "deep_tier_ids": [
@@ -199,7 +199,7 @@
   "industrial": 1024,
   "tourism": 58,
   "oil_gas": 732,
-  "other": 4583,
+  "other": 4639,
   "transport": 2107,
   "waste": 265,
   "water": 1686,
@@ -218,6 +218,7 @@
   "Ontario (Class EA)",
   "Ontario (Provincial EA)",
   "Ontario (REA)",
+  "Proponent website",
   "Quebec (MELCCFP)"
  ],
  "frameworks": "data/process_frameworks.json"
