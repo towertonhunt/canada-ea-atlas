@@ -242,6 +242,53 @@ work; facts/quotes only in public repo).
 - fetch-substack.yml: weekly mirror attempt (blocked; owner export is
   the real source — lane kept for wayback-mediated retries only).
 
+## Project footprints & layouts + aerial basemap (2026-09-05)
+- User ask: zoomed-in projects should show the layout (turbines, pits, dams,
+  lines), not a pin, on Google-Earth-class imagery.
+- Basemap: index.html now has Map / Aerial / Auto (Esri World Imagery, keyless,
+  native z19 ~0.3-0.5 m in settled Canada, upscaled to z21, with Esri
+  transportation + places reference labels). Auto = light map, flips to
+  imagery at IMAGERY_ZOOM 12. Choice persists in localStorage.
+- Footprint model: data/footprints/<pid>.json (pid = make_id(jur,name), the
+  API's stable id; make_id now lives in scripts/footprints_common.py and
+  build_api imports it) = FeatureCollection of design elements with `role`
+  (ROLES in footprints_common; FOOTPRINT_STYLES in index.html must stay in
+  sync), `source`, provenance. data/footprints/index.json summarises; build_
+  national_geojson attaches footprint_path/kind/n/roles/bbox/sources/
+  confidence; validate_data check_footprints() enforces index<->file<->geojson.
+- index.html lazy-loads footprints in view from FOOTPRINT_ZOOM 11 (selected
+  project from 9), draws turbine glyphs / shape markers / polygons / lines,
+  adds a "Project layout" legend + sidebar block (element counts, source,
+  notes, zoom-to), and hoists map-like documents into "Maps, figures & site
+  plans" (MAP_DOC_RX mirrors scripts/find_map_documents.py).
+- SOURCE 1 (offline, live): scripts/extract_rea_layouts.py -- every Ontario
+  REA instrument carries a schedule of equipment UTM coordinates (turbines,
+  inverters, transformers, substations + sound power + model). Parser glues
+  PDF-wrapped numbers, ids on the line above, E/N in either order (value
+  ranges decide), zone from "Z17-NAD83"/"UTM17" else inferred vs the pin,
+  drops rows >35 km from the pin. 105/222 corpus docs -> 61 projects, 1,775
+  elements (550 turbines, 520 inverters, 277 transformers, 75 substations).
+  Found > num_turbines = alternates the approval permits (noted, not an error).
+- SOURCE 2 (network, lane fetch-footprints.yml weekly Sun + dispatch):
+  scripts/build_footprints.py --source gis|cwtd|osm, staging in
+  data/raw/footprints/<src>/, --merge-only recombines (REA > gis > cwtd > osm;
+  cross-source point dedupe 8 m, turbines 60 m; a source's own rows never
+  collapse). gis = IAAC "Supporting geospatial data" attachments (75 docs on
+  federal_iaac landing pages -> href=/050/documents zip; pure-python KML +
+  shapefile readers, UTM .prj native, other CRS via pyproj) + any KML/KMZ/SHP
+  link (find_map_documents gis_queue). cwtd = Canadian Wind Turbine Database
+  (CKAN discovery + ftp.maps.canada.ca fallback; matched by distinctive name
+  tokens + <=30 km, proximity-only <=4 km). osm = Overpass around the pin
+  (radius by sector), roles from tags; unnamed elements kept only if they fit
+  the sector and sit within radius/2; line-only proximity results dropped
+  (the grid passing by). UNTESTED AGAINST LIVE SERVICES (sandbox has no
+  egress): first lane run will show which CKAN/Overpass assumptions hold.
+- Not done / next: georeferencing figure PDFs (site plans, GA drawings) --
+  find_map_documents.py already indexes 2,556 map-like docs / 300 projects as
+  the queue; BC EPIC and Quebec have no GIS attachments in catalogues;
+  Alberta AER / BC EAO spatial datasets (project boundary polygons) would be
+  the next bulk footprint source; project.html has no map yet.
+
 ## Known open threads (priority order)
 1. Corpus quality: BC DONE 2026-07-06 -> bc_conditions_v2.json.gz
    (741 real measures kept of 1,884 v1 records; 1,242 were OCR/boilerplate

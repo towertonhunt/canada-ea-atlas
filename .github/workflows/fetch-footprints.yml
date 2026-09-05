@@ -1,0 +1,93 @@
+name: Project footprints & layouts
+
+# Recovers project layouts (turbines, pits, tailings, dams, lines...) so the
+# map shows more than a pin when a viewer zooms in:
+#   1. scripts/extract_rea_layouts.py  -- Ontario REA equipment coordinate
+#      schedules already in the corpus (offline)
+#   2. scripts/find_map_documents.py   -- maps / site plans / GIS attachments
+#      across every catalogue (offline) -> gis queue
+#   3. scripts/build_footprints.py     -- IAAC "Supporting geospatial data"
+#      zips + other KML/SHP links, the Canadian Wind Turbine Database, and
+#      OpenStreetMap via Overpass (network, budgeted, resumable)
+#   4. rebuild geojson -> gap report -> API, validate, commit to main
+#
+# Needs internet -> runs on Actions, not the dev sandbox.
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Network source: all | gis | cwtd | osm'
+        default: 'all'
+      budget:
+        description: 'Seconds for the network phases'
+        default: '10800'
+      limit:
+        description: 'Max items per network source'
+        default: '100000'
+  push:
+    branches: [main]
+    paths: ['.github/workflows/fetch-footprints.yml']
+  schedule:
+    - cron: "17 9 * * 0"   # weekly, Sundays
+
+permissions:
+  contents: write
+
+concurrency:
+  group: footprints
+  cancel-in-progress: false
+
+jobs:
+  footprints:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Optional projection support for shapefiles in other CRSs
+        continue-on-error: true
+        run: pip install --quiet pyproj
+
+      - name: Document-derived layouts (offline)
+        run: |
+          python3 scripts/extract_rea_layouts.py
+          python3 scripts/find_map_documents.py
+
+      - name: Harvest spatial sources (network, budgeted)
+        continue-on-error: true
+        run: |
+          python3 -u scripts/build_footprints.py \
+            --source "${{ github.event.inputs.source || 'all' }}" \
+            --budget "${{ github.event.inputs.budget || '10800' }}" \
+            --limit  "${{ github.event.inputs.limit  || '100000' }}"
+
+      - name: Merge + rebuild map, gap report and API
+        run: |
+          python3 scripts/build_footprints.py --merge-only
+          python3 scripts/build_national_geojson.py
+          python3 scripts/gap_reconcile.py || true
+          python3 scripts/build_api.py
+          python3 scripts/validate_data.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git stash -q || true
+            git reset -q --hard origin/main
+            git stash pop -q || true
+            git add data/footprints data/raw/footprints data/raw/map_docs_index.json \
+                    data/projects_canada.geojson data/gap_report.json data/api
+            git commit -m "Footprint harvest [skip ci]" || { echo "nothing to commit"; break; }
+            git push && break
+            sleep 7
+          done

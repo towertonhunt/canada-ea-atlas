@@ -332,6 +332,64 @@ def check_api():
           f'detail files, {len(nth_ids)} Northey landmark cases')
 
 
+def check_footprints():
+    """Project layouts (data/footprints/): index <-> files <-> geojson pointers."""
+    fp_dir = os.path.join(ROOT, 'data', 'footprints')
+    idx_path = os.path.join(fp_dir, 'index.json')
+    if not os.path.exists(idx_path):
+        print('  --  no footprints index yet (run scripts/extract_rea_layouts.py)')
+        return
+    idx = json.load(open(idx_path))
+    sys.path.insert(0, os.path.join(ROOT, 'scripts'))
+    from footprints_common import ROLES, iter_coords
+    n_el = bad = unknown_roles = 0
+    for pid, e in idx.items():
+        path = os.path.join(fp_dir, f'{pid}.json')
+        if not os.path.exists(path):
+            fail(f'footprints: index entry {pid} has no file'); bad += 1; continue
+        try:
+            fc = json.load(open(path))
+        except Exception as ex:
+            fail(f'footprints: {pid}.json unreadable: {ex}'); bad += 1; continue
+        feats = fc.get('features') or []
+        if fc.get('type') != 'FeatureCollection' or not feats:
+            fail(f'footprints: {pid}.json is not a non-empty FeatureCollection'); bad += 1; continue
+        if len(feats) != e.get('n'):
+            fail(f'footprints: {pid} index n={e.get("n")} but file has {len(feats)}')
+        for f in feats:
+            g = f.get('geometry') or {}
+            role = (f.get('properties') or {}).get('role')
+            if role not in ROLES:
+                unknown_roles += 1
+            for lon, lat in iter_coords(g):
+                if not (CA_BBOX[0] <= lon <= CA_BBOX[2] and CA_BBOX[1] <= lat <= CA_BBOX[3]):
+                    fail(f'footprints: {pid} ({e.get("name", "?")[:30]}) element outside Canada '
+                         f'[{lon:.3f},{lat:.3f}]')
+                    break
+        n_el += len(feats)
+    if unknown_roles:
+        warn(f'footprints: {unknown_roles} elements with a role not in ROLES')
+    # every geojson pointer must resolve
+    geo = os.path.join(ROOT, 'data', 'projects_canada.geojson')
+    if os.path.exists(geo):
+        missing = 0
+        pointed = 0
+        for f in json.load(open(geo))['features']:
+            fp = (f.get('properties') or {}).get('footprint_path')
+            if not fp:
+                continue
+            pointed += 1
+            if not os.path.exists(os.path.join(ROOT, fp)):
+                missing += 1
+        if missing:
+            fail(f'footprints: {missing} geojson footprint_path pointers have no file')
+        if not pointed and idx:
+            warn('footprints: index has entries but no geojson feature points at one '
+                 '(rebuild with scripts/build_national_geojson.py)')
+        print(f'  ok  footprints: {len(idx)} projects, {n_el} elements, '
+              f'{pointed} geojson pointers, {bad} broken')
+
+
 def main():
     print('Validating data artifacts...\n')
     for name, fn in (('conditions', check_conditions),
@@ -341,7 +399,8 @@ def main():
                      ('predictions', check_predictions),
                      ('gap report', check_gap_report),
                      ('known projects', check_known_projects),
-                     ('api', check_api)):
+                     ('api', check_api),
+                     ('footprints', check_footprints)):
         print(f'[{name}]')
         try:
             fn()

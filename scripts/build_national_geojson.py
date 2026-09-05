@@ -14,6 +14,7 @@ import json
 import re
 import html as htmllib
 import os
+import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(ROOT, 'data', 'raw')
@@ -797,6 +798,32 @@ if os.path.exists(gap_path):
                           'no matching record found in the EA registries '
                           'this map harvests.')}})
     print(f'gap overlay: {n_gap} unmatched inventory majors pinned')
+
+# ── Project footprints / layouts (data/footprints/, see footprints_common) ──
+# Attach a pointer + summary so index.html can lazy-load the layout when a
+# viewer zooms in. Keyed by the same stable id the API uses.
+fp_index = os.path.join(ROOT, 'data', 'footprints', 'index.json')
+if os.path.exists(fp_index):
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from footprints_common import make_id as _fp_make_id
+    fp_idx = json.load(open(fp_index))
+    n_fp = 0
+    for f in features:
+        p = f['properties']
+        e = fp_idx.get(_fp_make_id(p.get('jurisdiction'), p.get('name')))
+        if not e:
+            continue
+        pid = _fp_make_id(p.get('jurisdiction'), p.get('name'))
+        p['footprint_path'] = f'data/footprints/{pid}.json'
+        p['footprint_kind'] = e.get('kind')
+        p['footprint_n'] = e.get('n')
+        p['footprint_roles'] = e.get('roles')
+        p['footprint_bbox'] = e.get('bbox')
+        p['footprint_sources'] = e.get('sources')
+        if e.get('confidence'):
+            p['footprint_confidence'] = e['confidence']
+        n_fp += 1
+    print(f'footprints: {n_fp} features carry a layout ({len(fp_idx)} in index)')
 
 json.dump({'type': 'FeatureCollection', 'features': features}, open(OUT, 'w'))
 n_geom = sum(1 for f in features if f.get('geometry'))

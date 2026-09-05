@@ -32,19 +32,10 @@ GEOJSON = os.path.join(ROOT, 'data', 'projects_canada.geojson')
 FRAMEWORKS = os.path.join(ROOT, 'data', 'process_frameworks.json')
 NORTHEY = os.path.join(ROOT, 'data', 'northey_subjects.json')
 
-JUR_PREFIX = {
-    'Federal (IAAC)': 'fed', 'British Columbia (EAO)': 'bc',
-    'Quebec (MELCCFP)': 'qc', 'Nova Scotia (NSECC)': 'ns',
-    'Newfoundland & Labrador (ECC)': 'nl', 'Manitoba (Environment Act)': 'mb',
-    'Ontario (REA)': 'rea', 'Ontario (Provincial EA)': 'onp',
-    'Ontario (Abandoned Mines)': 'amis',
-    'Major projects inventory (unmatched)': 'gap',
-}
-
-
-def make_id(jur, name):
-    h = hashlib.md5(f'{jur}||{name}'.encode()).hexdigest()[:10]
-    return f'{JUR_PREFIX.get(jur, "x")}-{h}'
+# Stable project ids are shared with the footprint pipeline -- single source
+# of truth in footprints_common (same directory).
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from footprints_common import JUR_PREFIX, make_id  # noqa: E402,F401
 
 
 def fold(s):

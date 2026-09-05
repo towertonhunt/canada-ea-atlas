@@ -175,6 +175,43 @@
       #sidebar.hidden { width: 0 !important; }
     }
     .doc-archive { font-size: 0.72rem; color: #6b7280; margin-top: -4px; padding-left: 14px; }
+    .doc-link.doc-map::before { content: "🗺"; }
+
+    /* Basemap switcher (Leaflet control) */
+    .basemap-ctl { background: white; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.3); display: flex; overflow: hidden; }
+    .basemap-ctl button {
+      border: none; background: white; padding: 5px 9px; font-size: 0.74rem; cursor: pointer; color: #333;
+      border-right: 1px solid #e5e7eb; font-family: inherit;
+    }
+    .basemap-ctl button:last-child { border-right: none; }
+    .basemap-ctl button.active { background: #1a3a5c; color: white; }
+    .basemap-ctl button:hover:not(.active) { background: #f0f4f8; }
+
+    /* Layout (footprint) elements */
+    .fp-turbine { filter: drop-shadow(0 1px 1.5px rgba(0,0,0,0.6)); }
+    .fp-tip { font-size: 0.74rem; line-height: 1.3; }
+    .fp-tip b { display: block; }
+    .fp-tip .src { color: #6b7280; font-size: 0.68rem; }
+    #legend-layout { margin-top: 8px; padding-top: 6px; border-top: 1px solid #e5e7eb; }
+    .legend-swatch { display: inline-block; width: 12px; height: 12px; flex-shrink: 0; }
+    .legend-swatch.line { height: 3px; }
+
+    /* Sidebar: project layout block */
+    #layout-box {
+      margin: 8px 0 4px; padding: 8px 10px; background: #f0f4f8; border: 1px solid #d0d7de; border-radius: 6px;
+      font-size: 0.78rem; line-height: 1.4;
+    }
+    #layout-box .roles { display: flex; flex-wrap: wrap; gap: 4px 8px; margin: 4px 0; }
+    #layout-box .roles span { display: inline-flex; align-items: center; gap: 4px; }
+    #layout-box button {
+      margin-top: 6px; font-size: 0.74rem; padding: 4px 9px; border: 1px solid #1a3a5c; background: white;
+      color: #1a3a5c; border-radius: 4px; cursor: pointer; font-family: inherit;
+    }
+    #layout-box button:hover { background: #1a3a5c; color: white; }
+    #layout-box .note { color: #a16207; font-size: 0.72rem; margin-top: 4px; }
+    #layout-box .src { color: #555; font-size: 0.72rem; margin-top: 4px; }
+    #layout-box .src a { color: #1a3a5c; }
+    .zoom-hint { font-size: 0.72rem; color: #6b7280; margin-top: 4px; }
 </style>
 </head>
 <body>
@@ -250,6 +287,10 @@
 <div id="legend">
   <h4>Sector</h4>
   <div id="legend-rows"></div>
+  <div id="legend-layout" hidden>
+    <h4>Project layout</h4>
+    <div id="legend-layout-rows"></div>
+  </div>
 </div>
 <script>
 // Legend is generated from CATEGORY_META after it is defined below.
@@ -269,21 +310,91 @@ window.addEventListener("DOMContentLoaded", () => {
 const map = L.map("map", {
   center: [56.5, -96],
   zoom: 4,
+  maxZoom: 21,
   zoomControl: true,
 });
 
-// Esri Light Gray Canvas (keyless; CARTO's free basemaps now require an API key).
-// Native tiles end at zoom 16; maxNativeZoom upscales them beyond that.
-L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
-  attribution: 'Powered by <a href="https://www.esri.com/">Esri</a> — Esri, HERE, Garmin, © OpenStreetMap contributors',
-  maxZoom: 19,
-  maxNativeZoom: 16,
-}).addTo(map);
-L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}", {
-  maxZoom: 19,
-  maxNativeZoom: 16,
-  pane: "shadowPane", // labels above the base tiles, below markers
-}).addTo(map);
+// ── Basemaps ───────────────────────────────────────────────────────────────
+// Two keyless Esri services:
+//  * "map"    — Light Gray Canvas (native tiles end at z16, upscaled beyond)
+//  * "aerial" — World Imagery: Maxar / Earthstar high-resolution orthoimagery,
+//               native to z19 across settled Canada (sub-metre pixels, the same
+//               class of imagery Google Earth shows), upscaled to z21 so a
+//               turbine pad or tailings dam can be inspected up close, with
+//               place / boundary and road labels on top.
+// "auto" (default) shows the light map for the national overview and switches
+// to imagery once the viewer zooms in to a project (IMAGERY_ZOOM).
+const ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services/";
+const BASEMAPS = {
+  map: {
+    label: "Map",
+    layers: [
+      L.tileLayer(ESRI + "Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+        attribution: 'Powered by <a href="https://www.esri.com/">Esri</a> — Esri, HERE, Garmin, © OpenStreetMap contributors',
+        maxZoom: 21, maxNativeZoom: 16,
+      }),
+      L.tileLayer(ESRI + "Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}", {
+        maxZoom: 21, maxNativeZoom: 16, pane: "shadowPane", // labels above tiles, below markers
+      }),
+    ],
+  },
+  aerial: {
+    label: "Aerial",
+    layers: [
+      L.tileLayer(ESRI + "World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+        attribution: 'Imagery © Esri — Maxar, Earthstar Geographics, and the GIS User Community',
+        maxZoom: 21, maxNativeZoom: 19,
+      }),
+      L.tileLayer(ESRI + "Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}", {
+        maxZoom: 21, maxNativeZoom: 19, pane: "shadowPane", opacity: 0.9,
+      }),
+      L.tileLayer(ESRI + "Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}", {
+        maxZoom: 21, maxNativeZoom: 19, pane: "shadowPane",
+      }),
+    ],
+  },
+};
+const IMAGERY_ZOOM = 12;     // "auto" flips to aerial at this zoom
+let basemapMode = "auto";    // "auto" | "map" | "aerial"
+try { basemapMode = localStorage.getItem("ea-basemap") || "auto"; } catch (e) {}
+let basemapShown = null;
+
+function wantedBasemap() {
+  if (basemapMode !== "auto") return basemapMode;
+  return map.getZoom() >= IMAGERY_ZOOM ? "aerial" : "map";
+}
+function applyBasemap() {
+  const want = wantedBasemap();
+  if (want === basemapShown) return;
+  if (basemapShown) BASEMAPS[basemapShown].layers.forEach(l => map.removeLayer(l));
+  BASEMAPS[want].layers.forEach(l => l.addTo(map));
+  basemapShown = want;
+  document.getElementById("legend").style.background = want === "aerial" ? "rgba(255,255,255,0.92)" : "white";
+}
+function setBasemapMode(mode) {
+  basemapMode = mode;
+  try { localStorage.setItem("ea-basemap", mode); } catch (e) {}
+  document.querySelectorAll(".basemap-ctl button").forEach(b => b.classList.toggle("active", b.dataset.mode === mode));
+  applyBasemap();
+}
+const BasemapControl = L.Control.extend({
+  onAdd() {
+    const div = L.DomUtil.create("div", "basemap-ctl leaflet-bar");
+    for (const [mode, label] of [["map", "Map"], ["aerial", "Aerial"], ["auto", "Auto"]]) {
+      const b = L.DomUtil.create("button", mode === basemapMode ? "active" : "", div);
+      b.textContent = label;
+      b.dataset.mode = mode;
+      b.title = mode === "auto" ? `Light map when zoomed out, aerial imagery from zoom ${IMAGERY_ZOOM}` :
+                mode === "aerial" ? "High-resolution aerial imagery (Esri World Imagery)" : "Light grey reference map";
+      L.DomEvent.on(b, "click", e => { L.DomEvent.stop(e); setBasemapMode(mode); });
+    }
+    L.DomEvent.disableClickPropagation(div);
+    return div;
+  },
+});
+map.addControl(new BasemapControl({ position: "topright" }));
+applyBasemap();
+map.on("zoomend", applyBasemap);
 
 // ── SVG icon paths ─────────────────────────────────────────────────────────
 // Wind turbine: tapered tower + 3 blades at 120° intervals + hub
@@ -422,6 +533,272 @@ const cluster = L.markerClusterGroup({
 });
 map.addLayer(cluster);
 
+// ── Project layouts (footprints) ───────────────────────────────────────────
+// Features that carry `footprint_path` have a per-project GeoJSON under
+// data/footprints/<pid>.json: turbines, inverters, substations, pits, dams,
+// lines... each with a `role` (scripts/footprints_common.py ROLES). They are
+// lazy-loaded for every project in view once zoomed to FOOTPRINT_ZOOM, and
+// for the selected project from SELECTED_FOOTPRINT_ZOOM.
+const FOOTPRINT_ZOOM = 11;
+const SELECTED_FOOTPRINT_ZOOM = 9;
+const MAX_FOOTPRINTS_IN_VIEW = 80;
+const FOOTPRINT_STYLES = {
+  turbine:           { label: "Wind turbine",             kind: "turbine", color: "#1e3a8a" },
+  inverter:          { label: "Inverter / power station", kind: "point", color: "#d97706", shape: "square",  r: 5 },
+  transformer:       { label: "Transformer",              kind: "point", color: "#b45309", shape: "diamond", r: 5 },
+  substation:        { label: "Substation / switchyard",  kind: "point", color: "#7c3aed", shape: "square",  r: 7 },
+  tracker:           { label: "Solar tracker drive",      kind: "point", color: "#f59e0b", shape: "circle",  r: 3 },
+  met_tower:         { label: "Met tower",                kind: "point", color: "#0891b2", shape: "triangle", r: 5 },
+  generator:         { label: "Generating unit",          kind: "point", color: "#16a34a", shape: "circle",  r: 5 },
+  crossing:          { label: "Watercourse crossing",     kind: "point", color: "#0d9488", shape: "circle",  r: 4 },
+  shaft:             { label: "Shaft / portal",           kind: "point", color: "#92400e", shape: "square",  r: 5 },
+  well:              { label: "Well / wellpad",           kind: "point", color: "#57534e", shape: "circle",  r: 4 },
+  dam:               { label: "Dam structure",            kind: "point", color: "#0e7490", shape: "square",  r: 6 },
+  powerhouse:        { label: "Powerhouse",               kind: "point", color: "#0891b2", shape: "square",  r: 6 },
+  transmission_line: { label: "Transmission line",        kind: "line", color: "#7c3aed", weight: 3 },
+  collector_line:    { label: "Collector line",           kind: "line", color: "#a78bfa", weight: 2, dash: "6 4" },
+  pipeline:          { label: "Pipeline",                 kind: "line", color: "#57534e", weight: 3 },
+  access_road:       { label: "Access road",              kind: "line", color: "#fafaf9", weight: 2, dash: "2 5" },
+  rail:              { label: "Rail",                     kind: "line", color: "#374151", weight: 2, dash: "8 4" },
+  penstock:          { label: "Penstock / canal",         kind: "line", color: "#0891b2", weight: 3, dash: "10 4" },
+  footprint:         { label: "Project footprint",        kind: "poly", color: "#dc2626", fill: 0.06, dash: "8 5", weight: 2 },
+  solar_array:       { label: "Solar array",              kind: "poly", color: "#d97706", fill: 0.3 },
+  pit:               { label: "Open pit / quarry",        kind: "poly", color: "#92400e", fill: 0.3 },
+  tailings:          { label: "Tailings storage",         kind: "poly", color: "#b91c1c", fill: 0.3 },
+  waste_rock:        { label: "Waste rock / stockpile",   kind: "poly", color: "#a16207", fill: 0.3 },
+  plant:             { label: "Plant site",               kind: "poly", color: "#4b5563", fill: 0.3 },
+  reservoir:         { label: "Reservoir",                kind: "poly", color: "#0891b2", fill: 0.3 },
+  landfill:          { label: "Landfill / disposal cell", kind: "poly", color: "#65a30d", fill: 0.3 },
+  building:          { label: "Building",                 kind: "poly", color: "#6b7280", fill: 0.4 },
+  other:             { label: "Other element",            kind: "point", color: "#6b7280", shape: "circle", r: 4 },
+};
+const FOOTPRINT_SOURCE_LABELS = {
+  ontario_rea: "Renewable Energy Approval — equipment coordinates schedule (Ontario MECP)",
+  cwtd: "Canadian Wind Turbine Database (NRCan, Open Government Licence – Canada)",
+  osm: "© OpenStreetMap contributors (ODbL)",
+  gis: "Proponent geospatial data filed with the registry",
+};
+
+const footprintData  = {};   // pid -> Promise<FeatureCollection|null>
+const footprintShown = {};   // pid -> L.Layer currently on the map
+let footprintWanted  = new Set();
+let visibleFeatures  = [];   // features passing the current filters (set by applyFilters)
+
+function pidOf(f) {
+  const fp = f.properties.footprint_path;
+  return fp ? fp.replace(/^.*\//, "").replace(/\.json$/, "") : null;
+}
+function bboxBounds(b) { return L.latLngBounds([[b[1], b[0]], [b[3], b[2]]]); }
+
+function loadFootprint(f) {
+  const pid = pidOf(f);
+  if (!pid) return Promise.resolve(null);
+  if (!footprintData[pid]) {
+    footprintData[pid] = fetch(f.properties.footprint_path)
+      .then(r => r.ok ? r.json() : null)
+      .catch(() => null);
+  }
+  return footprintData[pid];
+}
+
+// Small rotor glyph for turbines (white blades, dark outline) — legible on imagery.
+function turbineIcon(color, size) {
+  const s = size || 22;
+  return L.divIcon({
+    className: "fp-turbine",
+    iconSize: [s, s], iconAnchor: [s / 2, s / 2],
+    html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="${s}" height="${s}">
+      <g fill="white" stroke="${color}" stroke-width="1.4" stroke-linejoin="round">
+        <path d="M12 12 C10.6 8.5 10.4 4.5 12 1.5 C13.6 4.5 13.4 8.5 12 12Z"/>
+        <path d="M12 12 C10.6 8.5 10.4 4.5 12 1.5 C13.6 4.5 13.4 8.5 12 12Z" transform="rotate(120 12 12)"/>
+        <path d="M12 12 C10.6 8.5 10.4 4.5 12 1.5 C13.6 4.5 13.4 8.5 12 12Z" transform="rotate(240 12 12)"/>
+      </g>
+      <circle cx="12" cy="12" r="2.2" fill="${color}" stroke="white" stroke-width="1"/>
+    </svg>`,
+  });
+}
+function shapeIcon(st) {
+  const r = st.r || 5, s = r * 2 + 4, c = s / 2;
+  let body;
+  if (st.shape === "square")        body = `<rect x="${c - r}" y="${c - r}" width="${2 * r}" height="${2 * r}" rx="1"/>`;
+  else if (st.shape === "diamond")  body = `<rect x="${c - r}" y="${c - r}" width="${2 * r}" height="${2 * r}" transform="rotate(45 ${c} ${c})"/>`;
+  else if (st.shape === "triangle") body = `<polygon points="${c},${c - r} ${c + r},${c + r} ${c - r},${c + r}"/>`;
+  else                              body = `<circle cx="${c}" cy="${c}" r="${r}"/>`;
+  return L.divIcon({
+    className: "", iconSize: [s, s], iconAnchor: [c, c],
+    html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${s} ${s}" width="${s}" height="${s}" style="filter:drop-shadow(0 1px 1px rgba(0,0,0,0.5))">
+      <g fill="${st.color}" stroke="white" stroke-width="1.5">${body}</g></svg>`,
+  });
+}
+function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch])); }
+
+function footprintTooltip(el, fc) {
+  const p = el.properties || {};
+  const st = FOOTPRINT_STYLES[p.role] || FOOTPRINT_STYLES.other;
+  const bits = [];
+  if (p.description) bits.push(esc(p.description));
+  if (p.sound_power_dba) bits.push(`${p.sound_power_dba} dBA sound power`);
+  if (p.capacity_kw) bits.push(`${p.capacity_kw} kW`);
+  if (p.hub_height_m) bits.push(`hub ${p.hub_height_m} m`);
+  if (p.rotor_diameter_m) bits.push(`rotor ${p.rotor_diameter_m} m`);
+  if (p.name && p.name !== p.label) bits.push(esc(p.name));
+  const src = FOOTPRINT_SOURCE_LABELS[p.source] || p.source || "";
+  return `<div class="fp-tip"><b>${esc(p.label ? `${st.label} ${p.label}` : st.label)}</b>${bits.join(" · ")}` +
+    `<span class="src">${esc((fc.properties || {}).name || "")}${src ? " · " + esc(src) : ""}</span></div>`;
+}
+
+function buildFootprintLayer(fc) {
+  return L.geoJSON(fc, {
+    pointToLayer(el, latlng) {
+      const st = FOOTPRINT_STYLES[(el.properties || {}).role] || FOOTPRINT_STYLES.other;
+      if (st.kind === "turbine") return L.marker(latlng, { icon: turbineIcon(st.color), interactive: true, keyboard: false });
+      return L.marker(latlng, { icon: shapeIcon(st), keyboard: false });
+    },
+    style(el) {
+      const st = FOOTPRINT_STYLES[(el.properties || {}).role] || FOOTPRINT_STYLES.other;
+      return { color: st.color, weight: st.weight || 2, opacity: 0.95, dashArray: st.dash || null,
+               fillColor: st.color, fillOpacity: st.kind === "poly" ? (st.fill == null ? 0.25 : st.fill) : 0 };
+    },
+    onEachFeature(el, layer) {
+      layer.bindTooltip(footprintTooltip(el, fc), { sticky: true, direction: "top", opacity: 0.95 });
+    },
+  });
+}
+
+function refreshFootprints() {
+  const z = map.getZoom();
+  const view = map.getBounds().pad(0.25);
+  const want = new Map();
+  if (z >= FOOTPRINT_ZOOM) {
+    for (const f of visibleFeatures) {
+      const b = f.properties.footprint_bbox;
+      if (!b || !view.intersects(bboxBounds(b))) continue;
+      want.set(pidOf(f), f);
+      if (want.size >= MAX_FOOTPRINTS_IN_VIEW) break;
+    }
+  }
+  if (activeMarker && activeMarker.feature.properties.footprint_path && z >= SELECTED_FOOTPRINT_ZOOM) {
+    want.set(pidOf(activeMarker.feature), activeMarker.feature);
+  }
+  footprintWanted = new Set(want.keys());
+  for (const pid of Object.keys(footprintShown)) {
+    if (!footprintWanted.has(pid)) { map.removeLayer(footprintShown[pid]); delete footprintShown[pid]; }
+  }
+  want.forEach((f, pid) => {
+    if (footprintShown[pid]) return;
+    loadFootprint(f).then(fc => {
+      if (!fc || !footprintWanted.has(pid) || footprintShown[pid]) return;
+      footprintShown[pid] = buildFootprintLayer(fc).addTo(map);
+      updateLayoutLegend();
+    });
+  });
+  updateLayoutLegend();
+}
+map.on("moveend", refreshFootprints);
+
+function updateLayoutLegend() {
+  const roles = new Set();
+  for (const pid of Object.keys(footprintShown)) {
+    footprintShown[pid].eachLayer(l => { if (l.feature) roles.add(l.feature.properties.role || "other"); });
+  }
+  const box = document.getElementById("legend-layout");
+  const rows = document.getElementById("legend-layout-rows");
+  if (!roles.size) { box.hidden = true; rows.innerHTML = ""; return; }
+  rows.innerHTML = "";
+  for (const role of Object.keys(FOOTPRINT_STYLES)) {
+    if (!roles.has(role)) continue;
+    const st = FOOTPRINT_STYLES[role];
+    let sw;
+    if (st.kind === "turbine") sw = turbineIcon(st.color, 14).options.html;
+    else if (st.kind === "line") sw = `<span class="legend-swatch line" style="background:${st.color};${st.dash ? "border-top:2px dashed " + st.color + ";background:none;height:0" : ""}"></span>`;
+    else if (st.kind === "poly") sw = `<span class="legend-swatch" style="border:2px ${st.dash ? "dashed" : "solid"} ${st.color};background:${st.color}33"></span>`;
+    else sw = shapeIcon(st).options.html;
+    const row = document.createElement("div");
+    row.className = "legend-row";
+    row.innerHTML = `<span class="legend-icon" style="display:inline-flex;width:14px;justify-content:center">${sw}</span> ${st.label}`;
+    rows.appendChild(row);
+  }
+  box.hidden = false;
+}
+
+// Documents that are maps, figures, site plans or GIS data get hoisted into a
+// "Maps & drawings" section (mirror of scripts/find_map_documents.py rules).
+const MAP_DOC_RX = /\b(shapefiles?|kmz|kml|geodatabase|geospatial|gis (?:data|files?)|site plans?|plot plans?|general arrangements?|layouts?|footprints?|location maps?|project location|key maps?|study area maps?|(?:overview|vicinity|index) maps?|figures?|fig\.|maps?|cartes?|mapbook|plan d.(?:ensemble|implantation)|localisation|alignment sheets?|orthophoto|aerial (?:photo|image)|turbine (?:locations?|siting))\b/i;
+const NOT_MAP_RX = /\b(request(?:ing)?|response to|letter|correspondence|comments? on|email|courriel|meeting|minutes|agenda|presentation|news release|road ?map|mapping process|figured)\b/i;
+function isMapDoc(d) {
+  const t = d.title || "";
+  if (/\.(kmz|kml|shp|geojson|gpkg)(\?|$)/i.test(d.url || "")) return true;
+  return MAP_DOC_RX.test(t) && !NOT_MAP_RX.test(t);
+}
+function mapDocsSection(docs) {
+  const maps = (docs || []).filter(isMapDoc);
+  if (!maps.length) return null;
+  const sec = document.createElement("div");
+  sec.className = "doc-section";
+  sec.innerHTML = `<div class="doc-section-title">Maps, figures &amp; site plans (${maps.length})</div>`;
+  const shown = maps.slice(0, 60);
+  for (const doc of shown) {
+    const a = document.createElement("a");
+    a.className = "doc-link doc-map";
+    a.href = doc.url; a.target = "_blank"; a.rel = "noopener";
+    const title = doc.title && doc.title.length > 80 ? doc.title.substring(0, 78) + "…" : (doc.title || "Map");
+    a.textContent = doc.date ? `${title} (${doc.date})` : title;
+    sec.appendChild(a);
+  }
+  if (maps.length > shown.length) {
+    const more = document.createElement("p");
+    more.className = "no-docs";
+    more.textContent = `+${maps.length - shown.length} more in the sections below`;
+    sec.appendChild(more);
+  }
+  return sec;
+}
+
+// Sidebar block describing the recovered layout, with a zoom-to button.
+function layoutBoxHtml(p) {
+  if (!p.footprint_path) return "";
+  const roles = p.footprint_roles || {};
+  const parts = Object.keys(FOOTPRINT_STYLES).filter(r => roles[r]).map(r => {
+    const st = FOOTPRINT_STYLES[r];
+    const n = roles[r];
+    const lbl = st.label.split(" / ")[0].toLowerCase();
+    return `<span>${n} ${lbl}${n === 1 ? "" : "s"}</span>`;
+  });
+  const srcs = (p.footprint_sources || []).map(s => FOOTPRINT_SOURCE_LABELS[s] || s);
+  const z = map.getZoom();
+  return `<div id="layout-box">
+    <strong>Project layout</strong> — ${p.footprint_n} design element${p.footprint_n === 1 ? "" : "s"} recovered from the record
+    <div class="roles">${parts.join("")}</div>
+    <div class="src">Source: ${esc(srcs.join("; "))}${p.footprint_confidence && p.footprint_confidence !== "high" ? ` · confidence ${p.footprint_confidence}` : ""}</div>
+    <div class="note" id="layout-note"></div>
+    <button id="layout-zoom">Zoom to layout</button>
+    ${z < SELECTED_FOOTPRINT_ZOOM ? `<div class="zoom-hint">Zoom in (or use the button) to see the elements on aerial imagery.</div>` : ""}
+  </div>`;
+}
+function wireLayoutBox(feature) {
+  const btn = document.getElementById("layout-zoom");
+  if (!btn) return;
+  const p = feature.properties;
+  btn.addEventListener("click", () => {
+    map.fitBounds(bboxBounds(p.footprint_bbox), { padding: [30, 30], maxZoom: 15 });
+  });
+  loadFootprint(feature).then(fc => {
+    const note = document.getElementById("layout-note");
+    if (!fc || !note || !activeMarker || activeMarker.feature !== feature) return;
+    const fp = fc.properties || {};
+    const bits = [];
+    if (fp.notes) bits.push(esc(fp.notes));
+    const docs = (fp.sources || []).filter(s => s.url);
+    if (docs.length) {
+      bits.push("From: " + docs.slice(0, 3).map(s =>
+        `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.doc_id)}</a>${s.utm_zone ? ` (UTM ${s.utm_zone}N)` : ""}`).join(", "));
+    }
+    if (fp.license) bits.push(esc(fp.license));
+    note.innerHTML = bits.join("<br>");
+    note.className = fp.notes ? "note" : "src";
+  });
+}
+
 // ── Sidebar logic ──────────────────────────────────────────────────────────
 const sidebar      = document.getElementById("sidebar");
 const sidebarTitle = document.getElementById("sidebar-title");
@@ -431,6 +808,7 @@ const docList      = document.getElementById("doc-list");
 document.getElementById("sidebar-close").addEventListener("click", () => {
   sidebar.classList.add("hidden");
   if (activeMarker) { activeMarker.setIcon(makeIcon(activeMarker.feature, false)); activeMarker = null; }
+  refreshFootprints();
 });
 
 let activeMarker = null;
@@ -492,6 +870,11 @@ function openSidebar(feature, marker) {
     ${p.geocode === "approximate" ? `<p style="margin-top:8px;font-size:0.72rem;color:#a16207">⚠ Approximate location — pinned to the nearest named place (${(p.geocode_match || "").replace("name:", "")}). The registry does not publish coordinates for this project.</p>` : ""}
     ${p.description ? `<p style="margin-top:8px;font-size:0.78rem;color:#555;line-height:1.4">${p.description}</p>` : ""}`;
 
+  // Project layout (footprint) block + show it on the map right away
+  sidebarMeta.insertAdjacentHTML("beforeend", layoutBoxHtml(p));
+  wireLayoutBox(feature);
+  refreshFootprints();
+
   // Document sections
   docList.innerHTML = "";
   if (!p.doc_sections || p.doc_sections.length === 0) {
@@ -503,6 +886,8 @@ function openSidebar(feature, marker) {
         .then(cat => {
           if (activeMarker && activeMarker.feature.properties !== p) return; // stale click
           docList.innerHTML = "";
+          const mapSec = mapDocsSection(cat.docs);
+          if (mapSec) docList.appendChild(mapSec);
           const sec = document.createElement("div");
           sec.className = "doc-section";
           sec.innerHTML = `<div class="doc-section-title">Registry documents (${cat.docs.length})</div>`;
@@ -539,6 +924,9 @@ function openSidebar(feature, marker) {
       : "No documents found for this project."}</p>`;
     return;
   }
+
+  const mapSecAll = mapDocsSection(p.doc_sections.flatMap(s => s.docs || []));
+  if (mapSecAll) docList.appendChild(mapSecAll);
 
   for (const section of p.doc_sections) {
     const sec = document.createElement("div");
@@ -654,6 +1042,9 @@ function applyFilters() {
   const badge = `${filtered.length} project${filtered.length !== 1 ? "s" : ""}` +
     (unmapped ? ` (${unmapped} without map location)` : "");
   document.getElementById("count-badge").textContent = badge;
+
+  visibleFeatures = filtered;
+  refreshFootprints();
 }
 
 // Wire up filter controls
