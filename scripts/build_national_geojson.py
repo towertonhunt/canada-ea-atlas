@@ -105,6 +105,7 @@ def categorize(type_str):
 #     2013-Apr-15 - Renewable Energy Approval
 #     2014-May-21 - Renewable Energy Approval Amendment
 REA_INSTRUMENTS = os.path.join(RAW, 'rea_instruments.json')
+ACCESS_ENV = 'accessenvironment.ene.gov.on.ca/instruments/'
 _MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
         'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
@@ -115,30 +116,67 @@ def pretty_date(iso):
     return f'{m.group(1)}-{_MON[int(m.group(2)) - 1]}-{m.group(3)}' if m else None
 
 
+INSTRUMENT_KINDS = {'approval', 'amendment', 'revocation'}
+GENERIC_TITLE = re.compile(r'^(download|pdf|click here|view|link|file)\b', re.I)
+
+
 def name_rea_documents(feat, instruments):
-    """Retitle a project's instrument links in place; return docs renamed."""
+    """Retitle a project's instrument links in place; return docs renamed.
+
+    Only a document the parser positively identified - instrument heading
+    plus an issue date - is renamed. Proponent-hosted PDFs that merely
+    mention the REA (applications, modification reports, notices) keep
+    their harvested titles."""
     n = 0
-    for sec in feat['properties'].get('doc_sections') or []:
+    sections = feat['properties'].get('doc_sections') or []
+    # Developer-site harvests often list the same file twice - once with
+    # its caption and once as the "Download" button, sometimes in another
+    # section. Keep one copy per URL across the project, preferring the
+    # caption and the section it was first filed under.
+    keep = {}
+    for sec in sections:
         for d in sec.get('docs') or []:
+            u = d.get('url') or ''
+            prev = keep.get(u)
+            if prev is None or (GENERIC_TITLE.match(prev.get('title') or '')
+                                and not GENERIC_TITLE.match(d.get('title') or '')):
+                keep[u] = d
+    for sec in sections:
+        sec['docs'] = [d for d in sec.get('docs') or [] if keep.get(d.get('url') or '') is d]
+    feat['properties']['doc_sections'] = [sec for sec in sections if sec['docs']]
+
+    for sec in feat['properties']['doc_sections']:
+        for d in sec['docs']:
             rec = instruments.get(d.get('url') or '')
             if not rec or rec.get('status') != 'ok':
                 continue
-            base = rec.get('title') or d.get('title')
-            date = pretty_date(rec.get('issue_date'))
-            d['title'] = f'{date} - {base}' if date else base
-            d['instrument_kind'] = rec.get('kind')
-            if rec.get('issue_date'):
-                d['date'] = rec['issue_date']
+            if rec.get('kind') not in INSTRUMENT_KINDS or not rec.get('issue_date'):
+                continue
+            date = pretty_date(rec['issue_date'])
+            d['title'] = f"{date} - {rec['title']}"
+            d['instrument_kind'] = rec['kind']
+            d['date'] = rec['issue_date']
             if rec.get('rea_number'):
                 d['rea_number'] = rec['rea_number']
             n += 1
         # Oldest first: the original approval, then amendments in sequence.
-        # Anything the parse could not date keeps its position at the end.
+        # Anything without a date keeps its position at the end.
         sec['docs'].sort(key=lambda x: (x.get('date') is None, x.get('date') or ''))
         kinds = {x.get('instrument_kind') for x in sec['docs']}
         if kinds == {'approval'} or kinds == {'approval', 'amendment'}:
             if len(sec['docs']) > 1:
                 sec['label'] = 'Renewable Energy Approval & amendments'
+    # A proponent's signed copy of an instrument that Access Environment also
+    # serves would otherwise land with the identical dated title. Mark the
+    # copy so the two remain distinguishable and the registry copy reads as
+    # the canonical one.
+    named = [d for sec in feat['properties'].get('doc_sections') or []
+             for d in sec['docs'] if d.get('instrument_kind')]
+    registry = {(d['instrument_kind'], d['date']) for d in named
+                if ACCESS_ENV in d['url']}
+    for d in named:
+        if ACCESS_ENV not in d['url'] and (d['instrument_kind'], d['date']) in registry:
+            d['title'] += ' (proponent copy)'
     return n
 
 

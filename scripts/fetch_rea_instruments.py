@@ -11,7 +11,7 @@ ENERGY APPROVAL" / "NOTICE OF REVOCATION ..."), the approval NUMBER and the
 pipeline/data/raw/rea/instruments/), parses those fields and writes
 data/raw/rea_instruments.json keyed by URL:
 
-  {url: {instrument, kind, title, heading, issue_date, rea_number,
+  {url: {instrument, host, kind, title, heading, issue_date, rea_number,
          amends_number, amends_date, status}}
 
 kind:  approval | amendment | revocation | other
@@ -29,9 +29,11 @@ projects.geojson. Idempotent; re-runs only parse what is missing.
 import json
 import os
 import re
+import hashlib
 import subprocess
 import sys
 import time
+import urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'data', 'raw', 'rea_instruments.json')
@@ -54,6 +56,16 @@ KIND_TITLES = {
 }
 
 
+ACCESS_ENV = 'accessenvironment.ene.gov.on.ca/instruments/'
+# Proponent sites republish the same instruments under their own names
+# ("2.0_PDN-REA-Amendment1.pdf", "REA NUMBER 0558-9GUJ8T.pdf"). Any PDF on
+# an REA project whose title or filename says REA is worth a look; parse()
+# only classifies a document as an instrument when page one carries the
+# heading and an issue date, so applications, reports and notices that
+# merely mention the REA fall through untouched.
+REA_HINT = re.compile(r'\bREA\b|renewable energy approval', re.I)
+
+
 def instrument_urls():
     urls = []
     try:
@@ -73,7 +85,13 @@ def instrument_urls():
         for s in f['properties'].get('doc_sections') or []:
             for d in s.get('docs') or []:
                 u = d.get('url') or ''
-                if 'accessenvironment.ene.gov.on.ca/instruments/' in u and u not in seen:
+                if u in seen:
+                    continue
+                base = urllib.parse.unquote(u.rsplit('/', 1)[-1])
+                hosted = ACCESS_ENV in u
+                copy = (base.lower().endswith('.pdf')
+                        and (REA_HINT.search(base) or REA_HINT.search(d.get('title') or '')))
+                if hosted or copy:
                     seen.add(u)
                     urls.append(u)
     return urls
@@ -152,7 +170,11 @@ def parse(text):
 
 
 def cache_path(url):
-    inst = url.rsplit('/', 1)[-1].replace(".pdf", "")
+    inst = urllib.parse.unquote(url.rsplit('/', 1)[-1])
+    inst = re.sub(r'\.pdf$', '', inst, flags=re.I)
+    if ACCESS_ENV not in url:
+        # "REA_Amendment.pdf" exists on several proponent sites; key by URL
+        inst = hashlib.sha1(url.encode()).hexdigest()[:10] + '_' + re.sub(r'[^\w.-]+', '_', inst)[:80]
     return inst, os.path.join(CACHE, inst + '.pdf')
 
 
@@ -212,7 +234,8 @@ def main():
     for i, url in enumerate(todo, 1):
         inst, dest = cache_path(url)
         status = fetched.get(url, 'ok')
-        rec = {'instrument': inst, 'status': status}
+        rec = {'instrument': inst, 'status': status,
+               'host': 'access_environment' if ACCESS_ENV in url else 'proponent'}
         if status == 'ok':
             rec.update(parse(page1_text(dest)))
         out[url] = rec
