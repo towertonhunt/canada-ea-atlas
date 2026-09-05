@@ -1,0 +1,4633 @@
+{
+ "key": "taseko mines",
+ "name": "Taseko Mines Limited",
+ "host": "tasekomines.com",
+ "harvested_at": "2026-09-05T01:43:28Z",
+ "docs": [
+  {
+   "url": "https://www.tasekomines.com/_resources/agm/Taseko-Notice-of-AGM-IC-2026.pdf",
+   "timestamp": "20260620191440",
+   "wayback_url": "https://web.archive.org/web/20260620191440id_/https://www.tasekomines.com/_resources/agm/Taseko-Notice-of-AGM-IC-2026.pdf",
+   "bytes": 1536959,
+   "title": "Taseko-Notice-of-AGM-IC-2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/corporate/2019-NYSE-American-Website-Disclosure.pdf",
+   "timestamp": "20240112213250",
+   "wayback_url": "https://web.archive.org/web/20240112213250id_/https://tasekomines.com/_resources/corporate/2019-NYSE-American-Website-Disclosure.pdf",
+   "bytes": 20122,
+   "title": "2019-NYSE-American-Website-Disclosure.pdf",
+   "type": "closure",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/corporate/advance_notice_policy.pdf",
+   "timestamp": "20240112213327",
+   "wayback_url": "https://web.archive.org/web/20240112213327id_/https://tasekomines.com/_resources/corporate/advance_notice_policy.pdf",
+   "bytes": 24672,
+   "title": "advance_notice_policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/corporate/audit_committee_charter.pdf",
+   "timestamp": "20240112213257",
+   "wayback_url": "https://web.archive.org/web/20240112213257id_/https://tasekomines.com/_resources/corporate/audit_committee_charter.pdf",
+   "bytes": 32303,
+   "title": "audit_committee_charter.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/corporate/Code-of-Ethics.pdf",
+   "timestamp": "20240112213342",
+   "wayback_url": "https://web.archive.org/web/20240112213342id_/https://tasekomines.com/_resources/corporate/Code-of-Ethics.pdf",
+   "bytes": 336625,
+   "title": "Code-of-Ethics.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/corporate/compensation_committee_charter.pdf",
+   "timestamp": "20240112213256",
+   "wayback_url": "https://web.archive.org/web/20240112213256id_/https://tasekomines.com/_resources/corporate/compensation_committee_charter.pdf",
+   "bytes": 16376,
+   "title": "compensation_committee_charter.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/corporate/Corp-Govern-Manual.pdf",
+   "timestamp": "20240112213348",
+   "wayback_url": "https://web.archive.org/web/20240112213348id_/https://tasekomines.com/_resources/corporate/Corp-Govern-Manual.pdf",
+   "bytes": 635132,
+   "title": "Corp-Govern-Manual.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/corporate/Corp-Govern-Manual.pdf?v=0.2",
+   "timestamp": "20240414193943",
+   "wayback_url": "https://web.archive.org/web/20240414193943id_/https://www.tasekomines.com/_resources/corporate/Corp-Govern-Manual.pdf?v=0.2",
+   "bytes": 641741,
+   "title": "Corp-Govern-Manual.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/corporate/Corp-Govern-Manual.pdf?v=0.21",
+   "timestamp": "20250421154550",
+   "wayback_url": "https://web.archive.org/web/20250421154550id_/https://tasekomines.com/_resources/corporate/Corp-Govern-Manual.pdf?v=0.21",
+   "bytes": 606824,
+   "title": "Corp-Govern-Manual.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/corporate/Fighting_Against_Forced_Labour_and_Child_Labour_in_Supply_Chains_Act.pdf",
+   "timestamp": "20250713182140",
+   "wayback_url": "https://web.archive.org/web/20250713182140id_/https://www.tasekomines.com/_resources/corporate/Fighting_Against_Forced_Labour_and_Child_Labour_in_Supply_Chains_Act.pdf",
+   "bytes": 200411,
+   "title": "Fighting_Against_Forced_Labour_and_Child_Labour_in_Supply_Chains_Act.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/corporate/majority_voting_policy.pdf",
+   "timestamp": "20240112213256",
+   "wayback_url": "https://web.archive.org/web/20240112213256id_/https://tasekomines.com/_resources/corporate/majority_voting_policy.pdf",
+   "bytes": 11868,
+   "title": "majority_voting_policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/corporate/mandate_of_the_board.pdf",
+   "timestamp": "20240112213311",
+   "wayback_url": "https://web.archive.org/web/20240112213311id_/https://tasekomines.com/_resources/corporate/mandate_of_the_board.pdf",
+   "bytes": 69151,
+   "title": "mandate_of_the_board.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/corporate/ng_committee_charter.pdf",
+   "timestamp": "20240112213259",
+   "wayback_url": "https://web.archive.org/web/20240112213259id_/https://tasekomines.com/_resources/corporate/ng_committee_charter.pdf",
+   "bytes": 17070,
+   "title": "ng_committee_charter.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/corporate/position_description_chairman_of_the_board.pdf",
+   "timestamp": "20240112213305",
+   "wayback_url": "https://web.archive.org/web/20240112213305id_/https://tasekomines.com/_resources/corporate/position_description_chairman_of_the_board.pdf",
+   "bytes": 12755,
+   "title": "position_description_chairman_of_the_board.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/corporate/Taseko-Forced-ChildLabourReport.pdf",
+   "timestamp": "20240601165233",
+   "wayback_url": "https://web.archive.org/web/20240601165233id_/https://www.tasekomines.com/_resources/corporate/Taseko-Forced-ChildLabourReport.pdf",
+   "bytes": 172446,
+   "title": "Taseko-Forced-ChildLabourReport.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/corporate/taseko_articles.pdf",
+   "timestamp": "20240112213515",
+   "wayback_url": "https://web.archive.org/web/20240112213515id_/https://tasekomines.com/_resources/corporate/taseko_articles.pdf",
+   "bytes": 2266294,
+   "title": "taseko_articles.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/esg/policies/Environmental_Policy.pdf",
+   "timestamp": "20240501172615",
+   "wayback_url": "https://web.archive.org/web/20240501172615id_/https://tasekomines.com/_resources/esg/policies/Environmental_Policy.pdf",
+   "bytes": 622897,
+   "title": "Environmental_Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/esg/policies/Health_and_Safety_Policy.pdf",
+   "timestamp": "20240501215853",
+   "wayback_url": "https://web.archive.org/web/20240501215853id_/https://tasekomines.com/_resources/esg/policies/Health_and_Safety_Policy.pdf",
+   "bytes": 883150,
+   "title": "Health_and_Safety_Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/esg/policies/Indigenous_Peoples_Policy.pdf",
+   "timestamp": "20240501202013",
+   "wayback_url": "https://web.archive.org/web/20240501202013id_/https://tasekomines.com/_resources/esg/policies/Indigenous_Peoples_Policy.pdf",
+   "bytes": 513475,
+   "title": "Indigenous_Peoples_Policy.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/esg/reports/2024_Sustainability_Report.pdf",
+   "timestamp": "20251028213640",
+   "wayback_url": "https://web.archive.org/web/20251028213640id_/https://www.tasekomines.com/_resources/esg/reports/2024_Sustainability_Report.pdf",
+   "bytes": 10203333,
+   "title": "2024_Sustainability_Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/esg/reports/2024_Sustainability_Report.pdf?v=070305",
+   "timestamp": "20251029105916",
+   "wayback_url": "https://web.archive.org/web/20251029105916id_/https://www.tasekomines.com/_resources/esg/reports/2024_Sustainability_Report.pdf?v=070305",
+   "bytes": 10204422,
+   "title": "2024_Sustainability_Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/esg/reports/esg_report_2021.pdf",
+   "timestamp": "20240501175935",
+   "wayback_url": "https://web.archive.org/web/20240501175935id_/https://tasekomines.com/_resources/esg/reports/esg_report_2021.pdf",
+   "bytes": 5589105,
+   "title": "esg_report_2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/esg/reports/esg_report_2022.pdf",
+   "timestamp": "20240501182842",
+   "wayback_url": "https://web.archive.org/web/20240501182842id_/https://tasekomines.com/_resources/esg/reports/esg_report_2022.pdf",
+   "bytes": 12406335,
+   "title": "esg_report_2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/esg/reports/esg_report_2022.pdf?v=0501",
+   "timestamp": "20240502020409",
+   "wayback_url": "https://web.archive.org/web/20240502020409id_/https://tasekomines.com/_resources/esg/reports/esg_report_2022.pdf?v=0501",
+   "bytes": 12406461,
+   "title": "esg_report_2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/esg/reports/esg_report_2023.pdf?v=062509",
+   "timestamp": "20240625210332",
+   "wayback_url": "https://web.archive.org/web/20240625210332id_/https://www.tasekomines.com/_resources/esg/reports/esg_report_2023.pdf?v=062509",
+   "bytes": 6037199,
+   "title": "esg_report_2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/esg/reports/esg_summary_2022.pdf",
+   "timestamp": "20240501173117",
+   "wayback_url": "https://web.archive.org/web/20240501173117id_/https://tasekomines.com/_resources/esg/reports/esg_summary_2022.pdf",
+   "bytes": 75413,
+   "title": "esg_summary_2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/esg/reports/esg_summary_2023.pdf",
+   "timestamp": "20240625210358",
+   "wayback_url": "https://web.archive.org/web/20240625210358id_/https://www.tasekomines.com/_resources/esg/reports/esg_summary_2023.pdf",
+   "bytes": 201902,
+   "title": "esg_summary_2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/financials/Q1-2024.pdf",
+   "timestamp": "20240711120012",
+   "wayback_url": "https://web.archive.org/web/20240711120012id_/https://www.tasekomines.com/_resources/financials/Q1-2024.pdf",
+   "bytes": 1095017,
+   "title": "Q1-2024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/financials/Q1-2026.pdf",
+   "timestamp": "20260620191726",
+   "wayback_url": "https://web.archive.org/web/20260620191726id_/https://www.tasekomines.com/_resources/financials/Q1-2026.pdf",
+   "bytes": 1403651,
+   "title": "Q1-2026.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/financials/Q2-2025.pdf",
+   "timestamp": "20260620191726",
+   "wayback_url": "https://web.archive.org/web/20260620191726id_/https://www.tasekomines.com/_resources/financials/Q2-2025.pdf",
+   "bytes": 1605699,
+   "title": "Q2-2025.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/financials/Q4-2023.pdf",
+   "timestamp": "20240429141241",
+   "wayback_url": "https://web.archive.org/web/20240429141241id_/https://www.tasekomines.com/_resources/financials/Q4-2023.pdf",
+   "bytes": 1607639,
+   "title": "Q4-2023.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/financials/Q4-2024.pdf",
+   "timestamp": "20250919135718",
+   "wayback_url": "https://web.archive.org/web/20250919135718id_/https://www.tasekomines.com/_resources/financials/Q4-2024.pdf",
+   "bytes": null,
+   "title": "Q4-2024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/investors/43101-Technical-Report-Update-at-the-Yellowhead-Copper-Project-July-10-2025.pdf",
+   "timestamp": "20251207043558",
+   "wayback_url": "https://web.archive.org/web/20251207043558id_/https://www.tasekomines.com/_resources/investors/43101-Technical-Report-Update-at-the-Yellowhead-Copper-Project-July-10-2025.pdf",
+   "bytes": 11811915,
+   "title": "43101-Technical-Report-Update-at-the-Yellowhead-Copper-Project-July-10-2025.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/investors/estma_2020.pdf",
+   "timestamp": "20251127045859",
+   "wayback_url": "https://web.archive.org/web/20251127045859id_/https://www.tasekomines.com/_resources/investors/estma_2020.pdf",
+   "bytes": 365010,
+   "title": "estma_2020.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/investors/estma_2021.pdf",
+   "timestamp": "20251127045859",
+   "wayback_url": "https://web.archive.org/web/20251127045859id_/https://www.tasekomines.com/_resources/investors/estma_2021.pdf",
+   "bytes": 132636,
+   "title": "estma_2021.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/investors/estma_2022.pdf",
+   "timestamp": "20251127045900",
+   "wayback_url": "https://web.archive.org/web/20251127045900id_/https://www.tasekomines.com/_resources/investors/estma_2022.pdf",
+   "bytes": 147637,
+   "title": "estma_2022.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/investors/estma_2023.pdf",
+   "timestamp": "20251127045900",
+   "wayback_url": "https://web.archive.org/web/20251127045900id_/https://www.tasekomines.com/_resources/investors/estma_2023.pdf",
+   "bytes": 635479,
+   "title": "estma_2023.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/investors/estma_2024.pdf",
+   "timestamp": "20251127045900",
+   "wayback_url": "https://web.archive.org/web/20251127045900id_/https://www.tasekomines.com/_resources/investors/estma_2024.pdf",
+   "bytes": 172236,
+   "title": "estma_2024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/investors/estma_2025.pdf",
+   "timestamp": "20260613175739",
+   "wayback_url": "https://web.archive.org/web/20260613175739id_/https://www.tasekomines.com/_resources/investors/estma_2025.pdf",
+   "bytes": 782519,
+   "title": "estma_2025.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://tasekomines.com/_resources/investors/technical_report_florence_copper_march_2023.pdf",
+   "timestamp": "20241021120724",
+   "wayback_url": "https://web.archive.org/web/20241021120724id_/https://tasekomines.com/_resources/investors/technical_report_florence_copper_march_2023.pdf",
+   "bytes": 9616070,
+   "title": "technical_report_florence_copper_march_2023.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://tasekomines.com/_resources/investors/technical_report_gibraltar_march_2022.pdf",
+   "timestamp": "20240118084857",
+   "wayback_url": "https://web.archive.org/web/20240118084857id_/https://tasekomines.com/_resources/investors/technical_report_gibraltar_march_2022.pdf",
+   "bytes": 10272576,
+   "title": "technical_report_gibraltar_march_2022.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://tasekomines.com/_resources/investors/technical_report_yellowhead_january_2020.pdf",
+   "timestamp": "20250606181010",
+   "wayback_url": "https://web.archive.org/web/20250606181010id_/https://tasekomines.com/_resources/investors/technical_report_yellowhead_january_2020.pdf",
+   "bytes": 10231469,
+   "title": "technical_report_yellowhead_january_2020.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://tasekomines.com/_resources/investors/technical_report_yellowhead_january_2020.pdf?v=060606",
+   "timestamp": "20250606181044",
+   "wayback_url": "https://web.archive.org/web/20250606181044id_/https://tasekomines.com/_resources/investors/technical_report_yellowhead_january_2020.pdf?v=060606",
+   "bytes": 10231075,
+   "title": "technical_report_yellowhead_january_2020.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/investors/technical_report_yellowhead_january_2020.pdf?v=120209",
+   "timestamp": "20250805025751",
+   "wayback_url": "https://web.archive.org/web/20250805025751id_/https://www.tasekomines.com/_resources/investors/technical_report_yellowhead_january_2020.pdf?v=120209",
+   "bytes": 10230827,
+   "title": "technical_report_yellowhead_january_2020.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/news/nr-20231101.pdf",
+   "timestamp": "20240808074634",
+   "wayback_url": "https://web.archive.org/web/20240808074634id_/https://www.tasekomines.com/_resources/news/nr-20231101.pdf",
+   "bytes": 393490,
+   "title": "nr-20231101.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/news/nr-20231106.pdf",
+   "timestamp": "20240112213916",
+   "wayback_url": "https://web.archive.org/web/20240112213916id_/https://tasekomines.com/_resources/news/nr-20231106.pdf",
+   "bytes": 292318,
+   "title": "nr-20231106.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/news/nr-20231120.pdf",
+   "timestamp": "20240112213419",
+   "wayback_url": "https://web.archive.org/web/20240112213419id_/https://tasekomines.com/_resources/news/nr-20231120.pdf",
+   "bytes": 287943,
+   "title": "nr-20231120.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/news/nr-20240110.pdf",
+   "timestamp": "20240112213336",
+   "wayback_url": "https://web.archive.org/web/20240112213336id_/https://tasekomines.com/_resources/news/nr-20240110.pdf",
+   "bytes": 670744,
+   "title": "nr-20240110.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/news/nr-20240116.pdf",
+   "timestamp": "20240229082236",
+   "wayback_url": "https://web.archive.org/web/20240229082236id_/https://www.tasekomines.com/_resources/news/nr-20240116.pdf",
+   "bytes": 675502,
+   "title": "nr-20240116.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/news/nr-20250501.pdf",
+   "timestamp": "20250502161901",
+   "wayback_url": "https://web.archive.org/web/20250502161901id_/https://tasekomines.com/_resources/news/nr-20250501.pdf",
+   "bytes": 404691,
+   "title": "nr-20250501.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/news/nr-20250501.pdf?v=0.01",
+   "timestamp": "20250502172254",
+   "wayback_url": "https://web.archive.org/web/20250502172254id_/https://tasekomines.com/_resources/news/nr-20250501.pdf?v=0.01",
+   "bytes": 404702,
+   "title": "nr-20250501.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/news/nr-20250605.pdf",
+   "timestamp": "20250606181130",
+   "wayback_url": "https://web.archive.org/web/20250606181130id_/https://tasekomines.com/_resources/news/nr-20250605.pdf",
+   "bytes": 301612,
+   "title": "nr-20250605.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/news/nr-20250623.pdf",
+   "timestamp": "20250713181626",
+   "wayback_url": "https://web.archive.org/web/20250713181626id_/https://www.tasekomines.com/_resources/news/nr-20250623.pdf",
+   "bytes": 243374,
+   "title": "nr-20250623.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/news/nr-20250708.pdf",
+   "timestamp": "20250713183401",
+   "wayback_url": "https://web.archive.org/web/20250713183401id_/https://tasekomines.com/_resources/news/nr-20250708.pdf",
+   "bytes": 238841,
+   "title": "nr-20250708.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/news/nr-20250710.pdf",
+   "timestamp": "20250713185845",
+   "wayback_url": "https://web.archive.org/web/20250713185845id_/https://tasekomines.com/_resources/news/nr-20250710.pdf",
+   "bytes": 283641,
+   "title": "nr-20250710.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/news/nr-20250722.pdf",
+   "timestamp": "20250725030216",
+   "wayback_url": "https://web.archive.org/web/20250725030216id_/https://www.tasekomines.com/_resources/news/nr-20250722.pdf",
+   "bytes": 254802,
+   "title": "nr-20250722.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/news/nr-20250801.pdf",
+   "timestamp": "20250804015734",
+   "wayback_url": "https://web.archive.org/web/20250804015734id_/https://www.tasekomines.com/_resources/news/nr-20250801.pdf",
+   "bytes": 167590,
+   "title": "nr-20250801.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/news/nr-20250806.pdf",
+   "timestamp": "20250807041357",
+   "wayback_url": "https://web.archive.org/web/20250807041357id_/https://www.tasekomines.com/_resources/news/nr-20250806.pdf",
+   "bytes": 453057,
+   "title": "nr-20250806.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/news/nr-20250806.pdf?v=0.1",
+   "timestamp": "20250807041508",
+   "wayback_url": "https://web.archive.org/web/20250807041508id_/https://www.tasekomines.com/_resources/news/nr-20250806.pdf?v=0.1",
+   "bytes": 453098,
+   "title": "nr-20250806.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/news/nr-20250902.pdf",
+   "timestamp": "20250906204439",
+   "wayback_url": "https://web.archive.org/web/20250906204439id_/https://tasekomines.com/_resources/news/nr-20250902.pdf",
+   "bytes": 239991,
+   "title": "nr-20250902.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/news/nr-20251015.pdf",
+   "timestamp": "20251015233610",
+   "wayback_url": "https://web.archive.org/web/20251015233610id_/https://www.tasekomines.com/_resources/news/nr-20251015.pdf",
+   "bytes": 261898,
+   "title": "nr-20251015.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/news/nr-20251015b.pdf",
+   "timestamp": "20251105092314",
+   "wayback_url": "https://web.archive.org/web/20251105092314id_/https://www.tasekomines.com/_resources/news/nr-20251015b.pdf",
+   "bytes": 214108,
+   "title": "nr-20251015b.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/news/nr-20251022.pdf",
+   "timestamp": "20251105102724",
+   "wayback_url": "https://web.archive.org/web/20251105102724id_/https://www.tasekomines.com/_resources/news/nr-20251022.pdf",
+   "bytes": 264303,
+   "title": "nr-20251022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/news/nr-20251107.pdf",
+   "timestamp": "20251123152459",
+   "wayback_url": "https://web.archive.org/web/20251123152459id_/https://tasekomines.com/_resources/news/nr-20251107.pdf",
+   "bytes": 529596,
+   "title": "nr-20251107.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/news/nr-20251112.pdf",
+   "timestamp": "20251123152448",
+   "wayback_url": "https://web.archive.org/web/20251123152448id_/https://tasekomines.com/_resources/news/nr-20251112.pdf",
+   "bytes": 441043,
+   "title": "nr-20251112.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/news/nr-20260113.pdf",
+   "timestamp": "20260115005845",
+   "wayback_url": "https://web.archive.org/web/20260115005845id_/https://tasekomines.com/_resources/news/nr-20260113.pdf",
+   "bytes": 242908,
+   "title": "nr-20260113.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201306-agm.pdf",
+   "timestamp": "20241021120730",
+   "wayback_url": "https://web.archive.org/web/20241021120730id_/https://tasekomines.com/_resources/presentations/201306-agm.pdf",
+   "bytes": 1477458,
+   "title": "201306-agm.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201406-agm.pdf",
+   "timestamp": "20241021120743",
+   "wayback_url": "https://web.archive.org/web/20241021120743id_/https://tasekomines.com/_resources/presentations/201406-agm.pdf",
+   "bytes": 850090,
+   "title": "201406-agm.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201410-gibraltar.pdf",
+   "timestamp": "20241021120735",
+   "wayback_url": "https://web.archive.org/web/20241021120735id_/https://tasekomines.com/_resources/presentations/201410-gibraltar.pdf",
+   "bytes": 893973,
+   "title": "201410-gibraltar.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201506-agm.pdf",
+   "timestamp": "20241021120751",
+   "wayback_url": "https://web.archive.org/web/20241021120751id_/https://tasekomines.com/_resources/presentations/201506-agm.pdf",
+   "bytes": 867290,
+   "title": "201506-agm.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201509.pdf",
+   "timestamp": "20241021120809",
+   "wayback_url": "https://web.archive.org/web/20241021120809id_/https://tasekomines.com/_resources/presentations/201509.pdf",
+   "bytes": 1039544,
+   "title": "201509.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201601-TD.pdf",
+   "timestamp": "20241021120734",
+   "wayback_url": "https://web.archive.org/web/20241021120734id_/https://tasekomines.com/_resources/presentations/201601-TD.pdf",
+   "bytes": 1231835,
+   "title": "201601-TD.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201603-BMO.pdf",
+   "timestamp": "20241021120808",
+   "wayback_url": "https://web.archive.org/web/20241021120808id_/https://tasekomines.com/_resources/presentations/201603-BMO.pdf",
+   "bytes": 1023426,
+   "title": "201603-BMO.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201607-agm.pdf",
+   "timestamp": "20241021120805",
+   "wayback_url": "https://web.archive.org/web/20241021120805id_/https://tasekomines.com/_resources/presentations/201607-agm.pdf",
+   "bytes": 577304,
+   "title": "201607-agm.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201611.pdf",
+   "timestamp": "20241021120739",
+   "wayback_url": "https://web.archive.org/web/20241021120739id_/https://tasekomines.com/_resources/presentations/201611.pdf",
+   "bytes": 1550928,
+   "title": "201611.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201701.pdf",
+   "timestamp": "20241021120807",
+   "wayback_url": "https://web.archive.org/web/20241021120807id_/https://tasekomines.com/_resources/presentations/201701.pdf",
+   "bytes": 1511081,
+   "title": "201701.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201703.pdf",
+   "timestamp": "20241021120850",
+   "wayback_url": "https://web.archive.org/web/20241021120850id_/https://tasekomines.com/_resources/presentations/201703.pdf",
+   "bytes": 1159695,
+   "title": "201703.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201711.pdf",
+   "timestamp": "20241021120737",
+   "wayback_url": "https://web.archive.org/web/20241021120737id_/https://tasekomines.com/_resources/presentations/201711.pdf",
+   "bytes": 1884911,
+   "title": "201711.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201802.pdf",
+   "timestamp": "20241021120743",
+   "wayback_url": "https://web.archive.org/web/20241021120743id_/https://tasekomines.com/_resources/presentations/201802.pdf",
+   "bytes": 1072878,
+   "title": "201802.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201810-florence-copper.pdf",
+   "timestamp": "20241021120731",
+   "wayback_url": "https://web.archive.org/web/20241021120731id_/https://tasekomines.com/_resources/presentations/201810-florence-copper.pdf",
+   "bytes": 3605134,
+   "title": "201810-florence-copper.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201901.pdf",
+   "timestamp": "20241021120732",
+   "wayback_url": "https://web.archive.org/web/20241021120732id_/https://tasekomines.com/_resources/presentations/201901.pdf",
+   "bytes": 2581012,
+   "title": "201901.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/201902-BMO.pdf",
+   "timestamp": "20241021120742",
+   "wayback_url": "https://web.archive.org/web/20241021120742id_/https://tasekomines.com/_resources/presentations/201902-BMO.pdf",
+   "bytes": 1164469,
+   "title": "201902-BMO.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/202007.pdf",
+   "timestamp": "20241021120840",
+   "wayback_url": "https://web.archive.org/web/20241021120840id_/https://tasekomines.com/_resources/presentations/202007.pdf",
+   "bytes": 3006206,
+   "title": "202007.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/202010.pdf",
+   "timestamp": "20241021120752",
+   "wayback_url": "https://web.archive.org/web/20241021120752id_/https://tasekomines.com/_resources/presentations/202010.pdf",
+   "bytes": 3000903,
+   "title": "202010.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/202012.pdf",
+   "timestamp": "20241021120755",
+   "wayback_url": "https://web.archive.org/web/20241021120755id_/https://tasekomines.com/_resources/presentations/202012.pdf",
+   "bytes": 4035447,
+   "title": "202012.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/202101.pdf",
+   "timestamp": "20241021120803",
+   "wayback_url": "https://web.archive.org/web/20241021120803id_/https://tasekomines.com/_resources/presentations/202101.pdf",
+   "bytes": 3478713,
+   "title": "202101.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/202103.pdf",
+   "timestamp": "20241021120747",
+   "wayback_url": "https://web.archive.org/web/20241021120747id_/https://tasekomines.com/_resources/presentations/202103.pdf",
+   "bytes": 2879647,
+   "title": "202103.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/202204.pdf",
+   "timestamp": "20241021120836",
+   "wayback_url": "https://web.archive.org/web/20241021120836id_/https://tasekomines.com/_resources/presentations/202204.pdf",
+   "bytes": 3359930,
+   "title": "202204.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/202206.pdf",
+   "timestamp": "20241021120756",
+   "wayback_url": "https://web.archive.org/web/20241021120756id_/https://tasekomines.com/_resources/presentations/202206.pdf",
+   "bytes": 3209459,
+   "title": "202206.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/202211.pdf",
+   "timestamp": "20241021120801",
+   "wayback_url": "https://web.archive.org/web/20241021120801id_/https://tasekomines.com/_resources/presentations/202211.pdf",
+   "bytes": 3006987,
+   "title": "202211.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/202306.pdf",
+   "timestamp": "20240112213123",
+   "wayback_url": "https://web.archive.org/web/20240112213123id_/https://tasekomines.com/_resources/presentations/202306.pdf",
+   "bytes": 4021455,
+   "title": "202306.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/presentations/20231-Gibraltar-Mine.pdf",
+   "timestamp": "20240113022134",
+   "wayback_url": "https://web.archive.org/web/20240113022134id_/https://www.tasekomines.com/_resources/presentations/20231-Gibraltar-Mine.pdf",
+   "bytes": 3971424,
+   "title": "20231-Gibraltar-Mine.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/202312.pdf",
+   "timestamp": "20240112213241",
+   "wayback_url": "https://web.archive.org/web/20240112213241id_/https://tasekomines.com/_resources/presentations/202312.pdf",
+   "bytes": 4809990,
+   "title": "202312.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/presentations/202402.pdf",
+   "timestamp": "20240318061426",
+   "wayback_url": "https://web.archive.org/web/20240318061426id_/https://www.tasekomines.com/_resources/presentations/202402.pdf",
+   "bytes": 4792947,
+   "title": "202402.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/202403.pdf",
+   "timestamp": "20240411133057",
+   "wayback_url": "https://web.archive.org/web/20240411133057id_/https://tasekomines.com/_resources/presentations/202403.pdf",
+   "bytes": 3677988,
+   "title": "202403.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/202404.pdf",
+   "timestamp": "20240411133101",
+   "wayback_url": "https://web.archive.org/web/20240411133101id_/https://tasekomines.com/_resources/presentations/202404.pdf",
+   "bytes": 4155586,
+   "title": "202404.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/presentations/April-2026-Corporate-Presentation.pdf",
+   "timestamp": "20260620191702",
+   "wayback_url": "https://web.archive.org/web/20260620191702id_/https://www.tasekomines.com/_resources/presentations/April-2026-Corporate-Presentation.pdf",
+   "bytes": 4919791,
+   "title": "April-2026-Corporate-Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/February-2025-BMO-Florence-Site-Tour.pdf",
+   "timestamp": "20250421125849",
+   "wayback_url": "https://web.archive.org/web/20250421125849id_/https://tasekomines.com/_resources/presentations/February-2025-BMO-Florence-Site-Tour.pdf",
+   "bytes": 5567871,
+   "title": "February-2025-BMO-Florence-Site-Tour.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/February-2025-BMO.pdf",
+   "timestamp": "20250421141236",
+   "wayback_url": "https://web.archive.org/web/20250421141236id_/https://tasekomines.com/_resources/presentations/February-2025-BMO.pdf",
+   "bytes": 932386,
+   "title": "February-2025-BMO.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/February-2025-Update.pdf",
+   "timestamp": "20250421131531",
+   "wayback_url": "https://web.archive.org/web/20250421131531id_/https://tasekomines.com/_resources/presentations/February-2025-Update.pdf",
+   "bytes": 5768370,
+   "title": "February-2025-Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/presentations/July_2025_Corporate_Presentation.pdf",
+   "timestamp": "20250725021729",
+   "wayback_url": "https://web.archive.org/web/20250725021729id_/https://www.tasekomines.com/_resources/presentations/July_2025_Corporate_Presentation.pdf",
+   "bytes": 5308069,
+   "title": "July_2025_Corporate_Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/June_2025_Corporate_Presentation.pdf",
+   "timestamp": "20250713184434",
+   "wayback_url": "https://web.archive.org/web/20250713184434id_/https://tasekomines.com/_resources/presentations/June_2025_Corporate_Presentation.pdf",
+   "bytes": 6214000,
+   "title": "June_2025_Corporate_Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/November-2024-Update.pdf",
+   "timestamp": "20250117220254",
+   "wayback_url": "https://web.archive.org/web/20250117220254id_/https://tasekomines.com/_resources/presentations/November-2024-Update.pdf",
+   "bytes": 4076330,
+   "title": "November-2024-Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/November-2025-Corporate-Presentation.pdf",
+   "timestamp": "20251123152338",
+   "wayback_url": "https://web.archive.org/web/20251123152338id_/https://tasekomines.com/_resources/presentations/November-2025-Corporate-Presentation.pdf",
+   "bytes": 4326531,
+   "title": "November-2025-Corporate-Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/presentations/October-2024-Florence-Site-Tour.pdf",
+   "timestamp": "20241021120814",
+   "wayback_url": "https://web.archive.org/web/20241021120814id_/https://www.tasekomines.com/_resources/presentations/October-2024-Florence-Site-Tour.pdf",
+   "bytes": 4930791,
+   "title": "October-2024-Florence-Site-Tour.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/presentations/October-2025-Corporate-Presentation.pdf",
+   "timestamp": "20251007182352",
+   "wayback_url": "https://web.archive.org/web/20251007182352id_/https://www.tasekomines.com/_resources/presentations/October-2025-Corporate-Presentation.pdf",
+   "bytes": 3925144,
+   "title": "October-2025-Corporate-Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/presentations/Senior_Secured_Notes_Offering-202101.pdf",
+   "timestamp": "20241021120734",
+   "wayback_url": "https://web.archive.org/web/20241021120734id_/https://tasekomines.com/_resources/presentations/Senior_Secured_Notes_Offering-202101.pdf",
+   "bytes": 3800031,
+   "title": "Senior_Secured_Notes_Offering-202101.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/reports/Economic-Impact-Report.pdf",
+   "timestamp": "20250212092444",
+   "wayback_url": "https://web.archive.org/web/20250212092444id_/https://tasekomines.com/_resources/reports/Economic-Impact-Report.pdf",
+   "bytes": 1509118,
+   "title": "Economic-Impact-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/reports/Economic-Impact-Report.pdf?v=021111",
+   "timestamp": "20250214222712",
+   "wayback_url": "https://web.archive.org/web/20250214222712id_/https://tasekomines.com/_resources/reports/Economic-Impact-Report.pdf?v=021111",
+   "bytes": 1483667,
+   "title": "Economic-Impact-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/reports/Economic-Impact-Report.pdf?v=021512",
+   "timestamp": "20250215010514",
+   "wayback_url": "https://web.archive.org/web/20250215010514id_/https://tasekomines.com/_resources/reports/Economic-Impact-Report.pdf?v=021512",
+   "bytes": 1483690,
+   "title": "Economic-Impact-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/reports/Economic-Impact-Report.pdf?v=021808",
+   "timestamp": "20250218200917",
+   "wayback_url": "https://web.archive.org/web/20250218200917id_/https://www.tasekomines.com/_resources/reports/Economic-Impact-Report.pdf?v=021808",
+   "bytes": 1483690,
+   "title": "Economic-Impact-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/reports/Economic-Impact-Report.pdf?v=042102",
+   "timestamp": "20250421144122",
+   "wayback_url": "https://web.archive.org/web/20250421144122id_/https://tasekomines.com/_resources/reports/Economic-Impact-Report.pdf?v=042102",
+   "bytes": 1483724,
+   "title": "Economic-Impact-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/reports/Economic-Impact-Report.pdf?v=120609",
+   "timestamp": "20251206092002",
+   "wayback_url": "https://web.archive.org/web/20251206092002id_/https://tasekomines.com/_resources/reports/Economic-Impact-Report.pdf?v=120609",
+   "bytes": 1483352,
+   "title": "Economic-Impact-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/taseko-talks/250218_Hernandez-Roy_Mining_Defense_1.pdf",
+   "timestamp": "20250421162022",
+   "wayback_url": "https://web.archive.org/web/20250421162022id_/https://tasekomines.com/_resources/taseko-talks/250218_Hernandez-Roy_Mining_Defense_1.pdf",
+   "bytes": 2233499,
+   "title": "250218_Hernandez-Roy_Mining_Defense_1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/taseko-talks/250218_Hernandez-Roy_Mining_Defense_1.pdf?v=042101",
+   "timestamp": "20250422032640",
+   "wayback_url": "https://web.archive.org/web/20250422032640id_/https://tasekomines.com/_resources/taseko-talks/250218_Hernandez-Roy_Mining_Defense_1.pdf?v=042101",
+   "bytes": 2233569,
+   "title": "250218_Hernandez-Roy_Mining_Defense_1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/taseko-talks/250218_Hernandez-Roy_Mining_Defense_1.pdf?v=042103",
+   "timestamp": "20250421163846",
+   "wayback_url": "https://web.archive.org/web/20250421163846id_/https://www.tasekomines.com/_resources/taseko-talks/250218_Hernandez-Roy_Mining_Defense_1.pdf?v=042103",
+   "bytes": 2233470,
+   "title": "250218_Hernandez-Roy_Mining_Defense_1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/taseko-talks/250218_Hernandez-Roy_Mining_Defense_1.pdf?v=050102",
+   "timestamp": "20250501023443",
+   "wayback_url": "https://web.archive.org/web/20250501023443id_/https://www.tasekomines.com/_resources/taseko-talks/250218_Hernandez-Roy_Mining_Defense_1.pdf?v=050102",
+   "bytes": 2233476,
+   "title": "250218_Hernandez-Roy_Mining_Defense_1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/taseko-talks/250218_Hernandez-Roy_Mining_Defense_1.pdf?v=050204",
+   "timestamp": "20250502164901",
+   "wayback_url": "https://web.archive.org/web/20250502164901id_/https://tasekomines.com/_resources/taseko-talks/250218_Hernandez-Roy_Mining_Defense_1.pdf?v=050204",
+   "bytes": 2233868,
+   "title": "250218_Hernandez-Roy_Mining_Defense_1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/_resources/taseko-talks/250218_Hernandez-Roy_Mining_Defense_1.pdf?v=060606",
+   "timestamp": "20250606181310",
+   "wayback_url": "https://web.archive.org/web/20250606181310id_/https://tasekomines.com/_resources/taseko-talks/250218_Hernandez-Roy_Mining_Defense_1.pdf?v=060606",
+   "bytes": 2233862,
+   "title": "250218_Hernandez-Roy_Mining_Defense_1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/_resources/taseko-talks/250218_Hernandez-Roy_Mining_Defense_1.pdf?v=071307",
+   "timestamp": "20250713195648",
+   "wayback_url": "https://web.archive.org/web/20250713195648id_/https://www.tasekomines.com/_resources/taseko-talks/250218_Hernandez-Roy_Mining_Defense_1.pdf?v=071307",
+   "bytes": 2233267,
+   "title": "250218_Hernandez-Roy_Mining_Defense_1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/01-16_nr-janauzn.pdf",
+   "timestamp": "20221129020626",
+   "wayback_url": "https://web.archive.org/web/20221129020626id_/https://www.tasekomines.com/assets/docs/01-16_nr-janauzn.pdf",
+   "bytes": 611441,
+   "title": "01-16_nr-janauzn.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2006-Q1.pdf",
+   "timestamp": "20200920175014",
+   "wayback_url": "https://web.archive.org/web/20200920175014id_/https://tasekomines.com/assets/docs/2006-Q1.pdf",
+   "bytes": 169394,
+   "title": "2006-Q1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2006-Q2.pdf",
+   "timestamp": "20210127230851",
+   "wayback_url": "https://web.archive.org/web/20210127230851id_/https://tasekomines.com/assets/docs/2006-Q2.pdf",
+   "bytes": 167434,
+   "title": "2006-Q2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2006-Q3.pdf",
+   "timestamp": "20200920172035",
+   "wayback_url": "https://web.archive.org/web/20200920172035id_/https://tasekomines.com/assets/docs/2006-Q3.pdf",
+   "bytes": 116257,
+   "title": "2006-Q3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2006-Q4.pdf",
+   "timestamp": "20200920170615",
+   "wayback_url": "https://web.archive.org/web/20200920170615id_/https://tasekomines.com/assets/docs/2006-Q4.pdf",
+   "bytes": 293172,
+   "title": "2006-Q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2007-Q1.pdf",
+   "timestamp": "20210127220443",
+   "wayback_url": "https://web.archive.org/web/20210127220443id_/https://tasekomines.com/assets/docs/2007-Q1.pdf",
+   "bytes": 192069,
+   "title": "2007-Q1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2007-Q2.pdf",
+   "timestamp": "20200920161540",
+   "wayback_url": "https://web.archive.org/web/20200920161540id_/https://tasekomines.com/assets/docs/2007-Q2.pdf",
+   "bytes": 169462,
+   "title": "2007-Q2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2007-Q3.pdf",
+   "timestamp": "20200920180804",
+   "wayback_url": "https://web.archive.org/web/20200920180804id_/https://tasekomines.com/assets/docs/2007-Q3.pdf",
+   "bytes": 171692,
+   "title": "2007-Q3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2007-Q4.pdf",
+   "timestamp": "20210117065327",
+   "wayback_url": "https://web.archive.org/web/20210117065327id_/https://tasekomines.com/assets/docs/2007-Q4.pdf",
+   "bytes": 359564,
+   "title": "2007-Q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2008-Q1.pdf",
+   "timestamp": "20210117060809",
+   "wayback_url": "https://web.archive.org/web/20210117060809id_/https://tasekomines.com/assets/docs/2008-Q1.pdf",
+   "bytes": 180694,
+   "title": "2008-Q1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2008-Q2.pdf",
+   "timestamp": "20210117055258",
+   "wayback_url": "https://web.archive.org/web/20210117055258id_/https://tasekomines.com/assets/docs/2008-Q2.pdf",
+   "bytes": 184612,
+   "title": "2008-Q2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2008-Q3.pdf",
+   "timestamp": "20200920164502",
+   "wayback_url": "https://web.archive.org/web/20200920164502id_/https://tasekomines.com/assets/docs/2008-Q3.pdf",
+   "bytes": 160941,
+   "title": "2008-Q3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2008-Q4.pdf",
+   "timestamp": "20200920162314",
+   "wayback_url": "https://web.archive.org/web/20200920162314id_/https://tasekomines.com/assets/docs/2008-Q4.pdf",
+   "bytes": 207320,
+   "title": "2008-Q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2009-Q1.pdf",
+   "timestamp": "20210127232533",
+   "wayback_url": "https://web.archive.org/web/20210127232533id_/https://tasekomines.com/assets/docs/2009-Q1.pdf",
+   "bytes": 241507,
+   "title": "2009-Q1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2009-Q2.pdf",
+   "timestamp": "20210117063917",
+   "wayback_url": "https://web.archive.org/web/20210117063917id_/https://tasekomines.com/assets/docs/2009-Q2.pdf",
+   "bytes": 257675,
+   "title": "2009-Q2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2009-Q3.pdf",
+   "timestamp": "20200920172346",
+   "wayback_url": "https://web.archive.org/web/20200920172346id_/https://tasekomines.com/assets/docs/2009-Q3.pdf",
+   "bytes": 301806,
+   "title": "2009-Q3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2009-Q4.pdf",
+   "timestamp": "20200920170921",
+   "wayback_url": "https://web.archive.org/web/20200920170921id_/https://tasekomines.com/assets/docs/2009-Q4.pdf",
+   "bytes": 504517,
+   "title": "2009-Q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2010-Q1.pdf",
+   "timestamp": "20200920171407",
+   "wayback_url": "https://web.archive.org/web/20200920171407id_/https://tasekomines.com/assets/docs/2010-Q1.pdf",
+   "bytes": 293096,
+   "title": "2010-Q1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2010-Q2.pdf",
+   "timestamp": "20210117060106",
+   "wayback_url": "https://web.archive.org/web/20210117060106id_/https://tasekomines.com/assets/docs/2010-Q2.pdf",
+   "bytes": 382563,
+   "title": "2010-Q2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2010-Q3.pdf",
+   "timestamp": "20210127221850",
+   "wayback_url": "https://web.archive.org/web/20210127221850id_/https://tasekomines.com/assets/docs/2010-Q3.pdf",
+   "bytes": 347084,
+   "title": "2010-Q3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2010-Q4.pdf",
+   "timestamp": "20210127221513",
+   "wayback_url": "https://web.archive.org/web/20210127221513id_/https://tasekomines.com/assets/docs/2010-Q4.pdf",
+   "bytes": 474578,
+   "title": "2010-Q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2011-Q1.pdf",
+   "timestamp": "20210117070055",
+   "wayback_url": "https://web.archive.org/web/20210117070055id_/https://tasekomines.com/assets/docs/2011-Q1.pdf",
+   "bytes": 266161,
+   "title": "2011-Q1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2011-Q2.pdf",
+   "timestamp": "20210117064738",
+   "wayback_url": "https://web.archive.org/web/20210117064738id_/https://tasekomines.com/assets/docs/2011-Q2.pdf",
+   "bytes": 284065,
+   "title": "2011-Q2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2011-Q3.pdf",
+   "timestamp": "20210127230532",
+   "wayback_url": "https://web.archive.org/web/20210127230532id_/https://tasekomines.com/assets/docs/2011-Q3.pdf",
+   "bytes": 291199,
+   "title": "2011-Q3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2011-Q4.pdf",
+   "timestamp": "20210117061955",
+   "wayback_url": "https://web.archive.org/web/20210117061955id_/https://tasekomines.com/assets/docs/2011-Q4.pdf",
+   "bytes": 497634,
+   "title": "2011-Q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2012-Q1.pdf",
+   "timestamp": "20200920162947",
+   "wayback_url": "https://web.archive.org/web/20200920162947id_/https://tasekomines.com/assets/docs/2012-Q1.pdf",
+   "bytes": 283193,
+   "title": "2012-Q1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2012-Q2.pdf",
+   "timestamp": "20210127220226",
+   "wayback_url": "https://web.archive.org/web/20210127220226id_/https://tasekomines.com/assets/docs/2012-Q2.pdf",
+   "bytes": 671985,
+   "title": "2012-Q2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2012-Q3.pdf",
+   "timestamp": "20210117071838",
+   "wayback_url": "https://web.archive.org/web/20210117071838id_/https://tasekomines.com/assets/docs/2012-Q3.pdf",
+   "bytes": 638889,
+   "title": "2012-Q3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2012-Q4.pdf",
+   "timestamp": "20210117070422",
+   "wayback_url": "https://web.archive.org/web/20210117070422id_/https://tasekomines.com/assets/docs/2012-Q4.pdf",
+   "bytes": 488697,
+   "title": "2012-Q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2013-Q1.pdf",
+   "timestamp": "20210127225036",
+   "wayback_url": "https://web.archive.org/web/20210127225036id_/https://tasekomines.com/assets/docs/2013-Q1.pdf",
+   "bytes": 196026,
+   "title": "2013-Q1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2013-Q2.pdf",
+   "timestamp": "20200920170248",
+   "wayback_url": "https://web.archive.org/web/20200920170248id_/https://tasekomines.com/assets/docs/2013-Q2.pdf",
+   "bytes": 705596,
+   "title": "2013-Q2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2013-Q3.pdf",
+   "timestamp": "20200920164952",
+   "wayback_url": "https://web.archive.org/web/20200920164952id_/https://tasekomines.com/assets/docs/2013-Q3.pdf",
+   "bytes": 210223,
+   "title": "2013-Q3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2013-Q4.pdf",
+   "timestamp": "20210117053353",
+   "wayback_url": "https://web.archive.org/web/20210117053353id_/https://tasekomines.com/assets/docs/2013-Q4.pdf",
+   "bytes": 900380,
+   "title": "2013-Q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2014-Q1.pdf",
+   "timestamp": "20210117070352",
+   "wayback_url": "https://web.archive.org/web/20210117070352id_/https://tasekomines.com/assets/docs/2014-Q1.pdf",
+   "bytes": 288274,
+   "title": "2014-Q1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2014-Q2.pdf",
+   "timestamp": "20200920175048",
+   "wayback_url": "https://web.archive.org/web/20200920175048id_/https://tasekomines.com/assets/docs/2014-Q2.pdf",
+   "bytes": 297896,
+   "title": "2014-Q2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2014-Q3.pdf",
+   "timestamp": "20210127230928",
+   "wayback_url": "https://web.archive.org/web/20210127230928id_/https://tasekomines.com/assets/docs/2014-Q3.pdf",
+   "bytes": 339076,
+   "title": "2014-Q3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2014-Q4.pdf",
+   "timestamp": "20200920172123",
+   "wayback_url": "https://web.archive.org/web/20200920172123id_/https://tasekomines.com/assets/docs/2014-Q4.pdf",
+   "bytes": 645984,
+   "title": "2014-Q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2015-Annual-report.pdf",
+   "timestamp": "20210127232401",
+   "wayback_url": "https://web.archive.org/web/20210127232401id_/https://tasekomines.com/assets/docs/2015-Annual-report.pdf",
+   "bytes": 227022,
+   "title": "2015-Annual-report.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2015-Q1.pdf",
+   "timestamp": "20200920163551",
+   "wayback_url": "https://web.archive.org/web/20200920163551id_/https://tasekomines.com/assets/docs/2015-Q1.pdf",
+   "bytes": 315525,
+   "title": "2015-Q1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2015-Q2.pdf",
+   "timestamp": "20200920162052",
+   "wayback_url": "https://web.archive.org/web/20200920162052id_/https://tasekomines.com/assets/docs/2015-Q2.pdf",
+   "bytes": 358044,
+   "title": "2015-Q2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2015-Q3.pdf",
+   "timestamp": "20200920161824",
+   "wayback_url": "https://web.archive.org/web/20200920161824id_/https://tasekomines.com/assets/docs/2015-Q3.pdf",
+   "bytes": 325766,
+   "title": "2015-Q3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/2016-02-23_nr_tko_38krh7.pdf",
+   "timestamp": "20201029143635",
+   "wayback_url": "https://web.archive.org/web/20201029143635id_/https://www.tasekomines.com/assets/docs/2016-02-23_nr_tko_38krh7.pdf",
+   "bytes": 308092,
+   "title": "2016-02-23_nr_tko_38krh7.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/2016-09-20-nr-tko-9xszbs.pdf",
+   "timestamp": "20221128223611",
+   "wayback_url": "https://web.archive.org/web/20221128223611id_/https://www.tasekomines.com/assets/docs/2016-09-20-nr-tko-9xszbs.pdf",
+   "bytes": 169586,
+   "title": "2016-09-20-nr-tko-9xszbs.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2016q4.pdf",
+   "timestamp": "20200920164641",
+   "wayback_url": "https://web.archive.org/web/20200920164641id_/https://tasekomines.com/assets/docs/2016q4.pdf",
+   "bytes": 979829,
+   "title": "2016q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/2017-01-16%20NI%2043-101%20Florence%20Technical%20Report.pdf",
+   "timestamp": "20210708223228",
+   "wayback_url": "https://web.archive.org/web/20210708223228id_/https://www.tasekomines.com/assets/docs/2017-01-16%20NI%2043-101%20Florence%20Technical%20Report.pdf",
+   "bytes": 8259668,
+   "title": "2017-01-16 NI 43-101 Florence Technical Report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/2017-08-02-nr-tko-2c44j4.pdf",
+   "timestamp": "20220817080346",
+   "wayback_url": "https://web.archive.org/web/20220817080346id_/https://www.tasekomines.com/assets/docs/2017-08-02-nr-tko-2c44j4.pdf",
+   "bytes": 75990,
+   "title": "2017-08-02-nr-tko-2c44j4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2019-Q3-TKO-FS.pdf",
+   "timestamp": "20210117052659",
+   "wayback_url": "https://web.archive.org/web/20210117052659id_/https://tasekomines.com/assets/docs/2019-Q3-TKO-FS.pdf",
+   "bytes": 688715,
+   "title": "2019-Q3-TKO-FS.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2019-ShLetter.pdf",
+   "timestamp": "20200920174352",
+   "wayback_url": "https://web.archive.org/web/20200920174352id_/https://tasekomines.com/assets/docs/2019-ShLetter.pdf",
+   "bytes": 1038724,
+   "title": "2019-ShLetter.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/2020_Fourth_Quarter_Report-20210224145535.pdf",
+   "timestamp": "20210411214958",
+   "wayback_url": "https://web.archive.org/web/20210411214958id_/https://www.tasekomines.com/assets/docs/2020_Fourth_Quarter_Report-20210224145535.pdf",
+   "bytes": 1011159,
+   "title": "2020_Fourth_Quarter_Report-20210224145535.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/2020_Third_Quarter_Interim_Report.pdf",
+   "timestamp": "20210104125104",
+   "wayback_url": "https://web.archive.org/web/20210104125104id_/https://www.tasekomines.com/assets/docs/2020_Third_Quarter_Interim_Report.pdf",
+   "bytes": 715181,
+   "title": "2020_Third_Quarter_Interim_Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/2021-02-24-NR-TKO-Fus992GnJj.pdf",
+   "timestamp": "20210318001133",
+   "wayback_url": "https://web.archive.org/web/20210318001133id_/https://www.tasekomines.com/assets/docs/2021-02-24-NR-TKO-Fus992GnJj.pdf",
+   "bytes": 246517,
+   "title": "2021-02-24-NR-TKO-Fus992GnJj.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/2021-11-03-tko-nr-554i9.pdf",
+   "timestamp": "20211104150907",
+   "wayback_url": "https://web.archive.org/web/20211104150907id_/https://tasekomines.com/assets/docs/2021-11-03-tko-nr-554i9.pdf",
+   "bytes": 301082,
+   "title": "2021-11-03-tko-nr-554i9.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/2022-Q4.pdf",
+   "timestamp": "20230307111855",
+   "wayback_url": "https://web.archive.org/web/20230307111855id_/https://www.tasekomines.com/assets/docs/2022-Q4.pdf",
+   "bytes": 2519974,
+   "title": "2022-Q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/AR_May2020-20200624233528.pdf",
+   "timestamp": "20200920165115",
+   "wayback_url": "https://web.archive.org/web/20200920165115id_/https://tasekomines.com/assets/docs/AR_May2020-20200624233528.pdf",
+   "bytes": 1010704,
+   "title": "AR_May2020-20200624233528.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/May.5.2021.pdf",
+   "timestamp": "20210506051043",
+   "wayback_url": "https://web.archive.org/web/20210506051043id_/https://www.tasekomines.com/assets/docs/May.5.2021.pdf",
+   "bytes": 912702,
+   "title": "May.5.2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/2017_07_28_-ceaa-letter-to-taseko.pdf",
+   "timestamp": "20210228183856",
+   "wayback_url": "https://web.archive.org/web/20210228183856id_/https://tasekomines.com/assets/docs/pdf/2017_07_28_-ceaa-letter-to-taseko.pdf",
+   "bytes": 58158,
+   "title": "2017_07_28_-ceaa-letter-to-taseko.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/2017_07_28_-taseko-response-to-ceaa.pdf",
+   "timestamp": "20210228194742",
+   "wayback_url": "https://web.archive.org/web/20210228194742id_/https://tasekomines.com/assets/docs/pdf/2017_07_28_-taseko-response-to-ceaa.pdf",
+   "bytes": 136236,
+   "title": "2017_07_28_-taseko-response-to-ceaa.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/2019-03-29-tko-corp-gov-manual.pdf",
+   "timestamp": "20190917083146",
+   "wayback_url": "https://web.archive.org/web/20190917083146id_/https://www.tasekomines.com/assets/docs/pdf/2019-03-29-tko-corp-gov-manual.pdf",
+   "bytes": 637007,
+   "title": "2019-03-29-tko-corp-gov-manual.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/2019-NYSE-American-Website-Disclosure-20200626160226.pdf",
+   "timestamp": "20200924220833",
+   "wayback_url": "https://web.archive.org/web/20200924220833id_/https://tasekomines.com/assets/docs/pdf/2019-NYSE-American-Website-Disclosure-20200626160226.pdf",
+   "bytes": 20724,
+   "title": "2019-NYSE-American-Website-Disclosure-20200626160226.pdf",
+   "type": "closure",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/2019-ShLetter.pdf",
+   "timestamp": "20221129102833",
+   "wayback_url": "https://web.archive.org/web/20221129102833id_/https://www.tasekomines.com/assets/docs/pdf/2019-ShLetter.pdf",
+   "bytes": 831355,
+   "title": "2019-ShLetter.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/2020-FSRequest.pdf",
+   "timestamp": "20200924211456",
+   "wayback_url": "https://web.archive.org/web/20200924211456id_/https://tasekomines.com/assets/docs/pdf/2020-FSRequest.pdf",
+   "bytes": 46964,
+   "title": "2020-FSRequest.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/2020-Letter.pdf",
+   "timestamp": "20200924200957",
+   "wayback_url": "https://web.archive.org/web/20200924200957id_/https://tasekomines.com/assets/docs/pdf/2020-Letter.pdf",
+   "bytes": 1023592,
+   "title": "2020-Letter.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/2020-Proxy.pdf",
+   "timestamp": "20200924222820",
+   "wayback_url": "https://web.archive.org/web/20200924222820id_/https://tasekomines.com/assets/docs/pdf/2020-Proxy.pdf",
+   "bytes": 159270,
+   "title": "2020-Proxy.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/2020-TKOCircular.pdf",
+   "timestamp": "20200924204221",
+   "wayback_url": "https://web.archive.org/web/20200924204221id_/https://tasekomines.com/assets/docs/pdf/2020-TKOCircular.pdf",
+   "bytes": 636589,
+   "title": "2020-TKOCircular.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/2020_NoticeofAccess.pdf",
+   "timestamp": "20200924203952",
+   "wayback_url": "https://web.archive.org/web/20200924203952id_/https://tasekomines.com/assets/docs/pdf/2020_NoticeofAccess.pdf",
+   "bytes": 356920,
+   "title": "2020_NoticeofAccess.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/2020_Taseko_Our_Contribution_Sustainability-20200511094207.pdf",
+   "timestamp": "20200604193509",
+   "wayback_url": "https://web.archive.org/web/20200604193509id_/https://www.tasekomines.com/assets/docs/pdf/2020_Taseko_Our_Contribution_Sustainability-20200511094207.pdf",
+   "bytes": 7597914,
+   "title": "2020_Taseko_Our_Contribution_Sustainability-20200511094207.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/aboriginal-policy_february17.pdf",
+   "timestamp": "20220502231216",
+   "wayback_url": "https://web.archive.org/web/20220502231216id_/https://www.tasekomines.com/assets/docs/pdf/aboriginal-policy_february17.pdf",
+   "bytes": 60337,
+   "title": "aboriginal-policy_february17.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/Code-of-Ethics.pdf",
+   "timestamp": "20200924195919",
+   "wayback_url": "https://web.archive.org/web/20200924195919id_/https://tasekomines.com/assets/docs/pdf/Code-of-Ethics.pdf",
+   "bytes": 337016,
+   "title": "Code-of-Ethics.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/Corp-Govern-Manual.pdf",
+   "timestamp": "20200924202244",
+   "wayback_url": "https://web.archive.org/web/20200924202244id_/https://tasekomines.com/assets/docs/pdf/Corp-Govern-Manual.pdf",
+   "bytes": 637130,
+   "title": "Corp-Govern-Manual.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Environmental%20Policy_Oct19-20200624110344.pdf",
+   "timestamp": "20200929082445",
+   "wayback_url": "https://web.archive.org/web/20200929082445id_/https://www.tasekomines.com/assets/docs/pdf/Environmental%20Policy_Oct19-20200624110344.pdf",
+   "bytes": 217574,
+   "title": "Environmental Policy_Oct19-20200624110344.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Environmental-Policy-feb-2015.pdf",
+   "timestamp": "20200604185315",
+   "wayback_url": "https://web.archive.org/web/20200604185315id_/https://www.tasekomines.com/assets/docs/pdf/Environmental-Policy-feb-2015.pdf",
+   "bytes": 37020,
+   "title": "Environmental-Policy-feb-2015.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/ESG_2021.pdf",
+   "timestamp": "20220530211415",
+   "wayback_url": "https://web.archive.org/web/20220530211415id_/https://www.tasekomines.com/assets/docs/pdf/ESG_2021.pdf",
+   "bytes": 5588684,
+   "title": "ESG_2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/ESG_2021_Summary_Tables.pdf",
+   "timestamp": "20220706163426",
+   "wayback_url": "https://web.archive.org/web/20220706163426id_/https://www.tasekomines.com/assets/docs/pdf/ESG_2021_Summary_Tables.pdf",
+   "bytes": 389353,
+   "title": "ESG_2021_Summary_Tables.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/ESTMA_Report_2019.pdf",
+   "timestamp": "20200924195514",
+   "wayback_url": "https://web.archive.org/web/20200924195514id_/https://tasekomines.com/assets/docs/pdf/ESTMA_Report_2019.pdf",
+   "bytes": 119458,
+   "title": "ESTMA_Report_2019.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/ESTMA_Report_2020.pdf",
+   "timestamp": "20210507043711",
+   "wayback_url": "https://web.archive.org/web/20210507043711id_/https://tasekomines.com/assets/docs/pdf/ESTMA_Report_2020.pdf",
+   "bytes": 346191,
+   "title": "ESTMA_Report_2020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Gibraltar-2019-Technical-Report.pdf",
+   "timestamp": "20210506091501",
+   "wayback_url": "https://web.archive.org/web/20210506091501id_/https://www.tasekomines.com/assets/docs/pdf/Gibraltar-2019-Technical-Report.pdf",
+   "bytes": 982126,
+   "title": "Gibraltar-2019-Technical-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Health%20and%20Safety%20Policy_Oct19-20200624110330.pdf",
+   "timestamp": "20200929073011",
+   "wayback_url": "https://web.archive.org/web/20200929073011id_/https://www.tasekomines.com/assets/docs/pdf/Health%20and%20Safety%20Policy_Oct19-20200624110330.pdf",
+   "bytes": 210929,
+   "title": "Health and Safety Policy_Oct19-20200624110330.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Indigenous%20Peoples%20Policy_April2020-20200624110517.pdf",
+   "timestamp": "20200929064803",
+   "wayback_url": "https://web.archive.org/web/20200929064803id_/https://www.tasekomines.com/assets/docs/pdf/Indigenous%20Peoples%20Policy_April2020-20200624110517.pdf",
+   "bytes": 349728,
+   "title": "Indigenous Peoples Policy_April2020-20200624110517.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Indigenous%20Peoples%20Policy_April2020.pdf",
+   "timestamp": "20200604205924",
+   "wayback_url": "https://web.archive.org/web/20200604205924id_/https://www.tasekomines.com/assets/docs/pdf/Indigenous%20Peoples%20Policy_April2020.pdf",
+   "bytes": 349581,
+   "title": "Indigenous Peoples Policy_April2020.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/march1.2016_letter-to-raging-river-capital-lp-and-mark-radzik.pdf",
+   "timestamp": "20221002103219",
+   "wayback_url": "https://web.archive.org/web/20221002103219id_/https://www.tasekomines.com/assets/docs/pdf/march1.2016_letter-to-raging-river-capital-lp-and-mark-radzik.pdf",
+   "bytes": 340336,
+   "title": "march1.2016_letter-to-raging-river-capital-lp-and-mark-radzik.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/may-6-13-support-plus-bankruptcy-settlement-agreement-20160225045050.pdf",
+   "timestamp": "20221002091207",
+   "wayback_url": "https://web.archive.org/web/20221002091207id_/https://www.tasekomines.com/assets/docs/pdf/may-6-13-support-plus-bankruptcy-settlement-agreement-20160225045050.pdf",
+   "bytes": 990970,
+   "title": "may-6-13-support-plus-bankruptcy-settlement-agreement-20160225045050.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/NI%20Card%20draft%202022.pdf",
+   "timestamp": "20220704025018",
+   "wayback_url": "https://web.archive.org/web/20220704025018id_/https://tasekomines.com/assets/docs/pdf/NI%20Card%20draft%202022.pdf",
+   "bytes": 573064,
+   "title": "NI Card draft 2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Notice-of-Application-filed-26-March-2014-stamped.pdf",
+   "timestamp": "20211017183941",
+   "wayback_url": "https://web.archive.org/web/20211017183941id_/https://www.tasekomines.com/assets/docs/pdf/Notice-of-Application-filed-26-March-2014-stamped.pdf",
+   "bytes": 515322,
+   "title": "Notice-of-Application-filed-26-March-2014-stamped.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Notice-of-Application-filed-November-29-2013.pdf",
+   "timestamp": "20220121043918",
+   "wayback_url": "https://web.archive.org/web/20220121043918id_/https://www.tasekomines.com/assets/docs/pdf/Notice-of-Application-filed-November-29-2013.pdf",
+   "bytes": 237900,
+   "title": "Notice-of-Application-filed-November-29-2013.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/notice-of-civil-claim-filed-11-feb-2016.pdf",
+   "timestamp": "20191014110035",
+   "wayback_url": "https://web.archive.org/web/20191014110035id_/https://www.tasekomines.com/assets/docs/pdf/notice-of-civil-claim-filed-11-feb-2016.pdf",
+   "bytes": 786508,
+   "title": "notice-of-civil-claim-filed-11-feb-2016.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Nov-8-2013_CEAA_Letter.pdf",
+   "timestamp": "20220121051022",
+   "wayback_url": "https://web.archive.org/web/20220121051022id_/https://www.tasekomines.com/assets/docs/pdf/Nov-8-2013_CEAA_Letter.pdf",
+   "bytes": 589614,
+   "title": "Nov-8-2013_CEAA_Letter.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/assets/docs/pdf/Nov-8-2013_Leona_Aglukkaq.pdf",
+   "timestamp": "20160418172301",
+   "wayback_url": "https://web.archive.org/web/20160418172301id_/http://www.tasekomines.com:80/assets/docs/pdf/Nov-8-2013_Leona_Aglukkaq.pdf",
+   "bytes": 237691,
+   "title": "Nov-8-2013_Leona_Aglukkaq.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/RPA%20CPR%20-%20Florence%20Copper%20-%20Final.pdf",
+   "timestamp": "20210708223215",
+   "wayback_url": "https://web.archive.org/web/20210708223215id_/https://www.tasekomines.com/assets/docs/pdf/RPA%20CPR%20-%20Florence%20Copper%20-%20Final.pdf",
+   "bytes": 8344406,
+   "title": "RPA CPR - Florence Copper - Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Taseko%20-%202023%20AGM%20-%20Proxy.pdf",
+   "timestamp": "20230521042459",
+   "wayback_url": "https://web.archive.org/web/20230521042459id_/https://www.tasekomines.com/assets/docs/pdf/Taseko%20-%202023%20AGM%20-%20Proxy.pdf",
+   "bytes": 191218,
+   "title": "Taseko - 2023 AGM - Proxy.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Taseko%20-%20Articles%20-%20Amended%202013-20200626160644.pdf",
+   "timestamp": "20201029135445",
+   "wayback_url": "https://web.archive.org/web/20201029135445id_/https://www.tasekomines.com/assets/docs/pdf/Taseko%20-%20Articles%20-%20Amended%202013-20200626160644.pdf",
+   "bytes": 1001870,
+   "title": "Taseko - Articles - Amended 2013-20200626160644.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/Taseko%202022%20ESTMA%20Report.pdf",
+   "timestamp": "20230601081819",
+   "wayback_url": "https://web.archive.org/web/20230601081819id_/https://tasekomines.com/assets/docs/pdf/Taseko%202022%20ESTMA%20Report.pdf",
+   "bytes": 144360,
+   "title": "Taseko 2022 ESTMA Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/Taseko%20Prospectus.pdf",
+   "timestamp": "20200924211007",
+   "wayback_url": "https://web.archive.org/web/20200924211007id_/https://tasekomines.com/assets/docs/pdf/Taseko%20Prospectus.pdf",
+   "bytes": 916222,
+   "title": "Taseko Prospectus.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/Taseko's%20ESTMA%20Report%20for%202018%20(05.27.2019)%20FINAL.pdf",
+   "timestamp": "20200924221353",
+   "wayback_url": "https://web.archive.org/web/20200924221353id_/https://tasekomines.com/assets/docs/pdf/Taseko's%20ESTMA%20Report%20for%202018%20(05.27.2019)%20FINAL.pdf",
+   "bytes": 44094,
+   "title": "Taseko's ESTMA Report for 2018 (05.27.2019) FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/taseko-2016-estma-report.pdf",
+   "timestamp": "20200924220600",
+   "wayback_url": "https://web.archive.org/web/20200924220600id_/https://tasekomines.com/assets/docs/pdf/taseko-2016-estma-report.pdf",
+   "bytes": 57129,
+   "title": "taseko-2016-estma-report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/taseko-2017-estma-report.pdf",
+   "timestamp": "20210127235146",
+   "wayback_url": "https://web.archive.org/web/20210127235146id_/https://tasekomines.com/assets/docs/pdf/taseko-2017-estma-report.pdf",
+   "bytes": 43430,
+   "title": "taseko-2017-estma-report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Taseko_2022_ESG_Report.pdf",
+   "timestamp": "20230604045437",
+   "wayback_url": "https://web.archive.org/web/20230604045437id_/https://www.tasekomines.com/assets/docs/pdf/Taseko_2022_ESG_Report.pdf",
+   "bytes": 988407,
+   "title": "Taseko_2022_ESG_Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Taseko_ESG_2021_May2022_FINAL.pdf",
+   "timestamp": "20220602185631",
+   "wayback_url": "https://web.archive.org/web/20220602185631id_/https://www.tasekomines.com/assets/docs/pdf/Taseko_ESG_2021_May2022_FINAL.pdf",
+   "bytes": 5589142,
+   "title": "Taseko_ESG_2021_May2022_FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Taseko_Final%20Research%20Update_March20%202018.pdf",
+   "timestamp": "20211017193713",
+   "wayback_url": "https://web.archive.org/web/20211017193713id_/https://www.tasekomines.com/assets/docs/pdf/Taseko_Final%20Research%20Update_March20%202018.pdf",
+   "bytes": 280807,
+   "title": "Taseko_Final Research Update_March20 2018.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Taseko_LettertoShareholders_03May2023_FINAL.pdf",
+   "timestamp": "20230521042459",
+   "wayback_url": "https://web.archive.org/web/20230521042459id_/https://www.tasekomines.com/assets/docs/pdf/Taseko_LettertoShareholders_03May2023_FINAL.pdf",
+   "bytes": 1889324,
+   "title": "Taseko_LettertoShareholders_03May2023_FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/Taseko_LettertoShareholders_05May2021.pdf",
+   "timestamp": "20211022043134",
+   "wayback_url": "https://web.archive.org/web/20211022043134id_/https://tasekomines.com/assets/docs/pdf/Taseko_LettertoShareholders_05May2021.pdf",
+   "bytes": 972162,
+   "title": "Taseko_LettertoShareholders_05May2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/Taseko_LettertoShareholders_FINAL.pdf",
+   "timestamp": "20220704025240",
+   "wayback_url": "https://web.archive.org/web/20220704025240id_/https://tasekomines.com/assets/docs/pdf/Taseko_LettertoShareholders_FINAL.pdf",
+   "bytes": 1034323,
+   "title": "Taseko_LettertoShareholders_FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/Technical%20Report%20on%20the%20Mineral%20Reserve%20Update%20at%20the%20Gibraltar%20Mine%20-%20March%2030,%202022.pdf",
+   "timestamp": "20220403075522",
+   "wayback_url": "https://web.archive.org/web/20220403075522id_/https://www.tasekomines.com/assets/docs/pdf/Technical%20Report%20on%20the%20Mineral%20Reserve%20Update%20at%20the%20Gibraltar%20Mine%20-%20March%2030,%202022.pdf",
+   "bytes": 10184207,
+   "title": "Technical Report on the Mineral Reserve Update at the Gibraltar Mine - March 30, 2022.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO%20-%20Advance%20Notice%20Policy-20200626160809.pdf",
+   "timestamp": "20200924204929",
+   "wayback_url": "https://web.archive.org/web/20200924204929id_/https://tasekomines.com/assets/docs/pdf/TKO%20-%20Advance%20Notice%20Policy-20200626160809.pdf",
+   "bytes": 25430,
+   "title": "TKO - Advance Notice Policy-20200626160809.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO%20-%20Audit%20Committee%20Charter-20200626160731.pdf",
+   "timestamp": "20200924203712",
+   "wayback_url": "https://web.archive.org/web/20200924203712id_/https://tasekomines.com/assets/docs/pdf/TKO%20-%20Audit%20Committee%20Charter-20200626160731.pdf",
+   "bytes": 33294,
+   "title": "TKO - Audit Committee Charter-20200626160731.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO%20-%20Compensation%20Committee%20Charter-20200626160744.pdf",
+   "timestamp": "20200924221703",
+   "wayback_url": "https://web.archive.org/web/20200924221703id_/https://tasekomines.com/assets/docs/pdf/TKO%20-%20Compensation%20Committee%20Charter-20200626160744.pdf",
+   "bytes": 17031,
+   "title": "TKO - Compensation Committee Charter-20200626160744.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO%20-%20Majority%20Voting%20Policy%20-%20-20200626160819.pdf",
+   "timestamp": "20200924222740",
+   "wayback_url": "https://web.archive.org/web/20200924222740id_/https://tasekomines.com/assets/docs/pdf/TKO%20-%20Majority%20Voting%20Policy%20-%20-20200626160819.pdf",
+   "bytes": 12466,
+   "title": "TKO - Majority Voting Policy - -20200626160819.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO%20-%20Mandate%20of%20the%20Board-20200626160653.pdf",
+   "timestamp": "20200924203417",
+   "wayback_url": "https://web.archive.org/web/20200924203417id_/https://tasekomines.com/assets/docs/pdf/TKO%20-%20Mandate%20of%20the%20Board-20200626160653.pdf",
+   "bytes": 70344,
+   "title": "TKO - Mandate of the Board-20200626160653.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO%20-%20N&G%20Committee%20Charter-20200626160757.pdf",
+   "timestamp": "20200924203128",
+   "wayback_url": "https://web.archive.org/web/20200924203128id_/https://tasekomines.com/assets/docs/pdf/TKO%20-%20N&G%20Committee%20Charter-20200626160757.pdf",
+   "bytes": 17726,
+   "title": "TKO - N&G Committee Charter-20200626160757.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO%20-%20Position%20Description%20for%20the%20Chairman%20of%20the%20Board%20-20200626160705.pdf",
+   "timestamp": "20200924224302",
+   "wayback_url": "https://web.archive.org/web/20200924224302id_/https://tasekomines.com/assets/docs/pdf/TKO%20-%20Position%20Description%20for%20the%20Chairman%20of%20the%20Board%20-20200626160705.pdf",
+   "bytes": 13375,
+   "title": "TKO - Position Description for the Chairman of the Board -20200626160705.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO%20-%20Position%20Description%20for%20the%20Lead%20Director-20200626160716.pdf",
+   "timestamp": "20200924205142",
+   "wayback_url": "https://web.archive.org/web/20200924205142id_/https://tasekomines.com/assets/docs/pdf/TKO%20-%20Position%20Description%20for%20the%20Lead%20Director-20200626160716.pdf",
+   "bytes": 12880,
+   "title": "TKO - Position Description for the Lead Director-20200626160716.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO%202021%20ESTMA%20Report%20(2022-04-06_1200)%20FINAL.pdf",
+   "timestamp": "20220704015902",
+   "wayback_url": "https://web.archive.org/web/20220704015902id_/https://tasekomines.com/assets/docs/pdf/TKO%202021%20ESTMA%20Report%20(2022-04-06_1200)%20FINAL.pdf",
+   "bytes": 128302,
+   "title": "TKO 2021 ESTMA Report (2022-04-06_1200) FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/TKO-2023-Notice-Access.pdf",
+   "timestamp": "20230521042459",
+   "wayback_url": "https://web.archive.org/web/20230521042459id_/https://www.tasekomines.com/assets/docs/pdf/TKO-2023-Notice-Access.pdf",
+   "bytes": 124752,
+   "title": "TKO-2023-Notice-Access.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/TKO-2023-Notice-Circular.pdf",
+   "timestamp": "20230521042459",
+   "wayback_url": "https://web.archive.org/web/20230521042459id_/https://www.tasekomines.com/assets/docs/pdf/TKO-2023-Notice-Circular.pdf",
+   "bytes": 554163,
+   "title": "TKO-2023-Notice-Circular.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO2021AGMNoMInfoCirc.pdf",
+   "timestamp": "20211022040021",
+   "wayback_url": "https://web.archive.org/web/20211022040021id_/https://tasekomines.com/assets/docs/pdf/TKO2021AGMNoMInfoCirc.pdf",
+   "bytes": 479730,
+   "title": "TKO2021AGMNoMInfoCirc.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO2021AGMNoticeNA.pdf",
+   "timestamp": "20211022035604",
+   "wayback_url": "https://web.archive.org/web/20211022035604id_/https://tasekomines.com/assets/docs/pdf/TKO2021AGMNoticeNA.pdf",
+   "bytes": 160300,
+   "title": "TKO2021AGMNoticeNA.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO2022IC.pdf",
+   "timestamp": "20220704022009",
+   "wayback_url": "https://web.archive.org/web/20220704022009id_/https://tasekomines.com/assets/docs/pdf/TKO2022IC.pdf",
+   "bytes": 617858,
+   "title": "TKO2022IC.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO2022NANotif.pdf",
+   "timestamp": "20220704034301",
+   "wayback_url": "https://web.archive.org/web/20220704034301id_/https://tasekomines.com/assets/docs/pdf/TKO2022NANotif.pdf",
+   "bytes": 136823,
+   "title": "TKO2022NANotif.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO2022SRP-blacklined.pdf",
+   "timestamp": "20220704020100",
+   "wayback_url": "https://web.archive.org/web/20220704020100id_/https://tasekomines.com/assets/docs/pdf/TKO2022SRP-blacklined.pdf",
+   "bytes": 268668,
+   "title": "TKO2022SRP-blacklined.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO2022SRP.pdf",
+   "timestamp": "20220704030544",
+   "wayback_url": "https://web.archive.org/web/20220704030544id_/https://tasekomines.com/assets/docs/pdf/TKO2022SRP.pdf",
+   "bytes": 327956,
+   "title": "TKO2022SRP.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO_Performance-Share-Unit-Plan.pdf",
+   "timestamp": "20211022040227",
+   "wayback_url": "https://web.archive.org/web/20211022040227id_/https://tasekomines.com/assets/docs/pdf/TKO_Performance-Share-Unit-Plan.pdf",
+   "bytes": 227555,
+   "title": "TKO_Performance-Share-Unit-Plan.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/TKO_Q1_2013.pdf",
+   "timestamp": "20220817080658",
+   "wayback_url": "https://web.archive.org/web/20220817080658id_/https://www.tasekomines.com/assets/docs/pdf/TKO_Q1_2013.pdf",
+   "bytes": 195899,
+   "title": "TKO_Q1_2013.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/pdf/TKO_Q3_2013.pdf",
+   "timestamp": "20220817074752",
+   "wayback_url": "https://web.archive.org/web/20220817074752id_/https://www.tasekomines.com/assets/docs/pdf/TKO_Q3_2013.pdf",
+   "bytes": 210099,
+   "title": "TKO_Q3_2013.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKO_Share-Options-Plan.pdf",
+   "timestamp": "20211022022546",
+   "wayback_url": "https://web.archive.org/web/20211022022546id_/https://tasekomines.com/assets/docs/pdf/TKO_Share-Options-Plan.pdf",
+   "bytes": 216495,
+   "title": "TKO_Share-Options-Plan.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKOQ.%20NI%20CARD.pdf",
+   "timestamp": "20211022042215",
+   "wayback_url": "https://web.archive.org/web/20211022042215id_/https://tasekomines.com/assets/docs/pdf/TKOQ.%20NI%20CARD.pdf",
+   "bytes": 55730,
+   "title": "TKOQ. NI CARD.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKOQ_PRX_338083.pdf",
+   "timestamp": "20220704021241",
+   "wayback_url": "https://web.archive.org/web/20220704021241id_/https://tasekomines.com/assets/docs/pdf/TKOQ_PRX_338083.pdf",
+   "bytes": 160443,
+   "title": "TKOQ_PRX_338083.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/pdf/TKOQ_SEDAR_Proxy_English.pdf",
+   "timestamp": "20211022035217",
+   "wayback_url": "https://web.archive.org/web/20211022035217id_/https://tasekomines.com/assets/docs/pdf/TKOQ_SEDAR_Proxy_English.pdf",
+   "bytes": 63246,
+   "title": "TKOQ_SEDAR_Proxy_English.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/2016-agm-president-speech-with-slides.pdf",
+   "timestamp": "20200927103129",
+   "wayback_url": "https://web.archive.org/web/20200927103129id_/https://tasekomines.com/assets/docs/presentations/2016-agm-president-speech-with-slides.pdf",
+   "bytes": 574377,
+   "title": "2016-agm-president-speech-with-slides.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/2018-10-16-CP_TKO.pdf",
+   "timestamp": "20200920172852",
+   "wayback_url": "https://web.archive.org/web/20200920172852id_/https://tasekomines.com/assets/docs/presentations/2018-10-16-CP_TKO.pdf",
+   "bytes": 1022208,
+   "title": "2018-10-16-CP_TKO.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/April%202022%20Update.pdf",
+   "timestamp": "20220704033432",
+   "wayback_url": "https://web.archive.org/web/20220704033432id_/https://tasekomines.com/assets/docs/presentations/April%202022%20Update.pdf",
+   "bytes": 1024630,
+   "title": "April 2022 Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/August2022Presentation.pdf",
+   "timestamp": "20220817111446",
+   "wayback_url": "https://web.archive.org/web/20220817111446id_/https://tasekomines.com/assets/docs/presentations/August2022Presentation.pdf",
+   "bytes": 1040318,
+   "title": "August2022Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/BMO%20Conf%20Feb%202019%20Final.pdf",
+   "timestamp": "20200920174116",
+   "wayback_url": "https://web.archive.org/web/20200920174116id_/https://tasekomines.com/assets/docs/presentations/BMO%20Conf%20Feb%202019%20Final.pdf",
+   "bytes": 1020691,
+   "title": "BMO Conf Feb 2019 Final.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/presentations/BMO-Conf-Feb-2019.pdf",
+   "timestamp": "20221129073459",
+   "wayback_url": "https://web.archive.org/web/20221129073459id_/https://www.tasekomines.com/assets/docs/presentations/BMO-Conf-Feb-2019.pdf",
+   "bytes": 660207,
+   "title": "BMO-Conf-Feb-2019.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/corporate-presentation-november-2016.pdf",
+   "timestamp": "20200920165759",
+   "wayback_url": "https://web.archive.org/web/20200920165759id_/https://tasekomines.com/assets/docs/presentations/corporate-presentation-november-2016.pdf",
+   "bytes": 1010810,
+   "title": "corporate-presentation-november-2016.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/presentations/Dec%202020%20-%20Update.pdf",
+   "timestamp": "20201218122556",
+   "wayback_url": "https://web.archive.org/web/20201218122556id_/https://www.tasekomines.com/assets/docs/presentations/Dec%202020%20-%20Update.pdf",
+   "bytes": 4035751,
+   "title": "Dec 2020 - Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/December-2021-Update.pdf",
+   "timestamp": "20220124193043",
+   "wayback_url": "https://web.archive.org/web/20220124193043id_/https://tasekomines.com/assets/docs/presentations/December-2021-Update.pdf",
+   "bytes": 1029915,
+   "title": "December-2021-Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/Feb%202018%20Presentation.pdf",
+   "timestamp": "20200927112022",
+   "wayback_url": "https://web.archive.org/web/20200927112022id_/https://tasekomines.com/assets/docs/presentations/Feb%202018%20Presentation.pdf",
+   "bytes": 1006518,
+   "title": "Feb 2018 Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/jan17-update.pdf",
+   "timestamp": "20200920173711",
+   "wayback_url": "https://web.archive.org/web/20200920173711id_/https://tasekomines.com/assets/docs/presentations/jan17-update.pdf",
+   "bytes": 1018252,
+   "title": "jan17-update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/January%202019%20-%20Update.pdf",
+   "timestamp": "20200920164818",
+   "wayback_url": "https://web.archive.org/web/20200920164818id_/https://tasekomines.com/assets/docs/presentations/January%202019%20-%20Update.pdf",
+   "bytes": 1013377,
+   "title": "January 2019 - Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/presentations/January_2021_Update.pdf",
+   "timestamp": "20210127161915",
+   "wayback_url": "https://web.archive.org/web/20210127161915id_/https://www.tasekomines.com/assets/docs/presentations/January_2021_Update.pdf",
+   "bytes": 1049312,
+   "title": "January_2021_Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/July%202020.pdf",
+   "timestamp": "20200926085731",
+   "wayback_url": "https://web.archive.org/web/20200926085731id_/https://tasekomines.com/assets/docs/presentations/July%202020.pdf",
+   "bytes": 1017991,
+   "title": "July 2020.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/presentations/June%202023%20Update.pdf",
+   "timestamp": "20230628073404",
+   "wayback_url": "https://web.archive.org/web/20230628073404id_/https://www.tasekomines.com/assets/docs/presentations/June%202023%20Update.pdf",
+   "bytes": 4017207,
+   "title": "June 2023 Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/presentations/mar17-update.pdf",
+   "timestamp": "20170722053928",
+   "wayback_url": "https://web.archive.org/web/20170722053928id_/https://www.tasekomines.com/assets/docs/presentations/mar17-update.pdf",
+   "bytes": 1756056,
+   "title": "mar17-update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/mar17_presentation.pdf",
+   "timestamp": "20200920173546",
+   "wayback_url": "https://web.archive.org/web/20200920173546id_/https://tasekomines.com/assets/docs/presentations/mar17_presentation.pdf",
+   "bytes": 521263,
+   "title": "mar17_presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/presentations/March%202022%20Update.pdf",
+   "timestamp": "20220405035931",
+   "wayback_url": "https://web.archive.org/web/20220405035931id_/https://www.tasekomines.com/assets/docs/presentations/March%202022%20Update.pdf",
+   "bytes": 3163801,
+   "title": "March 2022 Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/presentations/March-2021-BMO.pdf",
+   "timestamp": "20210506084712",
+   "wayback_url": "https://web.archive.org/web/20210506084712id_/https://www.tasekomines.com/assets/docs/presentations/March-2021-BMO.pdf",
+   "bytes": 1039842,
+   "title": "March-2021-BMO.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/nov17_presentation.pdf",
+   "timestamp": "20200920173224",
+   "wayback_url": "https://web.archive.org/web/20200920173224id_/https://tasekomines.com/assets/docs/presentations/nov17_presentation.pdf",
+   "bytes": 960794,
+   "title": "nov17_presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/presentations/November%202019.pdf",
+   "timestamp": "20200622113345",
+   "wayback_url": "https://web.archive.org/web/20200622113345id_/https://www.tasekomines.com/assets/docs/presentations/November%202019.pdf",
+   "bytes": 3178796,
+   "title": "November 2019.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/November-2021-Presentation.pdf",
+   "timestamp": "20211203033420",
+   "wayback_url": "https://web.archive.org/web/20211203033420id_/https://tasekomines.com/assets/docs/presentations/November-2021-Presentation.pdf",
+   "bytes": 1028164,
+   "title": "November-2021-Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/presentations/November2022Update.pdf",
+   "timestamp": "20221117181218",
+   "wayback_url": "https://web.archive.org/web/20221117181218id_/https://www.tasekomines.com/assets/docs/presentations/November2022Update.pdf",
+   "bytes": 3006670,
+   "title": "November2022Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/presentations/Oct-2020.pdf",
+   "timestamp": "20210127155444",
+   "wayback_url": "https://web.archive.org/web/20210127155444id_/https://www.tasekomines.com/assets/docs/presentations/Oct-2020.pdf",
+   "bytes": 1023512,
+   "title": "Oct-2020.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/october-2014-gibraltar-analyst-tour.pdf",
+   "timestamp": "20200927093845",
+   "wayback_url": "https://web.archive.org/web/20200927093845id_/https://tasekomines.com/assets/docs/presentations/october-2014-gibraltar-analyst-tour.pdf",
+   "bytes": 901159,
+   "title": "october-2014-gibraltar-analyst-tour.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/taseko-feb-_bmoconference-with-appendix.pdf",
+   "timestamp": "20200927101121",
+   "wayback_url": "https://web.archive.org/web/20200927101121id_/https://tasekomines.com/assets/docs/presentations/taseko-feb-_bmoconference-with-appendix.pdf",
+   "bytes": 898252,
+   "title": "taseko-feb-_bmoconference-with-appendix.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/taseko-jan-_tdconference-with-appendix-20160127130638.pdf",
+   "timestamp": "20200920165527",
+   "wayback_url": "https://web.archive.org/web/20200920165527id_/https://tasekomines.com/assets/docs/presentations/taseko-jan-_tdconference-with-appendix-20160127130638.pdf",
+   "bytes": 918992,
+   "title": "taseko-jan-_tdconference-with-appendix-20160127130638.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/presentations/Taseko_Senior_Secured_Notes_Offering.pdf",
+   "timestamp": "20210319182234",
+   "wayback_url": "https://web.archive.org/web/20210319182234id_/https://www.tasekomines.com/assets/docs/presentations/Taseko_Senior_Secured_Notes_Offering.pdf",
+   "bytes": 3800296,
+   "title": "Taseko_Senior_Secured_Notes_Offering.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/TKO-Presentation-2013Dec.pdf",
+   "timestamp": "20200927101537",
+   "wayback_url": "https://web.archive.org/web/20200927101537id_/https://tasekomines.com/assets/docs/presentations/TKO-Presentation-2013Dec.pdf",
+   "bytes": 999991,
+   "title": "TKO-Presentation-2013Dec.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/TKO-Presentation-June_2014_Presentation.pdf",
+   "timestamp": "20200920172557",
+   "wayback_url": "https://web.archive.org/web/20200920172557id_/https://tasekomines.com/assets/docs/presentations/TKO-Presentation-June_2014_Presentation.pdf",
+   "bytes": 857325,
+   "title": "TKO-Presentation-June_2014_Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/TKO-Presentation-June_2015_Presentation.pdf",
+   "timestamp": "20200920180151",
+   "wayback_url": "https://web.archive.org/web/20200920180151id_/https://tasekomines.com/assets/docs/presentations/TKO-Presentation-June_2015_Presentation.pdf",
+   "bytes": 913984,
+   "title": "TKO-Presentation-June_2015_Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/TKO-Presentation-September_2015.pdf",
+   "timestamp": "20200920165641",
+   "wayback_url": "https://web.archive.org/web/20200920165641id_/https://tasekomines.com/assets/docs/presentations/TKO-Presentation-September_2015.pdf",
+   "bytes": 1007140,
+   "title": "TKO-Presentation-September_2015.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/presentations/TKO_Presentation_2013June_AGM.pdf",
+   "timestamp": "20200920164135",
+   "wayback_url": "https://web.archive.org/web/20200920164135id_/https://tasekomines.com/assets/docs/presentations/TKO_Presentation_2013June_AGM.pdf",
+   "bytes": 1014291,
+   "title": "TKO_Presentation_2013June_AGM.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/Q1%202022%20Interim%20Report.pdf",
+   "timestamp": "20220526204351",
+   "wayback_url": "https://web.archive.org/web/20220526204351id_/https://tasekomines.com/assets/docs/Q1%202022%20Interim%20Report.pdf",
+   "bytes": 814111,
+   "title": "Q1 2022 Interim Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/Q1-2021-Interim-Report.pdf",
+   "timestamp": "20211017191259",
+   "wayback_url": "https://web.archive.org/web/20211017191259id_/https://www.tasekomines.com/assets/docs/Q1-2021-Interim-Report.pdf",
+   "bytes": 846115,
+   "title": "Q1-2021-Interim-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/Q1-2023-Earnings%20Release.pdf",
+   "timestamp": "20230514194213",
+   "wayback_url": "https://web.archive.org/web/20230514194213id_/https://www.tasekomines.com/assets/docs/Q1-2023-Earnings%20Release.pdf",
+   "bytes": 372266,
+   "title": "Q1-2023-Earnings Release.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/Q1-2023.pdf",
+   "timestamp": "20230521042442",
+   "wayback_url": "https://web.archive.org/web/20230521042442id_/https://www.tasekomines.com/assets/docs/Q1-2023.pdf",
+   "bytes": 1723354,
+   "title": "Q1-2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/Q1.2022.pdf",
+   "timestamp": "20220704022915",
+   "wayback_url": "https://web.archive.org/web/20220704022915id_/https://tasekomines.com/assets/docs/Q1.2022.pdf",
+   "bytes": 843436,
+   "title": "Q1.2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/Q1_2022_Earnings_Release.pdf",
+   "timestamp": "20220505155430",
+   "wayback_url": "https://web.archive.org/web/20220505155430id_/https://www.tasekomines.com/assets/docs/Q1_2022_Earnings_Release.pdf",
+   "bytes": 431110,
+   "title": "Q1_2022_Earnings_Release.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/Q2%202019%20Interim%20Report.pdf",
+   "timestamp": "20190917081909",
+   "wayback_url": "https://web.archive.org/web/20190917081909id_/https://www.tasekomines.com/assets/docs/Q2%202019%20Interim%20Report.pdf",
+   "bytes": 574777,
+   "title": "Q2 2019 Interim Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/Q2%202023%20Earnings%20Release.pdf",
+   "timestamp": "20230810053038",
+   "wayback_url": "https://web.archive.org/web/20230810053038id_/https://www.tasekomines.com/assets/docs/Q2%202023%20Earnings%20Release.pdf",
+   "bytes": 478219,
+   "title": "Q2 2023 Earnings Release.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/Q2%202023.pdf",
+   "timestamp": "20230804144727",
+   "wayback_url": "https://web.archive.org/web/20230804144727id_/https://www.tasekomines.com/assets/docs/Q2%202023.pdf",
+   "bytes": 1492599,
+   "title": "Q2 2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/q2-2017.pdf",
+   "timestamp": "20210117064704",
+   "wayback_url": "https://web.archive.org/web/20210117064704id_/https://tasekomines.com/assets/docs/q2-2017.pdf",
+   "bytes": 477172,
+   "title": "q2-2017.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/Q2-2021-Interim-Report.pdf",
+   "timestamp": "20211017191716",
+   "wayback_url": "https://web.archive.org/web/20211017191716id_/https://www.tasekomines.com/assets/docs/Q2-2021-Interim-Report.pdf",
+   "bytes": 754836,
+   "title": "Q2-2021-Interim-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/Q2-2022.pdf",
+   "timestamp": "20220924233445",
+   "wayback_url": "https://web.archive.org/web/20220924233445id_/https://tasekomines.com/assets/docs/Q2-2022.pdf",
+   "bytes": 1020668,
+   "title": "Q2-2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/Q2_2020_Interim_Report.pdf",
+   "timestamp": "20200920163751",
+   "wayback_url": "https://web.archive.org/web/20200920163751id_/https://tasekomines.com/assets/docs/Q2_2020_Interim_Report.pdf",
+   "bytes": 674825,
+   "title": "Q2_2020_Interim_Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/Q2_2021_Interim_Report.pdf",
+   "timestamp": "20210804210219",
+   "wayback_url": "https://web.archive.org/web/20210804210219id_/https://tasekomines.com/assets/docs/Q2_2021_Interim_Report.pdf",
+   "bytes": 707056,
+   "title": "Q2_2021_Interim_Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/Q2_Earnings_Release_w_MDA_clean.pdf",
+   "timestamp": "20210804205954",
+   "wayback_url": "https://web.archive.org/web/20210804205954id_/https://tasekomines.com/assets/docs/Q2_Earnings_Release_w_MDA_clean.pdf",
+   "bytes": 247360,
+   "title": "Q2_Earnings_Release_w_MDA_clean.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/q3-2017-20171026154048.pdf",
+   "timestamp": "20200920163353",
+   "wayback_url": "https://web.archive.org/web/20200920163353id_/https://tasekomines.com/assets/docs/q3-2017-20171026154048.pdf",
+   "bytes": 676834,
+   "title": "q3-2017-20171026154048.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/q3-2021-interim-report-554i9.pdf",
+   "timestamp": "20211104150930",
+   "wayback_url": "https://web.archive.org/web/20211104150930id_/https://tasekomines.com/assets/docs/q3-2021-interim-report-554i9.pdf",
+   "bytes": 827134,
+   "title": "q3-2021-interim-report-554i9.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/q316_interim_report-oct2016.pdf",
+   "timestamp": "20210117060703",
+   "wayback_url": "https://web.archive.org/web/20210117060703id_/https://tasekomines.com/assets/docs/q316_interim_report-oct2016.pdf",
+   "bytes": 563056,
+   "title": "q316_interim_report-oct2016.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/Q32022.pdf",
+   "timestamp": "20221208204642",
+   "wayback_url": "https://web.archive.org/web/20221208204642id_/https://tasekomines.com/assets/docs/Q32022.pdf",
+   "bytes": 1021295,
+   "title": "Q32022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/Q32022EarningsRelease.pdf",
+   "timestamp": "20221103224422",
+   "wayback_url": "https://web.archive.org/web/20221103224422id_/https://www.tasekomines.com/assets/docs/Q32022EarningsRelease.pdf",
+   "bytes": 359589,
+   "title": "Q32022EarningsRelease.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/q4-2017-20180221142053.pdf",
+   "timestamp": "20200920175125",
+   "wayback_url": "https://web.archive.org/web/20200920175125id_/https://tasekomines.com/assets/docs/q4-2017-20180221142053.pdf",
+   "bytes": 836250,
+   "title": "q4-2017-20180221142053.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/Q4-2021-Report.pdf",
+   "timestamp": "20220704022519",
+   "wayback_url": "https://web.archive.org/web/20220704022519id_/https://tasekomines.com/assets/docs/Q4-2021-Report.pdf",
+   "bytes": 1012899,
+   "title": "Q4-2021-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/Q4-2022-NewsRelease.pdf",
+   "timestamp": "20230320020104",
+   "wayback_url": "https://web.archive.org/web/20230320020104id_/https://www.tasekomines.com/assets/docs/Q4-2022-NewsRelease.pdf",
+   "bytes": 427181,
+   "title": "Q4-2022-NewsRelease.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/Q4_2021_NewsRelease.pdf",
+   "timestamp": "20220223072837",
+   "wayback_url": "https://web.archive.org/web/20220223072837id_/https://www.tasekomines.com/assets/docs/Q4_2021_NewsRelease.pdf",
+   "bytes": 427373,
+   "title": "Q4_2021_NewsRelease.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/Taseko-Q2-2022Earnings-Release.pdf",
+   "timestamp": "20220809093032",
+   "wayback_url": "https://web.archive.org/web/20220809093032id_/https://www.tasekomines.com/assets/docs/Taseko-Q2-2022Earnings-Release.pdf",
+   "bytes": 437215,
+   "title": "Taseko-Q2-2022Earnings-Release.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/Taseko_AR_2017.pdf",
+   "timestamp": "20200920181536",
+   "wayback_url": "https://web.archive.org/web/20200920181536id_/https://tasekomines.com/assets/docs/Taseko_AR_2017.pdf",
+   "bytes": 1029038,
+   "title": "Taseko_AR_2017.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/Taseko_LettertoShareholders_05May2021.pdf",
+   "timestamp": "20211017200832",
+   "wayback_url": "https://web.archive.org/web/20211017200832id_/https://www.tasekomines.com/assets/docs/Taseko_LettertoShareholders_05May2021.pdf",
+   "bytes": 1035238,
+   "title": "Taseko_LettertoShareholders_05May2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/Taseko_LettertoShareholders_FINAL.pdf",
+   "timestamp": "20220924225300",
+   "wayback_url": "https://web.archive.org/web/20220924225300id_/https://tasekomines.com/assets/docs/Taseko_LettertoShareholders_FINAL.pdf",
+   "bytes": 1034173,
+   "title": "Taseko_LettertoShareholders_FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/tko2016ar.pdf",
+   "timestamp": "20210127221316",
+   "wayback_url": "https://web.archive.org/web/20210127221316id_/https://tasekomines.com/assets/docs/tko2016ar.pdf",
+   "bytes": 1030727,
+   "title": "tko2016ar.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/TKO2018Q1.pdf",
+   "timestamp": "20210127232501",
+   "wayback_url": "https://web.archive.org/web/20210127232501id_/https://tasekomines.com/assets/docs/TKO2018Q1.pdf",
+   "bytes": 455222,
+   "title": "TKO2018Q1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/TKO2018Q2.pdf",
+   "timestamp": "20210127223102",
+   "wayback_url": "https://web.archive.org/web/20210127223102id_/https://tasekomines.com/assets/docs/TKO2018Q2.pdf",
+   "bytes": 627399,
+   "title": "TKO2018Q2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/TKO2018Q3.pdf",
+   "timestamp": "20200920161139",
+   "wayback_url": "https://web.archive.org/web/20200920161139id_/https://tasekomines.com/assets/docs/TKO2018Q3.pdf",
+   "bytes": 727355,
+   "title": "TKO2018Q3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/TKO2018Q4.pdf",
+   "timestamp": "20200920172642",
+   "wayback_url": "https://web.archive.org/web/20200920172642id_/https://tasekomines.com/assets/docs/TKO2018Q4.pdf",
+   "bytes": 908559,
+   "title": "TKO2018Q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/TKO2019Q4.pdf",
+   "timestamp": "20200920171120",
+   "wayback_url": "https://web.archive.org/web/20200920171120id_/https://tasekomines.com/assets/docs/TKO2019Q4.pdf",
+   "bytes": 1014534,
+   "title": "TKO2019Q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/TKO2020Q1.pdf",
+   "timestamp": "20200720053352",
+   "wayback_url": "https://web.archive.org/web/20200720053352id_/https://www.tasekomines.com/assets/docs/TKO2020Q1.pdf",
+   "bytes": 787211,
+   "title": "TKO2020Q1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/tko_ar_2006.pdf",
+   "timestamp": "20210117061901",
+   "wayback_url": "https://web.archive.org/web/20210117061901id_/https://tasekomines.com/assets/docs/tko_ar_2006.pdf",
+   "bytes": 1041511,
+   "title": "tko_ar_2006.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/tko_ar_2007-20160111144819.pdf",
+   "timestamp": "20210117064555",
+   "wayback_url": "https://web.archive.org/web/20210117064555id_/https://tasekomines.com/assets/docs/tko_ar_2007-20160111144819.pdf",
+   "bytes": 1041628,
+   "title": "tko_ar_2007-20160111144819.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/tko_ar_2008.pdf",
+   "timestamp": "20200920170509",
+   "wayback_url": "https://web.archive.org/web/20200920170509id_/https://tasekomines.com/assets/docs/tko_ar_2008.pdf",
+   "bytes": 1012671,
+   "title": "tko_ar_2008.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/tko_ar_2009.pdf",
+   "timestamp": "20210127234048",
+   "wayback_url": "https://web.archive.org/web/20210127234048id_/https://tasekomines.com/assets/docs/tko_ar_2009.pdf",
+   "bytes": 1009675,
+   "title": "tko_ar_2009.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/tko_ar_2011.pdf",
+   "timestamp": "20210127234810",
+   "wayback_url": "https://web.archive.org/web/20210127234810id_/https://tasekomines.com/assets/docs/tko_ar_2011.pdf",
+   "bytes": 1003727,
+   "title": "tko_ar_2011.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/tko_ar_2012.pdf",
+   "timestamp": "20210117060228",
+   "wayback_url": "https://web.archive.org/web/20210117060228id_/https://tasekomines.com/assets/docs/tko_ar_2012.pdf",
+   "bytes": 1016377,
+   "title": "tko_ar_2012.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/tko_ar_2013-20160111142816.pdf",
+   "timestamp": "20210127232032",
+   "wayback_url": "https://web.archive.org/web/20210127232032id_/https://tasekomines.com/assets/docs/tko_ar_2013-20160111142816.pdf",
+   "bytes": 998480,
+   "title": "tko_ar_2013-20160111142816.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/tko_ar_2014.pdf",
+   "timestamp": "20200920165243",
+   "wayback_url": "https://web.archive.org/web/20200920165243id_/https://tasekomines.com/assets/docs/tko_ar_2014.pdf",
+   "bytes": 968771,
+   "title": "tko_ar_2014.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/tko_q1_2016.pdf",
+   "timestamp": "20200920162531",
+   "wayback_url": "https://web.archive.org/web/20200920162531id_/https://tasekomines.com/assets/docs/tko_q1_2016.pdf",
+   "bytes": 350491,
+   "title": "tko_q1_2016.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/tko_q1_2017-20170503152807.pdf",
+   "timestamp": "20200920165404",
+   "wayback_url": "https://web.archive.org/web/20200920165404id_/https://tasekomines.com/assets/docs/tko_q1_2017-20170503152807.pdf",
+   "bytes": 535775,
+   "title": "tko_q1_2017-20170503152807.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/tko_q2_2016.pdf",
+   "timestamp": "20200920163152",
+   "wayback_url": "https://web.archive.org/web/20200920163152id_/https://tasekomines.com/assets/docs/tko_q2_2016.pdf",
+   "bytes": 355694,
+   "title": "tko_q2_2016.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/tko_q4_2015-20160223162920.pdf",
+   "timestamp": "20201029141246",
+   "wayback_url": "https://web.archive.org/web/20201029141246id_/https://www.tasekomines.com/assets/docs/tko_q4_2015-20160223162920.pdf",
+   "bytes": 742578,
+   "title": "tko_q4_2015-20160223162920.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/docs/TKOQ12019.pdf",
+   "timestamp": "20200920163943",
+   "wayback_url": "https://web.archive.org/web/20200920163943id_/https://tasekomines.com/assets/docs/TKOQ12019.pdf",
+   "bytes": 558713,
+   "title": "TKOQ12019.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/img/2020_ESG_Report_Template_200421_FINAL_WEB_160821.pdf",
+   "timestamp": "20211022025525",
+   "wayback_url": "https://web.archive.org/web/20211022025525id_/https://tasekomines.com/assets/img/2020_ESG_Report_Template_200421_FINAL_WEB_160821.pdf",
+   "bytes": 1005017,
+   "title": "2020_ESG_Report_Template_200421_FINAL_WEB_160821.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/img/2020_Taseko_Sustainability_Report_Final-20200626155439.pdf",
+   "timestamp": "20200924213006",
+   "wayback_url": "https://web.archive.org/web/20200924213006id_/https://tasekomines.com/assets/img/2020_Taseko_Sustainability_Report_Final-20200626155439.pdf",
+   "bytes": 1041539,
+   "title": "2020_Taseko_Sustainability_Report_Final-20200626155439.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/img/2021_Taseko_ESG_Report.pdf",
+   "timestamp": "20210422163659",
+   "wayback_url": "https://web.archive.org/web/20210422163659id_/https://www.tasekomines.com/assets/img/2021_Taseko_ESG_Report.pdf",
+   "bytes": 17173615,
+   "title": "2021_Taseko_ESG_Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://tasekomines.com/assets/img/Taseko_2020_ESG_Summary_Sheet.pdf",
+   "timestamp": "20211022042454",
+   "wayback_url": "https://web.archive.org/web/20211022042454id_/https://tasekomines.com/assets/img/Taseko_2020_ESG_Summary_Sheet.pdf",
+   "bytes": 104168,
+   "title": "Taseko_2020_ESG_Summary_Sheet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/hdi/HD_Brochure_Nov2009.pdf",
+   "timestamp": "20101117060851",
+   "wayback_url": "https://web.archive.org/web/20101117060851id_/http://www.tasekomines.com:80/i/hdi/HD_Brochure_Nov2009.pdf",
+   "bytes": 2595957,
+   "title": "HD_Brochure_Nov2009.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/annualreports/TKO_AR_2005.pdf",
+   "timestamp": "20140207174600",
+   "wayback_url": "https://web.archive.org/web/20140207174600id_/http://www.tasekomines.com:80/i/media/mce/financialreports/annualreports/TKO_AR_2005.pdf",
+   "bytes": 2593858,
+   "title": "TKO_AR_2005.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/annualreports/TKO_AR_2006.pdf",
+   "timestamp": "20140207174606",
+   "wayback_url": "https://web.archive.org/web/20140207174606id_/http://www.tasekomines.com:80/i/media/mce/financialreports/annualreports/TKO_AR_2006.pdf",
+   "bytes": 1901909,
+   "title": "TKO_AR_2006.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/annualreports/TKO_AR_2007.pdf",
+   "timestamp": "20140207174614",
+   "wayback_url": "https://web.archive.org/web/20140207174614id_/http://www.tasekomines.com:80/i/media/mce/financialreports/annualreports/TKO_AR_2007.pdf",
+   "bytes": 4336802,
+   "title": "TKO_AR_2007.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/annualreports/TKO_AR_2008.pdf",
+   "timestamp": "20140207174625",
+   "wayback_url": "https://web.archive.org/web/20140207174625id_/http://www.tasekomines.com:80/i/media/mce/financialreports/annualreports/TKO_AR_2008.pdf",
+   "bytes": 1491701,
+   "title": "TKO_AR_2008.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/annualreports/TKO_AR_2009.pdf",
+   "timestamp": "20140207174643",
+   "wayback_url": "https://web.archive.org/web/20140207174643id_/http://www.tasekomines.com:80/i/media/mce/financialreports/annualreports/TKO_AR_2009.pdf",
+   "bytes": 1631158,
+   "title": "TKO_AR_2009.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/annualreports/TKO_AR_2010.pdf",
+   "timestamp": "20140207174731",
+   "wayback_url": "https://web.archive.org/web/20140207174731id_/http://www.tasekomines.com:80/i/media/mce/financialreports/annualreports/TKO_AR_2010.pdf",
+   "bytes": 4382822,
+   "title": "TKO_AR_2010.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/annualreports/TKO_AR_2011.pdf",
+   "timestamp": "20140207232424",
+   "wayback_url": "https://web.archive.org/web/20140207232424id_/http://www.tasekomines.com:80/i/media/mce/financialreports/annualreports/TKO_AR_2011.pdf",
+   "bytes": 3857976,
+   "title": "TKO_AR_2011.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO-Q3-2012.pdf",
+   "timestamp": "20140207231253",
+   "wayback_url": "https://web.archive.org/web/20140207231253id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO-Q3-2012.pdf",
+   "bytes": 638392,
+   "title": "TKO-Q3-2012.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2005.pdf",
+   "timestamp": "20140207231258",
+   "wayback_url": "https://web.archive.org/web/20140207231258id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2005.pdf",
+   "bytes": 202917,
+   "title": "TKO_Q1_2005.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2006.pdf",
+   "timestamp": "20140207231303",
+   "wayback_url": "https://web.archive.org/web/20140207231303id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2006.pdf",
+   "bytes": 168960,
+   "title": "TKO_Q1_2006.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2007.pdf",
+   "timestamp": "20140207231310",
+   "wayback_url": "https://web.archive.org/web/20140207231310id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2007.pdf",
+   "bytes": 191572,
+   "title": "TKO_Q1_2007.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2008.pdf",
+   "timestamp": "20140207231314",
+   "wayback_url": "https://web.archive.org/web/20140207231314id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2008.pdf",
+   "bytes": 180117,
+   "title": "TKO_Q1_2008.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2009.pdf",
+   "timestamp": "20140207231319",
+   "wayback_url": "https://web.archive.org/web/20140207231319id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2009.pdf",
+   "bytes": 241004,
+   "title": "TKO_Q1_2009.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2010.pdf",
+   "timestamp": "20140207232142",
+   "wayback_url": "https://web.archive.org/web/20140207232142id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2010.pdf",
+   "bytes": 292586,
+   "title": "TKO_Q1_2010.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2011.pdf",
+   "timestamp": "20140207232143",
+   "wayback_url": "https://web.archive.org/web/20140207232143id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2011.pdf",
+   "bytes": 265666,
+   "title": "TKO_Q1_2011.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2012-revisedpag3.pdf",
+   "timestamp": "20140207232156",
+   "wayback_url": "https://web.archive.org/web/20140207232156id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2012-revisedpag3.pdf",
+   "bytes": 282697,
+   "title": "TKO_Q1_2012-revisedpag3.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2013.pdf",
+   "timestamp": "20140207232200",
+   "wayback_url": "https://web.archive.org/web/20140207232200id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q1_2013.pdf",
+   "bytes": 195518,
+   "title": "TKO_Q1_2013.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2005.pdf",
+   "timestamp": "20140207232204",
+   "wayback_url": "https://web.archive.org/web/20140207232204id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2005.pdf",
+   "bytes": 247689,
+   "title": "TKO_Q2_2005.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2006.pdf",
+   "timestamp": "20140207232211",
+   "wayback_url": "https://web.archive.org/web/20140207232211id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2006.pdf",
+   "bytes": 166941,
+   "title": "TKO_Q2_2006.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2007.pdf",
+   "timestamp": "20140207232216",
+   "wayback_url": "https://web.archive.org/web/20140207232216id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2007.pdf",
+   "bytes": 169044,
+   "title": "TKO_Q2_2007.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2008.pdf",
+   "timestamp": "20140207232220",
+   "wayback_url": "https://web.archive.org/web/20140207232220id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2008.pdf",
+   "bytes": 184111,
+   "title": "TKO_Q2_2008.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2009.pdf",
+   "timestamp": "20140207232227",
+   "wayback_url": "https://web.archive.org/web/20140207232227id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2009.pdf",
+   "bytes": 257147,
+   "title": "TKO_Q2_2009.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2010.pdf",
+   "timestamp": "20140207232232",
+   "wayback_url": "https://web.archive.org/web/20140207232232id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2010.pdf",
+   "bytes": 382043,
+   "title": "TKO_Q2_2010.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2011-_FINAL.pdf",
+   "timestamp": "20140207232238",
+   "wayback_url": "https://web.archive.org/web/20140207232238id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2011-_FINAL.pdf",
+   "bytes": 283569,
+   "title": "TKO_Q2_2011-_FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2012.pdf",
+   "timestamp": "20140207232242",
+   "wayback_url": "https://web.archive.org/web/20140207232242id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2012.pdf",
+   "bytes": 671463,
+   "title": "TKO_Q2_2012.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2013.pdf",
+   "timestamp": "20140207232248",
+   "wayback_url": "https://web.archive.org/web/20140207232248id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q2_2013.pdf",
+   "bytes": 705085,
+   "title": "TKO_Q2_2013.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q3_2005.pdf",
+   "timestamp": "20140207232254",
+   "wayback_url": "https://web.archive.org/web/20140207232254id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q3_2005.pdf",
+   "bytes": 244310,
+   "title": "TKO_Q3_2005.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q3_2006.pdf",
+   "timestamp": "20140207232259",
+   "wayback_url": "https://web.archive.org/web/20140207232259id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q3_2006.pdf",
+   "bytes": 115744,
+   "title": "TKO_Q3_2006.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q3_2007.pdf",
+   "timestamp": "20140207232306",
+   "wayback_url": "https://web.archive.org/web/20140207232306id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q3_2007.pdf",
+   "bytes": 171159,
+   "title": "TKO_Q3_2007.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q3_2008.pdf",
+   "timestamp": "20140207232311",
+   "wayback_url": "https://web.archive.org/web/20140207232311id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q3_2008.pdf",
+   "bytes": 160435,
+   "title": "TKO_Q3_2008.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q3_2009.pdf",
+   "timestamp": "20140207232314",
+   "wayback_url": "https://web.archive.org/web/20140207232314id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q3_2009.pdf",
+   "bytes": 301334,
+   "title": "TKO_Q3_2009.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q3_2010.pdf",
+   "timestamp": "20140207232322",
+   "wayback_url": "https://web.archive.org/web/20140207232322id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q3_2010.pdf",
+   "bytes": 346563,
+   "title": "TKO_Q3_2010.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q3_2011.pdf",
+   "timestamp": "20140207232327",
+   "wayback_url": "https://web.archive.org/web/20140207232327id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q3_2011.pdf",
+   "bytes": 290686,
+   "title": "TKO_Q3_2011.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2005.pdf",
+   "timestamp": "20140207232332",
+   "wayback_url": "https://web.archive.org/web/20140207232332id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2005.pdf",
+   "bytes": 1516673,
+   "title": "TKO_Q4_2005.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2006.pdf",
+   "timestamp": "20140207232339",
+   "wayback_url": "https://web.archive.org/web/20140207232339id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2006.pdf",
+   "bytes": 292583,
+   "title": "TKO_Q4_2006.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2007.pdf",
+   "timestamp": "20140207232340",
+   "wayback_url": "https://web.archive.org/web/20140207232340id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2007.pdf",
+   "bytes": 359034,
+   "title": "TKO_Q4_2007.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2008v2.pdf",
+   "timestamp": "20140207232348",
+   "wayback_url": "https://web.archive.org/web/20140207232348id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2008v2.pdf",
+   "bytes": 206826,
+   "title": "TKO_Q4_2008v2.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2009.pdf",
+   "timestamp": "20140207232356",
+   "wayback_url": "https://web.archive.org/web/20140207232356id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2009.pdf",
+   "bytes": 504052,
+   "title": "TKO_Q4_2009.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2010.pdf",
+   "timestamp": "20140207232400",
+   "wayback_url": "https://web.archive.org/web/20140207232400id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2010.pdf",
+   "bytes": 474062,
+   "title": "TKO_Q4_2010.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2011.pdf",
+   "timestamp": "20140207232406",
+   "wayback_url": "https://web.archive.org/web/20140207232406id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2011.pdf",
+   "bytes": 497207,
+   "title": "TKO_Q4_2011.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2012_web.pdf",
+   "timestamp": "20140207232412",
+   "wayback_url": "https://web.archive.org/web/20140207232412id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q4_2012_web.pdf",
+   "bytes": 488229,
+   "title": "TKO_Q4_2012_web.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q5_2008_Interim_Report.pdf",
+   "timestamp": "20140207232415",
+   "wayback_url": "https://web.archive.org/web/20140207232415id_/http://www.tasekomines.com:80/i/media/mce/financialreports/TKO_Q5_2008_Interim_Report.pdf",
+   "bytes": 366627,
+   "title": "TKO_Q5_2008_Interim_Report.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/presentations/TKO-Presentation-June_2014_Presentation.pdf",
+   "timestamp": "20150213063546",
+   "wayback_url": "https://web.archive.org/web/20150213063546id_/http://www.tasekomines.com:80/i/media/mce/presentations/TKO-Presentation-June_2014_Presentation.pdf",
+   "bytes": 856816,
+   "title": "TKO-Presentation-June_2014_Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/presentations/TKO_Presentation_2013June_AGM.pdf",
+   "timestamp": "20150213045943",
+   "wayback_url": "https://web.archive.org/web/20150213045943id_/http://www.tasekomines.com:80/i/media/mce/presentations/TKO_Presentation_2013June_AGM.pdf",
+   "bytes": 1487236,
+   "title": "TKO_Presentation_2013June_AGM.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/sustainability/policies/Aboriginal_Policy.pdf",
+   "timestamp": "20141226042503",
+   "wayback_url": "https://web.archive.org/web/20141226042503id_/http://www.tasekomines.com:80/i/media/mce/sustainability/policies/Aboriginal_Policy.pdf",
+   "bytes": 51243,
+   "title": "Aboriginal_Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/sustainability/policies/Environmental_Policy.pdf",
+   "timestamp": "20141226042512",
+   "wayback_url": "https://web.archive.org/web/20141226042512id_/http://www.tasekomines.com:80/i/media/mce/sustainability/policies/Environmental_Policy.pdf",
+   "bytes": 63095,
+   "title": "Environmental_Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/sustainability/policies/Gibraltar_Environmental_Policy.pdf",
+   "timestamp": "20141226042524",
+   "wayback_url": "https://web.archive.org/web/20141226042524id_/http://www.tasekomines.com:80/i/media/mce/sustainability/policies/Gibraltar_Environmental_Policy.pdf",
+   "bytes": 22549,
+   "title": "Gibraltar_Environmental_Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/media/mce/sustainability/policies/Health__Safety_Policy.pdf",
+   "timestamp": "20141226042946",
+   "wayback_url": "https://web.archive.org/web/20141226042946id_/http://www.tasekomines.com:80/i/media/mce/sustainability/policies/Health__Safety_Policy.pdf",
+   "bytes": 46111,
+   "title": "Health__Safety_Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/00647-Hunter_Dickinson-Taseko-SF_Gibson-Aug_10_06.pdf",
+   "timestamp": "20061119013544",
+   "wayback_url": "https://web.archive.org/web/20061119013544id_/http://www.tasekomines.com/i/pdf/00647-Hunter_Dickinson-Taseko-SF_Gibson-Aug_10_06.pdf",
+   "bytes": 155089,
+   "title": "00647-Hunter_Dickinson-Taseko-SF_Gibson-Aug_10_06.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/AGM_Presentation.pdf",
+   "timestamp": "20061119011657",
+   "wayback_url": "https://web.archive.org/web/20061119011657id_/http://www.tasekomines.com/i/pdf/AGM_Presentation.pdf",
+   "bytes": 429764,
+   "title": "AGM_Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/HD_Acquisitions_Pamphlet_Jun2010.pdf",
+   "timestamp": "20101117060915",
+   "wayback_url": "https://web.archive.org/web/20101117060915id_/http://www.tasekomines.com:80/i/pdf/HD_Acquisitions_Pamphlet_Jun2010.pdf",
+   "bytes": 2042188,
+   "title": "HD_Acquisitions_Pamphlet_Jun2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/HD_Presentation_Jan2010.pdf",
+   "timestamp": "20101117060954",
+   "wayback_url": "https://web.archive.org/web/20101117060954id_/http://www.tasekomines.com:80/i/pdf/HD_Presentation_Jan2010.pdf",
+   "bytes": 1310999,
+   "title": "HD_Presentation_Jan2010.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/HDI_Insider_May2010.pdf",
+   "timestamp": "20101117060852",
+   "wayback_url": "https://web.archive.org/web/20101117060852id_/http://www.tasekomines.com:80/i/pdf/HDI_Insider_May2010.pdf",
+   "bytes": 204712,
+   "title": "HDI_Insider_May2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/Mine_Tour_Technical_Presentation_May3006.pdf",
+   "timestamp": "20061119011847",
+   "wayback_url": "https://web.archive.org/web/20061119011847id_/http://www.tasekomines.com/i/pdf/Mine_Tour_Technical_Presentation_May3006.pdf",
+   "bytes": 3493848,
+   "title": "Mine_Tour_Technical_Presentation_May3006.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/Q106_Interim_Report.pdf",
+   "timestamp": "20061119012250",
+   "wayback_url": "https://web.archive.org/web/20061119012250id_/http://www.tasekomines.com/i/pdf/Q106_Interim_Report.pdf",
+   "bytes": 168884,
+   "title": "Q106_Interim_Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/Q107_Transcript-web.pdf",
+   "timestamp": "20091211083017",
+   "wayback_url": "https://web.archive.org/web/20091211083017id_/http://www.tasekomines.com:80/i/pdf/Q107_Transcript-web.pdf",
+   "bytes": 34341,
+   "title": "Q107_Transcript-web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/Q206_Interim_Report.pdf",
+   "timestamp": "20061119012243",
+   "wayback_url": "https://web.archive.org/web/20061119012243id_/http://www.tasekomines.com/i/pdf/Q206_Interim_Report.pdf",
+   "bytes": 166864,
+   "title": "Q206_Interim_Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/Taseko%20Presentation-%20April2011.pdf",
+   "timestamp": "20120305061037",
+   "wayback_url": "https://web.archive.org/web/20120305061037id_/http://www.tasekomines.com/i/pdf/Taseko%20Presentation-%20April2011.pdf",
+   "bytes": 797181,
+   "title": "Taseko Presentation- April2011.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/Taseko-Articles_2006.pdf",
+   "timestamp": "20061119010911",
+   "wayback_url": "https://web.archive.org/web/20061119010911id_/http://www.tasekomines.com/i/pdf/Taseko-Articles_2006.pdf",
+   "bytes": 181734,
+   "title": "Taseko-Articles_2006.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/Taseko_Q4_2010.pdf",
+   "timestamp": "20111111012556",
+   "wayback_url": "https://web.archive.org/web/20111111012556id_/http://www.tasekomines.com/i/pdf/Taseko_Q4_2010.pdf",
+   "bytes": 474200,
+   "title": "Taseko_Q4_2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TasekoMinesLimited-NoticeofApplication.pdf",
+   "timestamp": "20140626003349",
+   "wayback_url": "https://web.archive.org/web/20140626003349id_/http://www.tasekomines.com/i/pdf/TasekoMinesLimited-NoticeofApplication.pdf",
+   "bytes": 239245,
+   "title": "TasekoMinesLimited-NoticeofApplication.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/tko-2004-02_GN_MSF.pdf",
+   "timestamp": "20041124015922",
+   "wayback_url": "https://web.archive.org/web/20041124015922id_/http://www.tasekomines.com:80/i/pdf/tko-2004-02_GN_MSF.pdf",
+   "bytes": 749464,
+   "title": "tko-2004-02_GN_MSF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO-2006AGM-transcript.pdf",
+   "timestamp": "20060419104133",
+   "wayback_url": "https://web.archive.org/web/20060419104133id_/http://www.tasekomines.com:80/i/pdf/TKO-2006AGM-transcript.pdf",
+   "bytes": 1120397,
+   "title": "TKO-2006AGM-transcript.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO-Corporate-Governance-Manual.pdf",
+   "timestamp": "20061119010921",
+   "wayback_url": "https://web.archive.org/web/20061119010921id_/http://www.tasekomines.com/i/pdf/TKO-Corporate-Governance-Manual.pdf",
+   "bytes": 193429,
+   "title": "TKO-Corporate-Governance-Manual.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO-NR20051230.pdf",
+   "timestamp": "20060531153032",
+   "wayback_url": "https://web.archive.org/web/20060531153032id_/http://www.tasekomines.com/i/pdf/TKO-NR20051230.pdf",
+   "bytes": 67041,
+   "title": "TKO-NR20051230.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/tko/Financials/TKO_Q2_2011-%20FINAL.pdf",
+   "timestamp": "20111111010314",
+   "wayback_url": "https://web.archive.org/web/20111111010314id_/http://www.tasekomines.com/i/pdf/tko/Financials/TKO_Q2_2011-%20FINAL.pdf",
+   "bytes": 283725,
+   "title": "TKO_Q2_2011- FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/tko/Mechanical%20Engineer%20%20-%20May%20-%2011.pdf",
+   "timestamp": "20110516005006",
+   "wayback_url": "https://web.archive.org/web/20110516005006id_/http://www.tasekomines.com:80/i/pdf/tko/Mechanical%20Engineer%20%20-%20May%20-%2011.pdf",
+   "bytes": 19653,
+   "title": "Mechanical Engineer  - May - 11.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/tko/Planner,%20Mill%20Maintenance-%20May-11.pdf",
+   "timestamp": "20110516010901",
+   "wayback_url": "https://web.archive.org/web/20110516010901id_/http://www.tasekomines.com:80/i/pdf/tko/Planner,%20Mill%20Maintenance-%20May-11.pdf",
+   "bytes": 19863,
+   "title": "Planner, Mill Maintenance- May-11.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/tko/ProsperityCall_Transcript-2010Jan19.pdf",
+   "timestamp": "20101231101125",
+   "wayback_url": "https://web.archive.org/web/20101231101125id_/http://www.tasekomines.com/i/pdf/tko/ProsperityCall_Transcript-2010Jan19.pdf",
+   "bytes": 26879,
+   "title": "ProsperityCall_Transcript-2010Jan19.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/tko/Report%20of%20the%20Federal%20Review%20Panel%20for%20the%20Prosperity%20Gold-Copper%20Mine%20Project.pdf",
+   "timestamp": "20101231092704",
+   "wayback_url": "https://web.archive.org/web/20101231092704id_/http://www.tasekomines.com/i/pdf/tko/Report%20of%20the%20Federal%20Review%20Panel%20for%20the%20Prosperity%20Gold-Copper%20Mine%20Project.pdf",
+   "bytes": 7118057,
+   "title": "Report of the Federal Review Panel for the Prosperity Gold-Copper Mine Project.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/tko/Section%2011.pdf",
+   "timestamp": "20100714082233",
+   "wayback_url": "https://web.archive.org/web/20100714082233id_/http://www.tasekomines.com:80/i/pdf/tko/Section%2011.pdf",
+   "bytes": 32944,
+   "title": "Section 11.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/tko/TKO_ElecInstrumentPlanner_01Dec2010.pdf",
+   "timestamp": "20101231114320",
+   "wayback_url": "https://web.archive.org/web/20101231114320id_/http://www.tasekomines.com/i/pdf/tko/TKO_ElecInstrumentPlanner_01Dec2010.pdf",
+   "bytes": 19866,
+   "title": "TKO_ElecInstrumentPlanner_01Dec2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/tko/TKO_ElectricalTrainer_26Nov2010.pdf",
+   "timestamp": "20101231114250",
+   "wayback_url": "https://web.archive.org/web/20101231114250id_/http://www.tasekomines.com/i/pdf/tko/TKO_ElectricalTrainer_26Nov2010.pdf",
+   "bytes": 22107,
+   "title": "TKO_ElectricalTrainer_26Nov2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/tko/TKO_FactSheet.pdf",
+   "timestamp": "20110915152145",
+   "wayback_url": "https://web.archive.org/web/20110915152145id_/http://www.tasekomines.com:80/i/pdf/tko/TKO_FactSheet.pdf",
+   "bytes": 2380692,
+   "title": "TKO_FactSheet.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/tko/TKO_MineMaintenanceClerk_01Dec2010.pdf",
+   "timestamp": "20101231114221",
+   "wayback_url": "https://web.archive.org/web/20101231114221id_/http://www.tasekomines.com/i/pdf/tko/TKO_MineMaintenanceClerk_01Dec2010.pdf",
+   "bytes": 19734,
+   "title": "TKO_MineMaintenanceClerk_01Dec2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/tko/TKO_Q309_ConferenceCall_Transcript.pdf",
+   "timestamp": "20101231101824",
+   "wayback_url": "https://web.archive.org/web/20101231101824id_/http://www.tasekomines.com/i/pdf/tko/TKO_Q309_ConferenceCall_Transcript.pdf",
+   "bytes": 17539,
+   "title": "TKO_Q309_ConferenceCall_Transcript.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/tko/TKO_SeniorForemanMineOps_15Dec2010.pdf",
+   "timestamp": "20101231114150",
+   "wayback_url": "https://web.archive.org/web/20101231114150id_/http://www.tasekomines.com/i/pdf/tko/TKO_SeniorForemanMineOps_15Dec2010.pdf",
+   "bytes": 20505,
+   "title": "TKO_SeniorForemanMineOps_15Dec2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/tko/Transcripts%20-%202010%20Q2.pdf",
+   "timestamp": "20101231100043",
+   "wayback_url": "https://web.archive.org/web/20101231100043id_/http://www.tasekomines.com/i/pdf/tko/Transcripts%20-%202010%20Q2.pdf",
+   "bytes": 17751,
+   "title": "Transcripts - 2010 Q2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/tko/Transcripts%20-%20Q4%202009.pdf",
+   "timestamp": "20101231101719",
+   "wayback_url": "https://web.archive.org/web/20101231101719id_/http://www.tasekomines.com/i/pdf/tko/Transcripts%20-%20Q4%202009.pdf",
+   "bytes": 13346,
+   "title": "Transcripts - Q4 2009.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_%20Q2_2010.pdf",
+   "timestamp": "20101231120507",
+   "wayback_url": "https://web.archive.org/web/20101231120507id_/http://www.tasekomines.com/i/pdf/TKO_%20Q2_2010.pdf",
+   "bytes": 382184,
+   "title": "TKO_ Q2_2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_%20Q3_2010.pdf",
+   "timestamp": "20101231120432",
+   "wayback_url": "https://web.archive.org/web/20101231120432id_/http://www.tasekomines.com/i/pdf/TKO_%20Q3_2010.pdf",
+   "bytes": 346722,
+   "title": "TKO_ Q3_2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_%20Q4_2009_BB.pdf",
+   "timestamp": "20101231121002",
+   "wayback_url": "https://web.archive.org/web/20101231121002id_/http://www.tasekomines.com/i/pdf/TKO_%20Q4_2009_BB.pdf",
+   "bytes": 504192,
+   "title": "TKO_ Q4_2009_BB.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_2005-03-29_NM.pdf",
+   "timestamp": "20051030050326",
+   "wayback_url": "https://web.archive.org/web/20051030050326id_/http://www.tasekomines.com:80/i/pdf/TKO_2005-03-29_NM.pdf",
+   "bytes": 26881,
+   "title": "TKO_2005-03-29_NM.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_2005AR.pdf",
+   "timestamp": "20060419103917",
+   "wayback_url": "https://web.archive.org/web/20060419103917id_/http://www.tasekomines.com:80/i/pdf/TKO_2005AR.pdf",
+   "bytes": 2593810,
+   "title": "TKO_2005AR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_2006-02-15_NR.pdf",
+   "timestamp": "20060313164545",
+   "wayback_url": "https://web.archive.org/web/20060313164545id_/http://www.tasekomines.com:80/i/pdf/TKO_2006-02-15_NR.pdf",
+   "bytes": 36836,
+   "title": "TKO_2006-02-15_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_2006Q1_MDA.pdf",
+   "timestamp": "20060221010639",
+   "wayback_url": "https://web.archive.org/web/20060221010639id_/http://www.tasekomines.com:80/i/pdf/TKO_2006Q1_MDA.pdf",
+   "bytes": 59546,
+   "title": "TKO_2006Q1_MDA.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_AGM_Transcript.pdf",
+   "timestamp": "20061119011240",
+   "wayback_url": "https://web.archive.org/web/20061119011240id_/http://www.tasekomines.com/i/pdf/TKO_AGM_Transcript.pdf",
+   "bytes": 59325,
+   "title": "TKO_AGM_Transcript.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_AMEXWebsiteDisclosure2010.pdf",
+   "timestamp": "20101231113838",
+   "wayback_url": "https://web.archive.org/web/20101231113838id_/http://www.tasekomines.com/i/pdf/TKO_AMEXWebsiteDisclosure2010.pdf",
+   "bytes": 82300,
+   "title": "TKO_AMEXWebsiteDisclosure2010.pdf",
+   "type": "closure",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_AR_2005.pdf",
+   "timestamp": "20060531150300",
+   "wayback_url": "https://web.archive.org/web/20060531150300id_/http://www.tasekomines.com/i/pdf/TKO_AR_2005.pdf",
+   "bytes": 2593801,
+   "title": "TKO_AR_2005.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Aug06_Update.pdf",
+   "timestamp": "20061119011719",
+   "wayback_url": "https://web.archive.org/web/20061119011719id_/http://www.tasekomines.com/i/pdf/TKO_Aug06_Update.pdf",
+   "bytes": 372671,
+   "title": "TKO_Aug06_Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_BIV_HallbauerProfile_06July2010.pdf",
+   "timestamp": "20101231124333",
+   "wayback_url": "https://web.archive.org/web/20101231124333id_/http://www.tasekomines.com/i/pdf/TKO_BIV_HallbauerProfile_06July2010.pdf",
+   "bytes": 540189,
+   "title": "TKO_BIV_HallbauerProfile_06July2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_BIV_MiningReport_19May2009.pdf",
+   "timestamp": "20091210232318",
+   "wayback_url": "https://web.archive.org/web/20091210232318id_/http://www.tasekomines.com:80/i/pdf/TKO_BIV_MiningReport_19May2009.pdf",
+   "bytes": 315987,
+   "title": "TKO_BIV_MiningReport_19May2009.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_BMO_02March2010.pdf",
+   "timestamp": "20101231102201",
+   "wayback_url": "https://web.archive.org/web/20101231102201id_/http://www.tasekomines.com/i/pdf/TKO_BMO_02March2010.pdf",
+   "bytes": 902166,
+   "title": "TKO_BMO_02March2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_CIMMagazine_30June2009.pdf",
+   "timestamp": "20091210232336",
+   "wayback_url": "https://web.archive.org/web/20091210232336id_/http://www.tasekomines.com:80/i/pdf/TKO_CIMMagazine_30June2009.pdf",
+   "bytes": 4561867,
+   "title": "TKO_CIMMagazine_30June2009.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Code_of_Ethics.pdf",
+   "timestamp": "20061119010936",
+   "wayback_url": "https://web.archive.org/web/20061119010936id_/http://www.tasekomines.com/i/pdf/TKO_Code_of_Ethics.pdf",
+   "bytes": 20940,
+   "title": "TKO_Code_of_Ethics.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_CorporateGovernancePoliciesandProceduresManual_08Feb2010.pdf",
+   "timestamp": "20101231113936",
+   "wayback_url": "https://web.archive.org/web/20101231113936id_/http://www.tasekomines.com/i/pdf/TKO_CorporateGovernancePoliciesandProceduresManual_08Feb2010.pdf",
+   "bytes": 196005,
+   "title": "TKO_CorporateGovernancePoliciesandProceduresManual_08Feb2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_FactSheet_12Oct2010.pdf",
+   "timestamp": "20101231115117",
+   "wayback_url": "https://web.archive.org/web/20101231115117id_/http://www.tasekomines.com/i/pdf/TKO_FactSheet_12Oct2010.pdf",
+   "bytes": 696330,
+   "title": "TKO_FactSheet_12Oct2010.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_FactSheet_Jan2006.pdf",
+   "timestamp": "20060712212235",
+   "wayback_url": "https://web.archive.org/web/20060712212235id_/http://www.tasekomines.com:80/i/pdf/TKO_FactSheet_Jan2006.pdf",
+   "bytes": 833431,
+   "title": "TKO_FactSheet_Jan2006.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_FactSheet_Jan2009.pdf",
+   "timestamp": "20090320033832",
+   "wayback_url": "https://web.archive.org/web/20090320033832id_/http://www.tasekomines.com:80/i/pdf/TKO_FactSheet_Jan2009.pdf",
+   "bytes": 523404,
+   "title": "TKO_FactSheet_Jan2009.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_FactSheet_Mar2008.pdf",
+   "timestamp": "20081031013155",
+   "wayback_url": "https://web.archive.org/web/20081031013155id_/http://www.tasekomines.com:80/i/pdf/TKO_FactSheet_Mar2008.pdf",
+   "bytes": 2924091,
+   "title": "TKO_FactSheet_Mar2008.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_FactSheet_Nov2010.pdf",
+   "timestamp": "20101231094444",
+   "wayback_url": "https://web.archive.org/web/20101231094444id_/http://www.tasekomines.com/i/pdf/TKO_FactSheet_Nov2010.pdf",
+   "bytes": 699228,
+   "title": "TKO_FactSheet_Nov2010.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_FinancialPost_May2010.pdf",
+   "timestamp": "20101231124254",
+   "wayback_url": "https://web.archive.org/web/20101231124254id_/http://www.tasekomines.com/i/pdf/TKO_FinancialPost_May2010.pdf",
+   "bytes": 56692,
+   "title": "TKO_FinancialPost_May2010.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_GibAnalystTour_16July2009.pdf",
+   "timestamp": "20101231102110",
+   "wayback_url": "https://web.archive.org/web/20101231102110id_/http://www.tasekomines.com/i/pdf/TKO_GibAnalystTour_16July2009.pdf",
+   "bytes": 1489877,
+   "title": "TKO_GibAnalystTour_16July2009.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_January2010.pdf",
+   "timestamp": "20101231101947",
+   "wayback_url": "https://web.archive.org/web/20101231101947id_/http://www.tasekomines.com/i/pdf/TKO_January2010.pdf",
+   "bytes": 619616,
+   "title": "TKO_January2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_Jun08_Gibraltar_Analyst_Tour_print.pdf",
+   "timestamp": "20080921004817",
+   "wayback_url": "https://web.archive.org/web/20080921004817id_/http://www.tasekomines.com:80/i/pdf/TKO_Jun08_Gibraltar_Analyst_Tour_print.pdf",
+   "bytes": 1606343,
+   "title": "TKO_Jun08_Gibraltar_Analyst_Tour_print.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_Jun09_AGM_web.pdf",
+   "timestamp": "20090824132437",
+   "wayback_url": "https://web.archive.org/web/20090824132437id_/http://www.tasekomines.com:80/i/pdf/TKO_Jun09_AGM_web.pdf",
+   "bytes": 552030,
+   "title": "TKO_Jun09_AGM_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_June06_Update.pdf",
+   "timestamp": "20061119011518",
+   "wayback_url": "https://web.archive.org/web/20061119011518id_/http://www.tasekomines.com/i/pdf/TKO_June06_Update.pdf",
+   "bytes": 555071,
+   "title": "TKO_June06_Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_NationalPost_20May04.pdf",
+   "timestamp": "20060531151905",
+   "wayback_url": "https://web.archive.org/web/20060531151905id_/http://www.tasekomines.com/i/pdf/TKO_NationalPost_20May04.pdf",
+   "bytes": 6109,
+   "title": "TKO_NationalPost_20May04.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_NorthernMiner_06May05.pdf",
+   "timestamp": "20060531151733",
+   "wayback_url": "https://web.archive.org/web/20060531151733id_/http://www.tasekomines.com/i/pdf/TKO_NorthernMiner_06May05.pdf",
+   "bytes": 1453127,
+   "title": "TKO_NorthernMiner_06May05.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_NorthernMiner_16Jun06.pdf",
+   "timestamp": "20061119013633",
+   "wayback_url": "https://web.archive.org/web/20061119013633id_/http://www.tasekomines.com/i/pdf/TKO_NorthernMiner_16Jun06.pdf",
+   "bytes": 4048947,
+   "title": "TKO_NorthernMiner_16Jun06.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_NorthernMiner_23Sep05.pdf",
+   "timestamp": "20061119013457",
+   "wayback_url": "https://web.archive.org/web/20061119013457id_/http://www.tasekomines.com/i/pdf/TKO_NorthernMiner_23Sep05.pdf",
+   "bytes": 26603,
+   "title": "TKO_NorthernMiner_23Sep05.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Oct06_Dubai.pdf",
+   "timestamp": "20061119011602",
+   "wayback_url": "https://web.archive.org/web/20061119011602id_/http://www.tasekomines.com/i/pdf/TKO_Oct06_Dubai.pdf",
+   "bytes": 429828,
+   "title": "TKO_Oct06_Dubai.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_OpenLetter_Ad_2010_Nov10.pdf",
+   "timestamp": "20101231124224",
+   "wayback_url": "https://web.archive.org/web/20101231124224id_/http://www.tasekomines.com/i/pdf/TKO_OpenLetter_Ad_2010_Nov10.pdf",
+   "bytes": 21704,
+   "title": "TKO_OpenLetter_Ad_2010_Nov10.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_PPT_April2010.pdf",
+   "timestamp": "20100602052702",
+   "wayback_url": "https://web.archive.org/web/20100602052702id_/http://www.tasekomines.com:80/i/pdf/TKO_PPT_April2010.pdf",
+   "bytes": 771135,
+   "title": "TKO_PPT_April2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_Presentation_04Nov2010.pdf",
+   "timestamp": "20101214105924",
+   "wayback_url": "https://web.archive.org/web/20101214105924id_/http://www.tasekomines.com:80/i/pdf/TKO_Presentation_04Nov2010.pdf",
+   "bytes": 741405,
+   "title": "TKO_Presentation_04Nov2010.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_Presentation_Nov2010.pdf",
+   "timestamp": "20101121171444",
+   "wayback_url": "https://web.archive.org/web/20101121171444id_/http://www.tasekomines.com:80/i/pdf/TKO_Presentation_Nov2010.pdf",
+   "bytes": 866055,
+   "title": "TKO_Presentation_Nov2010.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q1_2005.pdf",
+   "timestamp": "20060531150625",
+   "wayback_url": "https://web.archive.org/web/20060531150625id_/http://www.tasekomines.com/i/pdf/TKO_Q1_2005.pdf",
+   "bytes": 202853,
+   "title": "TKO_Q1_2005.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q1_2006.pdf",
+   "timestamp": "20060531150220",
+   "wayback_url": "https://web.archive.org/web/20060531150220id_/http://www.tasekomines.com/i/pdf/TKO_Q1_2006.pdf",
+   "bytes": 168877,
+   "title": "TKO_Q1_2006.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q1_2007.pdf",
+   "timestamp": "20101231120749",
+   "wayback_url": "https://web.archive.org/web/20101231120749id_/http://www.tasekomines.com/i/pdf/TKO_Q1_2007.pdf",
+   "bytes": 191734,
+   "title": "TKO_Q1_2007.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q1_2008.pdf",
+   "timestamp": "20101231115522",
+   "wayback_url": "https://web.archive.org/web/20101231115522id_/http://www.tasekomines.com/i/pdf/TKO_Q1_2008.pdf",
+   "bytes": 180291,
+   "title": "TKO_Q1_2008.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q1_2009.pdf",
+   "timestamp": "20101231115555",
+   "wayback_url": "https://web.archive.org/web/20101231115555id_/http://www.tasekomines.com/i/pdf/TKO_Q1_2009.pdf",
+   "bytes": 241155,
+   "title": "TKO_Q1_2009.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q1_2010.pdf",
+   "timestamp": "20101231120116",
+   "wayback_url": "https://web.archive.org/web/20101231120116id_/http://www.tasekomines.com/i/pdf/TKO_Q1_2010.pdf",
+   "bytes": 292728,
+   "title": "TKO_Q1_2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q1_2011.pdf",
+   "timestamp": "20111111011925",
+   "wayback_url": "https://web.archive.org/web/20111111011925id_/http://www.tasekomines.com/i/pdf/TKO_Q1_2011.pdf",
+   "bytes": 265801,
+   "title": "TKO_Q1_2011.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q2_2005.pdf",
+   "timestamp": "20060531150510",
+   "wayback_url": "https://web.archive.org/web/20060531150510id_/http://www.tasekomines.com/i/pdf/TKO_Q2_2005.pdf",
+   "bytes": 247603,
+   "title": "TKO_Q2_2005.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q2_2006.pdf",
+   "timestamp": "20061119011011",
+   "wayback_url": "https://web.archive.org/web/20061119011011id_/http://www.tasekomines.com/i/pdf/TKO_Q2_2006.pdf",
+   "bytes": 166853,
+   "title": "TKO_Q2_2006.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q2_2007_new.pdf",
+   "timestamp": "20101231120821",
+   "wayback_url": "https://web.archive.org/web/20101231120821id_/http://www.tasekomines.com/i/pdf/TKO_Q2_2007_new.pdf",
+   "bytes": 169162,
+   "title": "TKO_Q2_2007_new.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q2_2008.pdf",
+   "timestamp": "20101231115832",
+   "wayback_url": "https://web.archive.org/web/20101231115832id_/http://www.tasekomines.com/i/pdf/TKO_Q2_2008.pdf",
+   "bytes": 184254,
+   "title": "TKO_Q2_2008.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q2_2009.pdf",
+   "timestamp": "20101231115950",
+   "wayback_url": "https://web.archive.org/web/20101231115950id_/http://www.tasekomines.com/i/pdf/TKO_Q2_2009.pdf",
+   "bytes": 257298,
+   "title": "TKO_Q2_2009.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q3_2005.pdf",
+   "timestamp": "20061119011105",
+   "wayback_url": "https://web.archive.org/web/20061119011105id_/http://www.tasekomines.com/i/pdf/TKO_Q3_2005.pdf",
+   "bytes": 244236,
+   "title": "TKO_Q3_2005.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_Q3_2006.pdf",
+   "timestamp": "20061028055550",
+   "wayback_url": "https://web.archive.org/web/20061028055550id_/http://www.tasekomines.com:80/i/pdf/TKO_Q3_2006.pdf",
+   "bytes": 115683,
+   "title": "TKO_Q3_2006.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q3_2007.pdf",
+   "timestamp": "20101231120853",
+   "wayback_url": "https://web.archive.org/web/20101231120853id_/http://www.tasekomines.com/i/pdf/TKO_Q3_2007.pdf",
+   "bytes": 171314,
+   "title": "TKO_Q3_2007.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q3_2008.pdf",
+   "timestamp": "20101231120926",
+   "wayback_url": "https://web.archive.org/web/20101231120926id_/http://www.tasekomines.com/i/pdf/TKO_Q3_2008.pdf",
+   "bytes": 160582,
+   "title": "TKO_Q3_2008.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q3_2009.pdf",
+   "timestamp": "20101231115302",
+   "wayback_url": "https://web.archive.org/web/20101231115302id_/http://www.tasekomines.com/i/pdf/TKO_Q3_2009.pdf",
+   "bytes": 301462,
+   "title": "TKO_Q3_2009.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q4_2005.pdf",
+   "timestamp": "20061119011024",
+   "wayback_url": "https://web.archive.org/web/20061119011024id_/http://www.tasekomines.com/i/pdf/TKO_Q4_2005.pdf",
+   "bytes": 1516571,
+   "title": "TKO_Q4_2005.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q4_2006.pdf",
+   "timestamp": "20101231120359",
+   "wayback_url": "https://web.archive.org/web/20101231120359id_/http://www.tasekomines.com/i/pdf/TKO_Q4_2006.pdf",
+   "bytes": 292745,
+   "title": "TKO_Q4_2006.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q4_2007.pdf",
+   "timestamp": "20111111005440",
+   "wayback_url": "https://web.archive.org/web/20111111005440id_/http://www.tasekomines.com/i/pdf/TKO_Q4_2007.pdf",
+   "bytes": 359208,
+   "title": "TKO_Q4_2007.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Q4_2008v2.pdf",
+   "timestamp": "20101231120326",
+   "wayback_url": "https://web.archive.org/web/20101231120326id_/http://www.tasekomines.com/i/pdf/TKO_Q4_2008v2.pdf",
+   "bytes": 206961,
+   "title": "TKO_Q4_2008v2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/pdf/TKO_Q5_2008_Interim_Report.pdf",
+   "timestamp": "20090521074804",
+   "wayback_url": "https://web.archive.org/web/20090521074804id_/http://www.tasekomines.com:80/i/pdf/TKO_Q5_2008_Interim_Report.pdf",
+   "bytes": 366603,
+   "title": "TKO_Q5_2008_Interim_Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Tribune_06Dec07.pdf",
+   "timestamp": "20101231121323",
+   "wayback_url": "https://web.archive.org/web/20101231121323id_/http://www.tasekomines.com/i/pdf/TKO_Tribune_06Dec07.pdf",
+   "bytes": 11013,
+   "title": "TKO_Tribune_06Dec07.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Tribune_07Dec07.pdf",
+   "timestamp": "20101231121409",
+   "wayback_url": "https://web.archive.org/web/20101231121409id_/http://www.tasekomines.com/i/pdf/TKO_Tribune_07Dec07.pdf",
+   "bytes": 11027,
+   "title": "TKO_Tribune_07Dec07.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Tribune_13Dec07.pdf",
+   "timestamp": "20101231121036",
+   "wayback_url": "https://web.archive.org/web/20101231121036id_/http://www.tasekomines.com/i/pdf/TKO_Tribune_13Dec07.pdf",
+   "bytes": 10052,
+   "title": "TKO_Tribune_13Dec07.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Tribune_22Nov07_LobbyforProsperity.pdf",
+   "timestamp": "20101231135408",
+   "wayback_url": "https://web.archive.org/web/20101231135408id_/http://www.tasekomines.com/i/pdf/TKO_Tribune_22Nov07_LobbyforProsperity.pdf",
+   "bytes": 11192,
+   "title": "TKO_Tribune_22Nov07_LobbyforProsperity.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Tribune_22Nov07_PushProsperity.pdf",
+   "timestamp": "20101231135149",
+   "wayback_url": "https://web.archive.org/web/20101231135149id_/http://www.tasekomines.com/i/pdf/TKO_Tribune_22Nov07_PushProsperity.pdf",
+   "bytes": 10577,
+   "title": "TKO_Tribune_22Nov07_PushProsperity.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Tribune_25Sept07.pdf",
+   "timestamp": "20101231152428",
+   "wayback_url": "https://web.archive.org/web/20101231152428id_/http://www.tasekomines.com/i/pdf/TKO_Tribune_25Sept07.pdf",
+   "bytes": 11280,
+   "title": "TKO_Tribune_25Sept07.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Tribune_27Feb07_ProsperityPlan.pdf",
+   "timestamp": "20101231152210",
+   "wayback_url": "https://web.archive.org/web/20101231152210id_/http://www.tasekomines.com/i/pdf/TKO_Tribune_27Feb07_ProsperityPlan.pdf",
+   "bytes": 11961,
+   "title": "TKO_Tribune_27Feb07_ProsperityPlan.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Tribune_27Feb07_WeWantProsperity.pdf",
+   "timestamp": "20101231152349",
+   "wayback_url": "https://web.archive.org/web/20101231152349id_/http://www.tasekomines.com/i/pdf/TKO_Tribune_27Feb07_WeWantProsperity.pdf",
+   "bytes": 10960,
+   "title": "TKO_Tribune_27Feb07_WeWantProsperity.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Tribune_27Nov07.pdf",
+   "timestamp": "20101231135547",
+   "wayback_url": "https://web.archive.org/web/20101231135547id_/http://www.tasekomines.com/i/pdf/TKO_Tribune_27Nov07.pdf",
+   "bytes": 13037,
+   "title": "TKO_Tribune_27Nov07.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKO_Tribune_27Sep07.pdf",
+   "timestamp": "20101231135327",
+   "wayback_url": "https://web.archive.org/web/20101231135327id_/http://www.tasekomines.com/i/pdf/TKO_Tribune_27Sep07.pdf",
+   "bytes": 11026,
+   "title": "TKO_Tribune_27Sep07.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/TKOAGM_Transcript_with_slides.pdf",
+   "timestamp": "20061119011738",
+   "wayback_url": "https://web.archive.org/web/20061119011738id_/http://www.tasekomines.com/i/pdf/TKOAGM_Transcript_with_slides.pdf",
+   "bytes": 1120380,
+   "title": "TKOAGM_Transcript_with_slides.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/pdf/VancouverSun_27Oct06.pdf",
+   "timestamp": "20061119013501",
+   "wayback_url": "https://web.archive.org/web/20061119013501id_/http://www.tasekomines.com/i/pdf/VancouverSun_27Oct06.pdf",
+   "bytes": 1565742,
+   "title": "VancouverSun_27Oct06.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/2007-AGM-Presentation.pdf",
+   "timestamp": "20070709220245",
+   "wayback_url": "https://web.archive.org/web/20070709220245id_/http://www.tasekomines.com:80/i/tko/2007-AGM-Presentation.pdf",
+   "bytes": 1180915,
+   "title": "2007-AGM-Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/2007_AGM_Transcript.pdf",
+   "timestamp": "20091222132635",
+   "wayback_url": "https://web.archive.org/web/20091222132635id_/http://www.tasekomines.com:80/i/tko/2007_AGM_Transcript.pdf",
+   "bytes": 54477,
+   "title": "2007_AGM_Transcript.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/pdf/ClosingSubmission.pdf",
+   "timestamp": "20100714162420",
+   "wayback_url": "https://web.archive.org/web/20100714162420id_/http://www.tasekomines.com:80/i/tko/pdf/ClosingSubmission.pdf",
+   "bytes": 69325,
+   "title": "ClosingSubmission.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/pdf/TKO_%20Q2_2009_transcripts.pdf",
+   "timestamp": "20091211083054",
+   "wayback_url": "https://web.archive.org/web/20091211083054id_/http://www.tasekomines.com:80/i/tko/pdf/TKO_%20Q2_2009_transcripts.pdf",
+   "bytes": 31625,
+   "title": "TKO_ Q2_2009_transcripts.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/pdf/TKO_AGM_16June2010.pdf",
+   "timestamp": "20101011045108",
+   "wayback_url": "https://web.archive.org/web/20101011045108id_/http://www.tasekomines.com:80/i/tko/pdf/TKO_AGM_16June2010.pdf",
+   "bytes": 525165,
+   "title": "TKO_AGM_16June2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/tko/pdf/TKO_AR_FY2009.pdf",
+   "timestamp": "20101231120702",
+   "wayback_url": "https://web.archive.org/web/20101231120702id_/http://www.tasekomines.com/i/tko/pdf/TKO_AR_FY2009.pdf",
+   "bytes": 1631274,
+   "title": "TKO_AR_FY2009.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/tko/pdf/TKO_AR_May2011.pdf",
+   "timestamp": "20111111012001",
+   "wayback_url": "https://web.archive.org/web/20111111012001id_/http://www.tasekomines.com/i/tko/pdf/TKO_AR_May2011.pdf",
+   "bytes": 4382993,
+   "title": "TKO_AR_May2011.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/pdf/TKO_NorthernMiner_%2020090504.pdf",
+   "timestamp": "20091210232401",
+   "wayback_url": "https://web.archive.org/web/20091210232401id_/http://www.tasekomines.com:80/i/tko/pdf/TKO_NorthernMiner_%2020090504.pdf",
+   "bytes": 52911,
+   "title": "TKO_NorthernMiner_ 20090504.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/pdf/TKO_Q5_2008_Transcripts.pdf",
+   "timestamp": "20091211083120",
+   "wayback_url": "https://web.archive.org/web/20091211083120id_/http://www.tasekomines.com:80/i/tko/pdf/TKO_Q5_2008_Transcripts.pdf",
+   "bytes": 25012,
+   "title": "TKO_Q5_2008_Transcripts.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/tko/pdf/TKOAGMmaterials_2008.pdf",
+   "timestamp": "20101231101401",
+   "wayback_url": "https://web.archive.org/web/20101231101401id_/http://www.tasekomines.com/i/tko/pdf/TKOAGMmaterials_2008.pdf",
+   "bytes": 503284,
+   "title": "TKOAGMmaterials_2008.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/Q207-Transcript-web.pdf",
+   "timestamp": "20091222160120",
+   "wayback_url": "https://web.archive.org/web/20091222160120id_/http://www.tasekomines.com:80/i/tko/Q207-Transcript-web.pdf",
+   "bytes": 33787,
+   "title": "Q207-Transcript-web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/Q2_08ConferenceCallTranscript-Web.pdf",
+   "timestamp": "20091222132648",
+   "wayback_url": "https://web.archive.org/web/20091222132648id_/http://www.tasekomines.com:80/i/tko/Q2_08ConferenceCallTranscript-Web.pdf",
+   "bytes": 37492,
+   "title": "Q2_08ConferenceCallTranscript-Web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/Q307-Transcript-web.pdf",
+   "timestamp": "20091222093019",
+   "wayback_url": "https://web.archive.org/web/20091222093019id_/http://www.tasekomines.com:80/i/tko/Q307-Transcript-web.pdf",
+   "bytes": 30075,
+   "title": "Q307-Transcript-web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/tko/TKO_AR_2007.pdf",
+   "timestamp": "20101231120217",
+   "wayback_url": "https://web.archive.org/web/20101231120217id_/http://www.tasekomines.com/i/tko/TKO_AR_2007.pdf",
+   "bytes": 4336872,
+   "title": "TKO_AR_2007.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/tko/TKO_AR_2008.pdf",
+   "timestamp": "20111111012810",
+   "wayback_url": "https://web.archive.org/web/20111111012810id_/http://www.tasekomines.com/i/tko/TKO_AR_2008.pdf",
+   "bytes": 1491835,
+   "title": "TKO_AR_2008.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/tko/TKO_AR_Mar14s.pdf",
+   "timestamp": "20101231120026",
+   "wayback_url": "https://web.archive.org/web/20101231120026id_/http://www.tasekomines.com/i/tko/TKO_AR_Mar14s.pdf",
+   "bytes": 1902062,
+   "title": "TKO_AR_Mar14s.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/TKO_Feb08_Cambridge_Phoenix.pdf",
+   "timestamp": "20091222160146",
+   "wayback_url": "https://web.archive.org/web/20091222160146id_/http://www.tasekomines.com:80/i/tko/TKO_Feb08_Cambridge_Phoenix.pdf",
+   "bytes": 285752,
+   "title": "TKO_Feb08_Cambridge_Phoenix.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com/i/tko/TKO_InvestorHandout_Oct06.pdf",
+   "timestamp": "20061119012924",
+   "wayback_url": "https://web.archive.org/web/20061119012924id_/http://www.tasekomines.com/i/tko/TKO_InvestorHandout_Oct06.pdf",
+   "bytes": 457248,
+   "title": "TKO_InvestorHandout_Oct06.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/TKO_Mar08_AMEX_Conference.pdf",
+   "timestamp": "20091211083034",
+   "wayback_url": "https://web.archive.org/web/20091211083034id_/http://www.tasekomines.com:80/i/tko/TKO_Mar08_AMEX_Conference.pdf",
+   "bytes": 832708,
+   "title": "TKO_Mar08_AMEX_Conference.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/TKO_Mar08_Tumazos_Conference.pdf",
+   "timestamp": "20091222132704",
+   "wayback_url": "https://web.archive.org/web/20091222132704id_/http://www.tasekomines.com:80/i/tko/TKO_Mar08_Tumazos_Conference.pdf",
+   "bytes": 832713,
+   "title": "TKO_Mar08_Tumazos_Conference.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/TKO_Northern%20Miner_21July08.pdf",
+   "timestamp": "20091210232349",
+   "wayback_url": "https://web.archive.org/web/20091210232349id_/http://www.tasekomines.com:80/i/tko/TKO_Northern%20Miner_21July08.pdf",
+   "bytes": 540759,
+   "title": "TKO_Northern Miner_21July08.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/TKO_Q3_2008_Transcript.pdf",
+   "timestamp": "20091222132708",
+   "wayback_url": "https://web.archive.org/web/20091222132708id_/http://www.tasekomines.com:80/i/tko/TKO_Q3_2008_Transcript.pdf",
+   "bytes": 37131,
+   "title": "TKO_Q3_2008_Transcript.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/TKO_WLTribune_08Ju08.pdf",
+   "timestamp": "20091210232351",
+   "wayback_url": "https://web.archive.org/web/20091210232351id_/http://www.tasekomines.com:80/i/tko/TKO_WLTribune_08Ju08.pdf",
+   "bytes": 10029,
+   "title": "TKO_WLTribune_08Ju08.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/i/tko/TKO_WLTribune_08Ju08_2.pdf",
+   "timestamp": "20091210232356",
+   "wayback_url": "https://web.archive.org/web/20091210232356id_/http://www.tasekomines.com:80/i/tko/TKO_WLTribune_08Ju08_2.pdf",
+   "bytes": 8057,
+   "title": "TKO_WLTribune_08Ju08_2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.tasekomines.com:80/workspace/media/mce/financialreports/TKO_Q4_2011.pdf",
+   "timestamp": "20120526152106",
+   "wayback_url": "https://web.archive.org/web/20120526152106id_/http://www.tasekomines.com:80/workspace/media/mce/financialreports/TKO_Q4_2011.pdf",
+   "bytes": 497234,
+   "title": "TKO_Q4_2011.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/2021-form40-f.zip",
+   "timestamp": "20230521042458",
+   "wayback_url": "https://web.archive.org/web/20230521042458id_/https://www.tasekomines.com/assets/docs/2021-form40-f.zip",
+   "bytes": 267043,
+   "title": "2021-form40-f.zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/Taseko%20Mines.zip",
+   "timestamp": "20230521042459",
+   "wayback_url": "https://web.archive.org/web/20230521042459id_/https://www.tasekomines.com/assets/docs/Taseko%20Mines.zip",
+   "bytes": 283248,
+   "title": "Taseko Mines.zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/tgb-2017123120180326184101.zip",
+   "timestamp": "20230521042532",
+   "wayback_url": "https://web.archive.org/web/20230521042532id_/https://www.tasekomines.com/assets/docs/tgb-2017123120180326184101.zip",
+   "bytes": 215993,
+   "title": "tgb-2017123120180326184101.zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/tgb-2018123120190325224122-20190328151636.zip",
+   "timestamp": "20230521042531",
+   "wayback_url": "https://web.archive.org/web/20230521042531id_/https://www.tasekomines.com/assets/docs/tgb-2018123120190325224122-20190328151636.zip",
+   "bytes": 219143,
+   "title": "tgb-2018123120190325224122-20190328151636.zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/tgb-2019123120200328190013.zip",
+   "timestamp": "20230521042532",
+   "wayback_url": "https://web.archive.org/web/20230521042532id_/https://www.tasekomines.com/assets/docs/tgb-2019123120200328190013.zip",
+   "bytes": 214125,
+   "title": "tgb-2019123120200328190013.zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.tasekomines.com/assets/docs/tgb-20201231.zip",
+   "timestamp": "20230521042509",
+   "wayback_url": "https://web.archive.org/web/20230521042509id_/https://www.tasekomines.com/assets/docs/tgb-20201231.zip",
+   "bytes": 263387,
+   "title": "tgb-20201231.zip",
+   "type": "other",
+   "noise": false
+  }
+ ],
+ "doc_types": {
+  "other": 342,
+  "closure": 3,
+  "engagement": 3,
+  "presentation": 70,
+  "newsletter": 21,
+  "technical": 4
+ }
+}

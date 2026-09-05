@@ -1,0 +1,191 @@
+{
+ "key": "seabridge gold",
+ "name": "Seabridge Gold Inc.",
+ "host": "seabridgegold.com",
+ "harvested_at": "2026-09-05T02:04:47Z",
+ "docs": [
+  {
+   "url": "http://seabridgegold.com/KSM2012ExecSum.pdf",
+   "timestamp": "20160901165427",
+   "wayback_url": "https://web.archive.org/web/20160901165427id_/http://seabridgegold.com/KSM2012ExecSum.pdf",
+   "bytes": 1412612,
+   "title": "KSM2012ExecSum.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/2015_Ann_Rep.pdf",
+   "timestamp": "20161022191825",
+   "wayback_url": "https://web.archive.org/web/20161022191825id_/http://seabridgegold.com/pdf/2015_Ann_Rep.pdf",
+   "bytes": 1938231,
+   "title": "2015_Ann_Rep.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/2017AR.pdf",
+   "timestamp": "20180822110233",
+   "wayback_url": "https://web.archive.org/web/20180822110233id_/http://seabridgegold.com/pdf/2017AR.pdf",
+   "bytes": 1950061,
+   "title": "2017AR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/exploration_news.pdf",
+   "timestamp": "20150224114559",
+   "wayback_url": "https://web.archive.org/web/20150224114559id_/http://seabridgegold.com/pdf/exploration_news.pdf",
+   "bytes": 439301,
+   "title": "exploration_news.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/KSM_fact_sheet.pdf",
+   "timestamp": "20160901123221",
+   "wayback_url": "https://web.archive.org/web/20160901123221id_/http://seabridgegold.com/pdf/KSM_fact_sheet.pdf",
+   "bytes": 146514,
+   "title": "KSM_fact_sheet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/NNov3-15-maps.pdf",
+   "timestamp": "20160901155102",
+   "wayback_url": "https://web.archive.org/web/20160901155102id_/http://seabridgegold.com/pdf/NNov3-15-maps.pdf",
+   "bytes": 528821,
+   "title": "NNov3-15-maps.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/NR/NApr10-18.pdf",
+   "timestamp": "20190513055424",
+   "wayback_url": "https://web.archive.org/web/20190513055424id_/http://seabridgegold.com/pdf/NR/NApr10-18.pdf",
+   "bytes": 53464,
+   "title": "NApr10-18.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/NR/NAug21-18.pdf",
+   "timestamp": "20190513053550",
+   "wayback_url": "https://web.archive.org/web/20190513053550id_/http://seabridgegold.com/pdf/NR/NAug21-18.pdf",
+   "bytes": 372224,
+   "title": "NAug21-18.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/NR/NAug9-18.pdf",
+   "timestamp": "20190513043405",
+   "wayback_url": "https://web.archive.org/web/20190513043405id_/http://seabridgegold.com/pdf/NR/NAug9-18.pdf",
+   "bytes": 31776,
+   "title": "NAug9-18.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/NR/NJun12-18.pdf",
+   "timestamp": "20190513043131",
+   "wayback_url": "https://web.archive.org/web/20190513043131id_/http://seabridgegold.com/pdf/NR/NJun12-18.pdf",
+   "bytes": 72850,
+   "title": "NJun12-18.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/NR/NJun28-18.pdf",
+   "timestamp": "20190513060751",
+   "wayback_url": "https://web.archive.org/web/20190513060751id_/http://seabridgegold.com/pdf/NR/NJun28-18.pdf",
+   "bytes": 36462,
+   "title": "NJun28-18.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/NR/NJun5-18.pdf",
+   "timestamp": "20190513041256",
+   "wayback_url": "https://web.archive.org/web/20190513041256id_/http://seabridgegold.com/pdf/NR/NJun5-18.pdf",
+   "bytes": 73034,
+   "title": "NJun5-18.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/NR/NMay1-18.pdf",
+   "timestamp": "20190513052916",
+   "wayback_url": "https://web.archive.org/web/20190513052916id_/http://seabridgegold.com/pdf/NR/NMay1-18.pdf",
+   "bytes": 64293,
+   "title": "NMay1-18.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/NR/NMay4-18.pdf",
+   "timestamp": "20190513050610",
+   "wayback_url": "https://web.archive.org/web/20190513050610id_/http://seabridgegold.com/pdf/NR/NMay4-18.pdf",
+   "bytes": 53612,
+   "title": "NMay4-18.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/NR/NMay9-18.pdf",
+   "timestamp": "20190513065207",
+   "wayback_url": "https://web.archive.org/web/20190513065207id_/http://seabridgegold.com/pdf/NR/NMay9-18.pdf",
+   "bytes": 99014,
+   "title": "NMay9-18.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/NR/NOct11-16.pdf",
+   "timestamp": "20170228015344",
+   "wayback_url": "https://web.archive.org/web/20170228015344id_/http://seabridgegold.com/pdf/NR/NOct11-16.pdf",
+   "bytes": 69389,
+   "title": "NOct11-16.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/NR/NOct18-16.pdf",
+   "timestamp": "20170228083001",
+   "wayback_url": "https://web.archive.org/web/20170228083001id_/http://seabridgegold.com/pdf/NR/NOct18-16.pdf",
+   "bytes": 335509,
+   "title": "NOct18-16.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/NR/NOct6-16.pdf",
+   "timestamp": "20170227193303",
+   "wayback_url": "https://web.archive.org/web/20170227193303id_/http://seabridgegold.com/pdf/NR/NOct6-16.pdf",
+   "bytes": 185865,
+   "title": "NOct6-16.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/pdf/WhyKSMMakesSense.pdf",
+   "timestamp": "20170702130258",
+   "wayback_url": "https://web.archive.org/web/20170702130258id_/http://seabridgegold.com/pdf/WhyKSMMakesSense.pdf",
+   "bytes": 401730,
+   "title": "WhyKSMMakesSense.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://seabridgegold.com/WhyKSMMakesSense.pdf",
+   "timestamp": "20150224123223",
+   "wayback_url": "https://web.archive.org/web/20150224123223id_/http://seabridgegold.com/WhyKSMMakesSense.pdf",
+   "bytes": 166607,
+   "title": "WhyKSMMakesSense.pdf",
+   "type": "other",
+   "noise": false
+  }
+ ],
+ "doc_types": {
+  "other": 20
+ }
+}

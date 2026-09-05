@@ -1,0 +1,1851 @@
+{
+ "key": "nexgen energy",
+ "name": "NexGen Energy Ltd.",
+ "host": "nexgenenergy.ca",
+ "harvested_at": "2026-09-05T02:59:37Z",
+ "docs": [
+  {
+   "url": "https://nexgenenergy.ca/_resources/agm/2018-NexGen-Information-Circular.pdf",
+   "timestamp": "20181226110620",
+   "wayback_url": "https://web.archive.org/web/20181226110620id_/https://nexgenenergy.ca/_resources/agm/2018-NexGen-Information-Circular.pdf",
+   "bytes": 453445,
+   "title": "2018-NexGen-Information-Circular.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/agm/2018-Notice-and-Access-Notification.pdf",
+   "timestamp": "20181226081540",
+   "wayback_url": "https://web.archive.org/web/20181226081540id_/https://nexgenenergy.ca/_resources/agm/2018-Notice-and-Access-Notification.pdf",
+   "bytes": 127251,
+   "title": "2018-Notice-and-Access-Notification.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/agm/2018-Proxy-Sample.pdf",
+   "timestamp": "20181226080358",
+   "wayback_url": "https://web.archive.org/web/20181226080358id_/https://nexgenenergy.ca/_resources/agm/2018-Proxy-Sample.pdf",
+   "bytes": 73734,
+   "title": "2018-Proxy-Sample.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/agm/AGM_Notice-of-Access_2020.pdf",
+   "timestamp": "20200926085654",
+   "wayback_url": "https://web.archive.org/web/20200926085654id_/https://nexgenenergy.ca/_resources/agm/AGM_Notice-of-Access_2020.pdf",
+   "bytes": 171020,
+   "title": "AGM_Notice-of-Access_2020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/agm/Info-Circ-2017.pdf",
+   "timestamp": "20170629051846",
+   "wayback_url": "https://web.archive.org/web/20170629051846id_/http://www.nexgenenergy.ca/_resources/agm/Info-Circ-2017.pdf",
+   "bytes": 368745,
+   "title": "Info-Circ-2017.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/agm/NexGen-How-to-Vote.pdf",
+   "timestamp": "20200926074128",
+   "wayback_url": "https://web.archive.org/web/20200926074128id_/https://nexgenenergy.ca/_resources/agm/NexGen-How-to-Vote.pdf",
+   "bytes": 85570,
+   "title": "NexGen-How-to-Vote.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/agm/Notice-of-Meeting-2017.pdf",
+   "timestamp": "20170629090111",
+   "wayback_url": "https://web.archive.org/web/20170629090111id_/http://www.nexgenenergy.ca/_resources/agm/Notice-of-Meeting-2017.pdf",
+   "bytes": 137539,
+   "title": "Notice-of-Meeting-2017.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/agm/NXE-2021-Form-of-Proxy.pdf",
+   "timestamp": "20210731152305",
+   "wayback_url": "https://web.archive.org/web/20210731152305id_/https://nexgenenergy.ca/_resources/agm/NXE-2021-Form-of-Proxy.pdf",
+   "bytes": 65282,
+   "title": "NXE-2021-Form-of-Proxy.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/agm/NXE-2021-How-to-Vote.pdf",
+   "timestamp": "20210731155313",
+   "wayback_url": "https://web.archive.org/web/20210731155313id_/https://nexgenenergy.ca/_resources/agm/NXE-2021-How-to-Vote.pdf",
+   "bytes": 122028,
+   "title": "NXE-2021-How-to-Vote.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/agm/NXE-2021-Management-Info-Circ.pdf",
+   "timestamp": "20210731150428",
+   "wayback_url": "https://web.archive.org/web/20210731150428id_/https://nexgenenergy.ca/_resources/agm/NXE-2021-Management-Info-Circ.pdf",
+   "bytes": 1012854,
+   "title": "NXE-2021-Management-Info-Circ.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/agm/NXE-2021-Notice-and-Access.pdf",
+   "timestamp": "20210731164158",
+   "wayback_url": "https://web.archive.org/web/20210731164158id_/https://nexgenenergy.ca/_resources/agm/NXE-2021-Notice-and-Access.pdf",
+   "bytes": 194027,
+   "title": "NXE-2021-Notice-and-Access.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/agm/NXE-2021-Reminder-Letter.pdf",
+   "timestamp": "20210602161504",
+   "wayback_url": "https://web.archive.org/web/20210602161504id_/https://www.nexgenenergy.ca/_resources/agm/NXE-2021-Reminder-Letter.pdf",
+   "bytes": 338399,
+   "title": "NXE-2021-Reminder-Letter.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/agm/NXE-2021-Shareholder-Questions.pdf",
+   "timestamp": "20210731153026",
+   "wayback_url": "https://web.archive.org/web/20210731153026id_/https://nexgenenergy.ca/_resources/agm/NXE-2021-Shareholder-Questions.pdf",
+   "bytes": 16366,
+   "title": "NXE-2021-Shareholder-Questions.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/agm/NXE-InfoCirc-2020_28-APR-2020_FINAL.pdf",
+   "timestamp": "20200926072355",
+   "wayback_url": "https://web.archive.org/web/20200926072355id_/https://nexgenenergy.ca/_resources/agm/NXE-InfoCirc-2020_28-APR-2020_FINAL.pdf",
+   "bytes": 996210,
+   "title": "NXE-InfoCirc-2020_28-APR-2020_FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/agm/Proxy-2017.pdf",
+   "timestamp": "20170629065534",
+   "wayback_url": "https://web.archive.org/web/20170629065534id_/http://www.nexgenenergy.ca/_resources/agm/Proxy-2017.pdf",
+   "bytes": 57056,
+   "title": "Proxy-2017.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/agm/Proxy-Voting-Form-2020.pdf",
+   "timestamp": "20200926093905",
+   "wayback_url": "https://web.archive.org/web/20200926093905id_/https://nexgenenergy.ca/_resources/agm/Proxy-Voting-Form-2020.pdf",
+   "bytes": 161293,
+   "title": "Proxy-Voting-Form-2020.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/agm/Shareholder-Questions.pdf",
+   "timestamp": "20200926082447",
+   "wayback_url": "https://web.archive.org/web/20200926082447id_/https://nexgenenergy.ca/_resources/agm/Shareholder-Questions.pdf",
+   "bytes": 16337,
+   "title": "Shareholder-Questions.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2013Q4-Fin.pdf",
+   "timestamp": "20170629021805",
+   "wayback_url": "https://web.archive.org/web/20170629021805id_/http://www.nexgenenergy.ca/_resources/financials/2013Q4-Fin.pdf",
+   "bytes": 285033,
+   "title": "2013Q4-Fin.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2013Q4-MDA.pdf",
+   "timestamp": "20170629022103",
+   "wayback_url": "https://web.archive.org/web/20170629022103id_/http://www.nexgenenergy.ca/_resources/financials/2013Q4-MDA.pdf",
+   "bytes": 208885,
+   "title": "2013Q4-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2014Q1-Fin.pdf",
+   "timestamp": "20170629013837",
+   "wayback_url": "https://web.archive.org/web/20170629013837id_/http://www.nexgenenergy.ca/_resources/financials/2014Q1-Fin.pdf",
+   "bytes": 169710,
+   "title": "2014Q1-Fin.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2014Q1-MDA.pdf",
+   "timestamp": "20170629013542",
+   "wayback_url": "https://web.archive.org/web/20170629013542id_/http://www.nexgenenergy.ca/_resources/financials/2014Q1-MDA.pdf",
+   "bytes": 221943,
+   "title": "2014Q1-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2014Q2-Fin.pdf",
+   "timestamp": "20170629001900",
+   "wayback_url": "https://web.archive.org/web/20170629001900id_/http://www.nexgenenergy.ca/_resources/financials/2014Q2-Fin.pdf",
+   "bytes": 171619,
+   "title": "2014Q2-Fin.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2014Q2-MDA.pdf",
+   "timestamp": "20170629001407",
+   "wayback_url": "https://web.archive.org/web/20170629001407id_/http://www.nexgenenergy.ca/_resources/financials/2014Q2-MDA.pdf",
+   "bytes": 230603,
+   "title": "2014Q2-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2014Q4-Fin.pdf",
+   "timestamp": "20170629005159",
+   "wayback_url": "https://web.archive.org/web/20170629005159id_/http://www.nexgenenergy.ca/_resources/financials/2014Q4-Fin.pdf",
+   "bytes": 259927,
+   "title": "2014Q4-Fin.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2014Q4-MDA.pdf",
+   "timestamp": "20170629005703",
+   "wayback_url": "https://web.archive.org/web/20170629005703id_/http://www.nexgenenergy.ca/_resources/financials/2014Q4-MDA.pdf",
+   "bytes": 238717,
+   "title": "2014Q4-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2015-Q4-FS.pdf",
+   "timestamp": "20170628233830",
+   "wayback_url": "https://web.archive.org/web/20170628233830id_/http://www.nexgenenergy.ca/_resources/financials/2015-Q4-FS.pdf",
+   "bytes": 298410,
+   "title": "2015-Q4-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2015-Q4-MDA.pdf",
+   "timestamp": "20170628223919",
+   "wayback_url": "https://web.archive.org/web/20170628223919id_/http://www.nexgenenergy.ca/_resources/financials/2015-Q4-MDA.pdf",
+   "bytes": 196520,
+   "title": "2015-Q4-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2015Q1-Fin.pdf",
+   "timestamp": "20170629021441",
+   "wayback_url": "https://web.archive.org/web/20170629021441id_/http://www.nexgenenergy.ca/_resources/financials/2015Q1-Fin.pdf",
+   "bytes": 214168,
+   "title": "2015Q1-Fin.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2015Q1-MDA.pdf",
+   "timestamp": "20170629021316",
+   "wayback_url": "https://web.archive.org/web/20170629021316id_/http://www.nexgenenergy.ca/_resources/financials/2015Q1-MDA.pdf",
+   "bytes": 372710,
+   "title": "2015Q1-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2016-Q1-FS.pdf",
+   "timestamp": "20170629004216",
+   "wayback_url": "https://web.archive.org/web/20170629004216id_/http://www.nexgenenergy.ca/_resources/financials/2016-Q1-FS.pdf",
+   "bytes": 160828,
+   "title": "2016-Q1-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2016-Q1-MDA.pdf",
+   "timestamp": "20170629005008",
+   "wayback_url": "https://web.archive.org/web/20170629005008id_/http://www.nexgenenergy.ca/_resources/financials/2016-Q1-MDA.pdf",
+   "bytes": 156335,
+   "title": "2016-Q1-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://nexgenenergy.ca:80/_resources/financials/2016-Q2-FS.pdf",
+   "timestamp": "20160928190724",
+   "wayback_url": "https://web.archive.org/web/20160928190724id_/http://nexgenenergy.ca:80/_resources/financials/2016-Q2-FS.pdf",
+   "bytes": 478908,
+   "title": "2016-Q2-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/2016-Q2-MDA.pdf",
+   "timestamp": "20170629020907",
+   "wayback_url": "https://web.archive.org/web/20170629020907id_/http://www.nexgenenergy.ca/_resources/financials/2016-Q2-MDA.pdf",
+   "bytes": 488311,
+   "title": "2016-Q2-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://nexgenenergy.ca:80/_resources/financials/2018-Q1-FS-FINAL.pdf",
+   "timestamp": "20180729012300",
+   "wayback_url": "https://web.archive.org/web/20180729012300id_/http://nexgenenergy.ca:80/_resources/financials/2018-Q1-FS-FINAL.pdf",
+   "bytes": 746098,
+   "title": "2018-Q1-FS-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/financials/2019-Q1-FS-FINAL.pdf",
+   "timestamp": "20210923202643",
+   "wayback_url": "https://web.archive.org/web/20210923202643id_/https://www.nexgenenergy.ca/_resources/financials/2019-Q1-FS-FINAL.pdf",
+   "bytes": 387586,
+   "title": "2019-Q1-FS-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/financials/2019-Q1-MDA-FINAL.pdf",
+   "timestamp": "20210923215533",
+   "wayback_url": "https://web.archive.org/web/20210923215533id_/https://www.nexgenenergy.ca/_resources/financials/2019-Q1-MDA-FINAL.pdf",
+   "bytes": 389837,
+   "title": "2019-Q1-MDA-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/financials/2019-Q3-FS.pdf",
+   "timestamp": "20210923205120",
+   "wayback_url": "https://web.archive.org/web/20210923205120id_/https://www.nexgenenergy.ca/_resources/financials/2019-Q3-FS.pdf",
+   "bytes": 249544,
+   "title": "2019-Q3-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/financials/2019-Q3-MDA.pdf",
+   "timestamp": "20210923212312",
+   "wayback_url": "https://web.archive.org/web/20210923212312id_/https://www.nexgenenergy.ca/_resources/financials/2019-Q3-MDA.pdf",
+   "bytes": 246024,
+   "title": "2019-Q3-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/financials/2020-Q1-FS.pdf",
+   "timestamp": "20200926092748",
+   "wayback_url": "https://web.archive.org/web/20200926092748id_/https://nexgenenergy.ca/_resources/financials/2020-Q1-FS.pdf",
+   "bytes": 239804,
+   "title": "2020-Q1-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/financials/2020-Q1-MDA.pdf",
+   "timestamp": "20200926075151",
+   "wayback_url": "https://web.archive.org/web/20200926075151id_/https://nexgenenergy.ca/_resources/financials/2020-Q1-MDA.pdf",
+   "bytes": 247099,
+   "title": "2020-Q1-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/financials/2020-Q2-FS.pdf",
+   "timestamp": "20200926081759",
+   "wayback_url": "https://web.archive.org/web/20200926081759id_/https://nexgenenergy.ca/_resources/financials/2020-Q2-FS.pdf",
+   "bytes": 358999,
+   "title": "2020-Q2-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/financials/2020-Q2-MDA.pdf",
+   "timestamp": "20200926092005",
+   "wayback_url": "https://web.archive.org/web/20200926092005id_/https://nexgenenergy.ca/_resources/financials/2020-Q2-MDA.pdf",
+   "bytes": 403538,
+   "title": "2020-Q2-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/financials/2020-Q3-FS.pdf",
+   "timestamp": "20201202043324",
+   "wayback_url": "https://web.archive.org/web/20201202043324id_/https://nexgenenergy.ca/_resources/financials/2020-Q3-FS.pdf",
+   "bytes": 368597,
+   "title": "2020-Q3-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/financials/2020-Q3-MDA.pdf",
+   "timestamp": "20201202030829",
+   "wayback_url": "https://web.archive.org/web/20201202030829id_/https://nexgenenergy.ca/_resources/financials/2020-Q3-MDA.pdf",
+   "bytes": 755146,
+   "title": "2020-Q3-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/financials/2020-YE-Audited-FS.pdf",
+   "timestamp": "20210512204339",
+   "wayback_url": "https://web.archive.org/web/20210512204339id_/https://www.nexgenenergy.ca/_resources/financials/2020-YE-Audited-FS.pdf",
+   "bytes": 682183,
+   "title": "2020-YE-Audited-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/financials/2020-YE-NXE-MDA-FINAL.pdf",
+   "timestamp": "20210515121052",
+   "wayback_url": "https://web.archive.org/web/20210515121052id_/https://nexgenenergy.ca/_resources/financials/2020-YE-NXE-MDA-FINAL.pdf",
+   "bytes": 403556,
+   "title": "2020-YE-NXE-MDA-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/financials/2nd-2019-Quarter-Financial-Statements.pdf",
+   "timestamp": "20190916224803",
+   "wayback_url": "https://web.archive.org/web/20190916224803id_/https://nexgenenergy.ca/_resources/financials/2nd-2019-Quarter-Financial-Statements.pdf",
+   "bytes": 342711,
+   "title": "2nd-2019-Quarter-Financial-Statements.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/financials/2nd-2019-Quarter-Management-Discussion-and-Analysis.pdf",
+   "timestamp": "20190916224607",
+   "wayback_url": "https://web.archive.org/web/20190916224607id_/https://nexgenenergy.ca/_resources/financials/2nd-2019-Quarter-Management-Discussion-and-Analysis.pdf",
+   "bytes": 337760,
+   "title": "2nd-2019-Quarter-Management-Discussion-and-Analysis.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/financials/Financial-Statements-December-31-2017.pdf",
+   "timestamp": "20181031120453",
+   "wayback_url": "https://web.archive.org/web/20181031120453id_/http://nexgenenergy.ca/_resources/financials/Financial-Statements-December-31-2017.pdf",
+   "bytes": 623589,
+   "title": "Financial-Statements-December-31-2017.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/financials/Financial-Statements-December-31-2018.pdf",
+   "timestamp": "20210923214811",
+   "wayback_url": "https://web.archive.org/web/20210923214811id_/https://www.nexgenenergy.ca/_resources/financials/Financial-Statements-December-31-2018.pdf",
+   "bytes": 389418,
+   "title": "Financial-Statements-December-31-2018.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/FS-Q2-2015.pdf",
+   "timestamp": "20170629030541",
+   "wayback_url": "https://web.archive.org/web/20170629030541id_/http://www.nexgenenergy.ca/_resources/financials/FS-Q2-2015.pdf",
+   "bytes": 207879,
+   "title": "FS-Q2-2015.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/FS-Q3-2015.pdf",
+   "timestamp": "20170629020143",
+   "wayback_url": "https://web.archive.org/web/20170629020143id_/http://www.nexgenenergy.ca/_resources/financials/FS-Q3-2015.pdf",
+   "bytes": 204836,
+   "title": "FS-Q3-2015.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/financials/MDA-December-31-2017.pdf",
+   "timestamp": "20181101021057",
+   "wayback_url": "https://web.archive.org/web/20181101021057id_/http://nexgenenergy.ca/_resources/financials/MDA-December-31-2017.pdf",
+   "bytes": 363535,
+   "title": "MDA-December-31-2017.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/financials/MDA-December-31-2018.pdf",
+   "timestamp": "20210923205556",
+   "wayback_url": "https://web.archive.org/web/20210923205556id_/https://www.nexgenenergy.ca/_resources/financials/MDA-December-31-2018.pdf",
+   "bytes": 310808,
+   "title": "MDA-December-31-2018.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/MDA-Q2-2015.pdf",
+   "timestamp": "20170628233604",
+   "wayback_url": "https://web.archive.org/web/20170628233604id_/http://www.nexgenenergy.ca/_resources/financials/MDA-Q2-2015.pdf",
+   "bytes": 479866,
+   "title": "MDA-Q2-2015.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/MDA-Q3-2015.pdf",
+   "timestamp": "20170629011458",
+   "wayback_url": "https://web.archive.org/web/20170629011458id_/http://www.nexgenenergy.ca/_resources/financials/MDA-Q3-2015.pdf",
+   "bytes": 119411,
+   "title": "MDA-Q3-2015.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/financials/NexGen-Energy-FS-Q1-2021.pdf",
+   "timestamp": "20210624111736",
+   "wayback_url": "https://web.archive.org/web/20210624111736id_/https://www.nexgenenergy.ca/_resources/financials/NexGen-Energy-FS-Q1-2021.pdf",
+   "bytes": 383844,
+   "title": "NexGen-Energy-FS-Q1-2021.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/financials/NexGen-Energy-FS-Q2-2021-FINAL.pdf",
+   "timestamp": "20210923214352",
+   "wayback_url": "https://web.archive.org/web/20210923214352id_/https://www.nexgenenergy.ca/_resources/financials/NexGen-Energy-FS-Q2-2021-FINAL.pdf",
+   "bytes": 439512,
+   "title": "NexGen-Energy-FS-Q2-2021-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/financials/NexGen-Energy-FS-Q3-2021.pdf",
+   "timestamp": "20211109113943",
+   "wayback_url": "https://web.archive.org/web/20211109113943id_/https://www.nexgenenergy.ca/_resources/financials/NexGen-Energy-FS-Q3-2021.pdf",
+   "bytes": 446559,
+   "title": "NexGen-Energy-FS-Q3-2021.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/financials/NexGen-Energy-MDA-Q1-2021.pdf",
+   "timestamp": "20210731153112",
+   "wayback_url": "https://web.archive.org/web/20210731153112id_/https://nexgenenergy.ca/_resources/financials/NexGen-Energy-MDA-Q1-2021.pdf",
+   "bytes": 436300,
+   "title": "NexGen-Energy-MDA-Q1-2021.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/financials/NexGen-Energy-MDA-Q2-2021-FINAL.pdf",
+   "timestamp": "20211026000314",
+   "wayback_url": "https://web.archive.org/web/20211026000314id_/https://nexgenenergy.ca/_resources/financials/NexGen-Energy-MDA-Q2-2021-FINAL.pdf",
+   "bytes": 532229,
+   "title": "NexGen-Energy-MDA-Q2-2021-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/financials/NexGen-Energy-MDA-Q3-2021.pdf",
+   "timestamp": "20211207023031",
+   "wayback_url": "https://web.archive.org/web/20211207023031id_/https://nexgenenergy.ca/_resources/financials/NexGen-Energy-MDA-Q3-2021.pdf",
+   "bytes": 493524,
+   "title": "NexGen-Energy-MDA-Q3-2021.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/NexGen-Q314-FS.pdf",
+   "timestamp": "20170629022617",
+   "wayback_url": "https://web.archive.org/web/20170629022617id_/http://www.nexgenenergy.ca/_resources/financials/NexGen-Q314-FS.pdf",
+   "bytes": 169903,
+   "title": "NexGen-Q314-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/NexGen-Q314-MDA.pdf",
+   "timestamp": "20170629005613",
+   "wayback_url": "https://web.archive.org/web/20170629005613id_/http://www.nexgenenergy.ca/_resources/financials/NexGen-Q314-MDA.pdf",
+   "bytes": 246166,
+   "title": "NexGen-Q314-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/financials/NXE-MDA-Q1-2018.pdf",
+   "timestamp": "20181031215752",
+   "wayback_url": "https://web.archive.org/web/20181031215752id_/http://nexgenenergy.ca/_resources/financials/NXE-MDA-Q1-2018.pdf",
+   "bytes": 515118,
+   "title": "NXE-MDA-Q1-2018.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/Q1-2017-FS.pdf",
+   "timestamp": "20170606030357",
+   "wayback_url": "https://web.archive.org/web/20170606030357id_/http://www.nexgenenergy.ca/_resources/financials/Q1-2017-FS.pdf",
+   "bytes": 234255,
+   "title": "Q1-2017-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/Q1-2017-MDA.pdf",
+   "timestamp": "20170628235843",
+   "wayback_url": "https://web.archive.org/web/20170628235843id_/http://www.nexgenenergy.ca/_resources/financials/Q1-2017-MDA.pdf",
+   "bytes": 169933,
+   "title": "Q1-2017-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/financials/Q2-2017-FS.pdf",
+   "timestamp": "20180924142929",
+   "wayback_url": "https://web.archive.org/web/20180924142929id_/http://nexgenenergy.ca/_resources/financials/Q2-2017-FS.pdf",
+   "bytes": 613561,
+   "title": "Q2-2017-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/financials/Q2-2017-MDA.pdf",
+   "timestamp": "20181031182013",
+   "wayback_url": "https://web.archive.org/web/20181031182013id_/http://nexgenenergy.ca/_resources/financials/Q2-2017-MDA.pdf",
+   "bytes": 539999,
+   "title": "Q2-2017-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/financials/Q2-2018-FS.pdf",
+   "timestamp": "20181101003335",
+   "wayback_url": "https://web.archive.org/web/20181101003335id_/http://nexgenenergy.ca/_resources/financials/Q2-2018-FS.pdf",
+   "bytes": 291218,
+   "title": "Q2-2018-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/_resources/financials/Q2-2018-MDA.pdf",
+   "timestamp": "20180920174302",
+   "wayback_url": "https://web.archive.org/web/20180920174302id_/http://www.nexgenenergy.ca:80/_resources/financials/Q2-2018-MDA.pdf",
+   "bytes": 541010,
+   "title": "Q2-2018-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://nexgenenergy.ca:80/_resources/financials/Q3-2017-FS.pdf",
+   "timestamp": "20180509074204",
+   "wayback_url": "https://web.archive.org/web/20180509074204id_/http://nexgenenergy.ca:80/_resources/financials/Q3-2017-FS.pdf",
+   "bytes": 623245,
+   "title": "Q3-2017-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/financials/Q3-2017-MDA.pdf",
+   "timestamp": "20181101032332",
+   "wayback_url": "https://web.archive.org/web/20181101032332id_/http://nexgenenergy.ca/_resources/financials/Q3-2017-MDA.pdf",
+   "bytes": 281948,
+   "title": "Q3-2017-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/financials/Q3-2018-FS.pdf",
+   "timestamp": "20210923203159",
+   "wayback_url": "https://web.archive.org/web/20210923203159id_/https://www.nexgenenergy.ca/_resources/financials/Q3-2018-FS.pdf",
+   "bytes": 403982,
+   "title": "Q3-2018-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/financials/Q3-2018-MDA.pdf",
+   "timestamp": "20210923210531",
+   "wayback_url": "https://web.archive.org/web/20210923210531id_/https://www.nexgenenergy.ca/_resources/financials/Q3-2018-MDA.pdf",
+   "bytes": 382782,
+   "title": "Q3-2018-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/financials/Q4-2019-FS.pdf",
+   "timestamp": "20200508111250",
+   "wayback_url": "https://web.archive.org/web/20200508111250id_/https://www.nexgenenergy.ca/_resources/financials/Q4-2019-FS.pdf",
+   "bytes": 436324,
+   "title": "Q4-2019-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/financials/Q4-2019-MDA.pdf",
+   "timestamp": "20210923214628",
+   "wayback_url": "https://web.archive.org/web/20210923214628id_/https://www.nexgenenergy.ca/_resources/financials/Q4-2019-MDA.pdf",
+   "bytes": 307226,
+   "title": "Q4-2019-MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/Sep_30_2016_Q3_FS.pdf",
+   "timestamp": "20170301064011",
+   "wayback_url": "https://web.archive.org/web/20170301064011id_/http://www.nexgenenergy.ca/_resources/financials/Sep_30_2016_Q3_FS.pdf",
+   "bytes": 622036,
+   "title": "Sep_30_2016_Q3_FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/Sep_3__2016_Q3_MDA.pdf",
+   "timestamp": "20170629014349",
+   "wayback_url": "https://web.archive.org/web/20170629014349id_/http://www.nexgenenergy.ca/_resources/financials/Sep_3__2016_Q3_MDA.pdf",
+   "bytes": 559391,
+   "title": "Sep_3__2016_Q3_MDA.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/Year-End-Financials-March-7.pdf",
+   "timestamp": "20170621065020",
+   "wayback_url": "https://web.archive.org/web/20170621065020id_/http://www.nexgenenergy.ca/_resources/financials/Year-End-Financials-March-7.pdf",
+   "bytes": 1046112,
+   "title": "Year-End-Financials-March-7.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/financials/Year-End-MDA-March-7.pdf",
+   "timestamp": "20170628233435",
+   "wayback_url": "https://web.archive.org/web/20170628233435id_/http://www.nexgenenergy.ca/_resources/financials/Year-End-MDA-March-7.pdf",
+   "bytes": 430956,
+   "title": "Year-End-MDA-March-7.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/governance/Articles.pdf",
+   "timestamp": "20180921035039",
+   "wayback_url": "https://web.archive.org/web/20180921035039id_/http://nexgenenergy.ca/_resources/governance/Articles.pdf",
+   "bytes": 161411,
+   "title": "Articles.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/governance/Audit-Committee-Charter.pdf",
+   "timestamp": "20170613153019",
+   "wayback_url": "https://web.archive.org/web/20170613153019id_/http://nexgenenergy.ca/_resources/governance/Audit-Committee-Charter.pdf",
+   "bytes": 221008,
+   "title": "Audit-Committee-Charter.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/governance/Board-Mandate.pdf",
+   "timestamp": "20170613122804",
+   "wayback_url": "https://web.archive.org/web/20170613122804id_/http://nexgenenergy.ca/_resources/governance/Board-Mandate.pdf",
+   "bytes": 51184,
+   "title": "Board-Mandate.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/governance/Code-of-Ethics.pdf",
+   "timestamp": "20170613153438",
+   "wayback_url": "https://web.archive.org/web/20170613153438id_/http://nexgenenergy.ca/_resources/governance/Code-of-Ethics.pdf",
+   "bytes": 207921,
+   "title": "Code-of-Ethics.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/governance/Compensation-Committee-Charter.pdf",
+   "timestamp": "20170613155938",
+   "wayback_url": "https://web.archive.org/web/20170613155938id_/http://nexgenenergy.ca/_resources/governance/Compensation-Committee-Charter.pdf",
+   "bytes": 35650,
+   "title": "Compensation-Committee-Charter.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/governance/Disclosure-Policy.pdf",
+   "timestamp": "20170613125350",
+   "wayback_url": "https://web.archive.org/web/20170613125350id_/http://nexgenenergy.ca/_resources/governance/Disclosure-Policy.pdf",
+   "bytes": 165506,
+   "title": "Disclosure-Policy.pdf",
+   "type": "closure",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/governance/Diversity-Policy.pdf",
+   "timestamp": "20180921133719",
+   "wayback_url": "https://web.archive.org/web/20180921133719id_/http://nexgenenergy.ca/_resources/governance/Diversity-Policy.pdf",
+   "bytes": 526281,
+   "title": "Diversity-Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/governance/Insider-Trading-Policy.pdf",
+   "timestamp": "20170613081243",
+   "wayback_url": "https://web.archive.org/web/20170613081243id_/http://nexgenenergy.ca/_resources/governance/Insider-Trading-Policy.pdf",
+   "bytes": 213583,
+   "title": "Insider-Trading-Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/governance/Majority-Voting-Policy.pdf",
+   "timestamp": "20180921200512",
+   "wayback_url": "https://web.archive.org/web/20180921200512id_/http://nexgenenergy.ca/_resources/governance/Majority-Voting-Policy.pdf",
+   "bytes": 26809,
+   "title": "Majority-Voting-Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/governance/Nomination-and-Governance-Committee-Charter.pdf",
+   "timestamp": "20170613115459",
+   "wayback_url": "https://web.archive.org/web/20170613115459id_/http://nexgenenergy.ca/_resources/governance/Nomination-and-Governance-Committee-Charter.pdf",
+   "bytes": 202910,
+   "title": "Nomination-and-Governance-Committee-Charter.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/governance/Notice-of-Articles.pdf",
+   "timestamp": "20180921201903",
+   "wayback_url": "https://web.archive.org/web/20180921201903id_/http://nexgenenergy.ca/_resources/governance/Notice-of-Articles.pdf",
+   "bytes": 139561,
+   "title": "Notice-of-Articles.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/governance/NXE-Respectful-Workplace-Policy.pdf",
+   "timestamp": "20211207023849",
+   "wayback_url": "https://web.archive.org/web/20211207023849id_/https://nexgenenergy.ca/_resources/governance/NXE-Respectful-Workplace-Policy.pdf",
+   "bytes": 263875,
+   "title": "NXE-Respectful-Workplace-Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/governance/Statement-of-Significant-Differences.pdf",
+   "timestamp": "20170613072416",
+   "wayback_url": "https://web.archive.org/web/20170613072416id_/http://nexgenenergy.ca/_resources/governance/Statement-of-Significant-Differences.pdf",
+   "bytes": 119413,
+   "title": "Statement-of-Significant-Differences.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/governance/Whistleblower-Policy.pdf",
+   "timestamp": "20170613081347",
+   "wayback_url": "https://web.archive.org/web/20170613081347id_/http://nexgenenergy.ca/_resources/governance/Whistleblower-Policy.pdf",
+   "bytes": 124282,
+   "title": "Whistleblower-Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Fig-1.pdf",
+   "timestamp": "20171004145341",
+   "wayback_url": "https://web.archive.org/web/20171004145341id_/http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Fig-1.pdf",
+   "bytes": 738883,
+   "title": "20140331_NXE-Fig-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Fig-2-Table-2.pdf",
+   "timestamp": "20171004131404",
+   "wayback_url": "https://web.archive.org/web/20171004131404id_/http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Fig-2-Table-2.pdf",
+   "bytes": 138140,
+   "title": "20140331_NXE-Fig-2-Table-2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Fig-3-Table-3.pdf",
+   "timestamp": "20171004114323",
+   "wayback_url": "https://web.archive.org/web/20171004114323id_/http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Fig-3-Table-3.pdf",
+   "bytes": 114714,
+   "title": "20140331_NXE-Fig-3-Table-3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Fig-4-Table-4.pdf",
+   "timestamp": "20171004131058",
+   "wayback_url": "https://web.archive.org/web/20171004131058id_/http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Fig-4-Table-4.pdf",
+   "bytes": 103392,
+   "title": "20140331_NXE-Fig-4-Table-4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Fig-72.pdf",
+   "timestamp": "20171004125852",
+   "wayback_url": "https://web.archive.org/web/20171004125852id_/http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Fig-72.pdf",
+   "bytes": 208983,
+   "title": "20140331_NXE-Fig-72.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Table-1.pdf",
+   "timestamp": "20171004145131",
+   "wayback_url": "https://web.archive.org/web/20171004145131id_/http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Table-1.pdf",
+   "bytes": 35323,
+   "title": "20140331_NXE-Table-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Table-2.pdf",
+   "timestamp": "20171004115235",
+   "wayback_url": "https://web.archive.org/web/20171004115235id_/http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Table-2.pdf",
+   "bytes": 79173,
+   "title": "20140331_NXE-Table-2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Table-3.pdf",
+   "timestamp": "20171004134617",
+   "wayback_url": "https://web.archive.org/web/20171004134617id_/http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Table-3.pdf",
+   "bytes": 57328,
+   "title": "20140331_NXE-Table-3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Table-4.pdf",
+   "timestamp": "20171004123140",
+   "wayback_url": "https://web.archive.org/web/20171004123140id_/http://www.nexgenenergy.ca/_resources/images/nr/20140331_NXE-Table-4.pdf",
+   "bytes": 46303,
+   "title": "20140331_NXE-Table-4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/images/nr/NexGen-NXE.pdf",
+   "timestamp": "20171004223819",
+   "wayback_url": "https://web.archive.org/web/20171004223819id_/http://www.nexgenenergy.ca/_resources/images/nr/NexGen-NXE.pdf",
+   "bytes": 339721,
+   "title": "NexGen-NXE.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/Accounts-Payable-Posting.pdf",
+   "timestamp": "20200926081544",
+   "wayback_url": "https://web.archive.org/web/20200926081544id_/https://nexgenenergy.ca/_resources/job-postings/Accounts-Payable-Posting.pdf",
+   "bytes": 133317,
+   "title": "Accounts-Payable-Posting.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/Contracts-and-Procurement-Manager.pdf",
+   "timestamp": "20210731161038",
+   "wayback_url": "https://web.archive.org/web/20210731161038id_/https://nexgenenergy.ca/_resources/job-postings/Contracts-and-Procurement-Manager.pdf",
+   "bytes": 143231,
+   "title": "Contracts-and-Procurement-Manager.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/Corporate-Controller-JD.pdf",
+   "timestamp": "20220117091648",
+   "wayback_url": "https://web.archive.org/web/20220117091648id_/https://nexgenenergy.ca/_resources/job-postings/Corporate-Controller-JD.pdf",
+   "bytes": 206665,
+   "title": "Corporate-Controller-JD.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/Document-Control-Specialist-Final.pdf",
+   "timestamp": "20210126082633",
+   "wayback_url": "https://web.archive.org/web/20210126082633id_/https://nexgenenergy.ca/_resources/job-postings/Document-Control-Specialist-Final.pdf",
+   "bytes": 136290,
+   "title": "Document-Control-Specialist-Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/Engineering-Manager.pdf",
+   "timestamp": "20210515104347",
+   "wayback_url": "https://web.archive.org/web/20210515104347id_/https://nexgenenergy.ca/_resources/job-postings/Engineering-Manager.pdf",
+   "bytes": 126611,
+   "title": "Engineering-Manager.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/Environment-Lead-Final.pdf",
+   "timestamp": "20200926085618",
+   "wayback_url": "https://web.archive.org/web/20200926085618id_/https://nexgenenergy.ca/_resources/job-postings/Environment-Lead-Final.pdf",
+   "bytes": 135554,
+   "title": "Environment-Lead-Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/Environment-Technician-06-21-21.pdf",
+   "timestamp": "20210731141422",
+   "wayback_url": "https://web.archive.org/web/20210731141422id_/https://nexgenenergy.ca/_resources/job-postings/Environment-Technician-06-21-21.pdf",
+   "bytes": 210706,
+   "title": "Environment-Technician-06-21-21.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/Intermediate-Geologist.pdf",
+   "timestamp": "20211207034036",
+   "wayback_url": "https://web.archive.org/web/20211207034036id_/https://nexgenenergy.ca/_resources/job-postings/Intermediate-Geologist.pdf",
+   "bytes": 188497,
+   "title": "Intermediate-Geologist.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/JobDescription-Director-Mine-Technical-Services_Final.pdf",
+   "timestamp": "20200926083120",
+   "wayback_url": "https://web.archive.org/web/20200926083120id_/https://nexgenenergy.ca/_resources/job-postings/JobDescription-Director-Mine-Technical-Services_Final.pdf",
+   "bytes": 134610,
+   "title": "JobDescription-Director-Mine-Technical-Services_Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/JobDescription-Mine-Planner-Final.pdf",
+   "timestamp": "20200926092102",
+   "wayback_url": "https://web.archive.org/web/20200926092102id_/https://nexgenenergy.ca/_resources/job-postings/JobDescription-Mine-Planner-Final.pdf",
+   "bytes": 134090,
+   "title": "JobDescription-Mine-Planner-Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/JobDescription-Project-Engineer-Final.pdf",
+   "timestamp": "20200926074553",
+   "wayback_url": "https://web.archive.org/web/20200926074553id_/https://nexgenenergy.ca/_resources/job-postings/JobDescription-Project-Engineer-Final.pdf",
+   "bytes": 135077,
+   "title": "JobDescription-Project-Engineer-Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/Lead-Project-Geologist-Posting-May-2021.pdf",
+   "timestamp": "20210731155439",
+   "wayback_url": "https://web.archive.org/web/20210731155439id_/https://nexgenenergy.ca/_resources/job-postings/Lead-Project-Geologist-Posting-May-2021.pdf",
+   "bytes": 148929,
+   "title": "Lead-Project-Geologist-Posting-May-2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/Manager-Environmental-Permitting.pdf",
+   "timestamp": "20200926081330",
+   "wayback_url": "https://web.archive.org/web/20200926081330id_/https://nexgenenergy.ca/_resources/job-postings/Manager-Environmental-Permitting.pdf",
+   "bytes": 135073,
+   "title": "Manager-Environmental-Permitting.pdf",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/Manager-Information-Technology-JD.pdf",
+   "timestamp": "20220117094458",
+   "wayback_url": "https://web.archive.org/web/20220117094458id_/https://nexgenenergy.ca/_resources/job-postings/Manager-Information-Technology-JD.pdf",
+   "bytes": 206412,
+   "title": "Manager-Information-Technology-JD.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/Project-Support-Geologist.pdf",
+   "timestamp": "20210731152516",
+   "wayback_url": "https://web.archive.org/web/20210731152516id_/https://nexgenenergy.ca/_resources/job-postings/Project-Support-Geologist.pdf",
+   "bytes": 159010,
+   "title": "Project-Support-Geologist.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/job-postings/Senior-Geologist.pdf",
+   "timestamp": "20211207023343",
+   "wayback_url": "https://web.archive.org/web/20211207023343id_/https://nexgenenergy.ca/_resources/job-postings/Senior-Geologist.pdf",
+   "bytes": 188531,
+   "title": "Senior-Geologist.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/maps/Bow-Drilling.pdf",
+   "timestamp": "20170614025146",
+   "wayback_url": "https://web.archive.org/web/20170614025146id_/http://nexgenenergy.ca/_resources/maps/Bow-Drilling.pdf",
+   "bytes": 141921,
+   "title": "Bow-Drilling.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/maps/NXE-ROOK1-w-corridors_20171016.pdf",
+   "timestamp": "20180921195433",
+   "wayback_url": "https://web.archive.org/web/20180921195433id_/http://nexgenenergy.ca/_resources/maps/NXE-ROOK1-w-corridors_20171016.pdf",
+   "bytes": 488676,
+   "title": "NXE-ROOK1-w-corridors_20171016.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/news/2014-10-07_NR.pdf",
+   "timestamp": "20170620135856",
+   "wayback_url": "https://web.archive.org/web/20170620135856id_/http://www.nexgenenergy.ca/_resources/news/2014-10-07_NR.pdf",
+   "bytes": 101438,
+   "title": "2014-10-07_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/news/2015-02-12_NR.pdf",
+   "timestamp": "20170620015821",
+   "wayback_url": "https://web.archive.org/web/20170620015821id_/http://www.nexgenenergy.ca/_resources/news/2015-02-12_NR.pdf",
+   "bytes": 99593,
+   "title": "2015-02-12_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/news/2015-05-05_NR.pdf",
+   "timestamp": "20170620101726",
+   "wayback_url": "https://web.archive.org/web/20170620101726id_/http://www.nexgenenergy.ca/_resources/news/2015-05-05_NR.pdf",
+   "bytes": 106274,
+   "title": "2015-05-05_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/news/2015-07-09_NR_NXE_2UgzVd.pdf",
+   "timestamp": "20170620093016",
+   "wayback_url": "https://web.archive.org/web/20170620093016id_/http://www.nexgenenergy.ca/_resources/news/2015-07-09_NR_NXE_2UgzVd.pdf",
+   "bytes": 93604,
+   "title": "2015-07-09_NR_NXE_2UgzVd.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/news/2015-11-18_NR.pdf",
+   "timestamp": "20170620062130",
+   "wayback_url": "https://web.archive.org/web/20170620062130id_/http://www.nexgenenergy.ca/_resources/news/2015-11-18_NR.pdf",
+   "bytes": 70922,
+   "title": "2015-11-18_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/news/NexGen-PR-April-13-2015-BOW.pdf",
+   "timestamp": "20170620052153",
+   "wayback_url": "https://web.archive.org/web/20170620052153id_/http://www.nexgenenergy.ca/_resources/news/NexGen-PR-April-13-2015-BOW.pdf",
+   "bytes": 484434,
+   "title": "NexGen-PR-April-13-2015-BOW.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/news/NexGen-PR-May-4-2015.pdf",
+   "timestamp": "20170620042925",
+   "wayback_url": "https://web.archive.org/web/20170620042925id_/http://www.nexgenenergy.ca/_resources/news/NexGen-PR-May-4-2015.pdf",
+   "bytes": 105335,
+   "title": "NexGen-PR-May-4-2015.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/pdf/2019_ESTMA_Report_Final.pdf",
+   "timestamp": "20200926082636",
+   "wayback_url": "https://web.archive.org/web/20200926082636id_/https://nexgenenergy.ca/_resources/pdf/2019_ESTMA_Report_Final.pdf",
+   "bytes": 58261,
+   "title": "2019_ESTMA_Report_Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/pdf/2020-ESTMA-Report-Final.pdf",
+   "timestamp": "20210731162120",
+   "wayback_url": "https://web.archive.org/web/20210731162120id_/https://nexgenenergy.ca/_resources/pdf/2020-ESTMA-Report-Final.pdf",
+   "bytes": 146873,
+   "title": "2020-ESTMA-Report-Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/pdf/Annual-Information-Form-2017.pdf",
+   "timestamp": "20181016072907",
+   "wayback_url": "https://web.archive.org/web/20181016072907id_/http://nexgenenergy.ca/_resources/pdf/Annual-Information-Form-2017.pdf",
+   "bytes": 335124,
+   "title": "Annual-Information-Form-2017.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/pdf/Annual-Information-Form-2018.pdf",
+   "timestamp": "20220127212135",
+   "wayback_url": "https://web.archive.org/web/20220127212135id_/https://nexgenenergy.ca/_resources/pdf/Annual-Information-Form-2018.pdf",
+   "bytes": 659151,
+   "title": "Annual-Information-Form-2018.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/pdf/ArrowLakeProfile.pdf",
+   "timestamp": "20170625053922",
+   "wayback_url": "https://web.archive.org/web/20170625053922id_/http://www.nexgenenergy.ca/_resources/pdf/ArrowLakeProfile.pdf",
+   "bytes": 733474,
+   "title": "ArrowLakeProfile.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/pdf/FYE-Dec-31-2013.pdf",
+   "timestamp": "20170707150733",
+   "wayback_url": "https://web.archive.org/web/20170707150733id_/http://nexgenenergy.ca/_resources/pdf/FYE-Dec-31-2013.pdf",
+   "bytes": 271374,
+   "title": "FYE-Dec-31-2013.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/pdf/FYE-Dec-31-2014.pdf",
+   "timestamp": "20170707143934",
+   "wayback_url": "https://web.archive.org/web/20170707143934id_/http://nexgenenergy.ca/_resources/pdf/FYE-Dec-31-2014.pdf",
+   "bytes": 834268,
+   "title": "FYE-Dec-31-2014.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/pdf/FYE-Dec-31-2015.pdf",
+   "timestamp": "20170707155949",
+   "wayback_url": "https://web.archive.org/web/20170707155949id_/http://nexgenenergy.ca/_resources/pdf/FYE-Dec-31-2015.pdf",
+   "bytes": 502757,
+   "title": "FYE-Dec-31-2015.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/pdf/FYE-Dec-31-2016.pdf",
+   "timestamp": "20170707175319",
+   "wayback_url": "https://web.archive.org/web/20170707175319id_/http://nexgenenergy.ca/_resources/pdf/FYE-Dec-31-2016.pdf",
+   "bytes": 332908,
+   "title": "FYE-Dec-31-2016.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/pdf/NexGen-Energy-Canada-Prospectus-16-June-2021-514930865-1.pdf",
+   "timestamp": "20210731142318",
+   "wayback_url": "https://web.archive.org/web/20210731142318id_/https://nexgenenergy.ca/_resources/pdf/NexGen-Energy-Canada-Prospectus-16-June-2021-514930865-1.pdf",
+   "bytes": 918964,
+   "title": "NexGen-Energy-Canada-Prospectus-16-June-2021-514930865-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/pdf/NexGen-ONLINE-compressed.pdf",
+   "timestamp": "20211026132555",
+   "wayback_url": "https://web.archive.org/web/20211026132555id_/https://www.nexgenenergy.ca/_resources/pdf/NexGen-ONLINE-compressed.pdf",
+   "bytes": 13768745,
+   "title": "NexGen-ONLINE-compressed.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/pdf/NXE-Annual-Information-Form-2019.pdf",
+   "timestamp": "20220127212130",
+   "wayback_url": "https://web.archive.org/web/20220127212130id_/https://nexgenenergy.ca/_resources/pdf/NXE-Annual-Information-Form-2019.pdf",
+   "bytes": 589085,
+   "title": "NXE-Annual-Information-Form-2019.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/pdf/NXE-Annual-Information-Form-2020.pdf",
+   "timestamp": "20210515111003",
+   "wayback_url": "https://web.archive.org/web/20210515111003id_/https://nexgenenergy.ca/_resources/pdf/NXE-Annual-Information-Form-2020.pdf",
+   "bytes": 718319,
+   "title": "NXE-Annual-Information-Form-2020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.nexgenenergy.ca/_resources/pdf/UxW35-35-Leigh-Interview.pdf",
+   "timestamp": "20210902143022",
+   "wayback_url": "https://web.archive.org/web/20210902143022id_/https://www.nexgenenergy.ca/_resources/pdf/UxW35-35-Leigh-Interview.pdf",
+   "bytes": 316453,
+   "title": "UxW35-35-Leigh-Interview.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca:80/_resources/presentations/corporate-presentation.pdf",
+   "timestamp": "20160928115001",
+   "wayback_url": "https://web.archive.org/web/20160928115001id_/http://nexgenenergy.ca:80/_resources/presentations/corporate-presentation.pdf",
+   "bytes": 5284764,
+   "title": "corporate-presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/presentations/NXE-PEA-Presentation_July_lcFINAL.pdf",
+   "timestamp": "20180815201406",
+   "wayback_url": "https://web.archive.org/web/20180815201406id_/http://nexgenenergy.ca/_resources/presentations/NXE-PEA-Presentation_July_lcFINAL.pdf",
+   "bytes": 10290223,
+   "title": "NXE-PEA-Presentation_July_lcFINAL.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/reports/0000-BA00-RPT-0002-C2.pdf",
+   "timestamp": "20210515114225",
+   "wayback_url": "https://web.archive.org/web/20210515114225id_/https://nexgenenergy.ca/_resources/reports/0000-BA00-RPT-0002-C2.pdf",
+   "bytes": 900748,
+   "title": "0000-BA00-RPT-0002-C2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/reports/AR-14-30-Assay-Cut-Off-Comparisons-Table.pdf",
+   "timestamp": "20170625062207",
+   "wayback_url": "https://web.archive.org/web/20170625062207id_/http://www.nexgenenergy.ca/_resources/reports/AR-14-30-Assay-Cut-Off-Comparisons-Table.pdf",
+   "bytes": 35887,
+   "title": "AR-14-30-Assay-Cut-Off-Comparisons-Table.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/reports/composited-mineralized-intervals-AR-14-15.pdf",
+   "timestamp": "20170624235319",
+   "wayback_url": "https://web.archive.org/web/20170624235319id_/http://www.nexgenenergy.ca/_resources/reports/composited-mineralized-intervals-AR-14-15.pdf",
+   "bytes": 44782,
+   "title": "composited-mineralized-intervals-AR-14-15.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/_resources/reports/Rook-1-Technical-Report-Mar-31-2017.pdf",
+   "timestamp": "20170711042258",
+   "wayback_url": "https://web.archive.org/web/20170711042258id_/http://www.nexgenenergy.ca/_resources/reports/Rook-1-Technical-Report-Mar-31-2017.pdf",
+   "bytes": 14672129,
+   "title": "Rook-1-Technical-Report-Mar-31-2017.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/_resources/reports/Rook-1-Technical-Report-Sep-15-2017.pdf",
+   "timestamp": "20180417140406",
+   "wayback_url": "https://web.archive.org/web/20180417140406id_/http://www.nexgenenergy.ca:80/_resources/reports/Rook-1-Technical-Report-Sep-15-2017.pdf",
+   "bytes": 7860074,
+   "title": "Rook-1-Technical-Report-Sep-15-2017.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://nexgenenergy.ca/_resources/reports/Rook-I-NI-43-101-Technical-Report-19Dec2018.pdf",
+   "timestamp": "20220127210338",
+   "wayback_url": "https://web.archive.org/web/20220127210338id_/https://nexgenenergy.ca/_resources/reports/Rook-I-NI-43-101-Technical-Report-19Dec2018.pdf",
+   "bytes": 22326904,
+   "title": "Rook-I-NI-43-101-Technical-Report-19Dec2018.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/i/maps/Bow-Drilling.pdf",
+   "timestamp": "20160804054930",
+   "wayback_url": "https://web.archive.org/web/20160804054930id_/http://nexgenenergy.ca/i/maps/Bow-Drilling.pdf",
+   "bytes": 142034,
+   "title": "Bow-Drilling.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/maps/NXE-All-Basin-Tenure_20150417_w-Bow.pdf",
+   "timestamp": "20160616001831",
+   "wayback_url": "https://web.archive.org/web/20160616001831id_/http://www.nexgenenergy.ca:80/i/maps/NXE-All-Basin-Tenure_20150417_w-Bow.pdf",
+   "bytes": 265884,
+   "title": "NXE-All-Basin-Tenure_20150417_w-Bow.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/i/maps/NXE-ROOK1-w-corridors_20150417_w-Bow.pdf",
+   "timestamp": "20160804094854",
+   "wayback_url": "https://web.archive.org/web/20160804094854id_/http://nexgenenergy.ca/i/maps/NXE-ROOK1-w-corridors_20150417_w-Bow.pdf",
+   "bytes": 223437,
+   "title": "NXE-ROOK1-w-corridors_20150417_w-Bow.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/i/maps/NXE-West-Basin-Tenure_20150417_w-Bow.pdf",
+   "timestamp": "20160804165128",
+   "wayback_url": "https://web.archive.org/web/20160804165128id_/http://nexgenenergy.ca/i/maps/NXE-West-Basin-Tenure_20150417_w-Bow.pdf",
+   "bytes": 428378,
+   "title": "NXE-West-Basin-Tenure_20150417_w-Bow.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/i/maps/NXEEastBasinTenure_20141121.pdf",
+   "timestamp": "20160804104804",
+   "wayback_url": "https://web.archive.org/web/20160804104804id_/http://nexgenenergy.ca/i/maps/NXEEastBasinTenure_20141121.pdf",
+   "bytes": 314807,
+   "title": "NXEEastBasinTenure_20141121.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/i/pdf/agm/Info-Circ-2015.pdf",
+   "timestamp": "20160804041809",
+   "wayback_url": "https://web.archive.org/web/20160804041809id_/http://nexgenenergy.ca/i/pdf/agm/Info-Circ-2015.pdf",
+   "bytes": 429243,
+   "title": "Info-Circ-2015.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/i/pdf/agm/Notice-of-Meeting-2015.pdf",
+   "timestamp": "20160804165159",
+   "wayback_url": "https://web.archive.org/web/20160804165159id_/http://nexgenenergy.ca/i/pdf/agm/Notice-of-Meeting-2015.pdf",
+   "bytes": 24006,
+   "title": "Notice-of-Meeting-2015.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/i/pdf/agm/Proxy-2015.pdf",
+   "timestamp": "20160804165336",
+   "wayback_url": "https://web.archive.org/web/20160804165336id_/http://nexgenenergy.ca/i/pdf/agm/Proxy-2015.pdf",
+   "bytes": 50059,
+   "title": "Proxy-2015.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/ArrowLakeProfile.pdf",
+   "timestamp": "20150608114651",
+   "wayback_url": "https://web.archive.org/web/20150608114651id_/http://www.nexgenenergy.ca:80/i/pdf/ArrowLakeProfile.pdf",
+   "bytes": 2832467,
+   "title": "ArrowLakeProfile.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/financials/2016-Q1-FS.pdf",
+   "timestamp": "20160803161041",
+   "wayback_url": "https://web.archive.org/web/20160803161041id_/http://www.nexgenenergy.ca:80/i/pdf/financials/2016-Q1-FS.pdf",
+   "bytes": 160768,
+   "title": "2016-Q1-FS.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/2014-10-06_NR.pdf",
+   "timestamp": "20141225121115",
+   "wayback_url": "https://web.archive.org/web/20141225121115id_/http://www.nexgenenergy.ca:80/i/pdf/news/2014-10-06_NR.pdf",
+   "bytes": 1003171,
+   "title": "2014-10-06_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/2014-10-07_NR.pdf",
+   "timestamp": "20141221235138",
+   "wayback_url": "https://web.archive.org/web/20141221235138id_/http://www.nexgenenergy.ca:80/i/pdf/news/2014-10-07_NR.pdf",
+   "bytes": 432382,
+   "title": "2014-10-07_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/2014-10-08-NR.pdf",
+   "timestamp": "20141221235708",
+   "wayback_url": "https://web.archive.org/web/20141221235708id_/http://www.nexgenenergy.ca:80/i/pdf/news/2014-10-08-NR.pdf",
+   "bytes": 337983,
+   "title": "2014-10-08-NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/2014-11-12-NR.pdf",
+   "timestamp": "20141225121541",
+   "wayback_url": "https://web.archive.org/web/20141225121541id_/http://www.nexgenenergy.ca:80/i/pdf/news/2014-11-12-NR.pdf",
+   "bytes": 344145,
+   "title": "2014-11-12-NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/i/pdf/news/2014-12-24_NR_GN2ePZ.pdf",
+   "timestamp": "20150722003636",
+   "wayback_url": "https://web.archive.org/web/20150722003636id_/http://www.nexgenenergy.ca/i/pdf/news/2014-12-24_NR_GN2ePZ.pdf",
+   "bytes": 735546,
+   "title": "2014-12-24_NR_GN2ePZ.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/i/pdf/news/2015-01-05_NR.pdf",
+   "timestamp": "20150413225027",
+   "wayback_url": "https://web.archive.org/web/20150413225027id_/http://www.nexgenenergy.ca/i/pdf/news/2015-01-05_NR.pdf",
+   "bytes": 759085,
+   "title": "2015-01-05_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/i/pdf/news/2015-01-27_NR.pdf",
+   "timestamp": "20150414002210",
+   "wayback_url": "https://web.archive.org/web/20150414002210id_/http://www.nexgenenergy.ca/i/pdf/news/2015-01-27_NR.pdf",
+   "bytes": 645231,
+   "title": "2015-01-27_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/i/pdf/news/2015-02-17_nr.pdf",
+   "timestamp": "20160308122440",
+   "wayback_url": "https://web.archive.org/web/20160308122440id_/http://nexgenenergy.ca/i/pdf/news/2015-02-17_nr.pdf",
+   "bytes": 1249592,
+   "title": "2015-02-17_nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/i/pdf/news/2015-04-29_nr.pdf",
+   "timestamp": "20160309150856",
+   "wayback_url": "https://web.archive.org/web/20160309150856id_/http://nexgenenergy.ca/i/pdf/news/2015-04-29_nr.pdf",
+   "bytes": 1080492,
+   "title": "2015-04-29_nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/2015-05-05_NR.pdf",
+   "timestamp": "20150514085646",
+   "wayback_url": "https://web.archive.org/web/20150514085646id_/http://www.nexgenenergy.ca:80/i/pdf/news/2015-05-05_NR.pdf",
+   "bytes": 346695,
+   "title": "2015-05-05_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/2015-05-26_NR.pdf",
+   "timestamp": "20150608114656",
+   "wayback_url": "https://web.archive.org/web/20150608114656id_/http://www.nexgenenergy.ca:80/i/pdf/news/2015-05-26_NR.pdf",
+   "bytes": 343645,
+   "title": "2015-05-26_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/2015-05-27_NR.pdf",
+   "timestamp": "20150608114706",
+   "wayback_url": "https://web.archive.org/web/20150608114706id_/http://www.nexgenenergy.ca:80/i/pdf/news/2015-05-27_NR.pdf",
+   "bytes": 1193616,
+   "title": "2015-05-27_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/2015-06-15_NR.pdf",
+   "timestamp": "20150701210934",
+   "wayback_url": "https://web.archive.org/web/20150701210934id_/http://www.nexgenenergy.ca:80/i/pdf/news/2015-06-15_NR.pdf",
+   "bytes": 1007755,
+   "title": "2015-06-15_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/i/pdf/news/2015-07-16_NR.pdf",
+   "timestamp": "20150812161040",
+   "wayback_url": "https://web.archive.org/web/20150812161040id_/http://www.nexgenenergy.ca/i/pdf/news/2015-07-16_NR.pdf",
+   "bytes": 1862350,
+   "title": "2015-07-16_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/2015-11-03_NR.pdf",
+   "timestamp": "20151106024258",
+   "wayback_url": "https://web.archive.org/web/20151106024258id_/http://www.nexgenenergy.ca:80/i/pdf/news/2015-11-03_NR.pdf",
+   "bytes": 7918433,
+   "title": "2015-11-03_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/i/pdf/news/2016-01-05_NR.pdf",
+   "timestamp": "20160215154632",
+   "wayback_url": "https://web.archive.org/web/20160215154632id_/http://www.nexgenenergy.ca/i/pdf/news/2016-01-05_NR.pdf",
+   "bytes": 10605234,
+   "title": "2016-01-05_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/i/pdf/news/2016-01-07_NR.pdf",
+   "timestamp": "20160215173558",
+   "wayback_url": "https://web.archive.org/web/20160215173558id_/http://www.nexgenenergy.ca/i/pdf/news/2016-01-07_NR.pdf",
+   "bytes": 4591581,
+   "title": "2016-01-07_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/2016-01-13_NR.pdf",
+   "timestamp": "20160221231952",
+   "wayback_url": "https://web.archive.org/web/20160221231952id_/http://www.nexgenenergy.ca:80/i/pdf/news/2016-01-13_NR.pdf",
+   "bytes": 985042,
+   "title": "2016-01-13_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/2016-02-09_NR.pdf",
+   "timestamp": "20160328062814",
+   "wayback_url": "https://web.archive.org/web/20160328062814id_/http://www.nexgenenergy.ca:80/i/pdf/news/2016-02-09_NR.pdf",
+   "bytes": 4297081,
+   "title": "2016-02-09_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/2016-02-23_NR.pdf",
+   "timestamp": "20160328053015",
+   "wayback_url": "https://web.archive.org/web/20160328053015id_/http://www.nexgenenergy.ca:80/i/pdf/news/2016-02-23_NR.pdf",
+   "bytes": 823050,
+   "title": "2016-02-23_NR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/2016-06-02_NR-NexGen.pdf",
+   "timestamp": "20160615233832",
+   "wayback_url": "https://web.archive.org/web/20160615233832id_/http://www.nexgenenergy.ca:80/i/pdf/news/2016-06-02_NR-NexGen.pdf",
+   "bytes": 132179,
+   "title": "2016-06-02_NR-NexGen.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/Dec3-2014-PR_Exploration-Update.pdf",
+   "timestamp": "20141226015925",
+   "wayback_url": "https://web.archive.org/web/20141226015925id_/http://www.nexgenenergy.ca:80/i/pdf/news/Dec3-2014-PR_Exploration-Update.pdf",
+   "bytes": 1176230,
+   "title": "Dec3-2014-PR_Exploration-Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/NexGen-NR-Mar-3-2016.pdf",
+   "timestamp": "20160327192638",
+   "wayback_url": "https://web.archive.org/web/20160327192638id_/http://www.nexgenenergy.ca:80/i/pdf/news/NexGen-NR-Mar-3-2016.pdf",
+   "bytes": 521654,
+   "title": "NexGen-NR-Mar-3-2016.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/i/pdf/news/NexGen-PR-May-4-2015.pdf",
+   "timestamp": "20160806160154",
+   "wayback_url": "https://web.archive.org/web/20160806160154id_/http://www.nexgenenergy.ca/i/pdf/news/NexGen-PR-May-4-2015.pdf",
+   "bytes": 105435,
+   "title": "NexGen-PR-May-4-2015.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/i/pdf/news/nexgen0303_amended.pdf",
+   "timestamp": "20160328072817",
+   "wayback_url": "https://web.archive.org/web/20160328072817id_/http://nexgenenergy.ca/i/pdf/news/nexgen0303_amended.pdf",
+   "bytes": 728464,
+   "title": "nexgen0303_amended.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/NR-JUNE10-2016.pdf",
+   "timestamp": "20160705211930",
+   "wayback_url": "https://web.archive.org/web/20160705211930id_/http://www.nexgenenergy.ca:80/i/pdf/news/NR-JUNE10-2016.pdf",
+   "bytes": 202392,
+   "title": "NR-JUNE10-2016.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/NR-JUNE13-2016.pdf",
+   "timestamp": "20160705212258",
+   "wayback_url": "https://web.archive.org/web/20160705212258id_/http://www.nexgenenergy.ca:80/i/pdf/news/NR-JUNE13-2016.pdf",
+   "bytes": 786637,
+   "title": "NR-JUNE13-2016.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/NR-March-15-2016.pdf",
+   "timestamp": "20160327100202",
+   "wayback_url": "https://web.archive.org/web/20160327100202id_/http://www.nexgenenergy.ca:80/i/pdf/news/NR-March-15-2016.pdf",
+   "bytes": 907833,
+   "title": "NR-March-15-2016.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/NR-March-30-2016(final).pdf",
+   "timestamp": "20160417193359",
+   "wayback_url": "https://web.archive.org/web/20160417193359id_/http://www.nexgenenergy.ca:80/i/pdf/news/NR-March-30-2016(final).pdf",
+   "bytes": 972803,
+   "title": "NR-March-30-2016(final).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/NR-March-8-2016.pdf",
+   "timestamp": "20160418193013",
+   "wayback_url": "https://web.archive.org/web/20160418193013id_/http://www.nexgenenergy.ca:80/i/pdf/news/NR-March-8-2016.pdf",
+   "bytes": 873715,
+   "title": "NR-March-8-2016.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/news/NR-Oct-29-2015.pdf",
+   "timestamp": "20151106024309",
+   "wayback_url": "https://web.archive.org/web/20151106024309id_/http://www.nexgenenergy.ca:80/i/pdf/news/NR-Oct-29-2015.pdf",
+   "bytes": 1655269,
+   "title": "NR-Oct-29-2015.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/i/pdf/presentation/presentation.pdf",
+   "timestamp": "20141218015728",
+   "wayback_url": "https://web.archive.org/web/20141218015728id_/http://www.nexgenenergy.ca:80/i/pdf/presentation/presentation.pdf",
+   "bytes": 2600329,
+   "title": "presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/i/pdf/reports/AR-14-30-Assay-Cut-Off-Comparisons-Table.pdf",
+   "timestamp": "20160804060256",
+   "wayback_url": "https://web.archive.org/web/20160804060256id_/http://nexgenenergy.ca/i/pdf/reports/AR-14-30-Assay-Cut-Off-Comparisons-Table.pdf",
+   "bytes": 35982,
+   "title": "AR-14-30-Assay-Cut-Off-Comparisons-Table.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/i/pdf/reports/composited-mineralized-intervals-AR-14-15.pdf",
+   "timestamp": "20160804165230",
+   "wayback_url": "https://web.archive.org/web/20160804165230id_/http://nexgenenergy.ca/i/pdf/reports/composited-mineralized-intervals-AR-14-15.pdf",
+   "bytes": 44877,
+   "title": "composited-mineralized-intervals-AR-14-15.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/i/pdf/reports/Eagle-Point-Arrow-Zone-Analogy.pdf",
+   "timestamp": "20160804104846",
+   "wayback_url": "https://web.archive.org/web/20160804104846id_/http://nexgenenergy.ca/i/pdf/reports/Eagle-Point-Arrow-Zone-Analogy.pdf",
+   "bytes": 104520,
+   "title": "Eagle-Point-Arrow-Zone-Analogy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca/i/pdf/reports/Radio-Technical-Report_250912.pdf",
+   "timestamp": "20150928174503",
+   "wayback_url": "https://web.archive.org/web/20150928174503id_/http://www.nexgenenergy.ca/i/pdf/reports/Radio-Technical-Report_250912.pdf",
+   "bytes": 6665352,
+   "title": "Radio-Technical-Report_250912.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/i/pdf/reports/Rook-I-TechReport-Nov-2015.pdf",
+   "timestamp": "20160804095804",
+   "wayback_url": "https://web.archive.org/web/20160804095804id_/http://nexgenenergy.ca/i/pdf/reports/Rook-I-TechReport-Nov-2015.pdf",
+   "bytes": 2954039,
+   "title": "Rook-I-TechReport-Nov-2015.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/wp-content/uploads/2012/10/NexGen-Notice-of-Special-Meeting1.pdf",
+   "timestamp": "20130515001027",
+   "wayback_url": "https://web.archive.org/web/20130515001027id_/http://www.nexgenenergy.ca:80/wp-content/uploads/2012/10/NexGen-Notice-of-Special-Meeting1.pdf",
+   "bytes": 294115,
+   "title": "NexGen-Notice-of-Special-Meeting1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/wp-content/uploads/2012/10/NexGen-Presentation-April-2013.pdf",
+   "timestamp": "20140211191042",
+   "wayback_url": "https://web.archive.org/web/20140211191042id_/http://www.nexgenenergy.ca:80/wp-content/uploads/2012/10/NexGen-Presentation-April-2013.pdf",
+   "bytes": 2046107,
+   "title": "NexGen-Presentation-April-2013.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/wp-content/uploads/2012/10/NexGen-Proxy.pdf",
+   "timestamp": "20130515001739",
+   "wayback_url": "https://web.archive.org/web/20130515001739id_/http://www.nexgenenergy.ca:80/wp-content/uploads/2012/10/NexGen-Proxy.pdf",
+   "bytes": 36438,
+   "title": "NexGen-Proxy.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.nexgenenergy.ca:80/wp-content/uploads/2012/11/NexGen-closes-first-tranche-of-5million-placement1.pdf",
+   "timestamp": "20130124051203",
+   "wayback_url": "https://web.archive.org/web/20130124051203id_/http://www.nexgenenergy.ca:80/wp-content/uploads/2012/11/NexGen-closes-first-tranche-of-5million-placement1.pdf",
+   "bytes": 847462,
+   "title": "NexGen-closes-first-tranche-of-5million-placement1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nexgenenergy.ca/_resources/financials/nxe-20171231.zip",
+   "timestamp": "20181101033552",
+   "wayback_url": "https://web.archive.org/web/20181101033552id_/http://nexgenenergy.ca/_resources/financials/nxe-20171231.zip",
+   "bytes": 192540,
+   "title": "nxe-20171231.zip",
+   "type": "other",
+   "noise": true
+  }
+ ],
+ "doc_types": {
+  "other": 124,
+  "closure": 1,
+  "permit_approval": 1,
+  "presentation": 4,
+  "newsletter": 1
+ }
+}

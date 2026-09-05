@@ -1,0 +1,644 @@
+{
+ "key": "cedar lng export development",
+ "name": "Cedar LNG",
+ "host": "cedarlng.com",
+ "harvested_at": "2026-09-05T03:19:53Z",
+ "docs": [
+  {
+   "url": "https://www.cedarlng.com/app/uploads/2021/06/CedarLNG_Discussion_Guide_Screen_June_2021.pdf",
+   "timestamp": "20210921150913",
+   "wayback_url": "https://web.archive.org/web/20210921150913id_/https://www.cedarlng.com/app/uploads/2021/06/CedarLNG_Discussion_Guide_Screen_June_2021.pdf",
+   "bytes": 2072630,
+   "title": "CedarLNG_Discussion_Guide_Screen_June_2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/app/uploads/2022/01/Cedar_Newsletter_Jan11_FINAL.pdf",
+   "timestamp": "20220126052500",
+   "wayback_url": "https://web.archive.org/web/20220126052500id_/https://www.cedarlng.com/app/uploads/2022/01/Cedar_Newsletter_Jan11_FINAL.pdf",
+   "bytes": 279396,
+   "title": "Cedar_Newsletter_Jan11_FINAL.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://www.cedarlng.com/app/uploads/2022/03/CedarLNG_EA_Project_Update_Feb_2022.pdf",
+   "timestamp": "20220406231036",
+   "wayback_url": "https://web.archive.org/web/20220406231036id_/https://www.cedarlng.com/app/uploads/2022/03/CedarLNG_EA_Project_Update_Feb_2022.pdf",
+   "bytes": 4599810,
+   "title": "CedarLNG_EA_Project_Update_Feb_2022.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2022/01/Cedar_Newsletter_Jan11_FINAL.pdf",
+   "timestamp": "20220707170417",
+   "wayback_url": "https://web.archive.org/web/20220707170417id_/https://www.cedarlng.com/wp-content/uploads/2022/01/Cedar_Newsletter_Jan11_FINAL.pdf",
+   "bytes": 290225,
+   "title": "Cedar_Newsletter_Jan11_FINAL.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2022/03/CedarLNG_EA_Project_Update_Feb_2022.pdf",
+   "timestamp": "20220522001117",
+   "wayback_url": "https://web.archive.org/web/20220522001117id_/https://www.cedarlng.com/wp-content/uploads/2022/03/CedarLNG_EA_Project_Update_Feb_2022.pdf",
+   "bytes": 979411,
+   "title": "CedarLNG_EA_Project_Update_Feb_2022.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2022/03/CedarLNG_Project-Overview_20220316.pdf",
+   "timestamp": "20220522022350",
+   "wayback_url": "https://web.archive.org/web/20220522022350id_/https://www.cedarlng.com/wp-content/uploads/2022/03/CedarLNG_Project-Overview_20220316.pdf",
+   "bytes": 1030019,
+   "title": "CedarLNG_Project-Overview_20220316.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2022/08/CedarLNG-Summer2022-Newsletter-v07-20220823-WEB.pdf",
+   "timestamp": "20221003214618",
+   "wayback_url": "https://web.archive.org/web/20221003214618id_/https://www.cedarlng.com/wp-content/uploads/2022/08/CedarLNG-Summer2022-Newsletter-v07-20220823-WEB.pdf",
+   "bytes": 854909,
+   "title": "CedarLNG-Summer2022-Newsletter-v07-20220823-WEB.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2023/03/HNC_EAC_Decision_C_Smith_Notes_FINAL.pdf",
+   "timestamp": "20230314204219",
+   "wayback_url": "https://web.archive.org/web/20230314204219id_/https://www.cedarlng.com/wp-content/uploads/2023/03/HNC_EAC_Decision_C_Smith_Notes_FINAL.pdf",
+   "bytes": 200428,
+   "title": "HNC_EAC_Decision_C_Smith_Notes_FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2023/07/CedarLNG-Summer2023-Newsletter-v2.3-20230628-WEB.pdf",
+   "timestamp": "20231208222058",
+   "wayback_url": "https://web.archive.org/web/20231208222058id_/https://www.cedarlng.com/wp-content/uploads/2023/07/CedarLNG-Summer2023-Newsletter-v2.3-20230628-WEB.pdf",
+   "bytes": 955604,
+   "title": "CedarLNG-Summer2023-Newsletter-v2.3-20230628-WEB.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/03/CedarLNG-March2024-Project-Update-Half-Page-Print-Ad-v05-20240307-PRINT65.pdf",
+   "timestamp": "20240415223303",
+   "wayback_url": "https://web.archive.org/web/20240415223303id_/https://www.cedarlng.com/wp-content/uploads/2024/03/CedarLNG-March2024-Project-Update-Half-Page-Print-Ad-v05-20240307-PRINT65.pdf",
+   "bytes": 447781,
+   "title": "CedarLNG-March2024-Project-Update-Half-Page-Print-Ad-v05-20240307-PRINT65.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/06/23-01-Health-and-Medical-Services-Plan-HMSP-Rev-1-2024-06-04.pdf",
+   "timestamp": "20240720152609",
+   "wayback_url": "https://web.archive.org/web/20240720152609id_/https://www.cedarlng.com/wp-content/uploads/2024/06/23-01-Health-and-Medical-Services-Plan-HMSP-Rev-1-2024-06-04.pdf",
+   "bytes": 1024104,
+   "title": "23-01-Health-and-Medical-Services-Plan-HMSP-Rev-1-2024-06-04.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/06/Cedar-LNG-EAC-FINAL.pdf",
+   "timestamp": "20240720152357",
+   "wayback_url": "https://web.archive.org/web/20240720152357id_/https://www.cedarlng.com/wp-content/uploads/2024/06/Cedar-LNG-EAC-FINAL.pdf",
+   "bytes": 263564,
+   "title": "Cedar-LNG-EAC-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/06/CedarLNG-March2024-Project-Update-Half-Page-Print-Ad-v05-20240307-WEB.pdf",
+   "timestamp": "20240720145546",
+   "wayback_url": "https://web.archive.org/web/20240720145546id_/https://www.cedarlng.com/wp-content/uploads/2024/06/CedarLNG-March2024-Project-Update-Half-Page-Print-Ad-v05-20240307-WEB.pdf",
+   "bytes": 449194,
+   "title": "CedarLNG-March2024-Project-Update-Half-Page-Print-Ad-v05-20240307-WEB.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/07/23-01-Community-Feedback-Process-Rev-1-2024-07-05.pdf",
+   "timestamp": "20240720161356",
+   "wayback_url": "https://web.archive.org/web/20240720161356id_/https://www.cedarlng.com/wp-content/uploads/2024/07/23-01-Community-Feedback-Process-Rev-1-2024-07-05.pdf",
+   "bytes": 979809,
+   "title": "23-01-Community-Feedback-Process-Rev-1-2024-07-05.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/07/23-01-Independent-Environmental-Monitor-TOE-IEM-ToE-Rev-1-2024-07-04.pdf",
+   "timestamp": "20240924063613",
+   "wayback_url": "https://web.archive.org/web/20240924063613id_/https://www.cedarlng.com/wp-content/uploads/2024/07/23-01-Independent-Environmental-Monitor-TOE-IEM-ToE-Rev-1-2024-07-04.pdf",
+   "bytes": 1072108,
+   "title": "23-01-Independent-Environmental-Monitor-TOE-IEM-ToE-Rev-1-2024-07-04.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/07/23-01-Pre-Construction-Compliance-Report-20240331.pdf",
+   "timestamp": "20240812204455",
+   "wayback_url": "https://web.archive.org/web/20240812204455id_/https://www.cedarlng.com/wp-content/uploads/2024/07/23-01-Pre-Construction-Compliance-Report-20240331.pdf",
+   "bytes": 474516,
+   "title": "23-01-Pre-Construction-Compliance-Report-20240331.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/07/23-01-Socioeconomic-Management-Plan-SEMP-Rev1-2024-07-02.pdf",
+   "timestamp": "20240720151129",
+   "wayback_url": "https://web.archive.org/web/20240720151129id_/https://www.cedarlng.com/wp-content/uploads/2024/07/23-01-Socioeconomic-Management-Plan-SEMP-Rev1-2024-07-02.pdf",
+   "bytes": 1023274,
+   "title": "23-01-Socioeconomic-Management-Plan-SEMP-Rev1-2024-07-02.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/07/Cedar-LNG-Project-Marine-WQ-Follow-up-Program-2024-05-08.pdf",
+   "timestamp": "20240923112426",
+   "wayback_url": "https://web.archive.org/web/20240923112426id_/https://www.cedarlng.com/wp-content/uploads/2024/07/Cedar-LNG-Project-Marine-WQ-Follow-up-Program-2024-05-08.pdf",
+   "bytes": 1458495,
+   "title": "Cedar-LNG-Project-Marine-WQ-Follow-up-Program-2024-05-08.pdf",
+   "type": "monitoring",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/07/Cedar-LNG-Project-Wetlands-Follow-up-Program-Rev-0-2024-07-04.pdf",
+   "timestamp": "20240720165324",
+   "wayback_url": "https://web.archive.org/web/20240720165324id_/https://www.cedarlng.com/wp-content/uploads/2024/07/Cedar-LNG-Project-Wetlands-Follow-up-Program-Rev-0-2024-07-04.pdf",
+   "bytes": 912804,
+   "title": "Cedar-LNG-Project-Wetlands-Follow-up-Program-Rev-0-2024-07-04.pdf",
+   "type": "monitoring",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/07/Cedar-LNG-Project-Wildlife-Follow-up-Program-Rev-0-2024-05-15.pdf",
+   "timestamp": "20240720163149",
+   "wayback_url": "https://web.archive.org/web/20240720163149id_/https://www.cedarlng.com/wp-content/uploads/2024/07/Cedar-LNG-Project-Wildlife-Follow-up-Program-Rev-0-2024-05-15.pdf",
+   "bytes": 627096,
+   "title": "Cedar-LNG-Project-Wildlife-Follow-up-Program-Rev-0-2024-05-15.pdf",
+   "type": "monitoring",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/07/Cedar-LNG_Gender-Equity-and-Diversity_May-2024.pdf",
+   "timestamp": "20240720153055",
+   "wayback_url": "https://web.archive.org/web/20240720153055id_/https://www.cedarlng.com/wp-content/uploads/2024/07/Cedar-LNG_Gender-Equity-and-Diversity_May-2024.pdf",
+   "bytes": 801727,
+   "title": "Cedar-LNG_Gender-Equity-and-Diversity_May-2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/07/cedar_IAA_condition_implementation_schedule_20240326.pdf",
+   "timestamp": "20241122094205",
+   "wayback_url": "https://web.archive.org/web/20241122094205id_/https://www.cedarlng.com/wp-content/uploads/2024/07/cedar_IAA_condition_implementation_schedule_20240326.pdf",
+   "bytes": 272609,
+   "title": "cedar_IAA_condition_implementation_schedule_20240326.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/07/Cedar_LNG_Construction_Schedule_20240326.pdf",
+   "timestamp": "20240812210037",
+   "wayback_url": "https://web.archive.org/web/20240812210037id_/https://www.cedarlng.com/wp-content/uploads/2024/07/Cedar_LNG_Construction_Schedule_20240326.pdf",
+   "bytes": 105154,
+   "title": "Cedar_LNG_Construction_Schedule_20240326.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/07/Cedar_LNG_Project_IAA_Annual_Report_20240331.pdf",
+   "timestamp": "20240812205901",
+   "wayback_url": "https://web.archive.org/web/20240812205901id_/https://www.cedarlng.com/wp-content/uploads/2024/07/Cedar_LNG_Project_IAA_Annual_Report_20240331.pdf",
+   "bytes": 669454,
+   "title": "Cedar_LNG_Project_IAA_Annual_Report_20240331.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/08/23-01-Construction-Environmental-Management-Plan-CEMP-Rev-2-2024-07-31.pdf",
+   "timestamp": "20241125085257",
+   "wayback_url": "https://web.archive.org/web/20241125085257id_/https://www.cedarlng.com/wp-content/uploads/2024/08/23-01-Construction-Environmental-Management-Plan-CEMP-Rev-2-2024-07-31.pdf",
+   "bytes": 6770416,
+   "title": "23-01-Construction-Environmental-Management-Plan-CEMP-Rev-2-2024-07-31.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/09/CedarLNG-Jobs-and-Opportunities-v04.1-20240910-WEB_1.pdf",
+   "timestamp": "20240924172738",
+   "wayback_url": "https://web.archive.org/web/20240924172738id_/https://www.cedarlng.com/wp-content/uploads/2024/09/CedarLNG-Jobs-and-Opportunities-v04.1-20240910-WEB_1.pdf",
+   "bytes": 823186,
+   "title": "CedarLNG-Jobs-and-Opportunities-v04.1-20240910-WEB_1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/11/241025_cedar_lng_amendment_application.pdf",
+   "timestamp": "20241211041030",
+   "wayback_url": "https://web.archive.org/web/20241211041030id_/https://www.cedarlng.com/wp-content/uploads/2024/11/241025_cedar_lng_amendment_application.pdf",
+   "bytes": 958691,
+   "title": "241025_cedar_lng_amendment_application.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/11/CedarLNG-Nov2024-Open-House-Print-Ad-v04-20241121.pdf",
+   "timestamp": "20241211040106",
+   "wayback_url": "https://web.archive.org/web/20241211040106id_/https://www.cedarlng.com/wp-content/uploads/2024/11/CedarLNG-Nov2024-Open-House-Print-Ad-v04-20241121.pdf",
+   "bytes": 481108,
+   "title": "CedarLNG-Nov2024-Open-House-Print-Ad-v04-20241121.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/12/CedarLNG-EAC-Amendment-v06-20241203-WEB.pdf",
+   "timestamp": "20241216174647",
+   "wayback_url": "https://web.archive.org/web/20241216174647id_/https://www.cedarlng.com/wp-content/uploads/2024/12/CedarLNG-EAC-Amendment-v06-20241203-WEB.pdf",
+   "bytes": 622672,
+   "title": "CedarLNG-EAC-Amendment-v06-20241203-WEB.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/12/CedarLNG-Emergency-Continuity-Mgmt-Program-v02-20241203-WEB-1.pdf",
+   "timestamp": "20241216175947",
+   "wayback_url": "https://web.archive.org/web/20241216175947id_/https://www.cedarlng.com/wp-content/uploads/2024/12/CedarLNG-Emergency-Continuity-Mgmt-Program-v02-20241203-WEB-1.pdf",
+   "bytes": 643143,
+   "title": "CedarLNG-Emergency-Continuity-Mgmt-Program-v02-20241203-WEB-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/12/CedarLNG-Employment-Display-Boards-v04-20241206-WEB.pdf",
+   "timestamp": "20241216183218",
+   "wayback_url": "https://web.archive.org/web/20241216183218id_/https://www.cedarlng.com/wp-content/uploads/2024/12/CedarLNG-Employment-Display-Boards-v04-20241206-WEB.pdf",
+   "bytes": 2802951,
+   "title": "CedarLNG-Employment-Display-Boards-v04-20241206-WEB.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/12/CedarLNG-Jobs-and-Opportunities-v07-20241203-WEB.pdf",
+   "timestamp": "20241216174023",
+   "wayback_url": "https://web.archive.org/web/20241216174023id_/https://www.cedarlng.com/wp-content/uploads/2024/12/CedarLNG-Jobs-and-Opportunities-v07-20241203-WEB.pdf",
+   "bytes": 951641,
+   "title": "CedarLNG-Jobs-and-Opportunities-v07-20241203-WEB.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/12/CedarLNG-Nov24-Open-House-Display-Boards-v09-20241203-WEB.pdf",
+   "timestamp": "20241216181826",
+   "wayback_url": "https://web.archive.org/web/20241216181826id_/https://www.cedarlng.com/wp-content/uploads/2024/12/CedarLNG-Nov24-Open-House-Display-Boards-v09-20241203-WEB.pdf",
+   "bytes": 10231619,
+   "title": "CedarLNG-Nov24-Open-House-Display-Boards-v09-20241203-WEB.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/12/CedarLNG-Project-Update-v03-20241203-WEB.pdf",
+   "timestamp": "20241216175839",
+   "wayback_url": "https://web.archive.org/web/20241216175839id_/https://www.cedarlng.com/wp-content/uploads/2024/12/CedarLNG-Project-Update-v03-20241203-WEB.pdf",
+   "bytes": 702297,
+   "title": "CedarLNG-Project-Update-v03-20241203-WEB.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2024/12/CedarLNG-Winter2024-Newsletter-20241220_webfinal.pdf",
+   "timestamp": "20250125084557",
+   "wayback_url": "https://web.archive.org/web/20250125084557id_/https://www.cedarlng.com/wp-content/uploads/2024/12/CedarLNG-Winter2024-Newsletter-20241220_webfinal.pdf",
+   "bytes": 999914,
+   "title": "CedarLNG-Winter2024-Newsletter-20241220_webfinal.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/01/CedarLNG-Winter2024-Newsletter-20241220_webfinal.pdf",
+   "timestamp": "20250209043146",
+   "wayback_url": "https://web.archive.org/web/20250209043146id_/https://www.cedarlng.com/wp-content/uploads/2025/01/CedarLNG-Winter2024-Newsletter-20241220_webfinal.pdf",
+   "bytes": 999914,
+   "title": "CedarLNG-Winter2024-Newsletter-20241220_webfinal.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/01/Pages-from-CedarLNG-Nov24-Open-House-Display-Boards-2-3.pdf",
+   "timestamp": "20250209052353",
+   "wayback_url": "https://web.archive.org/web/20250209052353id_/https://www.cedarlng.com/wp-content/uploads/2025/01/Pages-from-CedarLNG-Nov24-Open-House-Display-Boards-2-3.pdf",
+   "bytes": 925317,
+   "title": "Pages-from-CedarLNG-Nov24-Open-House-Display-Boards-2-3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/02/250120-2024_EAO_Annual_Report_Rev-0.pdf",
+   "timestamp": "20250209041243",
+   "wayback_url": "https://web.archive.org/web/20250209041243id_/https://www.cedarlng.com/wp-content/uploads/2025/02/250120-2024_EAO_Annual_Report_Rev-0.pdf",
+   "bytes": 547153,
+   "title": "250120-2024_EAO_Annual_Report_Rev-0.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/03/250313_CedarLNG_Consultation_Report_Community_Feedback-1.pdf",
+   "timestamp": "20250427074427",
+   "wayback_url": "https://web.archive.org/web/20250427074427id_/https://www.cedarlng.com/wp-content/uploads/2025/03/250313_CedarLNG_Consultation_Report_Community_Feedback-1.pdf",
+   "bytes": 370416,
+   "title": "250313_CedarLNG_Consultation_Report_Community_Feedback-1.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/04/CedarLNG-Upcoming-Construction-Work-Ad-v03-20250422-1.pdf",
+   "timestamp": "20250516103359",
+   "wayback_url": "https://web.archive.org/web/20250516103359id_/https://www.cedarlng.com/wp-content/uploads/2025/04/CedarLNG-Upcoming-Construction-Work-Ad-v03-20250422-1.pdf",
+   "bytes": 440130,
+   "title": "CedarLNG-Upcoming-Construction-Work-Ad-v03-20250422-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/04/Construction-Notice-Blasting-Apr-23-25.pdf",
+   "timestamp": "20250424164408",
+   "wayback_url": "https://web.archive.org/web/20250424164408id_/https://www.cedarlng.com/wp-content/uploads/2025/04/Construction-Notice-Blasting-Apr-23-25.pdf",
+   "bytes": 534985,
+   "title": "Construction-Notice-Blasting-Apr-23-25.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/04/Construction-Notice-Blasting-Apr-23-25.pdf?fbclid=IwY2xjawJ2JW5leHRuA2FlbQIxMABicmlkETFNOG1QM2o0dUVBenl1YmV5AR5Py03i2Pg9g85nKD9onTfAc4Pb4fWXj9yB46B5bsl72nmZKwXk-nKNrd0yOA_aem_YQLJUrI4GzQhKSSoeHwQZA",
+   "timestamp": "20250424165358",
+   "wayback_url": "https://web.archive.org/web/20250424165358id_/https://www.cedarlng.com/wp-content/uploads/2025/04/Construction-Notice-Blasting-Apr-23-25.pdf?fbclid=IwY2xjawJ2JW5leHRuA2FlbQIxMABicmlkETFNOG1QM2o0dUVBenl1YmV5AR5Py03i2Pg9g85nKD9onTfAc4Pb4fWXj9yB46B5bsl72nmZKwXk-nKNrd0yOA_aem_YQLJUrI4GzQhKSSoeHwQZA",
+   "bytes": 535133,
+   "title": "Construction-Notice-Blasting-Apr-23-25.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/05/Acoustic-Follow-up-Program-Jul-7-24.pdf",
+   "timestamp": "20250516105007",
+   "wayback_url": "https://web.archive.org/web/20250516105007id_/https://www.cedarlng.com/wp-content/uploads/2025/05/Acoustic-Follow-up-Program-Jul-7-24.pdf",
+   "bytes": 3861410,
+   "title": "Acoustic-Follow-up-Program-Jul-7-24.pdf",
+   "type": "monitoring",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/05/Amended-Decision-Statement-May-26-25.pdf",
+   "timestamp": "20250623193842",
+   "wayback_url": "https://web.archive.org/web/20250623193842id_/https://www.cedarlng.com/wp-content/uploads/2025/05/Amended-Decision-Statement-May-26-25.pdf",
+   "bytes": 2242587,
+   "title": "Amended-Decision-Statement-May-26-25.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/05/Construction-Schedule-Mar-31-25.pdf",
+   "timestamp": "20250516114405",
+   "wayback_url": "https://web.archive.org/web/20250516114405id_/https://www.cedarlng.com/wp-content/uploads/2025/05/Construction-Schedule-Mar-31-25.pdf",
+   "bytes": 109958,
+   "title": "Construction-Schedule-Mar-31-25.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/05/Consultation-Report-Mar-13-24.pdf",
+   "timestamp": "20250623193043",
+   "wayback_url": "https://web.archive.org/web/20250623193043id_/https://www.cedarlng.com/wp-content/uploads/2025/05/Consultation-Report-Mar-13-24.pdf",
+   "bytes": 295090,
+   "title": "Consultation-Report-Mar-13-24.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/05/IAA-Annual-Report-Mar-31-25.pdf",
+   "timestamp": "20250516100644",
+   "wayback_url": "https://web.archive.org/web/20250516100644id_/https://www.cedarlng.com/wp-content/uploads/2025/05/IAA-Annual-Report-Mar-31-25.pdf",
+   "bytes": 865893,
+   "title": "IAA-Annual-Report-Mar-31-25.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/05/IAA-Condition-Implementation-Schedule-Mar-31-25.pdf",
+   "timestamp": "20250516115255",
+   "wayback_url": "https://web.archive.org/web/20250516115255id_/https://www.cedarlng.com/wp-content/uploads/2025/05/IAA-Condition-Implementation-Schedule-Mar-31-25.pdf",
+   "bytes": 270870,
+   "title": "IAA-Condition-Implementation-Schedule-Mar-31-25.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/05/Spring-2025-Newsletter-May-27-25.pdf",
+   "timestamp": "20250603075700",
+   "wayback_url": "https://web.archive.org/web/20250603075700id_/https://www.cedarlng.com/wp-content/uploads/2025/05/Spring-2025-Newsletter-May-27-25.pdf",
+   "bytes": 987329,
+   "title": "Spring-2025-Newsletter-May-27-25.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/06/Accidents-Malfunctions-Communications-Plan-Construction-March-2025.pdf",
+   "timestamp": "20250922184822",
+   "wayback_url": "https://web.archive.org/web/20250922184822id_/https://www.cedarlng.com/wp-content/uploads/2025/06/Accidents-Malfunctions-Communications-Plan-Construction-March-2025.pdf",
+   "bytes": null,
+   "title": "Accidents-Malfunctions-Communications-Plan-Construction-March-2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/07/Apprenticeship-Program-July-15-25.pdf",
+   "timestamp": "20250729181302",
+   "wayback_url": "https://web.archive.org/web/20250729181302id_/https://www.cedarlng.com/wp-content/uploads/2025/07/Apprenticeship-Program-July-15-25.pdf",
+   "bytes": 721723,
+   "title": "Apprenticeship-Program-July-15-25.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/07/Construction-Notice-Hammering-Jul-21-25.pdf",
+   "timestamp": "20250804131841",
+   "wayback_url": "https://web.archive.org/web/20250804131841id_/https://www.cedarlng.com/wp-content/uploads/2025/07/Construction-Notice-Hammering-Jul-21-25.pdf",
+   "bytes": 434680,
+   "title": "Construction-Notice-Hammering-Jul-21-25.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/07/Socioeconomic-Report-July-2025.pdf",
+   "timestamp": "20250804115852",
+   "wayback_url": "https://web.archive.org/web/20250804115852id_/https://www.cedarlng.com/wp-content/uploads/2025/07/Socioeconomic-Report-July-2025.pdf",
+   "bytes": 450264,
+   "title": "Socioeconomic-Report-July-2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/09/Summer-Fall-2025-Newsletter-Sept-09-25.pdf",
+   "timestamp": "20251012224748",
+   "wayback_url": "https://web.archive.org/web/20251012224748id_/https://www.cedarlng.com/wp-content/uploads/2025/09/Summer-Fall-2025-Newsletter-Sept-09-25.pdf",
+   "bytes": 957185,
+   "title": "Summer-Fall-2025-Newsletter-Sept-09-25.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/09/Upcoming-Construction-Work-Sept-12-2025.pdf",
+   "timestamp": "20250922205211",
+   "wayback_url": "https://web.archive.org/web/20250922205211id_/https://www.cedarlng.com/wp-content/uploads/2025/09/Upcoming-Construction-Work-Sept-12-2025.pdf",
+   "bytes": null,
+   "title": "Upcoming-Construction-Work-Sept-12-2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/10/District-Lot-99-Soil-Sampling-Report-Oct-5-2022.pdf",
+   "timestamp": "20251012233805",
+   "wayback_url": "https://web.archive.org/web/20251012233805id_/https://www.cedarlng.com/wp-content/uploads/2025/10/District-Lot-99-Soil-Sampling-Report-Oct-5-2022.pdf",
+   "bytes": 2320296,
+   "title": "District-Lot-99-Soil-Sampling-Report-Oct-5-2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/11/Health-and-Medical-Services-Report-July-2025.pdf",
+   "timestamp": "20251114212219",
+   "wayback_url": "https://web.archive.org/web/20251114212219id_/https://www.cedarlng.com/wp-content/uploads/2025/11/Health-and-Medical-Services-Report-July-2025.pdf",
+   "bytes": 369404,
+   "title": "Health-and-Medical-Services-Report-July-2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2025/11/Jobs-and-Opportunities-Factsheet-May-2025.pdf",
+   "timestamp": "20251205031656",
+   "wayback_url": "https://web.archive.org/web/20251205031656id_/https://www.cedarlng.com/wp-content/uploads/2025/11/Jobs-and-Opportunities-Factsheet-May-2025.pdf",
+   "bytes": 931153,
+   "title": "Jobs-and-Opportunities-Factsheet-May-2025.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2026/01/EAO-Annual-Report-January-2026.pdf",
+   "timestamp": "20260308173322",
+   "wayback_url": "https://web.archive.org/web/20260308173322id_/https://www.cedarlng.com/wp-content/uploads/2026/01/EAO-Annual-Report-January-2026.pdf",
+   "bytes": 512459,
+   "title": "EAO-Annual-Report-January-2026.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2026/02/CedarLNG-LNG2026-Print-Ad-v06-20251208-WEB.pdf",
+   "timestamp": "20260308172718",
+   "wayback_url": "https://web.archive.org/web/20260308172718id_/https://www.cedarlng.com/wp-content/uploads/2026/02/CedarLNG-LNG2026-Print-Ad-v06-20251208-WEB.pdf",
+   "bytes": 632444,
+   "title": "CedarLNG-LNG2026-Print-Ad-v06-20251208-WEB.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2026/02/Health-And-Medical-Services-Report-January-2026.pdf",
+   "timestamp": "20260308182758",
+   "wayback_url": "https://web.archive.org/web/20260308182758id_/https://www.cedarlng.com/wp-content/uploads/2026/02/Health-And-Medical-Services-Report-January-2026.pdf",
+   "bytes": 363835,
+   "title": "Health-And-Medical-Services-Report-January-2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2026/02/Upcoming-Construction-Work-Notice-Feb-2026.pdf",
+   "timestamp": "20260308182740",
+   "wayback_url": "https://web.archive.org/web/20260308182740id_/https://www.cedarlng.com/wp-content/uploads/2026/02/Upcoming-Construction-Work-Notice-Feb-2026.pdf",
+   "bytes": 61378,
+   "title": "Upcoming-Construction-Work-Notice-Feb-2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2026/03/Condition-Implementation-Schedule-March-2026.pdf",
+   "timestamp": "20260410171946",
+   "wayback_url": "https://web.archive.org/web/20260410171946id_/https://www.cedarlng.com/wp-content/uploads/2026/03/Condition-Implementation-Schedule-March-2026.pdf",
+   "bytes": 334812,
+   "title": "Condition-Implementation-Schedule-March-2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2026/03/Consultation-Report-March-2026.pdf",
+   "timestamp": "20260410173845",
+   "wayback_url": "https://web.archive.org/web/20260410173845id_/https://www.cedarlng.com/wp-content/uploads/2026/03/Consultation-Report-March-2026.pdf",
+   "bytes": 405234,
+   "title": "Consultation-Report-March-2026.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2026/03/IAAC-Annual-Report-CedarLNG-March-2026.pdf",
+   "timestamp": "20260410163216",
+   "wayback_url": "https://web.archive.org/web/20260410163216id_/https://www.cedarlng.com/wp-content/uploads/2026/03/IAAC-Annual-Report-CedarLNG-March-2026.pdf",
+   "bytes": 962831,
+   "title": "IAAC-Annual-Report-CedarLNG-March-2026.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2026/03/Upcoming-Construction-Work-Mar-2026.pdf",
+   "timestamp": "20260410172530",
+   "wayback_url": "https://web.archive.org/web/20260410172530id_/https://www.cedarlng.com/wp-content/uploads/2026/03/Upcoming-Construction-Work-Mar-2026.pdf",
+   "bytes": 52639,
+   "title": "Upcoming-Construction-Work-Mar-2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2026/04/CedarLNG-Spring2026-Newsletter-v06.3-20260430-WEB-Copy.pdf",
+   "timestamp": "20260607014257",
+   "wayback_url": "https://web.archive.org/web/20260607014257id_/https://www.cedarlng.com/wp-content/uploads/2026/04/CedarLNG-Spring2026-Newsletter-v06.3-20260430-WEB-Copy.pdf",
+   "bytes": 1005490,
+   "title": "CedarLNG-Spring2026-Newsletter-v06.3-20260430-WEB-Copy.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2026/05/Construction-Environmental-Management-Plan-April-1-2026.pdf",
+   "timestamp": "20260607020307",
+   "wayback_url": "https://web.archive.org/web/20260607020307id_/https://www.cedarlng.com/wp-content/uploads/2026/05/Construction-Environmental-Management-Plan-April-1-2026.pdf",
+   "bytes": 5046945,
+   "title": "Construction-Environmental-Management-Plan-April-1-2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2026/05/Construction-Notice-May-2026.pdf",
+   "timestamp": "20260607023536",
+   "wayback_url": "https://web.archive.org/web/20260607023536id_/https://www.cedarlng.com/wp-content/uploads/2026/05/Construction-Notice-May-2026.pdf",
+   "bytes": 434200,
+   "title": "Construction-Notice-May-2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.cedarlng.com/wp-content/uploads/2026/05/Night-Shift-Notification-May-2025.pdf",
+   "timestamp": "20260607015938",
+   "wayback_url": "https://web.archive.org/web/20260607015938id_/https://www.cedarlng.com/wp-content/uploads/2026/05/Night-Shift-Notification-May-2025.pdf",
+   "bytes": 442510,
+   "title": "Night-Shift-Notification-May-2025.pdf",
+   "type": "other",
+   "noise": false
+  }
+ ],
+ "doc_types": {
+  "other": 43,
+  "newsletter": 6,
+  "monitoring": 4,
+  "engagement": 3
+ }
+}

@@ -1,0 +1,2401 @@
+{
+ "key": "glencore",
+ "name": "Glencore plc",
+ "host": "glencore.ca",
+ "harvested_at": "2026-09-05T02:40:27Z",
+ "docs": [
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/08a6597cf1d7b1bbaf130007848b5f1f/Our%20Values%20-%20Glencore%20Canada%20SUD-INO%20-%20French.pdf",
+   "timestamp": "20211026211557",
+   "wayback_url": "https://web.archive.org/web/20211026211557id_/https://www.glencore.ca/.rest/api/v1/documents/08a6597cf1d7b1bbaf130007848b5f1f/Our%20Values%20-%20Glencore%20Canada%20SUD-INO%20-%20French.pdf",
+   "bytes": 430871,
+   "title": "Our Values - Glencore Canada SUD-INO - French.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/1071395247cecd96ddfa6bcb65d10c8b/Fonderie_fiche_technique_Moyenne+annuelle+VF-HR.pdf",
+   "timestamp": "20250804123504",
+   "wayback_url": "https://web.archive.org/web/20250804123504id_/https://www.glencore.ca/.rest/api/v1/documents/1071395247cecd96ddfa6bcb65d10c8b/Fonderie_fiche_technique_Moyenne+annuelle+VF-HR.pdf",
+   "bytes": 1787536,
+   "title": "Fonderie_fiche_technique_Moyenne+annuelle+VF-HR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/15484871f4aa1c7b87784418a5619a9d/2024+Line+Creek+Operations+Dry+Creek+Local+Aquatic+Effects+Monitoring+Program.pdf",
+   "timestamp": "20251218171235",
+   "wayback_url": "https://web.archive.org/web/20251218171235id_/https://www.glencore.ca/.rest/api/v1/documents/15484871f4aa1c7b87784418a5619a9d/2024+Line+Creek+Operations+Dry+Creek+Local+Aquatic+Effects+Monitoring+Program.pdf",
+   "bytes": 38447420,
+   "title": "2024+Line+Creek+Operations+Dry+Creek+Local+Aquatic+Effects+Monitoring+Program.pdf",
+   "type": "monitoring",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/16386c00f459777caf5bc008eed698d7/Glencore+Service+Agreement+%28Professional+Services%29.pdf",
+   "timestamp": "20240713223824",
+   "wayback_url": "https://web.archive.org/web/20240713223824id_/https://www.glencore.ca/.rest/api/v1/documents/16386c00f459777caf5bc008eed698d7/Glencore+Service+Agreement+%28Professional+Services%29.pdf",
+   "bytes": 460868,
+   "title": "Glencore+Service+Agreement+(Professional+Services).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/1690a5146e5ae2b3ae81757f5fc13c96/Code+de+Conduite+des+fournisseurs+%28FR%29.pdf",
+   "timestamp": "20250917205712",
+   "wayback_url": "https://web.archive.org/web/20250917205712id_/https://www.glencore.ca/.rest/api/v1/documents/1690a5146e5ae2b3ae81757f5fc13c96/Code+de+Conduite+des+fournisseurs+%28FR%29.pdf",
+   "bytes": 2756192,
+   "title": "Code+de+Conduite+des+fournisseurs+(FR).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/17898ce13259c72f576a99d9c5c6794d/Environmental%20Policy.pdf",
+   "timestamp": "20221205180321",
+   "wayback_url": "https://web.archive.org/web/20221205180321id_/https://www.glencore.ca/.rest/api/v1/documents/17898ce13259c72f576a99d9c5c6794d/Environmental%20Policy.pdf",
+   "bytes": 117558,
+   "title": "Environmental Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/18d562d1002a9cacceead6bb6d3dcf47/Raglan_politique_HSEC_2025_FR.pdf?download=true",
+   "timestamp": "20260209000024",
+   "wayback_url": "https://web.archive.org/web/20260209000024id_/https://www.glencore.ca/.rest/api/v1/documents/18d562d1002a9cacceead6bb6d3dcf47/Raglan_politique_HSEC_2025_FR.pdf?download=true",
+   "bytes": 178300,
+   "title": "Raglan_politique_HSEC_2025_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/197bd7f67019288f390548ac161f2903/2024+Surface+Water+Quality+Monitoring.pdf",
+   "timestamp": "20251218171543",
+   "wayback_url": "https://web.archive.org/web/20251218171543id_/https://www.glencore.ca/.rest/api/v1/documents/197bd7f67019288f390548ac161f2903/2024+Surface+Water+Quality+Monitoring.pdf",
+   "bytes": 530414928,
+   "title": "2024+Surface+Water+Quality+Monitoring.pdf",
+   "type": "monitoring",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/1aa2ad946d0ee39793ef9ad1529b8750/CCR+_+Due+Diligence+Report-+2022.pdf",
+   "timestamp": "20231207064854",
+   "wayback_url": "https://web.archive.org/web/20231207064854id_/https://www.glencore.ca/.rest/api/v1/documents/1aa2ad946d0ee39793ef9ad1529b8750/CCR+_+Due+Diligence+Report-+2022.pdf",
+   "bytes": 365402,
+   "title": "CCR+_+Due+Diligence+Report-+2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/1ad027484e3d96d067920b6de0ab4053/Pr%C3%A9sentation+zone+tampon+14-15+nov+VF.pdf",
+   "timestamp": "20240406234057",
+   "wayback_url": "https://web.archive.org/web/20240406234057id_/https://www.glencore.ca/.rest/api/v1/documents/1ad027484e3d96d067920b6de0ab4053/Pr%C3%A9sentation+zone+tampon+14-15+nov+VF.pdf",
+   "bytes": 546205,
+   "title": "Présentation+zone+tampon+14-15+nov+VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/1ad027484e3d96d067920b6de0ab4053/Pr%C3%A9sentation+zone+tampon+14-15+nov+VF.pdf?download=true",
+   "timestamp": "20240111072951",
+   "wayback_url": "https://web.archive.org/web/20240111072951id_/https://www.glencore.ca/.rest/api/v1/documents/1ad027484e3d96d067920b6de0ab4053/Pr%C3%A9sentation+zone+tampon+14-15+nov+VF.pdf?download=true",
+   "bytes": 551065,
+   "title": "Présentation+zone+tampon+14-15+nov+VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/1b5db73604ef05d5a8c804aca7539169/Glencore%20AODA%20Accessibility%20Policy%20and%20MYAP%20-%20French-Francais.pdf",
+   "timestamp": "20211025032447",
+   "wayback_url": "https://web.archive.org/web/20211025032447id_/https://www.glencore.ca/.rest/api/v1/documents/1b5db73604ef05d5a8c804aca7539169/Glencore%20AODA%20Accessibility%20Policy%20and%20MYAP%20-%20French-Francais.pdf",
+   "bytes": 647955,
+   "title": "Glencore AODA Accessibility Policy and MYAP - French-Francais.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/1b64cf8ecd83f2020def54272c143c2e/DPO-18+Politique+qualite+%28EN%29.pdf",
+   "timestamp": "20260609090303",
+   "wayback_url": "https://web.archive.org/web/20260609090303id_/https://www.glencore.ca/.rest/api/v1/documents/1b64cf8ecd83f2020def54272c143c2e/DPO-18+Politique+qualite+%28EN%29.pdf",
+   "bytes": 413791,
+   "title": "DPO-18+Politique+qualite+(EN).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/1c2912050baa004c145f13f38ba70e13/Sudbury-INO-2018-Our-Report-to-the-Community.pdf",
+   "timestamp": "20230528102338",
+   "wayback_url": "https://web.archive.org/web/20230528102338id_/https://www.glencore.ca/.rest/api/v1/documents/1c2912050baa004c145f13f38ba70e13/Sudbury-INO-2018-Our-Report-to-the-Community.pdf",
+   "bytes": 996836,
+   "title": "Sudbury-INO-2018-Our-Report-to-the-Community.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/1f2f03c42c5c61fb1057016b34695742/Horne+_+Protocole+d'acquisition-+Quartier+Notre-Dame+V2.pdf",
+   "timestamp": "20250925151506",
+   "wayback_url": "https://web.archive.org/web/20250925151506id_/https://www.glencore.ca/.rest/api/v1/documents/1f2f03c42c5c61fb1057016b34695742/Horne+_+Protocole+d'acquisition-+Quartier+Notre-Dame+V2.pdf",
+   "bytes": null,
+   "title": "Horne+_+Protocole+d'acquisition-+Quartier+Notre-Dame+V2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/223b345515019d9d24432a9931646e9d/Moyenne%20trimestrielle%20Q3%202022_VF-2.pdf",
+   "timestamp": "20221205181224",
+   "wayback_url": "https://web.archive.org/web/20221205181224id_/https://www.glencore.ca/.rest/api/v1/documents/223b345515019d9d24432a9931646e9d/Moyenne%20trimestrielle%20Q3%202022_VF-2.pdf",
+   "bytes": 1031279,
+   "title": "Moyenne trimestrielle Q3 2022_VF-2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/223b345515019d9d24432a9931646e9d/Moyenne+trimestrielle+Q3+2022_VF-2.pdf",
+   "timestamp": "20230131132651",
+   "wayback_url": "https://web.archive.org/web/20230131132651id_/https://www.glencore.ca/.rest/api/v1/documents/223b345515019d9d24432a9931646e9d/Moyenne+trimestrielle+Q3+2022_VF-2.pdf",
+   "bytes": 1031299,
+   "title": "Moyenne+trimestrielle+Q3+2022_VF-2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/22de7e7d16a846fbae7c8c90cc06f84a/DPO-17+-+Politique+HSEC+et+droits+humains+%28FR%29.pdf",
+   "timestamp": "20250813015238",
+   "wayback_url": "https://web.archive.org/web/20250813015238id_/https://www.glencore.ca/.rest/api/v1/documents/22de7e7d16a846fbae7c8c90cc06f84a/DPO-17+-+Politique+HSEC+et+droits+humains+%28FR%29.pdf",
+   "bytes": 398782,
+   "title": "DPO-17+-+Politique+HSEC+et+droits+humains+(FR).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/23b732c3ffbd288d5cc187299a4b91a1/Study+on+the+Economic+Importance+of+Sulphuric+Acid.pdf",
+   "timestamp": "20250815142124",
+   "wayback_url": "https://web.archive.org/web/20250815142124id_/https://www.glencore.ca/.rest/api/v1/documents/23b732c3ffbd288d5cc187299a4b91a1/Study+on+the+Economic+Importance+of+Sulphuric+Acid.pdf",
+   "bytes": 3737795,
+   "title": "Study+on+the+Economic+Importance+of+Sulphuric+Acid.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/24814e7bfed05b469c4945112deaf177/Plan%20d%E2%80%99action%20d%C3%A9taill%C3%A9%20pour%20le%20meilleur%20gain%20environnemental.pdf",
+   "timestamp": "20221024141427",
+   "wayback_url": "https://web.archive.org/web/20221024141427id_/https://www.glencore.ca/.rest/api/v1/documents/24814e7bfed05b469c4945112deaf177/Plan%20d%E2%80%99action%20d%C3%A9taill%C3%A9%20pour%20le%20meilleur%20gain%20environnemental.pdf",
+   "bytes": 5433326,
+   "title": "Plan d’action détaillé pour le meilleur gain environnemental.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/24814e7bfed05b469c4945112deaf177/Plan+d%E2%80%99action+d%C3%A9taill%C3%A9+pour+le+meilleur+gain+environnemental.pdf",
+   "timestamp": "20240130051221",
+   "wayback_url": "https://web.archive.org/web/20240130051221id_/https://www.glencore.ca/.rest/api/v1/documents/24814e7bfed05b469c4945112deaf177/Plan+d%E2%80%99action+d%C3%A9taill%C3%A9+pour+le+meilleur+gain+environnemental.pdf",
+   "bytes": 5743680,
+   "title": "Plan+d’action+détaillé+pour+le+meilleur+gain+environnemental.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/27480689b9c1935d3e0c931e5595cb12/DPO-18+-+Politique+qualite+%28FR%29.pdf",
+   "timestamp": "20250813015241",
+   "wayback_url": "https://web.archive.org/web/20250813015241id_/https://www.glencore.ca/.rest/api/v1/documents/27480689b9c1935d3e0c931e5595cb12/DPO-18+-+Politique+qualite+%28FR%29.pdf",
+   "bytes": 370592,
+   "title": "DPO-18+-+Politique+qualite+(FR).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/27d13925402244137b599d03dd0bc36b/Programme+de+partenariat+communautaire+-+Formulaire+de+demande.pdf",
+   "timestamp": "20231207074740",
+   "wayback_url": "https://web.archive.org/web/20231207074740id_/https://www.glencore.ca/.rest/api/v1/documents/27d13925402244137b599d03dd0bc36b/Programme+de+partenariat+communautaire+-+Formulaire+de+demande.pdf",
+   "bytes": 98634,
+   "title": "Programme+de+partenariat+communautaire+-+Formulaire+de+demande.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/28f13dc9d6daf660e2dc20b8c83000da/RA_comiteRaglan2022_EN_FIN_3.pdf",
+   "timestamp": "20250815142354",
+   "wayback_url": "https://web.archive.org/web/20250815142354id_/https://www.glencore.ca/.rest/api/v1/documents/28f13dc9d6daf660e2dc20b8c83000da/RA_comiteRaglan2022_EN_FIN_3.pdf",
+   "bytes": 1708487,
+   "title": "RA_comiteRaglan2022_EN_FIN_3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/2e4c1ca58d3d967fe82ff5f17619b10e/5591_Fonderie_Infolettre-Arsenic-fev2025_VF.pdf",
+   "timestamp": "20250521170852",
+   "wayback_url": "https://web.archive.org/web/20250521170852id_/https://www.glencore.ca/.rest/api/v1/documents/2e4c1ca58d3d967fe82ff5f17619b10e/5591_Fonderie_Infolettre-Arsenic-fev2025_VF.pdf",
+   "bytes": 4870173,
+   "title": "5591_Fonderie_Infolettre-Arsenic-fev2025_VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/34b97a71d3374910dcd6f9d9fa3fdac2/Couvercle+rigide+de+cale+de+chargement+de+la+matte+de+nickel+-+%C3%89tude+de+pr%C3%A9faisabilit%C3%A9.pdf",
+   "timestamp": "20250815142722",
+   "wayback_url": "https://web.archive.org/web/20250815142722id_/https://www.glencore.ca/.rest/api/v1/documents/34b97a71d3374910dcd6f9d9fa3fdac2/Couvercle+rigide+de+cale+de+chargement+de+la+matte+de+nickel+-+%C3%89tude+de+pr%C3%A9faisabilit%C3%A9.pdf",
+   "bytes": 4357476,
+   "title": "Couvercle+rigide+de+cale+de+chargement+de+la+matte+de+nickel+-+Étude+de+préfaisabilité.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/357df07379cf282f5a1c62ed47a880d8/Nickel+Matte+Loading+Hold+Cover+-+Pre-Feasibility+Study.pdf",
+   "timestamp": "20250804123850",
+   "wayback_url": "https://web.archive.org/web/20250804123850id_/https://www.glencore.ca/.rest/api/v1/documents/357df07379cf282f5a1c62ed47a880d8/Nickel+Matte+Loading+Hold+Cover+-+Pre-Feasibility+Study.pdf",
+   "bytes": 2257682,
+   "title": "Nickel+Matte+Loading+Hold+Cover+-+Pre-Feasibility+Study.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/361ebac42205dfbabef9a8054262d999/Workplace%20Violence%20and%20Harassment%20Policy%20-%202021.pdf",
+   "timestamp": "20220815111341",
+   "wayback_url": "https://web.archive.org/web/20220815111341id_/https://www.glencore.ca/.rest/api/v1/documents/361ebac42205dfbabef9a8054262d999/Workplace%20Violence%20and%20Harassment%20Policy%20-%202021.pdf",
+   "bytes": 273636,
+   "title": "Workplace Violence and Harassment Policy - 2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/361ebac42205dfbabef9a8054262d999/Workplace+Violence+and+Harassment+Policy+-+2021.pdf",
+   "timestamp": "20231004025641",
+   "wayback_url": "https://web.archive.org/web/20231004025641id_/https://www.glencore.ca/.rest/api/v1/documents/361ebac42205dfbabef9a8054262d999/Workplace+Violence+and+Harassment+Policy+-+2021.pdf",
+   "bytes": 276037,
+   "title": "Workplace+Violence+and+Harassment+Policy+-+2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/365c1b621ec1f8a9be32250b660830e9/Community+Policy.pdf",
+   "timestamp": "20230528103836",
+   "wayback_url": "https://web.archive.org/web/20230528103836id_/https://www.glencore.ca/.rest/api/v1/documents/365c1b621ec1f8a9be32250b660830e9/Community+Policy.pdf",
+   "bytes": 656899,
+   "title": "Community+Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/36fec00b5cd1e7cae53d1aeebbe438c3/Politique+canadienne+de+partenariats%2C+dons+et+commandites.pdf",
+   "timestamp": "20240225103219",
+   "wayback_url": "https://web.archive.org/web/20240225103219id_/https://www.glencore.ca/.rest/api/v1/documents/36fec00b5cd1e7cae53d1aeebbe438c3/Politique+canadienne+de+partenariats%2C+dons+et+commandites.pdf",
+   "bytes": 2549574,
+   "title": "Politique+canadienne+de+partenariats,+dons+et+commandites.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/36ffd079dc4f592cd3f0a847d06e9fde/Annual%2BSite%2BSpecific%2BStandard%2BSO2%2BReport%2Bfor%2B2023%2B-%2BGlencore%2BCanada%2B-%2BKidd%2BConcentrator.pdf",
+   "timestamp": "20251206172819",
+   "wayback_url": "https://web.archive.org/web/20251206172819id_/https://www.glencore.ca/.rest/api/v1/documents/36ffd079dc4f592cd3f0a847d06e9fde/Annual%2BSite%2BSpecific%2BStandard%2BSO2%2BReport%2Bfor%2B2023%2B-%2BGlencore%2BCanada%2B-%2BKidd%2BConcentrator.pdf",
+   "bytes": 1470850,
+   "title": "Annual+Site+Specific+Standard+SO2+Report+for+2023+-+Glencore+Canada+-+Kidd+Concentrator.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/3934e3726ba4778741933b9cc684646c/D%C3%A9pliant_Programme+volontaire+de+biosurveillance+%C3%A0+l%27arsenic.pdf",
+   "timestamp": "20250428190654",
+   "wayback_url": "https://web.archive.org/web/20250428190654id_/https://www.glencore.ca/.rest/api/v1/documents/3934e3726ba4778741933b9cc684646c/D%C3%A9pliant_Programme+volontaire+de+biosurveillance+%C3%A0+l%27arsenic.pdf",
+   "bytes": 3561007,
+   "title": "Dépliant_Programme+volontaire+de+biosurveillance+à+l'arsenic.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/407532bb4d955a88f0c8fe7d64dce8fd/Communiqu%C3%A9+de+presse+-+Moyenne+annuelle+en+arsenic+2024+-+VF.pdf",
+   "timestamp": "20250804123611",
+   "wayback_url": "https://web.archive.org/web/20250804123611id_/https://www.glencore.ca/.rest/api/v1/documents/407532bb4d955a88f0c8fe7d64dce8fd/Communiqu%C3%A9+de+presse+-+Moyenne+annuelle+en+arsenic+2024+-+VF.pdf",
+   "bytes": 83774,
+   "title": "Communiqué+de+presse+-+Moyenne+annuelle+en+arsenic+2024+-+VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/428cf117500a8d38ef5f8a3fde0a8df5/2020+HSEC_Raglan+Mine_IK.pdf",
+   "timestamp": "20240806091714",
+   "wayback_url": "https://web.archive.org/web/20240806091714id_/https://www.glencore.ca/.rest/api/v1/documents/428cf117500a8d38ef5f8a3fde0a8df5/2020+HSEC_Raglan+Mine_IK.pdf",
+   "bytes": 583431,
+   "title": "2020+HSEC_Raglan+Mine_IK.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/428cf117500a8d38ef5f8a3fde0a8df5/2020+HSEC_Raglan+Mine_IK.pdf?download=true",
+   "timestamp": "20231004042440",
+   "wayback_url": "https://web.archive.org/web/20231004042440id_/https://www.glencore.ca/.rest/api/v1/documents/428cf117500a8d38ef5f8a3fde0a8df5/2020+HSEC_Raglan+Mine_IK.pdf?download=true",
+   "bytes": 582882,
+   "title": "2020+HSEC_Raglan+Mine_IK.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/433c408ad01699eda1590ede521f8115/EVR%2BAccess%2BMaps%2B2024_25r.pdf",
+   "timestamp": "20250116032914",
+   "wayback_url": "https://web.archive.org/web/20250116032914id_/https://www.glencore.ca/.rest/api/v1/documents/433c408ad01699eda1590ede521f8115/EVR%2BAccess%2BMaps%2B2024_25r.pdf",
+   "bytes": 36671377,
+   "title": "EVR+Access+Maps+2024_25r.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/433c408ad01699eda1590ede521f8115/EVR%2BAccess%2BMaps%2B2024_25r.pdf?download=true",
+   "timestamp": "20250124034756",
+   "wayback_url": "https://web.archive.org/web/20250124034756id_/https://www.glencore.ca/.rest/api/v1/documents/433c408ad01699eda1590ede521f8115/EVR%2BAccess%2BMaps%2B2024_25r.pdf?download=true",
+   "bytes": 1025067,
+   "title": "EVR+Access+Maps+2024_25r.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/445ff552a2c005ea58774194e2171584/Partnership%2C+donation+or+sponsorship+request+form.pdf",
+   "timestamp": "20240225102425",
+   "wayback_url": "https://web.archive.org/web/20240225102425id_/https://www.glencore.ca/.rest/api/v1/documents/445ff552a2c005ea58774194e2171584/Partnership%2C+donation+or+sponsorship+request+form.pdf",
+   "bytes": 358557,
+   "title": "Partnership,+donation+or+sponsorship+request+form.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/449b05ad7fb65db79d4601ef6c8475dc/EVR+Access+Maps+2024_25.pdf",
+   "timestamp": "20250729053416",
+   "wayback_url": "https://web.archive.org/web/20250729053416id_/https://www.glencore.ca/.rest/api/v1/documents/449b05ad7fb65db79d4601ef6c8475dc/EVR+Access+Maps+2024_25.pdf",
+   "bytes": 36774168,
+   "title": "EVR+Access+Maps+2024_25.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/44bebc10453ef7c6437c0380abe5effc/Infolettre-Moyenne+trimestrielle+Q2+As-2024.pdf",
+   "timestamp": "20250124023705",
+   "wayback_url": "https://web.archive.org/web/20250124023705id_/https://www.glencore.ca/.rest/api/v1/documents/44bebc10453ef7c6437c0380abe5effc/Infolettre-Moyenne+trimestrielle+Q2+As-2024.pdf",
+   "bytes": 1021108,
+   "title": "Infolettre-Moyenne+trimestrielle+Q2+As-2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/45104f2548964cb67f0b7206a48d211c/5597_CCR_BulletinDD2024_VF-web.pdf",
+   "timestamp": "20250801142125",
+   "wayback_url": "https://web.archive.org/web/20250801142125id_/https://www.glencore.ca/.rest/api/v1/documents/45104f2548964cb67f0b7206a48d211c/5597_CCR_BulletinDD2024_VF-web.pdf",
+   "bytes": 4646690,
+   "title": "5597_CCR_BulletinDD2024_VF-web.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/468328ed794e5c511e54a03aeb6f5222/Glencore+Sudbury+INO+-+SPRING+2024+-+OUR+REPORT+TO+THE+COMMUNITY+-+WEB.pdf",
+   "timestamp": "20240525083232",
+   "wayback_url": "https://web.archive.org/web/20240525083232id_/https://www.glencore.ca/.rest/api/v1/documents/468328ed794e5c511e54a03aeb6f5222/Glencore+Sudbury+INO+-+SPRING+2024+-+OUR+REPORT+TO+THE+COMMUNITY+-+WEB.pdf",
+   "bytes": 4163781,
+   "title": "Glencore+Sudbury+INO+-+SPRING+2024+-+OUR+REPORT+TO+THE+COMMUNITY+-+WEB.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/477b9436127765832651e045bae808da/Brenda_Permit_263_20140122.pdf",
+   "timestamp": "20211026204547",
+   "wayback_url": "https://web.archive.org/web/20211026204547id_/https://www.glencore.ca/.rest/api/v1/documents/477b9436127765832651e045bae808da/Brenda_Permit_263_20140122.pdf",
+   "bytes": 345228,
+   "title": "Brenda_Permit_263_20140122.pdf",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/47c6dc1960379dd888a2fd652f81d24c/Directives+-+Programme+de+partenariat+avec+la+communaut%C3%A9.pdf",
+   "timestamp": "20240124090928",
+   "wayback_url": "https://web.archive.org/web/20240124090928id_/https://www.glencore.ca/.rest/api/v1/documents/47c6dc1960379dd888a2fd652f81d24c/Directives+-+Programme+de+partenariat+avec+la+communaut%C3%A9.pdf",
+   "bytes": 165330,
+   "title": "Directives+-+Programme+de+partenariat+avec+la+communauté.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/4c35620974589fed023f8ff3e534335f/2021%20Glencore%20Sudbury%20INO%20Report%20to%20Community.pdf",
+   "timestamp": "20230808041537",
+   "wayback_url": "https://web.archive.org/web/20230808041537id_/https://www.glencore.ca/.rest/api/v1/documents/4c35620974589fed023f8ff3e534335f/2021%20Glencore%20Sudbury%20INO%20Report%20to%20Community.pdf",
+   "bytes": 1738552,
+   "title": "2021 Glencore Sudbury INO Report to Community.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/4dd8b2a8d21c40d6a2b63f806a33858e/CPP_Brochure_2016.pdf",
+   "timestamp": "20230528101228",
+   "wayback_url": "https://web.archive.org/web/20230528101228id_/https://www.glencore.ca/.rest/api/v1/documents/4dd8b2a8d21c40d6a2b63f806a33858e/CPP_Brochure_2016.pdf",
+   "bytes": 1027652,
+   "title": "CPP_Brochure_2016.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/4e8e087c6ceb99ccd2d1f5cc481a6202/Canadian+Policy+on+Donations+and+Partnerships.pdf",
+   "timestamp": "20250428192247",
+   "wayback_url": "https://web.archive.org/web/20250428192247id_/https://www.glencore.ca/.rest/api/v1/documents/4e8e087c6ceb99ccd2d1f5cc481a6202/Canadian+Policy+on+Donations+and+Partnerships.pdf",
+   "bytes": 2482226,
+   "title": "Canadian+Policy+on+Donations+and+Partnerships.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/4eb890a1157faec602a3891e1a2b014f/Infolettre-Moyenne+trimestrielle+Q2+-+2023.pdf",
+   "timestamp": "20250124041540",
+   "wayback_url": "https://web.archive.org/web/20250124041540id_/https://www.glencore.ca/.rest/api/v1/documents/4eb890a1157faec602a3891e1a2b014f/Infolettre-Moyenne+trimestrielle+Q2+-+2023.pdf",
+   "bytes": 1001840,
+   "title": "Infolettre-Moyenne+trimestrielle+Q2+-+2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/5148d87f3fece6cd84f2088e07d13105/RA_comiteRaglan2023_inuktitut_VF.pdf",
+   "timestamp": "20250813015934",
+   "wayback_url": "https://web.archive.org/web/20250813015934id_/https://www.glencore.ca/.rest/api/v1/documents/5148d87f3fece6cd84f2088e07d13105/RA_comiteRaglan2023_inuktitut_VF.pdf",
+   "bytes": 2423339,
+   "title": "RA_comiteRaglan2023_inuktitut_VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/520d8513a3490bcf6d437f5ebe71a618/Independent%20Assurance%20Report%202019.pdf",
+   "timestamp": "20250724191248",
+   "wayback_url": "https://web.archive.org/web/20250724191248id_/https://www.glencore.ca/.rest/api/v1/documents/520d8513a3490bcf6d437f5ebe71a618/Independent%20Assurance%20Report%202019.pdf",
+   "bytes": 139097,
+   "title": "Independent Assurance Report 2019.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/53aa5aaecdc33dbb87fe04b1cea143ee/2021+Glencore+Sudbury+INO+Report+to+Community+%28FINAL%29.pdf",
+   "timestamp": "20250813020028",
+   "wayback_url": "https://web.archive.org/web/20250813020028id_/https://www.glencore.ca/.rest/api/v1/documents/53aa5aaecdc33dbb87fe04b1cea143ee/2021+Glencore+Sudbury+INO+Report+to+Community+%28FINAL%29.pdf",
+   "bytes": 1895706,
+   "title": "2021+Glencore+Sudbury+INO+Report+to+Community+(FINAL).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/53caa8a731b160418e1192502b445f79/notre_engagement2022_EN_low.pdf",
+   "timestamp": "20240521232522",
+   "wayback_url": "https://web.archive.org/web/20240521232522id_/https://www.glencore.ca/.rest/api/v1/documents/53caa8a731b160418e1192502b445f79/notre_engagement2022_EN_low.pdf",
+   "bytes": 3863584,
+   "title": "notre_engagement2022_EN_low.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/564d8fbba447e0317fb7bfdd1f584d48/Plan+d%E2%80%99action+-+Rapport+de+performance+effectu%C3%A9+aux+installations+portuaires+de+Glencore+%C3%A0+Qu%C3%A9bec.pdf",
+   "timestamp": "20250815142726",
+   "wayback_url": "https://web.archive.org/web/20250815142726id_/https://www.glencore.ca/.rest/api/v1/documents/564d8fbba447e0317fb7bfdd1f584d48/Plan+d%E2%80%99action+-+Rapport+de+performance+effectu%C3%A9+aux+installations+portuaires+de+Glencore+%C3%A0+Qu%C3%A9bec.pdf",
+   "bytes": 275398,
+   "title": "Plan+d’action+-+Rapport+de+performance+effectué+aux+installations+portuaires+de+Glencore+à+Québec.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/566260b2b8ac182da333e02c5842d326/Glencore%20AODA%20Accessibility%20Policy%20and%20MYAP-%20Accessible.pdf",
+   "timestamp": "20221205180708",
+   "wayback_url": "https://web.archive.org/web/20221205180708id_/https://www.glencore.ca/.rest/api/v1/documents/566260b2b8ac182da333e02c5842d326/Glencore%20AODA%20Accessibility%20Policy%20and%20MYAP-%20Accessible.pdf",
+   "bytes": 86707,
+   "title": "Glencore AODA Accessibility Policy and MYAP- Accessible.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/566260b2b8ac182da333e02c5842d326/Glencore+AODA+Accessibility+Policy+and+MYAP-+Accessible.pdf",
+   "timestamp": "20231004031032",
+   "wayback_url": "https://web.archive.org/web/20231004031032id_/https://www.glencore.ca/.rest/api/v1/documents/566260b2b8ac182da333e02c5842d326/Glencore+AODA+Accessibility+Policy+and+MYAP-+Accessible.pdf",
+   "bytes": 86741,
+   "title": "Glencore+AODA+Accessibility+Policy+and+MYAP-+Accessible.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/569dadf3aa7d12e391c32d1771e6f3e7/2023%2BPublic%2BInformation%2BReport%2B-%2BGlencore%2B-%2BKidd%2BMetallurgical%2BSite%2B-%2BEffluent%2BDischarge%2Band%2BWater%2BStewardship.pdf",
+   "timestamp": "20251206172706",
+   "wayback_url": "https://web.archive.org/web/20251206172706id_/https://www.glencore.ca/.rest/api/v1/documents/569dadf3aa7d12e391c32d1771e6f3e7/2023%2BPublic%2BInformation%2BReport%2B-%2BGlencore%2B-%2BKidd%2BMetallurgical%2BSite%2B-%2BEffluent%2BDischarge%2Band%2BWater%2BStewardship.pdf",
+   "bytes": 5931987,
+   "title": "2023+Public+Information+Report+-+Glencore+-+Kidd+Metallurgical+Site+-+Effluent+Discharge+and+Water+Stewardship.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/56ed5e2c0a46d781d6367363b56e63c8/Action+Plan+-+Performance+Report+for+Glencore%E2%80%99s+Port+of+Quebec+Facilities.pdf",
+   "timestamp": "20250815142419",
+   "wayback_url": "https://web.archive.org/web/20250815142419id_/https://www.glencore.ca/.rest/api/v1/documents/56ed5e2c0a46d781d6367363b56e63c8/Action+Plan+-+Performance+Report+for+Glencore%E2%80%99s+Port+of+Quebec+Facilities.pdf",
+   "bytes": 277770,
+   "title": "Action+Plan+-+Performance+Report+for+Glencore’s+Port+of+Quebec+Facilities.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/573cda1e1a818d6efcf5a5041f3b3453/ISO9001_EN.pdf",
+   "timestamp": "20260609090332",
+   "wayback_url": "https://web.archive.org/web/20260609090332id_/https://www.glencore.ca/.rest/api/v1/documents/573cda1e1a818d6efcf5a5041f3b3453/ISO9001_EN.pdf",
+   "bytes": 2118543,
+   "title": "ISO9001_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/57d2358c34523f5e41088d0f55386fcc/2024%2BPublic%2BInformation%2BReport%2B-%2BGlencore%2B-%2BKidd%2BMetallurgical%2BSite%2B-%2BEffluent%2BDischarge%2Band%2BWater%2BStewardship%2BFINAL.pdf",
+   "timestamp": "20251207042019",
+   "wayback_url": "https://web.archive.org/web/20251207042019id_/https://www.glencore.ca/.rest/api/v1/documents/57d2358c34523f5e41088d0f55386fcc/2024%2BPublic%2BInformation%2BReport%2B-%2BGlencore%2B-%2BKidd%2BMetallurgical%2BSite%2B-%2BEffluent%2BDischarge%2Band%2BWater%2BStewardship%2BFINAL.pdf",
+   "bytes": 7271404,
+   "title": "2024+Public+Information+Report+-+Glencore+-+Kidd+Metallurgical+Site+-+Effluent+Discharge+and+Water+Stewardship+FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/5ccbd2c180a4659e4989ffb7c0796477/Raglan_ClosureSubCom_2022-2023_AnnualReport_EN_FIN.pdf",
+   "timestamp": "20250428193546",
+   "wayback_url": "https://web.archive.org/web/20250428193546id_/https://www.glencore.ca/.rest/api/v1/documents/5ccbd2c180a4659e4989ffb7c0796477/Raglan_ClosureSubCom_2022-2023_AnnualReport_EN_FIN.pdf",
+   "bytes": 2797832,
+   "title": "Raglan_ClosureSubCom_2022-2023_AnnualReport_EN_FIN.pdf",
+   "type": "closure",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/5d0b27e2424bfafe1e54ba86591caa9e/Formulaire+dons+et+Commandites+-+plus+de+14+000+%24.pdf",
+   "timestamp": "20231207075805",
+   "wayback_url": "https://web.archive.org/web/20231207075805id_/https://www.glencore.ca/.rest/api/v1/documents/5d0b27e2424bfafe1e54ba86591caa9e/Formulaire+dons+et+Commandites+-+plus+de+14+000+%24.pdf",
+   "bytes": 191133,
+   "title": "Formulaire+dons+et+Commandites+-+plus+de+14+000+$.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/611f03079b9fe9a5835d16429fba82b3/Glencore+Conditions+de+la+commande+de+services+%28Services+Professionels%29.pdf",
+   "timestamp": "20240713230630",
+   "wayback_url": "https://web.archive.org/web/20240713230630id_/https://www.glencore.ca/.rest/api/v1/documents/611f03079b9fe9a5835d16429fba82b3/Glencore+Conditions+de+la+commande+de+services+%28Services+Professionels%29.pdf",
+   "bytes": 297426,
+   "title": "Glencore+Conditions+de+la+commande+de+services+(Services+Professionels).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/616b68a9a4680c282ac2d2ae629549bd/Glencore%20AODA%20Accessibility%20Policy%20and%20MYAP.pdf",
+   "timestamp": "20211026213718",
+   "wayback_url": "https://web.archive.org/web/20211026213718id_/https://www.glencore.ca/.rest/api/v1/documents/616b68a9a4680c282ac2d2ae629549bd/Glencore%20AODA%20Accessibility%20Policy%20and%20MYAP.pdf",
+   "bytes": 74404,
+   "title": "Glencore AODA Accessibility Policy and MYAP.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/617c80e26a28535f68341bf93df9f33b/Lignes+directrices+PPC_2024.pdf",
+   "timestamp": "20250428192647",
+   "wayback_url": "https://web.archive.org/web/20250428192647id_/https://www.glencore.ca/.rest/api/v1/documents/617c80e26a28535f68341bf93df9f33b/Lignes+directrices+PPC_2024.pdf",
+   "bytes": 3941503,
+   "title": "Lignes+directrices+PPC_2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/63e35d8469d6ba434d4b4755b976508b/Our%20Values%20-%20Glencore%20Canada%20-%20Accessible.pdf",
+   "timestamp": "20211026213219",
+   "wayback_url": "https://web.archive.org/web/20211026213219id_/https://www.glencore.ca/.rest/api/v1/documents/63e35d8469d6ba434d4b4755b976508b/Our%20Values%20-%20Glencore%20Canada%20-%20Accessible.pdf",
+   "bytes": 437695,
+   "title": "Our Values - Glencore Canada - Accessible.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/6471aa7a9f084cd1c146cf60fb8fa18f/Third+Party+Audit+-+Performance+Report.pdf",
+   "timestamp": "20250804125013",
+   "wayback_url": "https://web.archive.org/web/20250804125013id_/https://www.glencore.ca/.rest/api/v1/documents/6471aa7a9f084cd1c146cf60fb8fa18f/Third+Party+Audit+-+Performance+Report.pdf",
+   "bytes": 2096967,
+   "title": "Third+Party+Audit+-+Performance+Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/64fabf4b7be91c36e4ba71cd5883ca0b/06.+Coupa+Supplier+Portal_CSP_Confirmation+du+paiement+de+la+facture.pdf",
+   "timestamp": "20250725211633",
+   "wayback_url": "https://web.archive.org/web/20250725211633id_/https://www.glencore.ca/.rest/api/v1/documents/64fabf4b7be91c36e4ba71cd5883ca0b/06.+Coupa+Supplier+Portal_CSP_Confirmation+du+paiement+de+la+facture.pdf",
+   "bytes": 1234947,
+   "title": "06.+Coupa+Supplier+Portal_CSP_Confirmation+du+paiement+de+la+facture.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/6778410614f7493f72fd9fd806dd1076/Glencore+Conditions+G%C3%A9n%C3%A9rales+du+Bon+de+Commande.pdf",
+   "timestamp": "20250428185002",
+   "wayback_url": "https://web.archive.org/web/20250428185002id_/https://www.glencore.ca/.rest/api/v1/documents/6778410614f7493f72fd9fd806dd1076/Glencore+Conditions+G%C3%A9n%C3%A9rales+du+Bon+de+Commande.pdf",
+   "bytes": 287241,
+   "title": "Glencore+Conditions+Générales+du+Bon+de+Commande.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/69b84f710140e58666cdfce2a485db8f/Sudbury+INO+Health+and+Safety+Policy.pdf",
+   "timestamp": "20250124022609",
+   "wayback_url": "https://web.archive.org/web/20250124022609id_/https://www.glencore.ca/.rest/api/v1/documents/69b84f710140e58666cdfce2a485db8f/Sudbury+INO+Health+and+Safety+Policy.pdf",
+   "bytes": 583424,
+   "title": "Sudbury+INO+Health+and+Safety+Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/6e2126a254dbaac46b39681649be22a5/Plan%20d'action%20-%20r%C3%A9duction%20des%20%C3%A9missions%20-%20Fonderie%20Horne.pdf",
+   "timestamp": "20221001134955",
+   "wayback_url": "https://web.archive.org/web/20221001134955id_/https://www.glencore.ca/.rest/api/v1/documents/6e2126a254dbaac46b39681649be22a5/Plan%20d'action%20-%20r%C3%A9duction%20des%20%C3%A9missions%20-%20Fonderie%20Horne.pdf",
+   "bytes": 956611,
+   "title": "Plan d'action - réduction des émissions - Fonderie Horne.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/6e2126a254dbaac46b39681649be22a5/Plan%20d'action%20-%20r%C3%A9duction%20des%20%C3%A9missions%20-%20Fonderie%20Horne.pdf?fbclid=IwAR0qWXSYx0m05Siw7-oyEGf8vtDQXzZlsCwjP9gwTDEtSO8fEdP7C7xhBxE",
+   "timestamp": "20221219064342",
+   "wayback_url": "https://web.archive.org/web/20221219064342id_/https://www.glencore.ca/.rest/api/v1/documents/6e2126a254dbaac46b39681649be22a5/Plan%20d'action%20-%20r%C3%A9duction%20des%20%C3%A9missions%20-%20Fonderie%20Horne.pdf?fbclid=IwAR0qWXSYx0m05Siw7-oyEGf8vtDQXzZlsCwjP9gwTDEtSO8fEdP7C7xhBxE",
+   "bytes": 2055807,
+   "title": "Plan d'action - réduction des émissions - Fonderie Horne.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/6e2126a254dbaac46b39681649be22a5/Plan%20d'action%20-%20r%EF%BF%BD%EF%BF%BDduction%20des%20%EF%BF%BD%EF%BF%BDmissions%20-%20Fonderie%20Horne.pdf",
+   "timestamp": "20221205165541",
+   "wayback_url": "https://web.archive.org/web/20221205165541id_/https://www.glencore.ca/.rest/api/v1/documents/6e2126a254dbaac46b39681649be22a5/Plan%20d'action%20-%20r%EF%BF%BD%EF%BF%BDduction%20des%20%EF%BF%BD%EF%BF%BDmissions%20-%20Fonderie%20Horne.pdf",
+   "bytes": 956978,
+   "title": "Plan d'action - r��duction des ��missions - Fonderie Horne.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/6eadbc40d2c05fdc63f93123d588d4b1/Certficat%20ISO%209001-2015%20de%20CCR.pdf",
+   "timestamp": "20221001134639",
+   "wayback_url": "https://web.archive.org/web/20221001134639id_/https://www.glencore.ca/.rest/api/v1/documents/6eadbc40d2c05fdc63f93123d588d4b1/Certficat%20ISO%209001-2015%20de%20CCR.pdf",
+   "bytes": 93392,
+   "title": "Certficat ISO 9001-2015 de CCR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/6eadbc40d2c05fdc63f93123d588d4b1/Certficat+ISO+9001-2015+de+CCR.pdf",
+   "timestamp": "20240124090933",
+   "wayback_url": "https://web.archive.org/web/20240124090933id_/https://www.glencore.ca/.rest/api/v1/documents/6eadbc40d2c05fdc63f93123d588d4b1/Certficat+ISO+9001-2015+de+CCR.pdf",
+   "bytes": 93027,
+   "title": "Certficat+ISO+9001-2015+de+CCR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/7123de5481487e4c8615a1d8563d2f77/Depliant+generique+operation+sirene+-+St-Stanislas-de-Kostka.pdf",
+   "timestamp": "20250813015255",
+   "wayback_url": "https://web.archive.org/web/20250813015255id_/https://www.glencore.ca/.rest/api/v1/documents/7123de5481487e4c8615a1d8563d2f77/Depliant+generique+operation+sirene+-+St-Stanislas-de-Kostka.pdf",
+   "bytes": 2654595,
+   "title": "Depliant+generique+operation+sirene+-+St-Stanislas-de-Kostka.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/7165a7f7b7c169bf5b645d679254b18b/Horne%20Smelter%20-%20Environmental%20Improvement%20Plan.pdf",
+   "timestamp": "20221006210627",
+   "wayback_url": "https://web.archive.org/web/20221006210627id_/https://www.glencore.ca/.rest/api/v1/documents/7165a7f7b7c169bf5b645d679254b18b/Horne%20Smelter%20-%20Environmental%20Improvement%20Plan.pdf",
+   "bytes": 5458809,
+   "title": "Horne Smelter - Environmental Improvement Plan.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/7165a7f7b7c169bf5b645d679254b18b/Horne+Smelter+-+Environmental+Improvement+Plan.pdf",
+   "timestamp": "20230131140121",
+   "wayback_url": "https://web.archive.org/web/20230131140121id_/https://www.glencore.ca/.rest/api/v1/documents/7165a7f7b7c169bf5b645d679254b18b/Horne+Smelter+-+Environmental+Improvement+Plan.pdf",
+   "bytes": 939634,
+   "title": "Horne+Smelter+-+Environmental+Improvement+Plan.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/7165a7f7b7c169bf5b645d679254b18b/Horne+Smelter+-+Environmental+Improvement+Plan.pdf?download=true",
+   "timestamp": "20240715140250",
+   "wayback_url": "https://web.archive.org/web/20240715140250id_/https://www.glencore.ca/.rest/api/v1/documents/7165a7f7b7c169bf5b645d679254b18b/Horne+Smelter+-+Environmental+Improvement+Plan.pdf?download=true",
+   "bytes": 5460719,
+   "title": "Horne+Smelter+-+Environmental+Improvement+Plan.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/74b8199b011c160268753d8b34817ccb/EV-Mining-Operations-Economic-Contribution-Study-2022.pdf",
+   "timestamp": "20250216050432",
+   "wayback_url": "https://web.archive.org/web/20250216050432id_/https://www.glencore.ca/.rest/api/v1/documents/74b8199b011c160268753d8b34817ccb/EV-Mining-Operations-Economic-Contribution-Study-2022.pdf",
+   "bytes": 1040195,
+   "title": "EV-Mining-Operations-Economic-Contribution-Study-2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/771751872af35ab0f1d89a6dd9d3fc2f/Raglan_Rapport_Engagement202300_EN_web.pdf",
+   "timestamp": "20260309234305",
+   "wayback_url": "https://web.archive.org/web/20260309234305id_/https://www.glencore.ca/.rest/api/v1/documents/771751872af35ab0f1d89a6dd9d3fc2f/Raglan_Rapport_Engagement202300_EN_web.pdf",
+   "bytes": 3131119,
+   "title": "Raglan_Rapport_Engagement202300_EN_web.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/77d4eeb7ed24ff71cf16379219531dd6/SNMA%20Plan%20Summary.pdf",
+   "timestamp": "20240713233445",
+   "wayback_url": "https://web.archive.org/web/20240713233445id_/https://www.glencore.ca/.rest/api/v1/documents/77d4eeb7ed24ff71cf16379219531dd6/SNMA%20Plan%20Summary.pdf",
+   "bytes": 546834,
+   "title": "SNMA Plan Summary.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/78aa4c17d8fe80b4a185568da8d06591/Glencore+in+Canada+-+Socioeconomic+Contribution+Analysis+-+2024.pdf",
+   "timestamp": "20260411112643",
+   "wayback_url": "https://web.archive.org/web/20260411112643id_/https://www.glencore.ca/.rest/api/v1/documents/78aa4c17d8fe80b4a185568da8d06591/Glencore+in+Canada+-+Socioeconomic+Contribution+Analysis+-+2024.pdf",
+   "bytes": 5057015,
+   "title": "Glencore+in+Canada+-+Socioeconomic+Contribution+Analysis+-+2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/7c2d3d8b65a78a2f174150eacded50e2/CPP_Brochure_2025.pdf",
+   "timestamp": "20251107180952",
+   "wayback_url": "https://web.archive.org/web/20251107180952id_/https://www.glencore.ca/.rest/api/v1/documents/7c2d3d8b65a78a2f174150eacded50e2/CPP_Brochure_2025.pdf",
+   "bytes": 4788342,
+   "title": "CPP_Brochure_2025.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/7c93dc8810586a743c0a44dea4cad756/Code+de+Conduite+-+French+-++Accessible.pdf",
+   "timestamp": "20240130051450",
+   "wayback_url": "https://web.archive.org/web/20240130051450id_/https://www.glencore.ca/.rest/api/v1/documents/7c93dc8810586a743c0a44dea4cad756/Code+de+Conduite+-+French+-++Accessible.pdf",
+   "bytes": 5439746,
+   "title": "Code+de+Conduite+-+French+-++Accessible.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/7d05aee9e51df5338b0c13bd05b49e0a/Modern-Slavery-Statement-2019%20-%20Accessible.pdf",
+   "timestamp": "20211114205329",
+   "wayback_url": "https://web.archive.org/web/20211114205329id_/https://www.glencore.ca/.rest/api/v1/documents/7d05aee9e51df5338b0c13bd05b49e0a/Modern-Slavery-Statement-2019%20-%20Accessible.pdf",
+   "bytes": 690706,
+   "title": "Modern-Slavery-Statement-2019 - Accessible.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/80a942cacce2da846c6a6a3d9e3df604/2021%20Annual%20EMT%20Report.pdf",
+   "timestamp": "20230328031708",
+   "wayback_url": "https://web.archive.org/web/20230328031708id_/https://www.glencore.ca/.rest/api/v1/documents/80a942cacce2da846c6a6a3d9e3df604/2021%20Annual%20EMT%20Report.pdf",
+   "bytes": 1219321,
+   "title": "2021 Annual EMT Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/83855ec36be09fe424698c0139f2f0a1/Regulatory+Timetable.pdf",
+   "timestamp": "20250428191136",
+   "wayback_url": "https://web.archive.org/web/20250428191136id_/https://www.glencore.ca/.rest/api/v1/documents/83855ec36be09fe424698c0139f2f0a1/Regulatory+Timetable.pdf",
+   "bytes": 308055,
+   "title": "Regulatory+Timetable.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/83b2cc118256a971ebc6253d7d68e492/DCD_XPS61_French_FINAL.pdf",
+   "timestamp": "20250719131241",
+   "wayback_url": "https://web.archive.org/web/20250719131241id_/https://www.glencore.ca/.rest/api/v1/documents/83b2cc118256a971ebc6253d7d68e492/DCD_XPS61_French_FINAL.pdf",
+   "bytes": 8624751,
+   "title": "DCD_XPS61_French_FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/847207dbc84b41741712e791c09d1933/Etude+sur+limportance+economique+de+lacide+sulfurique.pdf",
+   "timestamp": "20250813015132",
+   "wayback_url": "https://web.archive.org/web/20250813015132id_/https://www.glencore.ca/.rest/api/v1/documents/847207dbc84b41741712e791c09d1933/Etude+sur+limportance+economique+de+lacide+sulfurique.pdf",
+   "bytes": 3830423,
+   "title": "Etude+sur+limportance+economique+de+lacide+sulfurique.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/876c7d83d56f53b73d696ffa0b1ada03/06.+Coupa+Supplier+Portal+(CSP)+Confirmation+of+invoice+payment.pdf",
+   "timestamp": "20250721233746",
+   "wayback_url": "https://web.archive.org/web/20250721233746id_/https://www.glencore.ca/.rest/api/v1/documents/876c7d83d56f53b73d696ffa0b1ada03/06.+Coupa+Supplier+Portal+(CSP)+Confirmation+of+invoice+payment.pdf",
+   "bytes": 1219833,
+   "title": "06.+Coupa+Supplier+Portal+(CSP)+Confirmation+of+invoice+payment.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/8888f16b4eb3310e8f9e47612e60f042/Formulaire+de+demande+de+partenariat+don+ou+commandite.pdf",
+   "timestamp": "20240225103224",
+   "wayback_url": "https://web.archive.org/web/20240225103224id_/https://www.glencore.ca/.rest/api/v1/documents/8888f16b4eb3310e8f9e47612e60f042/Formulaire+de+demande+de+partenariat+don+ou+commandite.pdf",
+   "bytes": 525331,
+   "title": "Formulaire+de+demande+de+partenariat+don+ou+commandite.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/892414eb8899a4feb36b0f3b42ddce5c/ISO14001_EN.pdf",
+   "timestamp": "20260609081838",
+   "wayback_url": "https://web.archive.org/web/20260609081838id_/https://www.glencore.ca/.rest/api/v1/documents/892414eb8899a4feb36b0f3b42ddce5c/ISO14001_EN.pdf",
+   "bytes": 1937138,
+   "title": "ISO14001_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/8952f68a3fd648f898c379e6166d28f1/CEZinc-Fiche-Information+SO2-SO3.pdf",
+   "timestamp": "20250813015300",
+   "wayback_url": "https://web.archive.org/web/20250813015300id_/https://www.glencore.ca/.rest/api/v1/documents/8952f68a3fd648f898c379e6166d28f1/CEZinc-Fiche-Information+SO2-SO3.pdf",
+   "bytes": 542341,
+   "title": "CEZinc-Fiche-Information+SO2-SO3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/8bdc0cc3120439aac10967b7e7469343/Glencore+Service+Order+Terms+and+Conditions.pdf",
+   "timestamp": "20250428181028",
+   "wayback_url": "https://web.archive.org/web/20250428181028id_/https://www.glencore.ca/.rest/api/v1/documents/8bdc0cc3120439aac10967b7e7469343/Glencore+Service+Order+Terms+and+Conditions.pdf",
+   "bytes": 305221,
+   "title": "Glencore+Service+Order+Terms+and+Conditions.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/8c623bf7ada413b701bdf1ca765df660/Sudbury%20INO%20HSEC%20and%20Human%20Rights%20Sustainability%20Policy.pdf",
+   "timestamp": "20221205165423",
+   "wayback_url": "https://web.archive.org/web/20221205165423id_/https://www.glencore.ca/.rest/api/v1/documents/8c623bf7ada413b701bdf1ca765df660/Sudbury%20INO%20HSEC%20and%20Human%20Rights%20Sustainability%20Policy.pdf",
+   "bytes": 323398,
+   "title": "Sudbury INO HSEC and Human Rights Sustainability Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/8f9f51f0d636c3def48e0fc3fd178eab/depliantbourseRaglan2023_Web_FIN_en.pdf?download=true",
+   "timestamp": "20240124091155",
+   "wayback_url": "https://web.archive.org/web/20240124091155id_/https://www.glencore.ca/.rest/api/v1/documents/8f9f51f0d636c3def48e0fc3fd178eab/depliantbourseRaglan2023_Web_FIN_en.pdf?download=true",
+   "bytes": 369435,
+   "title": "depliantbourseRaglan2023_Web_FIN_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/90993adbf0298677158972b12e1ec29b/Politique+canadienne+de+dons+et+partenariats.pdf",
+   "timestamp": "20250424222804",
+   "wayback_url": "https://web.archive.org/web/20250424222804id_/https://www.glencore.ca/.rest/api/v1/documents/90993adbf0298677158972b12e1ec29b/Politique+canadienne+de+dons+et+partenariats.pdf",
+   "bytes": 2530620,
+   "title": "Politique+canadienne+de+dons+et+partenariats.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/9188a05356fa82d5cebd9372aadf643e/Glencore+Purchase+Order+Terms+and+Conditions.pdf",
+   "timestamp": "20240713225253",
+   "wayback_url": "https://web.archive.org/web/20240713225253id_/https://www.glencore.ca/.rest/api/v1/documents/9188a05356fa82d5cebd9372aadf643e/Glencore+Purchase+Order+Terms+and+Conditions.pdf",
+   "bytes": 225761,
+   "title": "Glencore+Purchase+Order+Terms+and+Conditions.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/918f258c57b42335f4434ccec51dafb5/Horne+_+Protocole+d'acquisition-+Quartier+Notre-Dame+V1.pdf",
+   "timestamp": "20250113070826",
+   "wayback_url": "https://web.archive.org/web/20250113070826id_/https://www.glencore.ca/.rest/api/v1/documents/918f258c57b42335f4434ccec51dafb5/Horne+_+Protocole+d'acquisition-+Quartier+Notre-Dame+V1.pdf",
+   "bytes": 368968,
+   "title": "Horne+_+Protocole+d'acquisition-+Quartier+Notre-Dame+V1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/92e4efd6a2600a53b9222e9a63b29958/2020-04-20_Communique_de_presse_Reprise_des_activites_a_Mine_Raglan_VF.pdf",
+   "timestamp": "20211025050424",
+   "wayback_url": "https://web.archive.org/web/20211025050424id_/https://www.glencore.ca/.rest/api/v1/documents/92e4efd6a2600a53b9222e9a63b29958/2020-04-20_Communique_de_presse_Reprise_des_activites_a_Mine_Raglan_VF.pdf",
+   "bytes": 555759,
+   "title": "2020-04-20_Communique_de_presse_Reprise_des_activites_a_Mine_Raglan_VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/943f3a026f2d564864cd21d085f53046/1.pdf",
+   "timestamp": "20250617194458",
+   "wayback_url": "https://web.archive.org/web/20250617194458id_/https://www.glencore.ca/.rest/api/v1/documents/943f3a026f2d564864cd21d085f53046/1.pdf",
+   "bytes": 5199161,
+   "title": "1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/95f366f73094f3b1b461c3be5c3f6260/M%C3%A9moire%20d%C3%A9pos%C3%A9%20dans%20le%20cadre%20de%20la%20consultation%20publique%20sur%20le%20renouvellement%20de%20l%E2%80%99autorisation%20minist%C3%A9rielle%20de%20la%20Fonderie%20Horne.pdf",
+   "timestamp": "20221024131456",
+   "wayback_url": "https://web.archive.org/web/20221024131456id_/https://www.glencore.ca/.rest/api/v1/documents/95f366f73094f3b1b461c3be5c3f6260/M%C3%A9moire%20d%C3%A9pos%C3%A9%20dans%20le%20cadre%20de%20la%20consultation%20publique%20sur%20le%20renouvellement%20de%20l%E2%80%99autorisation%20minist%C3%A9rielle%20de%20la%20Fonderie%20Horne.pdf",
+   "bytes": 6594279,
+   "title": "Mémoire déposé dans le cadre de la consultation publique sur le renouvellement de l’autorisation ministérielle de la Fonderie Horne.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/95f366f73094f3b1b461c3be5c3f6260/M%C3%A9moire+d%C3%A9pos%C3%A9+dans+le+cadre+de+la+consultation+publique+sur+le+renouvellement+de+l%E2%80%99autorisation+minist%C3%A9rielle+de+la+Fonderie+Horne.pdf",
+   "timestamp": "20230131125723",
+   "wayback_url": "https://web.archive.org/web/20230131125723id_/https://www.glencore.ca/.rest/api/v1/documents/95f366f73094f3b1b461c3be5c3f6260/M%C3%A9moire+d%C3%A9pos%C3%A9+dans+le+cadre+de+la+consultation+publique+sur+le+renouvellement+de+l%E2%80%99autorisation+minist%C3%A9rielle+de+la+Fonderie+Horne.pdf",
+   "bytes": 977033,
+   "title": "Mémoire+déposé+dans+le+cadre+de+la+consultation+publique+sur+le+renouvellement+de+l’autorisation+ministérielle+de+la+Fonderie+Horne.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/9c90fa2b3c9195250cc9565ab7f9989d/D%C3%A9pliant_Biosurveillance_ANG+%281%29.pdf",
+   "timestamp": "20250428185932",
+   "wayback_url": "https://web.archive.org/web/20250428185932id_/https://www.glencore.ca/.rest/api/v1/documents/9c90fa2b3c9195250cc9565ab7f9989d/D%C3%A9pliant_Biosurveillance_ANG+%281%29.pdf",
+   "bytes": 4157492,
+   "title": "Dépliant_Biosurveillance_ANG+(1).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/9ec78b98fc7b99d2872fff3db05c5657/Pr%C3%A9sentation%20de%20la%20rencontre%20publique%20d%E2%80%99information%20%E2%80%93%20projet%20AERIS.pdf",
+   "timestamp": "20221108171251",
+   "wayback_url": "https://web.archive.org/web/20221108171251id_/https://www.glencore.ca/.rest/api/v1/documents/9ec78b98fc7b99d2872fff3db05c5657/Pr%C3%A9sentation%20de%20la%20rencontre%20publique%20d%E2%80%99information%20%E2%80%93%20projet%20AERIS.pdf",
+   "bytes": 2776515,
+   "title": "Présentation de la rencontre publique d’information – projet AERIS.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/9ec78b98fc7b99d2872fff3db05c5657/Pr%C3%A9sentation%20de%20la%20rencontre%20publique%20d%E2%80%99information%20%E2%80%93%20projet%20AERIS.pdf?fbclid=IwAR0jIuLxIpUomqQRbW0TUyWk1nqIgF0QO_ACxVid5iPjnQRyArOAqZ0y4Wg",
+   "timestamp": "20221108171228",
+   "wayback_url": "https://web.archive.org/web/20221108171228id_/https://www.glencore.ca/.rest/api/v1/documents/9ec78b98fc7b99d2872fff3db05c5657/Pr%C3%A9sentation%20de%20la%20rencontre%20publique%20d%E2%80%99information%20%E2%80%93%20projet%20AERIS.pdf?fbclid=IwAR0jIuLxIpUomqQRbW0TUyWk1nqIgF0QO_ACxVid5iPjnQRyArOAqZ0y4Wg",
+   "bytes": 2778205,
+   "title": "Présentation de la rencontre publique d’information – projet AERIS.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/a023a7c96fe19675a19e316598e23cf3/Certificat+ISO+9001_2015.pdf",
+   "timestamp": "20240523152016",
+   "wayback_url": "https://web.archive.org/web/20240523152016id_/https://www.glencore.ca/.rest/api/v1/documents/a023a7c96fe19675a19e316598e23cf3/Certificat+ISO+9001_2015.pdf",
+   "bytes": 69523,
+   "title": "Certificat+ISO+9001_2015.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/a03d2fa9f6c47fe6ffcf4d1713b252e1/EMT+Meeting+Minutes-+June+3%2C+2024.pdf",
+   "timestamp": "20250723173853",
+   "wayback_url": "https://web.archive.org/web/20250723173853id_/https://www.glencore.ca/.rest/api/v1/documents/a03d2fa9f6c47fe6ffcf4d1713b252e1/EMT+Meeting+Minutes-+June+3%2C+2024.pdf",
+   "bytes": 157901,
+   "title": "EMT+Meeting+Minutes-+June+3,+2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/a10e0d69626768882381496c3554119f/Glencore+Service+Order+Terms+and+Conditions+%28Professional+Services%29.pdf",
+   "timestamp": "20250428185809",
+   "wayback_url": "https://web.archive.org/web/20250428185809id_/https://www.glencore.ca/.rest/api/v1/documents/a10e0d69626768882381496c3554119f/Glencore+Service+Order+Terms+and+Conditions+%28Professional+Services%29.pdf",
+   "bytes": 203118,
+   "title": "Glencore+Service+Order+Terms+and+Conditions+(Professional+Services).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/a1c5f84041f9c2b3945e45f09b7d70aa/Infolettre_Moyennes+premier+trimestre+2025.pdf",
+   "timestamp": "20250930165306",
+   "wayback_url": "https://web.archive.org/web/20250930165306id_/https://www.glencore.ca/.rest/api/v1/documents/a1c5f84041f9c2b3945e45f09b7d70aa/Infolettre_Moyennes+premier+trimestre+2025.pdf",
+   "bytes": null,
+   "title": "Infolettre_Moyennes+premier+trimestre+2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/a205e0aed4845e539509600122b54b0a/Depliant+generique+operation+sirene+-+Salaberry-de-Valleyfield.pdf",
+   "timestamp": "20250813015243",
+   "wayback_url": "https://web.archive.org/web/20250813015243id_/https://www.glencore.ca/.rest/api/v1/documents/a205e0aed4845e539509600122b54b0a/Depliant+generique+operation+sirene+-+Salaberry-de-Valleyfield.pdf",
+   "bytes": 2707993,
+   "title": "Depliant+generique+operation+sirene+-+Salaberry-de-Valleyfield.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/a33ce60179a4fa6844814b922ab5fecf/Politique%20SSEC%20-%20Version%20octobre%202021.pdf",
+   "timestamp": "20221001140136",
+   "wayback_url": "https://web.archive.org/web/20221001140136id_/https://www.glencore.ca/.rest/api/v1/documents/a33ce60179a4fa6844814b922ab5fecf/Politique%20SSEC%20-%20Version%20octobre%202021.pdf",
+   "bytes": 1023703,
+   "title": "Politique SSEC - Version octobre 2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/a33ce60179a4fa6844814b922ab5fecf/Politique+SSEC+-+Version+octobre+2021.pdf",
+   "timestamp": "20230528101445",
+   "wayback_url": "https://web.archive.org/web/20230528101445id_/https://www.glencore.ca/.rest/api/v1/documents/a33ce60179a4fa6844814b922ab5fecf/Politique+SSEC+-+Version+octobre+2021.pdf",
+   "bytes": 1023516,
+   "title": "Politique+SSEC+-+Version+octobre+2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/a7d8a7a362769ca20037e6542c810b94/Fiche+technique_VF.pdf",
+   "timestamp": "20260511210523",
+   "wayback_url": "https://web.archive.org/web/20260511210523id_/https://www.glencore.ca/.rest/api/v1/documents/a7d8a7a362769ca20037e6542c810b94/Fiche+technique_VF.pdf",
+   "bytes": 5027798,
+   "title": "Fiche+technique_VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/a896a95cb22a59630e39e00b44981cac/Supplier+Code+of+Conduct+%28ENG%29.pdf",
+   "timestamp": "20241202210346",
+   "wayback_url": "https://web.archive.org/web/20241202210346id_/https://www.glencore.ca/.rest/api/v1/documents/a896a95cb22a59630e39e00b44981cac/Supplier+Code+of+Conduct+%28ENG%29.pdf",
+   "bytes": 993051,
+   "title": "Supplier+Code+of+Conduct+(ENG).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/a8ccac10b83d220896e5225e21751052/Infolettre+moyenne+en+arsenic+%C3%A0+la+station+l%C3%A9gale+1er+trimestre+2024.pdf",
+   "timestamp": "20250124035235",
+   "wayback_url": "https://web.archive.org/web/20250124035235id_/https://www.glencore.ca/.rest/api/v1/documents/a8ccac10b83d220896e5225e21751052/Infolettre+moyenne+en+arsenic+%C3%A0+la+station+l%C3%A9gale+1er+trimestre+2024.pdf",
+   "bytes": 1020235,
+   "title": "Infolettre+moyenne+en+arsenic+à+la+station+légale+1er+trimestre+2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ac08d40a36994b92ddd0ed405d821dca/Fonderie+Horne+-+Bulletin+d%C3%A9veloppement+durable+2023.pdf",
+   "timestamp": "20251214143002",
+   "wayback_url": "https://web.archive.org/web/20251214143002id_/https://www.glencore.ca/.rest/api/v1/documents/ac08d40a36994b92ddd0ed405d821dca/Fonderie+Horne+-+Bulletin+d%C3%A9veloppement+durable+2023.pdf",
+   "bytes": 5229031,
+   "title": "Fonderie+Horne+-+Bulletin+développement+durable+2023.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ac2ee764f8ca5aa3f83294e63a819b1f/Katinniapik_Janv-Fev2023_EN_low.pdf?download=true",
+   "timestamp": "20240927151424",
+   "wayback_url": "https://web.archive.org/web/20240927151424id_/https://www.glencore.ca/.rest/api/v1/documents/ac2ee764f8ca5aa3f83294e63a819b1f/Katinniapik_Janv-Fev2023_EN_low.pdf?download=true",
+   "bytes": 2100755,
+   "title": "Katinniapik_Janv-Fev2023_EN_low.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ae0dab2c2e327592ff1a9d8462bc5860/EVR+Cardinal+River+Access+Boundary+Maps+2025-2026.pdf",
+   "timestamp": "20260208225419",
+   "wayback_url": "https://web.archive.org/web/20260208225419id_/https://www.glencore.ca/.rest/api/v1/documents/ae0dab2c2e327592ff1a9d8462bc5860/EVR+Cardinal+River+Access+Boundary+Maps+2025-2026.pdf",
+   "bytes": 3258472,
+   "title": "EVR+Cardinal+River+Access+Boundary+Maps+2025-2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ae8d2db5046621d9c026955a7446cbfe/Raglan+Mine+Closure+Plan+Subcommittee+Annual+Report+18-19.pdf",
+   "timestamp": "20240331125320",
+   "wayback_url": "https://web.archive.org/web/20240331125320id_/https://www.glencore.ca/.rest/api/v1/documents/ae8d2db5046621d9c026955a7446cbfe/Raglan+Mine+Closure+Plan+Subcommittee+Annual+Report+18-19.pdf",
+   "bytes": 6433526,
+   "title": "Raglan+Mine+Closure+Plan+Subcommittee+Annual+Report+18-19.pdf",
+   "type": "closure",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ae8d2db5046621d9c026955a7446cbfe/Raglan+Mine+Closure+Plan+Subcommittee+Annual+Report+18-19.pdf?download=true",
+   "timestamp": "20231004023306",
+   "wayback_url": "https://web.archive.org/web/20231004023306id_/https://www.glencore.ca/.rest/api/v1/documents/ae8d2db5046621d9c026955a7446cbfe/Raglan+Mine+Closure+Plan+Subcommittee+Annual+Report+18-19.pdf?download=true",
+   "bytes": 971760,
+   "title": "Raglan+Mine+Closure+Plan+Subcommittee+Annual+Report+18-19.pdf",
+   "type": "closure",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/b161523fb929191a861620e22f02ad99/Press_Release_Raglan_Mine_Concilator_VF.pdf",
+   "timestamp": "20240717052944",
+   "wayback_url": "https://web.archive.org/web/20240717052944id_/https://www.glencore.ca/.rest/api/v1/documents/b161523fb929191a861620e22f02ad99/Press_Release_Raglan_Mine_Concilator_VF.pdf",
+   "bytes": 410733,
+   "title": "Press_Release_Raglan_Mine_Concilator_VF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/b43994a1e6afdffecdbdb49b42f98e67/Fonderie_Infolettre_MoyenneQ3Arsenic_VF.pdf",
+   "timestamp": "20250124035554",
+   "wayback_url": "https://web.archive.org/web/20250124035554id_/https://www.glencore.ca/.rest/api/v1/documents/b43994a1e6afdffecdbdb49b42f98e67/Fonderie_Infolettre_MoyenneQ3Arsenic_VF.pdf",
+   "bytes": 1010298,
+   "title": "Fonderie_Infolettre_MoyenneQ3Arsenic_VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/b61efdd391f2653719cd7eaa4098bc38/2023+RAQMP+Report.pdf",
+   "timestamp": "20250428192524",
+   "wayback_url": "https://web.archive.org/web/20250428192524id_/https://www.glencore.ca/.rest/api/v1/documents/b61efdd391f2653719cd7eaa4098bc38/2023+RAQMP+Report.pdf",
+   "bytes": 2177192,
+   "title": "2023+RAQMP+Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/b7c10b416c32d68490f01d6a9c79a2b8/Raglan_politique_HSEC_2025_inuktitut.pdf?download=true",
+   "timestamp": "20260209001438",
+   "wayback_url": "https://web.archive.org/web/20260209001438id_/https://www.glencore.ca/.rest/api/v1/documents/b7c10b416c32d68490f01d6a9c79a2b8/Raglan_politique_HSEC_2025_inuktitut.pdf?download=true",
+   "bytes": 188176,
+   "title": "Raglan_politique_HSEC_2025_inuktitut.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/b8f23c4bbd1475e5b0bf9ea10f2fd05d/DPO-22+Politique+qualite+du+laboratoire+%28EN%29.pdf",
+   "timestamp": "20260609093146",
+   "wayback_url": "https://web.archive.org/web/20260609093146id_/https://www.glencore.ca/.rest/api/v1/documents/b8f23c4bbd1475e5b0bf9ea10f2fd05d/DPO-22+Politique+qualite+du+laboratoire+%28EN%29.pdf",
+   "bytes": 412104,
+   "title": "DPO-22+Politique+qualite+du+laboratoire+(EN).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/badfb1b8a2cd1ad9ebfc3ff2af21d0e1/0167360._FR-CA_Canadian+Electrolytic+Zinc+Ltd-+Au+nom+de+la+Soci%C3%A9t%C3%A9+en+commandite+Revenu+Noranda.pdf",
+   "timestamp": "20250813015230",
+   "wayback_url": "https://web.archive.org/web/20250813015230id_/https://www.glencore.ca/.rest/api/v1/documents/badfb1b8a2cd1ad9ebfc3ff2af21d0e1/0167360._FR-CA_Canadian+Electrolytic+Zinc+Ltd-+Au+nom+de+la+Soci%C3%A9t%C3%A9+en+commandite+Revenu+Noranda.pdf",
+   "bytes": 1822410,
+   "title": "0167360._FR-CA_Canadian+Electrolytic+Zinc+Ltd-+Au+nom+de+la+Société+en+commandite+Revenu+Noranda.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/bc0a08170a79bf0ceae6d16b359ceaf0/2020%20HSEC_Raglan%20Mine_ENG.pdf",
+   "timestamp": "20240627203647",
+   "wayback_url": "https://web.archive.org/web/20240627203647id_/https://www.glencore.ca/.rest/api/v1/documents/bc0a08170a79bf0ceae6d16b359ceaf0/2020%20HSEC_Raglan%20Mine_ENG.pdf",
+   "bytes": 622519,
+   "title": "2020 HSEC_Raglan Mine_ENG.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/bc0a08170a79bf0ceae6d16b359ceaf0/2020%20HSEC_Raglan%20Mine_ENG.pdf?download=true",
+   "timestamp": "20221205183801",
+   "wayback_url": "https://web.archive.org/web/20221205183801id_/https://www.glencore.ca/.rest/api/v1/documents/bc0a08170a79bf0ceae6d16b359ceaf0/2020%20HSEC_Raglan%20Mine_ENG.pdf?download=true",
+   "bytes": 622105,
+   "title": "2020 HSEC_Raglan Mine_ENG.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/bc0a08170a79bf0ceae6d16b359ceaf0/2020+HSEC_Raglan+Mine_ENG.pdf",
+   "timestamp": "20240805232237",
+   "wayback_url": "https://web.archive.org/web/20240805232237id_/https://www.glencore.ca/.rest/api/v1/documents/bc0a08170a79bf0ceae6d16b359ceaf0/2020+HSEC_Raglan+Mine_ENG.pdf",
+   "bytes": 622392,
+   "title": "2020+HSEC_Raglan+Mine_ENG.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/bc0a08170a79bf0ceae6d16b359ceaf0/2020+HSEC_Raglan+Mine_ENG.pdf?download=true",
+   "timestamp": "20231004031531",
+   "wayback_url": "https://web.archive.org/web/20231004031531id_/https://www.glencore.ca/.rest/api/v1/documents/bc0a08170a79bf0ceae6d16b359ceaf0/2020+HSEC_Raglan+Mine_ENG.pdf?download=true",
+   "bytes": 621749,
+   "title": "2020+HSEC_Raglan+Mine_ENG.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/bc60474e8c029b2358c1f7978ef402e1/20250626+Lettre_ouverte_Fonderie+Horne.pdf",
+   "timestamp": "20250804134321",
+   "wayback_url": "https://web.archive.org/web/20250804134321id_/https://www.glencore.ca/.rest/api/v1/documents/bc60474e8c029b2358c1f7978ef402e1/20250626+Lettre_ouverte_Fonderie+Horne.pdf",
+   "bytes": 90480,
+   "title": "20250626+Lettre_ouverte_Fonderie+Horne.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/be8da45bc84ce2e9a993f4709acf8895/Glencore+Conditions+G%C3%A9n%C3%A9rales+de+la+Commande+de+Services.pdf",
+   "timestamp": "20250428175608",
+   "wayback_url": "https://web.archive.org/web/20250428175608id_/https://www.glencore.ca/.rest/api/v1/documents/be8da45bc84ce2e9a993f4709acf8895/Glencore+Conditions+G%C3%A9n%C3%A9rales+de+la+Commande+de+Services.pdf",
+   "bytes": 392137,
+   "title": "Glencore+Conditions+Générales+de+la+Commande+de+Services.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/beb89246296e5d4e65158ca0eafcf672/Communiqu%C3%A9+de+presse+-+Programme+volontaire+de+biosurveillance+%C3%A0+l%27arsenic.pdf",
+   "timestamp": "20250428200748",
+   "wayback_url": "https://web.archive.org/web/20250428200748id_/https://www.glencore.ca/.rest/api/v1/documents/beb89246296e5d4e65158ca0eafcf672/Communiqu%C3%A9+de+presse+-+Programme+volontaire+de+biosurveillance+%C3%A0+l%27arsenic.pdf",
+   "bytes": 68729,
+   "title": "Communiqué+de+presse+-+Programme+volontaire+de+biosurveillance+à+l'arsenic.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/c15428210ea86173eee4de20f4fb6825/RA_comiteRaglan2022_FR_v3.pdf",
+   "timestamp": "20250428194204",
+   "wayback_url": "https://web.archive.org/web/20250428194204id_/https://www.glencore.ca/.rest/api/v1/documents/c15428210ea86173eee4de20f4fb6825/RA_comiteRaglan2022_FR_v3.pdf",
+   "bytes": 1746155,
+   "title": "RA_comiteRaglan2022_FR_v3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/c15ded4c2eb7bac3fb14ac02553a7630/Ship+hold+covers+during+nickel+concentrate+unloading+%E2%80%93+Pre-Feasibility+Study.pdf",
+   "timestamp": "20260110000721",
+   "wayback_url": "https://web.archive.org/web/20260110000721id_/https://www.glencore.ca/.rest/api/v1/documents/c15ded4c2eb7bac3fb14ac02553a7630/Ship+hold+covers+during+nickel+concentrate+unloading+%E2%80%93+Pre-Feasibility+Study.pdf",
+   "bytes": 3051542,
+   "title": "Ship+hold+covers+during+nickel+concentrate+unloading+–+Pre-Feasibility+Study.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/c2396ad133243a10ed6a4f69144bf518/EVR+Regional+Air+Quality+Data+Summary_2024+Q3.pdf",
+   "timestamp": "20250428192007",
+   "wayback_url": "https://web.archive.org/web/20250428192007id_/https://www.glencore.ca/.rest/api/v1/documents/c2396ad133243a10ed6a4f69144bf518/EVR+Regional+Air+Quality+Data+Summary_2024+Q3.pdf",
+   "bytes": 1492116,
+   "title": "EVR+Regional+Air+Quality+Data+Summary_2024+Q3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/c3cf9a2b70f7fd3a6c4c073c70a54104/Brenda+Mine+Newsletter+August+2024.pdf",
+   "timestamp": "20250724114105",
+   "wayback_url": "https://web.archive.org/web/20250724114105id_/https://www.glencore.ca/.rest/api/v1/documents/c3cf9a2b70f7fd3a6c4c073c70a54104/Brenda+Mine+Newsletter+August+2024.pdf",
+   "bytes": 229173,
+   "title": "Brenda+Mine+Newsletter+August+2024.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/c7a02fd5e0eddbdd89c2108826397960/RA_comiteRaglan2023_FR.pdf",
+   "timestamp": "20250428193239",
+   "wayback_url": "https://web.archive.org/web/20250428193239id_/https://www.glencore.ca/.rest/api/v1/documents/c7a02fd5e0eddbdd89c2108826397960/RA_comiteRaglan2023_FR.pdf",
+   "bytes": 2347097,
+   "title": "RA_comiteRaglan2023_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/c7a38f76cb43bb9b83b4b914bd94dd7b/Lignes+directrices_programme+%C3%89co-Fonderie.pdf",
+   "timestamp": "20241202193511",
+   "wayback_url": "https://web.archive.org/web/20241202193511id_/https://www.glencore.ca/.rest/api/v1/documents/c7a38f76cb43bb9b83b4b914bd94dd7b/Lignes+directrices_programme+%C3%89co-Fonderie.pdf",
+   "bytes": 2816369,
+   "title": "Lignes+directrices_programme+Éco-Fonderie.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/cc283959c4baa7dd387fbcfd5dd54c33/Letter+re+BCUC+Application+-+Glencore.pdf",
+   "timestamp": "20250428190933",
+   "wayback_url": "https://web.archive.org/web/20250428190933id_/https://www.glencore.ca/.rest/api/v1/documents/cc283959c4baa7dd387fbcfd5dd54c33/Letter+re+BCUC+Application+-+Glencore.pdf",
+   "bytes": 558734,
+   "title": "Letter+re+BCUC+Application+-+Glencore.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ccc6334a3191b9647a4553a4c73c59e4/Examining%20Our%20Economic%20Contribution%20to%20Quebec%20-%20Report%20-%20French.pdf",
+   "timestamp": "20211025052821",
+   "wayback_url": "https://web.archive.org/web/20211025052821id_/https://www.glencore.ca/.rest/api/v1/documents/ccc6334a3191b9647a4553a4c73c59e4/Examining%20Our%20Economic%20Contribution%20to%20Quebec%20-%20Report%20-%20French.pdf",
+   "bytes": 491425,
+   "title": "Examining Our Economic Contribution to Quebec - Report - French.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/cd7a5b13c4d5053e3847ecc1b1f4b076/Fonderie+Horne+-+Concours+de+coloriage+pour+enfants+Op%C3%A9ration+Recyclage+2024.pdf",
+   "timestamp": "20250804005804",
+   "wayback_url": "https://web.archive.org/web/20250804005804id_/https://www.glencore.ca/.rest/api/v1/documents/cd7a5b13c4d5053e3847ecc1b1f4b076/Fonderie+Horne+-+Concours+de+coloriage+pour+enfants+Op%C3%A9ration+Recyclage+2024.pdf",
+   "bytes": 986058,
+   "title": "Fonderie+Horne+-+Concours+de+coloriage+pour+enfants+Opération+Recyclage+2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ce2a9498aba40e1ef7b5834f89013788/2602_EVR_+FRX+Socioeconomic+Contribution+Report_final.pdf",
+   "timestamp": "20260609084840",
+   "wayback_url": "https://web.archive.org/web/20260609084840id_/https://www.glencore.ca/.rest/api/v1/documents/ce2a9498aba40e1ef7b5834f89013788/2602_EVR_+FRX+Socioeconomic+Contribution+Report_final.pdf",
+   "bytes": 5045207,
+   "title": "2602_EVR_+FRX+Socioeconomic+Contribution+Report_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ce72f54486d0ec1a14b9b173a777ee41/Communiqu%C3%A9+de+presse+-+Moyenne+annuelle+2025_Fonderie+Horne.pdf",
+   "timestamp": "20260511205745",
+   "wayback_url": "https://web.archive.org/web/20260511205745id_/https://www.glencore.ca/.rest/api/v1/documents/ce72f54486d0ec1a14b9b173a777ee41/Communiqu%C3%A9+de+presse+-+Moyenne+annuelle+2025_Fonderie+Horne.pdf",
+   "bytes": 92510,
+   "title": "Communiqué+de+presse+-+Moyenne+annuelle+2025_Fonderie+Horne.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/cf42fb30ba7b7ef676adcfd481c47f45/CPP_Brochure_2025.pdf",
+   "timestamp": "20250804130733",
+   "wayback_url": "https://web.archive.org/web/20250804130733id_/https://www.glencore.ca/.rest/api/v1/documents/cf42fb30ba7b7ef676adcfd481c47f45/CPP_Brochure_2025.pdf",
+   "bytes": 4773003,
+   "title": "CPP_Brochure_2025.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/d25da3e098bb5dd90d2586a5d5214f8f/Brenda+Mine+Newsletter+July+2023.pdf",
+   "timestamp": "20250726015754",
+   "wayback_url": "https://web.archive.org/web/20250726015754id_/https://www.glencore.ca/.rest/api/v1/documents/d25da3e098bb5dd90d2586a5d5214f8f/Brenda+Mine+Newsletter+July+2023.pdf",
+   "bytes": 451475,
+   "title": "Brenda+Mine+Newsletter+July+2023.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/d29365477609ff0ba875055000b54501/EVR+Regional+Air+Quality+Data+Summary_2024+Q4.pdf",
+   "timestamp": "20250609042624",
+   "wayback_url": "https://web.archive.org/web/20250609042624id_/https://www.glencore.ca/.rest/api/v1/documents/d29365477609ff0ba875055000b54501/EVR+Regional+Air+Quality+Data+Summary_2024+Q4.pdf",
+   "bytes": 1291366,
+   "title": "EVR+Regional+Air+Quality+Data+Summary_2024+Q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/d29365477609ff0ba875055000b54501/EVR+Regional+Air+Quality+Data+Summary_2024+Q4.pdf?download=true",
+   "timestamp": "20250428185557",
+   "wayback_url": "https://web.archive.org/web/20250428185557id_/https://www.glencore.ca/.rest/api/v1/documents/d29365477609ff0ba875055000b54501/EVR+Regional+Air+Quality+Data+Summary_2024+Q4.pdf?download=true",
+   "bytes": 1350302,
+   "title": "EVR+Regional+Air+Quality+Data+Summary_2024+Q4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/d4302116b5cdb7029d32e553696d726c/depliantbourseRaglan2023_Web_FIN_fr.pdf",
+   "timestamp": "20240720104457",
+   "wayback_url": "https://web.archive.org/web/20240720104457id_/https://www.glencore.ca/.rest/api/v1/documents/d4302116b5cdb7029d32e553696d726c/depliantbourseRaglan2023_Web_FIN_fr.pdf",
+   "bytes": 347788,
+   "title": "depliantbourseRaglan2023_Web_FIN_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/d4302116b5cdb7029d32e553696d726c/depliantbourseRaglan2023_Web_FIN_fr.pdf?download=true",
+   "timestamp": "20240130051403",
+   "wayback_url": "https://web.archive.org/web/20240130051403id_/https://www.glencore.ca/.rest/api/v1/documents/d4302116b5cdb7029d32e553696d726c/depliantbourseRaglan2023_Web_FIN_fr.pdf?download=true",
+   "bytes": 356781,
+   "title": "depliantbourseRaglan2023_Web_FIN_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/d6deeccfbaca886555caa41811517fe4/ISO45001_EN.pdf",
+   "timestamp": "20260609091743",
+   "wayback_url": "https://web.archive.org/web/20260609091743id_/https://www.glencore.ca/.rest/api/v1/documents/d6deeccfbaca886555caa41811517fe4/ISO45001_EN.pdf",
+   "bytes": 1824657,
+   "title": "ISO45001_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/d9300fe14f5f83dd56f04b30d1913ca8/CEZinc-Bris-de-digue-Fiche-Information-V1.pdf",
+   "timestamp": "20250813015302",
+   "wayback_url": "https://web.archive.org/web/20250813015302id_/https://www.glencore.ca/.rest/api/v1/documents/d9300fe14f5f83dd56f04b30d1913ca8/CEZinc-Bris-de-digue-Fiche-Information-V1.pdf",
+   "bytes": 1380126,
+   "title": "CEZinc-Bris-de-digue-Fiche-Information-V1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/da8929ad74dffc6e0c249f15d4040dc5/Bulletin%20annuel%20-%20D%C3%A9veloppement%20durable%20-%202021.pdf",
+   "timestamp": "20240617165858",
+   "wayback_url": "https://web.archive.org/web/20240617165858id_/https://www.glencore.ca/.rest/api/v1/documents/da8929ad74dffc6e0c249f15d4040dc5/Bulletin%20annuel%20-%20D%C3%A9veloppement%20durable%20-%202021.pdf",
+   "bytes": 3160319,
+   "title": "Bulletin annuel - Développement durable - 2021.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/da93d5a2bcbef76f917d3995c46d8c2a/ISO17025.pdf",
+   "timestamp": "20260609082119",
+   "wayback_url": "https://web.archive.org/web/20260609082119id_/https://www.glencore.ca/.rest/api/v1/documents/da93d5a2bcbef76f917d3995c46d8c2a/ISO17025.pdf",
+   "bytes": 470235,
+   "title": "ISO17025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/dbb01c396d8eb05a501bcc10c28e8e60/Canadian+Policy+on+Partnerships+Donations+and+Sponsorships.pdf",
+   "timestamp": "20240225102419",
+   "wayback_url": "https://web.archive.org/web/20240225102419id_/https://www.glencore.ca/.rest/api/v1/documents/dbb01c396d8eb05a501bcc10c28e8e60/Canadian+Policy+on+Partnerships+Donations+and+Sponsorships.pdf",
+   "bytes": 2501751,
+   "title": "Canadian+Policy+on+Partnerships+Donations+and+Sponsorships.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/dc41ac990a2bc1386966ec4a87ce9e0c/Coupa+Supplier+Portal+Onboarding+Guide.pdf",
+   "timestamp": "20251123002437",
+   "wayback_url": "https://web.archive.org/web/20251123002437id_/https://www.glencore.ca/.rest/api/v1/documents/dc41ac990a2bc1386966ec4a87ce9e0c/Coupa+Supplier+Portal+Onboarding+Guide.pdf",
+   "bytes": 174473,
+   "title": "Coupa+Supplier+Portal+Onboarding+Guide.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/dcb9ff1c4ab8f2b09b6d8eb96a1b9d5c/RA_comiteRaglan2023_EN_FIN.pdf",
+   "timestamp": "20250815142350",
+   "wayback_url": "https://web.archive.org/web/20250815142350id_/https://www.glencore.ca/.rest/api/v1/documents/dcb9ff1c4ab8f2b09b6d8eb96a1b9d5c/RA_comiteRaglan2023_EN_FIN.pdf",
+   "bytes": 2270067,
+   "title": "RA_comiteRaglan2023_EN_FIN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/de12180f05bf66bdc00b05cefea97a28/Formulaire+de+demande+du+programme+%C3%89co-Fonderie.pdf",
+   "timestamp": "20231207070447",
+   "wayback_url": "https://web.archive.org/web/20231207070447id_/https://www.glencore.ca/.rest/api/v1/documents/de12180f05bf66bdc00b05cefea97a28/Formulaire+de+demande+du+programme+%C3%89co-Fonderie.pdf",
+   "bytes": 145663,
+   "title": "Formulaire+de+demande+du+programme+Éco-Fonderie.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/df5330a18d6358b381080f6e4aefc035/Rapport+maj+jour+plan+daction+2020-07-09.pdf",
+   "timestamp": "20230308044556",
+   "wayback_url": "https://web.archive.org/web/20230308044556id_/https://www.glencore.ca/.rest/api/v1/documents/df5330a18d6358b381080f6e4aefc035/Rapport+maj+jour+plan+daction+2020-07-09.pdf",
+   "bytes": 1630708,
+   "title": "Rapport+maj+jour+plan+daction+2020-07-09.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/dff46ac7ca99586efa222787f552c4ff/Sudbury%20INO%20Hygiene%20Policy.pdf",
+   "timestamp": "20220518201106",
+   "wayback_url": "https://web.archive.org/web/20220518201106id_/https://www.glencore.ca/.rest/api/v1/documents/dff46ac7ca99586efa222787f552c4ff/Sudbury%20INO%20Hygiene%20Policy.pdf",
+   "bytes": 336589,
+   "title": "Sudbury INO Hygiene Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/e11542b41a79276d6fe5943059b449df/Le+programme+de+partenariat+communautaire+de+la+Fonderie+Horne.pdf",
+   "timestamp": "20231207062914",
+   "wayback_url": "https://web.archive.org/web/20231207062914id_/https://www.glencore.ca/.rest/api/v1/documents/e11542b41a79276d6fe5943059b449df/Le+programme+de+partenariat+communautaire+de+la+Fonderie+Horne.pdf",
+   "bytes": 1017370,
+   "title": "Le+programme+de+partenariat+communautaire+de+la+Fonderie+Horne.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/e11fccb4ea7bf956a9a8b067949b5d42/Guide+d'int%C3%A9gration+-+Portail+Fournisseur+Coupa.pdf",
+   "timestamp": "20251115133825",
+   "wayback_url": "https://web.archive.org/web/20251115133825id_/https://www.glencore.ca/.rest/api/v1/documents/e11fccb4ea7bf956a9a8b067949b5d42/Guide+d'int%C3%A9gration+-+Portail+Fournisseur+Coupa.pdf",
+   "bytes": 103737,
+   "title": "Guide+d'intégration+-+Portail+Fournisseur+Coupa.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/e5150999867b60e66641a8dbdccb37ca/AR_closure_raglan_biannual_202021_VF.pdf",
+   "timestamp": "20220815162924",
+   "wayback_url": "https://web.archive.org/web/20220815162924id_/https://www.glencore.ca/.rest/api/v1/documents/e5150999867b60e66641a8dbdccb37ca/AR_closure_raglan_biannual_202021_VF.pdf",
+   "bytes": 974364,
+   "title": "AR_closure_raglan_biannual_202021_VF.pdf",
+   "type": "closure",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/e5150999867b60e66641a8dbdccb37ca/AR_closure_raglan_biannual_202021_VF.pdf?download=true",
+   "timestamp": "20231004025343",
+   "wayback_url": "https://web.archive.org/web/20231004025343id_/https://www.glencore.ca/.rest/api/v1/documents/e5150999867b60e66641a8dbdccb37ca/AR_closure_raglan_biannual_202021_VF.pdf?download=true",
+   "bytes": 974186,
+   "title": "AR_closure_raglan_biannual_202021_VF.pdf",
+   "type": "closure",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/e82a25954dbb43b2b23aab8831a5705e/Raglan_politique_HSEC_2025_EN_web.pdf?download=true",
+   "timestamp": "20260209001655",
+   "wayback_url": "https://web.archive.org/web/20260209001655id_/https://www.glencore.ca/.rest/api/v1/documents/e82a25954dbb43b2b23aab8831a5705e/Raglan_politique_HSEC_2025_EN_web.pdf?download=true",
+   "bytes": 114841,
+   "title": "Raglan_politique_HSEC_2025_EN_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/e9e09eb84a43602141162071e40c54b7/Biosurveillance+-+Powerpoint.pdf",
+   "timestamp": "20250428195450",
+   "wayback_url": "https://web.archive.org/web/20250428195450id_/https://www.glencore.ca/.rest/api/v1/documents/e9e09eb84a43602141162071e40c54b7/Biosurveillance+-+Powerpoint.pdf",
+   "bytes": 833689,
+   "title": "Biosurveillance+-+Powerpoint.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ea1de1bfde004c5fa8229570e796049a/Depliant+generique+operation+sirene+-+St-Louis-de-Gonzague.pdf",
+   "timestamp": "20250813015248",
+   "wayback_url": "https://web.archive.org/web/20250813015248id_/https://www.glencore.ca/.rest/api/v1/documents/ea1de1bfde004c5fa8229570e796049a/Depliant+generique+operation+sirene+-+St-Louis-de-Gonzague.pdf",
+   "bytes": 3052596,
+   "title": "Depliant+generique+operation+sirene+-+St-Louis-de-Gonzague.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/eac90ef18ef56c9df6b1cbcdc43b65c1/2022-Elk-Valley-Regional-Seep-Monitoring-Annual-Report.pdf",
+   "timestamp": "20251121034357",
+   "wayback_url": "https://web.archive.org/web/20251121034357id_/https://www.glencore.ca/.rest/api/v1/documents/eac90ef18ef56c9df6b1cbcdc43b65c1/2022-Elk-Valley-Regional-Seep-Monitoring-Annual-Report.pdf",
+   "bytes": 22224247,
+   "title": "2022-Elk-Valley-Regional-Seep-Monitoring-Annual-Report.pdf",
+   "type": "monitoring",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ed00c4d0c98a41d8e8ad8ce788b6f359/Sudbury%20INO%20Health%20and%20Safety%20Policy.pdf",
+   "timestamp": "20220518194657",
+   "wayback_url": "https://web.archive.org/web/20220518194657id_/https://www.glencore.ca/.rest/api/v1/documents/ed00c4d0c98a41d8e8ad8ce788b6f359/Sudbury%20INO%20Health%20and%20Safety%20Policy.pdf",
+   "bytes": 395039,
+   "title": "Sudbury INO Health and Safety Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ed2070d0028c1959866696524ccea842/Fonderie_Horne_fiche_technique_Moyenne+annuelle2023_web.pdf",
+   "timestamp": "20250124041956",
+   "wayback_url": "https://web.archive.org/web/20250124041956id_/https://www.glencore.ca/.rest/api/v1/documents/ed2070d0028c1959866696524ccea842/Fonderie_Horne_fiche_technique_Moyenne+annuelle2023_web.pdf",
+   "bytes": 1019416,
+   "title": "Fonderie_Horne_fiche_technique_Moyenne+annuelle2023_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ed7f846d3f435034e42895ea0607eed7/Raglan_ClosureSubCom_2022-2023_AnnualReport_FR.pdf",
+   "timestamp": "20250428193626",
+   "wayback_url": "https://web.archive.org/web/20250428193626id_/https://www.glencore.ca/.rest/api/v1/documents/ed7f846d3f435034e42895ea0607eed7/Raglan_ClosureSubCom_2022-2023_AnnualReport_FR.pdf",
+   "bytes": 2865459,
+   "title": "Raglan_ClosureSubCom_2022-2023_AnnualReport_FR.pdf",
+   "type": "closure",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/ef76f64c4e74e886fd2d1f35d91cccab/2022+RAQMP+Report.pdf",
+   "timestamp": "20250428195635",
+   "wayback_url": "https://web.archive.org/web/20250428195635id_/https://www.glencore.ca/.rest/api/v1/documents/ef76f64c4e74e886fd2d1f35d91cccab/2022+RAQMP+Report.pdf",
+   "bytes": 2576951,
+   "title": "2022+RAQMP+Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/f036e1bbbcfd3b9e94e8741c3226d928/Independant+Assurance+Report+2022.pdf",
+   "timestamp": "20240328101929",
+   "wayback_url": "https://web.archive.org/web/20240328101929id_/https://www.glencore.ca/.rest/api/v1/documents/f036e1bbbcfd3b9e94e8741c3226d928/Independant+Assurance+Report+2022.pdf",
+   "bytes": 109212,
+   "title": "Independant+Assurance+Report+2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/f05aab272996ab55e9d8541fa9007523/Glencore+AODA+Accessibility+Policy+and+MYAP+-+French-Francais+-+Accessible.pdf",
+   "timestamp": "20231004040024",
+   "wayback_url": "https://web.archive.org/web/20231004040024id_/https://www.glencore.ca/.rest/api/v1/documents/f05aab272996ab55e9d8541fa9007523/Glencore+AODA+Accessibility+Policy+and+MYAP+-+French-Francais+-+Accessible.pdf",
+   "bytes": 650075,
+   "title": "Glencore+AODA+Accessibility+Policy+and+MYAP+-+French-Francais+-+Accessible.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/f357cd8fdd77e903b358ae960b9274c1/Examining+Our+Economic+Contribution+to+Quebec+-+Report+-+French+-+Accessible.pdf",
+   "timestamp": "20250710151538",
+   "wayback_url": "https://web.archive.org/web/20250710151538id_/https://www.glencore.ca/.rest/api/v1/documents/f357cd8fdd77e903b358ae960b9274c1/Examining+Our+Economic+Contribution+to+Quebec+-+Report+-+French+-+Accessible.pdf",
+   "bytes": 404804,
+   "title": "Examining+Our+Economic+Contribution+to+Quebec+-+Report+-+French+-+Accessible.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/f357cd8fdd77e903b358ae960b9274c1/Examining+Our+Economic+Contribution+to+Quebec+-+Report+-+French+-+Accessible.pdf?fbclid=IwY2xjawG8UspleHRuA2FlbQIxMAABHQ4vrpH9WTO2xyw4mzsZeAuZ_XgbS_C5PN5t_FiosfNL3oiuxRfJEDUDnQ_aem_ilvmO3kZ82Rbw4oQ-bWT3A",
+   "timestamp": "20250710141101",
+   "wayback_url": "https://web.archive.org/web/20250710141101id_/https://www.glencore.ca/.rest/api/v1/documents/f357cd8fdd77e903b358ae960b9274c1/Examining+Our+Economic+Contribution+to+Quebec+-+Report+-+French+-+Accessible.pdf?fbclid=IwY2xjawG8UspleHRuA2FlbQIxMAABHQ4vrpH9WTO2xyw4mzsZeAuZ_XgbS_C5PN5t_FiosfNL3oiuxRfJEDUDnQ_aem_ilvmO3kZ82Rbw4oQ-bWT3A",
+   "bytes": 405114,
+   "title": "Examining+Our+Economic+Contribution+to+Quebec+-+Report+-+French+-+Accessible.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/f41beba0dc58b59816de1929c6c0cc4d/Community+Policy+-+2025+-+FINAL.docx.pdf",
+   "timestamp": "20250813020025",
+   "wayback_url": "https://web.archive.org/web/20250813020025id_/https://www.glencore.ca/.rest/api/v1/documents/f41beba0dc58b59816de1929c6c0cc4d/Community+Policy+-+2025+-+FINAL.docx.pdf",
+   "bytes": 344086,
+   "title": "Community+Policy+-+2025+-+FINAL.docx.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/f77b2e973ec995aa505b283fd72c7fa5/Directives+-+Programme+de+partenariat+avec+la+communaut%C3%A9.pdf",
+   "timestamp": "20250428193703",
+   "wayback_url": "https://web.archive.org/web/20250428193703id_/https://www.glencore.ca/.rest/api/v1/documents/f77b2e973ec995aa505b283fd72c7fa5/Directives+-+Programme+de+partenariat+avec+la+communaut%C3%A9.pdf",
+   "bytes": 89675,
+   "title": "Directives+-+Programme+de+partenariat+avec+la+communauté.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/f7ad878ee5ba707c45de9f6f35ba00e1/depliantbourseRaglan2023_Web_FIN_innu.pdf",
+   "timestamp": "20240722022233",
+   "wayback_url": "https://web.archive.org/web/20240722022233id_/https://www.glencore.ca/.rest/api/v1/documents/f7ad878ee5ba707c45de9f6f35ba00e1/depliantbourseRaglan2023_Web_FIN_innu.pdf",
+   "bytes": 349372,
+   "title": "depliantbourseRaglan2023_Web_FIN_innu.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/f7ad878ee5ba707c45de9f6f35ba00e1/depliantbourseRaglan2023_Web_FIN_innu.pdf?download=true",
+   "timestamp": "20240124091158",
+   "wayback_url": "https://web.archive.org/web/20240124091158id_/https://www.glencore.ca/.rest/api/v1/documents/f7ad878ee5ba707c45de9f6f35ba00e1/depliantbourseRaglan2023_Web_FIN_innu.pdf?download=true",
+   "bytes": 362726,
+   "title": "depliantbourseRaglan2023_Web_FIN_innu.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/f88c0644cf74f1b105d32c765cad23f2/Glencore+in+Canada+-+Socioeconomic+Contribution+Analysis.pdf",
+   "timestamp": "20260511205820",
+   "wayback_url": "https://web.archive.org/web/20260511205820id_/https://www.glencore.ca/.rest/api/v1/documents/f88c0644cf74f1b105d32c765cad23f2/Glencore+in+Canada+-+Socioeconomic+Contribution+Analysis.pdf",
+   "bytes": 5123091,
+   "title": "Glencore+in+Canada+-+Socioeconomic+Contribution+Analysis.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/f9d9098a8de67793a97b6cfedcd6c84a/DPO-17+Politique+HSEC+et+droits+humains+%28FR%29.pdf",
+   "timestamp": "20260609082543",
+   "wayback_url": "https://web.archive.org/web/20260609082543id_/https://www.glencore.ca/.rest/api/v1/documents/f9d9098a8de67793a97b6cfedcd6c84a/DPO-17+Politique+HSEC+et+droits+humains+%28FR%29.pdf",
+   "bytes": 141849,
+   "title": "DPO-17+Politique+HSEC+et+droits+humains+(FR).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/f9dd64ddbff96ad07b6d9ca873189154/2020%20HSEC_Mine%20Raglan_FR.pdf",
+   "timestamp": "20211025034838",
+   "wayback_url": "https://web.archive.org/web/20211025034838id_/https://www.glencore.ca/.rest/api/v1/documents/f9dd64ddbff96ad07b6d9ca873189154/2020%20HSEC_Mine%20Raglan_FR.pdf",
+   "bytes": 620325,
+   "title": "2020 HSEC_Mine Raglan_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/f9dd64ddbff96ad07b6d9ca873189154/2020+HSEC_Mine+Raglan_FR.pdf",
+   "timestamp": "20240805081804",
+   "wayback_url": "https://web.archive.org/web/20240805081804id_/https://www.glencore.ca/.rest/api/v1/documents/f9dd64ddbff96ad07b6d9ca873189154/2020+HSEC_Mine+Raglan_FR.pdf",
+   "bytes": 621479,
+   "title": "2020+HSEC_Mine+Raglan_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/f9dd64ddbff96ad07b6d9ca873189154/2020+HSEC_Mine+Raglan_FR.pdf?download=true",
+   "timestamp": "20231004035819",
+   "wayback_url": "https://web.archive.org/web/20231004035819id_/https://www.glencore.ca/.rest/api/v1/documents/f9dd64ddbff96ad07b6d9ca873189154/2020+HSEC_Mine+Raglan_FR.pdf?download=true",
+   "bytes": 620675,
+   "title": "2020+HSEC_Mine+Raglan_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/fa155763ad7eee21593fd69928a7e74f/PE263+-+December+10%2C+2021.pdf",
+   "timestamp": "20231004031935",
+   "wayback_url": "https://web.archive.org/web/20231004031935id_/https://www.glencore.ca/.rest/api/v1/documents/fa155763ad7eee21593fd69928a7e74f/PE263+-+December+10%2C+2021.pdf",
+   "bytes": 838095,
+   "title": "PE263+-+December+10,+2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/fa7c36a6a2375983f16da3687c6760a0/Audit+externe+du+Port+de+Qu%C3%A9bec+-+Rapport+de+performance.pdf",
+   "timestamp": "20250815142711",
+   "wayback_url": "https://web.archive.org/web/20250815142711id_/https://www.glencore.ca/.rest/api/v1/documents/fa7c36a6a2375983f16da3687c6760a0/Audit+externe+du+Port+de+Qu%C3%A9bec+-+Rapport+de+performance.pdf",
+   "bytes": 2790492,
+   "title": "Audit+externe+du+Port+de+Québec+-+Rapport+de+performance.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/fc99897955b75a11f15c8c33103a8b72/Lignes+directrices+du+programme+%C3%89co-Fonderie.pdf",
+   "timestamp": "20231207070316",
+   "wayback_url": "https://web.archive.org/web/20231207070316id_/https://www.glencore.ca/.rest/api/v1/documents/fc99897955b75a11f15c8c33103a8b72/Lignes+directrices+du+programme+%C3%89co-Fonderie.pdf",
+   "bytes": 1044823,
+   "title": "Lignes+directrices+du+programme+Éco-Fonderie.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/fcf872fb763ad144a28565e6f84bcc4a/Koocanusa+Reservoir+Monitoring+Program+2023.pdf",
+   "timestamp": "20250807074347",
+   "wayback_url": "https://web.archive.org/web/20250807074347id_/https://www.glencore.ca/.rest/api/v1/documents/fcf872fb763ad144a28565e6f84bcc4a/Koocanusa+Reservoir+Monitoring+Program+2023.pdf",
+   "bytes": 5044187,
+   "title": "Koocanusa+Reservoir+Monitoring+Program+2023.pdf",
+   "type": "monitoring",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/dam/jcr:016badda-2808-4336-a0c4-9d0cf0538494/Babbitt_Pb.pdf",
+   "timestamp": "20240702200437",
+   "wayback_url": "https://web.archive.org/web/20240702200437id_/https://www.glencore.ca/dam/jcr:016badda-2808-4336-a0c4-9d0cf0538494/Babbitt_Pb.pdf",
+   "bytes": 41745,
+   "title": "Babbitt_Pb.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/dam/jcr:239ec268-b8ec-4694-80de-4f4391baa454/Babbitt_Sn.pdf",
+   "timestamp": "20240630015341",
+   "wayback_url": "https://web.archive.org/web/20240630015341id_/https://www.glencore.ca/dam/jcr:239ec268-b8ec-4694-80de-4f4391baa454/Babbitt_Sn.pdf",
+   "bytes": 41909,
+   "title": "Babbitt_Sn.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/dam/jcr:34db50f3-dec1-425d-8712-032218271548/Ligne-de-temps-Timeline_retouche.pdf",
+   "timestamp": "20230331022430",
+   "wayback_url": "https://web.archive.org/web/20230331022430id_/https://www.glencore.ca/dam/jcr:34db50f3-dec1-425d-8712-032218271548/Ligne-de-temps-Timeline_retouche.pdf",
+   "bytes": 1049769,
+   "title": "Ligne-de-temps-Timeline_retouche.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/dam/jcr:45a7a91b-dc85-4840-9cb1-4c598c0e407f/823-Depliant_BourseRaglan.pdf",
+   "timestamp": "20240704114558",
+   "wayback_url": "https://web.archive.org/web/20240704114558id_/https://www.glencore.ca/dam/jcr:45a7a91b-dc85-4840-9cb1-4c598c0e407f/823-Depliant_BourseRaglan.pdf",
+   "bytes": 801200,
+   "title": "823-Depliant_BourseRaglan.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/dam/jcr:495ba14c-677b-4b45-9fd8-d4921b1ed51b/Sivumut_FR_FINAL_2017_court.pdf",
+   "timestamp": "20240702104903",
+   "wayback_url": "https://web.archive.org/web/20240702104903id_/https://www.glencore.ca/dam/jcr:495ba14c-677b-4b45-9fd8-d4921b1ed51b/Sivumut_FR_FINAL_2017_court.pdf",
+   "bytes": 2687614,
+   "title": "Sivumut_FR_FINAL_2017_court.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/dam/jcr:4d4f32ee-98ff-4d61-bf5f-75ba27cb2d7d/Guide_Version-francaise-pour-Internet_FINALE.pdf",
+   "timestamp": "20240702203949",
+   "wayback_url": "https://web.archive.org/web/20240702203949id_/https://www.glencore.ca/dam/jcr:4d4f32ee-98ff-4d61-bf5f-75ba27cb2d7d/Guide_Version-francaise-pour-Internet_FINALE.pdf",
+   "bytes": 140922,
+   "title": "Guide_Version-francaise-pour-Internet_FINALE.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/dam/jcr:b9546e02-fd8b-4a03-b790-0474100ba0df/Bourses-Raglan-Formulaire-ANG-2018.pdf",
+   "timestamp": "20250617192433",
+   "wayback_url": "https://web.archive.org/web/20250617192433id_/https://www.glencore.ca/dam/jcr:b9546e02-fd8b-4a03-b790-0474100ba0df/Bourses-Raglan-Formulaire-ANG-2018.pdf",
+   "bytes": 91134,
+   "title": "Bourses-Raglan-Formulaire-ANG-2018.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/dam/jcr:d6ad420e-d42f-4394-8ecb-b83aea4fcdfa/Sivumut_EN_FINAL_2017_(court).pdf",
+   "timestamp": "20250815142248",
+   "wayback_url": "https://web.archive.org/web/20250815142248id_/https://www.glencore.ca/dam/jcr:d6ad420e-d42f-4394-8ecb-b83aea4fcdfa/Sivumut_EN_FINAL_2017_(court).pdf",
+   "bytes": 2900008,
+   "title": "Sivumut_EN_FINAL_2017_(court).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/dam/jcr:d8569ff3-6f47-4563-afd5-a9108d96803c/Bourses-Raglan-Formulaire-FR-2018.pdf",
+   "timestamp": "20240704173257",
+   "wayback_url": "https://web.archive.org/web/20240704173257id_/https://www.glencore.ca/dam/jcr:d8569ff3-6f47-4563-afd5-a9108d96803c/Bourses-Raglan-Formulaire-FR-2018.pdf",
+   "bytes": 103693,
+   "title": "Bourses-Raglan-Formulaire-FR-2018.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.glencore.ca:80/dam:jcr/f11d9493-c36b-4f2e-ad2d-216369748c7f/2016-Modern-Slavery-Statement.pdf",
+   "timestamp": "20181126082724",
+   "wayback_url": "https://web.archive.org/web/20181126082724id_/http://www.glencore.ca:80/dam:jcr/f11d9493-c36b-4f2e-ad2d-216369748c7f/2016-Modern-Slavery-Statement.pdf",
+   "bytes": 2119279,
+   "title": "2016-Modern-Slavery-Statement.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:016badda-2808-4336-a0c4-9d0cf0538494/Babbitt_Pb.pdf",
+   "timestamp": "20211026221927",
+   "wayback_url": "https://web.archive.org/web/20211026221927id_/https://www.glencore.ca/en/dam/jcr:016badda-2808-4336-a0c4-9d0cf0538494/Babbitt_Pb.pdf",
+   "bytes": 42216,
+   "title": "Babbitt_Pb.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:04623711-9c45-4842-aa0e-54ca2a8b8ff8/Raglan_affiche_mesures%20pr%C3%A9ventives_avril%202020_elect.VF.pdf",
+   "timestamp": "20210917105435",
+   "wayback_url": "https://web.archive.org/web/20210917105435id_/https://www.glencore.ca/en/dam/jcr:04623711-9c45-4842-aa0e-54ca2a8b8ff8/Raglan_affiche_mesures%20pr%C3%A9ventives_avril%202020_elect.VF.pdf",
+   "bytes": 456416,
+   "title": "Raglan_affiche_mesures préventives_avril 2020_elect.VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:1786093a-de13-4455-9aaa-e04d7fad3eea/Glencore-Canada-Corporation-Service-Order-Terms-and-Conditions-Professional-Services.pdf",
+   "timestamp": "20240223111940",
+   "wayback_url": "https://web.archive.org/web/20240223111940id_/https://www.glencore.ca/en/dam/jcr:1786093a-de13-4455-9aaa-e04d7fad3eea/Glencore-Canada-Corporation-Service-Order-Terms-and-Conditions-Professional-Services.pdf",
+   "bytes": 112010,
+   "title": "Glencore-Canada-Corporation-Service-Order-Terms-and-Conditions-Professional-Services.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:239ec268-b8ec-4694-80de-4f4391baa454/Babbitt_Sn.pdf",
+   "timestamp": "20211026203030",
+   "wayback_url": "https://web.archive.org/web/20211026203030id_/https://www.glencore.ca/en/dam/jcr:239ec268-b8ec-4694-80de-4f4391baa454/Babbitt_Sn.pdf",
+   "bytes": 42317,
+   "title": "Babbitt_Sn.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:31894add-6cc9-4e93-9558-40a2545f96d5/Our%20Values%20-%20Glencore%20Canada%20-%20English.pdf",
+   "timestamp": "20200928025759",
+   "wayback_url": "https://web.archive.org/web/20200928025759id_/https://www.glencore.ca/en/dam/jcr:31894add-6cc9-4e93-9558-40a2545f96d5/Our%20Values%20-%20Glencore%20Canada%20-%20English.pdf",
+   "bytes": 424463,
+   "title": "Our Values - Glencore Canada - English.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:32de4b8b-6466-42c5-b8ec-012a8b4fd425/Our%20Values%20-%20Glencore%20Canada%20-%20French.pdf",
+   "timestamp": "20200928011122",
+   "wayback_url": "https://web.archive.org/web/20200928011122id_/https://www.glencore.ca/en/dam/jcr:32de4b8b-6466-42c5-b8ec-012a8b4fd425/Our%20Values%20-%20Glencore%20Canada%20-%20French.pdf",
+   "bytes": 424512,
+   "title": "Our Values - Glencore Canada - French.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:34db50f3-dec1-425d-8712-032218271548/Ligne-de-temps-Timeline_retouche.pdf",
+   "timestamp": "20210917105159",
+   "wayback_url": "https://web.archive.org/web/20210917105159id_/https://www.glencore.ca/en/dam/jcr:34db50f3-dec1-425d-8712-032218271548/Ligne-de-temps-Timeline_retouche.pdf",
+   "bytes": 1049391,
+   "title": "Ligne-de-temps-Timeline_retouche.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:3b42df84-ddf9-47de-9978-5393235c0837/English-Internet-Version_FINAL.pdf",
+   "timestamp": "20210411103749",
+   "wayback_url": "https://web.archive.org/web/20210411103749id_/https://www.glencore.ca/en/dam/jcr:3b42df84-ddf9-47de-9978-5393235c0837/English-Internet-Version_FINAL.pdf",
+   "bytes": 137909,
+   "title": "English-Internet-Version_FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:45a7a91b-dc85-4840-9cb1-4c598c0e407f/823-Depliant_BourseRaglan.pdf",
+   "timestamp": "20210411103627",
+   "wayback_url": "https://web.archive.org/web/20210411103627id_/https://www.glencore.ca/en/dam/jcr:45a7a91b-dc85-4840-9cb1-4c598c0e407f/823-Depliant_BourseRaglan.pdf",
+   "bytes": 803749,
+   "title": "823-Depliant_BourseRaglan.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:5473d209-3a90-4476-8971-2e70163b1dda/Coupa%20CSP%20support%20document_EN_FINAL_04.17.pdf",
+   "timestamp": "20250321082323",
+   "wayback_url": "https://web.archive.org/web/20250321082323id_/https://www.glencore.ca/en/dam/jcr:5473d209-3a90-4476-8971-2e70163b1dda/Coupa%20CSP%20support%20document_EN_FINAL_04.17.pdf",
+   "bytes": 3390910,
+   "title": "Coupa CSP support document_EN_FINAL_04.17.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:5f2b122c-274a-4d1f-83cc-78c709471b0e/Coupa%20Invoicing%20support%20document_EN_FINAL_04.17.pdf",
+   "timestamp": "20250321073053",
+   "wayback_url": "https://web.archive.org/web/20250321073053id_/https://www.glencore.ca/en/dam/jcr:5f2b122c-274a-4d1f-83cc-78c709471b0e/Coupa%20Invoicing%20support%20document_EN_FINAL_04.17.pdf",
+   "bytes": 3346003,
+   "title": "Coupa Invoicing support document_EN_FINAL_04.17.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:6b4beec9-0d84-42e5-ab17-2af4e10337cc/Coupa%20SAN%20support%20document_EN_FINAL_04.17.pdf",
+   "timestamp": "20250321064233",
+   "wayback_url": "https://web.archive.org/web/20250321064233id_/https://www.glencore.ca/en/dam/jcr:6b4beec9-0d84-42e5-ab17-2af4e10337cc/Coupa%20SAN%20support%20document_EN_FINAL_04.17.pdf",
+   "bytes": 1713114,
+   "title": "Coupa SAN support document_EN_FINAL_04.17.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:6e7a3c71-a8c1-4fb0-a401-c6b7988a5d1a/Coupa%20RFQ%20support%20document_EN_FINAL_04.17.pdf",
+   "timestamp": "20250321062908",
+   "wayback_url": "https://web.archive.org/web/20250321062908id_/https://www.glencore.ca/en/dam/jcr:6e7a3c71-a8c1-4fb0-a401-c6b7988a5d1a/Coupa%20RFQ%20support%20document_EN_FINAL_04.17.pdf",
+   "bytes": 1558737,
+   "title": "Coupa RFQ support document_EN_FINAL_04.17.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:77b81bd9-feb5-40d3-95e7-e2951199b853/2021%20INUK%20Akkivik%20Form%20VF.pdf",
+   "timestamp": "20211026211127",
+   "wayback_url": "https://web.archive.org/web/20211026211127id_/https://www.glencore.ca/en/dam/jcr:77b81bd9-feb5-40d3-95e7-e2951199b853/2021%20INUK%20Akkivik%20Form%20VF.pdf",
+   "bytes": 378239,
+   "title": "2021 INUK Akkivik Form VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:aa6e81b1-6f0a-45ff-bbe3-98abbfd4b727/Glencore%20Purchase%20Order%20Terms%20and%20Conditions%20v6.pdf",
+   "timestamp": "20240223094102",
+   "wayback_url": "https://web.archive.org/web/20240223094102id_/https://www.glencore.ca/en/dam/jcr:aa6e81b1-6f0a-45ff-bbe3-98abbfd4b727/Glencore%20Purchase%20Order%20Terms%20and%20Conditions%20v6.pdf",
+   "bytes": 295587,
+   "title": "Glencore Purchase Order Terms and Conditions v6.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:b0a4a194-8fba-4edc-824a-fd260c16c35e/Asarcolo.pdf",
+   "timestamp": "20211026213845",
+   "wayback_url": "https://web.archive.org/web/20211026213845id_/https://www.glencore.ca/en/dam/jcr:b0a4a194-8fba-4edc-824a-fd260c16c35e/Asarcolo.pdf",
+   "bytes": 40863,
+   "title": "Asarcolo.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:b9546e02-fd8b-4a03-b790-0474100ba0df/Bourses-Raglan-Formulaire-ANG-2018.pdf",
+   "timestamp": "20210411104510",
+   "wayback_url": "https://web.archive.org/web/20210411104510id_/https://www.glencore.ca/en/dam/jcr:b9546e02-fd8b-4a03-b790-0474100ba0df/Bourses-Raglan-Formulaire-ANG-2018.pdf",
+   "bytes": 90810,
+   "title": "Bourses-Raglan-Formulaire-ANG-2018.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:ccf5cceb-f7e7-4b42-994e-b21427d02a58/Brochure%20employ%C3%A9s%20COVID_ENG_VF.pdf",
+   "timestamp": "20210917102709",
+   "wayback_url": "https://web.archive.org/web/20210917102709id_/https://www.glencore.ca/en/dam/jcr:ccf5cceb-f7e7-4b42-994e-b21427d02a58/Brochure%20employ%C3%A9s%20COVID_ENG_VF.pdf",
+   "bytes": 995062,
+   "title": "Brochure employés COVID_ENG_VF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:d6ad420e-d42f-4394-8ecb-b83aea4fcdfa/Sivumut_EN_FINAL_2017_(court",
+   "timestamp": "20240501230927",
+   "wayback_url": "https://web.archive.org/web/20240501230927id_/https://www.glencore.ca/en/dam/jcr:d6ad420e-d42f-4394-8ecb-b83aea4fcdfa/Sivumut_EN_FINAL_2017_(court",
+   "bytes": 2901192,
+   "title": "Sivumut_EN_FINAL_2017_(court",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:d6ad420e-d42f-4394-8ecb-b83aea4fcdfa/Sivumut_EN_FINAL_2017_(court).pdf",
+   "timestamp": "20210917094250",
+   "wayback_url": "https://web.archive.org/web/20210917094250id_/https://www.glencore.ca/en/dam/jcr:d6ad420e-d42f-4394-8ecb-b83aea4fcdfa/Sivumut_EN_FINAL_2017_(court).pdf",
+   "bytes": 1024606,
+   "title": "Sivumut_EN_FINAL_2017_(court).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:d6ad420e-d42f-4394-8ecb-b83aea4fcdfa/Sivumut_EN_FINAL_2017_(court).pdf%20(Accessed:%20January%206,%202023).",
+   "timestamp": "20260309234949",
+   "wayback_url": "https://web.archive.org/web/20260309234949id_/https://www.glencore.ca/en/dam/jcr:d6ad420e-d42f-4394-8ecb-b83aea4fcdfa/Sivumut_EN_FINAL_2017_(court).pdf%20(Accessed:%20January%206,%202023).",
+   "bytes": 2900598,
+   "title": "Sivumut_EN_FINAL_2017_(court).pdf (Accessed: January 6, 2023).",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:dc5f1d82-da30-4e20-8017-7f939258eae6/2021%20ENG%20Akkivik%20Form%20VF.pdf",
+   "timestamp": "20211026223217",
+   "wayback_url": "https://web.archive.org/web/20211026223217id_/https://www.glencore.ca/en/dam/jcr:dc5f1d82-da30-4e20-8017-7f939258eae6/2021%20ENG%20Akkivik%20Form%20VF.pdf",
+   "bytes": 881464,
+   "title": "2021 ENG Akkivik Form VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:eb6a9cc5-127c-432b-8666-6402cdf09f8a/Glencore%20Service%20Order%20Terms%20and%20Conditions%20v7.pdf",
+   "timestamp": "20240223105608",
+   "wayback_url": "https://web.archive.org/web/20240223105608id_/https://www.glencore.ca/en/dam/jcr:eb6a9cc5-127c-432b-8666-6402cdf09f8a/Glencore%20Service%20Order%20Terms%20and%20Conditions%20v7.pdf",
+   "bytes": 424008,
+   "title": "Glencore Service Order Terms and Conditions v7.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:ed9015af-9a73-47cd-a8a8-6ca1a07fcc07/notre%20engagement2019_EN%20VF.pdf",
+   "timestamp": "20210917094035",
+   "wayback_url": "https://web.archive.org/web/20210917094035id_/https://www.glencore.ca/en/dam/jcr:ed9015af-9a73-47cd-a8a8-6ca1a07fcc07/notre%20engagement2019_EN%20VF.pdf",
+   "bytes": 912129,
+   "title": "notre engagement2019_EN VF.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/en/dam/jcr:ef20e0b1-d3eb-43ae-93b6-070d21c5812e/workers%20journey%20to%20and%20from%20the%20site_EN_VF.pdf",
+   "timestamp": "20210917102629",
+   "wayback_url": "https://web.archive.org/web/20210917102629id_/https://www.glencore.ca/en/dam/jcr:ef20e0b1-d3eb-43ae-93b6-070d21c5812e/workers%20journey%20to%20and%20from%20the%20site_EN_VF.pdf",
+   "bytes": 157210,
+   "title": "workers journey to and from the site_EN_VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.glencore.ca:80/en/publications/Brochures/Glencore-In-Canada16_FS_HR_Dec-21.pdf",
+   "timestamp": "20180827003243",
+   "wayback_url": "https://web.archive.org/web/20180827003243id_/http://www.glencore.ca:80/en/publications/Brochures/Glencore-In-Canada16_FS_HR_Dec-21.pdf",
+   "bytes": 1633497,
+   "title": "Glencore-In-Canada16_FS_HR_Dec-21.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:016badda-2808-4336-a0c4-9d0cf0538494/Babbitt_Pb.pdf",
+   "timestamp": "20211129143605",
+   "wayback_url": "https://web.archive.org/web/20211129143605id_/https://www.glencore.ca/fr/dam/jcr:016badda-2808-4336-a0c4-9d0cf0538494/Babbitt_Pb.pdf",
+   "bytes": 42396,
+   "title": "Babbitt_Pb.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:04623711-9c45-4842-aa0e-54ca2a8b8ff8/Raglan_affiche_mesures%20pr%C3%A9ventives_avril%202020_elect.VF.pdf",
+   "timestamp": "20211026210959",
+   "wayback_url": "https://web.archive.org/web/20211026210959id_/https://www.glencore.ca/fr/dam/jcr:04623711-9c45-4842-aa0e-54ca2a8b8ff8/Raglan_affiche_mesures%20pr%C3%A9ventives_avril%202020_elect.VF.pdf",
+   "bytes": 456281,
+   "title": "Raglan_affiche_mesures préventives_avril 2020_elect.VF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:239ec268-b8ec-4694-80de-4f4391baa454/Babbitt_Sn.pdf",
+   "timestamp": "20211129150429",
+   "wayback_url": "https://web.archive.org/web/20211129150429id_/https://www.glencore.ca/fr/dam/jcr:239ec268-b8ec-4694-80de-4f4391baa454/Babbitt_Sn.pdf",
+   "bytes": 42319,
+   "title": "Babbitt_Sn.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:26252ac1-dbbc-447d-99d5-e11ca5533db9/Politique%20qualite%20(FR).pdf",
+   "timestamp": "20250813015308",
+   "wayback_url": "https://web.archive.org/web/20250813015308id_/https://www.glencore.ca/fr/dam/jcr:26252ac1-dbbc-447d-99d5-e11ca5533db9/Politique%20qualite%20(FR).pdf",
+   "bytes": 125427,
+   "title": "Politique qualite (FR).pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:34db50f3-dec1-425d-8712-032218271548/Ligne-de-temps-Timeline_retouche.pdf",
+   "timestamp": "20211026210741",
+   "wayback_url": "https://web.archive.org/web/20211026210741id_/https://www.glencore.ca/fr/dam/jcr:34db50f3-dec1-425d-8712-032218271548/Ligne-de-temps-Timeline_retouche.pdf",
+   "bytes": 1049395,
+   "title": "Ligne-de-temps-Timeline_retouche.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:39dbbff1-df81-4f06-8671-1533e18fa4d4/20200528%20The%20Economic%20Contribution%20of%20the%20Copper%20Processing%20Value%20Chain%20in%20Quebec%20-%20French%20Report%20Summary.pdf",
+   "timestamp": "20220707085411",
+   "wayback_url": "https://web.archive.org/web/20220707085411id_/https://www.glencore.ca/fr/dam/jcr:39dbbff1-df81-4f06-8671-1533e18fa4d4/20200528%20The%20Economic%20Contribution%20of%20the%20Copper%20Processing%20Value%20Chain%20in%20Quebec%20-%20French%20Report%20Summary.pdf",
+   "bytes": 288002,
+   "title": "20200528 The Economic Contribution of the Copper Processing Value Chain in Quebec - French Report Summary.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:3a2c99b3-ebb6-43ad-a7ef-c30558b904c4/Politique%20HSEC%20et%20droits%20humains%20(FR).pdf",
+   "timestamp": "20250813015305",
+   "wayback_url": "https://web.archive.org/web/20250813015305id_/https://www.glencore.ca/fr/dam/jcr:3a2c99b3-ebb6-43ad-a7ef-c30558b904c4/Politique%20HSEC%20et%20droits%20humains%20(FR).pdf",
+   "bytes": 149659,
+   "title": "Politique HSEC et droits humains (FR).pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:3b42df84-ddf9-47de-9978-5393235c0837/English-Internet-Version_FINAL.pdf",
+   "timestamp": "20231004022139",
+   "wayback_url": "https://web.archive.org/web/20231004022139id_/https://www.glencore.ca/fr/dam/jcr:3b42df84-ddf9-47de-9978-5393235c0837/English-Internet-Version_FINAL.pdf",
+   "bytes": 138148,
+   "title": "English-Internet-Version_FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:40d39229-fd7f-4f54-b94a-4bb3349a8bb8/Politique%20qualite%20du%20laboratoire%20(FR).pdf",
+   "timestamp": "20250813015311",
+   "wayback_url": "https://web.archive.org/web/20250813015311id_/https://www.glencore.ca/fr/dam/jcr:40d39229-fd7f-4f54-b94a-4bb3349a8bb8/Politique%20qualite%20du%20laboratoire%20(FR).pdf",
+   "bytes": 371414,
+   "title": "Politique qualite du laboratoire (FR).pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:44ecb8a9-0235-40a4-9698-9afb50825eb0/2021%20FR%20Formulaire%20Akkivik%20VF.pdf",
+   "timestamp": "20211026202556",
+   "wayback_url": "https://web.archive.org/web/20211026202556id_/https://www.glencore.ca/fr/dam/jcr:44ecb8a9-0235-40a4-9698-9afb50825eb0/2021%20FR%20Formulaire%20Akkivik%20VF.pdf",
+   "bytes": 881016,
+   "title": "2021 FR Formulaire Akkivik VF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:45a7a91b-dc85-4840-9cb1-4c598c0e407f/823-Depliant_BourseRaglan.pdf",
+   "timestamp": "20211025031802",
+   "wayback_url": "https://web.archive.org/web/20211025031802id_/https://www.glencore.ca/fr/dam/jcr:45a7a91b-dc85-4840-9cb1-4c598c0e407f/823-Depliant_BourseRaglan.pdf",
+   "bytes": 803583,
+   "title": "823-Depliant_BourseRaglan.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:485a520d-dfe4-4554-8e64-fd3908c53324/Coupa%20SAN%20document%20de%20support_FR_FINAL_04.17.pdf",
+   "timestamp": "20250428192807",
+   "wayback_url": "https://web.archive.org/web/20250428192807id_/https://www.glencore.ca/fr/dam/jcr:485a520d-dfe4-4554-8e64-fd3908c53324/Coupa%20SAN%20document%20de%20support_FR_FINAL_04.17.pdf",
+   "bytes": 1868207,
+   "title": "Coupa SAN document de support_FR_FINAL_04.17.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:495ba14c-677b-4b45-9fd8-d4921b1ed51b/Sivumut_FR_FINAL_2017_court.pdf",
+   "timestamp": "20211026210829",
+   "wayback_url": "https://web.archive.org/web/20211026210829id_/https://www.glencore.ca/fr/dam/jcr:495ba14c-677b-4b45-9fd8-d4921b1ed51b/Sivumut_FR_FINAL_2017_court.pdf",
+   "bytes": 1024461,
+   "title": "Sivumut_FR_FINAL_2017_court.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:49961d95-dae1-4eef-9722-adb4e32e4121/Glencore%20Conditions%20G%C3%A9n%C3%A9rales%20de%20la%20Commande%20de%20Services.pdf",
+   "timestamp": "20240418144126",
+   "wayback_url": "https://web.archive.org/web/20240418144126id_/https://www.glencore.ca/fr/dam/jcr:49961d95-dae1-4eef-9722-adb4e32e4121/Glencore%20Conditions%20G%C3%A9n%C3%A9rales%20de%20la%20Commande%20de%20Services.pdf",
+   "bytes": 533714,
+   "title": "Glencore Conditions Générales de la Commande de Services.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:4d4f32ee-98ff-4d61-bf5f-75ba27cb2d7d/Guide_Version-francaise-pour-Internet_FINALE.pdf",
+   "timestamp": "20211026210328",
+   "wayback_url": "https://web.archive.org/web/20211026210328id_/https://www.glencore.ca/fr/dam/jcr:4d4f32ee-98ff-4d61-bf5f-75ba27cb2d7d/Guide_Version-francaise-pour-Internet_FINALE.pdf",
+   "bytes": 141401,
+   "title": "Guide_Version-francaise-pour-Internet_FINALE.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:6590a638-9826-468c-b477-80b246ff5d5b/Glencore-Canada-Corporation-Condition-Generales-de-la-commande-de-services-service-professionnels.pdf",
+   "timestamp": "20240418133342",
+   "wayback_url": "https://web.archive.org/web/20240418133342id_/https://www.glencore.ca/fr/dam/jcr:6590a638-9826-468c-b477-80b246ff5d5b/Glencore-Canada-Corporation-Condition-Generales-de-la-commande-de-services-service-professionnels.pdf",
+   "bytes": 159746,
+   "title": "Glencore-Canada-Corporation-Condition-Generales-de-la-commande-de-services-service-professionnels.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:6c940f79-d4d1-48d0-8fb5-471ae8e489a7/Coupa%20CSP%20document%20de%20support_FR_FINAL_04.17.pdf",
+   "timestamp": "20250428193432",
+   "wayback_url": "https://web.archive.org/web/20250428193432id_/https://www.glencore.ca/fr/dam/jcr:6c940f79-d4d1-48d0-8fb5-471ae8e489a7/Coupa%20CSP%20document%20de%20support_FR_FINAL_04.17.pdf",
+   "bytes": 3350821,
+   "title": "Coupa CSP document de support_FR_FINAL_04.17.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:740d7a48-2fee-4ea6-ad70-f4130cbe68ed/Coupa%20RFQ%20document%20de%20support_FR_FINAL_4.17.pdf",
+   "timestamp": "20250428191254",
+   "wayback_url": "https://web.archive.org/web/20250428191254id_/https://www.glencore.ca/fr/dam/jcr:740d7a48-2fee-4ea6-ad70-f4130cbe68ed/Coupa%20RFQ%20document%20de%20support_FR_FINAL_4.17.pdf",
+   "bytes": 1446330,
+   "title": "Coupa RFQ document de support_FR_FINAL_4.17.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:77b81bd9-feb5-40d3-95e7-e2951199b853/2021%20INUK%20Akkivik%20Form%20VF.pdf",
+   "timestamp": "20211025055832",
+   "wayback_url": "https://web.archive.org/web/20211025055832id_/https://www.glencore.ca/fr/dam/jcr:77b81bd9-feb5-40d3-95e7-e2951199b853/2021%20INUK%20Akkivik%20Form%20VF.pdf",
+   "bytes": 378245,
+   "title": "2021 INUK Akkivik Form VF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:b0a4a194-8fba-4edc-824a-fd260c16c35e/Asarcolo.pdf",
+   "timestamp": "20211129135405",
+   "wayback_url": "https://web.archive.org/web/20211129135405id_/https://www.glencore.ca/fr/dam/jcr:b0a4a194-8fba-4edc-824a-fd260c16c35e/Asarcolo.pdf",
+   "bytes": 40864,
+   "title": "Asarcolo.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:b31a7f91-0493-47b0-9bb1-d2555a45468f/Coupa%20Facturation%20document%20de%20support_FR_FINAL_04.17.pdf",
+   "timestamp": "20250428181636",
+   "wayback_url": "https://web.archive.org/web/20250428181636id_/https://www.glencore.ca/fr/dam/jcr:b31a7f91-0493-47b0-9bb1-d2555a45468f/Coupa%20Facturation%20document%20de%20support_FR_FINAL_04.17.pdf",
+   "bytes": 3790965,
+   "title": "Coupa Facturation document de support_FR_FINAL_04.17.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:b31ccdc6-5292-4b28-bb95-1c457001cdbb/parcours%20du%20travailleur%20vers%20le%20site%20et%20au%20retour_FR_VF.pdf",
+   "timestamp": "20211026210424",
+   "wayback_url": "https://web.archive.org/web/20211026210424id_/https://www.glencore.ca/fr/dam/jcr:b31ccdc6-5292-4b28-bb95-1c457001cdbb/parcours%20du%20travailleur%20vers%20le%20site%20et%20au%20retour_FR_VF.pdf",
+   "bytes": 954792,
+   "title": "parcours du travailleur vers le site et au retour_FR_VF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:b9546e02-fd8b-4a03-b790-0474100ba0df/Bourses-Raglan-Formulaire-ANG-2018.pdf",
+   "timestamp": "20231004023214",
+   "wayback_url": "https://web.archive.org/web/20231004023214id_/https://www.glencore.ca/fr/dam/jcr:b9546e02-fd8b-4a03-b790-0474100ba0df/Bourses-Raglan-Formulaire-ANG-2018.pdf",
+   "bytes": 90845,
+   "title": "Bourses-Raglan-Formulaire-ANG-2018.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:be7793df-17c5-4730-82db-023ed4580663/Glencore%20Conditions%20G%C3%A9n%C3%A9rales%20du%20Bon%20de%20Commande%20v3.pdf",
+   "timestamp": "20240418143903",
+   "wayback_url": "https://web.archive.org/web/20240418143903id_/https://www.glencore.ca/fr/dam/jcr:be7793df-17c5-4730-82db-023ed4580663/Glencore%20Conditions%20G%C3%A9n%C3%A9rales%20du%20Bon%20de%20Commande%20v3.pdf",
+   "bytes": 384904,
+   "title": "Glencore Conditions Générales du Bon de Commande v3.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:becbc4ea-5d1d-422f-bb3a-2338672d99ab/CERT-0115849_FR-CA_Canadian%20Electrolytic%20Zinc%20Ltd-%20Au%20nom%20de%20la%20Soci%C3%A9t%C3%A9%20en%20commandite%20Revenu%20Noranda.pdf",
+   "timestamp": "20250813015319",
+   "wayback_url": "https://web.archive.org/web/20250813015319id_/https://www.glencore.ca/fr/dam/jcr:becbc4ea-5d1d-422f-bb3a-2338672d99ab/CERT-0115849_FR-CA_Canadian%20Electrolytic%20Zinc%20Ltd-%20Au%20nom%20de%20la%20Soci%C3%A9t%C3%A9%20en%20commandite%20Revenu%20Noranda.pdf",
+   "bytes": 1940654,
+   "title": "CERT-0115849_FR-CA_Canadian Electrolytic Zinc Ltd- Au nom de la Société en commandite Revenu Noranda.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:c57cac0d-ad1a-4d11-a826-655965f477fa/CERT-0115854_FR-CA_Canadian%20Electrolytic%20Zinc%20Ltd-%20Au%20nom%20de%20la%20Soci%C3%A9t%C3%A9%20en%20commandite%20Revenu%20Noranda.pdf",
+   "timestamp": "20250813015313",
+   "wayback_url": "https://web.archive.org/web/20250813015313id_/https://www.glencore.ca/fr/dam/jcr:c57cac0d-ad1a-4d11-a826-655965f477fa/CERT-0115854_FR-CA_Canadian%20Electrolytic%20Zinc%20Ltd-%20Au%20nom%20de%20la%20Soci%C3%A9t%C3%A9%20en%20commandite%20Revenu%20Noranda.pdf",
+   "bytes": 2123044,
+   "title": "CERT-0115854_FR-CA_Canadian Electrolytic Zinc Ltd- Au nom de la Société en commandite Revenu Noranda.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:d8569ff3-6f47-4563-afd5-a9108d96803c/Bourses-Raglan-Formulaire-FR-2018.pdf",
+   "timestamp": "20211025052737",
+   "wayback_url": "https://web.archive.org/web/20211025052737id_/https://www.glencore.ca/fr/dam/jcr:d8569ff3-6f47-4563-afd5-a9108d96803c/Bourses-Raglan-Formulaire-FR-2018.pdf",
+   "bytes": 104352,
+   "title": "Bourses-Raglan-Formulaire-FR-2018.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:daa0be25-7769-40d6-a903-e119078445b2/Certificat%20PALA_2022-06-27.pdf",
+   "timestamp": "20250813015323",
+   "wayback_url": "https://web.archive.org/web/20250813015323id_/https://www.glencore.ca/fr/dam/jcr:daa0be25-7769-40d6-a903-e119078445b2/Certificat%20PALA_2022-06-27.pdf",
+   "bytes": 213885,
+   "title": "Certificat PALA_2022-06-27.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:e3196711-290a-4c4c-9909-800d958af6f9/notre%20engagement2019_FR%20VF.pdf",
+   "timestamp": "20211026205021",
+   "wayback_url": "https://web.archive.org/web/20211026205021id_/https://www.glencore.ca/fr/dam/jcr:e3196711-290a-4c4c-9909-800d958af6f9/notre%20engagement2019_FR%20VF.pdf",
+   "bytes": 927556,
+   "title": "notre engagement2019_FR VF.pdf",
+   "type": "engagement",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/fr/dam/jcr:e99cacc8-1daf-4933-bacf-0efbeac81b0a/Brochure%20employ%C3%A9s%20COVID_FR_VF.pdf",
+   "timestamp": "20211026215235",
+   "wayback_url": "https://web.archive.org/web/20211026215235id_/https://www.glencore.ca/fr/dam/jcr:e99cacc8-1daf-4933-bacf-0efbeac81b0a/Brochure%20employ%C3%A9s%20COVID_FR_VF.pdf",
+   "bytes": 994730,
+   "title": "Brochure employés COVID_FR_VF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/raglan/dam/jcr:15b2fa4c-70af-494b-aa8f-d488f86e244c/notre%20engagement2018_EN.pdf",
+   "timestamp": "20210917102344",
+   "wayback_url": "https://web.archive.org/web/20210917102344id_/https://www.glencore.ca/raglan/dam/jcr:15b2fa4c-70af-494b-aa8f-d488f86e244c/notre%20engagement2018_EN.pdf",
+   "bytes": 969037,
+   "title": "notre engagement2018_EN.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/raglan/dam/jcr:ae2ed74d-5970-4258-933c-a5b5263852a6/notre%20engagement2020_EN_web.pdf",
+   "timestamp": "20210917110848",
+   "wayback_url": "https://web.archive.org/web/20210917110848id_/https://www.glencore.ca/raglan/dam/jcr:ae2ed74d-5970-4258-933c-a5b5263852a6/notre%20engagement2020_EN_web.pdf",
+   "bytes": 841784,
+   "title": "notre engagement2020_EN_web.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/raglan/dam/jcr:dc6b885e-f94d-4b88-abb5-9eee760c4418/notre%20engagement2020_FR_web.pdf",
+   "timestamp": "20211026213423",
+   "wayback_url": "https://web.archive.org/web/20211026213423id_/https://www.glencore.ca/raglan/dam/jcr:dc6b885e-f94d-4b88-abb5-9eee760c4418/notre%20engagement2020_FR_web.pdf",
+   "bytes": 819695,
+   "title": "notre engagement2020_FR_web.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/raglan/dam/jcr:ef5462b1-f446-40da-8e45-d6aa88d3c77f/notre%20engagement2018_FR.pdf",
+   "timestamp": "20211025055448",
+   "wayback_url": "https://web.archive.org/web/20211025055448id_/https://www.glencore.ca/raglan/dam/jcr:ef5462b1-f446-40da-8e45-d6aa88d3c77f/notre%20engagement2018_FR.pdf",
+   "bytes": 967224,
+   "title": "notre engagement2018_FR.pdf",
+   "type": "engagement",
+   "noise": true
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/86619091cd1f73773192b7d7779f31be/Formulaire+de+demande.doc",
+   "timestamp": "20240124090925",
+   "wayback_url": "https://web.archive.org/web/20240124090925id_/https://www.glencore.ca/.rest/api/v1/documents/86619091cd1f73773192b7d7779f31be/Formulaire+de+demande.doc",
+   "bytes": 232525,
+   "title": "Formulaire+de+demande.doc",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/48948e77b3fa9e8f0c00ddc6bd261b8d/Community+Partnership+Program+Application+Form+for+Donation+Request+up+to+%242500.docx",
+   "timestamp": "20250813015732",
+   "wayback_url": "https://web.archive.org/web/20250813015732id_/https://www.glencore.ca/.rest/api/v1/documents/48948e77b3fa9e8f0c00ddc6bd261b8d/Community+Partnership+Program+Application+Form+for+Donation+Request+up+to+%242500.docx",
+   "bytes": 59422,
+   "title": "Community+Partnership+Program+Application+Form+for+Donation+Request+up+to+$2500.docx",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/4cecc64149a4aeb2e183f7e325911fdf/Community+Partnership+Program+Application+Form+for+Donation+Request+%242500+to+%2410000.docx",
+   "timestamp": "20250813015734",
+   "wayback_url": "https://web.archive.org/web/20250813015734id_/https://www.glencore.ca/.rest/api/v1/documents/4cecc64149a4aeb2e183f7e325911fdf/Community+Partnership+Program+Application+Form+for+Donation+Request+%242500+to+%2410000.docx",
+   "bytes": 61998,
+   "title": "Community+Partnership+Program+Application+Form+for+Donation+Request+$2500+to+$10000.docx",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.glencore.ca/.rest/api/v1/documents/8be5e09ba7949f762a9eb2668b30fadb/Community+Partnership+Program+Application+Form+for+Donation+Request+over+%2410000.docx",
+   "timestamp": "20250813015736",
+   "wayback_url": "https://web.archive.org/web/20250813015736id_/https://www.glencore.ca/.rest/api/v1/documents/8be5e09ba7949f762a9eb2668b30fadb/Community+Partnership+Program+Application+Form+for+Donation+Request+over+%2410000.docx",
+   "bytes": 62380,
+   "title": "Community+Partnership+Program+Application+Form+for+Donation+Request+over+$10000.docx",
+   "type": "other",
+   "noise": false
+  }
+ ],
+ "doc_types": {
+  "other": 188,
+  "monitoring": 3,
+  "newsletter": 3,
+  "permit_approval": 1,
+  "engagement": 8,
+  "closure": 4
+ }
+}

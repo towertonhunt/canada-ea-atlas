@@ -1,0 +1,816 @@
+{
+ "key": "everwind fuels",
+ "name": "EverWind Fuels",
+ "host": "everwindfuels.com",
+ "harvested_at": "2026-09-05T01:44:51Z",
+ "docs": [
+  {
+   "url": "https://everwindfuels.com/economic_contribution_study_report.pdf",
+   "timestamp": "20240218105718",
+   "wayback_url": "https://web.archive.org/web/20240218105718id_/https://everwindfuels.com/economic_contribution_study_report.pdf",
+   "bytes": 2487335,
+   "title": "economic_contribution_study_report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/point_tupper_economic_infographic.pdf",
+   "timestamp": "20240219014354",
+   "wayback_url": "https://web.archive.org/web/20240219014354id_/https://everwindfuels.com/point_tupper_economic_infographic.pdf",
+   "bytes": 1154223,
+   "title": "point_tupper_economic_infographic.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/static/media/International-PtX-Hub_EU-Requirements-for-green-hydrogen-and-PtX.800c37788ea7d25243a2.pdf",
+   "timestamp": "20250803225923",
+   "wayback_url": "https://web.archive.org/web/20250803225923id_/https://everwindfuels.com/static/media/International-PtX-Hub_EU-Requirements-for-green-hydrogen-and-PtX.800c37788ea7d25243a2.pdf",
+   "bytes": 1254714,
+   "title": "International-PtX-Hub_EU-Requirements-for-green-hydrogen-and-PtX.800c37788ea7d25243a2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/static/media/Press_Release_06_06_2024.1b0163e199157e5da3f6.pdf",
+   "timestamp": "20240628021411",
+   "wayback_url": "https://web.archive.org/web/20240628021411id_/https://everwindfuels.com/static/media/Press_Release_06_06_2024.1b0163e199157e5da3f6.pdf",
+   "bytes": 503905,
+   "title": "Press_Release_06_06_2024.1b0163e199157e5da3f6.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2023/10/Colchester-wind-farm-flyer.pdf",
+   "timestamp": "20260520231316",
+   "wayback_url": "https://web.archive.org/web/20260520231316id_/https://everwindfuels.com/wp-content/uploads/2023/10/Colchester-wind-farm-flyer.pdf",
+   "bytes": 661087,
+   "title": "Colchester-wind-farm-flyer.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2023/11/Colchester-Open-House-Date-Announcement.pdf",
+   "timestamp": "20260520225444",
+   "wayback_url": "https://web.archive.org/web/20260520225444id_/https://everwindfuels.com/wp-content/uploads/2023/11/Colchester-Open-House-Date-Announcement.pdf",
+   "bytes": 68290,
+   "title": "Colchester-Open-House-Date-Announcement.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/06/Kmtnuk-Updated-Visual-Simulations-combined-for-website.pdf",
+   "timestamp": "20260609091545",
+   "wayback_url": "https://web.archive.org/web/20260609091545id_/https://everwindfuels.com/wp-content/uploads/2025/06/Kmtnuk-Updated-Visual-Simulations-combined-for-website.pdf",
+   "bytes": 4164499,
+   "title": "Kmtnuk-Updated-Visual-Simulations-combined-for-website.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/06/Windy-Ridge-Updated-Visual-Simulations-combined-for-website.pdf",
+   "timestamp": "20260520220047",
+   "wayback_url": "https://web.archive.org/web/20260520220047id_/https://everwindfuels.com/wp-content/uploads/2025/06/Windy-Ridge-Updated-Visual-Simulations-combined-for-website.pdf",
+   "bytes": 5112131,
+   "title": "Windy-Ridge-Updated-Visual-Simulations-combined-for-website.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Benefits-Ad.pdf",
+   "timestamp": "20260419183240",
+   "wayback_url": "https://web.archive.org/web/20260419183240id_/https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Benefits-Ad.pdf",
+   "bytes": 229554,
+   "title": "Bear-Lake-Benefits-Ad.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Council-Presentation.pdf",
+   "timestamp": "20260406201850",
+   "wayback_url": "https://web.archive.org/web/20260406201850id_/https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Council-Presentation.pdf",
+   "bytes": 1817764,
+   "title": "Bear-Lake-Council-Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-January-Newsletter-2024.pdf",
+   "timestamp": "20260520215823",
+   "wayback_url": "https://web.archive.org/web/20260520215823id_/https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-January-Newsletter-2024.pdf",
+   "bytes": 1376407,
+   "title": "Bear-Lake-January-Newsletter-2024.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Open-House-Presentation-July-and-August.pdf",
+   "timestamp": "20260211132904",
+   "wayback_url": "https://web.archive.org/web/20260211132904id_/https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Open-House-Presentation-July-and-August.pdf",
+   "bytes": 5233100,
+   "title": "Bear-Lake-Open-House-Presentation-July-and-August.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Open-House-Presentation-Sept-2023.pdf",
+   "timestamp": "20260211122026",
+   "wayback_url": "https://web.archive.org/web/20260211122026id_/https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Open-House-Presentation-Sept-2023.pdf",
+   "bytes": 5166326,
+   "title": "Bear-Lake-Open-House-Presentation-Sept-2023.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Open-House-Presentation.pdf",
+   "timestamp": "20260609082042",
+   "wayback_url": "https://web.archive.org/web/20260609082042id_/https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Open-House-Presentation.pdf",
+   "bytes": 4835342,
+   "title": "Bear-Lake-Open-House-Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Public-Information-Meeting-Presentation.pdf",
+   "timestamp": "20260406201850",
+   "wayback_url": "https://web.archive.org/web/20260406201850id_/https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Public-Information-Meeting-Presentation.pdf",
+   "bytes": 2020069,
+   "title": "Bear-Lake-Public-Information-Meeting-Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Public-Information-Presentation.pdf",
+   "timestamp": "20260406201850",
+   "wayback_url": "https://web.archive.org/web/20260406201850id_/https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Public-Information-Presentation.pdf",
+   "bytes": 1579974,
+   "title": "Bear-Lake-Public-Information-Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Public-Mailout-ReMunicipal-Setbacks.pdf",
+   "timestamp": "20260115080928",
+   "wayback_url": "https://web.archive.org/web/20260115080928id_/https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Public-Mailout-ReMunicipal-Setbacks.pdf",
+   "bytes": 26149199,
+   "title": "Bear-Lake-Public-Mailout-ReMunicipal-Setbacks.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Q-A-Nov-2023.pdf",
+   "timestamp": "20260520225030",
+   "wayback_url": "https://web.archive.org/web/20260520225030id_/https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Q-A-Nov-2023.pdf",
+   "bytes": 270316,
+   "title": "Bear-Lake-Q-A-Nov-2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Siting-Guidance-for-Wind-Turbines.pdf",
+   "timestamp": "20260406201850",
+   "wayback_url": "https://web.archive.org/web/20260406201850id_/https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Siting-Guidance-for-Wind-Turbines.pdf",
+   "bytes": 1328387,
+   "title": "Bear-Lake-Siting-Guidance-for-Wind-Turbines.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Turbine-Siting-Report.pdf",
+   "timestamp": "20260520220526",
+   "wayback_url": "https://web.archive.org/web/20260520220526id_/https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Turbine-Siting-Report.pdf",
+   "bytes": 5103632,
+   "title": "Bear-Lake-Turbine-Siting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Updated-Project-Map-2025.pdf",
+   "timestamp": "20260406201850",
+   "wayback_url": "https://web.archive.org/web/20260406201850id_/https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Updated-Project-Map-2025.pdf",
+   "bytes": 9731822,
+   "title": "Bear-Lake-Updated-Project-Map-2025.pdf",
+   "type": "map",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Visual-Simulations.pdf",
+   "timestamp": "20260609085322",
+   "wayback_url": "https://web.archive.org/web/20260609085322id_/https://everwindfuels.com/wp-content/uploads/2025/10/Bear-Lake-Visual-Simulations.pdf",
+   "bytes": 4405780,
+   "title": "Bear-Lake-Visual-Simulations.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/blwp-conditions.pdf",
+   "timestamp": "20260419183927",
+   "wayback_url": "https://web.archive.org/web/20260419183927id_/https://everwindfuels.com/wp-content/uploads/2025/10/blwp-conditions.pdf",
+   "bytes": 178794,
+   "title": "blwp-conditions.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/blwp-decision.pdf",
+   "timestamp": "20260520231501",
+   "wayback_url": "https://web.archive.org/web/20260520231501id_/https://everwindfuels.com/wp-content/uploads/2025/10/blwp-decision.pdf",
+   "bytes": 149114,
+   "title": "blwp-decision.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Burin-Peninsula-%E2%80%93-Fact-Sheet-1-Pager-Final.pdf",
+   "timestamp": "20260520224729",
+   "wayback_url": "https://web.archive.org/web/20260520224729id_/https://everwindfuels.com/wp-content/uploads/2025/10/Burin-Peninsula-%E2%80%93-Fact-Sheet-1-Pager-Final.pdf",
+   "bytes": 2203425,
+   "title": "Burin-Peninsula-–-Fact-Sheet-1-Pager-Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Burin-Peninsula-Environmental-Assessment-Registration-Document.pdf",
+   "timestamp": "20260113000636",
+   "wayback_url": "https://web.archive.org/web/20260113000636id_/https://everwindfuels.com/wp-content/uploads/2025/10/Burin-Peninsula-Environmental-Assessment-Registration-Document.pdf",
+   "bytes": 3773185,
+   "title": "Burin-Peninsula-Environmental-Assessment-Registration-Document.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Colchester-Community-Benefits-Agreement.pdf",
+   "timestamp": "20260520222626",
+   "wayback_url": "https://web.archive.org/web/20260520222626id_/https://everwindfuels.com/wp-content/uploads/2025/10/Colchester-Community-Benefits-Agreement.pdf",
+   "bytes": 194953,
+   "title": "Colchester-Community-Benefits-Agreement.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Colchester-Open-House-Presentation.pdf",
+   "timestamp": "20260609081232",
+   "wayback_url": "https://web.archive.org/web/20260609081232id_/https://everwindfuels.com/wp-content/uploads/2025/10/Colchester-Open-House-Presentation.pdf",
+   "bytes": 4913592,
+   "title": "Colchester-Open-House-Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Environmental-Assessment-Approval-with-Conditions.pdf",
+   "timestamp": "20260520225702",
+   "wayback_url": "https://web.archive.org/web/20260520225702id_/https://everwindfuels.com/wp-content/uploads/2025/10/Environmental-Assessment-Approval-with-Conditions.pdf",
+   "bytes": 4841768,
+   "title": "Environmental-Assessment-Approval-with-Conditions.pdf",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/EverWind-Wind-Farm-1-Community-Presentation-June-2025-VF.e9e201ce5c1a8b11331c.pdf",
+   "timestamp": "20251231131939",
+   "wayback_url": "https://web.archive.org/web/20251231131939id_/https://everwindfuels.com/wp-content/uploads/2025/10/EverWind-Wind-Farm-1-Community-Presentation-June-2025-VF.e9e201ce5c1a8b11331c.pdf",
+   "bytes": 2289957,
+   "title": "EverWind-Wind-Farm-1-Community-Presentation-June-2025-VF.e9e201ce5c1a8b11331c.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/GHG-Assessment-of-EverWinds-Point-Tupper-Green-Hydrogen-Facility.pdf",
+   "timestamp": "20260609082521",
+   "wayback_url": "https://web.archive.org/web/20260609082521id_/https://everwindfuels.com/wp-content/uploads/2025/10/GHG-Assessment-of-EverWinds-Point-Tupper-Green-Hydrogen-Facility.pdf",
+   "bytes": 931896,
+   "title": "GHG-Assessment-of-EverWinds-Point-Tupper-Green-Hydrogen-Facility.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Guysborough-Wind-Projects-Community-Presentation-June.pdf",
+   "timestamp": "20251231093913",
+   "wayback_url": "https://web.archive.org/web/20251231093913id_/https://everwindfuels.com/wp-content/uploads/2025/10/Guysborough-Wind-Projects-Community-Presentation-June.pdf",
+   "bytes": 2289793,
+   "title": "Guysborough-Wind-Projects-Community-Presentation-June.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Guysborough-Wind-Projects-Community-Presentation.pdf",
+   "timestamp": "20260609083813",
+   "wayback_url": "https://web.archive.org/web/20260609083813id_/https://everwindfuels.com/wp-content/uploads/2025/10/Guysborough-Wind-Projects-Community-Presentation.pdf",
+   "bytes": 3765180,
+   "title": "Guysborough-Wind-Projects-Community-Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Guysborough-Wind-Projects-Open-House-Posterboards.pdf",
+   "timestamp": "20260609081631",
+   "wayback_url": "https://web.archive.org/web/20260609081631id_/https://everwindfuels.com/wp-content/uploads/2025/10/Guysborough-Wind-Projects-Open-House-Posterboards.pdf",
+   "bytes": 4921507,
+   "title": "Guysborough-Wind-Projects-Open-House-Posterboards.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Guysborough-Wind-Projects-Updated-Map-of-Projects.pdf",
+   "timestamp": "20251231075139",
+   "wayback_url": "https://web.archive.org/web/20251231075139id_/https://everwindfuels.com/wp-content/uploads/2025/10/Guysborough-Wind-Projects-Updated-Map-of-Projects.pdf",
+   "bytes": 2318451,
+   "title": "Guysborough-Wind-Projects-Updated-Map-of-Projects.pdf",
+   "type": "map",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Guysborough-Wind-Projects-Updated-Visual-Simulations.pdf",
+   "timestamp": "20251230230657",
+   "wayback_url": "https://web.archive.org/web/20251230230657id_/https://everwindfuels.com/wp-content/uploads/2025/10/Guysborough-Wind-Projects-Updated-Visual-Simulations.pdf",
+   "bytes": 51387469,
+   "title": "Guysborough-Wind-Projects-Updated-Visual-Simulations.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Guysborough-Wind-Projects-Wind-Benefits-Handout.pdf",
+   "timestamp": "20260520224018",
+   "wayback_url": "https://web.archive.org/web/20260520224018id_/https://everwindfuels.com/wp-content/uploads/2025/10/Guysborough-Wind-Projects-Wind-Benefits-Handout.pdf",
+   "bytes": 371000,
+   "title": "Guysborough-Wind-Projects-Wind-Benefits-Handout.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Guysbough-Wind-Projects-Community-Benefits-Agreement.pdf",
+   "timestamp": "20260609081345",
+   "wayback_url": "https://web.archive.org/web/20260609081345id_/https://everwindfuels.com/wp-content/uploads/2025/10/Guysbough-Wind-Projects-Community-Benefits-Agreement.pdf",
+   "bytes": 3313615,
+   "title": "Guysbough-Wind-Projects-Community-Benefits-Agreement.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Guysbough-Wind-Projects-Open-House-Posterboards.pdf",
+   "timestamp": "20260520220423",
+   "wayback_url": "https://web.archive.org/web/20260520220423id_/https://everwindfuels.com/wp-content/uploads/2025/10/Guysbough-Wind-Projects-Open-House-Posterboards.pdf",
+   "bytes": 4301740,
+   "title": "Guysbough-Wind-Projects-Open-House-Posterboards.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Benefits-Ad.pdf",
+   "timestamp": "20260609093651",
+   "wayback_url": "https://web.archive.org/web/20260609093651id_/https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Benefits-Ad.pdf",
+   "bytes": 226595,
+   "title": "Kmtnuk-Benefits-Ad.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Business-Information-Session-Announcement.pdf",
+   "timestamp": "20260419185226",
+   "wayback_url": "https://web.archive.org/web/20260419185226id_/https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Business-Information-Session-Announcement.pdf",
+   "bytes": 285511,
+   "title": "Kmtnuk-Business-Information-Session-Announcement.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Conditions-for-Environmental-Approval.pdf",
+   "timestamp": "20260609091517",
+   "wayback_url": "https://web.archive.org/web/20260609091517id_/https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Conditions-for-Environmental-Approval.pdf",
+   "bytes": 195730,
+   "title": "Kmtnuk-Conditions-for-Environmental-Approval.pdf",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Environmental-Approval.pdf",
+   "timestamp": "20260419181830",
+   "wayback_url": "https://web.archive.org/web/20260419181830id_/https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Environmental-Approval.pdf",
+   "bytes": 176103,
+   "title": "Kmtnuk-Environmental-Approval.pdf",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Open-House-Presentation-August-2023.pdf",
+   "timestamp": "20260520224928",
+   "wayback_url": "https://web.archive.org/web/20260520224928id_/https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Open-House-Presentation-August-2023.pdf",
+   "bytes": 5232568,
+   "title": "Kmtnuk-Open-House-Presentation-August-2023.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Open-House-Presentation-Sept-2023.pdf",
+   "timestamp": "20260609083747",
+   "wayback_url": "https://web.archive.org/web/20260609083747id_/https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Open-House-Presentation-Sept-2023.pdf",
+   "bytes": 5171807,
+   "title": "Kmtnuk-Open-House-Presentation-Sept-2023.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Updated-Map-of-Projects.pdf",
+   "timestamp": "20260520225258",
+   "wayback_url": "https://web.archive.org/web/20260520225258id_/https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Updated-Map-of-Projects.pdf",
+   "bytes": 1676138,
+   "title": "Kmtnuk-Updated-Map-of-Projects.pdf",
+   "type": "map",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Visual-Simulations.pdf",
+   "timestamp": "20260211134900",
+   "wayback_url": "https://web.archive.org/web/20260211134900id_/https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Visual-Simulations.pdf",
+   "bytes": 4322936,
+   "title": "Kmtnuk-Visual-Simulations.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Wind-Farm-Newsletter-July-2023.pdf",
+   "timestamp": "20260211130959",
+   "wayback_url": "https://web.archive.org/web/20260211130959id_/https://everwindfuels.com/wp-content/uploads/2025/10/Kmtnuk-Wind-Farm-Newsletter-July-2023.pdf",
+   "bytes": 852207,
+   "title": "Kmtnuk-Wind-Farm-Newsletter-July-2023.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/November-Open-Houses-Poster.pdf",
+   "timestamp": "20260211121014",
+   "wayback_url": "https://web.archive.org/web/20260211121014id_/https://everwindfuels.com/wp-content/uploads/2025/10/November-Open-Houses-Poster.pdf",
+   "bytes": 68280,
+   "title": "November-Open-Houses-Poster.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Open-House-Presentation-Arichat.pdf",
+   "timestamp": "20260520223921",
+   "wayback_url": "https://web.archive.org/web/20260520223921id_/https://everwindfuels.com/wp-content/uploads/2025/10/Open-House-Presentation-Arichat.pdf",
+   "bytes": 4991777,
+   "title": "Open-House-Presentation-Arichat.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Open-House-Presentation-Port-Hawkesbury-2.pdf",
+   "timestamp": "20260520222203",
+   "wayback_url": "https://web.archive.org/web/20260520222203id_/https://everwindfuels.com/wp-content/uploads/2025/10/Open-House-Presentation-Port-Hawkesbury-2.pdf",
+   "bytes": 5097339,
+   "title": "Open-House-Presentation-Port-Hawkesbury-2.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Open-House-Presentation-Port-Hawkesbury.pdf",
+   "timestamp": "20260211124053",
+   "wayback_url": "https://web.archive.org/web/20260211124053id_/https://everwindfuels.com/wp-content/uploads/2025/10/Open-House-Presentation-Port-Hawkesbury.pdf",
+   "bytes": 5104657,
+   "title": "Open-House-Presentation-Port-Hawkesbury.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Open-House-Presentation-St.-Peters.pdf",
+   "timestamp": "20260520230847",
+   "wayback_url": "https://web.archive.org/web/20260520230847id_/https://everwindfuels.com/wp-content/uploads/2025/10/Open-House-Presentation-St.-Peters.pdf",
+   "bytes": 4991792,
+   "title": "Open-House-Presentation-St.-Peters.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Meeting_Minutes_JAN_15_2025.91c6702b6d67b4420f24.pdf",
+   "timestamp": "20260311155339",
+   "wayback_url": "https://web.archive.org/web/20260311155339id_/https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Meeting_Minutes_JAN_15_2025.91c6702b6d67b4420f24.pdf",
+   "bytes": 199738,
+   "title": "SRCLC_Meeting_Minutes_JAN_15_2025.91c6702b6d67b4420f24.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Meeting_Minutes_Sep_18_2024.7817de63b2a2c918cca5.pdf",
+   "timestamp": "20260311161626",
+   "wayback_url": "https://web.archive.org/web/20260311161626id_/https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Meeting_Minutes_Sep_18_2024.7817de63b2a2c918cca5.pdf",
+   "bytes": 165971,
+   "title": "SRCLC_Meeting_Minutes_Sep_18_2024.7817de63b2a2c918cca5.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Meeting_Notes_Nov_20_2024.05c021b79737b54f6d3c.pdf",
+   "timestamp": "20260311164013",
+   "wayback_url": "https://web.archive.org/web/20260311164013id_/https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Meeting_Notes_Nov_20_2024.05c021b79737b54f6d3c.pdf",
+   "bytes": 169821,
+   "title": "SRCLC_Meeting_Notes_Nov_20_2024.05c021b79737b54f6d3c.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Minutes_Jun_19_2024.8f48f047e5e61e8ac2b3.pdf",
+   "timestamp": "20260211125334",
+   "wayback_url": "https://web.archive.org/web/20260211125334id_/https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Minutes_Jun_19_2024.8f48f047e5e61e8ac2b3.pdf",
+   "bytes": 159039,
+   "title": "SRCLC_Minutes_Jun_19_2024.8f48f047e5e61e8ac2b3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Wind-Farm-Business-Info-Session-Poster.pdf",
+   "timestamp": "20260520223237",
+   "wayback_url": "https://web.archive.org/web/20260520223237id_/https://everwindfuels.com/wp-content/uploads/2025/10/Wind-Farm-Business-Info-Session-Poster.pdf",
+   "bytes": 285509,
+   "title": "Wind-Farm-Business-Info-Session-Poster.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Windy-Ridge-Community-Presentation.pdf",
+   "timestamp": "20260609091701",
+   "wayback_url": "https://web.archive.org/web/20260609091701id_/https://everwindfuels.com/wp-content/uploads/2025/10/Windy-Ridge-Community-Presentation.pdf",
+   "bytes": 1882352,
+   "title": "Windy-Ridge-Community-Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Windy-Ridge-Open-House-Presentation.pdf",
+   "timestamp": "20260114032824",
+   "wayback_url": "https://web.archive.org/web/20260114032824id_/https://everwindfuels.com/wp-content/uploads/2025/10/Windy-Ridge-Open-House-Presentation.pdf",
+   "bytes": 2220872,
+   "title": "Windy-Ridge-Open-House-Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Windy-Ridge-Presentation-QA.pdf",
+   "timestamp": "20260211132610",
+   "wayback_url": "https://web.archive.org/web/20260211132610id_/https://everwindfuels.com/wp-content/uploads/2025/10/Windy-Ridge-Presentation-QA.pdf",
+   "bytes": 212242,
+   "title": "Windy-Ridge-Presentation-QA.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Windy-Ridge-Sound-and-Shadow-Flicker-Modelling.pdf",
+   "timestamp": "20260609083838",
+   "wayback_url": "https://web.archive.org/web/20260609083838id_/https://everwindfuels.com/wp-content/uploads/2025/10/Windy-Ridge-Sound-and-Shadow-Flicker-Modelling.pdf",
+   "bytes": 1162000,
+   "title": "Windy-Ridge-Sound-and-Shadow-Flicker-Modelling.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/Windy-Ridge-Visual-Simulations.pdf",
+   "timestamp": "20260609082949",
+   "wayback_url": "https://web.archive.org/web/20260609082949id_/https://everwindfuels.com/wp-content/uploads/2025/10/Windy-Ridge-Visual-Simulations.pdf",
+   "bytes": 5181878,
+   "title": "Windy-Ridge-Visual-Simulations.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/12/Setapuktuk-one-pager-Nov.-2025.pdf",
+   "timestamp": "20251230230707",
+   "wayback_url": "https://web.archive.org/web/20251230230707id_/https://everwindfuels.com/wp-content/uploads/2025/12/Setapuktuk-one-pager-Nov.-2025.pdf",
+   "bytes": 2030123,
+   "title": "Setapuktuk-one-pager-Nov.-2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/01/Additional-OH-FINAL-Upper-Afton-Open-House-8.5-x-11-in.pdf",
+   "timestamp": "20260211114939",
+   "wayback_url": "https://web.archive.org/web/20260211114939id_/https://everwindfuels.com/wp-content/uploads/2026/01/Additional-OH-FINAL-Upper-Afton-Open-House-8.5-x-11-in.pdf",
+   "bytes": 437636,
+   "title": "Additional-OH-FINAL-Upper-Afton-Open-House-8.5-x-11-in.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/01/economic_contribution_study_report-3-1.pdf",
+   "timestamp": "20260311155433",
+   "wayback_url": "https://web.archive.org/web/20260311155433id_/https://everwindfuels.com/wp-content/uploads/2026/01/economic_contribution_study_report-3-1.pdf",
+   "bytes": 2487404,
+   "title": "economic_contribution_study_report-3-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/01/point_tupper_economic_infographic.pdf",
+   "timestamp": "20260311164444",
+   "wayback_url": "https://web.archive.org/web/20260311164444id_/https://everwindfuels.com/wp-content/uploads/2026/01/point_tupper_economic_infographic.pdf",
+   "bytes": 1154293,
+   "title": "point_tupper_economic_infographic.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/01/Upper-Afton-Open-House-January-2026-FINAL-compressed.pdf",
+   "timestamp": "20260419184451",
+   "wayback_url": "https://web.archive.org/web/20260419184451id_/https://everwindfuels.com/wp-content/uploads/2026/01/Upper-Afton-Open-House-January-2026-FINAL-compressed.pdf",
+   "bytes": 5133167,
+   "title": "Upper-Afton-Open-House-January-2026-FINAL-compressed.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/01/Upper-Afton-Site-Map-2026.pdf",
+   "timestamp": "20260609085252",
+   "wayback_url": "https://web.archive.org/web/20260609085252id_/https://everwindfuels.com/wp-content/uploads/2026/01/Upper-Afton-Site-Map-2026.pdf",
+   "bytes": 4517348,
+   "title": "Upper-Afton-Site-Map-2026.pdf",
+   "type": "map",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/01/UpperAfton_Visual-Simulations2026-compressed.pdf",
+   "timestamp": "20260609080722",
+   "wayback_url": "https://web.archive.org/web/20260609080722id_/https://everwindfuels.com/wp-content/uploads/2026/01/UpperAfton_Visual-Simulations2026-compressed.pdf",
+   "bytes": 2516130,
+   "title": "UpperAfton_Visual-Simulations2026-compressed.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/02/Upper-Afton-1-pager-9.pdf",
+   "timestamp": "20260311162131",
+   "wayback_url": "https://web.archive.org/web/20260311162131id_/https://everwindfuels.com/wp-content/uploads/2026/02/Upper-Afton-1-pager-9.pdf",
+   "bytes": 4778508,
+   "title": "Upper-Afton-1-pager-9.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/03/OH-WF2-Open-House-8.5-x-11-in-3.pdf",
+   "timestamp": "20260419183115",
+   "wayback_url": "https://web.archive.org/web/20260419183115id_/https://everwindfuels.com/wp-content/uploads/2026/03/OH-WF2-Open-House-8.5-x-11-in-3.pdf",
+   "bytes": 75707,
+   "title": "OH-WF2-Open-House-8.5-x-11-in-3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/03/Public-Notice-Upper-Afton-Wind-Project-EverWind-Membertou-2.pdf",
+   "timestamp": "20260419170921",
+   "wayback_url": "https://web.archive.org/web/20260419170921id_/https://everwindfuels.com/wp-content/uploads/2026/03/Public-Notice-Upper-Afton-Wind-Project-EverWind-Membertou-2.pdf",
+   "bytes": 116002,
+   "title": "Public-Notice-Upper-Afton-Wind-Project-EverWind-Membertou-2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/04/Wf2-onepgaer-April-6-2026.pdf",
+   "timestamp": "20260520221347",
+   "wayback_url": "https://web.archive.org/web/20260520221347id_/https://everwindfuels.com/wp-content/uploads/2026/04/Wf2-onepgaer-April-6-2026.pdf",
+   "bytes": 5234795,
+   "title": "Wf2-onepgaer-April-6-2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/04/WF2-Visual-Simulations-compressed-1.pdf",
+   "timestamp": "20260520225230",
+   "wayback_url": "https://web.archive.org/web/20260520225230id_/https://everwindfuels.com/wp-content/uploads/2026/04/WF2-Visual-Simulations-compressed-1.pdf",
+   "bytes": 4717505,
+   "title": "WF2-Visual-Simulations-compressed-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/04/WF2OverviewMap.pdf",
+   "timestamp": "20260520230246",
+   "wayback_url": "https://web.archive.org/web/20260520230246id_/https://everwindfuels.com/wp-content/uploads/2026/04/WF2OverviewMap.pdf",
+   "bytes": 946638,
+   "title": "WF2OverviewMap.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/04/WF3-Open-House-8.5-x-11-in-Bulletin-Website.pdf",
+   "timestamp": "20260520225820",
+   "wayback_url": "https://web.archive.org/web/20260520225820id_/https://everwindfuels.com/wp-content/uploads/2026/04/WF3-Open-House-8.5-x-11-in-Bulletin-Website.pdf",
+   "bytes": 2774157,
+   "title": "WF3-Open-House-8.5-x-11-in-Bulletin-Website.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/04/Wind-Farm-2-Open-House-April-2026-combined.pdf",
+   "timestamp": "20260520214548",
+   "wayback_url": "https://web.archive.org/web/20260520214548id_/https://everwindfuels.com/wp-content/uploads/2026/04/Wind-Farm-2-Open-House-April-2026-combined.pdf",
+   "bytes": 5084168,
+   "title": "Wind-Farm-2-Open-House-April-2026-combined.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/05/Harbour-Hills-WF3-One-Pager-2026.pdf",
+   "timestamp": "20260609084326",
+   "wayback_url": "https://web.archive.org/web/20260609084326id_/https://everwindfuels.com/wp-content/uploads/2026/05/Harbour-Hills-WF3-One-Pager-2026.pdf",
+   "bytes": 4520505,
+   "title": "Harbour-Hills-WF3-One-Pager-2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/05/Ocean-Lake-Wind-Project_Public-Notice-May-13-2026.pdf",
+   "timestamp": "20260609094151",
+   "wayback_url": "https://web.archive.org/web/20260609094151id_/https://everwindfuels.com/wp-content/uploads/2026/05/Ocean-Lake-Wind-Project_Public-Notice-May-13-2026.pdf",
+   "bytes": 83832,
+   "title": "Ocean-Lake-Wind-Project_Public-Notice-May-13-2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/05/WF3-onepgaer-May-52026.pdf",
+   "timestamp": "20260609092938",
+   "wayback_url": "https://web.archive.org/web/20260609092938id_/https://everwindfuels.com/wp-content/uploads/2026/05/WF3-onepgaer-May-52026.pdf",
+   "bytes": 4521879,
+   "title": "WF3-onepgaer-May-52026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/05/WF3-Visual-Simulations-compiled-compressed.pdf",
+   "timestamp": "20260609091400",
+   "wayback_url": "https://web.archive.org/web/20260609091400id_/https://everwindfuels.com/wp-content/uploads/2026/05/WF3-Visual-Simulations-compiled-compressed.pdf",
+   "bytes": 4377714,
+   "title": "WF3-Visual-Simulations-compiled-compressed.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2026/05/Wind-Farm-3-Open-House-May-2026-Website.pdf",
+   "timestamp": "20260609075727",
+   "wayback_url": "https://web.archive.org/web/20260609075727id_/https://everwindfuels.com/wp-content/uploads/2026/05/Wind-Farm-3-Open-House-May-2026-Website.pdf",
+   "bytes": 5061698,
+   "title": "Wind-Farm-3-Open-House-May-2026-Website.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC-Minutes-Aug-21-2024-final.b22a32f97fd9c80459f0.docx",
+   "timestamp": "20260520224959",
+   "wayback_url": "https://web.archive.org/web/20260520224959id_/https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC-Minutes-Aug-21-2024-final.b22a32f97fd9c80459f0.docx",
+   "bytes": 46854,
+   "title": "SRCLC-Minutes-Aug-21-2024-final.b22a32f97fd9c80459f0.docx",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC-Minutes-Jul-17-2024-final.6ed8e79d86bc9149e9ce.docx",
+   "timestamp": "20260520215158",
+   "wayback_url": "https://web.archive.org/web/20260520215158id_/https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC-Minutes-Jul-17-2024-final.6ed8e79d86bc9149e9ce.docx",
+   "bytes": 47253,
+   "title": "SRCLC-Minutes-Jul-17-2024-final.6ed8e79d86bc9149e9ce.docx",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Minutes_April.3fc9ca12f6c42ac6688a.docx",
+   "timestamp": "20260211115129",
+   "wayback_url": "https://web.archive.org/web/20260211115129id_/https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Minutes_April.3fc9ca12f6c42ac6688a.docx",
+   "bytes": 45838,
+   "title": "SRCLC_Minutes_April.3fc9ca12f6c42ac6688a.docx",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Minutes_February.818b16b3048770c1293b.docx",
+   "timestamp": "20260520223314",
+   "wayback_url": "https://web.archive.org/web/20260520223314id_/https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Minutes_February.818b16b3048770c1293b.docx",
+   "bytes": 46241,
+   "title": "SRCLC_Minutes_February.818b16b3048770c1293b.docx",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Minutes_March.f0ec074cf8e40b4f5945.docx",
+   "timestamp": "20260520220629",
+   "wayback_url": "https://web.archive.org/web/20260520220629id_/https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Minutes_March.f0ec074cf8e40b4f5945.docx",
+   "bytes": 46107,
+   "title": "SRCLC_Minutes_March.f0ec074cf8e40b4f5945.docx",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Minutes_May.e5a62682e2b1fa02f335.docx",
+   "timestamp": "20260211122430",
+   "wayback_url": "https://web.archive.org/web/20260211122430id_/https://everwindfuels.com/wp-content/uploads/2025/10/SRCLC_Minutes_May.e5a62682e2b1fa02f335.docx",
+   "bytes": 45042,
+   "title": "SRCLC_Minutes_May.e5a62682e2b1fa02f335.docx",
+   "type": "other",
+   "noise": false
+  }
+ ],
+ "doc_types": {
+  "other": 56,
+  "newsletter": 4,
+  "presentation": 19,
+  "map": 4,
+  "permit_approval": 3
+ }
+}

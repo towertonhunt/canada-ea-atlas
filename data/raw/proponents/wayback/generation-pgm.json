@@ -1,0 +1,3861 @@
+{
+ "key": "generation pgm",
+ "name": "Generation Mining",
+ "host": "genmining.com",
+ "harvested_at": "2026-09-05T03:26:11Z",
+ "docs": [
+  {
+   "url": "https://www.genmining.com/site/assets/files/3610/announce_cse_listing_-_v1.pdf",
+   "timestamp": "20200929115403",
+   "wayback_url": "https://web.archive.org/web/20200929115403id_/https://www.genmining.com/site/assets/files/3610/announce_cse_listing_-_v1.pdf",
+   "bytes": 489339,
+   "title": "announce_cse_listing_-_v1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3611/2018-05-14_nr.pdf",
+   "timestamp": "20200929114608",
+   "wayback_url": "https://web.archive.org/web/20200929114608id_/https://www.genmining.com/site/assets/files/3611/2018-05-14_nr.pdf",
+   "bytes": 130425,
+   "title": "2018-05-14_nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3612/2018-05-16-nr-genm.pdf",
+   "timestamp": "20200929115331",
+   "wayback_url": "https://web.archive.org/web/20200929115331id_/https://www.genmining.com/site/assets/files/3612/2018-05-16-nr-genm.pdf",
+   "bytes": 575953,
+   "title": "2018-05-16-nr-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3615/2018-06-06-nr-genm.pdf",
+   "timestamp": "20200929093442",
+   "wayback_url": "https://web.archive.org/web/20200929093442id_/https://www.genmining.com/site/assets/files/3615/2018-06-06-nr-genm.pdf",
+   "bytes": 584914,
+   "title": "2018-06-06-nr-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3616/2018-06-14_nr_genm_p8a6xqns.pdf",
+   "timestamp": "20200929095448",
+   "wayback_url": "https://web.archive.org/web/20200929095448id_/https://www.genmining.com/site/assets/files/3616/2018-06-14_nr_genm_p8a6xqns.pdf",
+   "bytes": 107010,
+   "title": "2018-06-14_nr_genm_p8a6xqns.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3619/2018-07-19_nr.pdf",
+   "timestamp": "20200929093146",
+   "wayback_url": "https://web.archive.org/web/20200929093146id_/https://www.genmining.com/site/assets/files/3619/2018-07-19_nr.pdf",
+   "bytes": 139979,
+   "title": "2018-07-19_nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3620/2018-07-23_nr.pdf",
+   "timestamp": "20200929110144",
+   "wayback_url": "https://web.archive.org/web/20200929110144id_/https://www.genmining.com/site/assets/files/3620/2018-07-23_nr.pdf",
+   "bytes": 143074,
+   "title": "2018-07-23_nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3621/2018-09-12_nr.pdf",
+   "timestamp": "20200929095703",
+   "wayback_url": "https://web.archive.org/web/20200929095703id_/https://www.genmining.com/site/assets/files/3621/2018-09-12_nr.pdf",
+   "bytes": 999049,
+   "title": "2018-09-12_nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3622/2018-10-01_-_nr_-_clearl_lake_property_-v2_-_final.pdf",
+   "timestamp": "20200929110058",
+   "wayback_url": "https://web.archive.org/web/20200929110058id_/https://www.genmining.com/site/assets/files/3622/2018-10-01_-_nr_-_clearl_lake_property_-v2_-_final.pdf",
+   "bytes": 563476,
+   "title": "2018-10-01_-_nr_-_clearl_lake_property_-v2_-_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3623/nr-oct-16-2018.pdf",
+   "timestamp": "20200929092122",
+   "wayback_url": "https://web.archive.org/web/20200929092122id_/https://www.genmining.com/site/assets/files/3623/nr-oct-16-2018.pdf",
+   "bytes": 993014,
+   "title": "nr-oct-16-2018.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3624/2018-11-21_nr.pdf",
+   "timestamp": "20200929104534",
+   "wayback_url": "https://web.archive.org/web/20200929104534id_/https://www.genmining.com/site/assets/files/3624/2018-11-21_nr.pdf",
+   "bytes": 258440,
+   "title": "2018-11-21_nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3625/2018-11-28_nr.pdf",
+   "timestamp": "20200929095009",
+   "wayback_url": "https://web.archive.org/web/20200929095009id_/https://www.genmining.com/site/assets/files/3625/2018-11-28_nr.pdf",
+   "bytes": 315956,
+   "title": "2018-11-28_nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3628/2019-02-07_nr_genm_2jer3jm8.pdf",
+   "timestamp": "20190922115038",
+   "wayback_url": "https://web.archive.org/web/20190922115038id_/https://genmining.com/site/assets/files/3628/2019-02-07_nr_genm_2jer3jm8.pdf",
+   "bytes": 458544,
+   "title": "2019-02-07_nr_genm_2jer3jm8.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3640/2019-04-04_nr.pdf",
+   "timestamp": "20190922121247",
+   "wayback_url": "https://web.archive.org/web/20190922121247id_/https://genmining.com/site/assets/files/3640/2019-04-04_nr.pdf",
+   "bytes": 86721,
+   "title": "2019-04-04_nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3641/generation_mining_press_release_-_april_17_-_finalrs_0.pdf",
+   "timestamp": "20190922130210",
+   "wayback_url": "https://web.archive.org/web/20190922130210id_/https://genmining.com/site/assets/files/3641/generation_mining_press_release_-_april_17_-_finalrs_0.pdf",
+   "bytes": 92031,
+   "title": "generation_mining_press_release_-_april_17_-_finalrs_0.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3644/generation_mining_limited_technical_report_ni_43-101.pdf",
+   "timestamp": "20200929100130",
+   "wayback_url": "https://web.archive.org/web/20200929100130id_/https://www.genmining.com/site/assets/files/3644/generation_mining_limited_technical_report_ni_43-101.pdf",
+   "bytes": 1014858,
+   "title": "generation_mining_limited_technical_report_ni_43-101.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3647/interim_statements_september_30_2018.pdf",
+   "timestamp": "20190922125146",
+   "wayback_url": "https://web.archive.org/web/20190922125146id_/https://genmining.com/site/assets/files/3647/interim_statements_september_30_2018.pdf",
+   "bytes": 324758,
+   "title": "interim_statements_september_30_2018.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3647/mda_q3_2018_final.pdf",
+   "timestamp": "20191116222314",
+   "wayback_url": "https://web.archive.org/web/20191116222314id_/https://genmining.com/site/assets/files/3647/mda_q3_2018_final.pdf",
+   "bytes": 177192,
+   "title": "mda_q3_2018_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3648/2019-05-06-nr-genmining.pdf",
+   "timestamp": "20190922121527",
+   "wayback_url": "https://web.archive.org/web/20190922121527id_/https://genmining.com/site/assets/files/3648/2019-05-06-nr-genmining.pdf",
+   "bytes": 92625,
+   "title": "2019-05-06-nr-genmining.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3653/2019-06-05-genm-nr.pdf",
+   "timestamp": "20190922115717",
+   "wayback_url": "https://web.archive.org/web/20190922115717id_/https://genmining.com/site/assets/files/3653/2019-06-05-genm-nr.pdf",
+   "bytes": 114272,
+   "title": "2019-06-05-genm-nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3654/generation_mining_press_release.pdf",
+   "timestamp": "20190922124059",
+   "wayback_url": "https://web.archive.org/web/20190922124059id_/https://genmining.com/site/assets/files/3654/generation_mining_press_release.pdf",
+   "bytes": 126547,
+   "title": "generation_mining_press_release.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3655/2019-07-11_nr.pdf",
+   "timestamp": "20190922115847",
+   "wayback_url": "https://web.archive.org/web/20190922115847id_/https://genmining.com/site/assets/files/3655/2019-07-11_nr.pdf",
+   "bytes": 97706,
+   "title": "2019-07-11_nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3657/2019-07-16-genm-nr.pdf",
+   "timestamp": "20190922124646",
+   "wayback_url": "https://web.archive.org/web/20190922124646id_/https://genmining.com/site/assets/files/3657/2019-07-16-genm-nr.pdf",
+   "bytes": 193693,
+   "title": "2019-07-16-genm-nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3658/press_release_-_sally_july_25-_2019.pdf",
+   "timestamp": "20190922114946",
+   "wayback_url": "https://web.archive.org/web/20190922114946id_/https://genmining.com/site/assets/files/3658/press_release_-_sally_july_25-_2019.pdf",
+   "bytes": 995481,
+   "title": "press_release_-_sally_july_25-_2019.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3659/2019-08-07_nr.pdf",
+   "timestamp": "20190922120746",
+   "wayback_url": "https://web.archive.org/web/20190922120746id_/https://genmining.com/site/assets/files/3659/2019-08-07_nr.pdf",
+   "bytes": 95982,
+   "title": "2019-08-07_nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3660/2019-08-19_nr.pdf",
+   "timestamp": "20190922125656",
+   "wayback_url": "https://web.archive.org/web/20190922125656id_/https://genmining.com/site/assets/files/3660/2019-08-19_nr.pdf",
+   "bytes": 453412,
+   "title": "2019-08-19_nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3661/2019-08-21_nr.pdf",
+   "timestamp": "20190922121144",
+   "wayback_url": "https://web.archive.org/web/20190922121144id_/https://genmining.com/site/assets/files/3661/2019-08-21_nr.pdf",
+   "bytes": 678322,
+   "title": "2019-08-21_nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3662/2019-08-27_nr_genm_6yyug8a43a.pdf",
+   "timestamp": "20190922120518",
+   "wayback_url": "https://web.archive.org/web/20190922120518id_/https://genmining.com/site/assets/files/3662/2019-08-27_nr_genm_6yyug8a43a.pdf",
+   "bytes": 129995,
+   "title": "2019-08-27_nr_genm_6yyug8a43a.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3663/2019-08-29_nr_genm.pdf",
+   "timestamp": "20190922124116",
+   "wayback_url": "https://web.archive.org/web/20190922124116id_/https://genmining.com/site/assets/files/3663/2019-08-29_nr_genm.pdf",
+   "bytes": 69696,
+   "title": "2019-08-29_nr_genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3664/2019-09-06-cp-genm.pdf",
+   "timestamp": "20190922124501",
+   "wayback_url": "https://web.archive.org/web/20190922124501id_/https://genmining.com/site/assets/files/3664/2019-09-06-cp-genm.pdf",
+   "bytes": 981349,
+   "title": "2019-09-06-cp-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3664/gen_mining_powerpoint_sept_2019_final.pdf",
+   "timestamp": "20191116223353",
+   "wayback_url": "https://web.archive.org/web/20191116223353id_/https://genmining.com/site/assets/files/3664/gen_mining_powerpoint_sept_2019_final.pdf",
+   "bytes": 853164,
+   "title": "gen_mining_powerpoint_sept_2019_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3665/2019-09-06-genm-nr.pdf",
+   "timestamp": "20190922120839",
+   "wayback_url": "https://web.archive.org/web/20190922120839id_/https://genmining.com/site/assets/files/3665/2019-09-06-genm-nr.pdf",
+   "bytes": 184410,
+   "title": "2019-09-06-genm-nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3666/generation_mining_press_release_sept_9-_2019.pdf",
+   "timestamp": "20190922121026",
+   "wayback_url": "https://web.archive.org/web/20190922121026id_/https://genmining.com/site/assets/files/3666/generation_mining_press_release_sept_9-_2019.pdf",
+   "bytes": 789968,
+   "title": "generation_mining_press_release_sept_9-_2019.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3674/interim_financial_statements_-_march_31_2019_final.pdf",
+   "timestamp": "20191116210503",
+   "wayback_url": "https://web.archive.org/web/20191116210503id_/https://genmining.com/site/assets/files/3674/interim_financial_statements_-_march_31_2019_final.pdf",
+   "bytes": 263187,
+   "title": "interim_financial_statements_-_march_31_2019_final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3674/mda_q12019_final_5_h30_pm.pdf",
+   "timestamp": "20191116205113",
+   "wayback_url": "https://web.archive.org/web/20191116205113id_/https://genmining.com/site/assets/files/3674/mda_q12019_final_5_h30_pm.pdf",
+   "bytes": 172667,
+   "title": "mda_q12019_final_5_h30_pm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3675/2019-06-30_interim_financial_statements.pdf",
+   "timestamp": "20191116223439",
+   "wayback_url": "https://web.archive.org/web/20191116223439id_/https://genmining.com/site/assets/files/3675/2019-06-30_interim_financial_statements.pdf",
+   "bytes": 220338,
+   "title": "2019-06-30_interim_financial_statements.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3675/2019-06-30_md_a.pdf",
+   "timestamp": "20191116210222",
+   "wayback_url": "https://web.archive.org/web/20191116210222id_/https://genmining.com/site/assets/files/3675/2019-06-30_md_a.pdf",
+   "bytes": 284403,
+   "title": "2019-06-30_md_a.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3676/2018_qtr_2_interim_financial_stattements.pdf",
+   "timestamp": "20191116212347",
+   "wayback_url": "https://web.archive.org/web/20191116212347id_/https://genmining.com/site/assets/files/3676/2018_qtr_2_interim_financial_stattements.pdf",
+   "bytes": 232756,
+   "title": "2018_qtr_2_interim_financial_stattements.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3676/2018_qtr_2_md_a.pdf",
+   "timestamp": "20191116211328",
+   "wayback_url": "https://web.archive.org/web/20191116211328id_/https://genmining.com/site/assets/files/3676/2018_qtr_2_md_a.pdf",
+   "bytes": 159876,
+   "title": "2018_qtr_2_md_a.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3677/2018_qtr_1_interim_financial_stattements.pdf",
+   "timestamp": "20191116205030",
+   "wayback_url": "https://web.archive.org/web/20191116205030id_/https://genmining.com/site/assets/files/3677/2018_qtr_1_interim_financial_stattements.pdf",
+   "bytes": 267988,
+   "title": "2018_qtr_1_interim_financial_stattements.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3677/2018_qtr_1_md_a.pdf",
+   "timestamp": "20191116223655",
+   "wayback_url": "https://web.archive.org/web/20191116223655id_/https://genmining.com/site/assets/files/3677/2018_qtr_1_md_a.pdf",
+   "bytes": 369095,
+   "title": "2018_qtr_1_md_a.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3678/2018_generation_mining_fs_final.pdf",
+   "timestamp": "20191116211145",
+   "wayback_url": "https://web.archive.org/web/20191116211145id_/https://genmining.com/site/assets/files/3678/2018_generation_mining_fs_final.pdf",
+   "bytes": 1030390,
+   "title": "2018_generation_mining_fs_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3678/mda_q4_2018_final.pdf",
+   "timestamp": "20191116214149",
+   "wayback_url": "https://web.archive.org/web/20191116214149id_/https://genmining.com/site/assets/files/3678/mda_q4_2018_final.pdf",
+   "bytes": 207906,
+   "title": "mda_q4_2018_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3679/2019-10-08_nr_final_genm.pdf",
+   "timestamp": "20191116205758",
+   "wayback_url": "https://web.archive.org/web/20191116205758id_/https://genmining.com/site/assets/files/3679/2019-10-08_nr_final_genm.pdf",
+   "bytes": 136554,
+   "title": "2019-10-08_nr_final_genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3680/generation_mining_news_release_pea_oct_15_v9.pdf",
+   "timestamp": "20210121044713",
+   "wayback_url": "https://web.archive.org/web/20210121044713id_/https://genmining.com/site/assets/files/3680/generation_mining_news_release_pea_oct_15_v9.pdf",
+   "bytes": 99722,
+   "title": "generation_mining_news_release_pea_oct_15_v9.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3681/2019-10-24_nr_genm.pdf",
+   "timestamp": "20210121035611",
+   "wayback_url": "https://web.archive.org/web/20210121035611id_/https://genmining.com/site/assets/files/3681/2019-10-24_nr_genm.pdf",
+   "bytes": 126708,
+   "title": "2019-10-24_nr_genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3682/gen_mining_powerpoint_zurich.pdf",
+   "timestamp": "20240701101137",
+   "wayback_url": "https://web.archive.org/web/20240701101137id_/https://genmining.com/site/assets/files/3682/gen_mining_powerpoint_zurich.pdf",
+   "bytes": 2154847,
+   "title": "gen_mining_powerpoint_zurich.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3683/2019-11-18_nr_genm.pdf",
+   "timestamp": "20210121042317",
+   "wayback_url": "https://web.archive.org/web/20210121042317id_/https://genmining.com/site/assets/files/3683/2019-11-18_nr_genm.pdf",
+   "bytes": 213855,
+   "title": "2019-11-18_nr_genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3684/generation_news_release_-sally_and_geordie_-_final_irr.pdf",
+   "timestamp": "20210121042506",
+   "wayback_url": "https://web.archive.org/web/20210121042506id_/https://genmining.com/site/assets/files/3684/generation_news_release_-sally_and_geordie_-_final_irr.pdf",
+   "bytes": 130330,
+   "title": "generation_news_release_-sally_and_geordie_-_final_irr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3686/final_genm_news_release_feeder_zone_-_v12.pdf",
+   "timestamp": "20210121054442",
+   "wayback_url": "https://web.archive.org/web/20210121054442id_/https://genmining.com/site/assets/files/3686/final_genm_news_release_feeder_zone_-_v12.pdf",
+   "bytes": 115319,
+   "title": "final_genm_news_release_feeder_zone_-_v12.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3687/interim_financial_statements_-_september_30_2019_final.pdf",
+   "timestamp": "20200929112744",
+   "wayback_url": "https://web.archive.org/web/20200929112744id_/https://www.genmining.com/site/assets/files/3687/interim_financial_statements_-_september_30_2019_final.pdf",
+   "bytes": 241293,
+   "title": "interim_financial_statements_-_september_30_2019_final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3687/mda_q3_2019_final.pdf",
+   "timestamp": "20200929102933",
+   "wayback_url": "https://web.archive.org/web/20200929102933id_/https://www.genmining.com/site/assets/files/3687/mda_q3_2019_final.pdf",
+   "bytes": 169202,
+   "title": "mda_q3_2019_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3690/final_sally_december_news_release_final_dec_17.pdf",
+   "timestamp": "20201025084637",
+   "wayback_url": "https://web.archive.org/web/20201025084637id_/https://www.genmining.com/site/assets/files/3690/final_sally_december_news_release_final_dec_17.pdf",
+   "bytes": 209545,
+   "title": "final_sally_december_news_release_final_dec_17.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3691/gen-cp-2020-01-16.pdf",
+   "timestamp": "20240701121954",
+   "wayback_url": "https://web.archive.org/web/20240701121954id_/https://genmining.com/site/assets/files/3691/gen-cp-2020-01-16.pdf",
+   "bytes": 1630235,
+   "title": "gen-cp-2020-01-16.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3696/gen_mining_pea_press_release_version_25_final.pdf",
+   "timestamp": "20210927071717",
+   "wayback_url": "https://web.archive.org/web/20210927071717id_/https://www.genmining.com/site/assets/files/3696/gen_mining_pea_press_release_version_25_final.pdf",
+   "bytes": 146468,
+   "title": "gen_mining_pea_press_release_version_25_final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3697/genm_-_bought_deal_announcement_units_jan_22-_2020.pdf",
+   "timestamp": "20210927072000",
+   "wayback_url": "https://web.archive.org/web/20210927072000id_/https://www.genmining.com/site/assets/files/3697/genm_-_bought_deal_announcement_units_jan_22-_2020.pdf",
+   "bytes": 162351,
+   "title": "genm_-_bought_deal_announcement_units_jan_22-_2020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3698/2020-01-10-genm-nr.pdf",
+   "timestamp": "20210927075831",
+   "wayback_url": "https://web.archive.org/web/20210927075831id_/https://www.genmining.com/site/assets/files/3698/2020-01-10-genm-nr.pdf",
+   "bytes": 106093,
+   "title": "2020-01-10-genm-nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3700/gen_mining_press_release_v9_-_il_edits.pdf",
+   "timestamp": "20210927062535",
+   "wayback_url": "https://web.archive.org/web/20210927062535id_/https://www.genmining.com/site/assets/files/3700/gen_mining_press_release_v9_-_il_edits.pdf",
+   "bytes": 674696,
+   "title": "gen_mining_press_release_v9_-_il_edits.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3703/2020-01-22-genm-nr2.pdf",
+   "timestamp": "20210927063909",
+   "wayback_url": "https://web.archive.org/web/20210927063909id_/https://www.genmining.com/site/assets/files/3703/2020-01-22-genm-nr2.pdf",
+   "bytes": 176781,
+   "title": "2020-01-22-genm-nr2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3705/genm_-_bought_deal_closing_-_with_non-brokered_feb_13.pdf",
+   "timestamp": "20210927061455",
+   "wayback_url": "https://web.archive.org/web/20210927061455id_/https://www.genmining.com/site/assets/files/3705/genm_-_bought_deal_closing_-_with_non-brokered_feb_13.pdf",
+   "bytes": 403519,
+   "title": "genm_-_bought_deal_closing_-_with_non-brokered_feb_13.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3706/gen_mining_-_filing_of_pea_-_final_withpd.pdf",
+   "timestamp": "20210927071110",
+   "wayback_url": "https://web.archive.org/web/20210927071110id_/https://www.genmining.com/site/assets/files/3706/gen_mining_-_filing_of_pea_-_final_withpd.pdf",
+   "bytes": 121590,
+   "title": "gen_mining_-_filing_of_pea_-_final_withpd.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3707/gemn-nr-feb25-2020_with_reformatted_table.pdf",
+   "timestamp": "20210927065117",
+   "wayback_url": "https://web.archive.org/web/20210927065117id_/https://www.genmining.com/site/assets/files/3707/gemn-nr-feb25-2020_with_reformatted_table.pdf",
+   "bytes": 804831,
+   "title": "gemn-nr-feb25-2020_with_reformatted_table.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3715/gemn-nr-march_18_-2020_irrocapproved.pdf",
+   "timestamp": "20210927082610",
+   "wayback_url": "https://web.archive.org/web/20210927082610id_/https://www.genmining.com/site/assets/files/3715/gemn-nr-march_18_-2020_irrocapproved.pdf",
+   "bytes": 119429,
+   "title": "gemn-nr-march_18_-2020_irrocapproved.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3717/gen_mining_final_mar_26.pdf",
+   "timestamp": "20200414175642",
+   "wayback_url": "https://web.archive.org/web/20200414175642id_/https://www.genmining.com/site/assets/files/3717/gen_mining_final_mar_26.pdf",
+   "bytes": 1702611,
+   "title": "gen_mining_final_mar_26.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3720/gen_mining_press_release_apri_2020_approved_final.pdf",
+   "timestamp": "20210117213723",
+   "wayback_url": "https://web.archive.org/web/20210117213723id_/https://genmining.com/site/assets/files/3720/gen_mining_press_release_apri_2020_approved_final.pdf",
+   "bytes": 100705,
+   "title": "gen_mining_press_release_apri_2020_approved_final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3721/gen_mining_press_release_april_20-2020.pdf",
+   "timestamp": "20210117205959",
+   "wayback_url": "https://web.archive.org/web/20210117205959id_/https://genmining.com/site/assets/files/3721/gen_mining_press_release_april_20-2020.pdf",
+   "bytes": 593167,
+   "title": "gen_mining_press_release_april_20-2020.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3723/gen_mining_press_release_april_2020_webinar_v5_final.pdf",
+   "timestamp": "20210127110323",
+   "wayback_url": "https://web.archive.org/web/20210127110323id_/https://genmining.com/site/assets/files/3723/gen_mining_press_release_april_2020_webinar_v5_final.pdf",
+   "bytes": 131066,
+   "title": "gen_mining_press_release_april_2020_webinar_v5_final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3726/2019_generation_mining_limited_fs_final.pdf",
+   "timestamp": "20200929114721",
+   "wayback_url": "https://web.archive.org/web/20200929114721id_/https://www.genmining.com/site/assets/files/3726/2019_generation_mining_limited_fs_final.pdf",
+   "bytes": 1039010,
+   "title": "2019_generation_mining_limited_fs_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3726/mda_2019_ye_final.pdf",
+   "timestamp": "20200929111145",
+   "wayback_url": "https://web.archive.org/web/20200929111145id_/https://www.genmining.com/site/assets/files/3726/mda_2019_ye_final.pdf",
+   "bytes": 294121,
+   "title": "mda_2019_ye_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3728/interim_financial_statements_-_march_31_2020_final.pdf",
+   "timestamp": "20200929100545",
+   "wayback_url": "https://web.archive.org/web/20200929100545id_/https://www.genmining.com/site/assets/files/3728/interim_financial_statements_-_march_31_2020_final.pdf",
+   "bytes": 222586,
+   "title": "interim_financial_statements_-_march_31_2020_final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3728/mda_-_q1_march_31_2020_v11_final.pdf",
+   "timestamp": "20200929103320",
+   "wayback_url": "https://web.archive.org/web/20200929103320id_/https://www.genmining.com/site/assets/files/3728/mda_-_q1_march_31_2020_v11_final.pdf",
+   "bytes": 299004,
+   "title": "mda_-_q1_march_31_2020_v11_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3729/gen_mining_press_release_trade_off_studies_v7_-final.pdf",
+   "timestamp": "20210117222630",
+   "wayback_url": "https://web.archive.org/web/20210117222630id_/https://genmining.com/site/assets/files/3729/gen_mining_press_release_trade_off_studies_v7_-final.pdf",
+   "bytes": 605523,
+   "title": "gen_mining_press_release_trade_off_studies_v7_-final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3730/gen_mining_press_release_otc_listing_v4.pdf",
+   "timestamp": "20201202130252",
+   "wayback_url": "https://web.archive.org/web/20201202130252id_/https://genmining.com/site/assets/files/3730/gen_mining_press_release_otc_listing_v4.pdf",
+   "bytes": 591723,
+   "title": "gen_mining_press_release_otc_listing_v4.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3731/genm-nr-jun11-2020.pdf",
+   "timestamp": "20210117220155",
+   "wayback_url": "https://web.archive.org/web/20210117220155id_/https://genmining.com/site/assets/files/3731/genm-nr-jun11-2020.pdf",
+   "bytes": 599551,
+   "title": "genm-nr-jun11-2020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3732/gemn-nr-jun17-2020.pdf",
+   "timestamp": "20210117213826",
+   "wayback_url": "https://web.archive.org/web/20210117213826id_/https://genmining.com/site/assets/files/3732/gemn-nr-jun17-2020.pdf",
+   "bytes": 555991,
+   "title": "gemn-nr-jun17-2020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3733/2020-06-19-nr-genm.pdf",
+   "timestamp": "20210117213622",
+   "wayback_url": "https://web.archive.org/web/20210117213622id_/https://genmining.com/site/assets/files/3733/2020-06-19-nr-genm.pdf",
+   "bytes": 169765,
+   "title": "2020-06-19-nr-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3734/2020-07-07-genm-nr.pdf",
+   "timestamp": "20201202113958",
+   "wayback_url": "https://web.archive.org/web/20201202113958id_/https://genmining.com/site/assets/files/3734/2020-07-07-genm-nr.pdf",
+   "bytes": 217818,
+   "title": "2020-07-07-genm-nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3735/2020-07-14-genm-nr.pdf",
+   "timestamp": "20210117214546",
+   "wayback_url": "https://web.archive.org/web/20210117214546id_/https://genmining.com/site/assets/files/3735/2020-07-14-genm-nr.pdf",
+   "bytes": 193198,
+   "title": "2020-07-14-genm-nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3737/genm_-_press_release_feas_irroc_approved.pdf",
+   "timestamp": "20201004051639",
+   "wayback_url": "https://web.archive.org/web/20201004051639id_/https://www.genmining.com/site/assets/files/3737/genm_-_press_release_feas_irroc_approved.pdf",
+   "bytes": 602347,
+   "title": "genm_-_press_release_feas_irroc_approved.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3746/2020-07-gen-qa.pdf",
+   "timestamp": "20210127063125",
+   "wayback_url": "https://web.archive.org/web/20210127063125id_/https://genmining.com/site/assets/files/3746/2020-07-gen-qa.pdf",
+   "bytes": 295599,
+   "title": "2020-07-gen-qa.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3749/2020_acoustic_baseline_report.pdf",
+   "timestamp": "20220202165146",
+   "wayback_url": "https://web.archive.org/web/20220202165146id_/https://genmining.com/site/assets/files/3749/2020_acoustic_baseline_report.pdf",
+   "bytes": 4977696,
+   "title": "2020_acoustic_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3749/2020_aquatic_baseline_report.pdf",
+   "timestamp": "20220202165159",
+   "wayback_url": "https://web.archive.org/web/20220202165159id_/https://genmining.com/site/assets/files/3749/2020_aquatic_baseline_report.pdf",
+   "bytes": 4377023,
+   "title": "2020_aquatic_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3749/2020_atmospheric_baseline_report.pdf",
+   "timestamp": "20220202165145",
+   "wayback_url": "https://web.archive.org/web/20220202165145id_/https://genmining.com/site/assets/files/3749/2020_atmospheric_baseline_report.pdf",
+   "bytes": 5219159,
+   "title": "2020_atmospheric_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3749/2020_cultural_heritage_baseline_report.pdf",
+   "timestamp": "20220202165114",
+   "wayback_url": "https://web.archive.org/web/20220202165114id_/https://genmining.com/site/assets/files/3749/2020_cultural_heritage_baseline_report.pdf",
+   "bytes": 4252783,
+   "title": "2020_cultural_heritage_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3749/2020_geology_baseline_report.pdf",
+   "timestamp": "20220204004928",
+   "wayback_url": "https://web.archive.org/web/20220204004928id_/https://genmining.com/site/assets/files/3749/2020_geology_baseline_report.pdf",
+   "bytes": 323621,
+   "title": "2020_geology_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3749/2020_hydrology_baseline_report.pdf",
+   "timestamp": "20220202165200",
+   "wayback_url": "https://web.archive.org/web/20220202165200id_/https://genmining.com/site/assets/files/3749/2020_hydrology_baseline_report.pdf",
+   "bytes": 6015753,
+   "title": "2020_hydrology_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3749/2020_socioeconomic_baseline_report.pdf",
+   "timestamp": "20220202165147",
+   "wayback_url": "https://web.archive.org/web/20220202165147id_/https://genmining.com/site/assets/files/3749/2020_socioeconomic_baseline_report.pdf",
+   "bytes": 6446864,
+   "title": "2020_socioeconomic_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3749/2020_soils_baseline_report.pdf",
+   "timestamp": "20220202165112",
+   "wayback_url": "https://web.archive.org/web/20220202165112id_/https://genmining.com/site/assets/files/3749/2020_soils_baseline_report.pdf",
+   "bytes": 953233,
+   "title": "2020_soils_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3749/2020_terrestrial_baseline_report.pdf",
+   "timestamp": "20220202165155",
+   "wayback_url": "https://web.archive.org/web/20220202165155id_/https://genmining.com/site/assets/files/3749/2020_terrestrial_baseline_report.pdf",
+   "bytes": 10271377,
+   "title": "2020_terrestrial_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3749/2020_transportation_baseline_report.pdf",
+   "timestamp": "20220202165144",
+   "wayback_url": "https://web.archive.org/web/20220202165144id_/https://genmining.com/site/assets/files/3749/2020_transportation_baseline_report.pdf",
+   "bytes": 3415525,
+   "title": "2020_transportation_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3749/2020_water_quality_baseline_report.pdf",
+   "timestamp": "20220202165145",
+   "wayback_url": "https://web.archive.org/web/20220202165145id_/https://genmining.com/site/assets/files/3749/2020_water_quality_baseline_report.pdf",
+   "bytes": 2590837,
+   "title": "2020_water_quality_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3749/generation-mining-feasibility-study-march-2021.pdf",
+   "timestamp": "20210923180103",
+   "wayback_url": "https://web.archive.org/web/20210923180103id_/https://genmining.com/site/assets/files/3749/generation-mining-feasibility-study-march-2021.pdf",
+   "bytes": 970859,
+   "title": "generation-mining-feasibility-study-march-2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3749/marathon-pea-tech-report-amended-july-6-2020-final.pdf",
+   "timestamp": "20210127074823",
+   "wayback_url": "https://web.archive.org/web/20210127074823id_/https://genmining.com/site/assets/files/3749/marathon-pea-tech-report-amended-july-6-2020-final.pdf",
+   "bytes": 1017216,
+   "title": "marathon-pea-tech-report-amended-july-6-2020-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3756/2020-08-06-nr-genm.pdf",
+   "timestamp": "20210117211435",
+   "wayback_url": "https://web.archive.org/web/20210117211435id_/https://genmining.com/site/assets/files/3756/2020-08-06-nr-genm.pdf",
+   "bytes": 1024260,
+   "title": "2020-08-06-nr-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3758/2020-q2-fs-genm.pdf",
+   "timestamp": "20210127061220",
+   "wayback_url": "https://web.archive.org/web/20210127061220id_/https://genmining.com/site/assets/files/3758/2020-q2-fs-genm.pdf",
+   "bytes": 224439,
+   "title": "2020-q2-fs-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3758/2020-q2-mda-genm.pdf",
+   "timestamp": "20210127080541",
+   "wayback_url": "https://web.archive.org/web/20210127080541id_/https://genmining.com/site/assets/files/3758/2020-q2-mda-genm.pdf",
+   "bytes": 302141,
+   "title": "2020-q2-mda-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3760/gen_mining_press_release_bench_test_vfinal3.pdf",
+   "timestamp": "20210117221619",
+   "wayback_url": "https://web.archive.org/web/20210117221619id_/https://genmining.com/site/assets/files/3760/gen_mining_press_release_bench_test_vfinal3.pdf",
+   "bytes": 693868,
+   "title": "gen_mining_press_release_bench_test_vfinal3.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3761/final_genm_august_exploration_aug_2020.pdf",
+   "timestamp": "20210117222254",
+   "wayback_url": "https://web.archive.org/web/20210117222254id_/https://genmining.com/site/assets/files/3761/final_genm_august_exploration_aug_2020.pdf",
+   "bytes": 960414,
+   "title": "final_genm_august_exploration_aug_2020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3762/generation_mining_pp_sept_10_2020.pdf",
+   "timestamp": "20200918132415",
+   "wayback_url": "https://web.archive.org/web/20200918132415id_/https://genmining.com/site/assets/files/3762/generation_mining_pp_sept_10_2020.pdf",
+   "bytes": 953501,
+   "title": "generation_mining_pp_sept_10_2020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3763/generation_mining_dec_7_2020.pdf",
+   "timestamp": "20250830193207",
+   "wayback_url": "https://web.archive.org/web/20250830193207id_/https://genmining.com/site/assets/files/3763/generation_mining_dec_7_2020.pdf",
+   "bytes": 3002310,
+   "title": "generation_mining_dec_7_2020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3763/generation_mining_oct_9.pdf",
+   "timestamp": "20201023053950",
+   "wayback_url": "https://web.archive.org/web/20201023053950id_/https://genmining.com/site/assets/files/3763/generation_mining_oct_9.pdf",
+   "bytes": 968528,
+   "title": "generation_mining_oct_9.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3765/genm_pr_phase2_met_testing_oct_22_final.pdf",
+   "timestamp": "20210117210528",
+   "wayback_url": "https://web.archive.org/web/20210117210528id_/https://genmining.com/site/assets/files/3765/genm_pr_phase2_met_testing_oct_22_final.pdf",
+   "bytes": 341662,
+   "title": "genm_pr_phase2_met_testing_oct_22_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3765/marathon_palladium_project_simplified_flowsheet.pdf",
+   "timestamp": "20210127072027",
+   "wayback_url": "https://web.archive.org/web/20210127072027id_/https://genmining.com/site/assets/files/3765/marathon_palladium_project_simplified_flowsheet.pdf",
+   "bytes": 291318,
+   "title": "marathon_palladium_project_simplified_flowsheet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3765/marathon_pgm_flotation_circuit_revd.pdf",
+   "timestamp": "20210127070358",
+   "wayback_url": "https://web.archive.org/web/20210127070358id_/https://genmining.com/site/assets/files/3765/marathon_pgm_flotation_circuit_revd.pdf",
+   "bytes": 1026688,
+   "title": "marathon_pgm_flotation_circuit_revd.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3766/gemn-nr-fall_2020_drilling_oct_292002_final_005.pdf",
+   "timestamp": "20210117225754",
+   "wayback_url": "https://web.archive.org/web/20210117225754id_/https://genmining.com/site/assets/files/3766/gemn-nr-fall_2020_drilling_oct_292002_final_005.pdf",
+   "bytes": 793211,
+   "title": "gemn-nr-fall_2020_drilling_oct_292002_final_005.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3767/2020_marathon_palladium_project_update_final_website.pdf",
+   "timestamp": "20201202123603",
+   "wayback_url": "https://web.archive.org/web/20201202123603id_/https://genmining.com/site/assets/files/3767/2020_marathon_palladium_project_update_final_website.pdf",
+   "bytes": 1002261,
+   "title": "2020_marathon_palladium_project_update_final_website.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3769/2020_nov_7_ad_news_brief_1_final.pdf",
+   "timestamp": "20211020121619",
+   "wayback_url": "https://web.archive.org/web/20211020121619id_/https://www.genmining.com/site/assets/files/3769/2020_nov_7_ad_news_brief_1_final.pdf",
+   "bytes": 1044822,
+   "title": "2020_nov_7_ad_news_brief_1_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3770/2021-01-12_marathon_palladium_project_overview.pdf",
+   "timestamp": "20211020131745",
+   "wayback_url": "https://web.archive.org/web/20211020131745id_/https://www.genmining.com/site/assets/files/3770/2021-01-12_marathon_palladium_project_overview.pdf",
+   "bytes": 1045405,
+   "title": "2021-01-12_marathon_palladium_project_overview.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3771/2020-q3-fs-genm.pdf",
+   "timestamp": "20210127074918",
+   "wayback_url": "https://web.archive.org/web/20210127074918id_/https://genmining.com/site/assets/files/3771/2020-q3-fs-genm.pdf",
+   "bytes": 233472,
+   "title": "2020-q3-fs-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3771/2020-q3-mda-genm.pdf",
+   "timestamp": "20210127071219",
+   "wayback_url": "https://web.archive.org/web/20210127071219id_/https://genmining.com/site/assets/files/3771/2020-q3-mda-genm.pdf",
+   "bytes": 325377,
+   "title": "2020-q3-mda-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3772/gen_mining_press_release_joint_review_panel_-_nov_17_-.pdf",
+   "timestamp": "20210117223338",
+   "wayback_url": "https://web.archive.org/web/20210117223338id_/https://genmining.com/site/assets/files/3772/gen_mining_press_release_joint_review_panel_-_nov_17_-.pdf",
+   "bytes": 135167,
+   "title": "gen_mining_press_release_joint_review_panel_-_nov_17_-.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3773/gen_mining_press_release_80_interest_-nov_30_-_irroc.pdf",
+   "timestamp": "20210117230115",
+   "wayback_url": "https://web.archive.org/web/20210117230115id_/https://genmining.com/site/assets/files/3773/gen_mining_press_release_80_interest_-nov_30_-_irroc.pdf",
+   "bytes": 137784,
+   "title": "gen_mining_press_release_80_interest_-nov_30_-_irroc.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3774/gen_mining_press_release_phil_walford_final_-_dec_202.pdf",
+   "timestamp": "20210117224659",
+   "wayback_url": "https://web.archive.org/web/20210117224659id_/https://genmining.com/site/assets/files/3774/gen_mining_press_release_phil_walford_final_-_dec_202.pdf",
+   "bytes": 138213,
+   "title": "gen_mining_press_release_phil_walford_final_-_dec_202.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/2020_hydrogeology_baseline_report.pdf",
+   "timestamp": "20220202165137",
+   "wayback_url": "https://web.archive.org/web/20220202165137id_/https://genmining.com/site/assets/files/3775/2020_hydrogeology_baseline_report.pdf",
+   "bytes": 14647606,
+   "title": "2020_hydrogeology_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/2021-01-08_chapter_1_introduction.pdf",
+   "timestamp": "20220202170403",
+   "wayback_url": "https://web.archive.org/web/20220202170403id_/https://genmining.com/site/assets/files/3775/2021-01-08_chapter_1_introduction.pdf",
+   "bytes": 13021442,
+   "title": "2021-01-08_chapter_1_introduction.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/2021-01-08_chapter_2_project_scoping.pdf",
+   "timestamp": "20220202165142",
+   "wayback_url": "https://web.archive.org/web/20220202165142id_/https://genmining.com/site/assets/files/3775/2021-01-08_chapter_2_project_scoping.pdf",
+   "bytes": 4694017,
+   "title": "2021-01-08_chapter_2_project_scoping.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/2021-01-08_chapter_3_project_alternatives.pdf",
+   "timestamp": "20220202165126",
+   "wayback_url": "https://web.archive.org/web/20220202165126id_/https://genmining.com/site/assets/files/3775/2021-01-08_chapter_3_project_alternatives.pdf",
+   "bytes": 14501687,
+   "title": "2021-01-08_chapter_3_project_alternatives.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/2021-01-08_chapter_4_environmental_setting.pdf",
+   "timestamp": "20220202165114",
+   "wayback_url": "https://web.archive.org/web/20220202165114id_/https://genmining.com/site/assets/files/3775/2021-01-08_chapter_4_environmental_setting.pdf",
+   "bytes": 14695986,
+   "title": "2021-01-08_chapter_4_environmental_setting.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/2021-01-08_table_of_contents.pdf",
+   "timestamp": "20220202165113",
+   "wayback_url": "https://web.archive.org/web/20220202165113id_/https://genmining.com/site/assets/files/3775/2021-01-08_table_of_contents.pdf",
+   "bytes": 784210,
+   "title": "2021-01-08_table_of_contents.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/Appendix%20C%20Record%20of%20Consultation.pdf",
+   "timestamp": "20220202165121",
+   "wayback_url": "https://web.archive.org/web/20220202165121id_/https://genmining.com/site/assets/files/3775/Appendix%20C%20Record%20of%20Consultation.pdf",
+   "bytes": 456577013,
+   "title": "Appendix C Record of Consultation.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/appendix_a_table_of_concordance.pdf",
+   "timestamp": "20220202165150",
+   "wayback_url": "https://web.archive.org/web/20220202165150id_/https://genmining.com/site/assets/files/3775/appendix_a_table_of_concordance.pdf",
+   "bytes": 903223,
+   "title": "appendix_a_table_of_concordance.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/appendix_b_eis_guidelines_and_tor.pdf",
+   "timestamp": "20220202165134",
+   "wayback_url": "https://web.archive.org/web/20220202165134id_/https://genmining.com/site/assets/files/3775/appendix_b_eis_guidelines_and_tor.pdf",
+   "bytes": 2793648,
+   "title": "appendix_b_eis_guidelines_and_tor.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/appendix_d01_atmospheric_effectsassesment.pdf",
+   "timestamp": "20220202165143",
+   "wayback_url": "https://web.archive.org/web/20220202165143id_/https://genmining.com/site/assets/files/3775/appendix_d01_atmospheric_effectsassesment.pdf",
+   "bytes": 37957085,
+   "title": "appendix_d01_atmospheric_effectsassesment.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/appendix_d02_acoustic_effectsassesment.pdf",
+   "timestamp": "20220202165142",
+   "wayback_url": "https://web.archive.org/web/20220202165142id_/https://genmining.com/site/assets/files/3775/appendix_d02_acoustic_effectsassesment.pdf",
+   "bytes": 25463266,
+   "title": "appendix_d02_acoustic_effectsassesment.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/appendix_d03_hydrology_effectsassesment.pdf",
+   "timestamp": "20220202165148",
+   "wayback_url": "https://web.archive.org/web/20220202165148id_/https://genmining.com/site/assets/files/3775/appendix_d03_hydrology_effectsassesment.pdf",
+   "bytes": 11581276,
+   "title": "appendix_d03_hydrology_effectsassesment.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/appendix_d04_hydrogeology_effectsassessment.pdf",
+   "timestamp": "20220202165136",
+   "wayback_url": "https://web.archive.org/web/20220202165136id_/https://genmining.com/site/assets/files/3775/appendix_d04_hydrogeology_effectsassessment.pdf",
+   "bytes": 7577161,
+   "title": "appendix_d04_hydrogeology_effectsassessment.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/appendix_d05_site_water_balance_summary.pdf",
+   "timestamp": "20220202165127",
+   "wayback_url": "https://web.archive.org/web/20220202165127id_/https://genmining.com/site/assets/files/3775/appendix_d05_site_water_balance_summary.pdf",
+   "bytes": 15017221,
+   "title": "appendix_d05_site_water_balance_summary.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/appendix_d06_fish_habitat_offset_strategy.pdf",
+   "timestamp": "20220203084633",
+   "wayback_url": "https://web.archive.org/web/20220203084633id_/https://genmining.com/site/assets/files/3775/appendix_d06_fish_habitat_offset_strategy.pdf",
+   "bytes": 3969864,
+   "title": "appendix_d06_fish_habitat_offset_strategy.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/appendix_d07_navigable_waters.pdf",
+   "timestamp": "20220202165148",
+   "wayback_url": "https://web.archive.org/web/20220202165148id_/https://genmining.com/site/assets/files/3775/appendix_d07_navigable_waters.pdf",
+   "bytes": 3852795,
+   "title": "appendix_d07_navigable_waters.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/appendix_d08_wildlife.pdf",
+   "timestamp": "20220202165121",
+   "wayback_url": "https://web.archive.org/web/20220202165121id_/https://genmining.com/site/assets/files/3775/appendix_d08_wildlife.pdf",
+   "bytes": 78568128,
+   "title": "appendix_d08_wildlife.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/appendix_d09_species_at_risk.pdf",
+   "timestamp": "20220202165153",
+   "wayback_url": "https://web.archive.org/web/20220202165153id_/https://genmining.com/site/assets/files/3775/appendix_d09_species_at_risk.pdf",
+   "bytes": 14471984,
+   "title": "appendix_d09_species_at_risk.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/appendix_d10_human_health_risk_assessment.pdf",
+   "timestamp": "20220202165156",
+   "wayback_url": "https://web.archive.org/web/20220202165156id_/https://genmining.com/site/assets/files/3775/appendix_d10_human_health_risk_assessment.pdf",
+   "bytes": 3614664,
+   "title": "appendix_d10_human_health_risk_assessment.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/appendix_d11_surface_water_quality_effectsassessment.pdf",
+   "timestamp": "20220202165156",
+   "wayback_url": "https://web.archive.org/web/20220202165156id_/https://genmining.com/site/assets/files/3775/appendix_d11_surface_water_quality_effectsassessment.pdf",
+   "bytes": 8414408,
+   "title": "appendix_d11_surface_water_quality_effectsassessment.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/appendix_d12_best-available-technologies-assessment.pdf",
+   "timestamp": "20220202165145",
+   "wayback_url": "https://web.archive.org/web/20220202165145id_/https://genmining.com/site/assets/files/3775/appendix_d12_best-available-technologies-assessment.pdf",
+   "bytes": 3199482,
+   "title": "appendix_d12_best-available-technologies-assessment.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_5_consultation_and_engagement.pdf",
+   "timestamp": "20220202165159",
+   "wayback_url": "https://web.archive.org/web/20220202165159id_/https://genmining.com/site/assets/files/3775/chapter_5_consultation_and_engagement.pdf",
+   "bytes": 4966276,
+   "title": "chapter_5_consultation_and_engagement.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_6_1_assessment_framework.pdf",
+   "timestamp": "20220202165132",
+   "wayback_url": "https://web.archive.org/web/20220202165132id_/https://genmining.com/site/assets/files/3775/chapter_6_1_assessment_framework.pdf",
+   "bytes": 1248890,
+   "title": "chapter_6_1_assessment_framework.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_6_2_10_human-health.pdf",
+   "timestamp": "20220202165137",
+   "wayback_url": "https://web.archive.org/web/20220202165137id_/https://genmining.com/site/assets/files/3775/chapter_6_2_10_human-health.pdf",
+   "bytes": 3290681,
+   "title": "chapter_6_2_10_human-health.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_6_2_11_cultural-heritage.pdf",
+   "timestamp": "20220202165133",
+   "wayback_url": "https://web.archive.org/web/20220202165133id_/https://genmining.com/site/assets/files/3775/chapter_6_2_11_cultural-heritage.pdf",
+   "bytes": 1855796,
+   "title": "chapter_6_2_11_cultural-heritage.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_6_2_12_indigenous.pdf",
+   "timestamp": "20220202165127",
+   "wayback_url": "https://web.archive.org/web/20220202165127id_/https://genmining.com/site/assets/files/3775/chapter_6_2_12_indigenous.pdf",
+   "bytes": 11224592,
+   "title": "chapter_6_2_12_indigenous.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_6_2_1_atmospheric.pdf",
+   "timestamp": "20220202165146",
+   "wayback_url": "https://web.archive.org/web/20220202165146id_/https://genmining.com/site/assets/files/3775/chapter_6_2_1_atmospheric.pdf",
+   "bytes": 6507790,
+   "title": "chapter_6_2_1_atmospheric.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_6_2_3_water_quality-quantity.pdf",
+   "timestamp": "20220202165141",
+   "wayback_url": "https://web.archive.org/web/20220202165141id_/https://genmining.com/site/assets/files/3775/chapter_6_2_3_water_quality-quantity.pdf",
+   "bytes": 4339222,
+   "title": "chapter_6_2_3_water_quality-quantity.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_6_2_4_fish_and_fish_habitat.pdf",
+   "timestamp": "20220202165115",
+   "wayback_url": "https://web.archive.org/web/20220202165115id_/https://genmining.com/site/assets/files/3775/chapter_6_2_4_fish_and_fish_habitat.pdf",
+   "bytes": 5335512,
+   "title": "chapter_6_2_4_fish_and_fish_habitat.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_6_2_5_soils.pdf",
+   "timestamp": "20220203031427",
+   "wayback_url": "https://web.archive.org/web/20220203031427id_/https://genmining.com/site/assets/files/3775/chapter_6_2_5_soils.pdf",
+   "bytes": 1751798,
+   "title": "chapter_6_2_5_soils.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_6_2_6_vegetation.pdf",
+   "timestamp": "20220202165141",
+   "wayback_url": "https://web.archive.org/web/20220202165141id_/https://genmining.com/site/assets/files/3775/chapter_6_2_6_vegetation.pdf",
+   "bytes": 3932883,
+   "title": "chapter_6_2_6_vegetation.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_6_2_7_wildlife.pdf",
+   "timestamp": "20220202165145",
+   "wayback_url": "https://web.archive.org/web/20220202165145id_/https://genmining.com/site/assets/files/3775/chapter_6_2_7_wildlife.pdf",
+   "bytes": 3544087,
+   "title": "chapter_6_2_7_wildlife.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_6_2_8_species_at_risk.pdf",
+   "timestamp": "20220202165139",
+   "wayback_url": "https://web.archive.org/web/20220202165139id_/https://genmining.com/site/assets/files/3775/chapter_6_2_8_species_at_risk.pdf",
+   "bytes": 4910461,
+   "title": "chapter_6_2_8_species_at_risk.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_6_2_9_socio-economics.pdf",
+   "timestamp": "20220202165145",
+   "wayback_url": "https://web.archive.org/web/20220202165145id_/https://genmining.com/site/assets/files/3775/chapter_6_2_9_socio-economics.pdf",
+   "bytes": 2394021,
+   "title": "chapter_6_2_9_socio-economics.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_6_3_to_6_7_assessment.pdf",
+   "timestamp": "20220202165109",
+   "wayback_url": "https://web.archive.org/web/20220202165109id_/https://genmining.com/site/assets/files/3775/chapter_6_3_to_6_7_assessment.pdf",
+   "bytes": 3302591,
+   "title": "chapter_6_3_to_6_7_assessment.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_7_environmental_management.pdf",
+   "timestamp": "20220202165124",
+   "wayback_url": "https://web.archive.org/web/20220202165124id_/https://genmining.com/site/assets/files/3775/chapter_7_environmental_management.pdf",
+   "bytes": 1374761,
+   "title": "chapter_7_environmental_management.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_8_commitments.pdf",
+   "timestamp": "20220202165208",
+   "wayback_url": "https://web.archive.org/web/20220202165208id_/https://genmining.com/site/assets/files/3775/chapter_8_commitments.pdf",
+   "bytes": 804599,
+   "title": "chapter_8_commitments.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/chapter_9_summary_and_conclusions.pdf",
+   "timestamp": "20220202165127",
+   "wayback_url": "https://web.archive.org/web/20220202165127id_/https://genmining.com/site/assets/files/3775/chapter_9_summary_and_conclusions.pdf",
+   "bytes": 1105628,
+   "title": "chapter_9_summary_and_conclusions.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/generation-mining-feasibility-study-march-2021.pdf",
+   "timestamp": "20220202165127",
+   "wayback_url": "https://web.archive.org/web/20220202165127id_/https://genmining.com/site/assets/files/3775/generation-mining-feasibility-study-march-2021.pdf",
+   "bytes": 37133883,
+   "title": "generation-mining-feasibility-study-march-2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3775/volume_2_table_of_contents.pdf",
+   "timestamp": "20220202165130",
+   "wayback_url": "https://web.archive.org/web/20220202165130id_/https://genmining.com/site/assets/files/3775/volume_2_table_of_contents.pdf",
+   "bytes": 1416831,
+   "title": "volume_2_table_of_contents.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3776/gemn-nr-dec16-2020.pdf",
+   "timestamp": "20210117211227",
+   "wayback_url": "https://web.archive.org/web/20210117211227id_/https://genmining.com/site/assets/files/3776/gemn-nr-dec16-2020.pdf",
+   "bytes": 978974,
+   "title": "gemn-nr-dec16-2020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3777/gen_mining_press_release_accounes_flow_through_finalv2.pdf",
+   "timestamp": "20210117213920",
+   "wayback_url": "https://web.archive.org/web/20210117213920id_/https://genmining.com/site/assets/files/3777/gen_mining_press_release_accounes_flow_through_finalv2.pdf",
+   "bytes": 140896,
+   "title": "gen_mining_press_release_accounes_flow_through_finalv2.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3778/announce_closing_of_flow_through_financing_-_dec_31_20.pdf",
+   "timestamp": "20210127102124",
+   "wayback_url": "https://web.archive.org/web/20210127102124id_/https://genmining.com/site/assets/files/3778/announce_closing_of_flow_through_financing_-_dec_31_20.pdf",
+   "bytes": 998989,
+   "title": "announce_closing_of_flow_through_financing_-_dec_31_20.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3780/genm-nr-jan05-2021.pdf",
+   "timestamp": "20210127055218",
+   "wayback_url": "https://web.archive.org/web/20210127055218id_/https://genmining.com/site/assets/files/3780/genm-nr-jan05-2021.pdf",
+   "bytes": 970600,
+   "title": "genm-nr-jan05-2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3781/generation_mining_feb_4-_2021.pdf",
+   "timestamp": "20210208145256",
+   "wayback_url": "https://web.archive.org/web/20210208145256id_/https://www.genmining.com/site/assets/files/3781/generation_mining_feb_4-_2021.pdf",
+   "bytes": 3127696,
+   "title": "generation_mining_feb_4-_2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3782/2020-11-26_ea_process.pdf",
+   "timestamp": "20211020143747",
+   "wayback_url": "https://web.archive.org/web/20211020143747id_/https://www.genmining.com/site/assets/files/3782/2020-11-26_ea_process.pdf",
+   "bytes": 101929,
+   "title": "2020-11-26_ea_process.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3783/2020-12-03_baseline_studies.pdf",
+   "timestamp": "20211020134908",
+   "wayback_url": "https://web.archive.org/web/20211020134908id_/https://www.genmining.com/site/assets/files/3783/2020-12-03_baseline_studies.pdf",
+   "bytes": 81224,
+   "title": "2020-12-03_baseline_studies.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3784/2020-12-10_terrestrial_studies.pdf",
+   "timestamp": "20211020122001",
+   "wayback_url": "https://web.archive.org/web/20211020122001id_/https://www.genmining.com/site/assets/files/3784/2020-12-10_terrestrial_studies.pdf",
+   "bytes": 180814,
+   "title": "2020-12-10_terrestrial_studies.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3785/2021-01-07_aquatic_studies.pdf",
+   "timestamp": "20211020143713",
+   "wayback_url": "https://web.archive.org/web/20211020143713id_/https://www.genmining.com/site/assets/files/3785/2021-01-07_aquatic_studies.pdf",
+   "bytes": 156772,
+   "title": "2021-01-07_aquatic_studies.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3786/2020-11-05_project_schedule.pdf",
+   "timestamp": "20211020133708",
+   "wayback_url": "https://web.archive.org/web/20211020133708id_/https://www.genmining.com/site/assets/files/3786/2020-11-05_project_schedule.pdf",
+   "bytes": 959687,
+   "title": "2020-11-05_project_schedule.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3787/genmining_press_release_jan_27_2021_final.pdf",
+   "timestamp": "20210927073106",
+   "wayback_url": "https://web.archive.org/web/20210927073106id_/https://www.genmining.com/site/assets/files/3787/genmining_press_release_jan_27_2021_final.pdf",
+   "bytes": 572351,
+   "title": "genmining_press_release_jan_27_2021_final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3788/genmining_-_press_release_-_appoint_jennifer_wagner_-.pdf",
+   "timestamp": "20210511234115",
+   "wayback_url": "https://web.archive.org/web/20210511234115id_/https://www.genmining.com/site/assets/files/3788/genmining_-_press_release_-_appoint_jennifer_wagner_-.pdf",
+   "bytes": 54523,
+   "title": "genmining_-_press_release_-_appoint_jennifer_wagner_-.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3815/2023_updated_feasibility_study.pdf",
+   "timestamp": "20230523062939",
+   "wayback_url": "https://web.archive.org/web/20230523062939id_/https://genmining.com/site/assets/files/3815/2023_updated_feasibility_study.pdf",
+   "bytes": 24910958,
+   "title": "2023_updated_feasibility_study.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3815/2024_amended_feasibility_study_update.pdf",
+   "timestamp": "20240716030302",
+   "wayback_url": "https://web.archive.org/web/20240716030302id_/https://genmining.com/site/assets/files/3815/2024_amended_feasibility_study_update.pdf",
+   "bytes": 1004449,
+   "title": "2024_amended_feasibility_study_update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3815/2025_feasibility_study_report_update.pdf",
+   "timestamp": "20250428211651",
+   "wayback_url": "https://web.archive.org/web/20250428211651id_/https://genmining.com/site/assets/files/3815/2025_feasibility_study_report_update.pdf",
+   "bytes": 4891686,
+   "title": "2025_feasibility_study_report_update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3815/generation-mining-feasibility-study-march-2021.pdf",
+   "timestamp": "20210511221352",
+   "wayback_url": "https://web.archive.org/web/20210511221352id_/https://www.genmining.com/site/assets/files/3815/generation-mining-feasibility-study-march-2021.pdf",
+   "bytes": 970866,
+   "title": "generation-mining-feasibility-study-march-2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3818/gen_mining_fs_press_release_final_march_3_2021.pdf",
+   "timestamp": "20210620160549",
+   "wayback_url": "https://web.archive.org/web/20210620160549id_/https://www.genmining.com/site/assets/files/3818/gen_mining_fs_press_release_final_march_3_2021.pdf",
+   "bytes": 488127,
+   "title": "gen_mining_fs_press_release_final_march_3_2021.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3819/generation_mining_march_with_fs_inserts.pdf",
+   "timestamp": "20210315230715",
+   "wayback_url": "https://web.archive.org/web/20210315230715id_/https://genmining.com/site/assets/files/3819/generation_mining_march_with_fs_inserts.pdf",
+   "bytes": 2266952,
+   "title": "generation_mining_march_with_fs_inserts.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3819/generation_mining_presentation_-_april_21-_2021.pdf",
+   "timestamp": "20210513054428",
+   "wayback_url": "https://web.archive.org/web/20210513054428id_/https://genmining.com/site/assets/files/3819/generation_mining_presentation_-_april_21-_2021.pdf",
+   "bytes": 952256,
+   "title": "generation_mining_presentation_-_april_21-_2021.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3821/gen_mining_press_release_drilling_feb_23-_2021.pdf",
+   "timestamp": "20210927080800",
+   "wayback_url": "https://web.archive.org/web/20210927080800id_/https://www.genmining.com/site/assets/files/3821/gen_mining_press_release_drilling_feb_23-_2021.pdf",
+   "bytes": 969078,
+   "title": "gen_mining_press_release_drilling_feb_23-_2021.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3823/2023-03-31_technical_report_presentation.pdf",
+   "timestamp": "20230531220644",
+   "wayback_url": "https://web.archive.org/web/20230531220644id_/https://genmining.com/site/assets/files/3823/2023-03-31_technical_report_presentation.pdf",
+   "bytes": 900268,
+   "title": "2023-03-31_technical_report_presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3823/generation_mining_fs_announcement_mar_3_final.pdf",
+   "timestamp": "20210318164940",
+   "wayback_url": "https://web.archive.org/web/20210318164940id_/https://www.genmining.com/site/assets/files/3823/generation_mining_fs_announcement_mar_3_final.pdf",
+   "bytes": 1363038,
+   "title": "generation_mining_fs_announcement_mar_3_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3863/2021-03-25-nr-genm.pdf",
+   "timestamp": "20210927074755",
+   "wayback_url": "https://web.archive.org/web/20210927074755id_/https://www.genmining.com/site/assets/files/3863/2021-03-25-nr-genm.pdf",
+   "bytes": 147945,
+   "title": "2021-03-25-nr-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3864/2020-q4-fs-genm.pdf",
+   "timestamp": "20210927071637",
+   "wayback_url": "https://web.archive.org/web/20210927071637id_/https://www.genmining.com/site/assets/files/3864/2020-q4-fs-genm.pdf",
+   "bytes": 841418,
+   "title": "2020-q4-fs-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3864/2020-q4-mda-genm.pdf",
+   "timestamp": "20210927074429",
+   "wayback_url": "https://web.archive.org/web/20210927074429id_/https://www.genmining.com/site/assets/files/3864/2020-q4-mda-genm.pdf",
+   "bytes": 670235,
+   "title": "2020-q4-mda-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3865/2020-aif-final-genm.pdf",
+   "timestamp": "20210722013933",
+   "wayback_url": "https://web.archive.org/web/20210722013933id_/https://genmining.com/site/assets/files/3865/2020-aif-final-genm.pdf",
+   "bytes": 2264317,
+   "title": "2020-aif-final-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3866/bn_aip_press_release_-_rev_7_002_march_31_2021_-_il.pdf",
+   "timestamp": "20210927074512",
+   "wayback_url": "https://web.archive.org/web/20210927074512id_/https://www.genmining.com/site/assets/files/3866/bn_aip_press_release_-_rev_7_002_march_31_2021_-_il.pdf",
+   "bytes": 981074,
+   "title": "bn_aip_press_release_-_rev_7_002_march_31_2021_-_il.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3876/2021-04-21-nr-genm.pdf",
+   "timestamp": "20210927073307",
+   "wayback_url": "https://web.archive.org/web/20210927073307id_/https://www.genmining.com/site/assets/files/3876/2021-04-21-nr-genm.pdf",
+   "bytes": 131970,
+   "title": "2021-04-21-nr-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3877/gen_mining_press_release_-_april_30_approved_irroc.pdf",
+   "timestamp": "20210927074553",
+   "wayback_url": "https://web.archive.org/web/20210927074553id_/https://www.genmining.com/site/assets/files/3877/gen_mining_press_release_-_april_30_approved_irroc.pdf",
+   "bytes": 145225,
+   "title": "gen_mining_press_release_-_april_30_approved_irroc.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3878/winter_drilling_results_may_10-2021.pdf",
+   "timestamp": "20210927071031",
+   "wayback_url": "https://web.archive.org/web/20210927071031id_/https://www.genmining.com/site/assets/files/3878/winter_drilling_results_may_10-2021.pdf",
+   "bytes": 912834,
+   "title": "winter_drilling_results_may_10-2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3880/2021-q1-fs.pdf",
+   "timestamp": "20210927072818",
+   "wayback_url": "https://web.archive.org/web/20210927072818id_/https://www.genmining.com/site/assets/files/3880/2021-q1-fs.pdf",
+   "bytes": 212493,
+   "title": "2021-q1-fs.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3880/2021-q1-mda.pdf",
+   "timestamp": "20210927075558",
+   "wayback_url": "https://web.archive.org/web/20210927075558id_/https://www.genmining.com/site/assets/files/3880/2021-q1-mda.pdf",
+   "bytes": 444334,
+   "title": "2021-q1-mda.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3881/summer_drilling_start_up_news_release_may_25_2021.pdf",
+   "timestamp": "20210927063514",
+   "wayback_url": "https://web.archive.org/web/20210927063514id_/https://www.genmining.com/site/assets/files/3881/summer_drilling_start_up_news_release_may_25_2021.pdf",
+   "bytes": 959883,
+   "title": "summer_drilling_start_up_news_release_may_25_2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3882/revised_estma_reporting.pdf",
+   "timestamp": "20210927063219",
+   "wayback_url": "https://web.archive.org/web/20210927063219id_/https://www.genmining.com/site/assets/files/3882/revised_estma_reporting.pdf",
+   "bytes": 153235,
+   "title": "revised_estma_reporting.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3885/gen_mining_pp_-_july_21_2021-compressed.pdf",
+   "timestamp": "20210729020540",
+   "wayback_url": "https://web.archive.org/web/20210729020540id_/https://genmining.com/site/assets/files/3885/gen_mining_pp_-_july_21_2021-compressed.pdf",
+   "bytes": 1865367,
+   "title": "gen_mining_pp_-_july_21_2021-compressed.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3885/gen_mining_pp_-_june_15_2021.pdf",
+   "timestamp": "20210721180655",
+   "wayback_url": "https://web.archive.org/web/20210721180655id_/https://genmining.com/site/assets/files/3885/gen_mining_pp_-_june_15_2021.pdf",
+   "bytes": 1967932,
+   "title": "gen_mining_pp_-_june_15_2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3902/genm_sbsw_earnin_press_release_july_2021_final_v3_-_il.pdf",
+   "timestamp": "20221001180407",
+   "wayback_url": "https://web.archive.org/web/20221001180407id_/https://genmining.com/site/assets/files/3902/genm_sbsw_earnin_press_release_july_2021_final_v3_-_il.pdf",
+   "bytes": 217378,
+   "title": "genm_sbsw_earnin_press_release_july_2021_final_v3_-_il.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3903/genm_press_release_halts_drilling_v5_-_il_edits.pdf",
+   "timestamp": "20221001180514",
+   "wayback_url": "https://web.archive.org/web/20221001180514id_/https://genmining.com/site/assets/files/3903/genm_press_release_halts_drilling_v5_-_il_edits.pdf",
+   "bytes": 287518,
+   "title": "genm_press_release_halts_drilling_v5_-_il_edits.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3905/2021-q2-fs-genm.pdf",
+   "timestamp": "20211204192303",
+   "wayback_url": "https://web.archive.org/web/20211204192303id_/https://www.genmining.com/site/assets/files/3905/2021-q2-fs-genm.pdf",
+   "bytes": 384446,
+   "title": "2021-q2-fs-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3905/2021-q2-mda-genm.pdf",
+   "timestamp": "20211204195657",
+   "wayback_url": "https://web.archive.org/web/20211204195657id_/https://www.genmining.com/site/assets/files/3905/2021-q2-mda-genm.pdf",
+   "bytes": 561109,
+   "title": "2021-q2-mda-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3906/genm_press_release_final_aug16-_endeavouref_-_il_edits.pdf",
+   "timestamp": "20221001180944",
+   "wayback_url": "https://web.archive.org/web/20221001180944id_/https://genmining.com/site/assets/files/3906/genm_press_release_final_aug16-_endeavouref_-_il_edits.pdf",
+   "bytes": 216242,
+   "title": "genm_press_release_final_aug16-_endeavouref_-_il_edits.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3907/genm_press_release_resumes_drilling_final_aug12-2022v2.pdf",
+   "timestamp": "20221001184210",
+   "wayback_url": "https://web.archive.org/web/20221001184210id_/https://genmining.com/site/assets/files/3907/genm_press_release_resumes_drilling_final_aug12-2022v2.pdf",
+   "bytes": 212932,
+   "title": "genm_press_release_resumes_drilling_final_aug12-2022v2.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3908/2021-08-17-genm-nr.pdf",
+   "timestamp": "20221001183002",
+   "wayback_url": "https://web.archive.org/web/20221001183002id_/https://genmining.com/site/assets/files/3908/2021-08-17-genm-nr.pdf",
+   "bytes": 933274,
+   "title": "2021-08-17-genm-nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3909/gen_mining_pp_-_2022_jan_16.pdf",
+   "timestamp": "20220126211927",
+   "wayback_url": "https://web.archive.org/web/20220126211927id_/https://genmining.com/site/assets/files/3909/gen_mining_pp_-_2022_jan_16.pdf",
+   "bytes": 3128233,
+   "title": "gen_mining_pp_-_2022_jan_16.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3909/gen_mining_pp_-_2022_jan_26.pdf",
+   "timestamp": "20220202165159",
+   "wayback_url": "https://web.archive.org/web/20220202165159id_/https://genmining.com/site/assets/files/3909/gen_mining_pp_-_2022_jan_26.pdf",
+   "bytes": 3072857,
+   "title": "gen_mining_pp_-_2022_jan_26.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3909/gen_mining_pp_-_august_2021.pdf",
+   "timestamp": "20210824180213",
+   "wayback_url": "https://web.archive.org/web/20210824180213id_/https://genmining.com/site/assets/files/3909/gen_mining_pp_-_august_2021.pdf",
+   "bytes": 2685605,
+   "title": "gen_mining_pp_-_august_2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3909/gen_mining_pp_-_sept_25_2021.pdf",
+   "timestamp": "20210930155954",
+   "wayback_url": "https://web.archive.org/web/20210930155954id_/https://genmining.com/site/assets/files/3909/gen_mining_pp_-_sept_25_2021.pdf",
+   "bytes": 3193801,
+   "title": "gen_mining_pp_-_sept_25_2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3910/genm_press_release_-_concentrate_and_hiring_jpd_v_final.pdf",
+   "timestamp": "20221001185846",
+   "wayback_url": "https://web.archive.org/web/20221001185846id_/https://genmining.com/site/assets/files/3910/genm_press_release_-_concentrate_and_hiring_jpd_v_final.pdf",
+   "bytes": 224920,
+   "title": "genm_press_release_-_concentrate_and_hiring_jpd_v_final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3911/generation_mining.pdf",
+   "timestamp": "20221001184713",
+   "wayback_url": "https://web.archive.org/web/20221001184713id_/https://genmining.com/site/assets/files/3911/generation_mining.pdf",
+   "bytes": 403785,
+   "title": "generation_mining.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3912/genm-nr-sep2-2021.pdf",
+   "timestamp": "20221001175955",
+   "wayback_url": "https://web.archive.org/web/20221001175955id_/https://genmining.com/site/assets/files/3912/genm-nr-sep2-2021.pdf",
+   "bytes": 995382,
+   "title": "genm-nr-sep2-2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3919/gen_mining_press_release_-_dart_moffett_and_wood_jrp_v.pdf",
+   "timestamp": "20221001181336",
+   "wayback_url": "https://web.archive.org/web/20221001181336id_/https://genmining.com/site/assets/files/3919/gen_mining_press_release_-_dart_moffett_and_wood_jrp_v.pdf",
+   "bytes": 196429,
+   "title": "gen_mining_press_release_-_dart_moffett_and_wood_jrp_v.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3921/genm_press_release_-_plant_ep_oct_13_2022_final.pdf",
+   "timestamp": "20211013195433",
+   "wayback_url": "https://web.archive.org/web/20211013195433id_/https://genmining.com/site/assets/files/3921/genm_press_release_-_plant_ep_oct_13_2022_final.pdf",
+   "bytes": 217917,
+   "title": "genm_press_release_-_plant_ep_oct_13_2022_final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3927/biiwobik_area_drilling_nr_v12_002_-_il_edits.pdf",
+   "timestamp": "20211108181016",
+   "wayback_url": "https://web.archive.org/web/20211108181016id_/https://genmining.com/site/assets/files/3927/biiwobik_area_drilling_nr_v12_002_-_il_edits.pdf",
+   "bytes": 3439929,
+   "title": "biiwobik_area_drilling_nr_v12_002_-_il_edits.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3928/financial_statements_-_september_30_2021_file_copy_v8_f.pdf",
+   "timestamp": "20220128195201",
+   "wayback_url": "https://web.archive.org/web/20220128195201id_/https://genmining.com/site/assets/files/3928/financial_statements_-_september_30_2021_file_copy_v8_f.pdf",
+   "bytes": 254349,
+   "title": "financial_statements_-_september_30_2021_file_copy_v8_f.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3928/mda_-_q3_september_30_2021_-_file_copy_final.pdf",
+   "timestamp": "20220128190524",
+   "wayback_url": "https://web.archive.org/web/20220128190524id_/https://genmining.com/site/assets/files/3928/mda_-_q3_september_30_2021_-_file_copy_final.pdf",
+   "bytes": 565371,
+   "title": "mda_-_q3_september_30_2021_-_file_copy_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3930/gen_mining_press_release_sibanye_release_dec_09_irro.pdf",
+   "timestamp": "20211208160946",
+   "wayback_url": "https://web.archive.org/web/20211208160946id_/https://genmining.com/site/assets/files/3930/gen_mining_press_release_sibanye_release_dec_09_irro.pdf",
+   "bytes": 202653,
+   "title": "gen_mining_press_release_sibanye_release_dec_09_irro.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3931/gen_mining_press_release_suffficiency_v4_-_il_edits.pdf",
+   "timestamp": "20221001172614",
+   "wayback_url": "https://web.archive.org/web/20221001172614id_/https://genmining.com/site/assets/files/3931/gen_mining_press_release_suffficiency_v4_-_il_edits.pdf",
+   "bytes": 197793,
+   "title": "gen_mining_press_release_suffficiency_v4_-_il_edits.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3934/corporate_governance_manual.pdf",
+   "timestamp": "20250504030359",
+   "wayback_url": "https://web.archive.org/web/20250504030359id_/https://genmining.com/site/assets/files/3934/corporate_governance_manual.pdf",
+   "bytes": 416410,
+   "title": "corporate_governance_manual.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3934/final_-_gen_mining_-_corporate_governance_manual_-_nove.pdf",
+   "timestamp": "20221001173511",
+   "wayback_url": "https://web.archive.org/web/20221001173511id_/https://genmining.com/site/assets/files/3934/final_-_gen_mining_-_corporate_governance_manual_-_nove.pdf",
+   "bytes": 418022,
+   "title": "final_-_gen_mining_-_corporate_governance_manual_-_nove.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3937/sedar_-_articles.pdf",
+   "timestamp": "20221001174603",
+   "wayback_url": "https://web.archive.org/web/20221001174603id_/https://genmining.com/site/assets/files/3937/sedar_-_articles.pdf",
+   "bytes": 525681,
+   "title": "sedar_-_articles.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3938/by-law_no__1_2023.pdf",
+   "timestamp": "20240621212559",
+   "wayback_url": "https://web.archive.org/web/20240621212559id_/https://genmining.com/site/assets/files/3938/by-law_no__1_2023.pdf",
+   "bytes": 388461,
+   "title": "by-law_no__1_2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3938/by-law_no__1_2023_final.pdf",
+   "timestamp": "20230925161823",
+   "wayback_url": "https://web.archive.org/web/20230925161823id_/https://genmining.com/site/assets/files/3938/by-law_no__1_2023_final.pdf",
+   "bytes": 388444,
+   "title": "by-law_no__1_2023_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3938/sedar_-_by-laws.pdf",
+   "timestamp": "20221001185726",
+   "wayback_url": "https://web.archive.org/web/20221001185726id_/https://genmining.com/site/assets/files/3938/sedar_-_by-laws.pdf",
+   "bytes": 108289,
+   "title": "sedar_-_by-laws.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3939/2020-revised_estma_rep.pdf",
+   "timestamp": "20230531225735",
+   "wayback_url": "https://web.archive.org/web/20230531225735id_/https://genmining.com/site/assets/files/3939/2020-revised_estma_rep.pdf",
+   "bytes": 142894,
+   "title": "2020-revised_estma_rep.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3939/2021-estma_reporting_2.pdf",
+   "timestamp": "20230531225618",
+   "wayback_url": "https://web.archive.org/web/20230531225618id_/https://genmining.com/site/assets/files/3939/2021-estma_reporting_2.pdf",
+   "bytes": 141801,
+   "title": "2021-estma_reporting_2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3939/2023_estma_report_final.pdf",
+   "timestamp": "20241009121206",
+   "wayback_url": "https://web.archive.org/web/20241009121206id_/https://genmining.com/site/assets/files/3939/2023_estma_report_final.pdf",
+   "bytes": 218915,
+   "title": "2023_estma_report_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3939/2024_estma_reporting.pdf",
+   "timestamp": "20250913004335",
+   "wayback_url": "https://web.archive.org/web/20250913004335id_/https://genmining.com/site/assets/files/3939/2024_estma_reporting.pdf",
+   "bytes": 168334,
+   "title": "2024_estma_reporting.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3939/estma_reporting_2022_final.pdf",
+   "timestamp": "20230925162657",
+   "wayback_url": "https://web.archive.org/web/20230925162657id_/https://genmining.com/site/assets/files/3939/estma_reporting_2022_final.pdf",
+   "bytes": 141029,
+   "title": "estma_reporting_2022_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3939/revised_estma_reporting.pdf",
+   "timestamp": "20221001180802",
+   "wayback_url": "https://web.archive.org/web/20221001180802id_/https://genmining.com/site/assets/files/3939/revised_estma_reporting.pdf",
+   "bytes": 153161,
+   "title": "revised_estma_reporting.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2020_acoustic_baseline_report.pdf",
+   "timestamp": "20221001185256",
+   "wayback_url": "https://web.archive.org/web/20221001185256id_/https://genmining.com/site/assets/files/3940/2020_acoustic_baseline_report.pdf",
+   "bytes": 1026614,
+   "title": "2020_acoustic_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2020_aquatic_baseline_report.pdf",
+   "timestamp": "20221001183818",
+   "wayback_url": "https://web.archive.org/web/20221001183818id_/https://genmining.com/site/assets/files/3940/2020_aquatic_baseline_report.pdf",
+   "bytes": 1024888,
+   "title": "2020_aquatic_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2020_atmospheric_baseline_report.pdf",
+   "timestamp": "20220925234140",
+   "wayback_url": "https://web.archive.org/web/20220925234140id_/https://genmining.com/site/assets/files/3940/2020_atmospheric_baseline_report.pdf",
+   "bytes": 964675,
+   "title": "2020_atmospheric_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2020_cultural_heritage_baseline_report.pdf",
+   "timestamp": "20221001184850",
+   "wayback_url": "https://web.archive.org/web/20221001184850id_/https://genmining.com/site/assets/files/3940/2020_cultural_heritage_baseline_report.pdf",
+   "bytes": 1028094,
+   "title": "2020_cultural_heritage_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2020_geology_baseline_report.pdf",
+   "timestamp": "20221001174411",
+   "wayback_url": "https://web.archive.org/web/20221001174411id_/https://genmining.com/site/assets/files/3940/2020_geology_baseline_report.pdf",
+   "bytes": 326810,
+   "title": "2020_geology_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2020_hydrology_baseline_report.pdf",
+   "timestamp": "20221001175858",
+   "wayback_url": "https://web.archive.org/web/20221001175858id_/https://genmining.com/site/assets/files/3940/2020_hydrology_baseline_report.pdf",
+   "bytes": 973222,
+   "title": "2020_hydrology_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2020_socioeconomic_baseline_report.pdf",
+   "timestamp": "20221001172409",
+   "wayback_url": "https://web.archive.org/web/20221001172409id_/https://genmining.com/site/assets/files/3940/2020_socioeconomic_baseline_report.pdf",
+   "bytes": 973212,
+   "title": "2020_socioeconomic_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2020_soils_baseline_report.pdf",
+   "timestamp": "20220926003236",
+   "wayback_url": "https://web.archive.org/web/20220926003236id_/https://genmining.com/site/assets/files/3940/2020_soils_baseline_report.pdf",
+   "bytes": 953642,
+   "title": "2020_soils_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2020_terrestrial_baseline_report.pdf",
+   "timestamp": "20220925231818",
+   "wayback_url": "https://web.archive.org/web/20220925231818id_/https://genmining.com/site/assets/files/3940/2020_terrestrial_baseline_report.pdf",
+   "bytes": 1014548,
+   "title": "2020_terrestrial_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2020_transportation_baseline_report.pdf",
+   "timestamp": "20221001173312",
+   "wayback_url": "https://web.archive.org/web/20221001173312id_/https://genmining.com/site/assets/files/3940/2020_transportation_baseline_report.pdf",
+   "bytes": 1020674,
+   "title": "2020_transportation_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2020_water_quality_baseline_report.pdf",
+   "timestamp": "20220925225927",
+   "wayback_url": "https://web.archive.org/web/20220925225927id_/https://genmining.com/site/assets/files/3940/2020_water_quality_baseline_report.pdf",
+   "bytes": 1029850,
+   "title": "2020_water_quality_baseline_report.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2022_marathon_palladium-copper_project_annual_report.pdf",
+   "timestamp": "20230531231716",
+   "wayback_url": "https://web.archive.org/web/20230531231716id_/https://genmining.com/site/assets/files/3940/2022_marathon_palladium-copper_project_annual_report.pdf",
+   "bytes": 986454,
+   "title": "2022_marathon_palladium-copper_project_annual_report.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2023_marathon_palladium-copper_project_annual_report.pdf",
+   "timestamp": "20240621210312",
+   "wayback_url": "https://web.archive.org/web/20240621210312id_/https://genmining.com/site/assets/files/3940/2023_marathon_palladium-copper_project_annual_report.pdf",
+   "bytes": 997042,
+   "title": "2023_marathon_palladium-copper_project_annual_report.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2024_marathon_palladium-copper_project_annual_report.pdf",
+   "timestamp": "20250515064646",
+   "wayback_url": "https://web.archive.org/web/20250515064646id_/https://genmining.com/site/assets/files/3940/2024_marathon_palladium-copper_project_annual_report.pdf",
+   "bytes": 996054,
+   "title": "2024_marathon_palladium-copper_project_annual_report.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/2025_marathon_palladium-copper_project_annual_report.pdf",
+   "timestamp": "20260514013539",
+   "wayback_url": "https://web.archive.org/web/20260514013539id_/https://genmining.com/site/assets/files/3940/2025_marathon_palladium-copper_project_annual_report.pdf",
+   "bytes": 998001,
+   "title": "2025_marathon_palladium-copper_project_annual_report.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/generation-pgm-ea-compliance-monitoring-program-report.pdf",
+   "timestamp": "20240302005250",
+   "wayback_url": "https://web.archive.org/web/20240302005250id_/https://genmining.com/site/assets/files/3940/generation-pgm-ea-compliance-monitoring-program-report.pdf",
+   "bytes": 1010763,
+   "title": "generation-pgm-ea-compliance-monitoring-program-report.pdf",
+   "type": "monitoring",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/generation_pgm_inc_-_2023_compliance_monitoring_program_report_-_rev1.pdf",
+   "timestamp": "20260514020640",
+   "wayback_url": "https://web.archive.org/web/20260514020640id_/https://genmining.com/site/assets/files/3940/generation_pgm_inc_-_2023_compliance_monitoring_program_report_-_rev1.pdf",
+   "bytes": 1083014,
+   "title": "generation_pgm_inc_-_2023_compliance_monitoring_program_report_-_rev1.pdf",
+   "type": "monitoring",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/generation_pgm_inc_-_2025_compliance_monitoring_program_report_-_dec_1-_2024_-_nov_30-_2025.pdf",
+   "timestamp": "20260514004430",
+   "wayback_url": "https://web.archive.org/web/20260514004430id_/https://genmining.com/site/assets/files/3940/generation_pgm_inc_-_2025_compliance_monitoring_program_report_-_dec_1-_2024_-_nov_30-_2025.pdf",
+   "bytes": 1103724,
+   "title": "generation_pgm_inc_-_2025_compliance_monitoring_program_report_-_dec_1-_2024_-_nov_30-_2025.pdf",
+   "type": "monitoring",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/generation_pgm_inc_-_compliance_monitoring_program.pdf",
+   "timestamp": "20250913013939",
+   "wayback_url": "https://web.archive.org/web/20250913013939id_/https://genmining.com/site/assets/files/3940/generation_pgm_inc_-_compliance_monitoring_program.pdf",
+   "bytes": 822599,
+   "title": "generation_pgm_inc_-_compliance_monitoring_program.pdf",
+   "type": "monitoring",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3940/marathon_palladium_-_copper_project_-_2024_compliance_monitoring_program_report_-_dec_1-_2023_-_nov_30-_2024.pdf",
+   "timestamp": "20250215023351",
+   "wayback_url": "https://web.archive.org/web/20250215023351id_/https://genmining.com/site/assets/files/3940/marathon_palladium_-_copper_project_-_2024_compliance_monitoring_program_report_-_dec_1-_2023_-_nov_30-_2024.pdf",
+   "bytes": 1013381,
+   "title": "marathon_palladium_-_copper_project_-_2024_compliance_monitoring_program_report_-_dec_1-_2023_-_nov_30-_2024.pdf",
+   "type": "monitoring",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Apr%202021%20Environmental%20Assessment.pdf",
+   "timestamp": "20221001171403",
+   "wayback_url": "https://web.archive.org/web/20221001171403id_/https://genmining.com/site/assets/files/3942/Apr%202021%20Environmental%20Assessment.pdf",
+   "bytes": 999599,
+   "title": "Apr 2021 Environmental Assessment.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Apr%202021%20Palladium%20Uses.pdf",
+   "timestamp": "20221001174641",
+   "wayback_url": "https://web.archive.org/web/20221001174641id_/https://genmining.com/site/assets/files/3942/Apr%202021%20Palladium%20Uses.pdf",
+   "bytes": 932881,
+   "title": "Apr 2021 Palladium Uses.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Aug%202021%20Closure%20Planning.pdf",
+   "timestamp": "20221001182544",
+   "wayback_url": "https://web.archive.org/web/20221001182544id_/https://genmining.com/site/assets/files/3942/Aug%202021%20Closure%20Planning.pdf",
+   "bytes": 1003998,
+   "title": "Aug 2021 Closure Planning.pdf",
+   "type": "closure",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Caribou%20Mitigation%20Presentation.pdf",
+   "timestamp": "20221001173929",
+   "wayback_url": "https://web.archive.org/web/20221001173929id_/https://genmining.com/site/assets/files/3942/Caribou%20Mitigation%20Presentation.pdf",
+   "bytes": 1023195,
+   "title": "Caribou Mitigation Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Closure%20Planning%20Presentation.pdf",
+   "timestamp": "20221001165634",
+   "wayback_url": "https://web.archive.org/web/20221001165634id_/https://genmining.com/site/assets/files/3942/Closure%20Planning%20Presentation.pdf",
+   "bytes": 1038864,
+   "title": "Closure Planning Presentation.pdf",
+   "type": "closure",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Feb%202021%20Environmental%20Permitting.pdf",
+   "timestamp": "20221001170817",
+   "wayback_url": "https://web.archive.org/web/20221001170817id_/https://genmining.com/site/assets/files/3942/Feb%202021%20Environmental%20Permitting.pdf",
+   "bytes": 1001969,
+   "title": "Feb 2021 Environmental Permitting.pdf",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Feb%202021%20Jobs%20and%20Economics.pdf",
+   "timestamp": "20221001170426",
+   "wayback_url": "https://web.archive.org/web/20221001170426id_/https://genmining.com/site/assets/files/3942/Feb%202021%20Jobs%20and%20Economics.pdf",
+   "bytes": 1006894,
+   "title": "Feb 2021 Jobs and Economics.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Feb%202021%20Water%20Management.pdf",
+   "timestamp": "20221001175245",
+   "wayback_url": "https://web.archive.org/web/20221001175245id_/https://genmining.com/site/assets/files/3942/Feb%202021%20Water%20Management.pdf",
+   "bytes": 1004756,
+   "title": "Feb 2021 Water Management.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Fisheries%20Presentation.pdf",
+   "timestamp": "20221001171216",
+   "wayback_url": "https://web.archive.org/web/20221001171216id_/https://genmining.com/site/assets/files/3942/Fisheries%20Presentation.pdf",
+   "bytes": 1016732,
+   "title": "Fisheries Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://www.genmining.com/site/assets/files/3942/gen_mining_press_release_skarn_emissions_dec_2021_v5.pdf",
+   "timestamp": "20211213193614",
+   "wayback_url": "https://web.archive.org/web/20211213193614id_/https://www.genmining.com/site/assets/files/3942/gen_mining_press_release_skarn_emissions_dec_2021_v5.pdf",
+   "bytes": 317416,
+   "title": "gen_mining_press_release_skarn_emissions_dec_2021_v5.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Jan%202021%20Aquatic%20Baselines.pdf",
+   "timestamp": "20221001172942",
+   "wayback_url": "https://web.archive.org/web/20221001172942id_/https://genmining.com/site/assets/files/3942/Jan%202021%20Aquatic%20Baselines.pdf",
+   "bytes": 1004383,
+   "title": "Jan 2021 Aquatic Baselines.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Jan%202021%20Atmospheric%20Baselines.pdf",
+   "timestamp": "20221001184132",
+   "wayback_url": "https://web.archive.org/web/20221001184132id_/https://genmining.com/site/assets/files/3942/Jan%202021%20Atmospheric%20Baselines.pdf",
+   "bytes": 1002466,
+   "title": "Jan 2021 Atmospheric Baselines.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/July%202021%20Closure%20Planning.pdf",
+   "timestamp": "20221001190052",
+   "wayback_url": "https://web.archive.org/web/20221001190052id_/https://genmining.com/site/assets/files/3942/July%202021%20Closure%20Planning.pdf",
+   "bytes": 1005015,
+   "title": "July 2021 Closure Planning.pdf",
+   "type": "closure",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/June%202021%20Exploration%20Update.pdf",
+   "timestamp": "20221001182028",
+   "wayback_url": "https://web.archive.org/web/20221001182028id_/https://genmining.com/site/assets/files/3942/June%202021%20Exploration%20Update.pdf",
+   "bytes": 1001675,
+   "title": "June 2021 Exploration Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/June%202021%20Field%20Program.pdf",
+   "timestamp": "20221001175211",
+   "wayback_url": "https://web.archive.org/web/20221001175211id_/https://genmining.com/site/assets/files/3942/June%202021%20Field%20Program.pdf",
+   "bytes": 1002796,
+   "title": "June 2021 Field Program.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Mar%202021%20Feasibility%20Study.pdf",
+   "timestamp": "20221001170947",
+   "wayback_url": "https://web.archive.org/web/20221001170947id_/https://genmining.com/site/assets/files/3942/Mar%202021%20Feasibility%20Study.pdf",
+   "bytes": 863015,
+   "title": "Mar 2021 Feasibility Study.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Mar%202021%20Project%20Optimization.pdf",
+   "timestamp": "20221001172036",
+   "wayback_url": "https://web.archive.org/web/20221001172036id_/https://genmining.com/site/assets/files/3942/Mar%202021%20Project%20Optimization.pdf",
+   "bytes": 1006575,
+   "title": "Mar 2021 Project Optimization.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/May%202021%20Community%20Event.pdf",
+   "timestamp": "20221001185648",
+   "wayback_url": "https://web.archive.org/web/20221001185648id_/https://genmining.com/site/assets/files/3942/May%202021%20Community%20Event.pdf",
+   "bytes": 1004020,
+   "title": "May 2021 Community Event.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/May%202021%20Environmental%20Assessment.pdf",
+   "timestamp": "20221001180647",
+   "wayback_url": "https://web.archive.org/web/20221001180647id_/https://genmining.com/site/assets/files/3942/May%202021%20Environmental%20Assessment.pdf",
+   "bytes": 1004442,
+   "title": "May 2021 Environmental Assessment.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Nov%202021%20Environmental%20Assessment.pdf",
+   "timestamp": "20221001165834",
+   "wayback_url": "https://web.archive.org/web/20221001165834id_/https://genmining.com/site/assets/files/3942/Nov%202021%20Environmental%20Assessment.pdf",
+   "bytes": 1003932,
+   "title": "Nov 2021 Environmental Assessment.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Nov%202021%20Fisheries.pdf",
+   "timestamp": "20221001175509",
+   "wayback_url": "https://web.archive.org/web/20221001175509id_/https://genmining.com/site/assets/files/3942/Nov%202021%20Fisheries.pdf",
+   "bytes": 1004241,
+   "title": "Nov 2021 Fisheries.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Oct%202021%20Seed%20Collection.pdf",
+   "timestamp": "20221001174050",
+   "wayback_url": "https://web.archive.org/web/20221001174050id_/https://genmining.com/site/assets/files/3942/Oct%202021%20Seed%20Collection.pdf",
+   "bytes": 1001907,
+   "title": "Oct 2021 Seed Collection.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Project%20Overview%20Presentation.pdf",
+   "timestamp": "20221001190103",
+   "wayback_url": "https://web.archive.org/web/20221001190103id_/https://genmining.com/site/assets/files/3942/Project%20Overview%20Presentation.pdf",
+   "bytes": 1029609,
+   "title": "Project Overview Presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Sept%202021%20Community%20Event.pdf",
+   "timestamp": "20221001172327",
+   "wayback_url": "https://web.archive.org/web/20221001172327id_/https://genmining.com/site/assets/files/3942/Sept%202021%20Community%20Event.pdf",
+   "bytes": 999029,
+   "title": "Sept 2021 Community Event.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3942/Sept%202021%20Country%20Foods.pdf",
+   "timestamp": "20221001183124",
+   "wayback_url": "https://web.archive.org/web/20221001183124id_/https://genmining.com/site/assets/files/3942/Sept%202021%20Country%20Foods.pdf",
+   "bytes": 1004738,
+   "title": "Sept 2021 Country Foods.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3943/genm-nr-stream-dec22-2021.pdf",
+   "timestamp": "20211222153415",
+   "wayback_url": "https://web.archive.org/web/20211222153415id_/https://genmining.com/site/assets/files/3943/genm-nr-stream-dec22-2021.pdf",
+   "bytes": 212279,
+   "title": "genm-nr-stream-dec22-2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3964/gen_mining_press_release_sibanye_release_closing_agre.pdf",
+   "timestamp": "20220126211729",
+   "wayback_url": "https://web.archive.org/web/20220126211729id_/https://genmining.com/site/assets/files/3964/gen_mining_press_release_sibanye_release_closing_agre.pdf",
+   "bytes": 203574,
+   "title": "gen_mining_press_release_sibanye_release_closing_agre.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3965/gen_mining_press_release_moa_with_bn_v3_-_il_edits_-_c.pdf",
+   "timestamp": "20220129022927",
+   "wayback_url": "https://web.archive.org/web/20220129022927id_/https://genmining.com/site/assets/files/3965/gen_mining_press_release_moa_with_bn_v3_-_il_edits_-_c.pdf",
+   "bytes": 201032,
+   "title": "gen_mining_press_release_moa_with_bn_v3_-_il_edits_-_c.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3971/2022-02-_genpgm_mno_mou_press_release_vfinal.pdf",
+   "timestamp": "20220216115055",
+   "wayback_url": "https://web.archive.org/web/20220216115055id_/https://genmining.com/site/assets/files/3971/2022-02-_genpgm_mno_mou_press_release_vfinal.pdf",
+   "bytes": 178185,
+   "title": "2022-02-_genpgm_mno_mou_press_release_vfinal.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3972/2022-02-15-genm-nr.pdf",
+   "timestamp": "20220216120239",
+   "wayback_url": "https://web.archive.org/web/20220216120239id_/https://genmining.com/site/assets/files/3972/2022-02-15-genm-nr.pdf",
+   "bytes": 198155,
+   "title": "2022-02-15-genm-nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3974/2021-q4-fs-genm.pdf",
+   "timestamp": "20220625103405",
+   "wayback_url": "https://web.archive.org/web/20220625103405id_/https://genmining.com/site/assets/files/3974/2021-q4-fs-genm.pdf",
+   "bytes": 936189,
+   "title": "2021-q4-fs-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3974/2021-q4-mda-genm.pdf",
+   "timestamp": "20220625100158",
+   "wayback_url": "https://web.archive.org/web/20220625100158id_/https://genmining.com/site/assets/files/3974/2021-q4-mda-genm.pdf",
+   "bytes": 728796,
+   "title": "2021-q4-mda-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3975/2021-aif-final-genm.pdf",
+   "timestamp": "20220625112134",
+   "wayback_url": "https://web.archive.org/web/20220625112134id_/https://genmining.com/site/assets/files/3975/2021-aif-final-genm.pdf",
+   "bytes": 1005622,
+   "title": "2021-aif-final-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3982/2022-03-30-cp-genm.pdf",
+   "timestamp": "20220403061037",
+   "wayback_url": "https://web.archive.org/web/20220403061037id_/https://genmining.com/site/assets/files/3982/2022-03-30-cp-genm.pdf",
+   "bytes": 3515299,
+   "title": "2022-03-30-cp-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3982/2022-05-genm-cp.pdf",
+   "timestamp": "20220608225338",
+   "wayback_url": "https://web.archive.org/web/20220608225338id_/https://genmining.com/site/assets/files/3982/2022-05-genm-cp.pdf",
+   "bytes": 3492516,
+   "title": "2022-05-genm-cp.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3982/2022-06-16_gen_mining_pp.pdf",
+   "timestamp": "20220625111849",
+   "wayback_url": "https://web.archive.org/web/20220625111849id_/https://genmining.com/site/assets/files/3982/2022-06-16_gen_mining_pp.pdf",
+   "bytes": 904002,
+   "title": "2022-06-16_gen_mining_pp.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3984/gen_mining_pr_re_wheaton_stream_final.pdf",
+   "timestamp": "20220401172607",
+   "wayback_url": "https://web.archive.org/web/20220401172607id_/https://genmining.com/site/assets/files/3984/gen_mining_pr_re_wheaton_stream_final.pdf",
+   "bytes": 200916,
+   "title": "gen_mining_pr_re_wheaton_stream_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3985/gen_mining_press_release_mangement_changes_v7_april_19.pdf",
+   "timestamp": "20220421234456",
+   "wayback_url": "https://web.archive.org/web/20220421234456id_/https://genmining.com/site/assets/files/3985/gen_mining_press_release_mangement_changes_v7_april_19.pdf",
+   "bytes": 197401,
+   "title": "gen_mining_press_release_mangement_changes_v7_april_19.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3992/genm-nr-may11-2022.pdf",
+   "timestamp": "20220516034653",
+   "wayback_url": "https://web.archive.org/web/20220516034653id_/https://genmining.com/site/assets/files/3992/genm-nr-may11-2022.pdf",
+   "bytes": 203069,
+   "title": "genm-nr-may11-2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3996/2022-q1-fs-genm.pdf",
+   "timestamp": "20220625100549",
+   "wayback_url": "https://web.archive.org/web/20220625100549id_/https://genmining.com/site/assets/files/3996/2022-q1-fs-genm.pdf",
+   "bytes": 370951,
+   "title": "2022-q1-fs-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/3996/2022-q1-mda-genm.pdf",
+   "timestamp": "20220625113612",
+   "wayback_url": "https://web.archive.org/web/20220625113612id_/https://genmining.com/site/assets/files/3996/2022-q1-mda-genm.pdf",
+   "bytes": 490654,
+   "title": "2022-q1-mda-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4000/2022-05-19_conclusion_of_jrp_final.pdf",
+   "timestamp": "20220520200701",
+   "wayback_url": "https://web.archive.org/web/20220520200701id_/https://genmining.com/site/assets/files/4000/2022-05-19_conclusion_of_jrp_final.pdf",
+   "bytes": 560734,
+   "title": "2022-05-19_conclusion_of_jrp_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4006/form_of_proxy_2022.pdf",
+   "timestamp": "20221001164539",
+   "wayback_url": "https://web.archive.org/web/20221001164539id_/https://genmining.com/site/assets/files/4006/form_of_proxy_2022.pdf",
+   "bytes": 422133,
+   "title": "form_of_proxy_2022.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4006/form_of_proxy_2023.pdf",
+   "timestamp": "20230925174322",
+   "wayback_url": "https://web.archive.org/web/20230925174322id_/https://genmining.com/site/assets/files/4006/form_of_proxy_2023.pdf",
+   "bytes": 439663,
+   "title": "form_of_proxy_2023.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4006/generation_mining_limited_-_form_of_proxy_2025.pdf",
+   "timestamp": "20250811134011",
+   "wayback_url": "https://web.archive.org/web/20250811134011id_/https://genmining.com/site/assets/files/4006/generation_mining_limited_-_form_of_proxy_2025.pdf",
+   "bytes": 133561,
+   "title": "generation_mining_limited_-_form_of_proxy_2025.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4006/generation_mining_limited_-_management_information_circular_2025.pdf",
+   "timestamp": "20250811133934",
+   "wayback_url": "https://web.archive.org/web/20250811133934id_/https://genmining.com/site/assets/files/4006/generation_mining_limited_-_management_information_circular_2025.pdf",
+   "bytes": 674259,
+   "title": "generation_mining_limited_-_management_information_circular_2025.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4006/generation_mining_limited_-_management_information_circular_sedar.pdf",
+   "timestamp": "20240716023445",
+   "wayback_url": "https://web.archive.org/web/20240716023445id_/https://genmining.com/site/assets/files/4006/generation_mining_limited_-_management_information_circular_sedar.pdf",
+   "bytes": 1046736,
+   "title": "generation_mining_limited_-_management_information_circular_sedar.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4006/generation_mining_limited_-_notice_of_meeting_2025.pdf",
+   "timestamp": "20250811144756",
+   "wayback_url": "https://web.archive.org/web/20250811144756id_/https://genmining.com/site/assets/files/4006/generation_mining_limited_-_notice_of_meeting_2025.pdf",
+   "bytes": 163534,
+   "title": "generation_mining_limited_-_notice_of_meeting_2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4006/generation_mining_limited_form_of_proxy_common_shares.pdf",
+   "timestamp": "20240716035547",
+   "wayback_url": "https://web.archive.org/web/20240716035547id_/https://genmining.com/site/assets/files/4006/generation_mining_limited_form_of_proxy_common_shares.pdf",
+   "bytes": 75809,
+   "title": "generation_mining_limited_form_of_proxy_common_shares.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4006/generation_mining_limited_notice_and_access_notice_common_shares.pdf",
+   "timestamp": "20240716022811",
+   "wayback_url": "https://web.archive.org/web/20240716022811id_/https://genmining.com/site/assets/files/4006/generation_mining_limited_notice_and_access_notice_common_shares.pdf",
+   "bytes": 68003,
+   "title": "generation_mining_limited_notice_and_access_notice_common_shares.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4006/gml_-_notice_and_management_information_circular_-_2023_final.pdf",
+   "timestamp": "20230925170130",
+   "wayback_url": "https://web.archive.org/web/20230925170130id_/https://genmining.com/site/assets/files/4006/gml_-_notice_and_management_information_circular_-_2023_final.pdf",
+   "bytes": 961693,
+   "title": "gml_-_notice_and_management_information_circular_-_2023_final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4006/mic_2022.pdf",
+   "timestamp": "20221001182209",
+   "wayback_url": "https://web.archive.org/web/20221001182209id_/https://genmining.com/site/assets/files/4006/mic_2022.pdf",
+   "bytes": 503105,
+   "title": "mic_2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4014/2022-06-08_debt_financing_discussion_final.pdf",
+   "timestamp": "20220608230304",
+   "wayback_url": "https://web.archive.org/web/20220608230304id_/https://genmining.com/site/assets/files/4014/2022-06-08_debt_financing_discussion_final.pdf",
+   "bytes": 218862,
+   "title": "2022-06-08_debt_financing_discussion_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4017/2022-06-16_announce_voting_results_final.pdf",
+   "timestamp": "20220712121024",
+   "wayback_url": "https://web.archive.org/web/20220712121024id_/https://genmining.com/site/assets/files/4017/2022-06-16_announce_voting_results_final.pdf",
+   "bytes": 206581,
+   "title": "2022-06-16_announce_voting_results_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4089/2022-06-16_gen_mining_pp.pdf",
+   "timestamp": "20220815153521",
+   "wayback_url": "https://web.archive.org/web/20220815153521id_/https://genmining.com/site/assets/files/4089/2022-06-16_gen_mining_pp.pdf",
+   "bytes": 903996,
+   "title": "2022-06-16_gen_mining_pp.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4090/2022-06-16_gen_mining_pp.pdf",
+   "timestamp": "20220815154048",
+   "wayback_url": "https://web.archive.org/web/20220815154048id_/https://genmining.com/site/assets/files/4090/2022-06-16_gen_mining_pp.pdf",
+   "bytes": 904007,
+   "title": "2022-06-16_gen_mining_pp.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4091/2022-06-16_gen_mining_pp.pdf",
+   "timestamp": "20220815150619",
+   "wayback_url": "https://web.archive.org/web/20220815150619id_/https://genmining.com/site/assets/files/4091/2022-06-16_gen_mining_pp.pdf",
+   "bytes": 903996,
+   "title": "2022-06-16_gen_mining_pp.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4100/2022-07-12_construction_camp_final.pdf",
+   "timestamp": "20221001184325",
+   "wayback_url": "https://web.archive.org/web/20221001184325id_/https://genmining.com/site/assets/files/4100/2022-07-12_construction_camp_final.pdf",
+   "bytes": 201652,
+   "title": "2022-07-12_construction_camp_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4104/2022-08-03_jrp_report_final.pdf",
+   "timestamp": "20220804003807",
+   "wayback_url": "https://web.archive.org/web/20220804003807id_/https://genmining.com/site/assets/files/4104/2022-08-03_jrp_report_final.pdf",
+   "bytes": 202198,
+   "title": "2022-08-03_jrp_report_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4106/2022-08-08_gen_mining_hycroft_mills.pdf",
+   "timestamp": "20221001180914",
+   "wayback_url": "https://web.archive.org/web/20221001180914id_/https://genmining.com/site/assets/files/4106/2022-08-08_gen_mining_hycroft_mills.pdf",
+   "bytes": 202385,
+   "title": "2022-08-08_gen_mining_hycroft_mills.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4108/2022q2-fs.pdf",
+   "timestamp": "20220925044927",
+   "wayback_url": "https://web.archive.org/web/20220925044927id_/https://genmining.com/site/assets/files/4108/2022q2-fs.pdf",
+   "bytes": 367116,
+   "title": "2022q2-fs.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4108/2022q2-mda.pdf",
+   "timestamp": "20221001175100",
+   "wayback_url": "https://web.archive.org/web/20221001175100id_/https://genmining.com/site/assets/files/4108/2022q2-mda.pdf",
+   "bytes": 557448,
+   "title": "2022q2-mda.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4109/2022-08-15-cp-genm.pdf",
+   "timestamp": "20221001180718",
+   "wayback_url": "https://web.archive.org/web/20221001180718id_/https://genmining.com/site/assets/files/4109/2022-08-15-cp-genm.pdf",
+   "bytes": 900479,
+   "title": "2022-08-15-cp-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4110/pdac-2022-coldwell-complex-jm.pdf",
+   "timestamp": "20221001165548",
+   "wayback_url": "https://web.archive.org/web/20221001165548id_/https://genmining.com/site/assets/files/4110/pdac-2022-coldwell-complex-jm.pdf",
+   "bytes": 932163,
+   "title": "pdac-2022-coldwell-complex-jm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4114/2022-09-08_conference_attendance.pdf",
+   "timestamp": "20221001170338",
+   "wayback_url": "https://web.archive.org/web/20221001170338id_/https://genmining.com/site/assets/files/4114/2022-09-08_conference_attendance.pdf",
+   "bytes": 201875,
+   "title": "2022-09-08_conference_attendance.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4115/2022-09-08_wheaton_stream.pdf",
+   "timestamp": "20221001184935",
+   "wayback_url": "https://web.archive.org/web/20221001184935id_/https://genmining.com/site/assets/files/4115/2022-09-08_wheaton_stream.pdf",
+   "bytes": 200498,
+   "title": "2022-09-08_wheaton_stream.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4116/2022-09-08_general.pdf",
+   "timestamp": "20221001182921",
+   "wayback_url": "https://web.archive.org/web/20221001182921id_/https://genmining.com/site/assets/files/4116/2022-09-08_general.pdf",
+   "bytes": 854100,
+   "title": "2022-09-08_general.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4117/2022-08-14_genm_exploration_priorities.pdf",
+   "timestamp": "20221001171312",
+   "wayback_url": "https://web.archive.org/web/20221001171312id_/https://genmining.com/site/assets/files/4117/2022-08-14_genm_exploration_priorities.pdf",
+   "bytes": 983028,
+   "title": "2022-08-14_genm_exploration_priorities.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4124/2022-11-16_general.pdf",
+   "timestamp": "20221126130858",
+   "wayback_url": "https://web.archive.org/web/20221126130858id_/https://genmining.com/site/assets/files/4124/2022-11-16_general.pdf",
+   "bytes": 882307,
+   "title": "2022-11-16_general.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4125/genm_fs_2022-09_-_final.pdf",
+   "timestamp": "20221126124707",
+   "wayback_url": "https://web.archive.org/web/20221126124707id_/https://genmining.com/site/assets/files/4125/genm_fs_2022-09_-_final.pdf",
+   "bytes": 372623,
+   "title": "genm_fs_2022-09_-_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4125/genm_mda_2022-09_-_final.pdf",
+   "timestamp": "20221126132414",
+   "wayback_url": "https://web.archive.org/web/20221126132414id_/https://genmining.com/site/assets/files/4125/genm_mda_2022-09_-_final.pdf",
+   "bytes": 641035,
+   "title": "genm_mda_2022-09_-_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4127/2022-11-14_bn_cba.pdf",
+   "timestamp": "20221114161323",
+   "wayback_url": "https://web.archive.org/web/20221114161323id_/https://genmining.com/site/assets/files/4127/2022-11-14_bn_cba.pdf",
+   "bytes": 166810,
+   "title": "2022-11-14_bn_cba.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4133/2022-11-30_environmental_assessment_decision.pdf",
+   "timestamp": "20221201081716",
+   "wayback_url": "https://web.archive.org/web/20221201081716id_/https://genmining.com/site/assets/files/4133/2022-11-30_environmental_assessment_decision.pdf",
+   "bytes": 188020,
+   "title": "2022-11-30_environmental_assessment_decision.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4136/2023-01-10_year_in_review_final.pdf",
+   "timestamp": "20230110180636",
+   "wayback_url": "https://web.archive.org/web/20230110180636id_/https://genmining.com/site/assets/files/4136/2023-01-10_year_in_review_final.pdf",
+   "bytes": 219678,
+   "title": "2023-01-10_year_in_review_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4319/2022-11-30_environmental_assessment_decision.pdf",
+   "timestamp": "20230330091019",
+   "wayback_url": "https://web.archive.org/web/20230330091019id_/https://genmining.com/site/assets/files/4319/2022-11-30_environmental_assessment_decision.pdf",
+   "bytes": 189379,
+   "title": "2022-11-30_environmental_assessment_decision.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4321/2022-09-08_wheaton_stream.pdf",
+   "timestamp": "20230330085047",
+   "wayback_url": "https://web.archive.org/web/20230330085047id_/https://genmining.com/site/assets/files/4321/2022-09-08_wheaton_stream.pdf",
+   "bytes": 200499,
+   "title": "2022-09-08_wheaton_stream.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4322/2022-09-08_conference_attendance.pdf",
+   "timestamp": "20230330082104",
+   "wayback_url": "https://web.archive.org/web/20230330082104id_/https://genmining.com/site/assets/files/4322/2022-09-08_conference_attendance.pdf",
+   "bytes": 201869,
+   "title": "2022-09-08_conference_attendance.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4323/2022-08-08_gen_mining_hycroft_mills.pdf",
+   "timestamp": "20230330073235",
+   "wayback_url": "https://web.archive.org/web/20230330073235id_/https://genmining.com/site/assets/files/4323/2022-08-08_gen_mining_hycroft_mills.pdf",
+   "bytes": 202403,
+   "title": "2022-08-08_gen_mining_hycroft_mills.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4330/2022-11-14_bn_cba.pdf",
+   "timestamp": "20230330075012",
+   "wayback_url": "https://web.archive.org/web/20230330075012id_/https://genmining.com/site/assets/files/4330/2022-11-14_bn_cba.pdf",
+   "bytes": 167683,
+   "title": "2022-11-14_bn_cba.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4361/2023-01-31_general.pdf",
+   "timestamp": "20230330073523",
+   "wayback_url": "https://web.archive.org/web/20230330073523id_/https://genmining.com/site/assets/files/4361/2023-01-31_general.pdf",
+   "bytes": 882274,
+   "title": "2023-01-31_general.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4372/2023-03-03-general-website.pdf",
+   "timestamp": "20230330075248",
+   "wayback_url": "https://web.archive.org/web/20230330075248id_/https://genmining.com/site/assets/files/4372/2023-03-03-general-website.pdf",
+   "bytes": 894727,
+   "title": "2023-03-03-general-website.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4389/2023-03-27_glencore_offtake.pdf",
+   "timestamp": "20230327134456",
+   "wayback_url": "https://web.archive.org/web/20230327134456id_/https://genmining.com/site/assets/files/4389/2023-03-27_glencore_offtake.pdf",
+   "bytes": 320612,
+   "title": "2023-03-27_glencore_offtake.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4391/2023-03-31_feasibility_study_final.pdf",
+   "timestamp": "20230401002733",
+   "wayback_url": "https://web.archive.org/web/20230401002733id_/https://genmining.com/site/assets/files/4391/2023-03-31_feasibility_study_final.pdf",
+   "bytes": 422348,
+   "title": "2023-03-31_feasibility_study_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4392/2022-q4-fs-genm.pdf",
+   "timestamp": "20230925174443",
+   "wayback_url": "https://web.archive.org/web/20230925174443id_/https://genmining.com/site/assets/files/4392/2022-q4-fs-genm.pdf",
+   "bytes": 724127,
+   "title": "2022-q4-fs-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4392/2022-q4-mda-genm.pdf",
+   "timestamp": "20230925170721",
+   "wayback_url": "https://web.archive.org/web/20230925170721id_/https://genmining.com/site/assets/files/4392/2022-q4-mda-genm.pdf",
+   "bytes": 376700,
+   "title": "2022-q4-mda-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4393/generation-mining-aif-2023-sedar.pdf",
+   "timestamp": "20230925153703",
+   "wayback_url": "https://web.archive.org/web/20230925153703id_/https://genmining.com/site/assets/files/4393/generation-mining-aif-2023-sedar.pdf",
+   "bytes": 1004116,
+   "title": "generation-mining-aif-2023-sedar.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4396/2023-04-04_general_website.pdf",
+   "timestamp": "20230531224912",
+   "wayback_url": "https://web.archive.org/web/20230531224912id_/https://genmining.com/site/assets/files/4396/2023-04-04_general_website.pdf",
+   "bytes": 896161,
+   "title": "2023-04-04_general_website.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4397/2023-05-02_mandate_letter_final.pdf",
+   "timestamp": "20230513011427",
+   "wayback_url": "https://web.archive.org/web/20230513011427id_/https://genmining.com/site/assets/files/4397/2023-05-02_mandate_letter_final.pdf",
+   "bytes": 207428,
+   "title": "2023-05-02_mandate_letter_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4398/2023-05-04_general.pdf",
+   "timestamp": "20230531215633",
+   "wayback_url": "https://web.archive.org/web/20230531215633id_/https://genmining.com/site/assets/files/4398/2023-05-04_general.pdf",
+   "bytes": 907670,
+   "title": "2023-05-04_general.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4403/q1-2023-fs-english.pdf",
+   "timestamp": "20230925154407",
+   "wayback_url": "https://web.archive.org/web/20230925154407id_/https://genmining.com/site/assets/files/4403/q1-2023-fs-english.pdf",
+   "bytes": 385603,
+   "title": "q1-2023-fs-english.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4403/q1-2023-mda-english.pdf",
+   "timestamp": "20230925155216",
+   "wayback_url": "https://web.archive.org/web/20230925155216id_/https://genmining.com/site/assets/files/4403/q1-2023-mda-english.pdf",
+   "bytes": 628436,
+   "title": "q1-2023-mda-english.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4405/2023-06-01_general.pdf",
+   "timestamp": "20230925163402",
+   "wayback_url": "https://web.archive.org/web/20230925163402id_/https://genmining.com/site/assets/files/4405/2023-06-01_general.pdf",
+   "bytes": 929426,
+   "title": "2023-06-01_general.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4407/2023-06-28-genm-nr.pdf",
+   "timestamp": "20230925160109",
+   "wayback_url": "https://web.archive.org/web/20230925160109id_/https://genmining.com/site/assets/files/4407/2023-06-28-genm-nr.pdf",
+   "bytes": 154817,
+   "title": "2023-06-28-genm-nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4409/genm_fs_2023-06_final.pdf",
+   "timestamp": "20230925174805",
+   "wayback_url": "https://web.archive.org/web/20230925174805id_/https://genmining.com/site/assets/files/4409/genm_fs_2023-06_final.pdf",
+   "bytes": 408451,
+   "title": "genm_fs_2023-06_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4409/genm_mda_2023-06_final.pdf",
+   "timestamp": "20230925152238",
+   "wayback_url": "https://web.archive.org/web/20230925152238id_/https://genmining.com/site/assets/files/4409/genm_mda_2023-06_final.pdf",
+   "bytes": 647978,
+   "title": "genm_mda_2023-06_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4410/2023-08-30_sar_permit.pdf",
+   "timestamp": "20230925163655",
+   "wayback_url": "https://web.archive.org/web/20230925163655id_/https://genmining.com/site/assets/files/4410/2023-08-30_sar_permit.pdf",
+   "bytes": 213325,
+   "title": "2023-08-30_sar_permit.pdf",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4411/2023-09-06_closure_plan.pdf",
+   "timestamp": "20230925155443",
+   "wayback_url": "https://web.archive.org/web/20230925155443id_/https://genmining.com/site/assets/files/4411/2023-09-06_closure_plan.pdf",
+   "bytes": 210410,
+   "title": "2023-09-06_closure_plan.pdf",
+   "type": "closure",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4412/2023-09-08_conference_attendance.pdf",
+   "timestamp": "20231205020330",
+   "wayback_url": "https://web.archive.org/web/20231205020330id_/https://genmining.com/site/assets/files/4412/2023-09-08_conference_attendance.pdf",
+   "bytes": 139013,
+   "title": "2023-09-08_conference_attendance.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4413/2023-09-13-davidson-to-moon-river-capital_final.pdf",
+   "timestamp": "20231205020322",
+   "wayback_url": "https://web.archive.org/web/20231205020322id_/https://genmining.com/site/assets/files/4413/2023-09-13-davidson-to-moon-river-capital_final.pdf",
+   "bytes": 203483,
+   "title": "2023-09-13-davidson-to-moon-river-capital_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4414/2023-10-31_general.pdf",
+   "timestamp": "20231208213706",
+   "wayback_url": "https://web.archive.org/web/20231208213706id_/https://genmining.com/site/assets/files/4414/2023-10-31_general.pdf",
+   "bytes": 909538,
+   "title": "2023-10-31_general.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4417/2023-10-27-bought-deal-announcement-october-2023.pdf",
+   "timestamp": "20231205020306",
+   "wayback_url": "https://web.archive.org/web/20231205020306id_/https://genmining.com/site/assets/files/4417/2023-10-27-bought-deal-announcement-october-2023.pdf",
+   "bytes": 174738,
+   "title": "2023-10-27-bought-deal-announcement-october-2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4418/2023-11-07-closure-plan-filed.pdf",
+   "timestamp": "20231205020215",
+   "wayback_url": "https://web.archive.org/web/20231205020215id_/https://genmining.com/site/assets/files/4418/2023-11-07-closure-plan-filed.pdf",
+   "bytes": 209347,
+   "title": "2023-11-07-closure-plan-filed.pdf",
+   "type": "closure",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4419/2023-q3-fs-genm.pdf",
+   "timestamp": "20231208233223",
+   "wayback_url": "https://web.archive.org/web/20231208233223id_/https://genmining.com/site/assets/files/4419/2023-q3-fs-genm.pdf",
+   "bytes": 404274,
+   "title": "2023-q3-fs-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4419/2023-q3-mda-genm.pdf",
+   "timestamp": "20231208230343",
+   "wayback_url": "https://web.archive.org/web/20231208230343id_/https://genmining.com/site/assets/files/4419/2023-q3-mda-genm.pdf",
+   "bytes": 690194,
+   "title": "2023-q3-mda-genm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4420/2023-11-15_davidson_to_moon_river_capital_closed.pdf",
+   "timestamp": "20231205020237",
+   "wayback_url": "https://web.archive.org/web/20231205020237id_/https://genmining.com/site/assets/files/4420/2023-11-15_davidson_to_moon_river_capital_closed.pdf",
+   "bytes": 202089,
+   "title": "2023-11-15_davidson_to_moon_river_capital_closed.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4421/2023-11-21_-_bought_deal_closed_final.pdf",
+   "timestamp": "20231205020218",
+   "wayback_url": "https://web.archive.org/web/20231205020218id_/https://genmining.com/site/assets/files/4421/2023-11-21_-_bought_deal_closed_final.pdf",
+   "bytes": 159852,
+   "title": "2023-11-21_-_bought_deal_closed_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4422/2023-11-21_ptr.pdf",
+   "timestamp": "20231205020303",
+   "wayback_url": "https://web.archive.org/web/20231205020303id_/https://genmining.com/site/assets/files/4422/2023-11-21_ptr.pdf",
+   "bytes": 206547,
+   "title": "2023-11-21_ptr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4432/2023-12-14_townhall.pdf",
+   "timestamp": "20240302000328",
+   "wayback_url": "https://web.archive.org/web/20240302000328id_/https://genmining.com/site/assets/files/4432/2023-12-14_townhall.pdf",
+   "bytes": 956365,
+   "title": "2023-12-14_townhall.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4437/2024-02-20_conference_attendance.pdf",
+   "timestamp": "20240331085542",
+   "wayback_url": "https://web.archive.org/web/20240331085542id_/https://genmining.com/site/assets/files/4437/2024-02-20_conference_attendance.pdf",
+   "bytes": 128603,
+   "title": "2024-02-20_conference_attendance.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4465/2024-03-07_2024_drill_program.pdf",
+   "timestamp": "20240331085722",
+   "wayback_url": "https://web.archive.org/web/20240331085722id_/https://genmining.com/site/assets/files/4465/2024-03-07_2024_drill_program.pdf",
+   "bytes": 771564,
+   "title": "2024-03-07_2024_drill_program.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4477/genm_fs_2023-12_signed.pdf",
+   "timestamp": "20240425115306",
+   "wayback_url": "https://web.archive.org/web/20240425115306id_/https://genmining.com/site/assets/files/4477/genm_fs_2023-12_signed.pdf",
+   "bytes": 1023606,
+   "title": "genm_fs_2023-12_signed.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4477/genm_mda_2023-12_final.pdf",
+   "timestamp": "20240425115552",
+   "wayback_url": "https://web.archive.org/web/20240425115552id_/https://genmining.com/site/assets/files/4477/genm_mda_2023-12_final.pdf",
+   "bytes": 665247,
+   "title": "genm_mda_2023-12_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4478/generation_mining_aif_2023_sedar.pdf",
+   "timestamp": "20240425103328",
+   "wayback_url": "https://web.archive.org/web/20240425103328id_/https://genmining.com/site/assets/files/4478/generation_mining_aif_2023_sedar.pdf",
+   "bytes": 1003015,
+   "title": "generation_mining_aif_2023_sedar.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4480/2024-04-14_biiwobik_results_final_v2_1.pdf",
+   "timestamp": "20240513072353",
+   "wayback_url": "https://web.archive.org/web/20240513072353id_/https://genmining.com/site/assets/files/4480/2024-04-14_biiwobik_results_final_v2_1.pdf",
+   "bytes": 472587,
+   "title": "2024-04-14_biiwobik_results_final_v2_1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4483/board_mandate_2024.pdf",
+   "timestamp": "20240621213817",
+   "wayback_url": "https://web.archive.org/web/20240621213817id_/https://genmining.com/site/assets/files/4483/board_mandate_2024.pdf",
+   "bytes": 157142,
+   "title": "board_mandate_2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4486/genm_fs_2024-03-31.pdf",
+   "timestamp": "20241006063959",
+   "wayback_url": "https://web.archive.org/web/20241006063959id_/https://genmining.com/site/assets/files/4486/genm_fs_2024-03-31.pdf",
+   "bytes": 424722,
+   "title": "genm_fs_2024-03-31.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4486/genm_mda_2024-03-31.pdf",
+   "timestamp": "20240716025038",
+   "wayback_url": "https://web.archive.org/web/20240716025038id_/https://genmining.com/site/assets/files/4486/genm_mda_2024-03-31.pdf",
+   "bytes": 1034223,
+   "title": "genm_mda_2024-03-31.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4489/corporate_presentation_-_may_2024.pdf",
+   "timestamp": "20240621202005",
+   "wayback_url": "https://web.archive.org/web/20240621202005id_/https://genmining.com/site/assets/files/4489/corporate_presentation_-_may_2024.pdf",
+   "bytes": 904534,
+   "title": "corporate_presentation_-_may_2024.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4489/corporate_presentation_-_september_2024.pdf",
+   "timestamp": "20240915074252",
+   "wayback_url": "https://web.archive.org/web/20240915074252id_/https://genmining.com/site/assets/files/4489/corporate_presentation_-_september_2024.pdf",
+   "bytes": 951474,
+   "title": "corporate_presentation_-_september_2024.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4489/generation_mining_presentation_22_may_2025.pdf",
+   "timestamp": "20250530112339",
+   "wayback_url": "https://web.archive.org/web/20250530112339id_/https://genmining.com/site/assets/files/4489/generation_mining_presentation_22_may_2025.pdf",
+   "bytes": 5448777,
+   "title": "generation_mining_presentation_22_may_2025.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4489/generation_mining_presentation_july_2025.pdf",
+   "timestamp": "20250913004224",
+   "wayback_url": "https://web.archive.org/web/20250913004224id_/https://genmining.com/site/assets/files/4489/generation_mining_presentation_july_2025.pdf",
+   "bytes": 5011359,
+   "title": "generation_mining_presentation_july_2025.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4489/generation_mining_presentation_march_2025.pdf",
+   "timestamp": "20250415122436",
+   "wayback_url": "https://web.archive.org/web/20250415122436id_/https://genmining.com/site/assets/files/4489/generation_mining_presentation_march_2025.pdf",
+   "bytes": 5923347,
+   "title": "generation_mining_presentation_march_2025.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4490/press_release_re_prospectus_and_tech_report_final_05_3.pdf",
+   "timestamp": "20240701164210",
+   "wayback_url": "https://web.archive.org/web/20240701164210id_/https://genmining.com/site/assets/files/4490/press_release_re_prospectus_and_tech_report_final_05_3.pdf",
+   "bytes": 169068,
+   "title": "press_release_re_prospectus_and_tech_report_final_05_3.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4492/ief_release_20240603_final.pdf",
+   "timestamp": "20240607102352",
+   "wayback_url": "https://web.archive.org/web/20240607102352id_/https://genmining.com/site/assets/files/4492/ief_release_20240603_final.pdf",
+   "bytes": 180173,
+   "title": "ief_release_20240603_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4495/2024_06_plantoptimization_final_v1.pdf",
+   "timestamp": "20240606160801",
+   "wayback_url": "https://web.archive.org/web/20240606160801id_/https://genmining.com/site/assets/files/4495/2024_06_plantoptimization_final_v1.pdf",
+   "bytes": 171740,
+   "title": "2024_06_plantoptimization_final_v1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4501/press_release_announce_voting_results_2024.pdf",
+   "timestamp": "20240701175134",
+   "wayback_url": "https://web.archive.org/web/20240701175134id_/https://genmining.com/site/assets/files/4501/press_release_announce_voting_results_2024.pdf",
+   "bytes": 139548,
+   "title": "press_release_announce_voting_results_2024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4504/2024_07_goldspot_drilling_press_release_20240726-.pdf",
+   "timestamp": "20240805184011",
+   "wayback_url": "https://web.archive.org/web/20240805184011id_/https://genmining.com/site/assets/files/4504/2024_07_goldspot_drilling_press_release_20240726-.pdf",
+   "bytes": 905225,
+   "title": "2024_07_goldspot_drilling_press_release_20240726-.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4505/2024-07_nr_sch2amend_20240731_final_v1.pdf",
+   "timestamp": "20240803225021",
+   "wayback_url": "https://web.archive.org/web/20240803225021id_/https://genmining.com/site/assets/files/4505/2024-07_nr_sch2amend_20240731_final_v1.pdf",
+   "bytes": 184721,
+   "title": "2024-07_nr_sch2amend_20240731_final_v1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4506/nr_dfo_faa_aug2024_finaldraft_20240807.pdf",
+   "timestamp": "20241007145154",
+   "wayback_url": "https://web.archive.org/web/20241007145154id_/https://genmining.com/site/assets/files/4506/nr_dfo_faa_aug2024_finaldraft_20240807.pdf",
+   "bytes": 169539,
+   "title": "nr_dfo_faa_aug2024_finaldraft_20240807.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4507/genm_fs_2024-06-30.pdf",
+   "timestamp": "20241009131159",
+   "wayback_url": "https://web.archive.org/web/20241009131159id_/https://genmining.com/site/assets/files/4507/genm_fs_2024-06-30.pdf",
+   "bytes": 442228,
+   "title": "genm_fs_2024-06-30.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4507/genm_mda_2024-06-30.pdf",
+   "timestamp": "20241009134148",
+   "wayback_url": "https://web.archive.org/web/20241009134148id_/https://genmining.com/site/assets/files/4507/genm_mda_2024-06-30.pdf",
+   "bytes": 990146,
+   "title": "genm_mda_2024-06-30.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4510/press_release_cmif_funding_final_20241007.pdf",
+   "timestamp": "20241108082218",
+   "wayback_url": "https://web.archive.org/web/20241108082218id_/https://genmining.com/site/assets/files/4510/press_release_cmif_funding_final_20241007.pdf",
+   "bytes": 205494,
+   "title": "press_release_cmif_funding_final_20241007.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4515/2024-11-20_nr.pdf",
+   "timestamp": "20241120125828",
+   "wayback_url": "https://web.archive.org/web/20241120125828id_/https://genmining.com/site/assets/files/4515/2024-11-20_nr.pdf",
+   "bytes": 265529,
+   "title": "2024-11-20_nr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4515/optimization_press_release_11202024.pdf",
+   "timestamp": "20241123025229",
+   "wayback_url": "https://web.archive.org/web/20241123025229id_/https://genmining.com/site/assets/files/4515/optimization_press_release_11202024.pdf",
+   "bytes": 238581,
+   "title": "optimization_press_release_11202024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4532/paul_murphy_press_release_12162024.pdf",
+   "timestamp": "20250113065252",
+   "wayback_url": "https://web.archive.org/web/20250113065252id_/https://genmining.com/site/assets/files/4532/paul_murphy_press_release_12162024.pdf",
+   "bytes": 106779,
+   "title": "paul_murphy_press_release_12162024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4536/management_change_release_02_13_2025.pdf",
+   "timestamp": "20250316015216",
+   "wayback_url": "https://web.archive.org/web/20250316015216id_/https://genmining.com/site/assets/files/4536/management_change_release_02_13_2025.pdf",
+   "bytes": 201172,
+   "title": "management_change_release_02_13_2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4553/gbr_ontario-mining-2025-web.pdf",
+   "timestamp": "20250428232751",
+   "wayback_url": "https://web.archive.org/web/20250428232751id_/https://genmining.com/site/assets/files/4553/gbr_ontario-mining-2025-web.pdf",
+   "bytes": 5016980,
+   "title": "gbr_ontario-mining-2025-web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4554/2025_03_permits_update.pdf",
+   "timestamp": "20250406135922",
+   "wayback_url": "https://web.archive.org/web/20250406135922id_/https://genmining.com/site/assets/files/4554/2025_03_permits_update.pdf",
+   "bytes": 189548,
+   "title": "2025_03_permits_update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4556/2025_0311_lira_permit_update-1.pdf",
+   "timestamp": "20250315162219",
+   "wayback_url": "https://web.archive.org/web/20250315162219id_/https://genmining.com/site/assets/files/4556/2025_0311_lira_permit_update-1.pdf",
+   "bytes": 150478,
+   "title": "2025_0311_lira_permit_update-1.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4557/2025_0311_lira_permit_update-1.pdf",
+   "timestamp": "20250314202940",
+   "wayback_url": "https://web.archive.org/web/20250314202940id_/https://genmining.com/site/assets/files/4557/2025_0311_lira_permit_update-1.pdf",
+   "bytes": 150481,
+   "title": "2025_0311_lira_permit_update-1.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4566/2025_03_27_technical_report_press_release_v1.pdf",
+   "timestamp": "20250406140410",
+   "wayback_url": "https://web.archive.org/web/20250406140410id_/https://genmining.com/site/assets/files/4566/2025_03_27_technical_report_press_release_v1.pdf",
+   "bytes": 338765,
+   "title": "2025_03_27_technical_report_press_release_v1.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4567/technical_report_press_release_2025_03_28.pdf",
+   "timestamp": "20250406140316",
+   "wayback_url": "https://web.archive.org/web/20250406140316id_/https://genmining.com/site/assets/files/4567/technical_report_press_release_2025_03_28.pdf",
+   "bytes": 160515,
+   "title": "technical_report_press_release_2025_03_28.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4568/genm_fs_2024-12-31.pdf",
+   "timestamp": "20250515064721",
+   "wayback_url": "https://web.archive.org/web/20250515064721id_/https://genmining.com/site/assets/files/4568/genm_fs_2024-12-31.pdf",
+   "bytes": 488088,
+   "title": "genm_fs_2024-12-31.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4568/genm_mda_2024-12-31.pdf",
+   "timestamp": "20250515063046",
+   "wayback_url": "https://web.archive.org/web/20250515063046id_/https://genmining.com/site/assets/files/4568/genm_mda_2024-12-31.pdf",
+   "bytes": 782402,
+   "title": "genm_mda_2024-12-31.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4569/generation_mining_aif_2024.pdf",
+   "timestamp": "20250515052204",
+   "wayback_url": "https://web.archive.org/web/20250515052204id_/https://genmining.com/site/assets/files/4569/generation_mining_aif_2024.pdf",
+   "bytes": 1771290,
+   "title": "generation_mining_aif_2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4571/genm_fs_2025-03-31.pdf",
+   "timestamp": "20251014094858",
+   "wayback_url": "https://web.archive.org/web/20251014094858id_/https://genmining.com/site/assets/files/4571/genm_fs_2025-03-31.pdf",
+   "bytes": 420539,
+   "title": "genm_fs_2025-03-31.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4571/genm_mda_2025-03-31.pdf",
+   "timestamp": "20251014095150",
+   "wayback_url": "https://web.archive.org/web/20251014095150id_/https://genmining.com/site/assets/files/4571/genm_mda_2025-03-31.pdf",
+   "bytes": 785795,
+   "title": "genm_mda_2025-03-31.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4572/2025_05_20_changes_to_board_of_directors.pdf",
+   "timestamp": "20250611212818",
+   "wayback_url": "https://web.archive.org/web/20250611212818id_/https://genmining.com/site/assets/files/4572/2025_05_20_changes_to_board_of_directors.pdf",
+   "bytes": 165188,
+   "title": "2025_05_20_changes_to_board_of_directors.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4575/2025_05_22_final_construction_permit_received.pdf",
+   "timestamp": "20250611212826",
+   "wayback_url": "https://web.archive.org/web/20250611212826id_/https://genmining.com/site/assets/files/4575/2025_05_22_final_construction_permit_received.pdf",
+   "bytes": 222358,
+   "title": "2025_05_22_final_construction_permit_received.pdf",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4579/2025_05_23_genm_announces_receipt_of_support_letter_from_leading_financial_lender.pdf",
+   "timestamp": "20250611212853",
+   "wayback_url": "https://web.archive.org/web/20250611212853id_/https://genmining.com/site/assets/files/4579/2025_05_23_genm_announces_receipt_of_support_letter_from_leading_financial_lender.pdf",
+   "bytes": 183373,
+   "title": "2025_05_23_genm_announces_receipt_of_support_letter_from_leading_financial_lender.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4582/2025_06_06_province_of_ontario_project_announcement.pdf",
+   "timestamp": "20250611212833",
+   "wayback_url": "https://web.archive.org/web/20250611212833id_/https://genmining.com/site/assets/files/4582/2025_06_06_province_of_ontario_project_announcement.pdf",
+   "bytes": 205218,
+   "title": "2025_06_06_province_of_ontario_project_announcement.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4583/amended_and_restated_june_2025_life_offering_document.pdf",
+   "timestamp": "20250811140439",
+   "wayback_url": "https://web.archive.org/web/20250811140439id_/https://genmining.com/site/assets/files/4583/amended_and_restated_june_2025_life_offering_document.pdf",
+   "bytes": 156713,
+   "title": "amended_and_restated_june_2025_life_offering_document.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4583/listed_issuer_financing_exemption_offering_document_june_2025.pdf",
+   "timestamp": "20260514015725",
+   "wayback_url": "https://web.archive.org/web/20260514015725id_/https://genmining.com/site/assets/files/4583/listed_issuer_financing_exemption_offering_document_june_2025.pdf",
+   "bytes": 154382,
+   "title": "listed_issuer_financing_exemption_offering_document_june_2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4584/2025_06_11_generation_mining_announces_10_million_bought_dealfinancing.pdf",
+   "timestamp": "20250716150639",
+   "wayback_url": "https://web.archive.org/web/20250716150639id_/https://genmining.com/site/assets/files/4584/2025_06_11_generation_mining_announces_10_million_bought_dealfinancing.pdf",
+   "bytes": 160490,
+   "title": "2025_06_11_generation_mining_announces_10_million_bought_dealfinancing.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4585/2025_06_24_genm_bought_deal_closing_pr.pdf",
+   "timestamp": "20250716150747",
+   "wayback_url": "https://web.archive.org/web/20250716150747id_/https://genmining.com/site/assets/files/4585/2025_06_24_genm_bought_deal_closing_pr.pdf",
+   "bytes": 224868,
+   "title": "2025_06_24_genm_bought_deal_closing_pr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4586/2025-06-24-press-release-announce-voting-results-2025.pdf",
+   "timestamp": "20250716150851",
+   "wayback_url": "https://web.archive.org/web/20250716150851id_/https://genmining.com/site/assets/files/4586/2025-06-24-press-release-announce-voting-results-2025.pdf",
+   "bytes": 103726,
+   "title": "2025-06-24-press-release-announce-voting-results-2025.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4590/2025_07_15_genm_appoints_kyle_kuntz_to_board_of_directors_v1.pdf",
+   "timestamp": "20250716150359",
+   "wayback_url": "https://web.archive.org/web/20250716150359id_/https://genmining.com/site/assets/files/4590/2025_07_15_genm_appoints_kyle_kuntz_to_board_of_directors_v1.pdf",
+   "bytes": 299837,
+   "title": "2025_07_15_genm_appoints_kyle_kuntz_to_board_of_directors_v1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4594/genm_fs_2025-06-30.pdf",
+   "timestamp": "20251014101404",
+   "wayback_url": "https://web.archive.org/web/20251014101404id_/https://genmining.com/site/assets/files/4594/genm_fs_2025-06-30.pdf",
+   "bytes": 436839,
+   "title": "genm_fs_2025-06-30.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4594/genm_mda_2025-06-30.pdf",
+   "timestamp": "20251014091729",
+   "wayback_url": "https://web.archive.org/web/20251014091729id_/https://genmining.com/site/assets/files/4594/genm_mda_2025-06-30.pdf",
+   "bytes": 800474,
+   "title": "genm_mda_2025-06-30.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4601/generation_mining_fact_sheet_-_december_2025.pdf",
+   "timestamp": "20251218021038",
+   "wayback_url": "https://web.archive.org/web/20251218021038id_/https://genmining.com/site/assets/files/4601/generation_mining_fact_sheet_-_december_2025.pdf",
+   "bytes": 361212,
+   "title": "generation_mining_fact_sheet_-_december_2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4601/generation_mining_fact_sheet_-_february_2026.pdf",
+   "timestamp": "20260417211931",
+   "wayback_url": "https://web.archive.org/web/20260417211931id_/https://genmining.com/site/assets/files/4601/generation_mining_fact_sheet_-_february_2026.pdf",
+   "bytes": 354989,
+   "title": "generation_mining_fact_sheet_-_february_2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4601/generation_mining_fact_sheet_-_january_23_2026.pdf",
+   "timestamp": "20260209030002",
+   "wayback_url": "https://web.archive.org/web/20260209030002id_/https://genmining.com/site/assets/files/4601/generation_mining_fact_sheet_-_january_23_2026.pdf",
+   "bytes": 255782,
+   "title": "generation_mining_fact_sheet_-_january_23_2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4601/generation_mining_fact_sheet_-_october_2025.pdf",
+   "timestamp": "20251107112934",
+   "wayback_url": "https://web.archive.org/web/20251107112934id_/https://genmining.com/site/assets/files/4601/generation_mining_fact_sheet_-_october_2025.pdf",
+   "bytes": 350948,
+   "title": "generation_mining_fact_sheet_-_october_2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4601/generation_mining_fact_sheet_-_september_2025.pdf",
+   "timestamp": "20251009144728",
+   "wayback_url": "https://web.archive.org/web/20251009144728id_/https://genmining.com/site/assets/files/4601/generation_mining_fact_sheet_-_september_2025.pdf",
+   "bytes": 351165,
+   "title": "generation_mining_fact_sheet_-_september_2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4605/2025_10_09_clinton_swemmer_vp_projects_appointment_news_release.pdf",
+   "timestamp": "20251009144735",
+   "wayback_url": "https://web.archive.org/web/20251009144735id_/https://genmining.com/site/assets/files/4605/2025_10_09_clinton_swemmer_vp_projects_appointment_news_release.pdf",
+   "bytes": 236465,
+   "title": "2025_10_09_clinton_swemmer_vp_projects_appointment_news_release.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4611/genm_fs_2025-09-30.pdf",
+   "timestamp": "20260417210542",
+   "wayback_url": "https://web.archive.org/web/20260417210542id_/https://genmining.com/site/assets/files/4611/genm_fs_2025-09-30.pdf",
+   "bytes": 436964,
+   "title": "genm_fs_2025-09-30.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4611/genm_mda_2025-09-30.pdf",
+   "timestamp": "20260417223229",
+   "wayback_url": "https://web.archive.org/web/20260417223229id_/https://genmining.com/site/assets/files/4611/genm_mda_2025-09-30.pdf",
+   "bytes": 794141,
+   "title": "genm_mda_2025-09-30.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4618/2025_12_09_generation_mining_claim_acquisition_final.pdf",
+   "timestamp": "20251218020847",
+   "wayback_url": "https://web.archive.org/web/20251218020847id_/https://genmining.com/site/assets/files/4618/2025_12_09_generation_mining_claim_acquisition_final.pdf",
+   "bytes": 332075,
+   "title": "2025_12_09_generation_mining_claim_acquisition_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4623/environmental_technican.pdf",
+   "timestamp": "20260110063601",
+   "wayback_url": "https://web.archive.org/web/20260110063601id_/https://genmining.com/site/assets/files/4623/environmental_technican.pdf",
+   "bytes": 76747,
+   "title": "environmental_technican.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4624/community_relations_coordinator.pdf",
+   "timestamp": "20260109201703",
+   "wayback_url": "https://web.archive.org/web/20260109201703id_/https://genmining.com/site/assets/files/4624/community_relations_coordinator.pdf",
+   "bytes": 109469,
+   "title": "community_relations_coordinator.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4627/generation_mining_2025_yearend_newsletter_final.pdf",
+   "timestamp": "20260109122402",
+   "wayback_url": "https://web.archive.org/web/20260109122402id_/https://genmining.com/site/assets/files/4627/generation_mining_2025_yearend_newsletter_final.pdf",
+   "bytes": 243734,
+   "title": "generation_mining_2025_yearend_newsletter_final.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4629/jan_7-_2026_-_generation_mining_announces_20_million_bouhgt_deal_financing.pdf",
+   "timestamp": "20260109235126",
+   "wayback_url": "https://web.archive.org/web/20260109235126id_/https://genmining.com/site/assets/files/4629/jan_7-_2026_-_generation_mining_announces_20_million_bouhgt_deal_financing.pdf",
+   "bytes": 100481,
+   "title": "jan_7-_2026_-_generation_mining_announces_20_million_bouhgt_deal_financing.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4630/jan_8-_2026_-_generation_mining_upsizes_bought_deal_financing_to_30_million.pdf",
+   "timestamp": "20260109121948",
+   "wayback_url": "https://web.archive.org/web/20260109121948id_/https://genmining.com/site/assets/files/4630/jan_8-_2026_-_generation_mining_upsizes_bought_deal_financing_to_30_million.pdf",
+   "bytes": 64385,
+   "title": "jan_8-_2026_-_generation_mining_upsizes_bought_deal_financing_to_30_million.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4631/jan_15-_2026_genm_-_generation_mining_announcing_closing_of_bought_deal_financing.pdf",
+   "timestamp": "20260115154648",
+   "wayback_url": "https://web.archive.org/web/20260115154648id_/https://genmining.com/site/assets/files/4631/jan_15-_2026_genm_-_generation_mining_announcing_closing_of_bought_deal_financing.pdf",
+   "bytes": 101956,
+   "title": "jan_15-_2026_genm_-_generation_mining_announcing_closing_of_bought_deal_financing.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4634/jan_28-_2026_generation_mining_appoints_technical_advisors_-_final.pdf",
+   "timestamp": "20260129143639",
+   "wayback_url": "https://web.archive.org/web/20260129143639id_/https://genmining.com/site/assets/files/4634/jan_28-_2026_generation_mining_appoints_technical_advisors_-_final.pdf",
+   "bytes": 120864,
+   "title": "jan_28-_2026_generation_mining_appoints_technical_advisors_-_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4642/2026_02_10_news_release_bn_placement_for_the_marathon_project.pdf",
+   "timestamp": "20260514013137",
+   "wayback_url": "https://web.archive.org/web/20260514013137id_/https://genmining.com/site/assets/files/4642/2026_02_10_news_release_bn_placement_for_the_marathon_project.pdf",
+   "bytes": 139077,
+   "title": "2026_02_10_news_release_bn_placement_for_the_marathon_project.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4658/feb_24_2026_generation_mining_strengthens_management_team.pdf",
+   "timestamp": "20260514020246",
+   "wayback_url": "https://web.archive.org/web/20260514020246id_/https://genmining.com/site/assets/files/4658/feb_24_2026_generation_mining_strengthens_management_team.pdf",
+   "bytes": 124579,
+   "title": "feb_24_2026_generation_mining_strengthens_management_team.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4662/march_2_2025_-_generation_mining_awards_epcm_contract_to_ausenco.pdf",
+   "timestamp": "20260514004841",
+   "wayback_url": "https://web.archive.org/web/20260514004841id_/https://genmining.com/site/assets/files/4662/march_2_2025_-_generation_mining_awards_epcm_contract_to_ausenco.pdf",
+   "bytes": 151506,
+   "title": "march_2_2025_-_generation_mining_awards_epcm_contract_to_ausenco.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4669/genm_fs_2025-12-31.pdf",
+   "timestamp": "20260514012617",
+   "wayback_url": "https://web.archive.org/web/20260514012617id_/https://genmining.com/site/assets/files/4669/genm_fs_2025-12-31.pdf",
+   "bytes": 1026374,
+   "title": "genm_fs_2025-12-31.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4669/genm_mda_2025-12-31.pdf",
+   "timestamp": "20260514015151",
+   "wayback_url": "https://web.archive.org/web/20260514015151id_/https://genmining.com/site/assets/files/4669/genm_mda_2025-12-31.pdf",
+   "bytes": 963204,
+   "title": "genm_mda_2025-12-31.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4670/generation_mining_aif_2025.pdf",
+   "timestamp": "20260514020609",
+   "wayback_url": "https://web.archive.org/web/20260514020609id_/https://genmining.com/site/assets/files/4670/generation_mining_aif_2025.pdf",
+   "bytes": 3326146,
+   "title": "generation_mining_aif_2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4673/generation_mining_presentation_-_april_2026_web_version.pdf",
+   "timestamp": "20260514004733",
+   "wayback_url": "https://web.archive.org/web/20260514004733id_/https://genmining.com/site/assets/files/4673/generation_mining_presentation_-_april_2026_web_version.pdf",
+   "bytes": 2495307,
+   "title": "generation_mining_presentation_-_april_2026_web_version.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4675/generation_mining_fact_sheet_-_april_2026.pdf",
+   "timestamp": "20260417215549",
+   "wayback_url": "https://web.archive.org/web/20260417215549id_/https://genmining.com/site/assets/files/4675/generation_mining_fact_sheet_-_april_2026.pdf",
+   "bytes": 182852,
+   "title": "generation_mining_fact_sheet_-_april_2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4675/generation_mining_fact_sheet_-_may_2026.pdf",
+   "timestamp": "20260518121127",
+   "wayback_url": "https://web.archive.org/web/20260518121127id_/https://genmining.com/site/assets/files/4675/generation_mining_fact_sheet_-_may_2026.pdf",
+   "bytes": 277857,
+   "title": "generation_mining_fact_sheet_-_may_2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://genmining.com/site/assets/files/4687/gennm_pr_credit_approval_17_06_2026_final.pdf",
+   "timestamp": "20260707193924",
+   "wayback_url": "https://web.archive.org/web/20260707193924id_/https://genmining.com/site/assets/files/4687/gennm_pr_credit_approval_17_06_2026_final.pdf",
+   "bytes": 131251,
+   "title": "gennm_pr_credit_approval_17_06_2026_final.pdf",
+   "type": "permit_approval",
+   "noise": false
+  }
+ ],
+ "doc_types": {
+  "other": 285,
+  "technical": 41,
+  "newsletter": 8,
+  "engagement": 2,
+  "presentation": 11,
+  "monitoring": 5,
+  "closure": 5,
+  "permit_approval": 4
+ }
+}

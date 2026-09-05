@@ -1,0 +1,4092 @@
+{
+ "key": "iron ore  of canada",
+ "name": "Iron Ore Company of Canada",
+ "host": "ironore.ca",
+ "harvested_at": "2026-09-05T03:23:55Z",
+ "docs": [
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/mtp/M2P_Automne_2008_Basse_RES.pdf",
+   "timestamp": "20161020131438",
+   "wayback_url": "https://web.archive.org/web/20161020131438id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/mtp/M2P_Automne_2008_Basse_RES.pdf",
+   "bytes": 4208812,
+   "title": "M2P_Automne_2008_Basse_RES.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/mtp/M2P_autumn%202007_16_M2P.pdf",
+   "timestamp": "20160910000047",
+   "wayback_url": "https://web.archive.org/web/20160910000047id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/mtp/M2P_autumn%202007_16_M2P.pdf",
+   "bytes": 2159343,
+   "title": "M2P_autumn 2007_16_M2P.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/mtp/MinetoPort_Winter2011.pdf",
+   "timestamp": "20180820082054",
+   "wayback_url": "https://web.archive.org/web/20180820082054id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/mtp/MinetoPort_Winter2011.pdf",
+   "bytes": 4074788,
+   "title": "MinetoPort_Winter2011.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/mtp/MTP_winter_2010_final.pdf",
+   "timestamp": "20130530174422",
+   "wayback_url": "https://web.archive.org/web/20130530174422id_/http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/mtp/MTP_winter_2010_final.pdf",
+   "bytes": 2459355,
+   "title": "MTP_winter_2010_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/Permis_de_Travail_en_hauteur.pdf",
+   "timestamp": "20171215103052",
+   "wayback_url": "https://web.archive.org/web/20171215103052id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/Permis_de_Travail_en_hauteur.pdf",
+   "bytes": 74891,
+   "title": "Permis_de_Travail_en_hauteur.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/SD_Report_2010_FINALE_EN.pdf",
+   "timestamp": "20150830071817",
+   "wayback_url": "https://web.archive.org/web/20150830071817id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/SD_Report_2010_FINALE_EN.pdf",
+   "bytes": 519278,
+   "title": "SD_Report_2010_FINALE_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/2004_SD_Report_EN.pdf",
+   "timestamp": "20150830071842",
+   "wayback_url": "https://web.archive.org/web/20150830071842id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/2004_SD_Report_EN.pdf",
+   "bytes": 689646,
+   "title": "2004_SD_Report_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/2005_SD_Report_EN.pdf",
+   "timestamp": "20150830071908",
+   "wayback_url": "https://web.archive.org/web/20150830071908id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/2005_SD_Report_EN.pdf",
+   "bytes": 2128181,
+   "title": "2005_SD_Report_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/2007_SD_Report_EN.pdf",
+   "timestamp": "20150824043916",
+   "wayback_url": "https://web.archive.org/web/20150824043916id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/2007_SD_Report_EN.pdf",
+   "bytes": 7550643,
+   "title": "2007_SD_Report_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/2008_SD_Report_EN.pdf",
+   "timestamp": "20150824043920",
+   "wayback_url": "https://web.archive.org/web/20150824043920id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/2008_SD_Report_EN.pdf",
+   "bytes": 2481327,
+   "title": "2008_SD_Report_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/2012_IOC_Sustainable_Report_EN.pdf",
+   "timestamp": "20150830071914",
+   "wayback_url": "https://web.archive.org/web/20150830071914id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/2012_IOC_Sustainable_Report_EN.pdf",
+   "bytes": 8540128,
+   "title": "2012_IOC_Sustainable_Report_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/201304_The_Labrador_Trough_and_IOCs_Competitive_Advantage.pdf",
+   "timestamp": "20150501085017",
+   "wayback_url": "https://web.archive.org/web/20150501085017id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/201304_The_Labrador_Trough_and_IOCs_Competitive_Advantage.pdf",
+   "bytes": 558113,
+   "title": "201304_The_Labrador_Trough_and_IOCs_Competitive_Advantage.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/2013_SD_Report_EN.pdf",
+   "timestamp": "20150830072838",
+   "wayback_url": "https://web.archive.org/web/20150830072838id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/2013_SD_Report_EN.pdf",
+   "bytes": 5081993,
+   "title": "2013_SD_Report_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/2014_SD_Report_EN.pdf",
+   "timestamp": "20150830071805",
+   "wayback_url": "https://web.archive.org/web/20150830071805id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/2014_SD_Report_EN.pdf",
+   "bytes": 5750159,
+   "title": "2014_SD_Report_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/sys_docs/2014_SD_Report_FR.pdf",
+   "timestamp": "20150611202831",
+   "wayback_url": "https://web.archive.org/web/20150611202831id_/http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/sys_docs/2014_SD_Report_FR.pdf",
+   "bytes": 5964629,
+   "title": "2014_SD_Report_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/sys_docs/Air_Quality_Fact_Sheet__June_Update.pdf",
+   "timestamp": "20160306204919",
+   "wayback_url": "https://web.archive.org/web/20160306204919id_/http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/sys_docs/Air_Quality_Fact_Sheet__June_Update.pdf",
+   "bytes": 127163,
+   "title": "Air_Quality_Fact_Sheet__June_Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/Cable_Pulling_SPL_Nov_15_2012.PDF",
+   "timestamp": "20180417133726",
+   "wayback_url": "https://web.archive.org/web/20180417133726id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/Cable_Pulling_SPL_Nov_15_2012.PDF",
+   "bytes": 40652,
+   "title": "Cable_Pulling_SPL_Nov_15_2012.PDF",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/CRSEPRO_Working_at_Heights.pdf",
+   "timestamp": "20190713094013",
+   "wayback_url": "https://web.archive.org/web/20190713094013id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/CRSEPRO_Working_at_Heights.pdf",
+   "bytes": 288475,
+   "title": "CRSEPRO_Working_at_Heights.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/CRSEWP_Barricading.pdf",
+   "timestamp": "20181123134443",
+   "wayback_url": "https://web.archive.org/web/20181123134443id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/CRSEWP_Barricading.pdf",
+   "bytes": 285173,
+   "title": "CRSEWP_Barricading.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/HSECQ_Policy.pdf",
+   "timestamp": "20150608122456",
+   "wayback_url": "https://web.archive.org/web/20150608122456id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/HSECQ_Policy.pdf",
+   "bytes": 4574398,
+   "title": "HSECQ_Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/Hydro_Memo.pdf",
+   "timestamp": "20180820082103",
+   "wayback_url": "https://web.archive.org/web/20180820082103id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/Hydro_Memo.pdf",
+   "bytes": 137433,
+   "title": "Hydro_Memo.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/Hydro_Memo_Illustration.pdf",
+   "timestamp": "20180820081724",
+   "wayback_url": "https://web.archive.org/web/20180820081724id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/Hydro_Memo_Illustration.pdf",
+   "bytes": 179806,
+   "title": "Hydro_Memo_Illustration.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/sys_docs/IOC_Sustainable_develop_report_2011_en.pdf",
+   "timestamp": "20131207162330",
+   "wayback_url": "https://web.archive.org/web/20131207162330id_/http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/sys_docs/IOC_Sustainable_develop_report_2011_en.pdf",
+   "bytes": 3866210,
+   "title": "IOC_Sustainable_develop_report_2011_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/IOCSEPRO_Hot_Work.pdf",
+   "timestamp": "20190713080422",
+   "wayback_url": "https://web.archive.org/web/20190713080422id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/IOCSEPRO_Hot_Work.pdf",
+   "bytes": 218659,
+   "title": "IOCSEPRO_Hot_Work.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/Loading_dock_vessel_line_up.pdf?",
+   "timestamp": "20160909231112",
+   "wayback_url": "https://web.archive.org/web/20160909231112id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/Loading_dock_vessel_line_up.pdf?",
+   "bytes": 183648,
+   "title": "Loading_dock_vessel_line_up.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/sys_docs/Loading_dock_vessel_line_up.pdf?v=1417031340",
+   "timestamp": "20160919090413",
+   "wayback_url": "https://web.archive.org/web/20160919090413id_/http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/sys_docs/Loading_dock_vessel_line_up.pdf?v=1417031340",
+   "bytes": 183487,
+   "title": "Loading_dock_vessel_line_up.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/sys_docs/Loading_dock_vessel_line_up.pdf?v=1474050898",
+   "timestamp": "20160919085751",
+   "wayback_url": "https://web.archive.org/web/20160919085751id_/http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/sys_docs/Loading_dock_vessel_line_up.pdf?v=1474050898",
+   "bytes": 183489,
+   "title": "Loading_dock_vessel_line_up.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/sys_docs/Notre_approche__de_lentreprise.pdf",
+   "timestamp": "20160314135957",
+   "wayback_url": "https://web.archive.org/web/20160314135957id_/http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/sys_docs/Notre_approche__de_lentreprise.pdf",
+   "bytes": 687208,
+   "title": "Notre_approche__de_lentreprise.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/sys_docs/The_way_we_work__English.pdf",
+   "timestamp": "20160628173844",
+   "wayback_url": "https://web.archive.org/web/20160628173844id_/http://www.ironore.ca/CLIENTS/1-iocv4/docs/upload/sys_docs/The_way_we_work__English.pdf",
+   "bytes": 678797,
+   "title": "The_way_we_work__English.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/WAH_Permit__V2.pdf",
+   "timestamp": "20171215174920",
+   "wayback_url": "https://web.archive.org/web/20171215174920id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/WAH_Permit__V2.pdf",
+   "bytes": 38800,
+   "title": "WAH_Permit__V2.pdf",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/ZVSFPRO_Grues_et_equipements_de_levage.pdf",
+   "timestamp": "20171215182007",
+   "wayback_url": "https://web.archive.org/web/20171215182007id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/ZVSFPRO_Grues_et_equipements_de_levage.pdf",
+   "bytes": 112731,
+   "title": "ZVSFPRO_Grues_et_equipements_de_levage.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/ZVSFPRO_Travail_en_hauteur.pdf",
+   "timestamp": "20171215103556",
+   "wayback_url": "https://web.archive.org/web/20171215103556id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/ZVSFPRO_Travail_en_hauteur.pdf",
+   "bytes": 340596,
+   "title": "ZVSFPRO_Travail_en_hauteur.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/2005rapenv_IOC_eng_low.pdf",
+   "timestamp": "20101203140257",
+   "wayback_url": "https://web.archive.org/web/20101203140257id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/2005rapenv_IOC_eng_low.pdf",
+   "bytes": 1517244,
+   "title": "2005rapenv_IOC_eng_low.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/2005rapenv_IOC_fr_low.pdf",
+   "timestamp": "20101224005040",
+   "wayback_url": "https://web.archive.org/web/20101224005040id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/2005rapenv_IOC_fr_low.pdf",
+   "bytes": 1050745,
+   "title": "2005rapenv_IOC_fr_low.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/2005rapenv_IOC_Long_low_en.pdf",
+   "timestamp": "20101203140223",
+   "wayback_url": "https://web.archive.org/web/20101203140223id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/2005rapenv_IOC_Long_low_en.pdf",
+   "bytes": 2128219,
+   "title": "2005rapenv_IOC_Long_low_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/2005rapenv_IOC_Long_low_fr.pdf",
+   "timestamp": "20101224005159",
+   "wayback_url": "https://web.archive.org/web/20101224005159id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/2005rapenv_IOC_Long_low_fr.pdf",
+   "bytes": 2173269,
+   "title": "2005rapenv_IOC_Long_low_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-ironore/docs/upload/2009_QMS_SAI_EN.pdf",
+   "timestamp": "20110601025740",
+   "wayback_url": "https://web.archive.org/web/20110601025740id_/http://www.ironore.ca:80/CLIENTS/1-ironore/docs/upload/2009_QMS_SAI_EN.pdf",
+   "bytes": 151056,
+   "title": "2009_QMS_SAI_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/A3Procedurerev2.pdf",
+   "timestamp": "20101203135204",
+   "wayback_url": "https://web.archive.org/web/20101203135204id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/A3Procedurerev2.pdf",
+   "bytes": 44536,
+   "title": "A3Procedurerev2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Album_IOC_50.pdf",
+   "timestamp": "20101203142559",
+   "wayback_url": "https://web.archive.org/web/20101203142559id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Album_IOC_50.pdf",
+   "bytes": 14181219,
+   "title": "Album_IOC_50.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/AP_Low_18__100315.pdf",
+   "timestamp": "20101203142130",
+   "wayback_url": "https://web.archive.org/web/20101203142130id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/AP_Low_18__100315.pdf",
+   "bytes": 331677,
+   "title": "AP_Low_18__100315.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/050511_COM_Great_Blue_Heron_Award.pdf",
+   "timestamp": "20101203135325",
+   "wayback_url": "https://web.archive.org/web/20101203135325id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/050511_COM_Great_Blue_Heron_Award.pdf",
+   "bytes": 63171,
+   "title": "050511_COM_Great_Blue_Heron_Award.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/050511_COM_Prix_Great_Blue_Heron.pdf",
+   "timestamp": "20101224004428",
+   "wayback_url": "https://web.archive.org/web/20101224004428id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/050511_COM_Prix_Great_Blue_Heron.pdf",
+   "bytes": 63838,
+   "title": "050511_COM_Prix_Great_Blue_Heron.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/070508_Press_Safety_award.pdf",
+   "timestamp": "20101203135352",
+   "wayback_url": "https://web.archive.org/web/20101203135352id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/070508_Press_Safety_award.pdf",
+   "bytes": 12739,
+   "title": "070508_Press_Safety_award.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/070611_PRESS_FJ_OConnell_award.pdf",
+   "timestamp": "20101203135638",
+   "wayback_url": "https://web.archive.org/web/20101203135638id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/070611_PRESS_FJ_OConnell_award.pdf",
+   "bytes": 32728,
+   "title": "070611_PRESS_FJ_OConnell_award.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/070611_PRESSE_Trophee_FJ__OConnell.pdf",
+   "timestamp": "20101224004319",
+   "wayback_url": "https://web.archive.org/web/20101224004319id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/070611_PRESSE_Trophee_FJ__OConnell.pdf",
+   "bytes": 33962,
+   "title": "070611_PRESSE_Trophee_FJ__OConnell.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/080612_PRESS_John_TRyan_Safety_Award.pdf",
+   "timestamp": "20101203140000",
+   "wayback_url": "https://web.archive.org/web/20101203140000id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/080612_PRESS_John_TRyan_Safety_Award.pdf",
+   "bytes": 36027,
+   "title": "080612_PRESS_John_TRyan_Safety_Award.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/080612_PRESSE_John_TRyan_Safety_Award.pdf",
+   "timestamp": "20101224004344",
+   "wayback_url": "https://web.archive.org/web/20101224004344id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/080612_PRESSE_John_TRyan_Safety_Award.pdf",
+   "bytes": 36861,
+   "title": "080612_PRESSE_John_TRyan_Safety_Award.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/090109_QNSL_prix_securite_Gestion_fatigue.pdf",
+   "timestamp": "20101224004228",
+   "wayback_url": "https://web.archive.org/web/20101224004228id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/090109_QNSL_prix_securite_Gestion_fatigue.pdf",
+   "bytes": 14611,
+   "title": "090109_QNSL_prix_securite_Gestion_fatigue.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/090109_QNSL_safety_award_for_fatigue_management.pdf",
+   "timestamp": "20101203135418",
+   "wayback_url": "https://web.archive.org/web/20101203135418id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/090109_QNSL_safety_award_for_fatigue_management.pdf",
+   "bytes": 13894,
+   "title": "090109_QNSL_safety_award_for_fatigue_management.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/090508_PRESS_Terry_Bowles_Top_50_CEO_Award.pdf",
+   "timestamp": "20101203135818",
+   "wayback_url": "https://web.archive.org/web/20101203135818id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/090508_PRESS_Terry_Bowles_Top_50_CEO_Award.pdf",
+   "bytes": 13890,
+   "title": "090508_PRESS_Terry_Bowles_Top_50_CEO_Award.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/090508_PRESSE_Terry_Bowles_Top_Prix_50_CEO.pdf",
+   "timestamp": "20101224004407",
+   "wayback_url": "https://web.archive.org/web/20101224004407id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/090508_PRESSE_Terry_Bowles_Top_Prix_50_CEO.pdf",
+   "bytes": 14478,
+   "title": "090508_PRESSE_Terry_Bowles_Top_Prix_50_CEO.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/090512_PRESS_Syncrude_Award.pdf",
+   "timestamp": "20101203135616",
+   "wayback_url": "https://web.archive.org/web/20101203135616id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/090512_PRESS_Syncrude_Award.pdf",
+   "bytes": 15653,
+   "title": "090512_PRESS_Syncrude_Award.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/090512_PRESSE_Prix_Syncrude.pdf",
+   "timestamp": "20101224004254",
+   "wayback_url": "https://web.archive.org/web/20101224004254id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/awards/090512_PRESSE_Prix_Syncrude.pdf",
+   "bytes": 16207,
+   "title": "090512_PRESSE_Prix_Syncrude.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/C1_Isolation_Safety_Talk.PDF",
+   "timestamp": "20101223211502",
+   "wayback_url": "https://web.archive.org/web/20101223211502id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/C1_Isolation_Safety_Talk.PDF",
+   "bytes": 2326505,
+   "title": "C1_Isolation_Safety_Talk.PDF",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Chamber_of_Commerce_2007.pdf",
+   "timestamp": "20101223211538",
+   "wayback_url": "https://web.archive.org/web/20101223211538id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Chamber_of_Commerce_2007.pdf",
+   "bytes": 245171,
+   "title": "Chamber_of_Commerce_2007.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Chambre_de_Commerce_2007.pdf",
+   "timestamp": "20101223233130",
+   "wayback_url": "https://web.archive.org/web/20101223233130id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Chambre_de_Commerce_2007.pdf",
+   "bytes": 170039,
+   "title": "Chambre_de_Commerce_2007.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Comite_Piquenique.pdf",
+   "timestamp": "20101224005447",
+   "wayback_url": "https://web.archive.org/web/20101224005447id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Comite_Piquenique.pdf",
+   "bytes": 618647,
+   "title": "Comite_Piquenique.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Competencies_Interviews_Feb_2010.pdf",
+   "timestamp": "20101223212053",
+   "wayback_url": "https://web.archive.org/web/20101223212053id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Competencies_Interviews_Feb_2010.pdf",
+   "bytes": 58000,
+   "title": "Competencies_Interviews_Feb_2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Contractor_Guide.pdf",
+   "timestamp": "20101203135139",
+   "wayback_url": "https://web.archive.org/web/20101203135139id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Contractor_Guide.pdf",
+   "bytes": 127012,
+   "title": "Contractor_Guide.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Denis_Dionne.pdf",
+   "timestamp": "20101224005234",
+   "wayback_url": "https://web.archive.org/web/20101224005234id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Denis_Dionne.pdf",
+   "bytes": 214462,
+   "title": "Denis_Dionne.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Des_nouvelles_de_expansion_11_mars_2008.pdf",
+   "timestamp": "20101224010217",
+   "wayback_url": "https://web.archive.org/web/20101224010217id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Des_nouvelles_de_expansion_11_mars_2008.pdf",
+   "bytes": 1897440,
+   "title": "Des_nouvelles_de_expansion_11_mars_2008.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Environment_Week_Promotion_070601.pdf",
+   "timestamp": "20101203141946",
+   "wayback_url": "https://web.archive.org/web/20101203141946id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Environment_Week_Promotion_070601.pdf",
+   "bytes": 76496,
+   "title": "Environment_Week_Promotion_070601.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Expansion_News_March_11_2008.pdf",
+   "timestamp": "20101203140806",
+   "wayback_url": "https://web.archive.org/web/20101203140806id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Expansion_News_March_11_2008.pdf",
+   "bytes": 1808752,
+   "title": "Expansion_News_March_11_2008.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FACT_SHEET_IOC__CAROL_PROJECT_EN.pdf",
+   "timestamp": "20101203141051",
+   "wayback_url": "https://web.archive.org/web/20101203141051id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FACT_SHEET_IOC__CAROL_PROJECT_EN.pdf",
+   "bytes": 54150,
+   "title": "FACT_SHEET_IOC__CAROL_PROJECT_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FACT_SHEET_IOC__ENVIRONMENTAL_COMMITMENT_EN.pdf",
+   "timestamp": "20101203141025",
+   "wayback_url": "https://web.archive.org/web/20101203141025id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FACT_SHEET_IOC__ENVIRONMENTAL_COMMITMENT_EN.pdf",
+   "bytes": 46442,
+   "title": "FACT_SHEET_IOC__ENVIRONMENTAL_COMMITMENT_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FACT_SHEET_IOC__FLOCCULATION_TRIALS_EN.pdf",
+   "timestamp": "20101203141110",
+   "wayback_url": "https://web.archive.org/web/20101203141110id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FACT_SHEET_IOC__FLOCCULATION_TRIALS_EN.pdf",
+   "bytes": 63615,
+   "title": "FACT_SHEET_IOC__FLOCCULATION_TRIALS_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FACT_SHEET_IOC__MISSION__VALUES_EN.pdf",
+   "timestamp": "20101203140852",
+   "wayback_url": "https://web.archive.org/web/20101203140852id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FACT_SHEET_IOC__MISSION__VALUES_EN.pdf",
+   "bytes": 53078,
+   "title": "FACT_SHEET_IOC__MISSION__VALUES_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FACT_SHEET_IOC__WHAT_ARE_TAILINGS_EN.pdf",
+   "timestamp": "20101203140911",
+   "wayback_url": "https://web.archive.org/web/20101203140911id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FACT_SHEET_IOC__WHAT_ARE_TAILINGS_EN.pdf",
+   "bytes": 43883,
+   "title": "FACT_SHEET_IOC__WHAT_ARE_TAILINGS_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Family_Day080819.pdf",
+   "timestamp": "20101203141454",
+   "wayback_url": "https://web.archive.org/web/20101203141454id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Family_Day080819.pdf",
+   "bytes": 798039,
+   "title": "Family_Day080819.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FICHE_TECHNIQUE_IOC__DESCRIPTION_ET_AVANTAGES.pdf",
+   "timestamp": "20101224005537",
+   "wayback_url": "https://web.archive.org/web/20101224005537id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FICHE_TECHNIQUE_IOC__DESCRIPTION_ET_AVANTAGES.pdf",
+   "bytes": 60991,
+   "title": "FICHE_TECHNIQUE_IOC__DESCRIPTION_ET_AVANTAGES.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FICHE_TECHNIQUE_IOC__ENGAGEMENT_ENVIRONNEMENTAL.pdf",
+   "timestamp": "20101224010008",
+   "wayback_url": "https://web.archive.org/web/20101224010008id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FICHE_TECHNIQUE_IOC__ENGAGEMENT_ENVIRONNEMENTAL.pdf",
+   "bytes": 44874,
+   "title": "FICHE_TECHNIQUE_IOC__ENGAGEMENT_ENVIRONNEMENTAL.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FICHE_TECHNIQUE_IOC__MISSION_ET_VALEURS.pdf",
+   "timestamp": "20101224005514",
+   "wayback_url": "https://web.archive.org/web/20101224005514id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FICHE_TECHNIQUE_IOC__MISSION_ET_VALEURS.pdf",
+   "bytes": 53454,
+   "title": "FICHE_TECHNIQUE_IOC__MISSION_ET_VALEURS.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FICHE_TECHNIQUE_IOC__PROJET_CAROL.pdf",
+   "timestamp": "20101224005605",
+   "wayback_url": "https://web.archive.org/web/20101224005605id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FICHE_TECHNIQUE_IOC__PROJET_CAROL.pdf",
+   "bytes": 50282,
+   "title": "FICHE_TECHNIQUE_IOC__PROJET_CAROL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FICHE_TECHNIQUE_IOC__RESIDUS_MINIERS.pdf",
+   "timestamp": "20101224005919",
+   "wayback_url": "https://web.archive.org/web/20101224005919id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/FICHE_TECHNIQUE_IOC__RESIDUS_MINIERS.pdf",
+   "bytes": 40545,
+   "title": "FICHE_TECHNIQUE_IOC__RESIDUS_MINIERS.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Gerard_Brenton_080507.pdf",
+   "timestamp": "20101203141612",
+   "wayback_url": "https://web.archive.org/web/20101203141612id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Gerard_Brenton_080507.pdf",
+   "bytes": 571813,
+   "title": "Gerard_Brenton_080507.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/graduateEN.PDF",
+   "timestamp": "20101223211725",
+   "wayback_url": "https://web.archive.org/web/20101223211725id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/graduateEN.PDF",
+   "bytes": 531082,
+   "title": "graduateEN.PDF",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Harry_Hollett_080921.pdf",
+   "timestamp": "20101203141521",
+   "wayback_url": "https://web.archive.org/web/20101203141521id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Harry_Hollett_080921.pdf",
+   "bytes": 563681,
+   "title": "Harry_Hollett_080921.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-ironore/docs/upload/Information_H1N1_en.pdf",
+   "timestamp": "20100326075525",
+   "wayback_url": "https://web.archive.org/web/20100326075525id_/http://www.ironore.ca:80/CLIENTS/1-ironore/docs/upload/Information_H1N1_en.pdf",
+   "bytes": 350753,
+   "title": "Information_H1N1_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOC_Background_Insert_EN.pdf",
+   "timestamp": "20101203140634",
+   "wayback_url": "https://web.archive.org/web/20101203140634id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOC_Background_Insert_EN.pdf",
+   "bytes": 4105472,
+   "title": "IOC_Background_Insert_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOC_BROCHURE_TAILINGS_EN.pdf",
+   "timestamp": "20101203140931",
+   "wayback_url": "https://web.archive.org/web/20101203140931id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOC_BROCHURE_TAILINGS_EN.pdf",
+   "bytes": 1927320,
+   "title": "IOC_BROCHURE_TAILINGS_EN.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOC_DD2008_ab.pdf",
+   "timestamp": "20101224010040",
+   "wayback_url": "https://web.archive.org/web/20101224010040id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOC_DD2008_ab.pdf",
+   "bytes": 2402476,
+   "title": "IOC_DD2008_ab.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOC_ENV_REP_2004_EN.pdf",
+   "timestamp": "20101203140453",
+   "wayback_url": "https://web.archive.org/web/20101203140453id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOC_ENV_REP_2004_EN.pdf",
+   "bytes": 689715,
+   "title": "IOC_ENV_REP_2004_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOC_ENV_REP_2004_FR.pdf",
+   "timestamp": "20101224004925",
+   "wayback_url": "https://web.archive.org/web/20101224004925id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOC_ENV_REP_2004_FR.pdf",
+   "bytes": 2635180,
+   "title": "IOC_ENV_REP_2004_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOC_SD2008_en.pdf",
+   "timestamp": "20101203142451",
+   "wayback_url": "https://web.archive.org/web/20101203142451id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOC_SD2008_en.pdf",
+   "bytes": 2481441,
+   "title": "IOC_SD2008_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOCfeatureCIMen.pdf",
+   "timestamp": "20101203142535",
+   "wayback_url": "https://web.archive.org/web/20101203142535id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOCfeatureCIMen.pdf",
+   "bytes": 629028,
+   "title": "IOCfeatureCIMen.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOCfeatureCIMfr.pdf",
+   "timestamp": "20101223223436",
+   "wayback_url": "https://web.archive.org/web/20101223223436id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/IOCfeatureCIMfr.pdf",
+   "bytes": 1765439,
+   "title": "IOCfeatureCIMfr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Jean_Renaud.pdf",
+   "timestamp": "20101224005352",
+   "wayback_url": "https://web.archive.org/web/20101224005352id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Jean_Renaud.pdf",
+   "bytes": 65148,
+   "title": "Jean_Renaud.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Lerichebrothers080631.pdf",
+   "timestamp": "20101203141549",
+   "wayback_url": "https://web.archive.org/web/20101203141549id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Lerichebrothers080631.pdf",
+   "bytes": 180750,
+   "title": "Lerichebrothers080631.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Louis_Villeneuve.pdf",
+   "timestamp": "20101224005300",
+   "wayback_url": "https://web.archive.org/web/20101224005300id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Louis_Villeneuve.pdf",
+   "bytes": 589482,
+   "title": "Louis_Villeneuve.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/M2P_Expansion_EN_oct_08.pdf",
+   "timestamp": "20101203140742",
+   "wayback_url": "https://web.archive.org/web/20101203140742id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/M2P_Expansion_EN_oct_08.pdf",
+   "bytes": 1080396,
+   "title": "M2P_Expansion_EN_oct_08.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/M2P_Expansion_FR_oct_08.pdf",
+   "timestamp": "20101224010255",
+   "wayback_url": "https://web.archive.org/web/20101224010255id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/M2P_Expansion_FR_oct_08.pdf",
+   "bytes": 1039753,
+   "title": "M2P_Expansion_FR_oct_08.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Melanie_Besnier.pdf",
+   "timestamp": "20101224005415",
+   "wayback_url": "https://web.archive.org/web/20101224005415id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Melanie_Besnier.pdf",
+   "bytes": 632189,
+   "title": "Melanie_Besnier.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Mine_to_port5august_EN.pdf",
+   "timestamp": "20101203140718",
+   "wayback_url": "https://web.archive.org/web/20101203140718id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Mine_to_port5august_EN.pdf",
+   "bytes": 294750,
+   "title": "Mine_to_port5august_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Mine_to_port5august_FR.pdf",
+   "timestamp": "20101224010150",
+   "wayback_url": "https://web.archive.org/web/20101224010150id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Mine_to_port5august_FR.pdf",
+   "bytes": 301784,
+   "title": "Mine_to_port5august_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/MTAPP16expdate.pdf",
+   "timestamp": "20101203142829",
+   "wayback_url": "https://web.archive.org/web/20101203142829id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/MTAPP16expdate.pdf",
+   "bytes": 131723,
+   "title": "MTAPP16expdate.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_automne_2007_16_M2P.pdf",
+   "timestamp": "20101223233954",
+   "wayback_url": "https://web.archive.org/web/20101223233954id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_automne_2007_16_M2P.pdf",
+   "bytes": 2139600,
+   "title": "M2P_automne_2007_16_M2P.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_Automne_2008_Basse_RES.pdf",
+   "timestamp": "20101223233318",
+   "wayback_url": "https://web.archive.org/web/20101223233318id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_Automne_2008_Basse_RES.pdf",
+   "bytes": 4208823,
+   "title": "M2P_Automne_2008_Basse_RES.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_ete_08.pdf",
+   "timestamp": "20101223234033",
+   "wayback_url": "https://web.archive.org/web/20101223234033id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_ete_08.pdf",
+   "bytes": 3836233,
+   "title": "M2P_ete_08.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_ete_2009_coul_OP.pdf",
+   "timestamp": "20101223234248",
+   "wayback_url": "https://web.archive.org/web/20101223234248id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_ete_2009_coul_OP.pdf",
+   "bytes": 1196373,
+   "title": "M2P_ete_2009_coul_OP.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_fall_06_EN.pdf",
+   "timestamp": "20101223201147",
+   "wayback_url": "https://web.archive.org/web/20101223201147id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_fall_06_EN.pdf",
+   "bytes": 2244095,
+   "title": "M2P_fall_06_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_fall_06_FR.pdf",
+   "timestamp": "20101223234639",
+   "wayback_url": "https://web.archive.org/web/20101223234639id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_fall_06_FR.pdf",
+   "bytes": 2167356,
+   "title": "M2P_fall_06_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_Fall_2008_ENG_low.pdf",
+   "timestamp": "20101223201752",
+   "wayback_url": "https://web.archive.org/web/20101223201752id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_Fall_2008_ENG_low.pdf",
+   "bytes": 1572948,
+   "title": "M2P_Fall_2008_ENG_low.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_Hiver_2008_FR.pdf",
+   "timestamp": "20101223233846",
+   "wayback_url": "https://web.archive.org/web/20101223233846id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_Hiver_2008_FR.pdf",
+   "bytes": 1552152,
+   "title": "M2P_Hiver_2008_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_juin_06_EN.pdf",
+   "timestamp": "20101223201632",
+   "wayback_url": "https://web.archive.org/web/20101223201632id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_juin_06_EN.pdf",
+   "bytes": 1957646,
+   "title": "M2P_juin_06_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_juin_06_FR.pdf",
+   "timestamp": "20101223234445",
+   "wayback_url": "https://web.archive.org/web/20101223234445id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_juin_06_FR.pdf",
+   "bytes": 1609799,
+   "title": "M2P_juin_06_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_printemps2006.pdf",
+   "timestamp": "20101223233513",
+   "wayback_url": "https://web.archive.org/web/20101223233513id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_printemps2006.pdf",
+   "bytes": 1005221,
+   "title": "M2P_printemps2006.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_Printemps_2009.pdf",
+   "timestamp": "20101223233548",
+   "wayback_url": "https://web.archive.org/web/20101223233548id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_Printemps_2009.pdf",
+   "bytes": 3473615,
+   "title": "M2P_Printemps_2009.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_spr_08_EN_.pdf",
+   "timestamp": "20101223202159",
+   "wayback_url": "https://web.archive.org/web/20101223202159id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_spr_08_EN_.pdf",
+   "bytes": 2348725,
+   "title": "M2P_spr_08_EN_.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_spr_08_FR.pdf",
+   "timestamp": "20101223233919",
+   "wayback_url": "https://web.archive.org/web/20101223233919id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_spr_08_FR.pdf",
+   "bytes": 2298399,
+   "title": "M2P_spr_08_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_spring2006.pdf",
+   "timestamp": "20101223201828",
+   "wayback_url": "https://web.archive.org/web/20101223201828id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_spring2006.pdf",
+   "bytes": 1697893,
+   "title": "M2P_spring2006.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_spring_07_EN.pdf",
+   "timestamp": "20101223202100",
+   "wayback_url": "https://web.archive.org/web/20101223202100id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_spring_07_EN.pdf",
+   "bytes": 742868,
+   "title": "M2P_spring_07_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_spring_07_FR.pdf",
+   "timestamp": "20101223233811",
+   "wayback_url": "https://web.archive.org/web/20101223233811id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_spring_07_FR.pdf",
+   "bytes": 722196,
+   "title": "M2P_spring_07_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_Spring_2009_ENG.pdf",
+   "timestamp": "20101223201937",
+   "wayback_url": "https://web.archive.org/web/20101223201937id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_Spring_2009_ENG.pdf",
+   "bytes": 3421581,
+   "title": "M2P_Spring_2009_ENG.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_summer_08.pdf",
+   "timestamp": "20101223200908",
+   "wayback_url": "https://web.archive.org/web/20101223200908id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_summer_08.pdf",
+   "bytes": 4237085,
+   "title": "M2P_summer_08.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_Summer_2009_ENG_coulOP.pdf",
+   "timestamp": "20101223200824",
+   "wayback_url": "https://web.archive.org/web/20101223200824id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_Summer_2009_ENG_coulOP.pdf",
+   "bytes": 1212978,
+   "title": "M2P_Summer_2009_ENG_coulOP.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_winter_06_EN.pdf",
+   "timestamp": "20101223201218",
+   "wayback_url": "https://web.archive.org/web/20101223201218id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_winter_06_EN.pdf",
+   "bytes": 2405767,
+   "title": "M2P_winter_06_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_winter_06_FR.pdf",
+   "timestamp": "20101223234552",
+   "wayback_url": "https://web.archive.org/web/20101223234552id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_winter_06_FR.pdf",
+   "bytes": 2545615,
+   "title": "M2P_winter_06_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_winter_07_EN.pdf",
+   "timestamp": "20101223201706",
+   "wayback_url": "https://web.archive.org/web/20101223201706id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_winter_07_EN.pdf",
+   "bytes": 2919464,
+   "title": "M2P_winter_07_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_winter_07_FR.pdf",
+   "timestamp": "20101223234123",
+   "wayback_url": "https://web.archive.org/web/20101223234123id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_winter_07_FR.pdf",
+   "bytes": 2760132,
+   "title": "M2P_winter_07_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_Winter_2008_ENG.pdf",
+   "timestamp": "20101223201116",
+   "wayback_url": "https://web.archive.org/web/20101223201116id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/M2P_Winter_2008_ENG.pdf",
+   "bytes": 1557758,
+   "title": "M2P_Winter_2008_ENG.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/MAP_printemps_2010_2.pdf",
+   "timestamp": "20101223233431",
+   "wayback_url": "https://web.archive.org/web/20101223233431id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/MAP_printemps_2010_2.pdf",
+   "bytes": 2928210,
+   "title": "MAP_printemps_2010_2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Mine-au-Port-hiver-05.pdf",
+   "timestamp": "20101223234321",
+   "wayback_url": "https://web.archive.org/web/20101223234321id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Mine-au-Port-hiver-05.pdf",
+   "bytes": 3394588,
+   "title": "Mine-au-Port-hiver-05.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Mine-au-Port-winter-05.pdf",
+   "timestamp": "20101223201543",
+   "wayback_url": "https://web.archive.org/web/20101223201543id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Mine-au-Port-winter-05.pdf",
+   "bytes": 3438613,
+   "title": "Mine-au-Port-winter-05.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/mtp_fall_2009_se_EN.pdf",
+   "timestamp": "20101223201903",
+   "wayback_url": "https://web.archive.org/web/20101223201903id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/mtp_fall_2009_se_EN.pdf",
+   "bytes": 1035224,
+   "title": "mtp_fall_2009_se_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/MTP_final_hiver_2009.pdf",
+   "timestamp": "20101223233400",
+   "wayback_url": "https://web.archive.org/web/20101223233400id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/MTP_final_hiver_2009.pdf",
+   "bytes": 936700,
+   "title": "MTP_final_hiver_2009.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/MTP_final_winter_2009.pdf",
+   "timestamp": "20101223201443",
+   "wayback_url": "https://web.archive.org/web/20101223201443id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/MTP_final_winter_2009.pdf",
+   "bytes": 922108,
+   "title": "MTP_final_winter_2009.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/MTP_spring_2010_2.pdf",
+   "timestamp": "20101223201515",
+   "wayback_url": "https://web.archive.org/web/20101223201515id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/MTP_spring_2010_2.pdf",
+   "bytes": 983015,
+   "title": "MTP_spring_2010_2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Music_Festival_Ads__100427.pdf",
+   "timestamp": "20101203142151",
+   "wayback_url": "https://web.archive.org/web/20101203142151id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Music_Festival_Ads__100427.pdf",
+   "bytes": 594018,
+   "title": "Music_Festival_Ads__100427.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Northern_Theatre_18__100315.pdf",
+   "timestamp": "20101203142322",
+   "wayback_url": "https://web.archive.org/web/20101203142322id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Northern_Theatre_18__100315.pdf",
+   "bytes": 213673,
+   "title": "Northern_Theatre_18__100315.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/poster_referral_EN_new_design_1_Layout_1.pdf",
+   "timestamp": "20101203135228",
+   "wayback_url": "https://web.archive.org/web/20101203135228id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/poster_referral_EN_new_design_1_Layout_1.pdf",
+   "bytes": 1356354,
+   "title": "poster_referral_EN_new_design_1_Layout_1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/poster_referral_FR_nes_design_1_Layout_1.pdf",
+   "timestamp": "20101224004103",
+   "wayback_url": "https://web.archive.org/web/20101224004103id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/poster_referral_FR_nes_design_1_Layout_1.pdf",
+   "bytes": 1362655,
+   "title": "poster_referral_FR_nes_design_1_Layout_1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Programme_de_developpement_des_diplomes_070607.PDF",
+   "timestamp": "20101224003926",
+   "wayback_url": "https://web.archive.org/web/20101224003926id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Programme_de_developpement_des_diplomes_070607.PDF",
+   "bytes": 970721,
+   "title": "Programme_de_developpement_des_diplomes_070607.PDF",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Pub_Relais_06_en.pdf",
+   "timestamp": "20101203142032",
+   "wayback_url": "https://web.archive.org/web/20101203142032id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Pub_Relais_06_en.pdf",
+   "bytes": 2567446,
+   "title": "Pub_Relais_06_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Pub_Relais_06_fr.pdf",
+   "timestamp": "20101223224112",
+   "wayback_url": "https://web.archive.org/web/20101223224112id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Pub_Relais_06_fr.pdf",
+   "bytes": 2540051,
+   "title": "Pub_Relais_06_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/RAC_acknowledgement.pdf",
+   "timestamp": "20101203135701",
+   "wayback_url": "https://web.archive.org/web/20101203135701id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/RAC_acknowledgement.pdf",
+   "bytes": 168105,
+   "title": "RAC_acknowledgement.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/rapport_dev_dur_2006_EN.pdf",
+   "timestamp": "20101203140156",
+   "wayback_url": "https://web.archive.org/web/20101203140156id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/rapport_dev_dur_2006_EN.pdf",
+   "bytes": 2036879,
+   "title": "rapport_dev_dur_2006_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/rapport_dev_dur_2006_FR.pdf",
+   "timestamp": "20101224005006",
+   "wayback_url": "https://web.archive.org/web/20101224005006id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/rapport_dev_dur_2006_FR.pdf",
+   "bytes": 1994951,
+   "title": "rapport_dev_dur_2006_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Reconnaissance_RAC_.pdf",
+   "timestamp": "20101224004158",
+   "wayback_url": "https://web.archive.org/web/20101224004158id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Reconnaissance_RAC_.pdf",
+   "bytes": 160946,
+   "title": "Reconnaissance_RAC_.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Rencontres_culturelles_IOC_AlainLefevre.pdf",
+   "timestamp": "20101224003810",
+   "wayback_url": "https://web.archive.org/web/20101224003810id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Rencontres_culturelles_IOC_AlainLefevre.pdf",
+   "bytes": 122691,
+   "title": "Rencontres_culturelles_IOC_AlainLefevre.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Rencontres_culturelles_IOC_PierreLapointe.pdf",
+   "timestamp": "20101224003842",
+   "wayback_url": "https://web.archive.org/web/20101224003842id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Rencontres_culturelles_IOC_PierreLapointe.pdf",
+   "bytes": 135036,
+   "title": "Rencontres_culturelles_IOC_PierreLapointe.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-ironore/docs/upload/Road_389_Safety_Committee_2010.pdf",
+   "timestamp": "20110601025839",
+   "wayback_url": "https://web.archive.org/web/20110601025839id_/http://www.ironore.ca:80/CLIENTS/1-ironore/docs/upload/Road_389_Safety_Committee_2010.pdf",
+   "bytes": 674449,
+   "title": "Road_389_Safety_Committee_2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Romeo_Clavet.pdf",
+   "timestamp": "20101224005327",
+   "wayback_url": "https://web.archive.org/web/20101224005327id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Romeo_Clavet.pdf",
+   "bytes": 255112,
+   "title": "Romeo_Clavet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-ironore/docs/upload/Route_389_Brochure_en.pdf",
+   "timestamp": "20100326075606",
+   "wayback_url": "https://web.archive.org/web/20100326075606id_/http://www.ironore.ca:80/CLIENTS/1-ironore/docs/upload/Route_389_Brochure_en.pdf",
+   "bytes": 329380,
+   "title": "Route_389_Brochure_en.pdf",
+   "type": "map",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/SDMBSEN.pdf",
+   "timestamp": "20101223211605",
+   "wayback_url": "https://web.archive.org/web/20101223211605id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/SDMBSEN.pdf",
+   "bytes": 16777,
+   "title": "SDMBSEN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/SDMBSFR.pdf",
+   "timestamp": "20101223233247",
+   "wayback_url": "https://web.archive.org/web/20101223233247id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/SDMBSFR.pdf",
+   "bytes": 20994,
+   "title": "SDMBSFR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/SnowmobileSafetyEN.pdf",
+   "timestamp": "20101223190915",
+   "wayback_url": "https://web.archive.org/web/20101223190915id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/SnowmobileSafetyEN.pdf",
+   "bytes": 4964020,
+   "title": "SnowmobileSafetyEN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/SnowmobileSafetyFR.pdf",
+   "timestamp": "20101224003716",
+   "wayback_url": "https://web.archive.org/web/20101224003716id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/SnowmobileSafetyFR.pdf",
+   "bytes": 331869,
+   "title": "SnowmobileSafetyFR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Summer_Students_080901.pdf",
+   "timestamp": "20101203141637",
+   "wayback_url": "https://web.archive.org/web/20101203141637id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Summer_Students_080901.pdf",
+   "bytes": 886826,
+   "title": "Summer_Students_080901.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/10.9%20%20Contractor%20Demobilisation%20Inspections%28SD-SM-0302%29.pdf",
+   "timestamp": "20101203132501",
+   "wayback_url": "https://web.archive.org/web/20101203132501id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/10.9%20%20Contractor%20Demobilisation%20Inspections%28SD-SM-0302%29.pdf",
+   "bytes": 40504,
+   "title": "10.9  Contractor Demobilisation Inspections(SD-SM-0302).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/5.0%20Hazard,%20Accident,%20Incident%20Reporting%20and%20Investigation%20%28SD-SM-0400%29.pdf",
+   "timestamp": "20101203133935",
+   "wayback_url": "https://web.archive.org/web/20101203133935id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/5.0%20Hazard,%20Accident,%20Incident%20Reporting%20and%20Investigation%20%28SD-SM-0400%29.pdf",
+   "bytes": 76904,
+   "title": "5.0 Hazard, Accident, Incident Reporting and Investigation (SD-SM-0400).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/5.1A%20%20Hazardous%20Conditions%20Logbook%20%28SD-SM-0401%29.pdf",
+   "timestamp": "20101203132116",
+   "wayback_url": "https://web.archive.org/web/20101203132116id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/5.1A%20%20Hazardous%20Conditions%20Logbook%20%28SD-SM-0401%29.pdf",
+   "bytes": 16042,
+   "title": "5.1A  Hazardous Conditions Logbook (SD-SM-0401).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/5.1B%20%20Hazard,%20Accident,%20Incident%20Reporting%20and%20Remedial%20Action%20Follow%20-Up%20%28SD-SM-0402%29.pdf",
+   "timestamp": "20101203134352",
+   "wayback_url": "https://web.archive.org/web/20101203134352id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/5.1B%20%20Hazard,%20Accident,%20Incident%20Reporting%20and%20Remedial%20Action%20Follow%20-Up%20%28SD-SM-0402%29.pdf",
+   "bytes": 53568,
+   "title": "5.1B  Hazard, Accident, Incident Reporting and Remedial Action Follow -Up (SD-SM-0402).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/5.2%20%20Hazard,%20Accident,%20Incident%20Investigation%20%28SD-SM-0403%29.pdf",
+   "timestamp": "20101203134504",
+   "wayback_url": "https://web.archive.org/web/20101203134504id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/5.2%20%20Hazard,%20Accident,%20Incident%20Investigation%20%28SD-SM-0403%29.pdf",
+   "bytes": 35034,
+   "title": "5.2  Hazard, Accident, Incident Investigation (SD-SM-0403).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/5.4B%20%20Notification%20of%20Major%20Hazard,%20Accident%20or%20Incident%20%28SD-SM-0404%29.pdf",
+   "timestamp": "20101203131924",
+   "wayback_url": "https://web.archive.org/web/20101203131924id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/5.4B%20%20Notification%20of%20Major%20Hazard,%20Accident%20or%20Incident%20%28SD-SM-0404%29.pdf",
+   "bytes": 35623,
+   "title": "5.4B  Notification of Major Hazard, Accident or Incident (SD-SM-0404).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/5.5%20%20Monthly%20ESH%20Statistics%28SD-SM-0405%29.pdf",
+   "timestamp": "20101203132809",
+   "wayback_url": "https://web.archive.org/web/20101203132809id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/5.5%20%20Monthly%20ESH%20Statistics%28SD-SM-0405%29.pdf",
+   "bytes": 28325,
+   "title": "5.5  Monthly ESH Statistics(SD-SM-0405).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/A2%20FAQ%20%28SD-SM-0202%29.pdf",
+   "timestamp": "20101203132219",
+   "wayback_url": "https://web.archive.org/web/20101203132219id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/A2%20FAQ%20%28SD-SM-0202%29.pdf",
+   "bytes": 16103,
+   "title": "A2 FAQ (SD-SM-0202).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/A3%20Supporting%20Document%20June%202007%20%28PRO-SM-0300%29.pdf",
+   "timestamp": "20101203134042",
+   "wayback_url": "https://web.archive.org/web/20101203134042id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/A3%20Supporting%20Document%20June%202007%20%28PRO-SM-0300%29.pdf",
+   "bytes": 32286,
+   "title": "A3 Supporting Document June 2007 (PRO-SM-0300).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/A3%20Supporting%20Document%20June%202007.pdf",
+   "timestamp": "20101203132645",
+   "wayback_url": "https://web.archive.org/web/20101203132645id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/A3%20Supporting%20Document%20June%202007.pdf",
+   "bytes": 40238,
+   "title": "A3 Supporting Document June 2007.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Accident%20Incident%20Work%20Management%20Flowsheet%20%28SD-SM-0001%29%20.pdf",
+   "timestamp": "20101203132436",
+   "wayback_url": "https://web.archive.org/web/20101203132436id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Accident%20Incident%20Work%20Management%20Flowsheet%20%28SD-SM-0001%29%20.pdf",
+   "bytes": 109836,
+   "title": "Accident Incident Work Management Flowsheet (SD-SM-0001) .pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Attaching%20an%20Isolation%20Checklist%20or%20Procedure%20to%20a%20Maintenance%20Order%20in%20SAP%28SD-SM-0502%29.pdf",
+   "timestamp": "20101203132137",
+   "wayback_url": "https://web.archive.org/web/20101203132137id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Attaching%20an%20Isolation%20Checklist%20or%20Procedure%20to%20a%20Maintenance%20Order%20in%20SAP%28SD-SM-0502%29.pdf",
+   "bytes": 91015,
+   "title": "Attaching an Isolation Checklist or Procedure to a Maintenance Order in SAP(SD-SM-0502).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/B1%20Procedures%20%28PRO-SM-0400%29.pdf",
+   "timestamp": "20101203132324",
+   "wayback_url": "https://web.archive.org/web/20101203132324id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/B1%20Procedures%20%28PRO-SM-0400%29.pdf",
+   "bytes": 89352,
+   "title": "B1 Procedures (PRO-SM-0400).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C1%20-%20STANDARD%20EQUIPMENT%20TAGGING%20080228.pdf",
+   "timestamp": "20101203132241",
+   "wayback_url": "https://web.archive.org/web/20101203132241id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C1%20-%20STANDARD%20EQUIPMENT%20TAGGING%20080228.pdf",
+   "bytes": 13367,
+   "title": "C1 - STANDARD EQUIPMENT TAGGING 080228.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C1%20ISOLATION%20-%20ISOLATION%20DEVICE%20AND%20EQUIPMENT%20TAGGING%20PROCEDURE%28SD-SM-0504%29.pdf",
+   "timestamp": "20101203133722",
+   "wayback_url": "https://web.archive.org/web/20101203133722id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C1%20ISOLATION%20-%20ISOLATION%20DEVICE%20AND%20EQUIPMENT%20TAGGING%20PROCEDURE%28SD-SM-0504%29.pdf",
+   "bytes": 21445,
+   "title": "C1 ISOLATION - ISOLATION DEVICE AND EQUIPMENT TAGGING PROCEDURE(SD-SM-0504).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C1%20ISOLATION%20-%20Procedure%20for%20creating%20checklists%20%28SD-SM-0500%29.pdf",
+   "timestamp": "20101203134302",
+   "wayback_url": "https://web.archive.org/web/20101203134302id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C1%20ISOLATION%20-%20Procedure%20for%20creating%20checklists%20%28SD-SM-0500%29.pdf",
+   "bytes": 33788,
+   "title": "C1 ISOLATION - Procedure for creating checklists (SD-SM-0500).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C1%20Isolation%20Procedure%20%28PRO-SM-0500%29.pdf",
+   "timestamp": "20101203133150",
+   "wayback_url": "https://web.archive.org/web/20101203133150id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C1%20Isolation%20Procedure%20%28PRO-SM-0500%29.pdf",
+   "bytes": 66272,
+   "title": "C1 Isolation Procedure (PRO-SM-0500).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2%20-%20Work%20Permit%20for%20Contractors%20%28PMT-SM-0601%29.pdf",
+   "timestamp": "20101203132626",
+   "wayback_url": "https://web.archive.org/web/20101203132626id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2%20-%20Work%20Permit%20for%20Contractors%20%28PMT-SM-0601%29.pdf",
+   "bytes": 22282,
+   "title": "C2 - Work Permit for Contractors (PMT-SM-0601).pdf",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.1%20-%20Electrical%20Safety%20Procedure%20%28PRO-SM-0600%29.pdf",
+   "timestamp": "20101203132158",
+   "wayback_url": "https://web.archive.org/web/20101203132158id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.1%20-%20Electrical%20Safety%20Procedure%20%28PRO-SM-0600%29.pdf",
+   "bytes": 32185,
+   "title": "C2, 2.1 - Electrical Safety Procedure (PRO-SM-0600).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.10%20-%20Electrical%20Safety%20-%20High%20Voltage%20Insulated%20Gloves%20%28%20Hot%20Gloves%29%20%28PRO-SM-0609%29.pdf",
+   "timestamp": "20101203134440",
+   "wayback_url": "https://web.archive.org/web/20101203134440id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.10%20-%20Electrical%20Safety%20-%20High%20Voltage%20Insulated%20Gloves%20%28%20Hot%20Gloves%29%20%28PRO-SM-0609%29.pdf",
+   "bytes": 20710,
+   "title": "C2, 2.10 - Electrical Safety - High Voltage Insulated Gloves ( Hot Gloves) (PRO-SM-0609).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.11%20-%20Electrical%20Safety%20-%20Cable%20Removal%20Procedure%20%28PRO-SM-0610%29.pdf",
+   "timestamp": "20101203133531",
+   "wayback_url": "https://web.archive.org/web/20101203133531id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.11%20-%20Electrical%20Safety%20-%20Cable%20Removal%20Procedure%20%28PRO-SM-0610%29.pdf",
+   "bytes": 30348,
+   "title": "C2, 2.11 - Electrical Safety - Cable Removal Procedure (PRO-SM-0610).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.12%20-%20Electrical%20Safety%20-%20Electrical%20Hazards%20Training%20%28PRO-SM-0611%29.pdf",
+   "timestamp": "20101203133402",
+   "wayback_url": "https://web.archive.org/web/20101203133402id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.12%20-%20Electrical%20Safety%20-%20Electrical%20Hazards%20Training%20%28PRO-SM-0611%29.pdf",
+   "bytes": 19761,
+   "title": "C2, 2.12 - Electrical Safety - Electrical Hazards Training (PRO-SM-0611).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.14%20-%20Electrical%20Safety%20-%20Recertification%20of%20Electricians,%20Linesman,%20Electronic%20Repairman%20%28PRO-SM-0612%29.pdf",
+   "timestamp": "20101203134735",
+   "wayback_url": "https://web.archive.org/web/20101203134735id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.14%20-%20Electrical%20Safety%20-%20Recertification%20of%20Electricians,%20Linesman,%20Electronic%20Repairman%20%28PRO-SM-0612%29.pdf",
+   "bytes": 24342,
+   "title": "C2, 2.14 - Electrical Safety - Recertification of Electricians, Linesman, Electronic Repairman (PRO-SM-0612).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.15%20-%20Electrical%20Safety%20-%20Personnel%20Access%20to%20Electrical%20rooms%20and%20Centres%20%28PRO-SM-0613%29.pdf",
+   "timestamp": "20101203133106",
+   "wayback_url": "https://web.archive.org/web/20101203133106id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.15%20-%20Electrical%20Safety%20-%20Personnel%20Access%20to%20Electrical%20rooms%20and%20Centres%20%28PRO-SM-0613%29.pdf",
+   "bytes": 15470,
+   "title": "C2, 2.15 - Electrical Safety - Personnel Access to Electrical rooms and Centres (PRO-SM-0613).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.16%20-%20Electrical%20Safety%20-%20Electrical%20Competencies%20for%20Electricians%20%28PRO-SM-0614%29.pdf",
+   "timestamp": "20101203133639",
+   "wayback_url": "https://web.archive.org/web/20101203133639id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.16%20-%20Electrical%20Safety%20-%20Electrical%20Competencies%20for%20Electricians%20%28PRO-SM-0614%29.pdf",
+   "bytes": 14718,
+   "title": "C2, 2.16 - Electrical Safety - Electrical Competencies for Electricians (PRO-SM-0614).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.2%20-%20Electrical%20Safety%20-%20Work%20on%20or%20next%20to%20powerlines%20%28PRO-SM-0601%29.pdf",
+   "timestamp": "20101203133425",
+   "wayback_url": "https://web.archive.org/web/20101203133425id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.2%20-%20Electrical%20Safety%20-%20Work%20on%20or%20next%20to%20powerlines%20%28PRO-SM-0601%29.pdf",
+   "bytes": 32355,
+   "title": "C2, 2.2 - Electrical Safety - Work on or next to powerlines (PRO-SM-0601).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.3%20-%20Electrical%20Safety%20-%20Inspection%20and%20Maintenance%20of%20Electrical%20Equipment%20and%20Safety%20Devices%20%28PRO-SM-0602%29.pdf",
+   "timestamp": "20101203132525",
+   "wayback_url": "https://web.archive.org/web/20101203132525id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.3%20-%20Electrical%20Safety%20-%20Inspection%20and%20Maintenance%20of%20Electrical%20Equipment%20and%20Safety%20Devices%20%28PRO-SM-0602%29.pdf",
+   "bytes": 15414,
+   "title": "C2, 2.3 - Electrical Safety - Inspection and Maintenance of Electrical Equipment and Safety Devices (PRO-SM-0602).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.4%20-%20Electrical%20Safety%20-%20Intervention%20on%20Live%20Electrical%20Circuits%20%28PRO-SM-0603%29.pdf",
+   "timestamp": "20101203133215",
+   "wayback_url": "https://web.archive.org/web/20101203133215id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.4%20-%20Electrical%20Safety%20-%20Intervention%20on%20Live%20Electrical%20Circuits%20%28PRO-SM-0603%29.pdf",
+   "bytes": 30653,
+   "title": "C2, 2.4 - Electrical Safety - Intervention on Live Electrical Circuits (PRO-SM-0603).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.5%20-%20Electrical%20Safety%20-%20Protective%20Devices%20and%20Equipment%20%28PRO-SM-0604%29.pdf",
+   "timestamp": "20101203133848",
+   "wayback_url": "https://web.archive.org/web/20101203133848id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.5%20-%20Electrical%20Safety%20-%20Protective%20Devices%20and%20Equipment%20%28PRO-SM-0604%29.pdf",
+   "bytes": 28436,
+   "title": "C2, 2.5 - Electrical Safety - Protective Devices and Equipment (PRO-SM-0604).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.6%20-%20Electrical%20Safety%20-%20Work%20on%20Poles,%20Pylons%20and%20Structures%20%28PRO-SM-0605%29.pdf",
+   "timestamp": "20101203134625",
+   "wayback_url": "https://web.archive.org/web/20101203134625id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.6%20-%20Electrical%20Safety%20-%20Work%20on%20Poles,%20Pylons%20and%20Structures%20%28PRO-SM-0605%29.pdf",
+   "bytes": 17004,
+   "title": "C2, 2.6 - Electrical Safety - Work on Poles, Pylons and Structures (PRO-SM-0605).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.7%20-%20Electrical%20Safety%20-%20Temporary%20Grounding%20Devices%20%28PRO-SM-0606%29.pdf",
+   "timestamp": "20101203133741",
+   "wayback_url": "https://web.archive.org/web/20101203133741id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.7%20-%20Electrical%20Safety%20-%20Temporary%20Grounding%20Devices%20%28PRO-SM-0606%29.pdf",
+   "bytes": 16429,
+   "title": "C2, 2.7 - Electrical Safety - Temporary Grounding Devices (PRO-SM-0606).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.8%20-%20Electrical%20Safety%20-%20Use%20of%20Pruning%20Device%20and%20Chain%20Saw%20Close%20to%20Powerlines%20%28PRO-SM-0607%29.pdf",
+   "timestamp": "20101203132547",
+   "wayback_url": "https://web.archive.org/web/20101203132547id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.8%20-%20Electrical%20Safety%20-%20Use%20of%20Pruning%20Device%20and%20Chain%20Saw%20Close%20to%20Powerlines%20%28PRO-SM-0607%29.pdf",
+   "bytes": 12493,
+   "title": "C2, 2.8 - Electrical Safety - Use of Pruning Device and Chain Saw Close to Powerlines (PRO-SM-0607).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.9%20-%20Electrical%20Safety%20-%20Work%20Requiring%20Obstruction%20of%20Railways%20%28PRO-SM-0608%29.pdf",
+   "timestamp": "20101203134417",
+   "wayback_url": "https://web.archive.org/web/20101203134417id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C2,%202.9%20-%20Electrical%20Safety%20-%20Work%20Requiring%20Obstruction%20of%20Railways%20%28PRO-SM-0608%29.pdf",
+   "bytes": 11063,
+   "title": "C2, 2.9 - Electrical Safety - Work Requiring Obstruction of Railways (PRO-SM-0608).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C3%20-%20Frequently%20Asked%20Questions%20%28FAQ%27s%29%20%28SD-SM-0700%29.pdf",
+   "timestamp": "20101203133617",
+   "wayback_url": "https://web.archive.org/web/20101203133617id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C3%20-%20Frequently%20Asked%20Questions%20%28FAQ%27s%29%20%28SD-SM-0700%29.pdf",
+   "bytes": 15634,
+   "title": "C3 - Frequently Asked Questions (FAQ's) (SD-SM-0700).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C3%20Procedure%20%28PRO-SM-0700%29.PDF",
+   "timestamp": "20101203135046",
+   "wayback_url": "https://web.archive.org/web/20101203135046id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C3%20Procedure%20%28PRO-SM-0700%29.PDF",
+   "bytes": 72113,
+   "title": "C3 Procedure (PRO-SM-0700).PDF",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4%20-%20PROCEDURE%20FOR%20RETRIEVAL%20OF%20SUSPENDED%20FALL%20VICTIMS%20%20%28SD-SM-0808%29.pdf",
+   "timestamp": "20101203133129",
+   "wayback_url": "https://web.archive.org/web/20101203133129id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4%20-%20PROCEDURE%20FOR%20RETRIEVAL%20OF%20SUSPENDED%20FALL%20VICTIMS%20%20%28SD-SM-0808%29.pdf",
+   "bytes": 12470,
+   "title": "C4 - PROCEDURE FOR RETRIEVAL OF SUSPENDED FALL VICTIMS  (SD-SM-0808).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4%20-Frequently%20Asked%20Questions%20%28SD-SM-0800%29.pdf",
+   "timestamp": "20101203134851",
+   "wayback_url": "https://web.archive.org/web/20101203134851id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4%20-Frequently%20Asked%20Questions%20%28SD-SM-0800%29.pdf",
+   "bytes": 17816,
+   "title": "C4 -Frequently Asked Questions (SD-SM-0800).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Approved%20Permanent%20Anchor%20Installations%20%28SD-SM-0809%29.pdf",
+   "timestamp": "20101203132607",
+   "wayback_url": "https://web.archive.org/web/20101203132607id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Approved%20Permanent%20Anchor%20Installations%20%28SD-SM-0809%29.pdf",
+   "bytes": 51792,
+   "title": "C4-Approved Permanent Anchor Installations (SD-SM-0809).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Commonly%20used%20Terms%20%28SD-SM-0801%29.pdf",
+   "timestamp": "20101203131905",
+   "wayback_url": "https://web.archive.org/web/20101203131905id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Commonly%20used%20Terms%20%28SD-SM-0801%29.pdf",
+   "bytes": 16218,
+   "title": "C4-Commonly used Terms (SD-SM-0801).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-CR-Anchor%20Point%20Annual%20Inspection%20%28SD-SM-0810%29.pdf",
+   "timestamp": "20101203132852",
+   "wayback_url": "https://web.archive.org/web/20101203132852id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-CR-Anchor%20Point%20Annual%20Inspection%20%28SD-SM-0810%29.pdf",
+   "bytes": 19796,
+   "title": "C4-CR-Anchor Point Annual Inspection (SD-SM-0810).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-CR-FA%20Equipment%20Issue%20&%20Control%20%28SD-SM-0803%29.pdf",
+   "timestamp": "20101203134325",
+   "wayback_url": "https://web.archive.org/web/20101203134325id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-CR-FA%20Equipment%20Issue%20&%20Control%20%28SD-SM-0803%29.pdf",
+   "bytes": 23568,
+   "title": "C4-CR-FA Equipment Issue & Control (SD-SM-0803).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-CR-FP%20Equipment%20Annual%20Re-%20Certification%20%28SD-SM-0804%29.pdf",
+   "timestamp": "20101203133300",
+   "wayback_url": "https://web.archive.org/web/20101203133300id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-CR-FP%20Equipment%20Annual%20Re-%20Certification%20%28SD-SM-0804%29.pdf",
+   "bytes": 22421,
+   "title": "C4-CR-FP Equipment Annual Re- Certification (SD-SM-0804).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Elevating%20Workplatform%20Fall%20Protection-2007r1.pdf",
+   "timestamp": "20101203135003",
+   "wayback_url": "https://web.archive.org/web/20101203135003id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Elevating%20Workplatform%20Fall%20Protection-2007r1.pdf",
+   "bytes": 14049,
+   "title": "C4-Elevating Workplatform Fall Protection-2007r1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-FPE%20Cleaning%20and%20Storage%20%28SD-SM-0802%29.pdf",
+   "timestamp": "20101203134942",
+   "wayback_url": "https://web.archive.org/web/20101203134942id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-FPE%20Cleaning%20and%20Storage%20%28SD-SM-0802%29.pdf",
+   "bytes": 10784,
+   "title": "C4-FPE Cleaning and Storage (SD-SM-0802).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Guardrails%20and%20Toeboards%20%28SD-SM-0812%29.pdf",
+   "timestamp": "20101203133700",
+   "wayback_url": "https://web.archive.org/web/20101203133700id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Guardrails%20and%20Toeboards%20%28SD-SM-0812%29.pdf",
+   "bytes": 14284,
+   "title": "C4-Guardrails and Toeboards (SD-SM-0812).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Interim%20Rescue%20Planning%20%28SD-SM-0807%29.pdf",
+   "timestamp": "20101203133804",
+   "wayback_url": "https://web.archive.org/web/20101203133804id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Interim%20Rescue%20Planning%20%28SD-SM-0807%29.pdf",
+   "bytes": 32412,
+   "title": "C4-Interim Rescue Planning (SD-SM-0807).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-List%20of%20IOC%20Elevating%20Platforms%20%28SD-SM-0814%29.pdf",
+   "timestamp": "20101203134710",
+   "wayback_url": "https://web.archive.org/web/20101203134710id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-List%20of%20IOC%20Elevating%20Platforms%20%28SD-SM-0814%29.pdf",
+   "bytes": 17542,
+   "title": "C4-List of IOC Elevating Platforms (SD-SM-0814).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Policy%20and%20Procedure%20%28PRO-SM-0800%29.pdf",
+   "timestamp": "20101203132830",
+   "wayback_url": "https://web.archive.org/web/20101203132830id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Policy%20and%20Procedure%20%28PRO-SM-0800%29.pdf",
+   "bytes": 51459,
+   "title": "C4-Policy and Procedure (PRO-SM-0800).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Pre-Use%20FPE%20Inspection%20%28SD-SM-0805%29.pdf",
+   "timestamp": "20101203133022",
+   "wayback_url": "https://web.archive.org/web/20101203133022id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Pre-Use%20FPE%20Inspection%20%28SD-SM-0805%29.pdf",
+   "bytes": 24111,
+   "title": "C4-Pre-Use FPE Inspection (SD-SM-0805).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Scaffold-erection%20and%20dismantling%20%28SD-SM-0811%29.pdf",
+   "timestamp": "20101203132725",
+   "wayback_url": "https://web.archive.org/web/20101203132725id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Scaffold-erection%20and%20dismantling%20%28SD-SM-0811%29.pdf",
+   "bytes": 20626,
+   "title": "C4-Scaffold-erection and dismantling (SD-SM-0811).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Test%20Questions%20%28SD-SM-0819%29.pdf",
+   "timestamp": "20101203134559",
+   "wayback_url": "https://web.archive.org/web/20101203134559id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Test%20Questions%20%28SD-SM-0819%29.pdf",
+   "bytes": 37622,
+   "title": "C4-Test Questions (SD-SM-0819).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Use%20of%20Shock%20Absorbing%20Lanyards%20%28SD-SM-0806%29.pdf",
+   "timestamp": "20101203133825",
+   "wayback_url": "https://web.archive.org/web/20101203133825id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C4-Use%20of%20Shock%20Absorbing%20Lanyards%20%28SD-SM-0806%29.pdf",
+   "bytes": 11085,
+   "title": "C4-Use of Shock Absorbing Lanyards (SD-SM-0806).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C5%20Procedure%20%28PRO-SM-0900%29.pdf",
+   "timestamp": "20101203134214",
+   "wayback_url": "https://web.archive.org/web/20101203134214id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C5%20Procedure%20%28PRO-SM-0900%29.pdf",
+   "bytes": 38068,
+   "title": "C5 Procedure (PRO-SM-0900).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C5-Confined%20Space%20Permit%20%28PMT-SM-0900%29%20rev%202.PDF",
+   "timestamp": "20101203133958",
+   "wayback_url": "https://web.archive.org/web/20101203133958id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C5-Confined%20Space%20Permit%20%28PMT-SM-0900%29%20rev%202.PDF",
+   "bytes": 36655,
+   "title": "C5-Confined Space Permit (PMT-SM-0900) rev 2.PDF",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C6-Cranes%20&%20Lifting%20Equipment%20Procedure%20%28PRO-SM-1000%29.pdf",
+   "timestamp": "20101203134103",
+   "wayback_url": "https://web.archive.org/web/20101203134103id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/C6-Cranes%20&%20Lifting%20Equipment%20Procedure%20%28PRO-SM-1000%29.pdf",
+   "bytes": 51628,
+   "title": "C6-Cranes & Lifting Equipment Procedure (PRO-SM-1000).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Change%20Management%20Guidelines%20%28SD-SM-0203%29.pdf",
+   "timestamp": "20101203132302",
+   "wayback_url": "https://web.archive.org/web/20101203132302id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Change%20Management%20Guidelines%20%28SD-SM-0203%29.pdf",
+   "bytes": 52290,
+   "title": "Change Management Guidelines (SD-SM-0203).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Change%20Management%20Procedure%20Flowchart%28%28SD-SM-0201%29.pdf",
+   "timestamp": "20101203134649",
+   "wayback_url": "https://web.archive.org/web/20101203134649id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Change%20Management%20Procedure%20Flowchart%28%28SD-SM-0201%29.pdf",
+   "bytes": 62440,
+   "title": "Change Management Procedure Flowchart((SD-SM-0201).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Communication%20of%20Incidents%20%28PRO-SM-0001%29.pdf",
+   "timestamp": "20101203134527",
+   "wayback_url": "https://web.archive.org/web/20101203134527id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Communication%20of%20Incidents%20%28PRO-SM-0001%29.pdf",
+   "bytes": 24492,
+   "title": "Communication of Incidents (PRO-SM-0001).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Confined%20Space%20Stand-By%20Duties%20for%20Assistant%20in%20HSA%20%28SDE-SM-0901%29.pdf",
+   "timestamp": "20101203132940",
+   "wayback_url": "https://web.archive.org/web/20101203132940id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Confined%20Space%20Stand-By%20Duties%20for%20Assistant%20in%20HSA%20%28SDE-SM-0901%29.pdf",
+   "bytes": 23445,
+   "title": "Confined Space Stand-By Duties for Assistant in HSA (SDE-SM-0901).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-ironore/docs/upload/supporting/Critical%20Lift%20Plan%20Mobile%20Cranes.PDF",
+   "timestamp": "20101011224213",
+   "wayback_url": "https://web.archive.org/web/20101011224213id_/http://www.ironore.ca:80/CLIENTS/1-ironore/docs/upload/supporting/Critical%20Lift%20Plan%20Mobile%20Cranes.PDF",
+   "bytes": 116702,
+   "title": "Critical Lift Plan Mobile Cranes.PDF",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Document%20Numbering%20Codes%20%28SD-SM-0004%29.pdf",
+   "timestamp": "20101203131945",
+   "wayback_url": "https://web.archive.org/web/20101203131945id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Document%20Numbering%20Codes%20%28SD-SM-0004%29.pdf",
+   "bytes": 14688,
+   "title": "Document Numbering Codes (SD-SM-0004).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Drill%20Mast%20Raising-Lowering%20Permit%20%28PMT-SM-1000%29.pdf",
+   "timestamp": "20101203134019",
+   "wayback_url": "https://web.archive.org/web/20101203134019id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Drill%20Mast%20Raising-Lowering%20Permit%20%28PMT-SM-1000%29.pdf",
+   "bytes": 31303,
+   "title": "Drill Mast Raising-Lowering Permit (PMT-SM-1000).pdf",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Electrical%20Recertification%20-%20Cover%20%28SD-SM-0600%29.pdf",
+   "timestamp": "20101203134238",
+   "wayback_url": "https://web.archive.org/web/20101203134238id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Electrical%20Recertification%20-%20Cover%20%28SD-SM-0600%29.pdf",
+   "bytes": 14181,
+   "title": "Electrical Recertification - Cover (SD-SM-0600).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Energized%20Power%20Line%20Clearance%20Permit%20%28PMT-SM-0600%29.PDF",
+   "timestamp": "20101203133344",
+   "wayback_url": "https://web.archive.org/web/20101203133344id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Energized%20Power%20Line%20Clearance%20Permit%20%28PMT-SM-0600%29.PDF",
+   "bytes": 20963,
+   "title": "Energized Power Line Clearance Permit (PMT-SM-0600).PDF",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Entering%20SMAT%20Observations%20on%20SAP%20%28procedure%29%20%28SD-SM-1102%29.pdf",
+   "timestamp": "20101203132409",
+   "wayback_url": "https://web.archive.org/web/20101203132409id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Entering%20SMAT%20Observations%20on%20SAP%20%28procedure%29%20%28SD-SM-1102%29.pdf",
+   "bytes": 459150,
+   "title": "Entering SMAT Observations on SAP (procedure) (SD-SM-1102).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/EQUIPMENT%20IDENTIFICATION%20ELECTRICAL%20ISOLATION%20STANDARDS%20%28SD-SM-0505%29.pdf",
+   "timestamp": "20101203132914",
+   "wayback_url": "https://web.archive.org/web/20101203132914id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/EQUIPMENT%20IDENTIFICATION%20ELECTRICAL%20ISOLATION%20STANDARDS%20%28SD-SM-0505%29.pdf",
+   "bytes": 142695,
+   "title": "EQUIPMENT IDENTIFICATION ELECTRICAL ISOLATION STANDARDS (SD-SM-0505).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Fatal%20&%20Critical%20Incident%20Investigation%20Protocol%20%28PRO-SM-0002%29.pdf",
+   "timestamp": "20101203134914",
+   "wayback_url": "https://web.archive.org/web/20101203134914id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Fatal%20&%20Critical%20Incident%20Investigation%20Protocol%20%28PRO-SM-0002%29.pdf",
+   "bytes": 77932,
+   "title": "Fatal & Critical Incident Investigation Protocol (PRO-SM-0002).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/General%20ESH%20Loss%20Control%20Rules%20%28SD-SM-1100%29.pdf",
+   "timestamp": "20101203132050",
+   "wayback_url": "https://web.archive.org/web/20101203132050id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/General%20ESH%20Loss%20Control%20Rules%20%28SD-SM-1100%29.pdf",
+   "bytes": 12289,
+   "title": "General ESH Loss Control Rules (SD-SM-1100).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/General%20Safety%20System%20-%20Joint%20Occupational%20Safety%20and%20Health%20Committees%20%28CR%20only%29%20%28PRO-SM-0003%29.pdf",
+   "timestamp": "20101203134824",
+   "wayback_url": "https://web.archive.org/web/20101203134824id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/General%20Safety%20System%20-%20Joint%20Occupational%20Safety%20and%20Health%20Committees%20%28CR%20only%29%20%28PRO-SM-0003%29.pdf",
+   "bytes": 36775,
+   "title": "General Safety System - Joint Occupational Safety and Health Committees (CR only) (PRO-SM-0003).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Hazard%20Registration%20Process%20%28SD-SM-0002%29.pdf",
+   "timestamp": "20101203132706",
+   "wayback_url": "https://web.archive.org/web/20101203132706id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Hazard%20Registration%20Process%20%28SD-SM-0002%29.pdf",
+   "bytes": 22847,
+   "title": "Hazard Registration Process (SD-SM-0002).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Identifying%20Card-Change%20Determinination%20Card%20%28SD-SM-0200%29.pdf",
+   "timestamp": "20101203133550",
+   "wayback_url": "https://web.archive.org/web/20101203133550id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Identifying%20Card-Change%20Determinination%20Card%20%28SD-SM-0200%29.pdf",
+   "bytes": 469348,
+   "title": "Identifying Card-Change Determinination Card (SD-SM-0200).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Injury%20Classification%20Process%20%28PRO-SM-0004%29.pdf",
+   "timestamp": "20101203132006",
+   "wayback_url": "https://web.archive.org/web/20101203132006id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Injury%20Classification%20Process%20%28PRO-SM-0004%29.pdf",
+   "bytes": 36915,
+   "title": "Injury Classification Process (PRO-SM-0004).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/IOC%20Orientation-Induction%20%28Green%20Card%29%20Procedure%20%28SD-SM-1101%29.pdf",
+   "timestamp": "20101203133002",
+   "wayback_url": "https://web.archive.org/web/20101203133002id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/IOC%20Orientation-Induction%20%28Green%20Card%29%20Procedure%20%28SD-SM-1101%29.pdf",
+   "bytes": 20962,
+   "title": "IOC Orientation-Induction (Green Card) Procedure (SD-SM-1101).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Isolation%20-%20Frequently%20Asked%20Questions%20%28SD-SM-0508%29.pdf",
+   "timestamp": "20101203133445",
+   "wayback_url": "https://web.archive.org/web/20101203133445id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Isolation%20-%20Frequently%20Asked%20Questions%20%28SD-SM-0508%29.pdf",
+   "bytes": 13430,
+   "title": "Isolation - Frequently Asked Questions (SD-SM-0508).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/ISOLATION%20PROCEDURE-CHECKLIST-WORK%20MANAGEMENT%20PROCESS%20%28SD-SM-0501%29.pdf",
+   "timestamp": "20101203134151",
+   "wayback_url": "https://web.archive.org/web/20101203134151id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/ISOLATION%20PROCEDURE-CHECKLIST-WORK%20MANAGEMENT%20PROCESS%20%28SD-SM-0501%29.pdf",
+   "bytes": 120280,
+   "title": "ISOLATION PROCEDURE-CHECKLIST-WORK MANAGEMENT PROCESS (SD-SM-0501).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Joint%20Safety%20&%20Health%20Committee%20-%20Terms%20of%20Reference%20%28SD-SM-0003%29.pdf",
+   "timestamp": "20101203133508",
+   "wayback_url": "https://web.archive.org/web/20101203133508id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Joint%20Safety%20&%20Health%20Committee%20-%20Terms%20of%20Reference%20%28SD-SM-0003%29.pdf",
+   "bytes": 21406,
+   "title": "Joint Safety & Health Committee - Terms of Reference (SD-SM-0003).pdf",
+   "type": "terms_of_reference",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Replacement%20Parts.pdf",
+   "timestamp": "20101203132748",
+   "wayback_url": "https://web.archive.org/web/20101203132748id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Replacement%20Parts.pdf",
+   "bytes": 18616,
+   "title": "Replacement Parts.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Retrieving%20an%20Isolation%20Checklist%20or%20Procedure%20From%20the%20IOC%20Network%20%28SD-SM-0503%29.pdf",
+   "timestamp": "20101203134756",
+   "wayback_url": "https://web.archive.org/web/20101203134756id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Retrieving%20an%20Isolation%20Checklist%20or%20Procedure%20From%20the%20IOC%20Network%20%28SD-SM-0503%29.pdf",
+   "bytes": 52761,
+   "title": "Retrieving an Isolation Checklist or Procedure From the IOC Network (SD-SM-0503).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Risk%20Matrix%20%28SD-SM-0406%29.pdf",
+   "timestamp": "20101203133239",
+   "wayback_url": "https://web.archive.org/web/20101203133239id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Risk%20Matrix%20%28SD-SM-0406%29.pdf",
+   "bytes": 21777,
+   "title": "Risk Matrix (SD-SM-0406).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Safety%20Interactions%20%28PRO-SM-0005%29.pdf",
+   "timestamp": "20101203132348",
+   "wayback_url": "https://web.archive.org/web/20101203132348id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Safety%20Interactions%20%28PRO-SM-0005%29.pdf",
+   "bytes": 29934,
+   "title": "Safety Interactions (PRO-SM-0005).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Standard%20%20Fall%20Protection%20Equipment%20Reference%20Numbers.pdf",
+   "timestamp": "20101203134126",
+   "wayback_url": "https://web.archive.org/web/20101203134126id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Standard%20%20Fall%20Protection%20Equipment%20Reference%20Numbers.pdf",
+   "bytes": 17309,
+   "title": "Standard  Fall Protection Equipment Reference Numbers.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/TAPROOT%20SNAP%20CHART%20080228.PDF",
+   "timestamp": "20101203133910",
+   "wayback_url": "https://web.archive.org/web/20101203133910id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/TAPROOT%20SNAP%20CHART%20080228.PDF",
+   "bytes": 19515,
+   "title": "TAPROOT SNAP CHART 080228.PDF",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Vehicle%20and%20Driving%20-%20Vehicle%20Blockage%20%28SD-SM-0701%29.pdf",
+   "timestamp": "20101203132027",
+   "wayback_url": "https://web.archive.org/web/20101203132027id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Vehicle%20and%20Driving%20-%20Vehicle%20Blockage%20%28SD-SM-0701%29.pdf",
+   "bytes": 14465,
+   "title": "Vehicle and Driving - Vehicle Blockage (SD-SM-0701).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Working%20From%20Movable%20Platform%20Ladders%20%28SD-SM-0818%29.pdf",
+   "timestamp": "20101203133322",
+   "wayback_url": "https://web.archive.org/web/20101203133322id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/supporting/Working%20From%20Movable%20Platform%20Ladders%20%28SD-SM-0818%29.pdf",
+   "bytes": 312503,
+   "title": "Working From Movable Platform Ladders (SD-SM-0818).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/sys_docs/Communique_Alcool_et_drogues_Ang.pdf",
+   "timestamp": "20101223212141",
+   "wayback_url": "https://web.archive.org/web/20101223212141id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/sys_docs/Communique_Alcool_et_drogues_Ang.pdf",
+   "bytes": 23621,
+   "title": "Communique_Alcool_et_drogues_Ang.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/sys_docs/Communique_Alcool_et_drogues_Fra.pdf",
+   "timestamp": "20101224004542",
+   "wayback_url": "https://web.archive.org/web/20101224004542id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/sys_docs/Communique_Alcool_et_drogues_Fra.pdf",
+   "bytes": 23208,
+   "title": "Communique_Alcool_et_drogues_Fra.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/T_BOWLES_CIM_EN.pdf",
+   "timestamp": "20101203142008",
+   "wayback_url": "https://web.archive.org/web/20101203142008id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/T_BOWLES_CIM_EN.pdf",
+   "bytes": 122233,
+   "title": "T_BOWLES_CIM_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/T_BOWLES_CIM_FR.pdf",
+   "timestamp": "20101224004803",
+   "wayback_url": "https://web.archive.org/web/20101224004803id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/T_BOWLES_CIM_FR.pdf",
+   "bytes": 144483,
+   "title": "T_BOWLES_CIM_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/tailings_press_EN.pdf",
+   "timestamp": "20101203141437",
+   "wayback_url": "https://web.archive.org/web/20101203141437id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/tailings_press_EN.pdf",
+   "bytes": 13981,
+   "title": "tailings_press_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/tailings_press_FR.pdf",
+   "timestamp": "20101224005943",
+   "wayback_url": "https://web.archive.org/web/20101224005943id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/tailings_press_FR.pdf",
+   "bytes": 24157,
+   "title": "tailings_press_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Taleo__Create_profile__Apply_online_FR.pdf",
+   "timestamp": "20101203104352",
+   "wayback_url": "https://web.archive.org/web/20101203104352id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Taleo__Create_profile__Apply_online_FR.pdf",
+   "bytes": 175060,
+   "title": "Taleo__Create_profile__Apply_online_FR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Tamarack__100628.pdf",
+   "timestamp": "20101203142259",
+   "wayback_url": "https://web.archive.org/web/20101203142259id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Tamarack__100628.pdf",
+   "bytes": 329912,
+   "title": "Tamarack__100628.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/U0918_IOC_SD2007_en.pdf",
+   "timestamp": "20101203140354",
+   "wayback_url": "https://web.archive.org/web/20101203140354id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/U0918_IOC_SD2007_en.pdf",
+   "bytes": 4644214,
+   "title": "U0918_IOC_SD2007_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/U0918_IOC_SD2007_en_Extended.pdf",
+   "timestamp": "20101203140521",
+   "wayback_url": "https://web.archive.org/web/20101203140521id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/U0918_IOC_SD2007_en_Extended.pdf",
+   "bytes": 7550707,
+   "title": "U0918_IOC_SD2007_en_Extended.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/U0918_IOC_SD2007_fr.pdf",
+   "timestamp": "20101224004830",
+   "wayback_url": "https://web.archive.org/web/20101224004830id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/U0918_IOC_SD2007_fr.pdf",
+   "bytes": 4504129,
+   "title": "U0918_IOC_SD2007_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/U0918_IOC_SD2007_fr_Extended.pdf",
+   "timestamp": "20101224005110",
+   "wayback_url": "https://web.archive.org/web/20101224005110id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/U0918_IOC_SD2007_fr_Extended.pdf",
+   "bytes": 7405401,
+   "title": "U0918_IOC_SD2007_fr_Extended.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Walk_A_Mile_Donation__100707.pdf",
+   "timestamp": "20101203142215",
+   "wayback_url": "https://web.archive.org/web/20101203142215id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Walk_A_Mile_Donation__100707.pdf",
+   "bytes": 290011,
+   "title": "Walk_A_Mile_Donation__100707.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/WOW__100611.pdf",
+   "timestamp": "20101203142236",
+   "wayback_url": "https://web.archive.org/web/20101203142236id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/WOW__100611.pdf",
+   "bytes": 281728,
+   "title": "WOW__100611.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/10027_ioc_mineauport_spring2019_fr_web_vfinale.pdf",
+   "timestamp": "20211015201842",
+   "wayback_url": "https://web.archive.org/web/20211015201842id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/10027_ioc_mineauport_spring2019_fr_web_vfinale.pdf",
+   "bytes": 886336,
+   "title": "10027_ioc_mineauport_spring2019_fr_web_vfinale.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/10027_ioc_minetoport_spring2019_en_web_vfinale.pdf",
+   "timestamp": "20201028032119",
+   "wayback_url": "https://web.archive.org/web/20201028032119id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/10027_ioc_minetoport_spring2019_en_web_vfinale.pdf",
+   "bytes": 882792,
+   "title": "10027_ioc_minetoport_spring2019_en_web_vfinale.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2008_sd_report_en.pdf",
+   "timestamp": "20240127105500",
+   "wayback_url": "https://web.archive.org/web/20240127105500id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2008_sd_report_en.pdf",
+   "bytes": 2482272,
+   "title": "2008_sd_report_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2010_sd_report_en.pdf",
+   "timestamp": "20210118130043",
+   "wayback_url": "https://web.archive.org/web/20210118130043id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2010_sd_report_en.pdf",
+   "bytes": 519886,
+   "title": "2010_sd_report_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2010_sd_report_fr.pdf",
+   "timestamp": "20240121231104",
+   "wayback_url": "https://web.archive.org/web/20240121231104id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2010_sd_report_fr.pdf",
+   "bytes": 490817,
+   "title": "2010_sd_report_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2011_sd_report_en.pdf",
+   "timestamp": "20210118123928",
+   "wayback_url": "https://web.archive.org/web/20210118123928id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2011_sd_report_en.pdf",
+   "bytes": 975744,
+   "title": "2011_sd_report_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2011_sd_report_fr.pdf",
+   "timestamp": "20211015211709",
+   "wayback_url": "https://web.archive.org/web/20211015211709id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2011_sd_report_fr.pdf",
+   "bytes": 975798,
+   "title": "2011_sd_report_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2012_sd_report_en.pdf",
+   "timestamp": "20210118150305",
+   "wayback_url": "https://web.archive.org/web/20210118150305id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2012_sd_report_en.pdf",
+   "bytes": 1025857,
+   "title": "2012_sd_report_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2012_sd_report_fr.pdf",
+   "timestamp": "20211015210254",
+   "wayback_url": "https://web.archive.org/web/20211015210254id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2012_sd_report_fr.pdf",
+   "bytes": 1005554,
+   "title": "2012_sd_report_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2013_sd_report_en.pdf",
+   "timestamp": "20210118144510",
+   "wayback_url": "https://web.archive.org/web/20210118144510id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2013_sd_report_en.pdf",
+   "bytes": 964689,
+   "title": "2013_sd_report_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2013_sd_report_fr.pdf",
+   "timestamp": "20211015204822",
+   "wayback_url": "https://web.archive.org/web/20211015204822id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2013_sd_report_fr.pdf",
+   "bytes": 961975,
+   "title": "2013_sd_report_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2014_sd_report_en.pdf",
+   "timestamp": "20210118142751",
+   "wayback_url": "https://web.archive.org/web/20210118142751id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2014_sd_report_en.pdf",
+   "bytes": 906025,
+   "title": "2014_sd_report_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2014_sd_report_fr.pdf",
+   "timestamp": "20211015203405",
+   "wayback_url": "https://web.archive.org/web/20211015203405id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2014_sd_report_fr.pdf",
+   "bytes": 860923,
+   "title": "2014_sd_report_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2015_sd_report_en.pdf",
+   "timestamp": "20210118141039",
+   "wayback_url": "https://web.archive.org/web/20210118141039id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2015_sd_report_en.pdf",
+   "bytes": 388111,
+   "title": "2015_sd_report_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2015_sd_report_fr.pdf",
+   "timestamp": "20211015201925",
+   "wayback_url": "https://web.archive.org/web/20211015201925id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2015_sd_report_fr.pdf",
+   "bytes": 380957,
+   "title": "2015_sd_report_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2016_sd_report_en.pdf",
+   "timestamp": "20210118135254",
+   "wayback_url": "https://web.archive.org/web/20210118135254id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2016_sd_report_en.pdf",
+   "bytes": 356943,
+   "title": "2016_sd_report_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2016_sd_report_fr.pdf",
+   "timestamp": "20211015200256",
+   "wayback_url": "https://web.archive.org/web/20211015200256id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2016_sd_report_fr.pdf",
+   "bytes": 483574,
+   "title": "2016_sd_report_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2020_summer_student_employment_application_-_reviewed.pdf",
+   "timestamp": "20201028015108",
+   "wayback_url": "https://web.archive.org/web/20201028015108id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2020_summer_student_employment_application_-_reviewed.pdf",
+   "bytes": 56941,
+   "title": "2020_summer_student_employment_application_-_reviewed.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2021_summer_student_employment_application.pdf",
+   "timestamp": "20210518230359",
+   "wayback_url": "https://web.archive.org/web/20210518230359id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2021_summer_student_employment_application.pdf",
+   "bytes": 267811,
+   "title": "2021_summer_student_employment_application.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2022_summer_student_employment_application_-_may_2022.pdf",
+   "timestamp": "20220702075849",
+   "wayback_url": "https://web.archive.org/web/20220702075849id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2022_summer_student_employment_application_-_may_2022.pdf",
+   "bytes": 174571,
+   "title": "2022_summer_student_employment_application_-_may_2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2023_summer_student_employment_application_may_2023.pdf",
+   "timestamp": "20230605140610",
+   "wayback_url": "https://web.archive.org/web/20230605140610id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2023_summer_student_employment_application_may_2023.pdf",
+   "bytes": 174992,
+   "title": "2023_summer_student_employment_application_may_2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2024_summer_student_employment_application.pdf",
+   "timestamp": "20240325214637",
+   "wayback_url": "https://web.archive.org/web/20240325214637id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/2024_summer_student_employment_application.pdf",
+   "bytes": 192312,
+   "title": "2024_summer_student_employment_application.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/9502_ioc_mineauport_automne_2018_v_final_fr.pdf",
+   "timestamp": "20211015210051",
+   "wayback_url": "https://web.archive.org/web/20211015210051id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/9502_ioc_mineauport_automne_2018_v_final_fr.pdf",
+   "bytes": 979989,
+   "title": "9502_ioc_mineauport_automne_2018_v_final_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/9502_ioc_mineauport_autumn_2018_v_final_eng.pdf",
+   "timestamp": "20210118143631",
+   "wayback_url": "https://web.archive.org/web/20210118143631id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/9502_ioc_mineauport_autumn_2018_v_final_eng.pdf",
+   "bytes": 980274,
+   "title": "9502_ioc_mineauport_autumn_2018_v_final_eng.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/9835_ioc_mineauport_winter2019_fr_web.pdf",
+   "timestamp": "20211015203047",
+   "wayback_url": "https://web.archive.org/web/20211015203047id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/9835_ioc_mineauport_winter2019_fr_web.pdf",
+   "bytes": 774070,
+   "title": "9835_ioc_mineauport_winter2019_fr_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/9835_ioc_mineauport_winter2019_web.pdf",
+   "timestamp": "20210118124315",
+   "wayback_url": "https://web.archive.org/web/20210118124315id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/9835_ioc_mineauport_winter2019_web.pdf",
+   "bytes": 774847,
+   "title": "9835_ioc_mineauport_winter2019_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/application_form_dollars_for_doers.pdf",
+   "timestamp": "20210118142901",
+   "wayback_url": "https://web.archive.org/web/20210118142901id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/application_form_dollars_for_doers.pdf",
+   "bytes": 23005,
+   "title": "application_form_dollars_for_doers.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/application_form_team_ioc.pdf",
+   "timestamp": "20210118125243",
+   "wayback_url": "https://web.archive.org/web/20210118125243id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/application_form_team_ioc.pdf",
+   "bytes": 50287,
+   "title": "application_form_team_ioc.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/application_form_together_we_care.pdf",
+   "timestamp": "20210118145002",
+   "wayback_url": "https://web.archive.org/web/20210118145002id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/application_form_together_we_care.pdf",
+   "bytes": 47749,
+   "title": "application_form_together_we_care.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/certificat_an_52311-1-04.pdf",
+   "timestamp": "20201028022945",
+   "wayback_url": "https://web.archive.org/web/20201028022945id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/certificat_an_52311-1-04.pdf",
+   "bytes": 119646,
+   "title": "certificat_an_52311-1-04.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/certificat_fr_52311-1-04.pdf",
+   "timestamp": "20210928093118",
+   "wayback_url": "https://web.archive.org/web/20210928093118id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/certificat_fr_52311-1-04.pdf",
+   "bytes": 118962,
+   "title": "certificat_fr_52311-1-04.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/confirmation_du_statut_etudiant.pdf",
+   "timestamp": "20211015210530",
+   "wayback_url": "https://web.archive.org/web/20211015210530id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/confirmation_du_statut_etudiant.pdf",
+   "bytes": 212396,
+   "title": "confirmation_du_statut_etudiant.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/d1430_mine_au_port_hiver_2011_final_fr.pdf",
+   "timestamp": "20211015212410",
+   "wayback_url": "https://web.archive.org/web/20211015212410id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/d1430_mine_au_port_hiver_2011_final_fr.pdf",
+   "bytes": 882154,
+   "title": "d1430_mine_au_port_hiver_2011_final_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/d1430_mine_to_port_winter_2011final_eng.pdf",
+   "timestamp": "20201028020736",
+   "wayback_url": "https://web.archive.org/web/20201028020736id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/d1430_mine_to_port_winter_2011final_eng.pdf",
+   "bytes": 883904,
+   "title": "d1430_mine_to_port_winter_2011final_eng.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/declaration_de_statut_etudiant_-_2021.pdf",
+   "timestamp": "20211015202922",
+   "wayback_url": "https://web.archive.org/web/20211015202922id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/declaration_de_statut_etudiant_-_2021.pdf",
+   "bytes": 206056,
+   "title": "declaration_de_statut_etudiant_-_2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/declaration_de_statut_etudiant_2023.pdf",
+   "timestamp": "20240121231322",
+   "wayback_url": "https://web.archive.org/web/20240121231322id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/declaration_de_statut_etudiant_2023.pdf",
+   "bytes": 152638,
+   "title": "declaration_de_statut_etudiant_2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/declaration_des_antecedents_criminels_-_2021.pdf",
+   "timestamp": "20211015200720",
+   "wayback_url": "https://web.archive.org/web/20211015200720id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/declaration_des_antecedents_criminels_-_2021.pdf",
+   "bytes": 348376,
+   "title": "declaration_des_antecedents_criminels_-_2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/declaration_des_antecedents_criminels_2023.pdf",
+   "timestamp": "20240121231324",
+   "wayback_url": "https://web.archive.org/web/20240121231324id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/declaration_des_antecedents_criminels_2023.pdf",
+   "bytes": 173055,
+   "title": "declaration_des_antecedents_criminels_2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/declaration_sur_lesclavage_moderne_2024.pdf",
+   "timestamp": "20250803193618",
+   "wayback_url": "https://web.archive.org/web/20250803193618id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/declaration_sur_lesclavage_moderne_2024.pdf",
+   "bytes": 8094123,
+   "title": "declaration_sur_lesclavage_moderne_2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/en-ioc_sustainable_web.pdf",
+   "timestamp": "20201028015750",
+   "wayback_url": "https://web.archive.org/web/20201028015750id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/en-ioc_sustainable_web.pdf",
+   "bytes": 792759,
+   "title": "en-ioc_sustainable_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/formulaire_de_demande_dollars_pour_gens_action.pdf",
+   "timestamp": "20211015210924",
+   "wayback_url": "https://web.archive.org/web/20211015210924id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/formulaire_de_demande_dollars_pour_gens_action.pdf",
+   "bytes": 395374,
+   "title": "formulaire_de_demande_dollars_pour_gens_action.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/formulaire_de_demande_equipe_ioc.pdf",
+   "timestamp": "20211015200553",
+   "wayback_url": "https://web.archive.org/web/20211015200553id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/formulaire_de_demande_equipe_ioc.pdf",
+   "bytes": 53044,
+   "title": "formulaire_de_demande_equipe_ioc.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/formulaire_de_demande_partenariats_dons_et_commandites.pdf",
+   "timestamp": "20211015211826",
+   "wayback_url": "https://web.archive.org/web/20211015211826id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/formulaire_de_demande_partenariats_dons_et_commandites.pdf",
+   "bytes": 49967,
+   "title": "formulaire_de_demande_partenariats_dons_et_commandites.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/fr-ioc_sustainable_web.pdf",
+   "timestamp": "20211015202218",
+   "wayback_url": "https://web.archive.org/web/20211015202218id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/fr-ioc_sustainable_web.pdf",
+   "bytes": 770394,
+   "title": "fr-ioc_sustainable_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/frioc_sustainable_web.pdf",
+   "timestamp": "20240712074118",
+   "wayback_url": "https://web.archive.org/web/20240712074118id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/frioc_sustainable_web.pdf",
+   "bytes": 764588,
+   "title": "frioc_sustainable_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-b-001_business_integrity_standard.pdf",
+   "timestamp": "20240129160657",
+   "wayback_url": "https://web.archive.org/web/20240129160657id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-b-001_business_integrity_standard.pdf",
+   "bytes": 401914,
+   "title": "gov-b-001_business_integrity_standard.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-b-001_business_integrity_standard_french.pdf",
+   "timestamp": "20240121231239",
+   "wayback_url": "https://web.archive.org/web/20240121231239id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-b-001_business_integrity_standard_french.pdf",
+   "bytes": 408160,
+   "title": "gov-b-001_business_integrity_standard_french.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-c-002_business_integrity_procedure.pdf",
+   "timestamp": "20240129160659",
+   "wayback_url": "https://web.archive.org/web/20240129160659id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-c-002_business_integrity_procedure.pdf",
+   "bytes": 614973,
+   "title": "gov-c-002_business_integrity_procedure.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-c-002_business_integrity_procedure_french.pdf",
+   "timestamp": "20240121231241",
+   "wayback_url": "https://web.archive.org/web/20240121231241id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-c-002_business_integrity_procedure_french.pdf",
+   "bytes": 643034,
+   "title": "gov-c-002_business_integrity_procedure_french.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-c-003_myvoice_procedure.pdf",
+   "timestamp": "20240129160702",
+   "wayback_url": "https://web.archive.org/web/20240129160702id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-c-003_myvoice_procedure.pdf",
+   "bytes": 424056,
+   "title": "gov-c-003_myvoice_procedure.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-c-003_myvoice_procedure_french.pdf",
+   "timestamp": "20240121231244",
+   "wayback_url": "https://web.archive.org/web/20240121231244id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-c-003_myvoice_procedure_french.pdf",
+   "bytes": 417538,
+   "title": "gov-c-003_myvoice_procedure_french.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-c-006_know_your_third_party_procedure.pdf",
+   "timestamp": "20240129160704",
+   "wayback_url": "https://web.archive.org/web/20240129160704id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-c-006_know_your_third_party_procedure.pdf",
+   "bytes": 692067,
+   "title": "gov-c-006_know_your_third_party_procedure.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-c-006_know_your_third_party_procedure_french.pdf",
+   "timestamp": "20240121231246",
+   "wayback_url": "https://web.archive.org/web/20240121231246id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/gov-c-006_know_your_third_party_procedure_french.pdf",
+   "bytes": 701905,
+   "title": "gov-c-006_know_your_third_party_procedure_french.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/hydro_memo_-_2019.pdf",
+   "timestamp": "20240711235020",
+   "wayback_url": "https://web.archive.org/web/20240711235020id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/hydro_memo_-_2019.pdf",
+   "bytes": 137975,
+   "title": "hydro_memo_-_2019.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/hydro_memo_2020.pdf",
+   "timestamp": "20201028020551",
+   "wayback_url": "https://web.archive.org/web/20201028020551id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/hydro_memo_2020.pdf",
+   "bytes": 140413,
+   "title": "hydro_memo_2020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/hydro_memo_2022.pdf",
+   "timestamp": "20220526050719",
+   "wayback_url": "https://web.archive.org/web/20220526050719id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/hydro_memo_2022.pdf",
+   "bytes": 300072,
+   "title": "hydro_memo_2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/hydro_memo_2024.pdf",
+   "timestamp": "20240131175849",
+   "wayback_url": "https://web.archive.org/web/20240131175849id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/hydro_memo_2024.pdf",
+   "bytes": 168436,
+   "title": "hydro_memo_2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/hydro_memo_2026.pdf",
+   "timestamp": "20260509224213",
+   "wayback_url": "https://web.archive.org/web/20260509224213id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/hydro_memo_2026.pdf",
+   "bytes": 189710,
+   "title": "hydro_memo_2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_1pager_investissement_vf_en.pdf",
+   "timestamp": "20241109202025",
+   "wayback_url": "https://web.archive.org/web/20241109202025id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_1pager_investissement_vf_en.pdf",
+   "bytes": 558684,
+   "title": "ioc_1pager_investissement_vf_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_1pager_investissement_vf_fr.pdf",
+   "timestamp": "20241109192810",
+   "wayback_url": "https://web.archive.org/web/20241109192810id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_1pager_investissement_vf_fr.pdf",
+   "bytes": 558176,
+   "title": "ioc_1pager_investissement_vf_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_1pager_plainte_rev_21_06_en.pdf",
+   "timestamp": "20250803023741",
+   "wayback_url": "https://web.archive.org/web/20250803023741id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_1pager_plainte_rev_21_06_en.pdf",
+   "bytes": 22291,
+   "title": "ioc_1pager_plainte_rev_21_06_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_1pager_plainte_rev_21_06_fr.pdf",
+   "timestamp": "20241109203646",
+   "wayback_url": "https://web.archive.org/web/20241109203646id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_1pager_plainte_rev_21_06_fr.pdf",
+   "bytes": 22288,
+   "title": "ioc_1pager_plainte_rev_21_06_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_industrial_and_employment_benefits_plan.pdf",
+   "timestamp": "20201028033653",
+   "wayback_url": "https://web.archive.org/web/20201028033653id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_industrial_and_employment_benefits_plan.pdf",
+   "bytes": 1021713,
+   "title": "ioc_industrial_and_employment_benefits_plan.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_m2p_automne_2019_en_web.pdf",
+   "timestamp": "20201028024845",
+   "wayback_url": "https://web.archive.org/web/20201028024845id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_m2p_automne_2019_en_web.pdf",
+   "bytes": 976469,
+   "title": "ioc_m2p_automne_2019_en_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_m2p_automne_2019_fr_web.pdf",
+   "timestamp": "20211015200925",
+   "wayback_url": "https://web.archive.org/web/20211015200925id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_m2p_automne_2019_fr_web.pdf",
+   "bytes": 976182,
+   "title": "ioc_m2p_automne_2019_fr_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2020-final-web.pdf",
+   "timestamp": "20211015204901",
+   "wayback_url": "https://web.archive.org/web/20211015204901id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2020-final-web.pdf",
+   "bytes": 998109,
+   "title": "ioc_rdd_2020-final-web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2020_en-final-web.pdf",
+   "timestamp": "20210719091340",
+   "wayback_url": "https://web.archive.org/web/20210719091340id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2020_en-final-web.pdf",
+   "bytes": 7848490,
+   "title": "ioc_rdd_2020_en-final-web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2021-final.pdf",
+   "timestamp": "20230528065536",
+   "wayback_url": "https://web.archive.org/web/20230528065536id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2021-final.pdf",
+   "bytes": 802754,
+   "title": "ioc_rdd_2021-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2021_en-final.pdf",
+   "timestamp": "20220808183920",
+   "wayback_url": "https://web.archive.org/web/20220808183920id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2021_en-final.pdf",
+   "bytes": 801090,
+   "title": "ioc_rdd_2021_en-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2022_vf_web2.pdf",
+   "timestamp": "20240118123125",
+   "wayback_url": "https://web.archive.org/web/20240118123125id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2022_vf_web2.pdf",
+   "bytes": 5186622,
+   "title": "ioc_rdd_2022_vf_web2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2023_eng.pdf",
+   "timestamp": "20240617042152",
+   "wayback_url": "https://web.archive.org/web/20240617042152id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2023_eng.pdf",
+   "bytes": 2834017,
+   "title": "ioc_rdd_2023_eng.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2023_fr_vf.pdf",
+   "timestamp": "20240807010554",
+   "wayback_url": "https://web.archive.org/web/20240807010554id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2023_fr_vf.pdf",
+   "bytes": 2814515,
+   "title": "ioc_rdd_2023_fr_vf.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2024_en_vf_web.pdf",
+   "timestamp": "20260417122611",
+   "wayback_url": "https://web.archive.org/web/20260417122611id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_2024_en_vf_web.pdf",
+   "bytes": 4592410,
+   "title": "ioc_rdd_2024_en_vf_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_en_2022_vf_web2.pdf",
+   "timestamp": "20240127105351",
+   "wayback_url": "https://web.archive.org/web/20240127105351id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_en_2022_vf_web2.pdf",
+   "bytes": 5160089,
+   "title": "ioc_rdd_en_2022_vf_web2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_en_2022_vf_web2.pdf?v=1625497642",
+   "timestamp": "20240118124424",
+   "wayback_url": "https://web.archive.org/web/20240118124424id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_rdd_en_2022_vf_web2.pdf?v=1625497642",
+   "bytes": 5160094,
+   "title": "ioc_rdd_en_2022_vf_web2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_supplier_standardsbranded_eng.pdf",
+   "timestamp": "20201028024436",
+   "wayback_url": "https://web.archive.org/web/20201028024436id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_supplier_standardsbranded_eng.pdf",
+   "bytes": 301198,
+   "title": "ioc_supplier_standardsbranded_eng.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_supplier_standardsbranded_fr.pdf",
+   "timestamp": "20210518232616",
+   "wayback_url": "https://web.archive.org/web/20210518232616id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/ioc_supplier_standardsbranded_fr.pdf",
+   "bytes": 301185,
+   "title": "ioc_supplier_standardsbranded_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/iso_9001_2015_certificat_an_52311-1-05.pdf",
+   "timestamp": "20230812210217",
+   "wayback_url": "https://web.archive.org/web/20230812210217id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/iso_9001_2015_certificat_an_52311-1-05.pdf",
+   "bytes": 141181,
+   "title": "iso_9001_2015_certificat_an_52311-1-05.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_autumn_2007_16_m2p.pdf",
+   "timestamp": "20240127105250",
+   "wayback_url": "https://web.archive.org/web/20240127105250id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_autumn_2007_16_m2p.pdf",
+   "bytes": 2159787,
+   "title": "m2p_autumn_2007_16_m2p.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_avr05_en.pdf",
+   "timestamp": "20240127105319",
+   "wayback_url": "https://web.archive.org/web/20240127105319id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_avr05_en.pdf",
+   "bytes": 1776884,
+   "title": "m2p_avr05_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_dec04_en.pdf",
+   "timestamp": "20240127105335",
+   "wayback_url": "https://web.archive.org/web/20240127105335id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_dec04_en.pdf",
+   "bytes": 355221,
+   "title": "m2p_dec04_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_expansion_eng_oct_08.pdf",
+   "timestamp": "20240127105226",
+   "wayback_url": "https://web.archive.org/web/20240127105226id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_expansion_eng_oct_08.pdf",
+   "bytes": 1080959,
+   "title": "m2p_expansion_eng_oct_08.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_fall_04_eng.pdf",
+   "timestamp": "20240127105343",
+   "wayback_url": "https://web.archive.org/web/20240127105343id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_fall_04_eng.pdf",
+   "bytes": 353181,
+   "title": "m2p_fall_04_eng.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_fall_06_en.pdf",
+   "timestamp": "20240127105300",
+   "wayback_url": "https://web.archive.org/web/20240127105300id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_fall_06_en.pdf",
+   "bytes": 2244560,
+   "title": "m2p_fall_06_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_fall_2008_eng_low.pdf",
+   "timestamp": "20240127105229",
+   "wayback_url": "https://web.archive.org/web/20240127105229id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_fall_2008_eng_low.pdf",
+   "bytes": 1573266,
+   "title": "m2p_fall_2008_eng_low.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_feb05_en.pdf",
+   "timestamp": "20240127105327",
+   "wayback_url": "https://web.archive.org/web/20240127105327id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_feb05_en.pdf",
+   "bytes": 228924,
+   "title": "m2p_feb05_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_jan05_en.pdf",
+   "timestamp": "20240127105330",
+   "wayback_url": "https://web.archive.org/web/20240127105330id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_jan05_en.pdf",
+   "bytes": 353036,
+   "title": "m2p_jan05_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_juin_06_en.pdf",
+   "timestamp": "20240127105303",
+   "wayback_url": "https://web.archive.org/web/20240127105303id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_juin_06_en.pdf",
+   "bytes": 1958161,
+   "title": "m2p_juin_06_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_mar05_en.pdf",
+   "timestamp": "20240127105326",
+   "wayback_url": "https://web.archive.org/web/20240127105326id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_mar05_en.pdf",
+   "bytes": 167743,
+   "title": "m2p_mar05_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_nov04_en.pdf",
+   "timestamp": "20240127105339",
+   "wayback_url": "https://web.archive.org/web/20240127105339id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_nov04_en.pdf",
+   "bytes": 376653,
+   "title": "m2p_nov04_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_spr_08_en_.pdf",
+   "timestamp": "20240127105239",
+   "wayback_url": "https://web.archive.org/web/20240127105239id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_spr_08_en_.pdf",
+   "bytes": 2349294,
+   "title": "m2p_spr_08_en_.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_spring2006.pdf",
+   "timestamp": "20240127105306",
+   "wayback_url": "https://web.archive.org/web/20240127105306id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_spring2006.pdf",
+   "bytes": 1698512,
+   "title": "m2p_spring2006.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_spring_07_en.pdf",
+   "timestamp": "20240127105254",
+   "wayback_url": "https://web.archive.org/web/20240127105254id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_spring_07_en.pdf",
+   "bytes": 743385,
+   "title": "m2p_spring_07_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_spring_2009_eng.pdf",
+   "timestamp": "20240127105220",
+   "wayback_url": "https://web.archive.org/web/20240127105220id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_spring_2009_eng.pdf",
+   "bytes": 3421955,
+   "title": "m2p_spring_2009_eng.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_summer_08.pdf",
+   "timestamp": "20240127105234",
+   "wayback_url": "https://web.archive.org/web/20240127105234id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_summer_08.pdf",
+   "bytes": 4237362,
+   "title": "m2p_summer_08.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_summer_2009_eng_coulop.pdf",
+   "timestamp": "20240127105216",
+   "wayback_url": "https://web.archive.org/web/20240127105216id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_summer_2009_eng_coulop.pdf",
+   "bytes": 1213435,
+   "title": "m2p_summer_2009_eng_coulop.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_winter_06_en.pdf",
+   "timestamp": "20240127105256",
+   "wayback_url": "https://web.archive.org/web/20240127105256id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_winter_06_en.pdf",
+   "bytes": 2406402,
+   "title": "m2p_winter_06_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_winter_07_en.pdf",
+   "timestamp": "20240127105245",
+   "wayback_url": "https://web.archive.org/web/20240127105245id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_winter_07_en.pdf",
+   "bytes": 2919955,
+   "title": "m2p_winter_07_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_winter_2008_eng.pdf",
+   "timestamp": "20240127105223",
+   "wayback_url": "https://web.archive.org/web/20240127105223id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/m2p_winter_2008_eng.pdf",
+   "bytes": 1558237,
+   "title": "m2p_winter_2008_eng.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine-au-port-winter-05.pdf",
+   "timestamp": "20240127105310",
+   "wayback_url": "https://web.archive.org/web/20240127105310id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine-au-port-winter-05.pdf",
+   "bytes": 3439070,
+   "title": "mine-au-port-winter-05.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_au_port_automne_2011.pdf",
+   "timestamp": "20211015192958",
+   "wayback_url": "https://web.archive.org/web/20211015192958id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_au_port_automne_2011.pdf",
+   "bytes": 991228,
+   "title": "mine_au_port_automne_2011.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_au_port_printemps_2011.pdf",
+   "timestamp": "20211015205420",
+   "wayback_url": "https://web.archive.org/web/20211015205420id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_au_port_printemps_2011.pdf",
+   "bytes": 735186,
+   "title": "mine_au_port_printemps_2011.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_au_port_spring_eng.pdf",
+   "timestamp": "20240127105322",
+   "wayback_url": "https://web.archive.org/web/20240127105322id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_au_port_spring_eng.pdf",
+   "bytes": 2337054,
+   "title": "mine_au_port_spring_eng.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_port_ang_fall_03.pdf",
+   "timestamp": "20240127105348",
+   "wayback_url": "https://web.archive.org/web/20240127105348id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_port_ang_fall_03.pdf",
+   "bytes": 1128688,
+   "title": "mine_port_ang_fall_03.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_to_port_fall_2011.pdf",
+   "timestamp": "20210118145442",
+   "wayback_url": "https://web.archive.org/web/20210118145442id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_to_port_fall_2011.pdf",
+   "bytes": 996983,
+   "title": "mine_to_port_fall_2011.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_to_port_spring2012_en_final_web.pdf",
+   "timestamp": "20210118144259",
+   "wayback_url": "https://web.archive.org/web/20210118144259id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_to_port_spring2012_en_final_web.pdf",
+   "bytes": 940219,
+   "title": "mine_to_port_spring2012_en_final_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_to_port_spring2012_fr_final_web.pdf",
+   "timestamp": "20211015202052",
+   "wayback_url": "https://web.archive.org/web/20211015202052id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_to_port_spring2012_fr_final_web.pdf",
+   "bytes": 940090,
+   "title": "mine_to_port_spring2012_fr_final_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_to_port_spring_2004.pdf",
+   "timestamp": "20240127105345",
+   "wayback_url": "https://web.archive.org/web/20240127105345id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_to_port_spring_2004.pdf",
+   "bytes": 962368,
+   "title": "mine_to_port_spring_2004.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_to_port_spring_2011.pdf",
+   "timestamp": "20210118133357",
+   "wayback_url": "https://web.archive.org/web/20210118133357id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mine_to_port_spring_2011.pdf",
+   "bytes": 727734,
+   "title": "mine_to_port_spring_2011.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mineau_port_hiver2011.pdf",
+   "timestamp": "20211015210411",
+   "wayback_url": "https://web.archive.org/web/20211015210411id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mineau_port_hiver2011.pdf",
+   "bytes": 882170,
+   "title": "mineau_port_hiver2011.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mineauport_summer_2018_fr.pdf",
+   "timestamp": "20211015205655",
+   "wayback_url": "https://web.archive.org/web/20211015205655id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mineauport_summer_2018_fr.pdf",
+   "bytes": 979744,
+   "title": "mineauport_summer_2018_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/minetoport-winter-2004-english.pdf",
+   "timestamp": "20240127105332",
+   "wayback_url": "https://web.archive.org/web/20240127105332id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/minetoport-winter-2004-english.pdf",
+   "bytes": 1268290,
+   "title": "minetoport-winter-2004-english.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/minetoport_summer_2005.pdf",
+   "timestamp": "20240127105316",
+   "wayback_url": "https://web.archive.org/web/20240127105316id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/minetoport_summer_2005.pdf",
+   "bytes": 1716937,
+   "title": "minetoport_summer_2005.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/minetoport_summer_2018_eng.pdf",
+   "timestamp": "20210118131142",
+   "wayback_url": "https://web.archive.org/web/20210118131142id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/minetoport_summer_2018_eng.pdf",
+   "bytes": 331743,
+   "title": "minetoport_summer_2018_eng.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/minetoport_winter2011.pdf",
+   "timestamp": "20210118140529",
+   "wayback_url": "https://web.archive.org/web/20210118140529id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/minetoport_winter2011.pdf",
+   "bytes": 883856,
+   "title": "minetoport_winter2011.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/modern-slavery-statement-2024.pdf",
+   "timestamp": "20250803194152",
+   "wayback_url": "https://web.archive.org/web/20250803194152id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/modern-slavery-statement-2024.pdf",
+   "bytes": 1981008,
+   "title": "modern-slavery-statement-2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mtp_final_winter_2009.pdf",
+   "timestamp": "20240127105213",
+   "wayback_url": "https://web.archive.org/web/20240127105213id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mtp_final_winter_2009.pdf",
+   "bytes": 922471,
+   "title": "mtp_final_winter_2009.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mtp_spring_2010_2.pdf",
+   "timestamp": "20240127105211",
+   "wayback_url": "https://web.archive.org/web/20240127105211id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mtp_spring_2010_2.pdf",
+   "bytes": 983577,
+   "title": "mtp_spring_2010_2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mtp_summer_2010.pdf",
+   "timestamp": "20240127105208",
+   "wayback_url": "https://web.archive.org/web/20240127105208id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mtp_summer_2010.pdf",
+   "bytes": 722170,
+   "title": "mtp_summer_2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mtp_winter_2010_final.pdf",
+   "timestamp": "20240127105203",
+   "wayback_url": "https://web.archive.org/web/20240127105203id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/mtp_winter_2010_final.pdf",
+   "bytes": 2459457,
+   "title": "mtp_winter_2010_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/myvoice-standard-en.pdf",
+   "timestamp": "20260417114521",
+   "wayback_url": "https://web.archive.org/web/20260417114521id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/myvoice-standard-en.pdf",
+   "bytes": 170893,
+   "title": "myvoice-standard-en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/myvoice-standard-fr.pdf",
+   "timestamp": "20260417112528",
+   "wayback_url": "https://web.archive.org/web/20260417112528id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/myvoice-standard-fr.pdf",
+   "bytes": 196428,
+   "title": "myvoice-standard-fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ship_bounds_-_2020_-_ver2.pdf",
+   "timestamp": "20201028020352",
+   "wayback_url": "https://web.archive.org/web/20201028020352id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ship_bounds_-_2020_-_ver2.pdf",
+   "bytes": 1007456,
+   "title": "notice_to_ship_bounds_-_2020_-_ver2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ship_bounds_-_2021_-_ver3.pdf",
+   "timestamp": "20210518223419",
+   "wayback_url": "https://web.archive.org/web/20210518223419id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ship_bounds_-_2021_-_ver3.pdf",
+   "bytes": 1015309,
+   "title": "notice_to_ship_bounds_-_2021_-_ver3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound-2023-final-en.pdf",
+   "timestamp": "20231130053044",
+   "wayback_url": "https://web.archive.org/web/20231130053044id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound-2023-final-en.pdf",
+   "bytes": 1016950,
+   "title": "notice_to_ships_bound-2023-final-en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound-2023-revised-2.pdf",
+   "timestamp": "20230605140359",
+   "wayback_url": "https://web.archive.org/web/20230605140359id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound-2023-revised-2.pdf",
+   "bytes": 1747116,
+   "title": "notice_to_ships_bound-2023-revised-2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound-2023_revised-june_05th2023.pdf",
+   "timestamp": "20230812210306",
+   "wayback_url": "https://web.archive.org/web/20230812210306id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound-2023_revised-june_05th2023.pdf",
+   "bytes": 1674746,
+   "title": "notice_to_ships_bound-2023_revised-june_05th2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound-2024-final.pdf",
+   "timestamp": "20241109193007",
+   "wayback_url": "https://web.archive.org/web/20241109193007id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound-2024-final.pdf",
+   "bytes": 1018685,
+   "title": "notice_to_ships_bound-2024-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound-2_revised-june_05th_2023.pdf",
+   "timestamp": "20240121231143",
+   "wayback_url": "https://web.archive.org/web/20240121231143id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound-2_revised-june_05th_2023.pdf",
+   "bytes": 1678350,
+   "title": "notice_to_ships_bound-2_revised-june_05th_2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound_25fev_2026.pdf",
+   "timestamp": "20260417123718",
+   "wayback_url": "https://web.archive.org/web/20260417123718id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound_25fev_2026.pdf",
+   "bytes": 2143878,
+   "title": "notice_to_ships_bound_25fev_2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound_for_sept-iles-2025-final.pdf",
+   "timestamp": "20250801064644",
+   "wayback_url": "https://web.archive.org/web/20250801064644id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound_for_sept-iles-2025-final.pdf",
+   "bytes": 2142755,
+   "title": "notice_to_ships_bound_for_sept-iles-2025-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound_for_sept-iles-2025-final_en.pdf",
+   "timestamp": "20250411190526",
+   "wayback_url": "https://web.archive.org/web/20250411190526id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/notice_to_ships_bound_for_sept-iles-2025-final_en.pdf",
+   "bytes": 2135094,
+   "title": "notice_to_ships_bound_for_sept-iles-2025-final_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/plan_triennal_qnsl_mai2025.pdf",
+   "timestamp": "20250801064650",
+   "wayback_url": "https://web.archive.org/web/20250801064650id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/plan_triennal_qnsl_mai2025.pdf",
+   "bytes": 114970,
+   "title": "plan_triennal_qnsl_mai2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/qnsl_three_year_plan_eng.pdf",
+   "timestamp": "20210118143556",
+   "wayback_url": "https://web.archive.org/web/20210118143556id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/qnsl_three_year_plan_eng.pdf",
+   "bytes": 5806,
+   "title": "qnsl_three_year_plan_eng.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/qnsl_three_year_plan_fr.pdf",
+   "timestamp": "20240121231147",
+   "wayback_url": "https://web.archive.org/web/20240121231147id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/qnsl_three_year_plan_fr.pdf",
+   "bytes": 44547,
+   "title": "qnsl_three_year_plan_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/qnsl_three_years_plan_may2025.pdf",
+   "timestamp": "20250601110548",
+   "wayback_url": "https://web.archive.org/web/20250601110548id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/qnsl_three_years_plan_may2025.pdf",
+   "bytes": 100501,
+   "title": "qnsl_three_years_plan_may2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rapport_dd_2019_ang_final_web.pdf",
+   "timestamp": "20201028032524",
+   "wayback_url": "https://web.archive.org/web/20201028032524id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rapport_dd_2019_ang_final_web.pdf",
+   "bytes": 1033866,
+   "title": "rapport_dd_2019_ang_final_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rapport_dd_2019_ang_final_web.pdf?v=1594146828",
+   "timestamp": "20240105165558",
+   "wayback_url": "https://web.archive.org/web/20240105165558id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rapport_dd_2019_ang_final_web.pdf?v=1594146828",
+   "bytes": 6578740,
+   "title": "rapport_dd_2019_ang_final_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rapport_dd_2019_final_web.pdf",
+   "timestamp": "20211015193057",
+   "wayback_url": "https://web.archive.org/web/20211015193057id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rapport_dd_2019_final_web.pdf",
+   "bytes": 1033779,
+   "title": "rapport_dd_2019_final_web.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rapport_DD_2020_EN_V7.pdf",
+   "timestamp": "20201028024147",
+   "wayback_url": "https://web.archive.org/web/20201028024147id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rapport_DD_2020_EN_V7.pdf",
+   "bytes": 1032020,
+   "title": "rapport_DD_2020_EN_V7.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rapport_DD_2020_V12.pdf",
+   "timestamp": "20211015204501",
+   "wayback_url": "https://web.archive.org/web/20211015204501id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rapport_DD_2020_V12.pdf",
+   "bytes": 1032050,
+   "title": "rapport_DD_2020_V12.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rio_tinto_supplier_code_of_conduct_en.pdf",
+   "timestamp": "20201028024816",
+   "wayback_url": "https://web.archive.org/web/20201028024816id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rio_tinto_supplier_code_of_conduct_en.pdf",
+   "bytes": 247467,
+   "title": "rio_tinto_supplier_code_of_conduct_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rio_tinto_supplier_code_of_conduct_fr.pdf",
+   "timestamp": "20211015202550",
+   "wayback_url": "https://web.archive.org/web/20211015202550id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rio_tinto_supplier_code_of_conduct_fr.pdf",
+   "bytes": 251070,
+   "title": "rio_tinto_supplier_code_of_conduct_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt-modern-slavery-statement-2023-fr.pdf",
+   "timestamp": "20250805125315",
+   "wayback_url": "https://web.archive.org/web/20250805125315id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt-modern-slavery-statement-2023-fr.pdf",
+   "bytes": 8889485,
+   "title": "rt-modern-slavery-statement-2023-fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt-modern-slavery-statement-2023.pdf",
+   "timestamp": "20250701160435",
+   "wayback_url": "https://web.archive.org/web/20250701160435id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt-modern-slavery-statement-2023.pdf",
+   "bytes": 8747935,
+   "title": "rt-modern-slavery-statement-2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt-supplier-code-of-conduct_2024.pdf",
+   "timestamp": "20260509230638",
+   "wayback_url": "https://web.archive.org/web/20260509230638id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt-supplier-code-of-conduct_2024.pdf",
+   "bytes": 2066360,
+   "title": "rt-supplier-code-of-conduct_2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt-the-way-we-work-fr_2023.pdf",
+   "timestamp": "20240121231111",
+   "wayback_url": "https://web.archive.org/web/20240121231111id_/http://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt-the-way-we-work-fr_2023.pdf",
+   "bytes": 1685722,
+   "title": "rt-the-way-we-work-fr_2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt-the-way-we-work_2023.pdf",
+   "timestamp": "20230812205928",
+   "wayback_url": "https://web.archive.org/web/20230812205928id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt-the-way-we-work_2023.pdf",
+   "bytes": 1689564,
+   "title": "rt-the-way-we-work_2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt-the-way-we-work_2026.pdf",
+   "timestamp": "20260417125110",
+   "wayback_url": "https://web.archive.org/web/20260417125110id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt-the-way-we-work_2026.pdf",
+   "bytes": 4129631,
+   "title": "rt-the-way-we-work_2026.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt_the_way_we_work_en.pdf",
+   "timestamp": "20201028030449",
+   "wayback_url": "https://web.archive.org/web/20201028030449id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt_the_way_we_work_en.pdf",
+   "bytes": 1013336,
+   "title": "rt_the_way_we_work_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt_the_way_we_work_fr.pdf",
+   "timestamp": "20211015205142",
+   "wayback_url": "https://web.archive.org/web/20211015205142id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/rt_the_way_we_work_fr.pdf",
+   "bytes": 1013091,
+   "title": "rt_the_way_we_work_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/school_student_verification_form2023.pdf",
+   "timestamp": "20230605152734",
+   "wayback_url": "https://web.archive.org/web/20230605152734id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/school_student_verification_form2023.pdf",
+   "bytes": 649805,
+   "title": "school_student_verification_form2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/school_student_verification_form_2020_-_reviewed.pdf",
+   "timestamp": "20201028033503",
+   "wayback_url": "https://web.archive.org/web/20201028033503id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/school_student_verification_form_2020_-_reviewed.pdf",
+   "bytes": 130132,
+   "title": "school_student_verification_form_2020_-_reviewed.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/school_student_verification_form_2021.pdf",
+   "timestamp": "20210518235204",
+   "wayback_url": "https://web.archive.org/web/20210518235204id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/school_student_verification_form_2021.pdf",
+   "bytes": 467557,
+   "title": "school_student_verification_form_2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/school_student_verification_form_2022.pdf",
+   "timestamp": "20220702090715",
+   "wayback_url": "https://web.archive.org/web/20220702090715id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/school_student_verification_form_2022.pdf",
+   "bytes": 161889,
+   "title": "school_student_verification_form_2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/school_student_verification_form_2024.pdf",
+   "timestamp": "20240325222752",
+   "wayback_url": "https://web.archive.org/web/20240325222752id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/school_student_verification_form_2024.pdf",
+   "bytes": 171402,
+   "title": "school_student_verification_form_2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration2023.pdf",
+   "timestamp": "20230605140145",
+   "wayback_url": "https://web.archive.org/web/20230605140145id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration2023.pdf",
+   "bytes": 677832,
+   "title": "student_declaration2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_-_2021.pdf",
+   "timestamp": "20210518231758",
+   "wayback_url": "https://web.archive.org/web/20210518231758id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_-_2021.pdf",
+   "bytes": 158099,
+   "title": "student_declaration_-_2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_-_2022.pdf",
+   "timestamp": "20220702075416",
+   "wayback_url": "https://web.archive.org/web/20220702075416id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_-_2022.pdf",
+   "bytes": 189993,
+   "title": "student_declaration_-_2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_-_2024.pdf",
+   "timestamp": "20240325215700",
+   "wayback_url": "https://web.archive.org/web/20240325215700id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_-_2024.pdf",
+   "bytes": 200711,
+   "title": "student_declaration_-_2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_-_reviewed.pdf",
+   "timestamp": "20201028023516",
+   "wayback_url": "https://web.archive.org/web/20201028023516id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_-_reviewed.pdf",
+   "bytes": 158155,
+   "title": "student_declaration_-_reviewed.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_of_clean_criminal_history2023.pdf",
+   "timestamp": "20230605135554",
+   "wayback_url": "https://web.archive.org/web/20230605135554id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_of_clean_criminal_history2023.pdf",
+   "bytes": 621291,
+   "title": "student_declaration_of_clean_criminal_history2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_of_clean_criminal_history_-_2021.pdf",
+   "timestamp": "20210519001837",
+   "wayback_url": "https://web.archive.org/web/20210519001837id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_of_clean_criminal_history_-_2021.pdf",
+   "bytes": 345036,
+   "title": "student_declaration_of_clean_criminal_history_-_2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_of_clean_criminal_history_-_2022.pdf",
+   "timestamp": "20220702085843",
+   "wayback_url": "https://web.archive.org/web/20220702085843id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_of_clean_criminal_history_-_2022.pdf",
+   "bytes": 135765,
+   "title": "student_declaration_of_clean_criminal_history_-_2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_of_clean_criminal_history_-_2024.pdf",
+   "timestamp": "20240327064728",
+   "wayback_url": "https://web.archive.org/web/20240327064728id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_of_clean_criminal_history_-_2024.pdf",
+   "bytes": 116617,
+   "title": "student_declaration_of_clean_criminal_history_-_2024.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_of_clean_criminal_history_-_reviewed.pdf",
+   "timestamp": "20201028022328",
+   "wayback_url": "https://web.archive.org/web/20201028022328id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/student_declaration_of_clean_criminal_history_-_reviewed.pdf",
+   "bytes": 93086,
+   "title": "student_declaration_of_clean_criminal_history_-_reviewed.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/summer_student_employment_application_march2023.pdf",
+   "timestamp": "20230605140600",
+   "wayback_url": "https://web.archive.org/web/20230605140600id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/summer_student_employment_application_march2023.pdf",
+   "bytes": 661002,
+   "title": "summer_student_employment_application_march2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/twww_booklet_english.pdf",
+   "timestamp": "20220702083258",
+   "wayback_url": "https://web.archive.org/web/20220702083258id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/twww_booklet_english.pdf",
+   "bytes": 1020793,
+   "title": "twww_booklet_english.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/twww_booklet_french.pdf",
+   "timestamp": "20250726140710",
+   "wayback_url": "https://web.archive.org/web/20250726140710id_/https://www.ironore.ca/data/65-iocv5/ressources/documents/sys_docs/twww_booklet_french.pdf",
+   "bytes": 8706412,
+   "title": "twww_booklet_french.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca:80/environment/S&E%20Report%20Eng%202002.pdf",
+   "timestamp": "20040728045230",
+   "wayback_url": "https://web.archive.org/web/20040728045230id_/http://www.ironore.ca:80/environment/S&E%20Report%20Eng%202002.pdf",
+   "bytes": 3107315,
+   "title": "S&E Report Eng 2002.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/faq/admin/files/COM%20Presidents%20Safety%20Award%20041207%20fr.pdf",
+   "timestamp": "20050127033527",
+   "wayback_url": "https://web.archive.org/web/20050127033527id_/http://www.ironore.ca:80/faq/admin/files/COM%20Presidents%20Safety%20Award%20041207%20fr.pdf",
+   "bytes": 12736,
+   "title": "COM Presidents Safety Award 041207 fr.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/faq/admin/files/COM%20Recycler%20pour%20une%20bonne%20cause%20041208.pdf",
+   "timestamp": "20050127062444",
+   "wayback_url": "https://web.archive.org/web/20050127062444id_/http://www.ironore.ca:80/faq/admin/files/COM%20Recycler%20pour%20une%20bonne%20cause%20041208.pdf",
+   "bytes": 14418,
+   "title": "COM Recycler pour une bonne cause 041208.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/faq/admin/files/Equipe%20multi%20bris%20au%20deverseur%20-%20041015.pdf",
+   "timestamp": "20050127081504",
+   "wayback_url": "https://web.archive.org/web/20050127081504id_/http://www.ironore.ca:80/faq/admin/files/Equipe%20multi%20bris%20au%20deverseur%20-%20041015.pdf",
+   "bytes": 68522,
+   "title": "Equipe multi bris au deverseur - 041015.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/faq/admin/files/Ministerial%20Campaign%202004_en.pdf",
+   "timestamp": "20050302203911",
+   "wayback_url": "https://web.archive.org/web/20050302203911id_/http://www.ironore.ca:80/faq/admin/files/Ministerial%20Campaign%202004_en.pdf",
+   "bytes": 104824,
+   "title": "Ministerial Campaign 2004_en.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/french/environment/S&E%20Report%20Fr%202002.pdf",
+   "timestamp": "20040728063754",
+   "wayback_url": "https://web.archive.org/web/20040728063754id_/http://www.ironore.ca:80/french/environment/S&E%20Report%20Fr%202002.pdf",
+   "bytes": 1362323,
+   "title": "S&E Report Fr 2002.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca:80/main/PDF/2009_QMS_SAI_ENG.pdf",
+   "timestamp": "20090902182952",
+   "wayback_url": "https://web.archive.org/web/20090902182952id_/http://www.ironore.ca:80/main/PDF/2009_QMS_SAI_ENG.pdf",
+   "bytes": 151060,
+   "title": "2009_QMS_SAI_ENG.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/main/PDF/couponFR.pdf",
+   "timestamp": "20050316053035",
+   "wayback_url": "https://web.archive.org/web/20050316053035id_/http://www.ironore.ca:80/main/PDF/couponFR.pdf",
+   "bytes": 16856,
+   "title": "couponFR.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/main/PDF/expansion/IOC_Background_Insert_EN.pdf",
+   "timestamp": "20091122150357",
+   "wayback_url": "https://web.archive.org/web/20091122150357id_/http://www.ironore.ca:80/main/PDF/expansion/IOC_Background_Insert_EN.pdf",
+   "bytes": 4105342,
+   "title": "IOC_Background_Insert_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/main/PDF/Hydro_Memo_070116.pdf",
+   "timestamp": "20070217032835",
+   "wayback_url": "https://web.archive.org/web/20070217032835id_/http://www.ironore.ca:80/main/PDF/Hydro_Memo_070116.pdf",
+   "bytes": 20309,
+   "title": "Hydro_Memo_070116.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/main/PDF/Labrador%20city-FINAL.pdf",
+   "timestamp": "20050317183035",
+   "wayback_url": "https://web.archive.org/web/20050317183035id_/http://www.ironore.ca:80/main/PDF/Labrador%20city-FINAL.pdf",
+   "bytes": 576211,
+   "title": "Labrador city-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/main/PDF/M2P_winter_06_EN.pdf",
+   "timestamp": "20070217060123",
+   "wayback_url": "https://web.archive.org/web/20070217060123id_/http://www.ironore.ca:80/main/PDF/M2P_winter_06_EN.pdf",
+   "bytes": 2405520,
+   "title": "M2P_winter_06_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/main/PDF/Route_389_Brochure_EN.pdf",
+   "timestamp": "20090902183003",
+   "wayback_url": "https://web.archive.org/web/20090902183003id_/http://www.ironore.ca:80/main/PDF/Route_389_Brochure_EN.pdf",
+   "bytes": 329387,
+   "title": "Route_389_Brochure_EN.pdf",
+   "type": "map",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca:80/pdf/2003%20Social%20and%20Environment%20Report.pdf",
+   "timestamp": "20050302110106",
+   "wayback_url": "https://web.archive.org/web/20050302110106id_/http://www.ironore.ca:80/pdf/2003%20Social%20and%20Environment%20Report.pdf",
+   "bytes": 175637,
+   "title": "2003 Social and Environment Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/pdf/ProcedureA3ffinale.pdf",
+   "timestamp": "20050214031946",
+   "wayback_url": "https://web.archive.org/web/20050214031946id_/http://www.ironore.ca:80/pdf/ProcedureA3ffinale.pdf",
+   "bytes": 47720,
+   "title": "ProcedureA3ffinale.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/pdf/Sales_fr.pdf",
+   "timestamp": "20030427113901",
+   "wayback_url": "https://web.archive.org/web/20030427113901id_/http://www.ironore.ca:80/pdf/Sales_fr.pdf",
+   "bytes": 30295,
+   "title": "Sales_fr.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/formulaire_etudiants_FR.doc",
+   "timestamp": "20101224003743",
+   "wayback_url": "https://web.archive.org/web/20101224003743id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/formulaire_etudiants_FR.doc",
+   "bytes": 6257,
+   "title": "formulaire_etudiants_FR.doc",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Memo_Hydro_Rebate_2009__Jan_8_2010.doc",
+   "timestamp": "20101203142702",
+   "wayback_url": "https://web.archive.org/web/20101203142702id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/Memo_Hydro_Rebate_2009__Jan_8_2010.doc",
+   "bytes": 415154,
+   "title": "Memo_Hydro_Rebate_2009__Jan_8_2010.doc",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/NormesA3.doc",
+   "timestamp": "20101224004518",
+   "wayback_url": "https://web.archive.org/web/20101224004518id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/NormesA3.doc",
+   "bytes": 545,
+   "title": "NormesA3.doc",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/ProcedureA3ffinale.doc",
+   "timestamp": "20101224004455",
+   "wayback_url": "https://web.archive.org/web/20101224004455id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/ProcedureA3ffinale.doc",
+   "bytes": 555,
+   "title": "ProcedureA3ffinale.doc",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/SVF__April_2010.doc",
+   "timestamp": "20101203143729",
+   "wayback_url": "https://web.archive.org/web/20101203143729id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/SVF__April_2010.doc",
+   "bytes": 6187,
+   "title": "SVF__April_2010.doc",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/main/PDF/Hydro%20Memo%20-%20February%204,%202005.doc",
+   "timestamp": "20070217060418",
+   "wayback_url": "https://web.archive.org/web/20070217060418id_/http://www.ironore.ca:80/main/PDF/Hydro%20Memo%20-%20February%204,%202005.doc",
+   "bytes": 7629,
+   "title": "Hydro Memo - February 4, 2005.doc",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/pdf/Hydro%20Memo%20-%20February%204,%202005.doc",
+   "timestamp": "20050302212123",
+   "wayback_url": "https://web.archive.org/web/20050302212123id_/http://www.ironore.ca:80/pdf/Hydro%20Memo%20-%20February%204,%202005.doc",
+   "bytes": 7604,
+   "title": "Hydro Memo - February 4, 2005.doc",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/Memo_Training_Oct%2031%20JOK_draft2.docx",
+   "timestamp": "20170120094750",
+   "wayback_url": "https://web.archive.org/web/20170120094750id_/http://www.ironore.ca:80/CLIENTS/1-iocv4/docs/upload/sys_docs/Memo_Training_Oct%2031%20JOK_draft2.docx",
+   "bytes": 97217,
+   "title": "Memo_Training_Oct 31 JOK_draft2.docx",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/expansion/exp_photos_21_phase1.zip",
+   "timestamp": "20101223211817",
+   "wayback_url": "https://web.archive.org/web/20101223211817id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/expansion/exp_photos_21_phase1.zip",
+   "bytes": 4089827,
+   "title": "exp_photos_21_phase1.zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/expansion/expansion_photos_EN_colour.zip",
+   "timestamp": "20101203143445",
+   "wayback_url": "https://web.archive.org/web/20101203143445id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/expansion/expansion_photos_EN_colour.zip",
+   "bytes": 31004286,
+   "title": "expansion_photos_EN_colour.zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-fall-2003-(english).zip",
+   "timestamp": "20101223202129",
+   "wayback_url": "https://web.archive.org/web/20101223202129id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-fall-2003-(english).zip",
+   "bytes": 1127966,
+   "title": "Minetoport-fall-2003-(english).zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-fall-2003.zip",
+   "timestamp": "20101223233642",
+   "wayback_url": "https://web.archive.org/web/20101223233642id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-fall-2003.zip",
+   "bytes": 1160340,
+   "title": "Minetoport-fall-2003.zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-fall-2004-(english).zip",
+   "timestamp": "20101223201338",
+   "wayback_url": "https://web.archive.org/web/20101223201338id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-fall-2004-(english).zip",
+   "bytes": 353170,
+   "title": "Minetoport-fall-2004-(english).zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-fall-2004.zip",
+   "timestamp": "20101223234523",
+   "wayback_url": "https://web.archive.org/web/20101223234523id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-fall-2004.zip",
+   "bytes": 350608,
+   "title": "Minetoport-fall-2004.zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-spring-2004-english.zip",
+   "timestamp": "20101223202022",
+   "wayback_url": "https://web.archive.org/web/20101223202022id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-spring-2004-english.zip",
+   "bytes": 961855,
+   "title": "Minetoport-spring-2004-english.zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-spring-2004.zip",
+   "timestamp": "20101223233742",
+   "wayback_url": "https://web.archive.org/web/20101223233742id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-spring-2004.zip",
+   "bytes": 958007,
+   "title": "Minetoport-spring-2004.zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-spring-2005-english.zip",
+   "timestamp": "20101223202241",
+   "wayback_url": "https://web.archive.org/web/20101223202241id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-spring-2005-english.zip",
+   "bytes": 2335973,
+   "title": "Minetoport-spring-2005-english.zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-spring-2005.zip",
+   "timestamp": "20101223234201",
+   "wayback_url": "https://web.archive.org/web/20101223234201id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-spring-2005.zip",
+   "bytes": 2090530,
+   "title": "Minetoport-spring-2005.zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-summer-2005-(english).zip",
+   "timestamp": "20101223201306",
+   "wayback_url": "https://web.archive.org/web/20101223201306id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-summer-2005-(english).zip",
+   "bytes": 1715746,
+   "title": "Minetoport-summer-2005-(english).zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-summer-2005.zip",
+   "timestamp": "20101223233712",
+   "wayback_url": "https://web.archive.org/web/20101223233712id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-summer-2005.zip",
+   "bytes": 1712538,
+   "title": "Minetoport-summer-2005.zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-winter-2004-(english).zip",
+   "timestamp": "20101223201401",
+   "wayback_url": "https://web.archive.org/web/20101223201401id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-winter-2004-(english).zip",
+   "bytes": 1267345,
+   "title": "Minetoport-winter-2004-(english).zip",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-winter-2004.zip",
+   "timestamp": "20101223234417",
+   "wayback_url": "https://web.archive.org/web/20101223234417id_/http://www.ironore.ca/CLIENTS/1-ironore/docs/upload/mtp/Minetoport-winter-2004.zip",
+   "bytes": 1224748,
+   "title": "Minetoport-winter-2004.zip",
+   "type": "other",
+   "noise": false
+  }
+ ],
+ "doc_types": {
+  "other": 399,
+  "newsletter": 1,
+  "permit_approval": 5,
+  "engagement": 1,
+  "terms_of_reference": 1
+ }
+}

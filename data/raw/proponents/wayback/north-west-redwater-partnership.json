@@ -1,0 +1,83 @@
+{
+ "key": "north west redwater partnership",
+ "name": "North West Redwater Partnership",
+ "host": "nwrpartnership.com",
+ "harvested_at": "2026-09-05T02:37:51Z",
+ "docs": [
+  {
+   "url": "http://nwrpartnership.com/images/pdf/North%20West%20Redwater%20Website%20Terms%20of%20Use%20-%20November%202011.pdf",
+   "timestamp": "20131027014749",
+   "wayback_url": "https://web.archive.org/web/20131027014749id_/http://nwrpartnership.com/images/pdf/North%20West%20Redwater%20Website%20Terms%20of%20Use%20-%20November%202011.pdf",
+   "bytes": 64421,
+   "title": "North West Redwater Website Terms of Use - November 2011.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nwrpartnership.com/images/pdf/NWR_Signed_Health_and_Safety_Environment_Policy_Statement.pdf",
+   "timestamp": "20131027034652",
+   "wayback_url": "https://web.archive.org/web/20131027034652id_/http://nwrpartnership.com/images/pdf/NWR_Signed_Health_and_Safety_Environment_Policy_Statement.pdf",
+   "bytes": 39258,
+   "title": "NWR_Signed_Health_and_Safety_Environment_Policy_Statement.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nwrpartnership.com/images/pdf/Supply%20Chain%20Management.pdf",
+   "timestamp": "20131027054242",
+   "wayback_url": "https://web.archive.org/web/20131027054242id_/http://nwrpartnership.com/images/pdf/Supply%20Chain%20Management.pdf",
+   "bytes": 238561,
+   "title": "Supply Chain Management.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://nwrpartnership.com/images/Privacy%20of%20Personal%20Information%20Policy.pdf",
+   "timestamp": "20131027052010",
+   "wayback_url": "https://web.archive.org/web/20131027052010id_/http://nwrpartnership.com/images/Privacy%20of%20Personal%20Information%20Policy.pdf",
+   "bytes": 114230,
+   "title": "Privacy of Personal Information Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.nwrpartnership.com/sites/default/files/announcements/Notice%20of%20Decision%20-%20Sept%201%202015.pdf",
+   "timestamp": "20160213223736",
+   "wayback_url": "https://web.archive.org/web/20160213223736id_/http://www.nwrpartnership.com/sites/default/files/announcements/Notice%20of%20Decision%20-%20Sept%201%202015.pdf",
+   "bytes": 458144,
+   "title": "Notice of Decision - Sept 1 2015.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.nwrpartnership.com/sites/default/files/North%20West%20Redwater%20Website%20Terms%20of%20Use%20-%20November%202011.pdf",
+   "timestamp": "20141129221715",
+   "wayback_url": "https://web.archive.org/web/20141129221715id_/https://www.nwrpartnership.com/sites/default/files/North%20West%20Redwater%20Website%20Terms%20of%20Use%20-%20November%202011.pdf",
+   "bytes": 64409,
+   "title": "North West Redwater Website Terms of Use - November 2011.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.nwrpartnership.com/sites/default/files/NWR_Signed_Health_and_Safety_Environment_Policy_Statement.pdf",
+   "timestamp": "20141129204838",
+   "wayback_url": "https://web.archive.org/web/20141129204838id_/https://www.nwrpartnership.com/sites/default/files/NWR_Signed_Health_and_Safety_Environment_Policy_Statement.pdf",
+   "bytes": 97504,
+   "title": "NWR_Signed_Health_and_Safety_Environment_Policy_Statement.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://www.nwrpartnership.com/sites/default/files/Privacy%20of%20Personal%20Information%20Policy.pdf",
+   "timestamp": "20141129153247",
+   "wayback_url": "https://web.archive.org/web/20141129153247id_/https://www.nwrpartnership.com/sites/default/files/Privacy%20of%20Personal%20Information%20Policy.pdf",
+   "bytes": 114231,
+   "title": "Privacy of Personal Information Policy.pdf",
+   "type": "other",
+   "noise": false
+  }
+ ],
+ "doc_types": {
+  "other": 8
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "key": "kineticor resource",
+ "name": "Kineticor Resource Corp.",
+ "host": "kineticor.ca",
+ "harvested_at": "2026-09-05T03:52:28Z",
+ "docs": [
+  {
+   "url": "https://kineticor.ca/wp-content/uploads/2021/04/Cascade-Power-Project-Newsletter_2022_Final.pdf",
+   "timestamp": "20220810022252",
+   "wayback_url": "https://web.archive.org/web/20220810022252id_/https://kineticor.ca/wp-content/uploads/2021/04/Cascade-Power-Project-Newsletter_2022_Final.pdf",
+   "bytes": 1027294,
+   "title": "Cascade-Power-Project-Newsletter_2022_Final.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://kineticor.ca/wp-content/uploads/2021/04/Kineticor-2021-ESG-Report.pdf",
+   "timestamp": "20230329214059",
+   "wayback_url": "https://web.archive.org/web/20230329214059id_/https://kineticor.ca/wp-content/uploads/2021/04/Kineticor-2021-ESG-Report.pdf",
+   "bytes": 1005703,
+   "title": "Kineticor-2021-ESG-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://kineticor.ca/wp-content/uploads/2021/04/Kineticor-Job-Posting-Development-Support-Lead.pdf",
+   "timestamp": "20220810020730",
+   "wayback_url": "https://web.archive.org/web/20220810020730id_/https://kineticor.ca/wp-content/uploads/2021/04/Kineticor-Job-Posting-Development-Support-Lead.pdf",
+   "bytes": 138115,
+   "title": "Kineticor-Job-Posting-Development-Support-Lead.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://kineticor.ca/wp-content/uploads/2021/04/Three_Creeks_EPEA_Approval_Public_Notification.pdf",
+   "timestamp": "20211204173646",
+   "wayback_url": "https://web.archive.org/web/20211204173646id_/https://kineticor.ca/wp-content/uploads/2021/04/Three_Creeks_EPEA_Approval_Public_Notification.pdf",
+   "bytes": 69511,
+   "title": "Three_Creeks_EPEA_Approval_Public_Notification.pdf",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "https://kineticor.ca/wp-content/uploads/2023/08/Kineticor-2022-ESG-Report.pdf",
+   "timestamp": "20230929190927",
+   "wayback_url": "https://web.archive.org/web/20230929190927id_/https://kineticor.ca/wp-content/uploads/2023/08/Kineticor-2022-ESG-Report.pdf",
+   "bytes": 1008245,
+   "title": "Kineticor-2022-ESG-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://kineticor.ca/wp-content/uploads/2024/08/Kineticor-2023-ESG-Final.pdf",
+   "timestamp": "20241125114557",
+   "wayback_url": "https://web.archive.org/web/20241125114557id_/https://kineticor.ca/wp-content/uploads/2024/08/Kineticor-2023-ESG-Final.pdf",
+   "bytes": 8021836,
+   "title": "Kineticor-2023-ESG-Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://kineticor.ca/wp-content/uploads/2025/10/Greenlight-Project-Update-News-Release-Oct-6-2025.pdf",
+   "timestamp": "20251130011820",
+   "wayback_url": "https://web.archive.org/web/20251130011820id_/https://kineticor.ca/wp-content/uploads/2025/10/Greenlight-Project-Update-News-Release-Oct-6-2025.pdf",
+   "bytes": 366425,
+   "title": "Greenlight-Project-Update-News-Release-Oct-6-2025.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://kineticor.ca/wp-content/uploads/2026/04/Kineticor-2024-ESG-r4.pdf",
+   "timestamp": "20260517061353",
+   "wayback_url": "https://web.archive.org/web/20260517061353id_/https://kineticor.ca/wp-content/uploads/2026/04/Kineticor-2024-ESG-r4.pdf",
+   "bytes": 3372108,
+   "title": "Kineticor-2024-ESG-r4.pdf",
+   "type": "other",
+   "noise": false
+  }
+ ],
+ "doc_types": {
+  "other": 5,
+  "permit_approval": 1,
+  "newsletter": 1
+ }
+}

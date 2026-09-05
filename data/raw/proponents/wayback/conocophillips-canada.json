@@ -1,0 +1,914 @@
+{
+ "key": "conocophillips canada",
+ "name": "ConocoPhillips Canada",
+ "host": "conocophillips.ca",
+ "harvested_at": "2026-09-05T02:18:44Z",
+ "docs": [
+  {
+   "url": "http://www.conocophillips.ca:80/Documents/ConocoPhillipsBrochureFINALB.pdf",
+   "timestamp": "20140514094740",
+   "wayback_url": "https://web.archive.org/web/20140514094740id_/http://www.conocophillips.ca:80/Documents/ConocoPhillipsBrochureFINALB.pdf",
+   "bytes": 186830,
+   "title": "ConocoPhillipsBrochureFINALB.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.conocophillips.ca/Documents/Dominic_Macklon_TD_Calgary_Energy_Conference.pdf",
+   "timestamp": "20160803131305",
+   "wayback_url": "https://web.archive.org/web/20160803131305id_/http://www.conocophillips.ca/Documents/Dominic_Macklon_TD_Calgary_Energy_Conference.pdf",
+   "bytes": 1297158,
+   "title": "Dominic_Macklon_TD_Calgary_Energy_Conference.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/Documents/Mike_Scribner_OSHOT.pdf",
+   "timestamp": "20160803135905",
+   "wayback_url": "https://web.archive.org/web/20160803135905id_/http://www.conocophillips.ca/Documents/Mike_Scribner_OSHOT.pdf",
+   "bytes": 2826141,
+   "title": "Mike_Scribner_OSHOT.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/Documents/SMID_122_HSE%20Policy.pdf",
+   "timestamp": "20150807073600",
+   "wayback_url": "https://web.archive.org/web/20150807073600id_/http://www.conocophillips.ca:80/Documents/SMID_122_HSE%20Policy.pdf",
+   "bytes": 2208420,
+   "title": "SMID_122_HSE Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/Documents/SMID_139_Substance_Abuse.pdf",
+   "timestamp": "20160803172044",
+   "wayback_url": "https://web.archive.org/web/20160803172044id_/http://www.conocophillips.ca/Documents/SMID_139_Substance_Abuse.pdf",
+   "bytes": 843746,
+   "title": "SMID_139_Substance_Abuse.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/Documents/StakeholderEngagementPolicy.pdf",
+   "timestamp": "20160222071232",
+   "wayback_url": "https://web.archive.org/web/20160222071232id_/http://www.conocophillips.ca:80/Documents/StakeholderEngagementPolicy.pdf",
+   "bytes": 216363,
+   "title": "StakeholderEngagementPolicy.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/Documents/VendorBrochureApril2010.pdf",
+   "timestamp": "20161026042937",
+   "wayback_url": "https://web.archive.org/web/20161026042937id_/http://www.conocophillips.ca/Documents/VendorBrochureApril2010.pdf",
+   "bytes": 3047744,
+   "title": "VendorBrochureApril2010.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/about/canadian-arctic/documents/28299ConocoNorthBrochurer2.pdf",
+   "timestamp": "20110112225243",
+   "wayback_url": "https://web.archive.org/web/20110112225243id_/http://www.conocophillips.ca:80/EN/about/canadian-arctic/documents/28299ConocoNorthBrochurer2.pdf",
+   "bytes": 445802,
+   "title": "28299ConocoNorthBrochurer2.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/about/leadership/Documents/Bryant%20Tim%20Final.pdf",
+   "timestamp": "20110323075902",
+   "wayback_url": "https://web.archive.org/web/20110323075902id_/http://www.conocophillips.ca:80/EN/about/leadership/Documents/Bryant%20Tim%20Final.pdf",
+   "bytes": 1543459,
+   "title": "Bryant Tim Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/about/leadership/Documents/Carr,%20Michael2010.pdf",
+   "timestamp": "20110313223602",
+   "wayback_url": "https://web.archive.org/web/20110313223602id_/http://www.conocophillips.ca:80/EN/about/leadership/Documents/Carr,%20Michael2010.pdf",
+   "bytes": 1022478,
+   "title": "Carr, Michael2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/about/leadership/Documents/FuhrKris2010(final).pdf",
+   "timestamp": "20110313224317",
+   "wayback_url": "https://web.archive.org/web/20110313224317id_/http://www.conocophillips.ca:80/EN/about/leadership/Documents/FuhrKris2010(final).pdf",
+   "bytes": 635510,
+   "title": "FuhrKris2010(final).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/about/leadership/Documents/GersibGreg2010(final).pdf",
+   "timestamp": "20110313224340",
+   "wayback_url": "https://web.archive.org/web/20110313224340id_/http://www.conocophillips.ca:80/EN/about/leadership/Documents/GersibGreg2010(final).pdf",
+   "bytes": 962296,
+   "title": "GersibGreg2010(final).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/EN/about/leadership/Documents/Lueers_Ken_2012_secured.pdf",
+   "timestamp": "20121006061055",
+   "wayback_url": "https://web.archive.org/web/20121006061055id_/http://www.conocophillips.ca/EN/about/leadership/Documents/Lueers_Ken_2012_secured.pdf",
+   "bytes": 499598,
+   "title": "Lueers_Ken_2012_secured.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/about/leadership/Documents/Marushack_Joe2010.pdf",
+   "timestamp": "20110813051518",
+   "wayback_url": "https://web.archive.org/web/20110813051518id_/http://www.conocophillips.ca:80/EN/about/leadership/Documents/Marushack_Joe2010.pdf",
+   "bytes": 912669,
+   "title": "Marushack_Joe2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/about/leadership/Documents/Olds,%20Nicholas%202010.pdf",
+   "timestamp": "20110313224409",
+   "wayback_url": "https://web.archive.org/web/20110313224409id_/http://www.conocophillips.ca:80/EN/about/leadership/Documents/Olds,%20Nicholas%202010.pdf",
+   "bytes": 1985661,
+   "title": "Olds, Nicholas 2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/about/leadership/Documents/Sykes,%20Gary%202010.pdf",
+   "timestamp": "20110313224411",
+   "wayback_url": "https://web.archive.org/web/20110313224411id_/http://www.conocophillips.ca:80/EN/about/leadership/Documents/Sykes,%20Gary%202010.pdf",
+   "bytes": 973800,
+   "title": "Sykes, Gary 2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/about/leadership/Documents/Visser_%20Lloyd.pdf",
+   "timestamp": "20120617081557",
+   "wayback_url": "https://web.archive.org/web/20120617081557id_/http://www.conocophillips.ca:80/EN/about/leadership/Documents/Visser_%20Lloyd.pdf",
+   "bytes": 168294,
+   "title": "Visser_ Lloyd.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/about/oil-sands/Documents/About%20Surmont_CPC.pdf",
+   "timestamp": "20121115010754",
+   "wayback_url": "https://web.archive.org/web/20121115010754id_/http://www.conocophillips.ca:80/EN/about/oil-sands/Documents/About%20Surmont_CPC.pdf",
+   "bytes": 9558182,
+   "title": "About Surmont_CPC.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/about/oil-sands/Documents/Oil%20Sands%20Overview_CPC.pdf",
+   "timestamp": "20121115011316",
+   "wayback_url": "https://web.archive.org/web/20121115011316id_/http://www.conocophillips.ca:80/EN/about/oil-sands/Documents/Oil%20Sands%20Overview_CPC.pdf",
+   "bytes": 9719610,
+   "title": "Oil Sands Overview_CPC.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/careers/university/scholarships/documents/TradeBursaryApplication.pdf",
+   "timestamp": "20100401075042",
+   "wayback_url": "https://web.archive.org/web/20100401075042id_/http://www.conocophillips.ca:80/EN/careers/university/scholarships/documents/TradeBursaryApplication.pdf",
+   "bytes": 419541,
+   "title": "TradeBursaryApplication.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/news/Documents/About_Us_Surmont.pdf",
+   "timestamp": "20101128130450",
+   "wayback_url": "https://web.archive.org/web/20101128130450id_/http://www.conocophillips.ca:80/EN/news/Documents/About_Us_Surmont.pdf",
+   "bytes": 865419,
+   "title": "About_Us_Surmont.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/news/Documents/Surmont%20Project%20Expansion%20Release%20Jan%2019%202010.pdf",
+   "timestamp": "20101128130454",
+   "wayback_url": "https://web.archive.org/web/20101128130454id_/http://www.conocophillips.ca:80/EN/news/Documents/Surmont%20Project%20Expansion%20Release%20Jan%2019%202010.pdf",
+   "bytes": 19042,
+   "title": "Surmont Project Expansion Release Jan 19 2010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/news/Documents/Technology%20FINAL.pdf",
+   "timestamp": "20101128132212",
+   "wayback_url": "https://web.archive.org/web/20101128132212id_/http://www.conocophillips.ca:80/EN/news/Documents/Technology%20FINAL.pdf",
+   "bytes": 304850,
+   "title": "Technology FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/sd/health_safety/documents/hse_policy.pdf",
+   "timestamp": "20101117035618",
+   "wayback_url": "https://web.archive.org/web/20101117035618id_/http://www.conocophillips.ca:80/EN/sd/health_safety/documents/hse_policy.pdf",
+   "bytes": 19014,
+   "title": "hse_policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/sd/investment/documents/ConocoPhillipsBrochureFINALB.pdf",
+   "timestamp": "20101117072315",
+   "wayback_url": "https://web.archive.org/web/20101117072315id_/http://www.conocophillips.ca:80/EN/sd/investment/documents/ConocoPhillipsBrochureFINALB.pdf",
+   "bytes": 186744,
+   "title": "ConocoPhillipsBrochureFINALB.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/sd/investment/education/Documents/AboriginalAwardsApplicationForm.pdf",
+   "timestamp": "20100401075717",
+   "wayback_url": "https://web.archive.org/web/20100401075717id_/http://www.conocophillips.ca:80/EN/sd/investment/education/Documents/AboriginalAwardsApplicationForm.pdf",
+   "bytes": 277560,
+   "title": "AboriginalAwardsApplicationForm.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/sd/sdreporting/documents/4564_02_CompanyWide1.pdf",
+   "timestamp": "20101117060700",
+   "wayback_url": "https://web.archive.org/web/20101117060700id_/http://www.conocophillips.ca:80/EN/sd/sdreporting/documents/4564_02_CompanyWide1.pdf",
+   "bytes": 496691,
+   "title": "4564_02_CompanyWide1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/sd/sdreporting/documents/4564_03_WCG1.pdf",
+   "timestamp": "20101117060706",
+   "wayback_url": "https://web.archive.org/web/20101117060706id_/http://www.conocophillips.ca:80/EN/sd/sdreporting/documents/4564_03_WCG1.pdf",
+   "bytes": 833923,
+   "title": "4564_03_WCG1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/sd/sdreporting/documents/4564_04_OilSands1.pdf",
+   "timestamp": "20101117060712",
+   "wayback_url": "https://web.archive.org/web/20101117060712id_/http://www.conocophillips.ca:80/EN/sd/sdreporting/documents/4564_04_OilSands1.pdf",
+   "bytes": 702205,
+   "title": "4564_04_OilSands1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/sd/sdreporting/documents/4564_06_Appendix1.pdf",
+   "timestamp": "20101117060716",
+   "wayback_url": "https://web.archive.org/web/20101117060716id_/http://www.conocophillips.ca:80/EN/sd/sdreporting/documents/4564_06_Appendix1.pdf",
+   "bytes": 461869,
+   "title": "4564_06_Appendix1.pdf",
+   "type": "technical",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/sd/sdreporting/documents/CPC2007SustainableDevelopmentReport.pdf",
+   "timestamp": "20101117060726",
+   "wayback_url": "https://web.archive.org/web/20101117060726id_/http://www.conocophillips.ca:80/EN/sd/sdreporting/documents/CPC2007SustainableDevelopmentReport.pdf",
+   "bytes": 3420687,
+   "title": "CPC2007SustainableDevelopmentReport.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/sd/sdreporting/documents/CPCArtic.pdf",
+   "timestamp": "20101117060734",
+   "wayback_url": "https://web.archive.org/web/20101117060734id_/http://www.conocophillips.ca:80/EN/sd/sdreporting/documents/CPCArtic.pdf",
+   "bytes": 921874,
+   "title": "CPCArtic.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/sd/stakeholder/documents/StakeholderEngagementPolicy.pdf",
+   "timestamp": "20101117035040",
+   "wayback_url": "https://web.archive.org/web/20101117035040id_/http://www.conocophillips.ca:80/EN/sd/stakeholder/documents/StakeholderEngagementPolicy.pdf",
+   "bytes": 216257,
+   "title": "StakeholderEngagementPolicy.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/tech/sagd/Documents/SAGD%20Water%20Process.pdf",
+   "timestamp": "20130613002728",
+   "wayback_url": "https://web.archive.org/web/20130613002728id_/http://www.conocophillips.ca:80/EN/tech/sagd/Documents/SAGD%20Water%20Process.pdf",
+   "bytes": 2480779,
+   "title": "SAGD Water Process.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/vendor/Documents/CPCTermsAndConditionsMay09.pdf",
+   "timestamp": "20110105091614",
+   "wayback_url": "https://web.archive.org/web/20110105091614id_/http://www.conocophillips.ca:80/EN/vendor/Documents/CPCTermsAndConditionsMay09.pdf",
+   "bytes": 100106,
+   "title": "CPCTermsAndConditionsMay09.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/vendor/Documents/iPayVendorLetter.pdf",
+   "timestamp": "20110105091653",
+   "wayback_url": "https://web.archive.org/web/20110105091653id_/http://www.conocophillips.ca:80/EN/vendor/Documents/iPayVendorLetter.pdf",
+   "bytes": 17294,
+   "title": "iPayVendorLetter.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/vendor/Documents/PurchaseOrderTermsConditions2012.pdf",
+   "timestamp": "20120619150305",
+   "wayback_url": "https://web.archive.org/web/20120619150305id_/http://www.conocophillips.ca:80/EN/vendor/Documents/PurchaseOrderTermsConditions2012.pdf",
+   "bytes": 164630,
+   "title": "PurchaseOrderTermsConditions2012.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/EN/vendor/Documents/VendorBrochureApril2010.pdf",
+   "timestamp": "20110105065531",
+   "wayback_url": "https://web.archive.org/web/20110105065531id_/http://www.conocophillips.ca:80/EN/vendor/Documents/VendorBrochureApril2010.pdf",
+   "bytes": 3047458,
+   "title": "VendorBrochureApril2010.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.conocophillips.ca/in-our-community/Documents/SE_Policy_April2016.pdf",
+   "timestamp": "20170318113017",
+   "wayback_url": "https://web.archive.org/web/20170318113017id_/http://www.conocophillips.ca/in-our-community/Documents/SE_Policy_April2016.pdf",
+   "bytes": 972273,
+   "title": "SE_Policy_April2016.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/in-our-community/Documents/SE_Policy_April2016_2.pdf",
+   "timestamp": "20170629135443",
+   "wayback_url": "https://web.archive.org/web/20170629135443id_/http://www.conocophillips.ca/in-our-community/Documents/SE_Policy_April2016_2.pdf",
+   "bytes": 920289,
+   "title": "SE_Policy_April2016_2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/August%2010%20Daily%20Public%20Report.pdf",
+   "timestamp": "20170318114737",
+   "wayback_url": "https://web.archive.org/web/20170318114737id_/http://www.conocophillips.ca/newsroom/Documents/August%2010%20Daily%20Public%20Report.pdf",
+   "bytes": 78051,
+   "title": "August 10 Daily Public Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/August%203%20Daily%20Public%20Report.pdf",
+   "timestamp": "20170318080803",
+   "wayback_url": "https://web.archive.org/web/20170318080803id_/http://www.conocophillips.ca/newsroom/Documents/August%203%20Daily%20Public%20Report.pdf",
+   "bytes": 36434,
+   "title": "August 3 Daily Public Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report%20June%2015.pdf",
+   "timestamp": "20170318113028",
+   "wayback_url": "https://web.archive.org/web/20170318113028id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report%20June%2015.pdf",
+   "bytes": 76072,
+   "title": "Daily Public Report June 15.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report%20June%2016.pdf",
+   "timestamp": "20170318113045",
+   "wayback_url": "https://web.archive.org/web/20170318113045id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report%20June%2016.pdf",
+   "bytes": 43045,
+   "title": "Daily Public Report June 16.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report%20June%2017.pdf",
+   "timestamp": "20170318175135",
+   "wayback_url": "https://web.archive.org/web/20170318175135id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report%20June%2017.pdf",
+   "bytes": 76260,
+   "title": "Daily Public Report June 17.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_April%2013,%202017.pdf",
+   "timestamp": "20170630155711",
+   "wayback_url": "https://web.archive.org/web/20170630155711id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_April%2013,%202017.pdf",
+   "bytes": 158351,
+   "title": "Daily Public Report_April 13, 2017.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Aug17.pdf",
+   "timestamp": "20170318175149",
+   "wayback_url": "https://web.archive.org/web/20170318175149id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Aug17.pdf",
+   "bytes": 215456,
+   "title": "Daily Public Report_Aug17.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Aug24.pdf",
+   "timestamp": "20170318060223",
+   "wayback_url": "https://web.archive.org/web/20170318060223id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Aug24.pdf",
+   "bytes": 76871,
+   "title": "Daily Public Report_Aug24.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Aug31.pdf",
+   "timestamp": "20170318051851",
+   "wayback_url": "https://web.archive.org/web/20170318051851id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Aug31.pdf",
+   "bytes": 79825,
+   "title": "Daily Public Report_Aug31.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Dec.%2015.pdf",
+   "timestamp": "20170630202517",
+   "wayback_url": "https://web.archive.org/web/20170630202517id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Dec.%2015.pdf",
+   "bytes": 182964,
+   "title": "Daily Public Report_Dec. 15.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Feb%2015%202017.pdf",
+   "timestamp": "20170630201544",
+   "wayback_url": "https://web.archive.org/web/20170630201544id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Feb%2015%202017.pdf",
+   "bytes": 157067,
+   "title": "Daily Public Report_Feb 15 2017.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Jan13.pdf",
+   "timestamp": "20170630174107",
+   "wayback_url": "https://web.archive.org/web/20170630174107id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Jan13.pdf",
+   "bytes": 38642,
+   "title": "Daily Public Report_Jan13.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%201.pdf",
+   "timestamp": "20170630190350",
+   "wayback_url": "https://web.archive.org/web/20170630190350id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%201.pdf",
+   "bytes": 61752,
+   "title": "Daily Public Report_July 1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%2013.pdf",
+   "timestamp": "20170318111917",
+   "wayback_url": "https://web.archive.org/web/20170318111917id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%2013.pdf",
+   "bytes": 261745,
+   "title": "Daily Public Report_July 13.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%202.pdf",
+   "timestamp": "20170318121156",
+   "wayback_url": "https://web.archive.org/web/20170318121156id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%202.pdf",
+   "bytes": 61205,
+   "title": "Daily Public Report_July 2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%2020.pdf",
+   "timestamp": "20170318121019",
+   "wayback_url": "https://web.archive.org/web/20170318121019id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%2020.pdf",
+   "bytes": 263967,
+   "title": "Daily Public Report_July 20.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%2027.pdf",
+   "timestamp": "20170318114440",
+   "wayback_url": "https://web.archive.org/web/20170318114440id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%2027.pdf",
+   "bytes": 56745,
+   "title": "Daily Public Report_July 27.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%203.pdf",
+   "timestamp": "20170318061312",
+   "wayback_url": "https://web.archive.org/web/20170318061312id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%203.pdf",
+   "bytes": 61693,
+   "title": "Daily Public Report_July 3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%204.pdf",
+   "timestamp": "20170630152343",
+   "wayback_url": "https://web.archive.org/web/20170630152343id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%204.pdf",
+   "bytes": 61863,
+   "title": "Daily Public Report_July 4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%205.pdf",
+   "timestamp": "20170630165018",
+   "wayback_url": "https://web.archive.org/web/20170630165018id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%205.pdf",
+   "bytes": 62107,
+   "title": "Daily Public Report_July 5.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%206.pdf",
+   "timestamp": "20170630192318",
+   "wayback_url": "https://web.archive.org/web/20170630192318id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%206.pdf",
+   "bytes": 62573,
+   "title": "Daily Public Report_July 6.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%207.pdf",
+   "timestamp": "20170318182553",
+   "wayback_url": "https://web.archive.org/web/20170318182553id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_July%207.pdf",
+   "bytes": 62898,
+   "title": "Daily Public Report_July 7.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2018.pdf",
+   "timestamp": "20170318063310",
+   "wayback_url": "https://web.archive.org/web/20170318063310id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2018.pdf",
+   "bytes": 128667,
+   "title": "Daily Public Report_June 18.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2019.pdf",
+   "timestamp": "20170630175613",
+   "wayback_url": "https://web.archive.org/web/20170630175613id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2019.pdf",
+   "bytes": 74990,
+   "title": "Daily Public Report_June 19.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2020.pdf",
+   "timestamp": "20170318062138",
+   "wayback_url": "https://web.archive.org/web/20170318062138id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2020.pdf",
+   "bytes": 198015,
+   "title": "Daily Public Report_June 20.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2021.pdf",
+   "timestamp": "20170630180705",
+   "wayback_url": "https://web.archive.org/web/20170630180705id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2021.pdf",
+   "bytes": 41296,
+   "title": "Daily Public Report_June 21.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2023.pdf",
+   "timestamp": "20170318113912",
+   "wayback_url": "https://web.archive.org/web/20170318113912id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2023.pdf",
+   "bytes": 275721,
+   "title": "Daily Public Report_June 23.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2024.pdf",
+   "timestamp": "20170318182547",
+   "wayback_url": "https://web.archive.org/web/20170318182547id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2024.pdf",
+   "bytes": 62767,
+   "title": "Daily Public Report_June 24.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2025.pdf",
+   "timestamp": "20170318103717",
+   "wayback_url": "https://web.archive.org/web/20170318103717id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2025.pdf",
+   "bytes": 61829,
+   "title": "Daily Public Report_June 25.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2026.pdf",
+   "timestamp": "20170630165616",
+   "wayback_url": "https://web.archive.org/web/20170630165616id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2026.pdf",
+   "bytes": 61670,
+   "title": "Daily Public Report_June 26.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2027.pdf",
+   "timestamp": "20170318053019",
+   "wayback_url": "https://web.archive.org/web/20170318053019id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2027.pdf",
+   "bytes": 61776,
+   "title": "Daily Public Report_June 27.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2028.pdf",
+   "timestamp": "20170318062657",
+   "wayback_url": "https://web.archive.org/web/20170318062657id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2028.pdf",
+   "bytes": 62080,
+   "title": "Daily Public Report_June 28.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2029.pdf",
+   "timestamp": "20170318090526",
+   "wayback_url": "https://web.archive.org/web/20170318090526id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2029.pdf",
+   "bytes": 62105,
+   "title": "Daily Public Report_June 29.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2030.pdf",
+   "timestamp": "20170318111026",
+   "wayback_url": "https://web.archive.org/web/20170318111026id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_June%2030.pdf",
+   "bytes": 62403,
+   "title": "Daily Public Report_June 30.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_March%2015,%202017.pdf",
+   "timestamp": "20170630163003",
+   "wayback_url": "https://web.archive.org/web/20170630163003id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_March%2015,%202017.pdf",
+   "bytes": 157726,
+   "title": "Daily Public Report_March 15, 2017.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Nov%2016.pdf",
+   "timestamp": "20170630152036",
+   "wayback_url": "https://web.archive.org/web/20170630152036id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Nov%2016.pdf",
+   "bytes": 157466,
+   "title": "Daily Public Report_Nov 16.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Nov%202.pdf",
+   "timestamp": "20170630160520",
+   "wayback_url": "https://web.archive.org/web/20170630160520id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Nov%202.pdf",
+   "bytes": 158716,
+   "title": "Daily Public Report_Nov 2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Nov%2023.pdf",
+   "timestamp": "20170630185257",
+   "wayback_url": "https://web.archive.org/web/20170630185257id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Nov%2023.pdf",
+   "bytes": 156500,
+   "title": "Daily Public Report_Nov 23.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Nov%209.pdf",
+   "timestamp": "20170630202925",
+   "wayback_url": "https://web.archive.org/web/20170630202925id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Nov%209.pdf",
+   "bytes": 158740,
+   "title": "Daily Public Report_Nov 9.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Oct%2012.pdf",
+   "timestamp": "20170318113038",
+   "wayback_url": "https://web.archive.org/web/20170318113038id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Oct%2012.pdf",
+   "bytes": 188539,
+   "title": "Daily Public Report_Oct 12.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Oct%2019.pdf",
+   "timestamp": "20170630182154",
+   "wayback_url": "https://web.archive.org/web/20170630182154id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Oct%2019.pdf",
+   "bytes": 160922,
+   "title": "Daily Public Report_Oct 19.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Oct%2026.pdf",
+   "timestamp": "20170630194809",
+   "wayback_url": "https://web.archive.org/web/20170630194809id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Oct%2026.pdf",
+   "bytes": 159434,
+   "title": "Daily Public Report_Oct 26.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Oct.%205.pdf",
+   "timestamp": "20170318052152",
+   "wayback_url": "https://web.archive.org/web/20170318052152id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Oct.%205.pdf",
+   "bytes": 161094,
+   "title": "Daily Public Report_Oct. 5.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Sept%2021.pdf",
+   "timestamp": "20170318121058",
+   "wayback_url": "https://web.archive.org/web/20170318121058id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Sept%2021.pdf",
+   "bytes": 161306,
+   "title": "Daily Public Report_Sept 21.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Sept%2028.pdf",
+   "timestamp": "20170318070615",
+   "wayback_url": "https://web.archive.org/web/20170318070615id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Sept%2028.pdf",
+   "bytes": 157958,
+   "title": "Daily Public Report_Sept 28.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Sept14.pdf",
+   "timestamp": "20170318110835",
+   "wayback_url": "https://web.archive.org/web/20170318110835id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Sept14.pdf",
+   "bytes": 211550,
+   "title": "Daily Public Report_Sept14.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Sept7.pdf",
+   "timestamp": "20170318112203",
+   "wayback_url": "https://web.archive.org/web/20170318112203id_/http://www.conocophillips.ca/newsroom/Documents/Daily%20Public%20Report_Sept7.pdf",
+   "bytes": 210865,
+   "title": "Daily Public Report_Sept7.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/June%2022%20Daily%20Public%20Report.pdf",
+   "timestamp": "20170318113024",
+   "wayback_url": "https://web.archive.org/web/20170318113024id_/http://www.conocophillips.ca/newsroom/Documents/June%2022%20Daily%20Public%20Report.pdf",
+   "bytes": 198321,
+   "title": "June 22 Daily Public Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/newsroom/Documents/NEB%20BC%20District%20-%20Noel-Brassey%20Field%20ERP%202016_Rev1%2009292016_Redacted.pdf",
+   "timestamp": "20161025085905",
+   "wayback_url": "https://web.archive.org/web/20161025085905id_/http://www.conocophillips.ca/newsroom/Documents/NEB%20BC%20District%20-%20Noel-Brassey%20Field%20ERP%202016_Rev1%2009292016_Redacted.pdf",
+   "bytes": 18432055,
+   "title": "NEB BC District - Noel-Brassey Field ERP 2016_Rev1 09292016_Redacted.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/NR/rdonlyres/45EE1593-845C-4D02-AECD-CA0E9406AB55/0/VendorBrochureJuly2007rev.pdf",
+   "timestamp": "20090407052027",
+   "wayback_url": "https://web.archive.org/web/20090407052027id_/http://www.conocophillips.ca:80/NR/rdonlyres/45EE1593-845C-4D02-AECD-CA0E9406AB55/0/VendorBrochureJuly2007rev.pdf",
+   "bytes": 3716987,
+   "title": "VendorBrochureJuly2007rev.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/NR/rdonlyres/513297A5-4B7C-4AE3-829E-3CA12F55EBAF/13662/VendorLetterSeptember2007.pdf",
+   "timestamp": "20090407085038",
+   "wayback_url": "https://web.archive.org/web/20090407085038id_/http://www.conocophillips.ca:80/NR/rdonlyres/513297A5-4B7C-4AE3-829E-3CA12F55EBAF/13662/VendorLetterSeptember2007.pdf",
+   "bytes": 27318,
+   "title": "VendorLetterSeptember2007.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/NR/rdonlyres/7BB0002F-1C66-48E0-B3B5-8A2F66378E49/0/ConocoAboutUsFactSheet.pdf",
+   "timestamp": "20090206020815",
+   "wayback_url": "https://web.archive.org/web/20090206020815id_/http://www.conocophillips.ca:80/NR/rdonlyres/7BB0002F-1C66-48E0-B3B5-8A2F66378E49/0/ConocoAboutUsFactSheet.pdf",
+   "bytes": 302894,
+   "title": "ConocoAboutUsFactSheet.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/NR/rdonlyres/8D57AAAA-A95C-44AD-AFD6-66D62563253C/14662/TradeBursaryApplication.pdf",
+   "timestamp": "20081209072032",
+   "wayback_url": "https://web.archive.org/web/20081209072032id_/http://www.conocophillips.ca:80/NR/rdonlyres/8D57AAAA-A95C-44AD-AFD6-66D62563253C/14662/TradeBursaryApplication.pdf",
+   "bytes": 419506,
+   "title": "TradeBursaryApplication.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca:80/NR/rdonlyres/A4BCA703-19FC-46EC-B7C1-5A409B11BF54/3541/CPCfinalpdf2005.pdf",
+   "timestamp": "20051102015241",
+   "wayback_url": "https://web.archive.org/web/20051102015241id_/http://www.conocophillips.ca:80/NR/rdonlyres/A4BCA703-19FC-46EC-B7C1-5A409B11BF54/3541/CPCfinalpdf2005.pdf",
+   "bytes": 3119875,
+   "title": "CPCfinalpdf2005.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/vendor-relations/Documents/2015%20Invoicing%20Requirements%20(003).pdf",
+   "timestamp": "20160803132800",
+   "wayback_url": "https://web.archive.org/web/20160803132800id_/http://www.conocophillips.ca/vendor-relations/Documents/2015%20Invoicing%20Requirements%20(003).pdf",
+   "bytes": 1166552,
+   "title": "2015 Invoicing Requirements (003).pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/vendor-relations/Documents/Extranet_Registration_Contractors.pdf",
+   "timestamp": "20170320080317",
+   "wayback_url": "https://web.archive.org/web/20170320080317id_/http://www.conocophillips.ca/vendor-relations/Documents/Extranet_Registration_Contractors.pdf",
+   "bytes": 366021,
+   "title": "Extranet_Registration_Contractors.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/vendor-relations/Documents/Goods%20PO%2020150601.pdf",
+   "timestamp": "20160804000524",
+   "wayback_url": "https://web.archive.org/web/20160804000524id_/http://www.conocophillips.ca/vendor-relations/Documents/Goods%20PO%2020150601.pdf",
+   "bytes": 561148,
+   "title": "Goods PO 20150601.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/vendor-relations/Documents/Purchase_Order_Terms_and_Conditions_CAN.pdf",
+   "timestamp": "20170320025053",
+   "wayback_url": "https://web.archive.org/web/20170320025053id_/http://www.conocophillips.ca/vendor-relations/Documents/Purchase_Order_Terms_and_Conditions_CAN.pdf",
+   "bytes": 84461,
+   "title": "Purchase_Order_Terms_and_Conditions_CAN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/vendor-relations/Documents/Service%20PO%2020150601.pdf",
+   "timestamp": "20160803202511",
+   "wayback_url": "https://web.archive.org/web/20160803202511id_/http://www.conocophillips.ca/vendor-relations/Documents/Service%20PO%2020150601.pdf",
+   "bytes": 617367,
+   "title": "Service PO 20150601.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://www.conocophillips.ca/vendor-relations/Documents/Service_Order_Terms_and_Conditions_CAN.pdf",
+   "timestamp": "20170320035244",
+   "wayback_url": "https://web.archive.org/web/20170320035244id_/http://www.conocophillips.ca/vendor-relations/Documents/Service_Order_Terms_and_Conditions_CAN.pdf",
+   "bytes": 97271,
+   "title": "Service_Order_Terms_and_Conditions_CAN.pdf",
+   "type": "other",
+   "noise": false
+  }
+ ],
+ "doc_types": {
+  "other": 89,
+  "engagement": 2,
+  "technical": 1,
+  "newsletter": 1
+ }
+}

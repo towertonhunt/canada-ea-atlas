@@ -1,0 +1,3669 @@
+{
+ "key": "canada nickel",
+ "name": "Canada Nickel Company",
+ "host": "canadanickel.com",
+ "harvested_at": "2026-09-05T03:07:20Z",
+ "docs": [
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/02/20200226-Canada-Nickel-Starts-Trading-1.pdf",
+   "timestamp": "20200821044917",
+   "wayback_url": "https://web.archive.org/web/20200821044917id_/https://canadanickel.com/wp-content/uploads/2020/02/20200226-Canada-Nickel-Starts-Trading-1.pdf",
+   "bytes": 616853,
+   "title": "20200226-Canada-Nickel-Starts-Trading-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/02/Canada-Nickel-Final-Technical-Report.pdf",
+   "timestamp": "20210616162625",
+   "wayback_url": "https://web.archive.org/web/20210616162625id_/https://canadanickel.com/wp-content/uploads/2020/02/Canada-Nickel-Final-Technical-Report.pdf",
+   "bytes": 1017006,
+   "title": "Canada-Nickel-Final-Technical-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/02/Canada-Nickel-Investor-Presentation-Feb-2020-Final.pdf",
+   "timestamp": "20240616043219",
+   "wayback_url": "https://web.archive.org/web/20240616043219id_/https://canadanickel.com/wp-content/uploads/2020/02/Canada-Nickel-Investor-Presentation-Feb-2020-Final.pdf",
+   "bytes": 1602155,
+   "title": "Canada-Nickel-Investor-Presentation-Feb-2020-Final.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/02/CNC-Canada-Nickel-Announces-Initial-Resource-20200228-Final.pdf",
+   "timestamp": "20200715131129",
+   "wayback_url": "https://web.archive.org/web/20200715131129id_/https://canadanickel.com/wp-content/uploads/2020/02/CNC-Canada-Nickel-Announces-Initial-Resource-20200228-Final.pdf",
+   "bytes": 1252519,
+   "title": "CNC-Canada-Nickel-Announces-Initial-Resource-20200228-Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://canadanickel.com/wp-content/uploads/2020/03/CNC-Canada-Nickel-Announces-Additional-Property-Acquistion-and-Options-03042020.pdf",
+   "timestamp": "20200818225020",
+   "wayback_url": "https://web.archive.org/web/20200818225020id_/http://canadanickel.com/wp-content/uploads/2020/03/CNC-Canada-Nickel-Announces-Additional-Property-Acquistion-and-Options-03042020.pdf",
+   "bytes": 2013282,
+   "title": "CNC-Canada-Nickel-Announces-Additional-Property-Acquistion-and-Options-03042020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://canadanickel.com/wp-content/uploads/2020/03/CNC-Canada-Nickel-Announces-Initial-Mineralogy-Results-20200312.pdf",
+   "timestamp": "20200818221925",
+   "wayback_url": "https://web.archive.org/web/20200818221925id_/http://canadanickel.com/wp-content/uploads/2020/03/CNC-Canada-Nickel-Announces-Initial-Mineralogy-Results-20200312.pdf",
+   "bytes": 146662,
+   "title": "CNC-Canada-Nickel-Announces-Initial-Mineralogy-Results-20200312.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/04/20200131-CNC-FS-FINAL.pdf",
+   "timestamp": "20201019214257",
+   "wayback_url": "https://web.archive.org/web/20201019214257id_/https://canadanickel.com/wp-content/uploads/2020/04/20200131-CNC-FS-FINAL.pdf",
+   "bytes": 122494,
+   "title": "20200131-CNC-FS-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/04/20200131-CNC-MDA-Final.pdf",
+   "timestamp": "20201019221251",
+   "wayback_url": "https://web.archive.org/web/20201019221251id_/https://canadanickel.com/wp-content/uploads/2020/04/20200131-CNC-MDA-Final.pdf",
+   "bytes": 843661,
+   "title": "20200131-CNC-MDA-Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/04/Canada-Nickel-Investor-Presentation-April-27-2020.pdf",
+   "timestamp": "20200511043530",
+   "wayback_url": "https://web.archive.org/web/20200511043530id_/https://canadanickel.com/wp-content/uploads/2020/04/Canada-Nickel-Investor-Presentation-April-27-2020.pdf",
+   "bytes": 15264513,
+   "title": "Canada-Nickel-Investor-Presentation-April-27-2020.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/04/Caracle_CNC-Crawford-NI43-101-MRE_TR-Apr13_2020-F.pdf",
+   "timestamp": "20200511194328",
+   "wayback_url": "https://web.archive.org/web/20200511194328id_/https://canadanickel.com/wp-content/uploads/2020/04/Caracle_CNC-Crawford-NI43-101-MRE_TR-Apr13_2020-F.pdf",
+   "bytes": 17280527,
+   "title": "Caracle_CNC-Crawford-NI43-101-MRE_TR-Apr13_2020-F.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/04/CNC-Canada-Nickel-Announces-Filing-of-Technical-Report.pdf",
+   "timestamp": "20200511104137",
+   "wayback_url": "https://web.archive.org/web/20200511104137id_/https://canadanickel.com/wp-content/uploads/2020/04/CNC-Canada-Nickel-Announces-Filing-of-Technical-Report.pdf",
+   "bytes": 546796,
+   "title": "CNC-Canada-Nickel-Announces-Filing-of-Technical-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://canadanickel.com/wp-content/uploads/2020/04/CNC-Canada-Nickel-Announces-PGM-Zone-And-Transaction-Update.pdf",
+   "timestamp": "20200818223859",
+   "wayback_url": "https://web.archive.org/web/20200818223859id_/http://canadanickel.com/wp-content/uploads/2020/04/CNC-Canada-Nickel-Announces-PGM-Zone-And-Transaction-Update.pdf",
+   "bytes": 885899,
+   "title": "CNC-Canada-Nickel-Announces-PGM-Zone-And-Transaction-Update.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/04/CNC-Upsizing-Private-Placement-Financing-04202020.pdf",
+   "timestamp": "20200511012105",
+   "wayback_url": "https://web.archive.org/web/20200511012105id_/https://canadanickel.com/wp-content/uploads/2020/04/CNC-Upsizing-Private-Placement-Financing-04202020.pdf",
+   "bytes": 135482,
+   "title": "CNC-Upsizing-Private-Placement-Financing-04202020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/05/CNC-Canada-Nickel-May-19-announcement-1.pdf",
+   "timestamp": "20200611082735",
+   "wayback_url": "https://web.archive.org/web/20200611082735id_/https://canadanickel.com/wp-content/uploads/2020/05/CNC-Canada-Nickel-May-19-announcement-1.pdf",
+   "bytes": 908951,
+   "title": "CNC-Canada-Nickel-May-19-announcement-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://canadanickel.com/wp-content/uploads/2020/05/CNC-Canada-Nickel-May-27-announcement.pdf",
+   "timestamp": "20200818222740",
+   "wayback_url": "https://web.archive.org/web/20200818222740id_/http://canadanickel.com/wp-content/uploads/2020/05/CNC-Canada-Nickel-May-27-announcement.pdf",
+   "bytes": 2140609,
+   "title": "CNC-Canada-Nickel-May-27-announcement.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/05/CNC-News-Release-re-Private-Placement-Closing-05-May-2020.pdf",
+   "timestamp": "20200511112451",
+   "wayback_url": "https://web.archive.org/web/20200511112451id_/https://canadanickel.com/wp-content/uploads/2020/05/CNC-News-Release-re-Private-Placement-Closing-05-May-2020.pdf",
+   "bytes": 117787,
+   "title": "CNC-News-Release-re-Private-Placement-Closing-05-May-2020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/06/2020609-CNC-PEA-Contractor-Appointment-Announcement.pdf",
+   "timestamp": "20200821050917",
+   "wayback_url": "https://web.archive.org/web/20200821050917id_/https://canadanickel.com/wp-content/uploads/2020/06/2020609-CNC-PEA-Contractor-Appointment-Announcement.pdf",
+   "bytes": 602614,
+   "title": "2020609-CNC-PEA-Contractor-Appointment-Announcement.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/06/Canada-Nickel-reprint.pdf",
+   "timestamp": "20200927104531",
+   "wayback_url": "https://web.archive.org/web/20200927104531id_/https://canadanickel.com/wp-content/uploads/2020/06/Canada-Nickel-reprint.pdf",
+   "bytes": 1025103,
+   "title": "Canada-Nickel-reprint.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://canadanickel.com/wp-content/uploads/2020/06/CNC-Canada-Nickel-June-10-announcement-Final.pdf",
+   "timestamp": "20200818223524",
+   "wayback_url": "https://web.archive.org/web/20200818223524id_/http://canadanickel.com/wp-content/uploads/2020/06/CNC-Canada-Nickel-June-10-announcement-Final.pdf",
+   "bytes": 1294161,
+   "title": "CNC-Canada-Nickel-June-10-announcement-Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/06/CNC-Canada-Nickel-June-22-announcement-Infill-Hole-42.pdf",
+   "timestamp": "20200919095916",
+   "wayback_url": "https://web.archive.org/web/20200919095916id_/https://canadanickel.com/wp-content/uploads/2020/06/CNC-Canada-Nickel-June-22-announcement-Infill-Hole-42.pdf",
+   "bytes": 769936,
+   "title": "CNC-Canada-Nickel-June-22-announcement-Infill-Hole-42.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/07/Canada-Nickel-Identifies-Multiple-Nickel-Targets-on-Option-Properties-20200713.pdf",
+   "timestamp": "20200715092302",
+   "wayback_url": "https://web.archive.org/web/20200715092302id_/https://canadanickel.com/wp-content/uploads/2020/07/Canada-Nickel-Identifies-Multiple-Nickel-Targets-on-Option-Properties-20200713.pdf",
+   "bytes": 1309959,
+   "title": "Canada-Nickel-Identifies-Multiple-Nickel-Targets-on-Option-Properties-20200713.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/07/Canada-Nickel-Investor-Presentation-July-27-2020.pdf",
+   "timestamp": "20200927090534",
+   "wayback_url": "https://web.archive.org/web/20200927090534id_/https://canadanickel.com/wp-content/uploads/2020/07/Canada-Nickel-Investor-Presentation-July-27-2020.pdf",
+   "bytes": 1006660,
+   "title": "Canada-Nickel-Investor-Presentation-July-27-2020.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/07/Canada-Nickel-Investor-Presentation-June-22-2020.pdf",
+   "timestamp": "20201019220803",
+   "wayback_url": "https://web.archive.org/web/20201019220803id_/https://canadanickel.com/wp-content/uploads/2020/07/Canada-Nickel-Investor-Presentation-June-22-2020.pdf",
+   "bytes": 947322,
+   "title": "Canada-Nickel-Investor-Presentation-June-22-2020.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/07/Canada-Nickel-NetZero-Announcement-2020727.pdf",
+   "timestamp": "20200730211225",
+   "wayback_url": "https://web.archive.org/web/20200730211225id_/https://canadanickel.com/wp-content/uploads/2020/07/Canada-Nickel-NetZero-Announcement-2020727.pdf",
+   "bytes": 589234,
+   "title": "Canada-Nickel-NetZero-Announcement-2020727.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/07/Canada-Nickel-releases-Remaining-East-Zone-and-Infill-Hole-43-assays-20200730.pdf",
+   "timestamp": "20200807081451",
+   "wayback_url": "https://web.archive.org/web/20200807081451id_/https://canadanickel.com/wp-content/uploads/2020/07/Canada-Nickel-releases-Remaining-East-Zone-and-Infill-Hole-43-assays-20200730.pdf",
+   "bytes": 1083007,
+   "title": "Canada-Nickel-releases-Remaining-East-Zone-and-Infill-Hole-43-assays-20200730.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/07/Canada-Nickel-Warrant-Acceleration-20200716.pdf",
+   "timestamp": "20221129021330",
+   "wayback_url": "https://web.archive.org/web/20221129021330id_/https://canadanickel.com/wp-content/uploads/2020/07/Canada-Nickel-Warrant-Acceleration-20200716.pdf",
+   "bytes": 103373,
+   "title": "Canada-Nickel-Warrant-Acceleration-20200716.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/07/CNC-04-30-2020-FINAL.pdf",
+   "timestamp": "20201019213351",
+   "wayback_url": "https://web.archive.org/web/20201019213351id_/https://canadanickel.com/wp-content/uploads/2020/07/CNC-04-30-2020-FINAL.pdf",
+   "bytes": 130020,
+   "title": "CNC-04-30-2020-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/07/CNC-04-30-2020-MDA.pdf",
+   "timestamp": "20201019210750",
+   "wayback_url": "https://web.archive.org/web/20201019210750id_/https://canadanickel.com/wp-content/uploads/2020/07/CNC-04-30-2020-MDA.pdf",
+   "bytes": 826857,
+   "title": "CNC-04-30-2020-MDA.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/08/Canada-Nickel-Announces-1.5M-Financing-and-Extend-Warrant-Acceleration-Date-20200811.pdf",
+   "timestamp": "20200927091840",
+   "wayback_url": "https://web.archive.org/web/20200927091840id_/https://canadanickel.com/wp-content/uploads/2020/08/Canada-Nickel-Announces-1.5M-Financing-and-Extend-Warrant-Acceleration-Date-20200811.pdf",
+   "bytes": 585408,
+   "title": "Canada-Nickel-Announces-1.5M-Financing-and-Extend-Warrant-Acceleration-Date-20200811.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/08/Canada-Nickel-releases-additional-infill-assays-20080820.pdf",
+   "timestamp": "20200830212907",
+   "wayback_url": "https://web.archive.org/web/20200830212907id_/https://canadanickel.com/wp-content/uploads/2020/08/Canada-Nickel-releases-additional-infill-assays-20080820.pdf",
+   "bytes": 1078613,
+   "title": "Canada-Nickel-releases-additional-infill-assays-20080820.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/08/Canada-Nickel-releases-additional-Infill-assays-20200806.pdf",
+   "timestamp": "20200927112430",
+   "wayback_url": "https://web.archive.org/web/20200927112430id_/https://canadanickel.com/wp-content/uploads/2020/08/Canada-Nickel-releases-additional-Infill-assays-20200806.pdf",
+   "bytes": 402484,
+   "title": "Canada-Nickel-releases-additional-Infill-assays-20200806.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/09/Canada-Nickel-Announces-Additional-Infill-Results-Continue-to-Define-Higher-Grade-Core-20200924.pdf",
+   "timestamp": "20200928051900",
+   "wayback_url": "https://web.archive.org/web/20200928051900id_/https://canadanickel.com/wp-content/uploads/2020/09/Canada-Nickel-Announces-Additional-Infill-Results-Continue-to-Define-Higher-Grade-Core-20200924.pdf",
+   "bytes": 1243538,
+   "title": "Canada-Nickel-Announces-Additional-Infill-Results-Continue-to-Define-Higher-Grade-Core-20200924.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/09/Canada-Nickel-Announces-Geophysical-Survey-Underway-on-Option-Properties-20200923.pdf",
+   "timestamp": "20200928033332",
+   "wayback_url": "https://web.archive.org/web/20200928033332id_/https://canadanickel.com/wp-content/uploads/2020/09/Canada-Nickel-Announces-Geophysical-Survey-Underway-on-Option-Properties-20200923.pdf",
+   "bytes": 1310917,
+   "title": "Canada-Nickel-Announces-Geophysical-Survey-Underway-on-Option-Properties-20200923.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/09/Canada-Nickel-Announces-Upsize-Bought-Deal-and-FT-Offering-20200914.pdf",
+   "timestamp": "20200927090830",
+   "wayback_url": "https://web.archive.org/web/20200927090830id_/https://canadanickel.com/wp-content/uploads/2020/09/Canada-Nickel-Announces-Upsize-Bought-Deal-and-FT-Offering-20200914.pdf",
+   "bytes": 105273,
+   "title": "Canada-Nickel-Announces-Upsize-Bought-Deal-and-FT-Offering-20200914.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/09/Canada-Nickel-Company-Additional-Infill-Results-Continue-to-Define-Higher-Grade-Core-20200908.pdf",
+   "timestamp": "20200927105643",
+   "wayback_url": "https://web.archive.org/web/20200927105643id_/https://canadanickel.com/wp-content/uploads/2020/09/Canada-Nickel-Company-Additional-Infill-Results-Continue-to-Define-Higher-Grade-Core-20200908.pdf",
+   "bytes": 981999,
+   "title": "Canada-Nickel-Company-Additional-Infill-Results-Continue-to-Define-Higher-Grade-Core-20200908.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/09/Canada-Nickel-Investor-Presentation-Aug-31-2020.pdf",
+   "timestamp": "20200927095927",
+   "wayback_url": "https://web.archive.org/web/20200927095927id_/https://canadanickel.com/wp-content/uploads/2020/09/Canada-Nickel-Investor-Presentation-Aug-31-2020.pdf",
+   "bytes": 653737,
+   "title": "Canada-Nickel-Investor-Presentation-Aug-31-2020.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/09/Canada-Nickel-Investor-Presentation-Sep-8-2020.pdf",
+   "timestamp": "20200928033401",
+   "wayback_url": "https://web.archive.org/web/20200928033401id_/https://canadanickel.com/wp-content/uploads/2020/09/Canada-Nickel-Investor-Presentation-Sep-8-2020.pdf",
+   "bytes": 1998087,
+   "title": "Canada-Nickel-Investor-Presentation-Sep-8-2020.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/09/CNC-07-31-2020-FS.pdf",
+   "timestamp": "20210309071844",
+   "wayback_url": "https://web.archive.org/web/20210309071844id_/https://canadanickel.com/wp-content/uploads/2020/09/CNC-07-31-2020-FS.pdf",
+   "bytes": 3426860,
+   "title": "CNC-07-31-2020-FS.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/09/CNC-07-31-2020-MDA.pdf",
+   "timestamp": "20210616163451",
+   "wayback_url": "https://web.archive.org/web/20210616163451id_/https://canadanickel.com/wp-content/uploads/2020/09/CNC-07-31-2020-MDA.pdf",
+   "bytes": 826414,
+   "title": "CNC-07-31-2020-MDA.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/09/CNC-Announces-Private-Placement-Closing-20200910.pdf",
+   "timestamp": "20200927110003",
+   "wayback_url": "https://web.archive.org/web/20200927110003id_/https://canadanickel.com/wp-content/uploads/2020/09/CNC-Announces-Private-Placement-Closing-20200910.pdf",
+   "bytes": 581931,
+   "title": "CNC-Announces-Private-Placement-Closing-20200910.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/09/CNC-Announces-Private-Placement-Financing-20200914.pdf",
+   "timestamp": "20200927110359",
+   "wayback_url": "https://web.archive.org/web/20200927110359id_/https://canadanickel.com/wp-content/uploads/2020/09/CNC-Announces-Private-Placement-Financing-20200914.pdf",
+   "bytes": 102252,
+   "title": "CNC-Announces-Private-Placement-Financing-20200914.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/09/CNC-News-Release-re-Private-Placement-Closing-Sept-2020.pdf",
+   "timestamp": "20201019211715",
+   "wayback_url": "https://web.archive.org/web/20201019211715id_/https://canadanickel.com/wp-content/uploads/2020/09/CNC-News-Release-re-Private-Placement-Closing-Sept-2020.pdf",
+   "bytes": 633755,
+   "title": "CNC-News-Release-re-Private-Placement-Closing-Sept-2020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/10/Canada-Nickel-Announces-Additional-Infill-Results-Continue-to-Define-Higher-Grade-Core-20201008.pdf",
+   "timestamp": "20201019212204",
+   "wayback_url": "https://web.archive.org/web/20201019212204id_/https://canadanickel.com/wp-content/uploads/2020/10/Canada-Nickel-Announces-Additional-Infill-Results-Continue-to-Define-Higher-Grade-Core-20201008.pdf",
+   "bytes": 995495,
+   "title": "Canada-Nickel-Announces-Additional-Infill-Results-Continue-to-Define-Higher-Grade-Core-20201008.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/10/Canada-Nickel-Investor-Presentation-Oct-22-2020.pdf",
+   "timestamp": "20201130051321",
+   "wayback_url": "https://web.archive.org/web/20201130051321id_/https://canadanickel.com/wp-content/uploads/2020/10/Canada-Nickel-Investor-Presentation-Oct-22-2020.pdf",
+   "bytes": 911136,
+   "title": "Canada-Nickel-Investor-Presentation-Oct-22-2020.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/10/Canada-Nickel-Investor-Presentation-Oct-6-2020-1.pdf",
+   "timestamp": "20201019205155",
+   "wayback_url": "https://web.archive.org/web/20201019205155id_/https://canadanickel.com/wp-content/uploads/2020/10/Canada-Nickel-Investor-Presentation-Oct-6-2020-1.pdf",
+   "bytes": 911374,
+   "title": "Canada-Nickel-Investor-Presentation-Oct-6-2020-1.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/10/Canada-Nickel-Makes-Third-New-Discovery-at-Crawford-Nickel-Cobalt-Sulphide-Project.pdf",
+   "timestamp": "20201108000452",
+   "wayback_url": "https://web.archive.org/web/20201108000452id_/https://canadanickel.com/wp-content/uploads/2020/10/Canada-Nickel-Makes-Third-New-Discovery-at-Crawford-Nickel-Cobalt-Sulphide-Project.pdf",
+   "bytes": 415271,
+   "title": "Canada-Nickel-Makes-Third-New-Discovery-at-Crawford-Nickel-Cobalt-Sulphide-Project.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/10/Canada-Nickel-Management-and-Board-appointments.pdf",
+   "timestamp": "20201130044054",
+   "wayback_url": "https://web.archive.org/web/20201130044054id_/https://canadanickel.com/wp-content/uploads/2020/10/Canada-Nickel-Management-and-Board-appointments.pdf",
+   "bytes": 693602,
+   "title": "Canada-Nickel-Management-and-Board-appointments.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/10/Canada-Nickel-Management-and-Board-appointments.pdf?utm_source=RCKS+Master+Audience&utm_campaign=882816ba0b-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-882816ba0b-161536730",
+   "timestamp": "20201101002632",
+   "wayback_url": "https://web.archive.org/web/20201101002632id_/https://canadanickel.com/wp-content/uploads/2020/10/Canada-Nickel-Management-and-Board-appointments.pdf?utm_source=RCKS+Master+Audience&utm_campaign=882816ba0b-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-882816ba0b-161536730",
+   "bytes": 693772,
+   "title": "Canada-Nickel-Management-and-Board-appointments.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/10/Canada-Nickel-Upgrades-to-OTCQB-20201014.pdf",
+   "timestamp": "20201019211236",
+   "wayback_url": "https://web.archive.org/web/20201019211236id_/https://canadanickel.com/wp-content/uploads/2020/10/Canada-Nickel-Upgrades-to-OTCQB-20201014.pdf",
+   "bytes": 539366,
+   "title": "Canada-Nickel-Upgrades-to-OTCQB-20201014.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/10/CNC-Canada-Nickel-Announces-Resource-Update-20201021.pdf",
+   "timestamp": "20201109052532",
+   "wayback_url": "https://web.archive.org/web/20201109052532id_/https://canadanickel.com/wp-content/uploads/2020/10/CNC-Canada-Nickel-Announces-Resource-Update-20201021.pdf",
+   "bytes": 2399190,
+   "title": "CNC-Canada-Nickel-Announces-Resource-Update-20201021.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/10/CNC-News-Release-re-Private-Placement-Closing-20201014.pdf",
+   "timestamp": "20201019205724",
+   "wayback_url": "https://web.archive.org/web/20201019205724id_/https://canadanickel.com/wp-content/uploads/2020/10/CNC-News-Release-re-Private-Placement-Closing-20201014.pdf",
+   "bytes": 636421,
+   "title": "CNC-News-Release-re-Private-Placement-Closing-20201014.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Announces-Fourth-Discovery-20201216.pdf",
+   "timestamp": "20210122154921",
+   "wayback_url": "https://web.archive.org/web/20210122154921id_/https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Announces-Fourth-Discovery-20201216.pdf",
+   "bytes": 923892,
+   "title": "Canada-Nickel-Announces-Fourth-Discovery-20201216.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Announces-Metallurgical-Test-Results-20201223.pdf",
+   "timestamp": "20210122155945",
+   "wayback_url": "https://web.archive.org/web/20210122155945id_/https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Announces-Metallurgical-Test-Results-20201223.pdf",
+   "bytes": 692006,
+   "title": "Canada-Nickel-Announces-Metallurgical-Test-Results-20201223.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Announces-MOU-with-TTN-20201216.pdf",
+   "timestamp": "20210122150011",
+   "wayback_url": "https://web.archive.org/web/20210122150011id_/https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Announces-MOU-with-TTN-20201216.pdf",
+   "bytes": 673221,
+   "title": "Canada-Nickel-Announces-MOU-with-TTN-20201216.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Announces-MOU-with-Wabun-20201214.pdf",
+   "timestamp": "20201214142217",
+   "wayback_url": "https://web.archive.org/web/20201214142217id_/https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Announces-MOU-with-Wabun-20201214.pdf",
+   "bytes": 628438,
+   "title": "Canada-Nickel-Announces-MOU-with-Wabun-20201214.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Announces-MOU-with-Wabun-20201214.pdf?utm_source=RCKS+Master+Audience&utm_campaign=0b31608dbc-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-0b31608dbc-161536730",
+   "timestamp": "20201215165711",
+   "wayback_url": "https://web.archive.org/web/20201215165711id_/https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Announces-MOU-with-Wabun-20201214.pdf?utm_source=RCKS+Master+Audience&utm_campaign=0b31608dbc-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-0b31608dbc-161536730",
+   "bytes": 628544,
+   "title": "Canada-Nickel-Announces-MOU-with-Wabun-20201214.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Investor-Presentation-Nov-5-2020.pdf",
+   "timestamp": "20210122144812",
+   "wayback_url": "https://web.archive.org/web/20210122144812id_/https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Investor-Presentation-Nov-5-2020.pdf",
+   "bytes": 946436,
+   "title": "Canada-Nickel-Investor-Presentation-Nov-5-2020.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Provides-Project-Update-20201201.pdf",
+   "timestamp": "20201202165033",
+   "wayback_url": "https://web.archive.org/web/20201202165033id_/https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Provides-Project-Update-20201201.pdf",
+   "bytes": 571055,
+   "title": "Canada-Nickel-Provides-Project-Update-20201201.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Provides-Project-Update-20201201.pdf?utm_source=RCKS+Master+Audience&utm_campaign=e9e575b830-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-e9e575b830-161536730",
+   "timestamp": "20201202165011",
+   "wayback_url": "https://web.archive.org/web/20201202165011id_/https://canadanickel.com/wp-content/uploads/2020/12/Canada-Nickel-Provides-Project-Update-20201201.pdf?utm_source=RCKS+Master+Audience&utm_campaign=e9e575b830-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-e9e575b830-161536730",
+   "bytes": 571105,
+   "title": "Canada-Nickel-Provides-Project-Update-20201201.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/12/CNC-Canada-Nickel-Announces-Filing-of-Resource-Update-20201204.pdf",
+   "timestamp": "20210122154441",
+   "wayback_url": "https://web.archive.org/web/20210122154441id_/https://canadanickel.com/wp-content/uploads/2020/12/CNC-Canada-Nickel-Announces-Filing-of-Resource-Update-20201204.pdf",
+   "bytes": 459464,
+   "title": "CNC-Canada-Nickel-Announces-Filing-of-Resource-Update-20201204.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/12/MRAG-2020-Nickel-Final.pdf",
+   "timestamp": "20210122164834",
+   "wayback_url": "https://web.archive.org/web/20210122164834id_/https://canadanickel.com/wp-content/uploads/2020/12/MRAG-2020-Nickel-Final.pdf",
+   "bytes": 670719,
+   "title": "MRAG-2020-Nickel-Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2020/12/NI43-1010.pdf",
+   "timestamp": "20210402141124",
+   "wayback_url": "https://web.archive.org/web/20210402141124id_/https://canadanickel.com/wp-content/uploads/2020/12/NI43-1010.pdf",
+   "bytes": 8020881,
+   "title": "NI43-1010.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Announces-Additional-Results-from-West-Zone-20210114.pdf",
+   "timestamp": "20210114130652",
+   "wayback_url": "https://web.archive.org/web/20210114130652id_/https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Announces-Additional-Results-from-West-Zone-20210114.pdf",
+   "bytes": 1042836,
+   "title": "Canada-Nickel-Announces-Additional-Results-from-West-Zone-20210114.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Announces-Additional-Results-from-West-Zone-20210114.pdf?utm_source=RCKS+Master+Audience&utm_campaign=b97cba9f5d-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-b97cba9f5d-161536730",
+   "timestamp": "20210115153013",
+   "wayback_url": "https://web.archive.org/web/20210115153013id_/https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Announces-Additional-Results-from-West-Zone-20210114.pdf?utm_source=RCKS+Master+Audience&utm_campaign=b97cba9f5d-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-b97cba9f5d-161536730",
+   "bytes": 1042928,
+   "title": "Canada-Nickel-Announces-Additional-Results-from-West-Zone-20210114.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Announces-Filing-of-Annual-Financial-Statements-and-MDA-20210125.pdf",
+   "timestamp": "20210302202538",
+   "wayback_url": "https://web.archive.org/web/20210302202538id_/https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Announces-Filing-of-Annual-Financial-Statements-and-MDA-20210125.pdf",
+   "bytes": 441406,
+   "title": "Canada-Nickel-Announces-Filing-of-Annual-Financial-Statements-and-MDA-20210125.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Announces-Metallurgical-Test-Results-20210125.pdf",
+   "timestamp": "20210126074620",
+   "wayback_url": "https://web.archive.org/web/20210126074620id_/https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Announces-Metallurgical-Test-Results-20210125.pdf",
+   "bytes": 756358,
+   "title": "Canada-Nickel-Announces-Metallurgical-Test-Results-20210125.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Announces-Results-of-Annual-and-Special-Meeting-of-Shareholders.pdf",
+   "timestamp": "20210302192458",
+   "wayback_url": "https://web.archive.org/web/20210302192458id_/https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Announces-Results-of-Annual-and-Special-Meeting-of-Shareholders.pdf",
+   "bytes": 615082,
+   "title": "Canada-Nickel-Announces-Results-of-Annual-and-Special-Meeting-of-Shareholders.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Canada-Nickel-Announces-MOU-with-Glencore-20210111.pdf",
+   "timestamp": "20210112153056",
+   "wayback_url": "https://web.archive.org/web/20210112153056id_/https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Canada-Nickel-Announces-MOU-with-Glencore-20210111.pdf",
+   "bytes": 674084,
+   "title": "Canada-Nickel-Canada-Nickel-Announces-MOU-with-Glencore-20210111.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Canada-Nickel-Announces-MOU-with-Glencore-20210111.pdf?utm_source=RCKS+Master+Audience&utm_campaign=a7ded68f48-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-a7ded68f48-161536730",
+   "timestamp": "20210112153046",
+   "wayback_url": "https://web.archive.org/web/20210112153046id_/https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Canada-Nickel-Announces-MOU-with-Glencore-20210111.pdf?utm_source=RCKS+Master+Audience&utm_campaign=a7ded68f48-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-a7ded68f48-161536730",
+   "bytes": 674200,
+   "title": "Canada-Nickel-Canada-Nickel-Announces-MOU-with-Glencore-20210111.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Investor-Presentation-Jan-11-2020.pdf",
+   "timestamp": "20210302210844",
+   "wayback_url": "https://web.archive.org/web/20210302210844id_/https://canadanickel.com/wp-content/uploads/2021/01/Canada-Nickel-Investor-Presentation-Jan-11-2020.pdf",
+   "bytes": 946609,
+   "title": "Canada-Nickel-Investor-Presentation-Jan-11-2020.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/01/CNC-10-31-2020-annual-financial-statements-FINAL.pdf",
+   "timestamp": "20210616181450",
+   "wayback_url": "https://web.archive.org/web/20210616181450id_/https://canadanickel.com/wp-content/uploads/2021/01/CNC-10-31-2020-annual-financial-statements-FINAL.pdf",
+   "bytes": 439734,
+   "title": "CNC-10-31-2020-annual-financial-statements-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/01/CNC-10-31-2020-MDA-FINAL.pdf",
+   "timestamp": "20210616173918",
+   "wayback_url": "https://web.archive.org/web/20210616173918id_/https://canadanickel.com/wp-content/uploads/2021/01/CNC-10-31-2020-MDA-FINAL.pdf",
+   "bytes": 360017,
+   "title": "CNC-10-31-2020-MDA-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/01/CNC-News-Release-re-Amended-Technical-Report-20210118.pdf",
+   "timestamp": "20210119165025",
+   "wayback_url": "https://web.archive.org/web/20210119165025id_/https://canadanickel.com/wp-content/uploads/2021/01/CNC-News-Release-re-Amended-Technical-Report-20210118.pdf",
+   "bytes": 218565,
+   "title": "CNC-News-Release-re-Amended-Technical-Report-20210118.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/01/CNC-News-Release-re-Amended-Technical-Report-20210118.pdf?utm_source=RCKS+Master+Audience&utm_campaign=ad44ba36eb-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-ad44ba36eb-161536730",
+   "timestamp": "20210119165016",
+   "wayback_url": "https://web.archive.org/web/20210119165016id_/https://canadanickel.com/wp-content/uploads/2021/01/CNC-News-Release-re-Amended-Technical-Report-20210118.pdf?utm_source=RCKS+Master+Audience&utm_campaign=ad44ba36eb-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-ad44ba36eb-161536730",
+   "bytes": 218697,
+   "title": "CNC-News-Release-re-Amended-Technical-Report-20210118.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/01/CNC-NI-43-101-Crawford-Mineral-Res-Est-Amended-Restated-Dec-12-2020.pdf",
+   "timestamp": "20211203002347",
+   "wayback_url": "https://web.archive.org/web/20211203002347id_/https://canadanickel.com/wp-content/uploads/2021/01/CNC-NI-43-101-Crawford-Mineral-Res-Est-Amended-Restated-Dec-12-2020.pdf",
+   "bytes": 1022920,
+   "title": "CNC-NI-43-101-Crawford-Mineral-Res-Est-Amended-Restated-Dec-12-2020.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/02/Canada-Nickel-Identifies-Nickel-Target-on-Macdiarmid-20210217.pdf",
+   "timestamp": "20210302211017",
+   "wayback_url": "https://web.archive.org/web/20210302211017id_/https://canadanickel.com/wp-content/uploads/2021/02/Canada-Nickel-Identifies-Nickel-Target-on-Macdiarmid-20210217.pdf",
+   "bytes": 988583,
+   "title": "Canada-Nickel-Identifies-Nickel-Target-on-Macdiarmid-20210217.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/02/Canada-Nickel-Investor-Presentation-Feb-17-2021.pdf",
+   "timestamp": "20210515072620",
+   "wayback_url": "https://web.archive.org/web/20210515072620id_/https://canadanickel.com/wp-content/uploads/2021/02/Canada-Nickel-Investor-Presentation-Feb-17-2021.pdf",
+   "bytes": 946962,
+   "title": "Canada-Nickel-Investor-Presentation-Feb-17-2021.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/02/Canada-Nickel-Investor-Presentation-Jan-29-2021.pdf",
+   "timestamp": "20210206101132",
+   "wayback_url": "https://web.archive.org/web/20210206101132id_/https://canadanickel.com/wp-content/uploads/2021/02/Canada-Nickel-Investor-Presentation-Jan-29-2021.pdf",
+   "bytes": 2318377,
+   "title": "Canada-Nickel-Investor-Presentation-Jan-29-2021.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/02/Release-re-Options-RSUs-final.pdf",
+   "timestamp": "20210402141137",
+   "wayback_url": "https://web.archive.org/web/20210402141137id_/https://canadanickel.com/wp-content/uploads/2021/02/Release-re-Options-RSUs-final.pdf",
+   "bytes": 164499,
+   "title": "Release-re-Options-RSUs-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/03/2021-01-31-Q1-MDA-CNC-final.pdf",
+   "timestamp": "20210616171402",
+   "wayback_url": "https://web.archive.org/web/20210616171402id_/https://canadanickel.com/wp-content/uploads/2021/03/2021-01-31-Q1-MDA-CNC-final.pdf",
+   "bytes": 264885,
+   "title": "2021-01-31-Q1-MDA-CNC-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/03/20210317-Canada-Nickel-Announces-Acceleration-of-September-2020-Warrants-Expiry.pdf",
+   "timestamp": "20210321205003",
+   "wayback_url": "https://web.archive.org/web/20210321205003id_/https://canadanickel.com/wp-content/uploads/2021/03/20210317-Canada-Nickel-Announces-Acceleration-of-September-2020-Warrants-Expiry.pdf",
+   "bytes": 138893,
+   "title": "20210317-Canada-Nickel-Announces-Acceleration-of-September-2020-Warrants-Expiry.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/03/Canada-Nickel-Announces-Further-Metallurgical-Test-Results-20210304.pdf",
+   "timestamp": "20210309230823",
+   "wayback_url": "https://web.archive.org/web/20210309230823id_/https://canadanickel.com/wp-content/uploads/2021/03/Canada-Nickel-Announces-Further-Metallurgical-Test-Results-20210304.pdf",
+   "bytes": 667948,
+   "title": "Canada-Nickel-Announces-Further-Metallurgical-Test-Results-20210304.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/03/Canada-Nickel-Benchmark-Nickel-Day.pdf",
+   "timestamp": "20221007042624",
+   "wayback_url": "https://web.archive.org/web/20221007042624id_/https://canadanickel.com/wp-content/uploads/2021/03/Canada-Nickel-Benchmark-Nickel-Day.pdf",
+   "bytes": 1685556,
+   "title": "Canada-Nickel-Benchmark-Nickel-Day.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/03/Canada-Nickel-Investor-Presentation-Mar-31-2021.pdf",
+   "timestamp": "20210402141120",
+   "wayback_url": "https://web.archive.org/web/20210402141120id_/https://canadanickel.com/wp-content/uploads/2021/03/Canada-Nickel-Investor-Presentation-Mar-31-2021.pdf",
+   "bytes": 2180126,
+   "title": "Canada-Nickel-Investor-Presentation-Mar-31-2021.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/03/Canada-Nickel-Investor-Presentation-Mar-4-2021.pdf",
+   "timestamp": "20210515080553",
+   "wayback_url": "https://web.archive.org/web/20210515080553id_/https://canadanickel.com/wp-content/uploads/2021/03/Canada-Nickel-Investor-Presentation-Mar-4-2021.pdf",
+   "bytes": 946737,
+   "title": "Canada-Nickel-Investor-Presentation-Mar-4-2021.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/03/CNC-01-31-2021-interim-financial-statements-final.pdf",
+   "timestamp": "20210616172850",
+   "wayback_url": "https://web.archive.org/web/20210616172850id_/https://canadanickel.com/wp-content/uploads/2021/03/CNC-01-31-2021-interim-financial-statements-final.pdf",
+   "bytes": 281022,
+   "title": "CNC-01-31-2021-interim-financial-statements-final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/04/20210407-TTN-CNC-MOU-FLEET.pdf",
+   "timestamp": "20210515073429",
+   "wayback_url": "https://web.archive.org/web/20210515073429id_/https://canadanickel.com/wp-content/uploads/2021/04/20210407-TTN-CNC-MOU-FLEET.pdf",
+   "bytes": 673482,
+   "title": "20210407-TTN-CNC-MOU-FLEET.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/04/20210408-Canada-Nickel-initiates-the-Environmental-and-Social-Impact-Assessment.pdf",
+   "timestamp": "20210515082034",
+   "wayback_url": "https://web.archive.org/web/20210515082034id_/https://canadanickel.com/wp-content/uploads/2021/04/20210408-Canada-Nickel-initiates-the-Environmental-and-Social-Impact-Assessment.pdf",
+   "bytes": 572350,
+   "title": "20210408-Canada-Nickel-initiates-the-Environmental-and-Social-Impact-Assessment.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/04/20210409-Canada-Nickel-Completes-Option-Transaction.pdf",
+   "timestamp": "20210515070656",
+   "wayback_url": "https://web.archive.org/web/20210515070656id_/https://canadanickel.com/wp-content/uploads/2021/04/20210409-Canada-Nickel-Completes-Option-Transaction.pdf",
+   "bytes": 509306,
+   "title": "20210409-Canada-Nickel-Completes-Option-Transaction.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/04/20210422-Canada-Nickel-Acquires-Option-Properties-final.pdf",
+   "timestamp": "20210422132225",
+   "wayback_url": "https://web.archive.org/web/20210422132225id_/https://canadanickel.com/wp-content/uploads/2021/04/20210422-Canada-Nickel-Acquires-Option-Properties-final.pdf",
+   "bytes": 375199,
+   "title": "20210422-Canada-Nickel-Acquires-Option-Properties-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/04/Canada-Nickel-Investor-Presentation-April-28-2021-1.pdf",
+   "timestamp": "20221129024147",
+   "wayback_url": "https://web.archive.org/web/20221129024147id_/https://canadanickel.com/wp-content/uploads/2021/04/Canada-Nickel-Investor-Presentation-April-28-2021-1.pdf",
+   "bytes": 3148449,
+   "title": "Canada-Nickel-Investor-Presentation-April-28-2021-1.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/05/20210525-Canada-Nickel-Announces-PEA-results-final.pdf",
+   "timestamp": "20210525124240",
+   "wayback_url": "https://web.archive.org/web/20210525124240id_/https://canadanickel.com/wp-content/uploads/2021/05/20210525-Canada-Nickel-Announces-PEA-results-final.pdf",
+   "bytes": 439496,
+   "title": "20210525-Canada-Nickel-Announces-PEA-results-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/05/Canada-Nickel-Announces-MacDiarmid-Drill-Results-2021-05-18-final.pdf",
+   "timestamp": "20210518123409",
+   "wayback_url": "https://web.archive.org/web/20210518123409id_/https://canadanickel.com/wp-content/uploads/2021/05/Canada-Nickel-Announces-MacDiarmid-Drill-Results-2021-05-18-final.pdf",
+   "bytes": 671025,
+   "title": "Canada-Nickel-Announces-MacDiarmid-Drill-Results-2021-05-18-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/05/Canada-Nickel-Announces-MacDiarmid-Drill-Results-2021-05-18-final.pdf?utm_source=RCKS+Master+Audience&utm_campaign=75cfa1ae92-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-75cfa1ae92-161563162",
+   "timestamp": "20210519170635",
+   "wayback_url": "https://web.archive.org/web/20210519170635id_/https://canadanickel.com/wp-content/uploads/2021/05/Canada-Nickel-Announces-MacDiarmid-Drill-Results-2021-05-18-final.pdf?utm_source=RCKS+Master+Audience&utm_campaign=75cfa1ae92-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-75cfa1ae92-161563162",
+   "bytes": 671124,
+   "title": "Canada-Nickel-Announces-MacDiarmid-Drill-Results-2021-05-18-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/05/Canada-Nickel-PEA-Presentation-052621-final.pdf",
+   "timestamp": "20210526204601",
+   "wayback_url": "https://web.archive.org/web/20210526204601id_/https://canadanickel.com/wp-content/uploads/2021/05/Canada-Nickel-PEA-Presentation-052621-final.pdf",
+   "bytes": 2515447,
+   "title": "Canada-Nickel-PEA-Presentation-052621-final.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/06/2021-04-30-Q2-MDA-CNC-FINAL.pdf",
+   "timestamp": "20211203005559",
+   "wayback_url": "https://web.archive.org/web/20211203005559id_/https://canadanickel.com/wp-content/uploads/2021/06/2021-04-30-Q2-MDA-CNC-FINAL.pdf",
+   "bytes": 302086,
+   "title": "2021-04-30-Q2-MDA-CNC-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/06/Canada-Nickel-Announces-Industry-Leading-Low-Carbon-Footprint-2021-06-01-final.pdf",
+   "timestamp": "20210601205520",
+   "wayback_url": "https://web.archive.org/web/20210601205520id_/https://canadanickel.com/wp-content/uploads/2021/06/Canada-Nickel-Announces-Industry-Leading-Low-Carbon-Footprint-2021-06-01-final.pdf",
+   "bytes": 603485,
+   "title": "Canada-Nickel-Announces-Industry-Leading-Low-Carbon-Footprint-2021-06-01-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/06/Canada-Nickel-Announces-Industry-Leading-Low-Carbon-Footprint-2021-06-01-final.pdf?utm_source=RCKS+Master+Audience&utm_campaign=1263163d00-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-1263163d00-161563162",
+   "timestamp": "20210602150420",
+   "wayback_url": "https://web.archive.org/web/20210602150420id_/https://canadanickel.com/wp-content/uploads/2021/06/Canada-Nickel-Announces-Industry-Leading-Low-Carbon-Footprint-2021-06-01-final.pdf?utm_source=RCKS+Master+Audience&utm_campaign=1263163d00-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-1263163d00-161563162",
+   "bytes": 603585,
+   "title": "Canada-Nickel-Announces-Industry-Leading-Low-Carbon-Footprint-2021-06-01-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/06/Canada-Nickel-Announces-Main-Zone-Extension-2021-06-23-FINAL.pdf",
+   "timestamp": "20210623134249",
+   "wayback_url": "https://web.archive.org/web/20210623134249id_/https://canadanickel.com/wp-content/uploads/2021/06/Canada-Nickel-Announces-Main-Zone-Extension-2021-06-23-FINAL.pdf",
+   "bytes": 1432796,
+   "title": "Canada-Nickel-Announces-Main-Zone-Extension-2021-06-23-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/06/Canada-Nickel-Announces-Nesbitt-Drill-Results-2021-06-29-FINAL.pdf",
+   "timestamp": "20210629123253",
+   "wayback_url": "https://web.archive.org/web/20210629123253id_/https://canadanickel.com/wp-content/uploads/2021/06/Canada-Nickel-Announces-Nesbitt-Drill-Results-2021-06-29-FINAL.pdf",
+   "bytes": 1456085,
+   "title": "Canada-Nickel-Announces-Nesbitt-Drill-Results-2021-06-29-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/06/Canada-Nickel-Announces-Nesbitt-Drill-Results-2021-06-29-FINAL.pdf?utm_source=RCKS+Master+Audience&amp;utm_campaign=1af947c8fa-EMAIL_CAMPAIGN_2018_04_10_COPY_01&amp;utm_medium=email&amp;utm_term=0_2d6e7dc0d4-1af947c8fa-161572758",
+   "timestamp": "20210630163219",
+   "wayback_url": "https://web.archive.org/web/20210630163219id_/https://canadanickel.com/wp-content/uploads/2021/06/Canada-Nickel-Announces-Nesbitt-Drill-Results-2021-06-29-FINAL.pdf?utm_source=RCKS+Master+Audience&amp;utm_campaign=1af947c8fa-EMAIL_CAMPAIGN_2018_04_10_COPY_01&amp;utm_medium=email&amp;utm_term=0_2d6e7dc0d4-1af947c8fa-161572758",
+   "bytes": 1456168,
+   "title": "Canada-Nickel-Announces-Nesbitt-Drill-Results-2021-06-29-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/06/Canada-Nickel-Investor-presentation-2021-06-23-vF.pdf",
+   "timestamp": "20210624163125",
+   "wayback_url": "https://web.archive.org/web/20210624163125id_/https://canadanickel.com/wp-content/uploads/2021/06/Canada-Nickel-Investor-presentation-2021-06-23-vF.pdf",
+   "bytes": 2006010,
+   "title": "Canada-Nickel-Investor-presentation-2021-06-23-vF.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/06/CNC-04-30-2021-interim-financial-statements-FINAL.pdf",
+   "timestamp": "20210925151749",
+   "wayback_url": "https://web.archive.org/web/20210925151749id_/https://canadanickel.com/wp-content/uploads/2021/06/CNC-04-30-2021-interim-financial-statements-FINAL.pdf",
+   "bytes": 307457,
+   "title": "CNC-04-30-2021-interim-financial-statements-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/07/2021-07-14-Canada-Nickel-Announces-Nesbitt-Drill-Results-FINAL.pdf",
+   "timestamp": "20210714131943",
+   "wayback_url": "https://web.archive.org/web/20210714131943id_/https://canadanickel.com/wp-content/uploads/2021/07/2021-07-14-Canada-Nickel-Announces-Nesbitt-Drill-Results-FINAL.pdf",
+   "bytes": 1066311,
+   "title": "2021-07-14-Canada-Nickel-Announces-Nesbitt-Drill-Results-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/07/2021-07-26-CNC-Participates-in-Virtual-Conference-FINAL.pdf",
+   "timestamp": "20210726173112",
+   "wayback_url": "https://web.archive.org/web/20210726173112id_/https://canadanickel.com/wp-content/uploads/2021/07/2021-07-26-CNC-Participates-in-Virtual-Conference-FINAL.pdf",
+   "bytes": 198832,
+   "title": "2021-07-26-CNC-Participates-in-Virtual-Conference-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/07/2021-07-27-Canada-Nickel-Closes-Bought-Deal-PP-FT_Shares-FINAL.pdf",
+   "timestamp": "20210925152749",
+   "wayback_url": "https://web.archive.org/web/20210925152749id_/https://canadanickel.com/wp-content/uploads/2021/07/2021-07-27-Canada-Nickel-Closes-Bought-Deal-PP-FT_Shares-FINAL.pdf",
+   "bytes": 189956,
+   "title": "2021-07-27-Canada-Nickel-Closes-Bought-Deal-PP-FT_Shares-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/07/Canada-Nickel-Bought-Deal-Private-Placement-Funding-July-6-FINAL.pdf",
+   "timestamp": "20210707124428",
+   "wayback_url": "https://web.archive.org/web/20210707124428id_/https://canadanickel.com/wp-content/uploads/2021/07/Canada-Nickel-Bought-Deal-Private-Placement-Funding-July-6-FINAL.pdf",
+   "bytes": 180946,
+   "title": "Canada-Nickel-Bought-Deal-Private-Placement-Funding-July-6-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/07/Canada-Nickel-Files-PEA-for-Crawford-FINAL.pdf",
+   "timestamp": "20210712150758",
+   "wayback_url": "https://web.archive.org/web/20210712150758id_/https://canadanickel.com/wp-content/uploads/2021/07/Canada-Nickel-Files-PEA-for-Crawford-FINAL.pdf",
+   "bytes": 285949,
+   "title": "Canada-Nickel-Files-PEA-for-Crawford-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/07/Canada-Nickel-Investor-presentation-FINAL-2021-07-15.pdf",
+   "timestamp": "20210715171434",
+   "wayback_url": "https://web.archive.org/web/20210715171434id_/https://canadanickel.com/wp-content/uploads/2021/07/Canada-Nickel-Investor-presentation-FINAL-2021-07-15.pdf",
+   "bytes": 3155853,
+   "title": "Canada-Nickel-Investor-presentation-FINAL-2021-07-15.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/07/Canada-Nickel-Investor-Presentation-July-28-2021-v3-1.pdf",
+   "timestamp": "20211203014706",
+   "wayback_url": "https://web.archive.org/web/20211203014706id_/https://canadanickel.com/wp-content/uploads/2021/07/Canada-Nickel-Investor-Presentation-July-28-2021-v3-1.pdf",
+   "bytes": 966188,
+   "title": "Canada-Nickel-Investor-Presentation-July-28-2021-v3-1.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/07/Crawford-43-101-Technical-Report-and-PEA-May-21-2021-1.pdf",
+   "timestamp": "20211203012343",
+   "wayback_url": "https://web.archive.org/web/20211203012343id_/https://canadanickel.com/wp-content/uploads/2021/07/Crawford-43-101-Technical-Report-and-PEA-May-21-2021-1.pdf",
+   "bytes": 977744,
+   "title": "Crawford-43-101-Technical-Report-and-PEA-May-21-2021-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/07/Crawford-43-101-Technical-Report-and-PEA-May-21-2021.pdf",
+   "timestamp": "20211104210029",
+   "wayback_url": "https://web.archive.org/web/20211104210029id_/https://canadanickel.com/wp-content/uploads/2021/07/Crawford-43-101-Technical-Report-and-PEA-May-21-2021.pdf",
+   "bytes": 16883634,
+   "title": "Crawford-43-101-Technical-Report-and-PEA-May-21-2021.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/08/Canada-Nickel-Investor-Presentation-FINAL-August-25-2021.pdf",
+   "timestamp": "20211203020523",
+   "wayback_url": "https://web.archive.org/web/20211203020523id_/https://canadanickel.com/wp-content/uploads/2021/08/Canada-Nickel-Investor-Presentation-FINAL-August-25-2021.pdf",
+   "bytes": 922263,
+   "title": "Canada-Nickel-Investor-Presentation-FINAL-August-25-2021.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/09/2021-07-31-Q3-MDA-CNC-final.pdf",
+   "timestamp": "20211203000906",
+   "wayback_url": "https://web.archive.org/web/20211203000906id_/https://canadanickel.com/wp-content/uploads/2021/09/2021-07-31-Q3-MDA-CNC-final.pdf",
+   "bytes": 334807,
+   "title": "2021-07-31-Q3-MDA-CNC-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/09/2021-09-07-CNC-Listing-om-OTCQX_FINAL.pdf",
+   "timestamp": "20210925151539",
+   "wayback_url": "https://web.archive.org/web/20210925151539id_/https://canadanickel.com/wp-content/uploads/2021/09/2021-09-07-CNC-Listing-om-OTCQX_FINAL.pdf",
+   "bytes": 191584,
+   "title": "2021-09-07-CNC-Listing-om-OTCQX_FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/09/Canada-Nickel-Investor-Presentation-September-10-2021.pdf",
+   "timestamp": "20210914134952",
+   "wayback_url": "https://web.archive.org/web/20210914134952id_/https://canadanickel.com/wp-content/uploads/2021/09/Canada-Nickel-Investor-Presentation-September-10-2021.pdf",
+   "bytes": 2147415,
+   "title": "Canada-Nickel-Investor-Presentation-September-10-2021.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/09/Canada-Nickel-Investor-Presentation-September-15-2021-vFinal.pdf",
+   "timestamp": "20211203013033",
+   "wayback_url": "https://web.archive.org/web/20211203013033id_/https://canadanickel.com/wp-content/uploads/2021/09/Canada-Nickel-Investor-Presentation-September-15-2021-vFinal.pdf",
+   "bytes": 972927,
+   "title": "Canada-Nickel-Investor-Presentation-September-15-2021-vFinal.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/09/Canada-Nickel-Investor-Presentation-September-21-2021-vF-1.pdf",
+   "timestamp": "20211203002819",
+   "wayback_url": "https://web.archive.org/web/20211203002819id_/https://canadanickel.com/wp-content/uploads/2021/09/Canada-Nickel-Investor-Presentation-September-21-2021-vF-1.pdf",
+   "bytes": 972424,
+   "title": "Canada-Nickel-Investor-Presentation-September-21-2021-vF-1.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/09/Canada-Nickel-Investor-Presentation-September-21-2021-vF.pdf",
+   "timestamp": "20220123143105",
+   "wayback_url": "https://web.archive.org/web/20220123143105id_/https://canadanickel.com/wp-content/uploads/2021/09/Canada-Nickel-Investor-Presentation-September-21-2021-vF.pdf",
+   "bytes": 972010,
+   "title": "Canada-Nickel-Investor-Presentation-September-21-2021-vF.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/09/CNC-07-31-2021-interim-financial-statements-FINAL.pdf",
+   "timestamp": "20211203012459",
+   "wayback_url": "https://web.archive.org/web/20211203012459id_/https://canadanickel.com/wp-content/uploads/2021/09/CNC-07-31-2021-interim-financial-statements-FINAL.pdf",
+   "bytes": 330401,
+   "title": "CNC-07-31-2021-interim-financial-statements-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/09/October-2021-Newsletter-1.pdf?",
+   "timestamp": "20220526013420",
+   "wayback_url": "https://web.archive.org/web/20220526013420id_/https://canadanickel.com/wp-content/uploads/2021/09/October-2021-Newsletter-1.pdf?",
+   "bytes": 1038258,
+   "title": "October-2021-Newsletter-1.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/10/2021-10-05-Canada-Nickel-Metallurgical-FINAL-v5.4.pdf",
+   "timestamp": "20211005131824",
+   "wayback_url": "https://web.archive.org/web/20211005131824id_/https://canadanickel.com/wp-content/uploads/2021/10/2021-10-05-Canada-Nickel-Metallurgical-FINAL-v5.4.pdf",
+   "bytes": 213986,
+   "title": "2021-10-05-Canada-Nickel-Metallurgical-FINAL-v5.4.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/10/2021-10-26-East-Zone-High-Grade-vFinal.pdf",
+   "timestamp": "20211026162751",
+   "wayback_url": "https://web.archive.org/web/20211026162751id_/https://canadanickel.com/wp-content/uploads/2021/10/2021-10-26-East-Zone-High-Grade-vFinal.pdf",
+   "bytes": 1713615,
+   "title": "2021-10-26-East-Zone-High-Grade-vFinal.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/10/2021-10-26-East-Zone-High-Grade-vFinal2.pdf",
+   "timestamp": "20211026225601",
+   "wayback_url": "https://web.archive.org/web/20211026225601id_/https://canadanickel.com/wp-content/uploads/2021/10/2021-10-26-East-Zone-High-Grade-vFinal2.pdf",
+   "bytes": 1576339,
+   "title": "2021-10-26-East-Zone-High-Grade-vFinal2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/10/Canada-Nickel-Investor-Presentation-October-14-2021-vF.pdf",
+   "timestamp": "20211203011413",
+   "wayback_url": "https://web.archive.org/web/20211203011413id_/https://canadanickel.com/wp-content/uploads/2021/10/Canada-Nickel-Investor-Presentation-October-14-2021-vF.pdf",
+   "bytes": 973688,
+   "title": "Canada-Nickel-Investor-Presentation-October-14-2021-vF.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/11/2021-11-10-Canada-Nickel-NetZero-Carbon-Sequestration-News-Release-v10-FINAL-1.pdf",
+   "timestamp": "20211111132015",
+   "wayback_url": "https://web.archive.org/web/20211111132015id_/https://canadanickel.com/wp-content/uploads/2021/11/2021-11-10-Canada-Nickel-NetZero-Carbon-Sequestration-News-Release-v10-FINAL-1.pdf",
+   "bytes": 265380,
+   "title": "2021-11-10-Canada-Nickel-NetZero-Carbon-Sequestration-News-Release-v10-FINAL-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/11/2021-11-10-Canada-Nickel-NetZero-Carbon-Sequestration-News-Release-v10-FINAL.pdf",
+   "timestamp": "20211110154132",
+   "wayback_url": "https://web.archive.org/web/20211110154132id_/https://canadanickel.com/wp-content/uploads/2021/11/2021-11-10-Canada-Nickel-NetZero-Carbon-Sequestration-News-Release-v10-FINAL.pdf",
+   "bytes": 265379,
+   "title": "2021-11-10-Canada-Nickel-NetZero-Carbon-Sequestration-News-Release-v10-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/11/2021-11-16-Canada-Nickel-Signs-Project-81-Purchase-Agmts-FINAL.pdf",
+   "timestamp": "20211116152450",
+   "wayback_url": "https://web.archive.org/web/20211116152450id_/https://canadanickel.com/wp-content/uploads/2021/11/2021-11-16-Canada-Nickel-Signs-Project-81-Purchase-Agmts-FINAL.pdf",
+   "bytes": 163219,
+   "title": "2021-11-16-Canada-Nickel-Signs-Project-81-Purchase-Agmts-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/11/2021-11-19-Canada-Nickel-Hosts-Conf-Call-FINAL.pdf",
+   "timestamp": "20211122000623",
+   "wayback_url": "https://web.archive.org/web/20211122000623id_/https://canadanickel.com/wp-content/uploads/2021/11/2021-11-19-Canada-Nickel-Hosts-Conf-Call-FINAL.pdf",
+   "bytes": 137754,
+   "title": "2021-11-19-Canada-Nickel-Hosts-Conf-Call-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/11/2021-11-22-District-Scale-News-Release-FINAL.pdf",
+   "timestamp": "20211122160840",
+   "wayback_url": "https://web.archive.org/web/20211122160840id_/https://canadanickel.com/wp-content/uploads/2021/11/2021-11-22-District-Scale-News-Release-FINAL.pdf",
+   "bytes": 2262923,
+   "title": "2021-11-22-District-Scale-News-Release-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/11/2021-11-24-Canada-Nickel-Participates-Scotiabank-Mining-Conf-FINAL.pdf",
+   "timestamp": "20211125003407",
+   "wayback_url": "https://web.archive.org/web/20211125003407id_/https://canadanickel.com/wp-content/uploads/2021/11/2021-11-24-Canada-Nickel-Participates-Scotiabank-Mining-Conf-FINAL.pdf",
+   "bytes": 130589,
+   "title": "2021-11-24-Canada-Nickel-Participates-Scotiabank-Mining-Conf-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/11/Canada-Nickel-Investor-Presentation-November-2021-Nov-25-2021.pdf",
+   "timestamp": "20211202203306",
+   "wayback_url": "https://web.archive.org/web/20211202203306id_/https://canadanickel.com/wp-content/uploads/2021/11/Canada-Nickel-Investor-Presentation-November-2021-Nov-25-2021.pdf",
+   "bytes": 2503734,
+   "title": "Canada-Nickel-Investor-Presentation-November-2021-Nov-25-2021.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/11/Canada-Nickel-Investor-Presentation-November-2021.pdf",
+   "timestamp": "20211104210139",
+   "wayback_url": "https://web.archive.org/web/20211104210139id_/https://canadanickel.com/wp-content/uploads/2021/11/Canada-Nickel-Investor-Presentation-November-2021.pdf",
+   "bytes": 3069627,
+   "title": "Canada-Nickel-Investor-Presentation-November-2021.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/12/2021-12-02-Canada-Nickel-SLG-Metallurgical-Improvements-FINAL-1.pdf",
+   "timestamp": "20211202191604",
+   "wayback_url": "https://web.archive.org/web/20211202191604id_/https://canadanickel.com/wp-content/uploads/2021/12/2021-12-02-Canada-Nickel-SLG-Metallurgical-Improvements-FINAL-1.pdf",
+   "bytes": 560935,
+   "title": "2021-12-02-Canada-Nickel-SLG-Metallurgical-Improvements-FINAL-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/12/2021-12-21-Canada-Nickel-Provides-Corporate-Update-FINAL.pdf",
+   "timestamp": "20211221142629",
+   "wayback_url": "https://web.archive.org/web/20211221142629id_/https://canadanickel.com/wp-content/uploads/2021/12/2021-12-21-Canada-Nickel-Provides-Corporate-Update-FINAL.pdf",
+   "bytes": 156108,
+   "title": "2021-12-21-Canada-Nickel-Provides-Corporate-Update-FINAL.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/12/Canada-Nickel-Investor-Presentation-Dec-15-2021-FINAL.pdf",
+   "timestamp": "20220702175750",
+   "wayback_url": "https://web.archive.org/web/20220702175750id_/https://canadanickel.com/wp-content/uploads/2021/12/Canada-Nickel-Investor-Presentation-Dec-15-2021-FINAL.pdf",
+   "bytes": 973573,
+   "title": "Canada-Nickel-Investor-Presentation-Dec-15-2021-FINAL.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2021/12/Canada-Nickel-Investor-Presentation-Dec-22-2021-FINAL.pdf",
+   "timestamp": "20220702164659",
+   "wayback_url": "https://web.archive.org/web/20220702164659id_/https://canadanickel.com/wp-content/uploads/2021/12/Canada-Nickel-Investor-Presentation-Dec-22-2021-FINAL.pdf",
+   "bytes": 973589,
+   "title": "Canada-Nickel-Investor-Presentation-Dec-22-2021-FINAL.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/01/2022-01-05-Canada-Nickel-Announces-Close-Auramet-FINAL.pdf",
+   "timestamp": "20220105213512",
+   "wayback_url": "https://web.archive.org/web/20220105213512id_/https://canadanickel.com/wp-content/uploads/2022/01/2022-01-05-Canada-Nickel-Announces-Close-Auramet-FINAL.pdf",
+   "bytes": 156011,
+   "title": "2022-01-05-Canada-Nickel-Announces-Close-Auramet-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/01/2022-01-05-Canada-Nickel-Announces-Close-Auramet-FINAL.pdf?utm_source=RCKS+Master+Audience&utm_campaign=0854661b52-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-0854661b52-161595118",
+   "timestamp": "20220106161201",
+   "wayback_url": "https://web.archive.org/web/20220106161201id_/https://canadanickel.com/wp-content/uploads/2022/01/2022-01-05-Canada-Nickel-Announces-Close-Auramet-FINAL.pdf?utm_source=RCKS+Master+Audience&utm_campaign=0854661b52-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-0854661b52-161595118",
+   "bytes": 156135,
+   "title": "2022-01-05-Canada-Nickel-Announces-Close-Auramet-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/01/2022-01-24-Regional-Drilling-Release-vF.pdf",
+   "timestamp": "20220125043254",
+   "wayback_url": "https://web.archive.org/web/20220125043254id_/https://canadanickel.com/wp-content/uploads/2022/01/2022-01-24-Regional-Drilling-Release-vF.pdf",
+   "bytes": 870414,
+   "title": "2022-01-24-Regional-Drilling-Release-vF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/01/Canada-Nickel-Investor-Presentation-FINAL-Jan-6-2021.pdf",
+   "timestamp": "20220118205830",
+   "wayback_url": "https://web.archive.org/web/20220118205830id_/https://canadanickel.com/wp-content/uploads/2022/01/Canada-Nickel-Investor-Presentation-FINAL-Jan-6-2021.pdf",
+   "bytes": 3184322,
+   "title": "Canada-Nickel-Investor-Presentation-FINAL-Jan-6-2021.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/02/2022-02-15-CNC-Metallurgy-and-Corporate-Update-vf.pdf",
+   "timestamp": "20220215122108",
+   "wayback_url": "https://web.archive.org/web/20220215122108id_/https://canadanickel.com/wp-content/uploads/2022/02/2022-02-15-CNC-Metallurgy-and-Corporate-Update-vf.pdf",
+   "bytes": 534454,
+   "title": "2022-02-15-CNC-Metallurgy-and-Corporate-Update-vf.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/02/2022-02-15-CNC-Metallurgy-and-Corporate-Update-vf.pdf?utm_source=RCKS+Master+Audience&utm_campaign=f14896983b-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-f14896983b-161595118",
+   "timestamp": "20220216195515",
+   "wayback_url": "https://web.archive.org/web/20220216195515id_/https://canadanickel.com/wp-content/uploads/2022/02/2022-02-15-CNC-Metallurgy-and-Corporate-Update-vf.pdf?utm_source=RCKS+Master+Audience&utm_campaign=f14896983b-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-f14896983b-161595118",
+   "bytes": 534623,
+   "title": "2022-02-15-CNC-Metallurgy-and-Corporate-Update-vf.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/02/Canada-Nickel-Company-Investor-Presentation-FINAL-February-2022.pdf",
+   "timestamp": "20220308171544",
+   "wayback_url": "https://web.archive.org/web/20220308171544id_/https://canadanickel.com/wp-content/uploads/2022/02/Canada-Nickel-Company-Investor-Presentation-FINAL-February-2022.pdf",
+   "bytes": 2040837,
+   "title": "Canada-Nickel-Company-Investor-Presentation-FINAL-February-2022.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/20210614_Timmins-Economic-Development-Corporation_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "timestamp": "20240812003204",
+   "wayback_url": "https://web.archive.org/web/20240812003204id_/https://canadanickel.com/wp-content/uploads/2022/03/20210614_Timmins-Economic-Development-Corporation_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "bytes": 993190,
+   "title": "20210614_Timmins-Economic-Development-Corporation_1st-Meeting-Report_Crawford-Projet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/20210615_Porcupine-Health-Unit_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "timestamp": "20240812003938",
+   "wayback_url": "https://web.archive.org/web/20240812003938id_/https://canadanickel.com/wp-content/uploads/2022/03/20210615_Porcupine-Health-Unit_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "bytes": 993343,
+   "title": "20210615_Porcupine-Health-Unit_1st-Meeting-Report_Crawford-Projet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/20210617_Friends-Porcupine-River-Watershed_1st-Meeting-Report_Crawford-Project.pdf?",
+   "timestamp": "20240902215634",
+   "wayback_url": "https://web.archive.org/web/20240902215634id_/https://canadanickel.com/wp-content/uploads/2022/03/20210617_Friends-Porcupine-River-Watershed_1st-Meeting-Report_Crawford-Project.pdf?",
+   "bytes": 2437222,
+   "title": "20210617_Friends-Porcupine-River-Watershed_1st-Meeting-Report_Crawford-Project.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/20210617_Northern-College_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "timestamp": "20240812003059",
+   "wayback_url": "https://web.archive.org/web/20240812003059id_/https://canadanickel.com/wp-content/uploads/2022/03/20210617_Northern-College_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "bytes": 992862,
+   "title": "20210617_Northern-College_1st-Meeting-Report_Crawford-Projet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/20210618_Cochrane-District-Social-Services-Administration-Board_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "timestamp": "20240812002114",
+   "wayback_url": "https://web.archive.org/web/20240812002114id_/https://canadanickel.com/wp-content/uploads/2022/03/20210618_Cochrane-District-Social-Services-Administration-Board_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "bytes": 993397,
+   "title": "20210618_Cochrane-District-Social-Services-Administration-Board_1st-Meeting-Report_Crawford-Projet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/20210621_Timmins-Chamber-of-Commerce_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "timestamp": "20240812010226",
+   "wayback_url": "https://web.archive.org/web/20240812010226id_/https://canadanickel.com/wp-content/uploads/2022/03/20210621_Timmins-Chamber-of-Commerce_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "bytes": 993272,
+   "title": "20210621_Timmins-Chamber-of-Commerce_1st-Meeting-Report_Crawford-Projet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/20210622_Timmins-Community-Development-Committee_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "timestamp": "20240902180745",
+   "wayback_url": "https://web.archive.org/web/20240902180745id_/https://canadanickel.com/wp-content/uploads/2022/03/20210622_Timmins-Community-Development-Committee_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "bytes": 2386689,
+   "title": "20210622_Timmins-Community-Development-Committee_1st-Meeting-Report_Crawford-Projet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/20210622_Town-of-Cochrane_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "timestamp": "20240812012842",
+   "wayback_url": "https://web.archive.org/web/20240812012842id_/https://canadanickel.com/wp-content/uploads/2022/03/20210622_Town-of-Cochrane_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "bytes": 993142,
+   "title": "20210622_Town-of-Cochrane_1st-Meeting-Report_Crawford-Projet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/20210624_Far-Northeast-Training-Board_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "timestamp": "20240903000400",
+   "wayback_url": "https://web.archive.org/web/20240903000400id_/https://canadanickel.com/wp-content/uploads/2022/03/20210624_Far-Northeast-Training-Board_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "bytes": 2390984,
+   "title": "20210624_Far-Northeast-Training-Board_1st-Meeting-Report_Crawford-Projet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/20210624_Timmins-Snowmobile-Club_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "timestamp": "20240903150423",
+   "wayback_url": "https://web.archive.org/web/20240903150423id_/https://canadanickel.com/wp-content/uploads/2022/03/20210624_Timmins-Snowmobile-Club_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "bytes": 2394720,
+   "title": "20210624_Timmins-Snowmobile-Club_1st-Meeting-Report_Crawford-Projet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/20210625_City-of-Timmins_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "timestamp": "20240812000428",
+   "wayback_url": "https://web.archive.org/web/20240812000428id_/https://canadanickel.com/wp-content/uploads/2022/03/20210625_City-of-Timmins_1st-Meeting-Report_Crawford-Projet.pdf?",
+   "bytes": 993306,
+   "title": "20210625_City-of-Timmins_1st-Meeting-Report_Crawford-Projet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/20210722_Town-of-Iroquois-Falls-Meeting-Report_Crawford-Projet.pdf?",
+   "timestamp": "20240812015134",
+   "wayback_url": "https://web.archive.org/web/20240812015134id_/https://canadanickel.com/wp-content/uploads/2022/03/20210722_Town-of-Iroquois-Falls-Meeting-Report_Crawford-Projet.pdf?",
+   "bytes": 993257,
+   "title": "20210722_Town-of-Iroquois-Falls-Meeting-Report_Crawford-Projet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/20210908_City-of-Timmins-TEDC_2nd-Meeting-Report_Crawford-Projet.pdf?",
+   "timestamp": "20240812001823",
+   "wayback_url": "https://web.archive.org/web/20240812001823id_/https://canadanickel.com/wp-content/uploads/2022/03/20210908_City-of-Timmins-TEDC_2nd-Meeting-Report_Crawford-Projet.pdf?",
+   "bytes": 1012180,
+   "title": "20210908_City-of-Timmins-TEDC_2nd-Meeting-Report_Crawford-Projet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/2022-03-08-CNC-CPS-vF-1.pdf",
+   "timestamp": "20220309142946",
+   "wayback_url": "https://web.archive.org/web/20220309142946id_/https://canadanickel.com/wp-content/uploads/2022/03/2022-03-08-CNC-CPS-vF-1.pdf",
+   "bytes": 194317,
+   "title": "2022-03-08-CNC-CPS-vF-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/2022-03-09-CNC-Upsize-of-Bought-Deal-1.pdf",
+   "timestamp": "20220310145949",
+   "wayback_url": "https://web.archive.org/web/20220310145949id_/https://canadanickel.com/wp-content/uploads/2022/03/2022-03-09-CNC-Upsize-of-Bought-Deal-1.pdf",
+   "bytes": 190940,
+   "title": "2022-03-09-CNC-Upsize-of-Bought-Deal-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/Canada-Nickel-Feedback-Survey-Results-_-Summer-2021-1.pdf",
+   "timestamp": "20220418195213",
+   "wayback_url": "https://web.archive.org/web/20220418195213id_/https://canadanickel.com/wp-content/uploads/2022/03/Canada-Nickel-Feedback-Survey-Results-_-Summer-2021-1.pdf",
+   "bytes": 268847,
+   "title": "Canada-Nickel-Feedback-Survey-Results-_-Summer-2021-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/03/Impact-Assessment-and-Project-Engagement-101-1.pdf",
+   "timestamp": "20220418195203",
+   "wayback_url": "https://web.archive.org/web/20220418195203id_/https://canadanickel.com/wp-content/uploads/2022/03/Impact-Assessment-and-Project-Engagement-101-1.pdf",
+   "bytes": 219580,
+   "title": "Impact-Assessment-and-Project-Engagement-101-1.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/20210908_Town-of-Cochrane_2nd-Meeting-Report_Crawford-Projet.pdf?",
+   "timestamp": "20240812014038",
+   "wayback_url": "https://web.archive.org/web/20240812014038id_/https://canadanickel.com/wp-content/uploads/2022/04/20210908_Town-of-Cochrane_2nd-Meeting-Report_Crawford-Projet.pdf?",
+   "bytes": 1011937,
+   "title": "20210908_Town-of-Cochrane_2nd-Meeting-Report_Crawford-Projet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/20210909_Friends-Porcupine-River-Watershed_2nd-Meeting-Report_Crawford-Projet.pdf?",
+   "timestamp": "20240812004158",
+   "wayback_url": "https://web.archive.org/web/20240812004158id_/https://canadanickel.com/wp-content/uploads/2022/04/20210909_Friends-Porcupine-River-Watershed_2nd-Meeting-Report_Crawford-Projet.pdf?",
+   "bytes": 1011839,
+   "title": "20210909_Friends-Porcupine-River-Watershed_2nd-Meeting-Report_Crawford-Projet.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/20210910_Cochrane-Snowmobile-Club_1st-Meeting-Report_Crawford-Project.pdf?",
+   "timestamp": "20240812011530",
+   "wayback_url": "https://web.archive.org/web/20240812011530id_/https://canadanickel.com/wp-content/uploads/2022/04/20210910_Cochrane-Snowmobile-Club_1st-Meeting-Report_Crawford-Project.pdf?",
+   "bytes": 1012286,
+   "title": "20210910_Cochrane-Snowmobile-Club_1st-Meeting-Report_Crawford-Project.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/20210910_Northern-College_2nd-Meeting-Report_Crawford-Project.pdf?",
+   "timestamp": "20240812004252",
+   "wayback_url": "https://web.archive.org/web/20240812004252id_/https://canadanickel.com/wp-content/uploads/2022/04/20210910_Northern-College_2nd-Meeting-Report_Crawford-Project.pdf?",
+   "bytes": 1012035,
+   "title": "20210910_Northern-College_2nd-Meeting-Report_Crawford-Project.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/20210914_Porcupine-Health-Unit_2nd-Meeting-Report_Crawford-Project.pdf?",
+   "timestamp": "20240812001210",
+   "wayback_url": "https://web.archive.org/web/20240812001210id_/https://canadanickel.com/wp-content/uploads/2022/04/20210914_Porcupine-Health-Unit_2nd-Meeting-Report_Crawford-Project.pdf?",
+   "bytes": 1012038,
+   "title": "20210914_Porcupine-Health-Unit_2nd-Meeting-Report_Crawford-Project.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/20210914_Timmins-Chamber-of-Commerce_2nd-Meeting-Report_Crawford-Project.pdf?",
+   "timestamp": "20240901063424",
+   "wayback_url": "https://web.archive.org/web/20240901063424id_/https://canadanickel.com/wp-content/uploads/2022/04/20210914_Timmins-Chamber-of-Commerce_2nd-Meeting-Report_Crawford-Project.pdf?",
+   "bytes": 3443435,
+   "title": "20210914_Timmins-Chamber-of-Commerce_2nd-Meeting-Report_Crawford-Project.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/20210915_Far-Northeast-Training-Board-NORCAT_2nd-Meeting-Report_Crawford-Project.pdf?",
+   "timestamp": "20240901065559",
+   "wayback_url": "https://web.archive.org/web/20240901065559id_/https://canadanickel.com/wp-content/uploads/2022/04/20210915_Far-Northeast-Training-Board-NORCAT_2nd-Meeting-Report_Crawford-Project.pdf?",
+   "bytes": 3441419,
+   "title": "20210915_Far-Northeast-Training-Board-NORCAT_2nd-Meeting-Report_Crawford-Project.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/20210920_Cochrane-District-Social-Services-Administration-Board-Cochrane-District-Social-Planning-Council_2nd-Meeting-Report.pdf?",
+   "timestamp": "20240812014813",
+   "wayback_url": "https://web.archive.org/web/20240812014813id_/https://canadanickel.com/wp-content/uploads/2022/04/20210920_Cochrane-District-Social-Services-Administration-Board-Cochrane-District-Social-Planning-Council_2nd-Meeting-Report.pdf?",
+   "bytes": 1011980,
+   "title": "20210920_Cochrane-District-Social-Services-Administration-Board-Cochrane-District-Social-Planning-Council_2nd-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/20210921_Town-of-Iroquois-Falls-Meeting-Report_2nd-Meeting_Crawford-Project.pdf?",
+   "timestamp": "20240812014006",
+   "wayback_url": "https://web.archive.org/web/20240812014006id_/https://canadanickel.com/wp-content/uploads/2022/04/20210921_Town-of-Iroquois-Falls-Meeting-Report_2nd-Meeting_Crawford-Project.pdf?",
+   "bytes": 1012059,
+   "title": "20210921_Town-of-Iroquois-Falls-Meeting-Report_2nd-Meeting_Crawford-Project.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/20210921_Workplace-Safety-North_1st-Meeting-Report_Crawford-Project.pdf?",
+   "timestamp": "20240812004713",
+   "wayback_url": "https://web.archive.org/web/20240812004713id_/https://canadanickel.com/wp-content/uploads/2022/04/20210921_Workplace-Safety-North_1st-Meeting-Report_Crawford-Project.pdf?",
+   "bytes": 1011962,
+   "title": "20210921_Workplace-Safety-North_1st-Meeting-Report_Crawford-Project.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/20210923_Abitibi-Institute_1st-Meeting-Report_Crawford-Project.pdf?",
+   "timestamp": "20240812010357",
+   "wayback_url": "https://web.archive.org/web/20240812010357id_/https://canadanickel.com/wp-content/uploads/2022/04/20210923_Abitibi-Institute_1st-Meeting-Report_Crawford-Project.pdf?",
+   "bytes": 1012107,
+   "title": "20210923_Abitibi-Institute_1st-Meeting-Report_Crawford-Project.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/20210929_Living-Space-Timmins_1st-Meeting-Report_Crawford-Project.pdf?",
+   "timestamp": "20240902040535",
+   "wayback_url": "https://web.archive.org/web/20240902040535id_/https://canadanickel.com/wp-content/uploads/2022/04/20210929_Living-Space-Timmins_1st-Meeting-Report_Crawford-Project.pdf?",
+   "bytes": 3447288,
+   "title": "20210929_Living-Space-Timmins_1st-Meeting-Report_Crawford-Project.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/20211014_Local-Citizens-Committee_1stMeetingReport_Crawford-Project.pdf?",
+   "timestamp": "20240812004346",
+   "wayback_url": "https://web.archive.org/web/20240812004346id_/https://canadanickel.com/wp-content/uploads/2022/04/20211014_Local-Citizens-Committee_1stMeetingReport_Crawford-Project.pdf?",
+   "bytes": 251044,
+   "title": "20211014_Local-Citizens-Committee_1stMeetingReport_Crawford-Project.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/2022-04-04-CNC-Infill-Drilling-Press-Release_vF.pdf",
+   "timestamp": "20220404131932",
+   "wayback_url": "https://web.archive.org/web/20220404131932id_/https://canadanickel.com/wp-content/uploads/2022/04/2022-04-04-CNC-Infill-Drilling-Press-Release_vF.pdf",
+   "bytes": 1199692,
+   "title": "2022-04-04-CNC-Infill-Drilling-Press-Release_vF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/2022-04-20_Canada-Nickel_AGM-Results.pdf",
+   "timestamp": "20220420204050",
+   "wayback_url": "https://web.archive.org/web/20220420204050id_/https://canadanickel.com/wp-content/uploads/2022/04/2022-04-20_Canada-Nickel_AGM-Results.pdf",
+   "bytes": 142164,
+   "title": "2022-04-20_Canada-Nickel_AGM-Results.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/Canada-Nickel-Company-Fiscal-Year-2021-ESTMA-report.pdf",
+   "timestamp": "20221204223858",
+   "wayback_url": "https://web.archive.org/web/20221204223858id_/https://canadanickel.com/wp-content/uploads/2022/04/Canada-Nickel-Company-Fiscal-Year-2021-ESTMA-report.pdf",
+   "bytes": 126991,
+   "title": "Canada-Nickel-Company-Fiscal-Year-2021-ESTMA-report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/Canada-Nickel-Company-Investor-Presentation-FINAL-April-2022-1.pdf",
+   "timestamp": "20240621050326",
+   "wayback_url": "https://web.archive.org/web/20240621050326id_/https://canadanickel.com/wp-content/uploads/2022/04/Canada-Nickel-Company-Investor-Presentation-FINAL-April-2022-1.pdf",
+   "bytes": 1888346,
+   "title": "Canada-Nickel-Company-Investor-Presentation-FINAL-April-2022-1.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/Canada-Nickel-Initial-Project-Description-Draft-Summary.pdf",
+   "timestamp": "20220526015319",
+   "wayback_url": "https://web.archive.org/web/20220526015319id_/https://canadanickel.com/wp-content/uploads/2022/04/Canada-Nickel-Initial-Project-Description-Draft-Summary.pdf",
+   "bytes": 1017726,
+   "title": "Canada-Nickel-Initial-Project-Description-Draft-Summary.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/CNC-1-31-2022-Q1-Financial-Statements-FINAL.pdf",
+   "timestamp": "20240620193217",
+   "wayback_url": "https://web.archive.org/web/20240620193217id_/https://canadanickel.com/wp-content/uploads/2022/04/CNC-1-31-2022-Q1-Financial-Statements-FINAL.pdf",
+   "bytes": 285924,
+   "title": "CNC-1-31-2022-Q1-Financial-Statements-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/CNC-News-Release-re-Closing-of-Offering-April-5-2022-1.pdf",
+   "timestamp": "20220430064214",
+   "wayback_url": "https://web.archive.org/web/20220430064214id_/https://canadanickel.com/wp-content/uploads/2022/04/CNC-News-Release-re-Closing-of-Offering-April-5-2022-1.pdf",
+   "bytes": 185044,
+   "title": "CNC-News-Release-re-Closing-of-Offering-April-5-2022-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/CNC-News-Release-re-Closing-of-Offering-April-5-2022.pdf",
+   "timestamp": "20220405172829",
+   "wayback_url": "https://web.archive.org/web/20220405172829id_/https://canadanickel.com/wp-content/uploads/2022/04/CNC-News-Release-re-Closing-of-Offering-April-5-2022.pdf",
+   "bytes": 185102,
+   "title": "CNC-News-Release-re-Closing-of-Offering-April-5-2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/Community-Newsletter-December-2021.pdf?",
+   "timestamp": "20220526012518",
+   "wayback_url": "https://web.archive.org/web/20220526012518id_/https://canadanickel.com/wp-content/uploads/2022/04/Community-Newsletter-December-2021.pdf?",
+   "bytes": 1031890,
+   "title": "Community-Newsletter-December-2021.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/Contributions-and-Procurement-Committee_1st-meeting_January-2022.pdf",
+   "timestamp": "20220418195233",
+   "wayback_url": "https://web.archive.org/web/20220418195233id_/https://canadanickel.com/wp-content/uploads/2022/04/Contributions-and-Procurement-Committee_1st-meeting_January-2022.pdf",
+   "bytes": 501363,
+   "title": "Contributions-and-Procurement-Committee_1st-meeting_January-2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/Impact-Assessment-and-Project-Engagement-101-2.pdf",
+   "timestamp": "20220526025836",
+   "wayback_url": "https://web.archive.org/web/20220526025836id_/https://canadanickel.com/wp-content/uploads/2022/04/Impact-Assessment-and-Project-Engagement-101-2.pdf",
+   "bytes": 219811,
+   "title": "Impact-Assessment-and-Project-Engagement-101-2.pdf",
+   "type": "engagement",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/04/Q1-2022-Canada-Nickel-Interim-MDA-FINAL.pdf",
+   "timestamp": "20240620193635",
+   "wayback_url": "https://web.archive.org/web/20240620193635id_/https://canadanickel.com/wp-content/uploads/2022/04/Q1-2022-Canada-Nickel-Interim-MDA-FINAL.pdf",
+   "bytes": 282219,
+   "title": "Q1-2022-Canada-Nickel-Interim-MDA-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/05/05_03_2022_CCPC_Proposed-Charter-Document_Community-Contributions-Commitee.pdf",
+   "timestamp": "20220526025754",
+   "wayback_url": "https://web.archive.org/web/20220526025754id_/https://canadanickel.com/wp-content/uploads/2022/05/05_03_2022_CCPC_Proposed-Charter-Document_Community-Contributions-Commitee.pdf",
+   "bytes": 196094,
+   "title": "05_03_2022_CCPC_Proposed-Charter-Document_Community-Contributions-Commitee.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/05/2022-05-10-CNC_Regional-Drilling-Release-v12.pdf",
+   "timestamp": "20220510140853",
+   "wayback_url": "https://web.archive.org/web/20220510140853id_/https://canadanickel.com/wp-content/uploads/2022/05/2022-05-10-CNC_Regional-Drilling-Release-v12.pdf",
+   "bytes": 1107258,
+   "title": "2022-05-10-CNC_Regional-Drilling-Release-v12.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/05/2022-05-10-CNC_Regional-Drilling-Release-v12.pdf?utm_source=RCKS+Master+Audience&utm_campaign=1769f6c132-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-1769f6c132-161595118",
+   "timestamp": "20220511200822",
+   "wayback_url": "https://web.archive.org/web/20220511200822id_/https://canadanickel.com/wp-content/uploads/2022/05/2022-05-10-CNC_Regional-Drilling-Release-v12.pdf?utm_source=RCKS+Master+Audience&utm_campaign=1769f6c132-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-1769f6c132-161595118",
+   "bytes": 1107312,
+   "title": "2022-05-10-CNC_Regional-Drilling-Release-v12.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/05/2022-05-10-Regional-Drilling-Release-v13.pdf",
+   "timestamp": "20220526004841",
+   "wayback_url": "https://web.archive.org/web/20220526004841id_/https://canadanickel.com/wp-content/uploads/2022/05/2022-05-10-Regional-Drilling-Release-v13.pdf",
+   "bytes": 989428,
+   "title": "2022-05-10-Regional-Drilling-Release-v13.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/05/2022-05-12_CNC_IA-Release_Final.pdf",
+   "timestamp": "20220512131812",
+   "wayback_url": "https://web.archive.org/web/20220512131812id_/https://canadanickel.com/wp-content/uploads/2022/05/2022-05-12_CNC_IA-Release_Final.pdf",
+   "bytes": 139999,
+   "title": "2022-05-12_CNC_IA-Release_Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/05/2022-05-12_CNC_IA-Release_Final.pdf?utm_source=RCKS+Master+Audience&utm_campaign=aa1fcb1b0d-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-aa1fcb1b0d-161595118",
+   "timestamp": "20220513215830",
+   "wayback_url": "https://web.archive.org/web/20220513215830id_/https://canadanickel.com/wp-content/uploads/2022/05/2022-05-12_CNC_IA-Release_Final.pdf?utm_source=RCKS+Master+Audience&utm_campaign=aa1fcb1b0d-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-aa1fcb1b0d-161595118",
+   "bytes": 140199,
+   "title": "2022-05-12_CNC_IA-Release_Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/05/Canada-Nickel-Initial-Project-Description-Presentation-_-May-2022.pdf",
+   "timestamp": "20220702170959",
+   "wayback_url": "https://web.archive.org/web/20220702170959id_/https://canadanickel.com/wp-content/uploads/2022/05/Canada-Nickel-Initial-Project-Description-Presentation-_-May-2022.pdf",
+   "bytes": 1033252,
+   "title": "Canada-Nickel-Initial-Project-Description-Presentation-_-May-2022.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/05/Meeting-report-2_CCP-Committee_03172022.pdf",
+   "timestamp": "20220526020210",
+   "wayback_url": "https://web.archive.org/web/20220526020210id_/https://canadanickel.com/wp-content/uploads/2022/05/Meeting-report-2_CCP-Committee_03172022.pdf",
+   "bytes": 272786,
+   "title": "Meeting-report-2_CCP-Committee_03172022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/06/2022-06-07-New-Acquisitions.pdf",
+   "timestamp": "20220609052613",
+   "wayback_url": "https://web.archive.org/web/20220609052613id_/https://canadanickel.com/wp-content/uploads/2022/06/2022-06-07-New-Acquisitions.pdf",
+   "bytes": 610459,
+   "title": "2022-06-07-New-Acquisitions.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/06/2022-06-27-Reid-vF.pdf",
+   "timestamp": "20220627132623",
+   "wayback_url": "https://web.archive.org/web/20220627132623id_/https://canadanickel.com/wp-content/uploads/2022/06/2022-06-27-Reid-vF.pdf",
+   "bytes": 361068,
+   "title": "2022-06-27-Reid-vF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/06/2022-06-27-Reid-vF.pdf?utm_source=RCKS+Master+Audience&utm_campaign=0d83b64a4d-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-0d83b64a4d-161595118",
+   "timestamp": "20220715001738",
+   "wayback_url": "https://web.archive.org/web/20220715001738id_/https://canadanickel.com/wp-content/uploads/2022/06/2022-06-27-Reid-vF.pdf?utm_source=RCKS+Master+Audience&utm_campaign=0d83b64a4d-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-0d83b64a4d-161595118",
+   "bytes": 361278,
+   "title": "2022-06-27-Reid-vF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/06/CNC-4-30-2022-Q2-financial-statements-final.pdf",
+   "timestamp": "20240620200004",
+   "wayback_url": "https://web.archive.org/web/20240620200004id_/https://canadanickel.com/wp-content/uploads/2022/06/CNC-4-30-2022-Q2-financial-statements-final.pdf",
+   "bytes": 307091,
+   "title": "CNC-4-30-2022-Q2-financial-statements-final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/06/CNC-Investor-Deck-June-2022-1.pdf",
+   "timestamp": "20220617201908",
+   "wayback_url": "https://web.archive.org/web/20220617201908id_/https://canadanickel.com/wp-content/uploads/2022/06/CNC-Investor-Deck-June-2022-1.pdf",
+   "bytes": 1386548,
+   "title": "CNC-Investor-Deck-June-2022-1.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/06/Community-Newsletter-June-2022.pdf?",
+   "timestamp": "20220809141306",
+   "wayback_url": "https://web.archive.org/web/20220809141306id_/https://canadanickel.com/wp-content/uploads/2022/06/Community-Newsletter-June-2022.pdf?",
+   "bytes": 1032420,
+   "title": "Community-Newsletter-June-2022.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/06/Newsletter_March2022.pdf?",
+   "timestamp": "20220809133854",
+   "wayback_url": "https://web.archive.org/web/20220809133854id_/https://canadanickel.com/wp-content/uploads/2022/06/Newsletter_March2022.pdf?",
+   "bytes": 1009432,
+   "title": "Newsletter_March2022.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/06/Q2-2022-Canada-Nickel-Interim-MDA-final.pdf",
+   "timestamp": "20240620154300",
+   "wayback_url": "https://web.archive.org/web/20240620154300id_/https://canadanickel.com/wp-content/uploads/2022/06/Q2-2022-Canada-Nickel-Interim-MDA-final.pdf",
+   "bytes": 273195,
+   "title": "Q2-2022-Canada-Nickel-Interim-MDA-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/04072022_SmoothRockFalls_Public-Meeting-Report_VF.pdf?",
+   "timestamp": "20240812004006",
+   "wayback_url": "https://web.archive.org/web/20240812004006id_/https://canadanickel.com/wp-content/uploads/2022/07/04072022_SmoothRockFalls_Public-Meeting-Report_VF.pdf?",
+   "bytes": 209616,
+   "title": "04072022_SmoothRockFalls_Public-Meeting-Report_VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05022022_Timmins-Chamber-of-Commerce_IPD-Meeting-Report.pdf?",
+   "timestamp": "20240925185230",
+   "wayback_url": "https://web.archive.org/web/20240925185230id_/https://canadanickel.com/wp-content/uploads/2022/07/05022022_Timmins-Chamber-of-Commerce_IPD-Meeting-Report.pdf?",
+   "bytes": 306371,
+   "title": "05022022_Timmins-Chamber-of-Commerce_IPD-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05032022_City-of-Timmins-TEDC_IPD-Meeting-Report.pdf?",
+   "timestamp": "20240812004740",
+   "wayback_url": "https://web.archive.org/web/20240812004740id_/https://canadanickel.com/wp-content/uploads/2022/07/05032022_City-of-Timmins-TEDC_IPD-Meeting-Report.pdf?",
+   "bytes": 251483,
+   "title": "05032022_City-of-Timmins-TEDC_IPD-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05032022_Town-of-Cochrane_IPD-Meeting-Report.pdf?",
+   "timestamp": "20240812015105",
+   "wayback_url": "https://web.archive.org/web/20240812015105id_/https://canadanickel.com/wp-content/uploads/2022/07/05032022_Town-of-Cochrane_IPD-Meeting-Report.pdf?",
+   "bytes": 270694,
+   "title": "05032022_Town-of-Cochrane_IPD-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05042022_Cochrane-Local-Citizens-Committee_IPD-Meeting-Report.pdf?",
+   "timestamp": "20240812000217",
+   "wayback_url": "https://web.archive.org/web/20240812000217id_/https://canadanickel.com/wp-content/uploads/2022/07/05042022_Cochrane-Local-Citizens-Committee_IPD-Meeting-Report.pdf?",
+   "bytes": 257175,
+   "title": "05042022_Cochrane-Local-Citizens-Committee_IPD-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05042022_Smooth-Rock-Falls_IPD-Meeting-Report.pdf?",
+   "timestamp": "20240812003909",
+   "wayback_url": "https://web.archive.org/web/20240812003909id_/https://canadanickel.com/wp-content/uploads/2022/07/05042022_Smooth-Rock-Falls_IPD-Meeting-Report.pdf?",
+   "bytes": 237473,
+   "title": "05042022_Smooth-Rock-Falls_IPD-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05102022_Cochrane-Board-of-Trade_IPD-Meeting-Report.pdf?",
+   "timestamp": "20240812011004",
+   "wayback_url": "https://web.archive.org/web/20240812011004id_/https://canadanickel.com/wp-content/uploads/2022/07/05102022_Cochrane-Board-of-Trade_IPD-Meeting-Report.pdf?",
+   "bytes": 238911,
+   "title": "05102022_Cochrane-Board-of-Trade_IPD-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05102022_FNETBKeepers-of-the-circle_IPD-Meeting-Report.pdf?",
+   "timestamp": "20240812015301",
+   "wayback_url": "https://web.archive.org/web/20240812015301id_/https://canadanickel.com/wp-content/uploads/2022/07/05102022_FNETBKeepers-of-the-circle_IPD-Meeting-Report.pdf?",
+   "bytes": 244044,
+   "title": "05102022_FNETBKeepers-of-the-circle_IPD-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05102022_TEDC-Mattagami-Source-Protection-Committee-_ArticRiders_IPD-Meeting-Report.pdf?",
+   "timestamp": "20240902074329",
+   "wayback_url": "https://web.archive.org/web/20240902074329id_/https://canadanickel.com/wp-content/uploads/2022/07/05102022_TEDC-Mattagami-Source-Protection-Committee-_ArticRiders_IPD-Meeting-Report.pdf?",
+   "bytes": 227783,
+   "title": "05102022_TEDC-Mattagami-Source-Protection-Committee-_ArticRiders_IPD-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05112022_Abitibi-Institute_IPD-Meeting-Report.pdf?",
+   "timestamp": "20240812004412",
+   "wayback_url": "https://web.archive.org/web/20240812004412id_/https://canadanickel.com/wp-content/uploads/2022/07/05112022_Abitibi-Institute_IPD-Meeting-Report.pdf?",
+   "bytes": 231541,
+   "title": "05112022_Abitibi-Institute_IPD-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05122022_CDSSAB-CDSPC_IPD-Meeting-Report.pdf?",
+   "timestamp": "20240812003026",
+   "wayback_url": "https://web.archive.org/web/20240812003026id_/https://canadanickel.com/wp-content/uploads/2022/07/05122022_CDSSAB-CDSPC_IPD-Meeting-Report.pdf?",
+   "bytes": 240692,
+   "title": "05122022_CDSSAB-CDSPC_IPD-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05122022_College-Boreal_IPD-Meeting-Report_DRAFT3.pdf?",
+   "timestamp": "20241006015040",
+   "wayback_url": "https://web.archive.org/web/20241006015040id_/https://canadanickel.com/wp-content/uploads/2022/07/05122022_College-Boreal_IPD-Meeting-Report_DRAFT3.pdf?",
+   "bytes": 238984,
+   "title": "05122022_College-Boreal_IPD-Meeting-Report_DRAFT3.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05132022_General-Public_IPD-Meeting-Report.pdf?",
+   "timestamp": "20240902163656",
+   "wayback_url": "https://web.archive.org/web/20240902163656id_/https://canadanickel.com/wp-content/uploads/2022/07/05132022_General-Public_IPD-Meeting-Report.pdf?",
+   "bytes": 226687,
+   "title": "05132022_General-Public_IPD-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05162022_General-Public2_IPD-Meeting-Report.pdf?",
+   "timestamp": "20240812012813",
+   "wayback_url": "https://web.archive.org/web/20240812012813id_/https://canadanickel.com/wp-content/uploads/2022/07/05162022_General-Public2_IPD-Meeting-Report.pdf?",
+   "bytes": 242895,
+   "title": "05162022_General-Public2_IPD-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05162022_NorthernCollege_IPD-Meeting-Report.pdf?",
+   "timestamp": "20240901070438",
+   "wayback_url": "https://web.archive.org/web/20240901070438id_/https://canadanickel.com/wp-content/uploads/2022/07/05162022_NorthernCollege_IPD-Meeting-Report.pdf?",
+   "bytes": 243142,
+   "title": "05162022_NorthernCollege_IPD-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/05202022_Porcupine-Heatlh-Unit_IPD-Meeting-Report.pdf?",
+   "timestamp": "20240812004556",
+   "wayback_url": "https://web.archive.org/web/20240812004556id_/https://canadanickel.com/wp-content/uploads/2022/07/05202022_Porcupine-Heatlh-Unit_IPD-Meeting-Report.pdf?",
+   "bytes": 275411,
+   "title": "05202022_Porcupine-Heatlh-Unit_IPD-Meeting-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/06012022_TimminsLCC_IPDMeetingReport_final.pdf?",
+   "timestamp": "20240812003238",
+   "wayback_url": "https://web.archive.org/web/20240812003238id_/https://canadanickel.com/wp-content/uploads/2022/07/06012022_TimminsLCC_IPDMeetingReport_final.pdf?",
+   "bytes": 231104,
+   "title": "06012022_TimminsLCC_IPDMeetingReport_final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/2022-07-06-New-Resource-vF2-1.pdf",
+   "timestamp": "20220807153501",
+   "wayback_url": "https://web.archive.org/web/20220807153501id_/https://canadanickel.com/wp-content/uploads/2022/07/2022-07-06-New-Resource-vF2-1.pdf",
+   "bytes": 572122,
+   "title": "2022-07-06-New-Resource-vF2-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/220719-In-Process-Carbonation-News-Release.pdf",
+   "timestamp": "20220720130522",
+   "wayback_url": "https://web.archive.org/web/20220720130522id_/https://canadanickel.com/wp-content/uploads/2022/07/220719-In-Process-Carbonation-News-Release.pdf",
+   "bytes": 539402,
+   "title": "220719-In-Process-Carbonation-News-Release.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/07/220719-In-Process-Carbonation-News-Release.pdf?utm_source=RCKS+Master+Audience&utm_campaign=45ae0c8240-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-45ae0c8240-161595118",
+   "timestamp": "20220721164607",
+   "wayback_url": "https://web.archive.org/web/20220721164607id_/https://canadanickel.com/wp-content/uploads/2022/07/220719-In-Process-Carbonation-News-Release.pdf?utm_source=RCKS+Master+Audience&utm_campaign=45ae0c8240-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-45ae0c8240-161595118",
+   "bytes": 539715,
+   "title": "220719-In-Process-Carbonation-News-Release.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/08/2022-08-08_Initiates-Federal-Permitting-Process-.pdf",
+   "timestamp": "20220809143357",
+   "wayback_url": "https://web.archive.org/web/20220809143357id_/https://canadanickel.com/wp-content/uploads/2022/08/2022-08-08_Initiates-Federal-Permitting-Process-.pdf",
+   "bytes": 179654,
+   "title": "2022-08-08_Initiates-Federal-Permitting-Process-.pdf",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/08/2022-08-08_Initiates-Federal-Permitting-Process.pdf",
+   "timestamp": "20220929163405",
+   "wayback_url": "https://web.archive.org/web/20220929163405id_/https://canadanickel.com/wp-content/uploads/2022/08/2022-08-08_Initiates-Federal-Permitting-Process.pdf",
+   "bytes": 181092,
+   "title": "2022-08-08_Initiates-Federal-Permitting-Process.pdf",
+   "type": "permit_approval",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/08/CNC-News-Release-re-Filing-of-Technical-Report-Aug-2022.pdf",
+   "timestamp": "20220929184131",
+   "wayback_url": "https://web.archive.org/web/20220929184131id_/https://canadanickel.com/wp-content/uploads/2022/08/CNC-News-Release-re-Filing-of-Technical-Report-Aug-2022.pdf",
+   "bytes": 193662,
+   "title": "CNC-News-Release-re-Filing-of-Technical-Report-Aug-2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/08/CNC_PressRelease_Deloro_vF.pdf",
+   "timestamp": "20220817134150",
+   "wayback_url": "https://web.archive.org/web/20220817134150id_/https://canadanickel.com/wp-content/uploads/2022/08/CNC_PressRelease_Deloro_vF.pdf",
+   "bytes": 890252,
+   "title": "CNC_PressRelease_Deloro_vF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/08/Crawford-43-101-Technical-Report-and-PEA-May-19-2022-1.pdf",
+   "timestamp": "20221017155147",
+   "wayback_url": "https://web.archive.org/web/20221017155147id_/https://canadanickel.com/wp-content/uploads/2022/08/Crawford-43-101-Technical-Report-and-PEA-May-19-2022-1.pdf",
+   "bytes": 23289393,
+   "title": "Crawford-43-101-Technical-Report-and-PEA-May-19-2022-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/08/Crawford-43-101-Technical-Report-and-PEA-May-19-2022.pdf",
+   "timestamp": "20221008094209",
+   "wayback_url": "https://web.archive.org/web/20221008094209id_/https://canadanickel.com/wp-content/uploads/2022/08/Crawford-43-101-Technical-Report-and-PEA-May-19-2022.pdf",
+   "bytes": 23285228,
+   "title": "Crawford-43-101-Technical-Report-and-PEA-May-19-2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/08/Crawford_IPD_FINAL-2.pdf",
+   "timestamp": "20220929183256",
+   "wayback_url": "https://web.archive.org/web/20220929183256id_/https://canadanickel.com/wp-content/uploads/2022/08/Crawford_IPD_FINAL-2.pdf",
+   "bytes": 1022305,
+   "title": "Crawford_IPD_FINAL-2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/08/CRAWFORD_IPD_SUMMARY_EN.pdf",
+   "timestamp": "20220929171957",
+   "wayback_url": "https://web.archive.org/web/20220929171957id_/https://canadanickel.com/wp-content/uploads/2022/08/CRAWFORD_IPD_SUMMARY_EN.pdf",
+   "bytes": 1015671,
+   "title": "CRAWFORD_IPD_SUMMARY_EN.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/08/July-2022-interim-presentation.pdf",
+   "timestamp": "20221204225743",
+   "wayback_url": "https://web.archive.org/web/20221204225743id_/https://canadanickel.com/wp-content/uploads/2022/08/July-2022-interim-presentation.pdf",
+   "bytes": 848964,
+   "title": "July-2022-interim-presentation.pdf",
+   "type": "presentation",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/08/Newsletter_October2022.pdf?",
+   "timestamp": "20221204204657",
+   "wayback_url": "https://web.archive.org/web/20221204204657id_/https://canadanickel.com/wp-content/uploads/2022/08/Newsletter_October2022.pdf?",
+   "bytes": 1019973,
+   "title": "Newsletter_October2022.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/09/06272022_IroquoisFalls_IPDMeetingReport.pdf?",
+   "timestamp": "20240812013901",
+   "wayback_url": "https://web.archive.org/web/20240812013901id_/https://canadanickel.com/wp-content/uploads/2022/09/06272022_IroquoisFalls_IPDMeetingReport.pdf?",
+   "bytes": 265431,
+   "title": "06272022_IroquoisFalls_IPDMeetingReport.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/09/Canada-Nickel-Provides-Project-Update-Financing_VF1.pdf",
+   "timestamp": "20221105140345",
+   "wayback_url": "https://web.archive.org/web/20221105140345id_/https://canadanickel.com/wp-content/uploads/2022/09/Canada-Nickel-Provides-Project-Update-Financing_VF1.pdf",
+   "bytes": 136462,
+   "title": "Canada-Nickel-Provides-Project-Update-Financing_VF1.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/09/CNC-7-31-2022-Q3-financial-statements-FINAL.pdf",
+   "timestamp": "20240620161051",
+   "wayback_url": "https://web.archive.org/web/20240620161051id_/https://canadanickel.com/wp-content/uploads/2022/09/CNC-7-31-2022-Q3-financial-statements-FINAL.pdf",
+   "bytes": 357967,
+   "title": "CNC-7-31-2022-Q3-financial-statements-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/09/CNC_PressRelease_Regional-September-VFF.pdf",
+   "timestamp": "20221105172557",
+   "wayback_url": "https://web.archive.org/web/20221105172557id_/https://canadanickel.com/wp-content/uploads/2022/09/CNC_PressRelease_Regional-September-VFF.pdf",
+   "bytes": 1098906,
+   "title": "CNC_PressRelease_Regional-September-VFF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/09/Meeting-report-3_CCPCommittee_June-23rd2022.pdf",
+   "timestamp": "20220929180834",
+   "wayback_url": "https://web.archive.org/web/20220929180834id_/https://canadanickel.com/wp-content/uploads/2022/09/Meeting-report-3_CCPCommittee_June-23rd2022.pdf",
+   "bytes": 311806,
+   "title": "Meeting-report-3_CCPCommittee_June-23rd2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/09/Q3-2022-Canada-Nickel-Interim-MDA-FINAL-.pdf",
+   "timestamp": "20240621064543",
+   "wayback_url": "https://web.archive.org/web/20240621064543id_/https://canadanickel.com/wp-content/uploads/2022/09/Q3-2022-Canada-Nickel-Interim-MDA-FINAL-.pdf",
+   "bytes": 329085,
+   "title": "Q3-2022-Canada-Nickel-Interim-MDA-FINAL-.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/10/Auramet_Closing_Release_vff-1.pdf",
+   "timestamp": "20221019071052",
+   "wayback_url": "https://web.archive.org/web/20221019071052id_/https://canadanickel.com/wp-content/uploads/2022/10/Auramet_Closing_Release_vff-1.pdf",
+   "bytes": 148579,
+   "title": "Auramet_Closing_Release_vff-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/10/Canada-Nickel-Company_-Local-Procurement-Policy-1.pdf",
+   "timestamp": "20221204220725",
+   "wayback_url": "https://web.archive.org/web/20221204220725id_/https://canadanickel.com/wp-content/uploads/2022/10/Canada-Nickel-Company_-Local-Procurement-Policy-1.pdf",
+   "bytes": 146354,
+   "title": "Canada-Nickel-Company_-Local-Procurement-Policy-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/10/Canada-Nickel-Company_-Local-Procurement-Policy.pdf",
+   "timestamp": "20221204230535",
+   "wayback_url": "https://web.archive.org/web/20221204230535id_/https://canadanickel.com/wp-content/uploads/2022/10/Canada-Nickel-Company_-Local-Procurement-Policy.pdf",
+   "bytes": 146321,
+   "title": "Canada-Nickel-Company_-Local-Procurement-Policy.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/10/CNC-Investor-Deck-Oct-2022_vff.pdf",
+   "timestamp": "20221017154917",
+   "wayback_url": "https://web.archive.org/web/20221017154917id_/https://canadanickel.com/wp-content/uploads/2022/10/CNC-Investor-Deck-Oct-2022_vff.pdf",
+   "bytes": 1511561,
+   "title": "CNC-Investor-Deck-Oct-2022_vff.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/10/Planning-for-the-Future.pdf",
+   "timestamp": "20221204212840",
+   "wayback_url": "https://web.archive.org/web/20221204212840id_/https://canadanickel.com/wp-content/uploads/2022/10/Planning-for-the-Future.pdf",
+   "bytes": 1017914,
+   "title": "Planning-for-the-Future.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/11/221107-In-Process-Carbonation-Update-vFinal.pdf",
+   "timestamp": "20221108132057",
+   "wayback_url": "https://web.archive.org/web/20221108132057id_/https://canadanickel.com/wp-content/uploads/2022/11/221107-In-Process-Carbonation-Update-vFinal.pdf",
+   "bytes": 336541,
+   "title": "221107-In-Process-Carbonation-Update-vFinal.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/11/221110-Improved-Fe-Cr-Recoveries-Vff.pdf",
+   "timestamp": "20221115151501",
+   "wayback_url": "https://web.archive.org/web/20221115151501id_/https://canadanickel.com/wp-content/uploads/2022/11/221110-Improved-Fe-Cr-Recoveries-Vff.pdf",
+   "bytes": 294849,
+   "title": "221110-Improved-Fe-Cr-Recoveries-Vff.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/11/Canada-Nickel-_-Legacy-Application-Form.pdf",
+   "timestamp": "20221204221248",
+   "wayback_url": "https://web.archive.org/web/20221204221248id_/https://canadanickel.com/wp-content/uploads/2022/11/Canada-Nickel-_-Legacy-Application-Form.pdf",
+   "bytes": 459156,
+   "title": "Canada-Nickel-_-Legacy-Application-Form.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/11/Canada-Nickel-_-Short-Term-Application-Form.pdf",
+   "timestamp": "20221204214909",
+   "wayback_url": "https://web.archive.org/web/20221204214909id_/https://canadanickel.com/wp-content/uploads/2022/11/Canada-Nickel-_-Short-Term-Application-Form.pdf",
+   "bytes": 223858,
+   "title": "Canada-Nickel-_-Short-Term-Application-Form.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/11/Canada-Nickel-Community-Contributions-Guidelines.pdf",
+   "timestamp": "20221204224018",
+   "wayback_url": "https://web.archive.org/web/20221204224018id_/https://canadanickel.com/wp-content/uploads/2022/11/Canada-Nickel-Community-Contributions-Guidelines.pdf",
+   "bytes": 417157,
+   "title": "Canada-Nickel-Community-Contributions-Guidelines.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/11/CNC_PressRelease_Regional-December-vFF.pdf",
+   "timestamp": "20221201181101",
+   "wayback_url": "https://web.archive.org/web/20221201181101id_/https://canadanickel.com/wp-content/uploads/2022/11/CNC_PressRelease_Regional-December-vFF.pdf",
+   "bytes": 485601,
+   "title": "CNC_PressRelease_Regional-December-vFF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/11/Community-Contributions-and-Local-Procurement-Committee-Charter.pdf",
+   "timestamp": "20221204211910",
+   "wayback_url": "https://web.archive.org/web/20221204211910id_/https://canadanickel.com/wp-content/uploads/2022/11/Community-Contributions-and-Local-Procurement-Committee-Charter.pdf",
+   "bytes": 172188,
+   "title": "Community-Contributions-and-Local-Procurement-Committee-Charter.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/11/Environmental-Committee_Charter-Document.pdf",
+   "timestamp": "20221204221116",
+   "wayback_url": "https://web.archive.org/web/20221204221116id_/https://canadanickel.com/wp-content/uploads/2022/11/Environmental-Committee_Charter-Document.pdf",
+   "bytes": 187905,
+   "title": "Environmental-Committee_Charter-Document.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/11/Meeting-report-1_Enviro-Committee_10182022.pdf",
+   "timestamp": "20221204221317",
+   "wayback_url": "https://web.archive.org/web/20221204221317id_/https://canadanickel.com/wp-content/uploads/2022/11/Meeting-report-1_Enviro-Committee_10182022.pdf",
+   "bytes": 286076,
+   "title": "Meeting-report-1_Enviro-Committee_10182022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/12/CNC_AdvisorPermttingFinalVff.pdf",
+   "timestamp": "20221219044919",
+   "wayback_url": "https://web.archive.org/web/20221219044919id_/https://canadanickel.com/wp-content/uploads/2022/12/CNC_AdvisorPermttingFinalVff.pdf",
+   "bytes": 159372,
+   "title": "CNC_AdvisorPermttingFinalVff.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/12/CNC_HG_Regional-vFinal.pdf",
+   "timestamp": "20221219160333",
+   "wayback_url": "https://web.archive.org/web/20221219160333id_/https://canadanickel.com/wp-content/uploads/2022/12/CNC_HG_Regional-vFinal.pdf",
+   "bytes": 1742703,
+   "title": "CNC_HG_Regional-vFinal.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2022/12/December-Newsletter-2022.pdf?",
+   "timestamp": "20230201214326",
+   "wayback_url": "https://web.archive.org/web/20230201214326id_/https://canadanickel.com/wp-content/uploads/2022/12/December-Newsletter-2022.pdf?",
+   "bytes": 965027,
+   "title": "December-Newsletter-2022.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/01/145853E.pdf",
+   "timestamp": "20230201221248",
+   "wayback_url": "https://web.archive.org/web/20230201221248id_/https://canadanickel.com/wp-content/uploads/2023/01/145853E.pdf",
+   "bytes": 1023929,
+   "title": "145853E.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/01/145854E.pdf",
+   "timestamp": "20230201232617",
+   "wayback_url": "https://web.archive.org/web/20230201232617id_/https://canadanickel.com/wp-content/uploads/2023/01/145854E.pdf",
+   "bytes": 998266,
+   "title": "145854E.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/01/20230104-In-Process-Carbonation-UpdateVFINAL.pdf",
+   "timestamp": "20230104151118",
+   "wayback_url": "https://web.archive.org/web/20230104151118id_/https://canadanickel.com/wp-content/uploads/2023/01/20230104-In-Process-Carbonation-UpdateVFINAL.pdf",
+   "bytes": 258434,
+   "title": "20230104-In-Process-Carbonation-UpdateVFINAL.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/01/20230104-In-Process-Carbonation-UpdateVFINAL.pdf?utm_source=RCKS+Master+Audience&utm_campaign=f29cd173ea-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-f29cd173ea-161595118",
+   "timestamp": "20230105172723",
+   "wayback_url": "https://web.archive.org/web/20230105172723id_/https://canadanickel.com/wp-content/uploads/2023/01/20230104-In-Process-Carbonation-UpdateVFINAL.pdf?utm_source=RCKS+Master+Audience&utm_campaign=f29cd173ea-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-f29cd173ea-161595118",
+   "bytes": 258964,
+   "title": "20230104-In-Process-Carbonation-UpdateVFINAL.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/01/CNC-Investor-Deck-Jan-2023_VFINAL.pdf",
+   "timestamp": "20230113160114",
+   "wayback_url": "https://web.archive.org/web/20230113160114id_/https://canadanickel.com/wp-content/uploads/2023/01/CNC-Investor-Deck-Jan-2023_VFINAL.pdf",
+   "bytes": 1951490,
+   "title": "CNC-Investor-Deck-Jan-2023_VFINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/01/CNC_-Reid_VFINAL.pdf",
+   "timestamp": "20230118151835",
+   "wayback_url": "https://web.archive.org/web/20230118151835id_/https://canadanickel.com/wp-content/uploads/2023/01/CNC_-Reid_VFINAL.pdf",
+   "bytes": 528653,
+   "title": "CNC_-Reid_VFINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/01/Meeting-report-4_CCPCommittee_November8th2022.pdf",
+   "timestamp": "20230201212310",
+   "wayback_url": "https://web.archive.org/web/20230201212310id_/https://canadanickel.com/wp-content/uploads/2023/01/Meeting-report-4_CCPCommittee_November8th2022.pdf",
+   "bytes": 315670,
+   "title": "Meeting-report-4_CCPCommittee_November8th2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/01/Newsletter_October2022.pdf?",
+   "timestamp": "20231206000945",
+   "wayback_url": "https://web.archive.org/web/20231206000945id_/https://canadanickel.com/wp-content/uploads/2023/01/Newsletter_October2022.pdf?",
+   "bytes": 1018188,
+   "title": "Newsletter_October2022.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/02/2023.02.17_CNC_Press-Release_FilingPrelim_VFINAL.pdf",
+   "timestamp": "20230329055130",
+   "wayback_url": "https://web.archive.org/web/20230329055130id_/https://canadanickel.com/wp-content/uploads/2023/02/2023.02.17_CNC_Press-Release_FilingPrelim_VFINAL.pdf",
+   "bytes": 173092,
+   "title": "2023.02.17_CNC_Press-Release_FilingPrelim_VFINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/02/20230208-20-Million-Bought-Deal-Offering-and-Private-Placement.pdf",
+   "timestamp": "20230209104017",
+   "wayback_url": "https://web.archive.org/web/20230209104017id_/https://canadanickel.com/wp-content/uploads/2023/02/20230208-20-Million-Bought-Deal-Offering-and-Private-Placement.pdf",
+   "bytes": 162450,
+   "title": "20230208-20-Million-Bought-Deal-Offering-and-Private-Placement.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "http://canadanickel.com/wp-content/uploads/2023/02/CNC-10-31-2022-annual-financial-statements-with-auditors-report-final.pdf",
+   "timestamp": "20231025162002",
+   "wayback_url": "https://web.archive.org/web/20231025162002id_/http://canadanickel.com/wp-content/uploads/2023/02/CNC-10-31-2022-annual-financial-statements-with-auditors-report-final.pdf",
+   "bytes": 550009,
+   "title": "CNC-10-31-2022-annual-financial-statements-with-auditors-report-final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/02/CNC-Investor-Deck-Feb-2023.pdf",
+   "timestamp": "20231206010050",
+   "wayback_url": "https://web.archive.org/web/20231206010050id_/https://canadanickel.com/wp-content/uploads/2023/02/CNC-Investor-Deck-Feb-2023.pdf",
+   "bytes": 992300,
+   "title": "CNC-Investor-Deck-Feb-2023.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/02/CNC_Strategic_Canada-Nickel-Announces-24-million-Investment-from-Anglo-American_02.08.2023.pdf",
+   "timestamp": "20230209104018",
+   "wayback_url": "https://web.archive.org/web/20230209104018id_/https://canadanickel.com/wp-content/uploads/2023/02/CNC_Strategic_Canada-Nickel-Announces-24-million-Investment-from-Anglo-American_02.08.2023.pdf",
+   "bytes": 177312,
+   "title": "CNC_Strategic_Canada-Nickel-Announces-24-million-Investment-from-Anglo-American_02.08.2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/02/Fiscal-2022-Canada-Nickel-MDA-final-.pdf",
+   "timestamp": "20231025161937",
+   "wayback_url": "https://web.archive.org/web/20231025161937id_/https://canadanickel.com/wp-content/uploads/2023/02/Fiscal-2022-Canada-Nickel-MDA-final-.pdf",
+   "bytes": 451856,
+   "title": "Fiscal-2022-Canada-Nickel-MDA-final-.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/03/03.02.2023_CNC_AAML-Closing-Press-Release_VFINAL.pdf",
+   "timestamp": "20230308003255",
+   "wayback_url": "https://web.archive.org/web/20230308003255id_/https://canadanickel.com/wp-content/uploads/2023/03/03.02.2023_CNC_AAML-Closing-Press-Release_VFINAL.pdf",
+   "bytes": 202700,
+   "title": "03.02.2023_CNC_AAML-Closing-Press-Release_VFINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/03/03.02.2023_CNC_AAML-Closing-Press-Release_VFINAL.pdf?utm_source=RCKS+Master+Audience&utm_campaign=4e34746a94-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-4e34746a94-161595118",
+   "timestamp": "20230307033535",
+   "wayback_url": "https://web.archive.org/web/20230307033535id_/https://canadanickel.com/wp-content/uploads/2023/03/03.02.2023_CNC_AAML-Closing-Press-Release_VFINAL.pdf?utm_source=RCKS+Master+Audience&utm_campaign=4e34746a94-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-4e34746a94-161595118",
+   "bytes": 203020,
+   "title": "03.02.2023_CNC_AAML-Closing-Press-Release_VFINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/03/230314-Reid-Metallurgical-Test-VFinal-1.pdf",
+   "timestamp": "20230315192653",
+   "wayback_url": "https://web.archive.org/web/20230315192653id_/https://canadanickel.com/wp-content/uploads/2023/03/230314-Reid-Metallurgical-Test-VFinal-1.pdf",
+   "bytes": 400935,
+   "title": "230314-Reid-Metallurgical-Test-VFinal-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/03/230314-Reid-Metallurgical-Test-VFinal-1.pdf?utm_source=RCKS+Master+Audience&utm_campaign=313bd3e300-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-313bd3e300-161595118",
+   "timestamp": "20230328084803",
+   "wayback_url": "https://web.archive.org/web/20230328084803id_/https://canadanickel.com/wp-content/uploads/2023/03/230314-Reid-Metallurgical-Test-VFinal-1.pdf?utm_source=RCKS+Master+Audience&utm_campaign=313bd3e300-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-313bd3e300-161595118",
+   "bytes": 401134,
+   "title": "230314-Reid-Metallurgical-Test-VFinal-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/03/Canada-Nickel-Company-Fiscal-Year-2022-ESTMA-report.pdf",
+   "timestamp": "20231005033828",
+   "wayback_url": "https://web.archive.org/web/20231005033828id_/https://canadanickel.com/wp-content/uploads/2023/03/Canada-Nickel-Company-Fiscal-Year-2022-ESTMA-report.pdf",
+   "bytes": 173697,
+   "title": "Canada-Nickel-Company-Fiscal-Year-2022-ESTMA-report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/03/CNC-01-31-2023-financial-statements-FINAL.pdf",
+   "timestamp": "20231025161950",
+   "wayback_url": "https://web.archive.org/web/20231025161950id_/https://canadanickel.com/wp-content/uploads/2023/03/CNC-01-31-2023-financial-statements-FINAL.pdf",
+   "bytes": 1079580,
+   "title": "CNC-01-31-2023-financial-statements-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/03/CNC-News-Release-re-Over-Allotment-Closing-March-7-2023vff.pdf",
+   "timestamp": "20230308013904",
+   "wayback_url": "https://web.archive.org/web/20230308013904id_/https://canadanickel.com/wp-content/uploads/2023/03/CNC-News-Release-re-Over-Allotment-Closing-March-7-2023vff.pdf",
+   "bytes": 185040,
+   "title": "CNC-News-Release-re-Over-Allotment-Closing-March-7-2023vff.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/03/CNC_Regional-Update-Texmont_VFF.pdf",
+   "timestamp": "20230308005607",
+   "wayback_url": "https://web.archive.org/web/20230308005607id_/https://canadanickel.com/wp-content/uploads/2023/03/CNC_Regional-Update-Texmont_VFF.pdf",
+   "bytes": 497670,
+   "title": "CNC_Regional-Update-Texmont_VFF.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/03/Meeting-Report-1_CCPC_01-12-2022.pdf",
+   "timestamp": "20230608094408",
+   "wayback_url": "https://web.archive.org/web/20230608094408id_/https://canadanickel.com/wp-content/uploads/2023/03/Meeting-Report-1_CCPC_01-12-2022.pdf",
+   "bytes": 245002,
+   "title": "Meeting-Report-1_CCPC_01-12-2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/03/Newsletter_March2023-1.pdf?",
+   "timestamp": "20230608080338",
+   "wayback_url": "https://web.archive.org/web/20230608080338id_/https://canadanickel.com/wp-content/uploads/2023/03/Newsletter_March2023-1.pdf?",
+   "bytes": 933870,
+   "title": "Newsletter_March2023-1.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/03/Q1-2023-Canada-Nickel-MDA-FINAL.pdf",
+   "timestamp": "20240703005203",
+   "wayback_url": "https://web.archive.org/web/20240703005203id_/https://canadanickel.com/wp-content/uploads/2023/03/Q1-2023-Canada-Nickel-MDA-FINAL.pdf",
+   "bytes": 381699,
+   "title": "Q1-2023-Canada-Nickel-MDA-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/04/04.05.2023_CNC_Press-Release_Debt-Advisory-Corporate-Update.pdf",
+   "timestamp": "20230405155304",
+   "wayback_url": "https://web.archive.org/web/20230405155304id_/https://canadanickel.com/wp-content/uploads/2023/04/04.05.2023_CNC_Press-Release_Debt-Advisory-Corporate-Update.pdf",
+   "bytes": 175237,
+   "title": "04.05.2023_CNC_Press-Release_Debt-Advisory-Corporate-Update.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/04/04.18.2023_CNC_Press-Release_Texmont-Update-vFinal.pdf",
+   "timestamp": "20230420161958",
+   "wayback_url": "https://web.archive.org/web/20230420161958id_/https://canadanickel.com/wp-content/uploads/2023/04/04.18.2023_CNC_Press-Release_Texmont-Update-vFinal.pdf",
+   "bytes": 705621,
+   "title": "04.18.2023_CNC_Press-Release_Texmont-Update-vFinal.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/04/04.18.2023_CNC_Press-Release_Texmont-Update-vFinal.pdf?utm_source=RCKS+Master+Audience&utm_campaign=0010bc21f8-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-0010bc21f8-161595118",
+   "timestamp": "20230419162615",
+   "wayback_url": "https://web.archive.org/web/20230419162615id_/https://canadanickel.com/wp-content/uploads/2023/04/04.18.2023_CNC_Press-Release_Texmont-Update-vFinal.pdf?utm_source=RCKS+Master+Audience&utm_campaign=0010bc21f8-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-0010bc21f8-161595118",
+   "bytes": 705826,
+   "title": "04.18.2023_CNC_Press-Release_Texmont-Update-vFinal.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/04/2023.04.04_CNC_IS_Press-Release_VFINAL-1.pdf",
+   "timestamp": "20230519011000",
+   "wayback_url": "https://web.archive.org/web/20230519011000id_/https://canadanickel.com/wp-content/uploads/2023/04/2023.04.04_CNC_IS_Press-Release_VFINAL-1.pdf",
+   "bytes": 223863,
+   "title": "2023.04.04_CNC_IS_Press-Release_VFINAL-1.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/04/CNC-Investor-Deck-April-2023.pdf",
+   "timestamp": "20230422224146",
+   "wayback_url": "https://web.archive.org/web/20230422224146id_/https://canadanickel.com/wp-content/uploads/2023/04/CNC-Investor-Deck-April-2023.pdf",
+   "bytes": 1838644,
+   "title": "CNC-Investor-Deck-April-2023.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/04/CNC_Regional-Update-Midlothian-vFinal-1.pdf",
+   "timestamp": "20230413215357",
+   "wayback_url": "https://web.archive.org/web/20230413215357id_/https://canadanickel.com/wp-content/uploads/2023/04/CNC_Regional-Update-Midlothian-vFinal-1.pdf",
+   "bytes": 277125,
+   "title": "CNC_Regional-Update-Midlothian-vFinal-1.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/04/CNC_Regional-Update-Midlothian-vFinal-1.pdf?utm_source=RCKS+Master+Audience&utm_campaign=3c9d235d0a-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-3c9d235d0a-161595118",
+   "timestamp": "20230416012205",
+   "wayback_url": "https://web.archive.org/web/20230416012205id_/https://canadanickel.com/wp-content/uploads/2023/04/CNC_Regional-Update-Midlothian-vFinal-1.pdf?utm_source=RCKS+Master+Audience&utm_campaign=3c9d235d0a-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-3c9d235d0a-161595118",
+   "bytes": 277313,
+   "title": "CNC_Regional-Update-Midlothian-vFinal-1.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/05/06.01.2023_CNC_Press-Release_Texmont-Update.pdf",
+   "timestamp": "20230601143116",
+   "wayback_url": "https://web.archive.org/web/20230601143116id_/https://canadanickel.com/wp-content/uploads/2023/05/06.01.2023_CNC_Press-Release_Texmont-Update.pdf",
+   "bytes": 653360,
+   "title": "06.01.2023_CNC_Press-Release_Texmont-Update.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/05/2023.05.24_CNC_PressRelease_SOT_MID_MAN_VFF_1-1.pdf",
+   "timestamp": "20230525100442",
+   "wayback_url": "https://web.archive.org/web/20230525100442id_/https://canadanickel.com/wp-content/uploads/2023/05/2023.05.24_CNC_PressRelease_SOT_MID_MAN_VFF_1-1.pdf",
+   "bytes": 693024,
+   "title": "2023.05.24_CNC_PressRelease_SOT_MID_MAN_VFF_1-1.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/05/Canada-Nickel-Community-Contributions-Guidelines.pdf",
+   "timestamp": "20230608073731",
+   "wayback_url": "https://web.archive.org/web/20230608073731id_/https://canadanickel.com/wp-content/uploads/2023/05/Canada-Nickel-Community-Contributions-Guidelines.pdf",
+   "bytes": 253775,
+   "title": "Canada-Nickel-Community-Contributions-Guidelines.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/05/Meeting-Report-1_Workforce-Committee_03242023.pdf",
+   "timestamp": "20230608094654",
+   "wayback_url": "https://web.archive.org/web/20230608094654id_/https://canadanickel.com/wp-content/uploads/2023/05/Meeting-Report-1_Workforce-Committee_03242023.pdf",
+   "bytes": 265713,
+   "title": "Meeting-Report-1_Workforce-Committee_03242023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/05/Meeting-report-2_Enviro-Committee_03212023_V2.pdf",
+   "timestamp": "20230608074057",
+   "wayback_url": "https://web.archive.org/web/20230608074057id_/https://canadanickel.com/wp-content/uploads/2023/05/Meeting-report-2_Enviro-Committee_03212023_V2.pdf",
+   "bytes": 803808,
+   "title": "Meeting-report-2_Enviro-Committee_03212023_V2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/05/Meeting-report-5_CCPCCommittee_V2.pdf",
+   "timestamp": "20230608072159",
+   "wayback_url": "https://web.archive.org/web/20230608072159id_/https://canadanickel.com/wp-content/uploads/2023/05/Meeting-report-5_CCPCCommittee_V2.pdf",
+   "bytes": 936850,
+   "title": "Meeting-report-5_CCPCCommittee_V2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/05/PFIC-Canada-Nickel-Corp-October-31-2022.pdf",
+   "timestamp": "20231025162006",
+   "wayback_url": "https://web.archive.org/web/20231025162006id_/https://canadanickel.com/wp-content/uploads/2023/05/PFIC-Canada-Nickel-Corp-October-31-2022.pdf",
+   "bytes": 124970,
+   "title": "PFIC-Canada-Nickel-Corp-October-31-2022.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/05/Workforce-Committee__Charter-Document_VF-1.pdf",
+   "timestamp": "20230608090636",
+   "wayback_url": "https://web.archive.org/web/20230608090636id_/https://canadanickel.com/wp-content/uploads/2023/05/Workforce-Committee__Charter-Document_VF-1.pdf",
+   "bytes": 224372,
+   "title": "Workforce-Committee__Charter-Document_VF-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/06/06.08.2023_CNC_Press-Release_Project-Update.pdf",
+   "timestamp": "20230608134259",
+   "wayback_url": "https://web.archive.org/web/20230608134259id_/https://canadanickel.com/wp-content/uploads/2023/06/06.08.2023_CNC_Press-Release_Project-Update.pdf",
+   "bytes": 224326,
+   "title": "06.08.2023_CNC_Press-Release_Project-Update.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/06/06.08.2023_CNC_Press-Release_Project-Update.pdf?utm_source=RCKS+Master+Audience&utm_campaign=b5da129d6c-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-b5da129d6c-161658396",
+   "timestamp": "20230609173810",
+   "wayback_url": "https://web.archive.org/web/20230609173810id_/https://canadanickel.com/wp-content/uploads/2023/06/06.08.2023_CNC_Press-Release_Project-Update.pdf?utm_source=RCKS+Master+Audience&utm_campaign=b5da129d6c-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-b5da129d6c-161658396",
+   "bytes": 224477,
+   "title": "06.08.2023_CNC_Press-Release_Project-Update.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/06/06.22.2023_CNC_Press-Release_Texmont-VFinal.pdf",
+   "timestamp": "20230627160301",
+   "wayback_url": "https://web.archive.org/web/20230627160301id_/https://canadanickel.com/wp-content/uploads/2023/06/06.22.2023_CNC_Press-Release_Texmont-VFinal.pdf",
+   "bytes": 378972,
+   "title": "06.22.2023_CNC_Press-Release_Texmont-VFinal.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/06/CNC-04-30-2023-financial-statements-final-.pdf",
+   "timestamp": "20231025162009",
+   "wayback_url": "https://web.archive.org/web/20231025162009id_/https://canadanickel.com/wp-content/uploads/2023/06/CNC-04-30-2023-financial-statements-final-.pdf",
+   "bytes": 409392,
+   "title": "CNC-04-30-2023-financial-statements-final-.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/06/CNC-Investor-Deck-June-2023_vff.pdf",
+   "timestamp": "20240805203158",
+   "wayback_url": "https://web.archive.org/web/20240805203158id_/https://canadanickel.com/wp-content/uploads/2023/06/CNC-Investor-Deck-June-2023_vff.pdf",
+   "bytes": 1739090,
+   "title": "CNC-Investor-Deck-June-2023_vff.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/06/Newsletter_June2023.pdf?",
+   "timestamp": "20231005030824",
+   "wayback_url": "https://web.archive.org/web/20231005030824id_/https://canadanickel.com/wp-content/uploads/2023/06/Newsletter_June2023.pdf?",
+   "bytes": 860745,
+   "title": "Newsletter_June2023.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/06/Q2-2023-Canada-Nickel-MDA-final.pdf",
+   "timestamp": "20231025162040",
+   "wayback_url": "https://web.archive.org/web/20231025162040id_/https://canadanickel.com/wp-content/uploads/2023/06/Q2-2023-Canada-Nickel-MDA-final.pdf",
+   "bytes": 389873,
+   "title": "Q2-2023-Canada-Nickel-MDA-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/07/07.11.2023_CNC_PressRelease_Regional_July2023-VFF.pdf",
+   "timestamp": "20231005022918",
+   "wayback_url": "https://web.archive.org/web/20231005022918id_/https://canadanickel.com/wp-content/uploads/2023/07/07.11.2023_CNC_PressRelease_Regional_July2023-VFF.pdf",
+   "bytes": 293600,
+   "title": "07.11.2023_CNC_PressRelease_Regional_July2023-VFF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/08/CNC_PressRelease_20230822-Mann-Final.pdf",
+   "timestamp": "20230921124116",
+   "wayback_url": "https://web.archive.org/web/20230921124116id_/https://canadanickel.com/wp-content/uploads/2023/08/CNC_PressRelease_20230822-Mann-Final.pdf",
+   "bytes": 374613,
+   "title": "CNC_PressRelease_20230822-Mann-Final.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/09/09.06.-2023_CNC-PressRelease_September-2023-Corporate-Update-Vff-1-1.pdf",
+   "timestamp": "20231003201737",
+   "wayback_url": "https://web.archive.org/web/20231003201737id_/https://canadanickel.com/wp-content/uploads/2023/09/09.06.-2023_CNC-PressRelease_September-2023-Corporate-Update-Vff-1-1.pdf",
+   "bytes": 174362,
+   "title": "09.06.-2023_CNC-PressRelease_September-2023-Corporate-Update-Vff-1-1.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/09/09.07.2023_CNC-ESG-Report2023-web-1.pdf",
+   "timestamp": "20231005020542",
+   "wayback_url": "https://web.archive.org/web/20231005020542id_/https://canadanickel.com/wp-content/uploads/2023/09/09.07.2023_CNC-ESG-Report2023-web-1.pdf",
+   "bytes": 421290,
+   "title": "09.07.2023_CNC-ESG-Report2023-web-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/09/09.07.2023_CNC-PressRelease_ESG-Report_Final_vff-1.pdf",
+   "timestamp": "20240803032425",
+   "wayback_url": "https://web.archive.org/web/20240803032425id_/https://canadanickel.com/wp-content/uploads/2023/09/09.07.2023_CNC-PressRelease_ESG-Report_Final_vff-1.pdf",
+   "bytes": 148640,
+   "title": "09.07.2023_CNC-PressRelease_ESG-Report_Final_vff-1.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/09/09.07.2023_CNC-PressRelease_ESG-Report_Final_vff-2.pdf",
+   "timestamp": "20231025161924",
+   "wayback_url": "https://web.archive.org/web/20231025161924id_/https://canadanickel.com/wp-content/uploads/2023/09/09.07.2023_CNC-PressRelease_ESG-Report_Final_vff-2.pdf",
+   "bytes": 155830,
+   "title": "09.07.2023_CNC-PressRelease_ESG-Report_Final_vff-2.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/09/09.07.2023_CNC-PressRelease_ESG-Report_Final_vff.pdf",
+   "timestamp": "20231003201859",
+   "wayback_url": "https://web.archive.org/web/20231003201859id_/https://canadanickel.com/wp-content/uploads/2023/09/09.07.2023_CNC-PressRelease_ESG-Report_Final_vff.pdf",
+   "bytes": 149400,
+   "title": "09.07.2023_CNC-PressRelease_ESG-Report_Final_vff.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/09/09.18.2023_CNC_News-Release_Auramet_Closing_Release_VFF.pdf",
+   "timestamp": "20231004012252",
+   "wayback_url": "https://web.archive.org/web/20231004012252id_/https://canadanickel.com/wp-content/uploads/2023/09/09.18.2023_CNC_News-Release_Auramet_Closing_Release_VFF.pdf",
+   "bytes": 148984,
+   "title": "09.18.2023_CNC_News-Release_Auramet_Closing_Release_VFF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/09/09.28.2023_CNC_NewsRelease_Project-Update-VFinal.pdf",
+   "timestamp": "20231025161747",
+   "wayback_url": "https://web.archive.org/web/20231025161747id_/https://canadanickel.com/wp-content/uploads/2023/09/09.28.2023_CNC_NewsRelease_Project-Update-VFinal.pdf",
+   "bytes": 246326,
+   "title": "09.28.2023_CNC_NewsRelease_Project-Update-VFinal.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/09/CNC-07-31-2023-financial-statements-FINAL.pdf",
+   "timestamp": "20231025161948",
+   "wayback_url": "https://web.archive.org/web/20231025161948id_/https://canadanickel.com/wp-content/uploads/2023/09/CNC-07-31-2023-financial-statements-FINAL.pdf",
+   "bytes": 392865,
+   "title": "CNC-07-31-2023-financial-statements-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/09/CNC-Investor-Deck-Sept-2023_vff-2-1.pdf",
+   "timestamp": "20240804015554",
+   "wayback_url": "https://web.archive.org/web/20240804015554id_/https://canadanickel.com/wp-content/uploads/2023/09/CNC-Investor-Deck-Sept-2023_vff-2-1.pdf",
+   "bytes": 1661425,
+   "title": "CNC-Investor-Deck-Sept-2023_vff-2-1.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/09/Q3-2023-Canada-Nickel-MDA-final.pdf",
+   "timestamp": "20231025161959",
+   "wayback_url": "https://web.archive.org/web/20231025161959id_/https://canadanickel.com/wp-content/uploads/2023/09/Q3-2023-Canada-Nickel-MDA-final.pdf",
+   "bytes": 368782,
+   "title": "Q3-2023-Canada-Nickel-MDA-final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/10/09.07.2023_CNC-ESG-Report2023-web-1.pdf",
+   "timestamp": "20231025161840",
+   "wayback_url": "https://web.archive.org/web/20231025161840id_/https://canadanickel.com/wp-content/uploads/2023/10/09.07.2023_CNC-ESG-Report2023-web-1.pdf",
+   "bytes": 38183558,
+   "title": "09.07.2023_CNC-ESG-Report2023-web-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/10/10.11.2023_CNC_Press-Release_FS_confcall-002.pdf",
+   "timestamp": "20231025161732",
+   "wayback_url": "https://web.archive.org/web/20231025161732id_/https://canadanickel.com/wp-content/uploads/2023/10/10.11.2023_CNC_Press-Release_FS_confcall-002.pdf",
+   "bytes": 142050,
+   "title": "10.11.2023_CNC_Press-Release_FS_confcall-002.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/10/CNC-Investor-Deck-FS-presentation-Oct-2023_Final.pdf",
+   "timestamp": "20231030200634",
+   "wayback_url": "https://web.archive.org/web/20231030200634id_/https://canadanickel.com/wp-content/uploads/2023/10/CNC-Investor-Deck-FS-presentation-Oct-2023_Final.pdf",
+   "bytes": 998715,
+   "title": "CNC-Investor-Deck-FS-presentation-Oct-2023_Final.pdf",
+   "type": "presentation",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/10/CNC-Investor-Deck-October-2023_VFinal.pdf",
+   "timestamp": "20231025161714",
+   "wayback_url": "https://web.archive.org/web/20231025161714id_/https://canadanickel.com/wp-content/uploads/2023/10/CNC-Investor-Deck-October-2023_VFinal.pdf",
+   "bytes": 1554416,
+   "title": "CNC-Investor-Deck-October-2023_VFinal.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/10/Environmental-Committee-Meeting-Report-August-2023.pdf",
+   "timestamp": "20231206013100",
+   "wayback_url": "https://web.archive.org/web/20231206013100id_/https://canadanickel.com/wp-content/uploads/2023/10/Environmental-Committee-Meeting-Report-August-2023.pdf",
+   "bytes": 996235,
+   "title": "Environmental-Committee-Meeting-Report-August-2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/10/Environmental-Committee-Meeting-Report-September-2023.pdf",
+   "timestamp": "20231206015800",
+   "wayback_url": "https://web.archive.org/web/20231206015800id_/https://canadanickel.com/wp-content/uploads/2023/10/Environmental-Committee-Meeting-Report-September-2023.pdf",
+   "bytes": 291299,
+   "title": "Environmental-Committee-Meeting-Report-September-2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/10/FS-FINAL-20231012-5.pdf",
+   "timestamp": "20231025161824",
+   "wayback_url": "https://web.archive.org/web/20231025161824id_/https://canadanickel.com/wp-content/uploads/2023/10/FS-FINAL-20231012-5.pdf",
+   "bytes": 414414,
+   "title": "FS-FINAL-20231012-5.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/11/CNC-Newsletter-November2023.pdf?",
+   "timestamp": "20231206015634",
+   "wayback_url": "https://web.archive.org/web/20231206015634id_/https://canadanickel.com/wp-content/uploads/2023/11/CNC-Newsletter-November2023.pdf?",
+   "bytes": 831367,
+   "title": "CNC-Newsletter-November2023.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/11/Crawford-NI-43-101-FINAL-REPORT_Nov24_R2.pdf",
+   "timestamp": "20240103111131",
+   "wayback_url": "https://web.archive.org/web/20240103111131id_/https://canadanickel.com/wp-content/uploads/2023/11/Crawford-NI-43-101-FINAL-REPORT_Nov24_R2.pdf",
+   "bytes": 25654182,
+   "title": "Crawford-NI-43-101-FINAL-REPORT_Nov24_R2.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/11/Release_FS_FILING_VF.pdf",
+   "timestamp": "20231208002310",
+   "wayback_url": "https://web.archive.org/web/20231208002310id_/https://canadanickel.com/wp-content/uploads/2023/11/Release_FS_FILING_VF.pdf",
+   "bytes": 236684,
+   "title": "Release_FS_FILING_VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2023/12/Auramet_Extension_VF.pdf",
+   "timestamp": "20240103111120",
+   "wayback_url": "https://web.archive.org/web/20240103111120id_/https://canadanickel.com/wp-content/uploads/2023/12/Auramet_Extension_VF.pdf",
+   "bytes": 135209,
+   "title": "Auramet_Extension_VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/01/Auramet_Extension_Feb16_VFF.pdf",
+   "timestamp": "20240119142748",
+   "wayback_url": "https://web.archive.org/web/20240119142748id_/https://canadanickel.com/wp-content/uploads/2024/01/Auramet_Extension_Feb16_VFF.pdf",
+   "bytes": 148183,
+   "title": "Auramet_Extension_Feb16_VFF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/01/CNC-AEM-Final.pdf",
+   "timestamp": "20240103110903",
+   "wayback_url": "https://web.archive.org/web/20240103110903id_/https://canadanickel.com/wp-content/uploads/2024/01/CNC-AEM-Final.pdf",
+   "bytes": 195517,
+   "title": "CNC-AEM-Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/01/CNC_InvestorDeck_January19_2024_VFF-v2.pdf",
+   "timestamp": "20240815083223",
+   "wayback_url": "https://web.archive.org/web/20240815083223id_/https://canadanickel.com/wp-content/uploads/2024/01/CNC_InvestorDeck_January19_2024_VFF-v2.pdf",
+   "bytes": 1546924,
+   "title": "CNC_InvestorDeck_January19_2024_VFF-v2.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/01/CNC_InvestorDeck_January19_2024_VFF.pdf",
+   "timestamp": "20240208160400",
+   "wayback_url": "https://web.archive.org/web/20240208160400id_/https://canadanickel.com/wp-content/uploads/2024/01/CNC_InvestorDeck_January19_2024_VFF.pdf",
+   "bytes": 1546870,
+   "title": "CNC_InvestorDeck_January19_2024_VFF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/01/CNC_InvestorDeck_January2024-3.pdf",
+   "timestamp": "20240103111140",
+   "wayback_url": "https://web.archive.org/web/20240103111140id_/https://canadanickel.com/wp-content/uploads/2024/01/CNC_InvestorDeck_January2024-3.pdf",
+   "bytes": 1541503,
+   "title": "CNC_InvestorDeck_January2024-3.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/01/CNC_Strategic_January-12-2024_VFF.pdf",
+   "timestamp": "20240119142750",
+   "wayback_url": "https://web.archive.org/web/20240119142750id_/https://canadanickel.com/wp-content/uploads/2024/01/CNC_Strategic_January-12-2024_VFF.pdf",
+   "bytes": 163642,
+   "title": "CNC_Strategic_January-12-2024_VFF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/02/CNC-10-31-2023-financial-statements-vF-.pdf",
+   "timestamp": "20240413021812",
+   "wayback_url": "https://web.archive.org/web/20240413021812id_/https://canadanickel.com/wp-content/uploads/2024/02/CNC-10-31-2023-financial-statements-vF-.pdf",
+   "bytes": 1030224,
+   "title": "CNC-10-31-2023-financial-statements-vF-.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/02/CNC-PR-NetZeroMetals-Joint-Announcement_VFF-003-8-Feb-24-1.pdf",
+   "timestamp": "20240208160148",
+   "wayback_url": "https://web.archive.org/web/20240208160148id_/https://canadanickel.com/wp-content/uploads/2024/02/CNC-PR-NetZeroMetals-Joint-Announcement_VFF-003-8-Feb-24-1.pdf",
+   "bytes": 250218,
+   "title": "CNC-PR-NetZeroMetals-Joint-Announcement_VFF-003-8-Feb-24-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/02/CNC_InvestorDeck_February2024VF1.pdf",
+   "timestamp": "20240304172657",
+   "wayback_url": "https://web.archive.org/web/20240304172657id_/https://canadanickel.com/wp-content/uploads/2024/02/CNC_InvestorDeck_February2024VF1.pdf",
+   "bytes": 1552316,
+   "title": "CNC_InvestorDeck_February2024VF1.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/02/PFIC-Canada-Nickel-Corp-October-31-2023.pdf",
+   "timestamp": "20240413030018",
+   "wayback_url": "https://web.archive.org/web/20240413030018id_/https://canadanickel.com/wp-content/uploads/2024/02/PFIC-Canada-Nickel-Corp-October-31-2023.pdf",
+   "bytes": 126620,
+   "title": "PFIC-Canada-Nickel-Corp-October-31-2023.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/02/PR_2024-Bannockburn-vff-20-Feb-24.pdf",
+   "timestamp": "20240304172619",
+   "wayback_url": "https://web.archive.org/web/20240304172619id_/https://canadanickel.com/wp-content/uploads/2024/02/PR_2024-Bannockburn-vff-20-Feb-24.pdf",
+   "bytes": 484117,
+   "title": "PR_2024-Bannockburn-vff-20-Feb-24.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/02/PR_2024-Mann-VF-21-Feb-24.pdf",
+   "timestamp": "20240304172528",
+   "wayback_url": "https://web.archive.org/web/20240304172528id_/https://canadanickel.com/wp-content/uploads/2024/02/PR_2024-Mann-VF-21-Feb-24.pdf",
+   "bytes": 537021,
+   "title": "PR_2024-Mann-VF-21-Feb-24.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/02/Q4-2023-Canada-Nickel-MDA-vF-.pdf",
+   "timestamp": "20240413032856",
+   "wayback_url": "https://web.archive.org/web/20240413032856id_/https://canadanickel.com/wp-content/uploads/2024/02/Q4-2023-Canada-Nickel-MDA-vF-.pdf",
+   "bytes": 455475,
+   "title": "Q4-2023-Canada-Nickel-MDA-vF-.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/02/Samsung_Closing_PR-6-Feb-24.pdf",
+   "timestamp": "20240229080432",
+   "wayback_url": "https://web.archive.org/web/20240229080432id_/https://canadanickel.com/wp-content/uploads/2024/02/Samsung_Closing_PR-6-Feb-24.pdf",
+   "bytes": 522109,
+   "title": "Samsung_Closing_PR-6-Feb-24.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/03/Canada-Nickel-Company-Fiscal-Year-2023-ESTMA-report-1.pdf",
+   "timestamp": "20241104115513",
+   "wayback_url": "https://web.archive.org/web/20241104115513id_/https://canadanickel.com/wp-content/uploads/2024/03/Canada-Nickel-Company-Fiscal-Year-2023-ESTMA-report-1.pdf",
+   "bytes": 182721,
+   "title": "Canada-Nickel-Company-Fiscal-Year-2023-ESTMA-report-1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/03/CNC-01-31-2024-financial-statements-vF.pdf",
+   "timestamp": "20241213160158",
+   "wayback_url": "https://web.archive.org/web/20241213160158id_/https://canadanickel.com/wp-content/uploads/2024/03/CNC-01-31-2024-financial-statements-vF.pdf",
+   "bytes": 315771,
+   "title": "CNC-01-31-2024-financial-statements-vF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/03/CNC-2024-Exploration-Program-Final-15-Mar-24.pdf",
+   "timestamp": "20240506212708",
+   "wayback_url": "https://web.archive.org/web/20240506212708id_/https://canadanickel.com/wp-content/uploads/2024/03/CNC-2024-Exploration-Program-Final-15-Mar-24.pdf",
+   "bytes": 1859771,
+   "title": "CNC-2024-Exploration-Program-Final-15-Mar-24.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/03/PR_March-2024-Reid-Newmarket_VF1-18-Mar-23.pdf",
+   "timestamp": "20240331055919",
+   "wayback_url": "https://web.archive.org/web/20240331055919id_/https://canadanickel.com/wp-content/uploads/2024/03/PR_March-2024-Reid-Newmarket_VF1-18-Mar-23.pdf",
+   "bytes": 544705,
+   "title": "PR_March-2024-Reid-Newmarket_VF1-18-Mar-23.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/03/Q1-2024-Canada-Nickel-MDA-vF.pdf",
+   "timestamp": "20241213150109",
+   "wayback_url": "https://web.archive.org/web/20241213150109id_/https://canadanickel.com/wp-content/uploads/2024/03/Q1-2024-Canada-Nickel-MDA-vF.pdf",
+   "bytes": 341725,
+   "title": "Q1-2024-Canada-Nickel-MDA-vF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/04/2024-Exercise-of-Mann-Property-Option_VF-002.pdf",
+   "timestamp": "20240503151217",
+   "wayback_url": "https://web.archive.org/web/20240503151217id_/https://canadanickel.com/wp-content/uploads/2024/04/2024-Exercise-of-Mann-Property-Option_VF-002.pdf",
+   "bytes": 152445,
+   "title": "2024-Exercise-of-Mann-Property-Option_VF-002.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/04/20240411_Commencement-of-FEED_VFF.pdf",
+   "timestamp": "20240415224224",
+   "wayback_url": "https://web.archive.org/web/20240415224224id_/https://canadanickel.com/wp-content/uploads/2024/04/20240411_Commencement-of-FEED_VFF.pdf",
+   "bytes": 213557,
+   "title": "20240411_Commencement-of-FEED_VFF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/04/20240416-NetZero-Metals-Partnership-vfinal.pdf",
+   "timestamp": "20240420005443",
+   "wayback_url": "https://web.archive.org/web/20240420005443id_/https://canadanickel.com/wp-content/uploads/2024/04/20240416-NetZero-Metals-Partnership-vfinal.pdf",
+   "bytes": 244289,
+   "title": "20240416-NetZero-Metals-Partnership-vfinal.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/04/CNC-Washington-Press-Release-final-30-Apr-24.pdf",
+   "timestamp": "20240506213108",
+   "wayback_url": "https://web.archive.org/web/20240506213108id_/https://canadanickel.com/wp-content/uploads/2024/04/CNC-Washington-Press-Release-final-30-Apr-24.pdf",
+   "bytes": 147996,
+   "title": "CNC-Washington-Press-Release-final-30-Apr-24.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/05/240513-Mann-Metallurgical-Results_VF.pdf",
+   "timestamp": "20240519181317",
+   "wayback_url": "https://web.archive.org/web/20240519181317id_/https://canadanickel.com/wp-content/uploads/2024/05/240513-Mann-Metallurgical-Results_VF.pdf",
+   "bytes": 339661,
+   "title": "240513-Mann-Metallurgical-Results_VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/05/CNC_InvestorDeck_May2024_VF.pdf",
+   "timestamp": "20240526084301",
+   "wayback_url": "https://web.archive.org/web/20240526084301id_/https://canadanickel.com/wp-content/uploads/2024/05/CNC_InvestorDeck_May2024_VF.pdf",
+   "bytes": 1579270,
+   "title": "CNC_InvestorDeck_May2024_VF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/05/Reid-May-2024_VF-6-May-24.pdf",
+   "timestamp": "20240506213132",
+   "wayback_url": "https://web.archive.org/web/20240506213132id_/https://canadanickel.com/wp-content/uploads/2024/05/Reid-May-2024_VF-6-May-24.pdf",
+   "bytes": 374446,
+   "title": "Reid-May-2024_VF-6-May-24.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/06/2024-05-31-Canada-Nickel-Press-Release_Deloro-June-2024-vF.pdf",
+   "timestamp": "20240604203812",
+   "wayback_url": "https://web.archive.org/web/20240604203812id_/https://canadanickel.com/wp-content/uploads/2024/06/2024-05-31-Canada-Nickel-Press-Release_Deloro-June-2024-vF.pdf",
+   "bytes": 355749,
+   "title": "2024-05-31-Canada-Nickel-Press-Release_Deloro-June-2024-vF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "http://canadanickel.com/wp-content/uploads/2024/06/Canada-Nickel-04-30-2024-_Q2-Financial-Statements-VF.pdf",
+   "timestamp": "20241104115515",
+   "wayback_url": "https://web.archive.org/web/20241104115515id_/http://canadanickel.com/wp-content/uploads/2024/06/Canada-Nickel-04-30-2024-_Q2-Financial-Statements-VF.pdf",
+   "bytes": 415385,
+   "title": "Canada-Nickel-04-30-2024-_Q2-Financial-Statements-VF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/06/Canada-Nickel-Press-Release_Auramet_June-24-2024-VFF.pdf",
+   "timestamp": "20240624133650",
+   "wayback_url": "https://web.archive.org/web/20240624133650id_/https://canadanickel.com/wp-content/uploads/2024/06/Canada-Nickel-Press-Release_Auramet_June-24-2024-VFF.pdf",
+   "bytes": 135622,
+   "title": "Canada-Nickel-Press-Release_Auramet_June-24-2024-VFF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/06/Canda-Nickel-04-30-2024_Q2-2024-Canada-Nickel-MDA-VF.pdf",
+   "timestamp": "20241125000629",
+   "wayback_url": "https://web.archive.org/web/20241125000629id_/https://canadanickel.com/wp-content/uploads/2024/06/Canda-Nickel-04-30-2024_Q2-2024-Canada-Nickel-MDA-VF.pdf",
+   "bytes": 403386,
+   "title": "Canda-Nickel-04-30-2024_Q2-2024-Canada-Nickel-MDA-VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/07/2024-07-31-Canada-Nickel-Press-Release_Crawford-update_July-2024-VF.pdf",
+   "timestamp": "20240803125932",
+   "wayback_url": "https://web.archive.org/web/20240803125932id_/https://canadanickel.com/wp-content/uploads/2024/07/2024-07-31-Canada-Nickel-Press-Release_Crawford-update_July-2024-VF.pdf",
+   "bytes": 626012,
+   "title": "2024-07-31-Canada-Nickel-Press-Release_Crawford-update_July-2024-VF.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/07/240729-Metallurgical-Update_VFF.pdf",
+   "timestamp": "20240801072304",
+   "wayback_url": "https://web.archive.org/web/20240801072304id_/https://canadanickel.com/wp-content/uploads/2024/07/240729-Metallurgical-Update_VFF.pdf",
+   "bytes": 273031,
+   "title": "240729-Metallurgical-Update_VFF.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/07/Canada-Nickel-Press-Release_Announcement-of-Eastern-Properties-Spin-out-VFF_July-8-2024-1.pdf",
+   "timestamp": "20240708214617",
+   "wayback_url": "https://web.archive.org/web/20240708214617id_/https://canadanickel.com/wp-content/uploads/2024/07/Canada-Nickel-Press-Release_Announcement-of-Eastern-Properties-Spin-out-VFF_July-8-2024-1.pdf",
+   "bytes": 409046,
+   "title": "Canada-Nickel-Press-Release_Announcement-of-Eastern-Properties-Spin-out-VFF_July-8-2024-1.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/07/Canada-Nickel-Press-Release_Auramet_Closing_Release_VF1_July-9-2024.pdf",
+   "timestamp": "20240710145344",
+   "wayback_url": "https://web.archive.org/web/20240710145344id_/https://canadanickel.com/wp-content/uploads/2024/07/Canada-Nickel-Press-Release_Auramet_Closing_Release_VF1_July-9-2024.pdf",
+   "bytes": 143920,
+   "title": "Canada-Nickel-Press-Release_Auramet_Closing_Release_VF1_July-9-2024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/07/Canada-Nickel-Press-Release_Auramet_Closing_Release_VF1_July-9-2024.pdf?utm_source=RCKS+Master+Audience&utm_campaign=a9320d4316-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-a9320d4316-161663804",
+   "timestamp": "20240710205742",
+   "wayback_url": "https://web.archive.org/web/20240710205742id_/https://canadanickel.com/wp-content/uploads/2024/07/Canada-Nickel-Press-Release_Auramet_Closing_Release_VF1_July-9-2024.pdf?utm_source=RCKS+Master+Audience&utm_campaign=a9320d4316-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-a9320d4316-161663804",
+   "bytes": 144021,
+   "title": "Canada-Nickel-Press-Release_Auramet_Closing_Release_VF1_July-9-2024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/07/CNC-Canada-Nickel-Announces-Initial-Deloro-Resource-20240717-VF.pdf",
+   "timestamp": "20240718163115",
+   "wayback_url": "https://web.archive.org/web/20240718163115id_/https://canadanickel.com/wp-content/uploads/2024/07/CNC-Canada-Nickel-Announces-Initial-Deloro-Resource-20240717-VF.pdf",
+   "bytes": 605353,
+   "title": "CNC-Canada-Nickel-Announces-Initial-Deloro-Resource-20240717-VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/07/CNC_InvestorDeck_July29_2024_VF.pdf",
+   "timestamp": "20240805041619",
+   "wayback_url": "https://web.archive.org/web/20240805041619id_/https://canadanickel.com/wp-content/uploads/2024/07/CNC_InvestorDeck_July29_2024_VF.pdf",
+   "bytes": 1432847,
+   "title": "CNC_InvestorDeck_July29_2024_VF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/08/08.08.2024-Canada-Nickel-Press-Release_Reid_Final4-1.pdf",
+   "timestamp": "20240813182540",
+   "wayback_url": "https://web.archive.org/web/20240813182540id_/https://canadanickel.com/wp-content/uploads/2024/08/08.08.2024-Canada-Nickel-Press-Release_Reid_Final4-1.pdf",
+   "bytes": 645828,
+   "title": "08.08.2024-Canada-Nickel-Press-Release_Reid_Final4-1.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/09/Canada-Nickel-Company-07-31-2024-_Q3-Financial-Statements-VF-.pdf",
+   "timestamp": "20241213142921",
+   "wayback_url": "https://web.archive.org/web/20241213142921id_/https://canadanickel.com/wp-content/uploads/2024/09/Canada-Nickel-Company-07-31-2024-_Q3-Financial-Statements-VF-.pdf",
+   "bytes": 400799,
+   "title": "Canada-Nickel-Company-07-31-2024-_Q3-Financial-Statements-VF-.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/09/Canada-Nickel-Press-Release-Deloro-Sedar-Filing_VFF_09.04.2024.pdf",
+   "timestamp": "20241108210347",
+   "wayback_url": "https://web.archive.org/web/20241108210347id_/https://canadanickel.com/wp-content/uploads/2024/09/Canada-Nickel-Press-Release-Deloro-Sedar-Filing_VFF_09.04.2024.pdf",
+   "bytes": 194322,
+   "title": "Canada-Nickel-Press-Release-Deloro-Sedar-Filing_VFF_09.04.2024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/09/Canada-Nickel-Press-Release_AdvisoryBoard_NZM_PR_VF_09.17.2024.pdf",
+   "timestamp": "20240917150821",
+   "wayback_url": "https://web.archive.org/web/20240917150821id_/https://canadanickel.com/wp-content/uploads/2024/09/Canada-Nickel-Press-Release_AdvisoryBoard_NZM_PR_VF_09.17.2024.pdf",
+   "bytes": 203099,
+   "title": "Canada-Nickel-Press-Release_AdvisoryBoard_NZM_PR_VF_09.17.2024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/09/Canada-Nickel-Press-Release_AdvisoryBoard_NZM_PR_VF_09.17.2024.pdf?utm_source=RCKS+Master+Audience&utm_campaign=1e190705f6-EMAIL_CAMPAIGN_2018_04_10_COPY_03&utm_medium=email&utm_term=0_2d6e7dc0d4-1e190705f6-161658396",
+   "timestamp": "20240920021740",
+   "wayback_url": "https://web.archive.org/web/20240920021740id_/https://canadanickel.com/wp-content/uploads/2024/09/Canada-Nickel-Press-Release_AdvisoryBoard_NZM_PR_VF_09.17.2024.pdf?utm_source=RCKS+Master+Audience&utm_campaign=1e190705f6-EMAIL_CAMPAIGN_2018_04_10_COPY_03&utm_medium=email&utm_term=0_2d6e7dc0d4-1e190705f6-161658396",
+   "bytes": 203197,
+   "title": "Canada-Nickel-Press-Release_AdvisoryBoard_NZM_PR_VF_09.17.2024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/09/Canada-Nickel-Press-Release_EDC_VF1_09.06.2024.pdf",
+   "timestamp": "20240907000322",
+   "wayback_url": "https://web.archive.org/web/20240907000322id_/https://canadanickel.com/wp-content/uploads/2024/09/Canada-Nickel-Press-Release_EDC_VF1_09.06.2024.pdf",
+   "bytes": 185734,
+   "title": "Canada-Nickel-Press-Release_EDC_VF1_09.06.2024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/09/Canada-Nickel-Press-Release_Sept2024-Regional-Update-FINAL_final.pdf",
+   "timestamp": "20241116031205",
+   "wayback_url": "https://web.archive.org/web/20241116031205id_/https://canadanickel.com/wp-content/uploads/2024/09/Canada-Nickel-Press-Release_Sept2024-Regional-Update-FINAL_final.pdf",
+   "bytes": 2496086,
+   "title": "Canada-Nickel-Press-Release_Sept2024-Regional-Update-FINAL_final.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/09/Canada-Nickel-Press-Release_VF1_09.12.2024.pdf",
+   "timestamp": "20240913220638",
+   "wayback_url": "https://web.archive.org/web/20240913220638id_/https://canadanickel.com/wp-content/uploads/2024/09/Canada-Nickel-Press-Release_VF1_09.12.2024.pdf",
+   "bytes": 182527,
+   "title": "Canada-Nickel-Press-Release_VF1_09.12.2024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/10/Canada-NIckel-News-Release_Oct-31-2024_Regional-Update_VF-1.pdf",
+   "timestamp": "20241102041819",
+   "wayback_url": "https://web.archive.org/web/20241102041819id_/https://canadanickel.com/wp-content/uploads/2024/10/Canada-NIckel-News-Release_Oct-31-2024_Regional-Update_VF-1.pdf",
+   "bytes": 1150902,
+   "title": "Canada-NIckel-News-Release_Oct-31-2024_Regional-Update_VF-1.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/10/Canada-Nickel-Press-Release-Impact-Statement-Filing-20241002-FINAL.pdf",
+   "timestamp": "20241003144104",
+   "wayback_url": "https://web.archive.org/web/20241003144104id_/https://canadanickel.com/wp-content/uploads/2024/10/Canada-Nickel-Press-Release-Impact-Statement-Filing-20241002-FINAL.pdf",
+   "bytes": 141772,
+   "title": "Canada-Nickel-Press-Release-Impact-Statement-Filing-20241002-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/10/Canada-Nickel-Press-Release-Impact-Statement-Filing-20241002-FINAL.pdf?utm_source=RCKS+Master+Audience&utm_campaign=10fdfa5b82-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-10fdfa5b82-161658396",
+   "timestamp": "20241004172016",
+   "wayback_url": "https://web.archive.org/web/20241004172016id_/https://canadanickel.com/wp-content/uploads/2024/10/Canada-Nickel-Press-Release-Impact-Statement-Filing-20241002-FINAL.pdf?utm_source=RCKS+Master+Audience&utm_campaign=10fdfa5b82-EMAIL_CAMPAIGN_2018_04_10_COPY_01&utm_medium=email&utm_term=0_2d6e7dc0d4-10fdfa5b82-161658396",
+   "bytes": 141908,
+   "title": "Canada-Nickel-Press-Release-Impact-Statement-Filing-20241002-FINAL.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/10/Canada-Nickel-Press_Release_BoardAppointment_VF_10.21.2024.pdf",
+   "timestamp": "20241102181120",
+   "wayback_url": "https://web.archive.org/web/20241102181120id_/https://canadanickel.com/wp-content/uploads/2024/10/Canada-Nickel-Press_Release_BoardAppointment_VF_10.21.2024.pdf",
+   "bytes": 161990,
+   "title": "Canada-Nickel-Press_Release_BoardAppointment_VF_10.21.2024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/10/CNC-PR-CMIF-Funding-20241009-FINAL-UPDATED_1.pdf",
+   "timestamp": "20241102132303",
+   "wayback_url": "https://web.archive.org/web/20241102132303id_/https://canadanickel.com/wp-content/uploads/2024/10/CNC-PR-CMIF-Funding-20241009-FINAL-UPDATED_1.pdf",
+   "bytes": 166474,
+   "title": "CNC-PR-CMIF-Funding-20241009-FINAL-UPDATED_1.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/10/CNC_InvestorDeck_Oct_2024_VFF.pdf",
+   "timestamp": "20241003174150",
+   "wayback_url": "https://web.archive.org/web/20241003174150id_/https://canadanickel.com/wp-content/uploads/2024/10/CNC_InvestorDeck_Oct_2024_VFF.pdf",
+   "bytes": 1480090,
+   "title": "CNC_InvestorDeck_Oct_2024_VFF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/11/Canada-Nickel-Company-PR-Canada-Nickel-Releases-ESG-Report-VF.pdf",
+   "timestamp": "20241104123146",
+   "wayback_url": "https://web.archive.org/web/20241104123146id_/https://canadanickel.com/wp-content/uploads/2024/11/Canada-Nickel-Company-PR-Canada-Nickel-Releases-ESG-Report-VF.pdf",
+   "bytes": 175409,
+   "title": "Canada-Nickel-Company-PR-Canada-Nickel-Releases-ESG-Report-VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/11/Canada-Nickel-Company_2023_ESG-Report.pdf",
+   "timestamp": "20241104115312",
+   "wayback_url": "https://web.archive.org/web/20241104115312id_/https://canadanickel.com/wp-content/uploads/2024/11/Canada-Nickel-Company_2023_ESG-Report.pdf",
+   "bytes": 13778938,
+   "title": "Canada-Nickel-Company_2023_ESG-Report.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/11/Canada-Nickel-Company_NR_Nov2024-Bannockburn-Update-vFinal.pdf",
+   "timestamp": "20241105171246",
+   "wayback_url": "https://web.archive.org/web/20241105171246id_/https://canadanickel.com/wp-content/uploads/2024/11/Canada-Nickel-Company_NR_Nov2024-Bannockburn-Update-vFinal.pdf",
+   "bytes": 931868,
+   "title": "Canada-Nickel-Company_NR_Nov2024-Bannockburn-Update-vFinal.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/11/Canada-Nickel-Press-Release_Canada-Nickel-Files-Final-Impact-Statement_VF_11.26.2024.pdf",
+   "timestamp": "20241126145436",
+   "wayback_url": "https://web.archive.org/web/20241126145436id_/https://canadanickel.com/wp-content/uploads/2024/11/Canada-Nickel-Press-Release_Canada-Nickel-Files-Final-Impact-Statement_VF_11.26.2024.pdf",
+   "bytes": 216792,
+   "title": "Canada-Nickel-Press-Release_Canada-Nickel-Files-Final-Impact-Statement_VF_11.26.2024.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/11/Canada-Nickel-Press-Release_Nov-27-2024-Bannockburn-BAN20-update_VF.pdf",
+   "timestamp": "20241127154526",
+   "wayback_url": "https://web.archive.org/web/20241127154526id_/https://canadanickel.com/wp-content/uploads/2024/11/Canada-Nickel-Press-Release_Nov-27-2024-Bannockburn-BAN20-update_VF.pdf",
+   "bytes": 887476,
+   "title": "Canada-Nickel-Press-Release_Nov-27-2024-Bannockburn-BAN20-update_VF.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/11/Canada-Nickel-Press-Release_Nov2024-Bannockburn-Assay-Update_FINAL.pdf",
+   "timestamp": "20241111140327",
+   "wayback_url": "https://web.archive.org/web/20241111140327id_/https://canadanickel.com/wp-content/uploads/2024/11/Canada-Nickel-Press-Release_Nov2024-Bannockburn-Assay-Update_FINAL.pdf",
+   "bytes": 1498795,
+   "title": "Canada-Nickel-Press-Release_Nov2024-Bannockburn-Assay-Update_FINAL.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/11/Canada-Nickel_InvestorDeck_Nov_2024_VFF1.pdf",
+   "timestamp": "20250117173525",
+   "wayback_url": "https://web.archive.org/web/20250117173525id_/https://canadanickel.com/wp-content/uploads/2024/11/Canada-Nickel_InvestorDeck_Nov_2024_VFF1.pdf",
+   "bytes": 977999,
+   "title": "Canada-Nickel_InvestorDeck_Nov_2024_VFF1.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/11/CNC-Community-Newsletter-November-2024-FINAL1.pdf",
+   "timestamp": "20241118150902",
+   "wayback_url": "https://web.archive.org/web/20241118150902id_/https://canadanickel.com/wp-content/uploads/2024/11/CNC-Community-Newsletter-November-2024-FINAL1.pdf",
+   "bytes": 22374704,
+   "title": "CNC-Community-Newsletter-November-2024-FINAL1.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/11/CNC-Community-Newsletter-November-2024-FINAL3.pdf",
+   "timestamp": "20241118205425",
+   "wayback_url": "https://web.archive.org/web/20241118205425id_/https://canadanickel.com/wp-content/uploads/2024/11/CNC-Community-Newsletter-November-2024-FINAL3.pdf",
+   "bytes": 22375113,
+   "title": "CNC-Community-Newsletter-November-2024-FINAL3.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "http://canadanickel.com/wp-content/uploads/2024/11/CNC-PR-Canada-Nickel-Files-Final-Impact-Statement_VFinal1.pdf",
+   "timestamp": "20241213111629",
+   "wayback_url": "https://web.archive.org/web/20241213111629id_/http://canadanickel.com/wp-content/uploads/2024/11/CNC-PR-Canada-Nickel-Files-Final-Impact-Statement_VFinal1.pdf",
+   "bytes": 217174,
+   "title": "CNC-PR-Canada-Nickel-Files-Final-Impact-Statement_VFinal1.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/12/Canada-Nickel-Press-Release_Dec-04-2024-Bannockburn-Assay-Update-VF.pdf",
+   "timestamp": "20250117164332",
+   "wayback_url": "https://web.archive.org/web/20250117164332id_/https://canadanickel.com/wp-content/uploads/2024/12/Canada-Nickel-Press-Release_Dec-04-2024-Bannockburn-Assay-Update-VF.pdf",
+   "bytes": 445445,
+   "title": "Canada-Nickel-Press-Release_Dec-04-2024-Bannockburn-Assay-Update-VF.pdf",
+   "type": "newsletter",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/12/CNC-NR_Dec2024-Regional-Update_VF1.pdf",
+   "timestamp": "20250117165106",
+   "wayback_url": "https://web.archive.org/web/20250117165106id_/https://canadanickel.com/wp-content/uploads/2024/12/CNC-NR_Dec2024-Regional-Update_VF1.pdf",
+   "bytes": 835682,
+   "title": "CNC-NR_Dec2024-Regional-Update_VF1.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/12/CNC-PR-Impact-Statement-Moves-into-Next-Phase-20241209-VF.pdf",
+   "timestamp": "20241210144228",
+   "wayback_url": "https://web.archive.org/web/20241210144228id_/https://canadanickel.com/wp-content/uploads/2024/12/CNC-PR-Impact-Statement-Moves-into-Next-Phase-20241209-VF.pdf",
+   "bytes": 207250,
+   "title": "CNC-PR-Impact-Statement-Moves-into-Next-Phase-20241209-VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/12/CNC-PR-TTN-Equity-Deal_VFF.pdf",
+   "timestamp": "20241216145100",
+   "wayback_url": "https://web.archive.org/web/20241216145100id_/https://canadanickel.com/wp-content/uploads/2024/12/CNC-PR-TTN-Equity-Deal_VFF.pdf",
+   "bytes": 192203,
+   "title": "CNC-PR-TTN-Equity-Deal_VFF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/12/CNC-Press-Release_Canada-Nickel-Announces-Initial-Reid-Resource_VFF.pdf",
+   "timestamp": "20241223145526",
+   "wayback_url": "https://web.archive.org/web/20241223145526id_/https://canadanickel.com/wp-content/uploads/2024/12/CNC-Press-Release_Canada-Nickel-Announces-Initial-Reid-Resource_VFF.pdf",
+   "bytes": 892345,
+   "title": "CNC-Press-Release_Canada-Nickel-Announces-Initial-Reid-Resource_VFF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/12/CNC_InvestorDeck_Dec_2024_VFF.pdf",
+   "timestamp": "20250123155500",
+   "wayback_url": "https://web.archive.org/web/20250123155500id_/https://canadanickel.com/wp-content/uploads/2024/12/CNC_InvestorDeck_Dec_2024_VFF.pdf",
+   "bytes": 1463589,
+   "title": "CNC_InvestorDeck_Dec_2024_VFF.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2024/12/CNC_InvestorDeck_Dec_2024_VFR.pdf",
+   "timestamp": "20250113191706",
+   "wayback_url": "https://web.archive.org/web/20250113191706id_/https://canadanickel.com/wp-content/uploads/2024/12/CNC_InvestorDeck_Dec_2024_VFR.pdf",
+   "bytes": 3462588,
+   "title": "CNC_InvestorDeck_Dec_2024_VFR.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2025/01/Canada-Nickel-PR-NZM-CMIF-Announcement-20250115-FINAL.pdf",
+   "timestamp": "20250115195504",
+   "wayback_url": "https://web.archive.org/web/20250115195504id_/https://canadanickel.com/wp-content/uploads/2025/01/Canada-Nickel-PR-NZM-CMIF-Announcement-20250115-FINAL.pdf",
+   "bytes": 185294,
+   "title": "Canada-Nickel-PR-NZM-CMIF-Announcement-20250115-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2025/01/CNC-Canada-Nickel_Surface-RIghts-VFF_01072025.pdf",
+   "timestamp": "20250117173039",
+   "wayback_url": "https://web.archive.org/web/20250117173039id_/https://canadanickel.com/wp-content/uploads/2025/01/CNC-Canada-Nickel_Surface-RIghts-VFF_01072025.pdf",
+   "bytes": 159622,
+   "title": "CNC-Canada-Nickel_Surface-RIghts-VFF_01072025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2025/01/CNC-PR-Equal-by-30-20250106-VF.pdf",
+   "timestamp": "20250117184055",
+   "wayback_url": "https://web.archive.org/web/20250117184055id_/https://canadanickel.com/wp-content/uploads/2025/01/CNC-PR-Equal-by-30-20250106-VF.pdf",
+   "bytes": 189042,
+   "title": "CNC-PR-Equal-by-30-20250106-VF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2025/01/CNC_Corporate_Update_VFF_01092025.pdf",
+   "timestamp": "20250409193824",
+   "wayback_url": "https://web.archive.org/web/20250409193824id_/https://canadanickel.com/wp-content/uploads/2025/01/CNC_Corporate_Update_VFF_01092025.pdf",
+   "bytes": 149145,
+   "title": "CNC_Corporate_Update_VFF_01092025.pdf",
+   "type": "newsletter",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2025/07/Canada-Nickel-Company-04-30-2025vF-.pdf",
+   "timestamp": "20250803225354",
+   "wayback_url": "https://web.archive.org/web/20250803225354id_/https://canadanickel.com/wp-content/uploads/2025/07/Canada-Nickel-Company-04-30-2025vF-.pdf",
+   "bytes": 448975,
+   "title": "Canada-Nickel-Company-04-30-2025vF-.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2025/07/Canada-Nickel-Company-Q2-2025-MDA-vF.pdf",
+   "timestamp": "20250803225359",
+   "wayback_url": "https://web.archive.org/web/20250803225359id_/https://canadanickel.com/wp-content/uploads/2025/07/Canada-Nickel-Company-Q2-2025-MDA-vF.pdf",
+   "bytes": 405176,
+   "title": "Canada-Nickel-Company-Q2-2025-MDA-vF.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2025/07/Canada_Nickel_Company_2024_ESG_Report-FINAL.pdf",
+   "timestamp": "20250803225337",
+   "wayback_url": "https://web.archive.org/web/20250803225337id_/https://canadanickel.com/wp-content/uploads/2025/07/Canada_Nickel_Company_2024_ESG_Report-FINAL.pdf",
+   "bytes": 55563432,
+   "title": "Canada_Nickel_Company_2024_ESG_Report-FINAL.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2025/07/Canada_Nickel_Company_Press-Release_Mann_Sedar_Filing_VFF3_07.29.2025.pdf",
+   "timestamp": "20250803225343",
+   "wayback_url": "https://web.archive.org/web/20250803225343id_/https://canadanickel.com/wp-content/uploads/2025/07/Canada_Nickel_Company_Press-Release_Mann_Sedar_Filing_VFF3_07.29.2025.pdf",
+   "bytes": 180833,
+   "title": "Canada_Nickel_Company_Press-Release_Mann_Sedar_Filing_VFF3_07.29.2025.pdf",
+   "type": "other",
+   "noise": true
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2025/07/CanNickel-ESG-Report2023-print.pdf",
+   "timestamp": "20250803225400",
+   "wayback_url": "https://web.archive.org/web/20250803225400id_/https://canadanickel.com/wp-content/uploads/2025/07/CanNickel-ESG-Report2023-print.pdf",
+   "bytes": 41271135,
+   "title": "CanNickel-ESG-Report2023-print.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2025/07/Caracle_CNC-MannProject-MRE-TR-July28_2025_Final.pdf",
+   "timestamp": "20250803225337",
+   "wayback_url": "https://web.archive.org/web/20250803225337id_/https://canadanickel.com/wp-content/uploads/2025/07/Caracle_CNC-MannProject-MRE-TR-July28_2025_Final.pdf",
+   "bytes": 13269624,
+   "title": "Caracle_CNC-MannProject-MRE-TR-July28_2025_Final.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2025/07/CNC-Canada-Nickel-Announces-Initial-Mann-CE-Resource-and-Texmont_VFF_1_07.15.2025.pdf",
+   "timestamp": "20250803225405",
+   "wayback_url": "https://web.archive.org/web/20250803225405id_/https://canadanickel.com/wp-content/uploads/2025/07/CNC-Canada-Nickel-Announces-Initial-Mann-CE-Resource-and-Texmont_VFF_1_07.15.2025.pdf",
+   "bytes": 1356343,
+   "title": "CNC-Canada-Nickel-Announces-Initial-Mann-CE-Resource-and-Texmont_VFF_1_07.15.2025.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2025/07/CNC_PR_Compensation_July_21_2025_VF-002.pdf",
+   "timestamp": "20250803225347",
+   "wayback_url": "https://web.archive.org/web/20250803225347id_/https://canadanickel.com/wp-content/uploads/2025/07/CNC_PR_Compensation_July_21_2025_VF-002.pdf",
+   "bytes": 153682,
+   "title": "CNC_PR_Compensation_July_21_2025_VF-002.pdf",
+   "type": "other",
+   "noise": false
+  },
+  {
+   "url": "https://canadanickel.com/wp-content/uploads/2025/07/CNC_PR_Compensation_July_21_2025_VF.pdf",
+   "timestamp": "20250803225353",
+   "wayback_url": "https://web.archive.org/web/20250803225353id_/https://canadanickel.com/wp-content/uploads/2025/07/CNC_PR_Compensation_July_21_2025_VF.pdf",
+   "bytes": 156929,
+   "title": "CNC_PR_Compensation_July_21_2025_VF.pdf",
+   "type": "other",
+   "noise": false
+  }
+ ],
+ "doc_types": {
+  "other": 253,
+  "newsletter": 22,
+  "presentation": 3,
+  "engagement": 2,
+  "permit_approval": 2
+ }
+}
