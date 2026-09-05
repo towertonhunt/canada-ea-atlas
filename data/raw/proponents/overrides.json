@@ -118,7 +118,13 @@
   "browser_first": true
  },
  "bc hydro": {
-  "website": "https://www.bchydro.com/"
+  "website": "https://www.bchydro.com/",
+  "wayback_paths": [
+   "content/dam",
+   "content/dam/BCHydro",
+   "hydro/content/dam",
+   "etc/medialib"
+  ]
  },
  "manitoba hydro": {
   "website": "https://www.hydro.mb.ca/"

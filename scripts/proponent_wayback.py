@@ -45,14 +45,20 @@ NOISE = re.compile(r'annual[-_ ]?report|financial|investor|quarterly|proxy|circu
                    r'/fr/|_fr\.|french|-fr\.pdf', re.I)
 
 
-def cdx(host, mime, timeout=600, tries=4):
+def cdx_pattern(host, path_prefix=None):
+    """'host/*' or, for hosts whose full index times out (bchydro.com),
+    'host/<prefix>/*' -- set per key as "wayback_paths" in overrides.json."""
+    return f'{host}/{path_prefix.strip("/")}/*' if path_prefix else f'{host}/*'
+
+
+def cdx(host, mime, timeout=600, tries=4, path_prefix=None):
     """One query per host and MIME type. The CDX server is slow and
     rate-limited (503/504 under load), so: a single large request, a long
     timeout, and exponential backoff rather than many small pages."""
     q = urllib.parse.urlencode({
-        'url': f'{host}/*', 'filter': f'mimetype:{mime}', 'collapse': 'urlkey',
-        'fl': 'original,timestamp,length,statuscode', 'output': 'json',
-        'limit': 60000})
+        'url': cdx_pattern(host, path_prefix), 'filter': f'mimetype:{mime}',
+        'collapse': 'urlkey', 'fl': 'original,timestamp,length,statuscode',
+        'output': 'json', 'limit': 60000})
     req = urllib.request.Request(f'{CDX}?{q}', headers=UA)
     for attempt in range(tries):
         try:
@@ -76,15 +82,15 @@ def apex(host):
     return host[4:] if host.startswith('www.') else host
 
 
-def cdx_by_year(host, mime, first=1996, last=2026):
+def cdx_by_year(host, mime, first=1996, last=2026, path_prefix=None):
     """Big hosts (bchydro.com) make the CDX server time out on a single
     query; the same index split into one request per year comes back."""
     rows = []
     for y in range(first, last + 1):
         q = urllib.parse.urlencode({
-            'url': f'{host}/*', 'filter': f'mimetype:{mime}', 'collapse': 'urlkey',
-            'fl': 'original,timestamp,length,statuscode', 'output': 'json',
-            'from': str(y), 'to': str(y), 'limit': 60000})
+            'url': cdx_pattern(host, path_prefix), 'filter': f'mimetype:{mime}',
+            'collapse': 'urlkey', 'fl': 'original,timestamp,length,statuscode',
+            'output': 'json', 'from': str(y), 'to': str(y), 'limit': 60000})
         req = urllib.request.Request(f'{CDX}?{q}', headers=UA)
         for attempt in range(3):
             try:
@@ -98,16 +104,19 @@ def cdx_by_year(host, mime, first=1996, last=2026):
     return rows
 
 
-def harvest(host):
+def harvest(host, path_prefixes=None):
     docs, seen = [], set()
     host = apex(host)
     for mime in MIMES:
-        try:
-            rows = cdx(host, mime)
-        except Exception as e:                                   # noqa: BLE001
-            print(f'  cdx {mime.split("/")[-1]}: {str(e)[:60]} -> retrying year by year',
-                  flush=True)
-            rows = cdx_by_year(host, mime) if mime == 'application/pdf' else []
+        rows = []
+        for prefix in (path_prefixes or [None]):
+            try:
+                rows += cdx(host, mime, path_prefix=prefix)
+            except Exception as e:                               # noqa: BLE001
+                print(f'  cdx {mime.split("/")[-1]} {prefix or "/*"}: {str(e)[:50]} '
+                      f'-> retrying year by year', flush=True)
+                if mime == 'application/pdf':
+                    rows += cdx_by_year(host, mime, path_prefix=prefix)
         if True:
             for original, ts, length, status in rows:
                 if status not in ('200', '-') or original in seen:
@@ -134,6 +143,9 @@ def main():
     args = ap.parse_args()
     os.makedirs(OUT_DIR, exist_ok=True)
     targets = json.load(open(TARGETS))
+    ov_path = os.path.join(os.path.dirname(TARGETS), 'overrides.json')
+    overrides = {k: v for k, v in (json.load(open(ov_path)) if os.path.exists(ov_path) else {}).items()
+                 if isinstance(v, dict)}
     if args.key:
         todo = [t for t in targets if t['key'] == args.key]
     else:
@@ -145,8 +157,9 @@ def main():
         if os.path.exists(out) and not args.refresh:
             continue
         host = urllib.parse.urlsplit(t['website']).hostname
-        print(f'{t["name"]} -> {apex(host)}', flush=True)
-        docs = harvest(host)
+        paths = overrides.get(t['key'], {}).get('wayback_paths')
+        print(f'{t["name"]} -> {apex(host)}' + (f' paths {paths}' if paths else ''), flush=True)
+        docs = harvest(host, paths)
         kinds = collections.Counter(d['type'] for d in docs if not d['noise'])
         json.dump({'key': t['key'], 'name': t['name'], 'host': apex(host),
                    'harvested_at': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
