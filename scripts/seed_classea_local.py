@@ -199,8 +199,10 @@ def main():
         os.makedirs(os.path.dirname(dest), exist_ok=True)
         shutil.copyfile(d['local'], dest)
         data = open(d['local'], 'rb').read()
-        # keyed by source url where one exists, else by the object key
-        seed[d['url'] or d['key']] = {
+        # keyed by the URL the catalogue will carry: the source URL where
+        # there is one, else the archive URL itself -- so the lane, which
+        # looks records up by catalogue url, never re-fetches these
+        seed[d['url'] or f'{public}/{d["key"]}'] = {
             'jur': 'classea', 'project': p['slug'], 'title': d['title'][:200],
             'key': d['key'], 'archive_url': f'{public}/{d["key"]}', 'bytes': len(data),
             'sha256': hashlib.sha256(data).hexdigest(), 'content_type': 'application/pdf',
