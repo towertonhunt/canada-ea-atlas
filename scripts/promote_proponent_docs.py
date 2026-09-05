@@ -200,9 +200,13 @@ def main():
                 # match on what names the document -- its title and file name --
                 # not on directory names in the path ("/lower-mainland/" would
                 # otherwise tie every regional file to one project)
-                fname = urllib.parse.unquote(os.path.basename(
-                    urllib.parse.urlsplit(rec['url']).path.rstrip('/')))
+                upath = urllib.parse.unquote(urllib.parse.urlsplit(rec['url']).path.rstrip('/'))
+                fname = os.path.basename(upath)
                 blob = f"{rec['title']} {fname}".lower().replace('_', ' ').replace('-', ' ')
+                # exact folder names still count for a single, highly distinctive
+                # token: Hydro One files live in /majorprojects/Waasigan/Documents/
+                # with generic titles. "/lower-mainland/" does not equal "mainland".
+                segs = {seg.lower().replace('_', ' ') for seg in upath.split('/')[:-1]}
                 best, best_n = None, 0
                 fq = tokfreq.get(key, {})
                 for fk, name, toks, dp in projects.get(key, []):
@@ -211,6 +215,10 @@ def main():
                     n = len(hit)
                     ok_match = (n >= 2 and distinctive) or \
                                (n == 1 and len(hit[0]) >= 8 and fq.get(hit[0], 0) == 1)
+                    if not ok_match:
+                        folder = [t for t in toks if t in segs and len(t) >= 8 and fq.get(t, 0) == 1]
+                        if folder:
+                            hit, n, ok_match = folder, 1, True
                     if ok_match and n > best_n:
                         best, best_n = (fk, name, dp), n
                 entry = {'title': rec['title'] or os.path.basename(rec['url']),

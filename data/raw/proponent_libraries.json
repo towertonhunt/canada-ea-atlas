@@ -12,7 +12,7 @@
   "name": "Air Products: EA document library",
   "proponent": "Air Products",
   "website": "http://www.airproducts.be/",
-  "doc_count": 11,
+  "doc_count": 10,
   "docs_path": "data/docs/proponent/library-air-products.json"
  },
  {
@@ -60,7 +60,7 @@
   "name": "BC Hydro: EA document library",
   "proponent": "BC Hydro",
   "website": "https://www.bchydro.com/",
-  "doc_count": 2462,
+  "doc_count": 2461,
   "docs_path": "data/docs/proponent/library-bc-hydro.json"
  },
  {
@@ -84,7 +84,7 @@
   "name": "Canada Nickel Company: EA document library",
   "proponent": "Canada Nickel Company",
   "website": "https://canadanickel.com/",
-  "doc_count": 10,
+  "doc_count": 9,
   "docs_path": "data/docs/proponent/library-canada-nickel.json"
  },
  {
@@ -116,7 +116,7 @@
   "name": "Cenovus Energy Inc.: EA document library",
   "proponent": "Cenovus Energy Inc.",
   "website": "https://www.cenovus.com/",
-  "doc_count": 401,
+  "doc_count": 400,
   "docs_path": "data/docs/proponent/library-cenovus-energy.json"
  },
  {
@@ -124,7 +124,7 @@
   "name": "Champion Iron Mines Ltd.: EA document library",
   "proponent": "Champion Iron Mines Ltd.",
   "website": "https://www.championiron.com/",
-  "doc_count": 6,
+  "doc_count": 4,
   "docs_path": "data/docs/proponent/library-champion-iron.json"
  },
  {
@@ -140,7 +140,7 @@
   "name": "Denison Mines Corp.: EA document library",
   "proponent": "Denison Mines Corp.",
   "website": "https://www.denisonmines.com/",
-  "doc_count": 19,
+  "doc_count": 16,
   "docs_path": "data/docs/proponent/library-denison-mines.json"
  },
  {
@@ -148,7 +148,7 @@
   "name": "Enbridge Inc.: EA document library",
   "proponent": "Enbridge Inc.",
   "website": "https://www.enbridge.com/",
-  "doc_count": 1113,
+  "doc_count": 1105,
   "docs_path": "data/docs/proponent/library-enbridge.json"
  },
  {
@@ -164,7 +164,7 @@
   "name": "EverWind Fuels: EA document library",
   "proponent": "EverWind Fuels",
   "website": "https://everwindfuels.com/",
-  "doc_count": 93,
+  "doc_count": 92,
   "docs_path": "data/docs/proponent/library-everwind-fuels.json"
  },
  {
@@ -196,7 +196,7 @@
   "name": "Glencore plc: EA document library",
   "proponent": "Glencore plc",
   "website": "https://www.glencore.ca/",
-  "doc_count": 25,
+  "doc_count": 23,
   "docs_path": "data/docs/proponent/library-glencore.json"
  },
  {
@@ -212,7 +212,7 @@
   "name": "Hydro One: EA document library",
   "proponent": "Hydro One",
   "website": "https://www.hydroone.com/",
-  "doc_count": 1246,
+  "doc_count": 1215,
   "docs_path": "data/docs/proponent/library-hydro-one.json"
  },
  {
@@ -220,7 +220,7 @@
   "name": "Hydro-Québec: EA document library",
   "proponent": "Hydro-Québec",
   "website": "https://www.hydroquebec.com/",
-  "doc_count": 436,
+  "doc_count": 435,
   "docs_path": "data/docs/proponent/library-hydro-qu-bec.json"
  },
  {
@@ -284,7 +284,7 @@
   "name": "Manitoba Hydro: EA document library",
   "proponent": "Manitoba Hydro",
   "website": "https://www.hydro.mb.ca/",
-  "doc_count": 2807,
+  "doc_count": 2746,
   "docs_path": "data/docs/proponent/library-manitoba-hydro.json"
  },
  {
@@ -292,7 +292,7 @@
   "name": "Nemaska Lithium inc.: EA document library",
   "proponent": "Nemaska Lithium inc.",
   "website": "https://nemaskalithium.com/",
-  "doc_count": 34,
+  "doc_count": 31,
   "docs_path": "data/docs/proponent/library-nemaska-lithium.json"
  },
  {
@@ -308,7 +308,7 @@
   "name": "Newfoundland Power Inc.: EA document library",
   "proponent": "Newfoundland Power Inc.",
   "website": "http://www.newfoundlandpower.com/",
-  "doc_count": 19,
+  "doc_count": 15,
   "docs_path": "data/docs/proponent/library-newfoundland-power.json"
  },
  {
@@ -340,7 +340,7 @@
   "name": "Nuclear Waste Management Organization: EA document library",
   "proponent": "Nuclear Waste Management Organization",
   "website": "https://www.nwmo.ca/",
-  "doc_count": 1124,
+  "doc_count": 1123,
   "docs_path": "data/docs/proponent/library-nuclear-waste-management-organization.json"
  },
  {
@@ -348,7 +348,7 @@
   "name": "Ontario Power Generation: EA document library",
   "proponent": "Ontario Power Generation",
   "website": "https://www.opg.com/",
-  "doc_count": 386,
+  "doc_count": 381,
   "docs_path": "data/docs/proponent/library-ontario-power-generation.json"
  },
  {
@@ -380,7 +380,7 @@
   "name": "Rubellite Energy Inc.: EA document library",
   "proponent": "Rubellite Energy Inc.",
   "website": "https://www.rubelliteenergy.com/",
-  "doc_count": 7,
+  "doc_count": 4,
   "docs_path": "data/docs/proponent/library-rubellite-energy.json"
  },
  {
@@ -396,7 +396,7 @@
   "name": "Shell Canada: EA document library",
   "proponent": "Shell Canada",
   "website": "https://www.shell.ca/",
-  "doc_count": 81,
+  "doc_count": 63,
   "docs_path": "data/docs/proponent/library-shell-canada.json"
  },
  {
@@ -412,7 +412,7 @@
   "name": "Syncrude Canada Ltd.: EA document library",
   "proponent": "Syncrude Canada Ltd.",
   "website": "https://www.syncrude.ca/",
-  "doc_count": 9,
+  "doc_count": 8,
   "docs_path": "data/docs/proponent/library-syncrude-canada.json"
  },
  {
@@ -436,7 +436,7 @@
   "name": "Teck Resources: EA document library",
   "proponent": "Teck Resources",
   "website": "https://www.teck.com/",
-  "doc_count": 259,
+  "doc_count": 255,
   "docs_path": "data/docs/proponent/library-teck-resources.json"
  },
  {
