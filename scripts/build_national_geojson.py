@@ -3,6 +3,9 @@
 
 Sources merged:
   - projects.geojson            Ontario REA projects (existing, with doc libraries)
+  - data/raw/rea_instruments.json     parsed REA instrument headings + issue dates
+                                (scripts/fetch_rea_instruments.py) used to give
+                                every Access Environment link a distinct name
   - data/raw/federal_layer*.geojson   IAAC assessment inventory (Completed / In progress / Terminated)
   - data/raw/bc_epic_projects.json    BC EAO project list (EPIC API)
   - data/raw/ns_ea_projects.html      Nova Scotia EA project table (no coordinates yet)
@@ -92,15 +95,68 @@ def categorize(type_str):
     return 'other'
 
 
+
+# ── Ontario REA instrument naming ────────────────────────────────────
+# Access Environment publishes the approval and each later amendment as a
+# separate instrument PDF, and the harvest titles them all "Renewable Energy
+# Approval" - Marsh Hill Solar Farm shows five identical links. scripts/
+# fetch_rea_instruments.py reads page one of each PDF for its heading and
+# "Issue Date:"; here that becomes the display title:
+#     2013-Apr-15 - Renewable Energy Approval
+#     2014-May-21 - Renewable Energy Approval Amendment
+REA_INSTRUMENTS = os.path.join(RAW, 'rea_instruments.json')
+_MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+
+def pretty_date(iso):
+    """2013-04-15 -> 2013-Apr-15 (the format the site names documents in)."""
+    m = re.match(r'(\d{4})-(\d{2})-(\d{2})$', iso or '')
+    return f'{m.group(1)}-{_MON[int(m.group(2)) - 1]}-{m.group(3)}' if m else None
+
+
+def name_rea_documents(feat, instruments):
+    """Retitle a project's instrument links in place; return docs renamed."""
+    n = 0
+    for sec in feat['properties'].get('doc_sections') or []:
+        for d in sec.get('docs') or []:
+            rec = instruments.get(d.get('url') or '')
+            if not rec or rec.get('status') != 'ok':
+                continue
+            base = rec.get('title') or d.get('title')
+            date = pretty_date(rec.get('issue_date'))
+            d['title'] = f'{date} - {base}' if date else base
+            d['instrument_kind'] = rec.get('kind')
+            if rec.get('issue_date'):
+                d['date'] = rec['issue_date']
+            if rec.get('rea_number'):
+                d['rea_number'] = rec['rea_number']
+            n += 1
+        # Oldest first: the original approval, then amendments in sequence.
+        # Anything the parse could not date keeps its position at the end.
+        sec['docs'].sort(key=lambda x: (x.get('date') is None, x.get('date') or ''))
+        kinds = {x.get('instrument_kind') for x in sec['docs']}
+        if kinds == {'approval'} or kinds == {'approval', 'amendment'}:
+            if len(sec['docs']) > 1:
+                sec['label'] = 'Renewable Energy Approval & amendments'
+    return n
+
+
 # ── Ontario REA (existing map data, keep everything) ─────────────────
 ont = json.load(open(os.path.join(ROOT, 'projects.geojson')))
+rea_instruments = (json.load(open(REA_INSTRUMENTS))
+                   if os.path.exists(REA_INSTRUMENTS) else {})
+n_named = 0
 for f in ont['features']:
     p = f['properties']
     p['jurisdiction'] = 'Ontario (REA)'
     p['source'] = 'ontario_rea'
     p['status'] = 'Approved'
+    if rea_instruments:
+        n_named += name_rea_documents(f, rea_instruments)
     add(f)
-print(f'ontario REA: {len(ont["features"])}')
+print(f'ontario REA: {len(ont["features"])} ({n_named} instrument links named'
+      f' from {len(rea_instruments)} parsed instruments)')
 
 # ── Federal IAAC inventory ───────────────────────────────────────────
 LAYER_STATUS = {0: 'Completed', 1: 'In progress', 2: 'Terminated'}
