@@ -9,8 +9,8 @@
     {
       "source": "ero_on",
       "label": "Environmental Registry of Ontario (EA notices)",
-      "fetched": "2026-09-04",
-      "count": 124
+      "fetched": "2026-09-05",
+      "count": 125
     },
     {
       "source": "nrcan_mpi",
@@ -26,9 +26,9 @@
     }
   ],
   "summary": {
-    "gap": 689,
-    "weak": 696,
-    "matched": 349
+    "gap": 674,
+    "weak": 704,
+    "matched": 357
   },
   "thresholds": {
     "strong": 0.72,
@@ -99,35 +99,12 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.329,
-      "name_score": 0.329,
+      "score": 0.328,
+      "name_score": 0.328,
       "match": {
         "id": null,
         "name": "Bulrush Natural Gas Production and Processing Facility",
         "jurisdiction": "British Columbia (EAO)"
-      }
-    },
-    {
-      "source": "ab_majors",
-      "ext": {
-        "ext_id": null,
-        "name": "North West Bitumen Upgrader Phase 1",
-        "proponent": "North West Redwater Partnership (Canadian Natural Resources Ltd. (CNRL) / North West Upgrading Inc.)",
-        "province": null,
-        "sector": "Oil Sands",
-        "value_cad": 8500000000.0,
-        "status": "Under Construction",
-        "coords": null,
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.337,
-      "name_score": 0.337,
-      "match": {
-        "id": null,
-        "name": "Great Sandhills Railway Switching Operation at North West Terminal Project",
-        "jurisdiction": "Federal (IAAC)"
       }
     },
     {
@@ -266,8 +243,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.36,
-      "name_score": 0.36,
+      "score": 0.358,
+      "name_score": 0.358,
       "match": {
         "id": null,
         "name": "Bear Head Energy Green Hydrogen and Ammonia Production, Storage and Loading Facility",
@@ -289,8 +266,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.334,
-      "name_score": 0.334,
+      "score": 0.335,
+      "name_score": 0.335,
       "match": {
         "id": null,
         "name": "Mink Oil Production Plant",
@@ -344,58 +321,6 @@
         "id": null,
         "name": "Sea Island Conservation Area East Dike Upgrade",
         "jurisdiction": "Federal (IAAC)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Syncrude (Mildred Lake Extension)",
-        "proponent": "Suncor Energy Inc.",
-        "province": "AB",
-        "sector": "Energy",
-        "value_cad": 3300000000.0,
-        "status": "Under Construction",
-        "coords": [
-          -110.8468,
-          55.639
-        ],
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.253,
-      "name_score": 0.156,
-      "match": {
-        "id": null,
-        "name": "Cenovus Foster Creek - Maintenance in Cold Lake Alberta.",
-        "jurisdiction": "Federal (IAAC)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Syncrude Mildred Lake Extension",
-        "proponent": "Syncrude Canada Ltd.",
-        "province": "AB",
-        "sector": "Energy",
-        "value_cad": 3300000000.0,
-        "status": "Under Construction",
-        "coords": [
-          -111.585088,
-          57.045211
-        ],
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.25,
-      "name_score": 0.4,
-      "match": {
-        "id": null,
-        "name": "Cavendish Critch’s Mink Fur Farm Henry and Mildred Critch",
-        "jurisdiction": "Newfoundland & Labrador (ECC)"
       }
     },
     {
@@ -461,7 +386,7 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.343,
+      "score": 0.342,
       "name_score": 0.304,
       "match": {
         "id": null,
@@ -839,38 +764,12 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.305,
-      "name_score": 0.305,
+      "score": 0.304,
+      "name_score": 0.304,
       "match": {
         "id": null,
         "name": "Highway 69 (Tower Road to Highway 141)",
         "jurisdiction": "Ontario (Provincial EA)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Lithium Hydroxide Refinery",
-        "proponent": "Rock Tech Lithium Inc.",
-        "province": "ON",
-        "sector": "Mining",
-        "value_cad": 1600000000.0,
-        "status": "Announced & Planning",
-        "coords": [
-          -88.2596,
-          48.9465
-        ],
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.281,
-      "name_score": 0.281,
-      "match": {
-        "id": null,
-        "name": "North Atlantic Refinery Storage Tank Expansion North Atlantic Refinery Ltd.",
-        "jurisdiction": "Newfoundland & Labrador (ECC)"
       }
     },
     {
@@ -1459,8 +1358,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.38,
-      "name_score": 0.38,
+      "score": 0.379,
+      "name_score": 0.379,
       "match": {
         "id": null,
         "name": "Enhancing Women's Leadership and Involvement in Cuba's Renewable Energy Sector",
@@ -1482,8 +1381,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.388,
-      "name_score": 0.388,
+      "score": 0.391,
+      "name_score": 0.391,
       "match": {
         "id": null,
         "name": "Crude Oil Storage Terminal and Pipeline, R.M. of Pipestone",
@@ -1556,58 +1455,6 @@
       "match": {
         "id": null,
         "name": "Acquisition and installation of propane heating in the oTENTiks of loop F at Petit-Gaspé campground",
-        "jurisdiction": "Federal (IAAC)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Longwood to Lakeshore Phase 1",
-        "proponent": "Hydro One",
-        "province": "ON",
-        "sector": "Energy",
-        "value_cad": 800000000.0,
-        "status": "Announced & Planning",
-        "coords": [
-          -81.62679,
-          42.95939
-        ],
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.316,
-      "name_score": 0.466,
-      "match": {
-        "id": null,
-        "name": "ATCO Gas and Pipelines Ltd.: 1088748 Gregoire Lake IR No. 176A Lakeshore Drive Gas Distribution System Extension",
-        "jurisdiction": "Federal (IAAC)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Longwood to Lakeshore Phase 2",
-        "proponent": "Hydro One",
-        "province": "ON",
-        "sector": "Energy",
-        "value_cad": 800000000.0,
-        "status": "Announced & Planning",
-        "coords": [
-          -81.62679,
-          42.95939
-        ],
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.316,
-      "name_score": 0.466,
-      "match": {
-        "id": null,
-        "name": "ATCO Gas and Pipelines Ltd.: 1088748 Gregoire Lake IR No. 176A Lakeshore Drive Gas Distribution System Extension",
         "jurisdiction": "Federal (IAAC)"
       }
     },
@@ -2081,8 +1928,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.303,
-      "name_score": 0.145,
+      "score": 0.3,
+      "name_score": 0.143,
       "match": {
         "id": null,
         "name": "AltaLink 54L Transmission Rebuild",
@@ -2240,32 +2087,6 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
-        "name": "Kindersley Lithium Project",
-        "proponent": "Grounded Lithium Corp. and Denison",
-        "province": "SK",
-        "sector": "Mining",
-        "value_cad": 447323000.0,
-        "status": "Announced & Planning",
-        "coords": [
-          -109.168444,
-          51.474361
-        ],
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.373,
-      "name_score": 0.447,
-      "match": {
-        "id": null,
-        "name": "Galaxy Lithium Project",
-        "jurisdiction": "Federal (IAAC)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
         "name": "Nilhts'i Ecoener Project",
         "proponent": "Ecoener Energie Canada Inc. (Ecoener, Lheidli T'enneh)",
         "province": "BC",
@@ -2322,8 +2143,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.4,
-      "name_score": 0.253,
+      "score": 0.391,
+      "name_score": 0.245,
       "match": {
         "id": null,
         "name": "Redwater Facility Rail Yard Project",
@@ -2380,32 +2201,6 @@
         "id": null,
         "name": "Manufacture of liquid oxygen by extraction from the atmosphere",
         "jurisdiction": "Manitoba (Environment Act)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "St. Thomas Line (including Centennial Transformer Station & Line)",
-        "proponent": "Hydro One",
-        "province": "ON",
-        "sector": "Energy",
-        "value_cad": 400000000.0,
-        "status": "Announced & Planning",
-        "coords": [
-          -81.160509,
-          42.93962
-        ],
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.357,
-      "name_score": 0.257,
-      "match": {
-        "id": null,
-        "name": "Merivale Transformer Station Modernization (31 Woodfield Drive, Nepean, Ontario)",
-        "jurisdiction": "Federal (IAAC)"
       }
     },
     {
@@ -2767,7 +2562,7 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.393,
+      "score": 0.394,
       "name_score": 0.231,
       "match": {
         "id": null,
@@ -2793,8 +2588,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.397,
-      "name_score": 0.397,
+      "score": 0.393,
+      "name_score": 0.393,
       "match": {
         "id": null,
         "name": "Wuskwatim Hydro Generation Station",
@@ -2923,12 +2718,12 @@
       },
       "verdict": "gap",
       "overridden": true,
-      "score": 0.483,
-      "name_score": 0.383,
+      "score": 0.765,
+      "name_score": 0.515,
       "match": {
         "id": null,
-        "name": "Niagara to Greater Toronto Area Corridor",
-        "jurisdiction": "Ontario (Provincial EA)"
+        "name": "Durham Kawartha Power Line",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -3096,8 +2891,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.275,
-      "name_score": 0.222,
+      "score": 0.272,
+      "name_score": 0.22,
       "match": {
         "id": null,
         "name": "Salt Springs Natural Gas Power Generation Facility Project",
@@ -3128,32 +2923,6 @@
         "id": null,
         "name": "North Atlantic Refinery Storage Tank Expansion North Atlantic Refinery Ltd.",
         "jurisdiction": "Newfoundland & Labrador (ECC)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Mississagi to Third Line Transmission Line North Shore Link Project",
-        "proponent": "Hydro One",
-        "province": "ON",
-        "sector": "Energy",
-        "value_cad": 250000000.0,
-        "status": "Announced & Planning",
-        "coords": [
-          -83.3883,
-          46.42
-        ],
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.37,
-      "name_score": 0.27,
-      "match": {
-        "id": null,
-        "name": "Lake Superior link transmission project",
-        "jurisdiction": "Ontario (Provincial EA)"
       }
     },
     {
@@ -3220,8 +2989,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.357,
-      "name_score": 0.107,
+      "score": 0.356,
+      "name_score": 0.106,
       "match": {
         "id": null,
         "name": "AltaLink 54L Transmission Rebuild",
@@ -3372,32 +3141,6 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
-        "name": "Ghost River WaterCharger Battery Energy Storage",
-        "proponent": "TransAlta Corporation",
-        "province": "AB",
-        "sector": "Energy",
-        "value_cad": 208400000.0,
-        "status": "Approved",
-        "coords": [
-          -114.704604,
-          51.217782
-        ],
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.276,
-      "name_score": 0.276,
-      "match": {
-        "id": null,
-        "name": "Battery Storage Facility at Chain Lake Drive",
-        "jurisdiction": "Nova Scotia (NSECC)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
         "name": "Enmax Substation No. 1",
         "proponent": "ENMAX Energy Corp.",
         "province": "AB",
@@ -3533,8 +3276,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.255,
-      "name_score": 0.405,
+      "score": 0.251,
+      "name_score": 0.401,
       "match": {
         "id": null,
         "name": "Trent Rapids Power Corporation (TRPC), Peterborough Utilities Inc (PUI) Hydro Intake Excavation",
@@ -3607,8 +3350,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.309,
-      "name_score": 0.209,
+      "score": 0.306,
+      "name_score": 0.206,
       "match": {
         "id": null,
         "name": "Hydro-vac Dewatering Station",
@@ -3807,29 +3550,6 @@
       }
     },
     {
-      "source": "nrcan_mpi_points",
-      "ext": {
-        "ext_id": null,
-        "name": "Mica - U1 - U4 Circuit Breaker and Iso-phase Bus Replacement Project",
-        "proponent": "BC Hydro",
-        "province": "3. Thompson-Okanagan",
-        "sector": "Utilities (incl sewage treatment)",
-        "value_cad": 176000000.0,
-        "status": "Construction started",
-        "coords": null,
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.374,
-      "name_score": 0.124,
-      "match": {
-        "id": null,
-        "name": "BC Hydro-Double Overhead Circuit: Upgrading of Electrical Service Infrastructure to Tofino, British Columbia",
-        "jurisdiction": "Federal (IAAC)"
-      }
-    },
-    {
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
@@ -3867,8 +3587,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.245,
-      "name_score": 0.245,
+      "score": 0.244,
+      "name_score": 0.244,
       "match": {
         "id": null,
         "name": "IOC Labrador City Mining Site Explosives Facility",
@@ -3890,35 +3610,13 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.36,
-      "name_score": 0.11,
+      "score": 0.359,
+      "name_score": 0.109,
       "match": {
         "id": null,
         "name": "Interior-Lower Mainland Transmission",
         "jurisdiction": "British Columbia (EAO)"
       }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Goreway BESS",
-        "proponent": "Capital Power Corporation",
-        "province": "ON",
-        "sector": "Energy",
-        "value_cad": 161000000.0,
-        "status": "In Review",
-        "coords": [
-          -79.6793872469373,
-          43.7464048021777
-        ],
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.0,
-      "name_score": 0.0,
-      "match": null
     },
     {
       "source": "ab_majors",
@@ -3935,8 +3633,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.275,
-      "name_score": 0.117,
+      "score": 0.272,
+      "name_score": 0.115,
       "match": {
         "id": null,
         "name": "AltaLink 54L Transmission Rebuild",
@@ -3961,8 +3659,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.314,
-      "name_score": 0.314,
+      "score": 0.315,
+      "name_score": 0.315,
       "match": {
         "id": null,
         "name": "Food and Nutrition Security and Climate Change in the Sahel",
@@ -4150,8 +3848,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.373,
-      "name_score": 0.523,
+      "score": 0.37,
+      "name_score": 0.52,
       "match": {
         "id": 134,
         "name": "Northland Power Long Lakes Solar Project",
@@ -4323,8 +4021,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.381,
-      "name_score": 0.381,
+      "score": 0.382,
+      "name_score": 0.382,
       "match": {
         "id": null,
         "name": "Highland Valley Copper Refinery",
@@ -4372,8 +4070,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.254,
-      "name_score": 0.254,
+      "score": 0.253,
+      "name_score": 0.253,
       "match": {
         "id": null,
         "name": "Xaxli'p First Nation Green Hydrogen Production Facility",
@@ -4418,7 +4116,7 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.281,
+      "score": 0.28,
       "name_score": 0.192,
       "match": {
         "id": null,
@@ -4636,8 +4334,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.352,
-      "name_score": 0.352,
+      "score": 0.353,
+      "name_score": 0.353,
       "match": {
         "id": null,
         "name": "Boundary Lake Sour Gas Plant",
@@ -4759,8 +4457,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.337,
-      "name_score": 0.337,
+      "score": 0.335,
+      "name_score": 0.335,
       "match": {
         "id": null,
         "name": "Power Plant and Distribution System, Op IMPACT, Ali Al-Salem Air Base, Kuwait",
@@ -4853,8 +4551,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.337,
-      "name_score": 0.337,
+      "score": 0.335,
+      "name_score": 0.335,
       "match": {
         "id": null,
         "name": "Power Plant and Distribution System, Op IMPACT, Ali Al-Salem Air Base, Kuwait",
@@ -4879,7 +4577,7 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.34,
+      "score": 0.339,
       "name_score": 0.251,
       "match": {
         "id": null,
@@ -4980,8 +4678,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.285,
-      "name_score": 0.285,
+      "score": 0.283,
+      "name_score": 0.283,
       "match": {
         "id": null,
         "name": "Black Bear Power Plant Project",
@@ -5133,29 +4831,6 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
-        "name": "The Seven Stars Energy Project (the Project)",
-        "proponent": "Enbridge  and Six Nations Energy Development LP",
-        "province": "SK",
-        "sector": "Energy",
-        "value_cad": 100000000.0,
-        "status": "Announced & Planning",
-        "coords": null,
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.4,
-      "name_score": 0.4,
-      "match": {
-        "id": null,
-        "name": "T-145 STARS Hangar Addition",
-        "jurisdiction": "Federal (IAAC)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
         "name": "Methanex Carbon Capture Utilization and Sequestration Facility",
         "proponent": "Methanex & Entropy JV",
         "province": "AB",
@@ -5193,8 +4868,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.369,
-      "name_score": 0.169,
+      "score": 0.368,
+      "name_score": 0.168,
       "match": {
         "id": null,
         "name": "Geotechnical investigation – BC Hydro Second Narrows tower",
@@ -5309,32 +4984,6 @@
       "source": "nrcan_mpi_points",
       "ext": {
         "ext_id": null,
-        "name": "Hudson Bay Mountain Estates",
-        "proponent": "2020 Development",
-        "province": "7. Nechako",
-        "sector": "Residential/Commercial",
-        "value_cad": 100000000.0,
-        "status": "Proposed",
-        "coords": [
-          -127.1559982,
-          54.76923
-        ],
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.326,
-      "name_score": 0.476,
-      "match": {
-        "id": null,
-        "name": "Hudson Bay Mines",
-        "jurisdiction": "Ontario (Abandoned Mines)"
-      }
-    },
-    {
-      "source": "nrcan_mpi_points",
-      "ext": {
-        "ext_id": null,
         "name": "Bralorne Mine/King/ Pioneer Mines",
         "proponent": "Talisker Resources",
         "province": "2. Mainland/Southwest",
@@ -5401,8 +5050,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.374,
-      "name_score": 0.1,
+      "score": 0.379,
+      "name_score": 0.105,
       "match": {
         "id": null,
         "name": "Fraser Mills Foreshore Improvements",
@@ -5571,8 +5220,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.373,
-      "name_score": 0.373,
+      "score": 0.375,
+      "name_score": 0.375,
       "match": {
         "id": null,
         "name": "Postville Area Mink and Fox Farm",
@@ -5640,7 +5289,7 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.3,
+      "score": 0.301,
       "name_score": 0.213,
       "match": {
         "id": 13,
@@ -5903,8 +5552,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.386,
-      "name_score": 0.186,
+      "score": 0.387,
+      "name_score": 0.187,
       "match": {
         "id": null,
         "name": "Water Supply Tunnel at Second Narrows - Metro Vancouver - Amendment 02",
@@ -6705,8 +6354,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.276,
-      "name_score": 0.426,
+      "score": 0.282,
+      "name_score": 0.432,
       "match": {
         "id": null,
         "name": "Deer Lake Residential and Commercial Subdivisions Project",
@@ -6783,8 +6432,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.383,
-      "name_score": 0.383,
+      "score": 0.384,
+      "name_score": 0.384,
       "match": {
         "id": null,
         "name": "Seabird Island Indian Band - Seabird Island Community and Cultural Centre",
@@ -6876,12 +6525,12 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.297,
-      "name_score": 0.297,
+      "score": 0.293,
+      "name_score": 0.293,
       "match": {
         "id": null,
-        "name": "EverWind Strait Crossing Transmission Line Project",
-        "jurisdiction": "Nova Scotia (NSECC)"
+        "name": "St. Clair Transmission Line",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -6928,8 +6577,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.271,
-      "name_score": 0.271,
+      "score": 0.268,
+      "name_score": 0.268,
       "match": {
         "id": null,
         "name": "Community One Health Empowerment in Rwanda",
@@ -7177,7 +6826,7 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.254,
+      "score": 0.253,
       "name_score": 0.182,
       "match": {
         "id": null,
@@ -7567,8 +7216,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.312,
-      "name_score": 0.212,
+      "score": 0.31,
+      "name_score": 0.21,
       "match": {
         "id": null,
         "name": "Enbridge Pipelines Inc. - Line 3 Replacement Program",
@@ -7665,7 +7314,7 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.268,
+      "score": 0.267,
       "name_score": 0.2,
       "match": {
         "id": null,
@@ -7711,8 +7360,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.293,
-      "name_score": 0.191,
+      "score": 0.29,
+      "name_score": 0.189,
       "match": {
         "id": null,
         "name": "Energy Production, R.M.'s of Lorne and Pembina",
@@ -7808,7 +7457,7 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.268,
+      "score": 0.267,
       "name_score": 0.2,
       "match": {
         "id": null,
@@ -8254,8 +7903,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.392,
-      "name_score": 0.32,
+      "score": 0.39,
+      "name_score": 0.318,
       "match": {
         "id": null,
         "name": "Aurora LNG Grassy Point",
@@ -8511,8 +8160,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.393,
-      "name_score": 0.393,
+      "score": 0.392,
+      "name_score": 0.392,
       "match": {
         "id": null,
         "name": "Bloomfield Resource Road Multi-Use Trail",
@@ -9394,8 +9043,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.339,
-      "name_score": 0.339,
+      "score": 0.34,
+      "name_score": 0.34,
       "match": {
         "id": null,
         "name": "Infrastructure renewal of the PHL of the St-Malo Military Complex",
@@ -9616,12 +9265,12 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.299,
-      "name_score": 0.299,
+      "score": 0.297,
+      "name_score": 0.297,
       "match": {
         "id": null,
-        "name": "Northeast Arm Former US Recreation Camp Demolition",
-        "jurisdiction": "Newfoundland & Labrador (ECC)"
+        "name": "Northeast Power Line",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -9898,8 +9547,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.308,
-      "name_score": 0.308,
+      "score": 0.303,
+      "name_score": 0.303,
       "match": {
         "id": null,
         "name": "Geotechnical investigation – BC Hydro Second Narrows tower",
@@ -10193,8 +9842,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.328,
-      "name_score": 0.328,
+      "score": 0.326,
+      "name_score": 0.326,
       "match": {
         "id": null,
         "name": "Power System Replacement at Sand Hill River Counting Facility, Labrador",
@@ -10432,32 +10081,6 @@
       "match": {
         "id": null,
         "name": "Old Cell House Demolition - Chemtrade Electrochem Inc.",
-        "jurisdiction": "Federal (IAAC)"
-      }
-    },
-    {
-      "source": "nrcan_mpi_points",
-      "ext": {
-        "ext_id": null,
-        "name": "Songhees Creek Hydro Project",
-        "proponent": "Songhees Creek Hydro Inc.",
-        "province": "1. Vancouver Island/Coast",
-        "sector": "Utilities (incl sewage treatment)",
-        "value_cad": 30000000.0,
-        "status": "On hold",
-        "coords": [
-          -127.62799,
-          50.76696
-        ],
-        "url": null
-      },
-      "verdict": "gap",
-      "overridden": false,
-      "score": 0.4,
-      "name_score": 0.44,
-      "match": {
-        "id": null,
-        "name": "0656 songhees first nation-sanitary sewer system inflow and infiltration upgrade ICMS123839",
         "jurisdiction": "Federal (IAAC)"
       }
     },
@@ -10761,8 +10384,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.339,
-      "name_score": 0.339,
+      "score": 0.338,
+      "name_score": 0.338,
       "match": {
         "id": null,
         "name": "Improvement of energy efficiency of multiple buildings to lower the ecological footprint of the military base",
@@ -11067,8 +10690,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.12,
-      "name_score": 0.12,
+      "score": 0.121,
+      "name_score": 0.121,
       "match": {
         "id": null,
         "name": "St. John’s (Northern Pond Rd) Motor Sport Park (Resubmission) – X-treme Promotions Inc. X-treme Promotions Inc.",
@@ -11116,8 +10739,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.397,
-      "name_score": 0.547,
+      "score": 0.399,
+      "name_score": 0.549,
       "match": {
         "id": null,
         "name": "Cowichan Tribes, Quw'utsun Smun'een: Elementary School Addition",
@@ -11379,8 +11002,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.37,
-      "name_score": 0.17,
+      "score": 0.371,
+      "name_score": 0.171,
       "match": {
         "id": null,
         "name": "South Fraser Perimeter Road",
@@ -11524,8 +11147,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.37,
-      "name_score": 0.17,
+      "score": 0.371,
+      "name_score": 0.171,
       "match": {
         "id": null,
         "name": "Maintenance Dredge 8081 River Road, Delta",
@@ -11764,7 +11387,7 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.362,
+      "score": 0.361,
       "name_score": 0.273,
       "match": {
         "id": null,
@@ -11810,8 +11433,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.317,
-      "name_score": 0.317,
+      "score": 0.316,
+      "name_score": 0.316,
       "match": {
         "id": null,
         "name": "The National Printing Bureau Lateral Connection to ESAP District Energy System",
@@ -13363,8 +12986,8 @@
       "name_score": 0.235,
       "match": {
         "id": null,
-        "name": "Northumberland Rock Quarry Extension Project",
-        "jurisdiction": "Nova Scotia (NSECC)"
+        "name": "Rock Tech Lithium Inc.: EA document library",
+        "jurisdiction": "Proponent website"
       }
     },
     {
@@ -13431,12 +13054,12 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.085,
-      "name_score": 0.085,
+      "score": 0.339,
+      "name_score": 0.089,
       "match": {
         "id": null,
-        "name": "Construction of 25KV distribution powerline to IPC Canada Site 13-35-19-7-4",
-        "jurisdiction": "Federal (IAAC)"
+        "name": "Richview TS to Trafalgar TS Conductor Upgrade",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -13525,8 +13148,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.272,
-      "name_score": 0.422,
+      "score": 0.269,
+      "name_score": 0.419,
       "match": {
         "id": null,
         "name": "Aspen Power Station Project",
@@ -13758,8 +13381,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.309,
-      "name_score": 0.309,
+      "score": 0.306,
+      "name_score": 0.306,
       "match": {
         "id": null,
         "name": "Lafarge Cement Plant Modernization",
@@ -13908,8 +13531,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.371,
-      "name_score": 0.371,
+      "score": 0.372,
+      "name_score": 0.372,
       "match": {
         "id": null,
         "name": "Flipi Gas-Fired Generation Project",
@@ -13954,8 +13577,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.193,
-      "name_score": 0.193,
+      "score": 0.204,
+      "name_score": 0.204,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -14000,8 +13623,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.211,
-      "name_score": 0.211,
+      "score": 0.212,
+      "name_score": 0.212,
       "match": {
         "id": null,
         "name": "Crown Forest Mgmt. Dist 18 (Roddickton-Plum Point) Amendment Department of Natural Resources (Forestry Branch)",
@@ -14046,8 +13669,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.397,
-      "name_score": 0.397,
+      "score": 0.393,
+      "name_score": 0.393,
       "match": {
         "id": null,
         "name": "Narrows Inlet Hydro",
@@ -14138,8 +13761,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.272,
-      "name_score": 0.272,
+      "score": 0.27,
+      "name_score": 0.27,
       "match": {
         "id": 593,
         "name": "Alfred Solar Energy Project",
@@ -14299,8 +13922,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.34,
-      "name_score": 0.34,
+      "score": 0.339,
+      "name_score": 0.339,
       "match": {
         "id": null,
         "name": "Prosperity Gold-Copper",
@@ -14322,8 +13945,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.397,
-      "name_score": 0.397,
+      "score": 0.393,
+      "name_score": 0.393,
       "match": {
         "id": null,
         "name": "Narrows Inlet Hydro",
@@ -14345,8 +13968,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.164,
-      "name_score": 0.164,
+      "score": 0.163,
+      "name_score": 0.163,
       "match": {
         "id": null,
         "name": "Ridley Island Energy Export Facility (formerly known as Vopak Pacific Canada)",
@@ -14437,8 +14060,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.191,
-      "name_score": 0.191,
+      "score": 0.19,
+      "name_score": 0.19,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -14506,8 +14129,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.317,
-      "name_score": 0.317,
+      "score": 0.319,
+      "name_score": 0.319,
       "match": {
         "id": null,
         "name": "Construction of the Republic of Colombia's Ministry of National Defence New Headquarters",
@@ -14552,8 +14175,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.281,
-      "name_score": 0.281,
+      "score": 0.28,
+      "name_score": 0.28,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -14644,8 +14267,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.268,
-      "name_score": 0.268,
+      "score": 0.267,
+      "name_score": 0.267,
       "match": {
         "id": null,
         "name": "Transportation Improvements, Donald Cousens Parkway to Morningside Avenue Link Amended Environmental Assessment",
@@ -14667,8 +14290,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.206,
-      "name_score": 0.206,
+      "score": 0.208,
+      "name_score": 0.208,
       "match": {
         "id": null,
         "name": "Seaspan Ship Load-out Gravel Bed and Shoreline Protection - Amendments",
@@ -14690,8 +14313,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.19,
-      "name_score": 0.19,
+      "score": 0.189,
+      "name_score": 0.189,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -14713,8 +14336,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.198,
-      "name_score": 0.198,
+      "score": 0.2,
+      "name_score": 0.2,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -14989,8 +14612,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.197,
-      "name_score": 0.197,
+      "score": 0.196,
+      "name_score": 0.196,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -15012,8 +14635,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.248,
-      "name_score": 0.248,
+      "score": 0.246,
+      "name_score": 0.246,
       "match": {
         "id": 221,
         "name": "Windsor Solar Project",
@@ -15035,8 +14658,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.334,
-      "name_score": 0.334,
+      "score": 0.336,
+      "name_score": 0.336,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -15058,8 +14681,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.276,
-      "name_score": 0.276,
+      "score": 0.277,
+      "name_score": 0.277,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -15104,8 +14727,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.381,
-      "name_score": 0.381,
+      "score": 0.38,
+      "name_score": 0.38,
       "match": {
         "id": null,
         "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
@@ -15127,8 +14750,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.276,
-      "name_score": 0.254,
+      "score": 0.277,
+      "name_score": 0.256,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -15150,8 +14773,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.246,
-      "name_score": 0.246,
+      "score": 0.245,
+      "name_score": 0.245,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -15173,8 +14796,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.153,
-      "name_score": 0.153,
+      "score": 0.15,
+      "name_score": 0.15,
       "match": {
         "id": null,
         "name": "To Discharge Wastes Or Contaminants Into The Air From The Operation Of A Class 2A Incinerator",
@@ -15215,8 +14838,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.27,
-      "name_score": 0.26,
+      "score": 0.271,
+      "name_score": 0.261,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -15238,12 +14861,12 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.19,
-      "name_score": 0.19,
+      "score": 0.207,
+      "name_score": 0.207,
       "match": {
         "id": null,
-        "name": "Improving the reliability of Obedjiwan's stand-alone power grid by adding the equipment and infrastructure needed to integrate renewable energy from the future forest biomass power plant.",
-        "jurisdiction": "Federal (IAAC)"
+        "name": "Detour Lake Gold Mine CEAA Comprehensive Study (2011)",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -15261,8 +14884,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.279,
-      "name_score": 0.279,
+      "score": 0.281,
+      "name_score": 0.281,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -15284,8 +14907,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.387,
-      "name_score": 0.387,
+      "score": 0.389,
+      "name_score": 0.389,
       "match": {
         "id": null,
         "name": "Transportation Improvements, Donald Cousens Parkway to Morningside Avenue Link Amended Environmental Assessment",
@@ -15330,8 +14953,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.252,
-      "name_score": 0.252,
+      "score": 0.253,
+      "name_score": 0.253,
       "match": {
         "id": null,
         "name": "WWTP Outfall Project Habitat Offsetting amendment for construction activities outside regular work hours - Public comments invited",
@@ -15353,8 +14976,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.287,
-      "name_score": 0.287,
+      "score": 0.286,
+      "name_score": 0.286,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -15376,8 +14999,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.156,
-      "name_score": 0.156,
+      "score": 0.157,
+      "name_score": 0.157,
       "match": {
         "id": null,
         "name": "Seaspan Ship Load-out Gravel Bed and Shoreline Protection - Amendments",
@@ -15445,8 +15068,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.381,
-      "name_score": 0.381,
+      "score": 0.38,
+      "name_score": 0.38,
       "match": {
         "id": null,
         "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
@@ -15491,8 +15114,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.199,
-      "name_score": 0.199,
+      "score": 0.2,
+      "name_score": 0.2,
       "match": {
         "id": null,
         "name": "Snook’s Arm Area, Nugget Pond Gold Mine, Crown Pillar",
@@ -15537,8 +15160,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.277,
-      "name_score": 0.277,
+      "score": 0.278,
+      "name_score": 0.278,
       "match": {
         "id": null,
         "name": "Nazko Lava Quarry Extension",
@@ -15560,12 +15183,12 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.23,
-      "name_score": 0.23,
+      "score": 0.312,
+      "name_score": 0.312,
       "match": {
         "id": null,
-        "name": "Agnico Eagle",
-        "jurisdiction": "Ontario (Abandoned Mines)"
+        "name": "Agnico Eagle Mines Limited: EA document library",
+        "jurisdiction": "Proponent website"
       }
     },
     {
@@ -15629,8 +15252,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.264,
-      "name_score": 0.264,
+      "score": 0.262,
+      "name_score": 0.262,
       "match": {
         "id": null,
         "name": "Northeast power line project",
@@ -15652,8 +15275,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.381,
-      "name_score": 0.381,
+      "score": 0.38,
+      "name_score": 0.38,
       "match": {
         "id": null,
         "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
@@ -15721,8 +15344,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.245,
-      "name_score": 0.245,
+      "score": 0.248,
+      "name_score": 0.248,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -15744,8 +15367,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.266,
-      "name_score": 0.266,
+      "score": 0.267,
+      "name_score": 0.267,
       "match": {
         "id": null,
         "name": "Environmental Assessment Revitalization",
@@ -15851,8 +15474,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.381,
-      "name_score": 0.381,
+      "score": 0.38,
+      "name_score": 0.38,
       "match": {
         "id": null,
         "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
@@ -15874,8 +15497,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.381,
-      "name_score": 0.381,
+      "score": 0.38,
+      "name_score": 0.38,
       "match": {
         "id": null,
         "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
@@ -15920,8 +15543,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.381,
-      "name_score": 0.381,
+      "score": 0.38,
+      "name_score": 0.38,
       "match": {
         "id": null,
         "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
@@ -15943,8 +15566,8 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.381,
-      "name_score": 0.381,
+      "score": 0.38,
+      "name_score": 0.38,
       "match": {
         "id": null,
         "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
@@ -16320,7 +15943,7 @@
       },
       "verdict": "gap",
       "overridden": false,
-      "score": 0.357,
+      "score": 0.358,
       "name_score": 0.211,
       "match": {
         "id": null,
@@ -16525,7 +16148,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.59,
+      "score": 0.589,
       "name_score": 0.557,
       "match": {
         "id": null,
@@ -16574,8 +16197,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.529,
-      "name_score": 0.506,
+      "score": 0.528,
+      "name_score": 0.505,
       "match": {
         "id": null,
         "name": "Bear Head Energy Green Hydrogen and Ammonia Production, Storage and Loading Facility",
@@ -16603,6 +16226,29 @@
         "id": null,
         "name": "Parc éolien du Mont-Rothery sur les territoires non organisés Collines-du-Basque et Mont-Albert",
         "jurisdiction": "Quebec (MELCCFP)"
+      }
+    },
+    {
+      "source": "ab_majors",
+      "ext": {
+        "ext_id": null,
+        "name": "North West Bitumen Upgrader Phase 1",
+        "proponent": "North West Redwater Partnership (Canadian Natural Resources Ltd. (CNRL) / North West Upgrading Inc.)",
+        "province": null,
+        "sector": "Oil Sands",
+        "value_cad": 8500000000.0,
+        "status": "Under Construction",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.438,
+      "name_score": 0.336,
+      "match": {
+        "id": null,
+        "name": "North West Redwater Partnership: EA document library",
+        "jurisdiction": "Proponent website"
       }
     },
     {
@@ -16669,8 +16315,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.72,
-      "name_score": 0.47,
+      "score": 0.721,
+      "name_score": 0.471,
       "match": {
         "id": null,
         "name": "ATCO Gate Station (71274)",
@@ -16868,12 +16514,64 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.69,
-      "name_score": 0.34,
+      "score": 0.689,
+      "name_score": 0.339,
       "match": {
         "id": null,
         "name": "Brucejack Gold Mine Project",
         "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Syncrude (Mildred Lake Extension)",
+        "proponent": "Suncor Energy Inc.",
+        "province": "AB",
+        "sector": "Energy",
+        "value_cad": 3300000000.0,
+        "status": "Under Construction",
+        "coords": [
+          -110.8468,
+          55.639
+        ],
+        "url": null
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.428,
+      "name_score": 0.428,
+      "match": {
+        "id": null,
+        "name": "Syncrude Canada Ltd.: EA document library",
+        "jurisdiction": "Proponent website"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Syncrude Mildred Lake Extension",
+        "proponent": "Syncrude Canada Ltd.",
+        "province": "AB",
+        "sector": "Energy",
+        "value_cad": 3300000000.0,
+        "status": "Under Construction",
+        "coords": [
+          -111.585088,
+          57.045211
+        ],
+        "url": null
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.678,
+      "name_score": 0.428,
+      "match": {
+        "id": null,
+        "name": "Syncrude Canada Ltd.: EA document library",
+        "jurisdiction": "Proponent website"
       }
     },
     {
@@ -16917,7 +16615,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.778,
+      "score": 0.777,
       "name_score": 0.475,
       "match": {
         "id": null,
@@ -16966,8 +16664,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.417,
-      "name_score": 0.167,
+      "score": 0.416,
+      "name_score": 0.166,
       "match": {
         "id": null,
         "name": "Sea-To-Sky Highway Upgrade",
@@ -17012,8 +16710,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.462,
-      "name_score": 0.462,
+      "score": 0.461,
+      "name_score": 0.461,
       "match": {
         "id": null,
         "name": "Upgrading of Provincial Trunk Highway #68 from Provincial Road #278 to North of 17-25-11 W",
@@ -17038,7 +16736,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.809,
+      "score": 0.81,
       "name_score": 0.485,
       "match": {
         "id": null,
@@ -17136,12 +16834,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.414,
-      "name_score": 0.414,
+      "score": 0.412,
+      "name_score": 0.412,
       "match": {
         "id": null,
-        "name": "Operation of a Nickel/Copper Mine and Mill Complex",
-        "jurisdiction": "Manitoba (Environment Act)"
+        "name": "Canada Nickel Company: EA document library",
+        "jurisdiction": "Proponent website"
       }
     },
     {
@@ -17209,7 +16907,7 @@
       "verdict": "weak",
       "overridden": false,
       "score": 0.403,
-      "name_score": 0.233,
+      "name_score": 0.232,
       "match": {
         "id": null,
         "name": "Highway 69 Four-Laning from North of Highway 559 to North of Woods Road (Project 1)",
@@ -17283,8 +16981,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.408,
-      "name_score": 0.408,
+      "score": 0.404,
+      "name_score": 0.404,
       "match": {
         "id": null,
         "name": "Georges Lake Communcation Transmission Line Newfoundland Power Inc.",
@@ -17355,7 +17053,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.634,
+      "score": 0.637,
       "name_score": 0.488,
       "match": {
         "id": null,
@@ -17450,8 +17148,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.567,
-      "name_score": 0.567,
+      "score": 0.565,
+      "name_score": 0.565,
       "match": {
         "id": null,
         "name": "Vegetation Removal - Communication line to Dome Mountain; 5 Wing Goose Bay, Happy Valley-Goose Bay, Newfoundland and Labrador",
@@ -17522,8 +17220,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.508,
-      "name_score": 0.434,
+      "score": 0.51,
+      "name_score": 0.436,
       "match": {
         "id": null,
         "name": "Flipi Gas-Fired Generation Project",
@@ -17548,12 +17246,38 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.64,
-      "name_score": 0.44,
+      "score": 0.641,
+      "name_score": 0.441,
       "match": {
         "id": null,
         "name": "Port Alberni Cogeneration",
         "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Lithium Hydroxide Refinery",
+        "proponent": "Rock Tech Lithium Inc.",
+        "province": "ON",
+        "sector": "Mining",
+        "value_cad": 1600000000.0,
+        "status": "Announced & Planning",
+        "coords": [
+          -88.2596,
+          48.9465
+        ],
+        "url": null
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.566,
+      "name_score": 0.316,
+      "match": {
+        "id": null,
+        "name": "Rock Tech Lithium Inc.: EA document library",
+        "jurisdiction": "Proponent website"
       }
     },
     {
@@ -17600,8 +17324,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.44,
-      "name_score": 0.44,
+      "score": 0.441,
+      "name_score": 0.441,
       "match": {
         "id": null,
         "name": "Rivers Edge Mixed Use Project",
@@ -17646,7 +17370,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.492,
+      "score": 0.491,
       "name_score": 0.419,
       "match": {
         "id": null,
@@ -17767,8 +17491,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.484,
-      "name_score": 0.484,
+      "score": 0.487,
+      "name_score": 0.487,
       "match": {
         "id": null,
         "name": "Fort McMurray First Nation New Housing Construction Project",
@@ -17813,8 +17537,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.505,
-      "name_score": 0.505,
+      "score": 0.503,
+      "name_score": 0.503,
       "match": {
         "id": null,
         "name": "Improving the reliability of Obedjiwan's stand-alone power grid by adding the equipment and infrastructure needed to integrate renewable energy from the future forest biomass power plant.",
@@ -17836,7 +17560,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.479,
+      "score": 0.478,
       "name_score": 0.39,
       "match": {
         "id": null,
@@ -17954,8 +17678,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.568,
-      "name_score": 0.318,
+      "score": 0.567,
+      "name_score": 0.317,
       "match": {
         "id": null,
         "name": "Sunrise Expansion Program",
@@ -17977,8 +17701,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.568,
-      "name_score": 0.318,
+      "score": 0.567,
+      "name_score": 0.317,
       "match": {
         "id": null,
         "name": "Sunrise Expansion Program",
@@ -18000,7 +17724,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.409,
+      "score": 0.408,
       "name_score": 0.32,
       "match": {
         "id": null,
@@ -18095,8 +17819,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.595,
-      "name_score": 0.595,
+      "score": 0.593,
+      "name_score": 0.593,
       "match": {
         "id": null,
         "name": "Great Lakes Power Ice Boom Timber Replacement",
@@ -18144,8 +17868,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.588,
-      "name_score": 0.338,
+      "score": 0.586,
+      "name_score": 0.336,
       "match": {
         "id": null,
         "name": "Refurbishment and Continued Operation of the Darlington Nuclear Generating Station",
@@ -18167,8 +17891,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.502,
-      "name_score": 0.502,
+      "score": 0.501,
+      "name_score": 0.501,
       "match": {
         "id": null,
         "name": "Water system expansion and Water points rehabilitation in North Darfur, White Nile and Gedaref States, Sudan.",
@@ -18245,8 +17969,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.511,
-      "name_score": 0.511,
+      "score": 0.512,
+      "name_score": 0.512,
       "match": {
         "id": null,
         "name": "Rivers Edge Mixed Use Project",
@@ -18271,8 +17995,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.552,
-      "name_score": 0.352,
+      "score": 0.551,
+      "name_score": 0.351,
       "match": {
         "id": null,
         "name": "Canadian Forces Housing Agency Residential Portfolio Capital Investment Plan Apartments Project - Canadian Forces Base Esquimalt",
@@ -18398,8 +18122,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.408,
-      "name_score": 0.308,
+      "score": 0.407,
+      "name_score": 0.307,
       "match": {
         "id": null,
         "name": "Site C Clean Energy",
@@ -18591,7 +18315,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.495,
+      "score": 0.494,
       "name_score": 0.398,
       "match": {
         "id": null,
@@ -18615,7 +18339,7 @@
       "verdict": "weak",
       "overridden": false,
       "score": 0.521,
-      "name_score": 0.399,
+      "name_score": 0.4,
       "match": {
         "id": null,
         "name": "ATCO Gas Main Installation for NEDA Commercial Stage 1, Millennium Phase 1, and Community Recovery Center",
@@ -18694,32 +18418,6 @@
       "match": {
         "id": null,
         "name": "Muskeg River Mine Expansion (MRME) - Albian Oil Sand Project",
-        "jurisdiction": "Federal (IAAC)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Skyview 2 Battery Energy Storage System",
-        "proponent": "Potentia Renewables Inc.",
-        "province": "ON",
-        "sector": "Energy",
-        "value_cad": 750000000.0,
-        "status": "In Review",
-        "coords": [
-          -76.84013,
-          44.14855
-        ],
-        "url": null
-      },
-      "verdict": "weak",
-      "overridden": false,
-      "score": 0.527,
-      "name_score": 0.677,
-      "match": {
-        "id": null,
-        "name": "La Plonge Solar and Battery Energy Storage System",
         "jurisdiction": "Federal (IAAC)"
       }
     },
@@ -18810,12 +18508,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.621,
-      "name_score": 0.371,
+      "score": 0.698,
+      "name_score": 0.248,
       "match": {
         "id": null,
-        "name": "Detour Lake Mine Long-term Waste Management Strategy",
-        "jurisdiction": "Ontario (Provincial EA)"
+        "name": "West Detour Project Environmental Study Report (2019)",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -18833,8 +18531,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.615,
-      "name_score": 0.615,
+      "score": 0.614,
+      "name_score": 0.614,
       "match": {
         "id": null,
         "name": "Baseline Transitway Project - Baseline Station to Heron Station",
@@ -19032,8 +18730,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.432,
-      "name_score": 0.337,
+      "score": 0.433,
+      "name_score": 0.339,
       "match": {
         "id": null,
         "name": "Cenovus Foster Creek - North Trunk Gate (NTG) in Cold Lake Alberta",
@@ -19078,7 +18776,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.651,
+      "score": 0.652,
       "name_score": 0.553,
       "match": {
         "id": null,
@@ -19179,8 +18877,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.55,
-      "name_score": 0.45,
+      "score": 0.549,
+      "name_score": 0.449,
       "match": {
         "id": null,
         "name": "Refurbishment and Continued Operation of the Darlington Nuclear Generating Station",
@@ -19202,8 +18900,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.532,
-      "name_score": 0.532,
+      "score": 0.533,
+      "name_score": 0.533,
       "match": {
         "id": 19,
         "name": "Amherst Island Wind Farm Project",
@@ -19225,8 +18923,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.532,
-      "name_score": 0.532,
+      "score": 0.533,
+      "name_score": 0.533,
       "match": {
         "id": 19,
         "name": "Amherst Island Wind Farm Project",
@@ -19516,12 +19214,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.434,
-      "name_score": 0.334,
+      "score": 0.541,
+      "name_score": 0.541,
       "match": {
-        "id": 81,
-        "name": "Grand Renewable Energy Park - Wind Component",
-        "jurisdiction": "Ontario (REA)"
+        "id": null,
+        "name": "Goreway Battery Energy Storage System",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -19542,12 +19240,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.485,
-      "name_score": 0.385,
+      "score": 0.632,
+      "name_score": 0.382,
       "match": {
         "id": null,
-        "name": "Northeast power line project",
-        "jurisdiction": "Ontario (Provincial EA)"
+        "name": "Northeast Power Line",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -19614,8 +19312,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.556,
-      "name_score": 0.556,
+      "score": 0.554,
+      "name_score": 0.554,
       "match": {
         "id": null,
         "name": "North Central Transmission Project",
@@ -19683,7 +19381,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.658,
+      "score": 0.657,
       "name_score": 0.553,
       "match": {
         "id": null,
@@ -19732,12 +19430,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.476,
-      "name_score": 0.626,
+      "score": 0.52,
+      "name_score": 0.422,
       "match": {
         "id": null,
-        "name": "La Plonge Solar and Battery Energy Storage System",
-        "jurisdiction": "Federal (IAAC)"
+        "name": "Goreway Battery Energy Storage System",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -19879,8 +19577,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.68,
-      "name_score": 0.68,
+      "score": 0.681,
+      "name_score": 0.681,
       "match": {
         "id": null,
         "name": "Town of Banff 25DP108 Banff Trail Riders Visitor Interpretation Centre and Riding Arena",
@@ -20026,8 +19724,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.465,
-      "name_score": 0.319,
+      "score": 0.456,
+      "name_score": 0.31,
       "match": {
         "id": null,
         "name": "Redwater Facility Rail Yard Project",
@@ -20052,12 +19750,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.519,
-      "name_score": 0.557,
+      "score": 0.661,
+      "name_score": 0.551,
       "match": {
         "id": null,
-        "name": "Galaxy Lithium Project",
-        "jurisdiction": "Federal (IAAC)"
+        "name": "Nemaska Lithium inc.: EA document library",
+        "jurisdiction": "Proponent website"
       }
     },
     {
@@ -20121,12 +19819,38 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.527,
-      "name_score": 0.527,
+      "score": 0.526,
+      "name_score": 0.526,
       "match": {
         "id": null,
         "name": "Commercial Wind Energy Facility, R.M. of Franklin",
         "jurisdiction": "Manitoba (Environment Act)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Kindersley Lithium Project",
+        "proponent": "Grounded Lithium Corp. and Denison",
+        "province": "SK",
+        "sector": "Mining",
+        "value_cad": 447323000.0,
+        "status": "Announced & Planning",
+        "coords": [
+          -109.168444,
+          51.474361
+        ],
+        "url": null
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.516,
+      "name_score": 0.441,
+      "match": {
+        "id": null,
+        "name": "Nemaska Lithium inc.: EA document library",
+        "jurisdiction": "Proponent website"
       }
     },
     {
@@ -20147,8 +19871,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.777,
-      "name_score": 0.327,
+      "score": 0.779,
+      "name_score": 0.329,
       "match": {
         "id": null,
         "name": "Marban Gold Mine Project",
@@ -20271,8 +19995,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.582,
-      "name_score": 0.582,
+      "score": 0.581,
+      "name_score": 0.581,
       "match": {
         "id": null,
         "name": "Provident-NGL Pipeline Project",
@@ -20297,8 +20021,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.416,
-      "name_score": 0.416,
+      "score": 0.419,
+      "name_score": 0.419,
       "match": {
         "id": null,
         "name": "Peace River Nuclear Power Project",
@@ -20634,8 +20358,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.509,
-      "name_score": 0.509,
+      "score": 0.511,
+      "name_score": 0.511,
       "match": {
         "id": null,
         "name": "Algoma Jade",
@@ -20657,12 +20381,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.532,
-      "name_score": 0.532,
+      "score": 0.618,
+      "name_score": 0.53,
       "match": {
         "id": null,
-        "name": "La Plonge Solar and Battery Energy Storage System",
-        "jurisdiction": "Federal (IAAC)"
+        "name": "Goreway Battery Energy Storage System",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -20703,8 +20427,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.538,
-      "name_score": 0.538,
+      "score": 0.54,
+      "name_score": 0.54,
       "match": {
         "id": null,
         "name": "Red Deer Campground Electrical Upgrades",
@@ -20752,8 +20476,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.681,
-      "name_score": 0.681,
+      "score": 0.68,
+      "name_score": 0.68,
       "match": {
         "id": null,
         "name": "Northeast British Columbia (NEBC) Expansion",
@@ -20798,8 +20522,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.545,
-      "name_score": 0.545,
+      "score": 0.543,
+      "name_score": 0.543,
       "match": {
         "id": null,
         "name": "Raven Lake - Birtle South - Virden West 230 kV Transmission Lines and Stations",
@@ -20844,8 +20568,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.548,
-      "name_score": 0.298,
+      "score": 0.547,
+      "name_score": 0.297,
       "match": {
         "id": null,
         "name": "Raven Lake - Birtle South - Virden West 230 kV Transmission Lines and Stations",
@@ -20867,8 +20591,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.548,
-      "name_score": 0.298,
+      "score": 0.547,
+      "name_score": 0.297,
       "match": {
         "id": null,
         "name": "Raven Lake - Birtle South - Virden West 230 kV Transmission Lines and Stations",
@@ -20891,7 +20615,7 @@
       "verdict": "weak",
       "overridden": false,
       "score": 0.545,
-      "name_score": 0.375,
+      "name_score": 0.374,
       "match": {
         "id": null,
         "name": "Highway 17 Haley Station to Meath Hill",
@@ -21233,8 +20957,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.653,
-      "name_score": 0.453,
+      "score": 0.655,
+      "name_score": 0.455,
       "match": {
         "id": null,
         "name": "Value Chain Solutions - Heartland Complex Expansion Project",
@@ -21357,7 +21081,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.69,
+      "score": 0.689,
       "name_score": 0.519,
       "match": {
         "id": null,
@@ -21504,8 +21228,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.606,
-      "name_score": 0.356,
+      "score": 0.607,
+      "name_score": 0.357,
       "match": {
         "id": null,
         "name": "SaskPower Rural Rebuild - 2D-41 Birmingham Southwest",
@@ -21550,8 +21274,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.575,
-      "name_score": 0.575,
+      "score": 0.574,
+      "name_score": 0.574,
       "match": {
         "id": null,
         "name": "Aurora LNG Digby Island",
@@ -21576,8 +21300,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.467,
-      "name_score": 0.267,
+      "score": 0.468,
+      "name_score": 0.268,
       "match": {
         "id": null,
         "name": "Expand Green Fleet Parking - Richmond Armoury",
@@ -21706,6 +21430,32 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
+        "name": "Mississagi to Third Line Transmission Line North Shore Link Project",
+        "proponent": "Hydro One",
+        "province": "ON",
+        "sector": "Energy",
+        "value_cad": 250000000.0,
+        "status": "Announced & Planning",
+        "coords": [
+          -83.3883,
+          46.42
+        ],
+        "url": null
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.634,
+      "name_score": 0.384,
+      "match": {
+        "id": null,
+        "name": "North Shore Link",
+        "jurisdiction": "Ontario (Class EA)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
         "name": "Réfection des ponts aux aménagements de Rapide‑7 et de Rapide‑2",
         "proponent": "Hydro-Québec",
         "province": "QC",
@@ -21827,29 +21577,6 @@
       }
     },
     {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Windsor to Lakeshore Transmission Line",
-        "proponent": "Hydro One",
-        "province": "ON",
-        "sector": "Energy",
-        "value_cad": 235000000.0,
-        "status": "Announced & Planning",
-        "coords": null,
-        "url": null
-      },
-      "verdict": "weak",
-      "overridden": false,
-      "score": 0.678,
-      "name_score": 0.678,
-      "match": {
-        "id": null,
-        "name": "Grand Falls-Windsor – Glenwood Transmission Line Decommissioning",
-        "jurisdiction": "Newfoundland & Labrador (ECC)"
-      }
-    },
-    {
       "source": "nrcan_mpi_points",
       "ext": {
         "ext_id": null,
@@ -21936,8 +21663,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.566,
-      "name_score": 0.566,
+      "score": 0.565,
+      "name_score": 0.565,
       "match": {
         "id": null,
         "name": "Cando Sturgeon Rail Terminal West Expansion Project",
@@ -22037,6 +21764,32 @@
         "id": null,
         "name": "UBC Okanagan Geoexchange",
         "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Ghost River WaterCharger Battery Energy Storage",
+        "proponent": "TransAlta Corporation",
+        "province": "AB",
+        "sector": "Energy",
+        "value_cad": 208400000.0,
+        "status": "Approved",
+        "coords": [
+          -114.704604,
+          51.217782
+        ],
+        "url": null
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.409,
+      "name_score": 0.409,
+      "match": {
+        "id": null,
+        "name": "Goreway Battery Energy Storage System",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -22175,7 +21928,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.515,
+      "score": 0.514,
       "name_score": 0.56,
       "match": {
         "id": null,
@@ -22198,8 +21951,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.681,
-      "name_score": 0.578,
+      "score": 0.678,
+      "name_score": 0.575,
       "match": {
         "id": null,
         "name": "Grand Falls-Windsor – Glenwood Transmission Line Decommissioning",
@@ -22224,8 +21977,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.677,
-      "name_score": 0.477,
+      "score": 0.678,
+      "name_score": 0.478,
       "match": {
         "id": null,
         "name": "Parking lot replacement at RCMP Detachment in Innisfail, Alberta",
@@ -22247,8 +22000,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.415,
-      "name_score": 0.415,
+      "score": 0.416,
+      "name_score": 0.416,
       "match": {
         "id": null,
         "name": "Dawson Creek Liquid Nitrogen Plant",
@@ -22293,8 +22046,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.458,
-      "name_score": 0.44,
+      "score": 0.457,
+      "name_score": 0.439,
       "match": {
         "id": null,
         "name": "Waheeba Solar Energy Project",
@@ -22342,8 +22095,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.542,
-      "name_score": 0.542,
+      "score": 0.54,
+      "name_score": 0.54,
       "match": {
         "id": null,
         "name": "Hydrogen Ready Power Plant Project",
@@ -22394,8 +22147,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.516,
-      "name_score": 0.416,
+      "score": 0.517,
+      "name_score": 0.417,
       "match": {
         "id": null,
         "name": "Coal water treatment plant upgrades - Neptune Terminal",
@@ -22420,7 +22173,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.515,
+      "score": 0.514,
       "name_score": 0.56,
       "match": {
         "id": null,
@@ -22709,6 +22462,29 @@
       "source": "nrcan_mpi_points",
       "ext": {
         "ext_id": null,
+        "name": "Mica - U1 - U4 Circuit Breaker and Iso-phase Bus Replacement Project",
+        "proponent": "BC Hydro",
+        "province": "3. Thompson-Okanagan",
+        "sector": "Utilities (incl sewage treatment)",
+        "value_cad": 176000000.0,
+        "status": "Construction started",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.434,
+      "name_score": 0.184,
+      "match": {
+        "id": null,
+        "name": "Wood Pole Replacement Program, Circuit S22A & S2B",
+        "jurisdiction": "Ontario (Class EA)"
+      }
+    },
+    {
+      "source": "nrcan_mpi_points",
+      "ext": {
+        "ext_id": null,
         "name": "Mission Senior Secondary School",
         "proponent": "School District 75",
         "province": "2. Mainland/Southwest",
@@ -22798,8 +22574,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.628,
-      "name_score": 0.571,
+      "score": 0.626,
+      "name_score": 0.57,
       "match": {
         "id": null,
         "name": "Battery Storage Facility",
@@ -22844,12 +22620,38 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.455,
-      "name_score": 0.455,
+      "score": 0.456,
+      "name_score": 0.456,
       "match": {
         "id": null,
         "name": "Burlington Canal Pier safety improvements",
         "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Goreway BESS",
+        "proponent": "Capital Power Corporation",
+        "province": "ON",
+        "sector": "Energy",
+        "value_cad": 161000000.0,
+        "status": "In Review",
+        "coords": [
+          -79.6793872469373,
+          43.7464048021777
+        ],
+        "url": null
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.733,
+      "name_score": 0.483,
+      "match": {
+        "id": null,
+        "name": "Goreway Battery Energy Storage System",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -22870,8 +22672,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.476,
-      "name_score": 0.626,
+      "score": 0.475,
+      "name_score": 0.625,
       "match": {
         "id": null,
         "name": "La Plonge Solar and Battery Energy Storage System",
@@ -23034,12 +22836,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.502,
-      "name_score": 0.252,
+      "score": 0.501,
+      "name_score": 0.251,
       "match": {
         "id": null,
-        "name": "Transmission Line Rebuild Project, City of Brandon",
-        "jurisdiction": "Manitoba (Environment Act)"
+        "name": "Bruce A TS Switchyard Rebuild",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -23256,8 +23058,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.403,
-      "name_score": 0.403,
+      "score": 0.404,
+      "name_score": 0.404,
       "match": {
         "id": null,
         "name": "Lower Churchill River Exploration Project arkland Resource Development Inc.",
@@ -23328,8 +23130,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.403,
-      "name_score": 0.403,
+      "score": 0.404,
+      "name_score": 0.404,
       "match": {
         "id": null,
         "name": "Lower Churchill River Exploration Project arkland Resource Development Inc.",
@@ -23421,7 +23223,7 @@
       "verdict": "weak",
       "overridden": false,
       "score": 0.516,
-      "name_score": 0.44,
+      "name_score": 0.439,
       "match": {
         "id": null,
         "name": "Highway Upgrade, Saskatchewan Border to 1.9 km West of West Junction of PTH 83",
@@ -23443,12 +23245,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.404,
-      "name_score": 0.404,
+      "score": 0.698,
+      "name_score": 0.698,
       "match": {
         "id": null,
-        "name": "Upgrade Cambridge Military Library at Royal Artillery Park - Canadian Forces Base Halifax",
-        "jurisdiction": "Federal (IAAC)"
+        "name": "Cedar LNG: EA document library",
+        "jurisdiction": "Proponent website"
       }
     },
     {
@@ -23515,8 +23317,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.649,
-      "name_score": 0.399,
+      "score": 0.65,
+      "name_score": 0.4,
       "match": {
         "id": null,
         "name": "Interior-Lower Mainland Transmission",
@@ -23538,8 +23340,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.672,
-      "name_score": 0.422,
+      "score": 0.671,
+      "name_score": 0.421,
       "match": {
         "id": null,
         "name": "Sea-To-Sky Highway Upgrade",
@@ -23584,8 +23386,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.578,
-      "name_score": 0.578,
+      "score": 0.579,
+      "name_score": 0.579,
       "match": {
         "id": null,
         "name": "Bigstone Cree Nation Education Authority: CU254 Oksi Pasikoniwew Kakik School Secondary Access Road Project",
@@ -23665,29 +23467,6 @@
         "id": null,
         "name": "Stabilisation de la berge du fleuve face au parc de la Commune à Varennes",
         "jurisdiction": "Quebec (MELCCFP)"
-      }
-    },
-    {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Power Downtown Toronto",
-        "proponent": "Hydro One",
-        "province": "ON",
-        "sector": "Energy",
-        "value_cad": 120000000.0,
-        "status": "Announced & Planning",
-        "coords": null,
-        "url": null
-      },
-      "verdict": "weak",
-      "overridden": false,
-      "score": 0.499,
-      "name_score": 0.249,
-      "match": {
-        "id": null,
-        "name": "Application to Perform Insulator Replacement Work Impacting International Power Lines L33P and L34P",
-        "jurisdiction": "Federal (IAAC)"
       }
     },
     {
@@ -23872,7 +23651,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.645,
+      "score": 0.646,
       "name_score": 0.549,
       "match": {
         "id": null,
@@ -23967,7 +23746,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.676,
+      "score": 0.675,
       "name_score": 0.544,
       "match": {
         "id": null,
@@ -24111,8 +23890,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.64,
-      "name_score": 0.39,
+      "score": 0.639,
+      "name_score": 0.389,
       "match": {
         "id": null,
         "name": "230 KV transmission line and 230/66 KV Station",
@@ -24137,8 +23916,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.516,
-      "name_score": 0.516,
+      "score": 0.514,
+      "name_score": 0.514,
       "match": {
         "id": null,
         "name": "Windy Ridge Wind Power Project",
@@ -24160,8 +23939,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.457,
-      "name_score": 0.457,
+      "score": 0.458,
+      "name_score": 0.458,
       "match": {
         "id": null,
         "name": "Campbell River Water Supply",
@@ -24209,8 +23988,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.573,
-      "name_score": 0.323,
+      "score": 0.568,
+      "name_score": 0.318,
       "match": {
         "id": null,
         "name": "Upgrading of the 230 - 500 kV Transformer Capacity in the Dorsey 500 kV Switchyard",
@@ -24296,6 +24075,29 @@
       "source": "nrcan_mpi",
       "ext": {
         "ext_id": null,
+        "name": "The Seven Stars Energy Project (the Project)",
+        "proponent": "Enbridge  and Six Nations Energy Development LP",
+        "province": "SK",
+        "sector": "Energy",
+        "value_cad": 100000000.0,
+        "status": "Announced & Planning",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.401,
+      "name_score": 0.401,
+      "match": {
+        "id": null,
+        "name": "T-145 STARS Hangar Addition",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
         "name": "Whitehorse power centres",
         "proponent": "Yukon Energy Corporation",
         "province": "YK",
@@ -24307,8 +24109,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.473,
-      "name_score": 0.223,
+      "score": 0.47,
+      "name_score": 0.22,
       "match": {
         "id": null,
         "name": "Wapiti Power Development",
@@ -24420,6 +24222,32 @@
       "source": "nrcan_mpi_points",
       "ext": {
         "ext_id": null,
+        "name": "Hudson Bay Mountain Estates",
+        "proponent": "2020 Development",
+        "province": "7. Nechako",
+        "sector": "Residential/Commercial",
+        "value_cad": 100000000.0,
+        "status": "Proposed",
+        "coords": [
+          -127.1559982,
+          54.76923
+        ],
+        "url": null
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.473,
+      "name_score": 0.473,
+      "match": {
+        "id": null,
+        "name": "Hudbay (Hudson Bay Mining and Smelting): EA document library",
+        "jurisdiction": "Proponent website"
+      }
+    },
+    {
+      "source": "nrcan_mpi_points",
+      "ext": {
+        "ext_id": null,
         "name": "Ioco Lands Mixed-Use Development",
         "proponent": "Brilliant Circle Group",
         "province": "2. Mainland/Southwest",
@@ -24486,8 +24314,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.506,
-      "name_score": 0.506,
+      "score": 0.507,
+      "name_score": 0.507,
       "match": {
         "id": null,
         "name": "Kemess North Copper-Gold Mine",
@@ -24734,8 +24562,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.469,
-      "name_score": 0.469,
+      "score": 0.47,
+      "name_score": 0.47,
       "match": {
         "id": null,
         "name": "Skinners Pond Small Craft Harbour Containment Cell Expansion",
@@ -24861,8 +24689,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.473,
-      "name_score": 0.273,
+      "score": 0.471,
+      "name_score": 0.271,
       "match": {
         "id": null,
         "name": "LNG Canada Export Terminal",
@@ -24919,29 +24747,6 @@
       }
     },
     {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Porcupine TS upgrade",
-        "proponent": "Hydro One",
-        "province": "ON",
-        "sector": "Energy",
-        "value_cad": 80000000.0,
-        "status": "Announced & Planning",
-        "coords": null,
-        "url": null
-      },
-      "verdict": "weak",
-      "overridden": false,
-      "score": 0.497,
-      "name_score": 0.247,
-      "match": {
-        "id": null,
-        "name": "J5D OPGW Upgrade Project",
-        "jurisdiction": "Federal (IAAC)"
-      }
-    },
-    {
       "source": "nrcan_mpi_points",
       "ext": {
         "ext_id": null,
@@ -24979,12 +24784,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.494,
-      "name_score": 0.244,
+      "score": 0.491,
+      "name_score": 0.241,
       "match": {
         "id": null,
-        "name": "138 KV transmission line between kettle generating station and Limestone Generating station",
-        "jurisdiction": "Manitoba (Environment Act)"
+        "name": "Bridgman Transmission Station",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -25074,7 +24879,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.483,
+      "score": 0.482,
       "name_score": 0.312,
       "match": {
         "id": null,
@@ -25097,8 +24902,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.522,
-      "name_score": 0.522,
+      "score": 0.523,
+      "name_score": 0.523,
       "match": {
         "id": null,
         "name": "Bulk Materials Handling Facility, R.M. of Macdonald",
@@ -25233,29 +25038,6 @@
       }
     },
     {
-      "source": "nrcan_mpi",
-      "ext": {
-        "ext_id": null,
-        "name": "Etobicoke Greenway Project",
-        "proponent": "Hydro One",
-        "province": "ON",
-        "sector": "Energy",
-        "value_cad": 73100000.0,
-        "status": "Under Construction",
-        "coords": null,
-        "url": null
-      },
-      "verdict": "weak",
-      "overridden": false,
-      "score": 0.518,
-      "name_score": 0.518,
-      "match": {
-        "id": null,
-        "name": "Greenway Biodiesel Plant - Manufacturing Facility, City of Winnipeg",
-        "jurisdiction": "Manitoba (Environment Act)"
-      }
-    },
-    {
       "source": "nrcan_mpi_points",
       "ext": {
         "ext_id": null,
@@ -25362,8 +25144,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.434,
-      "name_score": 0.434,
+      "score": 0.432,
+      "name_score": 0.432,
       "match": {
         "id": null,
         "name": "Rencontre East Transmission Line (Interconnection) Newfoundland and Labrador Hydro",
@@ -25437,8 +25219,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.686,
-      "name_score": 0.664,
+      "score": 0.687,
+      "name_score": 0.665,
       "match": {
         "id": null,
         "name": "Projet éolien de Grosse-Île",
@@ -25460,7 +25242,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.627,
+      "score": 0.628,
       "name_score": 0.474,
       "match": {
         "id": null,
@@ -25509,8 +25291,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.434,
-      "name_score": 0.584,
+      "score": 0.433,
+      "name_score": 0.583,
       "match": {
         "id": null,
         "name": "Improving the reliability of Obedjiwan's stand-alone power grid by adding the equipment and infrastructure needed to integrate renewable energy from the future forest biomass power plant.",
@@ -25588,7 +25370,7 @@
       "verdict": "weak",
       "overridden": false,
       "score": 0.564,
-      "name_score": 0.234,
+      "name_score": 0.235,
       "match": {
         "id": null,
         "name": "Benjamins Mill Wind Project",
@@ -25872,8 +25654,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.435,
-      "name_score": 0.346,
+      "score": 0.434,
+      "name_score": 0.345,
       "match": {
         "id": null,
         "name": "Bear Head Energy Green Hydrogen and Ammonia Production, Storage and Loading Facility",
@@ -25987,8 +25769,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.499,
-      "name_score": 0.499,
+      "score": 0.501,
+      "name_score": 0.501,
       "match": {
         "id": null,
         "name": "Electric Bus Charging Station Removal and Demolition",
@@ -26088,8 +25870,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.536,
-      "name_score": 0.686,
+      "score": 0.535,
+      "name_score": 0.685,
       "match": {
         "id": null,
         "name": "Crop protection products warehouse, R.M. of Turtle Mountain",
@@ -26258,12 +26040,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.522,
-      "name_score": 0.272,
+      "score": 0.514,
+      "name_score": 0.264,
       "match": {
         "id": null,
-        "name": "Upgrading of the 230 - 500 kV Transformer Capacity in the Dorsey 500 kV Switchyard",
-        "jurisdiction": "Manitoba (Environment Act)"
+        "name": "Bruce A TS Switchyard Rebuild",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -26281,12 +26063,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.522,
-      "name_score": 0.272,
+      "score": 0.514,
+      "name_score": 0.264,
       "match": {
         "id": null,
-        "name": "Upgrading of the 230 - 500 kV Transformer Capacity in the Dorsey 500 kV Switchyard",
-        "jurisdiction": "Manitoba (Environment Act)"
+        "name": "Bruce A TS Switchyard Rebuild",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -26307,8 +26089,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.428,
-      "name_score": 0.578,
+      "score": 0.429,
+      "name_score": 0.579,
       "match": {
         "id": null,
         "name": "Bigstone Cree Nation Education Authority: CU254 Oksi Pasikoniwew Kakik School Secondary Access Road Project",
@@ -26428,8 +26210,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.499,
-      "name_score": 0.499,
+      "score": 0.501,
+      "name_score": 0.501,
       "match": {
         "id": null,
         "name": "Electric Bus Charging Station Removal and Demolition",
@@ -26595,8 +26377,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.521,
-      "name_score": 0.521,
+      "score": 0.522,
+      "name_score": 0.522,
       "match": {
         "id": null,
         "name": "East Toba River Montrose Creek Hydroelectric",
@@ -26664,7 +26446,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.628,
+      "score": 0.627,
       "name_score": 0.539,
       "match": {
         "id": null,
@@ -26941,8 +26723,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.495,
-      "name_score": 0.645,
+      "score": 0.496,
+      "name_score": 0.646,
       "match": {
         "id": null,
         "name": "East Harmony Trail Extension",
@@ -27114,8 +26896,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.404,
-      "name_score": 0.154,
+      "score": 0.401,
+      "name_score": 0.151,
       "match": {
         "id": null,
         "name": "Interior-Lower Mainland Transmission",
@@ -27212,8 +26994,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.547,
-      "name_score": 0.547,
+      "score": 0.546,
+      "name_score": 0.546,
       "match": {
         "id": null,
         "name": "Bear Head Energy Green Hydrogen and Ammonia Production, Storage and Loading Facility",
@@ -27365,8 +27147,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.674,
-      "name_score": 0.474,
+      "score": 0.676,
+      "name_score": 0.476,
       "match": {
         "id": null,
         "name": "Spuzzum First Nation Drinking Water Access Road",
@@ -27388,8 +27170,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.543,
-      "name_score": 0.293,
+      "score": 0.542,
+      "name_score": 0.292,
       "match": {
         "id": null,
         "name": "Improving the reliability of Obedjiwan's stand-alone power grid by adding the equipment and infrastructure needed to integrate renewable energy from the future forest biomass power plant.",
@@ -27564,12 +27346,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.529,
-      "name_score": 0.529,
+      "score": 0.525,
+      "name_score": 0.525,
       "match": {
         "id": null,
-        "name": "EverWind Strait Crossing Transmission Line Project",
-        "jurisdiction": "Nova Scotia (NSECC)"
+        "name": "St. Clair Transmission Line",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -27665,8 +27447,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.578,
-      "name_score": 0.578,
+      "score": 0.579,
+      "name_score": 0.579,
       "match": {
         "id": null,
         "name": "Bigstone Cree Nation Education Authority: CU254 Oksi Pasikoniwew Kakik School Secondary Access Road Project",
@@ -28277,8 +28059,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.481,
-      "name_score": 0.481,
+      "score": 0.483,
+      "name_score": 0.483,
       "match": {
         "id": null,
         "name": "Interim Storage for Tubulars Contaminated with Naturally Occurring Radioactive Material Scale",
@@ -28303,8 +28085,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.455,
-      "name_score": 0.605,
+      "score": 0.458,
+      "name_score": 0.608,
       "match": {
         "id": null,
         "name": "Electrical Upgrade - Canadian Forces Station Mill Cove",
@@ -28382,7 +28164,7 @@
       "verdict": "weak",
       "overridden": false,
       "score": 0.477,
-      "name_score": 0.368,
+      "name_score": 0.369,
       "match": {
         "id": null,
         "name": "SE-MI-AH-MU-ALE-LEN (Housing) Society - Site 62 Affordable Housing Development Project",
@@ -28482,7 +28264,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.499,
+      "score": 0.498,
       "name_score": 0.409,
       "match": {
         "id": null,
@@ -28508,8 +28290,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.623,
-      "name_score": 0.173,
+      "score": 0.624,
+      "name_score": 0.174,
       "match": {
         "id": null,
         "name": "CP Logistics Park Vancouver and Pitt Meadows Road and Rail Improvements Projects",
@@ -28649,12 +28431,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.431,
-      "name_score": 0.181,
+      "score": 0.455,
+      "name_score": 0.205,
       "match": {
         "id": null,
-        "name": "Mica Generating Station Unit 5",
-        "jurisdiction": "British Columbia (EAO)"
+        "name": "Wood Pole Replacement Program, Circuit S22A & S2B",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -28724,8 +28506,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.459,
-      "name_score": 0.209,
+      "score": 0.455,
+      "name_score": 0.205,
       "match": {
         "id": null,
         "name": "BC Hydro-Double Overhead Circuit: Upgrading of Electrical Service Infrastructure to Tofino, British Columbia",
@@ -28799,8 +28581,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.592,
-      "name_score": 0.592,
+      "score": 0.593,
+      "name_score": 0.593,
       "match": {
         "id": null,
         "name": "Haida Gwaii Aids to Navigation Rebuild and Helipad Construction",
@@ -28825,7 +28607,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.414,
+      "score": 0.413,
       "name_score": 0.471,
       "match": {
         "id": null,
@@ -28978,8 +28760,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.409,
-      "name_score": 0.209,
+      "score": 0.408,
+      "name_score": 0.208,
       "match": {
         "id": null,
         "name": "West upper promenade renewal - Canada Place",
@@ -29108,8 +28890,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.411,
-      "name_score": 0.411,
+      "score": 0.412,
+      "name_score": 0.412,
       "match": {
         "id": null,
         "name": "Royal Roads University Sustainability Initiative - Overhead Service Upgrades (Lower Campus)",
@@ -29191,6 +28973,32 @@
       "match": {
         "id": null,
         "name": "Construction of a New Boat Ramp at Ranch Point, Canadian Forces Maritime Experimental and Test Ranges, Canadian Forces Base Esquimalt",
+        "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi_points",
+      "ext": {
+        "ext_id": null,
+        "name": "Songhees Creek Hydro Project",
+        "proponent": "Songhees Creek Hydro Inc.",
+        "province": "1. Vancouver Island/Coast",
+        "sector": "Utilities (incl sewage treatment)",
+        "value_cad": 30000000.0,
+        "status": "On hold",
+        "coords": [
+          -127.62799,
+          50.76696
+        ],
+        "url": null
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.403,
+      "name_score": 0.443,
+      "match": {
+        "id": null,
+        "name": "0656 songhees first nation-sanitary sewer system inflow and infiltration upgrade ICMS123839",
         "jurisdiction": "Federal (IAAC)"
       }
     },
@@ -29705,8 +29513,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.406,
-      "name_score": 0.206,
+      "score": 0.407,
+      "name_score": 0.207,
       "match": {
         "id": null,
         "name": "Portside Road Extension and Bridge",
@@ -29803,8 +29611,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.436,
-      "name_score": 0.436,
+      "score": 0.437,
+      "name_score": 0.437,
       "match": {
         "id": null,
         "name": "Methanex Medicine Hat Expansion Project",
@@ -29982,8 +29790,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.564,
-      "name_score": 0.564,
+      "score": 0.569,
+      "name_score": 0.569,
       "match": {
         "id": null,
         "name": "Cowichan Tribes, Quw'utsun Smun'een: Elementary School Addition",
@@ -30080,8 +29888,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.608,
-      "name_score": 0.264,
+      "score": 0.609,
+      "name_score": 0.265,
       "match": {
         "id": null,
         "name": "Kitsault Mine Project",
@@ -30126,8 +29934,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.561,
-      "name_score": 0.561,
+      "score": 0.566,
+      "name_score": 0.566,
       "match": {
         "id": null,
         "name": "Technical and Protective Operations Facility (TPOF) Electrical Substation Replacement",
@@ -30152,8 +29960,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.532,
-      "name_score": 0.532,
+      "score": 0.535,
+      "name_score": 0.535,
       "match": {
         "id": null,
         "name": "Stop-log water control structure",
@@ -30752,8 +30560,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.658,
-      "name_score": 0.658,
+      "score": 0.657,
+      "name_score": 0.657,
       "match": {
         "id": null,
         "name": "Agriculture and Agri-Food Canada Building Demolition at Summerland",
@@ -30931,7 +30739,7 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.598,
+      "score": 0.597,
       "name_score": 0.536,
       "match": {
         "id": null,
@@ -30954,8 +30762,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.628,
-      "name_score": 0.628,
+      "score": 0.631,
+      "name_score": 0.631,
       "match": {
         "id": null,
         "name": "Floating Wave Break, Digby Harbour, NS",
@@ -31032,8 +30840,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.532,
-      "name_score": 0.532,
+      "score": 0.535,
+      "name_score": 0.535,
       "match": {
         "id": null,
         "name": "Stop-log water control structure",
@@ -31081,8 +30889,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.452,
-      "name_score": 0.602,
+      "score": 0.457,
+      "name_score": 0.607,
       "match": {
         "id": null,
         "name": "Victoria Beach Harbour Manitoba - Routine Maintenance Dredging of Lake Winnipeg at Victoria Beach - Winter 2019",
@@ -31130,8 +30938,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.602,
-      "name_score": 0.602,
+      "score": 0.607,
+      "name_score": 0.607,
       "match": {
         "id": null,
         "name": "Victoria Beach Harbour Manitoba - Routine Maintenance Dredging of Lake Winnipeg at Victoria Beach - Winter 2019",
@@ -31343,8 +31151,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.568,
-      "name_score": 0.318,
+      "score": 0.567,
+      "name_score": 0.317,
       "match": {
         "id": null,
         "name": "Bruce to Milton Transmission Reinforcement Project",
@@ -31389,8 +31197,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.408,
-      "name_score": 0.408,
+      "score": 0.409,
+      "name_score": 0.409,
       "match": {
         "id": null,
         "name": "Cowichan Tribes, Quw'utsun Smun'een: Elementary School Addition",
@@ -31611,8 +31419,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.507,
-      "name_score": 0.507,
+      "score": 0.505,
+      "name_score": 0.505,
       "match": {
         "id": null,
         "name": "Canadian Nuclear Laboratories Nuclear Power Demonstration Waste Facility: Modification to Crawl Space",
@@ -31657,8 +31465,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.417,
-      "name_score": 0.417,
+      "score": 0.415,
+      "name_score": 0.415,
       "match": {
         "id": null,
         "name": "Botwood/Peterview Exploits Regional Water Supply Trans. Line Town of Botwood/Peterview",
@@ -31680,8 +31488,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.443,
-      "name_score": 0.193,
+      "score": 0.441,
+      "name_score": 0.191,
       "match": {
         "id": null,
         "name": "Site C Clean Energy",
@@ -31703,8 +31511,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.633,
-      "name_score": 0.633,
+      "score": 0.632,
+      "name_score": 0.632,
       "match": {
         "id": null,
         "name": "Photovoltaic Solar Power Plant - Canadian Forces Base Valcartier",
@@ -31726,12 +31534,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.523,
-      "name_score": 0.523,
+      "score": 0.519,
+      "name_score": 0.519,
       "match": {
         "id": null,
-        "name": "Raven Lake - Birtle South - Virden West 230 kV Transmission Lines and Stations",
-        "jurisdiction": "Manitoba (Environment Act)"
+        "name": "Lakeshore Transmission Stations Project",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -31772,8 +31580,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.531,
-      "name_score": 0.531,
+      "score": 0.529,
+      "name_score": 0.529,
       "match": {
         "id": null,
         "name": "Surface Gold Mine at Moose River Gold Mines, Halifax County",
@@ -31795,8 +31603,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.488,
-      "name_score": 0.488,
+      "score": 0.489,
+      "name_score": 0.489,
       "match": {
         "id": null,
         "name": "Cobalt Chemicals Refinery",
@@ -31818,8 +31626,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.405,
-      "name_score": 0.405,
+      "score": 0.406,
+      "name_score": 0.406,
       "match": {
         "id": null,
         "name": "Moneta Mine",
@@ -31933,8 +31741,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.549,
-      "name_score": 0.549,
+      "score": 0.547,
+      "name_score": 0.547,
       "match": {
         "id": null,
         "name": "Grand-Mère Hydro-electric Facility",
@@ -31979,8 +31787,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.549,
-      "name_score": 0.549,
+      "score": 0.547,
+      "name_score": 0.547,
       "match": {
         "id": null,
         "name": "Grand-Mère Hydro-electric Facility",
@@ -32002,12 +31810,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.501,
-      "name_score": 0.501,
+      "score": 0.687,
+      "name_score": 0.687,
       "match": {
         "id": null,
-        "name": "Agnico Eagle",
-        "jurisdiction": "Ontario (Abandoned Mines)"
+        "name": "Agnico Eagle Mines Limited: EA document library",
+        "jurisdiction": "Proponent website"
       }
     },
     {
@@ -32028,9 +31836,9 @@
       "score": 0.501,
       "name_score": 0.501,
       "match": {
-        "id": 221,
-        "name": "Windsor Solar Project",
-        "jurisdiction": "Ontario (REA)"
+        "id": null,
+        "name": "Salt Springs Natural Gas Power Generation Facility Project",
+        "jurisdiction": "Federal (IAAC)"
       }
     },
     {
@@ -32094,8 +31902,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.429,
-      "name_score": 0.429,
+      "score": 0.428,
+      "name_score": 0.428,
       "match": {
         "id": null,
         "name": "Marathon Platinum Group Metals and Copper Mine Project",
@@ -32117,12 +31925,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.4,
-      "name_score": 0.4,
+      "score": 0.596,
+      "name_score": 0.596,
       "match": {
         "id": null,
-        "name": "Sienna Networks Ltd, New Telecommunications Tower on Lax Kw'alaams No. 1 Reserve, Lax Kw'alaams, BC",
-        "jurisdiction": "Federal (IAAC)"
+        "name": "Umicore Transformer Station and Hydro One Line",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -32140,8 +31948,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.59,
-      "name_score": 0.59,
+      "score": 0.588,
+      "name_score": 0.588,
       "match": {
         "id": 221,
         "name": "Windsor Solar Project",
@@ -32186,12 +31994,12 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.4,
-      "name_score": 0.4,
+      "score": 0.596,
+      "name_score": 0.596,
       "match": {
         "id": null,
-        "name": "Sienna Networks Ltd, New Telecommunications Tower on Lax Kw'alaams No. 1 Reserve, Lax Kw'alaams, BC",
-        "jurisdiction": "Federal (IAAC)"
+        "name": "Umicore Transformer Station and Hydro One Line",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -32209,8 +32017,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.549,
-      "name_score": 0.549,
+      "score": 0.547,
+      "name_score": 0.547,
       "match": {
         "id": null,
         "name": "Grand-Mère Hydro-electric Facility",
@@ -32255,8 +32063,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.677,
-      "name_score": 0.677,
+      "score": 0.676,
+      "name_score": 0.676,
       "match": {
         "id": null,
         "name": "Cando Sturgeon Rail Terminal West Expansion Project",
@@ -32416,8 +32224,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.548,
-      "name_score": 0.548,
+      "score": 0.546,
+      "name_score": 0.546,
       "match": {
         "id": null,
         "name": "La Plonge Solar and Battery Energy Storage System",
@@ -32462,11 +32270,34 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.4,
-      "name_score": 0.4,
+      "score": 0.596,
+      "name_score": 0.596,
       "match": {
         "id": null,
-        "name": "Sienna Networks Ltd, New Telecommunications Tower on Lax Kw'alaams No. 1 Reserve, Lax Kw'alaams, BC",
+        "name": "Umicore Transformer Station and Hydro One Line",
+        "jurisdiction": "Ontario (Class EA)"
+      }
+    },
+    {
+      "source": "ero_on",
+      "ext": {
+        "ext_id": "026-0925",
+        "name": "Canadian Arrow Mines Limited",
+        "proponent": null,
+        "province": "ON",
+        "sector": null,
+        "value_cad": null,
+        "status": "Instrument",
+        "coords": null,
+        "url": "https://ero.ontario.ca/notice/026-0925"
+      },
+      "verdict": "weak",
+      "overridden": false,
+      "score": 0.573,
+      "name_score": 0.573,
+      "match": {
+        "id": null,
+        "name": "One Arrow First Nation Subdivision Project",
         "jurisdiction": "Federal (IAAC)"
       }
     },
@@ -32741,8 +32572,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.499,
-      "name_score": 0.499,
+      "score": 0.501,
+      "name_score": 0.501,
       "match": {
         "id": null,
         "name": "Electric Bus Charging Station Removal and Demolition",
@@ -32764,8 +32595,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.499,
-      "name_score": 0.499,
+      "score": 0.501,
+      "name_score": 0.501,
       "match": {
         "id": null,
         "name": "Electric Bus Charging Station Removal and Demolition",
@@ -32787,8 +32618,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.499,
-      "name_score": 0.499,
+      "score": 0.501,
+      "name_score": 0.501,
       "match": {
         "id": null,
         "name": "Electric Bus Charging Station Removal and Demolition",
@@ -32810,8 +32641,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.499,
-      "name_score": 0.499,
+      "score": 0.501,
+      "name_score": 0.501,
       "match": {
         "id": null,
         "name": "Electric Bus Charging Station Removal and Demolition",
@@ -33182,8 +33013,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.417,
-      "name_score": 0.417,
+      "score": 0.416,
+      "name_score": 0.416,
       "match": {
         "id": null,
         "name": "Crude Oil Pipeline, R.M.'s of Wallace and Pipestone",
@@ -33410,8 +33241,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.452,
-      "name_score": 0.452,
+      "score": 0.456,
+      "name_score": 0.456,
       "match": {
         "id": null,
         "name": "Nicola Valley Aggregates Gravel Pit",
@@ -33436,8 +33267,8 @@
       },
       "verdict": "weak",
       "overridden": false,
-      "score": 0.424,
-      "name_score": 0.424,
+      "score": 0.423,
+      "name_score": 0.423,
       "match": {
         "id": null,
         "name": "Kutcho Copper Zinc Silver Gold Mine Project, Dease Lake",
@@ -33612,8 +33443,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.795,
-      "name_score": 0.545,
+      "score": 0.794,
+      "name_score": 0.544,
       "match": {
         "id": null,
         "name": "Darlington New Nuclear Power Plant Project",
@@ -33635,7 +33466,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.896,
+      "score": 0.895,
       "name_score": 0.755,
       "match": {
         "id": null,
@@ -33661,8 +33492,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.745,
-      "name_score": 0.626,
+      "score": 0.742,
+      "name_score": 0.622,
       "match": {
         "id": null,
         "name": "Pathways Alliance CO2 Transportation Network and Storage Hub Project",
@@ -33736,8 +33567,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.116,
-      "name_score": 0.666,
+      "score": 1.115,
+      "name_score": 0.665,
       "match": {
         "id": null,
         "name": "Bruce C Nuclear Project",
@@ -33837,8 +33668,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.894,
-      "name_score": 0.644,
+      "score": 0.893,
+      "name_score": 0.643,
       "match": {
         "id": null,
         "name": "EverWind Point Tupper Green Hydrogen/Ammonia Project – Phase 1",
@@ -34016,7 +33847,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.308,
+      "score": 1.307,
       "name_score": 1.0,
       "match": {
         "id": null,
@@ -34111,7 +33942,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.777,
+      "score": 0.776,
       "name_score": 0.636,
       "match": {
         "id": null,
@@ -34235,8 +34066,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.928,
-      "name_score": 0.678,
+      "score": 0.927,
+      "name_score": 0.677,
       "match": {
         "id": null,
         "name": "Nova Sustainable Fuels Renewable Energy Park Project",
@@ -34412,7 +34243,7 @@
       "verdict": "matched",
       "overridden": false,
       "score": 0.839,
-      "name_score": 0.725,
+      "name_score": 0.726,
       "match": {
         "id": null,
         "name": "Argentia Wellhead Platform for White Rose Extension",
@@ -34535,7 +34366,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.157,
+      "score": 1.156,
       "name_score": 1.0,
       "match": {
         "id": null,
@@ -34582,7 +34413,7 @@
       "verdict": "matched",
       "overridden": false,
       "score": 0.877,
-      "name_score": 0.701,
+      "name_score": 0.702,
       "match": {
         "id": null,
         "name": "Southeast CFS Little Grand Rapids Staff Housing (Personnel and Visiting Professionals) and Prevention Centre",
@@ -34633,8 +34464,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.856,
-      "name_score": 0.606,
+      "score": 0.855,
+      "name_score": 0.605,
       "match": {
         "id": null,
         "name": "Baptiste Nickel",
@@ -34777,8 +34608,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.953,
-      "name_score": 0.723,
+      "score": 0.956,
+      "name_score": 0.727,
       "match": {
         "id": null,
         "name": "NaiKun Offshore Wind Energy",
@@ -34924,8 +34755,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.756,
-      "name_score": 0.506,
+      "score": 0.75,
+      "name_score": 0.5,
       "match": {
         "id": null,
         "name": "Enbridge Pipelines Inc. - Line 3 Replacement Program",
@@ -35219,7 +35050,7 @@
       "verdict": "matched",
       "overridden": false,
       "score": 0.975,
-      "name_score": 0.689,
+      "name_score": 0.688,
       "match": {
         "id": null,
         "name": "Strange Lake Rare Earth Mining Project",
@@ -35267,8 +35098,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.83,
-      "name_score": 0.722,
+      "score": 0.832,
+      "name_score": 0.723,
       "match": {
         "id": null,
         "name": "Enbridge Northern Gateway",
@@ -35365,7 +35196,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.861,
+      "score": 0.86,
       "name_score": 0.745,
       "match": {
         "id": null,
@@ -35391,7 +35222,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.949,
+      "score": 0.948,
       "name_score": 0.57,
       "match": {
         "id": null,
@@ -35443,7 +35274,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.159,
+      "score": 1.158,
       "name_score": 1.0,
       "match": {
         "id": null,
@@ -35677,8 +35508,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.052,
-      "name_score": 0.602,
+      "score": 1.053,
+      "name_score": 0.603,
       "match": {
         "id": null,
         "name": "Spanish Mountain Gold",
@@ -35703,8 +35534,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.238,
-      "name_score": 0.788,
+      "score": 1.233,
+      "name_score": 0.783,
       "match": {
         "id": null,
         "name": "Waasigan transmission line project",
@@ -36257,8 +36088,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.052,
-      "name_score": 0.602,
+      "score": 1.053,
+      "name_score": 0.603,
       "match": {
         "id": null,
         "name": "Spanish Mountain Gold",
@@ -36359,7 +36190,7 @@
       "verdict": "matched",
       "overridden": false,
       "score": 1.149,
-      "name_score": 0.759,
+      "name_score": 0.758,
       "match": {
         "id": null,
         "name": "Valentine Gold Project",
@@ -36410,12 +36241,64 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.981,
-      "name_score": 0.652,
+      "score": 0.979,
+      "name_score": 0.65,
       "match": {
         "id": null,
         "name": "Marathon Platinum Group Metals and Copper Mine Project",
         "jurisdiction": "Ontario (Provincial EA)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Longwood to Lakeshore Phase 1",
+        "proponent": "Hydro One",
+        "province": "ON",
+        "sector": "Energy",
+        "value_cad": 800000000.0,
+        "status": "Announced & Planning",
+        "coords": [
+          -81.62679,
+          42.95939
+        ],
+        "url": null
+      },
+      "verdict": "matched",
+      "overridden": false,
+      "score": 1.35,
+      "name_score": 1.0,
+      "match": {
+        "id": null,
+        "name": "Longwood to Lakeshore",
+        "jurisdiction": "Ontario (Class EA)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Longwood to Lakeshore Phase 2",
+        "proponent": "Hydro One",
+        "province": "ON",
+        "sector": "Energy",
+        "value_cad": 800000000.0,
+        "status": "Announced & Planning",
+        "coords": [
+          -81.62679,
+          42.95939
+        ],
+        "url": null
+      },
+      "verdict": "matched",
+      "overridden": false,
+      "score": 1.35,
+      "name_score": 1.0,
+      "match": {
+        "id": null,
+        "name": "Longwood to Lakeshore",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -36563,12 +36446,38 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.898,
-      "name_score": 0.798,
+      "score": 0.897,
+      "name_score": 0.797,
       "match": {
         "id": null,
         "name": "Ridley Island Energy Export Facility (formerly known as Vopak Pacific Canada)",
         "jurisdiction": "British Columbia (EAO)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Skyview 2 Battery Energy Storage System",
+        "proponent": "Potentia Renewables Inc.",
+        "province": "ON",
+        "sector": "Energy",
+        "value_cad": 750000000.0,
+        "status": "In Review",
+        "coords": [
+          -76.84013,
+          44.14855
+        ],
+        "url": null
+      },
+      "verdict": "matched",
+      "overridden": false,
+      "score": 0.775,
+      "name_score": 0.675,
+      "match": {
+        "id": null,
+        "name": "Napanee Battery Energy Storage System",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -36817,7 +36726,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.174,
+      "score": 1.175,
       "name_score": 1.0,
       "match": {
         "id": null,
@@ -36947,12 +36856,12 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.739,
-      "name_score": 0.539,
+      "score": 0.776,
+      "name_score": 0.531,
       "match": {
         "id": null,
-        "name": "Wawa Waste Disposal Site Capacity Expansion",
-        "jurisdiction": "Ontario (Provincial EA)"
+        "name": "Wawa TS Expansion",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -37273,7 +37182,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.373,
+      "score": 1.372,
       "name_score": 1.0,
       "match": {
         "id": null,
@@ -37299,8 +37208,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.235,
-      "name_score": 0.785,
+      "score": 1.234,
+      "name_score": 0.784,
       "match": {
         "id": null,
         "name": "Kemess North Copper-Gold Mine",
@@ -37351,8 +37260,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.049,
-      "name_score": 0.769,
+      "score": 1.045,
+      "name_score": 0.766,
       "match": {
         "id": null,
         "name": "Galaxy Lithium Project",
@@ -37582,12 +37491,12 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.782,
-      "name_score": 0.664,
+      "score": 1.25,
+      "name_score": 1.0,
       "match": {
         "id": null,
-        "name": "St. Vital - TransCanada Pipelines Limited (Ile des Chenes) - 115 kV Transmission Line",
-        "jurisdiction": "Manitoba (Environment Act)"
+        "name": "St. Clair Transmission Line",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -37848,6 +37757,32 @@
       }
     },
     {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "St. Thomas Line (including Centennial Transformer Station & Line)",
+        "proponent": "Hydro One",
+        "province": "ON",
+        "sector": "Energy",
+        "value_cad": 400000000.0,
+        "status": "Announced & Planning",
+        "coords": [
+          -81.160509,
+          42.93962
+        ],
+        "url": null
+      },
+      "verdict": "matched",
+      "overridden": false,
+      "score": 0.906,
+      "name_score": 0.556,
+      "match": {
+        "id": null,
+        "name": "Centennial Transformer Station and Line Project",
+        "jurisdiction": "Ontario (Class EA)"
+      }
+    },
+    {
       "source": "nrcan_mpi_points",
       "ext": {
         "ext_id": null,
@@ -37914,7 +37849,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.88,
+      "score": 0.881,
       "name_score": 0.818,
       "match": {
         "id": null,
@@ -37940,7 +37875,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.074,
+      "score": 1.073,
       "name_score": 1.0,
       "match": {
         "id": null,
@@ -38067,12 +38002,12 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.749,
-      "name_score": 0.749,
+      "score": 1.25,
+      "name_score": 1.0,
       "match": {
         "id": null,
-        "name": "La Plonge Solar and Battery Energy Storage System",
-        "jurisdiction": "Federal (IAAC)"
+        "name": "York Battery Energy Storage System",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -38093,7 +38028,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.014,
+      "score": 1.013,
       "name_score": 0.829,
       "match": {
         "id": null,
@@ -38116,7 +38051,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.086,
+      "score": 1.084,
       "name_score": 1.0,
       "match": {
         "id": null,
@@ -38246,7 +38181,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.871,
+      "score": 0.87,
       "name_score": 0.569,
       "match": {
         "id": null,
@@ -38272,8 +38207,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.058,
-      "name_score": 0.608,
+      "score": 1.059,
+      "name_score": 0.609,
       "match": {
         "id": null,
         "name": "Pointe du Bois - Bernic Lake 138 kV Transmission Line Project",
@@ -38552,7 +38487,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.297,
+      "score": 1.296,
       "name_score": 1.0,
       "match": {
         "id": null,
@@ -38630,8 +38565,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.819,
-      "name_score": 0.719,
+      "score": 0.817,
+      "name_score": 0.72,
       "match": {
         "id": null,
         "name": "Georgia Pacific Dock Removal",
@@ -38653,8 +38588,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.734,
-      "name_score": 0.564,
+      "score": 0.732,
+      "name_score": 0.561,
       "match": {
         "id": null,
         "name": "Highway 69 Four-Laning from North of Highway 559 to North of Woods Road (Project 1)",
@@ -38685,6 +38620,29 @@
         "id": null,
         "name": "Mine de graphite du lac Knife",
         "jurisdiction": "Quebec (MELCCFP)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Windsor to Lakeshore Transmission Line",
+        "proponent": "Hydro One",
+        "province": "ON",
+        "sector": "Energy",
+        "value_cad": 235000000.0,
+        "status": "Announced & Planning",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "matched",
+      "overridden": false,
+      "score": 0.828,
+      "name_score": 0.578,
+      "match": {
+        "id": null,
+        "name": "Windsor Lakeshore Powerline",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -39022,8 +38980,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.745,
-      "name_score": 0.575,
+      "score": 0.742,
+      "name_score": 0.572,
       "match": {
         "id": null,
         "name": "BC Ministry of Transportation and Infrastructure Highway 1 Four-Laning",
@@ -39198,7 +39156,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.264,
+      "score": 1.265,
       "name_score": 1.0,
       "match": {
         "id": null,
@@ -39270,7 +39228,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.737,
+      "score": 0.738,
       "name_score": 0.64,
       "match": {
         "id": null,
@@ -39478,8 +39436,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.898,
-      "name_score": 0.798,
+      "score": 0.897,
+      "name_score": 0.797,
       "match": {
         "id": null,
         "name": "Line Creek Coal",
@@ -39504,8 +39462,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.898,
-      "name_score": 0.798,
+      "score": 0.897,
+      "name_score": 0.797,
       "match": {
         "id": null,
         "name": "Line Creek Coal",
@@ -39634,7 +39592,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.739,
+      "score": 0.738,
       "name_score": 0.634,
       "match": {
         "id": null,
@@ -39715,6 +39673,29 @@
         "id": null,
         "name": "CN Zanardi Bridge, Causeway, and Corridor Connection",
         "jurisdiction": "Federal (IAAC)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Power Downtown Toronto",
+        "proponent": "Hydro One",
+        "province": "ON",
+        "sector": "Energy",
+        "value_cad": 120000000.0,
+        "status": "Announced & Planning",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "matched",
+      "overridden": false,
+      "score": 1.25,
+      "name_score": 1.0,
+      "match": {
+        "id": null,
+        "name": "Power Downtown Toronto",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -39902,8 +39883,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.771,
-      "name_score": 0.521,
+      "score": 0.773,
+      "name_score": 0.523,
       "match": {
         "id": null,
         "name": "Department of National Defence Future Fighter Capability Project - Demolition of Hangars 6 and 7, and Construction of New Supporting Infrastructure",
@@ -39925,7 +39906,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.102,
+      "score": 1.101,
       "name_score": 1.0,
       "match": {
         "id": null,
@@ -39951,8 +39932,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.757,
-      "name_score": 0.557,
+      "score": 0.756,
+      "name_score": 0.556,
       "match": {
         "id": null,
         "name": "Ruddock Creek Mine",
@@ -39977,8 +39958,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.234,
-      "name_score": 0.784,
+      "score": 1.233,
+      "name_score": 0.783,
       "match": {
         "id": null,
         "name": "Creative Energy Vancouver - District Energy System for Senakw Development",
@@ -40104,8 +40085,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.234,
-      "name_score": 0.784,
+      "score": 1.233,
+      "name_score": 0.783,
       "match": {
         "id": null,
         "name": "Creative Energy Vancouver - District Energy System for Senakw Development",
@@ -40130,8 +40111,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.007,
-      "name_score": 0.557,
+      "score": 1.006,
+      "name_score": 0.556,
       "match": {
         "id": null,
         "name": "Ruddock Creek Mine",
@@ -40283,8 +40264,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.847,
-      "name_score": 0.647,
+      "score": 0.848,
+      "name_score": 0.648,
       "match": {
         "id": null,
         "name": "Coniston South Slag",
@@ -40393,6 +40374,29 @@
       }
     },
     {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Porcupine TS upgrade",
+        "proponent": "Hydro One",
+        "province": "ON",
+        "sector": "Energy",
+        "value_cad": 80000000.0,
+        "status": "Announced & Planning",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "matched",
+      "overridden": false,
+      "score": 0.881,
+      "name_score": 0.631,
+      "match": {
+        "id": null,
+        "name": "Richview TS to Trafalgar TS Conductor Upgrade",
+        "jurisdiction": "Ontario (Class EA)"
+      }
+    },
+    {
       "source": "nrcan_mpi_points",
       "ext": {
         "ext_id": null,
@@ -40433,8 +40437,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.87,
-      "name_score": 0.62,
+      "score": 0.869,
+      "name_score": 0.619,
       "match": {
         "id": null,
         "name": "Voisey’s Bay Wind Energy Project",
@@ -40517,6 +40521,29 @@
         "id": null,
         "name": "Projet minier Authier",
         "jurisdiction": "Quebec (MELCCFP)"
+      }
+    },
+    {
+      "source": "nrcan_mpi",
+      "ext": {
+        "ext_id": null,
+        "name": "Etobicoke Greenway Project",
+        "proponent": "Hydro One",
+        "province": "ON",
+        "sector": "Energy",
+        "value_cad": 73100000.0,
+        "status": "Under Construction",
+        "coords": null,
+        "url": null
+      },
+      "verdict": "matched",
+      "overridden": false,
+      "score": 1.25,
+      "name_score": 1.0,
+      "match": {
+        "id": null,
+        "name": "Etobicoke Greenway",
+        "jurisdiction": "Ontario (Class EA)"
       }
     },
     {
@@ -40609,8 +40636,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.761,
-      "name_score": 0.761,
+      "score": 0.76,
+      "name_score": 0.76,
       "match": {
         "id": null,
         "name": "Trial Islands Lightstation - Primary and Secondary Power Upgrades",
@@ -40635,8 +40662,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.84,
-      "name_score": 0.64,
+      "score": 0.839,
+      "name_score": 0.639,
       "match": {
         "id": null,
         "name": "Tilbury Phase 2 LNG Expansion",
@@ -40756,8 +40783,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.766,
-      "name_score": 0.516,
+      "score": 0.772,
+      "name_score": 0.522,
       "match": {
         "id": null,
         "name": "UBC Okanagan Geoexchange",
@@ -40909,8 +40936,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.722,
-      "name_score": 0.722,
+      "score": 0.721,
+      "name_score": 0.721,
       "match": {
         "id": null,
         "name": "Bay d’Espoir to Western Avalon TL 267 Transmission Line",
@@ -41059,7 +41086,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 1.098,
+      "score": 1.099,
       "name_score": 1.0,
       "match": {
         "id": null,
@@ -41232,7 +41259,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.758,
+      "score": 0.759,
       "name_score": 0.682,
       "match": {
         "id": null,
@@ -41388,8 +41415,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.787,
-      "name_score": 0.587,
+      "score": 0.788,
+      "name_score": 0.588,
       "match": {
         "id": null,
         "name": "Campbell River Water Supply",
@@ -41633,7 +41660,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.722,
+      "score": 0.721,
       "name_score": 0.632,
       "match": {
         "id": null,
@@ -41685,8 +41712,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.851,
-      "name_score": 0.691,
+      "score": 0.853,
+      "name_score": 0.694,
       "match": {
         "id": null,
         "name": "Peace River Nuclear Power Project",
@@ -41708,8 +41735,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.726,
-      "name_score": 0.726,
+      "score": 0.727,
+      "name_score": 0.727,
       "match": {
         "id": null,
         "name": "Cenovus Foster Creek - Maintenance in Cold Lake Alberta.",
@@ -41777,8 +41804,8 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.747,
-      "name_score": 0.747,
+      "score": 0.749,
+      "name_score": 0.749,
       "match": {
         "id": null,
         "name": "Lac Des Iles",
@@ -42227,7 +42254,7 @@
       },
       "verdict": "matched",
       "overridden": false,
-      "score": 0.762,
+      "score": 0.763,
       "name_score": 0.513,
       "match": {
         "id": null,

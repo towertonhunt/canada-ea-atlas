@@ -1,7 +1,7 @@
 {
  "source": "ero_on",
  "source_label": "Environmental Registry of Ontario (EA notices)",
- "fetched": "2026-09-04",
+ "fetched": "2026-09-05",
  "projects": [
   {
    "ext_id": "010-3799",
@@ -1366,6 +1366,17 @@
    "status": "Instrument",
    "coords": null,
    "url": "https://ero.ontario.ca/notice/026-0874"
+  },
+  {
+   "ext_id": "026-0925",
+   "name": "Canadian Arrow Mines Limited",
+   "proponent": null,
+   "province": "ON",
+   "sector": null,
+   "value_cad": null,
+   "status": "Instrument",
+   "coords": null,
+   "url": "https://ero.ontario.ca/notice/026-0925"
   }
  ]
 }
