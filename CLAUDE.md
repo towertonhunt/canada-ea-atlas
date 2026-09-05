@@ -112,6 +112,10 @@ sidebars (`docs_path` property -> `data/docs/<jur>/<id>.json`).
   (opg.com 5,135 / suncor.com 8,353 / brucepower.com 1,110), zero load on the
   proponent, recovers removed files; one big query per host + backoff (CDX
   503s under paging). bhp.com is global -> needs a Canada filter.
+  Full harvest 2026-09-05: 60 hosts, 151,701 files, 116,263 after NOISE filter,
+  9,259 EA-typed (Manitoba Hydro 2,319; BHP 1,129; Hydro One 1,035; Enbridge
+  984; NWMO 540; Suncor 431; Capital Power 402 incl. the Port Dover & Nanticoke
+  REA + 4 amendments -- REA instruments the Access Environment parser misses).
 - Lane discover-proponents.yml: weekly (Sun) + dispatch (top / refresh),
   budget 17000s, commits data/raw/proponents/. Discovery only -- results are
   reviewed per site before archive_docs.py / the map pick them up (next step:
