@@ -76,6 +76,28 @@ def apex(host):
     return host[4:] if host.startswith('www.') else host
 
 
+def cdx_by_year(host, mime, first=1996, last=2026):
+    """Big hosts (bchydro.com) make the CDX server time out on a single
+    query; the same index split into one request per year comes back."""
+    rows = []
+    for y in range(first, last + 1):
+        q = urllib.parse.urlencode({
+            'url': f'{host}/*', 'filter': f'mimetype:{mime}', 'collapse': 'urlkey',
+            'fl': 'original,timestamp,length,statuscode', 'output': 'json',
+            'from': str(y), 'to': str(y), 'limit': 60000})
+        req = urllib.request.Request(f'{CDX}?{q}', headers=UA)
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(req, timeout=300) as r:
+                    part = json.load(r)
+                rows += part[1:] if part else []
+                break
+            except Exception:                                    # noqa: BLE001
+                time.sleep(15 * (attempt + 1))
+        time.sleep(2.0)
+    return rows
+
+
 def harvest(host):
     docs, seen = [], set()
     host = apex(host)
@@ -83,8 +105,9 @@ def harvest(host):
         try:
             rows = cdx(host, mime)
         except Exception as e:                                   # noqa: BLE001
-            print(f'  cdx {mime.split("/")[-1]}: {str(e)[:60]}', flush=True)
-            rows = []
+            print(f'  cdx {mime.split("/")[-1]}: {str(e)[:60]} -> retrying year by year',
+                  flush=True)
+            rows = cdx_by_year(host, mime) if mime == 'application/pdf' else []
         if True:
             for original, ts, length, status in rows:
                 if status not in ('200', '-') or original in seen:
