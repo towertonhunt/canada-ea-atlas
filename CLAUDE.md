@@ -116,10 +116,24 @@ sidebars (`docs_path` property -> `data/docs/<jur>/<id>.json`).
   9,259 EA-typed (Manitoba Hydro 2,319; BHP 1,129; Hydro One 1,035; Enbridge
   984; NWMO 540; Suncor 431; Capital Power 402 incl. the Port Dover & Nanticoke
   REA + 4 amendments -- REA instruments the Access Environment parser misses).
+- PROMOTION (2026-09-05, user: "proceed in parallel, spreadsheet to review"):
+  `scripts/promote_proponent_docs.py` -> data/raw/proponent_docs_index.json
+  (feature `source|name` -> docs; merged into that project's catalogue at the
+  end of build_national_geojson, creating data/docs/proponent/<source>-<slug>
+  .json when the project had none) + data/raw/proponent_libraries.json +
+  data/docs/proponent/library-<key>.json (one "EA document library" feature
+  per proponent: source `proponent_site`, jurisdiction 'Proponent website',
+  no geometry). Rules: EA-typed or EA_SIGNAL in title/url; drop NOISE, media,
+  non-Canada files on GLOBAL_HOSTS (bhp/equinor/sasol...); dedupe vs every
+  catalogue; project match = distinctive name tokens (freq<=2 in that
+  proponent's portfolio) as whole words in TITLE+FILENAME only (directory
+  names gave ILM 1,209 false matches). 175,793 discovered -> 13,830 promoted
+  (693 matched / 75 projects; 13,137 in 56 libraries). Docs carry
+  `fallback_url` (Wayback capture); archive_docs.py uses it when the original
+  fails and marks fetched_from=wayback. `--report x.xlsx` = review workbook.
 - Lane discover-proponents.yml: weekly (Sun) + dispatch (top / refresh),
-  budget 17000s, commits data/raw/proponents/. Discovery only -- results are
-  reviewed per site before archive_docs.py / the map pick them up (next step:
-  a source adapter that turns an accepted sites/<key>.json into catalogues).
+  budget 16000s, --browser: crawl -> Wayback harvest (90 min cap) -> promote ->
+  rebuild -> commit (reset-to-main, no rebase).
 
 ## Data inventory (as of 2026-07-05)
 - Map: 18,401 features. Federal 6,576 (complete registry incl. federal-lands
