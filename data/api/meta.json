@@ -1,7 +1,7 @@
 {
- "total": 19031,
+ "total": 19019,
  "depth": {
-  "1": 12190,
+  "1": 12178,
   "2": 6685,
   "3": 156
  },
@@ -194,15 +194,15 @@
   "solar": 168,
   "wind": 252,
   "biogas": 23,
-  "energy_other": 624,
-  "mining": 6957,
+  "energy_other": 616,
+  "mining": 6955,
   "industrial": 1024,
   "tourism": 58,
   "oil_gas": 732,
-  "other": 4639,
+  "other": 4638,
   "transport": 2107,
   "waste": 265,
-  "water": 1686,
+  "water": 1685,
   "hydro": 255,
   "nuclear": 45,
   "agriculture": 196
