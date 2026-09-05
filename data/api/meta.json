@@ -1,8 +1,8 @@
 {
- "total": 18914,
+ "total": 18975,
  "depth": {
-  "1": 12218,
-  "2": 6540,
+  "1": 12219,
+  "2": 6600,
   "3": 156
  },
  "deep_tier_ids": [
@@ -194,15 +194,15 @@
   "solar": 168,
   "wind": 252,
   "biogas": 23,
-  "energy_other": 625,
-  "mining": 6952,
+  "energy_other": 624,
+  "mining": 6957,
   "industrial": 1024,
   "tourism": 58,
   "oil_gas": 732,
-  "other": 4527,
+  "other": 4583,
   "transport": 2107,
   "waste": 265,
-  "water": 1685,
+  "water": 1686,
   "hydro": 255,
   "nuclear": 45,
   "agriculture": 196
@@ -215,6 +215,7 @@
   "Newfoundland & Labrador (ECC)",
   "Nova Scotia (NSECC)",
   "Ontario (Abandoned Mines)",
+  "Ontario (Class EA)",
   "Ontario (Provincial EA)",
   "Ontario (REA)",
   "Quebec (MELCCFP)"
