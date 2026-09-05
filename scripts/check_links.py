@@ -50,7 +50,8 @@ READ_BYTES = 120_000
 # in flight against one hostname, spaced at least this far apart.
 PER_HOST = 2
 HOST_INTERVAL = 0.6
-SLOW_HOSTS = {'iaac-aeic.gc.ca': 1.2}   # throttles by answering 404
+SLOW_HOSTS = {'iaac-aeic.gc.ca': 1.2,          # throttles by answering 404
+              'projects.eao.gov.bc.ca': 0.8}   # refused 341 connections in one run
 
 # A control URL per host that is known to exist. If the canary fails, the host
 # is refusing us (IAAC blocks by answering 404 for *everything*, including its
